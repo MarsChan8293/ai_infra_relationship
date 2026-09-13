@@ -13,4 +13,4 @@
 Project Lead，负责 benchmark、Llama models 与推理系统协作。
 
 ## 关系
-[[Lu Fang]] · [[Roger Wang]] · [[李卓翰]]
+[[Lu Fang]] · [[Roger Wang]] · [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]

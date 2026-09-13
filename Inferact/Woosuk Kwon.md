@@ -25,8 +25,8 @@ vLLM 创始人、PagedAttention 与早期 engine core 的主要设计者之一�
 - PagedAttention、engine core、speculative decoding、attention 等核心方向
 
 ## 关联人物
-- [[Zhuohan Li]]：vLLM 共同创始与 Berkeley 合作者
+- [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：vLLM 共同创始与 Berkeley 合作者
 - [[Simon Mo]]：vLLM Lead Maintainer、Inferact 联合创始人
-- [[Kaichao You]]：vLLM Lead Maintainer、Inferact 联合创始人
+- [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：vLLM Lead Maintainer、Inferact 联合创始人
 - [[Nick Hill]]：Inferact 与 vLLM 核心维护
 - [[Roger Wang]]：Inferact 与 vLLM 核心维护

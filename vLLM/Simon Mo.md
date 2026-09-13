@@ -15,4 +15,4 @@
 vLLM Lead Maintainer，负责 API entrypoints、batch serving、benchmark、observability 与社区治理。
 
 ## 关系
-[[Woosuk Kwon]] · [[李卓翰]] · [[游凯超]]
+[[Woosuk Kwon]] · [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]] · [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]

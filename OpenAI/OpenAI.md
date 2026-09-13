@@ -12,14 +12,14 @@ focus: frontier-models
 - [[Randall Lin]]：GPT-4o post-training infrastructure co-lead
 - [[Youlong Cheng]]：GPT-4o post-training infrastructure co-lead
 - [[Luke Metz]]：GPT-4 RL infrastructure lead、GPT-4o post-training lead
-- [[vLLM/李卓翰|李卓翰（Zhuohan Li）]]：OpenAI 前 MTS、o1 contributor，后转 [[Meta]]，同时是 [[vLLM]] 联合创建者
+- [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：OpenAI 前 MTS、o1 contributor，后转 [[Meta]]，同时是 [[vLLM]] 联合创建者
 
 ## 模型项目
 [[GPT-4]] · [[GPT-4o]] · [[o1]] · [[GPT-4.5]]
 
 ## Infra / 人才桥
-- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/游凯超|游凯超]]：Tianshou 早期开源协作关系
-- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/李卓翰|李卓翰]]：共同出现在 OpenAI o1 contributor 名单
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：Tianshou 早期开源协作关系
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：共同出现在 OpenAI o1 contributor 名单
 - [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Randall Lin]] ↔ [[Youlong Cheng]]：GPT-4o post-training infrastructure leads
 - [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Luke Metz]]：GPT-4 RL infra 与 GPT-4o post-training 协作链
 

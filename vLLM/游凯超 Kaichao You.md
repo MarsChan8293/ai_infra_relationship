@@ -1,3 +1,12 @@
+---
+type: person
+name: 游凯超
+english_name: Kaichao You
+aliases: [Kaichao You, 游凯超]
+company: Inferact
+communities: [vLLM]
+roles: [Cofounder, Chief Scientist, Lead Maintainer]
+---
 # 游凯超（Kaichao You）
 
 社区：[[vLLM]]
@@ -17,4 +26,4 @@
 Lead Maintainer，负责 distributed、parallelism、torch.compile、RL integration 与硬件插件接口。
 
 ## 关系
-[[Woosuk Kwon]] · [[Simon Mo]] · [[李卓翰]]
+[[Woosuk Kwon]] · [[Simon Mo]] · [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]

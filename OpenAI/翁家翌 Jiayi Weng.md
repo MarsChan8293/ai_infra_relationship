@@ -30,8 +30,8 @@ areas: [reinforcement-learning, post-training, rl-infrastructure]
 - EnvPool：核心基础设施作者之一，高吞吐 RL environment execution engine
 
 ## 关键关系
-- [[vLLM/游凯超|游凯超]]：Tianshou 早期贡献者之一。两人的路线后来分别通向 OpenAI RL infra 与 vLLM / Inferact，是“清华 RL 系统 → 大模型 infra”的重要分叉
-- [[vLLM/李卓翰|李卓翰]]：共同出现在 [[o1]] contributor 名单；李卓翰后来回到 [[Meta]] 并持续维护 [[vLLM]]
+- [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：Tianshou 早期贡献者之一。两人的路线后来分别通向 OpenAI RL infra 与 vLLM / Inferact，是“清华 RL 系统 → 大模型 infra”的重要分叉
+- [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：共同出现在 [[o1]] contributor 名单；李卓翰后来回到 [[Meta]] 并持续维护 [[vLLM]]
 - [[Luke Metz]]：GPT-4 中担任 infrastructure lead；GPT-4o 中担任 post-training lead
 - [[Randall Lin]]、[[Youlong Cheng]]：GPT-4o post-training infrastructure 同组负责人
 

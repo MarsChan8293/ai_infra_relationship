@@ -14,4 +14,4 @@
 Project Lead，负责 engine core 与 Llama model implementations。
 
 ## 关系
-[[Ye Charlotte Qi]] · [[李卓翰]] · [[Woosuk Kwon]]
+[[Ye Charlotte Qi]] · [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]] · [[Woosuk Kwon]]

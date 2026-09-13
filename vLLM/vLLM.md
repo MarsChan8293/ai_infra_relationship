@@ -4,9 +4,9 @@ Obsidian 社区入口。人物简历统一放在本目录，并通过 `[[公司]
 
 ## 核心人物
 - [[Woosuk Kwon]]
-- [[Zhuohan Li]]
+- [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]
 - [[Simon Mo]]
-- [[Kaichao You]]
+- [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]
 - [[Robert Shaw]]
 - [[Tyler Michael Smith]]
 - [[Michael Goin]]

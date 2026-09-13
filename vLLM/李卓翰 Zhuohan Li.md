@@ -1,3 +1,12 @@
+---
+type: person
+name: 李卓翰
+english_name: Zhuohan Li
+aliases: [Zhuohan Li, 李卓翰]
+company: Meta
+communities: [vLLM]
+roles: [Co-creator, Lead Maintainer]
+---
 # 李卓翰（Zhuohan Li）
 
 社区：[[vLLM]]
@@ -18,4 +27,4 @@
 vLLM 共同创始人、Lead Maintainer，负责模型接口、RL integration 与 numerics。
 
 ## 关系
-[[Woosuk Kwon]] · [[Simon Mo]] · [[游凯超]]
+[[Woosuk Kwon]] · [[Simon Mo]] · [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]

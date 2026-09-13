@@ -8,4 +8,4 @@ name: Anyscale
 [[Ray-Serve]] · Ray · [[vLLM]]
 
 ## 关键人才关系
-[[vLLM/Simon Mo|Simon Mo]] · [[vLLM/Zhuohan Li|Zhuohan Li]]
+[[vLLM/Simon Mo|Simon Mo]] · [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]
