@@ -1,6 +1,6 @@
 # vLLM
 
-Obsidian 社区入口。人物简历统一放在本目录，并通过 `[[公司]]`、`[[学校]]`、`[[相关人物]]` 与其他节点关联。
+Obsidian 社区入口。跨社区人物尽量只保留一个 canonical 人物页，并通过双链关联到本社区。
 
 ## 核心人物
 - [[Woosuk Kwon]]
@@ -14,10 +14,10 @@ Obsidian 社区入口。人物简历统一放在本目录，并通过 `[[公司]
 - [[Roger Wang]]
 - [[Lu Fang]]
 - [[Ye Charlotte Qi]]
-- [[Yihua Cheng]]
+- [[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]
 - [[Cyrus Leung]]
 - [[Harry Mellor]]
-- [[Kuntai Du]]
+- [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]
 - [[Lucas Wilkinson]]
 - [[Wentao Ye]]
 - [[Matthew Bonanni]]
