@@ -14,7 +14,7 @@ confidence: project-credit
 - GPT-4V：Deployment, alignment & post-training research contributor
 
 ## 关系
-- [[翁家翌]]、[[Youlong Cheng]]：GPT-4o post-training infrastructure leads
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]、[[Youlong Cheng]]：GPT-4o post-training infrastructure leads
 - [[Luke Metz]]：GPT-4o post-training lead
 
 ## Sources

@@ -14,7 +14,7 @@ confidence: project-credit
 - [[o1]]：Contributor
 
 ## 关系
-- [[翁家翌]]：GPT-4 中分别承担 RL infrastructure lead / RL infrastructure author；GPT-4o 中处于同一 post-training 技术链
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：GPT-4 中分别承担 RL infrastructure lead / RL infrastructure author；GPT-4o 中处于同一 post-training 技术链
 - [[Randall Lin]]、[[Youlong Cheng]]：GPT-4o post-training infrastructure leads
 
 ## Sources

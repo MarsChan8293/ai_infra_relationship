@@ -13,7 +13,7 @@ confidence: project-credit
 - [[GPT-4o]]：Post-training infrastructure lead
 
 ## 关系
-- [[翁家翌]]、[[Randall Lin]]：GPT-4o post-training infrastructure leads
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]、[[Randall Lin]]：GPT-4o post-training infrastructure leads
 - [[Luke Metz]]：GPT-4o post-training lead
 
 ## Sources

@@ -2,6 +2,7 @@
 type: person
 name: 翁家翌
 english_name: Jiayi Weng
+aliases: [Jiayi Weng, 翁家翌]
 company: OpenAI
 areas: [reinforcement-learning, post-training, rl-infrastructure]
 ---

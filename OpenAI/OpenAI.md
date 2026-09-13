@@ -8,7 +8,7 @@ focus: frontier-models
 本目录按**公开项目贡献名单**建模，而不是推测内部组织架构。对仍在职人员，只有公开个人页或 OpenAI 官方资料能确认时才标注“当前”。
 
 ## 重点人物
-- [[翁家翌]]：RL / post-training infrastructure；GPT-4、GPT-4o、o1、GPT-4.5
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：RL / post-training infrastructure；GPT-4、GPT-4o、o1、GPT-4.5
 - [[Randall Lin]]：GPT-4o post-training infrastructure co-lead
 - [[Youlong Cheng]]：GPT-4o post-training infrastructure co-lead
 - [[Luke Metz]]：GPT-4 RL infrastructure lead、GPT-4o post-training lead
@@ -18,10 +18,10 @@ focus: frontier-models
 [[GPT-4]] · [[GPT-4o]] · [[o1]] · [[GPT-4.5]]
 
 ## Infra / 人才桥
-- [[翁家翌]] ↔ [[vLLM/游凯超|游凯超]]：Tianshou 早期开源协作关系
-- [[翁家翌]] ↔ [[vLLM/李卓翰|李卓翰]]：共同出现在 OpenAI o1 contributor 名单
-- [[翁家翌]] ↔ [[Randall Lin]] ↔ [[Youlong Cheng]]：GPT-4o post-training infrastructure leads
-- [[翁家翌]] ↔ [[Luke Metz]]：GPT-4 RL infra 与 GPT-4o post-training 协作链
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/游凯超|游凯超]]：Tianshou 早期开源协作关系
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[vLLM/李卓翰|李卓翰]]：共同出现在 OpenAI o1 contributor 名单
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Randall Lin]] ↔ [[Youlong Cheng]]：GPT-4o post-training infrastructure leads
+- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Luke Metz]]：GPT-4 RL infra 与 GPT-4o post-training 协作链
 
 ## Sources
 - https://openai.com/contributions/gpt-4/
