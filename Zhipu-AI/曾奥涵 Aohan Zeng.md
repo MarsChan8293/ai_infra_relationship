@@ -2,6 +2,7 @@
 type: person
 name: 曾奥涵
 english_name: Aohan Zeng
+aliases: [曾奥涵, Aohan Zeng]
 company: Zhipu AI
 areas: [pretraining, model-architecture, multimodal]
 ---
@@ -16,9 +17,9 @@ areas: [pretraining, model-architecture, multimodal]
 - [[GLM-4-Voice]]：第一作者
 
 ## 关系
-- [[唐杰]]：GLM / 清华 KEG 技术谱系
-- [[杜政晓]]：GLM-130B model implementation / architecture 合作者，GLM-4-Voice 合作者
-- [[郑勤锴]]：GLM-130B / CodeGeeX / GLM-4.5 同一技术网络
+- [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]：GLM / 清华 KEG 技术谱系
+- [[Zhipu-AI/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：GLM-130B model implementation / architecture 合作者，GLM-4-Voice 合作者
+- [[Zhipu-AI/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：GLM-130B / CodeGeeX / GLM-4.5 同一技术网络
 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/

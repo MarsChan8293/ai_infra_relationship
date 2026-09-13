@@ -2,6 +2,7 @@
 type: person
 name: 唐杰
 english_name: Jie Tang
+aliases: [唐杰, Jie Tang]
 affiliation: [Tsinghua University, Zhipu AI]
 areas: [foundation-models, knowledge-graphs, data-mining]
 ---
@@ -20,9 +21,9 @@ areas: [foundation-models, knowledge-graphs, data-mining]
 - [[GLM-4.5]]：作者网络末端的核心学术负责人之一
 
 ## 关键人物关系
-- [[杜政晓]]：博士导师；后者 co-leading GLM base model group
-- [[Moonshot-AI/杨植麟|杨植麟]]：本科科研阶段的导师 / 学生关系；杨植麟也是原始 GLM 论文共同作者之一，后创办 Moonshot AI
-- [[曾奥涵]]、[[郑勤锴]]：清华 KEG / GLM-130B / CodeGeeX 网络中的核心后辈
+- [[Zhipu-AI/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：博士导师；后者 co-leading GLM base model group
+- [[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：本科科研阶段的导师 / 学生关系；杨植麟也是原始 GLM 论文共同作者之一，后创办 Moonshot AI
+- [[Zhipu-AI/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]、[[Zhipu-AI/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：清华 KEG / GLM-130B / CodeGeeX 网络中的核心后辈
 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/jietang/

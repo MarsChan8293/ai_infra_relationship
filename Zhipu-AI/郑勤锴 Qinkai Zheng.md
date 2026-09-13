@@ -2,6 +2,7 @@
 type: person
 name: 郑勤锴
 english_name: Qinkai Zheng
+aliases: [郑勤锴, Qinkai Zheng]
 company: Zhipu AI
 areas: [code-models, coding-agents]
 ---
@@ -18,9 +19,9 @@ Zhipu AI Research Engineer、CodeGeeX Team Technical Lead，方向是大规模�
 - [[GLM-4.5]]：作者
 
 ## 关系
-- [[唐杰]]：CodeGeeX project leader / GLM 学术谱系
-- [[曾奥涵]]：CodeGeeX / GLM-130B / GLM-4.5 合作网络
-- [[Moonshot-AI/杨植麟|杨植麟]]：CodeGeeX advisor 网络之一，形成早期 GLM / Kimi 人才交叉
+- [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]：CodeGeeX project leader / GLM 学术谱系
+- [[Zhipu-AI/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]：CodeGeeX / GLM-130B / GLM-4.5 合作网络
+- [[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：CodeGeeX advisor 网络之一，形成早期 GLM / Kimi 人才交叉
 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/codegeex/

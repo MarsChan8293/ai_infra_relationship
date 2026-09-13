@@ -2,6 +2,7 @@
 type: person
 name: 杜政晓
 english_name: Zhengxiao Du
+aliases: [杜政晓, Zhengxiao Du]
 company: Zhipu AI
 areas: [pretraining, foundation-models]
 ---
@@ -11,7 +12,7 @@ areas: [pretraining, foundation-models]
 
 ## 教育经历
 - [[Tsinghua University]]：计算机本科，2016–2020
-- [[Tsinghua University]]：计算机博士，2025；导师 [[唐杰]]
+- [[Tsinghua University]]：计算机博士，2025；导师 [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]
 
 ## 工作 / 研究经历
 - Tsinghua KEG：Research Assistant
@@ -27,7 +28,7 @@ areas: [pretraining, foundation-models]
 - [[GLM-4.5]]
 
 ## 关系
-[[唐杰]] · [[曾奥涵]] · [[Moonshot-AI/杨植麟|杨植麟]]
+[[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]] · [[Zhipu-AI/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]] · [[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]
 
 ## Source
 https://zxdu.xyz/
