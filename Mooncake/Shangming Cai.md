@@ -14,4 +14,4 @@
 - [[SGLang]]：PD disaggregation / CI 相关核心贡献者
 
 ## 关系
-[[Teng Ma]] · [[Feng Ren]] · [[Ke Yang]]
+[[Mooncake/马腾 Teng Ma|马腾（Teng Ma）]] · [[Mooncake/任峰 Feng Ren|任峰（Feng Ren）]] · [[Mooncake/Ke Yang|Ke Yang]]
