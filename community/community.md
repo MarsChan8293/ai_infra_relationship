@@ -1,4 +1,4 @@
-# 社区与项目
+# community
 
 AI 推理引擎、GPU kernel、KV Cache、数据传输、Kubernetes serving、异构计算等开源社区与技术项目的一级分类入口。
 
