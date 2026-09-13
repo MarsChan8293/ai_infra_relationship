@@ -13,6 +13,9 @@ layer: kubernetes-distributed-inference
 - [[llm-d/Carlos Costa|Carlos Costa]] — [[IBM]]
 - [[vLLM/Robert Shaw|Robert Shaw]] — [[Red Hat]]
 
+## 生态与推广
+- [[llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]] — [[Red Hat]]；主要参与 llm-d 的社区孵化、推广、技术布道与中国/APAC 生态连接
+
 ## 连接
 - [[vLLM]]
 - [[SGLang]]
