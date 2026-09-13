@@ -1,6 +1,8 @@
 ---
 type: person
 name: 梁文锋
+english_name: Liang Wenfeng
+aliases: [Liang Wenfeng, 梁文锋]
 company: DeepSeek
 roles: [founder, CEO]
 ---
@@ -17,9 +19,9 @@ roles: [founder, CEO]
 - [[DeepSeek]]：2023 创立，转向基础模型研究
 
 ## 技术与组织关系
-- [[DeepSeek-V3]] / [[DeepSeek-R1]]：作者名单中的 Wenfeng Liang / Wenfeng Liang
+- [[DeepSeek-V3]] / [[DeepSeek-R1]]：作者网络
 - High-Flyer 的计算基础设施与研究文化是 DeepSeek 的重要组织前史
-- 与 [[陈德里]]、[[郭达雅]]、[[邵智宏]] 等形成“创始人 + 小型高密度研究团队”结构
+- 与 [[DeepSeek/陈德里 Deli Chen|陈德里（Deli Chen）]]、[[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]、[[DeepSeek/邵智宏 Zhihong Shao|邵智宏（Zhihong Shao）]] 等形成“创始人 + 小型高密度研究团队”结构
 
 ## Sources
 - https://www.forbes.com/profile/liang-wenfeng/

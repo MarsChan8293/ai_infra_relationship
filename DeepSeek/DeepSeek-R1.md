@@ -9,10 +9,10 @@ areas: [reasoning, reinforcement-learning]
 以 reinforcement learning 强化 reasoning 能力的 DeepSeek 模型线。
 
 ## 图谱中的核心人物
-- [[郭达雅]]：第一批署名作者之一
-- [[邵智宏]]：GRPO / DeepSeekMath / reasoning 技术链
-- [[陈德里]]：R1 核心贡献者
-- [[梁文锋]]：DeepSeek 创始人与作者网络
+- [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：第一批署名作者之一
+- [[DeepSeek/邵智宏 Zhihong Shao|邵智宏（Zhihong Shao）]]：GRPO / DeepSeekMath / reasoning 技术链
+- [[DeepSeek/陈德里 Deli Chen|陈德里（Deli Chen）]]：R1 核心贡献者
+- [[DeepSeek/梁文锋 Liang Wenfeng|梁文锋（Liang Wenfeng）]]：DeepSeek 创始人与作者网络
 
 ## 对照关系
 - [[OpenAI/o1|OpenAI o1]]：同属 reasoning 模型路线，但组织与开源策略不同

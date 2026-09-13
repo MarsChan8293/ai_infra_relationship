@@ -2,6 +2,7 @@
 type: person
 name: 邵智宏
 english_name: Zhihong Shao
+aliases: [Zhihong Shao, 邵智宏]
 company: DeepSeek
 areas: [reasoning, reinforcement-learning, tool-use]
 ---
@@ -20,8 +21,8 @@ areas: [reasoning, reinforcement-learning, tool-use]
 - DeepSeek-Prover / tool use
 
 ## 关系
-- [[郭达雅]]：共同位于 R1 reasoning / RL 作者网络
-- [[陈德里]]：V3/R1 跨阶段核心研究同事
+- [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：共同位于 R1 reasoning / RL 作者网络
+- [[DeepSeek/陈德里 Deli Chen|陈德里（Deli Chen）]]：V3/R1 跨阶段核心研究同事
 
 ## Sources
 - https://zhihongshao.github.io/

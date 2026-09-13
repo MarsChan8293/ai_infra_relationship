@@ -22,7 +22,7 @@ Qwen 是 [[Alibaba Cloud]] / Alibaba Tongyi Lab 的基础模型技术谱系。�
 [[Qwen3]] · [[Qwen-Coder]]
 
 ## 跨公司关系
-- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]] ↔ [[DeepSeek/郭达雅|郭达雅]]：EMNLP 2023 论文合著，形成 Qwen ↔ DeepSeek 的早期研究网络
+- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]] ↔ [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：EMNLP 2023 论文合著，形成 Qwen ↔ DeepSeek 的早期研究网络
 - [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] → [[Qwen/万宇 Yu Wan|万宇（Yu Wan）]]：万宇在 DAMO 实习时 mentor 为杨宝松
 - [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]] / [[Qwen/郁博文 Bowen Yu|郁博文（Bowen Yu）]] / [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]：2026 年初先后离开，属于重要的 Qwen alumni cluster
 

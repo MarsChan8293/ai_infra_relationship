@@ -2,6 +2,7 @@
 type: person
 name: 郭达雅
 english_name: Daya Guo
+aliases: [Daya Guo, 郭达雅]
 company_history: [DeepSeek, Microsoft Research Asia]
 areas: [code-intelligence, reasoning, llm]
 ---
