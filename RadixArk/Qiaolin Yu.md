@@ -4,16 +4,24 @@
 社区：[[SGLang]]
 
 ## 教育经历
-- [[Xi'an Jiaotong-Liverpool University]]：计算机本科
-- [[Cornell Tech]]：计算机与信息系统硕士
+- [[Xi'an Jiaotong-Liverpool University]]：计算机本科，2019–2023
+- [[Cornell Tech]]：计算机与信息系统硕士，2023–2025
 
 ## 工作经历
-- 曾在快手、字节跳动、微软、PingCAP、Databricks 实习
-- [[Anyscale]]：Ray Core 工程
-- [[RadixArk]]：创始团队 MTS
+- 快手、字节跳动、Microsoft、PingCAP：2021–2023 多段工程实习
+- Databricks：2024 实习
+- [[Anyscale]]：Ray Core Software Engineer，2025-06–2025-12
+- [[RadixArk]]：founding team MTS，2025-12–至今
 
 ## 社区贡献
-- SGLang speculative decoding、模型优化与 GPU 性能
+- [[SGLang]] speculative decoding、模型优化与 GPU 性能
+- 当前官方 maintainer 体系中负责 speculative decoding 及 NVIDIA/model-specific optimization 相关方向
 
-## 关系
-[[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]] · [[Baizhou Zhang]] · [[Cheng Wan]]
+## 人物关系
+- [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：**RadixArk 同事 + SGLang 生态协作者**。Qiaolin 2025-12 加入 RadixArk founding team 后与盛颖共事至今；盛颖负责公司/社区整体方向，Qiaolin 负责 speculative decoding、模型与 GPU 优化。
+- [[RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：**RadixArk 同事**。2025-12–至今同属 RadixArk founding/technical team；朱邦华任 CTO，Qiaolin 任 MTS。两人在 inference systems 与 GPU optimization 方向存在直接组织协作。
+- [[RadixArk/Baizhou Zhang|Baizhou Zhang]]：**RadixArk 同事 + SGLang NVIDIA optimization 协作者**。截至 2026-09 同属 RadixArk，并共同覆盖 SGLang 的 NVIDIA/model-specific optimization；Baizhou 同时负责 CI/release/package。Baizhou 加入公司的精确月份公开未确认。
+- [[RadixArk/Cheng Wan|Cheng Wan]]：**RadixArk 同事 + SGLang systems 协作者**。截至 2026-09 同属 RadixArk；Qiaolin 侧重 speculative decoding / model optimization，Cheng Wan 侧重 parallelism、EPLB、DP Attention 与 distributed communication。
+
+## Source
+- https://qiaolin-yu.github.io/
