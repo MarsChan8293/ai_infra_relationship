@@ -35,6 +35,28 @@
 - 只能确认同一开源社区时，用“社区协作 / 共同维护”，不要写“同事”。
 - 关系时间、职位或直接合作证据不足时，在关系后注明“具体起始时间公开未确认”。
 
+## 公司节点硬规则
+每个公司 / 组织节点必须有可独立阅读的简介，不能只放人物或项目双链。至少包含：
+- **公司简介**：公司定位、主要业务 / 技术方向，以及与 AI Infra / foundation model 的关系。
+- **图谱中的连接**：该公司与哪些开源项目、模型团队或社区有直接关系。
+- 若公开资料足够，可补成立时间、总部 / 主要研发地点、关键产品，但不为了完整度猜测未确认信息。
+
+## 开源项目节点硬规则
+每个开源项目节点必须有可独立阅读的项目介绍，不能只写“连接”。至少包含：
+- **项目简介**：解决什么问题、位于 AI Infra 哪一层、核心技术特征。
+- **GitHub 仓库**：必须给出官方 GitHub repository 地址；如果项目没有独立仓库而是 monorepo 子目录，要写清楚 monorepo 地址和子路径。
+- **主要维护者 / 组织**：优先使用官方 governance、CODEOWNERS、MAINTAINERS 或公开 author credits。
+- **生态关系**：说明与 vLLM / SGLang / Kubernetes / CUDA / ROCm / Ascend / KV cache 等上下游的具体连接，不把“兼容”自动推断成人物直接合作。
+
+推荐格式：
+
+`## 项目简介`  
+`...`  
+`## GitHub`  
+`https://github.com/owner/repo`  
+`## 主要维护者 / 组织`  
+`...`
+
 ## Frontier Model Labs
 [[OpenAI]] · [[DeepSeek]] · [[Zhipu-AI]] · [[Qwen]] · [[Moonshot-AI]]
 
