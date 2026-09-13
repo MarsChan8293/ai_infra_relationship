@@ -2,6 +2,7 @@
 type: person
 name: 林俊旸
 english_name: Junyang Lin
+aliases: [Junyang Lin, 林俊旸]
 company_history: [Alibaba, Qwen]
 roles: [former-Qwen-lead]
 ---
@@ -21,7 +22,7 @@ roles: [former-Qwen-lead]
 - 更早期：OFA、Chinese-CLIP
 
 ## 关系
-[[Qwen/刘大一恒|刘大一恒]] · [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] · [[Qwen/万宇|万宇]] · [[Qwen/郁博文|郁博文]] · [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]
+[[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]] · [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] · [[Qwen/万宇 Yu Wan|万宇（Yu Wan）]] · [[Qwen/郁博文 Bowen Yu|郁博文（Bowen Yu）]] · [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]
 
 ## Sources
 - https://cse.hkust.edu.hk/pg/seminars/F23/lin.html

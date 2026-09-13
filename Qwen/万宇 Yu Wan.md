@@ -2,6 +2,7 @@
 type: person
 name: 万宇
 english_name: Yu Wan
+aliases: [Yu Wan, 万宇]
 company: Alibaba
 areas: [multilingualism, interpretability, machine-translation]
 ---
@@ -21,7 +22,7 @@ areas: [multilingualism, interpretability, machine-translation]
 Qwen1.5 / Qwen2 / Qwen2.5 / [[Qwen3]] / Qwen-MT / Qwen-Scope
 
 ## 关系
-[[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] · [[Qwen/刘大一恒|刘大一恒]] · [[Qwen/林俊旸|林俊旸]]
+[[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] · [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]] · [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]]
 
 ## Source
 https://wanyu2018umac.github.io/

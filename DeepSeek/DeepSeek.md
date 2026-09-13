@@ -22,7 +22,7 @@ focus: frontier-models
 [[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[Mooncake]]
 
 ## 值得观察的跨公司关系
-- [[郭达雅]] ↔ [[Qwen/刘大一恒|刘大一恒]]：加入各自模型团队前已有 NLP 论文合著关系
+- [[郭达雅]] ↔ [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]]：加入各自模型团队前已有 NLP 论文合著关系
 - [[DeepSeek-R1]] ↔ [[OpenAI/o1|OpenAI o1]]：同属 reasoning / RL 路线，但组织与工程路径不同
 - [[FlashMLA]] / [[DeepEP]]：DeepSeek 模型创新直接下沉为可复用的 kernel / communication 项目
 

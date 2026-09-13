@@ -2,6 +2,7 @@
 type: person
 name: 刘大一恒
 english_name: Dayiheng Liu
+aliases: [Dayiheng Liu, 刘大一恒]
 company: Alibaba
 areas: [llm, nlp, text-generation]
 ---
@@ -21,7 +22,7 @@ Alibaba DAMO / Qwen 核心贡献者，方向覆盖大语言模型、文本生成
 
 ## 关键关系
 - [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]]：长期 NLP / 多语言研究合作者
-- [[Qwen/万宇|万宇]]：多篇机器翻译 / multilingual 论文合作者
+- [[Qwen/万宇 Yu Wan|万宇（Yu Wan）]]：多篇机器翻译 / multilingual 论文合作者
 - [[DeepSeek/郭达雅|郭达雅]]：EMNLP 2023 `Noisy Pair Corrector for Dense Retrieval` 合著者；后来分别进入 Qwen 与 DeepSeek 核心网络
 
 ## Source

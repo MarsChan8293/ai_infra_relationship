@@ -17,9 +17,9 @@ Qwen coding / agent 方向关键研究者，OpenDevin initiator。2026 年初公
 - Qwen / Qwen2 / [[Qwen3]]
 
 ## 关系
-- [[Qwen/林俊旸|林俊旸]]：前 Qwen leader
-- [[Qwen/郁博文|郁博文]]：前 Qwen post-training lead
-- [[Qwen/刘大一恒|刘大一恒]]、[[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]]：Qwen 技术报告作者网络
+- [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]]：前 Qwen leader
+- [[Qwen/郁博文 Bowen Yu|郁博文（Bowen Yu）]]：前 Qwen post-training lead
+- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]]、[[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]]：Qwen 技术报告作者网络
 
 ## Sources
 - https://huybery.github.io/

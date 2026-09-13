@@ -2,6 +2,7 @@
 type: person
 name: 郁博文
 english_name: Bowen Yu
+aliases: [Bowen Yu, 郁博文]
 company_history: [Alibaba, Qwen]
 areas: [post-training, alignment]
 ---
@@ -18,9 +19,9 @@ areas: [post-training, alignment]
 - Qwen2 / Qwen2.5 / [[Qwen3]] 作者网络
 
 ## 关系
-- [[Qwen/林俊旸|林俊旸]]：前 Qwen leader
+- [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]]：前 Qwen leader
 - [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]：同为 2026 年离开的关键 Qwen 研究者
-- [[Qwen/刘大一恒|刘大一恒]]：Qwen 技术报告长期合作者
+- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]]：Qwen 技术报告长期合作者
 
 ## Sources
 - https://yubowen-ph.github.io/
