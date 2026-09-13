@@ -1,11 +1,13 @@
 ---
 type: person
-name: Weiyu Xie
+name: 谢威宇
+english_name: Weiyu Xie
+aliases: [Weiyu Xie, 谢威宇]
 affiliation: MADSys Lab, Tsinghua University
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---
-# Weiyu Xie
+# 谢威宇（Weiyu Xie）
 
 ## 当前关系
 - [[Tsinghua University]] / MADSys Lab

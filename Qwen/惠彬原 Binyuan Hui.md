@@ -1,10 +1,12 @@
 ---
 type: person
-name: Binyuan Hui
+name: 惠彬原
+english_name: Binyuan Hui
+aliases: [Binyuan Hui, 惠彬原]
 company_history: [Alibaba, Qwen]
 areas: [code-models, coding-agents, reasoning]
 ---
-# Binyuan Hui
+# 惠彬原（Binyuan Hui）
 
 Qwen coding / agent 方向关键研究者，OpenDevin initiator。2026 年初公开报道显示其已离开 Qwen，因此按 alumni 建模。
 
@@ -15,9 +17,9 @@ Qwen coding / agent 方向关键研究者，OpenDevin initiator。2026 年初公
 - Qwen / Qwen2 / [[Qwen3]]
 
 ## 关系
-- [[林俊旸]]：前 Qwen leader
-- [[郁博文]]：前 Qwen post-training lead
-- [[刘大一恒]]、[[Baosong Yang]]：Qwen 技术报告作者网络
+- [[Qwen/林俊旸|林俊旸]]：前 Qwen leader
+- [[Qwen/郁博文|郁博文]]：前 Qwen post-training lead
+- [[Qwen/刘大一恒|刘大一恒]]、[[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]]：Qwen 技术报告作者网络
 
 ## Sources
 - https://huybery.github.io/
