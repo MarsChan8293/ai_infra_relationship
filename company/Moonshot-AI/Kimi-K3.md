@@ -3,16 +3,26 @@ type: model-project
 company: Moonshot AI
 model: Kimi-K3
 areas: [multimodal, long-context, agentic]
+public_repo: true
 ---
 # Kimi K3
 
-Moonshot AI 2026 开放模型线，官方 GitHub 将其描述为 2.8T 参数、Kimi Delta Attention / Attention Residuals、原生视觉与 1M context 的 frontier model。
+## 项目简介
+Kimi K3 是 Moonshot AI 2026 年公开的 frontier-model 项目。官方仓库将其描述为 2.8T 参数模型，并强调 Kimi Delta Attention、Attention Residuals、原生视觉与 1M context。它把超长上下文、多模态和 agentic workload 同时推到 serving 系统前台。
+
+## GitHub
+https://github.com/MoonshotAI/Kimi-K3
+
+## 主要维护者 / 组织
+由 [[Moonshot-AI]] / MoonshotAI 组织公开维护。该仓库于 2026-07 创建，是当前 Kimi K3 的 canonical GitHub 项目入口。
 
 ## 本图谱人物
-[[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]] · [[Guanduo Chen]]
+[[杨植麟 Zhilin Yang]] · [[Guanduo Chen]]
 
 ## 系统关系
-- 长上下文与 agentic workloads 对 KV / serving / routing 提出更高系统要求，可与 [[vLLM]]、[[SGLang]]、[[Mooncake]]、[[NIXL]] 等图谱层联动观察
+- 长上下文 → KV cache 容量、传输与复用压力，可连接 [[Mooncake]] / [[NIXL]]。
+- agentic / multimodal workload → routing、batching 与 heterogeneous serving，可连接 [[vLLM]] / [[SGLang]]。
+- Moonshot 自研 MoE communication 路线 → [[MoonEP]]。
 
-## Source
-https://github.com/MoonshotAI/Kimi-K3
+## Sources
+- https://github.com/MoonshotAI/Kimi-K3
