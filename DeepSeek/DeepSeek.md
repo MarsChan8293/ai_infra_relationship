@@ -10,7 +10,7 @@ focus: frontier-models
 - [[DeepSeek/陈德里 Deli Chen|陈德里（Deli Chen）]]：Senior Researcher；V1/V2/V3/V4/R1/Coder/MoE 核心贡献
 - [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：2023–2026 DeepSeek researcher；Coder / V2 / V3 / R1 等核心贡献
 - [[DeepSeek/邵智宏 Zhihong Shao|邵智宏（Zhihong Shao）]]：Research Scientist；DeepSeekMath、GRPO、R1 / reasoning
-- [[Jiashi Li]]、[[Shengyu Liu]]：[[FlashMLA]] 公开论文 / 项目作者，模型架构与 kernel 的桥梁
+- [[DeepSeek/Jiashi Li|Jiashi Li]]、[[DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[FlashMLA]] 公开论文 / 项目作者，模型架构与 kernel 的桥梁
 
 ## 模型项目
 [[DeepSeek-V3]] · [[DeepSeek-R1]]
