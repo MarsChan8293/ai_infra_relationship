@@ -1,18 +1,26 @@
 # Michael Goin
 
 社区：[[vLLM]]
-当前：[[Red Hat]] Senior Principal Engineer
+当前：[[Red Hat]] Principal / Senior Principal inference engineering
 
 ## 教育经历
 - 曾在 [[University of Tennessee, Knoxville]] 从事研究生阶段科研
 
 ## 工作经历
 - [[Oak Ridge National Laboratory]]：研究 / 实习经历
-- [[Neural Magic]]：工程与技术领导岗位
-- [[Red Hat]]：Senior Principal Engineer
+- [[Neural Magic]]：性能工程与技术领导；负责 inference performance
+- [[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
 
 ## 社区贡献
-Project Lead，负责 quantization、Blackwell、FlashInfer、DeepEP / DeepGEMM 与性能优化。
+vLLM Lead Maintainer / Project Lead，负责 quantization、Blackwell、FlashInfer、DeepEP / DeepGEMM 与性能优化。
 
-## 关系
-[[Tyler Michael Smith]] · [[Lucas Wilkinson]] · [[Wentao Ye]] · [[Matthew Bonanni]]
+## 人物关系
+- [[Tyler Michael Smith]]：**前 Neural Magic、现 Red Hat 同事 + vLLM 性能工程合作者**。至少在 2025-02，两人共同参与 DeepSeek MLA / FP8 vLLM 优化；截至 2026-09 仍在 kernels、MoE、distributed inference 等路径协作。
+- [[Robert Shaw]]：**前 Neural Magic、现 Red Hat 同事 + vLLM 共同维护者**。2025-02 两人共同被 Red Hat credit 于 DeepSeek 优化；Robert 偏 engine/disaggregated serving，Michael 偏 quantization/performance。
+- [[Lucas Wilkinson]]：**前 Neural Magic、现 Red Hat 同事 + GPU performance 合作者**。2025-02 共同参与 DeepSeek MLA / FP8 优化；两人在 attention、FlashInfer、quantized GEMM 等性能路径持续交叉。
+- [[Wentao Ye]]：**Red Hat 同事 + GPU kernel / DeepSeek inference 优化合作者**。Wentao 2025 年加入 Red Hat 后与 Michael 在 Blackwell、DeepEP、DeepGEMM、quantization 等方向处于同一 vLLM 性能工程网络；截至 2026-09 仍持续协作。
+- [[Matthew Bonanni]]：**Red Hat 同事 + vLLM C++/CUDA 性能协作者**。截至 2026-09 两人同属 Red Hat vLLM/inference 工程网络；公开资料未确认首次共事的精确月份。
+
+## Sources
+- https://www.redhat.com/en/authors/michael-goin
+- https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm
