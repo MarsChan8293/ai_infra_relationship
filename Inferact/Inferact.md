@@ -12,8 +12,8 @@ AI inference infrastructure 公司，由 vLLM 的创建者与核心维护者发�
 - [[Inferact/Woosuk Kwon|Woosuk Kwon]] — 联合创始人 / CTO；vLLM creator / core maintainer
 - [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]] — 联合创始人 / Chief Scientist；vLLM core maintainer
 - [[vLLM/Roger Wang|Roger Wang]] — 联合创始人；vLLM core maintainer / vLLM-Omni lead maintainer
-- [[Ion Stoica]] — founding member；UC Berkeley Sky Computing Lab 学术网络
-- Joseph Gonzalez — founding member；UC Berkeley systems / ML systems 网络
+- [[Inferact/Ion Stoica|Ion Stoica]] — founding member；UC Berkeley Sky Computing Lab Director，Berkeley systems 学术网络枢纽
+- [[Inferact/Joseph Gonzalez|Joseph Gonzalez]] — founding member；UC Berkeley Sky / RISE systems 与 ML systems 导师网络
 
 ## 工程 / 研究节点
 - [[vLLM/Nick Hill|Nick Hill]] — founding engineer；vLLM scheduler / distributed / KV Connector
@@ -21,7 +21,7 @@ AI inference infrastructure 公司，由 vLLM 的创建者与核心维护者发�
 - [[vLLM/Yongye Zhu|Yongye Zhu]] — Member of Technical Staff；vLLM model support / backend interface
 
 ## 关系特征
-Inferact 的人物网络与 [[vLLM]] 高度重叠，但图谱中仍区分“公司同事”与“开源社区协作者”。例如 [[vLLM/Robert Shaw|Robert Shaw]]、[[vLLM/Michael Goin|Michael Goin]] 属 [[Red Hat]]，[[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]、[[vLLM/Chen Zhang|Chen Zhang]] 属 [[Meta]]；他们与 Inferact 成员可在 vLLM 中深度协作，但不因此标记为公司同事。
+Inferact 的人物网络与 [[vLLM]] 高度重叠，同时承接 UC Berkeley Sky Lab 的 systems 研究谱系。图谱中仍严格区分“公司同事”“导师/学生”与“开源社区协作者”。例如 [[vLLM/Robert Shaw|Robert Shaw]]、[[vLLM/Michael Goin|Michael Goin]] 属 [[Red Hat]]，[[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]、[[vLLM/Chen Zhang|Chen Zhang]] 属 [[Meta]]；他们与 Inferact 成员可在 vLLM 中深度协作，但不因此标记为公司同事。
 
 ## Sources
 - https://inferact.ai/
