@@ -1,10 +1,12 @@
 ---
 type: person
-name: Lequn Chen
+name: 陈乐群
+english_name: Lequn Chen
+aliases: [Lequn Chen, 陈乐群]
 communities: [FlashInfer]
 roles: [Original Paper Author]
 ---
-# Lequn Chen
+# 陈乐群（Lequn Chen）
 
 ## 社区角色
 [[FlashInfer]] 原始论文作者之一。
