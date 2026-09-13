@@ -25,8 +25,11 @@ SGLang 原始论文作者、KV Cache 方向核心维护者，研究重点是大�
 - KV Cache merge oncall
 - HiCache 等分层 KV cache 工作
 
-## 关系
-[[SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]] · [[SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]] · [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]
+## 人物关系
+- [[SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**SGLang 原始论文合著者 + 当前系统模块协作者**。两人共同署名 2023/2024 SGLang 原始工作；截至 2026-09 郑连民负责 scheduler，谢志强负责 KV Cache merge oncall，属于 scheduler ↔ cache 的持续开源协作，不等同于公司同事。
+- [[SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：**SGLang 原始论文合著者 + scheduler/cache 协作者**。两人共同参与原始 SGLang 工作；当前尹良升负责 scheduler / speculative decoding，谢志强负责 KV Cache，因此在 serving runtime 的调度与缓存接口处存在持续模块交叉。
+- [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：**SGLang co-creator / 原始论文合著网络**。两人共同署名 SGLang 原始技术工作，2023–2024 属同一项目核心研究网络。盛颖后于 2025 创办 [[RadixArk]]，公开资料未显示谢志强加入 RadixArk，因此不标记为公司同事。
+- Christos Kozyrakis：**Stanford 博士导师**。谢志强在 Stanford MAST Lab 读博期间由其指导；该关系属于正式学术指导关系，与 SGLang 社区关系分开记录。
 
 ## Sources
 - https://zhiqiangxie.com/
