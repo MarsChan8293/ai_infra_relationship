@@ -8,19 +8,20 @@ areas: [pretraining, model-architecture, multimodal]
 ---
 # 曾奥涵（Aohan Zeng）
 
-公开可确认的核心身份来自 GLM 系项目贡献记录。
+GLM 系核心研究者。公开项目资料明确其在 GLM-130B 中担任 Lead Contributor / 学生负责人，并持续参与后续 GLM 模型。
 
 ## 项目贡献
-- GLM-130B：学生负责人；Model Implementation / Model Architecture / Training Stability 核心贡献
-- CodeGeeX：清华 KEG contributor
-- [[GLM-4.5]]：技术报告首批署名作者之一
+- GLM-130B：2022–2023 学生负责人 / Lead Contributor；Model Implementation、Model Architecture、Training Stability 核心贡献
+- CodeGeeX：2022 Tsinghua KEG contributor
 - [[GLM-4-Voice]]：第一作者
+- [[GLM-4.5]]：2025 技术报告首批署名作者之一
 
-## 关系
-- [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]：GLM / 清华 KEG 技术谱系
-- [[Zhipu-AI/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：GLM-130B model implementation / architecture 合作者，GLM-4-Voice 合作者
-- [[Zhipu-AI/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：GLM-130B / CodeGeeX / GLM-4.5 同一技术网络
+## 人物关系
+- [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]：**GLM-130B 项目负责人 ↔ 学生核心贡献者**。2022 GLM-130B 官方项目页中唐杰为 Project Leader，曾奥涵为 Lead Contributor / 学生负责人；合作至少覆盖 2022–2023 的模型训练与论文阶段。
+- [[Zhipu-AI/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：**GLM-130B 核心工程合作者 + 后续 GLM 同一研发网络**。2022–2023 GLM-130B 中曾奥涵负责学生团队与训练稳定性，杜政晓负责 model implementation / architecture；之后两人共同参与 GLM-4-Voice 与 GLM-4.5，形成持续的 pretraining / architecture 协作。
+- [[Zhipu-AI/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：**清华 KEG / GLM-130B / CodeGeeX 合作者**。2022 GLM-130B 两人同属 Tsinghua KEG contributor 网络；同年 CodeGeeX 中郑勤锴是 Lead Contributor，曾奥涵是 contributor。2025 又共同进入 GLM-4.5 作者网络，因此属于跨模型持续合作关系。
+- [[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：**早期 GLM 技术谱系间接合作者**。杨植麟是 2022 原始 GLM 论文作者并担任 CodeGeeX advisor，曾奥涵随后领导 GLM-130B 学生团队并参与 CodeGeeX；公开资料不足以证明两人长期处于同一直属团队，因此不写成公司同事。
 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
-- https://github.com/zai-org/GLM-4.5
+- https://keg.cs.tsinghua.edu.cn/codegeex/
