@@ -3,8 +3,8 @@
 围绕 SGLang、推理系统与大规模 RL / post-training 建设的 AI infra 公司与开源组织。
 
 ## 主要成员
-- [[盛颖]]
-- [[Banghua Zhu]]
+- [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]
+- [[RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]
 - [[Qiaolin Yu]]
 - [[Baizhou Zhang]]
 - [[Cheng Wan]]

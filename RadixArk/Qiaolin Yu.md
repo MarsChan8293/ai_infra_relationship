@@ -16,4 +16,4 @@
 - SGLang speculative decoding、模型优化与 GPU 性能
 
 ## 关系
-[[盛颖]] · [[Baizhou Zhang]] · [[Cheng Wan]]
+[[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]] · [[Baizhou Zhang]] · [[Cheng Wan]]

@@ -1,12 +1,12 @@
 # SGLang
 
-Obsidian 社区入口。人物简历统一放在本目录，并通过 `[[公司]]`、`[[学校]]`、`[[相关人物]]` 与其他节点关联。
+Obsidian 社区入口。人物简历通过公司、学校、共同项目与其他节点关联；中文姓名仅在可靠公开来源确认后写入。
 
 ## 核心人物
-- [[郑连民]]
-- [[盛颖]]
-- [[尹良升]]
-- [[谢志强]]
+- [[SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]
+- [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]
+- [[SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]
+- [[SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]
 - [[Yineng Zhang]]
 - [[Shiyang Chen]]
 - [[Mick Qian]]
