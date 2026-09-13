@@ -10,8 +10,8 @@ Moonshot AI 的 open-weight agentic model 线。
 
 ## 本图谱人物
 - [[Guanduo Chen]]：技术报告作者
-- [[吴育昕]]：个人页列为 selected publication / Kimi Team
-- [[杨植麟]]：Moonshot 创始人与模型战略负责人
+- [[Moonshot-AI/吴育昕 Yuxin Wu|吴育昕（Yuxin Wu）]]：个人页列为 selected publication / Kimi Team
+- [[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：Moonshot 创始人与模型战略负责人
 
 ## Infra 关系
 - MoE / EP 路线继续延伸到 [[MoonEP]]

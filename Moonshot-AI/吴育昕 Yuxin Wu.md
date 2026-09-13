@@ -2,6 +2,7 @@
 type: person
 name: 吴育昕
 english_name: Yuxin Wu
+aliases: [吴育昕, Yuxin Wu]
 company: Moonshot AI
 roles: [cofounder]
 areas: [foundation-models, computer-vision, infrastructure]
@@ -24,7 +25,7 @@ areas: [foundation-models, computer-vision, infrastructure]
 - [[Kimi-K2]]
 
 ## 关系
-[[杨植麟]] · [[周昕宇]] · [[Guanduo Chen]]
+[[Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]] · [[Moonshot-AI/周昕宇 Xinyu Zhou|周昕宇（Xinyu Zhou）]] · [[Guanduo Chen]]
 
 ## Source
 https://ppwwyyxx.com/

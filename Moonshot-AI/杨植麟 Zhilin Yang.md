@@ -2,6 +2,7 @@
 type: person
 name: 杨植麟
 english_name: Zhilin Yang
+aliases: [杨植麟, Zhilin Yang]
 company: Moonshot AI
 roles: [cofounder, CEO]
 areas: [foundation-models, language-modeling]
@@ -11,7 +12,7 @@ areas: [foundation-models, language-modeling]
 [[Moonshot-AI]] / Kimi 创始人、CEO，Transformer-XL 与 XLNet 共同作者。
 
 ## 教育经历
-- [[Tsinghua University]]：计算机本科，2015；本科科研导师 [[Zhipu-AI/唐杰|唐杰]]
+- [[Tsinghua University]]：计算机本科，2015；本科科研导师 [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]]
 - [[Carnegie Mellon University]]：PhD，2019；导师 Ruslan Salakhutdinov、William Cohen
 
 ## 研究 / 创业经历
@@ -22,7 +23,7 @@ areas: [foundation-models, language-modeling]
 ## GLM ↔ Kimi 关键桥
 - 是 2022 原始 GLM 论文共同作者之一
 - 曾作为 CodeGeeX advisor 网络中的研究者出现
-- 与 [[Zhipu-AI/唐杰|唐杰]] 的师生关系使 GLM / Zhipu 与 Kimi / Moonshot 之间存在明确的学术谱系，而非单纯竞争关系
+- 与 [[Zhipu-AI/唐杰 Jie Tang|唐杰（Jie Tang）]] 的师生关系使 GLM / Zhipu 与 Kimi / Moonshot 之间存在明确的学术谱系，而非单纯竞争关系
 
 ## Kimi
 [[Kimi-K2]] · [[Kimi-K3]]
