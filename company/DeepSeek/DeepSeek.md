@@ -5,27 +5,27 @@ focus: frontier-models
 ---
 # DeepSeek
 
+## 公司简介
+DeepSeek 是中国 frontier-model lab，以高效训练、MoE、reasoning 与系统协同著称。它在 AI Infra 图谱中的特殊之处，是把模型创新持续下沉为独立开源系统组件，包括 EP communication、GEMM/attention kernels、分布式存储和 xPU JIT，从而形成模型与基础设施共同演化的技术栈。
+
 ## 核心人物
-- [[DeepSeek/梁文锋 Liang Wenfeng|梁文锋（Liang Wenfeng）]]：创始人 / CEO；High-Flyer → DeepSeek
-- [[DeepSeek/陈德里 Deli Chen|陈德里（Deli Chen）]]：Senior Researcher；V1/V2/V3/V4/R1/Coder/MoE 核心贡献
-- [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：2023–2026 DeepSeek researcher；Coder / V2 / V3 / R1 等核心贡献
-- [[DeepSeek/邵智宏 Zhihong Shao|邵智宏（Zhihong Shao）]]：Research Scientist；DeepSeekMath、GRPO、R1 / reasoning
-- [[DeepSeek-Infra/Jiashi Li|Jiashi Li]]、[[DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[FlashMLA]] / [[DeepGEMM]] 等公开项目作者，连接模型架构与 GPU kernel
+- [[梁文锋 Liang Wenfeng]]：创始人 / CEO；High-Flyer → DeepSeek
+- [[陈德里 Deli Chen]]：Senior Researcher；V1/V2/V3/V4/R1/Coder/MoE 核心贡献
+- [[郭达雅 Daya Guo]]：2023–2026 DeepSeek researcher；Coder / V2 / V3 / R1 等核心贡献
+- [[邵智宏 Zhihong Shao]]：Research Scientist；DeepSeekMath、GRPO、R1 / reasoning
+- [[Jiashi Li]]、[[刘胜与 Shengyu Liu]]：[[FlashMLA]] / [[DeepGEMM]] 等公开项目作者，连接模型架构与 GPU kernel
 
-## 模型项目
-[[DeepSeek-V3]] · [[DeepSeek-R1]]
+## 模型与 Infra
+[[DeepSeek-V3]] · [[DeepSeek-R1]] · [[DeepSeek-Infra]] · [[DeepEP]] · [[DeepGEMM]] · [[FlashMLA]] · [[3FS]] · [[DeepJIT]]
 
-## 关联技术栈
-[[DeepSeek-Infra]] · [[DeepEP]] · [[DeepGEMM]] · [[FlashMLA]] · [[3FS]] · [[DeepJIT]]
+## 图谱中的连接
+[[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[Mooncake]]。DeepSeek 的重要图谱特征是模型作者与系统作者并非简单一一对应，因此按论文/仓库公开作者分别建边。
 
-## 生态连接
-[[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[Mooncake]]
-
-## 值得观察的跨公司关系
-- [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]] ↔ [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]]：**2023 论文合著者，不是已确认同事**。两人共同署名 EMNLP 2023 `Noisy Pair Corrector for Dense Retrieval`，之后分别进入 Qwen 与 DeepSeek 核心网络。
-- [[DeepSeek-R1]] ↔ [[OpenAI/o1|OpenAI o1]]：同属 reasoning / RL 路线，但组织与开源策略不同；这是项目/技术路线对照，不是人物关系。
-- [[FlashMLA]] / [[DeepEP]]：DeepSeek 模型创新下沉为可复用 kernel / communication 项目，具体人物合作见各 canonical 人物页。
+## 跨公司关系
+- [[郭达雅 Daya Guo]] ↔ [[刘大一恒 Dayiheng Liu]]：EMNLP 2023 论文合著，后来分别进入 DeepSeek 与 Qwen 核心网络。
+- [[MoonEP]] ↔ [[DeepEP]]：项目级 inspiration 关系，不等于人物直接共事。
 
 ## Sources
 - https://arxiv.org/abs/2412.19437
 - https://arxiv.org/abs/2501.12948
+- https://github.com/deepseek-ai

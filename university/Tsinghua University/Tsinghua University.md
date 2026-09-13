@@ -4,8 +4,35 @@ name: Tsinghua University
 ---
 # Tsinghua University
 
-## AI Infra 关系
-MADSys Lab 是 [[KTransformers]] 的主要研发与维护组织之一。
+## AI Infra 总览
+清华的 AI Infra 人才不能视作单一“清华系”。当前图谱至少能分出三条技术/导师谱系：MADSys / KVCache.AI 的存储与异构推理系统线；KEG / GLM 的 foundation-model 研究与产业化线；以及 PACMAN / vLLM 人才向 Berkeley、Meta、Inferact 等系统网络迁移的路线。三条线同校但实验室、导师与技术层次不同，只有出现论文、项目或明确师生关系时才建强边。
 
-## 关联人物
-[[KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]] · [[KTransformers/Hongtao Chen|Hongtao Chen]] · [[KTransformers/Jianwei Dong|Jianwei Dong]] · [[KTransformers/Qingliang Ou|Qingliang Ou]] · [[KTransformers/Boxin Zhang|Boxin Zhang]] · [[KTransformers/Jingqi Tang|Jingqi Tang]] · [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]
+## MADSys / KVCache.AI：存储进入推理核心
+MADSys 的关键洞察是把 memory/storage/network 从“外围基础设施”变成 LLM inference 的核心设计变量。[[Mooncake]] 把 KV cache 做成分布式一级资源，[[KTransformers]] 则用 CPU+GPU/NUMA 异构执行扩大本地超大模型可运行范围。两者共同形成清华系统系很鲜明的“storage-for-compute / memory-centric inference”路线。
+
+### 核心人物与项目
+- [[Yongwei Wu]]、[[Mingxing Zhang]]、[[Weimin Zheng]]：MADSys / systems faculty 网络；Mooncake 与 KTransformers 的导师/研究组织枢纽。
+- [[Ruoyu Qin]]：Mooncake FAST 2025 论文第一作者，连接研究论文与 Kimi production workload。
+- [[谢威宇 Weiyu Xie]]、[[Hongtao Chen]]、[[Jianwei Dong]]、[[Qingliang Ou]]、[[Boxin Zhang]]、[[Jingqi Tang]]、[[Peilin Li]]、[[Ziwei Yuan]]：KTransformers 作者/维护网络。
+- MADSys alumni 的公开去向还显示 [[谢威宇 Weiyu Xie]] 2026 去 Approaching.AI、Shaoyuan Chen 去 DeepSeek，说明这条系统研究链正在向 AI Infra 公司扩散。
+
+## KEG / GLM：模型研究 → Zhipu / Kimi
+另一条清华链来自 KEG/GLM。[[唐杰 Jie Tang]] 是 GLM 学术与创业网络核心，[[杨植麟 Zhilin Yang]] 与唐杰存在明确导师/学生关系并参与早期 GLM 研究，后来创办 [[Moonshot-AI]]；[[曾奥涵 Aohan Zeng]]、[[杜政晓 Zhengxiao Du]]、[[郑勤锴 Qinkai Zheng]] 等则进入 [[Zhipu-AI]] / GLM 技术网络。
+
+这条线更偏 foundation models、NLP 与模型团队产业化，与 MADSys 的 serving/storage 系统线不能仅因“都来自清华”而合并为同一实验室网络。
+
+## PACMAN / vLLM / Berkeley 桥
+- [[Chen Zhang]]：清华 CS 本科 2021、博士 2025，导师 Jidong Zhai / PACMAN；2024 Berkeley visiting，后进入 Berkeley Sky Lab，再到 [[Meta]]，并持续参与 [[vLLM]]、Jenga、PrefillOnly 等 serving systems。
+- [[游凯超 Kaichao You]]：清华本科、博士；2019 Berkeley RISELab visiting、2024 Sky Lab visiting，随后成为 [[vLLM]] Project Lead 与 [[Inferact]] 联合创始人/Chief Scientist。
+- [[翁家翌 Jiayi Weng]] ↔ [[游凯超 Kaichao You]]：Tianshou 早期开源协作与论文合著，构成清华 RL/open-source 人才网络向 OpenAI 与 vLLM/Inferact 分叉的早期桥。
+
+## 关键跨组织路径
+清华 MADSys → [[Mooncake]] / [[KTransformers]] → Moonshot/Approaching.AI/DeepSeek；清华 KEG → GLM → [[Zhipu-AI]] 与 [[Moonshot-AI]]；清华 PACMAN/学生网络 → [[UC Berkeley]] → [[vLLM]] / [[Inferact]] / [[Meta]]。这三条路径共同说明清华对 AI Infra 的影响不是单点项目，而是从模型、系统到创业的多层人才输出。
+
+## Sources
+- https://madsys.cs.tsinghua.edu.cn/
+- https://madsys.cs.tsinghua.edu.cn/publications/KTransformers
+- https://www.cs.tsinghua.edu.cn/info/1247/6286.htm
+- https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
+- https://youkaichao.github.io/
+- https://heheda12345.github.io/

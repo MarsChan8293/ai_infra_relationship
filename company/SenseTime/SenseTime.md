@@ -4,8 +4,8 @@ name: SenseTime
 ---
 # SenseTime
 
-## 关联社区
-[[LightLLM]]
+## 公司简介
+SenseTime 是计算机视觉与大模型研发公司，也长期建设大规模 AI computing、训练与推理基础设施。它在本图谱中的意义之一，是部分开源 inference/serving 人才曾在 SenseTime Research 从事大模型系统、工具链和 serving engine 工作。
 
-## 人物
-[[LightLLM/Zaijun Wang|Zaijun Wang]] · [[LightLLM/Niu Shengxiao|Niu Shengxiao]] · [[LightLLM/Sang Chengmeng|Sang Chengmeng]] · [[LightLLM/Su Fubao|Su Fubao]]
+## 图谱中的连接
+[[LightLLM]] 与 SenseTime 的研究/工程人才存在交集，例如 [[Junyi Chen]] 的公开履历包含 SenseTime Research 大模型系统与工具链经历。对其他 LightLLM contributor 的公司归属必须逐人核验，不能从同一仓库整体推断。

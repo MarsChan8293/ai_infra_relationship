@@ -1,18 +1,24 @@
 ---
-type: community
+type: project
 name: NVIDIA Dynamo
 governance: company-led
 company: NVIDIA
 layer: distributed-inference-orchestration
+open_source: true
 ---
 # NVIDIA Dynamo
 
-数据中心级分布式推理编排框架。当前代码所有权主要由 [[NVIDIA]] 内部团队按模块承担。
+## 项目简介
+Dynamo 是数据中心尺度的分布式 inference serving framework，负责把多个推理 worker、路由、KV/data movement、缓存和弹性伸缩组织成完整 serving 系统。它重点覆盖 PD disaggregation、KV-aware routing、multi-tier cache、autoscaling、Kubernetes operator 与 fault tolerance，并支持多种 engine。
 
-## 连接
-- Engines: [[vLLM]], [[SGLang]], [[TensorRT-LLM]]
-- Data movement: [[NIXL]]
-- Company: [[NVIDIA]]
+## GitHub
+https://github.com/ai-dynamo/dynamo
 
-## 关注方向
-PD disaggregation、KV-aware routing、multi-tier cache、autoscaling、Kubernetes operator、fault tolerance。
+## 主要维护者 / 组织
+由 NVIDIA 发起并在 ai-dynamo 组织下开放开发，仓库明确面向 vLLM、SGLang、TensorRT-LLM 等后端。
+
+## 生态关系
+- Engines：[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]]
+- Data movement：[[NIXL]]
+- Company：[[NVIDIA]]
+- Kubernetes：承载大规模部署与 operator 能力。

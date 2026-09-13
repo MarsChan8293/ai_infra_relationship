@@ -5,32 +5,27 @@ focus: frontier-models
 ---
 # OpenAI
 
-本目录按**公开项目贡献名单 / 公开个人页**建模，而不是推测内部组织架构。对仍在职人员，只有公开个人页或 OpenAI 官方资料能确认时才标注“当前”。
+## 公司简介
+OpenAI 是 frontier-model lab 与 AI 产品公司，在本图谱中重点观察模型训练、RL/post-training infrastructure、deployment 和 inference systems 人才，而不是推测未公开的内部组织架构。其与开源 AI Infra 的关系更多体现为人才流动、论文合作与模型 serving 经验迁移。
 
 ## 重点人物
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：RL / post-training infrastructure；GPT-4、GPT-4o、o1、GPT-4.5
-- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：Berkeley/vLLM inference 背景；当前 OpenAI researcher；个人页确认此前参与 gpt-oss inference 与 GPT-5 post-training infrastructure
+- [[翁家翌 Jiayi Weng]]：RL / post-training infrastructure；GPT-4、GPT-4o、o1、GPT-4.5
+- [[柳晓萱 Xiaoxuan Liu]]：Berkeley/vLLM inference 背景；加入 OpenAI 后从事研究与 post-training/inference 相关工作
 - [[Randall Lin]]：GPT-4o post-training infrastructure co-lead
 - [[Youlong Cheng]]：GPT-4o post-training infrastructure co-lead
 - [[Luke Metz]]：GPT-4 RL infrastructure lead、GPT-4o post-training lead
-- [[community/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：OpenAI 前 MTS、o1 contributor，后转 [[Meta]]，同时是 [[vLLM]] 联合创建者
+- [[李卓翰 Zhuohan Li]]：OpenAI 前 MTS、o1 contributor，后转 [[Meta]]；vLLM 联合创建者
 
 ## 模型项目
 [[GPT-4]] · [[GPT-4o]] · [[o1]] · [[GPT-4.5]]
 
-## Infra / 人才桥
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[community/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：Tianshou 早期开源协作与论文合著，发生在后来公司任职之前
-- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]] ↔ [[community/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：Berkeley/vLLM inference 协作；TurboSpec、Jenga 合著，主要发生在柳晓萱加入 OpenAI 之前
-- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]] ↔ [[community/vLLM/Chen Zhang|Chen Zhang]] ↔ [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]] ↔ [[community/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：Jenga / PrefillOnly 所代表的 Berkeley–vLLM–KV/cache serving 研究网络，不等同于当前公司共事
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[community/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：共同出现在 OpenAI o1 contributor 名单
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Randall Lin]] ↔ [[Youlong Cheng]]：GPT-4o post-training infrastructure leads
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]] ↔ [[Luke Metz]]：GPT-4 RL infra 与 GPT-4o post-training 协作链
+## 图谱中的连接
+- [[翁家翌 Jiayi Weng]] ↔ [[游凯超 Kaichao You]]：Tianshou 早期开源协作与论文合著，发生在后来公司任职之前。
+- [[柳晓萱 Xiaoxuan Liu]] ↔ [[游凯超 Kaichao You]] / [[Chen Zhang]] / [[乔一凡 Yifan Qiao]]：Berkeley/vLLM serving research 网络，主要发生在加入 OpenAI 之前。
+- [[UC Berkeley]]：柳晓萱是 Berkeley Sky Lab/vLLM 人才链向 OpenAI 流动的关键桥。
 
 ## Sources
 - https://openai.com/contributions/gpt-4/
 - https://openai.com/gpt-4o-contributions/
 - https://openai.com/openai-o1-contributions/
-- https://openai.com/index/introducing-gpt-4-5/
 - https://liuxiaoxuanpku.github.io/
-- https://arxiv.org/abs/2503.18292
-- https://arxiv.org/abs/2505.07203

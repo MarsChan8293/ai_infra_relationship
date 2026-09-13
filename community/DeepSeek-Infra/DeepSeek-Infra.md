@@ -1,22 +1,27 @@
 ---
-type: community
+type: project-collection
 name: DeepSeek Infra
 company: DeepSeek
 layer: systems-stack
+open_source: true
 ---
 # DeepSeek Infra
 
-[[DeepSeek]] 的公开系统基础设施项目集合。这里将项目拆成独立技术节点，而不是只把 DeepSeek 当作公司节点。
+## 项目简介
+DeepSeek Infra 是 [[DeepSeek]] 对外开源的系统基础设施项目集合，不是一个单独代码库。它把模型训练与推理中的关键系统能力拆成通信、GPU kernel、attention、分布式存储与 JIT 等独立组件，形成从 MoE communication 到 storage 的纵向技术栈。
 
-## 子项目
-- [[DeepEP]] — Expert Parallel communication
-- [[DeepGEMM]] — GEMM / MoE kernels
-- [[FlashMLA]] — MLA attention kernels
-- [[3FS]] — distributed file system
-- [[DeepJIT]] — kernel/JIT systems
+## GitHub
+组织主页：https://github.com/deepseek-ai
 
-## 连接
-- [[vLLM]]
-- [[SGLang]]
-- [[FlashInfer]]
-- [[Mooncake]]
+子项目：
+- [[DeepEP]]：https://github.com/deepseek-ai/DeepEP
+- [[DeepGEMM]]：https://github.com/deepseek-ai/DeepGEMM
+- [[FlashMLA]]：https://github.com/deepseek-ai/FlashMLA
+- [[3FS]]：https://github.com/deepseek-ai/3FS
+- [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT
+
+## 主要维护者 / 组织
+由 DeepSeek / deepseek-ai 组织公开维护。各子项目的作者与维护网络独立记录，不把同属 DeepSeek Infra 自动等价为同一小组长期共事。
+
+## 生态关系
+[[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[Mooncake]] · [[NIXL]]

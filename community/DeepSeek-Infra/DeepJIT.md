@@ -3,13 +3,18 @@ type: project
 name: DeepJIT
 parent: DeepSeek-Infra
 layer: kernel-jit
+open_source: true
 ---
 # DeepJIT
 
-面向 NVIDIA CUDA GPU 与 Huawei Ascend NPU 的轻量 C++20 kernel JIT runtime。
+## 项目简介
+DeepJIT 是 DeepSeek 在 2026 年开源的轻量 xPU kernel JIT compilation/runtime library，使用 C++20，目标是为 NVIDIA CUDA GPU 与 Huawei Ascend NPU 等平台提供更统一的 kernel 动态编译与加载能力。
 
-## 公开主要作者
-[[DeepSeek-Infra/guyan364|guyan364]] · [[DeepSeek-Infra/kurisu6912|kurisu6912]] · [[DeepSeek-Infra/LyricZhao|LyricZhao]]
+## GitHub
+https://github.com/deepseek-ai/DeepJIT
 
-## 生态连接
-[[vLLM-Ascend]] · [[DeepGEMM]]
+## 主要维护者 / 组织
+由 [[DeepSeek]] / deepseek-ai 维护。当前公开主要作者节点包括 [[guyan364]]、[[kurisu6912]]、[[LyricZhao]]。
+
+## 生态关系
+[[vLLM-Ascend]] · [[DeepGEMM]] · CUDA · Ascend/CANN。它补的是 kernel toolchain/JIT 层，而不是完整 serving runtime。

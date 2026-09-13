@@ -7,25 +7,20 @@ focus: frontier-models
 ---
 # Qwen / 通义千问
 
-Qwen 是 [[Alibaba Cloud]] / Alibaba Tongyi Lab 的基础模型技术谱系。本目录同时保留**当前核心研究者**与**2026 年离开的关键校友**，避免把历史贡献和当前组织混在一起。
+## 公司 / 团队简介
+Qwen 是 [[Alibaba Cloud]] / Alibaba Tongyi Lab 的基础模型技术谱系，覆盖通用、多语言、代码、reasoning 与 agent 等方向。它既是模型团队节点，也与阿里云的训练、推理和模型服务基础设施相连。本目录同时保留当前核心研究者与关键校友，避免把历史贡献和当前组织混在一起。
 
 ## 核心人物 / 校友
-- [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]]：Qwen 前负责人；2026-03 离开 Alibaba
-- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]]：Qwen 核心贡献者，长期大模型 / NLP
-- [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]]：多语言方向 Senior Algorithm Expert
-- [[Qwen/万宇 Yu Wan|万宇（Yu Wan）]]：多语言与可解释性研究者
-- [[Qwen/唐天一 Tianyi Tang|唐天一（Tianyi Tang）]]：alignment / reasoning 方向，Qwen3 作者网络
-- [[Qwen/郁博文 Bowen Yu|郁博文（Bowen Yu）]]：前 post-training lead；2026 年离开 Qwen
-- [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]：Qwen-Coder / coding agent 关键研究者；2026 年离开 Qwen
+[[林俊旸 Junyang Lin]] · [[刘大一恒 Dayiheng Liu]] · [[杨宝松 Baosong Yang]] · [[万宇 Yu Wan]] · [[唐天一 Tianyi Tang]] · [[郁博文 Bowen Yu]] · [[惠彬原 Binyuan Hui]]
 
 ## 项目
 [[Qwen3]] · [[Qwen-Coder]]
 
-## 跨公司关系
-- [[Qwen/刘大一恒 Dayiheng Liu|刘大一恒（Dayiheng Liu）]] ↔ [[DeepSeek/郭达雅 Daya Guo|郭达雅（Daya Guo）]]：EMNLP 2023 论文合著，形成 Qwen ↔ DeepSeek 的早期研究网络
-- [[Qwen/杨宝松 Baosong Yang|杨宝松（Baosong Yang）]] → [[Qwen/万宇 Yu Wan|万宇（Yu Wan）]]：万宇在 DAMO 实习时 mentor 为杨宝松
-- [[Qwen/林俊旸 Junyang Lin|林俊旸（Junyang Lin）]] / [[Qwen/郁博文 Bowen Yu|郁博文（Bowen Yu）]] / [[Qwen/惠彬原 Binyuan Hui|惠彬原（Binyuan Hui）]]：2026 年初先后离开，属于重要的 Qwen alumni cluster
+## 图谱中的连接
+- [[刘大一恒 Dayiheng Liu]] ↔ [[郭达雅 Daya Guo]]：EMNLP 2023 论文合著，形成 Qwen ↔ DeepSeek 的早期研究桥。
+- [[杨宝松 Baosong Yang]] → [[万宇 Yu Wan]]：DAMO 实习 mentor 关系。
+- Qwen 的模型生态直接连接 [[Alibaba Cloud]] 的 production inference，并被 [[vLLM]]、[[SGLang]] 等开源 engine 广泛支持。模型兼容不等于人员共同维护。
 
 ## Sources
+- https://github.com/QwenLM
 - https://arxiv.org/abs/2505.09388
-- https://github.com/QwenLM/Qwen3
