@@ -29,6 +29,8 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 - [[Inferact/Woosuk Kwon|Woosuk Kwon]]：**vLLM 共同维护者 + Inferact 联合创始人**。2024 起在 vLLM 协作；游凯超 2024 在 UC Berkeley Sky Lab 访问时进入同一 Berkeley/vLLM 技术环境；2025–至今两人在 [[Inferact]] 共事，分别任 Chief Scientist 与 CTO。
 - [[vLLM/Simon Mo|Simon Mo]]：**vLLM 共同维护者 + Inferact 联合创始人**。2024 起共同参与 vLLM 社区治理/工程；2025–至今在 Inferact 共事，Simon 任 CEO、游凯超任 Chief Scientist。
 - [[vLLM/Roger Wang|Roger Wang]]：**vLLM Project Lead + Inferact 创始团队同事**。两人在 vLLM 核心维护网络共同参与 roadmap / serving 系统演进；2025–至今同属 Inferact。Roger 偏 multimodality / benchmark，游凯超偏 distributed / compile / RL integration。
+- [[Inferact/Ion Stoica|Ion Stoica]]：**Berkeley Sky 技术环境 + Inferact founding network**。游凯超 2024 在 UC Berkeley Sky Lab 访问，Ion 是 Sky Lab Director；2026 Inferact 官方 launch 将两人都列入 founding members。公开资料不足以将 Ion 写成游凯超的正式导师。
+- [[Inferact/Joseph Gonzalez|Joseph Gonzalez]]：**Berkeley systems 技术环境 + Inferact founding network**。游凯超 2024 在 Berkeley Sky Lab 访问；Joseph 是 Sky / RISE systems 核心 faculty。2026 Inferact 官方 launch 将两人都列入 founding members；公开资料不足以写成正式导师关系。
 - [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**vLLM Lead Maintainer 跨公司协作**。两人至少从 2024 年起在 vLLM 的 distributed / RL integration / numerics 等维护网络有交叉；共同署名 2025 Jenga。李卓翰 2024 后进入 OpenAI、后 Meta，因此两人不是当前同事。
 - [[vLLM/Robert Shaw|Robert Shaw]]：**vLLM Project Lead 跨公司协作**。2025 Hardware Plugin 工作中，两人与 Simon Mo、Michael Goin 等共同参与 core refactor、deep discussion 与 review；截至 2026-09 两人仍同属 vLLM Project Leads，但分属 Inferact 与 [[Red Hat]]，不标记为同事。
 - [[vLLM/Michael Goin|Michael Goin]]：**vLLM Project Lead + compile / hardware-plugin 技术协作者**。2025 Hardware Plugin 工作中共同参与 refactor / design review；2025-08 又共同署名 vLLM 官方 torch.compile 技术文章，该内容源于 Red Hat 主持的 vLLM office hours。两人分属 Inferact 与 Red Hat。
@@ -43,6 +45,8 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 ## Sources
 - https://youkaichao.github.io/
 - https://inferact.ai/
+- https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
+- https://vcresearch.berkeley.edu/faculty/joseph-gonzalez
 - https://docs.vllm.ai/en/v0.21.0/governance/process/
 - https://vllm.ai/blog/2025-01-27-v1-alpha-release
 - https://vllm.ai/blog/2025-05-12-hardware-plugin
