@@ -6,7 +6,7 @@ model: GPT-4
 # GPT-4
 
 ## 与本图谱相关的贡献链
-- [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：RL Infrastructure author；Deployment & post-training
+- [[公司/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：RL Infrastructure author；Deployment & post-training
 - [[Luke Metz]]：Infrastructure lead、ChatML format lead
 - John Schulman：RL & alignment overall lead
 - Shengjia Zhao：Reward model lead
