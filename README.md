@@ -41,19 +41,6 @@
 ### Systems Stack
 [[DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] · [[DeepSeek-Infra/DeepJIT|DeepJIT]]
 
-## 值得观察的桥梁人物
-
-- [[OpenAI/翁家翌|翁家翌]] ↔ [[vLLM/游凯超|游凯超]]：Tianshou 早期开源协作 → OpenAI RL infra / vLLM Inferact 两条路线
-- [[OpenAI/翁家翌|翁家翌]] ↔ [[vLLM/李卓翰|李卓翰]]：OpenAI o1 contributor network ↔ vLLM
-- [[Zhipu-AI/唐杰|唐杰]] → [[Moonshot-AI/杨植麟|杨植麟]]：清华师生关系；GLM 技术谱系 → Moonshot/Kimi
-- [[Qwen/刘大一恒|刘大一恒]] ↔ [[DeepSeek/郭达雅|郭达雅]]：进入 Qwen / DeepSeek 前的论文合著网络
-- [[Moonshot-AI/Guanduo Chen|Guanduo Chen]]：ByteDance runtime → Moonshot Training Infra → Kimi K2/K3
-- [[DeepSeek/Jiashi Li|Jiashi Li]]：DeepSeek model author network → FlashMLA → vLLM/SGLang kernel ecosystem
-- [[vLLM/Simon Mo|Simon Mo]]：Ray Serve → vLLM → Inferact
-- [[SGLang/Yineng Zhang|Yineng Zhang]]：FlashInfer ↔ SGLang ↔ Together AI
-- [[RadixArk/盛颖|盛颖]]：SGLang ↔ xAI ↔ RadixArk
-- [[NIXL/Adit Ranadive|Adit Ranadive]]：network virtualization ↔ NIXL ↔ Dynamo / NVIDIA
-
 ## Obsidian 使用建议
 
-开启 Graph View 后，可按 `type`、`company`、`communities`、`roles`、`areas`、`affiliation` 等 frontmatter 字段配合 Dataview 检索。重点观察同时连接模型项目、infra 项目与多家公司 / 学校的高 betweenness 节点，它们往往是技术迁移和人才流动的关键接口。
+开启 Graph View 后，可按 `type`、`company`、`communities`、`roles`、`areas`、`affiliation` 等 frontmatter 字段配合 Dataview 检索。
