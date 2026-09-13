@@ -3,8 +3,8 @@
 LLM KV Cache 分层存储、传输与复用社区。
 
 ## 主要成员
-- [[Yihua Cheng]]
-- [[Kuntai Du]]
+- [[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]
+- [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]
 - [[Baolong Ma]]
 - [[Samm Shen]]
 
@@ -12,3 +12,4 @@ LLM KV Cache 分层存储、传输与复用社区。
 - [[vLLM]]
 - [[TensorMesh]]
 - [[vLLM-Ascend]]
+- [[Mooncake]]
