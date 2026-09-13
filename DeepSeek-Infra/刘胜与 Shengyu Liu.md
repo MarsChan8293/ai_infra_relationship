@@ -17,7 +17,7 @@ areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]
 - 曾任北京大学超算队队长，参与 ASC / SC Student Cluster Competition
 
 ## 工作经历
-- [[DeepSeek]]：2025-04 至今，MLSys 与 kernel design / optimization
+- [[DeepSeek]]：2025-04–至今，MLSys 与 kernel design / optimization
 
 ## 项目与研究
 - [[FlashMLA]]：高性能 MLA decoding kernels；公开作者 / 核心技术贡献
@@ -26,11 +26,13 @@ areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]
 - LoongServe：长上下文 LLM serving
 - SwiftLLM：轻量级高性能 LLM inference system
 
+## 人物关系
+- [[DeepSeek-Infra/Jiashi Li|Jiashi Li]]：**FlashMLA + DeepGEMM 共同作者**。两人共同出现在 2025 FlashMLA 与 DeepGEMM 公开作者网络，合作覆盖 MLA/attention kernels 与 GEMM/MoE kernels；刘胜与 2025-04 起在 DeepSeek，Jiashi Li 的公开雇佣时间不足，因此不写精确同事起点。
+- [[DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：**DeepGEMM 共同作者 / kernel 技术协作者**。2025 DeepGEMM 作者网络明确重叠；赵成钢同时参与 DeepEP，刘胜与同时参与 FlashMLA，因此二人分别从通信与 attention/kernel 两侧连接 DeepSeek MoE inference stack。
+- [[DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：**DeepGEMM 共同作者**。2025 共同位于 DeepGEMM 原始作者网络；周可行偏 compiler/MLIR/GEMM，刘胜与偏 serving/attention/GEMM kernel。公开资料未确认首次直接协作月份。
+
 ## 图谱意义
 刘胜与是“学术型 LLM serving → 模型公司 kernel → 开源推理生态”之间很清晰的桥梁节点：北大 DistServe / LoongServe 的 serving 研究经验，进入 DeepSeek 后继续下沉到 FlashMLA / DeepGEMM 等 GPU kernel 项目。
-
-## 关系
-[[DeepSeek]] · [[DeepSeek-Infra]] · [[FlashMLA]] · [[DeepGEMM]] · [[vLLM]] · [[SGLang]]
 
 ## Sources
 - Personal homepage: Shengyu Liu | 刘胜与
