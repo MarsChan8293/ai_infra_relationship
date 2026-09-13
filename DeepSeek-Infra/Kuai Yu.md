@@ -1,0 +1,15 @@
+---
+type: person
+name: Kuai Yu
+communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+---
+# Kuai Yu
+
+## 项目关系
+[[DeepEP]] · [[DeepGEMM]]
+
+## 教育与工作经历
+公开简历待补。
+
+## 技术方向
+MoE communication、GEMM kernels。
