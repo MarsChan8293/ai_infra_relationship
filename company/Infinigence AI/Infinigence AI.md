@@ -16,9 +16,19 @@ focus: [heterogeneous-compute, training-inference-platform, scheduling, maas, ag
 - 推理执行、流量治理、模型服务与 MaaS
 - 软件硬件协同优化
 
-## 图谱中的连接
-它是观察“国产异构算力 ↔ 大模型训练推理软件栈 ↔ AI 原生企业”的重要节点。后续人物 BFS 应优先挖核心 systems 团队、调度/推理负责人，以及与国内模型公司和智算中心的公开技术协作。
+## 核心人物
+- [[company/Infinigence AI/汪玉 Yu Wang|汪玉（Yu Wang）]] — 发起人；清华电子系教授，AI systems / 高能效计算学术上游
+- [[company/Infinigence AI/夏立雪 Lixue Xia|夏立雪（Lixue Xia）]] — 联合创始人、CEO；汪玉博士学生
+- [[company/Infinigence AI/戴国浩 Guohao Dai|戴国浩（Guohao Dai）]] — 联合创始人、Chief Scientist；清华电子系 AI systems 研究网络
+- [[company/Infinigence AI/李伯勋 Boxun Li|李伯勋（Boxun Li）]] — CTO；高能效计算、软硬件协同与工程落地
+
+## BFS 主线
+[[汪玉 Yu Wang|汪玉]] → [[夏立雪 Lixue Xia|夏立雪]] / [[戴国浩 Guohao Dai|戴国浩]] / [[李伯勋 Boxun Li|李伯勋]] → 异构算力调度、训练/推理、Agentic Infra。
+
+这条关系的核心不是普通“清华校友”，而是明确的导师/学生与同一研究技术谱系向创业公司的迁移。
 
 ## Sources
 - https://www.infinigence-ai.com/
 - https://www.infinigence-ai.com/about-us.html
+- https://www.tsinghua.edu.cn/info/1182/119968.htm
+- https://www.qimingvc.com/cn/node/7623
