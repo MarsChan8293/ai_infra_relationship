@@ -7,6 +7,9 @@ if (!contentRoot || !fs.existsSync(contentRoot)) {
   process.exit(2)
 }
 
+const failOnAmbiguous = process.env.WIKILINK_FAIL_ON_AMBIGUOUS === "1"
+const failOnMissing = process.env.WIKILINK_FAIL_ON_MISSING === "1"
+
 const toPosix = (value) => value.split(path.sep).join("/")
 const stripMd = (value) => value.replace(/\.md$/i, "")
 
@@ -200,13 +203,23 @@ for (const source of records) {
   if (rewritten !== original) fs.writeFileSync(source.file, rewritten)
 }
 
+const unresolvedByReason = unresolved.reduce((acc, item) => {
+  acc[item.reason] = (acc[item.reason] ?? 0) + 1
+  return acc
+}, {})
+
 const report = {
   markdownFiles: records.length,
   stagedRenames,
   totalLinks,
   resolvedLinks,
   unresolvedLinks,
+  unresolvedByReason,
   samePageLinks,
+  policy: {
+    failOnAmbiguous,
+    failOnMissing,
+  },
   unresolved,
 }
 
@@ -214,15 +227,25 @@ const reportPath = path.join(contentRoot, ".wikilink-audit.json")
 fs.writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`)
 
 console.log(`Wikilink audit: ${records.length} Markdown files, ${totalLinks} links, ${resolvedLinks} resolved, ${unresolvedLinks} unresolved, ${samePageLinks} same-page links.`)
+console.log(`Unresolved by reason: ${JSON.stringify(unresolvedByReason)}`)
 if (stagedRenames.length > 0) {
   console.log(`Normalized ${stagedRenames.length} dotted Markdown filenames in the staged build copy:`)
   for (const item of stagedRenames) console.log(`- ${item.from} -> ${item.to}`)
 }
 if (unresolved.length > 0) {
-  console.log("Unresolved/ambiguous wikilinks were rendered as plain text to prevent 404s:")
+  console.log("Unresolved/ambiguous wikilinks are rendered as plain text to prevent 404s, but are preserved in the audit artifact:")
   for (const item of unresolved.slice(0, 200)) {
     const suffix = item.candidates.length ? ` candidates=${item.candidates.join(", ")}` : ""
     console.log(`- ${item.source}: [[${item.target}]] (${item.reason})${suffix}`)
   }
   if (unresolved.length > 200) console.log(`... plus ${unresolved.length - 200} more; see ${reportPath}`)
+}
+
+const ambiguousCount = unresolvedByReason.ambiguous ?? 0
+const missingCount = unresolvedByReason.missing ?? 0
+if ((failOnAmbiguous && ambiguousCount > 0) || (failOnMissing && missingCount > 0)) {
+  console.error(
+    `Wikilink policy failed: ambiguous=${ambiguousCount} (fail=${failOnAmbiguous}), missing=${missingCount} (fail=${failOnMissing}).`,
+  )
+  process.exit(1)
 }
