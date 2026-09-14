@@ -1,0 +1,47 @@
+schema: ai-infra-relationship/school-v1
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - aliases
+  - labs
+  - people
+  - areas
+  - country
+  - city
+  - last_verified
+fields:
+  type:
+    const: school
+  name:
+    type: string
+    description: Canonical university, college, or academic institution name. Chinese institutions use the verified Chinese canonical name.
+  aliases:
+    type: array[string]
+    description: Alternative English names, abbreviations, and stable search aliases.
+  labs:
+    type: array[string]
+    description: Labs or research groups that have a direct, verifiable relationship with the institution.
+  people:
+    type: array[string]
+    description: Optional high-value people references; do not mechanically enumerate every alumnus or employee.
+  areas:
+    type: array[string]
+    description: AI Infra, systems, inference, distributed systems, compiler, networking, or related technical strengths represented in this graph.
+  country:
+    type: string
+  city:
+    type: string
+  website:
+    type: string
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+legacy_migration:
+  title: name
+notes:
+  - `school` is the canonical node type currently used by institution pages under `university/`.
+  - The directory name `university/` is a top-level content category and does not require the frontmatter type to be `university`.
+  - A school node should explain why the institution belongs in the AI Infra talent graph, especially relevant labs, people, projects, or research lineages.
+  - Merely sharing an institution is not enough to infer classmates, advisor relationships, or direct collaboration.
