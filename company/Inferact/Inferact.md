@@ -2,11 +2,15 @@
 type: company
 name: Inferact
 focus: ai-inference-infrastructure
+projects: [vLLM]
 ---
 # Inferact
 
 ## 公司简介
 Inferact 是 AI inference infrastructure 公司，由 vLLM 创建者、核心维护者与 UC Berkeley systems 教授网络共同发起。它的核心特征是把商业 inference optimization 与 [[vLLM]] 的开放社区继续绑定，是 Berkeley “systems research → open-source engine → startup”链条的最新产业节点之一。
+
+## 主要贡献的社区项目
+- [[community/vLLM/vLLM|vLLM]]：公司由 vLLM creator / core maintainers 创立，当前仍是最强的 **creator + core maintainer network** 公司节点之一；这不改变 vLLM 的公开社区治理属性。
 
 ## 核心创始网络
 - [[Simon Mo]]：联合创始人 / CEO；vLLM core maintainer

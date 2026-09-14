@@ -1,6 +1,8 @@
 ---
 type: project
 name: vLLM-Ascend
+companies: [Huawei]
+company_relation: hardware-ecosystem-core-contributor
 layer: hardware-backend
 open_source: true
 ---
@@ -11,6 +13,9 @@ vLLM-Ascend 是 vLLM 面向 Huawei Ascend NPU 的硬件插件/backend 社区，�
 
 ## GitHub
 https://github.com/vllm-project/vllm-ascend
+
+## 主要贡献公司
+- [[company/Huawei/Huawei|Huawei]]：Ascend/CANN 硬件与软件生态的核心公司贡献方。vLLM-Ascend 仍由 vLLM Project / vLLM-Ascend 社区治理，因此这里表示 **hardware ecosystem core contributor**，不是公司私有项目。
 
 ## 主要维护者 / 组织
 由 vLLM Project / vLLM-Ascend 社区维护。当前图谱按 roadmap、release、社区组织等公开职责记录 [[Wang Xiyuan]]、[[yiz-liu]]、[[zzzzwwjj]]、[[weijinqian0]]、[[ningjingbengxiaohai]] 等节点。

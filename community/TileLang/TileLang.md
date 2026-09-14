@@ -2,6 +2,8 @@
 type: community
 name: TileLang
 category: ai-compiler-kernel-dsl
+companies: []
+company_relation: academic-research-led
 github: https://github.com/tile-ai/tilelang
 ---
 # TileLang
@@ -10,6 +12,9 @@ github: https://github.com/tile-ai/tilelang
 TileLang（Tile Language）是面向 AI workload 高性能 kernel 开发的领域专用语言与编译系统。它以 Pythonic DSL 描述 tile 级数据流，在 TVM 编译基础设施之上提供更显式的 memory placement、data movement、layout、thread binding 与 software pipelining 控制，目标是在保持可编程性的同时接近手写 GPU kernel 的性能。
 
 当前官方示例覆盖 GEMM、Dequant GEMM、FlashAttention、LinearAttention、MLA decoding 等典型训练/推理 kernel，并面向 NVIDIA、AMD 等多种加速器。它在图谱中的定位不是 serving engine，而是连接模型算子与硬件执行层的 **AI compiler / kernel DSL**。
+
+## 主要贡献公司
+TileLang 的强起源边是北京大学学术团队与 Microsoft Research Asia 的研究/实习协作，但当前没有证据支持把项目归为某一家公司的主导开源项目，因此 `companies` 保持为空。作者后来进入 NVIDIA、ByteDance 等公司属于人才迁移，不反向改写项目归属。
 
 ## GitHub
 - https://github.com/tile-ai/tilelang

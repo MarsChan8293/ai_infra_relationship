@@ -2,12 +2,17 @@
 type: project
 name: VCCL
 full_name: Venus Collective Communication Library
+companies: [基流科技]
+company_relation: industry-research-co-development
 layer: collective-communication
 open_source: true
 ---
 # VCCL
 
 Venus Collective Communication Library，面向大规模 GPU 训练集群的集合通信库，由 Shanghai Innovation Institute（SII）与 [[基流科技]] / Infrawaves 支持。
+
+## 主要贡献公司
+- [[company/基流科技/基流科技|基流科技 / InfraWaves]]：VCCL 的主要产业支持与作者网络来源；SII 是共同研究支持机构，因此不放入 `companies` 公司字段。
 
 ## 技术方向
 - AllReduce / AllGather / Reduce / Broadcast / ReduceScatter / Send-Recv

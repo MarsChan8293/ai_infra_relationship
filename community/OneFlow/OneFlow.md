@@ -1,6 +1,8 @@
 ---
 type: project
 name: OneFlow
+companies: [OneFlow Inc]
+company_relation: company-originated
 layer: distributed-deep-learning-framework
 open_source: true
 ---
@@ -8,6 +10,9 @@ open_source: true
 
 ## 项目简介
 OneFlow 是分布式深度学习框架，也是 [[SiliconFlow]] 核心创业团队的重要人才上游。2021 OneFlow 系统论文把框架的分布式执行、consistent tensor 等设计系统化；此后核心团队经历光年之外并购链，袁进辉于 2023 再创业进入 SiliconFlow。
+
+## 主要贡献公司
+- [[company/OneFlow Inc/OneFlow Inc|OneFlow Inc]]：OneFlow 的原始开发与长期维护公司节点；Zhejiang Lab 等为共同研究机构，不写入公司字段。
 
 ## 核心图谱节点
 - [[company/SiliconFlow/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]] — OneFlow 创始人 / CEO；后创立 SiliconFlow

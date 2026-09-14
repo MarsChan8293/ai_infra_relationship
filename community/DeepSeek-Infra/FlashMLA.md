@@ -2,6 +2,8 @@
 type: project
 name: FlashMLA
 parent: DeepSeek-Infra
+companies: [DeepSeek]
+company_relation: company-led
 layer: attention-kernels
 open_source: true
 ---
@@ -12,6 +14,9 @@ FlashMLA 是 DeepSeek 面向 Multi-head Latent Attention（MLA）与相关 spars
 
 ## GitHub
 https://github.com/deepseek-ai/FlashMLA
+
+## 主要贡献公司
+- [[company/DeepSeek/DeepSeek|DeepSeek]]：发起并通过 deepseek-ai 维护。
 
 ## 主要维护者 / 组织
 由 [[DeepSeek]] / deepseek-ai 维护。原始公开作者节点包括 [[Jiashi Li]] 与 [[刘胜与 Shengyu Liu]]。

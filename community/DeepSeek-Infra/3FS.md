@@ -2,6 +2,8 @@
 type: project
 name: 3FS
 parent: DeepSeek-Infra
+companies: [DeepSeek]
+company_relation: company-led
 layer: distributed-storage
 open_source: true
 ---
@@ -12,6 +14,9 @@ open_source: true
 
 ## GitHub
 https://github.com/deepseek-ai/3FS
+
+## 主要贡献公司
+- [[company/DeepSeek/DeepSeek|DeepSeek]]：发起并通过 deepseek-ai 维护。
 
 ## 主要维护者 / 组织
 由 [[DeepSeek]] / deepseek-ai 维护。人物关系应以仓库公开作者和长期贡献为准，不从公司归属反推具体模块负责人。

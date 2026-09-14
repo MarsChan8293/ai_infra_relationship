@@ -1,6 +1,8 @@
 ---
 type: project
 name: Colossal-AI
+companies: [HPC-AI Tech]
+company_relation: company-originated
 layer: distributed-training
 open_source: true
 ---
@@ -8,6 +10,9 @@ open_source: true
 
 ## 项目简介
 Colossal-AI 是由 [[HPC-AI Tech]] 发起的大规模 AI 训练/推理系统，覆盖 data / tensor / pipeline / sequence parallelism、ZeRO、异构内存、MoE、checkpoint 与 RL/LLM 训练等方向。
+
+## 主要贡献公司
+- [[company/HPC-AI Tech/HPC-AI Tech|HPC-AI Tech]]：项目发起方与长期核心工程组织，是本图谱中 Colossal-AI 最强的公司级归属边。
 
 ## 核心人物网络
 - [[company/HPC-AI Tech/尤洋 Yang You|尤洋（Yang You）]] — HPC-AI Tech 创始人；Colossal-AI 创业/研究核心

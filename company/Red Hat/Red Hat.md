@@ -1,11 +1,16 @@
 ---
 type: company
 name: Red Hat
+projects: [vLLM, llm-d]
 ---
 # Red Hat
 
 ## 公司简介
 Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubernetes 是其核心平台。在生成式 AI 时代，Red Hat 的 AI Infra 角色集中在企业 Kubernetes、模型 serving platform、vLLM 工程与开放的 distributed inference 生态。
+
+## 主要贡献的社区项目
+- [[community/vLLM/vLLM|vLLM]]：**core maintainer / project leadership / performance engineering** 的主要公司网络之一。
+- [[community/llm-d/llm-d|llm-d]]：**founding contributor**，覆盖项目 leadership、PD/KV disaggregation 与社区生态。
 
 ## 推理优化人才连接
 - [[Robert Shaw]]：Director of Engineering；[[vLLM]] Lead Maintainer / Project Lead，[[llm-d]] PD-Disaggregation SIG Lead。

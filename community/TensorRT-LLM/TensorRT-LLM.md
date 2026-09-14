@@ -3,6 +3,8 @@ type: project
 name: TensorRT-LLM
 governance: company-led
 company: NVIDIA
+companies: [NVIDIA]
+company_relation: company-led
 layer: inference-runtime
 open_source: true
 ---
@@ -13,6 +15,9 @@ TensorRT-LLM 是 NVIDIA 面向 LLM inference 的 runtime、kernel 与模型执�
 
 ## GitHub
 https://github.com/NVIDIA/TensorRT-LLM
+
+## 主要贡献公司
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：项目主导维护公司。
 
 ## 主要维护者 / 组织
 由 [[NVIDIA]] 主导维护。仓库人物页按公开长期贡献/维护证据建模，不把所有 NVIDIA 员工自动纳入核心项目组。

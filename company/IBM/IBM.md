@@ -1,11 +1,15 @@
 ---
 type: company
 name: IBM
+projects: [llm-d]
 ---
 # IBM
 
 ## 公司简介
 IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施重点包括 watsonx、Red Hat/OpenShift 协同、企业模型部署与混合云运行环境。在开源 AI serving 图谱中，IBM 同时贡献项目级治理、routing、KV cache / storage 与 benchmarking 人才。
+
+## 主要贡献的社区项目
+- [[community/llm-d/llm-d|llm-d]]：**founding contributor**；项目 leadership、Router、KV-disaggregation 与 storage/research systems 的核心公司网络之一。
 
 ## 推理优化人才连接
 - [[community/llm-d/Carlos Costa|Carlos Costa]]：Distinguished Engineer；[[llm-d]] 项目创始/核心 leadership 网络。

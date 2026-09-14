@@ -1,6 +1,8 @@
 ---
 type: project
 name: SGLang
+companies: [RadixArk]
+company_relation: core-maintainer-network
 layer: llm-serving-engine
 open_source: true
 ---
@@ -11,6 +13,9 @@ SGLang 是面向大语言模型与多模态模型的高性能 serving framework�
 
 ## GitHub
 https://github.com/sgl-project/sglang
+
+## 主要贡献公司
+- [[company/RadixArk/RadixArk|RadixArk]]：公司人物网络与 SGLang core maintainer / runtime / kernel / release engineering 高度重叠，是当前最清晰的产业核心贡献节点。这里标记为 **core-maintainer network**，不把 SGLang 社区所有权归给 RadixArk。
 
 ## 主要维护者 / 组织
 由 sgl-project 社区维护，起源与 UC Berkeley Sky Computing Lab 高度相关，并形成 [[RadixArk]] 等产业化节点。核心人物包括 [[郑连民 Lianmin Zheng]]、[[盛颖 Ying Sheng]]、[[尹良升 Liangsheng Yin]]、[[谢志强 Zhiqiang Xie]]，以及 RadixArk/SGLang 社区的 Cheng Wan、Qiaolin Yu、Baizhou Zhang 等。

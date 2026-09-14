@@ -3,6 +3,8 @@ type: project
 name: NIXL
 governance: company-led
 company: NVIDIA
+companies: [NVIDIA]
+company_relation: company-led
 layer: inference-data-movement
 open_source: true
 ---
@@ -13,6 +15,9 @@ NIXL（NVIDIA Inference Xfer Library）是推理数据传输与内存抽象层�
 
 ## GitHub
 https://github.com/ai-dynamo/nixl
+
+## 主要贡献公司
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：项目发起与主要工程组织；在 ai-dynamo 组织下开放开发。
 
 ## 主要维护者 / 组织
 由 NVIDIA 发起并在 ai-dynamo 组织下开放开发，连接 UCX、libfabric、GPU Direct 等底层传输生态。

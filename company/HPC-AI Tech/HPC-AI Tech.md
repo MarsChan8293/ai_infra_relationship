@@ -3,11 +3,15 @@ type: company
 name: HPC-AI Tech
 aliases: [潞晨科技, HPC-AI Tech]
 focus: [distributed-training, inference, fine-tuning, maas, gpu-cloud]
+projects: [Colossal-AI]
 ---
 # HPC-AI Tech（潞晨科技）
 
 ## 公司简介
 HPC-AI Tech（潞晨科技）是围绕高性能计算与大模型系统构建训练、微调、推理和部署平台的 AI infra 公司，核心开源项目为 [[Colossal-AI]]。
+
+## 主要贡献的社区项目
+- [[community/Colossal-AI/Colossal-AI|Colossal-AI]]：**发起 / 主导 / 长期维护**，是 HPC-AI Tech 最核心的开源系统项目。
 
 ## AI Infra 位置
 - 分布式训练与并行系统

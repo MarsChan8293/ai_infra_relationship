@@ -2,6 +2,8 @@
 type: project-collection
 name: DeepSeek Infra
 company: DeepSeek
+companies: [DeepSeek]
+company_relation: company-led
 layer: systems-stack
 open_source: true
 ---
@@ -19,6 +21,9 @@ DeepSeek Infra 是 [[DeepSeek]] 对外开源的系统基础设施项目集合，
 - [[FlashMLA]]：https://github.com/deepseek-ai/FlashMLA
 - [[3FS]]：https://github.com/deepseek-ai/3FS
 - [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT
+
+## 主要贡献公司
+- [[company/DeepSeek/DeepSeek|DeepSeek]]：项目集合的发起、开源与主要维护组织；各子项目均单独保留公司归属与人物维护证据。
 
 ## 主要维护者 / 组织
 由 DeepSeek / deepseek-ai 组织公开维护。各子项目的作者与维护网络独立记录，不把同属 DeepSeek Infra 自动等价为同一小组长期共事。

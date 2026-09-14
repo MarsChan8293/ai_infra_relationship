@@ -2,6 +2,8 @@
 type: project
 name: llm-d
 governance: cross-company
+companies: [Red Hat, Google, IBM, CoreWeave, NVIDIA]
+company_relation: founding-contributors
 layer: kubernetes-distributed-inference
 open_source: true
 ---
@@ -14,6 +16,16 @@ llm-d 是面向 Kubernetes 的分布式 LLM inference serving 项目，目标是
 
 ## GitHub
 https://github.com/llm-d/llm-d
+
+## 主要贡献公司
+llm-d 从一开始就是跨公司项目，不应归到单一厂商。官方 founding / launch 网络中最强的公司边为：
+- [[company/Red Hat/Red Hat|Red Hat]]：项目 founding / leadership、PD/KV disaggregation 与社区生态。
+- [[company/Google/Google|Google]]：项目 founding / leadership、Router、Benchmarking 与 Kubernetes serving 生态。
+- [[company/IBM/IBM|IBM]]：项目 founding / leadership、Router、KV-disaggregation 与 research/storage systems。
+- [[company/CoreWeave/CoreWeave|CoreWeave]]：founding contributor / production GPU cloud 侧参与。
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：founding contributor / GPU platform 与 distributed inference 生态。
+
+AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem partner 不自动提升为 founding contributor 级别。
 
 ## 项目治理骨架
 - [[Carlos Costa]]（[[IBM]]）、[[Clayton Coleman]]（[[Google]]）、[[Robert Shaw]]（[[Red Hat]]）：**项目创始/核心维护网络**。三人从 2025 社区发布起持续共同署名 0.2、0.3、0.4、0.5 等主要 release 内容；官方 founding proposal / governance 将其放在跨公司技术领导网络中。Clayton 的页面保留其 leave/inactive 状态说明，不把历史 leadership 自动写成持续活跃维护。

@@ -2,6 +2,8 @@
 type: project
 name: KTransformers
 organization: KVCache.AI
+companies: [Approaching.AI]
+company_relation: industry-academia-core-network
 layer: heterogeneous-inference
 open_source: true
 ---
@@ -12,6 +14,10 @@ KTransformers 是面向 heterogeneous LLM inference / fine-tune 优化的框架�
 
 ## GitHub
 https://github.com/kvcache-ai/ktransformers
+
+## 主要贡献公司
+- [[company/Approaching.AI/Approaching.AI|Approaching.AI]]：当前公司人才网络与 KTransformers maintainer / 清华 MADSys 技术谱系直接重叠，是本图谱中最强的产业贡献节点。
+- 9#AISoft 等组织也出现在项目历史维护/作者网络中；暂不为弱关系单独扩公司节点。
 
 ## 主要维护者 / 组织
 项目现由 KVCache.AI 组织维护，核心研发网络与清华大学 MADSys Lab 高度重叠。SOSP 2025 KTransformers 作者网络包括 [[Hongtao Chen]]、[[谢威宇 Weiyu Xie]]、[[Boxin Zhang]]、[[Jingqi Tang]]、[[Jiahao Wang]]、[[Jianwei Dong]]、[[Qingliang Ou]]、[[Ziwei Yuan]] 等。

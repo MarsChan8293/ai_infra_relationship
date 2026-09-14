@@ -2,6 +2,8 @@
 type: project
 name: Triton Inference Server
 company: NVIDIA
+companies: [NVIDIA]
+company_relation: company-led
 layer: production-inference-server
 open_source: true
 ---
@@ -12,6 +14,9 @@ Triton Inference Server 是 NVIDIA 的通用 production inference server，支�
 
 ## GitHub
 https://github.com/triton-inference-server/server
+
+## 主要贡献公司
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：项目发起与主要维护公司。
 
 ## 主要维护者 / 组织
 由 [[NVIDIA]] / Triton Inference Server 社区维护，具体 backend 通常分布在多个仓库与子项目中。

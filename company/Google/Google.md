@@ -1,11 +1,15 @@
 ---
 type: company
 name: Google
+projects: [llm-d]
 ---
 # Google
 
 ## 公司简介
 Google 在 AI Infra 中横跨 TPU、JAX/XLA、Kubernetes/GKE、数据中心网络、模型训练和 production serving，同时拥有 Google DeepMind / Gemini 等 foundation-model 体系。它既是硬件/编译/云平台提供者，也是大模型研究组织，因此常同时出现在基础设施和模型图谱两侧。
+
+## 主要贡献的社区项目
+- [[community/llm-d/llm-d|llm-d]]：**founding contributor**；公司人员覆盖项目 leadership、Router、Benchmarking 与 Kubernetes serving 生态。
 
 ## 推理优化人才连接
 - [[community/llm-d/Clayton Coleman|Clayton Coleman]]：Distinguished Engineer；[[llm-d]] founding / project leadership 网络成员，当前活跃状态按其 leave/inactive 记录处理。

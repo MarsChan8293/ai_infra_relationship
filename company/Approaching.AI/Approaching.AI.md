@@ -3,11 +3,16 @@ type: company
 name: Approaching.AI
 aliases: [趋境科技, Approaching.AI]
 focus: [ai-inference, token-service, heterogeneous-inference, kv-cache]
+projects: [KTransformers]
 ---
 # Approaching.AI（趋境科技）
 
 ## 公司简介
 Approaching.AI 聚焦大模型系统与推理基础设施，承接清华系统研究、KTransformers / Mooncake 等开源技术积累，重点推进异构推理、KV cache、以存换算与高效 Token 生产服务。
+
+## 主要贡献的社区项目
+- [[community/KTransformers/KTransformers|KTransformers]]：公司当前人才网络与 KTransformers maintainer / 清华 MADSys 技术谱系直接重叠，是最清晰的产业核心贡献项目。
+- [[community/Mooncake/Mooncake|Mooncake]] 与 Approaching.AI 有持续工程人物连接，但 Mooncake 的主要产业共研起源仍标记为 Moonshot AI；这里保留为人物/工程协作关系，不加入 `projects` 主列表。
 
 ## 核心人物
 - [[company/Approaching.AI/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]] — 创始人、CEO；Token service / inference infrastructure

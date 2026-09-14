@@ -2,6 +2,8 @@
 type: project
 name: DeepEP
 parent: DeepSeek-Infra
+companies: [DeepSeek]
+company_relation: company-led
 layer: expert-parallel-communication
 open_source: true
 ---
@@ -12,6 +14,9 @@ DeepEP 是 DeepSeek 面向 MoE Expert Parallel 的高性能通信库，优化 to
 
 ## GitHub
 https://github.com/deepseek-ai/DeepEP
+
+## 主要贡献公司
+- [[company/DeepSeek/DeepSeek|DeepSeek]]：发起并通过 deepseek-ai 维护。
 
 ## 主要维护者 / 组织
 由 [[DeepSeek]] / deepseek-ai 维护。原始公开作者网络已记录 [[赵成钢 Chenggang Zhao]]、[[Shangyan Zhou]]、[[Liyue Zhang]]、[[Chengqi Deng]]、[[Zhean Xu]]、[[Yuxuan Liu]]、[[Kuai Yu]]、[[Jiashi Li]]、[[Liang Zhao]]。

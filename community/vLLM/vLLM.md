@@ -1,6 +1,8 @@
 ---
 type: project
 name: vLLM
+companies: [Inferact, Red Hat, Meta, Hugging Face, TensorMesh]
+company_relation: cross-company-core-contributors
 layer: inference-engine
 open_source: true
 ---
@@ -13,6 +15,14 @@ vLLM 是面向大语言模型与多模态模型的高吞吐、低延迟推理与
 
 ## GitHub
 https://github.com/vllm-project/vllm
+
+## 主要贡献公司
+vLLM 采用公开 governance，不归属于单一公司。这里的公司边表示 **核心维护者/长期工程贡献者的主要任职组织**，不是项目所有权：
+- [[company/Inferact/Inferact|Inferact]]：vLLM 创建者与多位 core maintainer 的当前创业组织。
+- [[company/Red Hat/Red Hat|Red Hat]]：拥有密集的 vLLM project lead / maintainer / kernel & distributed inference 工程网络。
+- [[company/Meta/Meta|Meta]]：多位 vLLM contributor / maintainer 与 PyTorch compiler、RL serving 等方向形成直接工程连接。
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：模型集成与 Transformers compatibility 方向的重要产业贡献网络。
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：KV cache / disaggregated serving 与 vLLM KV Connector 方向的核心产业网络。
 
 ## 主要维护者 / 组织
 vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat]]、[[Meta]]、[[Hugging Face]]、[[TensorMesh]] 等公司和研究机构，因此“同属 vLLM”不等于“公司同事”。
