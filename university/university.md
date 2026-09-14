@@ -7,6 +7,7 @@
 - [[UC Berkeley]]：Sky/RISE/AMPLab 系统网络，连接 Ray/Ray Serve、vLLM、SGLang、Inferact、Anyscale、Databricks 与 OpenAI/Meta 人才流动。
 - [[Shanghai Jiao Tong University]]：至少包含 IPADS Modern AI Infrastructure 与 NNE-Lab/LightLLM 两支，连接 serving resource management、KV cache、LightLLM 与产业推理系统。
 - [[Peking University]]：已实体化杨智 AI compiler / kernel DSL 谱系，从 Rammer、Welder 延伸到 TileLang，并连接 MSRA、NVIDIA、ByteDance 与现有 DeepSeek/vLLM/UChicago 北大校友节点。
+- [[Microsoft Research Asia]]：MSRA systems / AI research 网络，连接北大 compiler / TileLang、vLLM、SGLang、DeepSeek、OneFlow / SiliconFlow 等人才迁移路径。
 
 ## 后续优先补充
 [[Stanford University]] · [[University of Chicago]] · [[Carnegie Mellon University]] · [[HKUST]]
