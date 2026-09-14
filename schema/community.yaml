@@ -1,0 +1,50 @@
+schema: ai-infra-relationship/community-v1
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - category
+  - repository
+  - companies
+  - company_relation
+  - areas
+  - governance
+  - last_verified
+fields:
+  type:
+    const: community
+  name:
+    type: string
+    description: Canonical technical community or ecosystem name.
+  category:
+    type: string
+    description: Broad technical category such as ai-compiler-kernel-dsl, serving, kernels, communication, or hardware-ecosystem.
+  repository:
+    type: string
+    description: Canonical official repository URL when the community is centered on a repository.
+  github:
+    type: string
+    description: Legacy/compatibility field for an official GitHub URL; prefer `repository` for new pages.
+  companies:
+    type: array[string]
+    description: Companies with strong founding, governance, or core-maintainer evidence.
+  company_relation:
+    type: string
+    description: Nature of the company relationship, following the same evidence standard as project nodes.
+  areas:
+    type: array[string]
+  governance:
+    type: string
+  people:
+    type: array[string]
+    description: Optional high-value maintainers or organizers with direct public evidence.
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+legacy_migration:
+  github: repository
+notes:
+  - Use `community` for a durable technical community or ecosystem identity. Use `project` for a concrete software project/repository when that is the primary identity.
+  - Repository compatibility, sponsorship, or downstream usage alone is not evidence of shared governance or people collaboration.
+  - Existing `type: community` pages remain valid during migration; obvious software-project cases may later be normalized to `project` deliberately rather than implicitly.
