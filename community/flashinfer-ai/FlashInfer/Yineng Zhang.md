@@ -1,7 +1,7 @@
 ---
 type: person-link
 name: Yineng Zhang
-canonical: SGLang/Yineng Zhang
+canonical: community/sgl-project/SGLang/Yineng Zhang
 communities: [FlashInfer, SGLang, Mooncake, TokenSpeed]
 ---
 # Yineng Zhang
