@@ -21,18 +21,19 @@ focus: [ai-systems-software, inference-engine, compiler, distributed-training, h
 - [[company/Qingcheng.ai/汤雄超 Xiongchao Tang|汤雄超（Xiongchao Tang）]] — 联合创始人、董事长、CEO
 - [[company/Qingcheng.ai/师天麾 Tianhui Shi|师天麾（Tianhui Shi）]] — 联合创始人；翟季冬博士生，参与八卦炉与 AI systems 研发
 - [[company/Qingcheng.ai/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]] — 联合创始人、赤兔推理引擎核心负责人；翟季冬博士生
+- [[company/Qingcheng.ai/马子轩 Zixuan Ma|马子轩（Zixuan Ma）]] — 高级研发专家；BaGuaLu 第一作者，训练系统 / AI compiler / serving 研究网络
 - [[company/Qingcheng.ai/靳江明 Jiangming Jin|靳江明（Jiangming Jin）]] — COO；分布式系统 / HPC
 - [[company/Qingcheng.ai/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]] — 首席科学家；清华 HPC / 大规模训练系统技术上游
 - [[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]] — 首席顾问；高性能计算体系结构与系统
 
 ## BFS 主线
-[[郑纬民 Weimin Zheng|郑纬民]] / [[翟季冬 Jidong Zhai|翟季冬]] → 清华 HPC / 八卦炉 → [[师天麾 Tianhui Shi|师天麾]] / [[唐适之 Shizhi Tang|唐适之]] 等博士生 → Qingcheng.ai → 赤兔、并行训练/推理、编译器与国产异构算力优化。
+[[郑纬民 Weimin Zheng|郑纬民]] / [[翟季冬 Jidong Zhai|翟季冬]] → 清华 HPC / BaGuaLu（八卦炉）→ [[马子轩 Zixuan Ma|马子轩]] / [[师天麾 Tianhui Shi|师天麾]] / [[唐适之 Shizhi Tang|唐适之]] → Qingcheng.ai → 赤兔、并行训练/推理、编译器与国产异构算力优化。
 
-其中“翟季冬 → 师天麾 / 唐适之”有清华课题组公开 alumni 和个人经历支持，可标记为正式博士导师/学生关系；其他创始成员只在有直接证据时继续补强。
+其中“翟季冬 → 师天麾 / 唐适之”有清华课题组公开 alumni 和个人经历支持，可标记为正式博士导师/学生关系；马子轩与翟季冬则至少有明确课题组与 BaGuaLu 论文合作关系。
 
 ## Sources
 - https://www.qc-ai.cn/
 - https://www.qc-ai.cn/about
+- https://www.qc-ai.cn/news/j3pafzw9afg5gm8fp370efr1
 - https://pacman.cs.tsinghua.edu.cn/~zjd/people/
-- https://www.tsinghua.org.cn/info/1953/42732.htm
-- https://www.ccf.org.cn/Activities/Training/ADL/ADL/2026-04-28/884626.shtml
+- https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/
