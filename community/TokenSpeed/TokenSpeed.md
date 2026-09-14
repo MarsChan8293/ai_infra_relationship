@@ -3,7 +3,7 @@ type: project
 name: TokenSpeed
 governance: foundation-led
 organization: LightSeek Foundation
-companies: [NVIDIA, AMD, Together AI, Alibaba Cloud]
+companies: [NVIDIA, AMD, Together AI, 阿里巴巴]
 company_relation: cross-company-co-creation
 layer: agentic-llm-inference-engine
 open_source: true
@@ -23,7 +23,7 @@ TokenSpeed 由 LightSeek Foundation 治理，不属于单一公司。公开 co-c
 - [[company/NVIDIA/NVIDIA|NVIDIA]]：DevTech / Dynamo 等工程协作与 day-0 backend 支持。
 - [[company/AMD/AMD|AMD]]：Triton / accelerator 侧共同开发网络。
 - [[company/Together AI/Together AI|Together AI]]：inference 团队参与共同创建；[[community/SGLang/Yineng Zhang|Yineng Zhang]] 同时是明确的人才桥。
-- [[company/Alibaba Cloud/Alibaba Cloud|Alibaba Cloud]]：通过 Qwen Inference 团队参与共同创建/优化网络。
+- [[company/阿里巴巴/阿里巴巴|阿里巴巴]]：通过 Qwen Inference 团队参与共同创建/优化网络。
 
 ## 主要维护者 / 组织
 由 LightSeek Foundation 社区维护。[[community/SGLang/Yineng Zhang|Yineng Zhang]] 于 2026-03 共同创建 TokenSpeed；其个人主页同时列其为 LightSeek Foundation governing board 成员。项目官方发布说明其开发汇集了多家 AI Infra 团队与开源维护者。

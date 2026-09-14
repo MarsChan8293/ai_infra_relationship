@@ -2,7 +2,7 @@
 type: project
 name: AIBrix
 parent: vLLM Project
-companies: [ByteDance]
+companies: [字节跳动]
 company_relation: company-originated
 layer: cloud-native-inference-infrastructure
 open_source: true
@@ -19,7 +19,7 @@ https://github.com/vllm-project/aibrix
 由 vLLM Project 社区维护；仓库以 Go 为主，采用 Apache-2.0 许可证。人物图谱优先按长期 maintainer、codeowner 与项目领导角色建模，不把普通 contributor 自动视为核心维护者。
 
 ## 主要贡献公司
-- [[company/ByteDance/ByteDance|ByteDance]]：AIBrix 的原始开发/开源贡献方，并有 ByteDance 内部生产部署背景；项目后续进入 vLLM Project 社区治理。因此这里标记为 **originator / primary company contributor**，不把当前社区治理误写成 ByteDance 私有项目。
+- [[company/字节跳动/字节跳动|字节跳动]]：AIBrix 的原始开发/开源贡献方，并有 ByteDance 内部生产部署背景；项目后续进入 vLLM Project 社区治理。因此这里标记为 **originator / primary company contributor**，不把当前社区治理误写成 ByteDance 私有项目。
 - Google、DaoCloud 等也有公开社区贡献，但当前不与“原始发起/主要公司贡献”混写；后续按持续 maintainer / codeowner 证据升级关系强度。
 
 ## 生态关系

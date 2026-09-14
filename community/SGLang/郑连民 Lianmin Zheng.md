@@ -12,7 +12,7 @@ areas: [llm-serving, distributed-systems, compilers, evaluation]
 SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。
 
 ## 教育经历
-- [[Shanghai Jiao Tong University]]：ACM 荣誉班本科
+- [[上海交通大学]]：ACM 荣誉班本科
 - [[UC Berkeley]]：计算机博士，导师 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph Gonzalez]]
 
 ## 工作与研究

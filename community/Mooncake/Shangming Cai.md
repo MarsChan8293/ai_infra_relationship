@@ -1,10 +1,10 @@
 # Shangming Cai
 
 社区：[[Mooncake]]、[[SGLang]]
-当前关联：[[Alibaba Cloud]]
+当前关联：[[阿里巴巴]]
 
 ## 工作经历
-- [[Alibaba Cloud]]：参与 Mooncake 与 SGLang 集成
+- [[阿里巴巴]]：参与 Mooncake 与 SGLang 集成
 
 ## Mooncake 角色
 - 官方 Codeowner

@@ -3,19 +3,19 @@ type: person
 name: 马腾
 english_name: Teng Ma
 aliases: [Teng Ma, 马腾]
-company: Alibaba Cloud
+company: 阿里巴巴
 communities: [Mooncake, SGLang, Dynamo]
 roles: [Codeowner, Primary Contact]
 ---
 # 马腾（Teng Ma）
 
 社区：[[Mooncake]]
-当前关联：[[Alibaba Cloud]]
+当前关联：[[阿里巴巴]]
 
 ## 教育与工作经历
 - Tsinghua University：PhD
 - CASIA / Alibaba：博士后研究
-- [[Alibaba Cloud]] Apsara Lab：Staff Engineer / Research Leader
+- [[阿里巴巴]] Apsara Lab：Staff Engineer / Research Leader
 
 ## Mooncake 角色
 - 官方 Codeowner / Primary contact 之一

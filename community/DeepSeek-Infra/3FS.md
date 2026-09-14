@@ -2,7 +2,7 @@
 type: project
 name: 3FS
 parent: DeepSeek-Infra
-companies: [DeepSeek]
+companies: [深度求索]
 company_relation: company-led
 layer: distributed-storage
 open_source: true
@@ -16,10 +16,10 @@ open_source: true
 https://github.com/deepseek-ai/3FS
 
 ## 主要贡献公司
-- [[company/DeepSeek/DeepSeek|DeepSeek]]：发起并通过 deepseek-ai 维护。
+- [[company/深度求索/深度求索|深度求索]]：发起并通过 deepseek-ai 维护。
 
 ## 主要维护者 / 组织
-由 [[DeepSeek]] / deepseek-ai 维护。人物关系应以仓库公开作者和长期贡献为准，不从公司归属反推具体模块负责人。
+由 [[深度求索]] / deepseek-ai 维护。人物关系应以仓库公开作者和长期贡献为准，不从公司归属反推具体模块负责人。
 
 ## 生态关系
 [[DeepSeek-Infra]] · [[Mooncake]] · [[NIXL]] · distributed storage。3FS 位于持久化/分布式存储层，而 Mooncake 更专注 serving KV cache，NIXL 更专注数据移动抽象。

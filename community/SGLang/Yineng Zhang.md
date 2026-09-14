@@ -28,7 +28,7 @@ areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inf
 
 ## 人物关系
 - [[community/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]、[[community/FlashInfer/陈乐群 Lequn Chen|陈乐群（Lequn Chen）]]、[[community/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]、[[community/FlashInfer/Wuwei Lin|Wuwei Lin]]、[[community/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：**FlashInfer 论文合著**；MLSys 2025 FlashInfer 论文共同作者。论文合著只证明该项目合作，不自动推断长期同事关系。
-- [[university/Tsinghua University/Ruoyu Qin|Ruoyu Qin]]、[[community/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]、[[community/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]、[[community/Mooncake/Shangming Cai|Shangming Cai]]、[[university/Tsinghua University/Mingxing Zhang|Mingxing Zhang]]、[[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：**Mooncake 论文/系统合作网络**；共同出现在 Mooncake 作者列表中，形成 KVCache-centric serving 的产学研连接。
+- [[university/清华大学/Ruoyu Qin|Ruoyu Qin]]、[[community/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]、[[community/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]、[[community/Mooncake/Shangming Cai|Shangming Cai]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：**Mooncake 论文/系统合作网络**；共同出现在 Mooncake 作者列表中，形成 KVCache-centric serving 的产学研连接。
 
 ## 图谱意义
 Yineng Zhang 是当前图谱里少见的“kernel → serving engine → production inference → 新 inference engine”连续桥梁：FlashInfer / Mooncake 的论文网络、SGLang 的开源维护、Together AI 的生产 inference，以及 2026 年 TokenSpeed 的创建都在同一条职业轨迹上。

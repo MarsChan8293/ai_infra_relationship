@@ -12,7 +12,7 @@ areas: [kv-cache, observability, llm-serving, systems]
 SGLang 原始论文作者、KV Cache 方向核心维护者，研究重点是大规模 ML systems、可观测性与可靠性。
 
 ## 教育经历
-- [[ShanghaiTech University]]：本科、硕士
+- [[上海科技大学]]：本科、硕士
 - [[Stanford University]]：计算机博士在读，MAST Lab；导师 Christos Kozyrakis，并与 Kayvon Fatahalian 合作
 
 ## 研究 / 实习经历

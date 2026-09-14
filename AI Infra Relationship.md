@@ -13,6 +13,8 @@
 ## 命名规则
 - 不使用 `README.md` 作为图谱实体节点。
 - 社区、公司、模型团队与技术项目均使用实体同名文件，例如 `company/OpenAI/OpenAI.md`、`community/vLLM/vLLM.md`。
+- 中国公司与中国高校统一使用**中文 canonical 名称**：目录名、实体文件 basename、frontmatter `name` / `title` 与双链目标均使用中文；英文名称只允许出现在来源 URL、必要的历史说明或非 canonical 搜索信息中。
+- 集团内部业务线与模型团队不重复建公司实体；例如阿里巴巴是唯一公司主节点，阿里云作为业务关系、Qwen/通义千问作为团队/模型节点挂在阿里巴巴下。
 - 对有可靠公开中文汉字姓名可确认的人物，文件名统一为 `中文名 English Name.md`，例如 `叶子豪 Zihao Ye.md`。
 - 人物页 frontmatter 同时保留 `name`、`english_name` 与 `aliases`，便于 Obsidian / Dataview 中英文检索。
 - 仅凭拼音、邮箱或 GitHub / GitCode handle 不猜中文汉字姓名。
@@ -80,7 +82,7 @@
 - **孤立节点复核**：人物页至少说明其与一个公司、学校、项目或社区的可核验关系；公司/项目页至少说明一个图谱连接。只有名字、裸双链或无法解释“为什么在图里”的节点应继续补证据或降级为待核验线索。
 
 ## Frontier Model Labs
-[[OpenAI]] · [[DeepSeek]] · [[Zhipu-AI]] · [[Qwen]] · [[Moonshot-AI]]
+[[OpenAI]] · [[深度求索]] · [[阿里巴巴]]（[[Qwen|通义千问]]） · [[月之暗面]] · [[智谱]]
 
 ## AI Infra
 [[vLLM]] · [[SGLang]] · [[TokenSpeed]] · [[FlashInfer]] · [[LMCache]] · [[Mooncake]] · [[Dynamo]] · [[NIXL]] · [[llm-d]] · [[TensorRT-LLM]] · [[KTransformers]] · [[AIBrix]] · [[HAMi]] · [[vLLM-Ascend]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]

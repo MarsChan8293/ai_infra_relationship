@@ -1,14 +1,14 @@
 ---
 type: person
 name: Su Fubao
-company: SenseTime
+company: 商汤科技
 communities: [LightLLM]
 roles: [Contributor]
 ---
 # Su Fubao
 
 ## 当前关系
-- [[SenseTime]]
+- [[商汤科技]]
 - [[LightLLM]]：量化与 kernel 方向贡献者
 
 ## 教育经历

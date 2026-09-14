@@ -4,7 +4,7 @@ name: Jingfan Sun
 company: NVIDIA
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
-education: [Zhejiang University, Georgia Institute of Technology]
+education: [浙江大学, Georgia Institute of Technology]
 ---
 # Jingfan Sun
 

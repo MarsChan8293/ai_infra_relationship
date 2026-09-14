@@ -12,7 +12,7 @@ areas: [llm-serving, scheduling, speculative-decoding]
 SGLang 核心维护者与原始论文作者之一，长期负责 scheduler、serving runtime 与 speculative decoding 等方向。
 
 ## 教育经历
-- [[Shanghai Jiao Tong University]]：ACM / 致远相关计算机培养体系，本科，2021 起
+- [[上海交通大学]]：ACM / 致远相关计算机培养体系，本科，2021 起
 - 个人主页标注为 incoming [[UC Berkeley]] PhD student
 
 ## 研究 / 社区经历

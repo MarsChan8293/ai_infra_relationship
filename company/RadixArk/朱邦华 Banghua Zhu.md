@@ -12,7 +12,7 @@ areas: [foundation-models, post-training, ai-infrastructure]
 [[RadixArk]] 联合创始人、CTO，研究与工程方向覆盖生成模型、post-training 与 AI infrastructure。
 
 ## 教育经历
-- [[Tsinghua University]]：电子工程本科，2018
+- [[清华大学]]：电子工程本科，2018
 - [[UC Berkeley]]：EECS 博士，2024；研究方向涉及统计、优化、强化学习与生成模型
 
 ## 工作 / 创业经历

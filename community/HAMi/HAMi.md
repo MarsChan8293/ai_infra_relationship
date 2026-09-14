@@ -1,7 +1,7 @@
 ---
 type: project
 name: HAMi
-companies: [4Paradigm, Dynamia, DaoCloud, NVIDIA, Huawei]
+companies: [第四范式, 密瓜智能, 道客, NVIDIA, 华为]
 company_relation: cross-company-maintainer-network
 layer: kubernetes-heterogeneous-device-virtualization
 open_source: true
@@ -15,11 +15,11 @@ HAMi 是 Kubernetes 上的异构加速器共享与虚拟化项目，重点解决
 https://github.com/Project-HAMi/HAMi
 
 ## 主要贡献公司
-- [[company/4Paradigm/4Paradigm|4Paradigm]]：HAMi 的原始创建/早期项目来源（前身 k8s-vGPU-scheduler）。
-- [[company/Dynamia/Dynamia|Dynamia]]：当前 maintainer 网络中的重要公司节点。
-- [[company/DaoCloud/DaoCloud|DaoCloud]]：云原生与 HAMi 社区的长期产业贡献方。
+- [[company/第四范式/第四范式|第四范式]]：HAMi 的原始创建/早期项目来源（前身 k8s-vGPU-scheduler）。
+- [[company/密瓜智能/密瓜智能|密瓜智能]]：当前 maintainer 网络中的重要公司节点。
+- [[company/道客/道客|道客]]：云原生与 HAMi 社区的长期产业贡献方。
 - [[company/NVIDIA/NVIDIA|NVIDIA]]：当前 maintainer / 异构加速器生态的重要产业贡献节点。
-- [[company/Huawei/Huawei|Huawei]]：Huawei Cloud / Ascend 侧参与社区与异构设备生态贡献。
+- [[company/华为/华为|华为]]：Huawei Cloud / Ascend 侧参与社区与异构设备生态贡献。
 
 HAMi 当前是跨公司社区项目，上述边分别表示 originator、maintainer 或主要产业贡献，不表示任何一家拥有项目。
 

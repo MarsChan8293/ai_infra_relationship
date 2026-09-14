@@ -4,7 +4,7 @@ name: 周可行
 english_name: Kexing Zhou
 aliases: [周可行, Kexing Zhou]
 communities: [DeepGEMM, DeepSeek-Infra]
-education: [Peking University]
+education: [北京大学]
 areas: [gpu-kernels, mlir, gemm, moe]
 name_verification: public technical tutorial
 ---
@@ -13,7 +13,7 @@ name_verification: public technical tutorial
 [[DeepGEMM]] 原始公开作者之一，关注 GPU GEMM、MoE kernels 与编译 / MLIR 方向。
 
 ## 教育与技术背景
-- [[Peking University]]：公开技术教程以 `Kexing Zhou（周可行）`、北京大学邮箱署名
+- [[北京大学]]：公开技术教程以 `Kexing Zhou（周可行）`、北京大学邮箱署名
 - 公开 MLIR 教程显示其具有编译器 / MLIR 工程背景
 
 ## DeepSeek Infra

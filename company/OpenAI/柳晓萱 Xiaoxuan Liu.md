@@ -13,7 +13,7 @@ areas: [llm-inference, speculative-decoding, post-training-infrastructure]
 当前：[[OpenAI]] Researcher；个人主页显示当前研究 pretraining algorithms，此前参与 gpt-oss inference 与 GPT-5 post-training infrastructure
 
 ## 教育经历
-- [[Peking University]]：本科
+- [[北京大学]]：本科
 - [[Carnegie Mellon University]]：硕士
 - [[UC Berkeley]]：Computer Science 博士；Sky Lab；导师 Alvin Cheung、[[Ion Stoica]]
 

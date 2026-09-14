@@ -18,9 +18,9 @@ areas: [distributed-training, llm-serving, speculative-decoding, ai-systems]
 
 ## 人物关系
 - [[community/Colossal-AI/Hongxin Liu|Hongxin Liu]]：**Colossal-AI 早期核心工程协作者**。两人在 Colossal-AI 系统与文档维护中有公开协作；之后 Shenggui 转向 SGLang / SpecForge。
-- [[company/ByteDance/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]：**HPC-AI / Colossal-AI 早期技术网络**。两人都处于 Colossal-AI 核心系统团队；当前分别连接 SGLang serving 与 ByteDance AI infra。
-- [[company/HPC-AI Tech/Haichen Huang|Haichen Huang]]：**Colossal-AI 论文 / 系统协作网络**。共同署名原始 Colossal-AI 系统工作；Haichen 当前仍在 HPC-AI Tech。
-- [[company/HPC-AI Tech/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文与创业技术网络**。共同署名 Colossal-AI；公开资料支持技术协作，不把其历史 startup 职位扩写成当前公司关系。
+- [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]：**HPC-AI / Colossal-AI 早期技术网络**。两人都处于 Colossal-AI 核心系统团队；当前分别连接 SGLang serving 与 ByteDance AI infra。
+- [[company/潞晨科技/Haichen Huang|Haichen Huang]]：**Colossal-AI 论文 / 系统协作网络**。共同署名原始 Colossal-AI 系统工作；Haichen 当前仍在 HPC-AI Tech。
+- [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文与创业技术网络**。共同署名 Colossal-AI；公开资料支持技术协作，不把其历史 startup 职位扩写成当前公司关系。
 
 ## Sources
 - https://www.shenggui.li/

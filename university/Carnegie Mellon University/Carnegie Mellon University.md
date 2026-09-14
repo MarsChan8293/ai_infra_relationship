@@ -10,12 +10,12 @@ Carnegie Mellon University（CMU）是本图谱中的 AI / systems 人才源头�
 
 ## 图谱中的人物连接
 - [[Ye Charlotte Qi]]：教育经历连接 CMU，后进入 vLLM / Inferact 相关推理系统网络。
-- [[company/Moonshot-AI/吴育昕 Yuxin Wu|吴育昕（Yuxin Wu）]]、[[company/Moonshot-AI/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：模型与系统人才网络连接到 Moonshot AI。
+- [[company/月之暗面/吴育昕 Yuxin Wu|吴育昕（Yuxin Wu）]]、[[company/月之暗面/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：模型与系统人才网络连接到 Moonshot AI。
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]、[[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：连接到 OpenAI / Berkeley / RL 与 inference systems 网络。
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：2017 年获 CMU Computer Science PhD，之后任 University of Chicago 教授，并共同创建 [[LMCache]] 与 [[TensorMesh]]。
 
 ## 图谱中的连接
-[[vLLM]] · [[company/Moonshot-AI/Moonshot-AI|Moonshot AI]] · [[OpenAI]] · [[University of Chicago]] · [[LMCache]] · [[TensorMesh]]
+[[vLLM]] · [[company/月之暗面/月之暗面|月之暗面]] · [[OpenAI]] · [[University of Chicago]] · [[LMCache]] · [[TensorMesh]]
 
 ## Sources
 - https://www.cs.cmu.edu/

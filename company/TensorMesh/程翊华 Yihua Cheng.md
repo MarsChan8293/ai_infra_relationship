@@ -12,7 +12,7 @@ roles: [Co-Founder, CTO]
 [[TensorMesh]] 联合创始人、CTO，[[LMCache]] 核心开发者，同时参与 [[vLLM]] 的 KV Connector、offloading 与缓存生态建设。
 
 ## 教育经历
-- [[Peking University]]：本科，2020；北京大学高能效计算与应用中心校友页明确列为“程翊华 Yihua Cheng”
+- [[北京大学]]：本科，2020；北京大学高能效计算与应用中心校友页明确列为“程翊华 Yihua Cheng”
 - [[University of Chicago]]：计算机博士；导师 [[Junchen Jiang]]
 
 ## 研究与工作经历

@@ -8,7 +8,7 @@ roles: [Maintainer]
 # Xingxing Hao
 
 ## 当前关系
-- [[Approaching.AI]]
+- [[趋境科技]]
 - [[KTransformers]]：官方 Maintainer
 
 ## 教育与工作经历

@@ -1,7 +1,7 @@
 ---
 type: project
 name: MindIE-SD
-companies: [Huawei]
+companies: [华为]
 company_relation: company-led
 layer: inference-kernels-and-dispatch
 hardware: [Ascend]
@@ -19,7 +19,7 @@ https://gitcode.com/Ascend/MindIE-SD
 未确认官方 GitHub canonical repository；本节点以官方 GitCode 仓库作为源码来源。
 
 ## 主要贡献公司
-- [[company/Huawei/Huawei|Huawei]]：Ascend/MindIE 官方技术栈的主要开发与维护公司节点。
+- [[company/华为/华为|华为]]：Ascend/MindIE 官方技术栈的主要开发与维护公司节点。
 
 ## 推理优化人物
 - [[betta18]]：2026 年处理 MoE dispatcher 路由选择与 W8A8 dynamic quant 精度对齐，并利用 `top_k` 与 EP size 关系决定 static / dynamic dispatcher。

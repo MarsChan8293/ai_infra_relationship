@@ -8,7 +8,7 @@ roles: [Maintainer, Paper Author]
 # Jiahao Wang
 
 ## 当前关系
-- [[Approaching.AI]]
+- [[趋境科技]]
 - [[KTransformers]]：官方 Maintainer、论文作者
 
 ## 教育与工作经历

@@ -11,7 +11,7 @@ roles: [CEO, Co-Founder, Associate Professor]
 当前：[[TensorMesh]] CEO / Co-Founder；[[University of Chicago]] Computer Science Associate Professor
 
 ## 教育与学术经历
-- [[Tsinghua University]]：姚班计算机本科，2011。
+- [[清华大学]]：姚班计算机本科，2011。
 - [[Carnegie Mellon University]]：Computer Science PhD，2017；导师 Vyas Sekar、Hui Zhang。
 - [[University of Chicago]]：2018-07 起任教，当前为 Computer Science Associate Professor。
 

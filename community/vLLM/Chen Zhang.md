@@ -12,7 +12,7 @@ areas: [rl-infrastructure, llm-inference, kv-cache, systems]
 当前：[[Meta]] AI Research Scientist；负责/深度参与 Muse Spark 大规模 RL system 与 RL inference system
 
 ## 教育经历
-- [[Tsinghua University]]：Computer Science 本科，2021；博士，2025；导师 Jidong Zhai，PACMAN group
+- [[清华大学]]：Computer Science 本科，2021；博士，2025；导师 Jidong Zhai，PACMAN group
 - [[UC Berkeley]]：2024 Visiting Student Researcher；后在 Sky Lab 从事博士后研究，与 [[Ion Stoica]] 合作
 
 ## 工作与社区经历

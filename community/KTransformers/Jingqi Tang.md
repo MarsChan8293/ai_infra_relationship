@@ -8,7 +8,7 @@ roles: [Maintainer, Paper Author]
 # Jingqi Tang
 
 ## 当前关系
-- [[Tsinghua University]] / MADSys Lab
+- [[清华大学]] / MADSys Lab
 - [[KTransformers]]：官方 Maintainer、论文作者
 
 ## 教育与工作经历

@@ -5,7 +5,7 @@
 GitHub：Fridge003
 
 ## 教育经历
-- [[Peking University]]：本科
+- [[北京大学]]：本科
 - UC San Diego：硕士
 
 ## 工作 / 实习经历

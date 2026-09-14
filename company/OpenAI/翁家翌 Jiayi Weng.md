@@ -11,7 +11,7 @@ areas: [reinforcement-learning, post-training, rl-infrastructure]
 当前公开个人页显示为 [[OpenAI]] Research Engineer，长期方向是 foundation model 的强化学习、RLHF / post-training 系统与高吞吐训练基础设施。
 
 ## 教育经历
-- [[Tsinghua University]]：计算机本科，2020 毕业
+- [[清华大学]]：计算机本科，2020 毕业
 - [[Carnegie Mellon University]]：硕士，2020–2022
 - 本科阶段在清华 TSAIL 跟随 Hang Su、Jun Zhu 做强化学习；曾在 Mila 与 Yoshua Bengio 团队做访问研究
 

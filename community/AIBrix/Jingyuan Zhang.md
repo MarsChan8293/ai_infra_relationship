@@ -1,14 +1,14 @@
 ---
 type: person
 name: Jingyuan Zhang
-company: ByteDance
+company: 字节跳动
 communities: [AIBrix]
 roles: [Active Contributor]
 ---
 # Jingyuan Zhang
 
 ## 当前关系
-- [[ByteDance]]
+- [[字节跳动]]
 - [[AIBrix]]：Batch runtime 方向活跃贡献者
 
 ## 教育经历

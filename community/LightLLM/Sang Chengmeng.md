@@ -1,14 +1,14 @@
 ---
 type: person
 name: Sang Chengmeng
-company: SenseTime
+company: 商汤科技
 communities: [LightLLM]
 roles: [Active Contributor]
 ---
 # Sang Chengmeng
 
 ## 当前关系
-- [[SenseTime]]
+- [[商汤科技]]
 - [[LightLLM]]：模型与多模态方向活跃贡献者
 
 ## 教育经历

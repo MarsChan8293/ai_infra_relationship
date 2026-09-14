@@ -4,11 +4,11 @@
 当前：[[Red Hat]] inference performance
 
 ## 教育经历
-- [[Wuhan University]]：软件工程本科
+- [[武汉大学]]：软件工程本科
 - [[Cornell University]]：计算机硕士
 
 ## 工作经历
-- [[SenseTime]]：研究 / 深度学习工程经历
+- [[商汤科技]]：研究 / 深度学习工程经历
 - [[Red Hat]]：2025 年加入，负责 vLLM inference performance
 
 ## 社区贡献

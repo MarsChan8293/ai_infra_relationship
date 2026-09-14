@@ -1,7 +1,7 @@
 ---
 type: project
 name: MindIE-LLM
-companies: [Huawei]
+companies: [华为]
 company_relation: company-led
 layer: inference-runtime
 hardware: [Ascend]
@@ -19,7 +19,7 @@ https://gitcode.com/Ascend/MindIE-LLM
 未确认官方 GitHub canonical repository；本节点以官方 GitCode 仓库作为源码来源。
 
 ## 主要贡献公司
-- [[company/Huawei/Huawei|Huawei]]：Ascend/MindIE 官方技术栈的主要开发与维护公司节点。
+- [[company/华为/华为|华为]]：Ascend/MindIE 官方技术栈的主要开发与维护公司节点。
 
 ## 推理优化技术线
 2026 年公开 MR 已出现 SplitFuse + Prefix Cache + MTP、Prefix Cache + SP、PD 混部等组合执行路径的修复与扩展。部分贡献者目前只能可靠确认 GitCode handle，暂不创建人物页，避免凭邮箱或拼音推断实名。

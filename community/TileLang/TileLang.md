@@ -44,11 +44,11 @@ TileLang 并非从零出现。它可以放在北大/微软 AI compiler 长链中
 - [[马凌霄 Lingxiao Ma]]：北大博士、杨智/代亚非指导；后任 MSRA researcher，Rammer/Roller/Welder 等系统核心作者，也是 TileLang 的产业研究指导桥梁。
 
 ## 生态关系
-- [[Peking University]]：TileLang 的主要学术源头，也是 Rammer/Welder/TileLang 连续 compiler genealogy 的核心节点。
+- [[北京大学]]：TileLang 的主要学术源头，也是 Rammer/Welder/TileLang 连续 compiler genealogy 的核心节点。
 - **Microsoft Research Asia**：从 Rammer、Welder 到 TileLang 均存在紧密的共同研究与实习指导关系。
 - **TVM**：TileLang 官方明确感谢 TVM 社区，当前编译基础设施建立在 TVM 之上。
 - [[NVIDIA]]：[[Yining Shi]] 的后续去向，把北大 compiler 人才链连接到 GPU 平台侧。
-- [[ByteDance]]：[[吴童 Tong Wu]] 的公开实习去向，是年轻 TileLang/LLM systems 人才向产业扩散的一个桥。
+- [[字节跳动]]：[[吴童 Tong Wu]] 的公开实习去向，是年轻 TileLang/LLM systems 人才向产业扩散的一个桥。
 - BitBLAS / AttentionEngine：TileLang 官方仓库列出的采用项目，可作为后续继续扩图的节点。
 
 ## 图谱洞察

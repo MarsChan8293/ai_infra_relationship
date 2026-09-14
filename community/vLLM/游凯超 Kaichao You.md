@@ -13,7 +13,7 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 当前：[[Inferact]] 联合创始人、Chief Scientist
 
 ## 教育经历
-- [[Tsinghua University]]：本科、博士
+- [[清华大学]]：本科、博士
 - [[UC Berkeley]]：访问研究经历
 
 ## 工作经历

@@ -10,21 +10,21 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 ## 项目 → 主要贡献公司
 | 项目 | 主要公司 | 关系 |
 | --- | --- | --- |
-| [[AIBrix]] | [[company/ByteDance/ByteDance|字节跳动（ByteDance）]] | 原始开发 / 发起 |
-| [[Colossal-AI]] | [[company/HPC-AI Tech/HPC-AI Tech|潞晨科技（HPC-AI Tech）]] | 发起 / 主导 |
-| [[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA | [[company/DeepSeek/DeepSeek|深度求索（DeepSeek）]] | 发起 / 主导 |
+| [[AIBrix]] | [[company/字节跳动/字节跳动|字节跳动]] | 原始开发 / 发起 |
+| [[Colossal-AI]] | [[company/潞晨科技/潞晨科技|潞晨科技]] | 发起 / 主导 |
+| [[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA | [[company/深度求索/深度求索|深度求索]] | 发起 / 主导 |
 | [[Dynamo]] / [[NIXL]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
 | [[vLLM]] | [[company/Inferact/Inferact|Inferact]] · [[company/Red Hat/Red Hat|Red Hat]] · [[company/Meta/Meta|Meta]] · [[company/Hugging Face/Hugging Face|Hugging Face]] · [[company/TensorMesh/TensorMesh|TensorMesh]] | 跨公司 core contributor 网络 |
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
-| [[Mooncake]] | [[company/Moonshot-AI/Moonshot-AI|月之暗面（Moonshot AI）]] | 产学共研 / production workload |
+| [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
-| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/Alibaba Cloud/Alibaba Cloud|阿里云（Alibaba Cloud）]] | 跨公司共同创建/协作 |
-| [[HAMi]] | [[company/4Paradigm/4Paradigm|第四范式（4Paradigm）]] · [[company/Dynamia/Dynamia|密瓜智能（Dynamia）]] · [[company/DaoCloud/DaoCloud|道客（DaoCloud）]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/Huawei/Huawei|华为（Huawei）]] | originator + 跨公司 maintainer/contributor |
-| [[KTransformers]] | [[company/Approaching.AI/Approaching.AI|趋境科技（Approaching.AI）]] | 产业/学术核心网络 |
+| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里云]] | 跨公司共同创建/协作 |
+| [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能|密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
+| [[KTransformers]] | [[company/趋境科技/趋境科技|趋境科技]] | 产业/学术核心网络 |
 | [[VCCL]] | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 产业/研究共建 |
-| [[OneFlow]] | [[company/OneFlow Inc/OneFlow Inc|一流科技（OneFlow）]] | 原始开发 / 主导 |
-| [[vLLM-Ascend]] / [[MindIE-LLM]] / [[MindIE-Motor]] / [[MindIE-SD]] / [[msModelSlim]] / [[ops-transformer]] | [[company/Huawei/Huawei|华为（Huawei）]] | Ascend/CANN/MindIE 核心贡献 |
+| [[OneFlow]] | [[company/一流科技/一流科技|一流科技]] | 原始开发 / 主导 |
+| [[vLLM-Ascend]] / [[MindIE-LLM]] / [[MindIE-Motor]] / [[MindIE-SD]] / [[msModelSlim]] / [[ops-transformer]] | [[company/华为/华为|华为]] | Ascend/CANN/MindIE 核心贡献 |
 | [[llm-d]] | [[company/Red Hat/Red Hat|Red Hat]] · [[company/Google/Google|Google]] · [[company/IBM/IBM|IBM]] · [[company/CoreWeave/CoreWeave|CoreWeave]] · [[company/NVIDIA/NVIDIA|NVIDIA]] | founding contributors |
 | [[LightLLM]] | 暂无单一主要公司 | ModelTC 社区主导 |
 | [[FlashInfer]] | 暂无单一主要公司 | 学术/开源社区 + 产业贡献 |

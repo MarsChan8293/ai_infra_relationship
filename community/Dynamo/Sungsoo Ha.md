@@ -17,4 +17,4 @@ communities: [Dynamo]
 [[SGLang]] backend、DeepSeek deployment、GB200 聚合/解耦 serving recipes。
 
 ## 关联
-[[SGLang]] · [[DeepSeek]] · [[NVIDIA]]
+[[SGLang]] · [[深度求索]] · [[NVIDIA]]

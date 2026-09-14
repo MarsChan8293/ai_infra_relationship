@@ -1,14 +1,14 @@
 ---
 type: person
 name: Chenyu Jiang
-company: ByteDance
+company: 字节跳动
 communities: [AIBrix]
 roles: [Active Contributor]
 ---
 # Chenyu Jiang
 
 ## 当前关系
-- [[ByteDance]]
+- [[字节跳动]]
 - [[AIBrix]]：Batch / scheduling 方向活跃贡献者
 
 ## 教育经历

@@ -8,7 +8,7 @@ roles: [Maintainer, Paper Author]
 # Hongtao Chen
 
 ## 当前关系
-- [[Tsinghua University]] / MADSys Lab
+- [[清华大学]] / MADSys Lab
 - [[KTransformers]]：官方 Maintainer、论文第一作者
 
 ## 教育与工作经历

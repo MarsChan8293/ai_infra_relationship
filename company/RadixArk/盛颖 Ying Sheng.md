@@ -14,7 +14,7 @@ roles: [cofounder, CEO, SGLang co-creator]
 当前：RadixArk 联合创始人、CEO。
 
 ## 教育经历
-- [[Shanghai Jiao Tong University]]：ACM 班本科
+- [[上海交通大学]]：ACM 班本科
 - [[Columbia University]]：计算机硕士
 - [[Stanford University]]：计算机博士，导师 Clark Barrett
 

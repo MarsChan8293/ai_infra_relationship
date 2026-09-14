@@ -3,21 +3,21 @@ type: person
 name: 刘胜与
 english_name: Shengyu Liu
 aliases: [刘胜与, Shengyu Liu]
-company: DeepSeek
+company: 深度求索
 communities: [DeepGEMM, FlashMLA, DeepSeek-Infra]
-education: [Peking University]
+education: [北京大学]
 areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]
 ---
 # 刘胜与（Shengyu Liu）
 
-[[DeepSeek]] AI Infra / kernel 方向工程与研究人员，个人主页明确以 `Shengyu Liu | 刘胜与` 署名，当前聚焦 Machine Learning Systems 与 kernel design / optimization。
+[[深度求索]] AI Infra / kernel 方向工程与研究人员，个人主页明确以 `Shengyu Liu | 刘胜与` 署名，当前聚焦 Machine Learning Systems 与 kernel design / optimization。
 
 ## 教育经历
-- [[Peking University]]：2021–2025，EECS 图灵班；导师 Xin Jin
+- [[北京大学]]：2021–2025，EECS 图灵班；导师 Xin Jin
 - 曾任北京大学超算队队长，参与 ASC / SC Student Cluster Competition
 
 ## 工作经历
-- [[DeepSeek]]：2025-04–至今，MLSys 与 kernel design / optimization
+- [[深度求索]]：2025-04–至今，MLSys 与 kernel design / optimization
 
 ## 项目与研究
 - [[FlashMLA]]：高性能 MLA decoding kernels；公开作者 / 核心技术贡献

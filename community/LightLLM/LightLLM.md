@@ -21,4 +21,4 @@ https://github.com/ModelTC/lightllm
 由 ModelTC 社区维护。仓库与论文作者网络包含 serving scheduler、prefill/decode、KV cache 等方向贡献者；其中 [[Junyi Chen]] 可确认属于上海交通大学 NNE-Lab，并曾作为 LightLLM core contributor。
 
 ## 生态关系
-[[FlashInfer]] · [[DeepSeek-Infra]] · [[vLLM]] · [[SGLang]] · [[Shanghai Jiao Tong University]]。对 LightLLM 贡献者是否属于同一学校/公司必须逐人核验，不能仅凭共同仓库推断。
+[[FlashInfer]] · [[DeepSeek-Infra]] · [[vLLM]] · [[SGLang]] · [[上海交通大学]]。对 LightLLM 贡献者是否属于同一学校/公司必须逐人核验，不能仅凭共同仓库推断。

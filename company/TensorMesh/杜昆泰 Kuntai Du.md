@@ -12,7 +12,7 @@ roles: [Co-Founder, Chief Scientist]
 [[TensorMesh]] 联合创始人、Chief Scientist，[[LMCache]] 核心贡献者，也是 [[vLLM]] KV Connector / KV cache 生态的重要维护者。
 
 ## 教育经历
-- [[Peking University]]：本科；北京大学高能效计算与应用中心 2019 届校友名单明确列为“杜昆泰 Kuntai Du”
+- [[北京大学]]：本科；北京大学高能效计算与应用中心 2019 届校友名单明确列为“杜昆泰 Kuntai Du”
 - [[University of Chicago]]：计算机博士；Siebel Scholar Class of 2024
 
 ## 工作与社区经历

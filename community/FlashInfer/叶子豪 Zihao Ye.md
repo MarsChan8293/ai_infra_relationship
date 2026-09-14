@@ -6,7 +6,7 @@ aliases: [Zihao Ye, 叶子豪, yzh119]
 company: NVIDIA
 communities: [FlashInfer]
 roles: [Creator, Full Codebase Approver]
-education: [Shanghai Jiao Tong University, University of Washington]
+education: [上海交通大学, University of Washington]
 ---
 # 叶子豪（Zihao Ye）
 

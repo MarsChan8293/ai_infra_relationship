@@ -12,7 +12,7 @@ areas: [ai-infrastructure, distributed-computing, high-performance-networking]
 当前：[[基流科技]]（Infrawaves）创始人、董事长、CEO。
 
 ## 教育与研究背景
-- [[Tsinghua University]]：自动化系本科、博士；后在清华计算机系从事博士后研究。
+- [[清华大学]]：自动化系本科、博士；后在清华计算机系从事博士后研究。
 - UC Berkeley：2016–2017 访问研究经历。
 - 研究方向包括 AI infrastructure、分布式计算、高性能网络、云数据中心与网络系统。
 

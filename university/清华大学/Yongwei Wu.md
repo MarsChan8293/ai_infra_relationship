@@ -1,0 +1,18 @@
+---
+type: person-link
+name: Yongwei Wu
+canonical: Approaching.AI/武永卫 Yongwei Wu
+affiliations: [Tsinghua University, Approaching.AI]
+communities: [Mooncake, KTransformers]
+---
+# Yongwei Wu
+
+主简历：[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]
+
+## Tsinghua / MADSys 关系
+- [[清华大学]]：计算机系教授，MADSys faculty。
+- [[Mooncake]]：2025 论文作者，连接 MADSys 与 Moonshot/Kimi serving workload。
+- [[KTransformers]]：SOSP 2025 作者，连接 MADSys 与 CPU/GPU heterogeneous MoE inference。
+- [[university/清华大学/Mingxing Zhang|Mingxing Zhang]]、[[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：同属清华 systems / HPC 学术网络；具体人物关系只按论文、实验室与公开任职证据描述。
+
+完整人物时间线与 Approaching.AI 关系统一维护在 canonical 页面。
