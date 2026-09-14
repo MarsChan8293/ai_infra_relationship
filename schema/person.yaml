@@ -1,0 +1,68 @@
+schema: ai-infra-relationship/person-v2
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - english_name
+  - aliases
+  - current_affiliations
+  - communities
+  - areas
+  - roles
+  - confidence
+  - last_verified
+fields:
+  type:
+    const: person
+  name:
+    type: string
+    description: Canonical display name. Chinese people with a verified Chinese name use the Chinese name here.
+  english_name:
+    type: string
+    description: Verified English name when available.
+  aliases:
+    type: array[string]
+    description: Search aliases only; aliases do not create additional canonical identities.
+  current_affiliations:
+    type: array[string]
+    description: Current company, lab, university, or organization canonical names.
+  communities:
+    type: array[string]
+    description: Open-source or technical communities with a verifiable contribution relationship.
+  projects:
+    type: array[string]
+    description: Specific technical projects when communities is too broad.
+  areas:
+    type: array[string]
+    description: Technical focus tags such as inference-engine, kv-cache, compiler, kernels, distributed-serving, communication, ascend.
+  roles:
+    type: array[string]
+    description: Current or notable roles. Historical timing belongs in prose or structured relations.
+  confidence:
+    type: string
+    enum: [verified, high, medium, project-credit, thin-node]
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+  relations:
+    type: array[relation]
+    optional: true
+    relation:
+      required: [target, type, confidence]
+      fields:
+        target: canonical entity name or path
+        type: array[string]
+        project: string
+        company: string
+        start: YYYY or YYYY-MM
+        end: YYYY or YYYY-MM or null
+        confidence: [high, medium, low]
+        evidence: array[url]
+legacy_migration:
+  company: current_affiliations
+  affiliation: current_affiliations
+  affiliations: current_affiliations
+notes:
+  - Existing pages are migrated incrementally. Legacy fields currently produce warnings rather than hard CI failures.
+  - Person-to-person prose relations must still explain relation type, time/context, and evidence. Structured relations complement prose; they do not replace it.
