@@ -17,35 +17,12 @@ import sys
 from collections import Counter
 
 TYPE_ALIASES = {"university": "school"}
-
 PRIORITY_KEYS = [
-    "type",
-    "name",
-    "title",
-    "english_name",
-    "aliases",
-    "canonical",
-    "current_affiliations",
-    "company",
-    "companies",
-    "organization",
-    "team",
-    "model",
-    "communities",
-    "projects",
-    "areas",
-    "roles",
-    "layer",
-    "category",
-    "focus",
-    "repository",
-    "open_source",
-    "public_repo",
-    "hardware",
-    "governance",
-    "confidence",
-    "last_verified",
-    "relations",
+    "type", "name", "title", "english_name", "aliases", "canonical",
+    "current_affiliations", "company", "companies", "organization", "team",
+    "model", "communities", "projects", "areas", "roles", "layer", "category",
+    "focus", "repository", "open_source", "public_repo", "hardware", "governance",
+    "confidence", "last_verified", "relations",
 ]
 
 
@@ -81,11 +58,8 @@ def normalize_frontmatter(node: dict) -> tuple[str, dict]:
 
     if node_type in {"person", "person-link"}:
         current = merge_unique(
-            data.get("current_affiliations"),
-            data.get("affiliations"),
-            data.get("affiliation"),
-            data.get("companies"),
-            data.get("company"),
+            data.get("current_affiliations"), data.get("affiliations"), data.get("affiliation"),
+            data.get("companies"), data.get("company"),
         )
         if current:
             data["current_affiliations"] = current
@@ -143,9 +117,8 @@ def dump_instance(metadata: dict, data: dict) -> str:
 
 
 def output_path(output_root: pathlib.Path, source_path: str) -> pathlib.Path:
-    source = pathlib.PurePosixPath(source_path)
-    without_suffix = source.with_suffix("")
-    return output_root.joinpath(*without_suffix.parts).with_suffix(".yaml")
+    source = pathlib.PurePosixPath(source_path).with_suffix("")
+    return output_root.joinpath(*source.parts).with_suffix(".yaml")
 
 
 def main() -> int:
@@ -170,15 +143,8 @@ def main() -> int:
     if not isinstance(nodes, list) or not nodes:
         raise SystemExit("nodes.json is empty or invalid")
 
-    if output_root.exists():
-        shutil.rmtree(output_root)
-    output_root.mkdir(parents=True, exist_ok=True)
-
-    schema_cache: dict[str, tuple[str, list[str]]] = {}
-    rows = []
-    type_counts = Counter()
-    incomplete = 0
-
+    prepared = []
+    missing_schema_types = set()
     for node in nodes:
         source_path = str(node.get("path") or "")
         if not source_path.endswith(".md"):
@@ -186,50 +152,57 @@ def main() -> int:
         source_file = root / source_path
         if not source_file.exists():
             raise SystemExit(f"Markdown source is missing: {source_path}")
-
         node_type, data = normalize_frontmatter(node)
         schema_rel = f"schema/{node_type}.yaml"
-        schema_file = root / schema_rel
-        if not schema_file.exists():
-            raise SystemExit(
-                f"No schema definition for node type {node_type!r}: expected {schema_rel}. "
-                "Add the schema and register it in schema/catalog.yaml first."
-            )
+        if not (root / schema_rel).exists():
+            missing_schema_types.add(node_type)
+        prepared.append((node, source_path, source_file, node_type, data, schema_rel))
 
+    if missing_schema_types:
+        print("Missing schema definitions for node types:")
+        for node_type in sorted(missing_schema_types):
+            print(f"- {node_type}: expected schema/{node_type}.yaml")
+        print("Add every missing schema and register it in schema/catalog.yaml.")
+        return 1
+
+    if output_root.exists():
+        shutil.rmtree(output_root)
+    output_root.mkdir(parents=True, exist_ok=True)
+
+    schema_cache: dict[str, list[str]] = {}
+    rows = []
+    type_counts = Counter()
+    incomplete = 0
+
+    for node, source_path, source_file, node_type, data, schema_rel in prepared:
         if node_type not in schema_cache:
-            schema_text = schema_file.read_text(encoding="utf-8")
-            schema_cache[node_type] = (schema_text, required_fields(schema_text))
-        _, required = schema_cache[node_type]
+            schema_cache[node_type] = required_fields((root / schema_rel).read_text(encoding="utf-8"))
+        required = schema_cache[node_type]
         missing = [field for field in required if data.get(field) in (None, "", [])]
         if missing:
             incomplete += 1
 
-        source_bytes = source_file.read_bytes()
         destination = output_path(output_root, source_path)
         destination.parent.mkdir(parents=True, exist_ok=True)
-
         metadata = {
             "definition": schema_rel,
             "source_markdown": source_path,
-            "source_sha256": hashlib.sha256(source_bytes).hexdigest(),
+            "source_sha256": hashlib.sha256(source_file.read_bytes()).hexdigest(),
             "node_id": node.get("id"),
             "status": "complete" if not missing else "incomplete",
             "missing_required": missing,
         }
         destination.write_text(dump_instance(metadata, data), encoding="utf-8")
 
-        generated_rel = destination.relative_to(root).as_posix()
-        rows.append(
-            {
-                "id": node.get("id"),
-                "type": node_type,
-                "source_markdown": source_path,
-                "schema_definition": schema_rel,
-                "schema_instance": generated_rel,
-                "status": metadata["status"],
-                "missing_required": missing,
-            }
-        )
+        rows.append({
+            "id": node.get("id"),
+            "type": node_type,
+            "source_markdown": source_path,
+            "schema_definition": schema_rel,
+            "schema_instance": destination.relative_to(root).as_posix(),
+            "status": metadata["status"],
+            "missing_required": missing,
+        })
         type_counts[node_type] += 1
 
     rows.sort(key=lambda item: str(item["source_markdown"]).casefold())
