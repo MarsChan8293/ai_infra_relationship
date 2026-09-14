@@ -3,6 +3,9 @@ type: person
 name: Wenqi Xie
 aliases: [Wenqi Xie, 谢文奇]
 current_affiliations: ["基流科技"]
+schools:
+  - "北京大学"
+  - "清华大学"
 communities: [VCCL]
 education: [北京大学, 清华大学]
 roles: [Executive Director, Co-CEO, Cofounder]
