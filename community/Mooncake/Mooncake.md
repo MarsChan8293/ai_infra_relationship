@@ -13,7 +13,15 @@ Mooncake 是面向 LLM serving 的 KVCache-centric 分布式系统，核心思�
 https://github.com/kvcache-ai/Mooncake
 
 ## 主要维护者 / 组织
-由 KVCache.AI 社区维护，研究/工程网络连接清华大学 MADSys 与 [[Moonshot-AI]]。公开论文作者包括 Ruoyu Qin、Zheming Li、Weiran He、Jialei Cui、Heyi Tang、[[任峰 Feng Ren]]、[[马腾 Teng Ma]]、[[Shangming Cai]]、Yineng Zhang、Mingxing Zhang、Yongwei Wu、Weimin Zheng、Xinran Xu。
+由 KVCache.AI 社区维护，研究/工程网络连接清华大学 MADSys 与 [[Moonshot-AI]]。公开论文作者包括 [[university/Tsinghua University/Ruoyu Qin|Ruoyu Qin]]、Zheming Li、Weiran He、Jialei Cui、Heyi Tang、[[任峰 Feng Ren]]、[[马腾 Teng Ma]]、[[Shangming Cai]]、[[community/SGLang/Yineng Zhang|Yineng Zhang]]、[[university/Tsinghua University/Mingxing Zhang|Mingxing Zhang]]、[[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]、Xinran Xu。
+
+## 人才桥
+- [[community/SGLang/Yineng Zhang|Yineng Zhang]]：Mooncake 论文作者，同时在 2024–2025 为 [[SGLang]] core maintainer、也是 [[FlashInfer]] 论文作者；2025-07 加入 [[Together AI]]，2026-03 co-create [[TokenSpeed]]。因此他把 Mooncake 的 KVCache-centric serving 网络直接连到 kernel、serving engine 与 production inference。
+- [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]、[[university/Tsinghua University/Mingxing Zhang|Mingxing Zhang]]：共同构成清华 systems / HPC 上游学术网络；只按论文/实验室证据建边，不从同实验室身份自动推断所有导师学生关系。
 
 ## 生态关系
-[[SGLang]] · [[vLLM]] · [[LMCache]] · [[NIXL]] · [[KTransformers]] · [[Tsinghua University]] · [[Moonshot-AI]]。这是清华系 AI infra 中连接学术系统研究与真实 Kimi serving workload 的关键项目。
+[[SGLang]] · [[vLLM]] · [[LMCache]] · [[NIXL]] · [[KTransformers]] · [[TokenSpeed]] · [[Tsinghua University]] · [[Moonshot-AI]]。这是清华系 AI infra 中连接学术系统研究与真实 Kimi serving workload 的关键项目。
+
+## Sources
+- https://github.com/kvcache-ai/Mooncake
+- https://zhyncs.com/
