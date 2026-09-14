@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - graph-audit-v1
     paths-ignore:
       - link-audit.txt
   pull_request:
@@ -37,6 +38,9 @@ jobs:
       - name: Audit semantic graph and generate metrics
         run: python3 scripts/audit-graph.py --root . --output generated
 
+      - name: Audit typed relations and coverage
+        run: python3 scripts/audit-typed-relations.py --root . --generated generated
+
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
@@ -59,6 +63,7 @@ jobs:
           cp -R community "$QUARTZ_DIR/content/community"
           cp -R university "$QUARTZ_DIR/content/university"
           cp generated/research-queue.md "$QUARTZ_DIR/content/generated/research-queue.md"
+          cp generated/typed-relation-coverage.md "$QUARTZ_DIR/content/generated/typed-relation-coverage.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
 
