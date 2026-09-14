@@ -9,5 +9,8 @@ https://gitcode.com/Ascend/MindIE-Motor
 ## GitHub
 未确认官方 GitHub canonical repository；本节点以官方 GitCode 仓库作为源码来源。
 
+## 推理优化人物
+[[LinWei100]]
+
 ## 生态关系
 [[vLLM-Ascend]] · [[MindIE-LLM]] · [[Mooncake]]
