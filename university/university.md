@@ -7,6 +7,7 @@
 - [[UC Berkeley]]：Sky/RISE/AMPLab 系统网络，连接 Ray/Ray Serve、vLLM、SGLang、Inferact、Anyscale、Databricks 与 OpenAI/Meta 人才流动。
 - [[上海交通大学]]：至少包含 IPADS Modern AI Infrastructure 与 NNE-Lab/LightLLM 两支，连接 serving resource management、KV cache、LightLLM 与产业推理系统。
 - [[北京大学]]：已实体化杨智 AI compiler / kernel DSL 谱系，从 Rammer、Welder 延伸到 TileLang，并连接微软亚洲研究院、NVIDIA、字节跳动与现有深度求索/vLLM/UChicago 北大校友节点。
+- [[浙江大学]]：已实体化寿丽丹 / 李环数据库与数据智能 → LLM inference systems 谱系，覆盖 HMI multi-tenant serving、FloE MoE inference、speculative decoding、KV-cache compression，并通过梁文锋、Jingfan Sun、Jue Wang 分别连接深度求索、NVIDIA/FlashInfer 与 Together AI。
 - [[微软亚洲研究院]]：systems / AI research 网络，连接北大 compiler / TileLang、vLLM、SGLang、深度求索、一流科技 / 硅基流动等人才迁移路径。
 - [[Carnegie Mellon University]]：高频人才教育节点，连接 Junchen Jiang、月之暗面、OpenAI 与 vLLM / TensorMesh 相关系统人才流动。
 - [[Stanford University]]：当前主要通过谢志强、盛颖连接 SGLang / RadixArk serving systems 网络。
