@@ -18,8 +18,17 @@ node_schemas:
     file: schema/project.yaml
     source: explicit-frontmatter
     canonical: true
+  community:
+    file: schema/community.yaml
+    source: explicit-frontmatter
+    canonical: true
   school:
     file: schema/school.yaml
+    source: explicit-frontmatter
+    canonical: true
+    content_root: university
+  research-institution:
+    file: schema/research-institution.yaml
     source: explicit-frontmatter
     canonical: true
     content_root: university
@@ -46,7 +55,7 @@ non_node_schemas:
 compatibility:
   university:
     canonical_type: school
-    note: Historical audit code may infer `university` for a school page without explicit frontmatter. New institution pages must use `type: school`.
+    note: Historical audit code may infer `university` for a school page without explicit frontmatter. New university institution pages must use `type: school` unless they are better represented as `research-institution`.
   affiliation:
     canonical_field: current_affiliations
     applies_to: [person, person-link]
@@ -56,13 +65,18 @@ compatibility:
   company_on_project:
     canonical_field: companies
     applies_to: [project]
+  github_on_community:
+    canonical_field: repository
+    applies_to: [community]
 coverage_policy:
   explicit_entity_types:
     - person
     - person-link
     - company
     - project
+    - community
     - school
+    - research-institution
     - model-team
     - model-project
   derived_types:
