@@ -3,9 +3,19 @@ type: person
 name: 游凯超
 english_name: Kaichao You
 aliases: [Kaichao You, 游凯超]
-company: Inferact
+current_affiliations: [Inferact]
 communities: [vLLM]
+areas: [distributed-inference, parallelism, compiler-integration, rl-infrastructure, hardware-backends]
 roles: [Cofounder, Chief Scientist, Lead Maintainer]
+confidence: verified
+last_verified: 2026-09
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://youkaichao.github.io/about","https://docs.vllm.ai/en/v0.21.0/governance/process/"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://youkaichao.github.io/about","https://docs.vllm.ai/en/v0.21.0/governance/process/"]}'
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["coworker","technical-collaboration","career-connection"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292","https://vllm.ai/blog/2025-09-29-deepseek-v3-2"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
 ---
 # 游凯超（Kaichao You）
 
@@ -44,6 +54,7 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 
 ## Sources
 - https://youkaichao.github.io/
+- https://youkaichao.github.io/about
 - https://inferact.ai/
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://vcresearch.berkeley.edu/faculty/joseph-gonzalez
