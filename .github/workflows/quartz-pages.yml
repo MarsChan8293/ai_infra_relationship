@@ -1,0 +1,106 @@
+name: Deploy Quartz to GitHub Pages
+
+on:
+  push:
+    branches:
+      - Quartz
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: quartz-pages
+  cancel-in-progress: false
+
+env:
+  QUARTZ_DIR: ${{ runner.temp }}/quartz
+  SITE_BASE_URL: MarsChan8293.github.io/ai_infra_relationship
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout Quartz branch
+        uses: actions/checkout@v6
+        with:
+          ref: Quartz
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Fetch Quartz v5
+        run: |
+          git clone --depth 1 --branch v5 https://github.com/jackyzha0/quartz.git "$QUARTZ_DIR"
+          cd "$QUARTZ_DIR"
+          npm ci
+
+      - name: Stage knowledge graph content without editing source Markdown
+        run: |
+          rm -rf "$QUARTZ_DIR/content"
+          mkdir -p "$QUARTZ_DIR/content"
+
+          cp "AI Infra Relationship.md" "$QUARTZ_DIR/content/index.md"
+          cp -R company "$QUARTZ_DIR/content/company"
+          cp -R community "$QUARTZ_DIR/content/community"
+          cp -R university "$QUARTZ_DIR/content/university"
+
+          echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
+
+      - name: Configure Quartz
+        working-directory: ${{ env.QUARTZ_DIR }}
+        run: |
+          cp quartz.config.default.yaml quartz.config.yaml
+          node --input-type=module <<'NODE'
+          import fs from "node:fs"
+          import YAML from "yaml"
+
+          const path = "quartz.config.yaml"
+          const config = YAML.parse(fs.readFileSync(path, "utf8"))
+
+          config.configuration.pageTitle = "AI Infra Relationship"
+          config.configuration.pageTitleSuffix = ""
+          config.configuration.locale = "zh-CN"
+          config.configuration.baseUrl = process.env.SITE_BASE_URL
+
+          for (const plugin of config.plugins ?? []) {
+            const source = String(plugin.source ?? "")
+            if (source.endsWith("/footer") || source.endsWith("-footer") || source.includes("footer")) {
+              plugin.options ??= {}
+              plugin.options.links = {
+                GitHub: "https://github.com/MarsChan8293/ai_infra_relationship",
+              }
+            }
+            if (source.includes("og-image") || source.includes("cname")) {
+              plugin.enabled = false
+            }
+          }
+
+          fs.writeFileSync(path, YAML.stringify(config))
+          NODE
+
+      - name: Build Quartz
+        working-directory: ${{ env.QUARTZ_DIR }}
+        run: npx quartz build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ env.QUARTZ_DIR }}/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
