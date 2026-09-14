@@ -47,12 +47,51 @@ def merge_unique(*values):
     return merged
 
 
-def normalize_frontmatter(node: dict) -> tuple[str, dict]:
+def recover_block_lists(text: str) -> dict[str, list[str]]:
+    """Recover simple YAML block lists from frontmatter.
+
+    audit-graph.py intentionally has a tiny legacy frontmatter parser. Some
+    pages use block lists such as `relations:\n  - '...json...'`; recovering
+    them directly from the Markdown keeps generated sidecars lossless without
+    requiring a third-party YAML dependency.
+    """
+    if not text.startswith("---\n"):
+        return {}
+    lines = text.splitlines()
+    try:
+        end = lines.index("---", 1)
+    except ValueError:
+        return {}
+
+    result: dict[str, list[str]] = {}
+    current_key: str | None = None
+    for raw in lines[1:end]:
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        if raw.startswith("  - ") and current_key:
+            value = raw[4:].strip()
+            if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+                value = value[1:-1]
+            result.setdefault(current_key, []).append(value)
+            continue
+        if not raw.startswith(" ") and ":" in raw:
+            key, value = raw.split(":", 1)
+            current_key = key.strip() if not value.strip() else None
+        elif not raw.startswith(" "):
+            current_key = None
+    return result
+
+
+def normalize_frontmatter(node: dict, source_text: str) -> tuple[str, dict]:
     raw_type = str(node.get("type") or "note")
     node_type = TYPE_ALIASES.get(raw_type, raw_type)
     data = dict(node.get("frontmatter") or {})
-    data["type"] = node_type
 
+    # Restore multiline lists that the legacy graph parser cannot represent.
+    for key, items in recover_block_lists(source_text).items():
+        data[key] = items
+
+    data["type"] = node_type
     if not data.get("name"):
         data["name"] = node.get("name") or pathlib.PurePosixPath(str(node.get("id") or "node")).name
 
@@ -152,7 +191,8 @@ def main() -> int:
         source_file = root / source_path
         if not source_file.exists():
             raise SystemExit(f"Markdown source is missing: {source_path}")
-        node_type, data = normalize_frontmatter(node)
+        source_text = source_file.read_text(encoding="utf-8")
+        node_type, data = normalize_frontmatter(node, source_text)
         schema_rel = f"schema/{node_type}.yaml"
         if not (root / schema_rel).exists():
             missing_schema_types.add(node_type)
