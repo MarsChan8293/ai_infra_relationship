@@ -39,11 +39,6 @@ jobs:
           node-version: 24
           package-manager-cache: false
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - name: Fetch Quartz v5
         run: |
           git clone --depth 1 --branch v5 https://github.com/jackyzha0/quartz.git "$QUARTZ_DIR"
@@ -102,6 +97,9 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: ${{ env.QUARTZ_DIR }}/public
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Deploy to GitHub Pages
         id: deployment
