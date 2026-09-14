@@ -9,5 +9,11 @@ https://gitcode.com/Ascend/MindIE-SD
 ## GitHub
 未确认官方 GitHub canonical repository；本节点以官方 GitCode 仓库作为源码来源。
 
+## 推理优化人物
+- [[betta18]]：2026 年处理 MoE dispatcher 路由选择与 W8A8 dynamic quant 精度对齐，并利用 `top_k` 与 EP size 关系决定 static / dynamic dispatcher。
+
 ## 生态关系
 [[vLLM-Ascend]] · [[MindIE-LLM]] · [[msModelSlim]]
+
+## Sources
+- https://gitcode.com/Ascend/MindIE-SD/tree/master/tests/layers
