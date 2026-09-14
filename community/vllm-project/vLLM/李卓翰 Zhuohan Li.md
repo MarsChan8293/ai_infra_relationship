@@ -3,9 +3,17 @@ type: person
 name: 李卓翰
 english_name: Zhuohan Li
 aliases: [Zhuohan Li, 李卓翰]
-company: Meta
+current_affiliations: [Meta]
 communities: [vLLM]
+areas: [llm-inference, serving-systems, rl-infrastructure, memory-management]
 roles: [Co-creator, Lead Maintainer]
+confidence: verified
+last_verified: 2026-09
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2309.06180"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["open-source-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://zhuohan.li/"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["advisor"],"start":"2019","end":"2024","confidence":"high","evidence":["https://zhuohan.li/"]}'
 ---
 # 李卓翰（Zhuohan Li）
 
@@ -34,5 +42,7 @@ vLLM 共同创始人、Lead Maintainer，负责模型接口、RL integration 与
 - [[微软亚洲研究院]]：**早期研究实习节点；2017–2019**。该经历把其北大本科阶段连接到后来的 Berkeley systems / vLLM 路线；不据同一研究院经历自动推断与其他 MSRA alumni 的直接合作。
 
 ## Sources
-- https://zhuohan.me/
+- https://zhuohan.li/
 - https://www.linkedin.com/in/zhuohan-li
+- https://arxiv.org/abs/2309.06180
+- https://arxiv.org/abs/2503.18292
