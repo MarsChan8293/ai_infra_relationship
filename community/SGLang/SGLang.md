@@ -15,5 +15,8 @@ https://github.com/sgl-project/sglang
 ## 主要维护者 / 组织
 由 sgl-project 社区维护，起源与 UC Berkeley Sky Computing Lab 高度相关，并形成 [[RadixArk]] 等产业化节点。核心人物包括 [[郑连民 Lianmin Zheng]]、[[盛颖 Ying Sheng]]、[[尹良升 Liangsheng Yin]]、[[谢志强 Zhiqiang Xie]]，以及 RadixArk/SGLang 社区的 Cheng Wan、Qiaolin Yu、Baizhou Zhang 等。
 
+## 跨项目人才桥
+- [[community/SGLang/Shenggui Li|Shenggui Li]] — 当前 SGLang Core Dev、SpecForge Project Lead；此前处于 [[Colossal-AI]] / HPC-AI 早期核心系统网络，形成 distributed training → serving / speculative decoding 的人才迁移桥。
+
 ## 生态关系
-[[vLLM]] · [[FlashInfer]] · [[Mooncake]] · [[DeepSeek-Infra]] · [[Dynamo]] · [[RadixArk]] · [[UC Berkeley]]。项目社区协作不能自动推断为公司同事。
+[[vLLM]] · [[FlashInfer]] · [[Mooncake]] · [[DeepSeek-Infra]] · [[Dynamo]] · [[RadixArk]] · [[Colossal-AI]] · [[UC Berkeley]]。项目社区协作不能自动推断为公司同事。
