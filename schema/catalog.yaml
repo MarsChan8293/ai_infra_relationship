@@ -18,6 +18,14 @@ node_schemas:
     file: schema/project.yaml
     source: explicit-frontmatter
     canonical: true
+  infra-project:
+    file: schema/infra-project.yaml
+    source: explicit-frontmatter
+    canonical: true
+  project-collection:
+    file: schema/project-collection.yaml
+    source: explicit-frontmatter
+    canonical: true
   community:
     file: schema/community.yaml
     source: explicit-frontmatter
@@ -78,6 +86,8 @@ coverage_policy:
     - person-link
     - company
     - project
+    - infra-project
+    - project-collection
     - community
     - school
     - research-institution
