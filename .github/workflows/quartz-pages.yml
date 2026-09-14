@@ -145,7 +145,8 @@ jobs:
           python3 scripts/build-graph-explorer.py \
             --generated generated \
             --output "$QUARTZ_DIR/public/graph-explorer" \
-            --base-path "/ai_infra_relationship"
+            --base-path "/ai_infra_relationship" \
+            --public-root "$QUARTZ_DIR/public"
 
       - name: Audit generated internal links
         run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
