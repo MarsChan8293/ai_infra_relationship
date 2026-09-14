@@ -16,13 +16,15 @@ HPC-AI Tech（潞晨科技）是围绕高性能计算与大模型系统构建训
 - MaaS 与 GPU 云平台
 - 面向超算 / 云环境的训练推理加速
 
-## 关键人物
-- 尤洋（Yang You）：创始人；Colossal-AI / HPC-AI Tech 核心技术与创业节点。人物 canonical page 待后续 BFS 时建立。
+## 核心人物
+- [[company/HPC-AI Tech/尤洋 Yang You|尤洋（Yang You）]] — 创始人；UC Berkeley HPC / distributed training 背景，Colossal-AI 创业与技术核心
 
-## 图谱中的连接
-HPC-AI Tech 是连接高性能计算研究、[[Colossal-AI]] 开源社区、分布式训练与商业 AI infra 平台的重要公司节点。后续人物 BFS 可从尤洋、Colossal-AI maintainer / contributor 网络继续展开。
+## BFS 主线
+UC Berkeley HPC / distributed optimization → [[尤洋 Yang You|尤洋]] → HPC-AI Tech → [[Colossal-AI]] → 大规模训练、并行、异构内存与推理系统。
+
+公司官网当前公开团队页主要突出尤洋；其他员工只有在可核验公开履历或 Colossal-AI 明确维护关系出现后再建立 canonical 人物页，不用第三方组织图强补职位。
 
 ## Sources
 - https://company.hpc-ai.com/company
-- https://www.luchentech.com/
+- https://www.luchentech.com/team
 - https://colossalai.org/
