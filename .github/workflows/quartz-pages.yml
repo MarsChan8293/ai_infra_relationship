@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  QUARTZ_DIR: ${{ runner.temp }}/quartz
+  QUARTZ_DIR: /tmp/quartz
   SITE_BASE_URL: MarsChan8293.github.io/ai_infra_relationship
 
 jobs:
@@ -78,7 +78,7 @@ jobs:
 
           for (const plugin of config.plugins ?? []) {
             const source = String(plugin.source ?? "")
-            if (source.endsWith("/footer") || source.endsWith("-footer") || source.includes("footer")) {
+            if (source.includes("footer")) {
               plugin.options ??= {}
               plugin.options.links = {
                 GitHub: "https://github.com/MarsChan8293/ai_infra_relationship",
