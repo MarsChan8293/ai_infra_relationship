@@ -46,19 +46,11 @@ fields:
     type: string
     pattern: YYYY-MM
   relations:
-    type: array[relation]
+    logical_type: array[relation]
     optional: true
-    relation:
-      required: [target, type, confidence]
-      fields:
-        target: canonical entity name or path
-        type: array[string]
-        project: string
-        company: string
-        start: YYYY or YYYY-MM
-        end: YYYY or YYYY-MM or null
-        confidence: [high, medium, low]
-        evidence: array[url]
+    migration_encoding: json-string-items
+    relation_schema: schema/relation.yaml
+    description: Each current list item is a JSON object encoded as a YAML string until the legacy frontmatter parser is retired.
 legacy_migration:
   company: current_affiliations
   affiliation: current_affiliations
@@ -66,3 +58,4 @@ legacy_migration:
 notes:
   - Existing pages are migrated incrementally. Legacy fields currently produce warnings rather than hard CI failures.
   - Person-to-person prose relations must still explain relation type, time/context, and evidence. Structured relations complement prose; they do not replace it.
+  - `scripts/audit-typed-relations.py` validates relation targets, relation vocabulary, dates, confidence and evidence URLs, then exports typed edges and coverage metrics.
