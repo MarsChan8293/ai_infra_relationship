@@ -20,38 +20,77 @@ function walk(dir) {
   return result
 }
 
+function quartzSafeStem(stem) {
+  return stem
+    .replace(/\.(?=\s)/g, "")
+    .replace(/\./g, "-")
+    .replace(/-{2,}/g, "-")
+}
+
+// Quartz v5 currently treats dots inside Markdown basenames differently while
+// slugifying output files vs. wikilink targets. Rename only the staged build
+// copies, never repository source Markdown, and keep the old names as aliases.
+const originalAliasByCanonical = new Map()
+const stagedRenames = []
+for (const file of walk(contentRoot)) {
+  const ext = path.extname(file)
+  const stem = path.basename(file, ext)
+  const safeStem = quartzSafeStem(stem)
+  if (safeStem === stem) continue
+
+  const destination = path.join(path.dirname(file), `${safeStem}${ext}`)
+  if (fs.existsSync(destination)) {
+    throw new Error(`Cannot normalize dotted filename because destination exists: ${destination}`)
+  }
+
+  const originalRelNoExt = stripMd(toPosix(path.relative(contentRoot, file)))
+  fs.renameSync(file, destination)
+  const canonicalRelNoExt = stripMd(toPosix(path.relative(contentRoot, destination)))
+  originalAliasByCanonical.set(canonicalRelNoExt, originalRelNoExt)
+  stagedRenames.push({ from: originalRelNoExt, to: canonicalRelNoExt })
+}
+
 const files = walk(contentRoot)
 const records = files.map((file) => {
   const rel = toPosix(path.relative(contentRoot, file))
   const relNoExt = stripMd(rel)
+  const originalRelNoExt = originalAliasByCanonical.get(relNoExt) ?? relNoExt
   return {
     file,
     rel,
     relNoExt,
+    originalRelNoExt,
     dir: path.posix.dirname(relNoExt),
+    originalDir: path.posix.dirname(originalRelNoExt),
     base: path.posix.basename(relNoExt),
+    originalBase: path.posix.basename(originalRelNoExt),
   }
 })
 
-const byRel = new Map(records.map((r) => [r.relNoExt, r]))
+const byRel = new Map()
 const byRelLower = new Map()
 const byBase = new Map()
 const byBaseLower = new Map()
 
+function addIndex(map, key, record) {
+  if (!key) return
+  const items = map.get(key) ?? []
+  if (!items.includes(record)) items.push(record)
+  map.set(key, items)
+}
+
 for (const record of records) {
-  const relLower = record.relNoExt.toLowerCase()
-  const relItems = byRelLower.get(relLower) ?? []
-  relItems.push(record)
-  byRelLower.set(relLower, relItems)
+  const relAliases = new Set([record.relNoExt, record.originalRelNoExt])
+  for (const relAlias of relAliases) {
+    addIndex(byRel, relAlias, record)
+    addIndex(byRelLower, relAlias.toLowerCase(), record)
+  }
 
-  const baseItems = byBase.get(record.base) ?? []
-  baseItems.push(record)
-  byBase.set(record.base, baseItems)
-
-  const baseLower = record.base.toLowerCase()
-  const lowerItems = byBaseLower.get(baseLower) ?? []
-  lowerItems.push(record)
-  byBaseLower.set(baseLower, lowerItems)
+  const baseAliases = new Set([record.base, record.originalBase])
+  for (const baseAlias of baseAliases) {
+    addIndex(byBase, baseAlias, record)
+    addIndex(byBaseLower, baseAlias.toLowerCase(), record)
+  }
 }
 
 function safeDecode(value) {
@@ -73,7 +112,8 @@ function normalizeTarget(value) {
 
 function exactRecord(target) {
   if (!target) return null
-  if (byRel.has(target)) return byRel.get(target)
+  const exact = byRel.get(target) ?? []
+  if (exact.length === 1) return exact[0]
   const caseInsensitive = byRelLower.get(target.toLowerCase()) ?? []
   return caseInsensitive.length === 1 ? caseInsensitive[0] : null
 }
@@ -85,9 +125,14 @@ function resolveTarget(targetRaw, source) {
   const exact = exactRecord(target)
   if (exact) return { record: exact, reason: "exact" }
 
-  const relative = normalizeTarget(path.posix.join(source.dir, target))
-  const relativeExact = exactRecord(relative)
-  if (relativeExact) return { record: relativeExact, reason: "relative" }
+  const relativeCandidates = new Set([
+    normalizeTarget(path.posix.join(source.dir, target)),
+    normalizeTarget(path.posix.join(source.originalDir, target)),
+  ])
+  for (const relative of relativeCandidates) {
+    const relativeExact = exactRecord(relative)
+    if (relativeExact) return { record: relativeExact, reason: "relative" }
+  }
 
   const base = path.posix.basename(target)
   let candidates = byBase.get(base) ?? []
@@ -96,7 +141,9 @@ function resolveTarget(targetRaw, source) {
   if (candidates.length === 1) return { record: candidates[0], reason: "unique-basename" }
 
   if (candidates.length > 1) {
-    const sameDir = candidates.filter((candidate) => candidate.dir === source.dir)
+    const sameDir = candidates.filter(
+      (candidate) => candidate.dir === source.dir || candidate.originalDir === source.originalDir,
+    )
     if (sameDir.length === 1) return { record: sameDir[0], reason: "same-directory" }
     return {
       record: null,
@@ -135,7 +182,7 @@ for (const source of records) {
     const resolved = resolveTarget(targetRaw, source)
     if (resolved.record) {
       resolvedLinks += 1
-      const display = explicitAlias || path.posix.basename(normalizeTarget(targetRaw)) || resolved.record.base
+      const display = explicitAlias || path.posix.basename(normalizeTarget(targetRaw)) || resolved.record.originalBase
       return `[[${resolved.record.relNoExt}${anchor}|${display}]]`
     }
 
@@ -155,6 +202,7 @@ for (const source of records) {
 
 const report = {
   markdownFiles: records.length,
+  stagedRenames,
   totalLinks,
   resolvedLinks,
   unresolvedLinks,
@@ -166,6 +214,10 @@ const reportPath = path.join(contentRoot, ".wikilink-audit.json")
 fs.writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`)
 
 console.log(`Wikilink audit: ${records.length} Markdown files, ${totalLinks} links, ${resolvedLinks} resolved, ${unresolvedLinks} unresolved, ${samePageLinks} same-page links.`)
+if (stagedRenames.length > 0) {
+  console.log(`Normalized ${stagedRenames.length} dotted Markdown filenames in the staged build copy:`)
+  for (const item of stagedRenames) console.log(`- ${item.from} -> ${item.to}`)
+}
 if (unresolved.length > 0) {
   console.log("Unresolved/ambiguous wikilinks were rendered as plain text to prevent 404s:")
   for (const item of unresolved.slice(0, 200)) {
