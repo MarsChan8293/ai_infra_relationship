@@ -1,0 +1,47 @@
+schema: ai-infra-relationship/project-collection-v1
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - company
+  - companies
+  - company_relation
+  - layer
+  - projects
+  - areas
+  - last_verified
+fields:
+  type:
+    const: project-collection
+  name:
+    type: string
+    description: Canonical name of the grouped project or systems-stack collection.
+  company:
+    type: string
+    description: Legacy or primary canonical company associated with the collection.
+  companies:
+    type: array[string]
+    description: Canonical companies with a direct, evidence-backed relationship to the collection.
+  company_relation:
+    type: string
+    description: Nature of the collection-to-company relationship, such as company-led or founding-contributors.
+  layer:
+    type: string
+    description: Primary systems layer represented by the collection.
+  projects:
+    type: array[string]
+    description: Canonical child projects included in the collection.
+  areas:
+    type: array[string]
+  repository:
+    type: string
+    description: Canonical repository URL when the collection has an official umbrella repository.
+  governance:
+    type: string
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - A project-collection groups several related technical projects or a systems stack; it does not replace canonical child project nodes.
+  - Child projects should remain independently readable and link back to the collection when useful.
