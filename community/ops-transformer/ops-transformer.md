@@ -9,5 +9,8 @@ https://gitcode.com/cann/ops-transformer
 ## GitHub
 未确认官方 GitHub canonical repository；本节点以官方 GitCode 仓库作为源码来源。
 
+## 推理优化人物
+[[Konstantin Berestizshevsky]] · [[tangkaidi]] · [[wangchao661]]
+
 ## 生态关系
-[[vLLM-Ascend]]
+[[vLLM-Ascend]] · [[MindIE-LLM]]
