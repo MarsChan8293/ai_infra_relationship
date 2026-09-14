@@ -1,7 +1,7 @@
 ---
 type: person
 name: Xingda Wei
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
 areas: [scalable-ai-infrastructure, autoscaling, resource-management]
 ---

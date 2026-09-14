@@ -2,7 +2,7 @@
 type: person
 name: Yu Cheng
 aliases: [程羽, Yu Cheng, chengyupku]
-affiliation: Peking University
+current_affiliations: ["Peking University"]
 areas: [deep-learning-systems, ai-compilers, gpu-kernels, distributed-communication]
 ---
 # 程羽（Yu Cheng）

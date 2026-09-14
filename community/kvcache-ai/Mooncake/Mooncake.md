@@ -1,7 +1,7 @@
 ---
 type: project
 name: Mooncake
-companies: [月之暗面]
+companies: ["月之暗面"]
 company_relation: industry-academia-co-development
 layer: kv-cache-centric-serving
 open_source: true

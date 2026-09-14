@@ -1,7 +1,7 @@
 ---
 type: project
 name: msModelSlim
-companies: [华为]
+companies: ["华为"]
 company_relation: company-led
 layer: model-compression-and-quantization
 hardware: [Ascend]

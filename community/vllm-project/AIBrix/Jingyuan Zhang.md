@@ -1,7 +1,7 @@
 ---
 type: person
 name: Jingyuan Zhang
-company: 字节跳动
+current_affiliations: ["字节跳动"]
 communities: [AIBrix]
 roles: [Active Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 batch telemetry、retry/backoff、output persistence、HTTP client instrumentation。
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

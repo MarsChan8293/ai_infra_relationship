@@ -3,9 +3,13 @@ type: person
 name: 马腾
 english_name: Teng Ma
 aliases: [Teng Ma, 马腾]
-company: 阿里巴巴
+current_affiliations: ["阿里巴巴"]
 communities: [Mooncake, SGLang, Dynamo]
 roles: [Codeowner, Primary Contact]
+areas: ["kv-cache","llm-inference","distributed-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/kvcache-ai/Mooncake/任峰 Feng Ren","type":["open-source-collaboration"],"confidence":"high","evidence":["https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"]}'
 ---
 # 马腾（Teng Ma）
 

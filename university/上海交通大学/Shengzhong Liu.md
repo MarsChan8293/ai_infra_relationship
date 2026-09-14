@@ -1,7 +1,7 @@
 ---
 type: person
 name: Shengzhong Liu
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 areas: [distributed-systems, ai-systems]
 ---
 # Shengzhong Liu

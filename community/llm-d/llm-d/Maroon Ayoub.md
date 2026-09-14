@@ -1,11 +1,15 @@
 ---
 type: person
 name: Maroon Ayoub
-company: Red Hat
-affiliations: [Red Hat, IBM Research]
+current_affiliations: ["Red Hat","IBM Research"]
 communities: [llm-d]
 roles: [Senior Principal Machine Learning Engineer, KV-Disaggregation SIG Lead, Agentic Inference SIG Lead, Inference Payload Processor SIG Lead]
 areas: [kv-cache, distributed-inference, routing, agentic-inference]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/llm-d/llm-d/Danny Harnik","type":["research-collaboration"],"confidence":"medium","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/p2p-kv-cache-sharing-llm-d","https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d"]}'
+  - '{"target":"community/llm-d/llm-d/Nili Guy","type":["paper-coauthor"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/p2p-kv-cache-sharing-llm-d","https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d"]}'
+  - '{"target":"community/llm-d/llm-d/Carlos Costa","type":["paper-coauthor"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/p2p-kv-cache-sharing-llm-d","https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d"]}'
 ---
 # Maroon Ayoub
 

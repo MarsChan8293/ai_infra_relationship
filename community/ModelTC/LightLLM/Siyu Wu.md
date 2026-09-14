@@ -14,3 +14,6 @@ roles: [Paper Author]
 
 ## 技术方向
 structured decoding、LLM serving scheduler、systems optimization。
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

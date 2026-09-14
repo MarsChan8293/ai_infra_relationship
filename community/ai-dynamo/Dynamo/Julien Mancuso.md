@@ -1,7 +1,7 @@
 ---
 type: person
 name: Julien Mancuso
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 ---
 # Julien Mancuso
@@ -15,3 +15,6 @@ communities: [Dynamo]
 
 ## 技术方向
 Distributed inference deployment、operator、Kubernetes control plane。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

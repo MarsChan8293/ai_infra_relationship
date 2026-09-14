@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ziwei Yuan
-affiliation: Approaching.AI
+current_affiliations: ["Approaching.AI"]
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer, Paper Author]
 
 ## 技术方向
 heterogeneous inference、CPU kernel、MoE serving。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

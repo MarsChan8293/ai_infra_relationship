@@ -1,7 +1,7 @@
 ---
 type: person
 name: Mikhail Brinskiy
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [NIXL]
 education: [Lobachevsky State University of Nizhny Novgorod]
 ---
@@ -18,3 +18,6 @@ education: [Lobachevsky State University of Nizhny Novgorod]
 
 ## 关联人物
 [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

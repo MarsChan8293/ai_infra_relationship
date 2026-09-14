@@ -2,9 +2,13 @@
 type: person
 name: Lidan Shou
 aliases: [Lidan Shou]
-affiliation: 浙江大学
+current_affiliations: ["浙江大学"]
 roles: [Professor, PhD Advisor]
 areas: [llm-inference, moe-inference, speculative-decoding, data-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/浙江大学/Huan Li","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://person.zju.edu.cn/en/should","https://proceedings.mlr.press/v267/zhou25j.html","https://aclanthology.org/2026.acl-long.1983/"]}'
+  - '{"target":"university/浙江大学/Zheng Li","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://person.zju.edu.cn/en/should","https://proceedings.mlr.press/v267/zhou25j.html","https://aclanthology.org/2026.acl-long.1983/"]}'
 ---
 # Lidan Shou
 

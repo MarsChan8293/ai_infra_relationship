@@ -3,9 +3,14 @@ type: person
 name: 袁进辉
 english_name: Jinhui Yuan
 aliases: [袁进辉, Jinhui Yuan]
-company: 硅基流动
+current_affiliations: ["硅基流动"]
 roles: [Founder, CEO]
 areas: [distributed-deep-learning, inference, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/硅基流动/柳俊丞 Juncheng Liu","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://www.siliconflow.cn/news/wmqrg0qcwzp8z5qiq685l4q1","https://arxiv.org/abs/2110.15032","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
+  - '{"target":"company/硅基流动/赵震 Zhao Zhen","type":["coworker"],"confidence":"high","evidence":["https://www.siliconflow.cn/news/wmqrg0qcwzp8z5qiq685l4q1","https://arxiv.org/abs/2110.15032","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
+  - '{"target":"company/硅基流动/曾华","type":["cofounder"],"confidence":"high","evidence":["https://www.siliconflow.cn/news/wmqrg0qcwzp8z5qiq685l4q1","https://arxiv.org/abs/2110.15032","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
 ---
 # 袁进辉（Jinhui Yuan）
 

@@ -14,3 +14,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 adapter lifecycle、loading retry/backoff、Kubernetes model adapter management。
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

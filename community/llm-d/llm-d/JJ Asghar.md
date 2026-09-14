@@ -1,7 +1,7 @@
 ---
 type: person
 name: JJ Asghar
-company: IBM
+current_affiliations: ["IBM"]
 communities: [llm-d]
 roles: [Community Manager]
 ---
@@ -16,3 +16,6 @@ roles: [Community Manager]
 
 ## 工作与社区经历
 负责 llm-d 社区侧协作，连接 IBM 与 distributed inference 开源生态。
+
+## Sources
+- Project source / contributor context: https://github.com/llm-d/llm-d

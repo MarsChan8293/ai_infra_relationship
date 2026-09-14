@@ -1,7 +1,7 @@
 ---
 type: project
 name: vLLM-Ascend
-companies: [华为]
+companies: ["华为"]
 company_relation: hardware-ecosystem-core-contributor
 layer: hardware-backend
 open_source: true

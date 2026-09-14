@@ -3,8 +3,14 @@ type: person
 name: 刘大一恒
 english_name: Dayiheng Liu
 aliases: [Dayiheng Liu, 刘大一恒]
-company: 阿里巴巴
+current_affiliations: ["阿里巴巴"]
 areas: [llm, nlp, text-generation]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/阿里巴巴/杨宝松 Baosong Yang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://liudayiheng.github.io/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/阿里巴巴/万宇 Yu Wan","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://liudayiheng.github.io/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/阿里巴巴/林俊旸 Junyang Lin","type":["coworker"],"confidence":"high","evidence":["https://liudayiheng.github.io/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/深度求索/郭达雅 Daya Guo","type":["paper-coauthor","coworker","research-collaboration"],"confidence":"high","evidence":["https://liudayiheng.github.io/","https://baosongyang.site/publications/"]}'
 ---
 # 刘大一恒（Dayiheng Liu）
 

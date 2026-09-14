@@ -2,7 +2,7 @@
 type: project
 name: llm-d
 governance: cross-company
-companies: [Red Hat, Google, IBM, CoreWeave, NVIDIA]
+companies: ["Red Hat","Google","IBM","CoreWeave","NVIDIA"]
 company_relation: founding-contributors
 layer: kubernetes-distributed-inference
 open_source: true

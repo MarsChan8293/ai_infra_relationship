@@ -3,8 +3,13 @@ type: person
 name: 翁家翌
 english_name: Jiayi Weng
 aliases: [Jiayi Weng, 翁家翌]
-company: OpenAI
+current_affiliations: ["OpenAI"]
 areas: [reinforcement-learning, post-training, rl-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://trinkle23897.github.io/cv/","https://openai.com/contributions/gpt-4/","https://openai.com/gpt-4o-contributions/"]}'
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["coworker"],"confidence":"high","evidence":["https://trinkle23897.github.io/cv/","https://openai.com/contributions/gpt-4/","https://openai.com/gpt-4o-contributions/"]}'
+  - '{"target":"company/OpenAI/Luke Metz","type":["coworker"],"confidence":"high","evidence":["https://trinkle23897.github.io/cv/","https://openai.com/contributions/gpt-4/","https://openai.com/gpt-4o-contributions/"]}'
 ---
 # 翁家翌（Jiayi Weng）
 

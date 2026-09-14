@@ -3,10 +3,15 @@ type: person
 name: 刘胜与
 english_name: Shengyu Liu
 aliases: [刘胜与, Shengyu Liu]
-company: 深度求索
+current_affiliations: ["深度求索"]
 communities: [DeepGEMM, FlashMLA, DeepSeek-Infra]
 education: [北京大学]
 areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/Jiashi Li","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/deepseek-ai"]}'
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://github.com/deepseek-ai"]}'
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou","type":["paper-coauthor"],"confidence":"high","evidence":["https://github.com/deepseek-ai"]}'
 ---
 # 刘胜与（Shengyu Liu）
 
@@ -35,6 +40,7 @@ areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]
 刘胜与是“学术型 LLM serving → 模型公司 kernel → 开源推理生态”之间很清晰的桥梁节点：北大 DistServe / LoongServe 的 serving 研究经验，进入 DeepSeek 后继续下沉到 FlashMLA / DeepGEMM 等 GPU kernel 项目。
 
 ## Sources
+- Project source / contributor context: https://github.com/deepseek-ai
 - Personal homepage: Shengyu Liu | 刘胜与
 - Peking University supercomputing / public academic profile
 - DeepSeek FlashMLA / DeepGEMM public project credits

@@ -3,9 +3,13 @@ type: person
 name: 朱文武
 english_name: Wenwu Zhu
 aliases: [朱文武, Wenwu Zhu]
-affiliations: [Tsinghua University, TsingMao]
+current_affiliations: ["Tsinghua University","TsingMao"]
 roles: [Professor, Scientific Advisor]
 areas: [multimedia, ai-systems, automl]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清昴智能/关超宇 Chaoyu Guan","type":["mentor-network"],"confidence":"medium","evidence":["https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/202406/t20240611_4656306_hd.shtml","https://mplus-gallery.nimbus-nimo.com/project/2022F-007"]}'
+  - '{"target":"company/清昴智能/姚航 Hang Yao","type":["mentor-network"],"confidence":"medium","evidence":["https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/202406/t20240611_4656306_hd.shtml","https://mplus-gallery.nimbus-nimo.com/project/2022F-007"]}'
 ---
 # 朱文武（Wenwu Zhu）
 

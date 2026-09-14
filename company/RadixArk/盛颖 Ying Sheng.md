@@ -3,9 +3,14 @@ type: person
 name: 盛颖
 english_name: Ying Sheng
 aliases: [盛颖, Ying Sheng]
-company: RadixArk
+current_affiliations: ["RadixArk"]
 communities: [SGLang, LMSYS]
 roles: [cofounder, CEO, SGLang co-creator]
+areas: ["llm-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["coworker","research-collaboration"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/朱邦华 Banghua Zhu","type":["cofounder"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
 ---
 # 盛颖（Ying Sheng）
 
@@ -20,7 +25,7 @@ roles: [cofounder, CEO, SGLang co-creator]
 
 ## 工作经历
 - Microsoft Research Asia：Research Intern
-- [[Two Sigma]]：Quantitative Software Engineer
+- Two Sigma：Quantitative Software Engineer
 - X / Moonshot Factory：PhD Resident
 - UC Berkeley Sky Lab：Visiting Researcher，2023–2024
 - [[xAI]]：MTS，2024-10–2025-08；曾共同领导 inference team

@@ -3,9 +3,12 @@ type: person
 name: 赵震
 english_name: Zhao Zhen
 aliases: [赵震, Zhao Zhen]
-company: 硅基流动
+current_affiliations: ["硅基流动"]
 roles: [COO]
 areas: [operations, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/硅基流动/柳俊丞 Juncheng Liu","type":["coworker","career-connection"],"confidence":"high","evidence":["https://www.tsinghua.org.cn/info/1015/42666.htm","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf","https://amp.kr-asia.com/surging-users-widening-losses-and-leased-compute-behind-siliconflows-ipo-filing"]}'
 ---
 # 赵震（Zhao Zhen）
 

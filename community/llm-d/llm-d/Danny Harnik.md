@@ -1,10 +1,13 @@
 ---
 type: person
 name: Danny Harnik
-company: IBM
+current_affiliations: ["IBM"]
 communities: [llm-d]
 roles: [Senior Technical Staff Member, KV-Disaggregation SIG Lead]
 areas: [kv-cache, cloud-storage, distributed-storage, disaggregated-inference]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/llm-d/llm-d/Maroon Ayoub","type":["research-collaboration"],"confidence":"medium","evidence":["https://llm-d.ai/community/sigs","https://research.ibm.com/people/danny-harnik","https://llm-d.ai/blog/native-kv-cache-offloading-to-any-file-system-with-llm-d"]}'
 ---
 # Danny Harnik
 

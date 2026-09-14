@@ -3,9 +3,14 @@ type: person
 name: 马子轩
 english_name: Zixuan Ma
 aliases: [马子轩, Zixuan Ma]
-company: 清程极智
+current_affiliations: ["清程极智"]
 roles: [Senior R&D Expert]
 areas: [distributed-training, high-performance-computing, llm-serving, compiler-optimization]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/翟季冬 Jidong Zhai","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://www.qc-ai.cn/news/j3pafzw9afg5gm8fp370efr1","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://pacman.cs.tsinghua.edu.cn/~zjd/author/zixuan-ma/"]}'
+  - '{"target":"company/清程极智/唐适之 Shizhi Tang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://www.qc-ai.cn/news/j3pafzw9afg5gm8fp370efr1","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://pacman.cs.tsinghua.edu.cn/~zjd/author/zixuan-ma/"]}'
+  - '{"target":"company/清程极智/师天麾 Tianhui Shi","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://www.qc-ai.cn/news/j3pafzw9afg5gm8fp370efr1","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://pacman.cs.tsinghua.edu.cn/~zjd/author/zixuan-ma/"]}'
 ---
 # 马子轩（Zixuan Ma）
 

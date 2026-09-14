@@ -2,7 +2,7 @@
 type: project
 name: AIBrix
 parent: vLLM Project
-companies: [字节跳动]
+companies: ["字节跳动"]
 company_relation: company-originated
 layer: cloud-native-inference-infrastructure
 open_source: true

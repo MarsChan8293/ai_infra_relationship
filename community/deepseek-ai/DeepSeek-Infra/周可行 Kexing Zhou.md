@@ -26,5 +26,6 @@ name_verification: public technical tutorial
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：**DeepGEMM 共同作者**。2025 DeepGEMM 原始作者网络中共同负责 GPU kernel / MoE GEMM 技术线；公开资料不足以确认是否同公司或直接汇报。
 
 ## Sources
+- Project source / contributor context: https://github.com/deepseek-ai
 - Hands-On Practical MLIR Tutorial, Kexing Zhou（周可行）, Peking University
 - DeepSeek DeepGEMM public author credits

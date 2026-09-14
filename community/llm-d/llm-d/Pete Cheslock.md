@@ -1,7 +1,7 @@
 ---
 type: person
 name: Pete Cheslock
-company: Red Hat
+current_affiliations: ["Red Hat"]
 communities: [llm-d]
 roles: [Community Manager]
 ---
@@ -16,3 +16,6 @@ roles: [Community Manager]
 
 ## 工作与社区经历
 负责 llm-d 社区运营与跨组织协作，是技术社区与企业参与者之间的连接节点。
+
+## Sources
+- Project source / contributor context: https://github.com/llm-d/llm-d

@@ -2,8 +2,7 @@
 type: project
 name: NVIDIA Dynamo
 governance: company-led
-company: NVIDIA
-companies: [NVIDIA]
+companies: ["NVIDIA"]
 company_relation: company-led
 layer: distributed-inference-orchestration
 open_source: true

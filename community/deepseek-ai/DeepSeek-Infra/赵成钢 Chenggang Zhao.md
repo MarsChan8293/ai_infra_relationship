@@ -30,5 +30,6 @@ DeepSeek 系统基础设施的重要公开作者，横跨 [[DeepEP]] 与 [[DeepG
 部分中文二手报道曾写作“赵成刚”。本图谱采用清华超算队官方历史页面直接给出的“赵成钢”，因为该来源同时给出英文名 `Chenggang Zhao` 与中文汉字。
 
 ## Sources
+- Project source / contributor context: https://github.com/deepseek-ai
 - Tsinghua SCC Team official history / wiki
 - DeepSeek DeepEP / DeepGEMM public author credits

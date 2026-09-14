@@ -3,7 +3,7 @@ type: person
 name: 张鹏
 english_name: Zhang Peng
 aliases: [张鹏, Zhang Peng]
-company: 智谱
+current_affiliations: ["智谱"]
 roles: [CEO]
 ---
 # 张鹏（Zhang Peng）

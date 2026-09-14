@@ -2,8 +2,7 @@
 type: project
 name: TensorRT-LLM
 governance: company-led
-company: NVIDIA
-companies: [NVIDIA]
+companies: ["NVIDIA"]
 company_relation: company-led
 layer: inference-runtime
 open_source: true

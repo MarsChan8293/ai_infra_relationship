@@ -1,7 +1,7 @@
 ---
 type: person
 name: Hongtao Chen
-affiliation: MADSys Lab, Tsinghua University
+current_affiliations: ["MADSys Lab, Tsinghua University"]
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer, Paper Author]
 
 ## 技术方向
 CPU/GPU hybrid inference、MoE、NUMA-aware memory、heterogeneous serving。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

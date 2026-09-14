@@ -14,3 +14,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 Tokenizer health checking、duration/config validation、runtime reliability。
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

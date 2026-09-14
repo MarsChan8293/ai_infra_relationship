@@ -1,7 +1,7 @@
 ---
 type: person
 name: Stefan Schimanski
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 roles: [Operator Contributor]
 ---
@@ -19,3 +19,6 @@ Kubernetes operators、CRD/API evolution、多租户 control plane、AI inferenc
 
 ## 关联
 [[Red Hat]] · Kubernetes · kcp
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

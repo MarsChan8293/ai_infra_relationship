@@ -3,9 +3,13 @@ type: person
 name: 汤雄超
 english_name: Xiongchao Tang
 aliases: [汤雄超, Xiongchao Tang]
-company: 清程极智
+current_affiliations: ["清程极智"]
 roles: [Co-Founder, Chairman, CEO]
 areas: [parallel-computing, heterogeneous-computing, scheduling, performance-optimization]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/翟季冬 Jidong Zhai","type":["mentor-network"],"confidence":"medium","evidence":["https://www.qc-ai.cn/about","https://www.cyzone.cn/company/28273b8311825de4","https://www.21jingji.com/article/20250715/herald/a1130eadb3042c420d079adf71102b1d.html"]}'
+  - '{"target":"company/清程极智/靳江明 Jiangming Jin","type":["coworker"],"confidence":"high","evidence":["https://www.qc-ai.cn/about","https://www.cyzone.cn/company/28273b8311825de4","https://www.21jingji.com/article/20250715/herald/a1130eadb3042c420d079adf71102b1d.html"]}'
 ---
 # 汤雄超（Xiongchao Tang）
 

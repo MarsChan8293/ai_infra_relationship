@@ -3,9 +3,13 @@ type: person
 name: 靳江明
 english_name: Jiangming Jin
 aliases: [靳江明, Jiangming Jin]
-company: 清程极智
+current_affiliations: ["清程极智"]
 roles: [COO]
 areas: [distributed-systems, hpc, aiot]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/汤雄超 Xiongchao Tang","type":["coworker"],"confidence":"high","evidence":["https://www.qc-ai.cn/about","https://mplus-gallery.nimbus-nimo.com/project/2025S-054"]}'
+  - '{"target":"company/清程极智/翟季冬 Jidong Zhai","type":["mentor-network"],"confidence":"medium","evidence":["https://www.qc-ai.cn/about","https://mplus-gallery.nimbus-nimo.com/project/2025S-054"]}'
 ---
 # 靳江明（Jiangming Jin）
 

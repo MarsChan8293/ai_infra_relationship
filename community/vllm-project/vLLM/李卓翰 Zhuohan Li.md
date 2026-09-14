@@ -3,7 +3,7 @@ type: person
 name: 李卓翰
 english_name: Zhuohan Li
 aliases: [Zhuohan Li, 李卓翰]
-current_affiliations: [Meta]
+current_affiliations: ["Meta"]
 communities: [vLLM]
 areas: [llm-inference, serving-systems, rl-infrastructure, memory-management]
 roles: [Co-creator, Lead Maintainer]

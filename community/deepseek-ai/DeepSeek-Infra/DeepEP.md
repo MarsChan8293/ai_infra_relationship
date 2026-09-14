@@ -2,7 +2,7 @@
 type: project
 name: DeepEP
 parent: DeepSeek-Infra
-companies: [深度求索]
+companies: ["深度求索"]
 company_relation: company-led
 layer: expert-parallel-communication
 open_source: true

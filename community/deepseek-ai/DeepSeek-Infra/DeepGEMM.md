@@ -2,7 +2,7 @@
 type: project
 name: DeepGEMM
 parent: DeepSeek-Infra
-companies: [深度求索]
+companies: ["深度求索"]
 company_relation: company-led
 layer: gpu-kernels
 open_source: true

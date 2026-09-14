@@ -3,7 +3,7 @@ type: person
 name: 卢佳豪
 english_name: Jiahao Lu
 aliases: [卢佳豪, Jiahao Lu]
-company: 趋境科技
+current_affiliations: ["趋境科技"]
 communities: [Mooncake]
 roles: [Research Intern, Engineer]
 areas: [memory-systems, kv-cache, llm-serving]

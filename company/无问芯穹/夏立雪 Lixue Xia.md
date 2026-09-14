@@ -3,9 +3,14 @@ type: person
 name: 夏立雪
 english_name: Lixue Xia
 aliases: [夏立雪, Lixue Xia]
-company: 无问芯穹
+current_affiliations: ["无问芯穹"]
 roles: [Co-Founder, CEO]
 areas: [heterogeneous-compute, ai-infrastructure, systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/无问芯穹/汪玉 Yu Wang","type":["mentor-network"],"confidence":"medium","evidence":["https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/戴国浩 Guohao Dai","type":["cofounder","research-collaboration","same-lab"],"confidence":"high","evidence":["https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/李伯勋 Boxun Li","type":["coworker","mentor-network","same-lab"],"confidence":"high","evidence":["https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
 ---
 # 夏立雪（Lixue Xia）
 

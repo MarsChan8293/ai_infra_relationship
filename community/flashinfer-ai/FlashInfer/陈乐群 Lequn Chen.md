@@ -16,3 +16,6 @@ roles: [Original Paper Author]
 
 ## 技术方向
 LLM inference serving、GPU kernels 与系统优化。
+
+## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer

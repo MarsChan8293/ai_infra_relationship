@@ -1,7 +1,7 @@
 ---
 type: person
 name: Qingliang Ou
-affiliation: MADSys Lab, Tsinghua University
+current_affiliations: ["MADSys Lab, Tsinghua University"]
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer, Paper Author]
 
 ## 技术方向
 CPU/GPU heterogeneous serving、MoE、runtime optimization。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

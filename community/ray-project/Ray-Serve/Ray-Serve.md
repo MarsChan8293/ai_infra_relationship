@@ -1,8 +1,7 @@
 ---
 type: project
 name: Ray Serve
-company: Anyscale
-companies: [Anyscale]
+companies: ["Anyscale"]
 company_relation: core-commercial-ecosystem
 layer: distributed-serving
 open_source: true

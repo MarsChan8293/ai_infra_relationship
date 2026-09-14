@@ -1,7 +1,7 @@
 ---
 type: person
 name: Peilin Li
-affiliation: Approaching.AI
+current_affiliations: ["Approaching.AI"]
 communities: [KTransformers]
 roles: [Maintainer]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer]
 
 ## 技术方向
 KTransformers maintenance、inference runtime、release/compatibility。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

@@ -16,3 +16,6 @@ roles: [Original Paper Author]
 
 ## 关联
 [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]] · Apache TVM · MLC · DGL
+
+## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer

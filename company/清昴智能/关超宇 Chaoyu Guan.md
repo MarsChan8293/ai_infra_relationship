@@ -3,9 +3,13 @@ type: person
 name: 关超宇
 english_name: Chaoyu Guan
 aliases: [关超宇, Chaoyu Guan]
-company: 清昴智能
+current_affiliations: ["清昴智能"]
 roles: [Co-Founder, CEO]
 areas: [model-optimization, heterogeneous-inference, automl, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清昴智能/朱文武 Wenwu Zhu","type":["mentor-network"],"confidence":"medium","evidence":["https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/202406/t20240611_4656306_hd.shtml","https://mplus-gallery.nimbus-nimo.com/project/2022F-007","https://www.njicg.com/article/268"]}'
+  - '{"target":"company/清昴智能/姚航 Hang Yao","type":["cofounder"],"confidence":"high","evidence":["https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/202406/t20240611_4656306_hd.shtml","https://mplus-gallery.nimbus-nimo.com/project/2022F-007","https://www.njicg.com/article/268"]}'
 ---
 # 关超宇（Chaoyu Guan）
 

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Brian Nguyen
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM, FlashInfer]
 ---
 # Brian Nguyen
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM, FlashInfer]
 
 ## 技术方向
 [[FlashInfer]] integration、decode kernels、CUDA Graph、runtime performance。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

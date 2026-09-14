@@ -1,8 +1,7 @@
 ---
 type: project
 name: Triton Inference Server
-company: NVIDIA
-companies: [NVIDIA]
+companies: ["NVIDIA"]
 company_relation: company-led
 layer: production-inference-server
 open_source: true

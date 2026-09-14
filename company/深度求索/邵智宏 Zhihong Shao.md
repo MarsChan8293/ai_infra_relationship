@@ -3,8 +3,13 @@ type: person
 name: 邵智宏
 english_name: Zhihong Shao
 aliases: [Zhihong Shao, 邵智宏]
-company: 深度求索
+current_affiliations: ["深度求索"]
 areas: [reasoning, reinforcement-learning, tool-use]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/深度求索/郭达雅 Daya Guo","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhihongshao.github.io/","https://arxiv.org/abs/2402.03300","https://arxiv.org/abs/2405.14333"]}'
+  - '{"target":"company/深度求索/陈德里 Deli Chen","type":["coworker","research-collaboration"],"confidence":"high","evidence":["https://zhihongshao.github.io/","https://arxiv.org/abs/2402.03300","https://arxiv.org/abs/2405.14333"]}'
+  - '{"target":"company/深度求索/梁文锋 Liang Wenfeng","type":["research-collaboration"],"confidence":"medium","evidence":["https://zhihongshao.github.io/","https://arxiv.org/abs/2402.03300","https://arxiv.org/abs/2405.14333"]}'
 ---
 # 邵智宏（Zhihong Shao）
 

@@ -3,9 +3,18 @@ type: person
 name: 杜昆泰
 english_name: Kuntai Du
 aliases: [Kuntai Du, 杜昆泰]
-company: TensorMesh
+current_affiliations: ["TensorMesh"]
 communities: [LMCache, vLLM]
 roles: [Co-Founder, Chief Scientist]
+areas: ["kv-cache","llm-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["cofounder","research-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/TensorMesh/Junchen Jiang","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","open-source-collaboration","research-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
 ---
 # 杜昆泰（Kuntai Du）
 

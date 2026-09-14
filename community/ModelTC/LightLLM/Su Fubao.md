@@ -1,7 +1,7 @@
 ---
 type: person
 name: Su Fubao
-company: 商汤科技
+current_affiliations: ["商汤科技"]
 communities: [LightLLM]
 roles: [Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Contributor]
 
 ## 技术方向
 Triton FP8 W8A8 quantization、inference kernels。
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

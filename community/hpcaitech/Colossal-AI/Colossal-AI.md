@@ -1,7 +1,7 @@
 ---
 type: project
 name: Colossal-AI
-companies: [潞晨科技]
+companies: ["潞晨科技"]
 company_relation: company-originated
 layer: distributed-training
 open_source: true

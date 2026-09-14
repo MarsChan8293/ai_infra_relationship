@@ -3,9 +3,14 @@ type: person
 name: 吴育昕
 english_name: Yuxin Wu
 aliases: [吴育昕, Yuxin Wu]
-company: 月之暗面
+current_affiliations: ["月之暗面"]
 roles: [cofounder]
 areas: [foundation-models, computer-vision, infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["cofounder","coworker"],"confidence":"high","evidence":["https://ppwwyyxx.com/"]}'
+  - '{"target":"company/月之暗面/周昕宇 Xinyu Zhou","type":["cofounder","coworker"],"confidence":"high","evidence":["https://ppwwyyxx.com/"]}'
+  - '{"target":"company/月之暗面/Guanduo Chen","type":["cofounder","coworker"],"confidence":"high","evidence":["https://ppwwyyxx.com/"]}'
 ---
 # 吴育昕（Yuxin Wu）
 

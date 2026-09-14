@@ -3,9 +3,14 @@ type: person
 name: 李伯勋
 english_name: Boxun Li
 aliases: [李伯勋, Boxun Li]
-company: 无问芯穹
+current_affiliations: ["无问芯穹"]
 roles: [CTO]
 areas: [ai-infrastructure, hardware-software-codesign, efficient-computing]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/无问芯穹/汪玉 Yu Wang","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://2026.baai.ac.cn/speakers","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/夏立雪 Lixue Xia","type":["coworker","same-lab"],"confidence":"high","evidence":["https://2026.baai.ac.cn/speakers","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/戴国浩 Guohao Dai","type":["coworker","same-lab"],"confidence":"high","evidence":["https://2026.baai.ac.cn/speakers","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
 ---
 # 李伯勋（Boxun Li）
 

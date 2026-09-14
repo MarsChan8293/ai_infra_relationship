@@ -13,3 +13,6 @@ communities: [DeepGEMM, DeepSeek-Infra]
 
 ## 技术方向
 GPU kernel、low-precision GEMM。
+
+## Sources
+- Project source / contributor context: https://github.com/deepseek-ai

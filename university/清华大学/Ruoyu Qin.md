@@ -1,8 +1,11 @@
 ---
 type: person
 name: Ruoyu Qin
-affiliation: Tsinghua University
+current_affiliations: ["Tsinghua University"]
 areas: [llm-serving, kv-cache, distributed-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/清华大学/Mingxing Zhang","type":["mentor-network"],"confidence":"medium","evidence":["https://www.cs.tsinghua.edu.cn/info/1247/6286.htm"]}'
 ---
 # Ruoyu Qin
 

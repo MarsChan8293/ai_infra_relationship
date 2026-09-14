@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ryan McCormick
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 education: [Binghamton University]
 ---
@@ -15,3 +15,6 @@ education: [Binghamton University]
 
 ## 技术方向
 [[Dynamo]]、multimodal encode-prefill-decode disaggregation、[[vLLM]] sidecar 与 production distributed serving。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

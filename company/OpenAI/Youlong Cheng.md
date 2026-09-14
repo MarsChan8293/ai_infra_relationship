@@ -1,9 +1,12 @@
 ---
 type: person
 name: Youlong Cheng
-company: OpenAI
+current_affiliations: ["OpenAI"]
 areas: [post-training, infrastructure]
 confidence: project-credit
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/OpenAI/Luke Metz","type":["technical-collaboration"],"confidence":"medium","evidence":["https://openai.com/gpt-4o-contributions/"]}'
 ---
 # Youlong Cheng
 

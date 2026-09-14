@@ -1,10 +1,16 @@
 ---
 type: person
 name: Woosuk Kwon
-company: Inferact
+current_affiliations: ["Inferact"]
 projects: [vLLM]
 education: [Seoul National University, UC Berkeley]
 roles: [Founder, CTO, Lead Maintainer]
+areas: ["ai-infrastructure"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["open-source-collaboration","research-collaboration","same-lab"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["open-source-collaboration","research-collaboration","same-lab"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["cofounder","open-source-collaboration"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
 ---
 # Woosuk Kwon
 

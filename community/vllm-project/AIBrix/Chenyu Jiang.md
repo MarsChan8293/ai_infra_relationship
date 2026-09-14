@@ -1,7 +1,7 @@
 ---
 type: person
 name: Chenyu Jiang
-company: 字节跳动
+current_affiliations: ["字节跳动"]
 communities: [AIBrix]
 roles: [Active Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 batch job scheduling、capacity-aware concurrency、job deadline 与 recovery。
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

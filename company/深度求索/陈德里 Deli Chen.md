@@ -3,8 +3,13 @@ type: person
 name: 陈德里
 english_name: Deli Chen
 aliases: [Deli Chen, 陈德里]
-company: 深度求索
+current_affiliations: ["深度求索"]
 areas: [foundation-models, moe, reasoning]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/深度求索/郭达雅 Daya Guo","type":["coworker","research-collaboration"],"confidence":"high","evidence":["https://victorchen96.github.io/","https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948"]}'
+  - '{"target":"company/深度求索/邵智宏 Zhihong Shao","type":["coworker","research-collaboration"],"confidence":"high","evidence":["https://victorchen96.github.io/","https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948"]}'
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu","type":["coworker"],"confidence":"high","evidence":["https://victorchen96.github.io/","https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948"]}'
 ---
 # 陈德里（Deli Chen）
 

@@ -3,8 +3,15 @@ type: person
 name: 梁文锋
 english_name: Liang Wenfeng
 aliases: [Liang Wenfeng, 梁文锋]
-company: 深度求索
+current_affiliations: ["深度求索"]
 roles: [founder, CEO]
+areas: ["ai-infrastructure"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/深度求索/郭达雅 Daya Guo","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
+  - '{"target":"company/深度求索/邵智宏 Zhihong Shao","type":["research-collaboration"],"confidence":"medium","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
+  - '{"target":"community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
 ---
 # 梁文锋（Liang Wenfeng）
 

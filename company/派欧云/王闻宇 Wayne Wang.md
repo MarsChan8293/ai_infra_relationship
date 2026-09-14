@@ -3,9 +3,12 @@ type: person
 name: 王闻宇
 english_name: Wayne Wang
 aliases: [王闻宇, Wayne Wang]
-company: 派欧云
+current_affiliations: ["派欧云"]
 roles: [Co-Founder, CTO]
 areas: [distributed-systems, cloud-infrastructure, agentic-cloud]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/派欧云/姚欣 Bill Yao","type":["cofounder"],"confidence":"high","evidence":["https://ppio.com/about?from=ppinfra&index=0"]}'
 ---
 # 王闻宇（Wayne Wang）
 

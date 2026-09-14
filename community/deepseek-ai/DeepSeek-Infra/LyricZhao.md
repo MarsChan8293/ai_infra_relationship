@@ -14,3 +14,6 @@ identity_status: public-handle
 
 ## 技术方向
 MegaMoE、GPU kernel、JIT/runtime。
+
+## Sources
+- Project source / contributor context: https://github.com/deepseek-ai

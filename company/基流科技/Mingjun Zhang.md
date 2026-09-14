@@ -2,10 +2,16 @@
 type: person
 name: Mingjun Zhang
 aliases: [Mingjun Zhang]
-company: 基流科技
+current_affiliations: ["基流科技"]
 communities: [VCCL]
 roles: [AI Infra Engineer]
 areas: [collective-communication, gpu-networking, distributed-training]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/基流科技/胡效赫 Xiaohe Hu","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/Zhangmj0621","https://arxiv.org/abs/2510.00991","https://github.com/sii-research/VCCL"]}'
+  - '{"target":"company/基流科技/Yanmin Jia","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/Zhangmj0621","https://arxiv.org/abs/2510.00991","https://github.com/sii-research/VCCL"]}'
+  - '{"target":"company/基流科技/He Liu","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/Zhangmj0621","https://arxiv.org/abs/2510.00991","https://github.com/sii-research/VCCL"]}'
+  - '{"target":"company/基流科技/Wenqi Xie","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/Zhangmj0621","https://arxiv.org/abs/2510.00991","https://github.com/sii-research/VCCL"]}'
 ---
 # Mingjun Zhang
 

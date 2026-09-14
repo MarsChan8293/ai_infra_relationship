@@ -3,7 +3,7 @@ type: person
 name: 游凯超
 english_name: Kaichao You
 aliases: [Kaichao You, 游凯超]
-current_affiliations: [Inferact]
+current_affiliations: ["Inferact"]
 communities: [vLLM]
 areas: [distributed-inference, parallelism, compiler-integration, rl-infrastructure, hardware-backends]
 roles: [Cofounder, Chief Scientist, Lead Maintainer]
@@ -16,6 +16,12 @@ relations:
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["coworker","technical-collaboration","career-connection"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292","https://vllm.ai/blog/2025-09-29-deepseek-v3-2"]}'
   - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["mentor-network"],"confidence":"medium","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"company/Inferact/Joseph Gonzalez","type":["mentor-network"],"confidence":"medium","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"community/vllm-project/vLLM/Yongye Zhu","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"company/Meta/Richard Zou","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"company/OpenAI/翁家翌 Jiayi Weng","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
 ---
 # 游凯超（Kaichao You）
 
@@ -28,7 +34,7 @@ relations:
 
 ## 工作经历
 - [[university/UC Berkeley/UC Berkeley|UC Berkeley RISELab]]：2019 Visiting Student Researcher
-- [[Apple AIML]]：2023–2024 Research Intern
+- Apple AIML：2023–2024 Research Intern
 - [[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：2024 Visiting PhD Researcher
 - [[Inferact]]：联合创始人、Chief Scientist，2025–至今
 

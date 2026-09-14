@@ -3,9 +3,13 @@ type: person
 name: 柳俊丞
 english_name: Juncheng Liu
 aliases: [柳俊丞, Juncheng Liu]
-company: 硅基流动
+current_affiliations: ["硅基流动"]
 roles: [CTO]
 areas: [distributed-deep-learning, ai-inference, cuda-kernels]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/硅基流动/袁进辉 Jinhui Yuan","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://arxiv.org/abs/2110.15032","https://oneflow2020.medium.com/how-to-implement-an-efficient-layernorm-cuda-kernel-oneflow-performance-optimization-731e91a285b8","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
+  - '{"target":"company/硅基流动/赵震 Zhao Zhen","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2110.15032","https://oneflow2020.medium.com/how-to-implement-an-efficient-layernorm-cuda-kernel-oneflow-performance-optimization-731e91a285b8","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
 ---
 # 柳俊丞（Juncheng Liu）
 

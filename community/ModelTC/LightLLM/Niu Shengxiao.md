@@ -1,7 +1,7 @@
 ---
 type: person
 name: Niu Shengxiao
-company: 商汤科技
+current_affiliations: ["商汤科技"]
 communities: [LightLLM]
 roles: [Active Contributor]
 ---
@@ -19,3 +19,6 @@ DeepEP、MoE shared-expert optimization、multi-node runtime、KV cache、PD ser
 
 ## 关联
 [[DeepEP]] · [[NIXL]]
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

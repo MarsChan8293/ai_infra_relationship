@@ -1,7 +1,7 @@
 ---
 type: project
 name: MindIE-SD
-companies: [华为]
+companies: ["华为"]
 company_relation: company-led
 layer: inference-kernels-and-dispatch
 hardware: [Ascend]

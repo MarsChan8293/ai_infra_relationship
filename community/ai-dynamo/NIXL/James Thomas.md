@@ -1,7 +1,7 @@
 ---
 type: person
 name: James Thomas
-company: Databricks
+current_affiliations: ["Databricks"]
 communities: [NIXL]
 ---
 # James Thomas
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 remote memory registration、transfer request lifecycle、stale-generation safety。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

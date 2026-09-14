@@ -3,8 +3,11 @@ type: person
 name: 曾奥涵
 english_name: Aohan Zeng
 aliases: [曾奥涵, Aohan Zeng]
-company: 智谱
+current_affiliations: ["智谱"]
 areas: [pretraining, model-architecture, multimodal]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/","https://keg.cs.tsinghua.edu.cn/codegeex/"]}'
 ---
 # 曾奥涵（Aohan Zeng）
 

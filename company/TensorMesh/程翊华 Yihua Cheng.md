@@ -3,9 +3,14 @@ type: person
 name: 程翊华
 english_name: Yihua Cheng
 aliases: [Yihua Cheng, 程翊华]
-company: TensorMesh
+current_affiliations: ["TensorMesh"]
 communities: [LMCache, vLLM]
 roles: [Co-Founder, CTO]
+areas: ["kv-cache","llm-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["cofounder","research-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
+  - '{"target":"company/TensorMesh/Junchen Jiang","type":["mentor-network"],"confidence":"medium","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
 ---
 # 程翊华（Yihua Cheng）
 

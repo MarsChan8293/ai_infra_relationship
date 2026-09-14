@@ -3,9 +3,13 @@ type: person
 name: 姚航
 english_name: Hang Yao
 aliases: [姚航, Hang Yao]
-company: 清昴智能
+current_affiliations: ["清昴智能"]
 roles: [Co-Founder, COO]
 areas: [operations, ai-infrastructure, deployment]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清昴智能/关超宇 Chaoyu Guan","type":["cofounder"],"confidence":"high","evidence":["https://k.sina.com.cn/article_6517029999_18471fc6f001018jmy.html","https://pitchhub.36kr.com/project/2228795956414208"]}'
+  - '{"target":"company/清昴智能/朱文武 Wenwu Zhu","type":["mentor-network"],"confidence":"medium","evidence":["https://k.sina.com.cn/article_6517029999_18471fc6f001018jmy.html","https://pitchhub.36kr.com/project/2228795956414208"]}'
 ---
 # 姚航（Hang Yao）
 

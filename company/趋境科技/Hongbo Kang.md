@@ -2,10 +2,12 @@
 type: person
 name: Hongbo Kang
 aliases: [Hongbo Kang]
-company: 趋境科技
-affiliations: [Tsinghua University, Approaching.AI]
+current_affiliations: ["Tsinghua University","Approaching.AI","趋境科技"]
 roles: [Engineer]
 areas: [systems, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["mentor-network"],"confidence":"medium","evidence":["https://madsys.cs.tsinghua.edu.cn/people/"]}'
 ---
 # Hongbo Kang
 

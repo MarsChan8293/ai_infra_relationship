@@ -3,10 +3,15 @@ type: person
 name: 方佳瑞
 english_name: Jiarui Fang
 aliases: [方佳瑞, Jiarui Fang]
-company: 字节跳动
+current_affiliations: ["字节跳动"]
 communities: [Colossal-AI]
 roles: [Software Engineer, Former CTO]
 areas: [distributed-training, inference, reinforcement-learning, maas]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/潞晨科技/尤洋 Yang You","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://www.jiaruifang.com/","https://www.jiaruifang.com/files/cv.pdf","https://openreview.net/pdf?id=WO3qJC2TOG"]}'
+  - '{"target":"company/潞晨科技/Haichen Huang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://www.jiaruifang.com/","https://www.jiaruifang.com/files/cv.pdf","https://openreview.net/pdf?id=WO3qJC2TOG"]}'
+  - '{"target":"community/hpcaitech/Colossal-AI/Hongxin Liu","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://www.jiaruifang.com/","https://www.jiaruifang.com/files/cv.pdf","https://openreview.net/pdf?id=WO3qJC2TOG"]}'
 ---
 # 方佳瑞（Jiarui Fang）
 

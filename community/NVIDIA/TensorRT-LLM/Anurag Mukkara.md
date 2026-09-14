@@ -1,7 +1,7 @@
 ---
 type: person
 name: Anurag Mukkara
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Anurag Mukkara
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 DFlash/speculative draft latency、decode performance。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

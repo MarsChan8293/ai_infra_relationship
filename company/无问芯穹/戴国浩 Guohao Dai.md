@@ -3,9 +3,14 @@ type: person
 name: 戴国浩
 english_name: Guohao Dai
 aliases: [戴国浩, Guohao Dai]
-company: 无问芯穹
+current_affiliations: ["无问芯穹"]
 roles: [Co-Founder, Chief Scientist]
 areas: [ai-systems, hardware-software-codesign, sparse-computing]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/无问芯穹/汪玉 Yu Wang","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www.sii.edu.cn/2026/0529/c94a1051/page.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/夏立雪 Lixue Xia","type":["cofounder","same-lab"],"confidence":"high","evidence":["https://www.sii.edu.cn/2026/0529/c94a1051/page.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
+  - '{"target":"company/无问芯穹/李伯勋 Boxun Li","type":["coworker","same-lab"],"confidence":"high","evidence":["https://www.sii.edu.cn/2026/0529/c94a1051/page.htm","https://www.infinigence-ai.com/about-us.html","https://www.qimingvc.com/cn/node/7623"]}'
 ---
 # 戴国浩（Guohao Dai）
 

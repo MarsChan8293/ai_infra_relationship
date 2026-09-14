@@ -14,3 +14,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 Qwen-VL、LLM getting-started、PyTorch backend、production deployment documentation。
+
+## Sources
+- Project source / contributor context: https://github.com/triton-inference-server/server

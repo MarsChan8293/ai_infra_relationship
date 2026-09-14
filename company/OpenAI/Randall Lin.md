@@ -1,7 +1,7 @@
 ---
 type: person
 name: Randall Lin
-company: OpenAI
+current_affiliations: ["OpenAI"]
 areas: [post-training, infrastructure]
 confidence: project-credit
 ---

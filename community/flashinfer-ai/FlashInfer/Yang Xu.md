@@ -1,9 +1,15 @@
 ---
 type: person
 name: Yang Xu
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
+areas: ["attention-kernels"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye","type":["coworker"],"confidence":"high","evidence":["https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Jingfan Sun","type":["coworker"],"confidence":"high","evidence":["https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/aleozlx","type":["coworker"],"confidence":"high","evidence":["https://github.com/flashinfer-ai/flashinfer"]}'
 ---
 # Yang Xu
 
@@ -24,4 +30,5 @@ FlashInfer release quality、autotuning、low-precision MoE、paged prefill API�
 - [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 共同负责 Attention、GEMM、MoE、Communication 等模块的治理与 review；Brian 雇佣信息公开不足。
 
 ## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
 - FlashInfer CODEOWNERS / maintainer metadata

@@ -3,7 +3,7 @@ type: person
 name: 尤洋
 english_name: Yang You
 aliases: [尤洋, Yang You]
-company: 潞晨科技
+current_affiliations: ["潞晨科技"]
 communities: [Colossal-AI]
 roles: [Founder]
 areas: [distributed-training, high-performance-computing, optimization]

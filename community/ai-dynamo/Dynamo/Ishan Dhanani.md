@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ishan Dhanani
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo, SGLang]
 roles: [Senior Deep Learning Algorithms Engineer]
 ---
@@ -17,3 +17,6 @@ roles: [Senior Deep Learning Algorithms Engineer]
 
 ## 技术方向
 大规模 distributed inference、agentic serving、KV cache、模型优化。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

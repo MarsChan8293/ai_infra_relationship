@@ -1,7 +1,7 @@
 ---
 type: project
 name: vLLM
-companies: [Inferact, Red Hat, Meta, Hugging Face, TensorMesh]
+companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh"]
 company_relation: cross-company-core-contributors
 layer: inference-engine
 open_source: true

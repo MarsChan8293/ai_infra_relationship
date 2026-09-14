@@ -3,9 +3,16 @@ type: person
 name: 杨植麟
 english_name: Zhilin Yang
 aliases: [杨植麟, Zhilin Yang]
-company: 月之暗面
+current_affiliations: ["月之暗面"]
 roles: [cofounder, CEO]
 areas: [foundation-models, language-modeling]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/智谱/唐杰 Jie Tang","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/codegeex/","https://www.moonshot.ai/about"]}'
+  - '{"target":"company/月之暗面/吴育昕 Yuxin Wu","type":["cofounder","coworker"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/codegeex/","https://www.moonshot.ai/about"]}'
+  - '{"target":"company/月之暗面/周昕宇 Xinyu Zhou","type":["cofounder"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/codegeex/","https://www.moonshot.ai/about"]}'
+  - '{"target":"company/月之暗面/Guanduo Chen","type":["coworker"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/codegeex/","https://www.moonshot.ai/about"]}'
+  - '{"target":"company/智谱/杜政晓 Zhengxiao Du","type":["paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/codegeex/","https://www.moonshot.ai/about"]}'
 ---
 # 杨植麟（Zhilin Yang）
 

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Zaijun Wang
-company: 商汤科技
+current_affiliations: ["商汤科技"]
 communities: [LightLLM]
 roles: [Paper Author, Active Contributor]
 ---
@@ -19,3 +19,6 @@ DeepSeek/Qwen 模型支持、MoE、MTP/speculative decoding、KV cache、multimo
 
 ## 关联
 [[DeepSeek-Infra]] · [[NIXL]]
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

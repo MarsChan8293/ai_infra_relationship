@@ -1,7 +1,7 @@
 ---
 type: project
 name: OneFlow
-companies: [一流科技]
+companies: ["一流科技"]
 company_relation: company-originated
 layer: distributed-deep-learning-framework
 open_source: true

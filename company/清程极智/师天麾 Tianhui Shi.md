@@ -3,9 +3,14 @@ type: person
 name: 师天麾
 english_name: Tianhui Shi
 aliases: [师天麾, Tianhui Shi]
-company: 清程极智
+current_affiliations: ["清程极智"]
 roles: [Co-Founder]
 areas: [high-performance-computing, distributed-training, inference, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/翟季冬 Jidong Zhai","type":["mentor-network","same-lab"],"confidence":"medium","evidence":["https://www.tsinghua.org.cn/info/1953/42732.htm","https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://arxiv.org/abs/2605.02821"]}'
+  - '{"target":"company/清程极智/唐适之 Shizhi Tang","type":["cofounder","same-lab"],"confidence":"high","evidence":["https://www.tsinghua.org.cn/info/1953/42732.htm","https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://arxiv.org/abs/2605.02821"]}'
+  - '{"target":"company/清程极智/汤雄超 Xiongchao Tang","type":["cofounder"],"confidence":"high","evidence":["https://www.tsinghua.org.cn/info/1953/42732.htm","https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://arxiv.org/abs/2605.02821"]}'
 ---
 # 师天麾（Tianhui Shi）
 

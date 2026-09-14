@@ -3,8 +3,14 @@ type: person
 name: 杨宝松
 english_name: Baosong Yang
 aliases: [Baosong Yang, 杨宝松]
-company: 阿里巴巴
+current_affiliations: ["阿里巴巴"]
 areas: [multilingual-llm, machine-translation]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/阿里巴巴/万宇 Yu Wan","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://baosongyang.site/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/阿里巴巴/刘大一恒 Dayiheng Liu","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://baosongyang.site/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/阿里巴巴/林俊旸 Junyang Lin","type":["coworker"],"confidence":"high","evidence":["https://baosongyang.site/","https://baosongyang.site/publications/"]}'
+  - '{"target":"company/阿里巴巴/惠彬原 Binyuan Hui","type":["coworker"],"confidence":"high","evidence":["https://baosongyang.site/","https://baosongyang.site/publications/"]}'
 ---
 # 杨宝松（Baosong Yang）
 

@@ -1,7 +1,7 @@
 ---
 type: project
 name: SGLang
-companies: [RadixArk]
+companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: llm-serving-engine
 open_source: true

@@ -1,8 +1,12 @@
 ---
 type: person
 name: Guanduo Chen
-company: 月之暗面
+current_affiliations: ["月之暗面"]
 areas: [training-infra, distributed-systems, foundation-models]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["cofounder","coworker"],"confidence":"high","evidence":["https://woooooow-pro.github.io/"]}'
+  - '{"target":"company/月之暗面/吴育昕 Yuxin Wu","type":["coworker"],"confidence":"high","evidence":["https://woooooow-pro.github.io/"]}'
 ---
 # Guanduo Chen
 

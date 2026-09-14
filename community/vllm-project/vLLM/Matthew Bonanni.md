@@ -2,7 +2,7 @@
 type: person
 name: Matthew Bonanni
 aliases: [MatthewBonanni]
-company: Red Hat
+current_affiliations: ["Red Hat"]
 communities: [vLLM]
 education: [Stanford University]
 roles: [Machine Learning Engineer, vLLM Maintainer]

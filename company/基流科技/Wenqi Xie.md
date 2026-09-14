@@ -2,10 +2,15 @@
 type: person
 name: Wenqi Xie
 aliases: [Wenqi Xie]
-company: 基流科技
+current_affiliations: ["基流科技"]
 communities: [VCCL]
 roles: [Executive Director, AI Infra]
 areas: [collective-communication, gpu-cluster, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/基流科技/胡效赫 Xiaohe Hu","type":["paper-coauthor"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf"]}'
+  - '{"target":"company/基流科技/Mingjun Zhang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf"]}'
+  - '{"target":"company/基流科技/Yanmin Jia","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf"]}'
 ---
 # Wenqi Xie
 

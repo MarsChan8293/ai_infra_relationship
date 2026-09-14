@@ -22,4 +22,5 @@ GPU inference kernels、Attention、MoE、low precision、Blackwell performance�
 - [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 同具跨模块 code review / approval 权限；双方公开履历不足以判断公司层面的共事关系。
 
 ## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
 - FlashInfer CODEOWNERS / maintainer metadata

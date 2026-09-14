@@ -1,7 +1,7 @@
 ---
 type: person
 name: Yibin Li
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Yibin Li
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 新模型支持、MiniMax 系模型、production inference integration。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

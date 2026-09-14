@@ -1,7 +1,7 @@
 ---
 type: person
 name: Rong Chen
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
 areas: [ai-infrastructure, distributed-systems, llm-serving]
 ---

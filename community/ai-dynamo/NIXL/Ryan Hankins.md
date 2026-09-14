@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ryan Hankins
-company: HPE
+current_affiliations: ["HPE"]
 communities: [NIXL]
 ---
 # Ryan Hankins
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 HPE Slingshot/CXI、libfabric、remote memory event 与 high-performance networking。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

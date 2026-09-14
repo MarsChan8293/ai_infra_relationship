@@ -18,3 +18,6 @@ roles: [Original Paper Author]
 
 ## 技术方向
 机器学习编译、GPU kernel 与高性能推理。
+
+## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer

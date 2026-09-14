@@ -1,7 +1,7 @@
 ---
 type: person
 name: Yingge He
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Triton Inference Server, Dynamo]
 roles: [Active Contributor]
 ---
@@ -17,3 +17,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 PyTorch AOTI、Triton QA、Dynamo integration、production inference testing。
+
+## Sources
+- Project source / contributor context: https://github.com/triton-inference-server/server

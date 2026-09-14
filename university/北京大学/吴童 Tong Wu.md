@@ -2,7 +2,7 @@
 type: person
 name: Tong Wu
 aliases: [吴童, Tong Wu]
-affiliation: Peking University / Tile-AI
+current_affiliations: ["Peking University / Tile-AI"]
 areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
 ---
 # 吴童（Tong Wu）

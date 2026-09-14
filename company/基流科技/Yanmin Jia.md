@@ -2,10 +2,15 @@
 type: person
 name: Yanmin Jia
 aliases: [Yanmin Jia]
-company: 基流科技
+current_affiliations: ["基流科技"]
 communities: [VCCL]
 roles: [AI Infra Engineer]
 areas: [collective-communication, heterogeneous-communication, gpu-networking]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/基流科技/Mingjun Zhang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://vccl-doc.readthedocs.io/en/latest/","https://arxiv.org/abs/2605.31000"]}'
+  - '{"target":"company/基流科技/He Liu","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://vccl-doc.readthedocs.io/en/latest/","https://arxiv.org/abs/2605.31000"]}'
+  - '{"target":"company/基流科技/胡效赫 Xiaohe Hu","type":["paper-coauthor","coworker","research-collaboration"],"confidence":"high","evidence":["https://arxiv.org/abs/2510.00991","https://vccl-doc.readthedocs.io/en/latest/","https://arxiv.org/abs/2605.31000"]}'
 ---
 # Yanmin Jia
 

@@ -3,9 +3,14 @@ type: person
 name: 汪玉
 english_name: Yu Wang
 aliases: [汪玉, Yu Wang]
-affiliations: [Tsinghua University, Infinigence AI]
+current_affiliations: ["Tsinghua University","Infinigence AI"]
 roles: [Professor, Initiator]
 areas: [efficient-computing, hardware-software-codesign, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/无问芯穹/夏立雪 Lixue Xia","type":["mentor-network"],"confidence":"medium","evidence":["https://www.tsinghua.edu.cn/info/1182/110541.htm","https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html"]}'
+  - '{"target":"company/无问芯穹/戴国浩 Guohao Dai","type":["cofounder","research-collaboration","mentor-network"],"confidence":"high","evidence":["https://www.tsinghua.edu.cn/info/1182/110541.htm","https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html"]}'
+  - '{"target":"company/无问芯穹/李伯勋 Boxun Li","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www.tsinghua.edu.cn/info/1182/110541.htm","https://www.tsinghua.edu.cn/info/1182/119968.htm","https://www.infinigence-ai.com/about-us.html"]}'
 ---
 # 汪玉（Yu Wang）
 

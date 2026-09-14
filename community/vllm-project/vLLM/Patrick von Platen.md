@@ -1,7 +1,7 @@
 ---
 type: person
 name: Patrick von Platen
-company: Hugging Face
+current_affiliations: ["Hugging Face"]
 communities: [vLLM, Hugging Face]
 areas: [model-implementations, transformers, diffusion]
 ---

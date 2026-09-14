@@ -17,3 +17,6 @@ PD routing contract、vLLM/SGLang/NIXL/TensorRT-LLM backend interoperability、a
 
 ## 关联
 [[vLLM]] · [[SGLang]] · [[NIXL]] · [[TensorRT-LLM]]
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

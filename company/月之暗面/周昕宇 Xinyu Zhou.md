@@ -3,9 +3,14 @@ type: person
 name: 周昕宇
 english_name: Xinyu Zhou
 aliases: [周昕宇, Xinyu Zhou]
-company: 月之暗面
+current_affiliations: ["月之暗面"]
 roles: [cofounder]
 confidence: public-company-history
+areas: ["ai-infrastructure"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["cofounder"],"confidence":"high","evidence":["https://www.moonshot.ai/about"]}'
+  - '{"target":"company/月之暗面/吴育昕 Yuxin Wu","type":["cofounder","coworker"],"confidence":"high","evidence":["https://www.moonshot.ai/about"]}'
 ---
 # 周昕宇（Xinyu Zhou）
 

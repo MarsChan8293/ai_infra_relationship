@@ -2,9 +2,12 @@
 type: person
 name: Richard Zou
 aliases: [Richard Zou]
-company: Meta
+current_affiliations: ["Meta"]
 communities: [vLLM]
 areas: [pytorch-compiler, torch-compile, ai-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://vllm.ai/blog/2025-08-20-torch-compile","https://vllm.ai/events/vllm-conference/2026","https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/"]}'
 ---
 # Richard Zou
 

@@ -1,10 +1,15 @@
 ---
 type: person
 name: Abdullah Gharaibeh
-company: Google
+current_affiliations: ["Google"]
 communities: [llm-d]
 roles: [Senior Staff Software Engineer, Project Leadership, Router SIG Lead]
 areas: [llm-routing, scheduling, kv-cache-affinity, kubernetes]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/llm-d/llm-d/Nili Guy","type":["coworker"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/predicted-latency-based-scheduling-for-llms","https://llm-d.ai/blog/sticky-until-saturated-token-aware-routing"]}'
+  - '{"target":"community/llm-d/llm-d/Vita Bortnikov","type":["coworker"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/predicted-latency-based-scheduling-for-llms","https://llm-d.ai/blog/sticky-until-saturated-token-aware-routing"]}'
+  - '{"target":"community/llm-d/llm-d/Clayton Coleman","type":["coworker"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/predicted-latency-based-scheduling-for-llms","https://llm-d.ai/blog/sticky-until-saturated-token-aware-routing"]}'
 ---
 # Abdullah Gharaibeh
 

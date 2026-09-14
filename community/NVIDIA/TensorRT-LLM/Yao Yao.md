@@ -1,7 +1,7 @@
 ---
 type: person
 name: Yao Yao
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Yao Yao
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 long-sequence KV cache management、KVCM V2、memory efficiency。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

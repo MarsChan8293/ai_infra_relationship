@@ -2,8 +2,7 @@
 type: project
 name: NIXL
 governance: company-led
-company: NVIDIA
-companies: [NVIDIA]
+companies: ["NVIDIA"]
 company_relation: company-led
 layer: inference-data-movement
 open_source: true

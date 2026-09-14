@@ -1,7 +1,7 @@
 ---
 type: person
 name: Carlos Costa
-company: IBM
+current_affiliations: ["IBM"]
 communities: [llm-d]
 roles: [Distinguished Engineer, Project Leadership]
 areas: [distributed-inference, kubernetes, serving-systems]

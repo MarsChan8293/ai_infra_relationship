@@ -3,8 +3,11 @@ type: person
 name: 郑勤锴
 english_name: Qinkai Zheng
 aliases: [郑勤锴, Qinkai Zheng]
-company: 智谱
+current_affiliations: ["智谱"]
 areas: [code-models, coding-agents]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["coworker"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/codegeex/","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/"]}'
 ---
 # 郑勤锴（Qinkai Zheng）
 

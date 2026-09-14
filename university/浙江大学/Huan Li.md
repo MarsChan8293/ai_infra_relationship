@@ -2,9 +2,14 @@
 type: person
 name: Huan Li
 aliases: [李环, Huan Li]
-affiliation: 浙江大学
+current_affiliations: ["浙江大学"]
 roles: [Professor, PhD Advisor]
 areas: [llm-inference, speculative-decoding, kv-cache, multi-tenant-serving, efficient-ai]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/浙江大学/Lidan Shou","type":["mentor-network"],"confidence":"medium","evidence":["https://person.zju.edu.cn/lihuan","https://longaspire.github.io/","https://sudis-zju.github.io/zh/"]}'
+  - '{"target":"university/浙江大学/Jue Wang","type":["paper-coauthor"],"confidence":"high","evidence":["https://person.zju.edu.cn/lihuan","https://longaspire.github.io/","https://sudis-zju.github.io/zh/"]}'
+  - '{"target":"university/浙江大学/Zheng Li","type":["research-collaboration"],"confidence":"medium","evidence":["https://person.zju.edu.cn/lihuan","https://longaspire.github.io/","https://sudis-zju.github.io/zh/"]}'
 ---
 # 李环（Huan Li）
 

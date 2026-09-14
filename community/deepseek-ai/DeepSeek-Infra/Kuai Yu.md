@@ -13,3 +13,6 @@ communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
 
 ## 技术方向
 MoE communication、GEMM kernels。
+
+## Sources
+- Project source / contributor context: https://github.com/deepseek-ai

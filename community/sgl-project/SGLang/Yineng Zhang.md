@@ -2,11 +2,23 @@
 type: person
 name: Yineng Zhang
 aliases: [Yineng Zhang]
-company: Together AI
-affiliations: [Together AI, LightSeek Foundation]
+current_affiliations: ["Together AI","LightSeek Foundation"]
 communities: [SGLang, FlashInfer, Mooncake, TokenSpeed]
 roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator, Former SGLang Core Maintainer]
 areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inference]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Wuwei Lin","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"university/清华大学/Ruoyu Qin","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/kvcache-ai/Mooncake/任峰 Feng Ren","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/kvcache-ai/Mooncake/马腾 Teng Ma","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"university/清华大学/Mingxing Zhang","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"company/清程极智/郑纬民 Weimin Zheng","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
 ---
 # Yineng Zhang
 

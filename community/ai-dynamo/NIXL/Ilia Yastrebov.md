@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ilia Yastrebov
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [NIXL]
 ---
 # Ilia Yastrebov
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 KV transfer descriptor、zero-copy API、vLLM integration、TTFT 优化。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

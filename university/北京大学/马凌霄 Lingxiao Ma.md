@@ -2,9 +2,13 @@
 type: person
 name: Lingxiao Ma
 aliases: [马凌霄, Lingxiao Ma]
-affiliation: Microsoft Research Asia
+current_affiliations: ["Microsoft Research Asia"]
 education: [北京大学]
 areas: [ai-compilers, gpu-systems, deep-learning-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/北京大学/杨智 Zhi Yang","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://xysmlx.github.io/","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
+  - '{"target":"university/北京大学/程羽 Yu Cheng","type":["mentor-network"],"confidence":"medium","evidence":["https://xysmlx.github.io/","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
 ---
 # 马凌霄（Lingxiao Ma）
 

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Xin He
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Xin He
@@ -18,3 +18,6 @@ prefill/decode disaggregation、distributed serving、runtime integration。
 
 ## 关联
 [[Dynamo]] · [[NIXL]]
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

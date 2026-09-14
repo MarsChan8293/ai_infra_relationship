@@ -1,7 +1,7 @@
 ---
 type: person
 name: Sang Chengmeng
-company: 商汤科技
+current_affiliations: ["商汤科技"]
 communities: [LightLLM]
 roles: [Active Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 Qwen Omni、vision backend、multimodal serving。
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

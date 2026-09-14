@@ -1,7 +1,7 @@
 ---
 type: person
 name: Sungsoo Ha
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 ---
 # Sungsoo Ha
@@ -18,3 +18,6 @@ communities: [Dynamo]
 
 ## 关联
 [[SGLang]] · [[深度求索]] · [[NVIDIA]]
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

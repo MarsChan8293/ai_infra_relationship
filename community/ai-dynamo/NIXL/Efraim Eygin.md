@@ -1,7 +1,7 @@
 ---
 type: person
 name: Efraim Eygin
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [NIXL]
 ---
 # Efraim Eygin
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 request tracing、W3C trace context、transfer correlation、NIXL core reliability。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

@@ -3,8 +3,14 @@ type: person
 name: 杜政晓
 english_name: Zhengxiao Du
 aliases: [杜政晓, Zhengxiao Du]
-company: 智谱
+current_affiliations: ["智谱"]
 areas: [pretraining, foundation-models]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/智谱/唐杰 Jie Tang","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://zxdu.xyz/","https://zxdu.xyz/files/CV.pdf","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/"]}'
+  - '{"target":"company/智谱/曾奥涵 Aohan Zeng","type":["coworker"],"confidence":"high","evidence":["https://zxdu.xyz/","https://zxdu.xyz/files/CV.pdf","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/"]}'
+  - '{"target":"company/智谱/郑勤锴 Qinkai Zheng","type":["coworker"],"confidence":"high","evidence":["https://zxdu.xyz/","https://zxdu.xyz/files/CV.pdf","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/"]}'
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["paper-coauthor","coworker","research-collaboration"],"confidence":"high","evidence":["https://zxdu.xyz/","https://zxdu.xyz/files/CV.pdf","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/"]}'
 ---
 # 杜政晓（Zhengxiao Du）
 

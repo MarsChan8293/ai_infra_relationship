@@ -1,7 +1,7 @@
 ---
 type: person
 name: Zhaoyang Wang
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Zhaoyang Wang
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 speculative decoding、runtime cleanup、LLM inference engine。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

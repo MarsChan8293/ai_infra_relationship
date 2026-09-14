@@ -1,7 +1,7 @@
 ---
 type: person
 name: Xingxing Hao
-affiliation: Approaching.AI
+current_affiliations: ["Approaching.AI"]
 communities: [KTransformers]
 roles: [Maintainer]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer]
 
 ## 技术方向
 KTransformers maintenance、heterogeneous serving、project reliability。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

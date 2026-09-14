@@ -2,7 +2,7 @@
 type: project
 name: VCCL
 full_name: Venus Collective Communication Library
-companies: [基流科技]
+companies: ["基流科技"]
 company_relation: industry-research-co-development
 layer: collective-communication
 open_source: true

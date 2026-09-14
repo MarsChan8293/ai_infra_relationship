@@ -1,10 +1,16 @@
 ---
 type: person
 name: Jingfan Sun
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
 education: [浙江大学, Georgia Institute of Technology]
+areas: ["attention-kernels"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye","type":["coworker"],"confidence":"high","evidence":["https://www.linkedin.com/in/jingfan-sun-1bb8b4b0/"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Yang Xu","type":["coworker"],"confidence":"high","evidence":["https://www.linkedin.com/in/jingfan-sun-1bb8b4b0/"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/aleozlx","type":["coworker"],"confidence":"high","evidence":["https://www.linkedin.com/in/jingfan-sun-1bb8b4b0/"]}'
 ---
 # Jingfan Sun
 

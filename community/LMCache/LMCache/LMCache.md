@@ -1,7 +1,7 @@
 ---
 type: project
 name: LMCache
-companies: [TensorMesh]
+companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
 layer: kv-cache-management
 open_source: true

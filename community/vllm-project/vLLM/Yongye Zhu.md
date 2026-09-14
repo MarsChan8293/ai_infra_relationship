@@ -2,9 +2,15 @@
 type: person
 name: Yongye Zhu
 aliases: [Yongye Zhu]
-company: Inferact
+current_affiliations: ["Inferact"]
 communities: [vLLM]
 roles: [Member of Technical Staff, Contributor]
+areas: ["llm-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["coworker"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
 ---
 # Yongye Zhu
 

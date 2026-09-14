@@ -13,3 +13,6 @@ communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
 
 ## 技术方向
 Expert Parallel communication、GPU kernel systems。
+
+## Sources
+- Project source / contributor context: https://github.com/deepseek-ai

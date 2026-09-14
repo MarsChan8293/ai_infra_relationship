@@ -1,7 +1,7 @@
 ---
 type: person
 name: Tomer Davidor
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [NIXL]
 ---
 # Tomer Davidor
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 GPU-initiated communication、UCX、backend-neutral device API。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

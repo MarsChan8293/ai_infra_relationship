@@ -3,9 +3,14 @@ type: person
 name: 唐适之
 english_name: Shizhi Tang
 aliases: [唐适之, Shizhi Tang]
-company: 清程极智
+current_affiliations: ["清程极智"]
 roles: [Co-Founder, Inference Engine Lead]
 areas: [llm-inference, parallel-training, operator-optimization, programming-languages, heterogeneous-compute]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/翟季冬 Jidong Zhai","type":["mentor-network"],"confidence":"medium","evidence":["https://www.ccf.org.cn/Activities/Training/ADL/ADL/2026-04-28/884626.shtml","https://hangzhou2025.gosim.org/zh/speakers/shizhi-tang/","https://pacman.cs.tsinghua.edu.cn/~zjd/people/"]}'
+  - '{"target":"company/清程极智/师天麾 Tianhui Shi","type":["cofounder","same-lab"],"confidence":"high","evidence":["https://www.ccf.org.cn/Activities/Training/ADL/ADL/2026-04-28/884626.shtml","https://hangzhou2025.gosim.org/zh/speakers/shizhi-tang/","https://pacman.cs.tsinghua.edu.cn/~zjd/people/"]}'
+  - '{"target":"company/清程极智/汤雄超 Xiongchao Tang","type":["cofounder"],"confidence":"high","evidence":["https://www.ccf.org.cn/Activities/Training/ADL/ADL/2026-04-28/884626.shtml","https://hangzhou2025.gosim.org/zh/speakers/shizhi-tang/","https://pacman.cs.tsinghua.edu.cn/~zjd/people/"]}'
 ---
 # 唐适之（Shizhi Tang）
 

@@ -3,10 +3,15 @@ type: person
 name: 武永卫
 english_name: Yongwei Wu
 aliases: [武永卫, Yongwei Wu]
-affiliations: [Tsinghua University, Approaching.AI]
+current_affiliations: ["Tsinghua University","Approaching.AI"]
 communities: [Mooncake, KTransformers]
 roles: [Professor, Chief Scientist]
 areas: [distributed-systems, storage, llm-serving, heterogeneous-inference]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/趋境科技/艾智远 Zhiyuan Ai","type":["coworker"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/","https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"]}'
+  - '{"target":"community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie","type":["paper-coauthor","mentor-network","career-connection"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/","https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"]}'
+  - '{"target":"university/清华大学/Mingxing Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/","https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"]}'
 ---
 # 武永卫（Yongwei Wu）
 

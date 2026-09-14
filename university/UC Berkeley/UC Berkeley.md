@@ -1,7 +1,7 @@
 ---
 type: school
 name: UC Berkeley
-aliases: [University of California, Berkeley]
+aliases: ["University of California, Berkeley"]
 ---
 # UC Berkeley
 

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Chang Liu
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Chang Liu
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 NVFP4、Kimi 系模型、Blackwell inference performance。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

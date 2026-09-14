@@ -1,7 +1,7 @@
 ---
 type: person
 name: Clayton Coleman
-company: Google
+current_affiliations: ["Google"]
 communities: [llm-d]
 roles: [Distinguished Engineer, Project Leadership]
 status: inactive-on-leave

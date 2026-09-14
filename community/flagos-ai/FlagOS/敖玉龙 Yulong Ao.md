@@ -3,12 +3,15 @@ type: person
 name: 敖玉龙
 english_name: Yulong Ao
 aliases: [敖玉龙, Yulong Ao, aoyulong]
-current_affiliations: [北京智源人工智能研究院]
+current_affiliations: ["北京智源人工智能研究院"]
 communities: [FlagOS]
 projects: [FlagScale, FlagCX]
 roles: [AI框架研发团队负责人, FlagScale maintainer, FlagCX maintainer]
 areas: [distributed-systems, heterogeneous-computing, llm-training, llm-inference, performance-optimization]
 last_verified: 2026-09
+relations:
+  - '{"target":"community/flagos-ai/FlagOS/赵英利 Yingli Zhao","type":["open-source-collaboration"],"confidence":"high","evidence":["https://hub.baai.ac.cn/view/55412","https://2026.baai.ac.cn/speakers","https://github.com/flagos-ai/FlagScale/blob/main/MAINTAINERS.md"]}'
+  - '{"target":"community/flagos-ai/FlagOS/曹州","type":["open-source-collaboration"],"confidence":"high","evidence":["https://hub.baai.ac.cn/view/55412","https://2026.baai.ac.cn/speakers","https://github.com/flagos-ai/FlagScale/blob/main/MAINTAINERS.md"]}'
 ---
 # 敖玉龙（Yulong Ao）
 

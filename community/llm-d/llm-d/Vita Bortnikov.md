@@ -1,10 +1,13 @@
 ---
 type: person
 name: Vita Bortnikov
-company: IBM
+current_affiliations: ["IBM"]
 communities: [llm-d]
 roles: [IBM Fellow, Router SIG Lead]
 areas: [llm-routing, kubernetes, distributed-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/llm-d/llm-d/Clayton Coleman","type":["coworker"],"confidence":"high","evidence":["https://llm-d.ai/community/sigs","https://llm-d.ai/blog/authors","https://llm-d.ai/blog/intelligent-inference-scheduling-with-llm-d"]}'
 ---
 # Vita Bortnikov
 

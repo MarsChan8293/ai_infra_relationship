@@ -1,7 +1,7 @@
 ---
 type: person
 name: Junchen Jiang
-company: TensorMesh
+current_affiliations: ["TensorMesh"]
 university: University of Chicago
 projects: [LMCache]
 roles: [CEO, Co-Founder, Associate Professor]

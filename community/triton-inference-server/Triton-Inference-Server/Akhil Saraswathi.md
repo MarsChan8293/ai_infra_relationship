@@ -1,7 +1,7 @@
 ---
 type: person
 name: Akhil Saraswathi
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Triton Inference Server]
 roles: [Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Contributor]
 
 ## 技术方向
 CI、Torch AOTI、generative recommender serving。
+
+## Sources
+- Project source / contributor context: https://github.com/triton-inference-server/server

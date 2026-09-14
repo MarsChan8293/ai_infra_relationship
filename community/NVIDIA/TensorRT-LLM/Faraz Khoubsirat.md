@@ -1,7 +1,7 @@
 ---
 type: person
 name: Faraz Khoubsirat
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Faraz Khoubsirat
@@ -15,3 +15,6 @@ communities: [TensorRT-LLM]
 
 ## 技术方向
 Fused Multi-Head Attention、GPU kernels、inference performance。
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

@@ -14,3 +14,6 @@ roles: [Paper Author]
 
 ## 技术方向
 LLM serving、scheduler、structured decoding、systems research。
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

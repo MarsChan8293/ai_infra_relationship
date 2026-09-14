@@ -1,7 +1,7 @@
 ---
 type: person
 name: Xin Li
-company: 道客
+current_affiliations: ["道客"]
 communities: [AIBrix]
 roles: [Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Contributor]
 
 ## 技术方向
 GPU optimizer、container image policy、cloud-native inference deployment。
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

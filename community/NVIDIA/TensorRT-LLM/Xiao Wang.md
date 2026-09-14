@@ -1,7 +1,7 @@
 ---
 type: person
 name: Xiao Wang
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Xiao Wang
@@ -18,3 +18,6 @@ conversation affinity、request placement、PD disaggregation。
 
 ## 关联
 [[Dynamo]]
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

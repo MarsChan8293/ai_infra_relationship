@@ -2,9 +2,19 @@
 type: person
 name: Ion Stoica
 aliases: [Ion Stoica]
-affiliations: [UC Berkeley, Inferact]
+current_affiliations: ["UC Berkeley","Inferact"]
 communities: [vLLM, SGLang, Ray]
 roles: [Professor, Sky Lab Director, Inferact Founding Member]
+areas: ["llm-inference","distributed-systems"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"company/Inferact/Joseph Gonzalez","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["research-collaboration"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
 ---
 # Ion Stoica
 

@@ -1,7 +1,7 @@
 ---
 type: project
 name: ops-transformer
-companies: [华为]
+companies: ["华为"]
 company_relation: company-led
 layer: npu-kernels
 hardware: [Ascend]

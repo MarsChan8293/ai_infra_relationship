@@ -17,3 +17,6 @@ DeepEP、MoE、speculative decoding、KV buffer、linear attention radix cache�
 
 ## 关联
 [[DeepEP]] · [[DeepSeek-Infra]] · [[NIXL]]
+
+## Sources
+- Project source / contributor context: https://github.com/ModelTC/lightllm

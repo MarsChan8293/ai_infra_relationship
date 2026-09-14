@@ -3,9 +3,15 @@ type: person
 name: 柳晓萱
 english_name: Xiaoxuan Liu
 aliases: [Xiaoxuan Liu, Lily Liu, 柳晓萱]
-company: OpenAI
+current_affiliations: ["OpenAI"]
 communities: [vLLM]
 areas: [llm-inference, speculative-decoding, post-training-infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor"],"confidence":"high","evidence":["https://liuxiaoxuanpku.github.io/","https://arxiv.org/abs/2406.14066","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://liuxiaoxuanpku.github.io/","https://arxiv.org/abs/2406.14066","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor"],"confidence":"high","evidence":["https://liuxiaoxuanpku.github.io/","https://arxiv.org/abs/2406.14066","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["paper-coauthor"],"confidence":"high","evidence":["https://liuxiaoxuanpku.github.io/","https://arxiv.org/abs/2406.14066","https://arxiv.org/abs/2503.18292"]}'
 ---
 # 柳晓萱（Xiaoxuan “Lily” Liu）
 

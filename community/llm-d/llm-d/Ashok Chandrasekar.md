@@ -1,7 +1,7 @@
 ---
 type: person
 name: Ashok Chandrasekar
-company: Google
+current_affiliations: ["Google"]
 communities: [llm-d, Kubernetes]
 roles: [Benchmarking SIG Lead, Inference Perf Author]
 areas: [llm-benchmarking, inference-performance, kubernetes]

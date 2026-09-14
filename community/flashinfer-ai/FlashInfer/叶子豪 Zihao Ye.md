@@ -3,10 +3,17 @@ type: person
 name: 叶子豪
 english_name: Zihao Ye
 aliases: [Zihao Ye, 叶子豪, yzh119]
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [FlashInfer]
 roles: [Creator, Full Codebase Approver]
 education: [上海交通大学, University of Washington]
+areas: ["attention-kernels"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://flashinfer.ai/"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Jingfan Sun","type":["coworker"],"confidence":"high","evidence":["https://flashinfer.ai/"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Yang Xu","type":["coworker"],"confidence":"high","evidence":["https://flashinfer.ai/"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/aleozlx","type":["coworker"],"confidence":"high","evidence":["https://flashinfer.ai/"]}'
 ---
 # 叶子豪（Zihao Ye）
 

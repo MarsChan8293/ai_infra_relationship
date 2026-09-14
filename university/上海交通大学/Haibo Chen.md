@@ -1,7 +1,7 @@
 ---
 type: person
 name: Haibo Chen
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
 areas: [operating-systems, distributed-systems, ai-infrastructure]
 ---

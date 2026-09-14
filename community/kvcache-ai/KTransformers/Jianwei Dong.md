@@ -1,7 +1,7 @@
 ---
 type: person
 name: Jianwei Dong
-affiliation: MADSys Lab, Tsinghua University
+current_affiliations: ["MADSys Lab, Tsinghua University"]
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---
@@ -16,3 +16,6 @@ roles: [Maintainer, Paper Author]
 
 ## 技术方向
 heterogeneous LLM inference、MoE expert execution、kt-kernel。
+
+## Sources
+- Project source / contributor context: https://github.com/kvcache-ai/ktransformers

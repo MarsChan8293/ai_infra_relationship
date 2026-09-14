@@ -1,7 +1,7 @@
 ---
 type: person
 name: Rongxin Cheng
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
 areas: [llm-serving, memory-management]
 ---

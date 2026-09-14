@@ -1,7 +1,7 @@
 ---
 type: person
 name: Matej Kosec
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 roles: [Senior Deep Learning Algorithms Engineer]
 ---
@@ -19,3 +19,6 @@ roles: [Senior Deep Learning Algorithms Engineer]
 
 ## 关联人物
 [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] · [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]]
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

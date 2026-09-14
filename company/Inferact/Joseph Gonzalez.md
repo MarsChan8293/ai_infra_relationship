@@ -2,9 +2,18 @@
 type: person
 name: Joseph Gonzalez
 aliases: [Joseph Gonzalez, Joseph E. Gonzalez]
-affiliations: [UC Berkeley, Inferact]
+current_affiliations: ["UC Berkeley","Inferact"]
 communities: [vLLM, SGLang]
 roles: [Professor, Sky Lab Founding Member, Inferact Founding Member]
+areas: ["llm-inference"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/Inferact/Ion Stoica","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["paper-coauthor"],"confidence":"high","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
 ---
 # Joseph Gonzalez
 

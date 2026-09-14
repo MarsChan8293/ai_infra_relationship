@@ -17,3 +17,6 @@ prefix-cache-aware routing、token_load、hybrid_cache_load、PD selection hot p
 
 ## 关联
 [[vLLM]] · [[LMCache]] · [[NIXL]]
+
+## Sources
+- Project source / contributor context: https://github.com/vllm-project/aibrix

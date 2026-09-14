@@ -2,8 +2,15 @@
 type: person
 name: Zhi Yang
 aliases: [杨智, Zhi Yang]
-affiliation: Peking University
+current_affiliations: ["Peking University"]
 areas: [ai-compilers, ai-computing-systems, distributed-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/北京大学/马凌霄 Lingxiao Ma","type":["mentor-network"],"confidence":"medium","evidence":["https://cs.pku.edu.cn/info/1232/2044.htm","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
+  - '{"target":"university/北京大学/程羽 Yu Cheng","type":["mentor-network"],"confidence":"medium","evidence":["https://cs.pku.edu.cn/info/1232/2044.htm","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
+  - '{"target":"university/北京大学/吴童 Tong Wu","type":["mentor-network"],"confidence":"medium","evidence":["https://cs.pku.edu.cn/info/1232/2044.htm","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
+  - '{"target":"university/北京大学/Lei Wang","type":["paper-coauthor"],"confidence":"high","evidence":["https://cs.pku.edu.cn/info/1232/2044.htm","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
+  - '{"target":"university/北京大学/Yining Shi","type":["paper-coauthor"],"confidence":"high","evidence":["https://cs.pku.edu.cn/info/1232/2044.htm","https://github.com/tile-ai/tilelang","https://www.usenix.org/conference/osdi20/presentation/ma"]}'
 ---
 # 杨智（Zhi Yang）
 

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Yi Zhang
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [TensorRT-LLM]
 ---
 # Yi Zhang
@@ -18,3 +18,6 @@ KVCM、KV cache lifecycle、long-context serving。
 
 ## 关联
 [[Dynamo]] · [[NIXL]] · [[LMCache]]
+
+## Sources
+- Project source / contributor context: https://github.com/NVIDIA/TensorRT-LLM

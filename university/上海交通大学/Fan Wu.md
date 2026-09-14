@@ -1,7 +1,7 @@
 ---
 type: person
 name: Fan Wu
-affiliation: Shanghai Jiao Tong University
+current_affiliations: ["Shanghai Jiao Tong University"]
 areas: [distributed-systems, networking, ai-systems]
 ---
 # Fan Wu

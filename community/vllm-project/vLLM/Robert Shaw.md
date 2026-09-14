@@ -22,7 +22,7 @@
 - [[Michael Goin]]：**前 Neural Magic、现 Red Hat 同事 + vLLM 共同维护者**。2025-02 Red Hat DeepSeek 优化工作中与 Robert 同属贡献团队；Michael 偏 quantization / kernels / performance，Robert 偏 engine core / distributed。
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**vLLM Project Lead 跨公司协作**。2025 Hardware Plugin 工作中两人与 Simon Mo、Michael Goin 等共同参与 core refactor、deep discussion 与 review；截至 2026-09 仍共同处于 vLLM Project Lead / roadmap 网络。Robert 属 [[Red Hat]]、游凯超属 [[Inferact]]，因此不是同事。
 - [[Lucas Wilkinson]]：**前 Neural Magic、现 Red Hat 同事 + vLLM GPU 性能合作者**。2025-02 两人共同被 Red Hat credit 于 DeepSeek MLA / FP8 vLLM 优化；Lucas 主要负责 attention / GPU kernel 路径。
-- [[Russell Bryant]]：**Red Hat 同事 + vLLM 治理/engine 协作者**。截至 2026-09 两人同属 Red Hat 的 vLLM / AI inference 网络；Robert 负责 distributed/disaggregated serving，Russell 负责 structured output、engine core 与 security。两人在 Red Hat 的精确首次共事月份公开来源未确认。
+- Russell Bryant：**Red Hat 同事 + vLLM 治理/engine 协作者**。截至 2026-09 两人同属 Red Hat 的 vLLM / AI inference 网络；Robert 负责 distributed/disaggregated serving，Russell 负责 structured output、engine core 与 security。两人在 Red Hat 的精确首次共事月份公开来源未确认。
 - [[Nick Hill]]：**vLLM 开源共同维护者，后分属不同公司**。两人在 vLLM engine、distributed、API/KV Connector 等模块长期交叉协作；截至 2026-09 Nick 属 [[Inferact]]、Robert 属 [[Red Hat]]，因此当前关系不标记为同事。
 
 ## Sources

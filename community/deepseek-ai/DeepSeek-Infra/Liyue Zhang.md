@@ -13,3 +13,6 @@ communities: [DeepEP, DeepSeek-Infra]
 
 ## 技术方向
 Expert Parallel communication。
+
+## Sources
+- Project source / contributor context: https://github.com/deepseek-ai

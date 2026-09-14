@@ -3,9 +3,15 @@ type: person
 name: 唐天一
 english_name: Tianyi Tang
 aliases: [Tianyi Tang, 唐天一]
-company: Qwen
+current_affiliations: ["Qwen"]
 areas: [alignment, reasoning]
 confidence: project-credit
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/阿里巴巴/刘大一恒 Dayiheng Liu","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.09388"]}'
+  - '{"target":"company/阿里巴巴/林俊旸 Junyang Lin","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.09388"]}'
+  - '{"target":"company/阿里巴巴/郁博文 Bowen Yu","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.09388"]}'
+  - '{"target":"company/阿里巴巴/惠彬原 Binyuan Hui","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.09388"]}'
 ---
 # 唐天一（Tianyi Tang）
 

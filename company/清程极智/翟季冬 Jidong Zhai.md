@@ -3,9 +3,15 @@ type: person
 name: 翟季冬
 english_name: Jidong Zhai
 aliases: [翟季冬, Jidong Zhai]
-affiliations: [Tsinghua University, Qingcheng.ai]
+current_affiliations: ["Tsinghua University","Qingcheng.ai"]
 roles: [Professor, Chief Scientist]
 areas: [high-performance-computing, distributed-training, performance-analysis]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/清程极智/师天麾 Tianhui Shi","type":["cofounder","mentor-network"],"confidence":"high","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
+  - '{"target":"company/清程极智/唐适之 Shizhi Tang","type":["mentor-network"],"confidence":"medium","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
+  - '{"target":"company/清程极智/马子轩 Zixuan Ma","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
+  - '{"target":"company/清程极智/汤雄超 Xiongchao Tang","type":["mentor-network"],"confidence":"medium","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
 ---
 # 翟季冬（Jidong Zhai）
 

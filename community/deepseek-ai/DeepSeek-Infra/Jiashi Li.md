@@ -22,6 +22,7 @@ areas: [expert-parallel, gpu-kernels, mla]
 公开简历待补；不根据项目组织归属推断雇佣关系。
 
 ## Sources
+- Project source / contributor context: https://github.com/deepseek-ai
 - DeepSeek DeepEP public author credits
 - DeepSeek DeepGEMM public author credits
 - DeepSeek FlashMLA public author credits

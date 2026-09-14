@@ -2,9 +2,13 @@
 type: person
 name: Jue Wang
 aliases: [Jue Wang]
-affiliations: [浙江大学, Together AI]
-company: Together AI
+current_affiliations: ["浙江大学","Together AI"]
 areas: [llm-inference, tensor-parallelism, moe-inference, multi-tenant-serving]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/浙江大学/Lidan Shou","type":["mentor-network"],"confidence":"medium","evidence":["https://juewang.me/about/","https://juewang.me/","https://arxiv.org/abs/2504.17449"]}'
+  - '{"target":"university/浙江大学/Huan Li","type":["research-collaboration"],"confidence":"medium","evidence":["https://juewang.me/about/","https://juewang.me/","https://arxiv.org/abs/2504.17449"]}'
+  - '{"target":"university/浙江大学/Zheng Li","type":["paper-coauthor"],"confidence":"high","evidence":["https://juewang.me/about/","https://juewang.me/","https://arxiv.org/abs/2504.17449"]}'
 ---
 # Jue Wang
 

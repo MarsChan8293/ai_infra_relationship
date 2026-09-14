@@ -1,7 +1,7 @@
 ---
 type: person
 name: Sai Kiran Polisetty
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Triton Inference Server]
 roles: [Active Contributor]
 ---
@@ -16,3 +16,6 @@ roles: [Active Contributor]
 
 ## 技术方向
 OpenAI response streaming、shared memory request safety、SageMaker MME、sequence batching 与 production inference reliability。
+
+## Sources
+- Project source / contributor context: https://github.com/triton-inference-server/server

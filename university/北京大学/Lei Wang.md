@@ -2,7 +2,7 @@
 type: person
 name: Lei Wang
 aliases: [Lei Wang, LeiWang1999]
-affiliation: Peking University / Tile-AI
+current_affiliations: ["Peking University / Tile-AI"]
 areas: [ai-compilers, gpu-kernels, kernel-dsl]
 ---
 # Lei Wang

@@ -3,8 +3,14 @@ type: person
 name: 万宇
 english_name: Yu Wan
 aliases: [Yu Wan, 万宇]
-company: 阿里巴巴
+current_affiliations: ["阿里巴巴"]
 areas: [multilingualism, interpretability, machine-translation]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/阿里巴巴/杨宝松 Baosong Yang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://wanyu2018umac.github.io/"]}'
+  - '{"target":"company/阿里巴巴/刘大一恒 Dayiheng Liu","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://wanyu2018umac.github.io/"]}'
+  - '{"target":"company/阿里巴巴/林俊旸 Junyang Lin","type":["coworker"],"confidence":"high","evidence":["https://wanyu2018umac.github.io/"]}'
+  - '{"target":"company/阿里巴巴/郁博文 Bowen Yu","type":["coworker"],"confidence":"high","evidence":["https://wanyu2018umac.github.io/"]}'
 ---
 # 万宇（Yu Wan）
 

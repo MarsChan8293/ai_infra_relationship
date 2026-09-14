@@ -3,9 +3,12 @@ type: person
 name: 姚欣
 english_name: Bill Yao
 aliases: [姚欣, Bill Yao]
-company: 派欧云
+current_affiliations: ["派欧云"]
 roles: [Co-Founder, Chairman, CEO]
 areas: [distributed-cloud, agentic-cloud, infrastructure]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/派欧云/王闻宇 Wayne Wang","type":["cofounder"],"confidence":"high","evidence":["https://ppio.com/about?from=ppinfra&index=0"]}'
 ---
 # 姚欣（Bill Yao）
 

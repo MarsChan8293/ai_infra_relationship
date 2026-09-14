@@ -1,7 +1,7 @@
 ---
 type: person
 name: Mingxing Zhang
-affiliation: Tsinghua University
+current_affiliations: ["Tsinghua University"]
 areas: [storage-systems, llm-serving, kv-cache]
 ---
 # Mingxing Zhang

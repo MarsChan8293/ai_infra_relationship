@@ -1,7 +1,7 @@
 ---
 type: person
 name: Yining Shi
-affiliation: NVIDIA
+current_affiliations: ["NVIDIA"]
 areas: [ai-compilers, memory-optimization, gpu-kernels]
 ---
 # Yining Shi

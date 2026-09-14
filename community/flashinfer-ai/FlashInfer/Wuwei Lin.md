@@ -14,3 +14,6 @@ roles: [Original Paper Author]
 
 ## 技术方向
 GPU systems、LLM inference serving。
+
+## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer

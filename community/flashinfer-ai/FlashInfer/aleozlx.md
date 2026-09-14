@@ -23,4 +23,5 @@ identity_status: public-handle
 - [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 同具跨模块审批权限；公开资料不足以确认二人公司关系或首次合作月份。
 
 ## Sources
+- Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
 - FlashInfer CODEOWNERS / maintainer metadata

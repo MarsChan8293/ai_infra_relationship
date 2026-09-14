@@ -3,9 +3,13 @@ type: person
 name: 任峰
 english_name: Feng Ren
 aliases: [Feng Ren, 任峰]
-company: 趋境科技
+current_affiliations: ["趋境科技"]
 communities: [Mooncake]
 roles: [Cofounder, Codeowner, Transfer Engine Maintainer]
+areas: ["kv-cache"]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/kvcache-ai/Mooncake/马腾 Teng Ma","type":["open-source-collaboration","coworker"],"confidence":"high","evidence":["https://libfeng.com/","https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"]}'
 ---
 # 任峰（Feng Ren）
 

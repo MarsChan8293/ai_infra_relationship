@@ -3,7 +3,7 @@ type: project
 name: TokenSpeed
 governance: foundation-led
 organization: LightSeek Foundation
-companies: [NVIDIA, AMD, Together AI, 阿里巴巴]
+companies: ["NVIDIA","AMD","Together AI","阿里巴巴"]
 company_relation: cross-company-co-creation
 layer: agentic-llm-inference-engine
 open_source: true

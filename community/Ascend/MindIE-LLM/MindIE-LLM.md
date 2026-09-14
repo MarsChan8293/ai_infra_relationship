@@ -1,7 +1,7 @@
 ---
 type: project
 name: MindIE-LLM
-companies: [华为]
+companies: ["华为"]
 company_relation: company-led
 layer: inference-runtime
 hardware: [Ascend]

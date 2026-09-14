@@ -3,9 +3,15 @@ type: person
 name: 胡效赫
 english_name: Xiaohe Hu
 aliases: [胡效赫, Xiaohe Hu]
-company: 基流科技
+current_affiliations: ["基流科技"]
 roles: [Founder, Chairman, CEO]
 areas: [ai-infrastructure, distributed-computing, high-performance-networking]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/基流科技/Mingjun Zhang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf","https://arxiv.org/abs/2510.00991","https://app.xinhuanet.com/news/article.html?articleId=202607229d2b584da49a47eb8a8baad8a1978f1b"]}'
+  - '{"target":"company/基流科技/Yanmin Jia","type":["paper-coauthor","coworker","research-collaboration"],"confidence":"high","evidence":["https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf","https://arxiv.org/abs/2510.00991","https://app.xinhuanet.com/news/article.html?articleId=202607229d2b584da49a47eb8a8baad8a1978f1b"]}'
+  - '{"target":"company/基流科技/He Liu","type":["paper-coauthor","coworker","research-collaboration"],"confidence":"high","evidence":["https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf","https://arxiv.org/abs/2510.00991","https://app.xinhuanet.com/news/article.html?articleId=202607229d2b584da49a47eb8a8baad8a1978f1b"]}'
+  - '{"target":"company/基流科技/Wenqi Xie","type":["paper-coauthor"],"confidence":"high","evidence":["https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf","https://arxiv.org/abs/2510.00991","https://app.xinhuanet.com/news/article.html?articleId=202607229d2b584da49a47eb8a8baad8a1978f1b"]}'
 ---
 # 胡效赫（Xiaohe Hu）
 

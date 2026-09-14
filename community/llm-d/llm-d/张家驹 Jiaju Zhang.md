@@ -3,7 +3,7 @@ type: person
 name: 张家驹
 english_name: Jiaju Zhang
 aliases: [Jiaju Zhang, 张家驹]
-company: Red Hat
+current_affiliations: ["Red Hat"]
 communities: [llm-d, vLLM]
 roles: [Community Promotion, Ecosystem]
 ---

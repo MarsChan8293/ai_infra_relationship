@@ -2,9 +2,17 @@
 type: person
 name: Chen Zhang
 aliases: [Chen Zhang]
-company: Meta
+current_affiliations: ["Meta"]
 communities: [vLLM]
 areas: [rl-infrastructure, llm-inference, kv-cache, systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://arxiv.org/abs/2505.07203"]}'
 ---
 # Chen Zhang
 

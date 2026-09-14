@@ -1,7 +1,7 @@
 ---
 type: person
 name: Rongbing Zhou
-company: Amazon
+current_affiliations: ["Amazon"]
 communities: [NIXL]
 ---
 # Rongbing Zhou
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 libfabric、EFA、Neuron HMEM、distributed transfer reliability。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

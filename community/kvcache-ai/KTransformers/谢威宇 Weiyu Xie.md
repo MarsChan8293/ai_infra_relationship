@@ -3,10 +3,15 @@ type: person
 name: 谢威宇
 english_name: Weiyu Xie
 aliases: [Weiyu Xie, 谢威宇]
-affiliations: [Tsinghua University, Approaching.AI]
+current_affiliations: ["Tsinghua University","Approaching.AI"]
 communities: [KTransformers]
 roles: [Maintainer, Paper Author, Engineer]
 areas: [systems, ai-infrastructure, heterogeneous-inference, moe]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/author/weiyu-xie/","https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"]}'
+  - '{"target":"company/趋境科技/Hongbo Kang","type":["coworker"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/author/weiyu-xie/","https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"]}'
+  - '{"target":"university/清华大学/Mingxing Zhang","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/author/weiyu-xie/","https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"]}'
 ---
 # 谢威宇（Weiyu Xie）
 

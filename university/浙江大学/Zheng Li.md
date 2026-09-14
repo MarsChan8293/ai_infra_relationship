@@ -2,8 +2,13 @@
 type: person
 name: Zheng Li
 aliases: [李政, Zheng Li]
-affiliation: 浙江大学
+current_affiliations: ["浙江大学"]
 areas: [llm-inference, moe-inference, memory-optimization]
+last_verified: "2026-09"
+relations:
+  - '{"target":"university/浙江大学/Lidan Shou","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://zju-stu-lizheng.github.io/","https://github.com/zju-stu-lizheng","https://proceedings.mlr.press/v267/zhou25j.html"]}'
+  - '{"target":"university/浙江大学/Huan Li","type":["research-collaboration"],"confidence":"medium","evidence":["https://zju-stu-lizheng.github.io/","https://github.com/zju-stu-lizheng","https://proceedings.mlr.press/v267/zhou25j.html"]}'
+  - '{"target":"university/浙江大学/Jue Wang","type":["paper-coauthor"],"confidence":"high","evidence":["https://zju-stu-lizheng.github.io/","https://github.com/zju-stu-lizheng","https://proceedings.mlr.press/v267/zhou25j.html"]}'
 ---
 # 李政（Zheng Li）
 

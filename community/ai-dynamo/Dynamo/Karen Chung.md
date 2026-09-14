@@ -1,7 +1,7 @@
 ---
 type: person
 name: Karen Chung
-company: NVIDIA
+current_affiliations: ["NVIDIA"]
 communities: [Dynamo]
 ---
 # Karen Chung
@@ -15,3 +15,6 @@ communities: [Dynamo]
 
 ## 技术方向
 高性能系统、AI inference、router/session semantics，并参与 Dynamo 与 [[vLLM]]、[[SGLang]]、[[TensorRT-LLM]] 的协作网络。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/dynamo

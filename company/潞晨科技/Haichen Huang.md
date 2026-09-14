@@ -2,10 +2,15 @@
 type: person
 name: Haichen Huang
 aliases: [Haichen Huang]
-company: 潞晨科技
+current_affiliations: ["潞晨科技"]
 communities: [Colossal-AI]
 roles: [Software Engineer, Core Contributor]
 areas: [distributed-training, heterogeneous-memory, llm-training]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/潞晨科技/尤洋 Yang You","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/1SAA","https://openreview.net/pdf?id=WO3qJC2TOG","https://arxiv.org/abs/2212.05339"]}'
+  - '{"target":"community/hpcaitech/Colossal-AI/Hongxin Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://github.com/1SAA","https://openreview.net/pdf?id=WO3qJC2TOG","https://arxiv.org/abs/2212.05339"]}'
+  - '{"target":"company/字节跳动/方佳瑞 Jiarui Fang","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://github.com/1SAA","https://openreview.net/pdf?id=WO3qJC2TOG","https://arxiv.org/abs/2212.05339"]}'
 ---
 # Haichen Huang
 

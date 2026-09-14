@@ -2,7 +2,7 @@
 type: project
 name: KTransformers
 organization: KVCache.AI
-companies: [趋境科技]
+companies: ["趋境科技"]
 company_relation: industry-academia-core-network
 layer: heterogeneous-inference
 open_source: true

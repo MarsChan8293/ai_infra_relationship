@@ -1,7 +1,7 @@
 ---
 type: person
 name: Matvei Pashkovskii
-company: AMD
+current_affiliations: ["AMD"]
 communities: [NIXL]
 ---
 # Matvei Pashkovskii
@@ -15,3 +15,6 @@ communities: [NIXL]
 
 ## 技术方向
 AMD GPU topology、ROCm HMEM、libfabric 与跨厂商 inference data movement。
+
+## Sources
+- Project source / contributor context: https://github.com/ai-dynamo/nixl

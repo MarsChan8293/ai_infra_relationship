@@ -3,7 +3,7 @@ type: person
 name: 艾智远
 english_name: Zhiyuan Ai
 aliases: [艾智远, Zhiyuan Ai]
-company: 趋境科技
+current_affiliations: ["趋境科技"]
 roles: [Founder, CEO]
 areas: [ai-inference, token-service, systems]
 ---

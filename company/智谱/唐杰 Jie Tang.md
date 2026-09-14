@@ -3,8 +3,12 @@ type: person
 name: 唐杰
 english_name: Jie Tang
 aliases: [唐杰, Jie Tang]
-affiliation: [Tsinghua University, Zhipu AI]
+current_affiliations: ["Tsinghua University","Zhipu AI"]
 areas: [foundation-models, knowledge-graphs, data-mining]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/智谱/杜政晓 Zhengxiao Du","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/","https://keg.cs.tsinghua.edu.cn/codegeex/"]}'
+  - '{"target":"company/月之暗面/杨植麟 Zhilin Yang","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://keg.cs.tsinghua.edu.cn/jietang/","https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/","https://keg.cs.tsinghua.edu.cn/codegeex/"]}'
 ---
 # 唐杰（Jie Tang）
 
