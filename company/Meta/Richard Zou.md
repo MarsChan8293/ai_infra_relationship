@@ -4,6 +4,7 @@ name: Richard Zou
 aliases: [Richard Zou]
 current_affiliations: ["Meta"]
 communities: [vLLM]
+education: [Harvard University]
 areas: [pytorch-compiler, torch-compile, ai-infrastructure]
 last_verified: "2026-09"
 relations:
@@ -11,7 +12,10 @@ relations:
 ---
 # Richard Zou
 
-当前：[[Meta]] Senior Staff Software Engineer；长期参与 PyTorch compiler / torch.compile
+当前：[[Meta]] Senior Staff Software Engineer；长期参与 PyTorch compiler / torch.compile。
+
+## 教育经历
+- [[Harvard University]]：2013–2017；公开职业档案列为 Harvard University 教育经历。
 
 ## AI Infra 工作
 - PyTorch compiler / torch.compile：参与 PyTorch 2 compiler 生态与 graph capture / compilation infrastructure
@@ -24,6 +28,8 @@ relations:
 - Thomas Parnell：**vLLM 硬件可移植性公开技术协作者**。2026 PyTorch Conference 两人共同分享 hardware-agnostic vLLM model definitions，展示 Intel Gaudi/HPU 与 IBM Spyre 等后端无需 fork 模型定义的路径。
 
 ## Sources
+- https://www.linkedin.com/in/richard-zou-bb3558a6
+- https://github.com/zou3519
 - https://vllm.ai/blog/2025-08-20-torch-compile
 - https://vllm.ai/events/vllm-conference/2026
 - https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/
