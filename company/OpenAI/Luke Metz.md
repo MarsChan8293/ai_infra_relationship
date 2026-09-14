@@ -1,12 +1,16 @@
 ---
 type: person
 name: Luke Metz
+education: [Franklin W. Olin College of Engineering]
 areas: [reinforcement-learning, post-training, infrastructure]
 confidence: project-credit
 ---
 # Luke Metz
 
 本页按 OpenAI 官方项目贡献记录其角色，不据此推断当前雇佣状态。
+
+## 教育经历
+- [[Franklin W. Olin College of Engineering]]：2011–2015；公开职业档案与 Olin 校方相关报道均可确认其 Olin College 背景。
 
 ## 项目贡献
 - [[GPT-4]]：2023 RL & alignment infrastructure lead；ChatML format lead
@@ -20,6 +24,8 @@ confidence: project-credit
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**o1 同项目 contributor**。OpenAI 2024 o1 contribution list 同时列出 Luke Metz 与 Zhuohan Li；是否在同一内部小组没有公开证据，因此只记录共同项目关系。
 
 ## Sources
+- https://www.linkedin.com/in/luke-metz-5003046a
+- https://www.olin.edu/sites/default/files/2023-06/How%20a%20couple%20of%20Olin%20College%20students%20h...%20chatbot%20revolution%20-%20The%20Boston%20Globe.pdf
 - https://openai.com/contributions/gpt-4/
 - https://openai.com/gpt-4o-contributions/
 - https://openai.com/openai-o1-contributions/
