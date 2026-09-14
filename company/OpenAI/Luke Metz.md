@@ -2,6 +2,8 @@
 type: person
 name: Luke Metz
 education: [Franklin W. Olin College of Engineering]
+schools:
+  - "Franklin W. Olin College of Engineering"
 areas: [reinforcement-learning, post-training, infrastructure]
 confidence: project-credit
 ---

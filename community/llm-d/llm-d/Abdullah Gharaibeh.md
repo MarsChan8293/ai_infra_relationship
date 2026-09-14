@@ -2,6 +2,8 @@
 type: person
 name: Abdullah Gharaibeh
 current_affiliations: ["Google"]
+schools:
+  - "University of British Columbia"
 communities: [llm-d]
 education: [University of British Columbia]
 roles: [Senior Staff Software Engineer, Project Leadership, Router SIG Lead]

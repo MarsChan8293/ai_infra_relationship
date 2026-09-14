@@ -3,6 +3,8 @@ type: person
 name: Richard Zou
 aliases: [Richard Zou]
 current_affiliations: ["Meta"]
+schools:
+  - "Harvard University"
 communities: [vLLM]
 education: [Harvard University]
 areas: [pytorch-compiler, torch-compile, ai-infrastructure]

@@ -4,6 +4,10 @@ name: 方佳瑞
 english_name: Jiarui Fang
 aliases: [方佳瑞, Jiarui Fang]
 current_affiliations: ["字节跳动"]
+schools:
+  - "UC Davis"
+  - "北京邮电大学"
+  - "清华大学"
 communities: [Colossal-AI]
 education:
   - 北京邮电大学
