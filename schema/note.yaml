@@ -1,0 +1,23 @@
+schema: ai-infra-relationship/note-v1
+status: derived
+frontmatter_required: false
+required: []
+recommended:
+  - name
+  - purpose
+fields:
+  type:
+    const: note
+    derived: true
+    description: Fallback graph type for Markdown content that is useful to the knowledge base but is not a canonical person, company, project, school, model-team, or model-project entity.
+  name:
+    type: string
+    description: Display name, normally derived from frontmatter name, filename, or heading.
+  purpose:
+    type: string
+    description: Optional note purpose such as bfs-research, research-queue, comparison, or methodology.
+notes:
+  - Notes are supporting research or navigation material, not canonical factual entities.
+  - A note should not be used as a substitute for an entity type merely to avoid filling required entity metadata.
+  - Frontmatter is optional because legacy BFS and research notes are intentionally lightweight.
+  - Focused relationship views should normally hide note nodes unless the user explicitly asks to inspect research artifacts.
