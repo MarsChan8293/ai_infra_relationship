@@ -4,7 +4,7 @@
 社区：[[SGLang]]
 
 ## 教育经历
-- [[Xi'an Jiaotong-Liverpool University]]：计算机本科，2019–2023
+- [[西交利物浦大学]]：计算机本科，2019–2023
 - [[Cornell Tech]]：计算机与信息系统硕士，2023–2025
 
 ## 工作经历
