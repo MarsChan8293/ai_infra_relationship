@@ -3,16 +3,16 @@
 这是一个面向 Obsidian 的 AI Infrastructure + Frontier Model Labs 人才、社区、公司、学校与项目关系图谱。
 
 ## 一级目录结构
-- `公司/`：模型公司、云厂商、芯片公司、AI Infra 创业公司与平台公司。
-- `社区与项目/`：开源推理引擎、GPU kernel、KV Cache、数据传输、Kubernetes serving、异构计算等社区与技术项目。
-- `学校与研究机构/`：高校、实验室和研究机构，用于表达导师学生、同学、同门、访问研究和人才培养关系。
-- 根目录只保留本总索引与上述三个分类入口，避免 Obsidian 文件树继续平铺膨胀。
+- `company/`：模型公司、云厂商、AI Infra 创业公司与平台公司。
+- `community/`：开源推理引擎、GPU/NPU kernel、KV Cache、数据传输、Kubernetes serving、异构计算等社区与技术项目。
+- `university/`：高校、实验室和研究机构，用于表达导师学生、同学、同门、访问研究和人才培养关系。
+- 根目录保留本总索引；三个英文目录作为唯一一级分类结构，不再维护重复的中文镜像目录。
 
-对应分类入口：[[公司]] · [[社区与项目]] · [[学校与研究机构]]
+对应分类入口：[[company]] · [[community]] · [[university]]
 
 ## 命名规则
 - 不使用 `README.md` 作为图谱实体节点。
-- 社区、公司、模型团队与技术项目均使用实体同名文件，例如 `公司/OpenAI/OpenAI.md`、`社区与项目/vLLM/vLLM.md`。
+- 社区、公司、模型团队与技术项目均使用实体同名文件，例如 `company/OpenAI/OpenAI.md`、`community/vLLM/vLLM.md`。
 - 对有可靠公开中文汉字姓名可确认的人物，文件名统一为 `中文名 English Name.md`，例如 `叶子豪 Zihao Ye.md`。
 - 人物页 frontmatter 同时保留 `name`、`english_name` 与 `aliases`，便于 Obsidian / Dataview 中英文检索。
 - 仅凭拼音、邮箱或 GitHub / GitCode handle 不猜中文汉字姓名。
