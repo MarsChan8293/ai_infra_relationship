@@ -17,10 +17,19 @@ focus: [ai-systems-software, inference-engine, compiler, distributed-training, h
 - 八卦炉：训练 / 推理加速工具套件
 - 多种国产硬件的模型部署与性能优化
 
-## 图谱中的连接
-清程极智适合连接 [[Tsinghua University]]、国产算力软件生态、推理引擎与分布式训练系统。后续人物 BFS 应优先从创始团队、清华系统研究背景以及赤兔 / 八卦炉核心开发者展开。
+## 核心人物
+- [[company/Qingcheng.ai/汤雄超 Xiongchao Tang|汤雄超（Xiongchao Tang）]] — 联合创始人、董事长、CEO
+- [[company/Qingcheng.ai/靳江明 Jiangming Jin|靳江明（Jiangming Jin）]] — COO；分布式系统 / HPC
+- [[company/Qingcheng.ai/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]] — 首席科学家；清华 HPC / 大规模训练系统技术上游
+- [[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]] — 首席顾问；高性能计算体系结构与系统
+
+## BFS 主线
+[[郑纬民 Weimin Zheng|郑纬民]] / [[翟季冬 Jidong Zhai|翟季冬]] → 清华 HPC / 八卦炉系统积累 → [[汤雄超 Xiongchao Tang|汤雄超]] / [[靳江明 Jiangming Jin|靳江明]] → 赤兔、训练/推理系统软件与国产算力优化。
+
+这里仅把“明确公司角色”和“清华 HPC 技术谱系”连接起来；未有公开证据时不写成正式导师/学生关系。
 
 ## Sources
 - https://www.qc-ai.cn/
 - https://www.qc-ai.cn/about
-- https://www.qc-ai.cn/products/chitu
+- https://mplus-gallery.nimbus-nimo.com/project/2025S-054
+- https://news.sciencenet.cn/sbhtmlnews/2026/6/390074.shtm?id=390074
