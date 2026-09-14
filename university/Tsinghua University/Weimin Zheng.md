@@ -1,18 +1,15 @@
 ---
-type: person
+type: person-link
 name: Weimin Zheng
-affiliation: Tsinghua University
-areas: [high-performance-computing, storage-systems]
+canonical: Qingcheng.ai/郑纬民 Weimin Zheng
+affiliations: [Tsinghua University, Qingcheng.ai, Approaching.AI]
+communities: [Mooncake]
 ---
 # Weimin Zheng
 
-清华大学高性能计算与系统研究资深 faculty 节点。在当前 AI Infra 图谱中，主要通过 [[Mooncake]] 的作者/研究团队连接到 KVCache-centric LLM serving。
+主简历：[[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]
 
-## AI Infra 关系
-[[Mooncake]] FAST 2025 作者网络包含 Weimin Zheng，并与 [[Yongwei Wu]]、[[Mingxing Zhang]] 等清华系统研究者共同构成 MADSys/高性能系统的人才与技术背景。
-
-## 图谱意义
-该节点用于解释 Mooncake 并非孤立的 LLM 工程项目，而是建立在清华长期 HPC、storage 与 distributed systems 研究积累之上。
-
-## Sources
-- https://www.cs.tsinghua.edu.cn/info/1247/6286.htm
+## Tsinghua / HPC 关系
+- [[Tsinghua University]]：计算机系教授、中国工程院院士；长期研究 HPC、parallel systems、storage 与 AI computing systems。
+- [[Mooncake]]：2025 论文作者，与 [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[university/Tsinghua University/Mingxing Zhang|Mingxing Zhang]] 等形成清华 systems / HPC 到 KVCache-centric serving 的研究连接。
+- 产业侧同时连接 [[Qingcheng.ai]] 与 [[Approaching.AI]]；完整角色和时间线统一维护在 canonical 页面，避免学校页与公司页发生履历漂移。
