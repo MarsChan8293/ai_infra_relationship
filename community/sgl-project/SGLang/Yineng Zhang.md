@@ -4,6 +4,7 @@ name: Yineng Zhang
 aliases: [Yineng Zhang]
 current_affiliations: ["Together AI","LightSeek Foundation"]
 communities: [SGLang, FlashInfer, Mooncake, TokenSpeed]
+education: [江南大学]
 roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator, Former SGLang Core Maintainer]
 areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inference]
 last_verified: "2026-09"
@@ -28,6 +29,7 @@ relations:
 - [[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。
 
 ## 教育与工作经历
+- [[江南大学]]：2015–2019；公开 LinkedIn 教育经历列出 Jiangnan University。
 - [[Baseten]]：加入 Together AI 前的公开报道曾列其为 Lead Software Engineer；公开资料未完整披露入职起始时间，因此不猜精确区间。
 - [[Together AI]]：2025-07–至今；个人主页说明加入后带领 inference 团队从约 2 人扩展到 10+ 人，并参与制定公司 inference service strategy。
 - LightSeek Foundation：截至 2026-09 为 governing board 成员。
@@ -47,6 +49,7 @@ Yineng Zhang 是当前图谱里少见的“kernel → serving engine → product
 
 ## Sources
 - https://zhyncs.com/
+- https://www.linkedin.com/in/zhyncs
 - https://www.together.ai/events/icml-2026
 - https://github.com/flashinfer-ai/flashinfer
 - https://github.com/kvcache-ai/Mooncake
