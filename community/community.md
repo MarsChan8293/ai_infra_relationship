@@ -23,6 +23,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `Oneflow-Inc`：[[OneFlow]]
 - `ray-project`：[[Ray-Serve]]
 - `sgl-project`：[[SGLang]]
+- `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
 - `NVIDIA`：[[TensorRT-LLM]]
 - `tile-ai`：[[TileLang]]
 - `lightseekorg`：[[TokenSpeed]]
@@ -44,6 +45,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Dynamo]] / [[NIXL]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
 | [[vLLM]] | [[company/Inferact/Inferact|Inferact]] · [[company/Red Hat/Red Hat|Red Hat]] · [[company/Meta/Meta|Meta]] · [[company/Hugging Face/Hugging Face|Hugging Face]] · [[company/TensorMesh/TensorMesh|TensorMesh]] | 跨公司 core contributor 网络 |
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
+| [[FlagScale]] / [[FlagGems]] / [[FlagCX]] / [[FlagTree]] / [[FlagAttention]] / [[FlagRelease]] / [[FlagPerf]] | 暂无单一主要公司 | [[FlagOS]] 社区发起 / 智源研究院与多机构共建 |
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
 | [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
@@ -62,21 +64,24 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 [[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]]
 
 ## Distributed Training / Framework
-[[OneFlow]] · [[Colossal-AI]]
+[[OneFlow]] · [[Colossal-AI]] · [[FlagScale]]
 
 ## Compiler / Kernel DSL
-[[TileLang]]
+[[TileLang]] · [[FlagTree]]
 
 ## Kernel / Communication / KV
-[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[Mooncake]] · [[NIXL]]
+[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[Mooncake]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]]
 
 ## Distributed / Cloud Native
 [[Dynamo]] · [[llm-d]] · [[AIBrix]] · [[Triton-Inference-Server]]
+
+## FlagOS / Heterogeneous AI Stack
+[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagTree]] · [[FlagCX]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
 
 ## Ascend Inference Optimization
 [[vLLM-Ascend]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
 
 ## Hardware / Heterogeneous
-[[HAMi]] · [[KTransformers]]
+[[HAMi]] · [[KTransformers]] · [[FlagPerf]]
 
 旧 `Communities/` 重复索引已移除；项目实体仍以项目同名文件作为 canonical 节点，但物理目录统一归入上游 organization / namespace。
