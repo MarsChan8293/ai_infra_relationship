@@ -1,19 +1,34 @@
 ---
 type: person
 name: Danny Harnik
+company: IBM
 communities: [llm-d]
-roles: [KV Disaggregation SIG Leader]
+roles: [Senior Technical Staff Member, KV-Disaggregation SIG Lead]
+areas: [kv-cache, cloud-storage, distributed-storage, disaggregated-inference]
 ---
 # Danny Harnik
 
-## 社区角色
-[[llm-d]] KV-Disaggregation SIG Leader。
+## 当前关系
+- [[IBM]]：IBM Research 官方人物页列为 Senior Technical Staff Member / Cloud Storage，长期研究 cloud storage 与大规模存储系统。
+- [[llm-d]]：KV-Disaggregation SIG Lead。
 
-## 教育与工作经历
-公开信息待补。
+## 教育与研究经历
+- Weizmann Institute of Science：密码学博士，2006；导师 Moni Naor。
+- 博士后阶段曾在 Technion 与 UCLA/IPAM。
+- IBM Haifa Labs：长期从事 cloud storage、compression/deduplication 与 large-scale storage systems，近年将存储系统经验延伸到 LLM KV cache / distributed inference。
 
 ## 技术方向
-KV cache、memory hierarchy、远端缓存与 disaggregated inference。
+KV cache、memory hierarchy、远端缓存与共享存储、filesystem offloading、hybrid-model cache layout、distributed inference。2026 llm-d filesystem KV offloading 与 hybrid-model serving 工作均有直接作者署名。
+
+## 人物关系
+- [[Maroon Ayoub]]：**llm-d KV-Disaggregation SIG 共同负责人 + IBM 历史研究网络**。二人共同负责 distributed KV cache、prefix sharing 与 remote storage 路线；Maroon 2026 年已转入 Red Hat，因此当前不是同事。
+- [[Nili Guy]]：**IBM / llm-d Router ↔ KV cache 邻接协作网络**。两条 SIG 在 cache-aware routing 与 P2P KV sharing 上技术耦合，但人物直接共同项目需按具体论文/文章核验。
 
 ## 相关社区
-[[LMCache]] · [[NIXL]] · [[Mooncake]]
+[[vLLM]] · [[LMCache]] · [[NIXL]] · [[Mooncake]]
+
+## Sources
+- https://llm-d.ai/community/sigs
+- https://research.ibm.com/people/danny-harnik
+- https://llm-d.ai/blog/native-kv-cache-offloading-to-any-file-system-with-llm-d
+- https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d
