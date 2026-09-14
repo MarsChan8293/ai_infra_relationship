@@ -1,0 +1,56 @@
+schema: ai-infra-relationship/model-project-v1
+status: migration
+required:
+  - type
+  - company
+recommended:
+  - model
+  - name
+  - team
+  - areas
+  - public_repo
+  - repository
+  - last_verified
+fields:
+  type:
+    const: model-project
+  name:
+    type: string
+    description: Optional canonical display name when it differs from `model`.
+  model:
+    type: string
+    description: Canonical model or model-series name. Existing pages may use this as the primary identity field during migration.
+  company:
+    type: string
+    description: Canonical company responsible for the model project.
+  team:
+    type: string
+    description: Canonical model-team node when the model belongs to a separately represented internal team.
+  areas:
+    type: array[string]
+    description: Model and workload characteristics such as reasoning, moe, multimodal, code-models, long-context, or reinforcement-learning.
+  public_repo:
+    type: boolean
+    description: Whether an official public code/model repository is available. This does not imply fully open training data or weights.
+  repository:
+    type: string
+    description: Canonical official repository URL when public_repo is true and a canonical repository exists.
+  release_date:
+    type: string
+    pattern: YYYY-MM-DD or YYYY-MM or YYYY
+  open_weights:
+    type: boolean
+    description: Whether official model weights are publicly available; keep separate from public_repo.
+  people:
+    type: array[string]
+    description: Optional high-value authors or contributors with direct public evidence.
+  infra_projects:
+    type: array[string]
+    description: Inference or serving projects with a direct technical integration or official support relationship.
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - Model compatibility with vLLM, SGLang, TensorRT-LLM, or another engine is a project-level ecosystem relation and must not be promoted into a person-to-person relationship without evidence.
+  - Model authorship proves contribution to the named model/report only; it does not automatically prove ownership of unrelated company infrastructure.
+  - Existing model-project pages often use `model` instead of `name`; both are supported during migration, with `model` serving as the canonical identity when `name` is absent.
