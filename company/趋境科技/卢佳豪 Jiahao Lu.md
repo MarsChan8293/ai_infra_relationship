@@ -5,6 +5,7 @@ english_name: Jiahao Lu
 aliases: [卢佳豪, Jiahao Lu]
 current_affiliations: ["趋境科技"]
 communities: [Mooncake]
+education: [Xiamen University]
 roles: [Research Intern, Engineer]
 areas: [memory-systems, kv-cache, llm-serving]
 ---

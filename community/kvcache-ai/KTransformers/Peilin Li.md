@@ -3,6 +3,7 @@ type: person
 name: Peilin Li
 current_affiliations: ["Approaching.AI"]
 communities: [KTransformers]
+education: [Northwestern Polytechnical University]
 roles: [Maintainer]
 ---
 # Peilin Li
@@ -12,10 +13,12 @@ roles: [Maintainer]
 - [[KTransformers]]：官方 Maintainer
 
 ## 教育与工作经历
-公开简历待补。
+- Northwestern Polytechnical University：公开论文作者 affiliation 可确认其与西北工业大学的教育 / 研究关联。
+- [[趋境科技]] / Approaching.AI：KTransformers 官方 maintainer affiliation。
 
 ## 技术方向
 KTransformers maintenance、inference runtime、release/compatibility。
 
 ## Sources
-- Project source / contributor context: https://github.com/kvcache-ai/ktransformers
+- https://github.com/kvcache-ai/ktransformers
+- https://pubmed.ncbi.nlm.nih.gov/36154267/

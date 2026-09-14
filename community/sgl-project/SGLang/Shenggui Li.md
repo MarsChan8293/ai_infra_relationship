@@ -3,6 +3,7 @@ type: person
 name: Shenggui Li
 aliases: [Shenggui Li]
 communities: [Colossal-AI, SGLang, SpecForge]
+education: [Nanyang Technological University]
 roles: [SGLang Core Dev, SpecForge Project Lead]
 areas: [distributed-training, llm-serving, speculative-decoding, ai-systems]
 ---
@@ -10,7 +11,8 @@ areas: [distributed-training, llm-serving, speculative-decoding, ai-systems]
 
 当前：Nanyang Technological University 博士生、A*STAR CFAR affiliated；[[SGLang]] Core Dev、SpecForge Project Lead。此前长期参与 [[Colossal-AI]] 与 HPC-AI / MLSys startup 网络。
 
-## 工作与社区经历
+## 教育与工作经历
+- Nanyang Technological University：2021 获计算机工程学士；2024 起攻读博士，研究方向聚焦 ML systems / high-performance computing。
 - 2022–2024：公开个人主页描述为某 MLSys startup founding member；2023 NVIDIA GTC 资料将其标为 HPC-AI Technology AI System Engineer。
 - [[Colossal-AI]]：原始系统作者之一，参与早期文档、系统设计与开源工程。
 - Open-Sora：生成视频训练系统相关工作。
@@ -23,7 +25,7 @@ areas: [distributed-training, llm-serving, speculative-decoding, ai-systems]
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文与创业技术网络**。共同署名 Colossal-AI；公开资料支持技术协作，不把其历史 startup 职位扩写成当前公司关系。
 
 ## Sources
-- https://www.shenggui.li/
+- https://franklee.xyz/about
 - https://github.com/hpcaitech/ColossalAI
 - https://openreview.net/pdf?id=WO3qJC2TOG
 - https://www.nvidia.com/en-us/on-demand/session/gtcspring23-s51742/

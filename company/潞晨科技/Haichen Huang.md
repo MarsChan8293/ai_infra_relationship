@@ -4,6 +4,7 @@ name: Haichen Huang
 aliases: [Haichen Huang]
 current_affiliations: ["潞晨科技"]
 communities: [Colossal-AI]
+education: [北京大学]
 roles: [Software Engineer, Core Contributor]
 areas: [distributed-training, heterogeneous-memory, llm-training]
 last_verified: "2026-09"
@@ -16,7 +17,8 @@ relations:
 
 当前：[[潞晨科技]] Software Engineer；长期参与 [[Colossal-AI]] 与大规模 LLM 训练系统。
 
-## 工作与社区经历
+## 教育与工作经历
+- [[北京大学]]：公开团队档案列为 Peking University undergraduate student。
 - [[潞晨科技]]：公开 GitHub profile 标注当前在 HPC-AI 从事高效大规模 LLM training。
 - [[Colossal-AI]]：原始系统论文作者之一；参与 MoE、异构训练与训练系统文档/实现。
 - Elixir：面向小规模 GPU 集群的大模型训练系统核心作者。
@@ -28,5 +30,6 @@ relations:
 
 ## Sources
 - https://github.com/1SAA
+- https://ai.comp.nus.edu.sg/team.html
 - https://openreview.net/pdf?id=WO3qJC2TOG
 - https://arxiv.org/abs/2212.05339

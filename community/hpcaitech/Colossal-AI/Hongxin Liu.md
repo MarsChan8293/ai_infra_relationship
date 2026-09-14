@@ -3,6 +3,7 @@ type: person
 name: Hongxin Liu
 aliases: [Hongxin Liu]
 communities: [Colossal-AI]
+education: [Huazhong University of Science and Technology]
 roles: [Core Maintainer]
 areas: [distributed-training, zero, fp8, checkpointing, ai-infrastructure]
 ---
@@ -10,7 +11,8 @@ areas: [distributed-training, zero, fp8, checkpointing, ai-infrastructure]
 
 [[Colossal-AI]] 原始系统论文作者与长期核心维护者。当前个人 GitHub 仅标注从事 MLSys / AI Infra，不据此猜测现雇主。
 
-## 社区贡献
+## 教育与社区经历
+- Huazhong University of Science and Technology：公开团队档案列为本科背景。
 - Colossal-AI 原始系统论文作者之一，论文时期 affiliation 为 [[潞晨科技]]。
 - 2024–2026 多个 Colossal-AI release 中持续承担 release、ZeRO、FP8、checkpoint、LoRA / application 等核心修改，属于长期工程维护节点。
 
@@ -22,6 +24,7 @@ areas: [distributed-training, zero, fp8, checkpointing, ai-infrastructure]
 
 ## Sources
 - https://github.com/ver217
+- https://ai.comp.nus.edu.sg/team.html
 - https://github.com/hpcaitech/ColossalAI/releases
 - https://openreview.net/pdf?id=WO3qJC2TOG
 - https://arxiv.org/abs/2212.05339

@@ -2,6 +2,7 @@
 type: person
 name: Jiashi Li
 communities: [DeepEP, DeepGEMM, FlashMLA, DeepSeek-Infra]
+education: [北京大学]
 areas: [expert-parallel, gpu-kernels, mla]
 ---
 # Jiashi Li
@@ -19,10 +20,9 @@ areas: [expert-parallel, gpu-kernels, mla]
 - [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：**DeepGEMM 共同作者**。2025 共同位于 DeepGEMM 原始作者网络；公开资料不足以确认首次直接合作月份或公司关系。
 
 ## 教育与工作经历
-公开简历待补；不根据项目组织归属推断雇佣关系。
+- [[北京大学]]：公开履历显示 2021–2022 以北京大学本科生身份参与 Taichi 相关软件工程实习；后进入 DeepSeek 团队。
 
 ## Sources
-- Project source / contributor context: https://github.com/deepseek-ai
-- DeepSeek DeepEP public author credits
-- DeepSeek DeepGEMM public author credits
-- DeepSeek FlashMLA public author credits
+- https://github.com/deepseek-ai
+- https://ljcc0930.github.io/docs/cv_jiancheng.pdf
+- https://ir.pku.edu.cn/handle/20.500.11897/739769
