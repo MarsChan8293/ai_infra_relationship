@@ -7,6 +7,7 @@ recommended:
   - english_name
   - aliases
   - current_affiliations
+  - schools
   - communities
   - areas
   - roles
@@ -27,6 +28,9 @@ fields:
   current_affiliations:
     type: array[string]
     description: Current company, lab, university, or organization canonical names.
+  schools:
+    type: array[string]
+    description: Canonical school names with a verifiable education, employment, postdoc, or visiting-research association. This field does not by itself imply degree, advisor, classmate, or same-lab relations.
   communities:
     type: array[string]
     description: Open-source or technical communities with a verifiable contribution relationship.
@@ -57,5 +61,7 @@ legacy_migration:
   affiliations: current_affiliations
 notes:
   - Existing pages are migrated incrementally. Legacy fields currently produce warnings rather than hard CI failures.
+  - `schools` is a weak entity association only. It must not be used to infer advisor/student, classmate, same-lab, or degree claims without separate evidence.
   - Person-to-person prose relations must still explain relation type, time/context, and evidence. Structured relations complement prose; they do not replace it.
   - `scripts/audit-typed-relations.py` validates relation targets, relation vocabulary, dates, confidence and evidence URLs, then exports typed edges and coverage metrics.
+  - `scripts/audit-school-links.py` validates person-to-school targets and Markdown links, then exports school coverage metrics.

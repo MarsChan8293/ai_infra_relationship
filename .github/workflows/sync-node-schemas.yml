@@ -12,8 +12,10 @@ on:
       - "schema/*.yaml"
       - "scripts/audit-graph.py"
       - "scripts/audit-typed-relations.py"
+      - "scripts/audit-school-links.py"
       - "scripts/generate-node-schemas.py"
       - "scripts/repair-markdown-quality.py"
+      - "scripts/repair-school-links.py"
       - ".github/workflows/sync-node-schemas.yml"
   workflow_dispatch:
 
@@ -39,8 +41,14 @@ jobs:
       - name: Repair Markdown quality
         run: python3 scripts/repair-markdown-quality.py --root . --generated generated
 
+      - name: Backfill person-school links
+        run: python3 scripts/repair-school-links.py --root .
+
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Validate person-school coverage
+        run: python3 scripts/audit-school-links.py --root . --generated generated
 
       - name: Validate typed relations
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
@@ -64,5 +72,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json
-          git commit -m "chore(graph): repair Markdown quality and sync schemas"
+          git commit -m "chore(graph): sync person-school links and schemas"
           git push origin HEAD:main
