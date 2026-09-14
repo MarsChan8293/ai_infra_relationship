@@ -1,0 +1,50 @@
+schema: ai-infra-relationship/model-team-v1
+status: migration
+required:
+  - type
+  - name
+  - company
+recommended:
+  - aliases
+  - focus
+  - areas
+  - models
+  - people
+  - projects
+  - last_verified
+fields:
+  type:
+    const: model-team
+  name:
+    type: string
+    description: Canonical model-team or model-family organization name.
+  company:
+    type: string
+    description: Canonical parent company. A model team is not a duplicate company entity.
+  aliases:
+    type: array[string]
+  focus:
+    type: string
+    description: Broad focus such as frontier-models, reasoning-models, multimodal, or code-models.
+  areas:
+    type: array[string]
+    description: More specific model, training, inference, or agentic technical areas.
+  models:
+    type: array[string]
+    description: Canonical model-project nodes directly belonging to this team.
+  projects:
+    type: array[string]
+    description: Infra or open-source projects with a direct, verifiable team relationship.
+  people:
+    type: array[string]
+    description: Optional high-value current or historical people references. Current and alumni status must be clear in prose when mixed.
+  repository:
+    type: string
+    description: Canonical public organization or repository URL when one exists.
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - A model-team node represents a team or durable model-family organization inside a parent company; it must not be treated as an independent company unless it actually is one.
+  - Compatibility between a model family and an inference engine is an ecosystem relation, not evidence of direct people collaboration.
+  - Historical contributors and current team members must not be conflated.
