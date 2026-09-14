@@ -3,7 +3,7 @@
 AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cache、数据传输、集合通信、分布式 serving 与异构计算等开源社区与技术项目的一级分类入口。
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LightLLM]] · [[Ray-Serve]]
+[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]]
