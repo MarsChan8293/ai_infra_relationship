@@ -3,6 +3,8 @@ type: person
 name: 周可行
 english_name: Kexing Zhou
 aliases: [周可行, Kexing Zhou]
+schools:
+  - "北京大学"
 communities: [DeepGEMM, DeepSeek-Infra]
 education: [北京大学]
 areas: [gpu-kernels, mlir, gemm, moe]

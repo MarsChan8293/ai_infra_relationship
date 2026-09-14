@@ -4,6 +4,8 @@ name: 翟季冬
 english_name: Jidong Zhai
 aliases: [翟季冬, Jidong Zhai]
 current_affiliations: ["Tsinghua University","Qingcheng.ai"]
+schools:
+  - "清华大学"
 roles: [Professor, Chief Scientist]
 areas: [high-performance-computing, distributed-training, performance-analysis]
 last_verified: "2026-09"

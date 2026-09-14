@@ -3,6 +3,8 @@ type: person
 name: Yu Cheng
 aliases: [程羽, Yu Cheng, chengyupku]
 current_affiliations: ["Peking University"]
+schools:
+  - "北京大学"
 areas: [deep-learning-systems, ai-compilers, gpu-kernels, distributed-communication]
 ---
 # 程羽（Yu Cheng）
@@ -23,6 +25,10 @@ areas: [deep-learning-systems, ai-compilers, gpu-kernels, distributed-communicat
 - [[马凌霄 Lingxiao Ma]]、Jilong Xue：MSRA research internship 导师。
 - [[Lei Wang]]、[[Yining Shi]]：TileLang / PipeThreader 合作者。
 - Alibaba / Alibaba Cloud：个人主页记录 2020–2022 期间曾有研究实习经历，是北大 systems 人才向产业侧扩散的早期桥。
+
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://chengyupku.github.io/

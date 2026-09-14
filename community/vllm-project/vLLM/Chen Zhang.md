@@ -3,6 +3,9 @@ type: person
 name: Chen Zhang
 aliases: [Chen Zhang]
 current_affiliations: ["Meta"]
+schools:
+  - "UC Berkeley"
+  - "清华大学"
 communities: [vLLM]
 areas: [rl-infrastructure, llm-inference, kv-cache, systems]
 last_verified: "2026-09"

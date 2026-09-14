@@ -4,6 +4,8 @@ name: 汤雄超
 english_name: Xiongchao Tang
 aliases: [汤雄超, Xiongchao Tang]
 current_affiliations: ["清程极智"]
+schools:
+  - "清华大学"
 roles: [Co-Founder, Chairman, CEO]
 areas: [parallel-computing, heterogeneous-computing, scheduling, performance-optimization]
 last_verified: "2026-09"

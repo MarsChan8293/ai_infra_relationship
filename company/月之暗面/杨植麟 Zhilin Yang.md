@@ -4,6 +4,9 @@ name: 杨植麟
 english_name: Zhilin Yang
 aliases: [杨植麟, Zhilin Yang]
 current_affiliations: ["月之暗面"]
+schools:
+  - "Carnegie Mellon University"
+  - "清华大学"
 roles: [cofounder, CEO]
 areas: [foundation-models, language-modeling]
 last_verified: "2026-09"

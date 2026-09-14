@@ -4,6 +4,8 @@ name: 唐杰
 english_name: Jie Tang
 aliases: [唐杰, Jie Tang]
 current_affiliations: ["Tsinghua University","Zhipu AI"]
+schools:
+  - "清华大学"
 areas: [foundation-models, knowledge-graphs, data-mining]
 last_verified: "2026-09"
 relations:

@@ -4,6 +4,9 @@ name: 邵智宏
 english_name: Zhihong Shao
 aliases: [Zhihong Shao, 邵智宏]
 current_affiliations: ["深度求索"]
+schools:
+  - "北京航空航天大学"
+  - "清华大学"
 areas: [reasoning, reinforcement-learning, tool-use]
 last_verified: "2026-09"
 relations:

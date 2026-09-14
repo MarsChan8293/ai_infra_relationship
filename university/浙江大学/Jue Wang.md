@@ -3,6 +3,8 @@ type: person
 name: Jue Wang
 aliases: [Jue Wang]
 current_affiliations: ["浙江大学","Together AI"]
+schools:
+  - "浙江大学"
 areas: [llm-inference, tensor-parallelism, moe-inference, multi-tenant-serving]
 last_verified: "2026-09"
 relations:
@@ -28,6 +30,10 @@ relations:
 
 ## 图谱意义
 Jue Wang 是浙江大学 AI Infra 网络里很典型的 **“校内 systems training → 国际 AI infra 公司”** 人才流动节点。相比纯模型研究，其公开工作更靠近 parallelism、resource sharing、memory/data movement 与 inference architecture。
+
+
+## 学校关联
+- [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://juewang.me/about/

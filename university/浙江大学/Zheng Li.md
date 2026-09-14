@@ -3,6 +3,8 @@ type: person
 name: Zheng Li
 aliases: [李政, Zheng Li]
 current_affiliations: ["浙江大学"]
+schools:
+  - "浙江大学"
 areas: [llm-inference, moe-inference, memory-optimization]
 last_verified: "2026-09"
 relations:
@@ -26,6 +28,10 @@ FloE 聚焦显存受限 GPU 上的 MoE inference：通过压缩 activated expert
 
 ## 图谱意义
 Zheng Li 是浙江大学节点里偏“年轻 systems researcher”的代表之一：其工作从数据库 / AI 研究直接切入 **MoE inference 的 memory / communication bottleneck**，非常贴近本仓库关注的推理优化方向。
+
+
+## 学校关联
+- [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://zju-stu-lizheng.github.io/

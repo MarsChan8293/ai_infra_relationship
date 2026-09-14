@@ -4,6 +4,9 @@ name: 李卓翰
 english_name: Zhuohan Li
 aliases: [Zhuohan Li, 李卓翰]
 current_affiliations: ["Meta"]
+schools:
+  - "UC Berkeley"
+  - "北京大学"
 communities: [vLLM]
 areas: [llm-inference, serving-systems, rl-infrastructure, memory-management]
 roles: [Co-creator, Lead Maintainer]

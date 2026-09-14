@@ -4,6 +4,8 @@ name: 夏立雪
 english_name: Lixue Xia
 aliases: [夏立雪, Lixue Xia]
 current_affiliations: ["无问芯穹"]
+schools:
+  - "清华大学"
 roles: [Co-Founder, CEO]
 areas: [heterogeneous-compute, ai-infrastructure, systems]
 last_verified: "2026-09"

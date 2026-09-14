@@ -3,6 +3,8 @@ type: person
 name: Lei Wang
 aliases: [Lei Wang, LeiWang1999]
 current_affiliations: ["Peking University / Tile-AI"]
+schools:
+  - "北京大学"
 areas: [ai-compilers, gpu-kernels, kernel-dsl]
 ---
 # Lei Wang
@@ -20,6 +22,10 @@ areas: [ai-compilers, gpu-kernels, kernel-dsl]
 - **BitBLAS**：公开 GitHub pinned 项目之一，面向量化 LLM 的 mixed-precision matrix multiplication。
 - [[程羽 Yu Cheng]]、[[Yining Shi]]：TileLang / PipeThreader 共研关系。
 - [[杨智 Zhi Yang]]：TileLang 学术指导。
+
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/LeiWang1999

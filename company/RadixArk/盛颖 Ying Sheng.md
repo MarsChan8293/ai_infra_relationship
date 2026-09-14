@@ -4,6 +4,11 @@ name: 盛颖
 english_name: Ying Sheng
 aliases: [盛颖, Ying Sheng]
 current_affiliations: ["RadixArk"]
+schools:
+  - "Columbia University"
+  - "Stanford University"
+  - "UC Berkeley"
+  - "上海交通大学"
 communities: [SGLang, LMSYS]
 roles: [cofounder, CEO, SGLang co-creator]
 areas: ["llm-inference"]
@@ -43,6 +48,10 @@ relations:
 - [[RadixArk/Qiaolin Yu|Qiaolin Yu]]：**RadixArk 同事 + SGLang 核心工程协作者**。Qiaolin Yu 公开履历显示 2025-12 加入 RadixArk founding team 任 MTS；2025-12–至今与盛颖共事，并负责 SGLang speculative decoding / model optimization / GPU performance。
 - [[RadixArk/Baizhou Zhang|Baizhou Zhang]]：**RadixArk 同事 + SGLang 维护协作者**。截至 2026-09 同属 RadixArk；Baizhou 负责 NVIDIA/model-specific optimization、CI/release/package。其加入 RadixArk 的精确月份公开来源未确认。
 - [[RadixArk/Cheng Wan|Cheng Wan]]：**RadixArk 同事 + SGLang parallelism 协作者**。截至 2026-09 同属 RadixArk；Cheng Wan 负责 parallelism、EPLB、DP Attention 与 distributed communication。其加入公司的精确月份公开未确认。
+
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://sites.google.com/view/yingsheng/home

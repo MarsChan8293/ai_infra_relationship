@@ -2,6 +2,8 @@
 type: person
 name: Mingxing Zhang
 current_affiliations: ["Tsinghua University"]
+schools:
+  - "清华大学"
 areas: [storage-systems, llm-serving, kv-cache]
 ---
 # Mingxing Zhang
@@ -15,6 +17,10 @@ areas: [storage-systems, llm-serving, kv-cache]
 
 ## 图谱意义
 Mingxing Zhang 所在路线把传统 storage systems 的设计问题直接推入 LLM serving 热路径，是清华系区别于单纯 model-research lineage 的关键支点。
+
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/

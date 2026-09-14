@@ -4,6 +4,9 @@ name: 胡效赫
 english_name: Xiaohe Hu
 aliases: [胡效赫, Xiaohe Hu]
 current_affiliations: ["基流科技"]
+schools:
+  - "UC Berkeley"
+  - "清华大学"
 roles: [Founder, Chairman, CEO]
 areas: [ai-infrastructure, distributed-computing, high-performance-networking]
 last_verified: "2026-09"
@@ -33,6 +36,10 @@ relations:
 
 ## 技术协作
 2025–2026 公开论文中，胡效赫与基流团队以及北航、清华、智谱等机构研究者在大规模 GPU 集群集合通信与 LLM 训练故障恢复方向合作。该关系按论文/项目协作建模，不自动视为公司同事。
+
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf

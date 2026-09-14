@@ -4,6 +4,8 @@ name: 杜政晓
 english_name: Zhengxiao Du
 aliases: [杜政晓, Zhengxiao Du]
 current_affiliations: ["智谱"]
+schools:
+  - "清华大学"
 areas: [pretraining, foundation-models]
 last_verified: "2026-09"
 relations:

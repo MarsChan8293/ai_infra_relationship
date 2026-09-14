@@ -4,6 +4,9 @@ name: 朱邦华
 english_name: Banghua Zhu
 aliases: [朱邦华, Banghua Zhu]
 current_affiliations: ["RadixArk"]
+schools:
+  - "UC Berkeley"
+  - "清华大学"
 roles: [cofounder, CTO]
 areas: [foundation-models, post-training, ai-infrastructure]
 last_verified: "2026-09"

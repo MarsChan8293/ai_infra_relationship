@@ -2,6 +2,8 @@
 type: person
 name: Guanduo Chen
 current_affiliations: ["月之暗面"]
+schools:
+  - "复旦大学"
 areas: [training-infra, distributed-systems, foundation-models]
 last_verified: "2026-09"
 relations:

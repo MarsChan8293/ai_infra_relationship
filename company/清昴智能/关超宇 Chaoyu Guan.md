@@ -4,6 +4,8 @@ name: 关超宇
 english_name: Chaoyu Guan
 aliases: [关超宇, Chaoyu Guan]
 current_affiliations: ["清昴智能"]
+schools:
+  - "清华大学"
 roles: [Co-Founder, CEO]
 areas: [model-optimization, heterogeneous-inference, automl, ai-infrastructure]
 last_verified: "2026-09"

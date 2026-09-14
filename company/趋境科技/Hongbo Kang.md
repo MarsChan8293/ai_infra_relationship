@@ -3,6 +3,8 @@ type: person
 name: Hongbo Kang
 aliases: [Hongbo Kang]
 current_affiliations: ["Tsinghua University","Approaching.AI","趋境科技"]
+schools:
+  - "清华大学"
 roles: [Engineer]
 areas: [systems, ai-infrastructure]
 last_verified: "2026-09"

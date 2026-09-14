@@ -1,6 +1,8 @@
 ---
 type: person
 name: Junyi Chen
+schools:
+  - "上海交通大学"
 communities: [LightLLM]
 roles: [Core Contributor, Paper Author]
 university: 上海交通大学

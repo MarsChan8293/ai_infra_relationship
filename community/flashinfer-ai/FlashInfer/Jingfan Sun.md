@@ -2,6 +2,8 @@
 type: person
 name: Jingfan Sun
 current_affiliations: ["NVIDIA"]
+schools:
+  - "浙江大学"
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
 education: [浙江大学, Georgia Institute of Technology]

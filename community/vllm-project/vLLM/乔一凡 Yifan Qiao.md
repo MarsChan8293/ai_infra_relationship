@@ -4,6 +4,10 @@ name: 乔一凡
 english_name: Yifan Qiao
 aliases: [Yifan Qiao, 乔一凡]
 current_affiliations: ["Inferact"]
+schools:
+  - "UC Berkeley"
+  - "UCLA"
+  - "清华大学"
 communities: [vLLM]
 areas: [kv-cache, disaggregated-serving, agentic-serving]
 roles: [Founding Member of Technical Staff]

@@ -3,6 +3,8 @@ type: person
 name: Lidan Shou
 aliases: [Lidan Shou]
 current_affiliations: ["浙江大学"]
+schools:
+  - "浙江大学"
 roles: [Professor, PhD Advisor]
 areas: [llm-inference, moe-inference, speculative-decoding, data-systems]
 last_verified: "2026-09"
@@ -26,6 +28,10 @@ relations:
 
 ## 图谱意义
 Lidan Shou 这一节点把浙江大学传统数据库研究与当代大模型 serving 问题接了起来。其团队近年的 inference 工作高度集中于 **memory hierarchy、resource sharing、data movement、speculative decoding**，这些问题与 vLLM / SGLang / GPU serving runtime 的核心瓶颈直接同构。
+
+
+## 学校关联
+- [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://person.zju.edu.cn/en/should

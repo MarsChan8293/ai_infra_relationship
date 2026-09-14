@@ -4,6 +4,9 @@ name: 翁家翌
 english_name: Jiayi Weng
 aliases: [Jiayi Weng, 翁家翌]
 current_affiliations: ["OpenAI"]
+schools:
+  - "Carnegie Mellon University"
+  - "清华大学"
 areas: [reinforcement-learning, post-training, rl-infrastructure]
 last_verified: "2026-09"
 relations:

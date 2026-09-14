@@ -4,6 +4,8 @@ name: 叶子豪
 english_name: Zihao Ye
 aliases: [Zihao Ye, 叶子豪, yzh119]
 current_affiliations: ["NVIDIA"]
+schools:
+  - "上海交通大学"
 communities: [FlashInfer]
 roles: [Creator, Full Codebase Approver]
 education: [上海交通大学, University of Washington]
@@ -36,6 +38,10 @@ relations:
 - [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：**NVIDIA 同事 + FlashInfer Full Codebase Approver 同僚**。截至 2026-09 两人均在 NVIDIA/FlashInfer 技术网络；Yang Xu 重点参与 release quality、autotuning、low-precision MoE 与 serving interface，叶子豪偏 compiler/kernel 架构。首次直接合作月份公开未确认。
 - [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 两人同具全代码库审批权限，覆盖 Attention、GEMM、MoE、Communication 等模块；aleozlx 的公开身份/雇主不足，因此不标记为公司同事。
 - [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 共同承担核心 kernel 模块审批与维护；Brian 的公开雇佣信息不足，因此只记录项目治理关系。
+
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - FlashInfer CODEOWNERS / maintainer metadata

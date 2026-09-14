@@ -4,6 +4,8 @@ name: 郭达雅
 english_name: Daya Guo
 aliases: [Daya Guo, 郭达雅]
 company_history: [DeepSeek, Microsoft Research Asia]
+schools:
+  - "中山大学"
 areas: [code-intelligence, reasoning, llm]
 ---
 # 郭达雅（Daya Guo）

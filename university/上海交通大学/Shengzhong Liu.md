@@ -2,6 +2,8 @@
 type: person
 name: Shengzhong Liu
 current_affiliations: ["Shanghai Jiao Tong University"]
+schools:
+  - "上海交通大学"
 areas: [distributed-systems, ai-systems]
 ---
 # Shengzhong Liu
@@ -17,3 +19,6 @@ areas: [distributed-systems, ai-systems]
 
 ## Source
 https://junyi-chen.github.io/
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。

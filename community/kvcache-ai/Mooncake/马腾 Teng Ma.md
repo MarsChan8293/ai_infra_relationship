@@ -4,6 +4,8 @@ name: 马腾
 english_name: Teng Ma
 aliases: [Teng Ma, 马腾]
 current_affiliations: ["阿里巴巴"]
+schools:
+  - "清华大学"
 communities: [Mooncake, SGLang, Dynamo]
 roles: [Codeowner, Primary Contact]
 areas: ["kv-cache","llm-inference","distributed-inference"]
@@ -29,6 +31,10 @@ relations:
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：**Alibaba Cloud 同事 + Mooncake Codeowner**。截至 2026-09 两人均公开关联 Alibaba Cloud，并共同维护 Mooncake；马腾偏项目生态/社区与云侧协作，Shangming Cai 负责 SGLang Integration。首次在 Alibaba Cloud 共事的精确月份公开未确认。
 - [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：**Mooncake 共同维护者 / 项目创建与 Transfer Engine 协作者**。两人同列官方维护网络，任峰是 Mooncake 联合创建者之一并负责 Transfer Engine，马腾负责社区/生态协作；当前分属 Alibaba Cloud 与 Approaching.AI，因此不标记为当前公司同事。
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：**Mooncake 共同维护者**。截至 2026-09 同列官方 Codeowners；Ke Yang 负责 Mooncake Store，马腾负责社区与跨生态协作。当前公开资料不足以确认两人公司共事关系。
+
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md

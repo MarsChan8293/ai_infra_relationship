@@ -4,6 +4,9 @@ name: 吴育昕
 english_name: Yuxin Wu
 aliases: [吴育昕, Yuxin Wu]
 current_affiliations: ["月之暗面"]
+schools:
+  - "Carnegie Mellon University"
+  - "清华大学"
 roles: [cofounder]
 areas: [foundation-models, computer-vision, infrastructure]
 last_verified: "2026-09"

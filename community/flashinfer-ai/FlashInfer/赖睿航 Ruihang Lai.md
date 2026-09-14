@@ -3,6 +3,9 @@ type: person
 name: 赖睿航
 english_name: Ruihang Lai
 aliases: [Ruihang Lai, 赖睿航]
+schools:
+  - "Carnegie Mellon University"
+  - "上海交通大学"
 communities: [FlashInfer]
 roles: [Original Paper Author]
 ---
@@ -18,6 +21,11 @@ roles: [Original Paper Author]
 
 ## 技术方向
 机器学习编译、GPU kernel 与高性能推理。
+
+
+## 学校关联
+- [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - Project source / contributor context: https://github.com/flashinfer-ai/flashinfer

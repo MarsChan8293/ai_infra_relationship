@@ -3,6 +3,8 @@ type: person
 name: Tong Wu
 aliases: [吴童, Tong Wu]
 current_affiliations: ["Peking University / Tile-AI"]
+schools:
+  - "北京大学"
 areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
 ---
 # 吴童（Tong Wu）
@@ -19,6 +21,10 @@ areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
 
 ## 产业连接
 公开个人主页显示当前有 [[字节跳动]] part-time internship，经由实习关系将 Tile-AI / 北大系统研究连接到产业 AI Infra。
+
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://rachmanino.github.io/

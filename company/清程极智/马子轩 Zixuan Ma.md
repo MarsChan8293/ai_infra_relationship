@@ -4,6 +4,8 @@ name: 马子轩
 english_name: Zixuan Ma
 aliases: [马子轩, Zixuan Ma]
 current_affiliations: ["清程极智"]
+schools:
+  - "清华大学"
 roles: [Senior R&D Expert]
 areas: [distributed-training, high-performance-computing, llm-serving, compiler-optimization]
 last_verified: "2026-09"

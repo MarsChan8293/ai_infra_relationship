@@ -3,6 +3,8 @@ type: person
 name: Ion Stoica
 aliases: [Ion Stoica]
 current_affiliations: ["UC Berkeley","Inferact"]
+schools:
+  - "UC Berkeley"
 communities: [vLLM, SGLang, Ray]
 roles: [Professor, Sky Lab Director, Inferact Founding Member]
 areas: ["llm-inference","distributed-systems"]

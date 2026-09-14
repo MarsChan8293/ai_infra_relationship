@@ -3,6 +3,8 @@ type: person
 name: Rong Chen
 current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
+schools:
+  - "上海交通大学"
 areas: [ai-infrastructure, distributed-systems, llm-serving]
 ---
 # Rong Chen
@@ -20,3 +22,6 @@ Rong Chen 是 SJTU “传统 systems → LLM serving/resource management”转�
 
 ## Source
 https://ipads.se.sjtu.edu.cn/~rongchen/
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。

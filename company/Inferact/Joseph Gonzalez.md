@@ -3,6 +3,8 @@ type: person
 name: Joseph Gonzalez
 aliases: [Joseph Gonzalez, Joseph E. Gonzalez]
 current_affiliations: ["UC Berkeley","Inferact"]
+schools:
+  - "UC Berkeley"
 communities: [vLLM, SGLang]
 roles: [Professor, Sky Lab Founding Member, Inferact Founding Member]
 areas: ["llm-inference"]

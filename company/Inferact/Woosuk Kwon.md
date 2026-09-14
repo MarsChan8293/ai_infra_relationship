@@ -2,6 +2,8 @@
 type: person
 name: Woosuk Kwon
 current_affiliations: ["Inferact"]
+schools:
+  - "UC Berkeley"
 projects: [vLLM]
 education: [Seoul National University, UC Berkeley]
 roles: [Founder, CTO, Lead Maintainer]

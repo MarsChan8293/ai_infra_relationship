@@ -4,6 +4,9 @@ name: 游凯超
 english_name: Kaichao You
 aliases: [Kaichao You, 游凯超]
 current_affiliations: ["Inferact"]
+schools:
+  - "UC Berkeley"
+  - "清华大学"
 communities: [vLLM]
 areas: [distributed-inference, parallelism, compiler-integration, rl-infrastructure, hardware-backends]
 roles: [Cofounder, Chief Scientist, Lead Maintainer]

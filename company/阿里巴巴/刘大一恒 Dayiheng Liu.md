@@ -4,6 +4,8 @@ name: 刘大一恒
 english_name: Dayiheng Liu
 aliases: [Dayiheng Liu, 刘大一恒]
 current_affiliations: ["阿里巴巴"]
+schools:
+  - "四川大学"
 areas: [llm, nlp, text-generation]
 last_verified: "2026-09"
 relations:

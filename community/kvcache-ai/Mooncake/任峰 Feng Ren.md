@@ -4,6 +4,8 @@ name: 任峰
 english_name: Feng Ren
 aliases: [Feng Ren, 任峰]
 current_affiliations: ["趋境科技"]
+schools:
+  - "清华大学"
 communities: [Mooncake]
 roles: [Cofounder, Codeowner, Transfer Engine Maintainer]
 areas: ["kv-cache"]
@@ -34,6 +36,10 @@ relations:
 - [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪（Jiahao Lu）]]：**Approaching.AI / Mooncake 工程网络**。卢佳豪公开主页写明在公司实习并开发 Mooncake；任峰是 Mooncake Transfer Engine 核心维护者。具体首次直接协作月份公开未确认。
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：**Mooncake 共同维护者 / 项目生态协作者**。任峰作为联合创建者和 Transfer Engine 维护者，与马腾的社区/生态维护职责互补；当前分别关联 Approaching.AI 与 Alibaba Cloud，不标记为当前同事。
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：**Mooncake 共同维护者 + SGLang disaggregation 集成协作者**。任峰维护 Transfer Engine，Shangming Cai 负责 SGLang Integration，二者的模块在 PD/disaggregated serving 场景直接衔接。
+
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://libfeng.com/

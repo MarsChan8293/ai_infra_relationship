@@ -4,6 +4,8 @@ name: 陈德里
 english_name: Deli Chen
 aliases: [Deli Chen, 陈德里]
 current_affiliations: ["深度求索"]
+schools:
+  - "北京大学"
 areas: [foundation-models, moe, reasoning]
 last_verified: "2026-09"
 relations:

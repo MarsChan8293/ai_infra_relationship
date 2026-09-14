@@ -4,6 +4,8 @@ name: 师天麾
 english_name: Tianhui Shi
 aliases: [师天麾, Tianhui Shi]
 current_affiliations: ["清程极智"]
+schools:
+  - "清华大学"
 roles: [Co-Founder]
 areas: [high-performance-computing, distributed-training, inference, ai-infrastructure]
 last_verified: "2026-09"

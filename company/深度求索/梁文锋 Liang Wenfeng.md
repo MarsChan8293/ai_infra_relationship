@@ -4,6 +4,8 @@ name: 梁文锋
 english_name: Liang Wenfeng
 aliases: [Liang Wenfeng, 梁文锋]
 current_affiliations: ["深度求索"]
+schools:
+  - "浙江大学"
 roles: [founder, CEO]
 areas: ["ai-infrastructure"]
 last_verified: "2026-09"

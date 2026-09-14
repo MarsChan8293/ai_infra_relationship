@@ -3,6 +3,10 @@ type: person
 name: Yongye Zhu
 aliases: [Yongye Zhu]
 current_affiliations: ["Inferact"]
+schools:
+  - "Princeton University"
+  - "UC Berkeley"
+  - "University of Texas at Austin"
 communities: [vLLM]
 roles: [Member of Technical Staff, Contributor]
 areas: ["llm-inference"]

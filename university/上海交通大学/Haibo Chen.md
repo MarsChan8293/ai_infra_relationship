@@ -3,6 +3,8 @@ type: person
 name: Haibo Chen
 current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
+schools:
+  - "上海交通大学"
 areas: [operating-systems, distributed-systems, ai-infrastructure]
 ---
 # Haibo Chen
@@ -19,3 +21,6 @@ Haibo Chen 提供了 SJTU AI Infra 的长期 OS/systems 学术底座，解释为
 
 ## Source
 https://ipads.se.sjtu.edu.cn/
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。

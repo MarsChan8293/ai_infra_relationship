@@ -2,6 +2,8 @@
 type: person
 name: Ruoyu Qin
 current_affiliations: ["Tsinghua University"]
+schools:
+  - "清华大学"
 areas: [llm-serving, kv-cache, distributed-systems]
 last_verified: "2026-09"
 relations:
@@ -18,6 +20,10 @@ relations:
 
 ## 图谱意义
 Ruoyu Qin 是清华学术系统研究与真实 Kimi serving workload 之间的代表性人物桥。
+
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://www.cs.tsinghua.edu.cn/info/1247/6286.htm

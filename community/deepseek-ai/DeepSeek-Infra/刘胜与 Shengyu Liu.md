@@ -4,6 +4,8 @@ name: 刘胜与
 english_name: Shengyu Liu
 aliases: [刘胜与, Shengyu Liu]
 current_affiliations: ["深度求索"]
+schools:
+  - "北京大学"
 communities: [DeepGEMM, FlashMLA, DeepSeek-Infra]
 education: [北京大学]
 areas: [mlsys, gpu-kernels, mla, llm-serving, distributed-systems]

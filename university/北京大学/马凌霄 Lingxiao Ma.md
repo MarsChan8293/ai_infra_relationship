@@ -4,6 +4,8 @@ name: Lingxiao Ma
 aliases: [马凌霄, Lingxiao Ma]
 current_affiliations: ["Microsoft Research Asia"]
 education: [北京大学]
+schools:
+  - "北京大学"
 areas: [ai-compilers, gpu-systems, deep-learning-systems]
 last_verified: "2026-09"
 relations:
@@ -32,6 +34,10 @@ relations:
 - [[杨智 Zhi Yang]]：博士导师之一、长期系统研究合作者。
 - [[程羽 Yu Cheng]]：MSRA research internship 指导者之一。
 - [[Lei Wang]]、[[Yining Shi]]：TileLang / compiler systems 合作者。
+
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://xysmlx.github.io/

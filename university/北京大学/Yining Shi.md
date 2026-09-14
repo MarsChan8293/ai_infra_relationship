@@ -2,6 +2,8 @@
 type: person
 name: Yining Shi
 current_affiliations: ["NVIDIA"]
+schools:
+  - "北京大学"
 areas: [ai-compilers, memory-optimization, gpu-kernels]
 ---
 # Yining Shi
@@ -17,6 +19,10 @@ areas: [ai-compilers, memory-optimization, gpu-kernels]
 - [[杨智 Zhi Yang]]：Welder / TileLang 学术网络核心。
 - [[马凌霄 Lingxiao Ma]]、Yuqing Xia、Jilong Xue、Fan Yang：MSRA compiler systems 合作网络。
 - [[NVIDIA]]：OpenReview 公开履历列为 2024–至今 Researcher，形成北大 compiler → GPU platform 的人才桥。
+
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://www.usenix.org/conference/osdi23/presentation/shi

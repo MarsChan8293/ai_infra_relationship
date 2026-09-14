@@ -4,6 +4,8 @@ name: 唐适之
 english_name: Shizhi Tang
 aliases: [唐适之, Shizhi Tang]
 current_affiliations: ["清程极智"]
+schools:
+  - "清华大学"
 roles: [Co-Founder, Inference Engine Lead]
 areas: [llm-inference, parallel-training, operator-optimization, programming-languages, heterogeneous-compute]
 last_verified: "2026-09"

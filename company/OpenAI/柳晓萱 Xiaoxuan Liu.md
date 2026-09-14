@@ -4,6 +4,10 @@ name: 柳晓萱
 english_name: Xiaoxuan Liu
 aliases: [Xiaoxuan Liu, Lily Liu, 柳晓萱]
 current_affiliations: ["OpenAI"]
+schools:
+  - "Carnegie Mellon University"
+  - "UC Berkeley"
+  - "北京大学"
 communities: [vLLM]
 areas: [llm-inference, speculative-decoding, post-training-infrastructure]
 last_verified: "2026-09"

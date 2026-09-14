@@ -4,6 +4,8 @@ name: 袁进辉
 english_name: Jinhui Yuan
 aliases: [袁进辉, Jinhui Yuan]
 current_affiliations: ["硅基流动"]
+schools:
+  - "清华大学"
 roles: [Founder, CEO]
 areas: [distributed-deep-learning, inference, ai-infrastructure]
 last_verified: "2026-09"

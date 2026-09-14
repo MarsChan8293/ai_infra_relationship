@@ -4,6 +4,8 @@ name: 曾奥涵
 english_name: Aohan Zeng
 aliases: [曾奥涵, Aohan Zeng]
 current_affiliations: ["智谱"]
+schools:
+  - "清华大学"
 areas: [pretraining, model-architecture, multimodal]
 last_verified: "2026-09"
 relations:
@@ -24,6 +26,10 @@ GLM 系核心研究者。公开项目资料明确其在 GLM-130B 中担任 Lead 
 - [[智谱/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：**GLM-130B 核心工程合作者 + 后续 GLM 同一研发网络**。2022–2023 GLM-130B 中曾奥涵负责学生团队与训练稳定性，杜政晓负责 model implementation / architecture；之后两人共同参与 GLM-4-Voice 与 GLM-4.5，形成持续的 pretraining / architecture 协作。
 - [[智谱/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：**清华 KEG / GLM-130B / CodeGeeX 合作者**。2022 GLM-130B 两人同属 Tsinghua KEG contributor 网络；同年 CodeGeeX 中郑勤锴是 Lead Contributor，曾奥涵是 contributor。2025 又共同进入 GLM-4.5 作者网络，因此属于跨模型持续合作关系。
 - [[月之暗面/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：**早期 GLM 技术谱系间接合作者**。杨植麟是 2022 原始 GLM 论文作者并担任 CodeGeeX advisor，曾奥涵随后领导 GLM-130B 学生团队并参与 CodeGeeX；公开资料不足以证明两人长期处于同一直属团队，因此不写成公司同事。
+
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/

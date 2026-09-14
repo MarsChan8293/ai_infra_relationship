@@ -4,6 +4,8 @@ name: 李伯勋
 english_name: Boxun Li
 aliases: [李伯勋, Boxun Li]
 current_affiliations: ["无问芯穹"]
+schools:
+  - "清华大学"
 roles: [CTO]
 areas: [ai-infrastructure, hardware-software-codesign, efficient-computing]
 last_verified: "2026-09"

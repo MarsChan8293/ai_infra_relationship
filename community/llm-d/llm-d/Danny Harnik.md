@@ -2,6 +2,8 @@
 type: person
 name: Danny Harnik
 current_affiliations: ["IBM"]
+schools:
+  - "UCLA"
 communities: [llm-d]
 roles: [Senior Technical Staff Member, KV-Disaggregation SIG Lead]
 areas: [kv-cache, cloud-storage, distributed-storage, disaggregated-inference]
@@ -29,6 +31,10 @@ KV cache、memory hierarchy、远端缓存与共享存储、filesystem offloadin
 
 ## 相关社区
 [[vLLM]] · [[LMCache]] · [[NIXL]] · [[Mooncake]]
+
+
+## 学校关联
+- [[university/UCLA/UCLA|UCLA]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://llm-d.ai/community/sigs

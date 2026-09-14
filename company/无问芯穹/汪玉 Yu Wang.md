@@ -4,6 +4,8 @@ name: 汪玉
 english_name: Yu Wang
 aliases: [汪玉, Yu Wang]
 current_affiliations: ["Tsinghua University","Infinigence AI"]
+schools:
+  - "清华大学"
 roles: [Professor, Initiator]
 areas: [efficient-computing, hardware-software-codesign, ai-infrastructure]
 last_verified: "2026-09"

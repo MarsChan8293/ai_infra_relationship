@@ -2,6 +2,8 @@
 type: person
 name: Hongtao Chen
 current_affiliations: ["MADSys Lab, Tsinghua University"]
+schools:
+  - "清华大学"
 communities: [KTransformers]
 roles: [Maintainer, Paper Author]
 ---

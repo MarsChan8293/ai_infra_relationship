@@ -4,6 +4,9 @@ name: 杜昆泰
 english_name: Kuntai Du
 aliases: [Kuntai Du, 杜昆泰]
 current_affiliations: ["TensorMesh"]
+schools:
+  - "University of Chicago"
+  - "北京大学"
 communities: [LMCache, vLLM]
 roles: [Co-Founder, Chief Scientist]
 areas: ["kv-cache","llm-inference"]

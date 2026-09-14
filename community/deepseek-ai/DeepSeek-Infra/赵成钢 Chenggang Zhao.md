@@ -3,6 +3,8 @@ type: person
 name: 赵成钢
 english_name: Chenggang Zhao
 aliases: [赵成钢, Chenggang Zhao]
+schools:
+  - "清华大学"
 communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
 education: [清华大学]
 areas: [expert-parallel, gpu-kernels, moe-systems, hpc]

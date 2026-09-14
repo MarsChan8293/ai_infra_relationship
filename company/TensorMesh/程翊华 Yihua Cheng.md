@@ -4,6 +4,9 @@ name: 程翊华
 english_name: Yihua Cheng
 aliases: [Yihua Cheng, 程翊华]
 current_affiliations: ["TensorMesh"]
+schools:
+  - "University of Chicago"
+  - "北京大学"
 communities: [LMCache, vLLM]
 roles: [Co-Founder, CTO]
 areas: ["kv-cache","llm-inference"]

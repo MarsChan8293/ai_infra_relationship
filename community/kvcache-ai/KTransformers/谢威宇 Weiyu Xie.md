@@ -4,6 +4,8 @@ name: 谢威宇
 english_name: Weiyu Xie
 aliases: [Weiyu Xie, 谢威宇]
 current_affiliations: ["Tsinghua University","Approaching.AI"]
+schools:
+  - "清华大学"
 communities: [KTransformers]
 roles: [Maintainer, Paper Author, Engineer]
 areas: [systems, ai-infrastructure, heterogeneous-inference, moe]

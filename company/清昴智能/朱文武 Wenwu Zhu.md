@@ -4,6 +4,8 @@ name: 朱文武
 english_name: Wenwu Zhu
 aliases: [朱文武, Wenwu Zhu]
 current_affiliations: ["Tsinghua University","TsingMao"]
+schools:
+  - "清华大学"
 roles: [Professor, Scientific Advisor]
 areas: [multimedia, ai-systems, automl]
 last_verified: "2026-09"

@@ -3,6 +3,8 @@ type: person
 name: Xingda Wei
 current_affiliations: ["Shanghai Jiao Tong University"]
 lab: IPADS
+schools:
+  - "上海交通大学"
 areas: [scalable-ai-infrastructure, autoscaling, resource-management]
 ---
 # Xingda Wei
@@ -19,3 +21,6 @@ Xingda Wei 是 SJTU AI Infra 中“cluster/resource manager 视角”的关键�
 
 ## Source
 https://ipads.se.sjtu.edu.cn/~wxd/
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。

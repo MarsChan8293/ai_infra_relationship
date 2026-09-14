@@ -4,6 +4,9 @@ name: 尹良升
 english_name: Liangsheng Yin
 aliases: [尹良升, Liangsheng Yin]
 community: SGLang
+schools:
+  - "UC Berkeley"
+  - "上海交通大学"
 roles: [maintainer, scheduler merge-oncall, speculative-decoding merge-oncall]
 areas: [llm-serving, scheduling, speculative-decoding]
 ---

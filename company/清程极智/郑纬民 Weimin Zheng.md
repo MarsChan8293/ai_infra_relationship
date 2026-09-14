@@ -4,6 +4,8 @@ name: 郑纬民
 english_name: Weimin Zheng
 aliases: [郑纬民, Weimin Zheng, Wei-Min Zheng]
 current_affiliations: ["Tsinghua University","Qingcheng.ai","Approaching.AI"]
+schools:
+  - "清华大学"
 communities: [Mooncake]
 roles: [Professor, Chief Advisor, Chief Scientific Advisor]
 areas: [high-performance-computing, computer-architecture, storage-systems, ai-infrastructure]

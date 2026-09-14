@@ -3,6 +3,9 @@ type: person
 name: 郑连民
 english_name: Lianmin Zheng
 aliases: [郑连民, Lianmin Zheng]
+schools:
+  - "UC Berkeley"
+  - "上海交通大学"
 communities: [SGLang, LMSYS]
 roles: [SGLang creator, scheduler merge-oncall]
 areas: [llm-serving, distributed-systems, compilers, evaluation]

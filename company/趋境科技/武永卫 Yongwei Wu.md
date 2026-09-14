@@ -4,6 +4,8 @@ name: 武永卫
 english_name: Yongwei Wu
 aliases: [武永卫, Yongwei Wu]
 current_affiliations: ["Tsinghua University","Approaching.AI"]
+schools:
+  - "清华大学"
 communities: [Mooncake, KTransformers]
 roles: [Professor, Chief Scientist]
 areas: [distributed-systems, storage, llm-serving, heterogeneous-inference]
