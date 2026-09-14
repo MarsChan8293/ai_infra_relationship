@@ -45,8 +45,7 @@ jobs:
       - name: Commit synchronized schema instances
         shell: bash
         run: |
-          if git diff --quiet -- schema/nodes schema/node-manifest.json && \
-             git diff --cached --quiet -- schema/nodes schema/node-manifest.json; then
+          if [[ -z "$(git status --porcelain -- schema/nodes schema/node-manifest.json)" ]]; then
             echo "Node schemas already synchronized."
             exit 0
           fi
