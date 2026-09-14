@@ -1,0 +1,28 @@
+---
+type: person
+name: 师天麾
+english_name: Tianhui Shi
+aliases: [师天麾, Tianhui Shi]
+company: Qingcheng.ai
+roles: [Co-Founder]
+areas: [high-performance-computing, distributed-training, inference, ai-infrastructure]
+---
+# 师天麾（Tianhui Shi）
+
+当前：[[Qingcheng.ai]] 联合创始人；清华大学计算机系高性能计算研究所博士背景。
+
+## 教育与技术经历
+- [[Tsinghua University]]：计算机系博士；在 [[company/Qingcheng.ai/翟季冬 Jidong Zhai|翟季冬]] 课题组长期从事高性能计算与 AI systems 研究。
+- 参与大模型训练系统“八卦炉”和推理相关系统研发；2023 年底与清华 HPC 同门共同创立清程极智。
+- 2026 AI Ping 研究中担任通讯作者，继续连接系统软件与生产级模型服务测量。
+
+## 人物关系
+- [[company/Qingcheng.ai/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：**清华博士导师 / 学生 + 清程极智技术产业化**。师天麾公开回忆从本科高年级开始进入翟季冬课题组，博士毕业后与课题组同门创业；翟季冬任清程极智首席科学家。
+- [[company/Qingcheng.ai/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]]：**清华 HPC 同门 + 清程极智联合创始人**。两人均于 2024 从翟季冬组博士毕业并进入 QingCheng.AI；唐适之负责赤兔及并行训练/推理研发，师天麾参与八卦炉与整体 AI Infra 产品技术。
+- [[company/Qingcheng.ai/汤雄超 Xiongchao Tang|汤雄超（Xiongchao Tang）]]：**清程极智联合创始团队**。公开资料确认同属早期创始技术团队；具体首次共同研发时间未完整披露。
+
+## Sources
+- https://www.tsinghua.org.cn/info/1953/42732.htm
+- https://pacman.cs.tsinghua.edu.cn/~zjd/people/
+- https://arxiv.org/abs/2605.02821
+- https://www.qc-ai.cn/news/j3pafzw9afg5gm8fp370efr1
