@@ -5,6 +5,10 @@ english_name: Jiarui Fang
 aliases: [方佳瑞, Jiarui Fang]
 current_affiliations: ["字节跳动"]
 communities: [Colossal-AI]
+education:
+  - 北京邮电大学
+  - 清华大学
+  - UC Davis
 roles: [Software Engineer, Former CTO]
 areas: [distributed-training, inference, reinforcement-learning, maas]
 last_verified: "2026-09"
@@ -16,6 +20,11 @@ relations:
 # 方佳瑞（Jiarui Fang）
 
 当前：[[字节跳动]] Software Engineer，公开个人资料显示其带领团队从事 LLM / DiT training、inference、RL 与 MaaS 基础设施；此前任 [[潞晨科技]] CTO，并领导 [[Colossal-AI]]。
+
+## 教育经历
+- [[北京邮电大学]]：计算机科学与技术学士，2010–2014。
+- [[清华大学]]：计算机科学与技术博士，2014–2019；导师杨广文，联合导师付昊桓。
+- [[UC Davis]]：访问学者，2017–2018；合作导师 Cho-Jui Hsieh。
 
 ## 工作经历
 - [[潞晨科技]]：CTO，2022-02–2023-03；负责 Colossal-AI 等大规模训练系统。
@@ -29,6 +38,8 @@ relations:
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：**Colossal-AI 早期系统协作者**。两人都在 HPC-AI / Colossal-AI 早期核心网络中；后续分别进入 ByteDance AI infra 与 SGLang / SpecForge。
 
 ## Sources
+- https://fangjiarui.github.io/
+- https://fangjiarui.github.io/assets/pdf/CV-jiarui-fang.pdf
 - https://www.jiaruifang.com/
 - https://www.jiaruifang.com/files/cv.pdf
 - https://openreview.net/pdf?id=WO3qJC2TOG
