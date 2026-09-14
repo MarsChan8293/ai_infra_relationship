@@ -16,13 +16,15 @@ SiliconFlow 是面向大模型与多模态模型的 AI inference infrastructure 
 - 面向 Agent、RAG、代码、多模态等 workload 的 Token 服务
 
 ## 核心人物
-- [[company/SiliconFlow/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]] — 创始人、CEO；OneFlow / 分布式深度学习系统背景
+- [[company/SiliconFlow/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]] — 创始人、CEO；OneFlow 创始人 / 分布式深度学习系统背景
+- [[company/SiliconFlow/柳俊丞 Juncheng Liu|柳俊丞（Juncheng Liu）]] — CTO；OneFlow 核心工程成员，与袁进辉共同署名 OneFlow 系统论文
+- [[company/SiliconFlow/赵震 Zhao Zhen|赵震（Zhao Zhen）]] — COO；OneFlow 旧部，连续创业核心团队
 - [[company/SiliconFlow/曾华|曾华]] — 联合创始人；商业化、生态与运营
 
 ## BFS 主线
-OneFlow 原团队 → [[袁进辉 Jinhui Yuan|袁进辉]] → SiliconFlow → SiliconLLM / OneDiff / Token serving / 异构算力适配。
+OneFlow → [[袁进辉 Jinhui Yuan|袁进辉]] / [[柳俊丞 Juncheng Liu|柳俊丞]] / [[赵震 Zhao Zhen|赵震]] → SiliconFlow → SiliconLLM / OneDiff / Token serving / 异构算力适配。
 
-公开报道显示，OneFlow 原 40 人团队中约 35 人参与袁进辉 2023 再创业，是 SiliconFlow 早期系统工程能力的重要人才来源；但在具体个人未公开前不逐一推测姓名。
+公开报道显示 OneFlow 原 40 人团队中约 35 人参与袁进辉 2023 再创业；现已能通过公开资料确认 CTO 柳俊丞、COO 赵震属于 OneFlow → SiliconFlow 的连续人才主干。其余个人仍不凭匿名团队描述猜测。
 
 ## 图谱中的连接
 与 [[vLLM]]、[[SGLang]] 等开源 inference engine，以及 [[DeepSeek]]、[[Qwen]]、[[Moonshot-AI]] 等模型生态存在技术上下游关系；模型兼容或平台支持不自动推断为人物直接协作。
@@ -31,3 +33,5 @@ OneFlow 原团队 → [[袁进辉 Jinhui Yuan|袁进辉]] → SiliconFlow → Si
 - https://www.siliconflow.com/
 - https://www.siliconflow.cn/news/wmqrg0qcwzp8z5qiq685l4q1
 - https://www.nbd.com.cn/articles/2024-01-11/3203604.html
+- https://arxiv.org/abs/2110.15032
+- https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf
