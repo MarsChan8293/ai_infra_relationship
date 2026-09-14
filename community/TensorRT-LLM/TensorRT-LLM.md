@@ -23,4 +23,4 @@ https://github.com/NVIDIA/TensorRT-LLM
 由 [[NVIDIA]] 主导维护。仓库人物页按公开长期贡献/维护证据建模，不把所有 NVIDIA 员工自动纳入核心项目组。
 
 ## 生态关系
-[[Dynamo]] · [[FlashInfer]] · [[NIXL]] · [[vLLM]] · [[SGLang]] · [[Triton Inference Server]]。TensorRT-LLM 是 NVIDIA-specialized engine/runtime，而 Dynamo 更偏跨 engine 的集群级 serving 编排。
+[[Dynamo]] · [[FlashInfer]] · [[NIXL]] · [[vLLM]] · [[SGLang]] · [[community/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]。TensorRT-LLM 是 NVIDIA-specialized engine/runtime，而 Dynamo 更偏跨 engine 的集群级 serving 编排。

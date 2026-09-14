@@ -14,7 +14,7 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 
 ## vLLM：论文系统 → 开源 engine → Inferact
 - [[Woosuk Kwon]]：Berkeley PhD 2021–2025，advisor Ion Stoica；vLLM creator；后任 [[Inferact]] cofounder/CTO。
-- [[Simon Mo]]：Berkeley systems 研究者，博士导师网络包括 Ion Stoica / Joseph Gonzalez；经历 [[Ray Serve]]、[[vLLM]]，后任 Inferact cofounder/CEO。
+- [[Simon Mo]]：Berkeley systems 研究者，博士导师网络包括 Ion Stoica / Joseph Gonzalez；经历 [[community/Ray-Serve/Ray-Serve|Ray Serve]]、[[vLLM]]，后任 Inferact cofounder/CEO。
 - [[游凯超 Kaichao You]]：清华博士背景，2019 RISELab visiting、2024 Sky Lab visiting；后成为 vLLM Project Lead 与 Inferact cofounder/Chief Scientist。公开资料不足以把 Ion/Joseph 写成其正式博士导师。
 - [[乔一凡 Yifan Qiao]]：Berkeley Sky Lab postdoc，与 Ion Stoica / Joseph Gonzalez 合作；2026 加入 Inferact founding MTS。
 
@@ -31,10 +31,10 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 因此 Berkeley 在图谱中更像一个“系统人才放大器”：吸收不同学校的强系统学生，通过 Sky/RISE 的共同项目形成协作网络，再流向开源社区、创业公司和 frontier labs。
 
 ## Ray / Anyscale / Databricks 的历史底座
-[[Ray Serve]]、[[Anyscale]] 与 Berkeley Ray 系谱相连；[[Databricks]] 则可追溯到更早的 AMPLab/Spark 创业网络。这说明 vLLM/SGLang 并非孤立现象，而是 Berkeley 长期把系统研究开源并商业化的延续。
+[[community/Ray-Serve/Ray-Serve|Ray Serve]]、[[Anyscale]] 与 Berkeley Ray 系谱相连；[[Databricks]] 则可追溯到更早的 AMPLab/Spark 创业网络。这说明 vLLM/SGLang 并非孤立现象，而是 Berkeley 长期把系统研究开源并商业化的延续。
 
 ## 关键项目
-[[vLLM]] · [[SGLang]] · [[Ray Serve]] · Ray · [[Inferact]] · [[Anyscale]] · [[Databricks]]
+[[vLLM]] · [[SGLang]] · [[community/Ray-Serve/Ray-Serve|Ray Serve]] · Ray · [[Inferact]] · [[Anyscale]] · [[Databricks]]
 
 ## Sources
 - https://sky.cs.berkeley.edu/

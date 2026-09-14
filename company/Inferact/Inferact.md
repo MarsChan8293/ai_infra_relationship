@@ -24,7 +24,7 @@ Inferact 是 AI inference infrastructure 公司，由 vLLM 创建者、核心维
 [[Nick Hill]] · [[乔一凡 Yifan Qiao]] · [[Yongye Zhu]]
 
 ## 图谱中的连接
-[[vLLM]] · [[UC Berkeley]] · [[Ray Serve]]。Inferact 与 vLLM 人物网络高度重叠，但 [[Robert Shaw]]、[[Michael Goin]]、[[李卓翰 Zhuohan Li]]、[[Chen Zhang]] 等 vLLM 维护者分别属于其他公司，因此不能把开源共事写成 Inferact 同事。
+[[vLLM]] · [[UC Berkeley]] · [[community/Ray-Serve/Ray-Serve|Ray Serve]]。Inferact 与 vLLM 人物网络高度重叠，但 [[Robert Shaw]]、[[Michael Goin]]、[[李卓翰 Zhuohan Li]]、[[Chen Zhang]] 等 vLLM 维护者分别属于其他公司，因此不能把开源共事写成 Inferact 同事。
 
 ## Sources
 - https://inferact.ai/

@@ -17,9 +17,9 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 - [[UC Berkeley]]：访问研究经历
 
 ## 工作经历
-- [[UC Berkeley RISELab]]：2019 Visiting Student Researcher
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley RISELab]]：2019 Visiting Student Researcher
 - [[Apple AIML]]：2023–2024 Research Intern
-- [[UC Berkeley Sky Lab]]：2024 Visiting PhD Researcher
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：2024 Visiting PhD Researcher
 - [[Inferact]]：联合创始人、Chief Scientist，2025–至今
 
 ## 社区贡献

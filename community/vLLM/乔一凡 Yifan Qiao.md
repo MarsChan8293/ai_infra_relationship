@@ -16,7 +16,7 @@ roles: [Founding Member of Technical Staff]
 ## 教育经历
 - [[Tsinghua University]]：本科，2019
 - [[UCLA]]：Computer Science 博士，2024；导师 Harry Xu、Miryung Kim
-- [[UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
 
 ## 工作与社区经历
 - kvcached / ConServe：围绕 KV cache、LLM serving 与资源管理的系统研究

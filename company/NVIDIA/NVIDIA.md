@@ -17,4 +17,4 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/TokenSpeed/TokenSpeed|TokenSpeed]]：LightSeek Foundation 治理下的**共同创建/工程协作方**，并通过 Dynamo 提供 day-0 backend 支持。
 
 ## 图谱中的连接
-[[TensorRT-LLM]] · [[Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
+[[TensorRT-LLM]] · [[community/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。

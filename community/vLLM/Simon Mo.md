@@ -7,8 +7,8 @@
 - [[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 Joseph Gonzalez、[[Ion Stoica]]
 
 ## 工作经历
-- [[UC Berkeley RISELab]] / Sky Computing Lab：学生研究者，长期研究 serving systems
-- [[Anyscale]]：Software Engineer，参与 [[Ray Serve]]
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley RISELab]] / Sky Computing Lab：学生研究者，长期研究 serving systems
+- [[Anyscale]]：Software Engineer，参与 [[community/Ray-Serve/Ray-Serve|Ray Serve]]
 - Character.AI：serving systems 相关经历
 - [[Inferact]]：联合创始人、CEO，2025–至今
 
