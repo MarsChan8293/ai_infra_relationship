@@ -1,6 +1,9 @@
 name: Deploy Quartz to GitHub Pages
 
 on:
+  push:
+    branches:
+      - Quartz
   workflow_dispatch:
 
 permissions:
@@ -24,10 +27,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout Quartz branch
         uses: actions/checkout@v6
         with:
-          ref: main
+          ref: Quartz
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -53,6 +56,11 @@ jobs:
           cp -R university "$QUARTZ_DIR/content/university"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
+
+      - name: Normalize wikilinks against real repository paths
+        run: |
+          node scripts/normalize-wikilinks.mjs "$QUARTZ_DIR/content"
+          rm -f "$QUARTZ_DIR/content/.wikilink-audit.json"
 
       - name: Configure Quartz
         working-directory: ${{ env.QUARTZ_DIR }}
@@ -89,6 +97,9 @@ jobs:
       - name: Build Quartz
         working-directory: ${{ env.QUARTZ_DIR }}
         run: npx quartz build
+
+      - name: Audit generated internal links
+        run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
