@@ -1,0 +1,39 @@
+name: Complete Community Organization Reorg
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/community-reorg-v3.yml]
+permissions:
+  contents: write
+jobs:
+  reorganize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run corrected one-shot reorganization
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import textwrap
+          wf = Path('.github/workflows/community-reorg.yml')
+          raw = wf.read_text(encoding='utf-8')
+          start = raw.index("          python3 - <<'PY'\n") + len("          python3 - <<'PY'\n")
+          end = raw.index("\n          PY", start)
+          script = textwrap.dedent(raw[start:end])
+          old = """for project,org in MAPPING.items():\n    new=new.replace(f'community/{project}/',f'community/{org}/{project}/')"""
+          new = """for project,org in MAPPING.items():\n    if project == org:\n        pat=re.compile(rf'community/{re.escape(project)}/(?!{re.escape(project)}/)')\n        new=pat.sub(f'community/{org}/{project}/',new)\n    else:\n        new=new.replace(f'community/{project}/',f'community/{org}/{project}/')"""
+          if old not in script:
+              raise RuntimeError('expected literal rewrite block not found')
+          script = script.replace(old, new)
+          exec(compile(script, '<community-reorg>', 'exec'), {'__name__':'__main__'})
+          PY
+          rm -f .github/workflows/community-reorg-v3.yml
+      - name: Commit reorganized tree
+        run: |
+          git config user.name "Mars"
+          git config user.email "cmm8293@163.com"
+          git add -A
+          git commit -m "Reorganize community by upstream organization"
+          git push origin HEAD:main
