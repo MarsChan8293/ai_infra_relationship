@@ -1,0 +1,25 @@
+---
+type: person
+name: 赵震
+english_name: Zhao Zhen
+aliases: [赵震, Zhao Zhen]
+company: SiliconFlow
+roles: [COO]
+areas: [operations, ai-infrastructure]
+---
+# 赵震（Zhao Zhen）
+
+当前：[[SiliconFlow]] COO；前 OneFlow 核心团队成员。
+
+## 工作经历
+- OneFlow：公开公司资料将其列为 OneFlow 旧部；2023 年 OneFlow / 光年之外并购链之前已处于袁进辉创业网络。
+- [[SiliconFlow]]：2023–至今进入创始核心班底，当前任 COO。
+
+## 人物关系
+- [[company/SiliconFlow/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]]：**连续创业关系**。两人先处于 OneFlow 创业团队；2023 袁进辉带 OneFlow 核心班底创立 SiliconFlow，赵震随后任 COO。公开资料支持组织共事，不扩写为具体研发合作。
+- [[company/SiliconFlow/柳俊丞 Juncheng Liu|柳俊丞（Juncheng Liu）]]：**OneFlow 旧同事 + SiliconFlow 核心团队**。当前分别任 COO、CTO，构成 OneFlow → SiliconFlow 人才迁移主干。
+
+## Sources
+- https://www.tsinghua.org.cn/info/1015/42666.htm
+- https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf
+- https://amp.kr-asia.com/surging-users-widening-losses-and-leased-compute-behind-siliconflows-ipo-filing
