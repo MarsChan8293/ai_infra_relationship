@@ -3,6 +3,8 @@ type: person
 name: Yineng Zhang
 aliases: [Yineng Zhang]
 current_affiliations: ["Together AI","LightSeek Foundation"]
+schools:
+  - "江南大学"
 communities: [SGLang, FlashInfer, Mooncake, TokenSpeed]
 education: [江南大学]
 roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator, Former SGLang Core Maintainer]
