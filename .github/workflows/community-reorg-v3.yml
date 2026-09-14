@@ -22,10 +22,10 @@ jobs:
           start = raw.index("          python3 - <<'PY'\n") + len("          python3 - <<'PY'\n")
           end = raw.index("\n          PY", start)
           script = textwrap.dedent(raw[start:end])
-          old = """for project,org in MAPPING.items():\n    new=new.replace(f'community/{project}/',f'community/{org}/{project}/')"""
-          new = """for project,org in MAPPING.items():\n    if project == org:\n        pat=re.compile(rf'community/{re.escape(project)}/(?!{re.escape(project)}/)')\n        new=pat.sub(f'community/{org}/{project}/',new)\n    else:\n        new=new.replace(f'community/{project}/',f'community/{org}/{project}/')"""
+          old = "new=new.replace(f'community/{project}/',f'community/{org}/{project}/')"
+          new = "new=(re.sub(rf'community/{re.escape(project)}/(?!{re.escape(project)}/)',f'community/{org}/{project}/',new) if project==org else new.replace(f'community/{project}/',f'community/{org}/{project}/'))"
           if old not in script:
-              raise RuntimeError('expected literal rewrite block not found')
+              raise RuntimeError('expected literal rewrite line not found')
           script = script.replace(old, new)
           exec(compile(script, '<community-reorg>', 'exec'), {'__name__':'__main__'})
           PY
