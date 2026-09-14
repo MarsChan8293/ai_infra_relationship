@@ -1,2 +1,47 @@
 schema: ai-infra-relationship/relation-v1
 status: migration
+encoding:
+  current: json-string-items
+  future: native-yaml-object
+  note: >-
+    During migration, each `relations` list item is a JSON object encoded as a YAML string.
+    This is compatible with the legacy frontmatter parser while preserving a stable relation model.
+types:
+  - advisor
+  - student
+  - coworker
+  - cofounder
+  - same-lab
+  - open-source-collaboration
+  - community-maintainer
+  - paper-coauthor
+  - research-collaboration
+  - technical-collaboration
+  - career-connection
+  - project-integration
+  - mentor-network
+confidence:
+  - high
+  - medium
+  - low
+required:
+  - target
+  - type
+  - confidence
+recommended:
+  - evidence
+fields:
+  target: canonical entity path or unique canonical entity name
+  type: array of values from `types`
+  project: canonical project name when the relation is project-scoped
+  company: canonical company name when the relation is company-scoped
+  start: YYYY or YYYY-MM
+  end: YYYY or YYYY-MM or null
+  confidence: high, medium, or low
+  evidence: array of public source URLs
+rules:
+  - Structured relations complement the prose relationship section; they do not replace it.
+  - `coworker` requires verified overlapping employment or formal-team membership.
+  - `paper-coauthor` proves coauthorship only and must not be promoted to coworker without separate evidence.
+  - `open-source-collaboration` must identify a concrete project or maintenance context when possible.
+  - Use full canonical paths for ambiguous names.
