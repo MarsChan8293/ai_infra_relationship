@@ -6,7 +6,7 @@ AI 模型公司、云厂商、芯片公司、AI Infra 创业公司与平台公�
 [[OpenAI]] · [[company/DeepSeek/DeepSeek|深度求索（DeepSeek）]] · [[Qwen]] · [[company/Moonshot-AI/Moonshot-AI|月之暗面（Moonshot AI）]] · [[company/Zhipu-AI/Zhipu-AI|智谱 AI（Zhipu AI / Z.ai）]] · [[xAI]] · [[Meta]]
 
 ## AI Infra / Serving / Platform
-[[Inferact]] · [[RadixArk]] · [[TensorMesh]] · [[Anyscale]] · [[Baseten]] · [[Fireworks AI]] · [[Together AI]] · [[Hugging Face]] · [[company/SiliconFlow/SiliconFlow|硅基流动（SiliconFlow）]] · [[company/Infinigence AI/Infinigence AI|无问芯穹（Infinigence AI）]] · [[company/Qingcheng.ai/Qingcheng.ai|清程极智（Qingcheng.ai）]] · [[company/HPC-AI Tech/HPC-AI Tech|潞晨科技（HPC-AI Tech）]] · [[company/TsingMao/TsingMao|清昴智能（TsingMao）]] · [[company/Approaching.AI/Approaching.AI|趋境科技（Approaching.AI）]] · [[company/基流科技/基流科技|基流科技（InfraWaves）]] · [[company/PPIO/PPIO|派欧云（PPIO）]] · [[company/OneFlow Inc/OneFlow Inc|一流科技（OneFlow）]] · [[company/Dynamia/Dynamia|密瓜智能（Dynamia）]]
+[[Inferact]] · [[RadixArk]] · [[TensorMesh]] · [[Neural Magic]]（2025 并入 [[Red Hat]]） · [[Anyscale]] · [[Baseten]] · [[Fireworks AI]] · [[Together AI]] · [[Hugging Face]] · [[company/SiliconFlow/SiliconFlow|硅基流动（SiliconFlow）]] · [[company/Infinigence AI/Infinigence AI|无问芯穹（Infinigence AI）]] · [[company/Qingcheng.ai/Qingcheng.ai|清程极智（Qingcheng.ai）]] · [[company/HPC-AI Tech/HPC-AI Tech|潞晨科技（HPC-AI Tech）]] · [[company/TsingMao/TsingMao|清昴智能（TsingMao）]] · [[company/Approaching.AI/Approaching.AI|趋境科技（Approaching.AI）]] · [[company/基流科技/基流科技|基流科技（InfraWaves）]] · [[company/PPIO/PPIO|派欧云（PPIO）]] · [[company/OneFlow Inc/OneFlow Inc|一流科技（OneFlow）]] · [[company/Dynamia/Dynamia|密瓜智能（Dynamia）]]
 
 国内 AI Infra 创业公司成员遍历：[[China AI Infra Startups BFS]]
 

@@ -28,7 +28,7 @@ vLLM 采用公开 governance，不归属于单一公司。这里的公司边表�
 vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat]]、[[Meta]]、[[Hugging Face]]、[[TensorMesh]] 等公司和研究机构，因此“同属 vLLM”不等于“公司同事”。
 
 ## 核心人物
-[[Woosuk Kwon]] · [[李卓翰 Zhuohan Li]] · [[Simon Mo]] · [[游凯超 Kaichao You]] · [[Robert Shaw]] · [[Nick Hill]] · [[Roger Wang]] · [[Lu Fang]] · [[Ye Charlotte Qi]] · [[程翊华 Yihua Cheng]] · [[杜昆泰 Kuntai Du]] · [[Cyrus Leung]] · [[Harry Mellor]] · [[Lucas Wilkinson]] · [[Wentao Ye]]
+[[Woosuk Kwon]] · [[李卓翰 Zhuohan Li]] · [[Simon Mo]] · [[游凯超 Kaichao You]] · [[Robert Shaw]] · [[Nick Hill]] · [[Roger Wang]] · [[Lu Fang]] · [[Ye Charlotte Qi]] · [[程翊华 Yihua Cheng]] · [[杜昆泰 Kuntai Du]] · [[Cyrus Leung]] · [[Harry Mellor]] · [[Lucas Wilkinson]] · [[Wentao Ye]] · [[Matthew Bonanni]]
 
 ## 生态关系
 - [[LMCache]]：KV Connector / offloading 与分层 KV cache。
