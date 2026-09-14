@@ -1,0 +1,39 @@
+schema: ai-infra-relationship/relationship-map-v1
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - scope
+  - updated
+  - areas
+  - seeds
+  - methodology
+  - last_verified
+fields:
+  type:
+    const: relationship-map
+  name:
+    type: string
+    description: Canonical title of the curated traversal, BFS map, or relationship research note.
+  scope:
+    type: string
+    description: Scope identifier for the traversal, such as domestic-ai-infra-startups.
+  areas:
+    type: array[string]
+    description: Technical or organizational focus tags covered by this relationship map.
+  seeds:
+    type: array[string]
+    description: Optional canonical seed entities used to start the traversal.
+  methodology:
+    type: string
+    description: Optional short description of the search or BFS methodology.
+  updated:
+    type: string
+    pattern: YYYY-MM or YYYY-MM-DD
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - A relationship-map node is a curated analytical/index node, not a substitute for canonical person, company, project, or institution nodes.
+  - Its links may guide further research, but factual edges still belong on canonical entity pages or typed relations with evidence.
