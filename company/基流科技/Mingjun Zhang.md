@@ -4,6 +4,7 @@ name: Mingjun Zhang
 aliases: [Mingjun Zhang]
 current_affiliations: ["基流科技"]
 communities: [VCCL]
+education: [南京大学]
 roles: [AI Infra Engineer]
 areas: [collective-communication, gpu-networking, distributed-training]
 last_verified: "2026-09"
@@ -17,7 +18,8 @@ relations:
 
 [[基流科技]] / Infrawaves AI infrastructure 工程节点，[[VCCL]] 大规模 GPU 集群集合通信论文第一作者之一，并参与异构 collective communication 工作。
 
-## 技术与社区经历
+## 教育与技术经历
+- [[南京大学]]：其 GitHub 个人主页直接标注 Nanjing University；该 GitHub 身份同时固定展示 VCCL、SGLang、Mooncake、vLLM、DeepEP 等 AI infra 项目，可与本人物节点稳定对应。
 - VCCL：论文第一作者；研究高效、高可靠、可观测 collective communication，并在生产训练集群部署。
 - HetCCL：Infrawaves 作者之一，研究 mixed-vendor heterogeneous clusters 的跨硬件集合通信。
 - 公开 GitHub profile 重点关注 AI infra，并将 SGLang、VCCL、Mooncake、vLLM、DeepEP 相关项目列为 pinned repositories。
