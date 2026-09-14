@@ -3,6 +3,7 @@ type: person
 name: Maroon Ayoub
 current_affiliations: ["Red Hat","IBM Research"]
 communities: [llm-d]
+education: [Technion - Israel Institute of Technology]
 roles: [Senior Principal Machine Learning Engineer, KV-Disaggregation SIG Lead, Agentic Inference SIG Lead, Inference Payload Processor SIG Lead]
 areas: [kv-cache, distributed-inference, routing, agentic-inference]
 last_verified: "2026-09"
@@ -18,6 +19,9 @@ relations:
 - IBM Research：历史/近期研究网络。IBM Research 人物页仍列其为 Research Scientist & Architect，明显存在 affiliation 更新滞后；当前公司优先采用时间更晚的 llm-d 官方文章。
 - [[llm-d]]：KV-Disaggregation SIG Lead，同时参与 Agentic Inference 与 Inference Payload Processor SIG 领导。
 
+## 教育与学术关联
+- [[Technion - Israel Institute of Technology]]：公开职业档案列出 2019–2025 教育经历；IBM Research 人物页另明确写到其在 Technion 指导 industry-linked student projects。
+
 ## 技术方向
 KV cache 分离、P2P cache sharing、cache-aware routing、跨实例传输、distributed inference memory architecture，以及 agentic / payload-aware serving。
 
@@ -31,8 +35,9 @@ KV cache 分离、P2P cache sharing、cache-aware routing、跨实例传输、di
 [[vLLM]] · [[LMCache]] · [[NIXL]] · [[Mooncake]]
 
 ## Sources
+- https://www.linkedin.com/in/v-maroon
+- https://research.ibm.com/people/maroon-ayoub
 - https://llm-d.ai/community/sigs
 - https://llm-d.ai/blog/p2p-kv-cache-sharing-llm-d
 - https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d
 - https://llm-d.ai/blog/serving-glm-5-2-agentic-workloads-on-llm-d
-- https://research.ibm.com/people/maroon-ayoub
