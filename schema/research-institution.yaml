@@ -1,0 +1,51 @@
+schema: ai-infra-relationship/research-institution-v1
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - organization
+  - aliases
+  - areas
+  - labs
+  - people
+  - projects
+  - last_verified
+fields:
+  type:
+    const: research-institution
+  name:
+    type: string
+    description: Canonical research institute, industrial research lab, or research center name.
+  organization:
+    type: string
+    description: Canonical parent organization when the institution is part of a larger company, university, or research organization.
+  aliases:
+    type: array[string]
+  areas:
+    type: array[string]
+    description: Technical research areas relevant to this graph.
+  labs:
+    type: array[string]
+    description: Named internal labs or research groups represented in the graph when useful.
+  people:
+    type: array[string]
+    description: Optional high-value researchers with direct public affiliation evidence.
+  projects:
+    type: array[string]
+    description: Projects with a direct research, origin, or engineering relationship to the institution.
+  website:
+    type: string
+  country:
+    type: string
+  city:
+    type: string
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+legacy_migration:
+  title: name
+notes:
+  - Use this type for research institutions that are not best represented as a university/school or a standalone commercial company.
+  - Parent organization membership must not be used to infer that every researcher at the institution is a coworker with every employee of the parent company.
+  - People, projects, and lab relationships should be evidence-backed and independently readable in the page body.
