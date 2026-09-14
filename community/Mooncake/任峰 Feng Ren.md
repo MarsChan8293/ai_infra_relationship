@@ -26,9 +26,11 @@ roles: [Cofounder, Codeowner, Transfer Engine Maintainer]
 - Mooncake Transfer Engine 作者与核心维护者
 
 ## 人物关系
-- [[Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI 同事 + Mooncake Codeowner**。截至 2026-09 两人均公开关联 Approaching.AI；任峰负责 Mooncake Transfer Engine，Ke Yang 负责 Mooncake Store，分别覆盖远程数据传输与缓存存储。精确首次共事月份公开未确认。
+- [[Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI 同事 + Mooncake Codeowner**。任峰个人主页明确标注 2026–至今在 Approaching AI；Ke Yang 同样公开关联该公司。两人在 Mooncake 中分别负责 Transfer Engine 与 Store，构成数据传输层与缓存存储层的直接系统协作。Mooncake MAINTAINERS 对任峰仍显示旧 affiliation 9#AISoft，可能存在更新滞后。
+- [[company/Approaching.AI/卢佳豪 Jiahao Lu|卢佳豪（Jiahao Lu）]]：**Approaching.AI / Mooncake 工程网络**。卢佳豪公开主页写明在公司实习并开发 Mooncake；任峰是 Mooncake Transfer Engine 核心维护者。具体首次直接协作月份公开未确认。
 - [[Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：**Mooncake 共同维护者 / 项目生态协作者**。任峰作为联合创建者和 Transfer Engine 维护者，与马腾的社区/生态维护职责互补；当前分别关联 Approaching.AI 与 Alibaba Cloud，不标记为当前同事。
-- [[Mooncake/Shangming Cai|Shangming Cai]]：**Mooncake 共同维护者 + SGLang disaggregation 集成协作者**。任峰维护 Transfer Engine，Shangming Cai 负责 SGLang Integration，二者的模块在 PD/disaggregated serving 场景直接衔接；首次直接合作月份公开未确认。
+- [[Mooncake/Shangming Cai|Shangming Cai]]：**Mooncake 共同维护者 + SGLang disaggregation 集成协作者**。任峰维护 Transfer Engine，Shangming Cai 负责 SGLang Integration，二者的模块在 PD/disaggregated serving 场景直接衔接。
 
 ## Sources
+- https://libfeng.com/
 - https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md
