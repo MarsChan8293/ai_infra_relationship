@@ -18,7 +18,7 @@ areas: [distributed-training, heterogeneous-memory, llm-training]
 
 ## 人物关系
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**HPC-AI Tech 同事 + Colossal-AI / Elixir 论文合作者**。两人共同署名 Colossal-AI 与 Elixir 系统工作；尤洋为公司创始人，Haichen 负责训练系统工程。
-- [[community/Colossal-AI/Hongxin Liu|Hongxin Liu]]：**Colossal-AI 核心工程/论文合作者**。共同署名 Colossal-AI 原始系统论文与 Elixir；技术交叉集中在训练并行、内存与 runtime。
+- [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]]：**Colossal-AI 核心工程/论文合作者**。共同署名 Colossal-AI 原始系统论文与 Elixir；技术交叉集中在训练并行、内存与 runtime。
 - [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]：**前 HPC-AI 同事 + Colossal-AI/Elixir 合作者**。两人共同署名 Colossal-AI 与 Elixir；方佳瑞 2023 后离开 HPC-AI，当前在 ByteDance。
 
 ## Sources

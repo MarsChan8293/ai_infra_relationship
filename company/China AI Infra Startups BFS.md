@@ -41,7 +41,7 @@ L2：翟季冬 → 师天麾 / 唐适之的正式博士导师链；BaGuaLu 将�
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]] — Founder
 - [[company/潞晨科技/Haichen Huang|Haichen Huang]] — current Software Engineer；large-scale LLM training
 
-L2：潞晨科技→ [[Colossal-AI]] → [[community/Colossal-AI/Hongxin Liu|Hongxin Liu]] / Haichen Huang；人才继续分叉到 [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]（字节跳动 ByteDance AI infra）与 [[community/SGLang/Shenggui Li|Shenggui Li]]（SGLang / SpecForge）。这条线连接 distributed training → inference / speculative decoding。
+L2：潞晨科技→ [[Colossal-AI]] → [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]] / Haichen Huang；人才继续分叉到 [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]（字节跳动 ByteDance AI infra）与 [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]（SGLang / SpecForge）。这条线连接 distributed training → inference / speculative decoding。
 
 ### [[company/清昴智能/清昴智能|清昴智能]]
 - [[company/清昴智能/关超宇 Chaoyu Guan|关超宇（Chaoyu Guan）]] — Co-Founder / CEO
@@ -53,8 +53,8 @@ L2：朱文武 → 关超宇的清华导师/学生关系 → AutoGL → MLGuider
 ### [[company/趋境科技/趋境科技|趋境科技]]
 - [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]] — Founder / CEO
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]] — Chief Scientist
-- [[community/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]] — Technical Expert；Mooncake co-founder / Transfer Engine
-- [[community/Mooncake/Ke Yang|Ke Yang]] — Mooncake Store Codeowner / Approaching.AI engineer
+- [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]] — Technical Expert；Mooncake co-founder / Transfer Engine
+- [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] — Mooncake Store Codeowner / Approaching.AI engineer
 - [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪（Jiahao Lu）]] — intern；Mooncake developer
 - [[company/趋境科技/Hongbo Kang|Hongbo Kang]] / [[company/趋境科技/Weiyu Xie|Weiyu Xie]] — 2026 MADSys PhD → first job Approaching.AI
 

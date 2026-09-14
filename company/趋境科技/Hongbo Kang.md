@@ -17,7 +17,7 @@ areas: [systems, ai-infrastructure]
 
 ## 人物关系
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**MADSys 学术网络 → Approaching.AI 产业迁移**。武永卫是 MADSys faculty / Approaching.AI Chief Scientist；Hongbo Kang 为 MADSys 2026 博士 alumni 并进入 Approaching.AI。公开资料不足以写成正式博士导师关系。
-- [[community/Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI 同事网络**。截至 2026-09 两人均公开关联 Approaching.AI；Ke Yang 侧重 Mooncake Store / KV cache。当前无足够公开材料确认两人具体项目直接协作。
+- [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI 同事网络**。截至 2026-09 两人均公开关联 Approaching.AI；Ke Yang 侧重 Mooncake Store / KV cache。当前无足够公开材料确认两人具体项目直接协作。
 
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/people/

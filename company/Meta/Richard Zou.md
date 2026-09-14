@@ -16,8 +16,8 @@ areas: [pytorch-compiler, torch-compile, ai-infrastructure]
 - 2026 vLLM Conference：以 PyTorch / Meta 身份分享 PyTorch 对 vLLM 的支持
 
 ## 人物关系
-- [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**PyTorch compiler ↔ vLLM 技术协作，不是同事**。2025-08 vLLM 官方 torch.compile 技术文章由 Richard、游凯超、Michael Goin 等共同署名，内容来自 Red Hat 主持的 vLLM biweekly office hours；游凯超负责 vLLM compile integration 一侧，Richard 位于 PyTorch / Meta compiler 一侧。截至 2026-09 分属 Meta 与 [[Inferact]]。
-- [[vLLM/Michael Goin|Michael Goin]]：**PyTorch compiler ↔ vLLM performance 跨公司技术协作**。两人共同署名 2025-08 vLLM torch.compile 技术文章；截至 2026-09 分属 Meta 与 [[Red Hat]]。
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**PyTorch compiler ↔ vLLM 技术协作，不是同事**。2025-08 vLLM 官方 torch.compile 技术文章由 Richard、游凯超、Michael Goin 等共同署名，内容来自 Red Hat 主持的 vLLM biweekly office hours；游凯超负责 vLLM compile integration 一侧，Richard 位于 PyTorch / Meta compiler 一侧。截至 2026-09 分属 Meta 与 [[Inferact]]。
+- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：**PyTorch compiler ↔ vLLM performance 跨公司技术协作**。两人共同署名 2025-08 vLLM torch.compile 技术文章；截至 2026-09 分属 Meta 与 [[Red Hat]]。
 - Thomas Parnell：**vLLM 硬件可移植性公开技术协作者**。2026 PyTorch Conference 两人共同分享 hardware-agnostic vLLM model definitions，展示 Intel Gaudi/HPU 与 IBM Spyre 等后端无需 fork 模型定义的路径。
 
 ## Sources

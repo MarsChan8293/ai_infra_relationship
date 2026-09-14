@@ -23,12 +23,12 @@ areas: [llm-inference, speculative-decoding, post-training-infrastructure]
 - [[OpenAI]]：Researcher；公开个人页确认曾参与 gpt-oss inference 与 GPT-5 post-training infrastructure
 
 ## 人物关系
-- [[vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**Berkeley / vLLM inference 协作者 + 论文合著者**。两人都处于 Berkeley Sky / vLLM inference 网络；共同署名 2024 TurboSpec 与 2025 Jenga。该合作主要发生在柳晓萱进入 OpenAI 之前，不能写成 OpenAI–Inferact 公司协作关系。
-- [[vLLM/Chen Zhang|Chen Zhang]]：**Berkeley systems / LLM serving 论文合著者**。共同署名 Jenga 与 PrefillOnly；截至 2026-09 分属 OpenAI 与 [[Meta]]。
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**Berkeley / vLLM inference 协作者 + 论文合著者**。两人都处于 Berkeley Sky / vLLM inference 网络；共同署名 2024 TurboSpec 与 2025 Jenga。该合作主要发生在柳晓萱进入 OpenAI 之前，不能写成 OpenAI–Inferact 公司协作关系。
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**Berkeley systems / LLM serving 论文合著者**。共同署名 Jenga 与 PrefillOnly；截至 2026-09 分属 OpenAI 与 [[Meta]]。
 - [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**vLLM / LLM serving 论文合著者**。共同署名 TurboSpec、Jenga 与 PrefillOnly；截至 2026-09 分属 OpenAI 与 [[TensorMesh]]。
 - [[Inferact/Woosuk Kwon|Woosuk Kwon]]：**vLLM / Berkeley inference 协作者 + TurboSpec/Jenga 合著者**。当前分属 OpenAI 与 [[Inferact]]，不标记为同事。
-- [[vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**vLLM / Berkeley inference 协作者 + TurboSpec/Jenga 合著者**。当前分属 OpenAI 与 [[Meta]]。
-- [[vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**LLM serving 论文合著者**。共同署名 2025 PrefillOnly；当前分属 OpenAI 与 Inferact。
+- [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**vLLM / Berkeley inference 协作者 + TurboSpec/Jenga 合著者**。当前分属 OpenAI 与 [[Meta]]。
+- [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**LLM serving 论文合著者**。共同署名 2025 PrefillOnly；当前分属 OpenAI 与 Inferact。
 
 ## Sources
 - https://liuxiaoxuanpku.github.io/

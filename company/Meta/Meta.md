@@ -9,7 +9,7 @@ projects: [vLLM]
 Meta 是同时拥有 Llama foundation models、PyTorch 软件栈和超大规模推荐/AI infrastructure 的平台公司。在本图谱中，它是模型、compiler/runtime 与开源 inference engine 三条线交汇的重要产业节点。
 
 ## 主要贡献的社区项目
-- [[community/vLLM/vLLM|vLLM]]：多位公司工程/研究人员通过模型执行、compiler integration、RL serving 等方向形成直接贡献网络；这里表示 **core/long-term contributor affiliation**，不是项目所有权。
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：多位公司工程/研究人员通过模型执行、compiler integration、RL serving 等方向形成直接贡献网络；这里表示 **core/long-term contributor affiliation**，不是项目所有权。
 
 ## 关联社区与人物
 [[vLLM]] · [[SGLang]] · Llama · PyTorch

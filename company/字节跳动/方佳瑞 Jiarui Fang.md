@@ -20,8 +20,8 @@ areas: [distributed-training, inference, reinforcement-learning, maas]
 ## 人物关系
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**HPC-AI Tech 创业同事 + Colossal-AI 论文合作者**。方佳瑞任 CTO 时与尤洋共同推进 Colossal-AI，并共同署名原始系统论文。
 - [[company/潞晨科技/Haichen Huang|Haichen Huang]]：**前 HPC-AI 同事 + Colossal-AI / Elixir 合作者**。共同署名 Colossal-AI 与 Elixir；方佳瑞 2023 后离开 HPC-AI。
-- [[community/Colossal-AI/Hongxin Liu|Hongxin Liu]]：**Colossal-AI / Elixir 核心系统合作者**。两人共同署名大规模训练与异构内存相关工作。
-- [[community/SGLang/Shenggui Li|Shenggui Li]]：**Colossal-AI 早期系统协作者**。两人都在 HPC-AI / Colossal-AI 早期核心网络中；后续分别进入 ByteDance AI infra 与 SGLang / SpecForge。
+- [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]]：**Colossal-AI / Elixir 核心系统合作者**。两人共同署名大规模训练与异构内存相关工作。
+- [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：**Colossal-AI 早期系统协作者**。两人都在 HPC-AI / Colossal-AI 早期核心网络中；后续分别进入 ByteDance AI infra 与 SGLang / SpecForge。
 
 ## Sources
 - https://www.jiaruifang.com/

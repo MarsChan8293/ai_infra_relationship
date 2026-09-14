@@ -23,8 +23,8 @@ areas: [distributed-systems, storage, llm-serving, heterogeneous-inference]
 ## 人物关系
 - [[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：**清华 HPC / systems 学术网络 + Approaching.AI 公司技术领导层**。2026-03 起郑纬民任首席科学顾问、武永卫任首席科学家；二人同时出席/参与公司 Token service 技术活动。该公司角色可确认，但不据此推断直属汇报关系。
 - [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]]：**趋境科技公司技术/创业协作网络**。艾智远任创始人 CEO，武永卫以首席科学家身份连接清华系统研究与公司技术路线。
-- [[community/Mooncake/Ke Yang|Ke Yang]]：**Mooncake / LLM serving 开源协作 + Approaching.AI 同公司网络**。Ke Yang 是 Mooncake Store Codeowner；二人共同处于 Mooncake 研究/工程网络，2026 TENT 工作亦同时署名 Yongwei Wu 与 Ke Yang。
-- [[community/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：**KTransformers 论文合著 + MADSys / Approaching.AI 人才迁移网络**。共同署名 SOSP 2025 KTransformers；谢威宇 2026 博士毕业后进入 Approaching.AI。公开资料不足以写成正式博士导师关系。
+- [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：**Mooncake / LLM serving 开源协作 + Approaching.AI 同公司网络**。Ke Yang 是 Mooncake Store Codeowner；二人共同处于 Mooncake 研究/工程网络，2026 TENT 工作亦同时署名 Yongwei Wu 与 Ke Yang。
+- [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：**KTransformers 论文合著 + MADSys / Approaching.AI 人才迁移网络**。共同署名 SOSP 2025 KTransformers；谢威宇 2026 博士毕业后进入 Approaching.AI。公开资料不足以写成正式博士导师关系。
 - [[university/清华大学/Mingxing Zhang|Mingxing Zhang]]：**Mooncake / KTransformers 论文合作 + 清华 MADSys faculty 网络**。共同出现在 2025 Mooncake 与 KTransformers 作者网络中。
 
 ## Sources

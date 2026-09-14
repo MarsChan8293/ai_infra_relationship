@@ -7,7 +7,7 @@ communities: [KTransformers]
 ---
 # Weiyu Xie
 
-主简历：[[community/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]
+主简历：[[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]
 
 ## Approaching.AI 关系
 - [[趋境科技]]：MADSys alumni 列表显示 2026 清华计算机博士毕业后的 First Job 为 Approaching AI。
