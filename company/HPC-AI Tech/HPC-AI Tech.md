@@ -16,15 +16,22 @@ HPC-AI Tech（潞晨科技）是围绕高性能计算与大模型系统构建训
 - MaaS 与 GPU 云平台
 - 面向超算 / 云环境的训练推理加速
 
-## 核心人物
+## 当前 / 核心人物
 - [[company/HPC-AI Tech/尤洋 Yang You|尤洋（Yang You）]] — 创始人；UC Berkeley HPC / distributed training 背景，Colossal-AI 创业与技术核心
+- [[company/HPC-AI Tech/Haichen Huang|Haichen Huang]] — 当前 Software Engineer；Colossal-AI / Elixir / 大规模 LLM training
+
+## Colossal-AI 人才网络
+- [[community/Colossal-AI/Hongxin Liu|Hongxin Liu]] — 原始系统作者与长期核心维护者；当前雇主不据公开 GitHub 猜测
+- [[company/ByteDance/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]] — 2022–2023 HPC-AI CTO / Colossal-AI lead；后进入 [[ByteDance]] AI infra
+- [[community/SGLang/Shenggui Li|Shenggui Li]] — HPC-AI / Colossal-AI 早期核心系统网络；当前 [[SGLang]] Core Dev、SpecForge Lead
 
 ## BFS 主线
-UC Berkeley HPC / distributed optimization → [[尤洋 Yang You|尤洋]] → HPC-AI Tech → [[Colossal-AI]] → 大规模训练、并行、异构内存与推理系统。
-
-公司官网当前公开团队页主要突出尤洋；其他员工只有在可核验公开履历或 Colossal-AI 明确维护关系出现后再建立 canonical 人物页，不用第三方组织图强补职位。
+UC Berkeley HPC / distributed optimization → [[尤洋 Yang You|尤洋]] → HPC-AI Tech → [[Colossal-AI]] → 大规模训练、并行、异构内存；随后人才向 [[ByteDance]] AI infra 与 [[SGLang]] serving / speculative decoding 分叉，形成“training systems → inference systems”的人才迁移链。
 
 ## Sources
 - https://company.hpc-ai.com/company
-- https://www.luchentech.com/team
-- https://colossalai.org/
+- https://github.com/hpcaitech/ColossalAI
+- https://openreview.net/pdf?id=WO3qJC2TOG
+- https://github.com/1SAA
+- https://www.jiaruifang.com/
+- https://www.shenggui.li/
