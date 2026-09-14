@@ -125,7 +125,7 @@ jobs:
                   return ('broken',None)
 
           def audit():
-              idx=Index(); counts=Counter(); broken=[]
+              idx=Index(); counts=Counter(); issues=[]
               for p in idx.files:
                   src=posix_noext(p)
                   for lineno,line in iter_lines(p.read_text(encoding='utf-8')):
@@ -133,13 +133,12 @@ jobs:
                           status,res=idx.resolve(src,m.group(1))
                           counts[status]+=1
                           if status in ('broken','ambiguous','case_mismatch','empty'):
-                              broken.append((src,lineno,status,m.group(1)))
-              return counts,broken
+                              issues.append((src,lineno,status,m.group(1)))
+              return counts,issues
 
           before, before_issues = audit()
           print('=== BEFORE ===', dict(before))
 
-          # Build exact old -> new Markdown path map before moving anything.
           old_to_new={}
           for project,org in MAPPING.items():
               src=ROOT/'community'/project
@@ -148,10 +147,8 @@ jobs:
               for p in src.rglob('*.md'):
                   old=posix_noext(p)
                   rel=p.relative_to(src).as_posix()
-                  new=f'community/{org}/{project}/'+rel[:-3]
-                  old_to_new[old]=new
+                  old_to_new[old]=f'community/{org}/{project}/'+rel[:-3]
 
-          # Rewrite explicit/relative wikilinks that resolve into a directory being moved.
           idx=Index(); rewritten_links=0
           for p in idx.files:
               src_rel=posix_noext(p)
@@ -160,10 +157,9 @@ jobs:
                   global rewritten_links
                   inner=m.group(1)
                   base,suffix,alias=split_target(inner)
-                  status,res=idx.resolve(src_rel,inner)
+                  _,res=idx.resolve(src_rel,inner)
                   if not res or res not in old_to_new:
                       return m.group(0)
-                  # Short basename links survive moves naturally; only path-like links need rewriting.
                   if '/' not in base and not base.startswith('.'):
                       return m.group(0)
                   new_left=old_to_new[res]+suffix
@@ -172,18 +168,30 @@ jobs:
               new=LINK_RE.sub(repl,text)
               if new!=text: p.write_text(new,encoding='utf-8')
 
-          # Move every former project-level directory under its upstream namespace/governance organization.
+          # Self-named namespaces (LMCache, llm-d) need a temporary sibling during the move.
           moved_files=0
+          self_named=[]
           for project,org in MAPPING.items():
               src=ROOT/'community'/project
+              moved_files += sum(1 for x in src.rglob('*') if x.is_file())
+              if project == org:
+                  tmp=ROOT/'community'/f'.__reorg_tmp__{project}'
+                  if tmp.exists(): shutil.rmtree(tmp)
+                  src.rename(tmp)
+                  self_named.append((project,org,tmp))
+                  continue
               dst_parent=ROOT/'community'/org
               dst=dst_parent/project
               dst_parent.mkdir(parents=True,exist_ok=True)
               if dst.exists(): raise RuntimeError(f'target already exists: {dst}')
-              moved_files += sum(1 for x in src.rglob('*') if x.is_file())
               shutil.move(str(src),str(dst))
+          for project,org,tmp in self_named:
+              dst_parent=ROOT/'community'/org
+              dst_parent.mkdir(parents=True,exist_ok=True)
+              dst=dst_parent/project
+              if dst.exists(): raise RuntimeError(f'target already exists after temp move: {dst}')
+              shutil.move(str(tmp),str(dst))
 
-          # Rewrite literal repository-relative paths in prose/code examples as well.
           for p in ROOT.rglob('*.md'):
               if '.git' in p.parts: continue
               text=p.read_text(encoding='utf-8'); new=text
@@ -191,7 +199,6 @@ jobs:
                   new=new.replace(f'community/{project}/',f'community/{org}/{project}/')
               if new!=text: p.write_text(new,encoding='utf-8')
 
-          # Document the new invariant at the two main indexes.
           cpath=ROOT/'community/community.md'
           ctext=cpath.read_text(encoding='utf-8')
           section='''## 目录组织规则\n`community/` 按 canonical upstream namespace / 治理组织分层，而不是把每个项目直接平铺在一级目录。结构统一为：\n\n`community/<organization>/<project>/...`\n\n项目即使由某家公司发起，也优先按实际上游 namespace / 社区治理组织归档。例如 NVIDIA 发起的 Dynamo / NIXL 位于 `ai-dynamo`，而不是因公司关系统一塞进 `NVIDIA`。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。\n\n### 组织 → 项目\n- `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]\n- `ai-dynamo`：[[Dynamo]] · [[NIXL]]\n- `kvcache-ai`：[[KTransformers]] · [[Mooncake]]\n- `Ascend`：[[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]\n- `deepseek-ai`：[[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA\n- `hpcaitech`：[[Colossal-AI]]\n- `flashinfer-ai`：[[FlashInfer]]\n- `Project-HAMi`：[[HAMi]]\n- `LMCache`：[[LMCache]]\n- `ModelTC`：[[LightLLM]]\n- `Oneflow-Inc`：[[OneFlow]]\n- `ray-project`：[[Ray-Serve]]\n- `sgl-project`：[[SGLang]]\n- `NVIDIA`：[[TensorRT-LLM]]\n- `tile-ai`：[[TileLang]]\n- `lightseekorg`：[[TokenSpeed]]\n- `triton-inference-server`：[[Triton-Inference-Server]]\n- `sii-research`：[[VCCL]]\n- `llm-d`：[[llm-d]]\n\n'''
@@ -209,7 +216,6 @@ jobs:
               rtext=rtext.replace(marker,marker+rule)
           root.write_text(rtext,encoding='utf-8')
 
-          # The workflow is intentionally one-shot; do not leave maintenance scaffolding in main.
           wf=ROOT/'.github/workflows/community-reorg.yml'
           if wf.exists(): wf.unlink()
 
@@ -226,7 +232,8 @@ jobs:
               for x in after_issues[:80]: print('ISSUE',x)
               raise RuntimeError('unsafe wikilink audit result')
           for project,org in MAPPING.items():
-              if (ROOT/'community'/project).exists(): raise RuntimeError(f'old project root remains: {project}')
+              old=ROOT/'community'/project
+              if project != org and old.exists(): raise RuntimeError(f'old project root remains: {project}')
               if not (ROOT/'community'/org/project).is_dir(): raise RuntimeError(f'missing moved project: {org}/{project}')
           topdirs={p.name for p in (ROOT/'community').iterdir() if p.is_dir()}
           expected=set(MAPPING.values())
