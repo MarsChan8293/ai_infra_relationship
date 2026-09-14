@@ -1,13 +1,14 @@
 ---
 type: company
-name: Infinigence AI
+name: 无问芯穹（Infinigence AI）
+title: 无问芯穹（Infinigence AI）
 aliases: [无问芯穹, Infinigence AI]
 focus: [heterogeneous-compute, training-inference-platform, scheduling, maas, agentic-infra]
 ---
-# Infinigence AI（无问芯穹）
+# 无问芯穹（Infinigence AI）
 
 ## 公司简介
-无问芯穹是 AI 原生基础设施服务商，核心方向是连接多种模型与多种硬件的异构算力平台，并覆盖大规模训练、推理、强化学习、Agent 服务与 MaaS。公司公开提出“M 种模型 × N 种芯片”的技术范式。
+无问芯穹（Infinigence AI）是 AI 原生基础设施服务商，核心方向是连接多种模型与多种硬件的异构算力平台，并覆盖大规模训练、推理、强化学习、Agent 服务与 MaaS。公司公开提出“M 种模型 × N 种芯片”的技术范式。
 
 ## AI Infra 位置
 - 多元异构算力统一纳管与调度

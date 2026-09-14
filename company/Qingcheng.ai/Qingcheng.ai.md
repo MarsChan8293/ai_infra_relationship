@@ -1,13 +1,14 @@
 ---
 type: company
-name: Qingcheng.ai
-aliases: [清程极智, Qingcheng.ai]
+name: 清程极智（Qingcheng.ai）
+title: 清程极智（Qingcheng.ai）
+aliases: [清程极智, Qingcheng.ai, Qingcheng AI]
 focus: [ai-systems-software, inference-engine, compiler, distributed-training, heterogeneous-compute]
 ---
-# Qingcheng.ai（清程极智）
+# 清程极智（Qingcheng.ai）
 
 ## 公司简介
-清程极智是人工智能系统软件公司，核心团队源自清华大学计算机系高性能计算研究网络，重点覆盖国产智能算力上的训练、推理与系统软件优化。
+清程极智（Qingcheng.ai）是人工智能系统软件公司，核心团队源自清华大学计算机系高性能计算研究网络，重点覆盖国产智能算力上的训练、推理与系统软件优化。
 
 ## AI Infra 位置
 - 并行系统与分布式训练
@@ -27,7 +28,7 @@ focus: [ai-systems-software, inference-engine, compiler, distributed-training, h
 - [[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]] — 首席顾问；高性能计算体系结构与系统
 
 ## BFS 主线
-[[郑纬民 Weimin Zheng|郑纬民]] / [[翟季冬 Jidong Zhai|翟季冬]] → 清华 HPC / BaGuaLu（八卦炉）→ [[马子轩 Zixuan Ma|马子轩]] / [[师天麾 Tianhui Shi|师天麾]] / [[唐适之 Shizhi Tang|唐适之]] → Qingcheng.ai → 赤兔、并行训练/推理、编译器与国产异构算力优化。
+[[郑纬民 Weimin Zheng|郑纬民]] / [[翟季冬 Jidong Zhai|翟季冬]] → 清华 HPC / BaGuaLu（八卦炉）→ [[马子轩 Zixuan Ma|马子轩]] / [[师天麾 Tianhui Shi|师天麾]] / [[唐适之 Shizhi Tang|唐适之]] → 清程极智（Qingcheng.ai）→ 赤兔、并行训练/推理、编译器与国产异构算力优化。
 
 其中“翟季冬 → 师天麾 / 唐适之”有清华课题组公开 alumni 和个人经历支持，可标记为正式博士导师/学生关系；马子轩与翟季冬则至少有明确课题组与 BaGuaLu 论文合作关系。
 

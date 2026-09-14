@@ -1,13 +1,15 @@
 ---
 type: company
-name: DeepSeek
+name: 深度求索（DeepSeek）
+title: 深度求索（DeepSeek）
+aliases: [深度求索, DeepSeek]
 focus: frontier-models
 projects: [DeepSeek-Infra, 3FS, DeepEP, DeepGEMM, FlashMLA, DeepJIT]
 ---
-# DeepSeek
+# 深度求索（DeepSeek）
 
 ## 公司简介
-DeepSeek 是中国 frontier-model lab，以高效训练、MoE、reasoning 与系统协同著称。它在 AI Infra 图谱中的特殊之处，是把模型创新持续下沉为独立开源系统组件，包括 EP communication、GEMM/attention kernels、分布式存储和 xPU JIT，从而形成模型与基础设施共同演化的技术栈。
+深度求索（DeepSeek）是中国 frontier-model lab，以高效训练、MoE、reasoning 与系统协同著称。它在 AI Infra 图谱中的特殊之处，是把模型创新持续下沉为独立开源系统组件，包括 EP communication、GEMM/attention kernels、分布式存储和 xPU JIT，从而形成模型与基础设施共同演化的技术栈。
 
 ## 主要贡献的社区项目
 - [[community/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]]：公司对外开源的 systems stack 集合。

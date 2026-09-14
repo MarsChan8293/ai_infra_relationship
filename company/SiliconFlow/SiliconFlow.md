@@ -1,13 +1,14 @@
 ---
 type: company
-name: SiliconFlow
+name: 硅基流动（SiliconFlow）
+title: 硅基流动（SiliconFlow）
 aliases: [硅基流动, SiliconFlow]
 focus: [ai-inference, model-serving, maas, heterogeneous-compute]
 ---
-# SiliconFlow（硅基流动）
+# 硅基流动（SiliconFlow）
 
 ## 公司简介
-SiliconFlow 是面向大模型与多模态模型的 AI inference infrastructure 公司，提供 Serverless / dedicated inference、模型 API、微调与私有化部署等服务。其图谱价值主要在于连接模型服务、推理优化、异构算力与开发者平台，而不是自研基础模型或芯片。
+硅基流动（SiliconFlow）是面向大模型与多模态模型的 AI inference infrastructure 公司，提供 Serverless / dedicated inference、模型 API、微调与私有化部署等服务。其图谱价值主要在于连接模型服务、推理优化、异构算力与开发者平台，而不是自研基础模型或芯片。
 
 ## AI Infra 位置
 - 高吞吐、低延迟模型推理与 serving
@@ -22,7 +23,7 @@ SiliconFlow 是面向大模型与多模态模型的 AI inference infrastructure 
 - [[company/SiliconFlow/曾华|曾华]] — 联合创始人；商业化、生态与运营
 
 ## BFS 主线
-OneFlow → [[袁进辉 Jinhui Yuan|袁进辉]] / [[柳俊丞 Juncheng Liu|柳俊丞]] / [[赵震 Zhao Zhen|赵震]] → SiliconFlow → SiliconLLM / OneDiff / Token serving / 异构算力适配。
+OneFlow → [[袁进辉 Jinhui Yuan|袁进辉]] / [[柳俊丞 Juncheng Liu|柳俊丞]] / [[赵震 Zhao Zhen|赵震]] → 硅基流动（SiliconFlow）→ SiliconLLM / OneDiff / Token serving / 异构算力适配。
 
 公开报道显示 OneFlow 原 40 人团队中约 35 人参与袁进辉 2023 再创业；现已能通过公开资料确认 CTO 柳俊丞、COO 赵震属于 OneFlow → SiliconFlow 的连续人才主干。其余个人仍不凭匿名团队描述猜测。
 

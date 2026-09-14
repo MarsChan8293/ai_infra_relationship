@@ -1,13 +1,14 @@
 ---
 type: company
-name: Zhipu AI / Z.ai
-aliases: [智谱AI, ZhipuAI, Z.ai]
+name: 智谱 AI（Zhipu AI / Z.ai）
+title: 智谱 AI（Zhipu AI / Z.ai）
+aliases: [智谱AI, 智谱 AI, ZhipuAI, Zhipu AI, Z.ai]
 focus: frontier-models
 ---
-# 智谱 AI / Z.ai
+# 智谱 AI（Zhipu AI / Z.ai）
 
 ## 公司简介
-智谱 AI / Z.ai 是中国 frontier-model company，技术谱系与清华大学 KEG / GLM 研究网络高度相关。从 GLM、GLM-130B、ChatGLM 延伸到 Agentic、Reasoning 与 Coding 模型，它是“清华模型研究 → 商业 foundation-model lab”的典型产业化节点。
+智谱 AI（Zhipu AI / Z.ai）是中国 frontier-model company，技术谱系与清华大学 KEG / GLM 研究网络高度相关。从 GLM、GLM-130B、ChatGLM 延伸到 Agentic、Reasoning 与 Coding 模型，它是“清华模型研究 → 商业 foundation-model lab”的典型产业化节点。
 
 ## 核心人物
 [[唐杰 Jie Tang]] · [[张鹏 Zhang Peng]] · [[曾奥涵 Aohan Zeng]] · [[杜政晓 Zhengxiao Du]] · [[郑勤锴 Qinkai Zheng]]

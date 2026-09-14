@@ -1,18 +1,19 @@
 ---
 type: company
-name: Approaching.AI
-aliases: [趋境科技, Approaching.AI]
+name: 趋境科技（Approaching.AI）
+title: 趋境科技（Approaching.AI）
+aliases: [趋境科技, Approaching.AI, Approaching AI]
 focus: [ai-inference, token-service, heterogeneous-inference, kv-cache]
 projects: [KTransformers]
 ---
-# Approaching.AI（趋境科技）
+# 趋境科技（Approaching.AI）
 
 ## 公司简介
-Approaching.AI 聚焦大模型系统与推理基础设施，承接清华系统研究、KTransformers / Mooncake 等开源技术积累，重点推进异构推理、KV cache、以存换算与高效 Token 生产服务。
+趋境科技（Approaching.AI）聚焦大模型系统与推理基础设施，承接清华系统研究、KTransformers / Mooncake 等开源技术积累，重点推进异构推理、KV cache、以存换算与高效 Token 生产服务。
 
 ## 主要贡献的社区项目
 - [[community/KTransformers/KTransformers|KTransformers]]：公司当前人才网络与 KTransformers maintainer / 清华 MADSys 技术谱系直接重叠，是最清晰的产业核心贡献项目。
-- [[community/Mooncake/Mooncake|Mooncake]] 与 Approaching.AI 有持续工程人物连接，但 Mooncake 的主要产业共研起源仍标记为 Moonshot AI；这里保留为人物/工程协作关系，不加入 `projects` 主列表。
+- [[community/Mooncake/Mooncake|Mooncake]] 与趋境科技（Approaching.AI）有持续工程人物连接，但 Mooncake 的主要产业共研起源仍标记为 Moonshot AI；这里保留为人物/工程协作关系，不加入 `projects` 主列表。
 
 ## 核心人物
 - [[company/Approaching.AI/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]] — 创始人、CEO；Token service / inference infrastructure
@@ -30,7 +31,7 @@ Approaching.AI 聚焦大模型系统与推理基础设施，承接清华系统�
 - Zuoyuan Zhang 同时出现在 MADSys 2026 学生列表，因此当前只记录其项目协作，不据单次致谢写成长期公司员工。
 
 ## BFS 主线
-[[Tsinghua University]] MADSys / [[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民]] / [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫]] → [[Mooncake]] / [[KTransformers]] → [[community/Mooncake/任峰 Feng Ren|任峰]] / [[community/Mooncake/Ke Yang|Ke Yang]] / [[community/KTransformers/谢威宇 Weiyu Xie|谢威宇]] → Approaching.AI，形成清华 systems / HPC → 开源推理系统 → AI Infra 创业的连续人才流。
+[[Tsinghua University]] MADSys / [[company/Qingcheng.ai/郑纬民 Weimin Zheng|郑纬民]] / [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫]] → [[Mooncake]] / [[KTransformers]] → [[community/Mooncake/任峰 Feng Ren|任峰]] / [[community/Mooncake/Ke Yang|Ke Yang]] / [[community/KTransformers/谢威宇 Weiyu Xie|谢威宇]] → 趋境科技（Approaching.AI），形成清华 systems / HPC → 开源推理系统 → AI Infra 创业的连续人才流。
 
 ## Affiliation 注记
 任峰个人主页明确标注 2026–至今为 Approaching AI Technical Expert、2023–2026 为 9#AISoft；Mooncake MAINTAINERS 当前仍显示其 affiliation 为 9#AISoft，可能存在更新滞后。本图谱对“当前公司”优先采用个人主页，并保留文档差异说明。

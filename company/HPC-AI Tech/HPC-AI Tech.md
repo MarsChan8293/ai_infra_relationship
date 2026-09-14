@@ -1,17 +1,18 @@
 ---
 type: company
-name: HPC-AI Tech
-aliases: [潞晨科技, HPC-AI Tech]
+name: 潞晨科技（HPC-AI Tech）
+title: 潞晨科技（HPC-AI Tech）
+aliases: [潞晨科技, HPC-AI Tech, HPCAI Tech]
 focus: [distributed-training, inference, fine-tuning, maas, gpu-cloud]
 projects: [Colossal-AI]
 ---
-# HPC-AI Tech（潞晨科技）
+# 潞晨科技（HPC-AI Tech）
 
 ## 公司简介
-HPC-AI Tech（潞晨科技）是围绕高性能计算与大模型系统构建训练、微调、推理和部署平台的 AI infra 公司，核心开源项目为 [[Colossal-AI]]。
+潞晨科技（HPC-AI Tech）是围绕高性能计算与大模型系统构建训练、微调、推理和部署平台的 AI infra 公司，核心开源项目为 [[Colossal-AI]]。
 
 ## 主要贡献的社区项目
-- [[community/Colossal-AI/Colossal-AI|Colossal-AI]]：**发起 / 主导 / 长期维护**，是 HPC-AI Tech 最核心的开源系统项目。
+- [[community/Colossal-AI/Colossal-AI|Colossal-AI]]：**发起 / 主导 / 长期维护**，是潞晨科技（HPC-AI Tech）最核心的开源系统项目。
 
 ## AI Infra 位置
 - 分布式训练与并行系统
@@ -30,7 +31,7 @@ HPC-AI Tech（潞晨科技）是围绕高性能计算与大模型系统构建训
 - [[community/SGLang/Shenggui Li|Shenggui Li]] — HPC-AI / Colossal-AI 早期核心系统网络；当前 [[SGLang]] Core Dev、SpecForge Lead
 
 ## BFS 主线
-UC Berkeley HPC / distributed optimization → [[尤洋 Yang You|尤洋]] → HPC-AI Tech → [[Colossal-AI]] → 大规模训练、并行、异构内存；随后人才向 [[ByteDance]] AI infra 与 [[SGLang]] serving / speculative decoding 分叉，形成“training systems → inference systems”的人才迁移链。
+UC Berkeley HPC / distributed optimization → [[尤洋 Yang You|尤洋]] → 潞晨科技（HPC-AI Tech）→ [[Colossal-AI]] → 大规模训练、并行、异构内存；随后人才向 [[ByteDance]] AI infra 与 [[SGLang]] serving / speculative decoding 分叉，形成“training systems → inference systems”的人才迁移链。
 
 ## Sources
 - https://company.hpc-ai.com/company

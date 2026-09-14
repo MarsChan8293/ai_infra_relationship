@@ -1,14 +1,15 @@
 ---
 type: company
-name: Huawei
-aliases: [华为, Huawei Cloud, Ascend]
+name: 华为（Huawei）
+title: 华为（Huawei）
+aliases: [华为, Huawei, Huawei Cloud, Ascend, 昇腾]
 focus: [ascend, cann, inference-runtime, npu-kernels, quantization]
 projects: [vLLM-Ascend, MindIE-LLM, MindIE-Motor, MindIE-SD, msModelSlim, ops-transformer, HAMi]
 ---
-# Huawei / Ascend
+# 华为（Huawei）
 
 ## 公司简介
-Huawei 在本图谱中的 AI Infra 主线聚焦 Ascend NPU、CANN kernel/toolchain、MindIE inference runtime/control plane 与模型压缩量化工具链。这里把“硬件生态贡献”和“公司主导项目”分开标注，避免把 vLLM-Ascend 这类社区项目误写成 Huawei 私有项目。
+华为（Huawei）在本图谱中的 AI Infra 主线聚焦 Ascend NPU、CANN kernel/toolchain、MindIE inference runtime/control plane 与模型压缩量化工具链。这里把“硬件生态贡献”和“公司主导项目”分开标注，避免把 vLLM-Ascend 这类社区项目误写成 Huawei 私有项目。
 
 ## 主要贡献的社区项目
 - [[community/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]]：**hardware ecosystem core contributor**，项目仍由 vLLM Project / vLLM-Ascend 社区治理。

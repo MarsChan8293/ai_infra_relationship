@@ -1,12 +1,14 @@
 ---
 type: company
-name: Alibaba Cloud
+name: 阿里云（Alibaba Cloud）
+title: 阿里云（Alibaba Cloud）
+aliases: [阿里云, Alibaba Cloud, Alibaba]
 projects: [TokenSpeed]
 ---
-# Alibaba Cloud
+# 阿里云（Alibaba Cloud）
 
 ## 公司简介
-Alibaba Cloud 是阿里巴巴的云计算与 AI 基础设施平台，覆盖计算、存储、网络、容器、AI 平台与大模型服务。与 AI Infra 图谱最直接的关系来自 Qwen/通义模型生态、大规模云上训练与推理，以及面向企业的模型部署能力。
+阿里云（Alibaba Cloud）是阿里巴巴的云计算与 AI 基础设施平台，覆盖计算、存储、网络、容器、AI 平台与大模型服务。与 AI Infra 图谱最直接的关系来自 Qwen/通义模型生态、大规模云上训练与推理，以及面向企业的模型部署能力。
 
 ## 主要贡献的社区项目
 - [[community/TokenSpeed/TokenSpeed|TokenSpeed]]：通过 Qwen Inference 团队进入项目公开 co-creation / model-inference optimization 网络；TokenSpeed 仍由 LightSeek Foundation 治理。
