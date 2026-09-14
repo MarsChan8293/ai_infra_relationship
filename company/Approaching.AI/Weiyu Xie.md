@@ -1,23 +1,17 @@
 ---
-type: person
+type: person-link
 name: Weiyu Xie
-aliases: [Weiyu Xie]
-company: Approaching.AI
-affiliations: [Tsinghua University, Approaching.AI]
-roles: [Engineer]
-areas: [systems, ai-infrastructure]
+canonical: KTransformers/谢威宇 Weiyu Xie
+companies: [Approaching.AI]
+communities: [KTransformers]
 ---
 # Weiyu Xie
 
-当前：[[Approaching.AI]]；2026 年从清华大学计算机系 MADSys 博士毕业后，官方校友去向将 Approaching AI 列为其第一份工作。
+主简历：[[community/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]
 
-## 教育与工作经历
-- [[Tsinghua University]] MADSys：计算机博士，2026 毕业。
-- [[Approaching.AI]]：2026–至今；公开资料未披露具体职级，因此不猜岗位名称。
+## Approaching.AI 关系
+- [[Approaching.AI]]：MADSys alumni 列表显示 2026 清华计算机博士毕业后的 First Job 为 Approaching AI。
+- 与 [[company/Approaching.AI/Hongbo Kang|Hongbo Kang]] 同为 MADSys 2026 博士 alumni，并均进入 Approaching AI；具体公司项目协作公开未确认。
+- 与 [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]] 通过 MADSys、SOSP 2025 [[KTransformers]] 论文及 Approaching.AI 形成学术到产业的连续连接。
 
-## 人物关系
-- [[company/Approaching.AI/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**MADSys 学术网络 → Approaching.AI 产业迁移**。武永卫是 MADSys faculty / Approaching.AI Chief Scientist；Weiyu Xie 为 MADSys 2026 博士 alumni 并进入 Approaching.AI。公开资料不足以写成正式博士导师关系。
-- [[company/Approaching.AI/Hongbo Kang|Hongbo Kang]]：**MADSys 同届博士毕业生 + Approaching.AI 同事网络**。两人都在 2026 年 MADSys alumni 列表中被记录为博士毕业，并以 Approaching AI 为第一份工作；具体项目协作未公开。
-
-## Sources
-- https://madsys.cs.tsinghua.edu.cn/people/
+完整履历、论文与关系统一维护在 canonical 人物页。
