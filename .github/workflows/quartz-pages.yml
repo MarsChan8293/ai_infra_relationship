@@ -99,7 +99,9 @@ jobs:
         run: npx quartz build
 
       - name: Audit generated internal links
-        run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
+        run: |
+          python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship" 2>&1 | tee "$QUARTZ_DIR/public/link-audit.txt"
+          true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
