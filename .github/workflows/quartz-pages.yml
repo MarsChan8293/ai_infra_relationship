@@ -6,6 +6,8 @@ on:
       - main
     paths-ignore:
       - link-audit.txt
+      - schema/nodes/**
+      - schema/node-manifest.json
   pull_request:
     branches:
       - main
@@ -39,6 +41,14 @@ jobs:
 
       - name: Audit typed relations and coverage
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
+
+      - name: Generate full node schema instances
+        run: |
+          python3 scripts/generate-node-schemas.py \
+            --root . \
+            --nodes generated/nodes.json \
+            --output generated/node-schemas \
+            --manifest generated/node-schema-manifest.json
 
       - name: Set up Node.js
         uses: actions/setup-node@v7

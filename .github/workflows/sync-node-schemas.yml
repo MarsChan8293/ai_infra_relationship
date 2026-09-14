@@ -1,0 +1,58 @@
+name: Sync Node Schemas
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "AI Infra Relationship.md"
+      - "company/**/*.md"
+      - "community/**/*.md"
+      - "university/**/*.md"
+      - "schema/*.yaml"
+      - "scripts/audit-graph.py"
+      - "scripts/generate-node-schemas.py"
+      - ".github/workflows/sync-node-schemas.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-node-schemas-main
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Build graph node inventory
+        run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Generate one schema instance per Markdown node
+        run: |
+          python3 scripts/generate-node-schemas.py \
+            --root . \
+            --nodes generated/nodes.json \
+            --output schema/nodes \
+            --manifest schema/node-manifest.json
+
+      - name: Commit synchronized schema instances
+        shell: bash
+        run: |
+          if git diff --quiet -- schema/nodes schema/node-manifest.json && \
+             git diff --cached --quiet -- schema/nodes schema/node-manifest.json; then
+            echo "Node schemas already synchronized."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schema/nodes schema/node-manifest.json
+          git commit -m "chore(schema): sync all node schema instances"
+          git push origin HEAD:main
