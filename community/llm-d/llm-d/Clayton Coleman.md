@@ -2,6 +2,8 @@
 type: person
 name: Clayton Coleman
 current_affiliations: ["Google"]
+schools:
+  - "Case Western Reserve University"
 communities: [llm-d]
 education: [Case Western Reserve University]
 roles: [Distinguished Engineer, Project Leadership]

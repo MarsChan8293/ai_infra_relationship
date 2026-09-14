@@ -2,6 +2,8 @@
 type: person
 name: Karen Chung
 current_affiliations: ["NVIDIA"]
+schools:
+  - "Massachusetts Institute of Technology"
 communities: [Dynamo]
 education: [Massachusetts Institute of Technology]
 ---

@@ -2,6 +2,8 @@
 type: person
 name: Maroon Ayoub
 current_affiliations: ["Red Hat","IBM Research"]
+schools:
+  - "Technion - Israel Institute of Technology"
 communities: [llm-d]
 education: [Technion - Israel Institute of Technology]
 roles: [Senior Principal Machine Learning Engineer, KV-Disaggregation SIG Lead, Agentic Inference SIG Lead, Inference Payload Processor SIG Lead]

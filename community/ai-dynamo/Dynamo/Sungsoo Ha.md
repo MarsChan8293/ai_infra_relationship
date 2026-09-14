@@ -2,6 +2,8 @@
 type: person
 name: Sungsoo Ha
 current_affiliations: ["NVIDIA"]
+schools:
+  - "Stony Brook University"
 communities: [Dynamo]
 education: [Stony Brook University]
 ---

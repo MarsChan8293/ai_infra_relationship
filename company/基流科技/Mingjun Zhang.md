@@ -3,6 +3,8 @@ type: person
 name: Mingjun Zhang
 aliases: [Mingjun Zhang]
 current_affiliations: ["基流科技"]
+schools:
+  - "南京大学"
 communities: [VCCL]
 education: [南京大学]
 roles: [AI Infra Engineer]
