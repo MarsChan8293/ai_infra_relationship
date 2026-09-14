@@ -20,6 +20,7 @@ https://github.com/vllm-project/vllm-ascend
 - [[MindIE-LLM]]：昇腾 inference runtime，连接 SplitFuse、Prefix Cache、MTP 与 PD 混部。
 - [[MindIE-Motor]]：分布式 serving / Coordinator，连接 KV cache affinity、PD 调度与容量规划。
 - [[msModelSlim]]：量化工具链，连接 W8A8 / W4A8 / MXFP 系低比特部署。
+- [[管文宇 Guan Wenyu]]：2026 年贡献 MiniMax-M2.5 在 Ascend A3 + vLLM-Ascend 上的 MXFP4/W4A4 推理适配。
 
 ## 生态关系
 [[vLLM]] · [[LMCache]] · [[Mooncake]] · [[DeepJIT]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[msModelSlim]]。它是 hardware backend，不应与独立 serving engine 视为平级替代关系。
