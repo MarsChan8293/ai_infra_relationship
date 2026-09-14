@@ -1,0 +1,23 @@
+schema: ai-infra-relationship/index-v1
+status: derived
+frontmatter_required: false
+required: []
+recommended:
+  - name
+  - category
+fields:
+  type:
+    const: index
+    derived: true
+    description: Derived graph type for the root knowledge-base index and top-level category entry pages.
+  name:
+    type: string
+    description: Display name, normally derived from the file basename or heading when frontmatter is absent.
+  category:
+    type: string
+    enum: [root, company, community, university]
+    description: Top-level navigation category.
+notes:
+  - Index nodes are navigation surfaces rather than factual entities.
+  - Frontmatter is intentionally optional; `scripts/audit-graph.py` may infer this type from known index paths.
+  - Index links participate in navigation but should normally be hidden from focused talent-relationship views.
