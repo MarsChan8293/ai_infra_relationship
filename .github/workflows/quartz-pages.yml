@@ -1,4 +1,4 @@
-name: Deploy Quartz to GitHub Pages
+name: Validate and Deploy Quartz
 
 on:
   push:
@@ -6,6 +6,9 @@ on:
       - main
     paths-ignore:
       - link-audit.txt
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,26 +17,25 @@ permissions:
   id-token: write
 
 concurrency:
-  group: quartz-pages
-  cancel-in-progress: false
+  group: quartz-pages-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
   QUARTZ_DIR: /tmp/quartz
   SITE_BASE_URL: MarsChan8293.github.io/ai_infra_relationship
 
 jobs:
-  build-and-deploy:
+  build-and-audit:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout repository revision
         uses: actions/checkout@v6
         with:
-          ref: main
           fetch-depth: 0
+
+      - name: Audit semantic graph and generate metrics
+        run: python3 scripts/audit-graph.py --root . --output generated
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -50,19 +52,35 @@ jobs:
       - name: Stage knowledge graph content without editing source Markdown
         run: |
           rm -rf "$QUARTZ_DIR/content"
-          mkdir -p "$QUARTZ_DIR/content"
+          mkdir -p "$QUARTZ_DIR/content/generated"
 
           cp "AI Infra Relationship.md" "$QUARTZ_DIR/content/index.md"
           cp -R company "$QUARTZ_DIR/content/company"
           cp -R community "$QUARTZ_DIR/content/community"
           cp -R university "$QUARTZ_DIR/content/university"
+          cp generated/research-queue.md "$QUARTZ_DIR/content/generated/research-queue.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
 
-      - name: Normalize wikilinks against real repository paths
+      - name: Normalize and audit staged wikilinks
+        env:
+          WIKILINK_FAIL_ON_AMBIGUOUS: "1"
+          WIKILINK_FAIL_ON_MISSING: "0"
         run: |
+          set +e
           node scripts/normalize-wikilinks.mjs "$QUARTZ_DIR/content"
+          status=$?
+          cp "$QUARTZ_DIR/content/.wikilink-audit.json" generated/wikilink-audit.json
           rm -f "$QUARTZ_DIR/content/.wikilink-audit.json"
+          exit $status
+
+      - name: Upload graph audit artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: graph-audit-${{ github.sha }}
+          path: generated
+          if-no-files-found: warn
 
       - name: Configure Quartz
         working-directory: ${{ env.QUARTZ_DIR }}
@@ -108,6 +126,15 @@ jobs:
         with:
           path: ${{ env.QUARTZ_DIR }}/public
 
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    needs: build-and-audit
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
