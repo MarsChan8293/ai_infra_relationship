@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - graph-audit-v1
     paths-ignore:
       - link-audit.txt
   pull_request:
@@ -107,7 +108,24 @@ jobs:
             if (source.includes("footer")) {
               plugin.options ??= {}
               plugin.options.links = {
+                "关系探索器": "https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/",
                 GitHub: "https://github.com/MarsChan8293/ai_infra_relationship",
+              }
+            }
+            if (source.includes("graph")) {
+              plugin.options ??= {}
+              plugin.options.localGraph = {
+                ...(plugin.options.localGraph ?? {}),
+                depth: 1,
+                scale: 1.1,
+                focusOnHover: true,
+              }
+              plugin.options.globalGraph = {
+                ...(plugin.options.globalGraph ?? {}),
+                depth: 2,
+                scale: 0.8,
+                focusOnHover: true,
+                enableRadial: true,
               }
             }
             if (source.includes("og-image") || source.includes("cname")) {
@@ -121,6 +139,13 @@ jobs:
       - name: Build Quartz
         working-directory: ${{ env.QUARTZ_DIR }}
         run: npx quartz build
+
+      - name: Build focused graph explorer
+        run: |
+          python3 scripts/build-graph-explorer.py \
+            --generated generated \
+            --output "$QUARTZ_DIR/public/graph-explorer" \
+            --base-path "/ai_infra_relationship"
 
       - name: Audit generated internal links
         run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
