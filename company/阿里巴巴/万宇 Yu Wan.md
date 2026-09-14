@@ -4,6 +4,8 @@ name: 万宇
 english_name: Yu Wan
 aliases: [Yu Wan, 万宇]
 current_affiliations: ["阿里巴巴"]
+schools:
+  - "厦门大学"
 areas: [multilingualism, interpretability, machine-translation]
 last_verified: "2026-09"
 relations:
@@ -35,3 +37,6 @@ Qwen1.5 / Qwen2 / Qwen2.5 / [[Qwen3]] / Qwen-MT / Qwen-Scope
 
 ## Source
 https://wanyu2018umac.github.io/
+
+## 学校关联
+- [[university/厦门大学/厦门大学|厦门大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。

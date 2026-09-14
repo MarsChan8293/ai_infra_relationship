@@ -2,6 +2,8 @@
 type: person
 name: Ziwei Yuan
 current_affiliations: ["Approaching.AI"]
+schools:
+  - "电子科技大学"
 communities: [KTransformers]
 education: [University of Electronic Science and Technology of China]
 roles: [Maintainer, Paper Author]
@@ -18,6 +20,10 @@ roles: [Maintainer, Paper Author]
 
 ## 技术方向
 heterogeneous inference、CPU kernel、MoE serving。
+
+
+## 学校关联
+- [[university/电子科技大学/电子科技大学|电子科技大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/kvcache-ai/ktransformers/blob/main/MAINTAINERS.md

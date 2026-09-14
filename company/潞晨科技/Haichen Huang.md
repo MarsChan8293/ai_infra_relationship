@@ -3,6 +3,8 @@ type: person
 name: Haichen Huang
 aliases: [Haichen Huang]
 current_affiliations: ["潞晨科技"]
+schools:
+  - "北京大学"
 communities: [Colossal-AI]
 education: [北京大学]
 roles: [Software Engineer, Core Contributor]

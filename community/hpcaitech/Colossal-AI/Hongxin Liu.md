@@ -2,6 +2,8 @@
 type: person
 name: Hongxin Liu
 aliases: [Hongxin Liu]
+schools:
+  - "华中科技大学"
 communities: [Colossal-AI]
 education: [Huazhong University of Science and Technology]
 roles: [Core Maintainer]
@@ -21,6 +23,10 @@ areas: [distributed-training, zero, fp8, checkpointing, ai-infrastructure]
 - [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]：**前 HPC-AI / Colossal-AI 系统合作者**。共同署名 Colossal-AI、Elixir 等工作；方佳瑞 2023 后离开 HPC-AI。
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：**Colossal-AI 早期核心工程协作者**。两人在 Colossal-AI 文档、系统设计与 startup 阶段存在公开协作；Shenggui 后转向 SGLang / SpecForge。
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文合作者 + HPC-AI 创业网络**。共同署名原始 Colossal-AI 与 Elixir 等系统工作。
+
+
+## 学校关联
+- [[university/华中科技大学/华中科技大学|华中科技大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/ver217

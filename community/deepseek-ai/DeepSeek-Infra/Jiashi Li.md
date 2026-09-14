@@ -1,6 +1,8 @@
 ---
 type: person
 name: Jiashi Li
+schools:
+  - "北京大学"
 communities: [DeepEP, DeepGEMM, FlashMLA, DeepSeek-Infra]
 education: [北京大学]
 areas: [expert-parallel, gpu-kernels, mla]

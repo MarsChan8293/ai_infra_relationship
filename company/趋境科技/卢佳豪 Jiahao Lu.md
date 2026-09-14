@@ -4,6 +4,8 @@ name: 卢佳豪
 english_name: Jiahao Lu
 aliases: [卢佳豪, Jiahao Lu]
 current_affiliations: ["趋境科技"]
+schools:
+  - "厦门大学"
 communities: [Mooncake]
 education: [Xiamen University]
 roles: [Research Intern, Engineer]
@@ -21,6 +23,10 @@ areas: [memory-systems, kv-cache, llm-serving]
 ## 人物关系
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI + Mooncake 工程网络**。2026 vLLM × Mooncake Store 官方致谢将卢佳豪、Ke Yang 与 Zuoyuan Zhang、Zihan Tang 一并列为 Approaching.AI 技术反馈贡献者；Ke Yang 同时是 Mooncake Store Codeowner。
 - [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：**Mooncake / Approaching.AI 系统网络**。卢佳豪参与 Mooncake 开发；任峰是 Mooncake Transfer Engine 核心维护者且个人主页标注 2026–至今在 Approaching AI。公开资料未确认两人的具体首次协作月份。
+
+
+## 学校关联
+- [[university/厦门大学/厦门大学|厦门大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://lujhcoconut.github.io/
