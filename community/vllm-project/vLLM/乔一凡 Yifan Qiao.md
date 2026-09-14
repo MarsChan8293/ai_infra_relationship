@@ -3,10 +3,19 @@ type: person
 name: 乔一凡
 english_name: Yifan Qiao
 aliases: [Yifan Qiao, 乔一凡]
-company: Inferact
+current_affiliations: [Inferact]
 communities: [vLLM]
 areas: [kv-cache, disaggregated-serving, agentic-serving]
 roles: [Founding Member of Technical Staff]
+confidence: verified
+last_verified: 2026-09
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["career-connection","coworker","technical-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["career-connection","coworker"],"company":"Inferact","confidence":"high","evidence":["https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["research-collaboration"],"confidence":"high","evidence":["https://yifanqiao.com/"]}'
+  - '{"target":"company/Inferact/Joseph Gonzalez","type":["research-collaboration"],"confidence":"high","evidence":["https://yifanqiao.com/"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.07203"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://arxiv.org/abs/2505.07203"]}'
 ---
 # 乔一凡（Yifan Qiao）
 
