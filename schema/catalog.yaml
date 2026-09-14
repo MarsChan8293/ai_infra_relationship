@@ -1,0 +1,76 @@
+schema: ai-infra-relationship/schema-catalog-v1
+status: migration
+node_schemas:
+  person:
+    file: schema/person.yaml
+    source: explicit-frontmatter
+    canonical: true
+  person-link:
+    file: schema/person-link.yaml
+    source: explicit-frontmatter
+    canonical: false
+    canonical_target_type: person
+  company:
+    file: schema/company.yaml
+    source: explicit-frontmatter
+    canonical: true
+  project:
+    file: schema/project.yaml
+    source: explicit-frontmatter
+    canonical: true
+  school:
+    file: schema/school.yaml
+    source: explicit-frontmatter
+    canonical: true
+    content_root: university
+  model-team:
+    file: schema/model-team.yaml
+    source: explicit-frontmatter
+    canonical: true
+  model-project:
+    file: schema/model-project.yaml
+    source: explicit-frontmatter
+    canonical: true
+  index:
+    file: schema/index.yaml
+    source: derived
+    canonical: false
+  note:
+    file: schema/note.yaml
+    source: derived
+    canonical: false
+non_node_schemas:
+  relation:
+    file: schema/relation.yaml
+    used_by: [person]
+compatibility:
+  university:
+    canonical_type: school
+    note: Historical audit code may infer `university` for a school page without explicit frontmatter. New institution pages must use `type: school`.
+  affiliation:
+    canonical_field: current_affiliations
+    applies_to: [person, person-link]
+  affiliations:
+    canonical_field: current_affiliations
+    applies_to: [person, person-link]
+  company_on_project:
+    canonical_field: companies
+    applies_to: [project]
+coverage_policy:
+  explicit_entity_types:
+    - person
+    - person-link
+    - company
+    - project
+    - school
+    - model-team
+    - model-project
+  derived_types:
+    - index
+    - note
+  rule: Every graph node type must be listed here and have a schema file before new instances of that type are added.
+notes:
+  - This catalog is the authoritative registry of node types for the repository.
+  - `relation` is an edge schema, not a node type.
+  - Adding a new `type:` value requires adding its schema and registering it here in the same change.
+  - Existing pages remain in migration mode; schema presence does not mean every legacy page already uses every recommended field.
