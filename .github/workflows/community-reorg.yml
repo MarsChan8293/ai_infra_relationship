@@ -1,0 +1,243 @@
+name: Reorganize Community by Upstream Organization
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/community-reorg.yml]
+permissions:
+  contents: write
+jobs:
+  reorganize:
+    if: github.event.head_commit.message == 'Prepare community organization reorg'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reorganize community tree and audit wikilinks
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from __future__ import annotations
+          import re, shutil
+          from collections import Counter, defaultdict
+          from pathlib import Path, PurePosixPath
+
+          ROOT = Path('.').resolve()
+          MAPPING = {
+              'AIBrix': 'vllm-project',
+              'Colossal-AI': 'hpcaitech',
+              'DeepSeek-Infra': 'deepseek-ai',
+              'Dynamo': 'ai-dynamo',
+              'FlashInfer': 'flashinfer-ai',
+              'HAMi': 'Project-HAMi',
+              'KTransformers': 'kvcache-ai',
+              'LMCache': 'LMCache',
+              'LightLLM': 'ModelTC',
+              'MindIE-LLM': 'Ascend',
+              'MindIE-Motor': 'Ascend',
+              'MindIE-SD': 'Ascend',
+              'Mooncake': 'kvcache-ai',
+              'NIXL': 'ai-dynamo',
+              'OneFlow': 'Oneflow-Inc',
+              'Ray-Serve': 'ray-project',
+              'SGLang': 'sgl-project',
+              'TensorRT-LLM': 'NVIDIA',
+              'TileLang': 'tile-ai',
+              'TokenSpeed': 'lightseekorg',
+              'Triton-Inference-Server': 'triton-inference-server',
+              'VCCL': 'sii-research',
+              'llm-d': 'llm-d',
+              'msModelSlim': 'Ascend',
+              'ops-transformer': 'Ascend',
+              'vLLM-Ascend': 'vllm-project',
+              'vLLM': 'vllm-project',
+          }
+          LINK_RE = re.compile(r'\[\[([^\[\]]+?)\]\]')
+          INLINE_CODE_RE = re.compile(r'`+[^`]*?`+')
+
+          def posix_noext(p: Path) -> str:
+              s = p.resolve().relative_to(ROOT).as_posix()
+              return s[:-3] if s.lower().endswith('.md') else s
+
+          def norm(s: str) -> str:
+              parts=[]
+              for p in PurePosixPath(s.replace('\\','/')).parts:
+                  if p in ('', '.'):
+                      continue
+                  if p == '..':
+                      if parts: parts.pop()
+                      continue
+                  parts.append(p)
+              return '/'.join(parts)
+
+          def split_target(inner: str):
+              if '|' in inner:
+                  left, alias = inner.split('|',1)
+              else:
+                  left, alias = inner, None
+              cut=len(left)
+              for marker in ('#','^'):
+                  i=left.find(marker)
+                  if i!=-1: cut=min(cut,i)
+              base=left[:cut].strip()
+              suffix=left[cut:]
+              if base.lower().endswith('.md'): base=base[:-3]
+              return base.replace('\\','/').strip('/'), suffix, alias
+
+          def iter_lines(text: str):
+              in_fence=False; ch=None; n=0
+              for lineno,line in enumerate(text.splitlines(),1):
+                  m=re.match(r'\s*(`{3,}|~{3,})',line)
+                  if m:
+                      tok=m.group(1)
+                      if not in_fence:
+                          in_fence=True; ch=tok[0]; n=len(tok); continue
+                      if tok[0]==ch and len(tok)>=n:
+                          in_fence=False; ch=None; n=0; continue
+                  if not in_fence:
+                      yield lineno, INLINE_CODE_RE.sub('',line)
+
+          class Index:
+              def __init__(self):
+                  self.files=sorted(p for p in ROOT.rglob('*.md') if '.git' not in p.parts)
+                  self.rels={posix_noext(p):p for p in self.files}
+                  self.base=defaultdict(list); self.cf=defaultdict(list)
+                  for rel in self.rels:
+                      self.base[PurePosixPath(rel).name].append(rel)
+                      self.cf[rel.casefold()].append(rel)
+              def resolve(self, source_rel: str, raw: str):
+                  target,_,_=split_target(raw)
+                  if not target: return ('empty',None)
+                  if target in self.rels: return ('exact_root',target)
+                  sr=norm(str(PurePosixPath(source_rel).parent / target))
+                  if sr in self.rels: return ('exact_relative',sr)
+                  if '/' not in target:
+                      c=self.base.get(PurePosixPath(target).name,[])
+                      if len(c)==1: return ('unique_basename',c[0])
+                      if len(c)>1: return ('ambiguous',None)
+                  c=[r for r in self.rels if r==target or r.endswith('/'+target)]
+                  if len(c)==1: return ('unique_suffix',c[0])
+                  if len(c)>1: return ('ambiguous',None)
+                  case=[]
+                  case.extend(self.cf.get(target.casefold(),[]))
+                  case.extend(self.cf.get(sr.casefold(),[]))
+                  if case: return ('case_mismatch',case[0])
+                  return ('broken',None)
+
+          def audit():
+              idx=Index(); counts=Counter(); broken=[]
+              for p in idx.files:
+                  src=posix_noext(p)
+                  for lineno,line in iter_lines(p.read_text(encoding='utf-8')):
+                      for m in LINK_RE.finditer(line):
+                          status,res=idx.resolve(src,m.group(1))
+                          counts[status]+=1
+                          if status in ('broken','ambiguous','case_mismatch','empty'):
+                              broken.append((src,lineno,status,m.group(1)))
+              return counts,broken
+
+          before, before_issues = audit()
+          print('=== BEFORE ===', dict(before))
+
+          # Build exact old -> new Markdown path map before moving anything.
+          old_to_new={}
+          for project,org in MAPPING.items():
+              src=ROOT/'community'/project
+              if not src.is_dir():
+                  raise RuntimeError(f'missing community project directory: {project}')
+              for p in src.rglob('*.md'):
+                  old=posix_noext(p)
+                  rel=p.relative_to(src).as_posix()
+                  new=f'community/{org}/{project}/'+rel[:-3]
+                  old_to_new[old]=new
+
+          # Rewrite explicit/relative wikilinks that resolve into a directory being moved.
+          idx=Index(); rewritten_links=0
+          for p in idx.files:
+              src_rel=posix_noext(p)
+              text=p.read_text(encoding='utf-8')
+              def repl(m):
+                  global rewritten_links
+                  inner=m.group(1)
+                  base,suffix,alias=split_target(inner)
+                  status,res=idx.resolve(src_rel,inner)
+                  if not res or res not in old_to_new:
+                      return m.group(0)
+                  # Short basename links survive moves naturally; only path-like links need rewriting.
+                  if '/' not in base and not base.startswith('.'):
+                      return m.group(0)
+                  new_left=old_to_new[res]+suffix
+                  rewritten_links += 1
+                  return '[['+new_left+('|' + alias if alias is not None else '')+']]'
+              new=LINK_RE.sub(repl,text)
+              if new!=text: p.write_text(new,encoding='utf-8')
+
+          # Move every former project-level directory under its upstream namespace/governance organization.
+          moved_files=0
+          for project,org in MAPPING.items():
+              src=ROOT/'community'/project
+              dst_parent=ROOT/'community'/org
+              dst=dst_parent/project
+              dst_parent.mkdir(parents=True,exist_ok=True)
+              if dst.exists(): raise RuntimeError(f'target already exists: {dst}')
+              moved_files += sum(1 for x in src.rglob('*') if x.is_file())
+              shutil.move(str(src),str(dst))
+
+          # Rewrite literal repository-relative paths in prose/code examples as well.
+          for p in ROOT.rglob('*.md'):
+              if '.git' in p.parts: continue
+              text=p.read_text(encoding='utf-8'); new=text
+              for project,org in MAPPING.items():
+                  new=new.replace(f'community/{project}/',f'community/{org}/{project}/')
+              if new!=text: p.write_text(new,encoding='utf-8')
+
+          # Document the new invariant at the two main indexes.
+          cpath=ROOT/'community/community.md'
+          ctext=cpath.read_text(encoding='utf-8')
+          section='''## 目录组织规则\n`community/` 按 canonical upstream namespace / 治理组织分层，而不是把每个项目直接平铺在一级目录。结构统一为：\n\n`community/<organization>/<project>/...`\n\n项目即使由某家公司发起，也优先按实际上游 namespace / 社区治理组织归档。例如 NVIDIA 发起的 Dynamo / NIXL 位于 `ai-dynamo`，而不是因公司关系统一塞进 `NVIDIA`。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。\n\n### 组织 → 项目\n- `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]\n- `ai-dynamo`：[[Dynamo]] · [[NIXL]]\n- `kvcache-ai`：[[KTransformers]] · [[Mooncake]]\n- `Ascend`：[[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]\n- `deepseek-ai`：[[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA\n- `hpcaitech`：[[Colossal-AI]]\n- `flashinfer-ai`：[[FlashInfer]]\n- `Project-HAMi`：[[HAMi]]\n- `LMCache`：[[LMCache]]\n- `ModelTC`：[[LightLLM]]\n- `Oneflow-Inc`：[[OneFlow]]\n- `ray-project`：[[Ray-Serve]]\n- `sgl-project`：[[SGLang]]\n- `NVIDIA`：[[TensorRT-LLM]]\n- `tile-ai`：[[TileLang]]\n- `lightseekorg`：[[TokenSpeed]]\n- `triton-inference-server`：[[Triton-Inference-Server]]\n- `sii-research`：[[VCCL]]\n- `llm-d`：[[llm-d]]\n\n'''
+          if '## 目录组织规则' not in ctext:
+              anchor='AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cache、数据传输、集合通信、分布式 serving 与异构计算等开源社区与技术项目的一级分类入口。\n\n'
+              ctext=ctext.replace(anchor,anchor+section)
+          ctext=ctext.replace('旧 `Communities/` 重复索引已移除；vLLM、SGLang、OneFlow、Colossal-AI、VCCL、TileLang 等均以各自主目录中的实体同名文件作为 canonical 社区节点。','旧 `Communities/` 重复索引已移除；项目实体仍以项目同名文件作为 canonical 节点，但物理目录统一归入上游 organization / namespace。')
+          cpath.write_text(ctext,encoding='utf-8')
+
+          root=ROOT/'AI Infra Relationship.md'
+          rtext=root.read_text(encoding='utf-8')
+          rule='- `community/` 目录按 canonical upstream namespace / 治理组织分层，统一使用 `community/<organization>/<project>/...`；例如 `vLLM`、`vLLM-Ascend`、`AIBrix` 均归入 `community/vllm-project/`。项目短双链仍以项目 basename 为 canonical 引用。\n'
+          marker='- 跨社区人物尽量只保留一个 canonical 人物页，其他社区通过双链引用。\n'
+          if rule not in rtext and marker in rtext:
+              rtext=rtext.replace(marker,marker+rule)
+          root.write_text(rtext,encoding='utf-8')
+
+          # The workflow is intentionally one-shot; do not leave maintenance scaffolding in main.
+          wf=ROOT/'.github/workflows/community-reorg.yml'
+          if wf.exists(): wf.unlink()
+
+          after, after_issues = audit()
+          print('=== AFTER ===', dict(after))
+          print('rewritten_explicit_links=',rewritten_links)
+          print('moved_files=',moved_files)
+          print('before_broken=',before['broken'],'after_broken=',after['broken'])
+          print('after_ambiguous=',after['ambiguous'],'after_case_mismatch=',after['case_mismatch'])
+          if after['broken'] > before['broken']:
+              for x in after_issues[:80]: print('ISSUE',x)
+              raise RuntimeError(f'broken links increased: {before["broken"]} -> {after["broken"]}')
+          if after['ambiguous'] or after['case_mismatch'] or after['empty']:
+              for x in after_issues[:80]: print('ISSUE',x)
+              raise RuntimeError('unsafe wikilink audit result')
+          for project,org in MAPPING.items():
+              if (ROOT/'community'/project).exists(): raise RuntimeError(f'old project root remains: {project}')
+              if not (ROOT/'community'/org/project).is_dir(): raise RuntimeError(f'missing moved project: {org}/{project}')
+          topdirs={p.name for p in (ROOT/'community').iterdir() if p.is_dir()}
+          expected=set(MAPPING.values())
+          if topdirs != expected:
+              raise RuntimeError(f'unexpected community top-level dirs: {sorted(topdirs ^ expected)}')
+          print('top_level_organizations=', ', '.join(sorted(topdirs)))
+          PY
+      - name: Commit reorganized tree
+        run: |
+          git config user.name "Mars"
+          git config user.email "cmm8293@163.com"
+          git add -A
+          git commit -m "Reorganize community by upstream organization"
+          git push origin HEAD:main
