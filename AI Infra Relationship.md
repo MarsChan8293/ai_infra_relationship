@@ -15,7 +15,7 @@
 - 社区、公司、模型团队与技术项目均使用实体同名文件，例如 `公司/OpenAI/OpenAI.md`、`社区与项目/vLLM/vLLM.md`。
 - 对有可靠公开中文汉字姓名可确认的人物，文件名统一为 `中文名 English Name.md`，例如 `叶子豪 Zihao Ye.md`。
 - 人物页 frontmatter 同时保留 `name`、`english_name` 与 `aliases`，便于 Obsidian / Dataview 中英文检索。
-- 仅凭拼音、邮箱或 GitHub handle 不猜中文汉字姓名。
+- 仅凭拼音、邮箱或 GitHub / GitCode handle 不猜中文汉字姓名。
 - 跨社区人物尽量只保留一个 canonical 人物页，其他社区通过双链引用。
 - 新建显式路径链接时使用完整分类路径；能以唯一 basename 稳定解析时，优先使用不依赖目录的 `[[人物名]]` / `[[实体名]]`，降低未来迁移断链风险。
 
@@ -53,7 +53,7 @@
 ## 开源项目节点硬规则
 每个开源项目节点必须有可独立阅读的项目介绍，不能只写“连接”。至少包含：
 - **项目简介**：解决什么问题、位于 AI Infra 哪一层、核心技术特征。
-- **GitHub 仓库**：必须给出官方 GitHub repository 地址；如果项目没有独立仓库而是 monorepo 子目录，要写清楚 monorepo 地址和子路径。
+- **源码仓库**：必须给出官方 canonical repository 地址；优先 GitHub。若项目官方主仓位于 GitCode（例如部分 Ascend / CANN 项目），允许 GitCode 作为 canonical source，并明确说明未确认官方 GitHub 镜像。
 - **主要维护者 / 组织**：优先使用官方 governance、CODEOWNERS、MAINTAINERS 或公开 author credits。
 - **生态关系**：说明与 vLLM / SGLang / Kubernetes / CUDA / ROCm / Ascend / KV cache 等上下游的具体连接，不把“兼容”自动推断成人物直接合作。
 
@@ -61,8 +61,8 @@
 
 `## 项目简介`  
 `...`  
-`## GitHub`  
-`https://github.com/owner/repo`  
+`## GitHub / GitCode`  
+`https://...`  
 `## 主要维护者 / 组织`  
 `...`
 
@@ -70,4 +70,4 @@
 [[OpenAI]] · [[DeepSeek]] · [[Zhipu-AI]] · [[Qwen]] · [[Moonshot-AI]]
 
 ## AI Infra
-[[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[LMCache]] · [[Mooncake]] · [[Dynamo]] · [[NIXL]] · [[llm-d]] · [[TensorRT-LLM]] · [[KTransformers]] · [[AIBrix]] · [[HAMi]] · [[vLLM-Ascend]]
+[[vLLM]] · [[SGLang]] · [[FlashInfer]] · [[LMCache]] · [[Mooncake]] · [[Dynamo]] · [[NIXL]] · [[llm-d]] · [[TensorRT-LLM]] · [[KTransformers]] · [[AIBrix]] · [[HAMi]] · [[vLLM-Ascend]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
