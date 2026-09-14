@@ -3,6 +3,7 @@ type: person
 name: Woosuk Kwon
 current_affiliations: ["Inferact"]
 schools:
+  - "Seoul National University"
   - "UC Berkeley"
 projects: [vLLM]
 education: [Seoul National University, UC Berkeley]
@@ -38,6 +39,10 @@ vLLM 创始人、PagedAttention 与早期 engine core 的主要设计者之一�
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**vLLM 共同维护者 + Inferact 联合创始人**。游凯超公开说明自 2024 起参与 vLLM；2024 在 UC Berkeley Sky Lab 访问期间与 vLLM Berkeley 核心团队处于同一研究/开源环境；2025–至今两人在 [[Inferact]] 共事，分别任 Chief Scientist 与 CTO。
 - [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：**vLLM 维护协作者 + Inferact 创始团队同事**。两人先在 vLLM 社区合作，2025–至今同属 [[Inferact]] founding team；Roger 主要负责 multimodality / benchmark，Woosuk 负责 engine core / attention。
 - [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**vLLM 共同维护者 + Inferact 同事**。截至 2026-09 两人同属 [[Inferact]] 核心工程团队；Nick 负责 scheduler、AsyncLLM、distributed、API/KV Connector，Woosuk负责 engine core。Nick 加入 Inferact 的精确月份公开来源未确认。
+
+
+## 学校关联
+- [[university/Seoul National University/Seoul National University|Seoul National University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://woosuk.me/

@@ -5,6 +5,7 @@ english_name: Zihao Ye
 aliases: [Zihao Ye, 叶子豪, yzh119]
 current_affiliations: ["NVIDIA"]
 schools:
+  - "University of Washington"
   - "上海交通大学"
 communities: [FlashInfer]
 roles: [Creator, Full Codebase Approver]
@@ -43,6 +44,7 @@ relations:
 ## 学校关联
 - [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
+- [[university/University of Washington/University of Washington|University of Washington]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 ## Sources
 - FlashInfer CODEOWNERS / maintainer metadata
 - https://flashinfer.ai/

@@ -2,6 +2,8 @@
 type: person
 name: Adit Ranadive
 current_affiliations: ["NVIDIA"]
+schools:
+  - "Georgia Institute of Technology"
 communities: [NIXL, Dynamo]
 roles: [Senior Software Architect]
 education: [Georgia Institute of Technology]
@@ -20,6 +22,10 @@ education: [Georgia Institute of Technology]
 
 ## 生态连接
 [[vLLM]] · [[SGLang]] · [[LMCache]]
+
+
+## 学校关联
+- [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - Project source / contributor context: https://github.com/ai-dynamo/nixl

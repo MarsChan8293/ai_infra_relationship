@@ -3,6 +3,7 @@ type: person
 name: Jingfan Sun
 current_affiliations: ["NVIDIA"]
 schools:
+  - "Georgia Institute of Technology"
   - "浙江大学"
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
@@ -34,6 +35,10 @@ relations:
 - [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：**NVIDIA 同事 + FlashInfer Full Codebase Approver 同僚**。截至 2026-09 同时参与 FlashInfer release / kernel / low-precision 与 serving-interface 维护；两人精确首次共同项目时间公开未确认。
 - [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 同具全代码库审批权限，属于项目治理关系；aleozlx 雇主公开不足，因此不标记为同事。
 - [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 共同覆盖 Attention、GEMM、MoE、Communication 等核心模块的 review / approval；Brian 的公司信息不足，因此只记录项目治理关系。
+
+
+## 学校关联
+- [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - FlashInfer CODEOWNERS / maintainer metadata
