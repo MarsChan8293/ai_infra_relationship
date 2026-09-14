@@ -68,13 +68,13 @@ jobs:
       - name: Commit repaired Markdown and synchronized schemas
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json)" ]]; then
-            echo "Markdown and node schemas already synchronized."
+          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json)" ]]; then
+            echo "Markdown, school coverage, and node schemas already synchronized."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json
-          git commit -m "chore(graph): migrate education links and sync schemas"
+          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json
+          git commit -m "chore(graph): migrate education links and sync school coverage"
           git push origin HEAD:main
