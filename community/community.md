@@ -7,7 +7,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 
 `community/<organization>/<project>/...`
 
-项目即使由某家公司发起，也优先按实际上游 namespace / 社区治理组织归档。例如 NVIDIA 发起的 Dynamo / NIXL 位于 `ai-dynamo`，而不是因公司关系统一塞进 `NVIDIA`。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。
+`organization` 优先采用项目实际使用的上游 GitHub / GitCode namespace 或明确治理组织，而不是按技术类别或主要贡献公司机械归类。例如 NVIDIA 发起的 Dynamo / NIXL 位于 `ai-dynamo`，而不是因公司关系统一塞进 `NVIDIA`。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。
 
 ### 组织 → 项目
 - `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]
@@ -31,7 +31,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `llm-d`：[[llm-d]]
 
 ## 公司关系字段
-所有项目主节点统一使用 `companies` 表示**主要公司贡献/维护关系**，并用 `company_relation` 描述关系性质。`companies` 不是赞助商、用户或兼容厂商列表；只有原始发起、founding contributor、core maintainer network、长期工程贡献等强证据才进入。学术/社区主导且没有明确主要公司的项目使用 `companies: []`。`companies` 中继续使用稳定英文 ID；页面展示名称对中国公司统一为“中文名（English Name）”。
+所有项目主节点统一使用 `companies` 表示**主要公司贡献/维护关系**，并用 `company_relation` 描述关系性质。`companies` 不是赞助商、用户或兼容厂商列表；只有原始发起、founding contributor、core maintainer network、长期工程贡献等强证据才进入。学术/社区主导且没有明确主要公司的项目使用 `companies: []`。`companies` 使用公司 canonical 实体名；中国公司统一使用中文 canonical 名称。
 
 常见关系：`company-originated` · `company-led` · `founding-contributors` · `cross-company-core-contributors` · `core-maintainer-network` · `industry-academia-co-development` · `community-led`。
 
@@ -47,10 +47,10 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
 | [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
-| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里云]] | 跨公司共同创建/协作 |
+| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 跨公司共同创建/协作 |
 | [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能|密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
 | [[KTransformers]] | [[company/趋境科技/趋境科技|趋境科技]] | 产业/学术核心网络 |
-| [[VCCL]] | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 产业/研究共建 |
+| [[VCCL]] | [[company/基流科技/基流科技|基流科技]] | 产业/研究共建 |
 | [[OneFlow]] | [[company/一流科技/一流科技|一流科技]] | 原始开发 / 主导 |
 | [[vLLM-Ascend]] / [[MindIE-LLM]] / [[MindIE-Motor]] / [[MindIE-SD]] / [[msModelSlim]] / [[ops-transformer]] | [[company/华为/华为|华为]] | Ascend/CANN/MindIE 核心贡献 |
 | [[llm-d]] | [[company/Red Hat/Red Hat|Red Hat]] · [[company/Google/Google|Google]] · [[company/IBM/IBM|IBM]] · [[company/CoreWeave/CoreWeave|CoreWeave]] · [[company/NVIDIA/NVIDIA|NVIDIA]] | founding contributors |
