@@ -1,0 +1,45 @@
+schema: ai-infra-relationship/infra-project-v1
+status: migration
+required:
+  - type
+  - name
+  - company
+recommended:
+  - areas
+  - open_source
+  - repository
+  - layer
+  - people
+  - last_verified
+fields:
+  type:
+    const: infra-project
+  name:
+    type: string
+    description: Canonical infrastructure project name.
+  company:
+    type: string
+    description: Canonical company responsible for the infrastructure project.
+  areas:
+    type: array[string]
+    description: Technical focus such as communication, expert-parallelism, moe, serving, compiler, kernels, or kv-cache.
+  layer:
+    type: string
+    description: Primary AI Infra layer represented by this project.
+  open_source:
+    type: boolean
+  repository:
+    type: string
+    description: Canonical official repository URL when publicly available.
+  people:
+    type: array[string]
+    description: Optional high-value contributors with direct public evidence.
+  related_projects:
+    type: array[string]
+    description: Closely related canonical infrastructure projects.
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - Use infra-project for company-scoped infrastructure projects that are not represented as a broader open-source community node.
+  - Compatibility with another project does not imply a person-to-person relationship.
