@@ -9,7 +9,7 @@ education: [浙江大学, Georgia Institute of Technology]
 # Jingfan Sun
 
 ## 教育经历
-- Zhejiang University：本科
+- [[浙江大学]]：本科
 - Georgia Institute of Technology：博士，研究高性能数值模拟与大规模 cyber-physical systems
 
 ## 工作经历
@@ -29,3 +29,4 @@ education: [浙江大学, Georgia Institute of Technology]
 
 ## Sources
 - FlashInfer CODEOWNERS / maintainer metadata
+- https://www.linkedin.com/in/jingfan-sun-1bb8b4b0/
