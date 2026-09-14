@@ -1,0 +1,39 @@
+schema: ai-infra-relationship/company-v2
+status: migration
+required:
+  - type
+  - name
+recommended:
+  - aliases
+  - areas
+  - projects
+  - people
+  - last_verified
+fields:
+  type:
+    const: company
+  name:
+    type: string
+    description: Canonical company or organization name. Chinese companies use the verified Chinese canonical name.
+  aliases:
+    type: array[string]
+  areas:
+    type: array[string]
+    description: Relevant AI Infra or foundation-model focus areas.
+  projects:
+    type: array[string]
+    description: Projects with a direct, verifiable company relationship.
+  people:
+    type: array[string]
+    description: Optional high-value people references; do not mechanically enumerate every employee.
+  founded:
+    type: string
+  headquarters:
+    type: string
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+notes:
+  - A company node must remain independently readable and explain why the company belongs in the AI Infra graph.
+  - Business units and model teams should normally attach to the canonical parent company rather than duplicate company entities.
+  - People and project relationships should be evidence-backed; compatibility or customer relationships are not sufficient by themselves.
