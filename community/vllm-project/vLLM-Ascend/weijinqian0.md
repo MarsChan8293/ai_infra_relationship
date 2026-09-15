@@ -1,18 +1,30 @@
+---
+type: person
+name: weijinqian0
+aliases: ["@weijinqian0"]
+communities: [vLLM-Ascend]
+roles: [Contributor, RFC Author]
+areas: [llm-inference, ascend, attention, operators, graph-execution, moe]
+confidence: project-credit
+last_verified: "2026-09"
+---
 # weijinqian0
 
 社区：[[vLLM-Ascend]]
 
 ## 公开履历
-- 公开资料暂未可靠确认完整实名、学历与工作经历
+- 公开资料暂未可靠确认完整实名、学历与工作经历，因此保留 GitHub handle，不猜当前雇主。
 
 ## 社区角色
-- 活跃于 Attention backend 与 Ascend 算子 / RFC 工作
-- 参与 FIA operator、图执行和模型性能相关开发
+- 活跃于 Attention backend、Ascend 算子、图执行和模型性能相关工作。
+- 2026-09 发起 DeepSeek V4.1 on Ascend roadmap RFC，覆盖 MoE quantization、通信与 attention projection 等推理路径。
 
 ## 人物关系
-- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区维护协调 ↔ Attention/算子工程协作**。2026 年 Wang Xiyuan 负责 weekly sync、roadmap 和 feature 推进，weijinqian0 负责 Attention backend、FIA operator 与图执行等工程议题；两人在 RFC / feature landing 链路上协作，首次直接合作月份公开未确认。
-- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**工程开发 ↔ release integration 协作者**。2026 年 yiz-liu 多次担任 Release Manager，weijinqian0 的 Attention/算子相关变更需要进入 release cycle 验证与集成；该边表示公开项目流程协作，不推断公司关系。
-- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**模型/工程 roadmap ↔ 算子实现协作者**。2026 Q2/Q3 roadmap 中模型适配、性能与工程能力是重点方向，weijinqian0 的 Attention/FIA/graph 工作与该路线直接对应；精确首次直接协作月份公开未确认。
+- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区协调 ↔ Attention/算子工程候选关系**。属于同一 feature landing 网络，但缺 pair-specific 证据，不自动生成 typed edge。
+- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**工程开发 ↔ release integration 候选关系**。不因 feature 最终进入 release 就推断直接合作强度。
+- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**roadmap ↔ 模型/算子实现候选关系**。保留作下一轮研究。
 
 ## Sources
-- vLLM-Ascend RFC / issue / roadmap records
+- https://github.com/vllm-project/vllm-ascend/issues/16375
+- https://github.com/vllm-project/vllm-ascend/issues/15067
+- https://github.com/vllm-project/vllm-ascend
