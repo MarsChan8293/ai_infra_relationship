@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 404,
-  "complete_count": 404,
+  "node_count": 407,
+  "complete_count": 407,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 3,
@@ -17,7 +17,7 @@
     "project": 43,
     "project-collection": 1,
     "relationship-map": 1,
-    "research-institution": 2,
+    "research-institution": 5,
     "school": 46
   },
   "nodes": [
@@ -3118,6 +3118,15 @@
       "missing_required": []
     },
     {
+      "id": "university/IBM Research/IBM Research",
+      "type": "research-institution",
+      "source_markdown": "university/IBM Research/IBM Research.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/IBM Research/IBM Research.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/Lobachevsky State University of Nizhny Novgorod/Lobachevsky State University of Nizhny Novgorod",
       "type": "school",
       "source_markdown": "university/Lobachevsky State University of Nizhny Novgorod/Lobachevsky State University of Nizhny Novgorod.md",
@@ -3442,6 +3451,15 @@
       "missing_required": []
     },
     {
+      "id": "university/北京智源人工智能研究院/北京智源人工智能研究院",
+      "type": "research-institution",
+      "source_markdown": "university/北京智源人工智能研究院/北京智源人工智能研究院.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/北京智源人工智能研究院/北京智源人工智能研究院.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/北京航空航天大学/北京航空航天大学",
       "type": "school",
       "source_markdown": "university/北京航空航天大学/北京航空航天大学.md",
@@ -3573,6 +3591,15 @@
       "source_markdown": "university/浙江大学/浙江大学.md",
       "schema_definition": "schema/school.yaml",
       "schema_instance": "schema/nodes/university/浙江大学/浙江大学.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/清华大学/MADSys",
+      "type": "research-institution",
+      "source_markdown": "university/清华大学/MADSys.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/清华大学/MADSys.yaml",
       "status": "complete",
       "missing_required": []
     },

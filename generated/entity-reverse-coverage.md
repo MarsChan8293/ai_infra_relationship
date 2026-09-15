@@ -8,8 +8,8 @@
 - Project/community nodes: 48
 - Project/community nodes with ≥1 linked person: 30
 - Project/community-person associations: 193
-- Non-company affiliations recognized and routed elsewhere: 25
-- Unresolved source values (backlog, non-fatal): 13
+- Non-company affiliations recognized and routed elsewhere: 33
+- Unresolved source values (backlog, non-fatal): 5
 - Audit errors: 0
 
 ## Companies
@@ -86,16 +86,8 @@
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
-- `community/flagos-ai/FlagOS/敖玉龙 Yulong Ao.md` · `affiliation` → `北京智源人工智能研究院`
-- `community/kvcache-ai/KTransformers/Boxin Zhang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Hongtao Chen.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Jianwei Dong.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Jingqi Tang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Qingliang Ou.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/llm-d/llm-d/Ashok Chandrasekar.md` · `communities` → `Kubernetes`
-- `community/llm-d/llm-d/Maroon Ayoub.md` · `affiliation` → `IBM Research`
 - `community/sgl-project/SGLang/Yineng Zhang.md` · `affiliation` → `LightSeek Foundation`
 - `community/vllm-project/vLLM/Patrick von Platen.md` · `communities` → `Hugging Face`
 - `university/北京大学/Lei Wang.md` · `affiliation` → `Peking University / Tile-AI`
 - `university/北京大学/吴童 Tong Wu.md` · `affiliation` → `Peking University / Tile-AI`
-- `university/北京大学/马凌霄 Lingxiao Ma.md` · `affiliation` → `Microsoft Research Asia`
