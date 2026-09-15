@@ -1,3 +1,19 @@
+---
+type: person
+name: Simon Mo
+current_affiliations: ["Inferact"]
+schools: ["UC Berkeley"]
+communities: [vLLM]
+areas: [serving-systems, api, benchmarking, observability, community-governance]
+roles: [Cofounder, CEO, Core Maintainer]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/events/vllm-conference/2026"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+  - '{"target":"community/vllm-project/vLLM/Roger Wang","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality","https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-"]}'
+---
 # Simon Mo
 
 社区：[[vLLM]]
@@ -25,3 +41,5 @@ vLLM Lead Maintainer；公开资料显示自 2023 起 co-lead vLLM community，�
 ## Sources
 - https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/
 - https://inferact.ai/
+- https://docs.vllm.ai/en/latest/governance/process/
+- https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
