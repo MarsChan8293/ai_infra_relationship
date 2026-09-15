@@ -13,10 +13,12 @@ on:
       - "scripts/audit-graph.py"
       - "scripts/audit-typed-relations.py"
       - "scripts/audit-school-links.py"
+      - "scripts/audit-school-reverse-links.py"
       - "scripts/generate-node-schemas.py"
       - "scripts/migrate-legacy-education.py"
       - "scripts/repair-markdown-quality.py"
       - "scripts/repair-school-links.py"
+      - "scripts/sync-school-people.py"
       - ".github/workflows/sync-node-schemas.yml"
   workflow_dispatch:
 
@@ -48,11 +50,17 @@ jobs:
       - name: Backfill person-school links
         run: python3 scripts/repair-school-links.py --root .
 
+      - name: Sync reverse school-person links
+        run: python3 scripts/sync-school-people.py --root .
+
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
 
       - name: Validate person-school coverage
         run: python3 scripts/audit-school-links.py --root . --generated generated
+
+      - name: Validate reverse school-person coverage
+        run: python3 scripts/audit-school-reverse-links.py --root . --generated generated
 
       - name: Validate typed relations
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
@@ -68,13 +76,13 @@ jobs:
       - name: Commit repaired Markdown and synchronized schemas
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json)" ]]; then
-            echo "Markdown, school coverage, and node schemas already synchronized."
+          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json)" ]]; then
+            echo "Markdown, school coverage, reverse school-person links, and node schemas already synchronized."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json
-          git commit -m "chore(graph): migrate education links and sync school coverage"
+          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json
+          git commit -m "chore(graph): sync bidirectional school-person links"
           git push origin HEAD:main
