@@ -11,11 +11,11 @@ roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator
 areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inference]
 last_verified: "2026-09"
 relations:
-  - '{"target":"community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
-  - '{"target":"community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
-  - '{"target":"community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
-  - '{"target":"community/flashinfer-ai/FlashInfer/Wuwei Lin","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
-  - '{"target":"community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen","type":["paper-coauthor","coworker"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye","type":["paper-coauthor"],"project":"FlashInfer","confidence":"high","evidence":["https://arxiv.org/abs/2501.01005"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen","type":["paper-coauthor"],"project":"FlashInfer","confidence":"high","evidence":["https://arxiv.org/abs/2501.01005"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai","type":["paper-coauthor"],"project":"FlashInfer","confidence":"high","evidence":["https://arxiv.org/abs/2501.01005"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/Wuwei Lin","type":["paper-coauthor"],"project":"FlashInfer","confidence":"high","evidence":["https://arxiv.org/abs/2501.01005"]}'
+  - '{"target":"community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen","type":["paper-coauthor"],"project":"FlashInfer","confidence":"high","evidence":["https://arxiv.org/abs/2501.01005"]}'
   - '{"target":"university/清华大学/Ruoyu Qin","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
   - '{"target":"community/kvcache-ai/Mooncake/任峰 Feng Ren","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
   - '{"target":"community/kvcache-ai/Mooncake/马腾 Teng Ma","type":["paper-coauthor","technical-collaboration","research-collaboration"],"confidence":"high","evidence":["https://zhyncs.com/","https://www.together.ai/events/icml-2026","https://github.com/flashinfer-ai/flashinfer"]}'
@@ -43,7 +43,7 @@ relations:
 - [[TokenSpeed]]：2026-03 co-created；面向 agentic workloads 的 LLM inference engine，覆盖 compiler-backed parallelism、C++ scheduler、KV resource management 与 pluggable kernels。
 
 ## 人物关系
-- [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]、[[community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen|陈乐群（Lequn Chen）]]、[[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]、[[community/flashinfer-ai/FlashInfer/Wuwei Lin|Wuwei Lin]]、[[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：**FlashInfer 论文合著**；MLSys 2025 FlashInfer 论文共同作者。论文合著只证明该项目合作，不自动推断长期同事关系。
+- [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]、[[community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen|陈乐群（Lequn Chen）]]、[[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]、[[community/flashinfer-ai/FlashInfer/Wuwei Lin|Wuwei Lin]]、[[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：**FlashInfer 论文合著**；MLSys 2025 FlashInfer 论文共同作者。论文合著只证明该项目合作，不自动推断长期同事关系。本轮已将这 5 条 frontmatter 关系从 `paper-coauthor + coworker` 收紧为仅 `paper-coauthor`，并显式标注 `project: FlashInfer`。
 - [[university/清华大学/Ruoyu Qin|Ruoyu Qin]]、[[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]、[[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]、[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：**Mooncake 论文/系统合作网络**；共同出现在 Mooncake 作者列表中，形成 KVCache-centric serving 的产学研连接。
 
 ## 图谱意义
@@ -53,6 +53,7 @@ Yineng Zhang 是当前图谱里少见的“kernel → serving engine → product
 - https://zhyncs.com/
 - https://www.linkedin.com/in/zhyncs
 - https://www.together.ai/events/icml-2026
+- https://arxiv.org/abs/2501.01005
 - https://github.com/flashinfer-ai/flashinfer
 - https://github.com/kvcache-ai/Mooncake
 - https://github.com/lightseekorg/tokenspeed

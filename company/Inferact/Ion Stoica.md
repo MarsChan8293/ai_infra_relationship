@@ -15,7 +15,7 @@ relations:
   - '{"target":"company/Inferact/Joseph Gonzalez","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["research-collaboration"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
-  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["student","paper-coauthor","research-collaboration"],"project":"SGLang","end":"2024","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://arxiv.org/abs/2312.07104"]}'
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["student","research-collaboration"],"end":"2026","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-206.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html"]}'
 ---
@@ -37,13 +37,14 @@ Ion Stoica 是 Berkeley systems → AI serving 人才网络中的高中心度节
 - [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**UC Berkeley 博士共同导师 / 学生 + Inferact founding network**。Simon 2026 博士论文《Building Open Source Inference Serving Systems》由 Ion Stoica 与 [[Inferact/Joseph Gonzalez|Joseph Gonzalez]] 共同指导；Ion→Simon 结构化为 `student`。
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**UC Berkeley 博士后合作/指导网络**。乔一凡在 Sky Computing Lab 博士后阶段与 Ion Stoica、Joseph Gonzalez 从事高效 LLM systems；2026-01 后加入 Inferact。
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**UC Berkeley Sky 博士后合作网络**。Chen 在加入 [[Meta]] 前于 Sky Lab 从事博士后研究，并公开写明与 Ion Stoica 合作；技术方向覆盖 vLLM、LLM serving 与 RL inference。
-- [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]。
+- [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]；这里已从泛化 `mentor-network` 升级为正式 `student` 强边。
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**Berkeley Sky 技术环境 + Inferact founding network**。游凯超 2024 在 UC Berkeley Sky Lab 访问，Ion 是 Sky Lab Director；2026 Inferact 官方 launch 将两人都列入 founding members。公开资料不足以写成正式导师关系，因此仍只保留 `mentor-network`。
 - [[Inferact/Joseph Gonzalez|Joseph Gonzalez]]：**UC Berkeley systems 长期合作 + 共同指导 + Inferact founding network**。两人在 Sky / RISE systems 研究中长期合作，共同指导 Simon Mo 等学生，并于 2026 同列 Inferact founding members。
 
 ## Sources
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html
 - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-194.html
 - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-206.html
 - https://zhuohan.li/

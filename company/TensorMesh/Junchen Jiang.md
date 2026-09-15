@@ -9,6 +9,13 @@ schools:
   - "清华大学"
 projects: [LMCache]
 roles: [CEO, Co-Founder, Associate Professor]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["student","paper-coauthor","research-collaboration"],"project":"LMCache","end":"2025","confidence":"high","evidence":["https://knowledge.uchicago.edu/records/d037a-62j32","https://people.cs.uchicago.edu/~junchenj/"]}'
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["cofounder"],"company":"TensorMesh","start":"2025","confidence":"high","evidence":["https://www.tensormesh.ai/about","https://www.tensormesh.ai/team-members/yihua-cheng","https://www.tensormesh.ai/team-members/junchen-jiang"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["student","paper-coauthor","research-collaboration"],"project":"LMCache","end":"2025","confidence":"high","evidence":["https://knowledge.uchicago.edu/records/ad2pm-fnk87","https://people.cs.uchicago.edu/~junchenj/"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["cofounder"],"company":"TensorMesh","start":"2025","confidence":"high","evidence":["https://www.tensormesh.ai/about","https://www.tensormesh.ai/team-members/kuntai-du","https://www.tensormesh.ai/team-members/junchen-jiang"]}'
 ---
 # Junchen Jiang
 
@@ -25,10 +32,16 @@ Junchen Jiang 的研究横跨 networked systems 与 machine learning systems。�
 ## 图谱中的连接
 - [[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
 - [[TensorMesh]]：联合创始人、CEO；将 KV cache 与 inference memory/data plane 研究产业化。
-- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：UChicago / LMCache / TensorMesh 核心技术与创业网络。
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：**UChicago 博士生 + TensorMesh 联合创始人**。UChicago dissertation 记录明确列 Junchen Jiang 为程翊华的 advisor；两人长期合著系统论文，并把 KV cache / distributed inference 研究延伸至 LMCache 与 TensorMesh。学术指导与共同创业分别记录，避免混淆时间语义。
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**UChicago 博士生 + TensorMesh 联合创始人**。UChicago dissertation 元数据明确列 Junchen Jiang 为杜昆泰的 Academic Advisor；Junchen 官方主页亦将 Kuntai 列在 PhD Students 中。TensorMesh 官网同时确认两人属于联合创始团队。
 
 ## Sources
 - https://people.cs.uchicago.edu/~junchenj/
-- https://www.computerscience.uchicago.edu/people/junchen-jiang/
+- https://www.computerscience.uchicago.edu/people/junchen-jiang
+- https://knowledge.uchicago.edu/records/d037a-62j32
+- https://knowledge.uchicago.edu/records/ad2pm-fnk87
+- https://www.tensormesh.ai/about
 - https://www.tensormesh.ai/team-members/junchen-jiang
+- https://www.tensormesh.ai/team-members/yihua-cheng
+- https://www.tensormesh.ai/team-members/kuntai-du
 - https://github.com/CoeusInstitute/lmcache

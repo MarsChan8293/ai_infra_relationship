@@ -9,6 +9,14 @@ schools:
 communities: [SGLang, LMSYS]
 roles: [SGLang creator, scheduler merge-oncall]
 areas: [llm-serving, distributed-systems, compilers, evaluation]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["paper-coauthor","open-source-collaboration","research-collaboration"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://sites.google.com/view/yingsheng/home"]}'
+  - '{"target":"community/sgl-project/SGLang/尹良升 Liangsheng Yin","type":["paper-coauthor","open-source-collaboration","community-maintainer"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"community/sgl-project/SGLang/谢志强 Zhiqiang Xie","type":["paper-coauthor","open-source-collaboration","community-maintainer"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["advisor","paper-coauthor","research-collaboration"],"project":"SGLang","end":"2024","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html","https://arxiv.org/abs/2312.07104"]}'
+  - '{"target":"company/Inferact/Joseph Gonzalez","type":["advisor","paper-coauthor","research-collaboration"],"project":"SGLang","end":"2024","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html","https://arxiv.org/abs/2312.07104"]}'
 ---
 # 郑连民（Lianmin Zheng）
 
@@ -39,5 +47,6 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 - https://lmzheng.net/
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html
 - https://arxiv.org/abs/2312.07104
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md
