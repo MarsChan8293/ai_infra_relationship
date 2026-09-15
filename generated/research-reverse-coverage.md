@@ -2,7 +2,7 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 7
+- Research institution nodes: 9
 - Institutions with ≥1 linked person: 6
 - Research-person associations: 18
 - Audit errors: 0
@@ -16,3 +16,5 @@
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院|北京智源人工智能研究院]] | 1 |
 | [[university/微软亚洲研究院/微软亚洲研究院|微软亚洲研究院]] | 1 |
 | [[university/Oak Ridge National Laboratory/Oak Ridge National Laboratory|Oak Ridge National Laboratory]] | 0 |
+| [[university/上海人工智能实验室/上海人工智能实验室|上海人工智能实验室]] | 0 |
+| [[university/鹏城实验室/鹏城实验室|鹏城实验室]] | 0 |

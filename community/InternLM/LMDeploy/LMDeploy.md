@@ -1,13 +1,14 @@
 ---
 type: project
 name: LMDeploy
+linked_people: []
 layer: inference-engine
 open_source: true
 repository: https://github.com/InternLM/lmdeploy
 areas: [llm-inference, model-serving, quantization, cuda-kernels, kv-cache, tensor-parallelism, multimodal-inference, heterogeneous-deployment]
 governance: InternLM open-source ecosystem / Shanghai AI Laboratory
 last_verified: "2026-09"
-linked_people: []
+linked_companies: []
 ---
 # LMDeploy
 

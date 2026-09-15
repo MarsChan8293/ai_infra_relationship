@@ -5,7 +5,7 @@
 - Company nodes: 41
 - Companies with ≥1 linked person: 32
 - Company-person associations: 155
-- Project/community nodes: 58
+- Project/community nodes: 59
 - Project/community nodes with ≥1 linked person: 46
 - Project/community-person associations: 264
 - Non-company affiliations recognized and routed elsewhere: 51

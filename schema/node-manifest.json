@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 438,
-  "complete_count": 438,
+  "node_count": 441,
+  "complete_count": 441,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
@@ -14,10 +14,10 @@
     "note": 21,
     "person": 243,
     "person-link": 4,
-    "project": 52,
+    "project": 53,
     "project-collection": 1,
     "relationship-map": 1,
-    "research-institution": 7,
+    "research-institution": 9,
     "school": 46
   },
   "nodes": [
@@ -792,6 +792,15 @@
       "source_markdown": "community/InfiniTensor/InfiniTensor.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/InfiniTensor/InfiniTensor.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/InternLM/LMDeploy/LMDeploy",
+      "type": "project",
+      "source_markdown": "community/InternLM/LMDeploy/LMDeploy.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/InternLM/LMDeploy/LMDeploy.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3568,6 +3577,15 @@
       "missing_required": []
     },
     {
+      "id": "university/上海人工智能实验室/上海人工智能实验室",
+      "type": "research-institution",
+      "source_markdown": "university/上海人工智能实验室/上海人工智能实验室.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/上海人工智能实验室/上海人工智能实验室.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/上海科技大学/上海科技大学",
       "type": "school",
       "source_markdown": "university/上海科技大学/上海科技大学.md",
@@ -3960,6 +3978,15 @@
       "source_markdown": "university/香港科技大学/香港科技大学.md",
       "schema_definition": "schema/school.yaml",
       "schema_instance": "schema/nodes/university/香港科技大学/香港科技大学.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/鹏城实验室/鹏城实验室",
+      "type": "research-institution",
+      "source_markdown": "university/鹏城实验室/鹏城实验室.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/鹏城实验室/鹏城实验室.yaml",
       "status": "complete",
       "missing_required": []
     }
