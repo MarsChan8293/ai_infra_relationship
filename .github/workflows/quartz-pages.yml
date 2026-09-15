@@ -186,8 +186,14 @@ jobs:
           python3 scripts/build-graph-explorer.py \
             --generated generated \
             --output "$QUARTZ_DIR/public/graph-explorer" \
-            --base-path "/ai_infra_relationship" \
-            --public-root "$QUARTZ_DIR/public"
+            --base-path "/ai_infra_relationship"
+
+      - name: Reconcile graph explorer routes with Quartz output
+        run: |
+          python3 scripts/reconcile-graph-explorer-routes.py \
+            --data "$QUARTZ_DIR/public/graph-explorer/data.json" \
+            --public-root "$QUARTZ_DIR/public" \
+            --base-path "/ai_infra_relationship"
 
       - name: Audit generated internal links
         run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
