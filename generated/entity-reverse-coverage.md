@@ -4,11 +4,11 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 127
+- Company-person associations: 129
 - Project/community nodes: 46
 - Project/community nodes with ≥1 linked person: 28
 - Project/community-person associations: 190
-- Unresolved source values (backlog, non-fatal): 46
+- Unresolved source values (backlog, non-fatal): 44
 - Audit errors: 0
 
 ## Companies
@@ -21,10 +21,11 @@
 | [[company/IBM/IBM|IBM]] | 5 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
+| [[company/智谱/智谱|智谱]] | 5 |
 | [[company/清程极智/清程极智|清程极智]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
-| [[company/智谱/智谱|智谱]] | 4 |
+| [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 4 |
 | [[company/深度求索/深度求索|深度求索]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
@@ -33,7 +34,6 @@
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 3 |
-| [[company/无问芯穹/无问芯穹|无问芯穹]] | 3 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
@@ -87,9 +87,7 @@
 - `company/Inferact/Joseph Gonzalez.md` · `affiliation` → `UC Berkeley`
 - `company/RadixArk/盛颖 Ying Sheng.md` · `communities` → `LMSYS`
 - `company/无问芯穹/汪玉 Yu Wang.md` · `affiliation` → `Tsinghua University`
-- `company/无问芯穹/汪玉 Yu Wang.md` · `affiliation` → `Infinigence AI`
 - `company/智谱/唐杰 Jie Tang.md` · `affiliation` → `Tsinghua University`
-- `company/智谱/唐杰 Jie Tang.md` · `affiliation` → `Zhipu AI`
 - `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `Tsinghua University`
 - `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `TsingMao`
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Tsinghua University`
