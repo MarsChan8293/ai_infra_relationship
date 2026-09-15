@@ -30,7 +30,7 @@ TensorMesh 是围绕 LLM KV cache、disaggregated serving 与 inference memory/d
 
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
 
-- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[TensorMesh]]：联合创始人、CEO；将 KV cache 与 inference memory/data plane 研究产业化。
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[TensorMesh]]：联合创始人、Chief Scientist
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[TensorMesh]]：联合创始人、CTO
 

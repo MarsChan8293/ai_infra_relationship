@@ -34,6 +34,6 @@ Together AI 是开放模型训练与 inference 平台公司，聚焦 foundation-
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
 
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[Together AI]]：2025-07 加入；截至 2026-09，Together AI 官方活动页列为 **Senior Director, Inference**，负责/领导 inference 团队。
-- [[university/浙江大学/Jue Wang|Jue Wang]]：[[Together AI]]：当前产业研究节点，将浙大 systems 学术网络连接到生产级大模型训练 / 推理公司。
+- [[university/浙江大学/Jue Wang|Jue Wang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->

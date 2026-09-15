@@ -46,6 +46,6 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-08 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
 - [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[Red Hat]]
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
-- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：[[Red Hat]]：2025-07–至今，Machine Learning Engineer。
+- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->

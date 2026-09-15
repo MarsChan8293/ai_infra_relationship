@@ -84,6 +84,6 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]]：[[NVIDIA]]
 - [[community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty|Sai Kiran Polisetty]]：[[NVIDIA]]
 - [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]]：[[NVIDIA]]
-- [[university/北京大学/Yining Shi|Yining Shi]]：[[NVIDIA]]：OpenReview 公开履历列为 2024–至今 Researcher，形成北大 compiler → GPU platform 的人才桥。
+- [[university/北京大学/Yining Shi|Yining Shi]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->

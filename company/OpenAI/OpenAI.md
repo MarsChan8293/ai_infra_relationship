@@ -40,8 +40,8 @@ OpenAI 是 frontier-model lab 与 AI 产品公司，在本图谱中重点观察�
 
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
 
-- [[company/OpenAI/Randall Lin|Randall Lin]]：[[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：**GPT-4o post-training infrastructure 同组负责人**。2024 GPT-4o 官方 credit 将 Randall Lin、Jiayi Weng、Youlong Cheng 并列为 Post-training infrastructure leads；可确认三人处于同一项目责任层，不进一步猜测谁向谁汇报。
-- [[company/OpenAI/Youlong Cheng|Youlong Cheng]]：[[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：**GPT-4o post-training infrastructure 同组负责人**。2024 GPT-4o 官方 credit 将 Youlong Cheng、Jiayi Weng、Randall Lin 并列为 Post-training infrastructure leads；可确认同项目共同负责基础设施，但不推断内部汇报结构。
+- [[company/OpenAI/Randall Lin|Randall Lin]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[company/OpenAI/Youlong Cheng|Youlong Cheng]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[OpenAI]]：Researcher；公开个人页确认曾参与 gpt-oss inference 与 GPT-5 post-training infrastructure
 - [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：[[OpenAI]]：Research Engineer，2022–至今（按当前公开个人页）
 
