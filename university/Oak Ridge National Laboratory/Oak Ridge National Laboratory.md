@@ -1,6 +1,7 @@
 ---
 type: research-institution
 name: Oak Ridge National Laboratory
+linked_people: []
 last_verified: "2026-09"
 ---
 # Oak Ridge National Laboratory

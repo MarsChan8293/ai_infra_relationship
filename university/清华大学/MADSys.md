@@ -3,6 +3,12 @@ type: research-institution
 name: MADSys
 organization: 清华大学
 aliases: ["MADSys Lab", "MADSys Group", "MADSys Lab, Tsinghua University"]
+linked_people:
+  - "community/kvcache-ai/KTransformers/Boxin Zhang"
+  - "community/kvcache-ai/KTransformers/Hongtao Chen"
+  - "community/kvcache-ai/KTransformers/Jianwei Dong"
+  - "community/kvcache-ai/KTransformers/Jingqi Tang"
+  - "community/kvcache-ai/KTransformers/Qingliang Ou"
 areas: [machine-learning-systems, llm-inference, kv-cache, heterogeneous-inference, distributed-systems]
 projects: [Mooncake, KTransformers]
 website: https://madsys.cs.tsinghua.edu.cn/
@@ -24,3 +30,16 @@ MADSys 是清华大学计算机系面向 Machine Learning / AI / Big Data System
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/
 - https://madsys.cs.tsinghua.edu.cn/publications/KTransformers
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Hongtao Chen|Hongtao Chen]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[清华大学]] / MADSys Lab
+
+<!-- END AUTO RESEARCH PEOPLE -->
