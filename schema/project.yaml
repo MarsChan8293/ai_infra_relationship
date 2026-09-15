@@ -10,6 +10,7 @@ recommended:
   - open_source
   - repository
   - areas
+  - linked_people
   - last_verified
 fields:
   type:
@@ -37,6 +38,12 @@ fields:
     type: array[string]
   governance:
     type: string
+  people:
+    type: array[string]
+    description: Optional curated high-value contributors or maintainers with direct public evidence.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from person projects/communities fields. Generated automatically; do not edit by hand.
   last_verified:
     type: string
     pattern: YYYY-MM
@@ -46,3 +53,5 @@ notes:
   - Existing project pages are migrated incrementally; legacy singular company currently produces a warning.
   - Compatibility, sponsorship, or downstream usage alone is not enough to put a company in companies.
   - The project body should remain independently readable and include purpose, repository, maintainers/governance, and ecosystem relationships.
+  - `people` is curated; `linked_people` is exhaustive and derived only from explicit person project/community membership metadata.
+  - A reverse project link does not by itself imply employment, governance authority, or co-worker relations.
