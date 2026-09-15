@@ -11,6 +11,7 @@ on:
       - generated/school-coverage.json
       - generated/school-reverse-coverage.json
       - generated/entity-reverse-coverage.json
+      - generated/research-reverse-coverage.json
   pull_request:
     branches:
       - main
@@ -51,6 +52,9 @@ jobs:
       - name: Audit reverse company/project-person links
         run: python3 scripts/audit-entity-reverse-links.py --root . --generated generated
 
+      - name: Audit reverse research-institution-person links
+        run: python3 scripts/audit-research-links.py --root . --generated generated
+
       - name: Audit typed relations and coverage
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
 
@@ -88,6 +92,7 @@ jobs:
           cp generated/school-coverage.md "$QUARTZ_DIR/content/generated/school-coverage.md"
           cp generated/school-reverse-coverage.md "$QUARTZ_DIR/content/generated/school-reverse-coverage.md"
           cp generated/entity-reverse-coverage.md "$QUARTZ_DIR/content/generated/entity-reverse-coverage.md"
+          cp generated/research-reverse-coverage.md "$QUARTZ_DIR/content/generated/research-reverse-coverage.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
 
