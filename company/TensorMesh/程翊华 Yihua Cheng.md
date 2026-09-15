@@ -14,8 +14,6 @@ last_verified: "2026-09"
 relations:
   - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["cofounder","research-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
   - '{"target":"company/TensorMesh/Junchen Jiang","type":["mentor-network"],"confidence":"medium","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
-  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
-  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
 ---
 # 程翊华（Yihua Cheng）
 
@@ -34,8 +32,8 @@ relations:
 ## 人物关系
 - [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**共同创业 + 长期研究/开源合作者**。两人都来自 University of Chicago 的 LLM systems / cache 研究网络，并共同参与 [[LMCache]]；截至 2026-09 均为 [[TensorMesh]] 联合创始团队成员。公开来源没有给出公司成立的精确月份，因此只记录到年份/当前状态。
 - [[Junchen Jiang]]：**博士导师**。程翊华在 University of Chicago 读计算机博士期间由 Junchen Jiang 指导；两人的研究主题覆盖视频流、数据系统和 LLM KV cache，后来继续在 [[LMCache]] / TensorMesh 技术网络中产生联系。博士指导的精确起始月份公开资料未完整披露。
-- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**跨公司开源协作，不是同事**。截至 2026-09，两人在 [[vLLM]] KV Connector / distributed serving 方向存在社区协作；Nick Hill 属 [[Inferact]]，程翊华属 [[TensorMesh]]。
-- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**跨公司开源协作，不是同事**。截至 2026-09，两人在 [[vLLM]] KV Connector、offloading / disaggregated serving 的维护网络有技术交叉；Robert Shaw 属 [[Red Hat]]，程翊华属 [[TensorMesh]]。
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**候选 KV Connector 关联，暂缓结构化**。两人在 vLLM KV Connector / distributed serving 邻域均有贡献，但当前公开材料不足以证明可单独归因的直接人物关系；Nick 属 Inferact、程翊华属 TensorMesh。
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**候选 offloading / disaggregation 关联，暂缓结构化**。两人在 vLLM KV Connector、offloading 与 disaggregated serving 方向存在模块邻接，但当前证据不足以建立强人物边；Robert 属 Red Hat、程翊华属 TensorMesh。
 
 ## Sources
 - https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm
