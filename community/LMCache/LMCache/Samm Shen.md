@@ -1,34 +1,48 @@
 ---
 type: person
-name: Samm Shen
-aliases: [sammshen]
-communities: [LMCache]
-roles: [Roadmap Maintainer, Community Collaborator]
-areas: [kv-cache, roadmap, community-maintenance]
-confidence: project-credit
+name: Samuel Shen
+aliases: ["Samm Shen", "sammshen", "slshen"]
+current_affiliations: ["TensorMesh"]
+schools:
+  - "University of Chicago"
+communities: [LMCache, vLLM]
+roles: [Software Engineer, LMCache Committer, Component Owner]
+areas: [kv-cache, gpu-connector, storage-backend, vllm-integration, sglang-integration, tensorrt-llm-integration, ci]
+confidence: verified
 last_verified: "2026-09"
 relations:
-  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache"]}'
-  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache"]}'
-  - '{"target":"community/LMCache/LMCache/Baolong Ma","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache","https://github.com/LMCache/LMCache/issues"]}'
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md","https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md","https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS"]}'
+  - '{"target":"company/腾讯/Baolong Mao","type":["open-source-collaboration","technical-collaboration","community-maintainer"],"project":"LMCache","start":"2025","confidence":"high","evidence":["https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS","https://blog.lmcache.ai/en/2026/01/21/p2p-1/"]}'
 ---
-# Samm Shen
+# Samuel Shen（Samm Shen）
 
-社区：[[LMCache]]
-GitHub：sammshen
+当前：[[company/TensorMesh/TensorMesh|TensorMesh]] Software Engineer；LMCache Committer、核心组件 CODEOWNER。
 
-## 公开履历
-- 公开资料暂不足以可靠确认完整学历和工作经历
+## 教育 / 工作
+- University of Chicago：Mathematics + Computer Science 双学位；TensorMesh 官方团队页公开确认。
+- TensorMesh：Software Engineer。
 
 ## LMCache 角色
-- 2026 Q2 Roadmap 组织与推进者之一
-- 活跃于 LMCache 核心功能规划与社区协作
+当前 `CODEOWNERS` 显示 Samuel Shen 覆盖范围非常广，包括 core engine、memory management、GPU connector、storage backends、native connector、C extensions、tests / docs / CI 等。
+
+更重要的是，他直接位于多 serving-engine integration 的交叉点：
+- `lmcache/integration/vllm/`：CODEOWNER；
+- `lmcache/integration/sglang/`：CODEOWNER；
+- `lmcache/integration/tensorrt_llm/`：CODEOWNER。
+
+因此他是当前 LMCache 生态里很强的 `vLLM ↔ LMCache ↔ SGLang ↔ TensorRT-LLM ↔ TensorMesh` 桥节点。
+
+## vLLM 直接贡献
+2026-06 Samuel Shen 直接向 vLLM 仓库提交 LMCache examples 更新，因此 vLLM 关系不仅来自 LMCache 内部 integration 目录，也有上游项目直接 commit 证据。
 
 ## 人物关系
-- [[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：**LMCache roadmap / 核心功能协作者**。2026 Q2 roadmap 可确认两人处于同一 LMCache 项目协作网络；程翊华偏 KV cache offloading、connector 与系统设计，Samm Shen 偏 roadmap 推进与社区协作。公开资料不足以确认二人为公司同事。
-- [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**LMCache 开源项目协作者**。截至 2026-09，杜昆泰负责 KV cache / vLLM KV Connector 等核心技术，Samm Shen 参与 roadmap 与项目协作；首次直接合作月份公开未确认，不写成同事关系。
-- [[community/LMCache/LMCache/Baolong Ma|Baolong Ma]]：**LMCache 社区维护协作者**。2026 Q2 起至少可确认两人均参与 contributor/community 运作和 roadmap 相关协作；具体雇佣关系与首次合作月份公开未确认。
+- [[company/腾讯/Baolong Mao|Baolong Mao]]：LMCache P2P / storage / integration 技术协作者。2026-01 LMCache 官方 P2P 文章将 Samuel Shen（TensorMesh）与 Baolong Mao（Tencent）共同列为 production-grade multi-node CPU P2P KV sharing 的作者/工程网络。
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：LMCache 维护协作者；这里记录开源协作，不因同属 TensorMesh 自动扩张人物关系类型。
 
 ## Sources
-- https://github.com/LMCache/LMCache
-- https://github.com/LMCache/LMCache/issues
+- https://www.tensormesh.ai/team-members/samuel-shen
+- https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- https://blog.lmcache.ai/en/2026/01/21/p2p-1/
+- https://github.com/vllm-project/vllm/commit/c9135db27cafb853af5e2cb86c1a0b3c6b5b8c91
