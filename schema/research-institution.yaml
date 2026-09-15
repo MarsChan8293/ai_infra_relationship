@@ -9,6 +9,7 @@ recommended:
   - areas
   - labs
   - people
+  - linked_people
   - projects
   - last_verified
 fields:
@@ -30,7 +31,10 @@ fields:
     description: Named internal labs or research groups represented in the graph when useful.
   people:
     type: array[string]
-    description: Optional high-value researchers with direct public affiliation evidence.
+    description: Optional curated high-value researchers with direct public affiliation evidence.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from person current_affiliations when the affiliation resolves to this research institution. Generated automatically; do not edit by hand.
   projects:
     type: array[string]
     description: Projects with a direct research, origin, or engineering relationship to the institution.
@@ -49,3 +53,4 @@ notes:
   - Use this type for research institutions that are not best represented as a university/school or a standalone commercial company.
   - Parent organization membership must not be used to infer that every researcher at the institution is a coworker with every employee of the parent company.
   - People, projects, and lab relationships should be evidence-backed and independently readable in the page body.
+  - `people` is curated; `linked_people` is the exhaustive generated reverse set from explicit person affiliation metadata.
