@@ -18,8 +18,6 @@ relations:
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
-  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
-  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
 ---
 # 杜昆泰（Kuntai Du）
 
@@ -41,8 +39,8 @@ relations:
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**LLM serving 论文合著者**。共同署名 2025 Jenga 与 PrefillOnly，技术交集覆盖 heterogeneous memory management、KV cache 与 inference serving；截至 2026-09 分属 TensorMesh 与 [[Meta]]。
 - [[OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：**vLLM / LLM serving 论文合著者**。共同署名 TurboSpec、Jenga 与 PrefillOnly；当前分属 TensorMesh 与 [[OpenAI]]。
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**LLM serving 论文合著者**。共同署名 2025 PrefillOnly；截至 2026-09 分属 TensorMesh 与 [[Inferact]]。
-- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**开源项目协作，不是同事**。截至 2026-09，两人在 [[vLLM]] 的 KV Connector / distributed serving 生态存在模块级协作；Nick Hill 属 [[Inferact]]，杜昆泰属 TensorMesh，因此关系标记为跨公司社区协作。
-- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**开源项目协作，不是同事**。截至 2026-09，两人在 [[vLLM]] KV Connector、disaggregated serving 与 cache integration 方向处于同一维护网络；Robert Shaw 属 [[Red Hat]]，杜昆泰属 TensorMesh。
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**候选 KV Connector 关联，暂缓结构化**。两人都活跃在 vLLM 的 KV Connector / distributed serving 邻域，但现有来源不足以证明二人存在可单独归因的直接协作；Nick 属 Inferact、杜昆泰属 TensorMesh。
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**候选 cache / disaggregation 关联，暂缓结构化**。两人在 vLLM KV Connector、disaggregated serving 与 cache integration 方向存在模块邻接，但现有来源不足以证明可单独归因的直接人物关系；Robert 属 Red Hat、杜昆泰属 TensorMesh。
 
 ## Sources
 - https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm

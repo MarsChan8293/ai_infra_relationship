@@ -1,20 +1,31 @@
+---
+type: person
+name: yiz-liu
+aliases: ["@yiz-liu"]
+communities: [vLLM-Ascend]
+roles: [Release Manager, Maintainer]
+areas: [llm-inference, ascend, release-engineering, speculative-decoding, graph-execution]
+confidence: project-credit
+last_verified: "2026-09"
+---
 # yiz-liu
 
 社区：[[vLLM-Ascend]]
 
 ## 公开履历
-- 公开资料暂未可靠确认完整实名、学历与工作经历
+- 公开资料暂未可靠确认完整实名、学历与工作经历，因此保留 GitHub handle，不猜当前雇主。
 
 ## 社区角色
-- vLLM-Ascend 活跃维护者
-- 2026 多个 release candidate / stable release 的 Release Manager
-- 参与 ACL Graph、speculative decoding 与版本发布流程
+- vLLM-Ascend 活跃维护者。
+- 2026 多个 release candidate / stable release 的 Release Manager。
+- 参与 ACL Graph、speculative decoding 与版本发布流程。
 
 ## 人物关系
-- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区治理/发布协作者**。2026 年 Wang Xiyuan 负责 weekly sync 与 roadmap coordination，yiz-liu 负责多个 RC/stable release；两人在版本规划、feature readiness 与发布推进上持续协作。公开资料不足以确认公司同事关系。
-- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**roadmap ↔ release 协作者**。2026 Q2/Q3 zzzzwwjj 推动模型适配/工程能力路线，yiz-liu 负责 release management 与 speculative decoding/ACL Graph 等功能落地；至少在 2026 多个 release cycle 中存在明确社区协作。
-- [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]]：**release manager ↔ Attention/算子工程协作者**。2026 年 weijinqian0 推进 FIA operator、Attention backend 与图执行相关工作，yiz-liu 在 release cycle 中负责版本集成与发布；具体首次直接合作月份公开未确认。
+- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区治理/发布协作者候选**。Wang Xiyuan 负责 weekly sync / roadmap coordination，yiz-liu 负责 release management；属于高价值 bridge candidate，但本轮不从角色邻接自动生成 typed relation。
+- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**roadmap ↔ release 候选关系**。roadmap feature 与 release cycle 存在明确上下游，具体强人际边仍需 pair-specific 证据。
+- [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]]：**release ↔ Attention/算子工程候选关系**。保留为后续研究项，不据同一 release 推断直接协作强度。
 
 ## Sources
-- vLLM-Ascend release notes / release manager records
-- vLLM-Ascend 2026 roadmap
+- https://github.com/vllm-project/vllm-ascend/issues/12917
+- https://github.com/vllm-project/vllm-ascend/issues/6077
+- https://github.com/vllm-project/vllm-ascend

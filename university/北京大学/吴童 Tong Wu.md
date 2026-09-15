@@ -5,6 +5,7 @@ aliases: [吴童, Tong Wu]
 current_affiliations: ["北京大学","Tile-AI","字节跳动"]
 schools:
   - "北京大学"
+projects: [TileLang, TileScale]
 areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
 ---
 # 吴童（Tong Wu）
@@ -14,7 +15,7 @@ areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
 ## Tile-AI / 开源
 - [[university/北京大学/Tile-AI|Tile-AI]]：公开个人主页明确列为成员。
 - [[TileLang]]：活跃贡献者，ICLR 2026 Oral 作者。
-- **TileScale**：参与开发的 distributed programming / communication 项目。
+- [[community/tile-ai/TileScale/TileScale|TileScale]]：参与开发的 distributed programming / communication 项目。
 - **TileOps**：参与的高性能 operator library。
 
 ## LLM Infra 连接

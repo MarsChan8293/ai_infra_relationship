@@ -1,19 +1,30 @@
+---
+type: person
+name: zzzzwwjj
+aliases: ["@zzzzwwjj"]
+communities: [vLLM-Ascend]
+roles: [Roadmap Maintainer, Contributor]
+areas: [llm-inference, ascend, roadmap, model-support, engineering-quality]
+confidence: project-credit
+last_verified: "2026-09"
+---
 # zzzzwwjj
 
 社区：[[vLLM-Ascend]]
 
 ## 公开履历
-- 公开资料暂未可靠确认完整实名、学历与工作经历
+- 公开资料暂未可靠确认完整实名、学历与工作经历，因此保留 GitHub handle，不猜当前雇主。
 
 ## 社区角色
-- vLLM-Ascend roadmap 主要推动者之一
-- 负责 2026 Q2/Q3 路线规划、模型适配和工程能力提升议题
+- vLLM-Ascend roadmap 主要推动者之一。
+- 2026 Q3 roadmap 由其发起，覆盖 ModelRunner V2、模型适配、KV/offload、PD disaggregation、Ascend 950 等工程路线。
 
 ## 人物关系
-- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**vLLM-Ascend roadmap / 社区推进协作者**。2026 Q2/Q3 两人共同位于路线规划与社区维护网络；Wang Xiyuan 偏 weekly sync 和全局协调，zzzzwwjj 偏模型适配与工程能力路线。首次共同维护月份公开未确认。
-- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**roadmap ↔ release 协作者**。2026 年 zzzzwwjj 负责路线规划，yiz-liu 多次承担 RC/stable Release Manager；两人的协作发生在 roadmap feature 进入 release 的推进链路上。公开资料不足以确认公司同事关系。
-- [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：**roadmap ↔ 技术周会议题组织协作者**。2026 年 zzzzwwjj 负责 Q2/Q3 路线议题，ningjingbengxiaohai 多次担任技术周会 Chair；二人在模型适配、CI/logging、long-context 等社区议题上存在组织与推进交叉。
+- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**roadmap / 社区推进候选关系**。两人位于同一 roadmap 与 weekly sync 网络，本轮不自动升级成 typed person edge。
+- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**roadmap ↔ release 候选关系**。两人的角色在 feature planning 与 release integration 上相邻，但不从流程邻接推断强人际关系。
+- [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：**roadmap ↔ 技术周会组织候选关系**。保留作下一轮 pair-specific evidence 深挖。
 
 ## Sources
-- vLLM-Ascend 2026 Q2/Q3 roadmap
-- vLLM-Ascend weekly meeting records
+- https://github.com/vllm-project/vllm-ascend/issues/15067
+- https://github.com/vllm-project/vllm-ascend/issues/10928
+- https://github.com/vllm-project/vllm-ascend

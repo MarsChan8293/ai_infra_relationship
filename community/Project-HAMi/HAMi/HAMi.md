@@ -37,6 +37,9 @@ HAMi 当前是跨公司社区项目，上述边分别表示 originator、maintai
 ## 主要维护者 / 组织
 由 Project-HAMi 社区维护。仓库中的 maintainer/长期贡献者节点包括 [[archlitchi]]、[[atttx123]]、[[chaunceyjiang]]、[[CoderTH]]、[[fyp711]]、[[gsakun]]、[[lengrongfu]]、[[ouyangluwei]]、[[peizhaoyou]]、[[wawa0210]]、[[whybeyoung]]、[[yangshiqi]]、[[yinyu]]、[[zhengbingxian]]。
 
+## 设备插件 / 子项目
+- [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]]：Ascend/vNPU 设备插件与调度扩展。其 OWNERS 明确记录 [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] 为 approver、[[community/Project-HAMi/HAMi/DSFans2014|DSFans2014]] 为 reviewer，因此单独实体化以承接治理关系。
+
 ## 生态关系
 Kubernetes · CNCF ecosystem · [[AIBrix]] · [[llm-d]]。HAMi 解决的是设备资源供给与隔离，不等同于 vLLM/SGLang 的模型执行层。
 

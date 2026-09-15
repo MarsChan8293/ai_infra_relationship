@@ -22,10 +22,10 @@ relations:
   - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"company/Inferact/Ion Stoica","type":["mentor-network"],"confidence":"medium","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
   - '{"target":"company/Inferact/Joseph Gonzalez","type":["mentor-network"],"confidence":"medium","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
-  - '{"target":"community/vllm-project/vLLM/Yongye Zhu","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
-  - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
-  - '{"target":"company/Meta/Richard Zou","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
-  - '{"target":"company/OpenAI/翁家翌 Jiayi Weng","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"community/vllm-project/vLLM/Yongye Zhu","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://vllm.ai/blog/2026-07-06-vllm-hpc-ops","https://inferact.ai/"]}'
+  - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/Meta/Richard Zou","type":["technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-08-20-torch-compile"]}'
+  - '{"target":"company/OpenAI/翁家翌 Jiayi Weng","type":["paper-coauthor"],"confidence":"high","evidence":["https://www.jmlr.org/papers/v23/21-1127.html"]}'
   - '{"target":"community/vllm-project/vLLM/Roger Wang","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
   - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://docs.vllm.ai/en/latest/governance/process/"]}'
   - '{"target":"community/vllm-project/vLLM/Michael Goin","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://vllm.ai/blog/2025-08-20-torch-compile","https://docs.vllm.ai/en/latest/governance/process/"]}'
@@ -58,12 +58,12 @@ relations:
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**vLLM Lead Maintainer 跨公司协作**。两人至少从 2024 年起在 vLLM 的 distributed / RL integration / numerics 等维护网络有交叉；共同署名 2025 Jenga。李卓翰 2024 后进入 OpenAI、后 Meta，因此两人不是当前同事。
 - [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**vLLM Project Lead 跨公司协作**。2025 Hardware Plugin 工作中，两人与 Simon Mo、Michael Goin 等共同参与 core refactor、deep discussion 与 review；截至 2026-09 两人仍同属 vLLM Project Leads，但分属 Inferact 与 [[Red Hat]]，不标记为同事。
 - [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：**vLLM Project Lead + compile / hardware-plugin 技术协作者**。2025 Hardware Plugin 工作中共同参与 refactor / design review；2025-08 又共同署名 vLLM 官方 torch.compile 技术文章，该内容源于 Red Hat 主持的 vLLM office hours。两人分属 Inferact 与 Red Hat。
-- [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：**Inferact 同事 + vLLM backend / model-support 工程协作者**。截至 2026-09 同属 Inferact；2026-07 vLLM × Tencent HPC-Ops 集成中，Yongye、游凯超与 [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]] 被官方共同感谢于 open backend interfaces、review 与 design discussion；2025 DeepSeek-V3.2 支持中也同列 vLLM 贡献团队。
+- [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：**Inferact 同事 + vLLM backend 工程协作者**。截至 2026-09 同属 Inferact；2026-07 vLLM × Tencent HPC-Ops 集成中，Yongye、游凯超与 [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]] 被官方共同感谢于 open backend interfaces、review 与 design discussion。
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**早期职业/技术连接 + Berkeley systems 网络 + Inferact 同事**。乔一凡公开说明 2024-04 与 Simon Mo、游凯超的交流最终将其带到 UC Berkeley Sky Computing Lab；2026-01 加入 Inferact 后成为同事。2026-07 HPC-Ops 集成中三人再次共同参与 backend interface、review 与 design discussion。
-- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**Berkeley / vLLM systems 协作者 + 论文合著者**。2024 Berkeley / vLLM systems 网络存在重叠；2025 共同署名 Jenga；2025-09 DeepSeek-V3.2 支持中同列 vLLM 贡献团队。截至 2026-09 Chen 在 [[Meta]]，不是当前同事。
-- [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**vLLM / Berkeley LLM systems 协作者 + Jenga 合著者**。两人共同参与 Berkeley/vLLM inference 研究网络并署名 2025 Jenga；截至 2026-09 杜昆泰在 [[TensorMesh]]、游凯超在 Inferact，因此属于跨公司研究/开源协作。
-- [[OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：**Berkeley / vLLM inference 协作者 + 论文合著者**。共同署名 2024 TurboSpec 与 2025 Jenga；该合作主要发生在柳晓萱进入 [[OpenAI]] 之前，不能扩展成 OpenAI–Inferact 公司协作。
-- [[Meta/Richard Zou|Richard Zou]]：**PyTorch compiler ↔ vLLM 技术协作，不是同事**。2025-08 两人共同署名 vLLM 官方 torch.compile 技术文章，连接 PyTorch compiler 与 vLLM compile integration；截至 2026-09 Richard 在 Meta、游凯超在 Inferact。
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**Berkeley / vLLM systems 协作者 + 论文合著者**。2025 共同署名 Jenga；2025-09 DeepSeek-V3.2 支持中同列 vLLM 贡献团队。截至 2026-09 Chen 在 [[Meta]]，不是当前同事。
+- [[TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：**vLLM / Berkeley LLM systems 协作者 + Jenga 合著者**。两人署名 2025 Jenga；截至 2026-09 杜昆泰在 [[TensorMesh]]、游凯超在 Inferact，因此属于跨公司研究/开源协作。
+- [[OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：**Berkeley / vLLM inference 论文合著者**。共同署名 2025 Jenga；该合作不能扩展成 OpenAI–Inferact 公司协作。
+- [[Meta/Richard Zou|Richard Zou]]：**PyTorch compiler ↔ vLLM 技术协作，不是论文合著关系**。2025-08 两人共同署名的是 vLLM 官方工程技术文章，不是学术论文；因此 typed relation 仅保留 `technical-collaboration`。截至 2026-09 Richard 在 Meta、游凯超在 Inferact。
 - [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：**早期清华 RL / Tianshou 开源合作者与论文合著者**。Tianshou 官方将翁家翌列为 original creator、游凯超列为 early contributor；两人共同署名 2022 JMLR Tianshou 论文。该关系早于双方进入 OpenAI 与 vLLM/Inferact，不能写成后续公司共事。
 
 ## Sources
@@ -83,5 +83,5 @@ relations:
 - https://vllm.ai/blog/2026-07-06-vllm-hpc-ops
 - https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
 - https://arxiv.org/abs/2503.18292
-- https://liuxiaoxuanpku.github.io/
+- https://www.jmlr.org/papers/v23/21-1127.html
 - https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f

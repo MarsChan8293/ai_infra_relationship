@@ -5,6 +5,7 @@ aliases: [Lei Wang, LeiWang1999]
 current_affiliations: ["北京大学","Tile-AI"]
 schools:
   - "北京大学"
+projects: [TileLang]
 areas: [ai-compilers, gpu-kernels, kernel-dsl]
 ---
 # Lei Wang

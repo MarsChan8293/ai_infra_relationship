@@ -1,19 +1,30 @@
+---
+type: person
+name: ningjingbengxiaohai
+aliases: ["@ningjingbengxiaohai"]
+communities: [vLLM-Ascend]
+roles: [Community Meeting Chair, Contributor]
+areas: [llm-inference, ascend, community-governance, ci, logging, long-context]
+confidence: project-credit
+last_verified: "2026-09"
+---
 # ningjingbengxiaohai
 
 社区：[[vLLM-Ascend]]
 
 ## 公开履历
-- 公开资料暂未可靠确认完整实名、学历与工作经历
+- 公开资料暂未可靠确认完整实名、学历与工作经历，因此保留 GitHub handle，不猜当前雇主。
 
 ## 社区角色
-- 2026 vLLM-Ascend 技术周会多次担任 Chair
-- 参与社区技术议题组织、CI / logging / long-context 等方向讨论
+- 2026 vLLM-Ascend 技术周会多次担任 Chair。
+- 参与社区技术议题组织，公开 meeting 记录覆盖 CI / logging / long-context 等方向。
 
 ## 人物关系
-- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**vLLM-Ascend 社区组织协作者**。2026 年 Wang Xiyuan 负责 weekly sync / roadmap coordination，ningjingbengxiaohai 多次担任技术周会 Chair；两人在社区议题收集、会议组织和推进闭环上持续协作。公开资料不足以确认公司同事关系。
-- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**技术周会组织 ↔ roadmap 协作者**。2026 Q2/Q3 zzzzwwjj 推动模型适配和工程能力路线，ningjingbengxiaohai 负责会议组织并参与 CI、logging、long-context 议题；两人的关系是社区 roadmap 与技术讨论执行层的衔接。
-- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**社区会议 ↔ release 协作者**。2026 年 yiz-liu 多次负责 release，ningjingbengxiaohai 组织技术议题与会议；社区讨论进入版本发布时存在流程协作，首次直接合作月份公开未确认。
+- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区组织候选关系**。二人都承担 weekly meeting / sync 组织职责，但本轮不从同一治理流程自动生成 typed person edge。
+- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：**技术周会 ↔ roadmap 候选关系**。保留作后续 pair-specific evidence 深挖。
+- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：**会议 ↔ release 候选关系**。不据流程邻接推断公司或强合作关系。
 
 ## Sources
-- vLLM-Ascend weekly meeting records
-- vLLM-Ascend 2026 roadmap / release records
+- https://github.com/vllm-project/vllm-ascend/issues/10928
+- https://github.com/vllm-project/vllm-ascend/issues/15067
+- https://github.com/vllm-project/vllm-ascend
