@@ -1,7 +1,10 @@
 ---
 type: project
 name: LMDeploy
-linked_people: []
+linked_people:
+  - "university/上海人工智能实验室/Han Lv"
+  - "university/上海人工智能实验室/Li Zhang"
+  - "university/上海人工智能实验室/Qian Yao"
 layer: inference-engine
 open_source: true
 repository: https://github.com/InternLM/lmdeploy
@@ -49,3 +52,14 @@ LMDeploy 官方仓库明确致谢 vLLM、FasterTransformer、DeepSpeed-MII 等�
 - https://www.shlab.org.cn/intern-ai
 - https://www.shlab.org.cn/joinus/detail/7630830897067673919?mode=campus
 - https://arxiv.org/html/2508.15601v2
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/上海人工智能实验室/Han Lv|Han Lv]]：[[上海人工智能实验室]]：2026 年修订版 TurboMind / LMDeploy 论文将 Han Lv 列为 Shanghai AI Laboratory 作者。
+- [[university/上海人工智能实验室/Li Zhang|Li Zhang]]：[[上海人工智能实验室]]：2026 年修订版 TurboMind / LMDeploy 论文明确列出 Li Zhang 的 affiliation 为 Shanghai AI Laboratory。
+- [[university/上海人工智能实验室/Qian Yao|Qian Yao]]：[[上海人工智能实验室]]：2026 年修订版 TurboMind / LMDeploy 论文明确列出 Qian Yao 的 affiliation 为 Shanghai AI Laboratory。
+
+<!-- END AUTO PROJECT PEOPLE -->

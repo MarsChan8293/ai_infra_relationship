@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 243
+- Person nodes: 246
 - People with ≥1 school: 122
-- People without known school: 121
-- Coverage: 50.2%
+- People without known school: 124
+- Coverage: 49.6%
 - Person-school associations: 159
 - School nodes: 46
 - Audit errors: 0
@@ -95,7 +95,7 @@
 | 44 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |
 | 45 | [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]] | 4.935 | 2 |
 | 46 | [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]] | 4.935 | 2 |
-| 47 | [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]] | 4.935 | 2 |
-| 48 | [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]] | 4.935 | 2 |
-| 49 | [[community/ai-dynamo/NIXL/James Thomas|James Thomas]] | 4.935 | 2 |
-| 50 | [[community/kvcache-ai/KTransformers/Jiahao Wang|Jiahao Wang]] | 4.935 | 2 |
+| 47 | [[university/上海人工智能实验室/Han Lv|Han Lv]] | 4.935 | 2 |
+| 48 | [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]] | 4.935 | 2 |
+| 49 | [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]] | 4.935 | 2 |
+| 50 | [[community/ai-dynamo/NIXL/James Thomas|James Thomas]] | 4.935 | 2 |

@@ -6,9 +6,9 @@
 - Companies with ≥1 linked person: 32
 - Company-person associations: 155
 - Project/community nodes: 59
-- Project/community nodes with ≥1 linked person: 46
-- Project/community-person associations: 264
-- Non-company affiliations recognized and routed elsewhere: 51
+- Project/community nodes with ≥1 linked person: 47
+- Project/community-person associations: 267
+- Non-company affiliations recognized and routed elsewhere: 54
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
@@ -78,6 +78,7 @@
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
+| [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |

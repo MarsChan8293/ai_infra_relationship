@@ -5,7 +5,7 @@
   "max_bfs_depth": 2,
   "dfs_budget": 12,
   "dfs_selected": 12,
-  "candidate_count": 243,
+  "candidate_count": 246,
   "candidates": [
     {
       "id": "company/趋境科技/武永卫 Yongwei Wu",
@@ -3450,6 +3450,42 @@
       ]
     },
     {
+      "id": "university/上海人工智能实验室/Qian Yao",
+      "name": "Qian Yao",
+      "score": 21.268,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 4.935,
+      "gap_score": 1.8,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "kernel",
+        "moe",
+        "quantization"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
       "id": "university/北京大学/Yining Shi",
       "name": "Yining Shi",
       "score": 21.264,
@@ -5527,6 +5563,39 @@
       ]
     },
     {
+      "id": "university/上海人工智能实验室/Li Zhang",
+      "name": "Li Zhang",
+      "score": 18.368,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 4.935,
+      "gap_score": 1.8,
+      "infra_relevance": 2.55,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "quantization"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "infra: serving/inference, kernel, quantization"
+      ]
+    },
+    {
       "id": "company/RadixArk/Xiaoyu Zhang",
       "name": "Xiaoyu Zhang",
       "score": 18.339,
@@ -6773,6 +6842,38 @@
       "reasons": [
         "bridge 6.3",
         "infra: distributed"
+      ]
+    },
+    {
+      "id": "university/上海人工智能实验室/Han Lv",
+      "name": "Han Lv",
+      "score": 17.068,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 4.935,
+      "gap_score": 1.8,
+      "infra_relevance": 1.9,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "infra: serving/inference, kernel"
       ]
     },
     {
