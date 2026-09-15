@@ -8,6 +8,7 @@ recommended:
   - areas
   - projects
   - people
+  - linked_people
   - last_verified
 fields:
   type:
@@ -25,7 +26,10 @@ fields:
     description: Projects with a direct, verifiable company relationship.
   people:
     type: array[string]
-    description: Optional high-value people references; do not mechanically enumerate every employee.
+    description: Optional curated high-value people references; do not mechanically enumerate every employee.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from person current_affiliations. Generated automatically; do not edit by hand.
   founded:
     type: string
   headquarters:
@@ -37,3 +41,5 @@ notes:
   - A company node must remain independently readable and explain why the company belongs in the AI Infra graph.
   - Business units and model teams should normally attach to the canonical parent company rather than duplicate company entities.
   - People and project relationships should be evidence-backed; compatibility or customer relationships are not sufficient by themselves.
+  - `people` is curated; `linked_people` is the exhaustive generated reverse set derived only from person `current_affiliations`.
+  - `linked_people` must not be interpreted as reporting-line, team, co-worker, or historical-employment evidence by itself.
