@@ -4,6 +4,8 @@ name: Hugging Face
 linked_people:
   - "community/vllm-project/vLLM/Patrick von Platen"
 projects: [vLLM]
+linked_projects:
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # Hugging Face
 
@@ -24,3 +26,12 @@ Hugging Face 是开放模型与机器学习工具生态公司，核心资产包�
 - [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

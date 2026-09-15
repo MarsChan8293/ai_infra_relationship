@@ -5,6 +5,8 @@ linked_people:
   - "community/sgl-project/SGLang/Yineng Zhang"
   - "university/浙江大学/Jue Wang"
 projects: [TokenSpeed]
+linked_projects:
+  - "community/lightseekorg/TokenSpeed/TokenSpeed"
 ---
 # Together AI
 
@@ -37,3 +39,12 @@ Together AI 是开放模型训练与 inference 平台公司，聚焦 foundation-
 - [[university/浙江大学/Jue Wang|Jue Wang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

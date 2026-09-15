@@ -3,6 +3,7 @@ type: company
 name: Databricks
 linked_people:
   - "community/ai-dynamo/NIXL/James Thomas"
+linked_projects: []
 ---
 # Databricks
 

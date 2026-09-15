@@ -17,6 +17,7 @@ companies: []
 company_relation: community-led-with-industry-contributors
 layer: gpu-kernels
 open_source: true
+linked_companies: []
 ---
 # FlashInfer
 

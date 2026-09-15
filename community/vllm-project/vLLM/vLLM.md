@@ -21,6 +21,13 @@ companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh"]
 company_relation: cross-company-core-contributors
 layer: inference-engine
 open_source: true
+linked_companies:
+  - "company/Hugging Face/Hugging Face"
+  - "company/Inferact/Inferact"
+  - "company/Meta/Meta"
+  - "company/Neural Magic/Neural Magic"
+  - "company/Red Hat/Red Hat"
+  - "company/TensorMesh/TensorMesh"
 ---
 # vLLM
 
@@ -80,3 +87,17 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[vLLM]]：KV Connector / offloading 生态的重要贡献者
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+- [[company/Inferact/Inferact|Inferact]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+- [[company/Meta/Meta|Meta]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+- [[company/Neural Magic/Neural Magic|Neural Magic]]：由公司页的 `projects:` / `communities:` 反向镜像。
+- [[company/Red Hat/Red Hat|Red Hat]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

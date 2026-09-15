@@ -9,6 +9,7 @@ repository: https://github.com/flagos-ai/sglang-plugin-FL
 open_source: true
 areas: [sglang, heterogeneous-inference, hardware-backend, llm-serving]
 last_verified: 2026-09
+linked_companies: []
 ---
 # sglang-plugin-FL
 

@@ -16,6 +16,8 @@ companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: llm-serving-engine
 open_source: true
+linked_companies:
+  - "company/RadixArk/RadixArk"
 ---
 # SGLang
 
@@ -61,3 +63,12 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/RadixArk/RadixArk|RadixArk]]：公司页与社区/项目页均有显式记录；关系：`core-maintainer-network`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

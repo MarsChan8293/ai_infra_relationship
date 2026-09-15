@@ -10,6 +10,7 @@ repository: https://github.com/flagos-ai/FlagAttention
 open_source: true
 areas: [attention, triton, kernels, llm-inference, heterogeneous-computing]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagAttention
 

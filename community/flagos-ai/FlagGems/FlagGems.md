@@ -11,6 +11,7 @@ repository: https://github.com/flagos-ai/FlagGems
 open_source: true
 areas: [triton, kernels, heterogeneous-computing, performance-optimization]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagGems
 

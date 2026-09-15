@@ -9,6 +9,7 @@ repository: https://github.com/flagos-ai/FlagPerf
 open_source: true
 areas: [benchmark, ai-hardware, training, inference, heterogeneous-computing]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagPerf
 

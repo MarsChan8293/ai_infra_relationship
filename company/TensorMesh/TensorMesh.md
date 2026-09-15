@@ -7,6 +7,9 @@ linked_people:
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
 projects: [LMCache, vLLM]
+linked_projects:
+  - "community/LMCache/LMCache/LMCache"
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # TensorMesh
 
@@ -35,3 +38,13 @@ TensorMesh 是围绕 LLM KV cache、disaggregated serving 与 inference memory/d
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[TensorMesh]]：联合创始人、CTO
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/LMCache/LMCache/LMCache|LMCache]]：公司页与社区/项目页均有显式记录；关系：`research-to-startup-core-network`。
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

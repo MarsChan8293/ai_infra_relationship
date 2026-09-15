@@ -6,6 +6,12 @@ companies: ["第四范式","密瓜智能","道客","NVIDIA","华为"]
 company_relation: cross-company-maintainer-network
 layer: kubernetes-heterogeneous-device-virtualization
 open_source: true
+linked_companies:
+  - "company/NVIDIA/NVIDIA"
+  - "company/华为/华为"
+  - "company/密瓜智能/密瓜智能"
+  - "company/第四范式/第四范式"
+  - "company/道客/道客"
 ---
 # HAMi
 
@@ -29,3 +35,16 @@ HAMi 当前是跨公司社区项目，上述边分别表示 originator、maintai
 
 ## 生态关系
 Kubernetes · CNCF ecosystem · [[AIBrix]] · [[llm-d]]。HAMi 解决的是设备资源供给与隔离，不等同于 vLLM/SGLang 的模型执行层。
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+- [[company/密瓜智能/密瓜智能|密瓜智能]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+- [[company/第四范式/第四范式|第四范式]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+- [[company/道客/道客|道客]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

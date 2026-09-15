@@ -7,6 +7,7 @@ repository: https://github.com/ray-project/ray
 open_source: true
 areas: [ai-infrastructure]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Ray
 

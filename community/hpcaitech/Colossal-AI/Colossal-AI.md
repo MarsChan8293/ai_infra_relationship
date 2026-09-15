@@ -11,6 +11,8 @@ companies: ["潞晨科技"]
 company_relation: company-originated
 layer: distributed-training
 open_source: true
+linked_companies:
+  - "company/潞晨科技/潞晨科技"
 ---
 # Colossal-AI
 
@@ -47,3 +49,12 @@ Colossal-AI 是由 [[潞晨科技]] 发起的大规模 AI 训练/推理系统，
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：[[潞晨科技]]：创始人，公司围绕 Colossal-AI 提供大模型训练、微调、推理与企业级平台。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/潞晨科技/潞晨科技|潞晨科技]]：公司页与社区/项目页均有显式记录；关系：`company-originated`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

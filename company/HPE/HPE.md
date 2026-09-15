@@ -3,6 +3,7 @@ type: company
 name: HPE
 linked_people:
   - "community/ai-dynamo/NIXL/Ryan Hankins"
+linked_projects: []
 ---
 # HPE
 

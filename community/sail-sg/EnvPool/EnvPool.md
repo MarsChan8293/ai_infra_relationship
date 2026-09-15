@@ -6,6 +6,7 @@ repository: https://github.com/sail-sg/envpool
 open_source: true
 areas: [ai-infrastructure]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # EnvPool
 

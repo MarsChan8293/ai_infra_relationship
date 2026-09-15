@@ -9,6 +9,8 @@ companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
 layer: kv-cache-management
 open_source: true
+linked_companies:
+  - "company/TensorMesh/TensorMesh"
 ---
 # LMCache
 
@@ -38,3 +40,12 @@ https://github.com/LMCache/LMCache
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`research-to-startup-core-network`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

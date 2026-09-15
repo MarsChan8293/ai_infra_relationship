@@ -6,6 +6,8 @@ linked_people:
   - "community/llm-d/llm-d/Ashok Chandrasekar"
   - "community/llm-d/llm-d/Clayton Coleman"
 projects: [llm-d]
+linked_projects:
+  - "community/llm-d/llm-d/llm-d"
 ---
 # Google
 
@@ -41,3 +43,12 @@ Google 在 AI Infra 中横跨 TPU、JAX/XLA、Kubernetes/GKE、数据中心网�
 - [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]]：[[Google]]：llm-d 官方作者页列为 Distinguished Engineer, Google。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

@@ -9,6 +9,11 @@ companies: ["NVIDIA","AMD","Together AI","阿里巴巴"]
 company_relation: cross-company-co-creation
 layer: agentic-llm-inference-engine
 open_source: true
+linked_companies:
+  - "company/AMD/AMD"
+  - "company/NVIDIA/NVIDIA"
+  - "company/Together AI/Together AI"
+  - "company/阿里巴巴/阿里巴巴"
 ---
 # TokenSpeed
 
@@ -58,3 +63,15 @@ TokenSpeed 由 LightSeek Foundation 治理，不属于单一公司。公开 co-c
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]]：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/AMD/AMD|AMD]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+- [[company/Together AI/Together AI|Together AI]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+- [[company/阿里巴巴/阿里巴巴|阿里巴巴]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

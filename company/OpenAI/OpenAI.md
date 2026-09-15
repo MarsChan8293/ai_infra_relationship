@@ -7,6 +7,7 @@ linked_people:
   - "company/OpenAI/Youlong Cheng"
   - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
   - "company/OpenAI/翁家翌 Jiayi Weng"
+linked_projects: []
 ---
 # OpenAI
 

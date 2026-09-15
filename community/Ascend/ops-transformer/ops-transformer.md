@@ -10,6 +10,8 @@ company_relation: company-led
 layer: npu-kernels
 hardware: [Ascend]
 open_source: true
+linked_companies:
+  - "company/华为/华为"
 ---
 # ops-transformer
 
@@ -41,3 +43,12 @@ https://gitcode.com/cann/ops-transformer
 - [[community/Ascend/ops-transformer/wangchao661|wangchao661]]：2026 年在 CANN `ops-transformer` 的 experimental attention 路径为 `BlockSparseAttention` 增加 MXFP4 能力，并扩展相关 aclnn 接口参数。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

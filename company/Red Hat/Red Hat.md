@@ -8,6 +8,9 @@ linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
   - "community/vllm-project/vLLM/Matthew Bonanni"
 projects: [vLLM, llm-d]
+linked_projects:
+  - "community/llm-d/llm-d/llm-d"
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # Red Hat
 
@@ -49,3 +52,13 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

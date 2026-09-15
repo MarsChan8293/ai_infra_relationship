@@ -15,6 +15,7 @@ companies: []
 company_relation: community-led
 layer: llm-serving-engine
 open_source: true
+linked_companies: []
 ---
 # LightLLM
 

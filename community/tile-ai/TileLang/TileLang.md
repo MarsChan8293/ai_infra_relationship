@@ -6,6 +6,7 @@ category: ai-compiler-kernel-dsl
 companies: []
 company_relation: academic-research-led
 github: https://github.com/tile-ai/tilelang
+linked_companies: []
 ---
 # TileLang
 

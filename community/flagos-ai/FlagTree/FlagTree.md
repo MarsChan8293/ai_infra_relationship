@@ -9,6 +9,7 @@ repository: https://github.com/flagos-ai/FlagTree
 open_source: true
 areas: [compiler, triton, heterogeneous-computing, multi-backend]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagTree
 

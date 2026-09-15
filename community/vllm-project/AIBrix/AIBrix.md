@@ -14,6 +14,8 @@ companies: ["字节跳动"]
 company_relation: company-originated
 layer: cloud-native-inference-infrastructure
 open_source: true
+linked_companies:
+  - "company/字节跳动/字节跳动"
 ---
 # AIBrix
 
@@ -50,3 +52,12 @@ https://github.com/vllm-project/aibrix
 - [[community/vllm-project/AIBrix/Xin Li|Xin Li]]：[[AIBrix]]：GPU optimizer / Kubernetes deployment 贡献者
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/字节跳动/字节跳动|字节跳动]]：公司页与社区/项目页均有显式记录；关系：`company-originated`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

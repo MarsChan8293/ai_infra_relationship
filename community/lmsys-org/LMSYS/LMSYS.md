@@ -10,6 +10,7 @@ areas: [llm-serving, evaluation, open-source-ai, ai-infrastructure]
 governance: community-led
 website: https://www.lmsys.org/
 last_verified: "2026-09"
+linked_companies: []
 ---
 # LMSYS
 

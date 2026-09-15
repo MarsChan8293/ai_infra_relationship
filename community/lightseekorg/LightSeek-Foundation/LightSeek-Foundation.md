@@ -9,6 +9,7 @@ areas: [llm-inference, agentic-inference, speculative-decoding, serving-systems]
 governance: foundation-led
 website: https://lightseek.org/
 last_verified: "2026-09"
+linked_companies: []
 ---
 # LightSeek Foundation
 

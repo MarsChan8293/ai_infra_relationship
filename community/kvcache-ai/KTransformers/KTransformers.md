@@ -19,6 +19,8 @@ companies: ["趋境科技"]
 company_relation: industry-academia-core-network
 layer: heterogeneous-inference
 open_source: true
+linked_companies:
+  - "company/趋境科技/趋境科技"
 ---
 # KTransformers
 
@@ -57,3 +59,12 @@ https://github.com/kvcache-ai/ktransformers
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[KTransformers]]：SOSP 2025 论文作者，连接清华 MADSys 与 Approaching.AI 的 MoE heterogeneous inference 网络。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-core-network`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

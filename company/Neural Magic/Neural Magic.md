@@ -5,6 +5,8 @@ status: acquired
 parent: Red Hat
 linked_people: []
 projects: [vLLM]
+linked_projects:
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # Neural Magic
 
@@ -25,3 +27,12 @@ Neural Magic 在并入 Red Hat 前已经形成密集的 vLLM 工程与维护者�
 ## Sources
 - https://www.redhat.com/en/about/press-releases/red-hat-completes-acquisition-neural-magic-fuel-optimized-generative-ai-innovation-across-hybrid-cloud
 - https://developers.redhat.com/articles/2025/02/06/distributed-inference-with-vllm
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：由公司页的 `projects:` / `communities:` 反向镜像。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

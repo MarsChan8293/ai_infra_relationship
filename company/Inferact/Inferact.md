@@ -10,6 +10,8 @@ linked_people:
   - "company/Inferact/Joseph Gonzalez"
   - "company/Inferact/Woosuk Kwon"
 projects: [vLLM]
+linked_projects:
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # Inferact
 
@@ -50,3 +52,12 @@ Inferact 是 AI inference infrastructure 公司，由 vLLM 创建者、核心维
 - [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[Inferact]]：联合创始人、CTO，2025-11–至今
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

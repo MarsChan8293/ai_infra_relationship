@@ -4,6 +4,8 @@ company: 月之暗面
 linked_people: []
 areas: [expert-parallelism, communication, moe]
 open_source: true
+linked_companies:
+  - "company/月之暗面/月之暗面"
 ---
 # MoonEP
 
@@ -20,3 +22,12 @@ https://github.com/MoonshotAI/MoonEP
 - [[DeepEP]]：MoonEP 官方 acknowledgments 明确称其受到 DeepEP 启发。
 - Echo / UltraEP / Alibaba AcclEP：其他 EP communication 实现路线。
 - [[Kimi-K2]] / [[Kimi-K3]]：Moonshot MoE 模型与自研通信层的组织连接。
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/月之暗面/月之暗面|月之暗面]]：由社区/项目页的 `companies:` / `company:` 反向镜像。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

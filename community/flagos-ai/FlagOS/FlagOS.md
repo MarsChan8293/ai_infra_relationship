@@ -17,6 +17,7 @@ areas: [heterogeneous-computing, llm-training, llm-inference, ai-compiler, kerne
 governance: BAAI-initiated multi-organization open-source community
 people: [敖玉龙, 赵英利, 曹州, 吕梦思, 白童心, 陈飞宇]
 last_verified: 2026-09
+linked_companies: []
 ---
 # 众智 FlagOS 社区
 

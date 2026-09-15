@@ -6,6 +6,8 @@ companies: ["Anyscale"]
 company_relation: core-commercial-ecosystem
 layer: distributed-serving
 open_source: true
+linked_companies:
+  - "company/Anyscale/Anyscale"
 ---
 # Ray Serve
 
@@ -25,3 +27,12 @@ Monorepo：https://github.com/ray-project/ray
 
 ## 生态关系
 [[Anyscale]] · [[vLLM]] · [[Dynamo]] · [[UC Berkeley]]。Ray Serve 位于通用 distributed serving 平台层，而 vLLM/SGLang 更偏 LLM-specialized engine。
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Anyscale/Anyscale|Anyscale]]：公司页与社区/项目页均有显式记录；关系：`core-commercial-ecosystem`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

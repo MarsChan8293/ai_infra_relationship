@@ -9,6 +9,7 @@ repository: https://github.com/flagos-ai/vllm-plugin-FL
 open_source: true
 areas: [vllm, heterogeneous-inference, hardware-backend, llm-serving]
 last_verified: 2026-09
+linked_companies: []
 ---
 # vllm-plugin-FL
 

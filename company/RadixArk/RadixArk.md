@@ -6,6 +6,8 @@ linked_people:
   - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/盛颖 Ying Sheng"
 projects: [SGLang]
+linked_projects:
+  - "community/sgl-project/SGLang/SGLang"
 ---
 # RadixArk
 
@@ -27,3 +29,12 @@ RadixArk 是围绕高性能 LLM serving 与 [[SGLang]] 生态形成的 AI infras
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：[[RadixArk]]：联合创始人、CEO；公开信息显示公司自 2025 年下半年已开始运行
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/sgl-project/SGLang/SGLang|SGLang]]：公司页与社区/项目页均有显式记录；关系：`core-maintainer-network`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

@@ -3,6 +3,7 @@ type: company
 name: Amazon / AWS
 linked_people:
   - "community/ai-dynamo/NIXL/Rongbing Zhou"
+linked_projects: []
 ---
 # Amazon / AWS
 

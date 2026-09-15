@@ -8,6 +8,8 @@ linked_people:
   - "community/llm-d/llm-d/Nili Guy"
   - "community/llm-d/llm-d/Vita Bortnikov"
 projects: [llm-d]
+linked_projects:
+  - "community/llm-d/llm-d/llm-d"
 ---
 # IBM
 
@@ -45,3 +47,12 @@ IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施�
 - [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

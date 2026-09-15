@@ -4,6 +4,8 @@ name: CoreWeave
 focus: [gpu-cloud, ai-infrastructure, inference]
 linked_people: []
 projects: [llm-d]
+linked_projects:
+  - "community/llm-d/llm-d/llm-d"
 ---
 # CoreWeave
 
@@ -16,3 +18,12 @@ CoreWeave 是 GPU cloud / AI infrastructure 公司，在开源 distributed infer
 ## Sources
 - https://llm-d.ai/blog/llm-d-announce
 - https://github.com/llm-d/llm-d
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

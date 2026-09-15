@@ -2,6 +2,7 @@
 type: company
 name: xAI
 linked_people: []
+linked_projects: []
 ---
 # xAI
 

@@ -13,6 +13,7 @@ repository: https://github.com/flagos-ai/FlagScale
 open_source: true
 areas: [distributed-training, heterogeneous-training, llm-inference, auto-tuning]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagScale
 

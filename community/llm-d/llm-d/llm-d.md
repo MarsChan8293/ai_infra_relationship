@@ -20,6 +20,12 @@ companies: ["Red Hat","Google","IBM","CoreWeave","NVIDIA"]
 company_relation: founding-contributors
 layer: kubernetes-distributed-inference
 open_source: true
+linked_companies:
+  - "company/CoreWeave/CoreWeave"
+  - "company/Google/Google"
+  - "company/IBM/IBM"
+  - "company/NVIDIA/NVIDIA"
+  - "company/Red Hat/Red Hat"
 ---
 # llm-d
 
@@ -81,3 +87,16 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[llm-d]]：以社区孵化、推广、技术布道和生态连接为主要参与方式，尤其面向中国及 APAC 开发者与产业社区。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/CoreWeave/CoreWeave|CoreWeave]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[company/Google/Google|Google]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[company/IBM/IBM|IBM]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：由社区/项目页的 `companies:` / `company:` 反向镜像；关系：`founding-contributors`。
+- [[company/Red Hat/Red Hat|Red Hat]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

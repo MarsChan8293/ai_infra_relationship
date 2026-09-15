@@ -11,6 +11,8 @@ companies: ["基流科技"]
 company_relation: industry-research-co-development
 layer: collective-communication
 open_source: true
+linked_companies:
+  - "company/基流科技/基流科技"
 ---
 # VCCL
 
@@ -51,3 +53,12 @@ Mingjun Zhang 的公开 GitHub 同时活跃/关注 [[SGLang]]、[[Mooncake]]、[
 - [[company/基流科技/Yanmin Jia|Yanmin Jia]]：VCCL：Infrawaves 作者，参与大规模 GPU 训练集群集合通信的可靠性、性能和可观测性研究。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/基流科技/基流科技|基流科技（InfraWaves）]]：公司页与社区/项目页均有显式记录；关系：`industry-research-co-development`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -11,6 +11,7 @@ repository: https://github.com/flagos-ai/FlagCX
 open_source: true
 areas: [collective-communication, heterogeneous-computing, distributed-training, distributed-inference]
 last_verified: 2026-09
+linked_companies: []
 ---
 # FlagCX
 

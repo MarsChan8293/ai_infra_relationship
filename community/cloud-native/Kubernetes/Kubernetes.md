@@ -9,6 +9,7 @@ open_source: true
 repository: https://github.com/kubernetes/kubernetes
 areas: [orchestration, scheduling, cloud-native, distributed-systems]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Kubernetes
 

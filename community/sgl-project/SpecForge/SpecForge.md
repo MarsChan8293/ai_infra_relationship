@@ -10,6 +10,7 @@ open_source: true
 repository: https://github.com/sgl-project/SpecForge
 areas: [speculative-decoding, draft-model-training, llm-inference, distributed-training]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # SpecForge
 

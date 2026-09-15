@@ -2,6 +2,7 @@
 type: company
 name: Baseten
 linked_people: []
+linked_projects: []
 ---
 # Baseten
 

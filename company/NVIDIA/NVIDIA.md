@@ -33,6 +33,14 @@ linked_people:
   - "community/triton-inference-server/Triton-Inference-Server/Yingge He"
   - "university/北京大学/Yining Shi"
 projects: [Dynamo, NIXL, TensorRT-LLM, Triton Inference Server, HAMi, TokenSpeed]
+linked_projects:
+  - "community/Project-HAMi/HAMi/HAMi"
+  - "community/llm-d/llm-d/llm-d"
+  - "community/ai-dynamo/NIXL/NIXL"
+  - "community/ai-dynamo/Dynamo/Dynamo"
+  - "community/NVIDIA/TensorRT-LLM/TensorRT-LLM"
+  - "community/lightseekorg/TokenSpeed/TokenSpeed"
+  - "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server"
 ---
 # NVIDIA
 
@@ -87,3 +95,18 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[university/北京大学/Yining Shi|Yining Shi]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
+- [[community/llm-d/llm-d/llm-d|llm-d]]：由社区/项目页的 `companies:` / `company:` 反向镜像；关系：`founding-contributors`。
+- [[community/ai-dynamo/NIXL/NIXL|NIXL]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
+- [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->
