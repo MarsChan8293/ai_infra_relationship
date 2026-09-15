@@ -10,6 +10,7 @@ recommended:
   - company_relation
   - areas
   - governance
+  - linked_people
   - last_verified
 fields:
   type:
@@ -38,7 +39,10 @@ fields:
     type: string
   people:
     type: array[string]
-    description: Optional high-value maintainers or organizers with direct public evidence.
+    description: Optional curated high-value maintainers or organizers with direct public evidence.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from person communities/projects fields. Generated automatically; do not edit by hand.
   last_verified:
     type: string
     pattern: YYYY-MM
@@ -48,3 +52,5 @@ notes:
   - Use `community` for a durable technical community or ecosystem identity. Use `project` for a concrete software project/repository when that is the primary identity.
   - Repository compatibility, sponsorship, or downstream usage alone is not evidence of shared governance or people collaboration.
   - Existing `type: community` pages remain valid during migration; obvious software-project cases may later be normalized to `project` deliberately rather than implicitly.
+  - `people` is curated; `linked_people` is exhaustive and derived only from explicit person project/community membership metadata.
+  - A reverse community link does not by itself imply employment, governance authority, or co-worker relations.
