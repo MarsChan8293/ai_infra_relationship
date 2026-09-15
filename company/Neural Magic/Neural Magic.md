@@ -33,6 +33,6 @@ Neural Magic 在并入 Red Hat 前已经形成密集的 vLLM 工程与维护者�
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
-- [[community/vllm-project/vLLM/vLLM|vLLM]]：由公司页的 `projects:` / `communities:` 反向镜像。
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

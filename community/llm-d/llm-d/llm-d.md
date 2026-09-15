@@ -96,7 +96,7 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - [[company/CoreWeave/CoreWeave|CoreWeave]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 - [[company/Google/Google|Google]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 - [[company/IBM/IBM|IBM]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
-- [[company/NVIDIA/NVIDIA|NVIDIA]]：由社区/项目页的 `companies:` / `company:` 反向镜像；关系：`founding-contributors`。
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 - [[company/Red Hat/Red Hat|Red Hat]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -5,9 +5,9 @@
   "project_community_nodes": 50,
   "project_community_nodes_with_links": 30,
   "association_pairs": 46,
-  "asserted_on_both_sides": 43,
-  "company_side_only": 1,
-  "entity_side_only": 2,
+  "asserted_on_both_sides": 46,
+  "company_side_only": 0,
+  "entity_side_only": 0,
   "recognized_non_community_project_targets": [
     {
       "source": "company/阿里巴巴/阿里巴巴.md",
@@ -127,9 +127,10 @@
       "entity_id": "community/vllm-project/vLLM/vLLM",
       "entity_name": "vLLM",
       "entity_type": "project",
-      "relation": null,
+      "relation": "cross-company-core-contributors",
       "sources": [
-        "company"
+        "company",
+        "entity"
       ]
     },
     {
@@ -152,6 +153,7 @@
       "entity_type": "project",
       "relation": "founding-contributors",
       "sources": [
+        "company",
         "entity"
       ]
     },
@@ -439,6 +441,7 @@
       "entity_type": "infra-project",
       "relation": null,
       "sources": [
+        "company",
         "entity"
       ]
     },

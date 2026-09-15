@@ -17,7 +17,13 @@ linked_people:
   - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
-companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh"]
+companies:
+  - "Inferact"
+  - "Red Hat"
+  - "Meta"
+  - "Hugging Face"
+  - "TensorMesh"
+  - "Neural Magic"
 company_relation: cross-company-core-contributors
 layer: inference-engine
 open_source: true
@@ -96,7 +102,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[company/Hugging Face/Hugging Face|Hugging Face]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 - [[company/Inferact/Inferact|Inferact]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 - [[company/Meta/Meta|Meta]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
-- [[company/Neural Magic/Neural Magic|Neural Magic]]：由公司页的 `projects:` / `communities:` 反向镜像。
+- [[company/Neural Magic/Neural Magic|Neural Magic]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 - [[company/Red Hat/Red Hat|Red Hat]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 - [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
