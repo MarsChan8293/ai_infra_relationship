@@ -13,6 +13,7 @@ roles: [Cofounder, Chief Scientist, Lead Maintainer]
 confidence: verified
 last_verified: 2026-09
 relations:
+  - '{"target":"university/清华大学/龙明盛 Mingsheng Long","type":["advisor","paper-coauthor"],"confidence":"high","evidence":["https://ise.thss.tsinghua.edu.cn/~mlong/","https://youkaichao.github.io/research","https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"company/Inferact/Woosuk Kwon","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://youkaichao.github.io/about","https://docs.vllm.ai/en/v0.21.0/governance/process/"]}'
   - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://youkaichao.github.io/about","https://docs.vllm.ai/en/v0.21.0/governance/process/"]}'
   - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["open-source-collaboration","paper-coauthor"],"project":"vLLM","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
@@ -32,7 +33,7 @@ relations:
 当前：[[Inferact]] 联合创始人、Chief Scientist
 
 ## 教育经历
-- [[清华大学]]：本科、博士
+- [[清华大学]]：本科、博士；博士导师 [[university/清华大学/龙明盛 Mingsheng Long|龙明盛（Mingsheng Long）]]
 - [[UC Berkeley]]：访问研究经历
 
 ## 工作经历
@@ -45,11 +46,12 @@ relations:
 公开资料说明自 2024 起参与 vLLM；现为 Lead Maintainer / Project Lead，负责 distributed、parallelism、torch.compile、RL integration 与硬件插件接口。vLLM governance 将其与 Woosuk Kwon、Zhuohan Li、Simon Mo、Robert Shaw、Michael Goin、Roger Wang 等列为共同参与路线图与技术决策的 Project Leads。
 
 ## 人物关系
+- [[university/清华大学/龙明盛 Mingsheng Long|龙明盛（Mingsheng Long）]]：**清华博士导师 + 长期论文合作者**。龙明盛官方主页将游凯超列为 2020–2025 博士生；双方共同署名多项 machine-learning 工作、depyf 与 2025 Jenga。该导师关系与游凯超后来进入 Berkeley / vLLM 网络是两段不同阶段，不应把龙明盛直接标成 vLLM maintainer。
 - [[Inferact/Woosuk Kwon|Woosuk Kwon]]：**vLLM 共同维护者 + Inferact 联合创始人**。2024 起在 vLLM 协作；游凯超 2024 在 UC Berkeley Sky Lab 访问时进入同一 Berkeley/vLLM 技术环境；2025–至今两人在 [[Inferact]] 共事，分别任 Chief Scientist 与 CTO。
 - [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**vLLM 共同维护者 + Inferact 联合创始人**。2024 起共同参与 vLLM 社区治理/工程；2025–至今在 Inferact 共事，Simon 任 CEO、游凯超任 Chief Scientist。
 - [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：**vLLM Project Lead + Inferact 创始团队同事**。两人在 vLLM 核心维护网络共同参与 roadmap / serving 系统演进；2025–至今同属 Inferact。Roger 偏 multimodality / benchmark，游凯超偏 distributed / compile / RL integration。
 - [[Inferact/Ion Stoica|Ion Stoica]]：**Berkeley Sky 技术环境 + Inferact founding network**。游凯超 2024 在 UC Berkeley Sky Lab 访问，Ion 是 Sky Lab Director；2026 Inferact 官方 launch 将两人都列入 founding members。公开资料不足以将 Ion 写成游凯超的正式导师。
-- [[Inferact/Joseph Gonzalez|Joseph Gonzalez]]：**Berkeley systems 技术环境 + Inferact founding network**。游凯超 2024 在 Berkeley Sky Lab 访问；Joseph 是 Sky / RISE systems 核心 faculty。2026 Inferact 官方 launch 将两人都列入 founding members；公开资料不足以写成正式导师关系。
+- [[Inferact/Joseph Gonzalez|Joseph Gonzalez]]：**Berkeley systems 技术环境 + Inferact founding network**。游凯超 2024 在 Berkeley Sky Lab 访问，Joseph 是 Sky / RISE systems 核心 faculty；2026 Inferact 官方 launch 将两人都列入 founding members。公开资料不足以写成正式导师关系。
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：**vLLM Lead Maintainer 跨公司协作**。两人至少从 2024 年起在 vLLM 的 distributed / RL integration / numerics 等维护网络有交叉；共同署名 2025 Jenga。李卓翰 2024 后进入 OpenAI、后 Meta，因此两人不是当前同事。
 - [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：**vLLM Project Lead 跨公司协作**。2025 Hardware Plugin 工作中，两人与 Simon Mo、Michael Goin 等共同参与 core refactor、deep discussion 与 review；截至 2026-09 两人仍同属 vLLM Project Leads，但分属 Inferact 与 [[Red Hat]]，不标记为同事。
 - [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：**vLLM Project Lead + compile / hardware-plugin 技术协作者**。2025 Hardware Plugin 工作中共同参与 refactor / design review；2025-08 又共同署名 vLLM 官方 torch.compile 技术文章，该内容源于 Red Hat 主持的 vLLM office hours。两人分属 Inferact 与 Red Hat。
@@ -62,8 +64,10 @@ relations:
 - [[OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：**早期清华 RL / Tianshou 开源合作者与论文合著者**。Tianshou 官方将翁家翌列为 original creator、游凯超列为 early contributor；两人共同署名 2022 JMLR Tianshou 论文。该关系早于双方进入 OpenAI 与 vLLM/Inferact，不能写成后续公司共事。
 
 ## Sources
+- https://ise.thss.tsinghua.edu.cn/~mlong/
 - https://youkaichao.github.io/
 - https://youkaichao.github.io/about
+- https://youkaichao.github.io/research
 - https://inferact.ai/
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://vcresearch.berkeley.edu/faculty/joseph-gonzalez
