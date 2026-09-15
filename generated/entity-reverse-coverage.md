@@ -4,11 +4,11 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 130
+- Company-person associations: 132
 - Project/community nodes: 46
 - Project/community nodes with ≥1 linked person: 28
 - Project/community-person associations: 190
-- Unresolved source values (backlog, non-fatal): 43
+- Unresolved source values (backlog, non-fatal): 41
 - Audit errors: 0
 
 ## Companies
@@ -17,12 +17,12 @@
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 30 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 12 |
+| [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/Inferact/Inferact|Inferact]] | 6 |
 | [[company/IBM/IBM|IBM]] | 5 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
-| [[company/清程极智/清程极智|清程极智]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
@@ -90,9 +90,7 @@
 - `company/智谱/唐杰 Jie Tang.md` · `affiliation` → `Tsinghua University`
 - `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `Tsinghua University`
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Tsinghua University`
-- `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Qingcheng.ai`
 - `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Tsinghua University`
-- `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Qingcheng.ai`
 - `company/趋境科技/Hongbo Kang.md` · `affiliation` → `Tsinghua University`
 - `company/趋境科技/武永卫 Yongwei Wu.md` · `affiliation` → `Tsinghua University`
 - `company/阿里巴巴/唐天一 Tianyi Tang.md` · `affiliation` → `Qwen`
