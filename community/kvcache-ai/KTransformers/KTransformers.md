@@ -37,8 +37,10 @@ https://github.com/kvcache-ai/ktransformers
 ## 主要维护者 / 组织
 项目现由 KVCache.AI 组织维护，核心研发网络与清华大学 MADSys Lab 高度重叠。SOSP 2025 KTransformers 作者网络包括 [[Hongtao Chen]]、[[谢威宇 Weiyu Xie]]、[[Boxin Zhang]]、[[Jingqi Tang]]、[[Jiahao Wang]]、[[Jianwei Dong]]、[[Qingliang Ou]]、[[Ziwei Yuan]] 等。
 
+论文作者网络还包括 [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] 与 [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]。两人随后又共同署名 SIGCOMM 2026 [[community/deepseek-ai/DualPath/DualPath|DualPath]]，因此 KTransformers 是从 MADSys 异构推理网络继续 BFS 到 DeepSeek inference systems 的重要桥，而不是把论文作者误写成当前 maintainer。
+
 ## 生态关系
-[[DeepSeek-Infra]] · [[FlashInfer]] · [[Mooncake]] · KVCache.AI · [[清华大学]]。它与 Mooncake 共同体现清华 MADSys 的“存储/内存层参与模型推理”路线。
+[[DeepSeek-Infra]] · [[FlashInfer]] · [[Mooncake]] · KVCache.AI · [[清华大学]] · [[community/deepseek-ai/DualPath/DualPath|DualPath]]。它与 Mooncake 共同体现清华 MADSys 的“存储/内存层参与模型推理”路线；Shaoyuan Chen 的后续去向又把这条路线接入 DeepSeek 的 KV-cache I/O 与 speculative decoding 研究。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
@@ -63,8 +65,12 @@ https://github.com/kvcache-ai/ktransformers
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
 ## 关联公司（自动汇总）
 
-以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+以下关系由公司页与社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-core-network`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+## Sources
+- https://sigops.org/s/conferences/sosp/2025/accepted.html
+- https://conferences.sigcomm.org/sigcomm/2026/accepted/
