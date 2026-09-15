@@ -9,9 +9,10 @@ The union of those explicit assertions is mirrored into generated fields:
 - company `linked_projects:`
 - project/community `linked_companies:`
 
-No relationship is inferred from employee participation alone. Existing prose and
-manual fields are preserved; only generated fields and marked body sections are
-replaced.
+Model teams/projects are recognized as valid company `projects:` values but are
+intentionally outside this community/project relation layer. No relationship is
+inferred from employee participation alone. Existing prose and manual fields are
+preserved; only generated fields and marked body sections are replaced.
 """
 from __future__ import annotations
 
@@ -23,6 +24,7 @@ from collections import defaultdict
 
 ROOTS = ("company", "community")
 ENTITY_TYPES = {"project", "community", "infra-project", "project-collection"}
+NON_COMMUNITY_PROJECT_TYPES = {"model-team", "model-project"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->"
 COMPANY_END = "<!-- END AUTO COMPANY COMMUNITY LINKS -->"
 ENTITY_START = "<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->"
@@ -259,16 +261,21 @@ def main() -> int:
     records = load_records(root)
     companies, company_aliases, company_ids = build_index(records, {"company"})
     entities, entity_aliases, entity_ids = build_index(records, ENTITY_TYPES)
+    _, noncommunity_aliases, noncommunity_ids = build_index(records, NON_COMMUNITY_PROJECT_TYPES)
 
     pair_sources: dict[tuple[str, str], set[str]] = defaultdict(set)
     pair_relations: dict[tuple[str, str], str] = {}
     unresolved = []
+    recognized_noncommunity = []
 
     for company in companies:
         for field in ("projects", "communities"):
             for value in get_values(company["fm"], field):
                 target = resolve(value, entity_aliases, entity_ids)
                 if not target:
+                    if field == "projects" and resolve(value, noncommunity_aliases, noncommunity_ids):
+                        recognized_noncommunity.append({"source": company["rel"], "value": value})
+                        continue
                     unresolved.append({"kind": f"company.{field}", "source": company["rel"], "value": value})
                     continue
                 pair_sources[(company["id"], target["id"])].add("company")
@@ -329,7 +336,8 @@ def main() -> int:
     print(
         f"Company/community sync: {len(companies)} companies, {len(entities)} project/community nodes, "
         f"{len(pair_sources)} pairs ({both} asserted on both sides, {company_only} company-only, "
-        f"{entity_only} entity-only), {len(touched)} files updated, {len(unresolved)} unresolved explicit values."
+        f"{entity_only} entity-only), {len(touched)} files updated, {len(unresolved)} unresolved explicit values, "
+        f"{len(recognized_noncommunity)} non-community project targets recognized."
     )
     for item in unresolved[:80]:
         print(f"UNRESOLVED {item['kind']}: {item['source']} -> {item['value']}")

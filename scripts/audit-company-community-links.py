@@ -32,18 +32,23 @@ def main() -> int:
     records = sync.load_records(root)
     companies, company_aliases, company_ids = sync.build_index(records, {"company"})
     entities, entity_aliases, entity_ids = sync.build_index(records, sync.ENTITY_TYPES)
+    _, noncommunity_aliases, noncommunity_ids = sync.build_index(records, sync.NON_COMMUNITY_PROJECT_TYPES)
     company_map = {r["id"]: r for r in companies}
     entity_map = {r["id"]: r for r in entities}
 
     pair_sources: dict[tuple[str, str], set[str]] = defaultdict(set)
     pair_relations: dict[tuple[str, str], str] = {}
     unresolved = []
+    recognized_noncommunity = []
 
     for company in companies:
         for field in ("projects", "communities"):
             for value in sync.get_values(company["fm"], field):
                 target = sync.resolve(value, entity_aliases, entity_ids)
                 if not target:
+                    if field == "projects" and sync.resolve(value, noncommunity_aliases, noncommunity_ids):
+                        recognized_noncommunity.append({"source": company["rel"], "value": value})
+                        continue
                     unresolved.append({"kind": f"company.{field}", "source": company["rel"], "value": value})
                     continue
                 pair_sources[(company["id"], target["id"])].add("company")
@@ -127,6 +132,7 @@ def main() -> int:
         "asserted_on_both_sides": both,
         "company_side_only": company_only,
         "entity_side_only": entity_only,
+        "recognized_non_community_project_targets": recognized_noncommunity,
         "unresolved_source_values": unresolved,
         "audit_errors": errors,
         "pairs": rows,
@@ -138,7 +144,7 @@ def main() -> int:
     md = [
         "# Company ↔ Community / Project Coverage",
         "",
-        "由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。",
+        "由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。",
         "",
         f"- Company nodes: {len(companies)}",
         f"- Companies with ≥1 linked project/community: {companies_with_links}",
@@ -148,6 +154,7 @@ def main() -> int:
         f"- Explicitly asserted on both sides: {both}",
         f"- Company-side only explicit assertions: {company_only}",
         f"- Entity-side only explicit assertions: {entity_only}",
+        f"- Recognized non-community project targets: {len(recognized_noncommunity)}",
         f"- Unresolved explicit source values: {len(unresolved)}",
         f"- Audit errors: {len(errors)}",
         "",
@@ -162,6 +169,10 @@ def main() -> int:
             f"| {wikilink(company)} | {wikilink(entity)} | {row['entity_type']} | "
             f"{row['relation'] or ''} | {source} |"
         )
+    if recognized_noncommunity:
+        md.extend(["", "## Recognized non-community project targets", ""])
+        for item in recognized_noncommunity:
+            md.append(f"- {item['source']} → `{item['value']}`")
     if unresolved:
         md.extend(["", "## Unresolved explicit values", ""])
         for item in unresolved:
@@ -174,7 +185,8 @@ def main() -> int:
 
     print(
         f"Company/community audit: {len(pair_sources)} pairs, {both} both-side assertions, "
-        f"{company_only} company-only, {entity_only} entity-only, {len(unresolved)} unresolved, {len(errors)} errors."
+        f"{company_only} company-only, {entity_only} entity-only, {len(recognized_noncommunity)} recognized non-community targets, "
+        f"{len(unresolved)} unresolved, {len(errors)} errors."
     )
     for item in unresolved[:80]:
         print(f"UNRESOLVED {item['kind']}: {item['source']} -> {item['value']}")
