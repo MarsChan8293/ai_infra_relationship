@@ -19,6 +19,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `flashinfer-ai`：[[FlashInfer]]
 - `Project-HAMi`：[[HAMi]]
 - `LMCache`：[[LMCache]]
+- `InternLM`：[[LMDeploy]]
 - `ModelTC`：[[LightLLM]]
 - `Oneflow-Inc`：[[OneFlow]]
 - `ray-project`：[[Ray-Serve]]
@@ -47,10 +48,11 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
 | [[FlagScale]] / [[FlagGems]] / [[FlagCX]] / [[FlagTree]] / [[FlagAttention]] / [[FlagRelease]] / [[FlagPerf]] | 暂无单一主要公司 | [[FlagOS]] 社区发起 / 智源研究院与多机构共建 |
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
+| [[LMDeploy]] | 暂无单一主要公司 | [[上海人工智能实验室]] / InternLM 开源生态主导 |
 | [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
 | [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 跨公司共同创建/协作 |
-| [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能|密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
+| [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能]] · [[company/道客/道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
 | [[KTransformers]] | [[company/趋境科技/趋境科技|趋境科技]] | 产业/学术核心网络 |
 | [[VCCL]] | [[company/基流科技/基流科技|基流科技]] | 产业/研究共建 |
 | [[OneFlow]] | [[company/一流科技/一流科技|一流科技]] | 原始开发 / 主导 |
@@ -61,7 +63,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]]
+[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]]
