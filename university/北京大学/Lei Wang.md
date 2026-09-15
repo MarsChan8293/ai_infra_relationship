@@ -2,7 +2,7 @@
 type: person
 name: Lei Wang
 aliases: [Lei Wang, LeiWang1999]
-current_affiliations: ["Peking University / Tile-AI"]
+current_affiliations: ["北京大学", "Tile-AI"]
 schools:
   - "北京大学"
 areas: [ai-compilers, gpu-kernels, kernel-dsl]
@@ -16,13 +16,16 @@ areas: [ai-compilers, gpu-kernels, kernel-dsl]
 - 官方仓库 acknowledgements 将 LeiWang1999、[[程羽 Yu Cheng]]、[[Yining Shi]] 列为初始版本主要开发者，并注明由 [[杨智 Zhi Yang]] 指导。
 - 技术兴趣集中在高性能 AI kernel、compiler / DSL 与 GPU execution。
 
+## 研究归属
+- [[北京大学]]：TileLang 论文及官方项目资料明确的学术 affiliation。
+- [[university/北京大学/Tile-AI|Tile-AI]]：TileLang 初始核心开发网络成员。
+
 ## 生态关系
 - [[TileLang]]：核心开发者。
 - **TVM**：公开 GitHub 长期参与/关注的 compiler 生态，也是 TileLang 底层基础设施来源。
 - **BitBLAS**：公开 GitHub pinned 项目之一，面向量化 LLM 的 mixed-precision matrix multiplication。
 - [[程羽 Yu Cheng]]、[[Yining Shi]]：TileLang / PipeThreader 共研关系。
 - [[杨智 Zhi Yang]]：TileLang 学术指导。
-
 
 ## 学校关联
 - [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
