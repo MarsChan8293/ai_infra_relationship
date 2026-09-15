@@ -4,6 +4,7 @@ name: 柳俊丞
 english_name: Juncheng Liu
 aliases: [柳俊丞, Juncheng Liu]
 current_affiliations: ["硅基流动"]
+projects: [OneFlow]
 roles: [CTO]
 areas: [distributed-deep-learning, ai-inference, cuda-kernels]
 last_verified: "2026-09"
@@ -16,7 +17,7 @@ relations:
 当前：[[硅基流动]] CTO；前 OneFlow 核心工程成员。
 
 ## AI Infra 经历
-- OneFlow：分布式深度学习框架核心技术网络；共同署名 2021 OneFlow 系统论文。
+- [[OneFlow]]：分布式深度学习框架核心技术网络；共同署名 2021 OneFlow 系统论文。
 - OneFlow CUDA/kernel 优化工作中参与 LayerNorm、elementwise 等性能工程。
 - [[硅基流动]]：2023–至今进入袁进辉带领的 OneFlow 核心班底，任 CTO，技术方向从训练框架延伸到生成式 AI inference / token infrastructure。
 
