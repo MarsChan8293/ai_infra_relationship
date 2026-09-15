@@ -12,8 +12,9 @@ areas: ["ai-infrastructure"]
 last_verified: "2026-09"
 relations:
   - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["open-source-collaboration","research-collaboration","same-lab"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
-  - '{"target":"company/Inferact/Ion Stoica","type":["open-source-collaboration","research-collaboration","same-lab"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
-  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["cofounder","open-source-collaboration"],"confidence":"high","evidence":["https://woosuk.me/","https://inferact.ai/","https://vllm.ai/events/vllm-conference/2026"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["advisor","mentor-network","research-collaboration"],"confidence":"high","evidence":["https://woosuk.me/","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","start":"2024","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://youkaichao.github.io/about"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["cofounder","coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","start":"2023","confidence":"high","evidence":["https://vllm.ai/events/vllm-conference/2026","https://docs.vllm.ai/en/latest/governance/process/","https://inferact.ai/"]}'
 ---
 # Woosuk Kwon
 
@@ -39,12 +40,14 @@ vLLM 创始人、PagedAttention 与早期 engine core 的主要设计者之一�
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**vLLM 共同维护者 + Inferact 联合创始人**。游凯超公开说明自 2024 起参与 vLLM；2024 在 UC Berkeley Sky Lab 访问期间与 vLLM Berkeley 核心团队处于同一研究/开源环境；2025–至今两人在 [[Inferact]] 共事，分别任 Chief Scientist 与 CTO。
 - [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：**vLLM 维护协作者 + Inferact 创始团队同事**。两人先在 vLLM 社区合作，2025–至今同属 [[Inferact]] founding team；Roger 主要负责 multimodality / benchmark，Woosuk 负责 engine core / attention。
 - [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：**vLLM 共同维护者 + Inferact 同事**。截至 2026-09 两人同属 [[Inferact]] 核心工程团队；Nick 负责 scheduler、AsyncLLM、distributed、API/KV Connector，Woosuk负责 engine core。Nick 加入 Inferact 的精确月份公开来源未确认。
-
+- [[Inferact/Ion Stoica|Ion Stoica]]：**UC Berkeley 博士导师**。Woosuk 的个人主页与 Berkeley 学位记录均明确列出 Ion Stoica 为博士导师，因此该关系使用 `advisor/student`，不再以模糊的 `same-lab` 代替。
 
 ## 学校关联
 - [[university/Seoul National University/Seoul National University|Seoul National University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://woosuk.me/
+- https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
 - https://inferact.ai/
+- https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/events/vllm-conference/2026
