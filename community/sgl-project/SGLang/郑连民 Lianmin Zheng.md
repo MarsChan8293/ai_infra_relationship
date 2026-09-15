@@ -3,16 +3,25 @@ type: person
 name: 郑连民
 english_name: Lianmin Zheng
 aliases: [郑连民, Lianmin Zheng]
+current_affiliations: ["UCLA"]
 schools:
   - "UC Berkeley"
   - "上海交通大学"
+  - "UCLA"
 communities: [SGLang, LMSYS]
-roles: [SGLang creator, scheduler merge-oncall]
+roles: [SGLang creator, scheduler merge-oncall, Assistant Professor]
 areas: [llm-serving, distributed-systems, compilers, evaluation]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["open-source-collaboration","research-collaboration","paper-coauthor"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md","https://sites.google.com/view/yingsheng/home"]}'
+  - '{"target":"community/sgl-project/SGLang/尹良升 Liangsheng Yin","type":["open-source-collaboration","technical-collaboration","paper-coauthor"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"community/sgl-project/SGLang/谢志强 Zhiqiang Xie","type":["open-source-collaboration","technical-collaboration","paper-coauthor"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/Inferact/Ion Stoica","type":["advisor","mentor-network"],"confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-137.html","https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html"]}'
+  - '{"target":"company/Inferact/Joseph Gonzalez","type":["advisor","mentor-network"],"confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-137.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html"]}'
 ---
 # 郑连民（Lianmin Zheng）
 
-SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。
+SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。2026-07 起任 [[UCLA]] Computer Science Assistant Professor。
 
 ## 教育经历
 - [[上海交通大学]]：ACM 荣誉班本科
@@ -21,7 +30,7 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 ## 工作与研究
 - Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
 - 曾在 [[xAI]] 负责 Grok inference 基础设施
-- 2026 年公开职业资料对其当前雇主存在 Meta / xAI 更新不同步，仓库不据此推断新的同事关系
+- [[UCLA]]：Computer Science Assistant Professor，2026-07–至今
 
 ## SGLang
 - 2023 年夏天参与启动 SGLang，2024-01 项目公开
@@ -37,7 +46,9 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 
 ## Sources
 - https://lmzheng.net/
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-137.html
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html
-- https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
+- https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
+- https://www.cs.ucla.edu/lianmin-zheng-will-join-ucla-computer-science-faculty/
 - https://arxiv.org/abs/2312.07104
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md

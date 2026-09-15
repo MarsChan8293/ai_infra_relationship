@@ -10,12 +10,13 @@ roles: [Professor, Sky Lab Director, Inferact Founding Member]
 areas: ["llm-inference","distributed-systems"]
 last_verified: "2026-09"
 relations:
-  - '{"target":"company/Inferact/Woosuk Kwon","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["student","research-collaboration","mentor-network"],"confidence":"high","evidence":["https://woosuk.me/","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html"]}'
   - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"company/Inferact/Joseph Gonzalez","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["research-collaboration"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
-  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["student","mentor-network"],"confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-137.html","https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["student","mentor-network"],"confidence":"high","evidence":["https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
 ---
 # Ion Stoica
@@ -43,6 +44,8 @@ Ion Stoica 是 Berkeley systems → AI serving 人才网络中的高中心度节
 ## Sources
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-137.html
 - https://sky.cs.berkeley.edu/
 - https://inferact.ai/
 - https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/
+- https://woosuk.me/
