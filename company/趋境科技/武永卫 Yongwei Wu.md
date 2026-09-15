@@ -3,12 +3,12 @@ type: person
 name: 武永卫
 english_name: Yongwei Wu
 aliases: [武永卫, Yongwei Wu]
-current_affiliations: ["Tsinghua University","Approaching.AI"]
+current_affiliations: ["Tsinghua University","启元实验室","Approaching.AI"]
 schools:
   - "清华大学"
 communities: [Mooncake, KTransformers]
-roles: [Professor, Chief Scientist]
-areas: [distributed-systems, storage, llm-serving, heterogeneous-inference]
+roles: [Professor, Qiyuan Intelligent Computing Systems Research Center Director, Chief Scientist]
+areas: [distributed-systems, storage, llm-serving, heterogeneous-inference, ai-systems]
 last_verified: "2026-09"
 relations:
   - '{"target":"company/趋境科技/艾智远 Zhiyuan Ai","type":["coworker"],"confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/","https://madsys.cs.tsinghua.edu.cn/publication/","https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"]}'
@@ -17,14 +17,15 @@ relations:
 ---
 # 武永卫（Yongwei Wu）
 
-当前：[[清华大学]] 计算机系教授；2026-03–至今任 [[趋境科技]] 首席科学家。
+当前：[[清华大学]] 计算机系教授；[[university/启元实验室/启元实验室|启元实验室]]智能计算系统研究中心主任；2026-03–至今任 [[趋境科技]] 首席科学家。
 
 ## AI Infra 位置
-清华 MADSys / 高性能系统研究网络的重要节点，参与 [[Mooncake]]、[[KTransformers]] 等 KVCache-centric serving 与 CPU/GPU heterogeneous inference 工作，并通过趋境科技把“以存换算”、异构推理和 Token 基础设施推进产业化。
+清华 MADSys / 高性能系统研究网络的重要节点，参与 [[Mooncake]]、[[KTransformers]] 等 KVCache-centric serving 与 CPU/GPU heterogeneous inference 工作，并通过启元实验室的九源统一智能计算架构连接国产智能芯片基础软件，通过趋境科技把“以存换算”、异构推理和 Token 基础设施推进产业化。
 
-## 项目关系
+## 项目与机构关系
 - [[Mooncake]]：2025 Mooncake 论文作者，连接 MADSys 与 Moonshot/Kimi production workload。
 - [[KTransformers]]：SOSP 2025 论文作者，连接清华 MADSys 与 Approaching.AI 的 MoE heterogeneous inference 网络。
+- [[university/启元实验室/启元实验室|启元实验室]]：2025 年 CCF《计算》作者简介明确列为“启元实验室智能计算系统研究中心主任、教授”。与王豪杰、潘泽众、黄嘉成、李映辉等共同署名《面向国产智能芯片的统一智能计算架构》，该工作说明启元实验室牵头建设九源统一智能计算架构。
 - [[趋境科技]]：2026-03–至今 Chief Scientist；公开报道与公司资料均可核验。
 
 ## 人物关系
@@ -37,5 +38,6 @@ relations:
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/
 - https://madsys.cs.tsinghua.edu.cn/publication/
+- https://cccf.hrbeu.edu.cn/cn/article/id/5aa85132-b8db-4152-99d8-7b3cab286df2
 - https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm
 - https://approaching-ai.com/
