@@ -24,6 +24,7 @@ on:
       - "scripts/sync-school-people.py"
       - "scripts/sync-entity-people.py"
       - "scripts/sync-research-people.py"
+      - "scripts/sync-explicit-company-community.py"
       - "scripts/sync-company-community.py"
       - ".github/workflows/sync-node-schemas.yml"
   workflow_dispatch:
@@ -64,6 +65,9 @@ jobs:
 
       - name: Sync reverse research-institution-person links
         run: python3 scripts/sync-research-people.py --root .
+
+      - name: Canonicalize explicit company-community assertions
+        run: python3 scripts/sync-explicit-company-community.py --root .
 
       - name: Sync bidirectional company-community links
         run: python3 scripts/sync-company-community.py --root .
