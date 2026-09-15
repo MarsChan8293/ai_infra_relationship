@@ -10,8 +10,8 @@ education: [Harvard University]
 areas: [pytorch-compiler, torch-compile, ai-infrastructure]
 last_verified: "2026-09"
 relations:
-  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://vllm.ai/blog/2025-08-20-torch-compile","https://vllm.ai/events/vllm-conference/2026","https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/"]}'
-  - '{"target":"community/vllm-project/vLLM/Michael Goin","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://www.linkedin.com/in/richard-zou-bb3558a6","https://github.com/zou3519","https://vllm.ai/blog/2025-08-20-torch-compile"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-08-20-torch-compile","https://vllm.ai/events/vllm-conference/2026","https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/"]}'
+  - '{"target":"community/vllm-project/vLLM/Michael Goin","type":["technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-08-20-torch-compile"]}'
 ---
 # Richard Zou
 
@@ -26,8 +26,8 @@ relations:
 - 2026 vLLM Conference：以 PyTorch / Meta 身份分享 PyTorch 对 vLLM 的支持
 
 ## 人物关系
-- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**PyTorch compiler ↔ vLLM 技术协作，不是同事**。2025-08 vLLM 官方 torch.compile 技术文章由 Richard、游凯超、Michael Goin 等共同署名，内容来自 Red Hat 主持的 vLLM biweekly office hours；游凯超负责 vLLM compile integration 一侧，Richard 位于 PyTorch / Meta compiler 一侧。截至 2026-09 分属 Meta 与 [[Inferact]]。
-- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：**PyTorch compiler ↔ vLLM performance 跨公司技术协作**。两人共同署名 2025-08 vLLM torch.compile 技术文章；截至 2026-09 分属 Meta 与 [[Red Hat]]。
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**PyTorch compiler ↔ vLLM 技术协作，不是同事**。2025-08 vLLM 官方 torch.compile 技术文章由 Richard、游凯超、Michael Goin 等共同署名，内容来自 Red Hat 主持的 vLLM biweekly office hours；游凯超负责 vLLM compile integration 一侧，Richard 位于 PyTorch / Meta compiler 一侧。截至 2026-09 分属 Meta 与 [[Inferact]]。该来源是技术文章，不按 paper-coauthor 处理。
+- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：**PyTorch compiler ↔ vLLM performance 跨公司技术协作**。两人共同署名 2025-08 vLLM 官方 torch.compile 技术文章；截至 2026-09 分属 Meta 与 [[Red Hat]]。该来源是工程文章，不是学术论文。
 - Thomas Parnell：**vLLM 硬件可移植性公开技术协作者**。2026 PyTorch Conference 两人共同分享 hardware-agnostic vLLM model definitions，展示 Intel Gaudi/HPU 与 IBM Spyre 等后端无需 fork 模型定义的路径。
 
 ## Sources
