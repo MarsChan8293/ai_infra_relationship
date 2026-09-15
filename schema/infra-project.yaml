@@ -10,6 +10,7 @@ recommended:
   - repository
   - layer
   - people
+  - linked_people
   - last_verified
 fields:
   type:
@@ -33,7 +34,10 @@ fields:
     description: Canonical official repository URL when publicly available.
   people:
     type: array[string]
-    description: Optional high-value contributors with direct public evidence.
+    description: Optional curated high-value contributors with direct public evidence.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from explicit person projects/communities metadata. Generated automatically; do not edit by hand.
   related_projects:
     type: array[string]
     description: Closely related canonical infrastructure projects.
@@ -43,3 +47,4 @@ fields:
 notes:
   - Use infra-project for company-scoped infrastructure projects that are not represented as a broader open-source community node.
   - Compatibility with another project does not imply a person-to-person relationship.
+  - `people` is curated; `linked_people` is the exhaustive generated reverse set and does not by itself imply employment or governance authority.
