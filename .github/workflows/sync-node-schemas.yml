@@ -16,6 +16,7 @@ on:
       - "scripts/audit-school-reverse-links.py"
       - "scripts/audit-entity-reverse-links.py"
       - "scripts/audit-research-links.py"
+      - "scripts/audit-company-community-links.py"
       - "scripts/generate-node-schemas.py"
       - "scripts/migrate-legacy-education.py"
       - "scripts/repair-markdown-quality.py"
@@ -23,6 +24,7 @@ on:
       - "scripts/sync-school-people.py"
       - "scripts/sync-entity-people.py"
       - "scripts/sync-research-people.py"
+      - "scripts/sync-company-community.py"
       - ".github/workflows/sync-node-schemas.yml"
   workflow_dispatch:
 
@@ -63,6 +65,9 @@ jobs:
       - name: Sync reverse research-institution-person links
         run: python3 scripts/sync-research-people.py --root .
 
+      - name: Sync bidirectional company-community links
+        run: python3 scripts/sync-company-community.py --root .
+
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
 
@@ -78,6 +83,9 @@ jobs:
       - name: Validate reverse research-institution-person coverage
         run: python3 scripts/audit-research-links.py --root . --generated generated
 
+      - name: Validate bidirectional company-community coverage
+        run: python3 scripts/audit-company-community-links.py --root . --generated generated
+
       - name: Validate typed relations
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
 
@@ -92,13 +100,13 @@ jobs:
       - name: Commit repaired Markdown and synchronized schemas
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json generated/research-reverse-coverage.md generated/research-reverse-coverage.json)" ]]; then
-            echo "Markdown, reverse entity links, coverage reports, and node schemas already synchronized."
+          if [[ -z "$(git status --porcelain -- 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json generated/research-reverse-coverage.md generated/research-reverse-coverage.json generated/company-community-coverage.md generated/company-community-coverage.json)" ]]; then
+            echo "Markdown, bidirectional entity links, coverage reports, and node schemas already synchronized."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json generated/research-reverse-coverage.md generated/research-reverse-coverage.json
-          git commit -m "chore(graph): sync bidirectional entity-person links"
+          git add 'AI Infra Relationship.md' company community university schema/nodes schema/node-manifest.json generated/school-coverage.md generated/school-coverage.json generated/school-reverse-coverage.md generated/school-reverse-coverage.json generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json generated/research-reverse-coverage.md generated/research-reverse-coverage.json generated/company-community-coverage.md generated/company-community-coverage.json
+          git commit -m "chore(graph): sync bidirectional entity links"
           git push origin HEAD:main

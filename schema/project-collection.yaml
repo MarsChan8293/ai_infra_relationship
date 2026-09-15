@@ -6,6 +6,7 @@ required:
 recommended:
   - company
   - companies
+  - linked_companies
   - company_relation
   - layer
   - projects
@@ -20,13 +21,16 @@ fields:
     description: Canonical name of the grouped project or systems-stack collection.
   company:
     type: string
-    description: Legacy or primary canonical company associated with the collection.
+    description: Legacy or primary human-authored canonical company associated with the collection.
   companies:
     type: array[string]
-    description: Canonical companies with a direct, evidence-backed relationship to the collection.
+    description: Human-authored canonical companies with a direct, evidence-backed relationship to the collection.
+  linked_companies:
+    type: array[string]
+    description: Exhaustive derived canonical company references from explicit collection/company assertions on either side. Generated automatically; do not edit by hand.
   company_relation:
     type: string
-    description: Nature of the collection-to-company relationship, such as company-led or founding-contributors.
+    description: Nature of the human-authored collection-to-company relationship, such as company-led or founding-contributors.
   layer:
     type: string
     description: Primary systems layer represented by the collection.
@@ -52,4 +56,6 @@ fields:
 notes:
   - A project-collection groups several related technical projects or a systems stack; it does not replace canonical child project nodes.
   - Child projects should remain independently readable and link back to the collection when useful.
+  - `company` / `companies` are human-authored evidence; `linked_companies` is the generated bidirectional company mirror.
+  - `linked_companies` must not be inferred merely because employees from a company contribute to projects in the collection.
   - `people` is curated; `linked_people` is exhaustive and generated from explicit person project/community metadata.

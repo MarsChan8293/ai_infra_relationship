@@ -5,6 +5,7 @@ required:
   - name
 recommended:
   - companies
+  - linked_companies
   - company_relation
   - layer
   - open_source
@@ -20,10 +21,13 @@ fields:
     description: Canonical project name.
   companies:
     type: array[string]
-    description: Only companies with strong origin, founding, core-maintainer, or long-term engineering evidence.
+    description: Human-authored companies with strong origin, founding, core-maintainer, or long-term engineering evidence.
+  linked_companies:
+    type: array[string]
+    description: Exhaustive derived canonical company references from the union of project companies/company and company projects/communities assertions. Generated automatically; do not edit by hand.
   company_relation:
     type: string
-    description: Nature of the company relationship, for example company-originated, company-led, founding-contributors, core-maintainer-network, community-led.
+    description: Nature of the human-authored company relationship, for example company-originated, company-led, founding-contributors, core-maintainer-network, community-led.
   layer:
     type: string
     description: Primary AI Infra layer such as inference-engine, distributed-serving, kv-cache, compiler, kernel, communication, hardware-backend.
@@ -51,7 +55,9 @@ legacy_migration:
   company: companies
 notes:
   - Existing project pages are migrated incrementally; legacy singular company currently produces a warning.
-  - Compatibility, sponsorship, or downstream usage alone is not enough to put a company in companies.
+  - Compatibility, sponsorship, or downstream usage alone is not enough to put a company in `companies`.
+  - `companies` is human-authored evidence; `linked_companies` is the exhaustive generated mirror of explicit project/company assertions from either side.
+  - `linked_companies` must not be inferred merely because employees from a company contribute to the project.
   - The project body should remain independently readable and include purpose, repository, maintainers/governance, and ecosystem relationships.
   - `people` is curated; `linked_people` is exhaustive and derived only from explicit person project/community membership metadata.
   - A reverse project link does not by itself imply employment, governance authority, or co-worker relations.

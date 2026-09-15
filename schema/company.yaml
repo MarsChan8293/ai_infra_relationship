@@ -7,6 +7,7 @@ recommended:
   - aliases
   - areas
   - projects
+  - linked_projects
   - people
   - linked_people
   - last_verified
@@ -23,7 +24,10 @@ fields:
     description: Relevant AI Infra or foundation-model focus areas.
   projects:
     type: array[string]
-    description: Projects with a direct, verifiable company relationship.
+    description: Human-authored, evidence-backed projects or communities with a direct company relationship.
+  linked_projects:
+    type: array[string]
+    description: Exhaustive derived canonical project/community references from the union of company projects/communities and project/community companies/company assertions. Generated automatically; do not edit by hand.
   people:
     type: array[string]
     description: Optional curated high-value people references; do not mechanically enumerate every employee.
@@ -41,5 +45,7 @@ notes:
   - A company node must remain independently readable and explain why the company belongs in the AI Infra graph.
   - Business units and model teams should normally attach to the canonical parent company rather than duplicate company entities.
   - People and project relationships should be evidence-backed; compatibility or customer relationships are not sufficient by themselves.
+  - `projects` is human-authored evidence; `linked_projects` is the exhaustive generated mirror of explicit company/project-community assertions from either side.
+  - `linked_projects` must not be inferred merely because one or more employees contribute to an open-source project.
   - `people` is curated; `linked_people` is the exhaustive generated reverse set derived only from person `current_affiliations`.
   - `linked_people` must not be interpreted as reporting-line, team, co-worker, or historical-employment evidence by itself.

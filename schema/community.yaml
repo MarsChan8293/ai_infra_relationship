@@ -7,6 +7,7 @@ recommended:
   - category
   - repository
   - companies
+  - linked_companies
   - company_relation
   - areas
   - governance
@@ -29,10 +30,13 @@ fields:
     description: Legacy/compatibility field for an official GitHub URL; prefer `repository` for new pages.
   companies:
     type: array[string]
-    description: Companies with strong founding, governance, or core-maintainer evidence.
+    description: Human-authored companies with strong founding, governance, or core-maintainer evidence.
+  linked_companies:
+    type: array[string]
+    description: Exhaustive derived canonical company references from the union of community companies/company and company projects/communities assertions. Generated automatically; do not edit by hand.
   company_relation:
     type: string
-    description: Nature of the company relationship, following the same evidence standard as project nodes.
+    description: Nature of the human-authored company relationship, following the same evidence standard as project nodes.
   areas:
     type: array[string]
   governance:
@@ -51,6 +55,8 @@ legacy_migration:
 notes:
   - Use `community` for a durable technical community or ecosystem identity. Use `project` for a concrete software project/repository when that is the primary identity.
   - Repository compatibility, sponsorship, or downstream usage alone is not evidence of shared governance or people collaboration.
+  - `companies` is human-authored evidence; `linked_companies` is the exhaustive generated mirror of explicit company/community assertions from either side.
+  - `linked_companies` must not be inferred merely because employees from a company participate in the community.
   - Existing `type: community` pages remain valid during migration; obvious software-project cases may later be normalized to `project` deliberately rather than implicitly.
   - `people` is curated; `linked_people` is exhaustive and derived only from explicit person project/community membership metadata.
   - A reverse community link does not by itself imply employment, governance authority, or co-worker relations.

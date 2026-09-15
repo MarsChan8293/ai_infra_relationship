@@ -5,6 +5,7 @@ required:
   - name
   - company
 recommended:
+  - linked_companies
   - areas
   - open_source
   - repository
@@ -20,7 +21,10 @@ fields:
     description: Canonical infrastructure project name.
   company:
     type: string
-    description: Canonical company responsible for the infrastructure project.
+    description: Human-authored canonical company responsible for the infrastructure project.
+  linked_companies:
+    type: array[string]
+    description: Exhaustive derived canonical company references from explicit project/company assertions on either side. Generated automatically; do not edit by hand.
   areas:
     type: array[string]
     description: Technical focus such as communication, expert-parallelism, moe, serving, compiler, kernels, or kv-cache.
@@ -47,4 +51,6 @@ fields:
 notes:
   - Use infra-project for company-scoped infrastructure projects that are not represented as a broader open-source community node.
   - Compatibility with another project does not imply a person-to-person relationship.
+  - `company` is human-authored evidence; `linked_companies` is the generated bidirectional company mirror.
+  - `linked_companies` must not be inferred merely because employees from a company contribute to the project.
   - `people` is curated; `linked_people` is the exhaustive generated reverse set and does not by itself imply employment or governance authority.
