@@ -26,6 +26,10 @@ UC Berkeley EECS 博士生，Joseph Gonzalez 与 Ion Stoica 研究网络成员�
 ## 图谱意义
 Shiyi Cao 是从 `Jenga → Shu Liu → MoE-Lightning` 扩出的高价值二跳节点，又通过 SGLang 把这条 Berkeley 系统链接回你仓库已有的另一条主流 LLM serving 生态。
 
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://people.eecs.berkeley.edu/~istoica/index.html
 - https://people.eecs.berkeley.edu/~jegonzal/

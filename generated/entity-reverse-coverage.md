@@ -5,10 +5,10 @@
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
 - Company-person associations: 140
-- Project/community nodes: 56
-- Project/community nodes with ≥1 linked person: 38
-- Project/community-person associations: 217
-- Non-company affiliations recognized and routed elsewhere: 41
+- Project/community nodes: 57
+- Project/community nodes with ≥1 linked person: 39
+- Project/community-person associations: 224
+- Non-company affiliations recognized and routed elsewhere: 44
 - Unresolved source values (backlog, non-fatal): 2
 - Audit errors: 0
 
@@ -52,9 +52,9 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 15 |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 16 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 14 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 13 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
@@ -67,6 +67,7 @@
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
+| [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
@@ -79,8 +80,8 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
-| [[community/vllm-project/Jenga/Jenga|Jenga]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
+| [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |

@@ -28,6 +28,10 @@ relations:
 ## 图谱意义
 这条边补齐了另一条不同于 PACMAN 的清华推理人才谱系：`龙明盛 → 游凯超 → vLLM → Inferact`；它与 `翟季冬 → Chen Zhang → Jenga → vLLM` 在 Jenga / vLLM 处汇合，但不应混为同一实验室谱系。
 
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://ise.thss.tsinghua.edu.cn/~mlong/
 - https://www.thss.tsinghua.edu.cn/info/1131/1765.htm

@@ -5,6 +5,9 @@ organization: Tsinghua University / UC Berkeley
 linked_people:
   - "community/vllm-project/vLLM/Chen Zhang"
   - "company/清程极智/翟季冬 Jidong Zhai"
+  - "university/UC Berkeley/Shu Liu"
+  - "university/UC Berkeley/Xiangxi Mo"
+  - "university/清华大学/龙明盛 Mingsheng Long"
 layer: heterogeneous-memory-management
 areas: [llm-serving, memory-management, kv-cache, heterogeneous-models]
 people:
@@ -55,5 +58,8 @@ Jenga 是从翟季冬出发最关键的二跳桥之一：`翟季冬 → Chen Zha
 
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 第一作者；连接清华 PACMAN 与 Berkeley / vLLM serving 系统网络
 - [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025，与 [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]]、[[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]]、Woosuk Kwon、Zhuohan Li、Joseph Gon...
+- [[university/UC Berkeley/Shu Liu|Shu Liu]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 作者，参与异构 LLM serving memory management 研究。
+- [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 作者，连接 Berkeley systems 与现代 LLM serving memory management。
+- [[university/清华大学/龙明盛 Mingsheng Long|龙明盛（Mingsheng Long）]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 作者，与游凯超、翟季冬及 Berkeley / vLLM 作者网络共同署名。
 
 <!-- END AUTO PROJECT PEOPLE -->

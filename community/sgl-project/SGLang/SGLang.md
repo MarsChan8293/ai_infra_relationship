@@ -16,6 +16,7 @@ linked_people:
   - "company/RadixArk/Qiaolin Yu"
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/盛颖 Ying Sheng"
+  - "university/UC Berkeley/Shiyi Cao"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: llm-serving-engine
@@ -69,6 +70,7 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
+- [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
 
 <!-- END AUTO PROJECT PEOPLE -->
 

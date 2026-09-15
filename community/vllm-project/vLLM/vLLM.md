@@ -17,6 +17,7 @@ linked_people:
   - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
+  - "university/UC Berkeley/Xiangxi Mo"
 companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh","Neural Magic"]
 company_relation: cross-company-core-contributors
 layer: inference-engine
@@ -77,7 +78,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[vLLM]]：长期 contributor；参与模型 day-0 support、backend interface 与 inference serving 工程
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[vLLM]] × [[Mooncake]]：2026-05 参与 distributed KV cache integration，用于大规模 agentic workloads；这里记录为项目集成，不将乔一凡标成 Mooncake 核心社区成员
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**UC Berkeley 同实验室研究者 + vLLM 共同创始/共同维护者**。李卓翰 2019–2024、Woosuk 2021–2025 在 Berkeley CS 博士阶段有 2021–2024 的重叠，并都处于 [[Ion Stoica]] 的系统研究网络；2023 共同创建 / 推动 [[vLLM]]。
-- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**vLLM 共同维护者 + Inferact 联合创始人**。2024 起在 vLLM 协作；游凯超 2024 在 UC Berkeley Sky Lab 访问时进入同一 Berkeley/vLLM 技术环境；2025–至今两人在 [[Inferact]] 共事，分别任 Chief Scientist 与 CTO。
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[university/清华大学/龙明盛 Mingsheng Long|龙明盛（Mingsheng Long）]]：**清华博士导师 + 长期论文合作者**。龙明盛官方主页将游凯超列为 2020–2025 博士生；双方共同署名多项 machine-learning 工作、depyf 与 2025 Jenga。该导师关系与游凯超后来进入 Berkeley / vLLM 网络是两段不同阶段，不应把龙明盛直接标成 vLLM maintainer。
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**UC Berkeley 博士导师 / 学生 + vLLM 研究网络**。Woosuk 2021–2025 在 Berkeley CS 博士阶段由 Ion Stoica 指导，博士论文主题为 vLLM / efficient LLM inference；此后两人又同属 Inferact founding network。
 - [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**UC Berkeley 博士共同导师 / 学生 + inference serving 研究网络**。Simon 2026 博士论文《Building Open Source Inference Serving Systems》由 Joseph Gonzalez 与 [[Inferact/Ion Stoica|Ion Stoica]] 共同指导；研究覆盖 Ray Se...
 - [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[vLLM]] 创始人；2023 起推动项目与 PagedAttention / engine core
@@ -85,6 +86,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[vLLM]]：博士阶段参与高效 LLM inference 与 vLLM 团队
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[vLLM]]：KV Connector 与 LMCache 集成方向重要贡献者
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[vLLM]]：KV Connector / offloading 生态的重要贡献者
+- [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 作者，连接 Berkeley systems 与现代 LLM serving memory management。
 
 <!-- END AUTO PROJECT PEOPLE -->
 
