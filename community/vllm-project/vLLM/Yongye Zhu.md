@@ -14,8 +14,6 @@ last_verified: "2026-09"
 relations:
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
-  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["coworker"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
-  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["coworker"],"confidence":"high","evidence":["https://github.com/zyongye","https://zyongye.github.io/","https://vllm.ai/blog/2026-07-06-vllm-hpc-ops"]}'
 ---
 # Yongye Zhu
 
@@ -34,8 +32,8 @@ relations:
 ## 人物关系
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**Inferact 同事 + vLLM backend / model-support 工程协作者**。截至 2026-09 两人同属 [[Inferact]]；2026-07 vLLM × Tencent HPC-Ops 集成中，Yongye、游凯超与 [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]] 被官方共同感谢于 open backend interfaces、review 与 design discussion；2025 DeepSeek-V3.2 支持中两人也同列 vLLM 贡献团队。
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：**Inferact 同事 + vLLM backend 设计协作者**。截至 2026-09 同属 Inferact；2026-07 HPC-Ops 集成中共同参与 backend interface、review 与 design discussion。
-- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**Inferact 同事 + vLLM 模型支持协作者**。截至 2026-09 同属 Inferact；2025 DeepSeek-V3.2 支持中同列 vLLM 贡献团队。Yongye 加入 Inferact 的精确月份公开来源未确认。
-- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**vLLM 模型支持协作者，不是当前同事**。2025 DeepSeek-V3.2 支持中两人同列 vLLM 贡献团队；截至 2026-09 Chen 在 [[Meta]]、Yongye 在 [[Inferact]]。
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**候选关系，暂缓结构化**。两人截至 2026-09 同属 Inferact，且都出现在 2025 DeepSeek-V3.2 支持团队中，但“同公司 + 同一贡献团队”不足以单独证明强人物关系。
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**候选关系，暂缓结构化**。2025 DeepSeek-V3.2 支持中两人同列贡献团队，但没有足够 pair-specific 证据证明直接合作；截至 2026-09 Chen 在 [[Meta]]、Yongye 在 [[Inferact]]。
 
 ## Sources
 - https://github.com/zyongye
