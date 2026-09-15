@@ -1,3 +1,17 @@
+---
+type: person
+name: Roger Wang
+current_affiliations: ["Inferact"]
+communities: [vLLM]
+areas: [multimodality, benchmarking, model-support]
+roles: [Founding Team, Core Maintainer]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+---
 # Roger Wang
 
 社区：[[vLLM]]
@@ -22,4 +36,6 @@ vLLM Project Lead，主要负责 multimodality、benchmark 与多模态推理生
 ## Sources
 - https://inferact.ai/
 - https://docs.vllm.ai/en/v0.21.0/governance/process/
+- https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/events/vllm-conference/2026
+- https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality

@@ -1,3 +1,17 @@
+---
+type: person
+name: Robert Shaw
+current_affiliations: ["Red Hat"]
+communities: [vLLM, llm-d]
+areas: [distributed-serving, disaggregation, kv-cache, observability, kubernetes]
+roles: [Director of Engineering, Core Maintainer, PD-Disaggregation SIG Lead]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://docs.vllm.ai/en/latest/governance/process/"]}'
+  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://docs.vllm.ai/en/latest/governance/committers/"]}'
+  - '{"target":"community/vllm-project/vLLM/Michael Goin","type":["coworker","open-source-collaboration","technical-collaboration"],"project":"vLLM","company":"Red Hat","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://www.redhat.com/en/authors/michael-goin","https://docs.vllm.ai/en/latest/governance/process/"]}'
+---
 # Robert Shaw
 
 社区：[[vLLM]] · [[llm-d]]
@@ -28,7 +42,10 @@
 ## Sources
 - https://llm-d.ai/community/sigs
 - https://llm-d.ai/blog/authors
+- https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1
 - https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm
 - https://www.redhat.com/en/about/press-releases/red-hat-completes-acquisition-neural-magic-fuel-optimized-generative-ai-innovation-across-hybrid-cloud
 - https://docs.vllm.ai/en/v0.21.0/governance/process/
+- https://docs.vllm.ai/en/latest/governance/process/
+- https://docs.vllm.ai/en/latest/governance/committers/
 - https://vllm.ai/blog/2025-05-12-hardware-plugin

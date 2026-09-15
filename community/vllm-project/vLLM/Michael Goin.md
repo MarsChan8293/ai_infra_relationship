@@ -1,3 +1,18 @@
+---
+type: person
+name: Michael Goin
+current_affiliations: ["Red Hat"]
+schools:
+  - "University of Tennessee, Knoxville"
+communities: [vLLM]
+areas: [quantization, kernels, performance, scheduler, hardware-efficiency]
+roles: [Principal Engineer, Core Maintainer]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["coworker","open-source-collaboration","technical-collaboration"],"project":"vLLM","company":"Red Hat","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://www.redhat.com/en/authors/michael-goin","https://docs.vllm.ai/en/latest/governance/process/"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://vllm.ai/blog/2025-08-20-torch-compile","https://docs.vllm.ai/en/latest/governance/process/"]}'
+---
 # Michael Goin
 
 社区：[[vLLM]]
@@ -25,7 +40,10 @@ vLLM Lead Maintainer / Project Lead，负责 quantization、Blackwell、FlashInf
 
 ## Sources
 - https://www.redhat.com/en/authors/michael-goin
+- https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1
 - https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm
 - https://docs.vllm.ai/en/v0.21.0/governance/process/
+- https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/blog/2025-05-12-hardware-plugin
 - https://vllm.ai/blog/2025-08-20-torch-compile
+- https://www.linkedin.com/in/michael-goin

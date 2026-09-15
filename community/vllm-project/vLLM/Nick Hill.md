@@ -1,3 +1,18 @@
+---
+type: person
+name: Nick Hill
+current_affiliations: ["Inferact"]
+schools: ["University of Warwick"]
+communities: [vLLM]
+areas: [scheduler, distributed-inference, kv-cache, api-server, ci]
+roles: [Founding Engineer, Core Maintainer]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/Inferact/Woosuk Kwon","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality","https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality","https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-"]}'
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://docs.vllm.ai/en/latest/governance/committers/"]}'
+---
 # Nick Hill
 
 社区：[[vLLM]]
@@ -22,4 +37,10 @@ Project Lead，负责 scheduler、AsyncLLM、distributed、API server、KV Conne
 - [[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：**vLLM KV Connector / offloading 跨公司协作者**。截至 2026-09 分属 Inferact 与 TensorMesh，属于开源项目层的技术协作而非公司共事。
 
 ## Sources
+- https://docs.vllm.ai/en/latest/governance/process/
+- https://docs.vllm.ai/en/latest/governance/committers/
 - https://vllm.ai/events/vllm-conference/2026
+- https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
+- https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1
+- https://www.linkedin.com/in/nickhillprofile
+- https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-

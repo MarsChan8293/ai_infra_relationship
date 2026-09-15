@@ -26,6 +26,9 @@ relations:
   - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
   - '{"target":"company/Meta/Richard Zou","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
   - '{"target":"company/OpenAI/翁家翌 Jiayi Weng","type":["paper-coauthor"],"confidence":"high","evidence":["https://youkaichao.github.io/","https://youkaichao.github.io/about","https://inferact.ai/"]}'
+  - '{"target":"community/vllm-project/vLLM/Roger Wang","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://inferact.ai/","https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality"]}'
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://docs.vllm.ai/en/latest/governance/process/"]}'
+  - '{"target":"community/vllm-project/vLLM/Michael Goin","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://vllm.ai/blog/2025-08-20-torch-compile","https://docs.vllm.ai/en/latest/governance/process/"]}'
 ---
 # 游凯超（Kaichao You）
 
@@ -72,11 +75,13 @@ relations:
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://vcresearch.berkeley.edu/faculty/joseph-gonzalez
 - https://docs.vllm.ai/en/v0.21.0/governance/process/
+- https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/blog/2025-01-27-v1-alpha-release
 - https://vllm.ai/blog/2025-05-12-hardware-plugin
 - https://vllm.ai/blog/2025-08-20-torch-compile
 - https://vllm.ai/blog/2025-09-29-deepseek-v3-2
 - https://vllm.ai/blog/2026-07-06-vllm-hpc-ops
+- https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
 - https://arxiv.org/abs/2503.18292
 - https://liuxiaoxuanpku.github.io/
 - https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f
