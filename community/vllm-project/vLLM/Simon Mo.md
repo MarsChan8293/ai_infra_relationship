@@ -4,7 +4,7 @@ name: Simon Mo
 current_affiliations: ["Inferact"]
 schools:
   - "UC Berkeley"
-communities: [vLLM]
+communities: [vLLM, "Ray Serve"]
 areas: [serving-systems, api, benchmarking, observability, community-governance]
 roles: [Cofounder, CEO, Core Maintainer]
 confidence: verified
@@ -20,7 +20,7 @@ relations:
 ---
 # Simon Mo
 
-社区：[[vLLM]]
+社区：[[vLLM]] · [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]]
 当前：[[Inferact]] 联合创始人、CEO
 
 ## 教育经历
@@ -33,7 +33,7 @@ relations:
 - [[Inferact]]：联合创始人、CEO，2025–至今
 
 ## 社区贡献
-vLLM Lead Maintainer；公开资料显示自 2023 起 co-lead vLLM community，负责 API entrypoints、batch serving、benchmark、observability 与社区治理。
+vLLM Lead Maintainer；公开资料显示自 2023 起 co-lead vLLM community，负责 API entrypoints、batch serving、benchmark、observability 与社区治理。其早期 Ray Serve 经历提供了 `Ray Serve → vLLM → Inferact` 的 serving systems 职业/技术桥。
 
 ## 人物关系
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：**UC Berkeley 博士共同导师**。Simon 的 2026 Berkeley technical report 与 Sky Lab dissertation talk 均明确列 Ion Stoica 为 advisor，因此结构化为 `advisor`，不是泛化的 mentor-network。
