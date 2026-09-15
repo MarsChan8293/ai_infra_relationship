@@ -7,8 +7,8 @@
 - Company-person associations: 150
 - Project/community nodes: 58
 - Project/community nodes with ≥1 linked person: 46
-- Project/community-person associations: 255
-- Non-company affiliations recognized and routed elsewhere: 44
+- Project/community-person associations: 256
+- Non-company affiliations recognized and routed elsewhere: 50
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
@@ -85,6 +85,7 @@
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
+| [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
@@ -92,7 +93,6 @@
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
-| [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |

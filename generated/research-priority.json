@@ -5,8 +5,43 @@
   "max_bfs_depth": 2,
   "dfs_budget": 12,
   "dfs_selected": 12,
-  "candidate_count": 235,
+  "candidate_count": 239,
   "candidates": [
+    {
+      "id": "company/趋境科技/武永卫 Yongwei Wu",
+      "name": "武永卫",
+      "score": 35.658,
+      "strategy": "selective-dfs",
+      "dfs_eligible": true,
+      "bridge_score": 14.274,
+      "gap_score": 1.3,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 6,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 14.3",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 3"
+      ]
+    },
     {
       "id": "company/TensorMesh/杜昆泰 Kuntai Du",
       "name": "杜昆泰",
@@ -76,41 +111,6 @@
       ]
     },
     {
-      "id": "company/趋境科技/武永卫 Yongwei Wu",
-      "name": "武永卫",
-      "score": 32.977,
-      "strategy": "selective-dfs",
-      "dfs_eligible": true,
-      "bridge_score": 12.598,
-      "gap_score": 1.3,
-      "infra_relevance": 3.45,
-      "evidence_quality": 1.1,
-      "novelty": 3.0,
-      "distance": null,
-      "distance_penalty": 0.0,
-      "gaps": [
-        "relations"
-      ],
-      "relevance_hits": [
-        "serving/inference",
-        "kv-cache",
-        "distributed",
-        "moe"
-      ],
-      "url_count": 5,
-      "project_neighbors": 3,
-      "ecosystem_neighbors": 4,
-      "expansion_targets": [
-        "typed person relations",
-        "hidden person chain"
-      ],
-      "reasons": [
-        "bridge 12.6",
-        "infra: serving/inference, kv-cache, distributed",
-        "multi-project 3"
-      ]
-    },
-    {
       "id": "community/sgl-project/SGLang/Yineng Zhang",
       "name": "Yineng Zhang",
       "score": 32.558,
@@ -177,6 +177,42 @@
         "bridge 14.3",
         "infra: serving/inference, distributed",
         "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/清程极智/翟季冬 Jidong Zhai",
+      "name": "翟季冬",
+      "score": 32.208,
+      "strategy": "selective-dfs",
+      "dfs_eligible": true,
+      "bridge_score": 11.272,
+      "gap_score": 1.3,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 15,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 11.3",
+        "infra: serving/inference, kv-cache, kernel",
+        "multi-project 3"
       ]
     },
     {
@@ -325,42 +361,6 @@
         "bridge 10.9",
         "infra: serving/inference, kv-cache, kernel",
         "multi-project 2"
-      ]
-    },
-    {
-      "id": "company/清程极智/翟季冬 Jidong Zhai",
-      "name": "翟季冬",
-      "score": 31.53,
-      "strategy": "selective-dfs",
-      "dfs_eligible": true,
-      "bridge_score": 10.848,
-      "gap_score": 1.3,
-      "infra_relevance": 4.0,
-      "evidence_quality": 1.45,
-      "novelty": 2.97,
-      "distance": null,
-      "distance_penalty": 0.0,
-      "gaps": [
-        "relations"
-      ],
-      "relevance_hits": [
-        "serving/inference",
-        "kv-cache",
-        "kernel",
-        "distributed",
-        "moe"
-      ],
-      "url_count": 15,
-      "project_neighbors": 3,
-      "ecosystem_neighbors": 4,
-      "expansion_targets": [
-        "typed person relations",
-        "hidden person chain"
-      ],
-      "reasons": [
-        "bridge 10.8",
-        "infra: serving/inference, kv-cache, kernel",
-        "multi-project 3"
       ]
     },
     {
@@ -3356,6 +3356,38 @@
       ]
     },
     {
+      "id": "university/启元实验室/王豪杰 Haojie Wang",
+      "name": "王豪杰",
+      "score": 21.302,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 8.2,
+      "gap_score": 1.8,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 8.2",
+        "infra: serving/inference"
+      ]
+    },
+    {
       "id": "company/基流科技/Wenqi Xie",
       "name": "Wenqi Xie",
       "score": 21.301,
@@ -3838,6 +3870,42 @@
       "reasons": [
         "gap 3.5",
         "infra: kernel, distributed, moe"
+      ]
+    },
+    {
+      "id": "university/启元实验室/潘泽众 Zezhong Pan",
+      "name": "潘泽众",
+      "score": 20.446,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.935,
+      "gap_score": 3.4,
+      "infra_relevance": 1.65,
+      "evidence_quality": 0.9,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 3.4",
+        "infra: kernel, distributed"
       ]
     },
     {
@@ -6413,6 +6481,70 @@
         "bridge 6.4",
         "infra: serving/inference",
         "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/启元实验室/李映辉 Yinghui Li",
+      "name": "李映辉",
+      "score": 17.146,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.935,
+      "gap_score": 3.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 3.4"
+      ]
+    },
+    {
+      "id": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "name": "黄嘉成",
+      "score": 17.146,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.935,
+      "gap_score": 3.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 3.4"
       ]
     },
     {

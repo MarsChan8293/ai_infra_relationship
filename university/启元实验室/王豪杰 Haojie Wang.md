@@ -3,7 +3,7 @@ type: person
 name: 王豪杰
 english_name: Haojie Wang
 aliases: [王豪杰, Haojie Wang, whjthu]
-current_affiliations: ["启元实验室", "Tsinghua University"]
+current_affiliations: ["启元实验室","Tsinghua University"]
 schools:
   - "清华大学"
 projects: [InfiniTensor]
