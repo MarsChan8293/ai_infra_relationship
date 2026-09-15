@@ -2,11 +2,12 @@
 """Synchronize company/project/community -> person reverse relationships.
 
 Person Markdown remains the source of truth:
-- `current_affiliations:` -> company `linked_people:`
-- `projects:` / `project:` / `communities:` / `community:` -> project/community `linked_people:`
+- `current_affiliations:` -> company `linked_people:` when the affiliation resolves to a company.
+- school/research/model-team affiliations are valid but handled by their own entity layers.
+- `projects:` / `project:` / `communities:` / `community:` -> project/community `linked_people:`.
 
 Existing hand-written narrative and curated `people:` fields are preserved. Only
-an explicitly marked generated section is replaced.
+explicitly marked generated sections are replaced.
 """
 from __future__ import annotations
 
@@ -18,11 +19,21 @@ from collections import defaultdict
 
 NODE_ROOTS = ("company", "community", "university")
 PROJECT_TYPES = {"project", "community", "infra-project", "project-collection"}
+NON_COMPANY_AFFILIATION_TYPES = {"school", "research-institution", "model-team"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY PEOPLE -->"
 COMPANY_END = "<!-- END AUTO COMPANY PEOPLE -->"
 PROJECT_START = "<!-- BEGIN AUTO PROJECT PEOPLE -->"
 PROJECT_END = "<!-- END AUTO PROJECT PEOPLE -->"
 WIKILINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
+
+COMMON_ALIASES = {
+    "清华大学": ["Tsinghua University"],
+    "北京大学": ["Peking University", "PKU"],
+    "上海交通大学": ["Shanghai Jiao Tong University", "SJTU"],
+    "浙江大学": ["Zhejiang University", "ZJU"],
+    "UC Berkeley": ["University of California, Berkeley", "Berkeley"],
+    "北京智源人工智能研究院": ["BAAI", "Beijing Academy of Artificial Intelligence"],
+}
 
 
 def norm(value: str) -> str:
@@ -95,7 +106,8 @@ def get_block(lines: list[str], wanted: str):
     return next((block for key, block in blocks(lines) if key == wanted), None)
 
 
-def parse_listish(block: list[str] | None) -> list[str]:
+def get_values(lines: list[str], wanted: str) -> list[str]:
+    block = get_block(lines, wanted)
     if not block:
         return []
     value = block[0].split(":", 1)[1].strip()
@@ -104,10 +116,6 @@ def parse_listish(block: list[str] | None) -> list[str]:
     if value.startswith("[") and value.endswith("]"):
         return parse_inline_list(value[1:-1])
     return [value.strip("\"'")]
-
-
-def get_values(lines: list[str], wanted: str) -> list[str]:
-    return parse_listish(get_block(lines, wanted))
 
 
 def get_scalar(lines: list[str], wanted: str):
@@ -119,7 +127,7 @@ def get_scalar(lines: list[str], wanted: str):
 
 
 def set_block_list(lines: list[str], key: str, values: list[str]) -> list[str]:
-    values = list(dict.fromkeys(value for value in values if value))
+    values = list(dict.fromkeys(v for v in values if v))
     replacement = [f"{key}: []"] if not values else [f"{key}:"] + [f"  - {json.dumps(v, ensure_ascii=False)}" for v in values]
     out, inserted = [], False
     for existing, block in blocks(lines):
@@ -168,6 +176,7 @@ def load_records(root: pathlib.Path):
 
 def aliases_for(record: dict) -> list[str]:
     values = [record["name"], pathlib.PurePosixPath(record["id"]).name, *get_values(record["fm"], "aliases")]
+    values.extend(COMMON_ALIASES.get(record["name"], []))
     return list(dict.fromkeys(v for v in values if v))
 
 
@@ -177,13 +186,12 @@ def build_index(records: list[dict], allowed_types: set[str]):
     ids = {}
     for record in selected:
         ids[fold(record["id"])] = record
-        seen_aliases = set()
+        seen = set()
         for value in aliases_for(record):
             token = fold(value)
-            if not token or token in seen_aliases:
-                continue
-            seen_aliases.add(token)
-            aliases[token].append(record)
+            if token and token not in seen:
+                seen.add(token)
+                aliases[token].append(record)
     return selected, aliases, ids
 
 
@@ -193,8 +201,7 @@ def resolve(value: str, aliases, ids):
     if direct:
         return direct
     for candidate in (value, pathlib.PurePosixPath(value).name):
-        hits = aliases.get(fold(candidate), [])
-        unique = {hit["id"]: hit for hit in hits}
+        unique = {r["id"]: r for r in aliases.get(fold(candidate), [])}
         if len(unique) == 1:
             return next(iter(unique.values()))
     return None
@@ -206,14 +213,11 @@ def link_target(inner: str) -> str:
 
 def display_name(person: dict) -> str:
     name, english = person["name"], person["english_name"]
-    if english and fold(name) != fold(english):
-        return f"{name}（{english}）"
-    return name
+    return f"{name}（{english}）" if english and fold(name) != fold(english) else name
 
 
-def body_detail(person: dict, target: dict, aliases, ids, preferred_tokens: tuple[str, ...]) -> str | None:
-    active_heading = ""
-    fallback = None
+def body_detail(person: dict, target: dict, aliases, ids, preferred_tokens: tuple[str, ...], strict_preferred: bool = False) -> str | None:
+    active_heading, fallback = "", None
     for raw in person["body"].splitlines():
         stripped = raw.strip()
         if stripped.startswith("## "):
@@ -237,7 +241,8 @@ def body_detail(person: dict, target: dict, aliases, ids, preferred_tokens: tupl
             detail = detail[:237].rstrip() + "..."
         if any(token in active_heading for token in preferred_tokens):
             return detail
-        fallback = fallback or detail
+        if not strict_preferred:
+            fallback = fallback or detail
     return fallback
 
 
@@ -245,8 +250,7 @@ def replace_auto_section(body: str, start: str, end: str, section: str | None) -
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), flags=re.DOTALL)
     if section is None:
         updated = pattern.sub("", body, count=1)
-        updated = re.sub(r"\n{3,}", "\n\n", updated).rstrip() + "\n"
-        return updated
+        return re.sub(r"\n{3,}", "\n\n", updated).rstrip() + "\n"
     if pattern.search(body):
         updated = pattern.sub(section, body, count=1)
         return updated if updated.endswith("\n") else updated + "\n"
@@ -258,9 +262,8 @@ def company_section(company: dict, people: list[dict], aliases, ids) -> str | No
         return None
     lines = [COMPANY_START, "## 当前关联人物（自动汇总）", "", "以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。", ""]
     for person in people:
-        detail = body_detail(person, company, aliases, ids, ("当前", "工作", "经历", "简介"))
-        description = detail or "当前 affiliation；具体职位与时间以人物页公开来源为准。"
-        lines.append(f"- [[{person['id']}|{display_name(person)}]]：{description}")
+        detail = body_detail(person, company, aliases, ids, ("当前", "工作", "经历", "简介"), strict_preferred=True)
+        lines.append(f"- [[{person['id']}|{display_name(person)}]]：{detail or '当前 affiliation；具体职位与时间以人物页公开来源为准。'}")
     lines.extend(["", COMPANY_END])
     return "\n".join(lines)
 
@@ -291,6 +294,7 @@ def main() -> int:
 
     records = load_records(root)
     companies, company_aliases, company_ids = build_index(records, {"company"})
+    noncompanies, noncompany_aliases, noncompany_ids = build_index(records, NON_COMPANY_AFFILIATION_TYPES)
     project_nodes, project_aliases, project_ids = build_index(records, PROJECT_TYPES)
     people = [r for r in records if r["type"] == "person"]
 
@@ -304,6 +308,10 @@ def main() -> int:
         for value in get_values(person["fm"], "current_affiliations"):
             target = resolve(value, company_aliases, company_ids)
             if not target:
+                # Schools, research institutions and model teams are legitimate current
+                # affiliations but do not belong in the company reverse set.
+                if resolve(value, noncompany_aliases, noncompany_ids):
+                    continue
                 unresolved.append({"kind": "affiliation", "person": person["rel"], "value": value})
                 continue
             if target["id"] not in seen_companies:
@@ -322,16 +330,12 @@ def main() -> int:
                     project_reverse[target["id"]].append(person)
                     seen_projects.add(target["id"])
 
-    touched = []
-    company_associations = 0
-    project_associations = 0
-
+    touched, company_associations, project_associations = [], 0, 0
     for company in companies:
         linked = sorted(company_reverse.get(company["id"], []), key=lambda r: r["id"].casefold())
         company_associations += len(linked)
         updated_fm = set_block_list(company["fm"], "linked_people", [p["id"] for p in linked])
-        section = company_section(company, linked, company_aliases, company_ids)
-        updated_body = replace_auto_section(company["body"], COMPANY_START, COMPANY_END, section)
+        updated_body = replace_auto_section(company["body"], COMPANY_START, COMPANY_END, company_section(company, linked, company_aliases, company_ids))
         updated = join_frontmatter(updated_fm, updated_body)
         if updated != company["text"]:
             company["path"].write_text(updated, encoding="utf-8")
@@ -341,18 +345,13 @@ def main() -> int:
         linked = sorted(project_reverse.get(target["id"], []), key=lambda r: r["id"].casefold())
         project_associations += len(linked)
         updated_fm = set_block_list(target["fm"], "linked_people", [p["id"] for p in linked])
-        section = project_section(target, linked, project_sources.get(target["id"], {}), project_aliases, project_ids)
-        updated_body = replace_auto_section(target["body"], PROJECT_START, PROJECT_END, section)
+        updated_body = replace_auto_section(target["body"], PROJECT_START, PROJECT_END, project_section(target, linked, project_sources.get(target["id"], {}), project_aliases, project_ids))
         updated = join_frontmatter(updated_fm, updated_body)
         if updated != target["text"]:
             target["path"].write_text(updated, encoding="utf-8")
             touched.append(target["rel"])
 
-    print(
-        f"Entity reverse sync: {len(companies)} companies / {company_associations} current-affiliation links; "
-        f"{len(project_nodes)} project-community nodes / {project_associations} contribution links; "
-        f"{len(touched)} files updated; {len(unresolved)} unresolved source values."
-    )
+    print(f"Entity reverse sync: {len(companies)} companies / {company_associations} current-affiliation links; {len(project_nodes)} project-community nodes / {project_associations} contribution links; {len(touched)} files updated; {len(unresolved)} unresolved source values; {len(noncompanies)} non-company affiliation targets recognized.")
     for rel in touched[:120]:
         print("UPDATE:", rel)
     if len(touched) > 120:
@@ -361,8 +360,6 @@ def main() -> int:
         print("UNRESOLVED:", item)
     if len(unresolved) > 120:
         print(f"... plus {len(unresolved) - 120} more unresolved values")
-    # Unresolved values are reported as backlog, not fatal: an affiliation may be a lab/org
-    # without a canonical company node, and legacy community values may not yet be entities.
     return 0
 
 
