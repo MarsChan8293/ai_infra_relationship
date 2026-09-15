@@ -3,6 +3,7 @@ type: project
 name: vLLM
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
+  - "community/LMCache/LMCache/Samm Shen"
   - "community/Project-HAMi/HAMi/chaunceyjiang"
   - "community/vllm-project/vLLM-Ascend/Wang Xiyuan"
   - "community/vllm-project/vLLM/Chen Zhang"
@@ -18,13 +19,16 @@ linked_people:
   - "community/vllm-project/vLLM/乔一凡 Yifan Qiao"
   - "community/vllm-project/vLLM/李卓翰 Zhuohan Li"
   - "community/vllm-project/vLLM/游凯超 Kaichao You"
+  - "company/IBM/Martin Hickey"
   - "company/Inferact/Ion Stoica"
   - "company/Inferact/Joseph Gonzalez"
   - "company/Inferact/Woosuk Kwon"
   - "company/Meta/Richard Zou"
   - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
+  - "company/TensorMesh/Jiayi Yao"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
+  - "company/腾讯/Baolong Mao"
   - "university/UC Berkeley/Xiangxi Mo"
 companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh","Neural Magic"]
 company_relation: cross-company-core-contributors
@@ -80,6 +84,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[vLLM]]：社区 contributor / ambassador，并通过 meetup、workshop 等活动连接开发者、模型团队、硬件厂商与云原生生态。
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：`lmcache/integration/vllm/`：CODEOWNER；
 - [[community/Project-HAMi/HAMi/chaunceyjiang|chaunceyjiang]]：[[vLLM]]：截至 2026-09，官方 Committers 页面列为 committer，主要负责 **Tool use and reasoning parser**；area owners 也将其列入 reasoning / tool calling parsers。
 - [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：vLLM-Ascend 主要维护与社区组织者之一。
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[vLLM]]：参与 V1 KV cache manager 重构、模型支持与 LLM serving 系统研究
@@ -95,13 +100,16 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[vLLM]] × [[Mooncake]]：2026-05 参与 distributed KV cache integration，用于大规模 agentic workloads；这里记录为项目集成，不将乔一凡标成 Mooncake 核心社区成员
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**UC Berkeley 同实验室研究者 + vLLM 共同创始/共同维护者**。李卓翰 2019–2024、Woosuk 2021–2025 在 Berkeley CS 博士阶段有 2021–2024 的重叠，并都处于 [[Ion Stoica]] 的系统研究网络；2023 共同创建 / 推动 [[vLLM]]。
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[university/清华大学/龙明盛 Mingsheng Long|龙明盛（Mingsheng Long）]]：**清华博士导师 + 长期论文合作者**。龙明盛官方主页将游凯超列为 2020–2025 博士生；双方共同署名多项 machine-learning 工作、depyf 与 2025 Jenga。该导师关系与游凯超后来进入 Berkeley / vLLM 网络是两段不同阶段，不应把龙明盛直接标成 vLLM maintainer。
+- [[company/IBM/Martin Hickey|Martin Hickey]]：https://github.com/vllm-project/vllm/commit/510265472cb216daf7d8e83db6fa03ce48b0f5fc
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**UC Berkeley 博士导师 / 学生 + vLLM 研究网络**。Woosuk 2021–2025 在 Berkeley CS 博士阶段由 Ion Stoica 指导，博士论文主题为 vLLM / efficient LLM inference；正式师生证据充分，因此 Ion→Woosuk 使用 `student`，而不是泛化 `mentor-network`。
 - [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：**UC Berkeley 博士共同导师 / 学生 + inference serving 研究网络**。Simon 2026 博士论文《Building Open Source Inference Serving Systems》由 Joseph Gonzalez 与 [[Inferact/Ion Stoica|Ion Stoica]] 共同指导；正式师生证据充分，因此...
 - [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[vLLM]] 创始人；2023 起推动项目与 PagedAttention / engine core
 - [[company/Meta/Richard Zou|Richard Zou]]：[[vLLM]]：通过 torch.compile integration 与硬件可移植性工作连接到 vLLM serving stack
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[vLLM]]：博士阶段参与高效 LLM inference 与 vLLM 团队
+- [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：https://github.com/vllm-project/vllm/commit/6d7f037748b2e7df64f3318e54101a1c80016f3c
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[vLLM]]：KV Connector 与 LMCache 集成方向重要贡献者
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[vLLM]]：KV Connector / offloading 生态的重要贡献者
+- [[company/腾讯/Baolong Mao|Baolong Mao]]：https://github.com/vllm-project/vllm/commit/b58e082d95ffad57a6a9aaffa8b76c862b3bbcf3
 - [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 作者，连接 Berkeley systems 与现代 LLM serving memory management。
 
 <!-- END AUTO PROJECT PEOPLE -->

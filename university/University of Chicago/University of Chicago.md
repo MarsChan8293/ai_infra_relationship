@@ -3,6 +3,9 @@ type: school
 name: University of Chicago
 aliases: [UChicago, University of Chicago]
 linked_people:
+  - "community/LMCache/LMCache/Samm Shen"
+  - "community/LMCache/LMCache/Shaoting Feng"
+  - "company/TensorMesh/Jiayi Yao"
   - "company/TensorMesh/Junchen Jiang"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
@@ -29,6 +32,9 @@ University of Chicago 在本图谱中形成了一条清晰的 **networked system
 
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：University of Chicago：Mathematics + Computer Science 双学位；TensorMesh 官方团队页公开确认。
+- [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[University of Chicago]]：2018-07 起任教，当前为 Computer Science Associate Professor。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[University of Chicago]]：计算机博士；Siebel Scholar Class of 2024
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[University of Chicago]]：计算机博士；导师 [[Junchen Jiang]]

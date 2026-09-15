@@ -28,6 +28,10 @@ Jiayi Yao 不是只在 LMCache 一侧维护 connector。vLLM 官方仓库存在�
 ## TensorMesh
 Google / LMCache 的 GKE 分层 KV cache 合作材料明确点名 Kuntai Du、Jiayi Yao、Yihua Cheng，并说明他们在合作开发 LMCache 后成立 TensorMesh。这里据此记录 TensorMesh 当前 affiliation，不从同公司关系自动推断所有人物之间的 coworker 强边。
 
+
+## 学校关联
+- [[university/University of Chicago/University of Chicago|University of Chicago]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS

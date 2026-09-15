@@ -11,7 +11,7 @@ Selective DFS budget: **12**，本轮实际触发 **12**。
 | Rank | Person | Score | Strategy | Bridge | Gap | Infra | Distance | Why / next |
 | ---: | --- | ---: | --- | ---: | ---: | ---: | ---: | --- |
 | 1 | [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 35.658 | selective-dfs | 14.274 | 1.300 | 3.450 | - | bridge 14.3; infra: serving/inference, kv-cache, distributed; multi-project 3 → typed person relations, hidden person chain |
-| 2 | [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 34.247 | selective-dfs | 13.092 | 1.300 | 3.550 | - | bridge 13.1; infra: serving/inference, kv-cache, distributed; multi-project 3 → typed person relations, hidden person chain |
+| 2 | [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 33.575 | selective-dfs | 12.672 | 1.300 | 3.550 | - | bridge 12.7; infra: serving/inference, kv-cache, distributed; multi-project 3 → typed person relations, hidden person chain |
 | 3 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 33.468 | selective-dfs | 14.855 | 1.300 | 1.750 | - | bridge 14.9; infra: serving/inference, distributed; multi-project 2 → typed person relations, hidden person chain |
 | 4 | [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]] | 32.558 | selective-dfs | 11.474 | 1.300 | 4.000 | - | bridge 11.5; infra: serving/inference, kv-cache, scheduler; multi-project 5 → typed person relations, hidden person chain |
 | 5 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 32.538 | selective-dfs | 14.274 | 1.300 | 1.750 | - | bridge 14.3; infra: serving/inference, distributed; multi-project 2 → typed person relations, hidden person chain |
@@ -26,10 +26,10 @@ Selective DFS budget: **12**，本轮实际触发 **12**。
 | 14 | [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋]] | 31.005 | best-first | 9.485 | 2.400 | 4.000 | - | bridge 9.5; gap 2.4; infra: serving/inference, kernel, distributed → project/community links, typed person relations |
 | 15 | [[company/RadixArk/盛颖 Ying Sheng|盛颖]] | 30.872 | best-first | 12.170 | 1.300 | 2.600 | - | bridge 12.2; infra: serving/inference, scheduler, distributed; multi-project 2 → typed person relations |
 | 16 | [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]] | 30.024 | best-first | 12.520 | 1.300 | 1.950 | - | bridge 12.5; infra: serving/inference, kv-cache; multi-project 2 → typed person relations |
-| 17 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 29.842 | best-first | 10.885 | 1.300 | 3.550 | - | bridge 10.9; infra: serving/inference, kv-cache, distributed; multi-project 2 → typed person relations |
-| 18 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 29.577 | best-first | 12.598 | 1.300 | 1.750 | - | bridge 12.6; infra: serving/inference, distributed; multi-project 4 → typed person relations |
-| 19 | [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升]] | 29.496 | best-first | 8.720 | 3.800 | 2.800 | - | bridge 8.7; gap 3.8; infra: serving/inference, kv-cache, scheduler; multi-project 2 → current affiliation, project/community links, typed person relations |
-| 20 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 29.349 | best-first | 11.387 | 1.300 | 2.600 | - | bridge 11.4; infra: serving/inference, scheduler, distributed; multi-project 2 → typed person relations |
+| 17 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 29.577 | best-first | 12.598 | 1.300 | 1.750 | - | bridge 12.6; infra: serving/inference, distributed; multi-project 4 → typed person relations |
+| 18 | [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升]] | 29.496 | best-first | 8.720 | 3.800 | 2.800 | - | bridge 8.7; gap 3.8; infra: serving/inference, kv-cache, scheduler; multi-project 2 → current affiliation, project/community links, typed person relations |
+| 19 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 29.349 | best-first | 11.387 | 1.300 | 2.600 | - | bridge 11.4; infra: serving/inference, scheduler, distributed; multi-project 2 → typed person relations |
+| 20 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 29.080 | best-first | 10.409 | 1.300 | 3.550 | - | bridge 10.4; infra: serving/inference, kv-cache, distributed; multi-project 2 → typed person relations |
 | 21 | [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与]] | 28.825 | best-first | 9.359 | 1.300 | 4.000 | - | bridge 9.4; infra: serving/inference, kernel, distributed; multi-project 2 → typed person relations |
 | 22 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 28.705 | best-first | 9.770 | 1.300 | 3.450 | - | bridge 9.8; infra: serving/inference, kv-cache, distributed; multi-project 3 → typed person relations |
 | 23 | [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]] | 28.693 | best-first | 9.250 | 1.300 | 4.000 | - | bridge 9.2; infra: serving/inference, kernel, distributed; multi-project 2 → typed person relations |
@@ -68,8 +68,8 @@ Selective DFS budget: **12**，本轮实际触发 **12**。
 | 56 | [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] | 24.444 | best-first | 9.485 | 1.300 | 1.750 | - | bridge 9.5; infra: serving/inference, distributed; multi-project 2 → typed person relations |
 | 57 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 24.410 | best-first | 8.007 | 2.550 | 1.750 | - | bridge 8.0; gap 2.5; infra: serving/inference, distributed → typed person relations, technical areas, biographical/context depth |
 | 58 | [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]] | 24.381 | best-first | 8.522 | 1.300 | 2.650 | - | bridge 8.5; infra: serving/inference, kernel, distributed → typed person relations |
-| 59 | [[company/趋境科技/Hongbo Kang|Hongbo Kang]] | 24.112 | best-first | 8.550 | 2.900 | 0.950 | - | bridge 8.6; gap 2.9; infra: kv-cache → project/community links, typed person relations, biographical/context depth |
-| 60 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 24.013 | best-first | 6.157 | 2.700 | 3.400 | - | bridge 6.2; gap 2.7; infra: serving/inference, kernel, distributed → current affiliation, typed person relations, biographical/context depth |
+| 59 | [[community/LMCache/LMCache/Samm Shen|Samuel Shen]] | 24.306 | best-first | 9.250 | 1.300 | 1.950 | - | bridge 9.2; infra: serving/inference, kv-cache; multi-project 2 → typed person relations |
+| 60 | [[company/趋境科技/Hongbo Kang|Hongbo Kang]] | 24.112 | best-first | 8.550 | 2.900 | 0.950 | - | bridge 8.6; gap 2.9; infra: kv-cache → project/community links, typed person relations, biographical/context depth |
 
 ## How to use
 

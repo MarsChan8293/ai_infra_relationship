@@ -3,24 +3,24 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 337
-- Person nodes with typed relations: 105 / 239
+- Person nodes with typed relations: 106 / 243
 - Hard errors: 0
-- Warnings: 3
+- Warnings: 1
 
 ## Relation types
 
-- `coworker`: 149
+- `coworker`: 151
 - `paper-coauthor`: 119
 - `research-collaboration`: 61
 - `open-source-collaboration`: 59
 - `mentor-network`: 57
-- `technical-collaboration`: 44
+- `technical-collaboration`: 48
 - `cofounder`: 33
 - `advisor`: 11
 - `same-lab`: 10
-- `community-maintainer`: 6
 - `student`: 5
 - `career-connection`: 5
+- `community-maintainer`: 4
 
 ## Next migration candidates
 
@@ -76,7 +76,7 @@
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |
 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
 | [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 14.274 | 4 | 3 | 75.0% |
-| [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 13.092 | 8 | 6 | 75.0% |
+| [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 12.672 | 8 | 6 | 75.0% |
 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 12.598 | 8 | 8 | 100.0% |
 | [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]] | 12.520 | 8 | 7 | 87.5% |
 | [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
@@ -89,8 +89,8 @@
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 11.272 | 11 | 10 | 90.9% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
-| [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.885 | 4 | 2 | 50.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 5 | 4 | 80.0% |
+| [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[company/清程极智/郑纬民 Weimin Zheng|郑纬民]] | 10.300 | 4 | 2 | 50.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |

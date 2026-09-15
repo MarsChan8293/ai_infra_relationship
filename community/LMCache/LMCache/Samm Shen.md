@@ -40,6 +40,10 @@ relations:
 - [[company/腾讯/Baolong Mao|Baolong Mao]]：LMCache P2P / storage / integration 技术协作者。2026-01 LMCache 官方 P2P 文章将 Samuel Shen（TensorMesh）与 Baolong Mao（Tencent）共同列为 production-grade multi-node CPU P2P KV sharing 的作者/工程网络。
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：LMCache 维护协作者；这里记录开源协作，不因同属 TensorMesh 自动扩张人物关系类型。
 
+
+## 学校关联
+- [[university/University of Chicago/University of Chicago|University of Chicago]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www.tensormesh.ai/team-members/samuel-shen
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md

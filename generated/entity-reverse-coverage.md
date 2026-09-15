@@ -2,13 +2,13 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 40
-- Companies with ≥1 linked person: 31
-- Company-person associations: 150
+- Company nodes: 41
+- Companies with ≥1 linked person: 32
+- Company-person associations: 155
 - Project/community nodes: 58
 - Project/community nodes with ≥1 linked person: 46
-- Project/community-person associations: 256
-- Non-company affiliations recognized and routed elsewhere: 50
+- Project/community-person associations: 264
+- Non-company affiliations recognized and routed elsewhere: 51
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
@@ -21,10 +21,11 @@
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
+| [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
-| [[company/IBM/IBM|IBM]] | 5 |
+| [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
@@ -35,12 +36,12 @@
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 4 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
-| [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
+| [[company/腾讯/腾讯|腾讯]] | 2 |
 | [[company/AMD/AMD|AMD]] | 1 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
 | [[company/Databricks/Databricks|Databricks]] | 1 |
@@ -52,7 +53,7 @@
 
 | Entity | Linked people |
 | --- | ---: |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 24 |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 28 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
@@ -62,6 +63,7 @@
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
+| [[community/LMCache/LMCache/LMCache|LMCache]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 8 |
@@ -70,7 +72,6 @@
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
-| [[community/LMCache/LMCache/LMCache|LMCache]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |

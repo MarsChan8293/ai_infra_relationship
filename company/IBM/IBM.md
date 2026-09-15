@@ -7,6 +7,7 @@ linked_people:
   - "community/llm-d/llm-d/JJ Asghar"
   - "community/llm-d/llm-d/Nili Guy"
   - "community/llm-d/llm-d/Vita Bortnikov"
+  - "company/IBM/Martin Hickey"
 projects: [llm-d]
 linked_projects:
   - "community/llm-d/llm-d/llm-d"
@@ -45,6 +46,7 @@ IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施�
 - [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：[[IBM]]
 - [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
 - [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
+- [[company/IBM/Martin Hickey|Martin Hickey]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

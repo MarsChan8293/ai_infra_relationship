@@ -1,6 +1,16 @@
 ---
 type: project
 name: LMCache
+linked_people:
+  - "community/LMCache/LMCache/Samm Shen"
+  - "community/LMCache/LMCache/Shaoting Feng"
+  - "company/IBM/Martin Hickey"
+  - "company/TensorMesh/Jiayi Yao"
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/TensorMesh/杜昆泰 Kuntai Du"
+  - "company/TensorMesh/程翊华 Yihua Cheng"
+  - "company/腾讯/Baolong Mao"
+  - "company/腾讯/Chunxiao Zheng"
 companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
 layer: kv-cache-management
@@ -18,6 +28,8 @@ people:
   - "community/LMCache/LMCache/Shaoting Feng"
   - "company/IBM/Martin Hickey"
 last_verified: "2026-09"
+linked_companies:
+  - "company/TensorMesh/TensorMesh"
 ---
 # LMCache
 
@@ -64,3 +76,29 @@ LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 
 - https://github.com/LMCache/LMCache/issues/4025
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
 - https://blog.lmcache.ai/en/2025/03/31/cacheblend-best-paper-acm-eurosys25-enabling-100-kv-cache-hit-rate-in-rag/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：`lmcache/integration/vllm/`：CODEOWNER；
+- [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[company/IBM/Martin Hickey|Martin Hickey]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：2025-03：为 LMCache connector 增加 chunked prefill 支持；
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输
+- [[company/腾讯/Baolong Mao|Baolong Mao]]：[[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：腾讯同事 + LMCache P2P / distributed cache 直接工程协作者。2026-01 LMCache 官方文章明确记录两位 Tencent 作者参与 multi-node CPU P2P KV sharing 的 productionization。
+- [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：[[company/腾讯/Baolong Mao|Baolong Mao]]：腾讯同事 + LMCache P2P / distributed cache 直接工程协作者，关系由官方 maintainer、CODEOWNERS 和 P2P 技术文章共同支撑。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`research-to-startup-core-network`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

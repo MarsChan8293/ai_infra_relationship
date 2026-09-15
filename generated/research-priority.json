@@ -5,7 +5,7 @@
   "max_bfs_depth": 2,
   "dfs_budget": 12,
   "dfs_selected": 12,
-  "candidate_count": 239,
+  "candidate_count": 243,
   "candidates": [
     {
       "id": "company/趋境科技/武永卫 Yongwei Wu",
@@ -45,10 +45,10 @@
     {
       "id": "company/TensorMesh/杜昆泰 Kuntai Du",
       "name": "杜昆泰",
-      "score": 34.247,
+      "score": 33.575,
       "strategy": "selective-dfs",
       "dfs_eligible": true,
-      "bridge_score": 13.092,
+      "bridge_score": 12.672,
       "gap_score": 1.3,
       "infra_relevance": 3.55,
       "evidence_quality": 1.45,
@@ -72,7 +72,7 @@
         "hidden person chain"
       ],
       "reasons": [
-        "bridge 13.1",
+        "bridge 12.7",
         "infra: serving/inference, kv-cache, distributed",
         "multi-project 3"
       ]
@@ -569,40 +569,6 @@
       ]
     },
     {
-      "id": "company/TensorMesh/程翊华 Yihua Cheng",
-      "name": "程翊华",
-      "score": 29.842,
-      "strategy": "best-first",
-      "dfs_eligible": true,
-      "bridge_score": 10.885,
-      "gap_score": 1.3,
-      "infra_relevance": 3.55,
-      "evidence_quality": 1.1,
-      "novelty": 2.34,
-      "distance": null,
-      "distance_penalty": 0.0,
-      "gaps": [
-        "relations"
-      ],
-      "relevance_hits": [
-        "serving/inference",
-        "kv-cache",
-        "distributed",
-        "disaggregation"
-      ],
-      "url_count": 3,
-      "project_neighbors": 2,
-      "ecosystem_neighbors": 3,
-      "expansion_targets": [
-        "typed person relations"
-      ],
-      "reasons": [
-        "bridge 10.9",
-        "infra: serving/inference, kv-cache, distributed",
-        "multi-project 2"
-      ]
-    },
-    {
       "id": "company/Inferact/Ion Stoica",
       "name": "Ion Stoica",
       "score": 29.577,
@@ -704,6 +670,40 @@
       "reasons": [
         "bridge 11.4",
         "infra: serving/inference, scheduler, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/TensorMesh/程翊华 Yihua Cheng",
+      "name": "程翊华",
+      "score": 29.08,
+      "strategy": "best-first",
+      "dfs_eligible": true,
+      "bridge_score": 10.409,
+      "gap_score": 1.3,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.1,
+      "novelty": 2.34,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 10.4",
+        "infra: serving/inference, kv-cache, distributed",
         "multi-project 2"
       ]
     },
@@ -2022,6 +2022,38 @@
       "reasons": [
         "bridge 8.5",
         "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/LMCache/LMCache/Samm Shen",
+      "name": "Samuel Shen",
+      "score": 24.306,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 9.25,
+      "gap_score": 1.3,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.45,
+      "novelty": 2.34,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 7,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 9.2",
+        "infra: serving/inference, kv-cache",
+        "multi-project 2"
       ]
     },
     {
@@ -3526,6 +3558,38 @@
       ]
     },
     {
+      "id": "company/TensorMesh/Jiayi Yao",
+      "name": "Jiayi Yao",
+      "score": 21.196,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 7.872,
+      "gap_score": 1.3,
+      "infra_relevance": 1.7,
+      "evidence_quality": 1.45,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 6,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 7.9",
+        "infra: kv-cache, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
       "id": "company/清昴智能/关超宇 Chaoyu Guan",
       "name": "关超宇",
       "score": 21.178,
@@ -4805,6 +4869,38 @@
       ]
     },
     {
+      "id": "company/腾讯/Baolong Mao",
+      "name": "Baolong Mao",
+      "score": 19.217,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 6.635,
+      "gap_score": 1.3,
+      "infra_relevance": 1.7,
+      "evidence_quality": 1.45,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 7,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.6",
+        "infra: kv-cache, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
       "id": "university/上海交通大学/Xingda Wei",
       "name": "Xingda Wei",
       "score": 19.185,
@@ -5331,6 +5427,40 @@
       ]
     },
     {
+      "id": "company/IBM/Martin Hickey",
+      "name": "Martin Hickey",
+      "score": 18.516,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.7,
+      "gap_score": 1.8,
+      "infra_relevance": 1.85,
+      "evidence_quality": 1.45,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "kernel"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "infra: kv-cache, kernel",
+        "multi-project 2"
+      ]
+    },
+    {
       "id": "university/UC Berkeley/Shiyi Cao",
       "name": "Shiyi Cao",
       "score": 18.514,
@@ -5661,6 +5791,39 @@
       ]
     },
     {
+      "id": "company/腾讯/Chunxiao Zheng",
+      "name": "Chunxiao Zheng",
+      "score": 17.899,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.35,
+      "gap_score": 1.8,
+      "infra_relevance": 1.7,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "infra: kv-cache, distributed"
+      ]
+    },
+    {
       "id": "community/NVIDIA/TensorRT-LLM/Brian Nguyen",
       "name": "Brian Nguyen",
       "score": 17.866,
@@ -5886,72 +6049,6 @@
       "reasons": [
         "bridge 6.5",
         "gap 2.4"
-      ]
-    },
-    {
-      "id": "community/LMCache/LMCache/Baolong Ma",
-      "name": "Baolong Ma",
-      "score": 17.627,
-      "strategy": "best-first",
-      "dfs_eligible": false,
-      "bridge_score": 6.022,
-      "gap_score": 2.2,
-      "infra_relevance": 0.95,
-      "evidence_quality": 1.45,
-      "novelty": 1.08,
-      "distance": null,
-      "distance_penalty": 0.0,
-      "gaps": [
-        "affiliation",
-        "relations"
-      ],
-      "relevance_hits": [
-        "kv-cache"
-      ],
-      "url_count": 4,
-      "project_neighbors": 1,
-      "ecosystem_neighbors": 1,
-      "expansion_targets": [
-        "current affiliation",
-        "typed person relations"
-      ],
-      "reasons": [
-        "bridge 6.0",
-        "gap 2.2",
-        "infra: kv-cache"
-      ]
-    },
-    {
-      "id": "community/LMCache/LMCache/Samm Shen",
-      "name": "Samm Shen",
-      "score": 17.627,
-      "strategy": "best-first",
-      "dfs_eligible": false,
-      "bridge_score": 6.022,
-      "gap_score": 2.2,
-      "infra_relevance": 0.95,
-      "evidence_quality": 1.45,
-      "novelty": 1.08,
-      "distance": null,
-      "distance_penalty": 0.0,
-      "gaps": [
-        "affiliation",
-        "relations"
-      ],
-      "relevance_hits": [
-        "kv-cache"
-      ],
-      "url_count": 4,
-      "project_neighbors": 1,
-      "ecosystem_neighbors": 1,
-      "expansion_targets": [
-        "current affiliation",
-        "typed person relations"
-      ],
-      "reasons": [
-        "bridge 6.0",
-        "gap 2.2",
-        "infra: kv-cache"
       ]
     },
     {
@@ -6481,6 +6578,38 @@
         "bridge 6.4",
         "infra: serving/inference",
         "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/LMCache/LMCache/Shaoting Feng",
+      "name": "Shaoting Feng",
+      "score": 17.168,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 4.935,
+      "gap_score": 1.8,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "infra: serving/inference, kv-cache"
       ]
     },
     {

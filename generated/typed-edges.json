@@ -3214,6 +3214,65 @@
     ]
   },
   {
+    "source": "company/腾讯/Baolong Mao",
+    "target": "company/腾讯/Chunxiao Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "open-source-collaboration",
+      "technical-collaboration"
+    ],
+    "project": "LMCache",
+    "company": "腾讯",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md",
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS",
+      "https://blog.lmcache.ai/en/2026/01/21/p2p-1/"
+    ]
+  },
+  {
+    "source": "company/腾讯/Baolong Mao",
+    "target": "community/LMCache/LMCache/Samm Shen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "open-source-collaboration",
+      "technical-collaboration",
+      "community-maintainer"
+    ],
+    "project": "LMCache",
+    "company": null,
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS",
+      "https://blog.lmcache.ai/en/2026/01/21/p2p-1/"
+    ]
+  },
+  {
+    "source": "company/腾讯/Chunxiao Zheng",
+    "target": "company/腾讯/Baolong Mao",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "open-source-collaboration",
+      "technical-collaboration"
+    ],
+    "project": "LMCache",
+    "company": "腾讯",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md",
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS",
+      "https://blog.lmcache.ai/en/2026/01/21/p2p-1/"
+    ]
+  },
+  {
     "source": "company/趋境科技/Hongbo Kang",
     "target": "company/趋境科技/武永卫 Yongwei Wu",
     "kind": "typed-relation",
@@ -3558,58 +3617,6 @@
     ]
   },
   {
-    "source": "community/LMCache/LMCache/Baolong Ma",
-    "target": "company/TensorMesh/程翊华 Yihua Cheng",
-    "kind": "typed-relation",
-    "relation_types": [
-      "open-source-collaboration",
-      "community-maintainer"
-    ],
-    "project": "LMCache",
-    "company": null,
-    "start": null,
-    "end": null,
-    "confidence": "high",
-    "evidence": [
-      "https://github.com/LMCache/LMCache"
-    ]
-  },
-  {
-    "source": "community/LMCache/LMCache/Baolong Ma",
-    "target": "company/TensorMesh/杜昆泰 Kuntai Du",
-    "kind": "typed-relation",
-    "relation_types": [
-      "open-source-collaboration",
-      "community-maintainer"
-    ],
-    "project": "LMCache",
-    "company": null,
-    "start": null,
-    "end": null,
-    "confidence": "high",
-    "evidence": [
-      "https://github.com/LMCache/LMCache"
-    ]
-  },
-  {
-    "source": "community/LMCache/LMCache/Baolong Ma",
-    "target": "community/LMCache/LMCache/Samm Shen",
-    "kind": "typed-relation",
-    "relation_types": [
-      "open-source-collaboration",
-      "community-maintainer"
-    ],
-    "project": "LMCache",
-    "company": null,
-    "start": null,
-    "end": null,
-    "confidence": "high",
-    "evidence": [
-      "https://github.com/LMCache/LMCache",
-      "https://github.com/LMCache/LMCache/issues"
-    ]
-  },
-  {
     "source": "community/LMCache/LMCache/Samm Shen",
     "target": "company/TensorMesh/程翊华 Yihua Cheng",
     "kind": "typed-relation",
@@ -3623,7 +3630,8 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/LMCache/LMCache"
+      "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md",
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS"
     ]
   },
   {
@@ -3640,25 +3648,27 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/LMCache/LMCache"
+      "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md",
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS"
     ]
   },
   {
     "source": "community/LMCache/LMCache/Samm Shen",
-    "target": "community/LMCache/LMCache/Baolong Ma",
+    "target": "company/腾讯/Baolong Mao",
     "kind": "typed-relation",
     "relation_types": [
       "open-source-collaboration",
+      "technical-collaboration",
       "community-maintainer"
     ],
     "project": "LMCache",
     "company": null,
-    "start": null,
+    "start": "2025",
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/LMCache/LMCache",
-      "https://github.com/LMCache/LMCache/issues"
+      "https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS",
+      "https://blog.lmcache.ai/en/2026/01/21/p2p-1/"
     ]
   },
   {

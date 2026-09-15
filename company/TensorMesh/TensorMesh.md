@@ -2,6 +2,12 @@
 type: company
 name: TensorMesh
 focus: ai-inference-infrastructure
+linked_people:
+  - "community/LMCache/LMCache/Samm Shen"
+  - "company/TensorMesh/Jiayi Yao"
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/TensorMesh/杜昆泰 Kuntai Du"
+  - "company/TensorMesh/程翊华 Yihua Cheng"
 projects: [LMCache, vLLM]
 people:
   - "company/TensorMesh/Junchen Jiang"
@@ -10,6 +16,9 @@ people:
   - "company/TensorMesh/Jiayi Yao"
   - "community/LMCache/LMCache/Samm Shen"
 last_verified: "2026-09"
+linked_projects:
+  - "community/LMCache/LMCache/LMCache"
+  - "community/vllm-project/vLLM/vLLM"
 ---
 # TensorMesh
 
@@ -35,3 +44,26 @@ TensorMesh 是围绕 LLM KV cache、disaggregated serving 与 inference memory/d
 - https://www.tensormesh.ai/team-members/samuel-shen
 - https://blog.lmcache.ai/zh/2025/10/23/gke-lmcache/
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：University of Chicago：Mathematics + Computer Science 双学位；TensorMesh 官方团队页公开确认。
+- [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[TensorMesh]]：联合创始人、Chief Scientist
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[TensorMesh]]：联合创始人、CTO
+
+<!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/LMCache/LMCache/LMCache|LMCache]]：公司页与社区/项目页均有显式记录；关系：`research-to-startup-core-network`。
+- [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->
