@@ -2,7 +2,8 @@
 type: person
 name: Michael Goin
 current_affiliations: ["Red Hat"]
-schools: ["University of Tennessee, Knoxville"]
+schools:
+  - "University of Tennessee, Knoxville"
 communities: [vLLM]
 areas: [quantization, kernels, performance, scheduler, hardware-efficiency]
 roles: [Principal Engineer, Core Maintainer]
