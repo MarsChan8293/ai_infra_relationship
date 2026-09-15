@@ -2,6 +2,8 @@
 type: project
 name: InfiniTensor
 organization: InfiniTensor
+linked_people:
+  - "company/字节跳动/郑立言 Liyan Zheng"
 layer: inference-engine
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniTensor
@@ -10,6 +12,7 @@ people:
   - "company/字节跳动/郑立言 Liyan Zheng"
   - "company/清程极智/翟季冬 Jidong Zhai"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # InfiniTensor
 
@@ -29,3 +32,12 @@ InfiniTensor 把 PACMAN 的 compiler / tensor optimization 研究线继续延伸
 - https://www.usenix.org/conference/osdi23/presentation/zheng
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/einnet/
 - https://wintersurf.github.io/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/字节跳动/郑立言 Liyan Zheng|郑立言（Liyan Zheng）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：公开个人主页列为其核心项目；项目由 EinNet 等 tensor-program optimization 研究线演化而来，当前定位为面向 GPU / AI accelerators 的高性能推理引擎。
+
+<!-- END AUTO PROJECT PEOPLE -->

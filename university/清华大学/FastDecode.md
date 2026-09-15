@@ -2,6 +2,9 @@
 type: project
 name: FastDecode
 organization: PACMAN Lab, Tsinghua University
+linked_people:
+  - "company/字节跳动/何家傲 Jiaao He"
+  - "company/清程极智/翟季冬 Jidong Zhai"
 layer: distributed-serving
 areas: [llm-serving, heterogeneous-inference, kv-cache, cpu-gpu-pipeline]
 people:
@@ -27,3 +30,13 @@ FastDecode 是 PACMAN 从 MoE distributed training / HPC 向推理优化迁移�
 - https://arxiv.org/abs/2403.11421
 - https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-journalscorrabs-2403-11421/
 - https://laekov.com.cn/cv/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/字节跳动/何家傲 Jiaao He|何家傲（Jiaao He）]]：[[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：**博士导师 + 系统论文长期合作者**。合作覆盖 FastMoE / FasterMoE / SmartMoE 与 [[university/清华大学/FastDecode|FastDecode]]。
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[university/清华大学/FastDecode|FastDecode]]：与博士生 [[company/字节跳动/何家傲 Jiaao He|何家傲（Jiaao He）]] 合作，将 CPU 集群资源用于处理 memory-bound KV-cache / attention 路径，形成 CPU/GPU heterogeneous LLM serving。
+
+<!-- END AUTO PROJECT PEOPLE -->

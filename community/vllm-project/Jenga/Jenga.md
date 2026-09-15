@@ -2,6 +2,9 @@
 type: project
 name: Jenga
 organization: Tsinghua University / UC Berkeley
+linked_people:
+  - "community/vllm-project/vLLM/Chen Zhang"
+  - "company/清程极智/翟季冬 Jidong Zhai"
 layer: heterogeneous-memory-management
 areas: [llm-serving, memory-management, kv-cache, heterogeneous-models]
 people:
@@ -14,6 +17,7 @@ people:
   - "company/Inferact/Joseph Gonzalez"
   - "company/Inferact/Ion Stoica"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Jenga
 
@@ -37,3 +41,13 @@ Jenga 是从翟季冬出发最关键的二跳桥之一：`翟季冬 → Chen Zha
 - https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-confsosp-zhang-dlkmwlyllz-25/
 - https://arxiv.org/abs/2503.18292
 - https://sky.cs.berkeley.edu/publications/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025 第一作者；连接清华 PACMAN 与 Berkeley / vLLM serving 系统网络
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025，与 [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]]、[[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]]、Woosuk Kwon、Zhuohan Li、Joseph Gon...
+
+<!-- END AUTO PROJECT PEOPLE -->
