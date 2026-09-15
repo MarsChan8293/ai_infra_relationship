@@ -4,7 +4,7 @@
 
 - School nodes: 46
 - Schools with ≥1 linked person: 38
-- Reverse person-school associations: 136
+- Reverse person-school associations: 138
 - Audit errors: 0
 
 | School | Linked people |
@@ -13,12 +13,13 @@
 | [[university/UC Berkeley/UC Berkeley|UC Berkeley]] | 16 |
 | [[university/北京大学/北京大学|北京大学]] | 16 |
 | [[university/上海交通大学/上海交通大学|上海交通大学]] | 14 |
-| [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | 6 |
+| [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | 7 |
 | [[university/浙江大学/浙江大学|浙江大学]] | 6 |
 | [[university/Stanford University/Stanford University|Stanford University]] | 3 |
 | [[university/University of Chicago/University of Chicago|University of Chicago]] | 3 |
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/UCLA/UCLA|UCLA]] | 2 |
+| [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 2 |
 | [[university/四川大学/四川大学|四川大学]] | 2 |
 | [[university/Binghamton University/Binghamton University|Binghamton University]] | 1 |
@@ -36,7 +37,6 @@
 | [[university/UC Davis/UC Davis|UC Davis]] | 1 |
 | [[university/University of British Columbia/University of British Columbia|University of British Columbia]] | 1 |
 | [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 1 |
-| [[university/University of Washington/University of Washington|University of Washington]] | 1 |
 | [[university/上海科技大学/上海科技大学|上海科技大学]] | 1 |
 | [[university/中山大学/中山大学|中山大学]] | 1 |
 | [[university/北京航空航天大学/北京航空航天大学|北京航空航天大学]] | 1 |

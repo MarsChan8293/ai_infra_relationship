@@ -3,6 +3,7 @@ type: school
 name: "University of Washington"
 linked_people:
   - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
+  - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
 ---
 # University of Washington
 
@@ -15,5 +16,6 @@ linked_people:
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
 - [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：University of Washington：博士，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]
+- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 
 <!-- END AUTO SCHOOL PEOPLE -->
