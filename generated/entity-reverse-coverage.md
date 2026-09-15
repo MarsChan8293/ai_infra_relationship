@@ -4,11 +4,11 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 119
+- Company-person associations: 127
 - Project/community nodes: 46
 - Project/community nodes with ≥1 linked person: 28
 - Project/community-person associations: 190
-- Unresolved source values (backlog, non-fatal): 55
+- Unresolved source values (backlog, non-fatal): 46
 - Audit errors: 0
 
 ## Companies
@@ -16,6 +16,7 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 30 |
+| [[company/趋境科技/趋境科技|趋境科技]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 6 |
 | [[company/IBM/IBM|IBM]] | 5 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 5 |
@@ -27,7 +28,6 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | 4 |
 | [[company/深度求索/深度求索|深度求索]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
-| [[company/趋境科技/趋境科技|趋境科技]] | 4 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 4 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
@@ -96,25 +96,16 @@
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Qingcheng.ai`
 - `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Tsinghua University`
 - `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Qingcheng.ai`
-- `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Approaching.AI`
 - `company/趋境科技/Hongbo Kang.md` · `affiliation` → `Tsinghua University`
-- `company/趋境科技/Hongbo Kang.md` · `affiliation` → `Approaching.AI`
 - `company/趋境科技/武永卫 Yongwei Wu.md` · `affiliation` → `Tsinghua University`
-- `company/趋境科技/武永卫 Yongwei Wu.md` · `affiliation` → `Approaching.AI`
 - `company/阿里巴巴/唐天一 Tianyi Tang.md` · `affiliation` → `Qwen`
 - `community/flagos-ai/FlagOS/敖玉龙 Yulong Ao.md` · `affiliation` → `北京智源人工智能研究院`
 - `community/kvcache-ai/KTransformers/Boxin Zhang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/kvcache-ai/KTransformers/Hongtao Chen.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Jiahao Wang.md` · `affiliation` → `Approaching.AI`
 - `community/kvcache-ai/KTransformers/Jianwei Dong.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Jiaqi Liao.md` · `affiliation` → `Approaching.AI`
 - `community/kvcache-ai/KTransformers/Jingqi Tang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Peilin Li.md` · `affiliation` → `Approaching.AI`
 - `community/kvcache-ai/KTransformers/Qingliang Ou.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/Xingxing Hao.md` · `affiliation` → `Approaching.AI`
-- `community/kvcache-ai/KTransformers/Ziwei Yuan.md` · `affiliation` → `Approaching.AI`
 - `community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie.md` · `affiliation` → `Tsinghua University`
-- `community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie.md` · `affiliation` → `Approaching.AI`
 - `community/llm-d/llm-d/Ashok Chandrasekar.md` · `communities` → `Kubernetes`
 - `community/llm-d/llm-d/Maroon Ayoub.md` · `affiliation` → `IBM Research`
 - `community/sgl-project/SGLang/Shenggui Li.md` · `communities` → `SpecForge`
