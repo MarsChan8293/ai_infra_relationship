@@ -4,11 +4,11 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 129
+- Company-person associations: 130
 - Project/community nodes: 46
 - Project/community nodes with ≥1 linked person: 28
 - Project/community-person associations: 190
-- Unresolved source values (backlog, non-fatal): 44
+- Unresolved source values (backlog, non-fatal): 43
 - Audit errors: 0
 
 ## Companies
@@ -34,10 +34,10 @@
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 3 |
+| [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
-| [[company/清昴智能/清昴智能|清昴智能]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
 | [[company/AMD/AMD|AMD]] | 1 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
@@ -89,7 +89,6 @@
 - `company/无问芯穹/汪玉 Yu Wang.md` · `affiliation` → `Tsinghua University`
 - `company/智谱/唐杰 Jie Tang.md` · `affiliation` → `Tsinghua University`
 - `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `Tsinghua University`
-- `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `TsingMao`
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Tsinghua University`
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Qingcheng.ai`
 - `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Tsinghua University`
