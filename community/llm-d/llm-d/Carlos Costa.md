@@ -5,6 +5,9 @@ current_affiliations: ["IBM"]
 communities: [llm-d]
 roles: [Distinguished Engineer, Project Leadership]
 areas: [distributed-inference, kubernetes, serving-systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration"],"project":"llm-d","start":"2025","confidence":"high","evidence":["https://llm-d.ai/blog/llm-d-announce","https://llm-d.ai/blog/llm-d-v0.2-our-first-well-lit-paths","https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale"]}'
 ---
 # Carlos Costa
 
@@ -13,8 +16,8 @@ areas: [distributed-inference, kubernetes, serving-systems]
 - [[llm-d]]：创始/核心项目领导网络成员；自 2025 社区发布起持续参与主要 release 的技术路线与跨公司治理。
 
 ## llm-d 关系
-- [[Robert Shaw]]：**llm-d 跨公司项目领导协作；2025–至今**。二人分别来自 Red Hat 与 IBM，从项目发布到 0.2–0.5 等主要版本持续共同署名，合作覆盖 distributed inference、well-lit paths、disaggregation 与 production serving。
-- [[Clayton Coleman]]：**llm-d 跨公司项目领导协作；2025–至今可确认共同发布/治理网络**。两人分别来自 IBM 与 Google，多次共同署名主要 release；Clayton 是否持续 active 以其页面的 governance 状态为准。
+- [[Robert Shaw]]：**llm-d 跨公司项目领导协作；2025–至今**。二人分别来自 Red Hat 与 IBM，从项目发布到 0.2–0.5 等主要版本持续共同署名官方 release，合作覆盖 distributed inference、well-lit paths、disaggregation 与 production serving。该边记录为 open-source-collaboration，不按共同署名技术文章误标为 paper-coauthor。
+- [[Clayton Coleman]]：**llm-d 跨公司 founding / release 关系候选；2025–至今可确认共同发布/治理网络**。两人分别来自 IBM 与 Google，多次共同署名主要 release；本轮暂不把共同发布本身升级成 typed strong edge，Clayton 是否持续 active 以其页面 governance 状态为准。
 - [[Abdullah Gharaibeh]]：**llm-d 项目治理网络 + Router 技术上下游**。Carlos 位于项目级架构/治理层，Abdullah 位于 Router SIG / scheduling 路径；公开资料支持同一项目技术领导网络，但不足以写成公司同事或直属关系。
 
 ## 技术方向
@@ -23,5 +26,6 @@ Kubernetes-native distributed inference、跨 accelerator serving、production w
 ## Sources
 - https://llm-d.ai/blog/authors
 - https://llm-d.ai/blog/llm-d-announce
+- https://llm-d.ai/blog/llm-d-v0.2-our-first-well-lit-paths
 - https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale
 - https://llm-d.ai/blog/serving-glm-5-2-agentic-workloads-on-llm-d
