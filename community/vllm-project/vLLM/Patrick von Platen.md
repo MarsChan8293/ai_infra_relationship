@@ -2,7 +2,7 @@
 type: person
 name: Patrick von Platen
 current_affiliations: ["Hugging Face"]
-communities: [vLLM, Hugging Face]
+communities: [vLLM]
 areas: [model-implementations, transformers, diffusion]
 ---
 # Patrick von Platen
