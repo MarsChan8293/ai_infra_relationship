@@ -2,6 +2,14 @@
 
 高校、实验室与学术研究组织的一级分类入口。中国高校与中国研究机构统一使用中文 canonical 名称；这里不是简单校友录，而是用导师/学生、同实验室、论文、开源项目、访问经历与创业去向解释 AI Infra 人才如何流动。
 
+## 国内 AI Systems / 智算研究机构第一梯队
+- [[上海人工智能实验室]]：基础平台覆盖自研编译计算、高效能智算系统、网络与分布式系统、大模型训练系统；通过 [[LMDeploy]] 直接连接大模型推理、量化、TurboMind 与 serving。
+- [[鹏城实验室]]：以先进计算研究部、鹏城云脑为核心，连接国产算力、分布式智能计算、高效能云计算、模型训练/部署与算网基础设施。
+- [[北京智源人工智能研究院]]：通过 [[FlagOS]]、[[FlagScale]]、[[FlagGems]]、[[FlagTree]]、[[FlagCX]] 等连接异构芯片、训练推理、编译、算子与集合通信。
+- [[启元实验室]]：通过 InfiniTensor / 九源统一智能计算平台连接 AI compiler、operator/runtime/communication 与国产异构芯片适配。
+
+这一组不是按行政级别机械排名，而是按本图谱关心的 AI Infra 密度筛选：能否形成 compiler / runtime / communication / distributed training & inference / heterogeneous accelerator 的可遍历关系网络。
+
 ## 已实体化 AI Infra 学术网络
 - [[清华大学]]：至少包含 MADSys/KVCache、KEG/GLM、PACMAN/vLLM 三条不同谱系，连接 KTransformers、Mooncake、智谱、月之暗面、vLLM、Inferact、Meta。
 - [[UC Berkeley]]：Sky/RISE/AMPLab 系统网络，连接 Ray/Ray Serve、vLLM、SGLang、Inferact、Anyscale、Databricks 与 OpenAI/Meta 人才流动。
