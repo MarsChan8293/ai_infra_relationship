@@ -1,13 +1,14 @@
 ---
 type: project
 name: SpecForge
+linked_people:
+  - "community/sgl-project/SGLang/Shenggui Li"
 companies: []
 company_relation: community-led
 layer: speculative-decoding
 open_source: true
 repository: https://github.com/sgl-project/SpecForge
 areas: [speculative-decoding, draft-model-training, llm-inference, distributed-training]
-linked_people: []
 last_verified: "2026-09"
 ---
 # SpecForge
@@ -26,3 +27,12 @@ SpecForge 属于 SGLang 生态项目，并被 LMSYS 作为旗舰项目持续推�
 ## Sources
 - https://github.com/sgl-project/SpecForge
 - https://github.com/sgl-project/SpecForge/blob/main/README.md
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
+
+<!-- END AUTO PROJECT PEOPLE -->

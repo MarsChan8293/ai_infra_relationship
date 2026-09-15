@@ -5,10 +5,11 @@
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
 - Company-person associations: 132
-- Project/community nodes: 46
-- Project/community nodes with ≥1 linked person: 28
-- Project/community-person associations: 190
-- Unresolved source values (backlog, non-fatal): 41
+- Project/community nodes: 48
+- Project/community nodes with ≥1 linked person: 30
+- Project/community-person associations: 193
+- Non-company affiliations recognized and routed elsewhere: 25
+- Unresolved source values (backlog, non-fatal): 13
 - Audit errors: 0
 
 ## Companies
@@ -75,52 +76,26 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
+| [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/ray-project/Ray/Ray|Ray]] | 1 |
+| [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 
 ## Unresolved source values
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
-- `company/Inferact/Ion Stoica.md` · `affiliation` → `UC Berkeley`
-- `company/Inferact/Joseph Gonzalez.md` · `affiliation` → `UC Berkeley`
-- `company/RadixArk/盛颖 Ying Sheng.md` · `communities` → `LMSYS`
-- `company/无问芯穹/汪玉 Yu Wang.md` · `affiliation` → `Tsinghua University`
-- `company/智谱/唐杰 Jie Tang.md` · `affiliation` → `Tsinghua University`
-- `company/清昴智能/朱文武 Wenwu Zhu.md` · `affiliation` → `Tsinghua University`
-- `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `Tsinghua University`
-- `company/清程极智/郑纬民 Weimin Zheng.md` · `affiliation` → `Tsinghua University`
-- `company/趋境科技/Hongbo Kang.md` · `affiliation` → `Tsinghua University`
-- `company/趋境科技/武永卫 Yongwei Wu.md` · `affiliation` → `Tsinghua University`
-- `company/阿里巴巴/唐天一 Tianyi Tang.md` · `affiliation` → `Qwen`
 - `community/flagos-ai/FlagOS/敖玉龙 Yulong Ao.md` · `affiliation` → `北京智源人工智能研究院`
 - `community/kvcache-ai/KTransformers/Boxin Zhang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/kvcache-ai/KTransformers/Hongtao Chen.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/kvcache-ai/KTransformers/Jianwei Dong.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/kvcache-ai/KTransformers/Jingqi Tang.md` · `affiliation` → `MADSys Lab, Tsinghua University`
 - `community/kvcache-ai/KTransformers/Qingliang Ou.md` · `affiliation` → `MADSys Lab, Tsinghua University`
-- `community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie.md` · `affiliation` → `Tsinghua University`
 - `community/llm-d/llm-d/Ashok Chandrasekar.md` · `communities` → `Kubernetes`
 - `community/llm-d/llm-d/Maroon Ayoub.md` · `affiliation` → `IBM Research`
-- `community/sgl-project/SGLang/Shenggui Li.md` · `communities` → `SpecForge`
 - `community/sgl-project/SGLang/Yineng Zhang.md` · `affiliation` → `LightSeek Foundation`
-- `community/sgl-project/SGLang/郑连民 Lianmin Zheng.md` · `communities` → `LMSYS`
 - `community/vllm-project/vLLM/Patrick von Platen.md` · `communities` → `Hugging Face`
-- `university/上海交通大学/Fan Wu.md` · `affiliation` → `Shanghai Jiao Tong University`
-- `university/上海交通大学/Haibo Chen.md` · `affiliation` → `Shanghai Jiao Tong University`
-- `university/上海交通大学/Rong Chen.md` · `affiliation` → `Shanghai Jiao Tong University`
-- `university/上海交通大学/Rongxin Cheng.md` · `affiliation` → `Shanghai Jiao Tong University`
-- `university/上海交通大学/Shengzhong Liu.md` · `affiliation` → `Shanghai Jiao Tong University`
-- `university/上海交通大学/Xingda Wei.md` · `affiliation` → `Shanghai Jiao Tong University`
 - `university/北京大学/Lei Wang.md` · `affiliation` → `Peking University / Tile-AI`
 - `university/北京大学/吴童 Tong Wu.md` · `affiliation` → `Peking University / Tile-AI`
-- `university/北京大学/杨智 Zhi Yang.md` · `affiliation` → `Peking University`
-- `university/北京大学/程羽 Yu Cheng.md` · `affiliation` → `Peking University`
 - `university/北京大学/马凌霄 Lingxiao Ma.md` · `affiliation` → `Microsoft Research Asia`
-- `university/浙江大学/Huan Li.md` · `affiliation` → `浙江大学`
-- `university/浙江大学/Jue Wang.md` · `affiliation` → `浙江大学`
-- `university/浙江大学/Lidan Shou.md` · `affiliation` → `浙江大学`
-- `university/浙江大学/Zheng Li.md` · `affiliation` → `浙江大学`
-- `university/清华大学/Mingxing Zhang.md` · `affiliation` → `Tsinghua University`
-- `university/清华大学/Ruoyu Qin.md` · `affiliation` → `Tsinghua University`

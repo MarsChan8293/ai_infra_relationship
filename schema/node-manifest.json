@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 402,
-  "complete_count": 402,
+  "node_count": 404,
+  "complete_count": 404,
   "incomplete_count": 0,
   "counts_by_type": {
-    "community": 2,
+    "community": 3,
     "company": 40,
     "index": 4,
     "infra-project": 1,
@@ -14,7 +14,7 @@
     "note": 42,
     "person": 204,
     "person-link": 4,
-    "project": 42,
+    "project": 43,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 2,
@@ -1075,6 +1075,15 @@
       "missing_required": []
     },
     {
+      "id": "community/lmsys-org/LMSYS/LMSYS",
+      "type": "community",
+      "source_markdown": "community/lmsys-org/LMSYS/LMSYS.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/lmsys-org/LMSYS/LMSYS.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/ModelTC/LightLLM/Hailong Yang",
       "type": "person",
       "source_markdown": "community/ModelTC/LightLLM/Hailong Yang.md",
@@ -1485,6 +1494,15 @@
       "source_markdown": "community/sgl-project/SGLang/郑连民 Lianmin Zheng.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/sgl-project/SGLang/郑连民 Lianmin Zheng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/sgl-project/SpecForge/SpecForge",
+      "type": "project",
+      "source_markdown": "community/sgl-project/SpecForge/SpecForge.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/sgl-project/SpecForge/SpecForge.yaml",
       "status": "complete",
       "missing_required": []
     },
