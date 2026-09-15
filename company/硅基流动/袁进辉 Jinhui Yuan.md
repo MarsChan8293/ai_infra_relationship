@@ -6,6 +6,7 @@ aliases: [袁进辉, Jinhui Yuan]
 current_affiliations: ["硅基流动"]
 schools:
   - "清华大学"
+projects: [OneFlow]
 roles: [Founder, CEO]
 areas: [distributed-deep-learning, inference, ai-infrastructure]
 last_verified: "2026-09"
