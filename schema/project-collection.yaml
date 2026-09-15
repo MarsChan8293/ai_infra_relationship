@@ -10,6 +10,7 @@ recommended:
   - layer
   - projects
   - areas
+  - linked_people
   - last_verified
 fields:
   type:
@@ -39,9 +40,16 @@ fields:
     description: Canonical repository URL when the collection has an official umbrella repository.
   governance:
     type: string
+  people:
+    type: array[string]
+    description: Optional curated high-value people references.
+  linked_people:
+    type: array[string]
+    description: Exhaustive derived reverse references from explicit person projects/communities metadata. Generated automatically; do not edit by hand.
   last_verified:
     type: string
     pattern: YYYY-MM
 notes:
   - A project-collection groups several related technical projects or a systems stack; it does not replace canonical child project nodes.
   - Child projects should remain independently readable and link back to the collection when useful.
+  - `people` is curated; `linked_people` is exhaustive and generated from explicit person project/community metadata.
