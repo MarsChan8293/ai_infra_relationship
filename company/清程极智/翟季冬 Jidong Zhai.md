@@ -6,31 +6,61 @@ aliases: [翟季冬, Jidong Zhai]
 current_affiliations: ["Tsinghua University","Qingcheng.ai"]
 schools:
   - "清华大学"
+projects: [Jenga, FastDecode]
 roles: [Professor, Chief Scientist]
-areas: [high-performance-computing, distributed-training, performance-analysis]
+areas: [high-performance-computing, distributed-training, performance-analysis, compiler-optimization, llm-serving]
 last_verified: "2026-09"
 relations:
   - '{"target":"company/清程极智/师天麾 Tianhui Shi","type":["cofounder","mentor-network"],"confidence":"high","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
   - '{"target":"company/清程极智/唐适之 Shizhi Tang","type":["mentor-network"],"confidence":"medium","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
   - '{"target":"company/清程极智/马子轩 Zixuan Ma","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
   - '{"target":"company/清程极智/汤雄超 Xiongchao Tang","type":["mentor-network"],"confidence":"medium","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/","https://www.tsinghua.org.cn/info/1953/42732.htm"]}'
+  - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["advisor","paper-coauthor"],"confidence":"high","evidence":["https://heheda12345.github.io/","https://arxiv.org/abs/2503.18292","https://pacman.cs.tsinghua.edu.cn/~zjd/people/"]}'
+  - '{"target":"company/字节跳动/郑立言 Liyan Zheng","type":["advisor","paper-coauthor"],"confidence":"high","evidence":["https://wintersurf.github.io/","https://pacman.cs.tsinghua.edu.cn/~zjd/projects/einnet/"]}'
+  - '{"target":"company/字节跳动/何家傲 Jiaao He","type":["advisor","paper-coauthor"],"confidence":"high","evidence":["https://laekov.com.cn/cv/","https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-journalscorrabs-2403-11421/"]}'
+  - '{"target":"company/深度求索/黄可钊 Kezhao Huang","type":["mentor-network","paper-coauthor"],"confidence":"high","evidence":["https://pacman.cs.tsinghua.edu.cn/~zjd/people/","https://pacman.cs.tsinghua.edu.cn/~zjd/author/kezhao-huang/"]}'
+  - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["paper-coauthor","research-collaboration"],"project":"Jenga","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["paper-coauthor","research-collaboration"],"project":"Jenga","confidence":"high","evidence":["https://arxiv.org/abs/2503.18292"]}'
 ---
 # 翟季冬（Jidong Zhai）
 
 当前：[[清华大学]] 计算机系长聘教授；公开创业资料列为 [[清程极智]] 首席科学家。
 
 ## AI Infra 位置
-研究方向覆盖高性能计算、并行系统、性能分析与大规模 AI 训练。其团队自 2021 年前后在国产超算上研发“八卦炉”等大规模训练系统，成为清程极智系统软件的重要技术上游。
+研究方向覆盖高性能计算、并行系统、编译器、性能分析、大规模 AI 训练与 LLM serving。PACMAN 的技术路线已经从传统 HPC / performance optimization 延展到 tensor compiler、MoE distributed training、异构推理和现代 serving memory management。
+
+## 推理优化 / LLM Systems 主线
+- [[university/清华大学/FastDecode|FastDecode]]：与博士生 [[company/字节跳动/何家傲 Jiaao He|何家傲（Jiaao He）]] 合作，将 CPU 集群资源用于处理 memory-bound KV-cache / attention 路径，形成 CPU/GPU heterogeneous LLM serving。
+- [[community/vllm-project/Jenga/Jenga|Jenga]]：SOSP 2025，与 [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]]、[[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]]、Woosuk Kwon、Zhuohan Li、Joseph Gonzalez、Ion Stoica 等共同连接 PACMAN 与 Berkeley / vLLM serving 网络。
+- [[community/InfiniTensor/InfiniTensor|InfiniTensor]] / EinNet：与 [[company/字节跳动/郑立言 Liyan Zheng|郑立言（Liyan Zheng）]] 等的 tensor compiler / optimizer 研究路线，继续延伸到多硬件推理引擎。
 
 ## 人物关系
-- [[company/清程极智/师天麾 Tianhui Shi|师天麾（Tianhui Shi）]]：**清华博士导师 / 学生 + 清程极智产业化**。师天麾公开回忆本科高年级进入翟季冬课题组，后在清华完成博士；课题组 alumni 页面记录其 2024 博士毕业后进入 QingCheng.AI。师天麾参与八卦炉及 AI systems 工作并成为公司联合创始人。
-- [[company/清程极智/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]]：**清华博士导师 / 学生 + 清程极智产业化**。翟季冬课题组 alumni 页面记录 Shizhi Tang 2024 PhD 毕业后进入 QingCheng.AI；唐适之现负责赤兔推理引擎、并行训练/推理及算子优化。
-- [[company/清程极智/马子轩 Zixuan Ma|马子轩（Zixuan Ma）]]：**清华 HPC 研究指导网络 + BaGuaLu 论文合作者**。马子轩是 2022 BaGuaLu 第一作者，翟季冬是该工作作者及课题组负责人；当前马子轩在清程任高级研发专家。现有公开材料不完整披露其博士毕业/正式导师起止信息，因此不额外写成博士导师关系。
-- [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超（Xiongchao Tang）]]：**清华 HPC 技术谱系 + 公司技术网络**。汤雄超出自清华计算机系并长期从事并行计算与调度；两人在清程极智形成学术技术积累到产业系统软件的连接。公开资料不足以确认正式导师/学生关系。
-- [[company/清程极智/靳江明 Jiangming Jin|靳江明（Jiangming Jin）]]：**清程极智技术/管理协作网络**。翟季冬偏学术与系统技术方向，靳江明偏分布式系统与公司运营落地。
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：**清华博士导师 / 学生 + Jenga 合作者**。PACMAN alumni 页面记录 Chen Zhang 2025 PhD，毕业后赴 Berkeley 做博士后；Jenga 将这条师生线直接接入 Berkeley / vLLM serving 网络。
+- [[company/字节跳动/郑立言 Liyan Zheng|郑立言（Liyan Zheng）]]：**清华博士导师 / 学生 + compiler / ML systems 合作者**。2025 PhD 后进入 ByteDance Seed，从事 LLM systems。
+- [[company/字节跳动/何家傲 Jiaao He|何家傲（Jiaao He）]]：**清华博士导师 / 学生 + FastDecode / MoE systems 合作者**。2025 PhD 后进入 ByteDance infrastructure research。
+- [[company/深度求索/黄可钊 Kezhao Huang|黄可钊（Kezhao Huang）]]：**PACMAN 博士培养/研究网络 + 系统论文合作者**。研究兴趣从 GNN systems 转向 LLM serving / fine-tuning，2025 PhD 后首份工作为 DeepSeek。
+- [[company/清程极智/师天麾 Tianhui Shi|师天麾（Tianhui Shi）]]：**清华博士导师 / 学生 + 清程极智产业化**。师天麾参与八卦炉及 AI systems 工作并成为公司联合创始人。
+- [[company/清程极智/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]]：**清华博士导师 / 学生 + 清程极智产业化**。2024 PhD 后进入 QingCheng.AI，负责赤兔推理引擎、并行训练/推理及算子优化。
+- [[company/清程极智/马子轩 Zixuan Ma|马子轩（Zixuan Ma）]]：**清华 HPC 研究指导网络 + BaGuaLu 论文合作者**。当前在清程任高级研发专家。
+- [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超（Xiongchao Tang）]]：**清华 HPC 技术谱系 + 公司技术网络**。
+- [[company/清程极智/靳江明 Jiangming Jin|靳江明（Jiangming Jin）]]：**清程极智技术/管理协作网络**。
+
+## BFS 关键人才迁移
+`PACMAN / 翟季冬 → Chen Zhang → Berkeley / vLLM → Meta / Inferact / TensorMesh`
+
+`PACMAN / 翟季冬 → 郑立言、何家傲 → ByteDance Seed / Infrastructure`
+
+`PACMAN / 翟季冬 → 黄可钊 → DeepSeek`
+
+这些路线与清华 MADSys → Moonshot / DeepSeek 的谱系相互独立，不因同校自动合并为同一实验室网络。
 
 ## Sources
+- https://pacman.cs.tsinghua.edu.cn/~zjd/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/people/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/
+- https://pacman.cs.tsinghua.edu.cn/~zjd/projects/einnet/
+- https://arxiv.org/abs/2503.18292
+- https://arxiv.org/abs/2403.11421
+- https://wintersurf.github.io/
+- https://laekov.com.cn/cv/
 - https://www.tsinghua.org.cn/info/1953/42732.htm
-- https://www.ccf.org.cn/Activities/Training/ADL/ADL/2026-04-28/884626.shtml
