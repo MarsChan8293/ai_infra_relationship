@@ -8,6 +8,9 @@ on:
       - link-audit.txt
       - schema/nodes/**
       - schema/node-manifest.json
+      - generated/school-coverage.json
+      - generated/school-reverse-coverage.json
+      - generated/entity-reverse-coverage.json
   pull_request:
     branches:
       - main
@@ -38,6 +41,15 @@ jobs:
 
       - name: Audit semantic graph and generate metrics
         run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Audit person-school links
+        run: python3 scripts/audit-school-links.py --root . --generated generated
+
+      - name: Audit reverse school-person links
+        run: python3 scripts/audit-school-reverse-links.py --root . --generated generated
+
+      - name: Audit reverse company/project-person links
+        run: python3 scripts/audit-entity-reverse-links.py --root . --generated generated
 
       - name: Audit typed relations and coverage
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
@@ -73,6 +85,9 @@ jobs:
           cp -R university "$QUARTZ_DIR/content/university"
           cp generated/research-queue.md "$QUARTZ_DIR/content/generated/research-queue.md"
           cp generated/typed-relation-coverage.md "$QUARTZ_DIR/content/generated/typed-relation-coverage.md"
+          cp generated/school-coverage.md "$QUARTZ_DIR/content/generated/school-coverage.md"
+          cp generated/school-reverse-coverage.md "$QUARTZ_DIR/content/generated/school-reverse-coverage.md"
+          cp generated/entity-reverse-coverage.md "$QUARTZ_DIR/content/generated/entity-reverse-coverage.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
 
