@@ -3,6 +3,9 @@ type: research-institution
 name: Tile-AI
 organization: 北京大学
 aliases: ["Tile AI", "Peking University Tile-AI"]
+linked_people:
+  - "university/北京大学/Lei Wang"
+  - "university/北京大学/吴童 Tong Wu"
 areas: [ai-compilers, kernel-dsl, gpu-kernels, llm-inference]
 projects: [TileLang, TileScale, TileOps]
 website: https://github.com/tile-ai
@@ -24,3 +27,13 @@ Tile-AI 成员关系表示公开的研究/开源团队参与，不自动推出�
 ## Sources
 - https://github.com/tile-ai/tilelang
 - https://github.com/tile-ai
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[university/北京大学/Lei Wang|Lei Wang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/北京大学/吴童 Tong Wu|Tong Wu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+
+<!-- END AUTO RESEARCH PEOPLE -->

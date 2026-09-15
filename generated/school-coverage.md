@@ -52,11 +52,11 @@
 | 1 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
 | 2 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
 | 3 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
-| 4 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
-| 5 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
-| 6 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
-| 7 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
-| 8 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 5.935 | 5 |
+| 4 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
+| 5 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
+| 6 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
+| 7 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
+| 8 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
 | 9 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
 | 10 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
 | 11 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |

@@ -5,11 +5,11 @@
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
 - Company-person associations: 132
-- Project/community nodes: 48
-- Project/community nodes with ≥1 linked person: 30
-- Project/community-person associations: 193
-- Non-company affiliations recognized and routed elsewhere: 33
-- Unresolved source values (backlog, non-fatal): 5
+- Project/community nodes: 50
+- Project/community nodes with ≥1 linked person: 31
+- Project/community-person associations: 194
+- Non-company affiliations recognized and routed elsewhere: 35
+- Unresolved source values (backlog, non-fatal): 2
 - Audit errors: 0
 
 ## Companies
@@ -78,6 +78,7 @@
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
+| [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[community/ray-project/Ray/Ray|Ray]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
@@ -86,8 +87,5 @@
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
-- `community/llm-d/llm-d/Ashok Chandrasekar.md` · `communities` → `Kubernetes`
 - `community/sgl-project/SGLang/Yineng Zhang.md` · `affiliation` → `LightSeek Foundation`
 - `community/vllm-project/vLLM/Patrick von Platen.md` · `communities` → `Hugging Face`
-- `university/北京大学/Lei Wang.md` · `affiliation` → `Peking University / Tile-AI`
-- `university/北京大学/吴童 Tong Wu.md` · `affiliation` → `Peking University / Tile-AI`

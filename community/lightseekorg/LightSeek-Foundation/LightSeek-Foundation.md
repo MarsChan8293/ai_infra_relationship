@@ -2,11 +2,11 @@
 type: community
 name: LightSeek Foundation
 aliases: ["LightSeek", "LightSeek Foundation"]
+linked_people: []
 category: open-source-inference-foundation
 areas: [llm-inference, agentic-inference, speculative-decoding, serving-systems]
 governance: foundation-led
 website: https://lightseek.org/
-linked_people: []
 last_verified: "2026-09"
 ---
 # LightSeek Foundation

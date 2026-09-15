@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 407,
-  "complete_count": 407,
+  "node_count": 410,
+  "complete_count": 410,
   "incomplete_count": 0,
   "counts_by_type": {
-    "community": 3,
+    "community": 4,
     "company": 40,
     "index": 4,
     "infra-project": 1,
@@ -14,10 +14,10 @@
     "note": 42,
     "person": 204,
     "person-link": 4,
-    "project": 43,
+    "project": 44,
     "project-collection": 1,
     "relationship-map": 1,
-    "research-institution": 5,
+    "research-institution": 6,
     "school": 46
   },
   "nodes": [
@@ -288,6 +288,15 @@
       "source_markdown": "community/Ascend/ops-transformer/wangchao661.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/Ascend/ops-transformer/wangchao661.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/cloud-native/Kubernetes/Kubernetes",
+      "type": "project",
+      "source_markdown": "community/cloud-native/Kubernetes/Kubernetes.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/cloud-native/Kubernetes/Kubernetes.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -909,6 +918,15 @@
       "source_markdown": "community/kvcache-ai/Mooncake/马腾 Teng Ma.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/马腾 Teng Ma.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
+      "type": "community",
+      "source_markdown": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3393,6 +3411,15 @@
       "source_markdown": "university/北京大学/Lei Wang.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/university/北京大学/Lei Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/北京大学/Tile-AI",
+      "type": "research-institution",
+      "source_markdown": "university/北京大学/Tile-AI.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/北京大学/Tile-AI.yaml",
       "status": "complete",
       "missing_required": []
     },
