@@ -16,6 +16,7 @@ relations:
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
   - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
 ---
 # Joseph Gonzalez
 

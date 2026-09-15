@@ -12,6 +12,8 @@ last_verified: "2026-09"
 relations:
   - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["coworker","open-source-collaboration","technical-collaboration"],"project":"vLLM","company":"Red Hat","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://www.redhat.com/en/authors/michael-goin","https://docs.vllm.ai/en/latest/governance/process/"]}'
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://vllm.ai/blog/2025-05-12-hardware-plugin","https://vllm.ai/blog/2025-08-20-torch-compile","https://docs.vllm.ai/en/latest/governance/process/"]}'
+  - '{"target":"company/Meta/Richard Zou","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://www.redhat.com/en/authors/michael-goin","https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm"]}'
+  - '{"target":"community/vllm-project/vLLM/Matthew Bonanni","type":["coworker"],"confidence":"high","evidence":["https://www.redhat.com/en/authors/michael-goin","https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm"]}'
 ---
 # Michael Goin
 

@@ -17,6 +17,7 @@ relations:
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["research-collaboration"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
   - '{"target":"community/vllm-project/vLLM/游凯超 Kaichao You","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
+  - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["mentor-network"],"confidence":"medium","evidence":["https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://sky.cs.berkeley.edu/"]}'
 ---
 # Ion Stoica
 

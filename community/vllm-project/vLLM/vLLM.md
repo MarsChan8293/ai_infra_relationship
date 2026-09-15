@@ -6,7 +6,12 @@ linked_people:
   - "community/Project-HAMi/HAMi/chaunceyjiang"
   - "community/vllm-project/vLLM/Chen Zhang"
   - "community/vllm-project/vLLM/Matthew Bonanni"
+  - "community/vllm-project/vLLM/Michael Goin"
+  - "community/vllm-project/vLLM/Nick Hill"
   - "community/vllm-project/vLLM/Patrick von Platen"
+  - "community/vllm-project/vLLM/Robert Shaw"
+  - "community/vllm-project/vLLM/Roger Wang"
+  - "community/vllm-project/vLLM/Simon Mo"
   - "community/vllm-project/vLLM/Yongye Zhu"
   - "community/vllm-project/vLLM/乔一凡 Yifan Qiao"
   - "community/vllm-project/vLLM/李卓翰 Zhuohan Li"
@@ -76,7 +81,12 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[community/Project-HAMi/HAMi/chaunceyjiang|chaunceyjiang]]：[[vLLM]]：截至 2026-09，官方 Committers 页面列为 committer，主要负责 **Tool use and reasoning parser**；area owners 也将其列入 reasoning / tool calling parsers。
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[vLLM]]：参与 V1 KV cache manager 重构、模型支持与 LLM serving 系统研究
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：[[vLLM]]：Maintainer，主要连接高性能计算、GPU inference 与 serving engine 优化。
+- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：曾参与 Red Hat 侧 vLLM 工程
 - [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：[[community/vllm-project/vLLM/Harry Mellor|Harry Mellor]]：**Hugging Face 同事 + 模型实现/serving integration 协作者**。截至 2026-09 两人均公开关联 Hugging Face；Patrick 长期参与 Transformers / Diffusers 与模型实现生态，Harry 负责 vLLM 的 Hugging Face integration、config 与...
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[vLLM]]：Lead Maintainer / Project Lead，负责 engine core、distributed、disaggregated serving、KV Connector 与 observability。
+- [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**vLLM 共同维护者 + Inferact 创始团队同事**。两人先在 vLLM 开源社区协作，2025–至今共同在 [[Inferact]]；Woosuk 负责 engine core / attention，Roger 主要负责 multimodality / benchmark。
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**Berkeley 系统研究合作者 + vLLM 社区共同领导者 + Inferact 联合创始人**。2023–2025 共同建设 vLLM；2025–至今在 [[Inferact]] 共事，Simon 任 CEO、Woosuk 任 CTO。
 - [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[vLLM]]：长期 contributor；参与模型 day-0 support、backend interface 与 inference serving 工程
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[vLLM]] × [[Mooncake]]：2026-05 参与 distributed KV cache integration，用于大规模 agentic workloads；这里记录为项目集成，不将乔一凡标成 Mooncake 核心社区成员
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[Inferact/Woosuk Kwon|Woosuk Kwon]]：**UC Berkeley 同实验室研究者 + vLLM 共同创始/共同维护者**。李卓翰 2019–2024、Woosuk 2021–2025 在 Berkeley CS 博士阶段有 2021–2024 的重叠，并都处于 [[Ion Stoica]] 的系统研究网络；2023 共同创建 / 推动 [[vLLM]]。

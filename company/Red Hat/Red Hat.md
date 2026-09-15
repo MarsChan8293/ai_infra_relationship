@@ -7,6 +7,8 @@ linked_people:
   - "community/llm-d/llm-d/Pete Cheslock"
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
   - "community/vllm-project/vLLM/Matthew Bonanni"
+  - "community/vllm-project/vLLM/Michael Goin"
+  - "community/vllm-project/vLLM/Robert Shaw"
 projects: [vLLM, llm-d]
 linked_projects:
   - "community/llm-d/llm-d/llm-d"
@@ -50,6 +52,8 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[Red Hat]]
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

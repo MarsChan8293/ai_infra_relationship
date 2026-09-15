@@ -14,6 +14,8 @@ last_verified: "2026-09"
 relations:
   - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["cofounder","research-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
   - '{"target":"company/TensorMesh/Junchen Jiang","type":["mentor-network"],"confidence":"medium","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
+  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm","https://apostac.github.io/about.html"]}'
 ---
 # 程翊华（Yihua Cheng）
 

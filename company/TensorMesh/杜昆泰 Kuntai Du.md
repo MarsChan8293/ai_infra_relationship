@@ -18,6 +18,8 @@ relations:
   - '{"target":"community/vllm-project/vLLM/Chen Zhang","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"company/OpenAI/柳晓萱 Xiaoxuan Liu","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
   - '{"target":"community/vllm-project/vLLM/乔一凡 Yifan Qiao","type":["paper-coauthor"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/Nick Hill","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
+  - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration"],"confidence":"high","evidence":["https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm","https://www.tensormesh.ai/team-members/kuntai-du","https://arxiv.org/abs/2503.18292"]}'
 ---
 # 杜昆泰（Kuntai Du）
 

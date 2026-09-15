@@ -4,10 +4,10 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 31
-- Company-person associations: 142
+- Company-person associations: 147
 - Project/community nodes: 57
 - Project/community nodes with ≥1 linked person: 40
-- Project/community-person associations: 229
+- Project/community-person associations: 235
 - Non-company affiliations recognized and routed elsewhere: 44
 - Unresolved source values (backlog, non-fatal): 4
 - Audit errors: 0
@@ -18,12 +18,12 @@
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 30 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 12 |
+| [[company/Inferact/Inferact|Inferact]] | 9 |
+| [[company/Red Hat/Red Hat|Red Hat]] | 7 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
-| [[company/Inferact/Inferact|Inferact]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/IBM/IBM|IBM]] | 5 |
-| [[company/Red Hat/Red Hat|Red Hat]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
@@ -52,11 +52,11 @@
 
 | Entity | Linked people |
 | --- | ---: |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 17 |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 22 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
-| [[community/llm-d/llm-d/llm-d|llm-d]] | 13 |
+| [[community/llm-d/llm-d/llm-d|llm-d]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |

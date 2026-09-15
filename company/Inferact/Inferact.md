@@ -3,6 +3,9 @@ type: company
 name: Inferact
 focus: ai-inference-infrastructure
 linked_people:
+  - "community/vllm-project/vLLM/Nick Hill"
+  - "community/vllm-project/vLLM/Roger Wang"
+  - "community/vllm-project/vLLM/Simon Mo"
   - "community/vllm-project/vLLM/Yongye Zhu"
   - "community/vllm-project/vLLM/乔一凡 Yifan Qiao"
   - "community/vllm-project/vLLM/游凯超 Kaichao You"
@@ -44,6 +47,9 @@ Inferact 是 AI inference infrastructure 公司，由 vLLM 创建者、核心维
 
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
 
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：[[Inferact]]：核心工程团队；截至 2026-09 为 vLLM Project Lead
+- [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：[[Inferact]]：创始团队，2025–至今
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[Inferact]]：联合创始人、CEO，2025–至今
 - [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[Princeton University]]：个人学术主页仍保留 PhD Student 简介；截至 2026-09，其 GitHub 公开资料同时显示为 [[Inferact]] MTS，因此不推断当前学籍状态或起止时间
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[Inferact]]：联合创始人、Chief Scientist，2025–至今

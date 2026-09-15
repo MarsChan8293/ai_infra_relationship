@@ -2,7 +2,8 @@
 type: person
 name: Nick Hill
 current_affiliations: ["Inferact"]
-schools: ["University of Warwick"]
+schools:
+  - "University of Warwick"
 communities: [vLLM]
 areas: [scheduler, distributed-inference, kv-cache, api-server, ci]
 roles: [Founding Engineer, Core Maintainer]
@@ -12,6 +13,7 @@ relations:
   - '{"target":"company/Inferact/Woosuk Kwon","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality","https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-"]}'
   - '{"target":"community/vllm-project/vLLM/Simon Mo","type":["coworker","open-source-collaboration"],"project":"vLLM","company":"Inferact","confidence":"high","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality","https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-"]}'
   - '{"target":"community/vllm-project/vLLM/Robert Shaw","type":["open-source-collaboration","technical-collaboration"],"project":"vLLM","confidence":"high","evidence":["https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1","https://docs.vllm.ai/en/latest/governance/committers/"]}'
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["technical-collaboration"],"confidence":"medium","evidence":["https://docs.vllm.ai/en/latest/governance/process/","https://docs.vllm.ai/en/latest/governance/committers/","https://vllm.ai/events/vllm-conference/2026"]}'
 ---
 # Nick Hill
 

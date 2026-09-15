@@ -2,6 +2,7 @@
 type: school
 name: University of Warwick
 linked_people:
+  - "community/vllm-project/vLLM/Nick Hill"
 last_verified: "2026-09"
 ---
 # University of Warwick
@@ -14,6 +15,8 @@ University of Warwick 是图谱中的高校节点，用于连接 AI Infra 人物
 <!-- BEGIN AUTO SCHOOL PEOPLE -->
 ## 关联人物（自动汇总）
 
-当前尚无人物节点通过 `schools:` 明确关联到本校。
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：[[University of Warwick]]：本科，一等荣誉
 
 <!-- END AUTO SCHOOL PEOPLE -->
