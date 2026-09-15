@@ -33,7 +33,7 @@ Tile-AI 成员关系表示公开的研究/开源团队参与，不自动推出�
 
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
 
-- [[university/北京大学/Lei Wang|Lei Wang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/北京大学/Lei Wang|Lei Wang]]：[[university/北京大学/Tile-AI|Tile-AI]]：TileLang 初始核心开发网络成员。
 - [[university/北京大学/吴童 Tong Wu|Tong Wu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 
 <!-- END AUTO RESEARCH PEOPLE -->

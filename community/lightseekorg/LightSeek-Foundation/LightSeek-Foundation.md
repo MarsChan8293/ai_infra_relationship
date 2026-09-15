@@ -2,7 +2,8 @@
 type: community
 name: LightSeek Foundation
 aliases: ["LightSeek", "LightSeek Foundation"]
-linked_people: []
+linked_people:
+  - "community/sgl-project/SGLang/Yineng Zhang"
 category: open-source-inference-foundation
 areas: [llm-inference, agentic-inference, speculative-decoding, serving-systems]
 governance: foundation-led
@@ -26,3 +27,12 @@ Foundation 成员或治理关系不自动等同于雇佣关系。人物与项目
 - https://lightseek.org/
 - https://lightseek.org/blog/
 - https://lightseek.org/blog/lightseek-tokenspeed.html
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]]：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
+
+<!-- END AUTO PROJECT PEOPLE -->

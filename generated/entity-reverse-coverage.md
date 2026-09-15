@@ -4,12 +4,12 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 132
+- Company-person associations: 133
 - Project/community nodes: 50
-- Project/community nodes with ≥1 linked person: 31
-- Project/community-person associations: 194
-- Non-company affiliations recognized and routed elsewhere: 35
-- Unresolved source values (backlog, non-fatal): 2
+- Project/community nodes with ≥1 linked person: 32
+- Project/community-person associations: 195
+- Non-company affiliations recognized and routed elsewhere: 37
+- Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
 ## Companies
@@ -26,6 +26,7 @@
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
+| [[company/字节跳动/字节跳动|字节跳动]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 4 |
 | [[company/深度求索/深度求索|深度求索]] | 4 |
@@ -34,7 +35,6 @@
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
-| [[company/字节跳动/字节跳动|字节跳动]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
@@ -79,13 +79,7 @@
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
+| [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
 | [[community/ray-project/Ray/Ray|Ray]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
-
-## Unresolved source values
-
-这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
-
-- `community/sgl-project/SGLang/Yineng Zhang.md` · `affiliation` → `LightSeek Foundation`
-- `community/vllm-project/vLLM/Patrick von Platen.md` · `communities` → `Hugging Face`

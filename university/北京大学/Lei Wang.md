@@ -2,7 +2,7 @@
 type: person
 name: Lei Wang
 aliases: [Lei Wang, LeiWang1999]
-current_affiliations: ["北京大学", "Tile-AI"]
+current_affiliations: ["北京大学","Tile-AI"]
 schools:
   - "北京大学"
 areas: [ai-compilers, gpu-kernels, kernel-dsl]

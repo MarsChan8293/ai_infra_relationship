@@ -55,6 +55,6 @@ TokenSpeed 由 LightSeek Foundation 治理，不属于单一公司。公开 co-c
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
-- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：LightSeek Foundation：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
+- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]]：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
 
 <!-- END AUTO PROJECT PEOPLE -->

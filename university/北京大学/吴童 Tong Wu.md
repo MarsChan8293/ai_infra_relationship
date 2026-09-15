@@ -2,7 +2,7 @@
 type: person
 name: Tong Wu
 aliases: [吴童, Tong Wu]
-current_affiliations: ["北京大学", "Tile-AI", "字节跳动"]
+current_affiliations: ["北京大学","Tile-AI","字节跳动"]
 schools:
   - "北京大学"
 areas: [llm-systems, ai-compilers, kernel-dsl, kv-cache]
