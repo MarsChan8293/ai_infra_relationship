@@ -1,55 +1,66 @@
 ---
 type: project
 name: LMCache
-linked_people:
-  - "community/LMCache/LMCache/Baolong Ma"
-  - "community/LMCache/LMCache/Samm Shen"
-  - "company/TensorMesh/Junchen Jiang"
-  - "company/TensorMesh/杜昆泰 Kuntai Du"
-  - "company/TensorMesh/程翊华 Yihua Cheng"
 companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
 layer: kv-cache-management
 open_source: true
-linked_companies:
-  - "company/TensorMesh/TensorMesh"
+repository: https://github.com/LMCache/LMCache
+areas: [kv-cache, distributed-kv-cache, offloading, storage-backend, p2p, disaggregated-serving, vllm-integration, sglang-integration]
+people:
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/TensorMesh/杜昆泰 Kuntai Du"
+  - "company/TensorMesh/程翊华 Yihua Cheng"
+  - "company/TensorMesh/Jiayi Yao"
+  - "community/LMCache/LMCache/Samm Shen"
+  - "company/腾讯/Baolong Mao"
+  - "company/腾讯/Chunxiao Zheng"
+  - "community/LMCache/LMCache/Shaoting Feng"
+  - "company/IBM/Martin Hickey"
+last_verified: "2026-09"
 ---
 # LMCache
 
 ## 项目简介
-LMCache 是 LLM KV cache 的分层存储、传输与复用系统，把 KV 从单 GPU 显存扩展到 CPU、远端存储和跨实例数据路径，并通过 connector 接入 serving engine。它重点解决长上下文、prefill/decode 解耦与跨请求复用下的 KV 数据生命周期问题。
+LMCache 是 LLM KV cache 的分层存储、传输、共享与复用系统，把 KV 从单 GPU HBM 扩展到 CPU、远端存储和跨实例/跨节点数据路径，并通过 connector 接入主流 serving engine。到 2026 年，其技术重点已从单进程 offload 扩展到 multiprocess（MP）架构、distributed KV、P2P sharing、PD disaggregation、KV management interface 和多硬件/多存储后端。
 
-## GitHub
-https://github.com/LMCache/LMCache
+## 当前治理 / 维护网络
+官方 `MAINTAINERS.md` 当前列出 10 名 Committer，包括 Yihua Cheng、Jiayi Yao、Kuntai Du、Martin Hickey、Hunter Zhang、Baolong Mao、Chunxiao Zheng、Shaoting Feng、Samuel Shen、Dongjoo Seo。
 
-## 主要贡献公司
-- [[company/TensorMesh/TensorMesh|TensorMesh]]：LMCache 核心研究/工程人物进入产业化后的主要公司节点，持续连接 KV cache、disaggregated serving 与 vLLM KV Connector。LMCache 本身起源于学术/开源社区，因此这里是 **core network / commercialization**，不是公司所有权。
-- IBM、NVIDIA、Red Hat、Microsoft、AMD、Tencent、ByteDance 等公司人员也曾被 LMCache 社区公开列为产业贡献网络；本图谱暂不把一次性/非核心贡献全部升级为主公司边。
+当前 `CODEOWNERS` 进一步把责任细化到 core engine、cache controller、multiprocess、distributed/L2、GPU connector、platform、lookup client、storage backends、serving-engine integrations、C extensions、operator、ROCm、CI 等模块。这比单纯 contributor list 更适合构建本图谱的 maintainer / component-owner 强边。
 
-## 主要维护者 / 组织
-由 LMCache 社区维护，核心网络与 [[TensorMesh]]、University of Chicago systems 研究及 vLLM KV Connector 生态重叠。已记录人物包括 [[程翊华 Yihua Cheng]]、[[杜昆泰 Kuntai Du]]、[[Baolong Ma]]、[[Samm Shen]]。
+## 关键人物
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]、[[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：UChicago / TensorMesh / LMCache 核心研究与工程网络。
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：TensorMesh Software Engineer；横跨 LMCache 的 vLLM、SGLang、TensorRT-LLM integration ownership。
+- [[company/腾讯/Baolong Mao|Baolong Mao]]、[[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：Tencent Committer；distributed/L2、storage、platform 与 P2P 路径核心工程网络。
+- [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：UChicago Committer；GPU/GDS、SGLang integration 与 vLLM multimodal KV caching 桥梁。
+- [[company/IBM/Martin Hickey|Martin Hickey]]：IBM Committer；non-CUDA、KV events、tests/CI/packaging，并直接向 vLLM 修复 LMCache connector。
 
-## 生态关系
-[[vLLM]] · [[TensorMesh]] · [[vLLM-Ascend]] · [[Mooncake]] · [[NIXL]]。LMCache 更偏 engine 外部 KV 管理与复用，Mooncake 更强调分布式 KVCache-centric serving/storage，两者有交叉但并非同一项目。
+## Serving Engine 关系
+### vLLM
+LMCache 与 vLLM 已是双向工程集成关系，而不是单纯外部插件。vLLM 自身保留 `LMCacheConnectorV1`；Jiayi Yao、Baolong Mao、Samuel Shen、Martin Hickey 等都有可核验的 vLLM 侧直接 commit 或 connector 维护证据。
 
-<!-- BEGIN AUTO PROJECT PEOPLE -->
-## 关联人物（自动汇总）
+### SGLang
+LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 包括 Samuel Shen、Shaoting Feng 等。2026 Q3 roadmap 继续推进 SGLang MP async store/retrieve 与 HiCache integration。
 
-以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+### TensorRT-LLM
+当前 `lmcache/integration/tensorrt_llm/` 由 Samuel Shen ownership，形成第三条主 serving-engine 集成线。
 
-- [[community/LMCache/LMCache/Baolong Ma|Baolong Ma]]：[[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：**LMCache 社区协作者**。截至 2026-09，两人均持续参与 LMCache；程翊华负责 KV cache offloading / connector / 分层缓存等核心技术，Baolong Ma 更偏 contributor onboarding、issue 与社区协作。公开资料不足以确认二人在同一公司共事，因此不标记为“同事”；首次共同参与 LMCache...
-- [[community/LMCache/LMCache/Samm Shen|Samm Shen]]：活跃于 LMCache 核心功能规划与社区协作
-- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
-- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存
-- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输
+## Storage / 数据路径关系
+- **Mooncake Store**：LMCache 当前有 MooncakeStore L2 adapter、storage connector、lookup client；Baolong Mao / Chunxiao Zheng 在这些路径有明确 CODEOWNERS。这里表示 LMCache 侧技术集成，不等价于二人是 Mooncake maintainer。
+- **Redis / S3 / filesystem / native L2**：当前均有独立 connector / adapter ownership。
+- **3FS**：进入 2026 Q3 roadmap 的新 storage support，当前仍是 roadmap 状态，不标记为成熟 integration。
 
-<!-- END AUTO PROJECT PEOPLE -->
+## 硬件生态
+2026 Q3 roadmap 明确列出新 accelerator/platform 支持方向：Ascend、Moore Threads、MACA、AWS Trainium。当前应建“planned / in-progress integration”语义，不能提前写成成熟支持。
 
-<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
-## 关联公司（自动汇总）
+## TensorMesh 关系
+[[company/TensorMesh/TensorMesh|TensorMesh]] 由 LMCache 核心研究/工程网络产业化而来，并持续维护 LMCache。这里保留 `research-to-startup-core-network` 的公司级边；相反，Tencent / IBM 等当前只因为具体员工有维护贡献，因此不自动升级成公司级 LMCache 治理边。
 
-以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
-
-- [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`research-to-startup-core-network`。
-
-<!-- END AUTO COMMUNITY COMPANY LINKS -->
+## Sources
+- https://github.com/LMCache/LMCache
+- https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- https://github.com/LMCache/LMCache/issues/4025
+- https://blog.lmcache.ai/en/2026/01/21/p2p-1/
+- https://blog.lmcache.ai/en/2025/03/31/cacheblend-best-paper-acm-eurosys25-enabling-100-kv-cache-hit-rate-in-rag/
