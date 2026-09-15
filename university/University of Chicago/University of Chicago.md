@@ -36,7 +36,7 @@ University of Chicago 在本图谱中形成了一条清晰的 **networked system
 - [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[University of Chicago]]：2018-07 起任教，当前为 Computer Science Associate Professor。
-- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[University of Chicago]]：计算机博士；Siebel Scholar Class of 2024
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[University of Chicago]]：计算机博士；Siebel Scholar Class of 2024；博士导师 [[Junchen Jiang]]
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[University of Chicago]]：计算机博士；导师 [[Junchen Jiang]]
 
 <!-- END AUTO SCHOOL PEOPLE -->

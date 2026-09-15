@@ -63,8 +63,8 @@ https://github.com/sgl-project/sglang
 - [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：LMSYS：2023 起 Research Intern / research collaborator，与郑连民、盛颖等共同开发 SGLang
 - [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**SGLang 原始论文合著者 + 当前系统模块协作者**。两人共同署名 2023/2024 SGLang 原始工作；截至 2026-09 郑连民负责 scheduler，谢志强负责 KV Cache merge oncall，属于 scheduler ↔ cache 的持续开源协作，不等同于公司同事。
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
-- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]。
-- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Joseph Gonzalez 与 Ion Stoica 指导；其系统工作从 Alpa、FastChat 延伸到 [[SGLang]]。
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]；这里已从泛化 `mentor-network` 升级为正式 `student` 强边。
+- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Joseph Gonzalez 与 Ion Stoica 指导；其系统工作从 Alpa、FastChat 延伸到 [[SGLang]]。这里已从泛化 `mentor-network` 升级为正式 `student` 强边。
 - [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]]：SGLang NVIDIA / model-specific optimization
 - [[company/RadixArk/Cheng Wan|Cheng Wan]]：SGLang parallelism、EPLB、DP Attention、distributed communication
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能

@@ -95,17 +95,19 @@
     "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
     "kind": "typed-relation",
     "relation_types": [
-      "mentor-network"
+      "student",
+      "paper-coauthor",
+      "research-collaboration"
     ],
-    "project": null,
+    "project": "SGLang",
     "company": null,
     "start": null,
-    "end": null,
-    "confidence": "medium",
+    "end": "2024",
+    "confidence": "high",
     "evidence": [
-      "https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html",
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html",
       "https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html",
-      "https://sky.cs.berkeley.edu/"
+      "https://arxiv.org/abs/2312.07104"
     ]
   },
   {
@@ -220,17 +222,19 @@
     "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
     "kind": "typed-relation",
     "relation_types": [
-      "mentor-network"
+      "student",
+      "paper-coauthor",
+      "research-collaboration"
     ],
-    "project": null,
+    "project": "SGLang",
     "company": null,
     "start": null,
-    "end": null,
-    "confidence": "medium",
+    "end": "2024",
+    "confidence": "high",
     "evidence": [
-      "https://vcresearch.berkeley.edu/faculty/joseph-gonzalez",
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html",
       "https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html",
-      "https://sky.cs.berkeley.edu/"
+      "https://arxiv.org/abs/2312.07104"
     ]
   },
   {
@@ -971,18 +975,56 @@
     "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
     "kind": "typed-relation",
     "relation_types": [
-      "coworker",
+      "paper-coauthor",
+      "open-source-collaboration",
       "research-collaboration"
     ],
-    "project": null,
+    "project": "SGLang",
     "company": null,
-    "start": null,
+    "start": "2023",
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://sites.google.com/view/yingsheng/home",
       "https://arxiv.org/abs/2312.07104",
-      "https://www.linkedin.com/in/yingsheng1123"
+      "https://sites.google.com/view/yingsheng/home"
+    ]
+  },
+  {
+    "source": "company/RadixArk/盛颖 Ying Sheng",
+    "target": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://sites.google.com/view/yingsheng/home"
+    ]
+  },
+  {
+    "source": "company/RadixArk/盛颖 Ying Sheng",
+    "target": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
     ]
   },
   {
@@ -1059,6 +1101,80 @@
     ]
   },
   {
+    "source": "company/TensorMesh/Junchen Jiang",
+    "target": "company/TensorMesh/程翊华 Yihua Cheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "student",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "LMCache",
+    "company": null,
+    "start": null,
+    "end": "2025",
+    "confidence": "high",
+    "evidence": [
+      "https://knowledge.uchicago.edu/records/d037a-62j32",
+      "https://people.cs.uchicago.edu/~junchenj/"
+    ]
+  },
+  {
+    "source": "company/TensorMesh/Junchen Jiang",
+    "target": "company/TensorMesh/程翊华 Yihua Cheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "cofounder"
+    ],
+    "project": null,
+    "company": "TensorMesh",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.tensormesh.ai/about",
+      "https://www.tensormesh.ai/team-members/yihua-cheng",
+      "https://www.tensormesh.ai/team-members/junchen-jiang"
+    ]
+  },
+  {
+    "source": "company/TensorMesh/Junchen Jiang",
+    "target": "company/TensorMesh/杜昆泰 Kuntai Du",
+    "kind": "typed-relation",
+    "relation_types": [
+      "student",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "LMCache",
+    "company": null,
+    "start": null,
+    "end": "2025",
+    "confidence": "high",
+    "evidence": [
+      "https://knowledge.uchicago.edu/records/ad2pm-fnk87",
+      "https://people.cs.uchicago.edu/~junchenj/"
+    ]
+  },
+  {
+    "source": "company/TensorMesh/Junchen Jiang",
+    "target": "company/TensorMesh/杜昆泰 Kuntai Du",
+    "kind": "typed-relation",
+    "relation_types": [
+      "cofounder"
+    ],
+    "project": null,
+    "company": "TensorMesh",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.tensormesh.ai/about",
+      "https://www.tensormesh.ai/team-members/kuntai-du",
+      "https://www.tensormesh.ai/team-members/junchen-jiang"
+    ]
+  },
+  {
     "source": "company/TensorMesh/杜昆泰 Kuntai Du",
     "target": "company/TensorMesh/程翊华 Yihua Cheng",
     "kind": "typed-relation",
@@ -1082,18 +1198,36 @@
     "target": "company/TensorMesh/Junchen Jiang",
     "kind": "typed-relation",
     "relation_types": [
-      "research-collaboration",
-      "mentor-network"
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
     ],
-    "project": null,
+    "project": "LMCache",
     "company": null,
     "start": null,
-    "end": null,
-    "confidence": "medium",
+    "end": "2025",
+    "confidence": "high",
     "evidence": [
-      "https://ceca.pku.edu.cn/people/alumni_undergrad/index.htm",
+      "https://knowledge.uchicago.edu/records/ad2pm-fnk87",
+      "https://people.cs.uchicago.edu/~junchenj/"
+    ]
+  },
+  {
+    "source": "company/TensorMesh/杜昆泰 Kuntai Du",
+    "target": "company/TensorMesh/Junchen Jiang",
+    "kind": "typed-relation",
+    "relation_types": [
+      "cofounder"
+    ],
+    "project": null,
+    "company": "TensorMesh",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.tensormesh.ai/about",
       "https://www.tensormesh.ai/team-members/kuntai-du",
-      "https://arxiv.org/abs/2503.18292"
+      "https://www.tensormesh.ai/team-members/junchen-jiang"
     ]
   },
   {
@@ -1193,16 +1327,36 @@
     "target": "company/TensorMesh/Junchen Jiang",
     "kind": "typed-relation",
     "relation_types": [
-      "mentor-network"
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
     ],
-    "project": null,
+    "project": "LMCache",
     "company": null,
     "start": null,
-    "end": null,
-    "confidence": "medium",
+    "end": "2025",
+    "confidence": "high",
     "evidence": [
-      "https://ceca.pku.edu.cn/en/people_/alumni_undergrad_/index.htm",
-      "https://apostac.github.io/about.html"
+      "https://knowledge.uchicago.edu/records/d037a-62j32",
+      "https://people.cs.uchicago.edu/~junchenj/"
+    ]
+  },
+  {
+    "source": "company/TensorMesh/程翊华 Yihua Cheng",
+    "target": "company/TensorMesh/Junchen Jiang",
+    "kind": "typed-relation",
+    "relation_types": [
+      "cofounder"
+    ],
+    "project": null,
+    "company": "TensorMesh",
+    "start": "2025",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.tensormesh.ai/about",
+      "https://www.tensormesh.ai/team-members/yihua-cheng",
+      "https://www.tensormesh.ai/team-members/junchen-jiang"
     ]
   },
   {
@@ -4250,18 +4404,15 @@
     "target": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor",
-      "coworker"
+      "paper-coauthor"
     ],
-    "project": null,
+    "project": "FlashInfer",
     "company": null,
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://zhyncs.com/",
-      "https://www.together.ai/events/icml-2026",
-      "https://github.com/flashinfer-ai/flashinfer"
+      "https://arxiv.org/abs/2501.01005"
     ]
   },
   {
@@ -4269,18 +4420,15 @@
     "target": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor",
-      "coworker"
+      "paper-coauthor"
     ],
-    "project": null,
+    "project": "FlashInfer",
     "company": null,
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://zhyncs.com/",
-      "https://www.together.ai/events/icml-2026",
-      "https://github.com/flashinfer-ai/flashinfer"
+      "https://arxiv.org/abs/2501.01005"
     ]
   },
   {
@@ -4288,18 +4436,15 @@
     "target": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor",
-      "coworker"
+      "paper-coauthor"
     ],
-    "project": null,
+    "project": "FlashInfer",
     "company": null,
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://zhyncs.com/",
-      "https://www.together.ai/events/icml-2026",
-      "https://github.com/flashinfer-ai/flashinfer"
+      "https://arxiv.org/abs/2501.01005"
     ]
   },
   {
@@ -4307,18 +4452,15 @@
     "target": "community/flashinfer-ai/FlashInfer/Wuwei Lin",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor",
-      "coworker"
+      "paper-coauthor"
     ],
-    "project": null,
+    "project": "FlashInfer",
     "company": null,
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://zhyncs.com/",
-      "https://www.together.ai/events/icml-2026",
-      "https://github.com/flashinfer-ai/flashinfer"
+      "https://arxiv.org/abs/2501.01005"
     ]
   },
   {
@@ -4326,18 +4468,15 @@
     "target": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor",
-      "coworker"
+      "paper-coauthor"
     ],
-    "project": null,
+    "project": "FlashInfer",
     "company": null,
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://zhyncs.com/",
-      "https://www.together.ai/events/icml-2026",
-      "https://github.com/flashinfer-ai/flashinfer"
+      "https://arxiv.org/abs/2501.01005"
     ]
   },
   {
@@ -4458,6 +4597,215 @@
       "https://zhyncs.com/",
       "https://www.together.ai/events/icml-2026",
       "https://github.com/flashinfer-ai/flashinfer"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "target": "company/RadixArk/盛颖 Ying Sheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://sites.google.com/view/yingsheng/home"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "target": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "target": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "target": "company/RadixArk/盛颖 Ying Sheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://sites.google.com/view/yingsheng/home"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "target": "company/RadixArk/盛颖 Ying Sheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://sites.google.com/view/yingsheng/home"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "target": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "target": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "open-source-collaboration",
+      "community-maintainer"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": "2023",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://arxiv.org/abs/2312.07104",
+      "https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "target": "company/Inferact/Ion Stoica",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": null,
+    "end": "2024",
+    "confidence": "high",
+    "evidence": [
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html",
+      "https://arxiv.org/abs/2312.07104"
+    ]
+  },
+  {
+    "source": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+    "target": "company/Inferact/Joseph Gonzalez",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "SGLang",
+    "company": null,
+    "start": null,
+    "end": "2024",
+    "confidence": "high",
+    "evidence": [
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html",
+      "https://arxiv.org/abs/2312.07104"
     ]
   },
   {
