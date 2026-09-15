@@ -147,6 +147,12 @@ def main() -> int:
     parser.add_argument("--seed", help="Optional person/node id, name, basename, or alias")
     parser.add_argument("--limit", type=int, default=60)
     parser.add_argument("--max-bfs-depth", type=int, default=2)
+    parser.add_argument(
+        "--dfs-budget",
+        type=int,
+        default=12,
+        help="Maximum number of globally highest-value candidates allowed to trigger selective DFS",
+    )
     args = parser.parse_args()
 
     root = pathlib.Path(args.root).resolve()
@@ -261,13 +267,14 @@ def main() -> int:
             3,
         )
 
-        selective_dfs = (
-            score >= 18.0
-            and bridge >= 5.0
-            and relevance >= 1.0
+        seed_near = seed_id is None or (distance is not None and distance <= args.max_bfs_depth + 1)
+        dfs_eligible = (
+            score >= 25.0
+            and bridge >= 7.5
+            and relevance >= 1.5
             and ("relations" in gaps or project_neighbors >= 2)
+            and seed_near
         )
-        strategy = "selective-dfs" if selective_dfs else "best-first"
 
         expansion_targets = []
         label_map = {
@@ -282,8 +289,6 @@ def main() -> int:
             label = label_map[gap]
             if label not in expansion_targets:
                 expansion_targets.append(label)
-        if selective_dfs and "hidden person chain" not in expansion_targets:
-            expansion_targets.append("hidden person chain")
 
         reasons = []
         if bridge >= 5:
@@ -304,7 +309,8 @@ def main() -> int:
                 "id": node_id,
                 "name": node.get("name") or pathlib.PurePosixPath(node_id).name,
                 "score": score,
-                "strategy": strategy,
+                "strategy": "best-first",
+                "dfs_eligible": dfs_eligible,
                 "bridge_score": round(bridge, 3),
                 "gap_score": gap_score,
                 "infra_relevance": relevance,
@@ -323,6 +329,18 @@ def main() -> int:
         )
 
     candidates.sort(key=lambda item: (-item["score"], str(item["name"])))
+
+    # DFS is deliberately scarce. Eligibility is threshold-based, then the
+    # global budget keeps deep-dives from swallowing the Best-First frontier.
+    dfs_budget = max(0, args.dfs_budget)
+    dfs_selected = 0
+    for item in candidates:
+        if not item["dfs_eligible"] or dfs_selected >= dfs_budget:
+            continue
+        item["strategy"] = "selective-dfs"
+        item["expansion_targets"].append("hidden person chain")
+        dfs_selected += 1
+
     limit = max(1, args.limit)
     shown = candidates[:limit]
 
@@ -331,6 +349,8 @@ def main() -> int:
         "formula": "1.60*bridge + 1.80*gap + 2.00*infra_relevance + 0.80*evidence + 0.90*novelty - 1.20*distance_penalty",
         "seed": seed_id,
         "max_bfs_depth": args.max_bfs_depth,
+        "dfs_budget": dfs_budget,
+        "dfs_selected": dfs_selected,
         "candidate_count": len(candidates),
         "candidates": candidates,
     }
@@ -343,9 +363,11 @@ def main() -> int:
         "",
         "由 `scripts/generate-research-queue.py` 自动生成。它排序的是下一轮研究价值，不是人物重要性。",
         "",
-        "算法：**Gap-aware Best-First BFS + Selective DFS**。先用局部 BFS 建立邻域，再按桥梁度、关系缺口、推理相关性、证据质量与新颖性重新排序；只有高价值桥梁人物才触发 DFS 深挖。",
+        "算法：**Gap-aware Best-First BFS + Selective DFS**。先用局部 BFS 建立邻域，再按桥梁度、关系缺口、推理相关性、证据质量与新颖性重新排序；DFS 采用预算制，只允许最高价值的一小撮桥梁人物继续向深层关系链扩展。",
         "",
         "公式：`1.60×bridge + 1.80×gap + 2.00×infra_relevance + 0.80×evidence + 0.90×novelty - 1.20×distance_penalty`。",
+        "",
+        f"Selective DFS budget: **{dfs_budget}**，本轮实际触发 **{dfs_selected}**。",
         "",
     ]
     if seed_id:
@@ -379,7 +401,7 @@ def main() -> int:
             "## How to use",
             "",
             "- `best-first`: 优先补齐缺失关系维度，不沿单一路径无限向下钻。",
-            "- `selective-dfs`: 只对高桥梁度、高推理相关、且仍存在关系缺口的人物做深挖。",
+            "- `selective-dfs`: 只对高桥梁度、高推理相关、且仍存在关系缺口的人物做深挖，并受 `--dfs-budget` 全局预算约束。",
             "- 需要从某个人出发时，使用 `--seed <name-or-id>`；距离会进入评分，默认优先保留 2-hop 局部网络。",
             "",
         ]
@@ -388,7 +410,7 @@ def main() -> int:
 
     print(
         f"Research queue: {len(candidates)} person candidates, showing {len(shown)}, "
-        f"selective DFS={sum(1 for item in candidates if item['strategy'] == 'selective-dfs')}."
+        f"selective DFS={dfs_selected}/{dfs_budget}."
     )
     if seed_id:
         print(f"Seed resolved to: {seed_id}")
