@@ -52,6 +52,7 @@ jobs:
           python3 scripts/sync-school-people.py --root .
           python3 scripts/sync-entity-people.py --root .
           python3 scripts/sync-research-people.py --root .
+          python3 scripts/sync-explicit-company-community.py --root .
           python3 scripts/sync-company-community.py --root .
 
       - name: Audit semantic graph and generate final metrics
