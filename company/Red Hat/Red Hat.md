@@ -9,6 +9,7 @@ linked_people:
   - "community/vllm-project/vLLM/Matthew Bonanni"
   - "community/vllm-project/vLLM/Michael Goin"
   - "community/vllm-project/vLLM/Robert Shaw"
+  - "community/vllm-project/vLLM/Tyler Michael Smith"
 projects: [vLLM, llm-d]
 linked_projects:
   - "community/llm-d/llm-d/llm-d"
@@ -54,6 +55,7 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 - [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
 - [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
+- [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：[[Red Hat]]：Neural Magic 于 2025 年初并入 Red Hat 后继续从事大规模 LLM inference；当前公开资料将其列为 Chief Architect, Inference Engineering。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

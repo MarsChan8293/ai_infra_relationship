@@ -1,10 +1,10 @@
 {
   "company_nodes": 40,
   "companies_with_linked_people": 31,
-  "company_person_associations": 147,
-  "project_community_nodes": 57,
-  "project_community_nodes_with_linked_people": 40,
-  "project_community_person_associations": 235,
+  "company_person_associations": 150,
+  "project_community_nodes": 58,
+  "project_community_nodes_with_linked_people": 46,
+  "project_community_person_associations": 255,
   "non_company_affiliations_recognized": [
     {
       "person": "company/Inferact/Ion Stoica.md",
@@ -183,28 +183,7 @@
       "value": "Tsinghua University"
     }
   ],
-  "unresolved_source_values": [
-    {
-      "kind": "affiliation",
-      "person": "company/字节跳动/何家傲 Jiaao He.md",
-      "value": "ByteDance"
-    },
-    {
-      "kind": "affiliation",
-      "person": "company/字节跳动/郑立言 Liyan Zheng.md",
-      "value": "ByteDance Seed"
-    },
-    {
-      "kind": "projects",
-      "person": "community/Project-HAMi/HAMi/DSFans2014.md",
-      "value": "HAMi Ascend Device Plugin"
-    },
-    {
-      "kind": "projects",
-      "person": "community/Project-HAMi/HAMi/archlitchi.md",
-      "value": "HAMi Ascend Device Plugin"
-    }
-  ],
+  "unresolved_source_values": [],
   "errors": [],
   "companies": [
     {
@@ -225,7 +204,7 @@
     {
       "id": "company/Red Hat/Red Hat",
       "name": "Red Hat",
-      "linked_people": 7
+      "linked_people": 8
     },
     {
       "id": "company/清程极智/清程极智",
@@ -235,6 +214,11 @@
     {
       "id": "company/RadixArk/RadixArk",
       "name": "RadixArk",
+      "linked_people": 6
+    },
+    {
+      "id": "company/字节跳动/字节跳动",
+      "name": "字节跳动",
       "linked_people": 6
     },
     {
@@ -270,11 +254,6 @@
     {
       "id": "company/商汤科技/商汤科技",
       "name": "商汤科技",
-      "linked_people": 4
-    },
-    {
-      "id": "company/字节跳动/字节跳动",
-      "name": "字节跳动",
       "linked_people": 4
     },
     {
@@ -412,7 +391,7 @@
     {
       "id": "community/vllm-project/vLLM/vLLM",
       "name": "vLLM",
-      "linked_people": 22
+      "linked_people": 24
     },
     {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
@@ -425,13 +404,13 @@
       "linked_people": 15
     },
     {
-      "id": "community/kvcache-ai/KTransformers/KTransformers",
-      "name": "KTransformers",
-      "linked_people": 14
-    },
-    {
       "id": "community/llm-d/llm-d/llm-d",
       "name": "llm-d",
+      "linked_people": 15
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/KTransformers",
+      "name": "KTransformers",
       "linked_people": 14
     },
     {
@@ -485,6 +464,11 @@
       "linked_people": 6
     },
     {
+      "id": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "name": "vLLM-Ascend",
+      "linked_people": 6
+    },
+    {
       "id": "community/hpcaitech/Colossal-AI/Colossal-AI",
       "name": "Colossal-AI",
       "linked_people": 5
@@ -507,6 +491,11 @@
     {
       "id": "community/Project-HAMi/HAMi/HAMi",
       "name": "HAMi",
+      "linked_people": 4
+    },
+    {
+      "id": "community/tile-ai/TileLang/TileLang",
+      "name": "TileLang",
       "linked_people": 4
     },
     {
@@ -560,6 +549,11 @@
       "linked_people": 2
     },
     {
+      "id": "community/Project-HAMi/ascend-device-plugin/ascend-device-plugin",
+      "name": "HAMi Ascend Device Plugin",
+      "linked_people": 2
+    },
+    {
       "id": "community/lmsys-org/LMSYS/LMSYS",
       "name": "LMSYS",
       "linked_people": 2
@@ -570,8 +564,18 @@
       "linked_people": 2
     },
     {
+      "id": "community/Oneflow-Inc/OneFlow/OneFlow",
+      "name": "OneFlow",
+      "linked_people": 2
+    },
+    {
       "id": "community/ray-project/Ray/Ray",
       "name": "Ray",
+      "linked_people": 2
+    },
+    {
+      "id": "community/tile-ai/TileScale/TileScale",
+      "name": "TileScale",
       "linked_people": 2
     },
     {
@@ -597,6 +601,11 @@
     {
       "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
       "name": "LightSeek Foundation",
+      "linked_people": 1
+    },
+    {
+      "id": "community/ray-project/Ray-Serve/Ray-Serve",
+      "name": "Ray Serve",
       "linked_people": 1
     },
     {
@@ -655,26 +664,6 @@
       "linked_people": 0
     },
     {
-      "id": "community/Oneflow-Inc/OneFlow/OneFlow",
-      "name": "OneFlow",
-      "linked_people": 0
-    },
-    {
-      "id": "community/ray-project/Ray-Serve/Ray-Serve",
-      "name": "Ray Serve",
-      "linked_people": 0
-    },
-    {
-      "id": "community/tile-ai/TileLang/TileLang",
-      "name": "TileLang",
-      "linked_people": 0
-    },
-    {
-      "id": "community/tile-ai/TileScale/TileScale",
-      "name": "TileScale",
-      "linked_people": 0
-    },
-    {
       "id": "community/Ascend/msModelSlim/msModelSlim",
       "name": "msModelSlim",
       "linked_people": 0
@@ -682,11 +671,6 @@
     {
       "id": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL",
       "name": "sglang-plugin-FL",
-      "linked_people": 0
-    },
-    {
-      "id": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
-      "name": "vLLM-Ascend",
       "linked_people": 0
     },
     {

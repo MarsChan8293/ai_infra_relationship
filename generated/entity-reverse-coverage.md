@@ -4,12 +4,12 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 31
-- Company-person associations: 147
-- Project/community nodes: 57
-- Project/community nodes with ≥1 linked person: 40
-- Project/community-person associations: 235
+- Company-person associations: 150
+- Project/community nodes: 58
+- Project/community nodes with ≥1 linked person: 46
+- Project/community-person associations: 255
 - Non-company affiliations recognized and routed elsewhere: 44
-- Unresolved source values (backlog, non-fatal): 4
+- Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
 ## Companies
@@ -19,9 +19,10 @@
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 30 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
-| [[company/Red Hat/Red Hat|Red Hat]] | 7 |
+| [[company/Red Hat/Red Hat|Red Hat]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
+| [[company/字节跳动/字节跳动|字节跳动]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/IBM/IBM|IBM]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
@@ -29,7 +30,6 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
-| [[company/字节跳动/字节跳动|字节跳动]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 4 |
@@ -52,11 +52,11 @@
 
 | Entity | Linked people |
 | --- | ---: |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 22 |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 24 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
+| [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
-| [[community/llm-d/llm-d/llm-d|llm-d]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
@@ -67,11 +67,13 @@
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
@@ -82,22 +84,17 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
+| [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
+| [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
+| [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
+| [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
-
-## Unresolved source values
-
-这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
-
-- `company/字节跳动/何家傲 Jiaao He.md` · `affiliation` → `ByteDance`
-- `company/字节跳动/郑立言 Liyan Zheng.md` · `affiliation` → `ByteDance Seed`
-- `community/Project-HAMi/HAMi/DSFans2014.md` · `projects` → `HAMi Ascend Device Plugin`
-- `community/Project-HAMi/HAMi/archlitchi.md` · `projects` → `HAMi Ascend Device Plugin`

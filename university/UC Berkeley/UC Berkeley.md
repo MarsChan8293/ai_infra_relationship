@@ -76,7 +76,7 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 - [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：[[UC Berkeley]]：计算机博士，导师 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph Gonzalez]]
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[UC Berkeley]]：2024 Visiting Student Researcher；后在 Sky Lab 从事博士后研究，与 [[Ion Stoica]] 合作
-- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 Joseph Gonzalez、[[Ion Stoica]]
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]、[[company/Inferact/Ion Stoica|Ion Stoica]]
 - [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[UC Berkeley]]：Computer Science 硕士；曾跟随 Chris Fletcher 从事 hardware security / formal verification
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[UC Berkeley]]：计算机博士，2019–2024；导师 [[Ion Stoica]]

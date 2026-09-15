@@ -1,7 +1,9 @@
 ---
 type: project
 name: OneFlow
-linked_people: []
+linked_people:
+  - "company/硅基流动/柳俊丞 Juncheng Liu"
+  - "company/硅基流动/袁进辉 Jinhui Yuan"
 companies: ["一流科技"]
 company_relation: company-originated
 layer: distributed-deep-learning-framework
@@ -38,3 +40,13 @@ OneFlow → 2023 团队组织变化 → SiliconFlow。公开报道显示 OneFlow
 - [[company/一流科技/一流科技|一流科技]]：公司页与社区/项目页均有显式记录；关系：`company-originated`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞（Juncheng Liu）]]：[[OneFlow]]：分布式深度学习框架核心技术网络；共同署名 2021 OneFlow 系统论文。
+- [[company/硅基流动/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]]：[[OneFlow]]：创始人、CEO，长期投入分布式深度学习框架。
+
+<!-- END AUTO PROJECT PEOPLE -->

@@ -1,7 +1,13 @@
 ---
 type: project
 name: vLLM-Ascend
-linked_people: []
+linked_people:
+  - "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai"
+  - "community/vllm-project/vLLM-Ascend/Wang Xiyuan"
+  - "community/vllm-project/vLLM-Ascend/weijinqian0"
+  - "community/vllm-project/vLLM-Ascend/yiz-liu"
+  - "community/vllm-project/vLLM-Ascend/zzzzwwjj"
+  - "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu"
 companies: ["华为"]
 company_relation: hardware-ecosystem-core-contributor
 layer: hardware-backend
@@ -41,3 +47,17 @@ https://github.com/vllm-project/vllm-ascend
 - [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`hardware-ecosystem-core-contributor`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：2026 vLLM-Ascend 技术周会多次担任 Chair。
+- [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：vLLM-Ascend 主要维护与社区组织者之一。
+- [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]]：[[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区协调 ↔ Attention/算子工程候选关系**。属于同一 feature landing 网络，但缺 pair-specific 证据，不自动生成 typed edge。
+- [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：vLLM-Ascend 活跃维护者。
+- [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：vLLM-Ascend roadmap 主要推动者之一。
+- [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇（Guan Wenyu）]]：https://github.com/vllm-project/vllm-ascend
+
+<!-- END AUTO PROJECT PEOPLE -->

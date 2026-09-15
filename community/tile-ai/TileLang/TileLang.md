@@ -1,7 +1,11 @@
 ---
 type: community
 name: TileLang
-linked_people: []
+linked_people:
+  - "university/北京大学/Lei Wang"
+  - "university/北京大学/Yining Shi"
+  - "university/北京大学/吴童 Tong Wu"
+  - "university/北京大学/程羽 Yu Cheng"
 category: ai-compiler-kernel-dsl
 companies: []
 company_relation: academic-research-led
@@ -63,3 +67,15 @@ TileLang 并非从零出现。它可以放在北大/微软 AI compiler 长链中
 - https://www.usenix.org/conference/osdi25/presentation/cheng
 - https://www.usenix.org/conference/osdi23/presentation/shi
 - https://www.usenix.org/conference/osdi20/presentation/ma
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/北京大学/Lei Wang|Lei Wang]]：TileLang ICLR 2026 第一作者。
+- [[university/北京大学/Yining Shi|Yining Shi]]：**Welder（OSDI 2023）**：第一作者。Welder 用 tile-graph 对深度学习执行的 memory access、operator fusion 与 data reuse 进行联合优化，是从 Rammer 走向 TileLang 的关键中间节点。
+- [[university/北京大学/吴童 Tong Wu|Tong Wu]]：[[TileLang]]：活跃贡献者，ICLR 2026 Oral 作者。
+- [[university/北京大学/程羽 Yu Cheng|Yu Cheng]]：[[TileLang]] core developer、初版主要开发者之一。
+
+<!-- END AUTO PROJECT PEOPLE -->

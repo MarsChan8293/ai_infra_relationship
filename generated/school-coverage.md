@@ -2,11 +2,11 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 228
-- People with ≥1 school: 117
-- People without known school: 111
-- Coverage: 51.3%
-- Person-school associations: 154
+- Person nodes: 235
+- People with ≥1 school: 118
+- People without known school: 117
+- Coverage: 50.2%
+- Person-school associations: 155
 - School nodes: 46
 - Audit errors: 0
 
@@ -28,6 +28,7 @@
 | Georgia Institute of Technology | 2 |
 | University of Washington | 2 |
 | UCLA | 2 |
+| University of Texas at Austin | 2 |
 | Seoul National University | 1 |
 | Franklin W. Olin College of Engineering | 1 |
 | Cornell Tech | 1 |
@@ -43,7 +44,6 @@
 | Binghamton University | 1 |
 | Stony Brook University | 1 |
 | Lobachevsky State University of Nizhny Novgorod | 1 |
-| 华中科技大学 | 1 |
 
 ## High-value people still missing a verified school association
 
@@ -62,18 +62,18 @@
 | 11 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
 | 12 | [[community/LMCache/LMCache/Baolong Ma|Baolong Ma]] | 6.022 | 4 |
 | 13 | [[community/LMCache/LMCache/Samm Shen|Samm Shen]] | 6.022 | 4 |
-| 14 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
-| 15 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
-| 16 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
-| 17 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
-| 18 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
-| 19 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
-| 20 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
-| 21 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
-| 22 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 23 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
-| 24 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 25 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.672 | 4 |
+| 14 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
+| 15 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
+| 16 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
+| 17 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
+| 18 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
+| 19 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
+| 20 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
+| 21 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
+| 22 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
+| 23 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
+| 24 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 25 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
 | 26 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
 | 27 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
 | 28 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |

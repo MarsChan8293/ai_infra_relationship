@@ -1,7 +1,8 @@
 ---
 type: project
 name: Ray Serve
-linked_people: []
+linked_people:
+  - "community/vllm-project/vLLM/Simon Mo"
 companies: ["Anyscale"]
 company_relation: core-commercial-ecosystem
 layer: distributed-serving
@@ -36,3 +37,12 @@ Monorepo：https://github.com/ray-project/ray
 - [[company/Anyscale/Anyscale|Anyscale]]：公司页与社区/项目页均有显式记录；关系：`core-commercial-ecosystem`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[Anyscale]]：Software Engineer，参与 [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]]
+
+<!-- END AUTO PROJECT PEOPLE -->

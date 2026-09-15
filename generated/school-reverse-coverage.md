@@ -4,7 +4,7 @@
 
 - School nodes: 46
 - Schools with ≥1 linked person: 42
-- Reverse person-school associations: 154
+- Reverse person-school associations: 155
 - Audit errors: 0
 
 | School | Linked people |
@@ -20,6 +20,7 @@
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
 | [[university/UCLA/UCLA|UCLA]] | 2 |
+| [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 2 |
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 2 |
 | [[university/四川大学/四川大学|四川大学]] | 2 |
@@ -38,7 +39,6 @@
 | [[university/UC Davis/UC Davis|UC Davis]] | 1 |
 | [[university/University of British Columbia/University of British Columbia|University of British Columbia]] | 1 |
 | [[university/University of Tennessee, Knoxville/University of Tennessee, Knoxville|University of Tennessee, Knoxville]] | 1 |
-| [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 1 |
 | [[university/University of Warwick/University of Warwick|University of Warwick]] | 1 |
 | [[university/上海科技大学/上海科技大学|上海科技大学]] | 1 |
 | [[university/中山大学/中山大学|中山大学]] | 1 |

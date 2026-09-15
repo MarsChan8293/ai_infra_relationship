@@ -2,6 +2,7 @@
 type: school
 name: University of Texas at Austin
 linked_people:
+  - "community/vllm-project/vLLM/Tyler Michael Smith"
   - "community/vllm-project/vLLM/Yongye Zhu"
 last_verified: "2026-09"
 ---
@@ -17,6 +18,7 @@ University of Texas at Austin 是图谱中的高校节点，用于连接 AI Infr
 
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
+- [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：[[University of Texas at Austin]]：计算机博士，研究高性能稠密线性代数、microkernels、并行与数据移动下界
 - [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[University of Texas at Austin]]：Electrical Engineering / Mathematics 本科
 
 <!-- END AUTO SCHOOL PEOPLE -->
