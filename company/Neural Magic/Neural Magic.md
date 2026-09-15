@@ -3,6 +3,7 @@ type: company
 name: Neural Magic
 status: acquired
 parent: Red Hat
+linked_people: []
 projects: [vLLM]
 ---
 # Neural Magic

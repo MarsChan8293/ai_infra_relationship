@@ -1,6 +1,13 @@
 ---
 type: project
 name: Mooncake
+linked_people:
+  - "community/kvcache-ai/Mooncake/任峰 Feng Ren"
+  - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
+  - "community/sgl-project/SGLang/Yineng Zhang"
+  - "company/清程极智/郑纬民 Weimin Zheng"
+  - "company/趋境科技/卢佳豪 Jiahao Lu"
+  - "company/趋境科技/武永卫 Yongwei Wu"
 companies: ["月之暗面"]
 company_relation: industry-academia-co-development
 layer: kv-cache-centric-serving
@@ -30,3 +37,17 @@ https://github.com/kvcache-ai/Mooncake
 ## Sources
 - https://github.com/kvcache-ai/Mooncake
 - https://zhyncs.com/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：Mooncake 联合创建者之一
+- [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：参与 Mooncake 社区维护与跨生态协作
+- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[Mooncake]]：KVCache-centric disaggregated serving 论文作者，连接 SGLang / kernel 与清华 MADSys、Moonshot/Kimi serving 网络。
+- [[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：[[Mooncake]]：2025 Mooncake 论文作者，与 [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]] 等共同构成清华 systems / HPC 上游作者网络。
+- [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪（Jiahao Lu）]]：[[趋境科技]]：公开个人主页写明正在公司实习并参与 Mooncake 开发。
+- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[Mooncake]]：2025 Mooncake 论文作者，连接 MADSys 与 Moonshot/Kimi production workload。
+
+<!-- END AUTO PROJECT PEOPLE -->

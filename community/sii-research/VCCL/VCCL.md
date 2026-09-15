@@ -2,6 +2,11 @@
 type: project
 name: VCCL
 full_name: Venus Collective Communication Library
+linked_people:
+  - "company/基流科技/He Liu"
+  - "company/基流科技/Mingjun Zhang"
+  - "company/基流科技/Wenqi Xie"
+  - "company/基流科技/Yanmin Jia"
 companies: ["基流科技"]
 company_relation: industry-research-co-development
 layer: collective-communication
@@ -34,3 +39,15 @@ Mingjun Zhang 的公开 GitHub 同时活跃/关注 [[SGLang]]、[[Mooncake]]、[
 - https://github.com/sii-research/VCCL
 - https://vccl-doc.readthedocs.io/en/latest/
 - https://arxiv.org/abs/2510.00991
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/基流科技/He Liu|He Liu]]：VCCL：Infrawaves 作者，参与大规模训练集群的 collective communication、fault tolerance 与 observability 研究。
+- [[company/基流科技/Mingjun Zhang|Mingjun Zhang]]：[[南京大学]]：其 GitHub 个人主页直接标注 Nanjing University；该 GitHub 身份同时固定展示 VCCL、SGLang、Mooncake、vLLM、DeepEP 等 AI infra 项目，可与本人物节点稳定对应。
+- [[company/基流科技/Wenqi Xie|Wenqi Xie]]：VCCL：论文作者，系统覆盖 fault tolerance、observability、high-performance collective communication。
+- [[company/基流科技/Yanmin Jia|Yanmin Jia]]：VCCL：Infrawaves 作者，参与大规模 GPU 训练集群集合通信的可靠性、性能和可观测性研究。
+
+<!-- END AUTO PROJECT PEOPLE -->

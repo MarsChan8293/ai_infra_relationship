@@ -1,6 +1,10 @@
 ---
 type: project
 name: LMCache
+linked_people:
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/TensorMesh/杜昆泰 Kuntai Du"
+  - "company/TensorMesh/程翊华 Yihua Cheng"
 companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
 layer: kv-cache-management
@@ -23,3 +27,14 @@ https://github.com/LMCache/LMCache
 
 ## 生态关系
 [[vLLM]] · [[TensorMesh]] · [[vLLM-Ascend]] · [[Mooncake]] · [[NIXL]]。LMCache 更偏 engine 外部 KV 管理与复用，Mooncake 更强调分布式 KVCache-centric serving/storage，两者有交叉但并非同一项目。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输
+
+<!-- END AUTO PROJECT PEOPLE -->

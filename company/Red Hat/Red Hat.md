@@ -1,6 +1,12 @@
 ---
 type: company
 name: Red Hat
+linked_people:
+  - "community/llm-d/llm-d/David Simmons"
+  - "community/llm-d/llm-d/Maroon Ayoub"
+  - "community/llm-d/llm-d/Pete Cheslock"
+  - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
+  - "community/vllm-project/vLLM/Matthew Bonanni"
 projects: [vLLM, llm-d]
 ---
 # Red Hat
@@ -30,3 +36,16 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - https://llm-d.ai/community/sigs
 - https://llm-d.ai/blog/authors
 - https://www.redhat.com/en/about/press-releases/red-hat-completes-acquisition-neural-magic-fuel-optimized-generative-ai-innovation-across-hybrid-cloud
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/llm-d/llm-d/David Simmons|David Simmons]]：[[Red Hat]]
+- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-08 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
+- [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[Red Hat]]
+- [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
+- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：[[Red Hat]]：2025-07–至今，Machine Learning Engineer。
+
+<!-- END AUTO COMPANY PEOPLE -->

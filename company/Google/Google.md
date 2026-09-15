@@ -1,6 +1,10 @@
 ---
 type: company
 name: Google
+linked_people:
+  - "community/llm-d/llm-d/Abdullah Gharaibeh"
+  - "community/llm-d/llm-d/Ashok Chandrasekar"
+  - "community/llm-d/llm-d/Clayton Coleman"
 projects: [llm-d]
 ---
 # Google
@@ -26,3 +30,14 @@ Google 在 AI Infra 中横跨 TPU、JAX/XLA、Kubernetes/GKE、数据中心网�
 - https://llm-d.ai/community/sigs
 - https://llm-d.ai/blog/authors
 - https://github.com/kubernetes-sigs/inference-perf
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/llm-d/llm-d/Abdullah Gharaibeh|Abdullah Gharaibeh]]：[[Google]]：截至 2026-08，llm-d 官方技术文章列为 Senior Staff Software Engineer, Google。
+- [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]]：[[Google]]：2026 Inference Perf 论文公开 affiliation 为 Google, USA。
+- [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]]：[[Google]]：llm-d 官方作者页列为 Distinguished Engineer, Google。
+
+<!-- END AUTO COMPANY PEOPLE -->

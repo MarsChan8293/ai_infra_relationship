@@ -1,6 +1,12 @@
 ---
 type: company
 name: IBM
+linked_people:
+  - "community/llm-d/llm-d/Carlos Costa"
+  - "community/llm-d/llm-d/Danny Harnik"
+  - "community/llm-d/llm-d/JJ Asghar"
+  - "community/llm-d/llm-d/Nili Guy"
+  - "community/llm-d/llm-d/Vita Bortnikov"
 projects: [llm-d]
 ---
 # IBM
@@ -26,3 +32,16 @@ IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施�
 - https://llm-d.ai/blog/authors
 - https://research.ibm.com/people/danny-harnik
 - https://research.ibm.com/people/maroon-ayoub
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]]：[[IBM]]：截至 2026-09，llm-d 官方作者页列为 Distinguished Engineer, IBM。
+- [[community/llm-d/llm-d/Danny Harnik|Danny Harnik]]：[[IBM]]：IBM Research 官方人物页列为 Senior Technical Staff Member / Cloud Storage，长期研究 cloud storage 与大规模存储系统。
+- [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：[[IBM]]
+- [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
+- [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
+
+<!-- END AUTO COMPANY PEOPLE -->

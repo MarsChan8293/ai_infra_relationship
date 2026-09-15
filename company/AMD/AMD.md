@@ -1,6 +1,8 @@
 ---
 type: company
 name: AMD
+linked_people:
+  - "community/ai-dynamo/NIXL/Matvei Pashkovskii"
 projects: [TokenSpeed]
 ---
 # AMD
@@ -13,3 +15,12 @@ AMD 是 CPU、GPU 与数据中心加速器厂商。其 Instinct GPU 与 ROCm 软
 
 ## 图谱中的连接
 [[vLLM]]、[[llm-d]]、[[NIXL]] 等项目都需要处理 AMD/ROCm 或跨硬件生态适配。这里记录的是软硬件生态连接，不把“支持 AMD”自动等同于 AMD 员工直接参与项目。
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/ai-dynamo/NIXL/Matvei Pashkovskii|Matvei Pashkovskii]]：[[AMD]]
+
+<!-- END AUTO COMPANY PEOPLE -->

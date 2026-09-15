@@ -1,6 +1,7 @@
 ---
 type: project
 name: sglang-plugin-FL
+linked_people: []
 companies: []
 company_relation: community-led
 layer: llm-serving-adapter

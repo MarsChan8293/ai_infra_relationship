@@ -2,6 +2,19 @@
 type: project
 name: KTransformers
 organization: KVCache.AI
+linked_people:
+  - "community/kvcache-ai/KTransformers/Boxin Zhang"
+  - "community/kvcache-ai/KTransformers/Hongtao Chen"
+  - "community/kvcache-ai/KTransformers/Jiahao Wang"
+  - "community/kvcache-ai/KTransformers/Jianwei Dong"
+  - "community/kvcache-ai/KTransformers/Jiaqi Liao"
+  - "community/kvcache-ai/KTransformers/Jingqi Tang"
+  - "community/kvcache-ai/KTransformers/Peilin Li"
+  - "community/kvcache-ai/KTransformers/Qingliang Ou"
+  - "community/kvcache-ai/KTransformers/Xingxing Hao"
+  - "community/kvcache-ai/KTransformers/Ziwei Yuan"
+  - "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie"
+  - "company/趋境科技/武永卫 Yongwei Wu"
 companies: ["趋境科技"]
 company_relation: industry-academia-core-network
 layer: heterogeneous-inference
@@ -24,3 +37,23 @@ https://github.com/kvcache-ai/ktransformers
 
 ## 生态关系
 [[DeepSeek-Infra]] · [[FlashInfer]] · [[Mooncake]] · KVCache.AI · [[清华大学]]。它与 Mooncake 共同体现清华 MADSys 的“存储/内存层参与模型推理”路线。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Hongtao Chen|Hongtao Chen]]：[[KTransformers]]：官方 Maintainer、论文第一作者
+- [[community/kvcache-ai/KTransformers/Jiahao Wang|Jiahao Wang]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Jiaqi Liao|Jiaqi Liao]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Peilin Li|Peilin Li]]：[[KTransformers]]：官方 Maintainer
+- [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Xingxing Hao|Xingxing Hao]]：[[KTransformers]]：官方 Maintainer
+- [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：[[KTransformers]]：官方 Maintainer、SOSP 2025 论文共同第一作者之一；截至 2026-09 KTransformers MAINTAINERS 仍列其为 maintainer。
+- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[KTransformers]]：SOSP 2025 论文作者，连接清华 MADSys 与 Approaching.AI 的 MoE heterogeneous inference 网络。
+
+<!-- END AUTO PROJECT PEOPLE -->

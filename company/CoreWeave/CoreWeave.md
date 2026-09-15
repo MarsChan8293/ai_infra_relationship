@@ -2,6 +2,7 @@
 type: company
 name: CoreWeave
 focus: [gpu-cloud, ai-infrastructure, inference]
+linked_people: []
 projects: [llm-d]
 ---
 # CoreWeave

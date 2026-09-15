@@ -1,6 +1,10 @@
 ---
 type: company
 name: Meta
+linked_people:
+  - "community/vllm-project/vLLM/Chen Zhang"
+  - "community/vllm-project/vLLM/李卓翰 Zhuohan Li"
+  - "company/Meta/Richard Zou"
 projects: [vLLM]
 ---
 # Meta
@@ -20,3 +24,14 @@ Meta 是同时拥有 Llama foundation models、PyTorch 软件栈和超大规模�
 - [[Chen Zhang]]：大规模 RL system / RL inference；同时参与 vLLM、Jenga、PrefillOnly 等 serving systems 工作，并形成清华 → Berkeley → Meta 的人才桥。
 - [[Richard Zou]]：PyTorch compiler / torch.compile，通过 vLLM compile integration 连接编译器与 serving stack。
 - Llama 模型生态是 vLLM/SGLang 等引擎的重要 workload，但模型支持不自动推断人物直接合作。
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[Meta]]：AI Research Scientist；构建大规模 RL system，并负责 Muse Spark 的 RL inference 重要工作
+- [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[Meta]]：AI Research Scientist，2025–至今
+- [[company/Meta/Richard Zou|Richard Zou]]：2026 vLLM Conference：以 PyTorch / Meta 身份分享 PyTorch 对 vLLM 的支持
+
+<!-- END AUTO COMPANY PEOPLE -->

@@ -1,6 +1,12 @@
 ---
 type: project
 name: Colossal-AI
+linked_people:
+  - "community/hpcaitech/Colossal-AI/Hongxin Liu"
+  - "community/sgl-project/SGLang/Shenggui Li"
+  - "company/字节跳动/方佳瑞 Jiarui Fang"
+  - "company/潞晨科技/Haichen Huang"
+  - "company/潞晨科技/尤洋 Yang You"
 companies: ["潞晨科技"]
 company_relation: company-originated
 layer: distributed-training
@@ -28,3 +34,16 @@ Colossal-AI 是由 [[潞晨科技]] 发起的大规模 AI 训练/推理系统，
 - https://github.com/hpcaitech/ColossalAI
 - https://openreview.net/pdf?id=WO3qJC2TOG
 - https://colossalai.org/docs/concepts/colossalai_overview/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]]：Colossal-AI 原始系统论文作者之一，论文时期 affiliation 为 [[潞晨科技]]。
+- [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[Colossal-AI]]：原始系统作者之一，参与早期文档、系统设计与开源工程。
+- [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞（Jiarui Fang）]]：[[潞晨科技]]：CTO，2022-02–2023-03；负责 Colossal-AI 等大规模训练系统。
+- [[company/潞晨科技/Haichen Huang|Haichen Huang]]：[[Colossal-AI]]：原始系统论文作者之一；参与 MoE、异构训练与训练系统文档/实现。
+- [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：[[潞晨科技]]：创始人，公司围绕 Colossal-AI 提供大模型训练、微调、推理与企业级平台。
+
+<!-- END AUTO PROJECT PEOPLE -->

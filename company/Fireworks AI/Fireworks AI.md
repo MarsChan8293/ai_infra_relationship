@@ -1,6 +1,7 @@
 ---
 type: company
 name: Fireworks AI
+linked_people: []
 ---
 # Fireworks AI
 

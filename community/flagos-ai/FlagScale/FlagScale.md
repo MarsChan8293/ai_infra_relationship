@@ -1,6 +1,11 @@
 ---
 type: project
 name: FlagScale
+linked_people:
+  - "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu"
+  - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
+  - "community/flagos-ai/FlagOS/曹州"
+  - "community/flagos-ai/FlagOS/赵英利 Yingli Zhao"
 companies: []
 company_relation: community-led
 layer: distributed-training-serving
@@ -28,3 +33,15 @@ https://github.com/flagos-ai/FlagScale
 - https://github.com/flagos-ai/FlagScale/blob/main/MAINTAINERS.md
 - https://hub.baai.ac.cn/view/41263
 - https://hub.baai.ac.cn/view/46246
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu|吕梦思（Mengsi Lyu）]]：[[FlagScale]]：**公开研发 / 技术分享关系**；2025 公开报告直接围绕 FlagScale 自动调优与多芯片推理部署。
+- [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙（Yulong Ao）]]：[[FlagScale]]：**开源项目维护**；当前官方 MAINTAINERS 列表包含 `aoyulong`，并与其智源公开职责一致。
+- [[community/flagos-ai/FlagOS/曹州|曹州]]：[[FlagScale]]：**开源项目维护**；官方 MAINTAINERS 列出 `caozhou1995`，公开技术分享聚焦多后端与多硬件适配。
+- [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利（Yingli Zhao）]]：[[FlagScale]]：**开源项目维护**；截至 2026-09 官方 MAINTAINERS 仍列出 `zhaoyinglia`。
+
+<!-- END AUTO PROJECT PEOPLE -->

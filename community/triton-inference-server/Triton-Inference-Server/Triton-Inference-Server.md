@@ -1,6 +1,11 @@
 ---
 type: project
 name: Triton Inference Server
+linked_people:
+  - "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi"
+  - "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang"
+  - "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty"
+  - "community/triton-inference-server/Triton-Inference-Server/Yingge He"
 companies: ["NVIDIA"]
 company_relation: company-led
 layer: production-inference-server
@@ -22,3 +27,15 @@ https://github.com/triton-inference-server/server
 
 ## 生态关系
 [[TensorRT-LLM]] · [[Dynamo]] · [[NVIDIA]]。在本图谱中它代表较通用的模型服务器层，TensorRT-LLM 代表 LLM runtime，Dynamo 代表数据中心级 orchestration。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]]：[[Triton-Inference-Server]]：CI / Torch AOTI 贡献者
+- [[community/triton-inference-server/Triton-Inference-Server/Faradawn Yang|Faradawn Yang]]：Project source / contributor context: https://github.com/triton-inference-server/server
+- [[community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty|Sai Kiran Polisetty]]：[[Triton-Inference-Server]]：当前活跃工程贡献者
+- [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]]：[[Triton-Inference-Server]]：Torch AOTI / QA integration 活跃贡献者
+
+<!-- END AUTO PROJECT PEOPLE -->

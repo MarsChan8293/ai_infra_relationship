@@ -1,6 +1,7 @@
 ---
 type: project
 name: MindIE-SD
+linked_people: []
 companies: ["华为"]
 company_relation: company-led
 layer: inference-kernels-and-dispatch

@@ -1,6 +1,7 @@
 ---
 type: infra-project
 company: 月之暗面
+linked_people: []
 areas: [expert-parallelism, communication, moe]
 open_source: true
 ---

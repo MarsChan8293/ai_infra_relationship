@@ -2,6 +2,10 @@
 type: company
 name: TensorMesh
 focus: ai-inference-infrastructure
+linked_people:
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/TensorMesh/杜昆泰 Kuntai Du"
+  - "company/TensorMesh/程翊华 Yihua Cheng"
 projects: [LMCache, vLLM]
 ---
 # TensorMesh
@@ -20,3 +24,14 @@ TensorMesh 是围绕 LLM KV cache、disaggregated serving 与 inference memory/d
 
 ## 图谱中的连接
 [[LMCache]] · [[vLLM]] · [[University of Chicago]] · KV Connector · disaggregated serving。TensorMesh 与 Berkeley 网络在 PrefillOnly/Jenga 等研究中存在跨校合作，但其创始学术谱系主要是 University of Chicago，不能误标为 Berkeley 系。
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[TensorMesh]]：联合创始人、CEO；将 KV cache 与 inference memory/data plane 研究产业化。
+- [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[TensorMesh]]：联合创始人、Chief Scientist
+- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[TensorMesh]]：联合创始人、CTO
+
+<!-- END AUTO COMPANY PEOPLE -->

@@ -1,6 +1,7 @@
 ---
 type: company
 name: Anyscale
+linked_people: []
 projects: [Ray Serve]
 ---
 # Anyscale

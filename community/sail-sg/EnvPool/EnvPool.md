@@ -1,6 +1,7 @@
 ---
 type: project
 name: EnvPool
+linked_people: []
 repository: https://github.com/sail-sg/envpool
 open_source: true
 areas: [ai-infrastructure]

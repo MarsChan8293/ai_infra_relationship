@@ -1,6 +1,7 @@
 ---
 type: community
 name: TileLang
+linked_people: []
 category: ai-compiler-kernel-dsl
 companies: []
 company_relation: academic-research-led

@@ -1,6 +1,17 @@
 ---
 type: project
 name: TensorRT-LLM
+linked_people:
+  - "community/NVIDIA/TensorRT-LLM/Anurag Mukkara"
+  - "community/NVIDIA/TensorRT-LLM/Brian Nguyen"
+  - "community/NVIDIA/TensorRT-LLM/Chang Liu"
+  - "community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat"
+  - "community/NVIDIA/TensorRT-LLM/Xiao Wang"
+  - "community/NVIDIA/TensorRT-LLM/Xin He"
+  - "community/NVIDIA/TensorRT-LLM/Yao Yao"
+  - "community/NVIDIA/TensorRT-LLM/Yi Zhang"
+  - "community/NVIDIA/TensorRT-LLM/Yibin Li"
+  - "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang"
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led
@@ -23,3 +34,21 @@ https://github.com/NVIDIA/TensorRT-LLM
 
 ## 生态关系
 [[Dynamo]] · [[FlashInfer]] · [[NIXL]] · [[vLLM]] · [[SGLang]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]。TensorRT-LLM 是 NVIDIA-specialized engine/runtime，而 Dynamo 更偏跨 engine 的集群级 serving 编排。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]]：[[TensorRT-LLM]]：speculative decoding 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]]：[[TensorRT-LLM]]：FlashInfer decode / CUDA Graph 集成活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]]：[[TensorRT-LLM]]：低精度模型与性能回归方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]]：[[TensorRT-LLM]]：FMHA/kernel 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]]：[[TensorRT-LLM]]：disaggregated serving 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]]：[[TensorRT-LLM]]：disaggregated serving 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Yao Yao|Yao Yao]]：[[TensorRT-LLM]]：KV cache manager 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]]：[[TensorRT-LLM]]：KV cache management 方向活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Yibin Li|Yibin Li]]：[[TensorRT-LLM]]：model integration 活跃贡献者
+- [[community/NVIDIA/TensorRT-LLM/Zhaoyang Wang|Zhaoyang Wang]]：[[TensorRT-LLM]]：近期活跃核心贡献者
+
+<!-- END AUTO PROJECT PEOPLE -->

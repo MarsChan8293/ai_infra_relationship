@@ -2,6 +2,7 @@
 type: project
 name: 3FS
 parent: DeepSeek-Infra
+linked_people: []
 companies: ["深度求索"]
 company_relation: company-led
 layer: distributed-storage

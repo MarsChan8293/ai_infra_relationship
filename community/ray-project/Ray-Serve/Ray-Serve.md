@@ -1,6 +1,7 @@
 ---
 type: project
 name: Ray Serve
+linked_people: []
 companies: ["Anyscale"]
 company_relation: core-commercial-ecosystem
 layer: distributed-serving

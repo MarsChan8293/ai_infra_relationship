@@ -2,6 +2,9 @@
 type: project
 name: FlashMLA
 parent: DeepSeek-Infra
+linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
+  - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
 companies: ["深度求索"]
 company_relation: company-led
 layer: attention-kernels
@@ -23,3 +26,13 @@ https://github.com/deepseek-ai/FlashMLA
 
 ## 生态关系
 [[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepGEMM]]。FlashMLA 是模型特定 attention kernel 与通用 serving kernel 生态之间的连接点。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[FlashMLA]]：2025 公开作者
+- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[FlashMLA]]：高性能 MLA decoding kernels；公开作者 / 核心技术贡献
+
+<!-- END AUTO PROJECT PEOPLE -->

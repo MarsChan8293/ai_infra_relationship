@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagRelease
+linked_people: []
 companies: []
 company_relation: community-led
 layer: model-porting-release

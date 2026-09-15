@@ -2,6 +2,10 @@
 type: project
 name: DeepJIT
 parent: DeepSeek-Infra
+linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/guyan364"
+  - "community/deepseek-ai/DeepSeek-Infra/kurisu6912"
+  - "community/deepseek-ai/DeepSeek-Infra/LyricZhao"
 companies: ["深度求索"]
 company_relation: company-led
 layer: kernel-jit
@@ -23,3 +27,14 @@ https://github.com/deepseek-ai/DeepJIT
 
 ## 生态关系
 [[vLLM-Ascend]] · [[DeepGEMM]] · CUDA · Ascend/CANN。它补的是 kernel toolchain/JIT 层，而不是完整 serving runtime。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/deepseek-ai/DeepSeek-Infra/guyan364|guyan364]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/deepseek-ai/DeepSeek-Infra/kurisu6912|kurisu6912]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/deepseek-ai/DeepSeek-Infra/LyricZhao|LyricZhao]]：社区贡献关联；人物页已明确记录该社区。
+
+<!-- END AUTO PROJECT PEOPLE -->

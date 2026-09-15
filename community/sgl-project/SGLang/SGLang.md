@@ -1,6 +1,17 @@
 ---
 type: project
 name: SGLang
+linked_people:
+  - "community/ai-dynamo/Dynamo/Ishan Dhanani"
+  - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
+  - "community/sgl-project/SGLang/Shenggui Li"
+  - "community/sgl-project/SGLang/Yineng Zhang"
+  - "community/sgl-project/SGLang/尹良升 Liangsheng Yin"
+  - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
+  - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
+  - "company/Inferact/Ion Stoica"
+  - "company/Inferact/Joseph Gonzalez"
+  - "company/RadixArk/盛颖 Ying Sheng"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: llm-serving-engine
@@ -32,3 +43,21 @@ https://github.com/sgl-project/sglang
 ## Sources
 - https://github.com/sgl-project/sglang
 - https://zhyncs.com/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]]：[[SGLang]]：NVIDIA/model-specific optimization 与 CI 方向贡献者
+- [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：**Alibaba Cloud 同事 + Mooncake Codeowner**。截至 2026-09 两人均公开关联 Alibaba Cloud，并共同维护 Mooncake；马腾偏项目生态/社区与云侧协作，Shangming Cai 负责 SGLang Integration。首次在 Alibaba Cloud 共事的精确月份公开未确认。
+- [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
+- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。
+- [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：LMSYS：2023 起 Research Intern / research collaborator，与郑连民、盛颖等共同开发 SGLang
+- [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**SGLang 原始论文合著者 + 当前系统模块协作者**。两人共同署名 2023/2024 SGLang 原始工作；截至 2026-09 郑连民负责 scheduler，谢志强负责 KV Cache merge oncall，属于 scheduler ↔ cache 的持续开源协作，不等同于公司同事。
+- [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]。
+- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Joseph Gonzalez 与 Ion Stoica 指导；其系统工作从 Alpa、FastChat 延伸到 [[SGLang]]。
+- [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
+
+<!-- END AUTO PROJECT PEOPLE -->

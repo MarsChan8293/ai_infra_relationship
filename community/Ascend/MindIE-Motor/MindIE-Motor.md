@@ -1,6 +1,7 @@
 ---
 type: project
 name: MindIE-Motor
+linked_people: []
 companies: ["华为"]
 company_relation: company-led
 layer: distributed-inference-control-plane

@@ -1,6 +1,7 @@
 ---
 type: project
 name: msModelSlim
+linked_people: []
 companies: ["华为"]
 company_relation: company-led
 layer: model-compression-and-quantization

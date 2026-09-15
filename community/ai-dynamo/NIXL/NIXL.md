@@ -1,6 +1,16 @@
 ---
 type: project
 name: NIXL
+linked_people:
+  - "community/ai-dynamo/NIXL/Adit Ranadive"
+  - "community/ai-dynamo/NIXL/Efraim Eygin"
+  - "community/ai-dynamo/NIXL/Ilia Yastrebov"
+  - "community/ai-dynamo/NIXL/James Thomas"
+  - "community/ai-dynamo/NIXL/Matvei Pashkovskii"
+  - "community/ai-dynamo/NIXL/Mikhail Brinskiy"
+  - "community/ai-dynamo/NIXL/Rongbing Zhou"
+  - "community/ai-dynamo/NIXL/Ryan Hankins"
+  - "community/ai-dynamo/NIXL/Tomer Davidor"
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led
@@ -23,3 +33,20 @@ https://github.com/ai-dynamo/nixl
 
 ## 生态关系
 [[Dynamo]] · [[vLLM]] · [[LMCache]] · [[Mooncake]] · [[AMD]] · [[Amazon]] · [[HPE]] · [[Databricks]]。NIXL 位于 engine 与具体传输/storage backend 之间，是数据面而非调度器。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/ai-dynamo/NIXL/Adit Ranadive|Adit Ranadive]]：Project source / contributor context: https://github.com/ai-dynamo/nixl
+- [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]]：[[NIXL]]：core / tracing 方向活跃贡献者
+- [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]]：[[NIXL]]：core API / Python bindings 活跃贡献者
+- [[community/ai-dynamo/NIXL/James Thomas|James Thomas]]：[[NIXL]]：remote registration / core transfer lifecycle 贡献者
+- [[community/ai-dynamo/NIXL/Matvei Pashkovskii|Matvei Pashkovskii]]：[[NIXL]]：AMD/ROCm/libfabric 支持贡献者
+- [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]]：Project source / contributor context: https://github.com/ai-dynamo/nixl
+- [[community/ai-dynamo/NIXL/Rongbing Zhou|Rongbing Zhou]]：[[NIXL]]：libfabric / AWS EFA / Neuron 方向贡献者
+- [[community/ai-dynamo/NIXL/Ryan Hankins|Ryan Hankins]]：[[NIXL]]：libfabric / CXI 方向贡献者
+- [[community/ai-dynamo/NIXL/Tomer Davidor|Tomer Davidor]]：[[NIXL]]：GPU Device API / UCX 方向贡献者
+
+<!-- END AUTO PROJECT PEOPLE -->

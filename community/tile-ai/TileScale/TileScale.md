@@ -1,6 +1,7 @@
 ---
 type: project
 name: TileScale
+linked_people: []
 repository: https://github.com/tile-ai/tilescale
 open_source: true
 areas: [ai-infrastructure]

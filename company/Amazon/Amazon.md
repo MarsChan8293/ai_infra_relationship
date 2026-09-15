@@ -1,6 +1,8 @@
 ---
 type: company
 name: Amazon / AWS
+linked_people:
+  - "community/ai-dynamo/NIXL/Rongbing Zhou"
 ---
 # Amazon / AWS
 
@@ -9,3 +11,12 @@ Amazon Web Services 是全球云基础设施平台，在 AI Infra 中同时提�
 
 ## 图谱中的连接
 [[NIXL]] 等数据移动项目把 AWS/云基础设施视为重要部署环境；[[vLLM]]、Ray/[[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] 等开源 serving 项目也广泛运行在 AWS。图谱只记录有公开证据的具体人物协作，不从云部署关系反推同事关系。
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 当前关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+
+- [[community/ai-dynamo/NIXL/Rongbing Zhou|Rongbing Zhou]]：[[Amazon]]
+
+<!-- END AUTO COMPANY PEOPLE -->

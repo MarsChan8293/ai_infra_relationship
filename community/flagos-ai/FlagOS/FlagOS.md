@@ -2,6 +2,13 @@
 type: community
 name: FlagOS
 aliases: [FlagOS, 众智 FlagOS, 智源 FlagOS, 智源社区]
+linked_people:
+  - "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu"
+  - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
+  - "community/flagos-ai/FlagOS/曹州"
+  - "community/flagos-ai/FlagOS/白童心"
+  - "community/flagos-ai/FlagOS/赵英利 Yingli Zhao"
+  - "community/flagos-ai/FlagOS/陈飞宇"
 category: heterogeneous-ai-system-stack
 repository: https://github.com/flagos-ai
 companies: []
@@ -35,3 +42,17 @@ FlagOS 的推理侧并不是另起炉灶：[[vllm-plugin-FL]] 直接连接 [[vLL
 - https://hub.baai.ac.cn/view/57117
 - https://github.com/flagos-ai
 - https://docs.flagos.io/en/latest/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu|吕梦思（Mengsi Lyu）]]：[[赵英利 Yingli Zhao]]：**公开技术协作**；2024 FlagOS Triton & vLLM Workshop 共同介绍 FlagScale 多模态模型压缩与推理实践。
+- [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙（Yulong Ao）]]：[[FlagOS]]：**社区 / 技术负责人关系**；截至 2026-06 公开资料确认其负责 FlagOS 插件体系实践与核心框架研发。
+- [[community/flagos-ai/FlagOS/曹州|曹州]]：https://github.com/flagos-ai/FlagScale/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagOS/白童心|白童心]]：[[FlagOS]]：**系统软件栈研发网络**；FlagGems 后续成为 FlagOS 核心技术库之一。
+- [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利（Yingli Zhao）]]：[[吕梦思 Mengsi Lyu]]：**公开技术协作**；2024 FlagOS Triton & vLLM Workshop 共同分享 FlagScale 多模态压缩与推理实践。
+- [[community/flagos-ai/FlagOS/陈飞宇|陈飞宇]]：社区贡献关联；人物页已明确记录该社区。
+
+<!-- END AUTO PROJECT PEOPLE -->

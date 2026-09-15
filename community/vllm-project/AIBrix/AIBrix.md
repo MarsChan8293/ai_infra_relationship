@@ -2,6 +2,14 @@
 type: project
 name: AIBrix
 parent: vLLM Project
+linked_people:
+  - "community/vllm-project/AIBrix/Chenyu Jiang"
+  - "community/vllm-project/AIBrix/CYJiang"
+  - "community/vllm-project/AIBrix/Guangjian"
+  - "community/vllm-project/AIBrix/Jiang Xiaobin"
+  - "community/vllm-project/AIBrix/Jianliang Qi"
+  - "community/vllm-project/AIBrix/Jingyuan Zhang"
+  - "community/vllm-project/AIBrix/Xin Li"
 companies: ["字节跳动"]
 company_relation: company-originated
 layer: cloud-native-inference-infrastructure
@@ -27,3 +35,18 @@ https://github.com/vllm-project/aibrix
 - [[llm-d]]：同处 Kubernetes distributed inference 层，但治理与架构路线不同。
 - [[HAMi]]：在 Kubernetes GPU/异构资源调度与共享层存在上下游关系。
 - Kubernetes：AIBrix 的主要编排与部署底座。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]]：[[AIBrix]]：Batch / scheduling 方向活跃贡献者
+- [[community/vllm-project/AIBrix/CYJiang|CYJiang]]：Project source / contributor context: https://github.com/vllm-project/aibrix
+- [[community/vllm-project/AIBrix/Guangjian|Guangjian]]：Project source / contributor context: https://github.com/vllm-project/aibrix
+- [[community/vllm-project/AIBrix/Jiang Xiaobin|Jiang Xiaobin]]：Project source / contributor context: https://github.com/vllm-project/aibrix
+- [[community/vllm-project/AIBrix/Jianliang Qi|Jianliang Qi]]：Project source / contributor context: https://github.com/vllm-project/aibrix
+- [[community/vllm-project/AIBrix/Jingyuan Zhang|Jingyuan Zhang]]：[[AIBrix]]：Batch runtime 方向活跃贡献者
+- [[community/vllm-project/AIBrix/Xin Li|Xin Li]]：[[AIBrix]]：GPU optimizer / Kubernetes deployment 贡献者
+
+<!-- END AUTO PROJECT PEOPLE -->

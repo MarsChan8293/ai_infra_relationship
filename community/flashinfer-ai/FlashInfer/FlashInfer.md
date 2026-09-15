@@ -1,6 +1,18 @@
 ---
 type: project
 name: FlashInfer
+linked_people:
+  - "community/flashinfer-ai/FlashInfer/aleozlx"
+  - "community/flashinfer-ai/FlashInfer/Brian K. Ryu"
+  - "community/flashinfer-ai/FlashInfer/Jingfan Sun"
+  - "community/flashinfer-ai/FlashInfer/Wuwei Lin"
+  - "community/flashinfer-ai/FlashInfer/Yang Xu"
+  - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
+  - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
+  - "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen"
+  - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
+  - "community/NVIDIA/TensorRT-LLM/Brian Nguyen"
+  - "community/sgl-project/SGLang/Yineng Zhang"
 companies: []
 company_relation: community-led-with-industry-contributors
 layer: gpu-kernels
@@ -22,3 +34,22 @@ FlashInfer 起源于学术/开源社区并采用社区治理。NVIDIA、Together
 
 ## 生态关系
 [[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[Together AI]] · [[NVIDIA]] · [[DeepGEMM]] · [[FlashMLA]]
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]]：[[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 两人共同拥有全代码库审批权限并覆盖多个 kernel 模块；叶子豪公开关联 NVIDIA，aleozlx 雇主未可靠确认，因此只记录项目治理关系。
+- [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：[[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：**FlashInfer Full Codebase Approver 同僚**。截至 2026-09 两人共同承担全代码库审批与核心 kernel review；Brian 的雇主公开不足，因此不把该关系扩写为公司同事。
+- [[community/flashinfer-ai/FlashInfer/Jingfan Sun|Jingfan Sun]]：[[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：**NVIDIA 同事 + FlashInfer Full Codebase Approver 同僚**。截至 2026-09 两人均在 NVIDIA 并承担 FlashInfer 全代码库审批；叶子豪偏 creator/compiler/kernel 架构，Jingfan Sun 偏 GPU kernel、MoE/EP 和性能工程。首次在...
+- [[community/flashinfer-ai/FlashInfer/Wuwei Lin|Wuwei Lin]]：Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
+- [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：[[FlashInfer]]：Full Codebase Approver
+- [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：[[FlashInfer]]：创建者、核心维护者
+- [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]：Carnegie Mellon University：计算机博士生，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]、Todd Mowry
+- [[community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen|陈乐群（Lequn Chen）]]：Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
+- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
+- [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]]：[[TensorRT-LLM]]：FlashInfer decode / CUDA Graph 集成活跃贡献者
+- [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[FlashInfer]]：MLSys 2025 论文作者；论文获 MLSys 2025 Best Paper Award。
+
+<!-- END AUTO PROJECT PEOPLE -->

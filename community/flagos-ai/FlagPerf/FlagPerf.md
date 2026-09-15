@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagPerf
+linked_people: []
 companies: []
 company_relation: community-led
 layer: ai-hardware-benchmark

@@ -1,6 +1,7 @@
 ---
 type: company
 name: Baseten
+linked_people: []
 ---
 # Baseten
 

@@ -1,6 +1,16 @@
 ---
 type: project
 name: LightLLM
+linked_people:
+  - "community/ModelTC/LightLLM/Hailong Yang"
+  - "community/ModelTC/LightLLM/Junyi Chen"
+  - "community/ModelTC/LightLLM/Niu Shengxiao"
+  - "community/ModelTC/LightLLM/Ruihao Gong"
+  - "community/ModelTC/LightLLM/Sang Chengmeng"
+  - "community/ModelTC/LightLLM/Shihao Bai"
+  - "community/ModelTC/LightLLM/Siyu Wu"
+  - "community/ModelTC/LightLLM/Su Fubao"
+  - "community/ModelTC/LightLLM/Zaijun Wang"
 companies: []
 company_relation: community-led
 layer: llm-serving-engine
@@ -22,3 +32,20 @@ https://github.com/ModelTC/lightllm
 
 ## 生态关系
 [[FlashInfer]] · [[DeepSeek-Infra]] · [[vLLM]] · [[SGLang]] · [[上海交通大学]]。对 LightLLM 贡献者是否属于同一学校/公司必须逐人核验，不能仅凭共同仓库推断。
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/ModelTC/LightLLM/Hailong Yang|Hailong Yang]]：Project source / contributor context: https://github.com/ModelTC/lightllm
+- [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]]：SenseTime Research：曾从事大模型系统与工具链工作，并成为 [[LightLLM]] core contributor。
+- [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]]：[[LightLLM]]：高活跃工程贡献者
+- [[community/ModelTC/LightLLM/Ruihao Gong|Ruihao Gong]]：Project source / contributor context: https://github.com/ModelTC/lightllm
+- [[community/ModelTC/LightLLM/Sang Chengmeng|Sang Chengmeng]]：[[LightLLM]]：模型与多模态方向活跃贡献者
+- [[community/ModelTC/LightLLM/Shihao Bai|Shihao Bai]]：Project source / contributor context: https://github.com/ModelTC/lightllm
+- [[community/ModelTC/LightLLM/Siyu Wu|Siyu Wu]]：Project source / contributor context: https://github.com/ModelTC/lightllm
+- [[community/ModelTC/LightLLM/Su Fubao|Su Fubao]]：[[LightLLM]]：量化与 kernel 方向贡献者
+- [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]]：[[LightLLM]]：论文作者、持续核心工程贡献者
+
+<!-- END AUTO PROJECT PEOPLE -->

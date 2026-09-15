@@ -1,6 +1,7 @@
 ---
 type: project
 name: HAMi
+linked_people: []
 companies: ["第四范式","密瓜智能","道客","NVIDIA","华为"]
 company_relation: cross-company-maintainer-network
 layer: kubernetes-heterogeneous-device-virtualization

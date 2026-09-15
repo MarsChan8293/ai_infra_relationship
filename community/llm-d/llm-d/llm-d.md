@@ -1,6 +1,20 @@
 ---
 type: project
 name: llm-d
+linked_people:
+  - "community/llm-d/llm-d/Abdullah Gharaibeh"
+  - "community/llm-d/llm-d/Ashok Chandrasekar"
+  - "community/llm-d/llm-d/Carlos Costa"
+  - "community/llm-d/llm-d/Clayton Coleman"
+  - "community/llm-d/llm-d/Danny Harnik"
+  - "community/llm-d/llm-d/David Simmons"
+  - "community/llm-d/llm-d/JJ Asghar"
+  - "community/llm-d/llm-d/Marcio A L Silva"
+  - "community/llm-d/llm-d/Maroon Ayoub"
+  - "community/llm-d/llm-d/Nili Guy"
+  - "community/llm-d/llm-d/Pete Cheslock"
+  - "community/llm-d/llm-d/Vita Bortnikov"
+  - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
 governance: cross-company
 companies: ["Red Hat","Google","IBM","CoreWeave","NVIDIA"]
 company_relation: founding-contributors
@@ -46,3 +60,24 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - https://llm-d.ai/community/sigs
 - https://llm-d.ai/blog/llm-d-announce
 - https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/llm-d/llm-d/Abdullah Gharaibeh|Abdullah Gharaibeh]]：[[Google]]：截至 2026-08，llm-d 官方技术文章列为 Senior Staff Software Engineer, Google。
+- [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]]：[[llm-d]]：Benchmarking SIG Lead。
+- [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]]：[[IBM]]：截至 2026-09，llm-d 官方作者页列为 Distinguished Engineer, IBM。
+- [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]]：[[Google]]：llm-d 官方作者页列为 Distinguished Engineer, Google。
+- [[community/llm-d/llm-d/Danny Harnik|Danny Harnik]]：[[llm-d]]：KV-Disaggregation SIG Lead。
+- [[community/llm-d/llm-d/David Simmons|David Simmons]]：[[llm-d]]：Community Manager
+- [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：[[llm-d]]：Community Manager
+- [[community/llm-d/llm-d/Marcio A L Silva|Marcio A L Silva]]：[[llm-d]]：截至 2026-09 为 Benchmarking SIG Lead。
+- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-08 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
+- [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
+- [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[llm-d]]：Community Manager
+- [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
+- [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[llm-d]]：以社区孵化、推广、技术布道和生态连接为主要参与方式，尤其面向中国及 APAC 开发者与产业社区。
+
+<!-- END AUTO PROJECT PEOPLE -->
