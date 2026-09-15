@@ -4,10 +4,10 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked project/community: 26
-- Project/community nodes: 50
-- Project/community nodes with ≥1 linked company: 30
-- Bidirectional association pairs: 46
-- Explicitly asserted on both sides: 46
+- Project/community nodes: 53
+- Project/community nodes with ≥1 linked company: 33
+- Bidirectional association pairs: 49
+- Explicitly asserted on both sides: 49
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 3
@@ -51,11 +51,14 @@
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
+| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | project-collection | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | project | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | project | industry-academia-research-collaboration | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | project | company-led | both |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | project | company-originated | both |
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |

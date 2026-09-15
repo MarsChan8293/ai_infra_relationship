@@ -9,6 +9,9 @@ linked_people:
   - "community/kvcache-ai/KTransformers/Jianwei Dong"
   - "community/kvcache-ai/KTransformers/Jingqi Tang"
   - "community/kvcache-ai/KTransformers/Qingliang Ou"
+  - "university/清华大学/Mingxing Zhang"
+  - "university/清华大学/Ruoyu Qin"
+  - "university/清华大学/Yingdi Shan"
 areas: [machine-learning-systems, llm-inference, kv-cache, heterogeneous-inference, distributed-systems, rl-systems]
 projects: [Mooncake, KTransformers, Seer]
 website: https://madsys.cs.tsinghua.edu.cn/
@@ -49,5 +52,8 @@ MADSys 是清华大学计算机系面向 Machine Learning / AI / Big Data System
 - [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]]：[[清华大学]] / MADSys Lab
 - [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[清华大学]] / MADSys Lab
 - [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[清华大学]] / MADSys Lab
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Yingdi Shan|闪英迪（Yingdi Shan）]]：2024–至今：清华大学计算机系高性能计算研究所助理研究员；MADSys 个人主页将其列为 Research Assistant Professor。
 
 <!-- END AUTO RESEARCH PEOPLE -->

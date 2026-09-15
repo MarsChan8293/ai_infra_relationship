@@ -3,7 +3,7 @@ type: person
 name: 闪英迪
 english_name: Yingdi Shan
 aliases: ["Yingdi Shan", "闪英迪"]
-current_affiliations: ["Tsinghua University", "MADSys Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University"]
 schools:
   - "清华大学"
 projects: [Seer]

@@ -3,7 +3,7 @@ type: person
 name: 秦若愚
 english_name: Ruoyu Qin
 aliases: ["Ruoyu Qin", "秦若愚"]
-current_affiliations: ["Tsinghua University", "MADSys Lab, Tsinghua University", "月之暗面"]
+current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University","月之暗面"]
 schools:
   - "清华大学"
 projects: [Mooncake, Seer]
@@ -14,6 +14,7 @@ last_verified: "2026-09"
 relations:
   - '{"target":"university/清华大学/Mingxing Zhang","type":["mentor-network","research-collaboration"],"confidence":"high","evidence":["https://qinruoyu.com/","https://qinruoyu.com/static/media/cv-qinruoyu.pdf","https://www.cs.tsinghua.edu.cn/info/1247/6286.htm"]}'
   - '{"target":"university/清华大学/Yingdi Shan","type":["paper-coauthor","research-collaboration"],"project":"Seer","confidence":"high","evidence":["https://www.usenix.org/conference/osdi26/presentation/qin"]}'
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://qinruoyu.com/","https://qinruoyu.com/static/media/cv-qinruoyu.pdf","https://www.cs.tsinghua.edu.cn/info/1247/6286.htm"]}'
 ---
 # 秦若愚（Ruoyu Qin）
 

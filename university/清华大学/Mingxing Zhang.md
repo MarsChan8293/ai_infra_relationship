@@ -3,7 +3,7 @@ type: person
 name: 章明星
 english_name: Mingxing Zhang
 aliases: ["Mingxing Zhang", "章明星"]
-current_affiliations: ["Tsinghua University", "MADSys Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University"]
 schools:
   - "清华大学"
 projects: [Mooncake, KTransformers, Seer, DualPath]

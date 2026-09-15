@@ -14,7 +14,9 @@ linked_people:
   - "community/kvcache-ai/KTransformers/Xingxing Hao"
   - "community/kvcache-ai/KTransformers/Ziwei Yuan"
   - "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie"
+  - "company/深度求索/Shaoyuan Chen"
   - "company/趋境科技/武永卫 Yongwei Wu"
+  - "university/清华大学/Mingxing Zhang"
 companies: ["趋境科技"]
 company_relation: industry-academia-core-network
 layer: heterogeneous-inference
@@ -58,14 +60,16 @@ https://github.com/kvcache-ai/ktransformers
 - [[community/kvcache-ai/KTransformers/Xingxing Hao|Xingxing Hao]]：[[KTransformers]]：官方 Maintainer
 - [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[KTransformers]]：官方 Maintainer、论文作者
 - [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：[[KTransformers]]：官方 Maintainer、SOSP 2025 论文共同第一作者之一；截至 2026-09 KTransformers MAINTAINERS 仍列其为 maintainer。
+- [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[community/kvcache-ai/KTransformers/KTransformers|KTransformers]]：SOSP 2025 论文作者，与 [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]] 共同研究 CPU/GPU hybrid MoE inference。
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[KTransformers]]：SOSP 2025 论文作者，连接清华 MADSys 与 Approaching.AI 的 MoE heterogeneous inference 网络。
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[community/kvcache-ai/KTransformers/KTransformers|KTransformers]]：SOSP 2025 论文作者，连接 MADSys 与 CPU/GPU hybrid MoE inference。
 
 <!-- END AUTO PROJECT PEOPLE -->
 
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
 ## 关联公司（自动汇总）
 
-以下关系由公司页与社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-core-network`。
 

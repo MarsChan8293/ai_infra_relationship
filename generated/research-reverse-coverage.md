@@ -4,12 +4,12 @@
 
 - Research institution nodes: 6
 - Institutions with ≥1 linked person: 5
-- Research-person associations: 10
+- Research-person associations: 13
 - Audit errors: 0
 
 | Research institution | Linked people |
 | --- | ---: |
-| [[university/清华大学/MADSys|MADSys]] | 5 |
+| [[university/清华大学/MADSys|MADSys]] | 8 |
 | [[university/北京大学/Tile-AI|Tile-AI]] | 2 |
 | [[university/IBM Research/IBM Research|IBM Research]] | 1 |
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院|北京智源人工智能研究院]] | 1 |

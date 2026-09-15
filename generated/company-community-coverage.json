@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 40,
   "companies_with_links": 26,
-  "project_community_nodes": 50,
-  "project_community_nodes_with_links": 30,
-  "association_pairs": 46,
-  "asserted_on_both_sides": 46,
+  "project_community_nodes": 53,
+  "project_community_nodes_with_links": 33,
+  "association_pairs": 49,
+  "asserted_on_both_sides": 49,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -446,6 +446,18 @@
       ]
     },
     {
+      "company_id": "company/月之暗面/月之暗面",
+      "company_name": "月之暗面",
+      "entity_id": "company/月之暗面/Seer",
+      "entity_name": "Seer",
+      "entity_type": "project",
+      "relation": "industry-academia-research-collaboration",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
       "company_id": "company/深度求索/深度求索",
       "company_name": "深度求索",
       "entity_id": "community/deepseek-ai/DeepSeek-Infra/3FS",
@@ -500,6 +512,30 @@
       "entity_name": "DeepSeek Infra",
       "entity_type": "project-collection",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/深度求索/深度求索",
+      "company_name": "深度求索",
+      "entity_id": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "entity_name": "DeepSpec",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/深度求索/深度求索",
+      "company_name": "深度求索",
+      "entity_id": "community/deepseek-ai/DualPath/DualPath",
+      "entity_name": "DualPath",
+      "entity_type": "project",
+      "relation": "industry-academia-research-collaboration",
       "sources": [
         "company",
         "entity"

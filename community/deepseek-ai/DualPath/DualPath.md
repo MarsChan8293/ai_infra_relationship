@@ -1,12 +1,17 @@
 ---
 type: project
 name: DualPath
+linked_people:
+  - "company/深度求索/Shaoyuan Chen"
+  - "university/清华大学/Mingxing Zhang"
 companies: ["深度求索"]
 company_relation: industry-academia-research-collaboration
 layer: kv-cache
 open_source: false
 areas: [agentic-inference, llm-serving, kv-cache, disaggregated-serving, storage-io, scheduling]
 last_verified: "2026-09"
+linked_companies:
+  - "company/深度求索/深度求索"
 ---
 # DualPath
 
@@ -30,3 +35,22 @@ DualPath 是章明星 BFS 中非常关键的二跳桥：`Mingxing Zhang → Shao
 - https://conferences.sigcomm.org/sigcomm/2026/accepted/
 - https://conferences.sigcomm.org/sigcomm/2026/program/papers/
 - https://arxiv.org/abs/2602.21548
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[company/深度求索/深度求索|深度求索]]：SIGCOMM 2026 DualPath 作者单位同时列出 Tsinghua University 与 DeepSeek-AI，和 MADSys alumni 去向互相印证。
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[community/deepseek-ai/DualPath/DualPath|DualPath]]：SIGCOMM 2026 作者；与 [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]、北大 systems / DeepSeek-AI 作者网络合作研究 agentic LLM inference 的 disaggregated KV-cache storage I/O。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-research-collaboration`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

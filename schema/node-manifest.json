@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 410,
-  "complete_count": 410,
+  "node_count": 415,
+  "complete_count": 415,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
@@ -12,9 +12,9 @@
     "model-project": 12,
     "model-team": 1,
     "note": 36,
-    "person": 210,
+    "person": 212,
     "person-link": 4,
-    "project": 44,
+    "project": 47,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 6,
@@ -504,6 +504,24 @@
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSpec/DeepSpec.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSpec/DeepSpec.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DualPath/DualPath",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DualPath/DualPath.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DualPath/DualPath.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2578,6 +2596,15 @@
       "missing_required": []
     },
     {
+      "id": "company/月之暗面/Seer",
+      "type": "project",
+      "source_markdown": "company/月之暗面/Seer.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/月之暗面/Seer.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/月之暗面/吴育昕 Yuxin Wu",
       "type": "person",
       "source_markdown": "company/月之暗面/吴育昕 Yuxin Wu.md",
@@ -2655,6 +2682,15 @@
       "source_markdown": "company/深度求索/DeepSeek-V3.md",
       "schema_definition": "schema/model-project.yaml",
       "schema_instance": "schema/nodes/company/深度求索/DeepSeek-V3.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/深度求索/Shaoyuan Chen",
+      "type": "person",
+      "source_markdown": "company/深度求索/Shaoyuan Chen.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/深度求索/Shaoyuan Chen.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3654,6 +3690,15 @@
       "source_markdown": "university/清华大学/Weimin Zheng.md",
       "schema_definition": "schema/person-link.yaml",
       "schema_instance": "schema/nodes/university/清华大学/Weimin Zheng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/清华大学/Yingdi Shan",
+      "type": "person",
+      "source_markdown": "university/清华大学/Yingdi Shan.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/清华大学/Yingdi Shan.yaml",
       "status": "complete",
       "missing_required": []
     },
