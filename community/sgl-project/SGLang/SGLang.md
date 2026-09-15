@@ -11,6 +11,10 @@ linked_people:
   - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
   - "company/Inferact/Ion Stoica"
   - "company/Inferact/Joseph Gonzalez"
+  - "company/RadixArk/Baizhou Zhang"
+  - "company/RadixArk/Cheng Wan"
+  - "company/RadixArk/Qiaolin Yu"
+  - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/盛颖 Ying Sheng"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
@@ -60,6 +64,10 @@ https://github.com/sgl-project/sglang
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]。
 - [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Joseph Gonzalez 与 Ion Stoica 指导；其系统工作从 Alpa、FastChat 延伸到 [[SGLang]]。
+- [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]]：SGLang NVIDIA / model-specific optimization
+- [[company/RadixArk/Cheng Wan|Cheng Wan]]：SGLang parallelism、EPLB、DP Attention、distributed communication
+- [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能
+- [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
 
 <!-- END AUTO PROJECT PEOPLE -->

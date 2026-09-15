@@ -16,6 +16,9 @@ last_verified: "2026-09"
 relations:
   - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["coworker","research-collaboration"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
   - '{"target":"company/RadixArk/朱邦华 Banghua Zhu","type":["cofounder"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Qiaolin Yu","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Baizhou Zhang","type":["coworker"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Cheng Wan","type":["coworker"],"confidence":"high","evidence":["https://sites.google.com/view/yingsheng/home","https://arxiv.org/abs/2312.07104","https://www.linkedin.com/in/yingsheng1123"]}'
 ---
 # 盛颖（Ying Sheng）
 

@@ -17,13 +17,7 @@ linked_people:
   - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
-companies:
-  - "Inferact"
-  - "Red Hat"
-  - "Meta"
-  - "Hugging Face"
-  - "TensorMesh"
-  - "Neural Magic"
+companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh","Neural Magic"]
 company_relation: cross-company-core-contributors
 layer: inference-engine
 open_source: true

@@ -2,6 +2,8 @@
 type: project
 name: LMCache
 linked_people:
+  - "community/LMCache/LMCache/Baolong Ma"
+  - "community/LMCache/LMCache/Samm Shen"
   - "company/TensorMesh/Junchen Jiang"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
   - "company/TensorMesh/程翊华 Yihua Cheng"
@@ -35,6 +37,8 @@ https://github.com/LMCache/LMCache
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/LMCache/LMCache/Baolong Ma|Baolong Ma]]：[[TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：**LMCache 社区协作者**。截至 2026-09，两人均持续参与 LMCache；程翊华负责 KV cache offloading / connector / 分层缓存等核心技术，Baolong Ma 更偏 contributor onboarding、issue 与社区协作。公开资料不足以确认二人在同一公司共事，因此不标记为“同事”；首次共同参与 LMCache...
+- [[community/LMCache/LMCache/Samm Shen|Samm Shen]]：活跃于 LMCache 核心功能规划与社区协作
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输

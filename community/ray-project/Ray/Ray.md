@@ -3,6 +3,7 @@ type: project
 name: Ray
 linked_people:
   - "company/Inferact/Ion Stoica"
+  - "company/RadixArk/Qiaolin Yu"
 repository: https://github.com/ray-project/ray
 open_source: true
 areas: [ai-infrastructure]
@@ -29,5 +30,6 @@ https://github.com/ray-project/ray
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：社区贡献关联；人物页已明确记录该社区。
+- [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[Anyscale]]：Ray Core Software Engineer，2025-06–2025-12
 
 <!-- END AUTO PROJECT PEOPLE -->

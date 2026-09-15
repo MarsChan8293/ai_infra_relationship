@@ -3,15 +3,15 @@
 由 `scripts/audit-school-reverse-links.py` 自动生成。反向关系以人物页 `schools:` 为唯一事实源。
 
 - School nodes: 46
-- Schools with ≥1 linked person: 38
-- Reverse person-school associations: 138
+- Schools with ≥1 linked person: 40
+- Reverse person-school associations: 141
 - Audit errors: 0
 
 | School | Linked people |
 | --- | ---: |
 | [[university/清华大学/清华大学|清华大学]] | 38 |
+| [[university/北京大学/北京大学|北京大学]] | 17 |
 | [[university/UC Berkeley/UC Berkeley|UC Berkeley]] | 16 |
-| [[university/北京大学/北京大学|北京大学]] | 16 |
 | [[university/上海交通大学/上海交通大学|上海交通大学]] | 14 |
 | [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | 7 |
 | [[university/浙江大学/浙江大学|浙江大学]] | 6 |
@@ -25,6 +25,7 @@
 | [[university/Binghamton University/Binghamton University|Binghamton University]] | 1 |
 | [[university/Case Western Reserve University/Case Western Reserve University|Case Western Reserve University]] | 1 |
 | [[university/Columbia University/Columbia University|Columbia University]] | 1 |
+| [[university/Cornell Tech/Cornell Tech|Cornell Tech]] | 1 |
 | [[university/Franklin W. Olin College of Engineering/Franklin W. Olin College of Engineering|Franklin W. Olin College of Engineering]] | 1 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 1 |
 | [[university/Lobachevsky State University of Nizhny Novgorod/Lobachevsky State University of Nizhny Novgorod|Lobachevsky State University of Nizhny Novgorod]] | 1 |
@@ -46,12 +47,11 @@
 | [[university/复旦大学/复旦大学|复旦大学]] | 1 |
 | [[university/江南大学/江南大学|江南大学]] | 1 |
 | [[university/电子科技大学/电子科技大学|电子科技大学]] | 1 |
+| [[university/西交利物浦大学/西交利物浦大学|西交利物浦大学]] | 1 |
 | [[university/西北工业大学/西北工业大学|西北工业大学]] | 1 |
-| [[university/Cornell Tech/Cornell Tech|Cornell Tech]] | 0 |
 | [[university/Cornell University/Cornell University|Cornell University]] | 0 |
 | [[university/University of Tennessee, Knoxville/University of Tennessee, Knoxville|University of Tennessee, Knoxville]] | 0 |
 | [[university/University of Toronto/University of Toronto|University of Toronto]] | 0 |
 | [[university/University of Warwick/University of Warwick|University of Warwick]] | 0 |
 | [[university/武汉大学/武汉大学|武汉大学]] | 0 |
-| [[university/西交利物浦大学/西交利物浦大学|西交利物浦大学]] | 0 |
 | [[university/香港科技大学/香港科技大学|香港科技大学]] | 0 |

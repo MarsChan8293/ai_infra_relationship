@@ -3,6 +3,10 @@ type: company
 name: RadixArk
 focus: ai-inference-infrastructure
 linked_people:
+  - "company/RadixArk/Baizhou Zhang"
+  - "company/RadixArk/Cheng Wan"
+  - "company/RadixArk/Qiaolin Yu"
+  - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/盛颖 Ying Sheng"
 projects: [SGLang]
@@ -25,6 +29,10 @@ RadixArk 是围绕高性能 LLM serving 与 [[SGLang]] 生态形成的 AI infras
 
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
 
+- [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]]：[[RadixArk]]：系统 / 推理工程；截至 2026-09 在职
+- [[company/RadixArk/Cheng Wan|Cheng Wan]]：[[RadixArk]]：推理系统工程；截至 2026-09 在职
+- [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[RadixArk]]：founding team MTS，2025-12–至今
+- [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：[[RadixArk]]：工程师；截至 2026-09 在职
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[RadixArk]]：联合创始人、CTO；公司在 2025 年下半年已公开运行
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：[[RadixArk]]：联合创始人、CEO；公开信息显示公司自 2025 年下半年已开始运行
 

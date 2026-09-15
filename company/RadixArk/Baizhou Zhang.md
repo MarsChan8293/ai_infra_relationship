@@ -3,6 +3,8 @@ type: person
 name: Baizhou Zhang
 aliases: [Fridge003]
 current_affiliations: ["RadixArk"]
+schools:
+  - "北京大学"
 communities: [SGLang]
 roles: [SGLang Maintainer, Inference Systems Engineer]
 areas: [gpu-performance, model-optimization, ci, release-engineering]
@@ -12,6 +14,8 @@ relations:
   - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
   - '{"target":"company/RadixArk/Qiaolin Yu","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
   - '{"target":"company/RadixArk/Cheng Wan","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/朱邦华 Banghua Zhu","type":["coworker","technical-collaboration"],"confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Xiaoyu Zhang","type":["coworker"],"confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
 ---
 # Baizhou Zhang
 

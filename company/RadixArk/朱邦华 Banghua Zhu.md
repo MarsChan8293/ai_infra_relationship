@@ -12,6 +12,10 @@ areas: [foundation-models, post-training, ai-infrastructure]
 last_verified: "2026-09"
 relations:
   - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["cofounder"],"confidence":"high","evidence":["https://simons.berkeley.edu/people/banghua-zhu","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Qiaolin Yu","type":["coworker"],"confidence":"high","evidence":["https://simons.berkeley.edu/people/banghua-zhu","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Baizhou Zhang","type":["coworker"],"confidence":"high","evidence":["https://simons.berkeley.edu/people/banghua-zhu","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Cheng Wan","type":["coworker"],"confidence":"high","evidence":["https://simons.berkeley.edu/people/banghua-zhu","https://www.linkedin.com/in/yingsheng1123"]}'
+  - '{"target":"company/RadixArk/Xiaoyu Zhang","type":["coworker"],"confidence":"high","evidence":["https://simons.berkeley.edu/people/banghua-zhu","https://www.linkedin.com/in/yingsheng1123"]}'
 ---
 # 朱邦华（Banghua Zhu）
 

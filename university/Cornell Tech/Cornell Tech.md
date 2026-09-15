@@ -2,6 +2,7 @@
 type: school
 name: Cornell Tech
 linked_people:
+  - "company/RadixArk/Qiaolin Yu"
 last_verified: "2026-09"
 ---
 # Cornell Tech
@@ -14,6 +15,8 @@ Cornell Tech 是图谱中的高校节点，用于连接 AI Infra 人物的教育
 <!-- BEGIN AUTO SCHOOL PEOPLE -->
 ## 关联人物（自动汇总）
 
-当前尚无人物节点通过 `schools:` 明确关联到本校。
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[Cornell Tech]]：计算机与信息系统硕士，2023–2025
 
 <!-- END AUTO SCHOOL PEOPLE -->

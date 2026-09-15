@@ -4,10 +4,10 @@
 
 - Company nodes: 40
 - Companies with ≥1 linked person: 30
-- Company-person associations: 133
+- Company-person associations: 137
 - Project/community nodes: 50
 - Project/community nodes with ≥1 linked person: 32
-- Project/community-person associations: 195
+- Project/community-person associations: 202
 - Non-company affiliations recognized and routed elsewhere: 37
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -20,6 +20,7 @@
 | [[company/趋境科技/趋境科技|趋境科技]] | 12 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/Inferact/Inferact|Inferact]] | 6 |
+| [[company/RadixArk/RadixArk|RadixArk]] | 6 |
 | [[company/IBM/IBM|IBM]] | 5 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
@@ -36,7 +37,6 @@
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
-| [[company/RadixArk/RadixArk|RadixArk]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
@@ -53,12 +53,12 @@
 | --- | ---: |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 15 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 14 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 13 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 12 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 10 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
@@ -67,19 +67,19 @@
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
+| [[community/LMCache/LMCache/LMCache|LMCache]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
-| [[community/LMCache/LMCache/LMCache|LMCache]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
+| [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
-| [[community/ray-project/Ray/Ray|Ray]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
