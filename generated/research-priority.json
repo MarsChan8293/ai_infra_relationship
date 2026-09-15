@@ -1,0 +1,7436 @@
+{
+  "algorithm": "gap-aware-best-first-bfs-with-selective-dfs",
+  "formula": "1.60*bridge + 1.80*gap + 2.00*infra_relevance + 0.80*evidence + 0.90*novelty - 1.20*distance_penalty",
+  "seed": null,
+  "max_bfs_depth": 2,
+  "candidate_count": 219,
+  "candidates": [
+    {
+      "id": "community/vllm-project/vLLM/游凯超 Kaichao You",
+      "name": "游凯超",
+      "score": 33.468,
+      "strategy": "selective-dfs",
+      "bridge_score": 14.855,
+      "gap_score": 1.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 22,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 7,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 14.9",
+        "infra: serving/inference, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/趋境科技/武永卫 Yongwei Wu",
+      "name": "武永卫",
+      "score": 32.977,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.598,
+      "gap_score": 1.3,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.6",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/TensorMesh/杜昆泰 Kuntai Du",
+      "name": "杜昆泰",
+      "score": 32.654,
+      "strategy": "selective-dfs",
+      "bridge_score": 13.159,
+      "gap_score": 1.3,
+      "infra_relevance": 2.7,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 8,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 13.2",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/sgl-project/SGLang/Yineng Zhang",
+      "name": "Yineng Zhang",
+      "score": 32.558,
+      "strategy": "selective-dfs",
+      "bridge_score": 11.474,
+      "gap_score": 1.3,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 8,
+      "project_neighbors": 5,
+      "ecosystem_neighbors": 7,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 11.5",
+        "infra: serving/inference, kv-cache, scheduler",
+        "multi-project 5"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/李卓翰 Zhuohan Li",
+      "name": "李卓翰",
+      "score": 32.538,
+      "strategy": "selective-dfs",
+      "bridge_score": 14.274,
+      "gap_score": 1.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 7,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 7,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 14.3",
+        "infra: serving/inference, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/清华大学/Mingxing Zhang",
+      "name": "章明星",
+      "score": 32.159,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.087,
+      "gap_score": 1.3,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 9,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.1",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+      "name": "郑连民",
+      "score": 32.131,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.757,
+      "gap_score": 2.2,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 6,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.8",
+        "gap 2.2",
+        "infra: serving/inference, kv-cache, scheduler",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
+      "name": "谢志强",
+      "score": 31.865,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.409,
+      "gap_score": 3.3,
+      "infra_relevance": 2.8,
+      "evidence_quality": 1.45,
+      "novelty": 2.79,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.4",
+        "gap 3.3",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/乔一凡 Yifan Qiao",
+      "name": "乔一凡",
+      "score": 31.632,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.52,
+      "gap_score": 1.3,
+      "infra_relevance": 2.7,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 11,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 6,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.5",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/清程极智/翟季冬 Jidong Zhai",
+      "name": "翟季冬",
+      "score": 31.53,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.848,
+      "gap_score": 1.3,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 15,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.8",
+        "infra: serving/inference, kv-cache, kernel",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/深度求索/梁文锋 Liang Wenfeng",
+      "name": "梁文锋",
+      "score": 31.005,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.485,
+      "gap_score": 2.4,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe",
+        "quantization"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.5",
+        "gap 2.4",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/Inferact/Woosuk Kwon",
+      "name": "Woosuk Kwon",
+      "score": 30.892,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.437,
+      "gap_score": 1.3,
+      "infra_relevance": 2.55,
+      "evidence_quality": 1.1,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.4",
+        "infra: kv-cache, scheduler, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/RadixArk/盛颖 Ying Sheng",
+      "name": "盛颖",
+      "score": 30.872,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.17,
+      "gap_score": 1.3,
+      "infra_relevance": 2.6,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.2",
+        "infra: serving/inference, scheduler, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/Chen Zhang",
+      "name": "Chen Zhang",
+      "score": 30.024,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.52,
+      "gap_score": 1.3,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.45,
+      "novelty": 2.88,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 8,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 6,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.5",
+        "infra: serving/inference, kv-cache",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/Inferact/Ion Stoica",
+      "name": "Ion Stoica",
+      "score": 29.577,
+      "strategy": "selective-dfs",
+      "bridge_score": 12.598,
+      "gap_score": 1.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 6,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 8,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 12.6",
+        "infra: serving/inference, distributed",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "community/sgl-project/SGLang/尹良升 Liangsheng Yin",
+      "name": "尹良升",
+      "score": 29.496,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.72,
+      "gap_score": 3.8,
+      "infra_relevance": 2.8,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.7",
+        "gap 3.8",
+        "infra: serving/inference, kv-cache, scheduler",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/TensorMesh/程翊华 Yihua Cheng",
+      "name": "程翊华",
+      "score": 29.091,
+      "strategy": "selective-dfs",
+      "bridge_score": 11.107,
+      "gap_score": 1.3,
+      "infra_relevance": 2.7,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 11.1",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+      "name": "刘胜与",
+      "score": 28.825,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.359,
+      "gap_score": 1.3,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.25,
+      "novelty": 2.79,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe",
+        "disaggregation"
+      ],
+      "url_count": 2,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.4",
+        "infra: serving/inference, kernel, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/深度求索/Shaoyuan Chen",
+      "name": "Shaoyuan Chen",
+      "score": 28.705,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.77,
+      "gap_score": 1.3,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 7,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.8",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Maroon Ayoub",
+      "name": "Maroon Ayoub",
+      "score": 28.551,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.707,
+      "gap_score": 1.3,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 7,
+      "project_neighbors": 5,
+      "ecosystem_neighbors": 7,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.7",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 5"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie",
+      "name": "谢威宇",
+      "score": 28.409,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.6,
+      "gap_score": 1.3,
+      "infra_relevance": 3.6,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.6",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "company/Inferact/Joseph Gonzalez",
+      "name": "Joseph Gonzalez",
+      "score": 28.233,
+      "strategy": "selective-dfs",
+      "bridge_score": 11.35,
+      "gap_score": 1.3,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 6,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 11.3",
+        "infra: serving/inference, kv-cache",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "university/北京大学/吴童 Tong Wu",
+      "name": "Tong Wu",
+      "score": 28.225,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.785,
+      "gap_score": 2.9,
+      "infra_relevance": 3.6,
+      "evidence_quality": 1.25,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.8",
+        "gap 2.9",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "university/清华大学/Ruoyu Qin",
+      "name": "秦若愚",
+      "score": 28.146,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.572,
+      "gap_score": 1.3,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.1,
+      "novelty": 2.79,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 6,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.6",
+        "infra: serving/inference, kv-cache, scheduler",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+      "name": "Jiashi Li",
+      "score": 27.934,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.009,
+      "gap_score": 2.7,
+      "infra_relevance": 2.4,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 3,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.0",
+        "gap 2.7",
+        "infra: kernel, distributed, moe",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Ziwei Yuan",
+      "name": "Ziwei Yuan",
+      "score": 27.824,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.872,
+      "gap_score": 3.05,
+      "infra_relevance": 3.6,
+      "evidence_quality": 1.25,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.9",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "company/清程极智/郑纬民 Weimin Zheng",
+      "name": "郑纬民",
+      "score": 27.8,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.3,
+      "gap_score": 1.3,
+      "infra_relevance": 2.7,
+      "evidence_quality": 1.1,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.3",
+        "infra: serving/inference, kv-cache, distributed"
+      ]
+    },
+    {
+      "id": "community/sgl-project/SGLang/Shenggui Li",
+      "name": "Shenggui Li",
+      "score": 27.387,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.059,
+      "gap_score": 2.2,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.1",
+        "gap 2.2",
+        "infra: serving/inference, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye",
+      "name": "叶子豪",
+      "score": 26.825,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.135,
+      "gap_score": 1.3,
+      "infra_relevance": 3.4,
+      "evidence_quality": 0.9,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.1",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/hpcaitech/Colossal-AI/Hongxin Liu",
+      "name": "Hongxin Liu",
+      "score": 26.801,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.77,
+      "gap_score": 2.7,
+      "infra_relevance": 1.4,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "quantization"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.8",
+        "gap 2.7",
+        "infra: distributed, quantization"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Sungsoo Ha",
+      "name": "Sungsoo Ha",
+      "score": 26.729,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.135,
+      "gap_score": 3.05,
+      "infra_relevance": 2.6,
+      "evidence_quality": 1.45,
+      "novelty": 2.07,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.1",
+        "gap 3.0",
+        "infra: serving/inference, distributed, disaggregation",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+      "name": "任峰",
+      "score": 26.555,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.222,
+      "gap_score": 1.3,
+      "infra_relevance": 2.8,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "disaggregation"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.2",
+        "infra: serving/inference, kv-cache, disaggregation"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Danny Harnik",
+      "name": "Danny Harnik",
+      "score": 26.547,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.522,
+      "gap_score": 1.3,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.1,
+      "novelty": 2.88,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 5,
+      "project_neighbors": 5,
+      "ecosystem_neighbors": 6,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 5"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Abdullah Gharaibeh",
+      "name": "Abdullah Gharaibeh",
+      "score": 26.504,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.522,
+      "gap_score": 1.3,
+      "infra_relevance": 3.65,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "disaggregation"
+      ],
+      "url_count": 6,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "id": "company/OpenAI/柳晓萱 Xiaoxuan Liu",
+      "name": "柳晓萱",
+      "score": 26.01,
+      "strategy": "selective-dfs",
+      "bridge_score": 11.3,
+      "gap_score": 1.3,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.7,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 11.3",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/马腾 Teng Ma",
+      "name": "马腾",
+      "score": 25.948,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.522,
+      "gap_score": 1.8,
+      "infra_relevance": 2.7,
+      "evidence_quality": 1.25,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/TensorMesh/Junchen Jiang",
+      "name": "Junchen Jiang",
+      "score": 25.834,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.9,
+      "gap_score": 2.55,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.9",
+        "gap 2.5",
+        "infra: serving/inference, kv-cache"
+      ]
+    },
+    {
+      "id": "company/字节跳动/方佳瑞 Jiarui Fang",
+      "name": "方佳瑞",
+      "score": 25.807,
+      "strategy": "selective-dfs",
+      "bridge_score": 10.185,
+      "gap_score": 1.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.79,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 7,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 10.2",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/Jingfan Sun",
+      "name": "Jingfan Sun",
+      "score": 25.756,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.72,
+      "gap_score": 1.3,
+      "infra_relevance": 3.4,
+      "evidence_quality": 0.9,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.7",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/硅基流动/袁进辉 Jinhui Yuan",
+      "name": "袁进辉",
+      "score": 25.632,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.72,
+      "gap_score": 2.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.7",
+        "gap 2.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "university/浙江大学/Huan Li",
+      "name": "Huan Li",
+      "score": 25.43,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.507,
+      "gap_score": 2.4,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.4",
+        "infra: serving/inference, kv-cache, scheduler",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/潞晨科技/尤洋 Yang You",
+      "name": "尤洋",
+      "score": 25.381,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.07,
+      "gap_score": 2.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.1",
+        "gap 2.3",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/基流科技/胡效赫 Xiaohe Hu",
+      "name": "胡效赫",
+      "score": 25.224,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.872,
+      "gap_score": 2.4,
+      "infra_relevance": 1.6,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.9",
+        "gap 2.4",
+        "infra: scheduler, distributed"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Ryan McCormick",
+      "name": "Ryan McCormick",
+      "score": 25.146,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.522,
+      "gap_score": 3.05,
+      "infra_relevance": 2.6,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.5",
+        "gap 3.0",
+        "infra: serving/inference, distributed, disaggregation",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Adit Ranadive",
+      "name": "Adit Ranadive",
+      "score": 24.917,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.2,
+      "gap_score": 3.05,
+      "infra_relevance": 1.7,
+      "evidence_quality": 0.9,
+      "novelty": 2.43,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 5,
+      "ecosystem_neighbors": 6,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.2",
+        "gap 3.0",
+        "infra: kv-cache, distributed",
+        "multi-project 5"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Junyi Chen",
+      "name": "Junyi Chen",
+      "score": 24.88,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.485,
+      "gap_score": 2.7,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.25,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "gap 2.7",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
+      "name": "赵成钢",
+      "score": 24.816,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.37,
+      "gap_score": 2.2,
+      "infra_relevance": 2.4,
+      "evidence_quality": 0.9,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.4",
+        "gap 2.2",
+        "infra: kernel, distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/清华大学/Yingdi Shan",
+      "name": "闪英迪",
+      "score": 24.749,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.05,
+      "gap_score": 1.8,
+      "infra_relevance": 3.5,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.0",
+        "infra: serving/inference, scheduler, kernel"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Boxin Zhang",
+      "name": "Boxin Zhang",
+      "score": 24.707,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 4.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Peilin Li",
+      "name": "Peilin Li",
+      "score": 24.524,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.872,
+      "gap_score": 3.05,
+      "infra_relevance": 1.95,
+      "evidence_quality": 1.25,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.9",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache"
+      ]
+    },
+    {
+      "id": "company/趋境科技/卢佳豪 Jiahao Lu",
+      "name": "卢佳豪",
+      "score": 24.491,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.707,
+      "gap_score": 1.8,
+      "infra_relevance": 1.95,
+      "evidence_quality": 0.9,
+      "novelty": 3.0,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.7",
+        "infra: serving/inference, kv-cache"
+      ]
+    },
+    {
+      "id": "company/RadixArk/Qiaolin Yu",
+      "name": "Qiaolin Yu",
+      "score": 24.444,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.485,
+      "gap_score": 1.3,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.52,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.5",
+        "infra: serving/inference, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/RadixArk/Baizhou Zhang",
+      "name": "Baizhou Zhang",
+      "score": 24.381,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.522,
+      "gap_score": 1.3,
+      "infra_relevance": 2.65,
+      "evidence_quality": 1.25,
+      "novelty": 2.34,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/趋境科技/Hongbo Kang",
+      "name": "Hongbo Kang",
+      "score": 24.112,
+      "strategy": "best-first",
+      "bridge_score": 8.55,
+      "gap_score": 2.9,
+      "infra_relevance": 0.95,
+      "evidence_quality": 0.9,
+      "novelty": 2.88,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 8.6",
+        "gap 2.9",
+        "infra: kv-cache"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+      "name": "周可行",
+      "score": 24.013,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.157,
+      "gap_score": 2.7,
+      "infra_relevance": 3.4,
+      "evidence_quality": 0.9,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "gap 2.7",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/Matthew Bonanni",
+      "name": "Matthew Bonanni",
+      "score": 24.005,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.007,
+      "gap_score": 2.55,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.0",
+        "gap 2.5",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/深度求索/陈德里 Deli Chen",
+      "name": "陈德里",
+      "score": 23.954,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.37,
+      "gap_score": 2.4,
+      "infra_relevance": 1.65,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "moe"
+      ],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.4",
+        "gap 2.4",
+        "infra: kernel, moe"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Jianwei Dong",
+      "name": "Jianwei Dong",
+      "score": 23.907,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 3.6,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Jingqi Tang",
+      "name": "Jingqi Tang",
+      "score": 23.907,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 3.6,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "name": "赖睿航",
+      "score": 23.823,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.507,
+      "gap_score": 3.95,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 4.0",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Mikhail Brinskiy",
+      "name": "Mikhail Brinskiy",
+      "score": 23.772,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.785,
+      "gap_score": 3.05,
+      "infra_relevance": 1.5,
+      "evidence_quality": 0.9,
+      "novelty": 2.34,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.8",
+        "gap 3.0",
+        "infra: distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/OpenAI/翁家翌 Jiayi Weng",
+      "name": "翁家翌",
+      "score": 23.64,
+      "strategy": "best-first",
+      "bridge_score": 10.057,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 7,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 10.1",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/Yongye Zhu",
+      "name": "Yongye Zhu",
+      "score": 23.545,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.709,
+      "gap_score": 1.3,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.79,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.7",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Nili Guy",
+      "name": "Nili Guy",
+      "score": 23.51,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.157,
+      "gap_score": 1.8,
+      "infra_relevance": 4.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Clayton Coleman",
+      "name": "Clayton Coleman",
+      "score": 23.361,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.37,
+      "gap_score": 1.8,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/潞晨科技/Haichen Huang",
+      "name": "Haichen Huang",
+      "score": 23.361,
+      "strategy": "selective-dfs",
+      "bridge_score": 9.07,
+      "gap_score": 1.3,
+      "infra_relevance": 1.5,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 9.1",
+        "infra: distributed, moe"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Karen Chung",
+      "name": "Karen Chung",
+      "score": 23.326,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.007,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.25,
+      "novelty": 2.25,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 2,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.0",
+        "gap 3.0",
+        "infra: serving/inference",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "company/RadixArk/朱邦华 Banghua Zhu",
+      "name": "朱邦华",
+      "score": 23.274,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.022,
+      "gap_score": 2.4,
+      "infra_relevance": 2.65,
+      "evidence_quality": 1.1,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.0",
+        "gap 2.4",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "university/北京大学/Yining Shi",
+      "name": "Yining Shi",
+      "score": 23.244,
+      "strategy": "best-first",
+      "bridge_score": 8.2,
+      "gap_score": 2.9,
+      "infra_relevance": 0.9,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 8.2",
+        "gap 2.9",
+        "infra: kernel"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Carlos Costa",
+      "name": "Carlos Costa",
+      "score": 23.124,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 1.8,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "infra: serving/inference, scheduler, distributed"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Vita Bortnikov",
+      "name": "Vita Bortnikov",
+      "score": 23.015,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.157,
+      "gap_score": 1.8,
+      "infra_relevance": 3.55,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "id": "company/清程极智/唐适之 Shizhi Tang",
+      "name": "唐适之",
+      "score": 22.442,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 2.4,
+      "infra_relevance": 2.65,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.4",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Jiahao Wang",
+      "name": "Jiahao Wang",
+      "score": 22.44,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 3.6,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/Yang Xu",
+      "name": "Yang Xu",
+      "score": 22.435,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.52,
+      "gap_score": 1.3,
+      "infra_relevance": 3.4,
+      "evidence_quality": 1.25,
+      "novelty": 2.07,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 2,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "infra: serving/inference, kernel, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/Meta/Richard Zou",
+      "name": "Richard Zou",
+      "score": 22.413,
+      "strategy": "selective-dfs",
+      "bridge_score": 8.9,
+      "gap_score": 1.3,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.97,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 6,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 8.9",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Ishan Dhanani",
+      "name": "Ishan Dhanani",
+      "score": 22.386,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Zaijun Wang",
+      "name": "Zaijun Wang",
+      "score": 22.386,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/OpenAI/Luke Metz",
+      "name": "Luke Metz",
+      "score": 22.237,
+      "strategy": "best-first",
+      "bridge_score": 8.522,
+      "gap_score": 3.3,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 8.5",
+        "gap 3.3"
+      ]
+    },
+    {
+      "id": "company/硅基流动/柳俊丞 Juncheng Liu",
+      "name": "柳俊丞",
+      "score": 22.22,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 2.4,
+      "infra_relevance": 2.65,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.4",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Niu Shengxiao",
+      "name": "Niu Shengxiao",
+      "score": 22.143,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.62,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, moe",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Hongtao Chen",
+      "name": "Hongtao Chen",
+      "score": 22.107,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, moe"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Qingliang Ou",
+      "name": "Qingliang Ou",
+      "score": 22.107,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, moe"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Xin He",
+      "name": "Xin He",
+      "score": 21.943,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 2.6,
+      "evidence_quality": 0.9,
+      "novelty": 1.62,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "disaggregation"
+      ],
+      "url_count": 1,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference, distributed, disaggregation",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/RadixArk/Cheng Wan",
+      "name": "Cheng Wan",
+      "score": 21.839,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 1.3,
+      "infra_relevance": 3.4,
+      "evidence_quality": 1.25,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/清程极智/马子轩 Zixuan Ma",
+      "name": "马子轩",
+      "score": 21.833,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.157,
+      "gap_score": 2.4,
+      "infra_relevance": 2.5,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "gap 2.4",
+        "infra: serving/inference, distributed, moe"
+      ]
+    },
+    {
+      "id": "company/字节跳动/何家傲 Jiaao He",
+      "name": "何家傲",
+      "score": 21.699,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.022,
+      "gap_score": 1.3,
+      "infra_relevance": 3.45,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 6,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.0",
+        "infra: serving/inference, kv-cache, distributed"
+      ]
+    },
+    {
+      "id": "university/北京大学/程羽 Yu Cheng",
+      "name": "Yu Cheng",
+      "score": 21.622,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 2.9,
+      "infra_relevance": 1.65,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.9",
+        "infra: kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/字节跳动/郑立言 Liyan Zheng",
+      "name": "郑立言",
+      "score": 21.599,
+      "strategy": "selective-dfs",
+      "bridge_score": 7.522,
+      "gap_score": 1.8,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 7.5",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/趋境科技/艾智远 Zhiyuan Ai",
+      "name": "艾智远",
+      "score": 21.597,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.4,
+      "infra_relevance": 1.95,
+      "evidence_quality": 0.9,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.4",
+        "infra: serving/inference, kv-cache"
+      ]
+    },
+    {
+      "id": "company/清程极智/汤雄超 Xiongchao Tang",
+      "name": "汤雄超",
+      "score": 21.514,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.52,
+      "gap_score": 2.9,
+      "infra_relevance": 1.6,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.9",
+        "infra: scheduler, distributed"
+      ]
+    },
+    {
+      "id": "university/UC Berkeley/Xiangxi Mo",
+      "name": "Xiangxi Mo",
+      "score": 21.454,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.372,
+      "gap_score": 2.7,
+      "infra_relevance": 1.85,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler"
+      ],
+      "url_count": 4,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.4",
+        "gap 2.7",
+        "infra: serving/inference, scheduler",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/北京大学/Lei Wang",
+      "name": "Lei Wang",
+      "score": 21.422,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 2.9,
+      "infra_relevance": 1.55,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "quantization"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.9",
+        "infra: kernel, quantization"
+      ]
+    },
+    {
+      "id": "university/浙江大学/Jue Wang",
+      "name": "Jue Wang",
+      "score": 21.353,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 2.4,
+      "infra_relevance": 2.5,
+      "evidence_quality": 1.45,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.4",
+        "infra: serving/inference, distributed, moe"
+      ]
+    },
+    {
+      "id": "university/浙江大学/Zheng Li",
+      "name": "Zheng Li",
+      "score": 21.353,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 2.4,
+      "infra_relevance": 2.5,
+      "evidence_quality": 1.45,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.4",
+        "infra: serving/inference, distributed, moe"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Fan Wu",
+      "name": "Fan Wu",
+      "score": 21.352,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.022,
+      "gap_score": 3.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.0",
+        "gap 3.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/基流科技/Wenqi Xie",
+      "name": "Wenqi Xie",
+      "score": 21.301,
+      "strategy": "best-first",
+      "bridge_score": 8.72,
+      "gap_score": 1.3,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 8.7",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/Brian K. Ryu",
+      "name": "Brian K. Ryu",
+      "score": 21.238,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 3.45,
+      "infra_relevance": 3.4,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.5",
+        "infra: serving/inference, kernel, distributed"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Yi Zhang",
+      "name": "Yi Zhang",
+      "score": 21.226,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.95,
+      "evidence_quality": 0.9,
+      "novelty": 1.8,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 1,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 3.0",
+        "infra: serving/inference, kv-cache",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "company/清昴智能/关超宇 Chaoyu Guan",
+      "name": "关超宇",
+      "score": 21.178,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 2.9,
+      "infra_relevance": 1.9,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.9",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "company/深度求索/郭达雅 Daya Guo",
+      "name": "郭达雅",
+      "score": 21.146,
+      "strategy": "best-first",
+      "bridge_score": 7.159,
+      "gap_score": 3.3,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.45,
+      "novelty": 2.88,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 7.2",
+        "gap 3.3"
+      ]
+    },
+    {
+      "id": "company/清程极智/师天麾 Tianhui Shi",
+      "name": "师天麾",
+      "score": 20.922,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 2.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "company/基流科技/Mingjun Zhang",
+      "name": "Mingjun Zhang",
+      "score": 20.741,
+      "strategy": "best-first",
+      "bridge_score": 8.37,
+      "gap_score": 1.3,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 8.4",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty",
+      "name": "Sai Kiran Polisetty",
+      "score": 20.74,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 2.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, scheduler, kernel"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Jiaqi Liao",
+      "name": "Jiaqi Liao",
+      "score": 20.64,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 2.7,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kv-cache, moe"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/aleozlx",
+      "name": "aleozlx",
+      "score": 20.538,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 3.45,
+      "infra_relevance": 3.05,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe",
+        "quantization"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.5",
+        "infra: kernel, distributed, moe"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Rong Chen",
+      "name": "Rong Chen",
+      "score": 20.385,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.4,
+      "infra_relevance": 3.45,
+      "evidence_quality": 0.55,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: serving/inference, kv-cache, distributed"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Su Fubao",
+      "name": "Su Fubao",
+      "score": 20.34,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 2.55,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "quantization"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kernel, quantization"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "name": "陈天奇",
+      "score": 20.332,
+      "strategy": "best-first",
+      "bridge_score": 6.7,
+      "gap_score": 3.95,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 6.7",
+        "gap 4.0"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/赵英利 Yingli Zhao",
+      "name": "赵英利",
+      "score": 20.295,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 3.2,
+      "infra_relevance": 2.65,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference, kernel, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/北京大学/杨智 Zhi Yang",
+      "name": "Zhi Yang",
+      "score": 20.217,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 2.4,
+      "infra_relevance": 1.6,
+      "evidence_quality": 1.45,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "scheduler",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.4",
+        "infra: scheduler, distributed"
+      ]
+    },
+    {
+      "id": "community/Ascend/ops-transformer/Konstantin Berestizshevsky",
+      "name": "Konstantin Berestizshevsky",
+      "score": 20.014,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 2.7,
+      "infra_relevance": 3.85,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel",
+        "ascend"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.7",
+        "infra: serving/inference, kv-cache, kernel",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/UC Berkeley/Shu Liu",
+      "name": "Shu Liu",
+      "score": 20.014,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 1.8,
+      "infra_relevance": 2.5,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 6,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "infra: serving/inference, distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/triton-inference-server/Triton-Inference-Server/Yingge He",
+      "name": "Yingge He",
+      "score": 19.866,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.35,
+      "gap_score": 3.05,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 3.0",
+        "infra: serving/inference, kernel",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao",
+      "name": "敖玉龙",
+      "score": 19.857,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.157,
+      "gap_score": 1.8,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.34,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 5,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "infra: serving/inference, distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "university/浙江大学/Lidan Shou",
+      "name": "Lidan Shou",
+      "score": 19.853,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.935,
+      "gap_score": 2.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.4",
+        "infra: serving/inference, moe"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Xiao Wang",
+      "name": "Xiao Wang",
+      "score": 19.766,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.35,
+      "gap_score": 3.05,
+      "infra_relevance": 1.85,
+      "evidence_quality": 0.9,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "disaggregation"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 3.0",
+        "infra: serving/inference, disaggregation",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/深度求索/邵智宏 Zhihong Shao",
+      "name": "邵智宏",
+      "score": 19.754,
+      "strategy": "best-first",
+      "bridge_score": 6.87,
+      "gap_score": 2.4,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "moe"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.9",
+        "gap 2.4",
+        "infra: moe"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/张家驹 Jiaju Zhang",
+      "name": "张家驹",
+      "score": 19.746,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 2.55,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.1,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 2.5",
+        "infra: serving/inference, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/月之暗面/Guanduo Chen",
+      "name": "Guanduo Chen",
+      "score": 19.544,
+      "strategy": "best-first",
+      "bridge_score": 6.35,
+      "gap_score": 2.9,
+      "infra_relevance": 0.75,
+      "evidence_quality": 0.9,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.9",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/Ascend/ops-transformer/wangchao661",
+      "name": "wangchao661",
+      "score": 19.488,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.2,
+      "infra_relevance": 3.55,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "quantization",
+        "ascend"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference, kernel, quantization"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Shengzhong Liu",
+      "name": "Shengzhong Liu",
+      "score": 19.43,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.35,
+      "gap_score": 3.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.55,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 3.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+      "name": "Kuai Yu",
+      "score": 19.364,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 2.4,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Liang Zhao",
+      "name": "Liang Zhao",
+      "score": 19.364,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 2.4,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+      "name": "Zhean Xu",
+      "score": 19.364,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 2.4,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, distributed, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "university/北京大学/马凌霄 Lingxiao Ma",
+      "name": "Lingxiao Ma",
+      "score": 19.222,
+      "strategy": "best-first",
+      "bridge_score": 6.35,
+      "gap_score": 2.4,
+      "infra_relevance": 0.9,
+      "evidence_quality": 1.45,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "kernel"
+      ],
+      "url_count": 5,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "gap 2.4",
+        "infra: kernel"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Xingda Wei",
+      "name": "Xingda Wei",
+      "score": 19.185,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.4,
+      "infra_relevance": 2.85,
+      "evidence_quality": 0.55,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: serving/inference, kv-cache, kernel"
+      ]
+    },
+    {
+      "id": "company/月之暗面/杨植麟 Zhilin Yang",
+      "name": "杨植麟",
+      "score": 19.155,
+      "strategy": "best-first",
+      "bridge_score": 7.507,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 7.5",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/Xingxing Hao",
+      "name": "Xingxing Hao",
+      "score": 19.14,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.95,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kv-cache"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kv-cache"
+      ]
+    },
+    {
+      "id": "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi",
+      "name": "Akhil Saraswathi",
+      "score": 19.04,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat",
+      "name": "Faraz Khoubsirat",
+      "score": 19.04,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Alec Flowers",
+      "name": "Alec Flowers",
+      "score": 18.986,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/Ascend/ops-transformer/tangkaidi",
+      "name": "tangkaidi",
+      "score": 18.852,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.2,
+      "infra_relevance": 2.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel",
+        "ascend"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference, kernel, ascend"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/刘大一恒 Dayiheng Liu",
+      "name": "刘大一恒",
+      "score": 18.829,
+      "strategy": "best-first",
+      "bridge_score": 7.05,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.61,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 7.0",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Matej Kosec",
+      "name": "Matej Kosec",
+      "score": 18.824,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/JJ Asghar",
+      "name": "JJ Asghar",
+      "score": 18.74,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Julien Mancuso",
+      "name": "Julien Mancuso",
+      "score": 18.74,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Stefan Schimanski",
+      "name": "Stefan Schimanski",
+      "score": 18.626,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.7,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen",
+      "name": "陈乐群",
+      "score": 18.607,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Jianliang Qi",
+      "name": "Jianliang Qi",
+      "score": 18.598,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.95,
+      "infra_relevance": 1.8,
+      "evidence_quality": 0.9,
+      "novelty": 1.17,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache",
+        "scheduler"
+      ],
+      "url_count": 1,
+      "project_neighbors": 4,
+      "ecosystem_neighbors": 4,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kv-cache, scheduler",
+        "multi-project 4"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Shihao Bai",
+      "name": "Shihao Bai",
+      "score": 18.541,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.95,
+      "infra_relevance": 1.65,
+      "evidence_quality": 0.9,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, moe",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "university/UC Berkeley/Shiyi Cao",
+      "name": "Shiyi Cao",
+      "score": 18.514,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.672,
+      "gap_score": 1.8,
+      "infra_relevance": 1.75,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "moe"
+      ],
+      "url_count": 6,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "infra: serving/inference, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/RadixArk/Xiaoyu Zhang",
+      "name": "Xiaoyu Zhang",
+      "score": 18.339,
+      "strategy": "selective-dfs",
+      "bridge_score": 6.35,
+      "gap_score": 1.3,
+      "infra_relevance": 1.65,
+      "evidence_quality": 1.25,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "infra: kernel, distributed"
+      ]
+    },
+    {
+      "id": "company/无问芯穹/夏立雪 Lixue Xia",
+      "name": "夏立雪",
+      "score": 18.333,
+      "strategy": "best-first",
+      "bridge_score": 6.157,
+      "gap_score": 2.4,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "gap 2.4",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "company/深度求索/黄可钊 Kezhao Huang",
+      "name": "黄可钊",
+      "score": 18.317,
+      "strategy": "selective-dfs",
+      "bridge_score": 5.35,
+      "gap_score": 2.9,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 5,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth",
+        "hidden person chain"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 2.9",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu",
+      "name": "吕梦思",
+      "score": 18.096,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.2,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 2,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference, kernel",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/智谱/唐杰 Jie Tang",
+      "name": "唐杰",
+      "score": 18.038,
+      "strategy": "best-first",
+      "bridge_score": 6.809,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.8",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/智谱/郑勤锴 Qinkai Zheng",
+      "name": "郑勤锴",
+      "score": 17.974,
+      "strategy": "best-first",
+      "bridge_score": 6.87,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.9",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Ashok Chandrasekar",
+      "name": "Ashok Chandrasekar",
+      "score": 17.952,
+      "strategy": "best-first",
+      "bridge_score": 6.157,
+      "gap_score": 1.8,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 3,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "infra: serving/inference",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Brian Nguyen",
+      "name": "Brian Nguyen",
+      "score": 17.866,
+      "strategy": "best-first",
+      "bridge_score": 5.35,
+      "gap_score": 3.05,
+      "infra_relevance": 0.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.44,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 3.0",
+        "infra: kernel",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao",
+      "name": "LyricZhao",
+      "score": 17.864,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.65,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, moe",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/杨宝松 Baosong Yang",
+      "name": "杨宝松",
+      "score": 17.819,
+      "strategy": "best-first",
+      "bridge_score": 6.52,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.43,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/无问芯穹/李伯勋 Boxun Li",
+      "name": "李伯勋",
+      "score": 17.733,
+      "strategy": "best-first",
+      "bridge_score": 6.157,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "company/无问芯穹/戴国浩 Guohao Dai",
+      "name": "戴国浩",
+      "score": 17.702,
+      "strategy": "best-first",
+      "bridge_score": 6.7,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.7",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/基流科技/He Liu",
+      "name": "He Liu",
+      "score": 17.695,
+      "strategy": "best-first",
+      "bridge_score": 6.157,
+      "gap_score": 1.8,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/万宇 Yu Wan",
+      "name": "万宇",
+      "score": 17.659,
+      "strategy": "best-first",
+      "bridge_score": 6.52,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 2.43,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/LMCache/LMCache/Baolong Ma",
+      "name": "Baolong Ma",
+      "score": 17.627,
+      "strategy": "best-first",
+      "bridge_score": 6.022,
+      "gap_score": 2.2,
+      "infra_relevance": 0.95,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations"
+      ],
+      "relevance_hits": [
+        "kv-cache"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.0",
+        "gap 2.2",
+        "infra: kv-cache"
+      ]
+    },
+    {
+      "id": "community/LMCache/LMCache/Samm Shen",
+      "name": "Samm Shen",
+      "score": 17.627,
+      "strategy": "best-first",
+      "bridge_score": 6.022,
+      "gap_score": 2.2,
+      "infra_relevance": 0.95,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations"
+      ],
+      "relevance_hits": [
+        "kv-cache"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.0",
+        "gap 2.2",
+        "infra: kv-cache"
+      ]
+    },
+    {
+      "id": "company/月之暗面/吴育昕 Yuxin Wu",
+      "name": "吴育昕",
+      "score": 17.542,
+      "strategy": "best-first",
+      "bridge_score": 6.7,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.7",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/硅基流动/赵震 Zhao Zhen",
+      "name": "赵震",
+      "score": 17.54,
+      "strategy": "best-first",
+      "bridge_score": 5.935,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/林俊旸 Junyang Lin",
+      "name": "林俊旸",
+      "score": 17.47,
+      "strategy": "best-first",
+      "bridge_score": 4.822,
+      "gap_score": 4.5,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.55,
+      "novelty": 1.35,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.5"
+      ]
+    },
+    {
+      "id": "company/智谱/曾奥涵 Aohan Zeng",
+      "name": "曾奥涵",
+      "score": 17.414,
+      "strategy": "best-first",
+      "bridge_score": 6.52,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/智谱/杜政晓 Zhengxiao Du",
+      "name": "杜政晓",
+      "score": 17.414,
+      "strategy": "best-first",
+      "bridge_score": 6.52,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.5",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "company/清昴智能/朱文武 Wenwu Zhu",
+      "name": "朱文武",
+      "score": 17.378,
+      "strategy": "best-first",
+      "bridge_score": 5.935,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.9",
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "company/派欧云/王闻宇 Wayne Wang",
+      "name": "王闻宇",
+      "score": 17.317,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/CYJiang",
+      "name": "CYJiang",
+      "score": 17.281,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 3.95,
+      "infra_relevance": 0.85,
+      "evidence_quality": 0.9,
+      "novelty": 1.35,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "disaggregation"
+      ],
+      "url_count": 1,
+      "project_neighbors": 5,
+      "ecosystem_neighbors": 5,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: disaggregation",
+        "multi-project 5"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Chang Liu",
+      "name": "Chang Liu",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Matvei Pashkovskii",
+      "name": "Matvei Pashkovskii",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Sang Chengmeng",
+      "name": "Sang Chengmeng",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Xin Li",
+      "name": "Xin Li",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Yibin Li",
+      "name": "Yibin Li",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang",
+      "name": "Zhaoyang Wang",
+      "score": 17.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/vllm-project/vLLM/Patrick von Platen",
+      "name": "Patrick von Platen",
+      "score": 17.239,
+      "strategy": "best-first",
+      "bridge_score": 5.35,
+      "gap_score": 2.3,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.25,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 2,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "gap 2.3",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "university/清华大学/龙明盛 Mingsheng Long",
+      "name": "龙明盛",
+      "score": 17.234,
+      "strategy": "best-first",
+      "bridge_score": 6.372,
+      "gap_score": 1.3,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 5,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.4",
+        "infra: serving/inference",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Marcio A L Silva",
+      "name": "Marcio A L Silva",
+      "score": 17.192,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.2,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.55,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Yao Yao",
+      "name": "Yao Yao",
+      "score": 17.14,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.95,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kv-cache"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: kv-cache"
+      ]
+    },
+    {
+      "id": "company/基流科技/Yanmin Jia",
+      "name": "Yanmin Jia",
+      "score": 17.104,
+      "strategy": "best-first",
+      "bridge_score": 6.35,
+      "gap_score": 1.3,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 2.16,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.3",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "name": "Chenhao Xu",
+      "score": 17.038,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 1.65,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel, moe"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Haibo Chen",
+      "name": "Haibo Chen",
+      "score": 16.985,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.4,
+      "infra_relevance": 1.75,
+      "evidence_quality": 0.55,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: serving/inference, distributed"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Chenyu Jiang",
+      "name": "Chenyu Jiang",
+      "score": 16.94,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.85,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "scheduler"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: scheduler"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/白童心",
+      "name": "白童心",
+      "score": 16.919,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.2,
+      "infra_relevance": 1.65,
+      "evidence_quality": 0.9,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel",
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: kernel, distributed",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/无问芯穹/汪玉 Yu Wang",
+      "name": "汪玉",
+      "score": 16.833,
+      "strategy": "best-first",
+      "bridge_score": 6.157,
+      "gap_score": 2.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.98,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations"
+      ],
+      "relevance_hits": [],
+      "url_count": 4,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 6.2",
+        "gap 2.4"
+      ]
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/Wuwei Lin",
+      "name": "Wuwei Lin",
+      "score": 16.807,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Rongbing Zhou",
+      "name": "Rongbing Zhou",
+      "score": 16.74,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Tomer Davidor",
+      "name": "Tomer Davidor",
+      "score": 16.74,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng",
+      "name": "Chengqi Deng",
+      "score": 16.738,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 1.5,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: distributed, moe"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang",
+      "name": "Liyue Zhang",
+      "score": 16.738,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 1.5,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: distributed, moe"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+      "name": "Shangyan Zhou",
+      "score": 16.738,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 1.5,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: distributed, moe"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
+      "name": "Yuxuan Liu",
+      "score": 16.738,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 1.5,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed",
+        "moe"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: distributed, moe"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/曹州",
+      "name": "曹州",
+      "score": 16.657,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 3.2,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.45,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: distributed",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang",
+      "name": "Faradawn Yang",
+      "score": 16.197,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.9,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference, kernel"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Hailong Yang",
+      "name": "Hailong Yang",
+      "score": 16.097,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.85,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference, scheduler"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Ruihao Gong",
+      "name": "Ruihao Gong",
+      "score": 16.097,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.85,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference, scheduler"
+      ]
+    },
+    {
+      "id": "community/ModelTC/LightLLM/Siyu Wu",
+      "name": "Siyu Wu",
+      "score": 16.097,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 1.85,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference",
+        "scheduler"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: serving/inference, scheduler"
+      ]
+    },
+    {
+      "id": "community/flagos-ai/FlagOS/陈飞宇",
+      "name": "陈飞宇",
+      "score": 16.096,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.2,
+      "infra_relevance": 0.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.89,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel"
+      ],
+      "url_count": 2,
+      "project_neighbors": 3,
+      "ecosystem_neighbors": 3,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: kernel",
+        "multi-project 3"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/惠彬原 Binyuan Hui",
+      "name": "惠彬原",
+      "score": 15.967,
+      "strategy": "best-first",
+      "bridge_score": 4.67,
+      "gap_score": 3.8,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.55,
+      "novelty": 1.35,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.8"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/郁博文 Bowen Yu",
+      "name": "郁博文",
+      "score": 15.967,
+      "strategy": "best-first",
+      "bridge_score": 4.67,
+      "gap_score": 3.8,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.55,
+      "novelty": 1.35,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "current affiliation",
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.8"
+      ]
+    },
+    {
+      "id": "company/清昴智能/姚航 Hang Yao",
+      "name": "姚航",
+      "score": 15.592,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 2.9,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu",
+      "name": "Anyi Xu",
+      "score": 15.538,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 0.9,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "kernel"
+      ],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "infra: kernel"
+      ]
+    },
+    {
+      "id": "university/上海交通大学/Rongxin Cheng",
+      "name": "Rongxin Cheng",
+      "score": 15.485,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 3.4,
+      "infra_relevance": 1.0,
+      "evidence_quality": 0.55,
+      "novelty": 0.9,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 1,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: serving/inference"
+      ]
+    },
+    {
+      "id": "company/派欧云/姚欣 Bill Yao",
+      "name": "姚欣",
+      "score": 15.317,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.4,
+      "infra_relevance": 0.75,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
+      "name": "Anurag Mukkara",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/David Simmons",
+      "name": "David Simmons",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Efraim Eygin",
+      "name": "Efraim Eygin",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Ilia Yastrebov",
+      "name": "Ilia Yastrebov",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/James Thomas",
+      "name": "James Thomas",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Jingyuan Zhang",
+      "name": "Jingyuan Zhang",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/llm-d/llm-d/Pete Cheslock",
+      "name": "Pete Cheslock",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/Ryan Hankins",
+      "name": "Ryan Hankins",
+      "score": 15.24,
+      "strategy": "best-first",
+      "bridge_score": 4.935,
+      "gap_score": 3.05,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.0"
+      ]
+    },
+    {
+      "id": "company/清程极智/靳江明 Jiangming Jin",
+      "name": "靳江明",
+      "score": 15.092,
+      "strategy": "best-first",
+      "bridge_score": 3.822,
+      "gap_score": 2.9,
+      "infra_relevance": 0.75,
+      "evidence_quality": 1.1,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "distributed"
+      ],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9",
+        "infra: distributed"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/guyan364",
+      "name": "guyan364",
+      "score": 14.564,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.95,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.26,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "company/阿里巴巴/唐天一 Tianyi Tang",
+      "name": "唐天一",
+      "score": 14.326,
+      "strategy": "best-first",
+      "bridge_score": 4.307,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.25,
+      "novelty": 1.35,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 0,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "company/智谱/张鹏 Zhang Peng",
+      "name": "张鹏",
+      "score": 14.098,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 4.15,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.2"
+      ]
+    },
+    {
+      "id": "company/硅基流动/曾华",
+      "name": "曾华",
+      "score": 13.977,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 3.4,
+      "infra_relevance": 0.0,
+      "evidence_quality": 1.1,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 3,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.4"
+      ]
+    },
+    {
+      "id": "company/OpenAI/Randall Lin",
+      "name": "Randall Lin",
+      "score": 13.853,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "company/OpenAI/Youlong Cheng",
+      "name": "Youlong Cheng",
+      "score": 13.853,
+      "strategy": "best-first",
+      "bridge_score": 4.085,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.53,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/kurisu6912",
+      "name": "kurisu6912",
+      "score": 13.738,
+      "strategy": "best-first",
+      "bridge_score": 3.085,
+      "gap_score": 3.95,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0"
+      ]
+    },
+    {
+      "id": "company/月之暗面/周昕宇 Xinyu Zhou",
+      "name": "周昕宇",
+      "score": 12.512,
+      "strategy": "best-first",
+      "bridge_score": 3.5,
+      "gap_score": 2.9,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "projects/communities",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 2,
+      "project_neighbors": 0,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "project/community links",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.9"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Guangjian",
+      "name": "Guangjian",
+      "score": 12.397,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0"
+      ]
+    },
+    {
+      "id": "community/vllm-project/AIBrix/Jiang Xiaobin",
+      "name": "Jiang Xiaobin",
+      "score": 12.397,
+      "strategy": "best-first",
+      "bridge_score": 2.5,
+      "gap_score": 3.95,
+      "infra_relevance": 0.0,
+      "evidence_quality": 0.9,
+      "novelty": 0.63,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "areas",
+        "thin-page"
+      ],
+      "relevance_hits": [],
+      "url_count": 1,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "technical areas",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 4.0"
+      ]
+    }
+  ]
+}
