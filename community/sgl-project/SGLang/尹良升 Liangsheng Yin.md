@@ -9,6 +9,9 @@ schools:
   - "上海交通大学"
 roles: [maintainer, scheduler merge-oncall, speculative-decoding merge-oncall]
 areas: [llm-serving, scheduling, speculative-decoding]
+last_verified: "2026-09"
+relations:
+  - '{"target":"community/sgl-project/SGLang/郑连民 Lianmin Zheng","type":["open-source-collaboration","technical-collaboration","paper-coauthor"],"project":"SGLang","start":"2023","confidence":"high","evidence":["https://arxiv.org/abs/2312.07104","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
 ---
 # 尹良升（Liangsheng Yin）
 
