@@ -1,0 +1,263 @@
+#!/usr/bin/env python3
+"""Audit derived company/project/community -> person reverse links."""
+from __future__ import annotations
+
+import argparse
+import json
+import pathlib
+import re
+from collections import defaultdict
+
+NODE_ROOTS = ("company", "community", "university")
+PROJECT_TYPES = {"project", "community", "infra-project", "project-collection"}
+COMPANY_START = "<!-- BEGIN AUTO COMPANY PEOPLE -->"
+COMPANY_END = "<!-- END AUTO COMPANY PEOPLE -->"
+PROJECT_START = "<!-- BEGIN AUTO PROJECT PEOPLE -->"
+PROJECT_END = "<!-- END AUTO PROJECT PEOPLE -->"
+
+
+def norm(value: str) -> str:
+    return value.replace("\\", "/").strip().strip("/").removesuffix(".md")
+
+
+def fold(value: str) -> str:
+    return re.sub(r"\s+", " ", norm(value)).casefold()
+
+
+def split_frontmatter(text: str):
+    if not text.startswith("---\n"):
+        return [], text
+    lines = text.splitlines()
+    try:
+        end = lines.index("---", 1)
+    except ValueError:
+        return [], text
+    return lines[1:end], "\n".join(lines[end + 1 :])
+
+
+def key_of(line: str):
+    if line.startswith((" ", "\t", "-")) or ":" not in line:
+        return None
+    return line.split(":", 1)[0].strip() or None
+
+
+def blocks(lines: list[str]):
+    result, i = [], 0
+    while i < len(lines):
+        key = key_of(lines[i])
+        if not key:
+            result.append((None, [lines[i]]))
+            i += 1
+            continue
+        j = i + 1
+        while j < len(lines) and key_of(lines[j]) is None:
+            j += 1
+        result.append((key, lines[i:j]))
+        i = j
+    return result
+
+
+def parse_inline_list(body: str) -> list[str]:
+    if not body.strip():
+        return []
+    parts, buf, quote = [], [], None
+    for ch in body:
+        if ch in "\"'":
+            if quote == ch:
+                quote = None
+            elif quote is None:
+                quote = ch
+            buf.append(ch)
+        elif ch == "," and quote is None:
+            parts.append("".join(buf).strip())
+            buf = []
+        else:
+            buf.append(ch)
+    parts.append("".join(buf).strip())
+    return [part.strip().strip("\"'") for part in parts if part.strip()]
+
+
+def get_block(lines: list[str], wanted: str):
+    return next((block for key, block in blocks(lines) if key == wanted), None)
+
+
+def get_values(lines: list[str], wanted: str) -> list[str]:
+    block = get_block(lines, wanted)
+    if not block:
+        return []
+    value = block[0].split(":", 1)[1].strip()
+    if not value:
+        return [line[4:].strip().strip("\"'") for line in block[1:] if line.startswith("  - ") and line[4:].strip()]
+    if value.startswith("[") and value.endswith("]"):
+        return parse_inline_list(value[1:-1])
+    return [value.strip("\"'")]
+
+
+def get_scalar(lines: list[str], wanted: str):
+    block = get_block(lines, wanted)
+    if not block:
+        return None
+    value = block[0].split(":", 1)[1].strip()
+    return value.strip("\"'") if value else None
+
+
+def load_records(root: pathlib.Path):
+    rows = []
+    for dirname in NODE_ROOTS:
+        base = root / dirname
+        if not base.exists():
+            continue
+        for path in sorted(base.rglob("*.md")):
+            text = path.read_text(encoding="utf-8")
+            fm, body = split_frontmatter(text)
+            if not fm:
+                continue
+            rel = path.relative_to(root).as_posix()
+            rows.append({"rel": rel, "id": rel[:-3], "fm": fm, "body": body, "type": get_scalar(fm, "type") or "", "name": get_scalar(fm, "name") or path.stem})
+    return rows
+
+
+def aliases_for(record: dict) -> list[str]:
+    return list(dict.fromkeys(v for v in [record["name"], pathlib.PurePosixPath(record["id"]).name, *get_values(record["fm"], "aliases")] if v))
+
+
+def build_index(records: list[dict], allowed_types: set[str]):
+    selected = [r for r in records if r["type"] in allowed_types]
+    aliases: dict[str, list[dict]] = defaultdict(list)
+    ids = {}
+    for record in selected:
+        ids[fold(record["id"])] = record
+        seen = set()
+        for value in aliases_for(record):
+            token = fold(value)
+            if token and token not in seen:
+                seen.add(token)
+                aliases[token].append(record)
+    return selected, aliases, ids
+
+
+def resolve(value: str, aliases, ids):
+    value = norm(value)
+    direct = ids.get(fold(value))
+    if direct:
+        return direct
+    for candidate in (value, pathlib.PurePosixPath(value).name):
+        unique = {r["id"]: r for r in aliases.get(fold(candidate), [])}
+        if len(unique) == 1:
+            return next(iter(unique.values()))
+    return None
+
+
+def generated_block(body: str, start: str, end: str) -> str | None:
+    match = re.search(re.escape(start) + r"(.*?)" + re.escape(end), body, flags=re.DOTALL)
+    return match.group(1) if match else None
+
+
+def audit_group(targets, expected, start, end, errors, kind):
+    rows = []
+    for target in targets:
+        want = sorted(expected.get(target["id"], set()), key=str.casefold)
+        have = sorted(get_values(target["fm"], "linked_people"), key=str.casefold)
+        if want != have:
+            errors.append({"kind": f"{kind}-linked-people-mismatch", "target": target["rel"], "expected": want, "actual": have})
+        block = generated_block(target["body"], start, end)
+        if want and block is None:
+            errors.append({"kind": f"{kind}-auto-section-missing", "target": target["rel"]})
+            block = ""
+        if not want and block is not None:
+            errors.append({"kind": f"{kind}-stale-auto-section", "target": target["rel"]})
+        missing_body = [person_id for person_id in want if f"[[{person_id}|" not in (block or "") and f"[[{person_id}]]" not in (block or "")]
+        if missing_body:
+            errors.append({"kind": f"{kind}-auto-body-missing", "target": target["rel"], "people": missing_body})
+        rows.append({"id": target["id"], "name": target["name"], "linked_people": len(want)})
+    return rows
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", default=".")
+    parser.add_argument("--generated", default="generated")
+    args = parser.parse_args()
+    root = pathlib.Path(args.root).resolve()
+    generated = root / args.generated
+    generated.mkdir(parents=True, exist_ok=True)
+
+    records = load_records(root)
+    companies, company_aliases, company_ids = build_index(records, {"company"})
+    projects, project_aliases, project_ids = build_index(records, PROJECT_TYPES)
+    people = [r for r in records if r["type"] == "person"]
+
+    company_expected: dict[str, set[str]] = defaultdict(set)
+    project_expected: dict[str, set[str]] = defaultdict(set)
+    unresolved = []
+    for person in people:
+        for value in get_values(person["fm"], "current_affiliations"):
+            target = resolve(value, company_aliases, company_ids)
+            if target:
+                company_expected[target["id"]].add(person["id"])
+            else:
+                unresolved.append({"kind": "affiliation", "person": person["rel"], "value": value})
+        for field in ("projects", "project", "communities", "community"):
+            for value in get_values(person["fm"], field):
+                target = resolve(value, project_aliases, project_ids)
+                if target:
+                    project_expected[target["id"]].add(person["id"])
+                else:
+                    unresolved.append({"kind": field, "person": person["rel"], "value": value})
+
+    errors = []
+    company_rows = audit_group(companies, company_expected, COMPANY_START, COMPANY_END, errors, "company")
+    project_rows = audit_group(projects, project_expected, PROJECT_START, PROJECT_END, errors, "project-community")
+    company_links = sum(r["linked_people"] for r in company_rows)
+    project_links = sum(r["linked_people"] for r in project_rows)
+
+    payload = {
+        "company_nodes": len(companies),
+        "companies_with_linked_people": sum(1 for r in company_rows if r["linked_people"]),
+        "company_person_associations": company_links,
+        "project_community_nodes": len(projects),
+        "project_community_nodes_with_linked_people": sum(1 for r in project_rows if r["linked_people"]),
+        "project_community_person_associations": project_links,
+        "unresolved_source_values": unresolved,
+        "errors": errors,
+        "companies": sorted(company_rows, key=lambda r: (-r["linked_people"], str(r["name"]))),
+        "projects_communities": sorted(project_rows, key=lambda r: (-r["linked_people"], str(r["name"]))),
+    }
+    (generated / "entity-reverse-coverage.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    lines = [
+        "# Company / Project → Person Reverse Coverage", "",
+        "由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。", "",
+        f"- Company nodes: {len(companies)}",
+        f"- Companies with ≥1 linked person: {payload['companies_with_linked_people']}",
+        f"- Company-person associations: {company_links}",
+        f"- Project/community nodes: {len(projects)}",
+        f"- Project/community nodes with ≥1 linked person: {payload['project_community_nodes_with_linked_people']}",
+        f"- Project/community-person associations: {project_links}",
+        f"- Unresolved source values (backlog, non-fatal): {len(unresolved)}",
+        f"- Audit errors: {len(errors)}", "",
+        "## Companies", "", "| Company | Linked people |", "| --- | ---: |",
+    ]
+    for row in payload["companies"]:
+        if row["linked_people"]:
+            lines.append(f"| [[{row['id']}|{row['name']}]] | {row['linked_people']} |")
+    lines.extend(["", "## Projects / communities", "", "| Entity | Linked people |", "| --- | ---: |"])
+    for row in payload["projects_communities"]:
+        if row["linked_people"]:
+            lines.append(f"| [[{row['id']}|{row['name']}]] | {row['linked_people']} |")
+    if unresolved:
+        lines.extend(["", "## Unresolved source values", "", "这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。", ""])
+        for item in unresolved[:80]:
+            lines.append(f"- `{item['person']}` · `{item['kind']}` → `{item['value']}`")
+        if len(unresolved) > 80:
+            lines.append(f"- …另有 {len(unresolved) - 80} 条，详见 JSON 报告。")
+    (generated / "entity-reverse-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    print(f"Entity reverse audit: {company_links} company-person links, {project_links} project/community-person links, {len(unresolved)} unresolved backlog values, {len(errors)} errors.")
+    for error in errors[:80]:
+        print("ERROR:", error)
+    return 1 if errors else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
