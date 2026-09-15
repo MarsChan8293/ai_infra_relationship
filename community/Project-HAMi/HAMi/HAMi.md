@@ -1,7 +1,11 @@
 ---
 type: project
 name: HAMi
-linked_people: []
+linked_people:
+  - "community/Project-HAMi/HAMi/archlitchi"
+  - "community/Project-HAMi/HAMi/chaunceyjiang"
+  - "community/Project-HAMi/HAMi/DSFans2014"
+  - "community/Project-HAMi/HAMi/wawa0210"
 companies: ["第四范式","密瓜智能","道客","NVIDIA","华为"]
 company_relation: cross-company-maintainer-network
 layer: kubernetes-heterogeneous-device-virtualization
@@ -48,3 +52,15 @@ Kubernetes · CNCF ecosystem · [[AIBrix]] · [[llm-d]]。HAMi 解决的是设�
 - [[company/道客/道客|道客]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]]：HAMi 官方 Maintainer。
+- [[community/Project-HAMi/HAMi/chaunceyjiang|chaunceyjiang]]：[[HAMi]]：官方 AUTHORS 收录的贡献者；HAMi 仓库历史中可见持续贡献。AUTHORS 身份本身不自动等同于 maintainer 职级。
+- [[community/Project-HAMi/HAMi/DSFans2014|DSFans2014]]：当前公开资料足以确认 GitHub handle 与 HAMi / Ascend 贡献关系，但未可靠确认实名和当前雇主，因此保留 handle 作为 canonical name。
+- [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]]：HAMi 官方 Maintainer。
+
+<!-- END AUTO PROJECT PEOPLE -->

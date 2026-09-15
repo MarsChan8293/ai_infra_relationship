@@ -3,13 +3,13 @@
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。
 
 - Company nodes: 40
-- Companies with ≥1 linked person: 30
-- Company-person associations: 140
+- Companies with ≥1 linked person: 31
+- Company-person associations: 142
 - Project/community nodes: 57
-- Project/community nodes with ≥1 linked person: 39
-- Project/community-person associations: 224
+- Project/community nodes with ≥1 linked person: 40
+- Project/community-person associations: 229
 - Non-company affiliations recognized and routed elsewhere: 44
-- Unresolved source values (backlog, non-fatal): 2
+- Unresolved source values (backlog, non-fatal): 4
 - Audit errors: 0
 
 ## Companies
@@ -38,6 +38,7 @@
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
+| [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
 | [[company/AMD/AMD|AMD]] | 1 |
@@ -51,8 +52,8 @@
 
 | Entity | Linked people |
 | --- | ---: |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 16 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 13 |
@@ -70,6 +71,7 @@
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
+| [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
@@ -97,3 +99,5 @@
 
 - `company/字节跳动/何家傲 Jiaao He.md` · `affiliation` → `ByteDance`
 - `company/字节跳动/郑立言 Liyan Zheng.md` · `affiliation` → `ByteDance Seed`
+- `community/Project-HAMi/HAMi/DSFans2014.md` · `projects` → `HAMi Ascend Device Plugin`
+- `community/Project-HAMi/HAMi/archlitchi.md` · `projects` → `HAMi Ascend Device Plugin`

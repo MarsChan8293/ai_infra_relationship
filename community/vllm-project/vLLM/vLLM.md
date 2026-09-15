@@ -3,6 +3,7 @@ type: project
 name: vLLM
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
+  - "community/Project-HAMi/HAMi/chaunceyjiang"
   - "community/vllm-project/vLLM/Chen Zhang"
   - "community/vllm-project/vLLM/Matthew Bonanni"
   - "community/vllm-project/vLLM/Patrick von Platen"
@@ -72,6 +73,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[vLLM]]：社区 contributor / ambassador，并通过 meetup、workshop 等活动连接开发者、模型团队、硬件厂商与云原生生态。
+- [[community/Project-HAMi/HAMi/chaunceyjiang|chaunceyjiang]]：[[vLLM]]：截至 2026-09，官方 Committers 页面列为 committer，主要负责 **Tool use and reasoning parser**；area owners 也将其列入 reasoning / tool calling parsers。
 - [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[vLLM]]：参与 V1 KV cache manager 重构、模型支持与 LLM serving 系统研究
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：[[vLLM]]：Maintainer，主要连接高性能计算、GPU inference 与 serving engine 优化。
 - [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：[[community/vllm-project/vLLM/Harry Mellor|Harry Mellor]]：**Hugging Face 同事 + 模型实现/serving integration 协作者**。截至 2026-09 两人均公开关联 Hugging Face；Patrick 长期参与 Transformers / Diffusers 与模型实现生态，Harry 负责 vLLM 的 Hugging Face integration、config 与...

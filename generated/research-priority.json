@@ -5,7 +5,7 @@
   "max_bfs_depth": 2,
   "dfs_budget": 12,
   "dfs_selected": 12,
-  "candidate_count": 219,
+  "candidate_count": 223,
   "candidates": [
     {
       "id": "community/vllm-project/vLLM/游凯超 Kaichao You",
@@ -5292,6 +5292,37 @@
       ]
     },
     {
+      "id": "community/Project-HAMi/HAMi/archlitchi",
+      "name": "Mengxuan Li",
+      "score": 17.814,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.672,
+      "gap_score": 1.3,
+      "infra_relevance": 1.85,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations"
+      ],
+      "relevance_hits": [
+        "scheduler",
+        "ascend"
+      ],
+      "url_count": 6,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations"
+      ],
+      "reasons": [
+        "bridge 5.7",
+        "infra: scheduler, ascend"
+      ]
+    },
+    {
       "id": "company/无问芯穹/李伯勋 Boxun Li",
       "name": "李伯勋",
       "score": 17.733,
@@ -6569,6 +6600,38 @@
       ]
     },
     {
+      "id": "community/Project-HAMi/HAMi/wawa0210",
+      "name": "Xiao Zhang",
+      "score": 16.199,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 5.35,
+      "gap_score": 1.8,
+      "infra_relevance": 0.85,
+      "evidence_quality": 1.45,
+      "novelty": 1.71,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "scheduler"
+      ],
+      "url_count": 3,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "bridge 5.3",
+        "infra: scheduler"
+      ]
+    },
+    {
       "id": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang",
       "name": "Faradawn Yang",
       "score": 16.197,
@@ -6815,6 +6878,41 @@
       ],
       "reasons": [
         "gap 3.8"
+      ]
+    },
+    {
+      "id": "community/Project-HAMi/HAMi/DSFans2014",
+      "name": "DSFans2014",
+      "score": 15.628,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 3.085,
+      "gap_score": 2.7,
+      "infra_relevance": 1.85,
+      "evidence_quality": 1.45,
+      "novelty": 1.08,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "scheduler",
+        "ascend"
+      ],
+      "url_count": 4,
+      "project_neighbors": 1,
+      "ecosystem_neighbors": 1,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 2.7",
+        "infra: scheduler, ascend"
       ]
     },
     {
@@ -7268,6 +7366,41 @@
       ],
       "reasons": [
         "gap 4.0",
+        "multi-project 2"
+      ]
+    },
+    {
+      "id": "community/Project-HAMi/HAMi/chaunceyjiang",
+      "name": "chaunceyjiang",
+      "score": 14.425,
+      "strategy": "best-first",
+      "dfs_eligible": false,
+      "bridge_score": 3.085,
+      "gap_score": 3.2,
+      "infra_relevance": 1.0,
+      "evidence_quality": 1.25,
+      "novelty": 0.81,
+      "distance": null,
+      "distance_penalty": 0.0,
+      "gaps": [
+        "affiliation",
+        "relations",
+        "thin-page"
+      ],
+      "relevance_hits": [
+        "serving/inference"
+      ],
+      "url_count": 2,
+      "project_neighbors": 2,
+      "ecosystem_neighbors": 2,
+      "expansion_targets": [
+        "current affiliation",
+        "typed person relations",
+        "biographical/context depth"
+      ],
+      "reasons": [
+        "gap 3.2",
+        "infra: serving/inference",
         "multi-project 2"
       ]
     },

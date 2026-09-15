@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 219
+- Person nodes: 223
 - People with ≥1 school: 113
-- People without known school: 106
-- Coverage: 51.6%
+- People without known school: 110
+- Coverage: 50.7%
 - Person-school associations: 150
 - School nodes: 46
 - Audit errors: 0
@@ -72,30 +72,30 @@
 | 21 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
 | 22 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
 | 23 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 24 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
-| 25 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
-| 26 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
-| 27 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
-| 28 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
-| 29 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
-| 30 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
-| 31 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
-| 32 | [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]] | 5.35 | 3 |
-| 33 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
-| 34 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
-| 35 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
-| 36 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |
-| 37 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |
-| 38 | [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]] | 4.935 | 2 |
-| 39 | [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]] | 4.935 | 2 |
-| 40 | [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]] | 4.935 | 2 |
-| 41 | [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]] | 4.935 | 2 |
-| 42 | [[community/ai-dynamo/NIXL/James Thomas|James Thomas]] | 4.935 | 2 |
-| 43 | [[community/kvcache-ai/KTransformers/Jiahao Wang|Jiahao Wang]] | 4.935 | 2 |
-| 44 | [[community/kvcache-ai/KTransformers/Jiaqi Liao|Jiaqi Liao]] | 4.935 | 2 |
-| 45 | [[community/vllm-project/AIBrix/Jingyuan Zhang|Jingyuan Zhang]] | 4.935 | 2 |
-| 46 | [[community/ai-dynamo/Dynamo/Julien Mancuso|Julien Mancuso]] | 4.935 | 2 |
-| 47 | [[community/ai-dynamo/NIXL/Matvei Pashkovskii|Matvei Pashkovskii]] | 4.935 | 2 |
-| 48 | [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]] | 4.935 | 2 |
-| 49 | [[community/ai-dynamo/NIXL/Rongbing Zhou|Rongbing Zhou]] | 4.935 | 2 |
-| 50 | [[community/ai-dynamo/NIXL/Ryan Hankins|Ryan Hankins]] | 4.935 | 2 |
+| 24 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.672 | 4 |
+| 25 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
+| 26 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
+| 27 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
+| 28 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
+| 29 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
+| 30 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
+| 31 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
+| 32 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
+| 33 | [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]] | 5.35 | 3 |
+| 34 | [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]] | 5.35 | 3 |
+| 35 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
+| 36 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
+| 37 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
+| 38 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |
+| 39 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |
+| 40 | [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]] | 4.935 | 2 |
+| 41 | [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]] | 4.935 | 2 |
+| 42 | [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]] | 4.935 | 2 |
+| 43 | [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]] | 4.935 | 2 |
+| 44 | [[community/ai-dynamo/NIXL/James Thomas|James Thomas]] | 4.935 | 2 |
+| 45 | [[community/kvcache-ai/KTransformers/Jiahao Wang|Jiahao Wang]] | 4.935 | 2 |
+| 46 | [[community/kvcache-ai/KTransformers/Jiaqi Liao|Jiaqi Liao]] | 4.935 | 2 |
+| 47 | [[community/vllm-project/AIBrix/Jingyuan Zhang|Jingyuan Zhang]] | 4.935 | 2 |
+| 48 | [[community/ai-dynamo/Dynamo/Julien Mancuso|Julien Mancuso]] | 4.935 | 2 |
+| 49 | [[community/ai-dynamo/NIXL/Matvei Pashkovskii|Matvei Pashkovskii]] | 4.935 | 2 |
+| 50 | [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]] | 4.935 | 2 |
