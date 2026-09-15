@@ -10,10 +10,19 @@ from collections import defaultdict
 
 NODE_ROOTS = ("company", "community", "university")
 PROJECT_TYPES = {"project", "community", "infra-project", "project-collection"}
+NON_COMPANY_AFFILIATION_TYPES = {"school", "research-institution", "model-team"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY PEOPLE -->"
 COMPANY_END = "<!-- END AUTO COMPANY PEOPLE -->"
 PROJECT_START = "<!-- BEGIN AUTO PROJECT PEOPLE -->"
 PROJECT_END = "<!-- END AUTO PROJECT PEOPLE -->"
+COMMON_ALIASES = {
+    "清华大学": ["Tsinghua University"],
+    "北京大学": ["Peking University", "PKU"],
+    "上海交通大学": ["Shanghai Jiao Tong University", "SJTU"],
+    "浙江大学": ["Zhejiang University", "ZJU"],
+    "UC Berkeley": ["University of California, Berkeley", "Berkeley"],
+    "北京智源人工智能研究院": ["BAAI", "Beijing Academy of Artificial Intelligence"],
+}
 
 
 def norm(value: str) -> str:
@@ -118,7 +127,9 @@ def load_records(root: pathlib.Path):
 
 
 def aliases_for(record: dict) -> list[str]:
-    return list(dict.fromkeys(v for v in [record["name"], pathlib.PurePosixPath(record["id"]).name, *get_values(record["fm"], "aliases")] if v))
+    values = [record["name"], pathlib.PurePosixPath(record["id"]).name, *get_values(record["fm"], "aliases")]
+    values.extend(COMMON_ALIASES.get(record["name"], []))
+    return list(dict.fromkeys(v for v in values if v))
 
 
 def build_index(records: list[dict], allowed_types: set[str]):
@@ -166,9 +177,9 @@ def audit_group(targets, expected, start, end, errors, kind):
             block = ""
         if not want and block is not None:
             errors.append({"kind": f"{kind}-stale-auto-section", "target": target["rel"]})
-        missing_body = [person_id for person_id in want if f"[[{person_id}|" not in (block or "") and f"[[{person_id}]]" not in (block or "")]
-        if missing_body:
-            errors.append({"kind": f"{kind}-auto-body-missing", "target": target["rel"], "people": missing_body})
+        missing = [pid for pid in want if f"[[{pid}|" not in (block or "") and f"[[{pid}]]" not in (block or "")]
+        if missing:
+            errors.append({"kind": f"{kind}-auto-body-missing", "target": target["rel"], "people": missing})
         rows.append({"id": target["id"], "name": target["name"], "linked_people": len(want)})
     return rows
 
@@ -184,17 +195,20 @@ def main() -> int:
 
     records = load_records(root)
     companies, company_aliases, company_ids = build_index(records, {"company"})
+    _, noncompany_aliases, noncompany_ids = build_index(records, NON_COMPANY_AFFILIATION_TYPES)
     projects, project_aliases, project_ids = build_index(records, PROJECT_TYPES)
     people = [r for r in records if r["type"] == "person"]
 
     company_expected: dict[str, set[str]] = defaultdict(set)
     project_expected: dict[str, set[str]] = defaultdict(set)
-    unresolved = []
+    unresolved, noncompany_affiliations = [], []
     for person in people:
         for value in get_values(person["fm"], "current_affiliations"):
             target = resolve(value, company_aliases, company_ids)
             if target:
                 company_expected[target["id"]].add(person["id"])
+            elif resolve(value, noncompany_aliases, noncompany_ids):
+                noncompany_affiliations.append({"person": person["rel"], "value": value})
             else:
                 unresolved.append({"kind": "affiliation", "person": person["rel"], "value": value})
         for field in ("projects", "project", "communities", "community"):
@@ -218,6 +232,7 @@ def main() -> int:
         "project_community_nodes": len(projects),
         "project_community_nodes_with_linked_people": sum(1 for r in project_rows if r["linked_people"]),
         "project_community_person_associations": project_links,
+        "non_company_affiliations_recognized": noncompany_affiliations,
         "unresolved_source_values": unresolved,
         "errors": errors,
         "companies": sorted(company_rows, key=lambda r: (-r["linked_people"], str(r["name"]))),
@@ -234,6 +249,7 @@ def main() -> int:
         f"- Project/community nodes: {len(projects)}",
         f"- Project/community nodes with ≥1 linked person: {payload['project_community_nodes_with_linked_people']}",
         f"- Project/community-person associations: {project_links}",
+        f"- Non-company affiliations recognized and routed elsewhere: {len(noncompany_affiliations)}",
         f"- Unresolved source values (backlog, non-fatal): {len(unresolved)}",
         f"- Audit errors: {len(errors)}", "",
         "## Companies", "", "| Company | Linked people |", "| --- | ---: |",
@@ -253,7 +269,7 @@ def main() -> int:
             lines.append(f"- …另有 {len(unresolved) - 80} 条，详见 JSON 报告。")
     (generated / "entity-reverse-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    print(f"Entity reverse audit: {company_links} company-person links, {project_links} project/community-person links, {len(unresolved)} unresolved backlog values, {len(errors)} errors.")
+    print(f"Entity reverse audit: {company_links} company-person links, {project_links} project/community-person links, {len(noncompany_affiliations)} non-company affiliations recognized, {len(unresolved)} unresolved backlog values, {len(errors)} errors.")
     for error in errors[:80]:
         print("ERROR:", error)
     return 1 if errors else 0
