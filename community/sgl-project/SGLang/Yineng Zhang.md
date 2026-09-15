@@ -2,10 +2,10 @@
 type: person
 name: Yineng Zhang
 aliases: [Yineng Zhang]
-current_affiliations: ["Together AI","LightSeek Foundation"]
+current_affiliations: ["Together AI"]
 schools:
   - "江南大学"
-communities: [SGLang, FlashInfer, Mooncake, TokenSpeed]
+communities: [SGLang, FlashInfer, Mooncake, TokenSpeed, LightSeek Foundation]
 education: [江南大学]
 roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator, Former SGLang Core Maintainer]
 areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inference]
@@ -27,14 +27,14 @@ relations:
 
 ## 当前关系
 - [[Together AI]]：2025-07 加入；截至 2026-09，Together AI 官方活动页列为 **Senior Director, Inference**，负责/领导 inference 团队。
-- LightSeek Foundation：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
+- [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]]：governing board 成员；2026-03 共同创建 [[TokenSpeed]]。
 - [[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。
 
 ## 教育与工作经历
 - [[江南大学]]：2015–2019；公开 LinkedIn 教育经历列出 Jiangnan University。
 - [[Baseten]]：加入 Together AI 前的公开报道曾列其为 Lead Software Engineer；公开资料未完整披露入职起始时间，因此不猜精确区间。
 - [[Together AI]]：2025-07–至今；个人主页说明加入后带领 inference 团队从约 2 人扩展到 10+ 人，并参与制定公司 inference service strategy。
-- LightSeek Foundation：截至 2026-09 为 governing board 成员。
+- [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]]：截至 2026-09 为 governing board 成员。
 
 ## 核心项目
 - [[SGLang]]：2024–2025 core maintainer；DeepSeek-V3 day-0 support / performance optimization。
