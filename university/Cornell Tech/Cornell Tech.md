@@ -1,6 +1,7 @@
 ---
 type: school
 name: Cornell Tech
+linked_people:
 last_verified: "2026-09"
 ---
 # Cornell Tech
@@ -9,3 +10,10 @@ Cornell Tech 是图谱中的高校节点，用于连接 AI Infra 人物的教育
 
 ## Sources
 - https://tech.cornell.edu/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+当前尚无人物节点通过 `schools:` 明确关联到本校。
+
+<!-- END AUTO SCHOOL PEOPLE -->

@@ -1,6 +1,7 @@
 ---
 type: school
 name: University of Toronto
+linked_people:
 last_verified: "2026-09"
 ---
 # University of Toronto
@@ -9,3 +10,10 @@ University of Toronto 是图谱中的高校节点，用于连接 AI Infra 人物
 
 ## Sources
 - https://www.utoronto.ca/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+当前尚无人物节点通过 `schools:` 明确关联到本校。
+
+<!-- END AUTO SCHOOL PEOPLE -->

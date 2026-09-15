@@ -2,6 +2,13 @@
 type: school
 name: Carnegie Mellon University
 aliases: [CMU, Carnegie Mellon]
+linked_people:
+  - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
+  - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
+  - "company/OpenAI/翁家翌 Jiayi Weng"
+  - "company/TensorMesh/Junchen Jiang"
+  - "company/月之暗面/吴育昕 Yuxin Wu"
+  - "company/月之暗面/杨植麟 Zhilin Yang"
 ---
 # Carnegie Mellon University
 
@@ -20,3 +27,17 @@ Carnegie Mellon University（CMU）是本图谱中的 AI / systems 人才源头�
 ## Sources
 - https://www.cs.cmu.edu/
 - https://people.cs.uchicago.edu/~junchenj/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]：Carnegie Mellon University：计算机博士生，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]、Todd Mowry
+- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[Carnegie Mellon University]]：硕士
+- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：[[Carnegie Mellon University]]：硕士，2020–2022
+- [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[Carnegie Mellon University]]：Computer Science PhD，2017；导师 Vyas Sekar、Hui Zhang。
+- [[company/月之暗面/吴育昕 Yuxin Wu|吴育昕（Yuxin Wu）]]：[[Carnegie Mellon University]]：Computer Vision 硕士，2015–2016
+- [[company/月之暗面/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：[[Carnegie Mellon University]]：PhD，2015–2019；导师 Ruslan Salakhutdinov、William Cohen
+
+<!-- END AUTO SCHOOL PEOPLE -->

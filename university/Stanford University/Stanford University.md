@@ -2,6 +2,10 @@
 type: school
 name: Stanford University
 aliases: [Stanford]
+linked_people:
+  - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
+  - "community/vllm-project/vLLM/Matthew Bonanni"
+  - "company/RadixArk/盛颖 Ying Sheng"
 ---
 # Stanford University
 
@@ -17,3 +21,14 @@ Stanford University 在本图谱中主要作为 AI systems / serving 人才的�
 
 ## Sources
 - https://cs.stanford.edu/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：[[Stanford University]]：计算机博士在读，MAST Lab；导师 Christos Kozyrakis，并与 Kayvon Fatahalian 合作
+- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：教育关联；人物页 `education` 已明确记录该校。
+- [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：[[Stanford University]]：计算机博士，导师 Clark Barrett
+
+<!-- END AUTO SCHOOL PEOPLE -->

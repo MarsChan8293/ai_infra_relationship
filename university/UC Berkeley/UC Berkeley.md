@@ -3,6 +3,23 @@ type: school
 name: UC Berkeley
 aliases:
   - "University of California, Berkeley"
+linked_people:
+  - "community/sgl-project/SGLang/尹良升 Liangsheng Yin"
+  - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
+  - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
+  - "community/vllm-project/vLLM/Chen Zhang"
+  - "community/vllm-project/vLLM/Yongye Zhu"
+  - "community/vllm-project/vLLM/乔一凡 Yifan Qiao"
+  - "community/vllm-project/vLLM/李卓翰 Zhuohan Li"
+  - "community/vllm-project/vLLM/游凯超 Kaichao You"
+  - "company/Inferact/Ion Stoica"
+  - "company/Inferact/Joseph Gonzalez"
+  - "company/Inferact/Woosuk Kwon"
+  - "company/OpenAI/柳晓萱 Xiaoxuan Liu"
+  - "company/RadixArk/朱邦华 Banghua Zhu"
+  - "company/RadixArk/盛颖 Ying Sheng"
+  - "company/基流科技/胡效赫 Xiaohe Hu"
+  - "company/潞晨科技/尤洋 Yang You"
 ---
 # UC Berkeley
 
@@ -45,3 +62,27 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 - https://inferact.ai/
 - https://liuxiaoxuanpku.github.io/
 - https://yifanqiao.com/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：个人主页标注为 incoming [[UC Berkeley]] PhD student
+- [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：[[UC Berkeley]]：计算机博士，导师 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph Gonzalez]]
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[UC Berkeley]]：2024 Visiting Student Researcher；后在 Sky Lab 从事博士后研究，与 [[Ion Stoica]] 合作
+- [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[UC Berkeley]]：Computer Science 硕士；曾跟随 Chris Fletcher 从事 hardware security / formal verification
+- [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
+- [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[UC Berkeley]]：计算机博士，2019–2024；导师 [[Ion Stoica]]
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[UC Berkeley]]：访问研究经历
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[UC Berkeley]] EECS：Professor；Sky Computing Lab Director；研究 cloud computing 与 AI systems
+- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[UC Berkeley]] EECS：Associate Professor；Sky / RISE Lab founding member
+- [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[UC Berkeley]]：计算机博士，2021-08–2025-12；导师 [[Ion Stoica]]
+- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[UC Berkeley]]：Computer Science 博士；Sky Lab；导师 Alvin Cheung、[[Ion Stoica]]
+- [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[UC Berkeley]]：EECS 博士，2024；研究方向涉及统计、优化、强化学习与生成模型
+- [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：UC Berkeley Sky Lab：Visiting Researcher，2023–2024
+- [[company/基流科技/胡效赫 Xiaohe Hu|胡效赫（Xiaohe Hu）]]：UC Berkeley：2016–2017 访问研究经历。
+- [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：UC Berkeley：计算机博士，研究高性能深度学习与大规模优化。
+
+<!-- END AUTO SCHOOL PEOPLE -->
