@@ -1,3 +1,18 @@
+---
+type: person
+name: Xiaoyu Zhang
+aliases: [BBuf]
+current_affiliations: ["RadixArk"]
+communities: [SGLang]
+roles: [SGLang Maintainer, Kernel Engineer]
+areas: [gpu-kernels, diffusion, multimodal-generation, deepseek-optimization]
+confidence: high
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Baizhou Zhang","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Cheng Wan","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+---
 # Xiaoyu Zhang
 
 组织：[[RadixArk]]

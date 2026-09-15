@@ -1,3 +1,17 @@
+---
+type: person
+name: Samm Shen
+aliases: [sammshen]
+communities: [LMCache]
+roles: [Roadmap Maintainer, Community Collaborator]
+areas: [kv-cache, roadmap, community-maintenance]
+confidence: project-credit
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/TensorMesh/程翊华 Yihua Cheng","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache"]}'
+  - '{"target":"company/TensorMesh/杜昆泰 Kuntai Du","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache"]}'
+  - '{"target":"community/LMCache/LMCache/Baolong Ma","type":["open-source-collaboration","community-maintainer"],"project":"LMCache","confidence":"high","evidence":["https://github.com/LMCache/LMCache","https://github.com/LMCache/LMCache/issues"]}'
+---
 # Samm Shen
 
 社区：[[LMCache]]

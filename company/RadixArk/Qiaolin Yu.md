@@ -1,3 +1,17 @@
+---
+type: person
+name: Qiaolin Yu
+current_affiliations: ["RadixArk"]
+communities: [SGLang, Ray]
+roles: [Founding Team MTS, SGLang Maintainer, Former Ray Core Software Engineer]
+areas: [speculative-decoding, model-optimization, gpu-performance, distributed-systems]
+confidence: verified
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","start":"2025-12","confidence":"high","evidence":["https://qiaolin-yu.github.io/","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Cheng Wan","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","start":"2025-12","confidence":"high","evidence":["https://qiaolin-yu.github.io/","https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Baizhou Zhang","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+---
 # Qiaolin Yu
 
 组织：[[RadixArk]]

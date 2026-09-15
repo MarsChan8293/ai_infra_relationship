@@ -1,3 +1,18 @@
+---
+type: person
+name: Cheng Wan
+current_affiliations: ["RadixArk"]
+communities: [SGLang]
+roles: [SGLang Maintainer, Inference Systems Engineer]
+areas: [distributed-serving, parallelism, eplb, dp-attention, distributed-communication]
+confidence: high
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/RadixArk/盛颖 Ying Sheng","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Qiaolin Yu","type":["coworker","open-source-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Baizhou Zhang","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+  - '{"target":"company/RadixArk/Xiaoyu Zhang","type":["coworker","technical-collaboration"],"company":"RadixArk","project":"SGLang","confidence":"high","evidence":["https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md"]}'
+---
 # Cheng Wan
 
 组织：[[RadixArk]]
