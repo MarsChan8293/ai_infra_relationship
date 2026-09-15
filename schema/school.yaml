@@ -7,6 +7,7 @@ recommended:
   - aliases
   - labs
   - people
+  - linked_people
   - areas
   - country
   - city
@@ -25,7 +26,12 @@ fields:
     description: Labs or research groups that have a direct, verifiable relationship with the institution.
   people:
     type: array[string]
-    description: Optional high-value people references; do not mechanically enumerate every alumnus or employee.
+    description: Optional manually curated high-value people references for the school narrative.
+  linked_people:
+    type: array[string]
+    derived: true
+    source: person.schools
+    description: Exhaustive reverse references automatically derived from canonical person nodes whose schools field resolves to this institution. Values are canonical person node ids.
   areas:
     type: array[string]
     description: AI Infra, systems, inference, distributed systems, compiler, networking, or related technical strengths represented in this graph.
@@ -44,4 +50,6 @@ notes:
   - `school` is the canonical node type currently used by institution pages under `university/`.
   - The directory name `university/` is a top-level content category and does not require the frontmatter type to be `university`.
   - A school node should explain why the institution belongs in the AI Infra talent graph, especially relevant labs, people, projects, or research lineages.
+  - `linked_people` is a generated reverse index. Do not hand-edit it; edit the corresponding person `schools:` field instead.
+  - School Markdown pages keep manually written narrative and additionally contain a generated `关联人物（自动汇总）` section for complete school-to-person visibility.
   - Merely sharing an institution is not enough to infer classmates, advisor relationships, or direct collaboration.
