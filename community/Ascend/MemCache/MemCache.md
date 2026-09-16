@@ -2,12 +2,18 @@
 type: project
 name: MemCache
 linked_people:
+  - "community/Ascend/MemCache/ader47"
   - "community/Ascend/MemCache/chenyz6"
+  - "community/Ascend/MemCache/DreamerLeader"
   - "community/Ascend/MemCache/gcw_qYJeyWK4"
   - "community/Ascend/MemCache/j00808874"
+  - "community/Ascend/MemCache/nbbb24"
+  - "community/Ascend/MemCache/Pz1116"
   - "community/Ascend/MemCache/shilinlee"
+  - "community/Ascend/MemCache/tyy0829"
   - "community/Ascend/MemCache/yrewzjsx"
   - "community/Ascend/MemCache/Zixi Qu"
+  - "community/Ascend/MemCache/吕有辉"
   - "community/Ascend/MemCache/彭海清 Haiqing Peng"
 companies: ["华为"]
 company_relation: company-led
@@ -78,12 +84,18 @@ https://github.com/Ascend/memcache
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/Ascend/MemCache/ader47|ader47]]：是 2026 年 layerwise KV Pool + MemCache backend 实现的直接共同贡献者。
 - [[community/Ascend/MemCache/chenyz6|chenyz6]]：长期出现在 MemCache 的 `Merged-by` 记录中，覆盖 MetaService、MemFabric 接口、KV Event、测试与构建等关键路径。
+- [[community/Ascend/MemCache/DreamerLeader|DreamerLeader]]：2026-01 发起 vLLM-Ascend RFC #6410，明确提出把 MemCache 纳入 KV Pool storage backend，并将原有 MooncakeStoreConnector 抽象为统一的 AscendStoreConnector + Backend 接口。
 - [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]]：还涉及 async flush、rewarm 等 storage tier / reliability 工作，是当前 MemCache 分层存储方向非常值得继续追的人物。
 - [[community/Ascend/MemCache/j00808874|j00808874]]：早期到中期多次提交覆盖服务面与工程基础设施，是 MemCache 从“KV 存储库”走向可部署系统的重要贡献者之一。
+- [[community/Ascend/MemCache/nbbb24|nbbb24]]：2026 年提交 SGLang PR #26043，将 Ascend MemCache 接入 HiCache 作为新的 L3 external storage backend。
+- [[community/Ascend/MemCache/Pz1116|Pz1116]]：2026 Q2 KV Cache Pool roadmap 的主要公开推动者之一，明确把 MemCache、Mooncake、YuanRong 等列为 AscendStore backend。
 - [[community/Ascend/MemCache/shilinlee|shilinlee]]：https://gitcode.com/Ascend/memcache/tree/develop
+- [[community/Ascend/MemCache/tyy0829|tyy0829]]：2026 年直接推进 vLLM-Ascend 的 **layerwise KV Pool + MemCache backend**：减少 per-layer key / MetaServer lookup 开销，把 GVA 分配移动到 worker，并使用 MemCache `batch_copy` / lease 生命周期管理完成按层 KV save/load。
 - [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]]：在 MemCache 的大量 MR 中持续出现 `Merged-by: yrewzjsx`，覆盖配置、存储层、KV Event、CI、文档、可靠性等多个子系统，是当前最明显的代码入口 / 合并把关者之一。
 - [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]]：https://gitcode.com/Ascend/memcache/tree/develop/3rdparty
+- [[community/Ascend/MemCache/吕有辉|吕有辉]]：在 MindIE-PyMotor 推进多 KV 池化后端支持，使 MemCache MetaService / LocalService 能适配 A2 / A3 / A5 等部署路径。
 - [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清（Haiqing Peng）]]：其贡献同时触及 MemFabric 自身和 MemCache 对 MemFabric 的接口边界，是这条数据面链路中很值得继续追的核心工程人物。
 
 <!-- END AUTO PROJECT PEOPLE -->

@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 172
+- Company-person associations: 173
 - Project/community nodes: 82
-- Project/community nodes with ≥1 linked person: 63
-- Project/community-person associations: 320
+- Project/community nodes with ≥1 linked person: 64
+- Project/community-person associations: 332
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -17,8 +17,8 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
+| [[company/华为/华为|华为]] | 13 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
-| [[company/华为/华为|华为]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
@@ -56,22 +56,22 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 28 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 17 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 14 |
+| [[community/Ascend/MemCache/MemCache|MemCache]] | 13 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
-| [[community/Ascend/MemCache/MemCache|MemCache]] | 7 |
-| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
@@ -113,6 +113,7 @@
 | [[company/Together AI/Ladder Residual|Ladder Residual]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
 | [[community/radixark/Miles/Miles|Miles]] | 1 |
+| [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
