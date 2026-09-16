@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 41,
+  "company_nodes": 42,
   "companies_with_links": 28,
-  "project_community_nodes": 62,
-  "project_community_nodes_with_links": 38,
-  "association_pairs": 54,
-  "asserted_on_both_sides": 54,
+  "project_community_nodes": 63,
+  "project_community_nodes_with_links": 39,
+  "association_pairs": 55,
+  "asserted_on_both_sides": 55,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -284,6 +284,18 @@
       "entity_name": "vLLM",
       "entity_type": "project",
       "relation": "cross-company-core-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Together AI/Together AI",
+      "company_name": "Together AI",
+      "entity_id": "company/Together AI/Ladder Residual",
+      "entity_name": "Ladder Residual",
+      "entity_type": "project",
+      "relation": "research-collaboration",
       "sources": [
         "company",
         "entity"

@@ -1,6 +1,8 @@
 ---
 type: project
 name: HMI
+linked_people:
+  - "university/浙江大学/Jue Wang"
 companies: []
 company_relation: research-project
 layer: multi-tenant-inference
@@ -29,3 +31,12 @@ HMI（Hierarchical Knowledge Management for Efficient Multi-Tenant Inference in 
 ## Sources
 - https://arxiv.org/abs/2504.17449
 - https://longaspire.github.io/publication/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/浙江大学/Jue Wang|Jue Wang]]：[[university/浙江大学/HMI|HMI]]：与 [[Huan Li]]、[[Lidan Shou]] 等合作，研究 multi-tenant pretrained-model inference 的内存与资源复用。
+
+<!-- END AUTO PROJECT PEOPLE -->

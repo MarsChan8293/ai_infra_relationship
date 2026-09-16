@@ -2,12 +2,12 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 41
-- Companies with ≥1 linked person: 32
-- Company-person associations: 155
-- Project/community nodes: 65
-- Project/community nodes with ≥1 linked person: 51
-- Project/community-person associations: 272
+- Company nodes: 42
+- Companies with ≥1 linked person: 33
+- Company-person associations: 156
+- Project/community nodes: 68
+- Project/community nodes with ≥1 linked person: 54
+- Project/community-person associations: 276
 - Non-company affiliations recognized and routed elsewhere: 55
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -48,6 +48,7 @@
 | [[company/HPE/HPE|HPE]] | 1 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 1 |
 | [[company/道客/道客|道客]] | 1 |
+| [[company/面壁智能/面壁智能|面壁智能]] | 1 |
 
 ## Projects / communities
 
@@ -86,6 +87,7 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
+| [[university/浙江大学/FloE|FloE]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
@@ -97,8 +99,10 @@
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
+| [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
+| [[company/Together AI/Ladder Residual|Ladder Residual]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
 | [[community/radixark/Miles/Miles|Miles]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |

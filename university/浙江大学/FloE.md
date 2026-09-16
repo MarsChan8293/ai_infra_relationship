@@ -1,6 +1,9 @@
 ---
 type: project
 name: FloE
+linked_people:
+  - "university/浙江大学/Jue Wang"
+  - "university/浙江大学/Zheng Li"
 companies: []
 company_relation: research-project
 layer: moe-inference
@@ -30,3 +33,13 @@ FloE 针对显存受限 GPU 上的 MoE 推理，通过 expert 内部参数压缩
 - https://github.com/zju-stu-lizheng/FloE
 - https://proceedings.mlr.press/v267/zhou25j.html
 - https://arxiv.org/abs/2505.05950
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/浙江大学/Jue Wang|Jue Wang]]：[[university/浙江大学/FloE|FloE]]：ICML 2025，参与显存受限 GPU 上的 MoE inference 系统研究，连接 expert compression / parameter movement 与系统优化。
+- [[university/浙江大学/Zheng Li|Zheng Li]]：[[Lidan Shou]]：硕士导师 / 长期研究指导关系，FloE 共同作者。
+
+<!-- END AUTO PROJECT PEOPLE -->

@@ -1,6 +1,8 @@
 ---
 type: project
 name: Ladder Residual
+linked_people:
+  - "university/浙江大学/Jue Wang"
 companies: ["Together AI"]
 company_relation: research-collaboration
 layer: tensor-parallel-inference
@@ -10,6 +12,8 @@ areas: [llm-inference, tensor-parallelism, communication-overlap, distributed-in
 people:
   - "university/浙江大学/Jue Wang"
 last_verified: "2026-09"
+linked_companies:
+  - "company/Together AI/Together AI"
 ---
 # Ladder Residual
 
@@ -27,3 +31,21 @@ Ladder Residual 是针对大模型 Tensor Parallel inference 的架构/系统协
 - https://arxiv.org/abs/2501.06589
 - https://github.com/mayank31398/ladder-residual-inference
 - https://juewang.me/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/浙江大学/Jue Wang|Jue Wang]]：[[company/Together AI/Ladder Residual|Ladder Residual]]：ICML 2025，通过重新设计 residual path 让 Tensor Parallel communication 与计算重叠，加速 distributed inference。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Together AI/Together AI|Together AI]]：公司页与社区/项目页均有显式记录；关系：`research-collaboration`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

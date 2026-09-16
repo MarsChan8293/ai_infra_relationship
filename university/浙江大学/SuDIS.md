@@ -3,6 +3,7 @@ type: research-institution
 name: SuDIS
 organization: 浙江大学
 aliases: ["SUDIS Lab", "Sustainable Data Intelligence and Data Systems", "SuDIS@ZJU"]
+linked_people: []
 areas: [data-systems, efficient-ai, llm-inference, kv-cache, speculative-decoding, moe-inference]
 people:
   - "university/浙江大学/Huan Li"

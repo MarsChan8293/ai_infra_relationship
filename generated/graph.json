@@ -984,6 +984,34 @@
       }
     },
     {
+      "id": "company/Together AI/Ladder Residual",
+      "path": "company/Together AI/Ladder Residual.md",
+      "name": "Ladder Residual",
+      "type": "project",
+      "category": "company",
+      "frontmatter": {
+        "type": "project",
+        "name": "Ladder Residual",
+        "linked_people": "",
+        "companies": [
+          "Together AI"
+        ],
+        "company_relation": "research-collaboration",
+        "layer": "tensor-parallel-inference",
+        "open_source": true,
+        "repository": "https://github.com/mayank31398/ladder-residual-inference",
+        "areas": [
+          "llm-inference",
+          "tensor-parallelism",
+          "communication-overlap",
+          "distributed-inference"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": ""
+      }
+    },
+    {
       "id": "company/Together AI/Together AI",
       "path": "company/Together AI/Together AI.md",
       "name": "Together AI",
@@ -993,9 +1021,7 @@
         "type": "company",
         "name": "Together AI",
         "linked_people": "",
-        "projects": [
-          "TokenSpeed"
-        ],
+        "projects": "",
         "linked_projects": ""
       }
     },
@@ -3456,6 +3482,32 @@
           "TokenSpeed"
         ],
         "linked_projects": ""
+      }
+    },
+    {
+      "id": "company/面壁智能/面壁智能",
+      "path": "company/面壁智能/面壁智能.md",
+      "name": "面壁智能",
+      "type": "company",
+      "category": "company",
+      "frontmatter": {
+        "type": "company",
+        "name": "面壁智能",
+        "aliases": [
+          "ModelBest",
+          "ModelBest Inc."
+        ],
+        "linked_people": "",
+        "areas": [
+          "efficient-llm",
+          "on-device-inference",
+          "quantization",
+          "llm-systems",
+          "ascend"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_projects": []
       }
     },
     {
@@ -8301,20 +8353,22 @@
     {
       "id": "community/vllm-project/vLLM-Ascend/weijinqian0",
       "path": "community/vllm-project/vLLM-Ascend/weijinqian0.md",
-      "name": "weijinqian0",
+      "name": "Jinqian Wei",
       "type": "person",
       "category": "community",
       "frontmatter": {
         "type": "person",
-        "name": "weijinqian0",
+        "name": "Jinqian Wei",
+        "english_name": "Jinqian Wei",
         "aliases": [
+          "weijinqian0",
           "@weijinqian0"
         ],
         "communities": [
           "vLLM-Ascend"
         ],
         "roles": [
-          "Contributor",
+          "Committer",
           "RFC Author"
         ],
         "areas": [
@@ -8325,7 +8379,7 @@
           "graph-execution",
           "moe"
         ],
-        "confidence": "project-credit",
+        "confidence": "high",
         "last_verified": "2026-09"
       }
     },
@@ -8402,6 +8456,9 @@
         "aliases": [
           "Guan Wenyu"
         ],
+        "current_affiliations": [
+          "面壁智能"
+        ],
         "communities": [
           "vLLM-Ascend"
         ],
@@ -8416,7 +8473,7 @@
           "moe",
           "distributed-inference"
         ],
-        "confidence": "project-credit",
+        "confidence": "high",
         "last_verified": "2026-09"
       }
     },
@@ -8852,6 +8909,38 @@
       }
     },
     {
+      "id": "university/University of Chicago/Systems Group",
+      "path": "university/University of Chicago/Systems Group.md",
+      "name": "UChicago Systems Group",
+      "type": "research-institution",
+      "category": "university",
+      "frontmatter": {
+        "type": "research-institution",
+        "name": "UChicago Systems Group",
+        "organization": "University of Chicago",
+        "aliases": [
+          "Systems Group",
+          "University of Chicago Systems Group"
+        ],
+        "linked_people": [],
+        "areas": [
+          "computer-systems",
+          "distributed-systems",
+          "networking",
+          "ml-systems",
+          "llm-inference"
+        ],
+        "people": "",
+        "projects": [
+          "LMCache"
+        ],
+        "website": "https://www.computerscience.uchicago.edu/research/systems-architecture-networking/",
+        "country": "USA",
+        "city": "Chicago",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "university/University of Chicago/University of Chicago",
       "path": "university/University of Chicago/University of Chicago.md",
       "name": "University of Chicago",
@@ -8864,6 +8953,7 @@
           "UChicago",
           "University of Chicago"
         ],
+        "labs": "",
         "linked_people": ""
       }
     },
@@ -9868,6 +9958,58 @@
       }
     },
     {
+      "id": "university/浙江大学/FloE",
+      "path": "university/浙江大学/FloE.md",
+      "name": "FloE",
+      "type": "project",
+      "category": "university",
+      "frontmatter": {
+        "type": "project",
+        "name": "FloE",
+        "linked_people": "",
+        "companies": [],
+        "company_relation": "research-project",
+        "layer": "moe-inference",
+        "open_source": true,
+        "repository": "https://github.com/zju-stu-lizheng/FloE",
+        "areas": [
+          "llm-inference",
+          "moe",
+          "memory-optimization",
+          "parameter-offload",
+          "pcie",
+          "triton"
+        ],
+        "people": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "university/浙江大学/HMI",
+      "path": "university/浙江大学/HMI.md",
+      "name": "HMI",
+      "type": "project",
+      "category": "university",
+      "frontmatter": {
+        "type": "project",
+        "name": "HMI",
+        "linked_people": "",
+        "companies": [],
+        "company_relation": "research-project",
+        "layer": "multi-tenant-inference",
+        "open_source": false,
+        "areas": [
+          "multi-tenant-serving",
+          "memory-management",
+          "parameter-swapping",
+          "prefetch",
+          "pipeline"
+        ],
+        "people": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "university/浙江大学/Huan Li",
       "path": "university/浙江大学/Huan Li.md",
       "name": "Huan Li",
@@ -9916,6 +10058,7 @@
           "Together AI"
         ],
         "schools": "",
+        "projects": "",
         "areas": [
           "llm-inference",
           "tensor-parallelism",
@@ -9957,6 +10100,41 @@
       }
     },
     {
+      "id": "university/浙江大学/SuDIS",
+      "path": "university/浙江大学/SuDIS.md",
+      "name": "SuDIS",
+      "type": "research-institution",
+      "category": "university",
+      "frontmatter": {
+        "type": "research-institution",
+        "name": "SuDIS",
+        "organization": "浙江大学",
+        "aliases": [
+          "SUDIS Lab",
+          "Sustainable Data Intelligence and Data Systems",
+          "SuDIS@ZJU"
+        ],
+        "linked_people": [],
+        "areas": [
+          "data-systems",
+          "efficient-ai",
+          "llm-inference",
+          "kv-cache",
+          "speculative-decoding",
+          "moe-inference"
+        ],
+        "people": "",
+        "projects": [
+          "HMI",
+          "FloE"
+        ],
+        "website": "https://sudis-zju.github.io/",
+        "country": "China",
+        "city": "Hangzhou",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "university/浙江大学/Zheng Li",
       "path": "university/浙江大学/Zheng Li.md",
       "name": "Zheng Li",
@@ -9973,6 +10151,7 @@
           "浙江大学"
         ],
         "schools": "",
+        "projects": "",
         "areas": [
           "llm-inference",
           "moe-inference",
@@ -9996,6 +10175,7 @@
           "Zhejiang University",
           "ZJU"
         ],
+        "labs": "",
         "linked_people": ""
       }
     },
@@ -15947,6 +16127,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
+      "target": "company/面壁智能/面壁智能",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/vllm-project/vLLM/Chen Zhang",
       "target": "community/vllm-project/Jenga/Jenga",
       "kind": "wikilink"
@@ -19167,23 +19352,23 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/Together AI/Ladder Residual",
+      "target": "company/Together AI/Together AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Together AI/Ladder Residual",
+      "target": "university/浙江大学/Jue Wang",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/Together AI/Together AI",
       "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
       "kind": "wikilink"
     },
     {
       "source": "company/Together AI/Together AI",
-      "target": "community/kvcache-ai/Mooncake/Mooncake",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/Together AI/Together AI",
       "target": "community/lightseekorg/TokenSpeed/TokenSpeed",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/Together AI/Together AI",
-      "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
     },
     {
@@ -19194,6 +19379,11 @@
     {
       "source": "company/Together AI/Together AI",
       "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Together AI/Together AI",
+      "target": "company/Together AI/Ladder Residual",
       "kind": "wikilink"
     },
     {
@@ -22312,6 +22502,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/面壁智能/面壁智能",
+      "target": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/Binghamton University/Binghamton University",
       "target": "community/ai-dynamo/Dynamo/Ryan McCormick",
       "kind": "wikilink"
@@ -22732,6 +22927,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/University of Chicago/Systems Group",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/University of Chicago/Systems Group",
+      "target": "company/TensorMesh/Junchen Jiang",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/University of Chicago/University of Chicago",
       "target": "community/LMCache/LMCache/LMCache",
       "kind": "wikilink"
@@ -22779,6 +22984,11 @@
     {
       "source": "university/University of Chicago/University of Chicago",
       "target": "university/Carnegie Mellon University/Carnegie Mellon University",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/University of Chicago/University of Chicago",
+      "target": "university/University of Chicago/Systems Group",
       "kind": "wikilink"
     },
     {
@@ -23832,6 +24042,46 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/浙江大学/FloE",
+      "target": "university/浙江大学/Jue Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/FloE",
+      "target": "university/浙江大学/Lidan Shou",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/FloE",
+      "target": "university/浙江大学/SuDIS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/FloE",
+      "target": "university/浙江大学/Zheng Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/HMI",
+      "target": "university/浙江大学/Huan Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/HMI",
+      "target": "university/浙江大学/Jue Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/HMI",
+      "target": "university/浙江大学/Lidan Shou",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/HMI",
+      "target": "university/浙江大学/SuDIS",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/浙江大学/Huan Li",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -23863,7 +24113,22 @@
     },
     {
       "source": "university/浙江大学/Jue Wang",
+      "target": "company/Together AI/Ladder Residual",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/Jue Wang",
       "target": "company/Together AI/Together AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/Jue Wang",
+      "target": "university/浙江大学/FloE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/Jue Wang",
+      "target": "university/浙江大学/HMI",
       "kind": "wikilink"
     },
     {
@@ -23912,8 +24177,43 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/FloE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/HMI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/Huan Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/Jue Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/Lidan Shou",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/SuDIS",
+      "target": "university/浙江大学/Zheng Li",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/浙江大学/Zheng Li",
       "target": "company/Together AI/Together AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/Zheng Li",
+      "target": "university/浙江大学/FloE",
       "kind": "wikilink"
     },
     {
@@ -23968,6 +24268,16 @@
     },
     {
       "source": "university/浙江大学/浙江大学",
+      "target": "university/浙江大学/FloE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/浙江大学",
+      "target": "university/浙江大学/HMI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/浙江大学",
       "target": "university/浙江大学/Huan Li",
       "kind": "wikilink"
     },
@@ -23979,6 +24289,11 @@
     {
       "source": "university/浙江大学/浙江大学",
       "target": "university/浙江大学/Lidan Shou",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/浙江大学",
+      "target": "university/浙江大学/SuDIS",
       "kind": "wikilink"
     },
     {
@@ -24988,14 +25303,14 @@
       "bridge_score": 7.872
     },
     "company/TensorMesh/Junchen Jiang": {
-      "degree": 7,
-      "cross_category_degree": 4,
+      "degree": 8,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.9
+      "bridge_score": 9.42
     },
     "company/TensorMesh/TensorMesh": {
       "degree": 15,
@@ -25027,15 +25342,24 @@
       ],
       "bridge_score": 10.409
     },
+    "company/Together AI/Ladder Residual": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "company",
+        "university"
+      ],
+      "bridge_score": 4.935
+    },
     "company/Together AI/Together AI": {
-      "degree": 14,
+      "degree": 15,
       "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.607
+      "bridge_score": 12.7
     },
     "company/company": {
       "degree": 41,
@@ -25883,6 +26207,14 @@
       ],
       "bridge_score": 10.857
     },
+    "company/面壁智能/面壁智能": {
+      "degree": 1,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 2.85
+    },
     "community/Ascend/MindIE-LLM/MindIE-LLM": {
       "degree": 8,
       "cross_category_degree": 2,
@@ -25992,15 +26324,15 @@
       "bridge_score": 7.557
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 23,
-      "cross_category_degree": 11,
+      "degree": 24,
+      "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 14.435
+      "bridge_score": 14.844
     },
     "community/LMCache/LMCache/Samm Shen": {
       "degree": 7,
@@ -27877,12 +28209,13 @@
       "bridge_score": 4.085
     },
     "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 2,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "company"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 4.935
     },
     "university/Binghamton University/Binghamton University": {
       "degree": 1,
@@ -28112,15 +28445,25 @@
       ],
       "bridge_score": 2.85
     },
+    "university/University of Chicago/Systems Group": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.2
+    },
     "university/University of Chicago/University of Chicago": {
-      "degree": 11,
+      "degree": 12,
       "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.235
+      "bridge_score": 11.35
     },
     "university/University of Tennessee, Knoxville/University of Tennessee, Knoxville": {
       "degree": 1,
@@ -28514,51 +28857,75 @@
       ],
       "bridge_score": 2.85
     },
+    "university/浙江大学/FloE": {
+      "degree": 5,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "university"
+      ],
+      "bridge_score": 4.085
+    },
+    "university/浙江大学/HMI": {
+      "degree": 5,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "university"
+      ],
+      "bridge_score": 4.085
+    },
     "university/浙江大学/Huan Li": {
-      "degree": 6,
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "university"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 6.87
     },
     "university/浙江大学/Jue Wang": {
-      "degree": 5,
-      "cross_category_degree": 1,
+      "degree": 9,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "company",
         "university"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 7.022
     },
     "university/浙江大学/Lidan Shou": {
-      "degree": 5,
+      "degree": 8,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "company",
         "university"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.52
+    },
+    "university/浙江大学/SuDIS": {
+      "degree": 7,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "university"
+      ],
+      "bridge_score": 4.5
     },
     "university/浙江大学/Zheng Li": {
-      "degree": 5,
+      "degree": 7,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "company",
         "university"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.35
     },
     "university/浙江大学/浙江大学": {
-      "degree": 11,
+      "degree": 14,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.185
+      "bridge_score": 10.507
     },
     "university/清华大学/FastDecode": {
       "degree": 2,

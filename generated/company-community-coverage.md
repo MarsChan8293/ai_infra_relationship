@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 41
+- Company nodes: 42
 - Companies with ≥1 linked project/community: 28
-- Project/community nodes: 62
-- Project/community nodes with ≥1 linked company: 38
-- Bidirectional association pairs: 54
-- Explicitly asserted on both sides: 54
+- Project/community nodes: 63
+- Project/community nodes with ≥1 linked company: 39
+- Bidirectional association pairs: 55
+- Explicitly asserted on both sides: 55
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 3
@@ -38,6 +38,7 @@
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | [[community/LMCache/LMCache/LMCache|LMCache]] | project | research-to-startup-core-network | both |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/Together AI/Together AI|Together AI]] | [[company/Together AI/Ladder Residual|Ladder Residual]] | project | research-collaboration | both |
 | [[company/Together AI/Together AI|Together AI]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/一流科技/一流科技|一流科技]] | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | project | company-originated | both |
 | [[company/华为/华为|华为]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |

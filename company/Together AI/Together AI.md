@@ -8,6 +8,7 @@ projects:
   - TokenSpeed
   - Ladder Residual
 linked_projects:
+  - "company/Together AI/Ladder Residual"
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
 ---
 # Together AI
@@ -52,6 +53,7 @@ Together AI 是开放模型训练与 inference 平台公司，聚焦 foundation-
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[company/Together AI/Ladder Residual|Ladder Residual]]：公司页与社区/项目页均有显式记录；关系：`research-collaboration`。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

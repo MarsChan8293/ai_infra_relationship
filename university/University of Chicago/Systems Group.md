@@ -3,6 +3,7 @@ type: research-institution
 name: UChicago Systems Group
 organization: University of Chicago
 aliases: ["Systems Group", "University of Chicago Systems Group"]
+linked_people: []
 areas: [computer-systems, distributed-systems, networking, ml-systems, llm-inference]
 people:
   - "company/TensorMesh/Junchen Jiang"

@@ -55,7 +55,7 @@ https://github.com/vllm-project/vllm-ascend
 
 - [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：2026 vLLM-Ascend 技术周会多次担任 Chair。
 - [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：vLLM-Ascend 主要维护与社区组织者之一。
-- [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]]：[[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：**社区协调 ↔ Attention/算子工程候选关系**。属于同一 feature landing 网络，但缺 pair-specific 证据，不自动生成 typed edge。
+- [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]]：[[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：社区治理/Attention 工程邻接关系；缺 pair-specific 证据时不自动生成 typed edge。
 - [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：vLLM-Ascend 活跃维护者。
 - [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：vLLM-Ascend roadmap 主要推动者之一。
 - [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇（Guan Wenyu）]]：https://github.com/vllm-project/vllm-ascend
