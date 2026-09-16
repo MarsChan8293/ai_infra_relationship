@@ -4950,6 +4950,41 @@
       }
     },
     {
+      "id": "community/LMCache/LMCache/chloroethylene",
+      "path": "community/LMCache/LMCache/chloroethylene.md",
+      "name": "chloroethylene",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "chloroethylene",
+        "aliases": [
+          "@chloroethylene"
+        ],
+        "communities": [
+          "LMCache",
+          "vLLM-Ascend"
+        ],
+        "roles": [
+          "Ascend Integration Contributor",
+          "LMCache-Ascend Connector Author"
+        ],
+        "areas": [
+          "kv-cache",
+          "ascend",
+          "npu",
+          "multiprocess",
+          "vllm-ascend",
+          "kv-connector",
+          "mla",
+          "dsa",
+          "pin-memory"
+        ],
+        "confidence": "high",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "community/LMCache/LMCache/deng451e",
       "path": "community/LMCache/LMCache/deng451e.md",
       "name": "deng451e",
@@ -13840,6 +13875,11 @@
     },
     {
       "source": "community/LMCache/LMCache/LMCache",
+      "target": "community/LMCache/LMCache/chloroethylene",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
       "target": "community/LMCache/LMCache/deng451e",
       "kind": "wikilink"
     },
@@ -19411,6 +19451,11 @@
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/LMCache/LMCache/chloroethylene",
       "kind": "wikilink"
     },
     {
@@ -30448,7 +30493,7 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 33,
+      "degree": 34,
       "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
@@ -30456,7 +30501,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 15.287
+      "bridge_score": 15.329
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -30518,6 +30563,14 @@
         "company"
       ],
       "bridge_score": 4.935
+    },
+    "community/LMCache/LMCache/chloroethylene": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
     },
     "community/LMCache/LMCache/deng451e": {
       "degree": 1,
@@ -32546,14 +32599,14 @@
       "bridge_score": 3.822
     },
     "community/vllm-project/vLLM-Ascend/vLLM-Ascend": {
-      "degree": 35,
+      "degree": 36,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 10.37
+      "bridge_score": 10.409
     },
     "community/vllm-project/vLLM-Ascend/weiguihua2": {
       "degree": 3,

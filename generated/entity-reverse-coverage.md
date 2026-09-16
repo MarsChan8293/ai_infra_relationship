@@ -9,7 +9,7 @@
 - People with generated linked_companies: 184
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 348
+- Project/community-person associations: 350
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -60,10 +60,10 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
-| [[community/LMCache/LMCache/LMCache|LMCache]] | 18 |
+| [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |

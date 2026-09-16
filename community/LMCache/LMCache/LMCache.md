@@ -3,6 +3,7 @@ type: project
 name: LMCache
 linked_people:
   - "community/LMCache/LMCache/Andy Luo"
+  - "community/LMCache/LMCache/chloroethylene"
   - "community/LMCache/LMCache/deng451e"
   - "community/LMCache/LMCache/Dongjoo Seo"
   - "community/LMCache/LMCache/Hunter Zhang"
@@ -92,6 +93,7 @@ LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/LMCache/LMCache/Andy Luo|Andy Luo]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- [[community/LMCache/LMCache/chloroethylene|chloroethylene]]：#3968（已合入）：把 Ascend NPU 作为 LMCache MP first-class platform，并支持 vLLM-Ascend per-layer `(K,V)` tuple KV format；
 - [[community/LMCache/LMCache/deng451e|deng451e]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - [[community/LMCache/LMCache/Dongjoo Seo|Dongjoo Seo]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - [[community/LMCache/LMCache/Hunter Zhang|Hunter Zhang]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
