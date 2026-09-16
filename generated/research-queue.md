@@ -42,8 +42,8 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.400 |
-| 2 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.266 |
+| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.388 |
+| 2 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.218 |
 | 3 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
 | 4 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
 | 5 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |

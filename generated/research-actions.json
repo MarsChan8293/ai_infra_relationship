@@ -993,7 +993,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.4,
+      "priority": 8.388,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1004,11 +1004,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 8.357,
+        "bridge_score": 8.55,
         "novelty": 1.0,
-        "frontier_potential": 0.435,
+        "frontier_potential": 0.407,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
+        "redundancy_penalty": 0.166,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.1,
@@ -1020,9 +1020,9 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
-        "bridge 8.4"
+        "bridge 8.6"
       ],
-      "base_priority": 8.3,
+      "base_priority": 8.288,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1132,7 +1132,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "exploration",
-      "priority": 8.266,
+      "priority": 8.218,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1143,11 +1143,11 @@
         "infra_relevance": 3.5,
         "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 4.935,
+        "bridge_score": 5.35,
         "novelty": 1.0,
-        "frontier_potential": 0.664,
+        "frontier_potential": 0.575,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
+        "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.1,
@@ -1160,7 +1160,7 @@
         "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 8.166,
+      "base_priority": 8.118,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -5056,72 +5056,6 @@
       }
     },
     {
-      "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/sgl-project/mini-SGLang/mini-SGLang",
-        "name": "mini-SGLang",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.103,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, kernel"
-      ],
-      "base_priority": 7.151,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/thu-pacman/Chitu/Chitu::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -5392,6 +5326,72 @@
       }
     },
     {
+      "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/sgl-project/mini-SGLang/mini-SGLang",
+        "name": "mini-SGLang",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.052,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel"
+      ],
+      "base_priority": 7.1,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM/Michael Goin::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -5455,72 +5455,6 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/ggml-org/llama.cpp/llama.cpp::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/ggml-org/llama.cpp/llama.cpp",
-        "name": "llama.cpp",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.021,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 5.672,
-        "novelty": 0.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kernel, moe"
-      ],
-      "base_priority": 7.069,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -5726,6 +5660,72 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/ggml-org/llama.cpp/llama.cpp::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ggml-org/llama.cpp/llama.cpp",
+        "name": "llama.cpp",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.999,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, moe"
+      ],
+      "base_priority": 7.047,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -7356,72 +7356,6 @@
       }
     },
     {
-      "action_id": "community/ggml-org/ggml/ggml::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/ggml-org/ggml/ggml",
-        "name": "ggml",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.79,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.35,
-        "novelty": 0.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, quantization, ascend"
-      ],
-      "base_priority": 6.838,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/无问芯穹/夏立雪 Lixue Xia::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -7620,6 +7554,72 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/ggml-org/ggml/ggml::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ggml-org/ggml/ggml",
+        "name": "ggml",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.758,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 0.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, quantization, ascend"
+      ],
+      "base_priority": 6.806,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -33982,70 +33982,6 @@
       }
     },
     {
-      "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/sgl-project/mini-SGLang/mini-SGLang",
-        "name": "mini-SGLang",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 5.334,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, kernel"
-      ],
-      "base_priority": 5.334,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/NVIDIA/TensorRT-LLM/Chang Liu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -35465,6 +35401,70 @@
         "source type Person",
         "infra: kv-cache, ascend",
         "opens underrepresented target types"
+      ],
+      "base_priority": 5.291,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/sgl-project/mini-SGLang/mini-SGLang",
+        "name": "mini-SGLang",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 5.291,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel"
       ],
       "base_priority": 5.291,
       "eligible": true,
@@ -39351,70 +39351,6 @@
       }
     },
     {
-      "action_id": "community/ggml-org/ggml/ggml::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/ggml-org/ggml/ggml",
-        "name": "ggml",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 5.094,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.35,
-        "novelty": 0.5,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, quantization, ascend"
-      ],
-      "base_priority": 5.094,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -39744,6 +39680,70 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/ggml-org/ggml/ggml::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/ggml-org/ggml/ggml",
+        "name": "ggml",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 5.066,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 0.5,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, quantization, ascend"
+      ],
+      "base_priority": 5.066,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -51904,71 +51904,6 @@
       }
     },
     {
-      "action_id": "community/FlashML-org/FreeToken/FreeToken::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/FlashML-org/FreeToken/FreeToken",
-        "name": "FreeToken",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 4.615,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 7,
-        "bridge_score": 8.357,
-        "novelty": 0.5,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.375,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "bridge 8.4"
-      ],
-      "base_priority": 4.615,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -52018,6 +51953,71 @@
         "opens underrepresented target types"
       ],
       "base_priority": 4.609,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/FlashML-org/FreeToken/FreeToken::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/FlashML-org/FreeToken/FreeToken",
+        "name": "FreeToken",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 4.604,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 8.55,
+        "novelty": 0.5,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.386,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 8.6"
+      ],
+      "base_priority": 4.604,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -54643,70 +54643,6 @@
       }
     },
     {
-      "action_id": "community/ggml-org/llama.cpp/llama.cpp::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/ggml-org/llama.cpp/llama.cpp",
-        "name": "llama.cpp",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 4.443,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 5.672,
-        "novelty": 0.5,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.348,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Project",
-        "infra: serving/inference, kernel, moe"
-      ],
-      "base_priority": 4.443,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/radixark/Miles/Miles::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -54833,6 +54769,70 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/ggml-org/llama.cpp/llama.cpp::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/ggml-org/llama.cpp/llama.cpp",
+        "name": "llama.cpp",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 4.424,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, kernel, moe"
+      ],
+      "base_priority": 4.424,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
