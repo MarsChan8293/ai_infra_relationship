@@ -15,6 +15,8 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `kvcache-ai`：[[KTransformers]] · [[Mooncake]]
 - `Ascend`：[[MemCache]] · [[MemFabric]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]
 - `deepseek-ai`：[[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA
+- `ggml-org`：[[llama.cpp]] · [[ggml]]
+- `FlashML-org`：[[FreeToken]]
 - `hpcaitech`：[[Colossal-AI]]
 - `flashinfer-ai`：[[FlashInfer]]
 - `Project-HAMi`：[[HAMi]]
@@ -23,7 +25,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `ModelTC`：[[LightLLM]]
 - `Oneflow-Inc`：[[OneFlow]]
 - `ray-project`：[[Ray-Serve]]
-- `sgl-project`：[[SGLang]]
+- `sgl-project`：[[SGLang]] · [[mini-SGLang]]
 - `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
 - `NVIDIA`：[[TensorRT-LLM]]
 - `tile-ai`：[[TileLang]]
@@ -46,12 +48,13 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Dynamo]] / [[NIXL]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
 | [[vLLM]] | [[company/Inferact/Inferact|Inferact]] · [[company/Red Hat/Red Hat|Red Hat]] · [[company/Meta/Meta|Meta]] · [[company/Hugging Face/Hugging Face|Hugging Face]] · [[company/TensorMesh/TensorMesh|TensorMesh]] | 跨公司 core contributor 网络 |
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
+| [[llama.cpp]] / [[ggml]] | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2026 GGML / llama.cpp maintainer team 加入 HF；项目保持开源与技术自主 |
 | [[FlagScale]] / [[FlagGems]] / [[FlagCX]] / [[FlagTree]] / [[FlagAttention]] / [[FlagRelease]] / [[FlagPerf]] | 暂无单一主要公司 | [[FlagOS]] 社区发起 / 智源研究院与多机构共建 |
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
 | [[LMDeploy]] | 暂无单一主要公司 | [[上海人工智能实验室]] / InternLM 开源生态主导 |
 | [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
-| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 跨公司共同创建/协作 |
+| [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 跨公司共同创建/协作 |
 | [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能|密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
 | [[KTransformers]] | [[company/趋境科技/趋境科技|趋境科技]] | 产业/学术核心网络 |
 | [[VCCL]] | [[company/基流科技/基流科技|基流科技]] | 产业/研究共建 |
@@ -63,7 +66,10 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]]
+[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]]
+
+## Local / Edge Inference
+[[llama.cpp]] · [[ggml]] · [[FreeToken]] · [[KTransformers]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]]
@@ -84,6 +90,6 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 [[vLLM-Ascend]] · [[MemCache]] · [[MemFabric]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
 
 ## Hardware / Heterogeneous
-[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]]
+[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]] · [[llama.cpp]] · [[ggml]] · [[FreeToken]]
 
 旧 `Communities/` 重复索引已移除；项目实体仍以项目同名文件作为 canonical 节点，但物理目录统一归入上游 organization / namespace。
