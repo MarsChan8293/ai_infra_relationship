@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 44,
   "companies_with_links": 29,
-  "project_community_nodes": 76,
-  "project_community_nodes_with_links": 44,
-  "association_pairs": 61,
-  "asserted_on_both_sides": 61,
+  "project_community_nodes": 77,
+  "project_community_nodes_with_links": 45,
+  "association_pairs": 62,
+  "asserted_on_both_sides": 62,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -684,6 +684,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/腾讯/腾讯",
+      "company_name": "腾讯",
+      "entity_id": "community/taco-project/FlexKV/FlexKV",
+      "entity_name": "FlexKV",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"

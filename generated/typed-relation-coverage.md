@@ -37,14 +37,14 @@
 | 7 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
 | 8 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
 | 9 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
-| 10 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
-| 11 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
-| 12 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.370 | 8 | 3 | 0 |
-| 13 | [[university/北京大学/吴童 Tong Wu|Tong Wu]] | 8.357 | 6 | 1 | 0 |
-| 14 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
-| 15 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 8.200 | 7 | 1 | 0 |
-| 16 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
-| 17 | [[company/腾讯/Stary|Stary]] | 7.872 | 4 | 2 | 0 |
+| 10 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
+| 11 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
+| 12 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
+| 13 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.370 | 8 | 3 | 0 |
+| 14 | [[university/北京大学/吴童 Tong Wu|Tong Wu]] | 8.357 | 6 | 1 | 0 |
+| 15 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
+| 16 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 8.200 | 7 | 1 | 0 |
+| 17 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
 | 18 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
 | 19 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
 | 20 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |

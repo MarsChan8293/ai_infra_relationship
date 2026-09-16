@@ -4,10 +4,10 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked project/community: 29
-- Project/community nodes: 76
-- Project/community nodes with ≥1 linked company: 44
-- Bidirectional association pairs: 61
-- Explicitly asserted on both sides: 61
+- Project/community nodes: 77
+- Project/community nodes with ≥1 linked company: 45
+- Bidirectional association pairs: 62
+- Explicitly asserted on both sides: 62
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -71,6 +71,7 @@
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | company-originated-and-jointly-open-sourced-with-tsinghua | both |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | project | company-originated | both |
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/腾讯/腾讯|腾讯]] | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | project | company-led | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |

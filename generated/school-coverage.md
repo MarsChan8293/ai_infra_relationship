@@ -51,7 +51,7 @@
 | ---: | --- | ---: | ---: |
 | 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.187 | 16 |
 | 2 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.07 | 8 |
-| 3 | [[company/腾讯/Stary|Stary]] | 7.872 | 4 |
+| 3 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 |
 | 4 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
 | 5 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
 | 6 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 |

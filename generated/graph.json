@@ -9551,6 +9551,35 @@
       }
     },
     {
+      "id": "community/taco-project/FlexKV/FlexKV",
+      "path": "community/taco-project/FlexKV/FlexKV.md",
+      "name": "FlexKV",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "FlexKV",
+        "linked_people": "",
+        "companies": [
+          "腾讯"
+        ],
+        "company_relation": "company-led",
+        "linked_companies": "",
+        "repository": "https://github.com/taco-project/FlexKV",
+        "open_source": true,
+        "layer": "distributed-kv-cache",
+        "areas": [
+          "kv-cache",
+          "distributed-storage",
+          "multi-level-cache",
+          "rdma",
+          "data-movement",
+          "llm-inference"
+        ],
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "community/thu-pacman/BaGuaLu/BaGuaLu",
       "path": "community/thu-pacman/BaGuaLu/BaGuaLu.md",
       "name": "BaGuaLu",
@@ -19447,6 +19476,21 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "company/腾讯/Stary",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "company/腾讯/腾讯",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/thu-pacman/BaGuaLu/BaGuaLu",
       "target": "company/清程极智/唐适之 Shizhi Tang",
       "kind": "wikilink"
@@ -26228,6 +26272,11 @@
     },
     {
       "source": "company/腾讯/Stary",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/Stary",
       "target": "company/腾讯/腾讯",
       "kind": "wikilink"
     },
@@ -26239,6 +26288,11 @@
     {
       "source": "company/腾讯/腾讯",
       "target": "community/Tencent/HPC-Ops/HPC-Ops",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/腾讯",
+      "target": "community/taco-project/FlexKV/FlexKV",
       "kind": "wikilink"
     },
     {
@@ -30635,23 +30689,23 @@
       "bridge_score": 6.022
     },
     "company/腾讯/Stary": {
-      "degree": 4,
-      "cross_category_degree": 3,
+      "degree": 5,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.872
+      "bridge_score": 8.485
     },
     "company/腾讯/腾讯": {
-      "degree": 4,
-      "cross_category_degree": 1,
+      "degree": 5,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.672
+      "bridge_score": 6.285
     },
     "company/趋境科技/Hongbo Kang": {
       "degree": 7,
@@ -32417,7 +32471,7 @@
       "bridge_score": 9.187
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 56,
+      "degree": 57,
       "cross_category_degree": 18,
       "neighbor_categories": [
         "community",
@@ -32425,7 +32479,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 18.133
+      "bridge_score": 18.158
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -32861,6 +32915,15 @@
         "university"
       ],
       "bridge_score": 11.0
+    },
+    "community/taco-project/FlexKV/FlexKV": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.7
     },
     "community/thu-pacman/BaGuaLu/BaGuaLu": {
       "degree": 5,

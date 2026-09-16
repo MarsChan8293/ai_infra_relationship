@@ -7,11 +7,11 @@
 - Company-person associations: 191
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 190
-- Project/community nodes: 82
-- Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 366
+- Project/community nodes: 83
+- Project/community nodes with ≥1 linked person: 65
+- Project/community-person associations: 367
 - Non-company affiliations recognized and routed elsewhere: 58
-- Unresolved source values (backlog, non-fatal): 2
+- Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
 ## Companies
@@ -112,6 +112,7 @@
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
+| [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
@@ -123,10 +124,3 @@
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
-
-## Unresolved source values
-
-这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
-
-- `company/腾讯/Stary.md` · `projects` → `FlexKV`
-- `company/腾讯/Stary.md` · `communities` → `FlexKV`

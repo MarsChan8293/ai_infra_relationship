@@ -1,12 +1,12 @@
 ---
 type: project
 name: FlexKV
+linked_people:
+  - "company/腾讯/Stary"
 companies: ["腾讯"]
 company_relation: company-led
 linked_companies:
   - "company/腾讯/腾讯"
-linked_people:
-  - "company/腾讯/Stary"
 repository: https://github.com/taco-project/FlexKV
 open_source: true
 layer: distributed-kv-cache
@@ -41,3 +41,21 @@ FlexKV 不是 Mooncake 的简单竞品关系，而已经形成两层直接技术
 - https://github.com/taco-project/FlexKV/blob/main/docs/dist_reuse/README_en.md
 - https://github.com/taco-project/FlexKV/blob/main/docs/vllm_adapter/README_en.md
 - https://github.com/taco-project/FlexKV/blob/main/docs/dynamo_integration/README_en.md
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/腾讯/Stary|Stary]]：[[community/taco-project/FlexKV/FlexKV|FlexKV]]：公开 PR 页面显示其为 Collaborator，并持续参与多 GPU backend、KV transfer 等工作。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/腾讯/腾讯|腾讯]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
