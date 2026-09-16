@@ -4,16 +4,15 @@ name: Yue Chen
 aliases: ["yuechen-sys", "@yuechen-sys"]
 current_affiliations: ["趋境科技"]
 schools:
-  - "KAIST"
   - "北京邮电大学"
 communities: [Mooncake, SGLang]
+linked_companies:
+  - "company/趋境科技/趋境科技"
 projects: [Mooncake]
 roles: [AI Infra Engineer, Mooncake EP Codeowner, Mooncake PG Codeowner]
 areas: [expert-parallelism, memory-systems, llm-inference, fault-tolerance, distributed-communication]
 confidence: verified
 last_verified: "2026-09"
-linked_companies:
-  - "company/趋境科技/趋境科技"
 ---
 # Yue Chen
 
@@ -34,8 +33,21 @@ Mooncake 当前 `CODEOWNERS` 将 `@yuechen-sys` 列为 `mooncake-ep`、`mooncake
 - [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]]：Approaching.AI / Elastic EP 工程协作者。
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：连接 Mooncake EP 与 SGLang serving 集成的共同作者网络。
 
+
+## 学校关联
+- [[university/北京邮电大学/北京邮电大学|北京邮电大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://github.com/yuechen-sys
 - https://github.com/kvcache-ai/Mooncake/blob/main/.github/CODEOWNERS
 - https://www.lmsys.org/blog/2026-03-25-eep-partial-failure-tolerance
 - https://arxiv.org/abs/2605.10670
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

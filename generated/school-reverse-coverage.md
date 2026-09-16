@@ -4,12 +4,12 @@
 
 - School nodes: 47
 - Schools with ≥1 linked person: 45
-- Reverse person-school associations: 166
+- Reverse person-school associations: 168
 - Audit errors: 0
 
 | School | Linked people |
 | --- | ---: |
-| [[university/清华大学/清华大学|清华大学]] | 45 |
+| [[university/清华大学/清华大学|清华大学]] | 46 |
 | [[university/UC Berkeley/UC Berkeley|UC Berkeley]] | 20 |
 | [[university/北京大学/北京大学|北京大学]] | 17 |
 | [[university/上海交通大学/上海交通大学|上海交通大学]] | 14 |
@@ -22,6 +22,7 @@
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
 | [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 2 |
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
+| [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | 2 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 2 |
 | [[university/四川大学/四川大学|四川大学]] | 2 |
 | [[university/香港中文大学/香港中文大学|香港中文大学]] | 2 |
@@ -46,7 +47,6 @@
 | [[university/上海科技大学/上海科技大学|上海科技大学]] | 1 |
 | [[university/中山大学/中山大学|中山大学]] | 1 |
 | [[university/北京航空航天大学/北京航空航天大学|北京航空航天大学]] | 1 |
-| [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | 1 |
 | [[university/华中科技大学/华中科技大学|华中科技大学]] | 1 |
 | [[university/南京大学/南京大学|南京大学]] | 1 |
 | [[university/复旦大学/复旦大学|复旦大学]] | 1 |

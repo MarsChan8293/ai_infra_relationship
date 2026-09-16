@@ -6,8 +6,8 @@
 - Companies with ≥1 linked project/community: 29
 - Project/community nodes: 76
 - Project/community nodes with ≥1 linked company: 44
-- Bidirectional association pairs: 60
-- Explicitly asserted on both sides: 60
+- Bidirectional association pairs: 61
+- Explicitly asserted on both sides: 61
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -73,6 +73,7 @@
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
+| [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/道客/道客|道客]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/面壁智能/面壁智能|面壁智能]] | [[company/面壁智能/ForgeTrain|ForgeTrain]] | infra-project |  | both |

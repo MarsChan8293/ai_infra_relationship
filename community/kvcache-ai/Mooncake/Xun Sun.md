@@ -34,6 +34,9 @@ Mooncake 2026 年的 PG RFC 也由其发起，目标包括 device-API-based coll
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：Mooncake / SGLang 集成协作者；Elastic EP 共同作者。
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：Elastic EP 共同作者，连接 Mooncake Store 与 EP/PG 子系统。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://github.com/UNIDY2002
 - https://github.com/kvcache-ai/Mooncake/blob/main/.github/CODEOWNERS

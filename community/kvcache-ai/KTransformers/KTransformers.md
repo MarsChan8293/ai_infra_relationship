@@ -11,6 +11,7 @@ linked_people:
   - "community/kvcache-ai/KTransformers/Jingqi Tang"
   - "community/kvcache-ai/KTransformers/Peilin Li"
   - "community/kvcache-ai/KTransformers/Qingliang Ou"
+  - "community/kvcache-ai/KTransformers/Xianglin Chen"
   - "community/kvcache-ai/KTransformers/Xingxing Hao"
   - "community/kvcache-ai/KTransformers/Ziwei Yuan"
   - "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie"
@@ -57,6 +58,7 @@ https://github.com/kvcache-ai/ktransformers
 - [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[KTransformers]]：官方 Maintainer、论文作者
 - [[community/kvcache-ai/KTransformers/Peilin Li|Peilin Li]]：[[KTransformers]]：官方 Maintainer
 - [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[KTransformers]]：官方 Maintainer、论文作者
+- [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]]：[[company/趋境科技/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]]：Approaching.AI 同组织，KTransformers SOSP 2025 共同作者。
 - [[community/kvcache-ai/KTransformers/Xingxing Hao|Xingxing Hao]]：[[KTransformers]]：官方 Maintainer
 - [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[KTransformers]]：官方 Maintainer、论文作者
 - [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：[[KTransformers]]：官方 Maintainer、SOSP 2025 论文共同第一作者之一；截至 2026-09 KTransformers MAINTAINERS 仍列其为 maintainer。

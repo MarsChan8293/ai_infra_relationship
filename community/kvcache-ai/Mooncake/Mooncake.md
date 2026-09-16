@@ -6,7 +6,12 @@ linked_people:
   - "community/kvcache-ai/Mooncake/Ke Yang"
   - "community/kvcache-ai/Mooncake/Shangming Cai"
   - "community/kvcache-ai/Mooncake/Weiran He"
+  - "community/kvcache-ai/Mooncake/Xinpeng Zhao"
   - "community/kvcache-ai/Mooncake/Xinran Xu"
+  - "community/kvcache-ai/Mooncake/Xuchun Shang"
+  - "community/kvcache-ai/Mooncake/Xun Sun"
+  - "community/kvcache-ai/Mooncake/Yue Chen"
+  - "community/kvcache-ai/Mooncake/Zhanhao Cao"
   - "community/kvcache-ai/Mooncake/Zheming Li"
   - "community/kvcache-ai/Mooncake/任峰 Feng Ren"
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
@@ -16,7 +21,9 @@ linked_people:
   - "company/趋境科技/武永卫 Yongwei Wu"
   - "university/清华大学/Mingxing Zhang"
   - "university/清华大学/Ruoyu Qin"
-companies: ["月之暗面"]
+companies:
+  - "月之暗面"
+  - "趋境科技"
 company_relation: industry-academia-co-development
 layer: kv-cache-centric-serving
 open_source: true
@@ -30,6 +37,7 @@ people:
   - "community/kvcache-ai/Mooncake/Ke Yang"
 linked_companies:
   - "company/月之暗面/月之暗面"
+  - "company/趋境科技/趋境科技"
 last_verified: "2026-09"
 ---
 # Mooncake
@@ -86,7 +94,12 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：[[趋境科技]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ykwd` 标注为 Approaching AI，并使用 `yangke@approaching.ai` 联系邮箱；这里据此记录当前 affiliation，不从邮箱扩展任何职级。
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：[[阿里巴巴]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ShangmingCai` 标注为 Alibaba Cloud，并明确其 Mooncake 职责为 SGLang Integration。
 - [[community/kvcache-ai/Mooncake/Weiran He|Weiran He]]：项目关联；人物页已明确记录该项目。
+- [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]]：**Store integration**：负责 Mooncake Store 集成路径的 code review / ownership。
 - [[community/kvcache-ai/Mooncake/Xinran Xu|Xinran Xu]]：项目关联；人物页已明确记录该项目。
+- [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]]：**Mooncake Store**：当前 module codeowner 之一。
+- [[community/kvcache-ai/Mooncake/Xun Sun|Xun Sun]]：Mooncake maintainer；当前 `CODEOWNERS` 将 `@UNIDY2002` 列为 Mooncake EP、Mooncake PG 以及相关 Python EP 路径的 codeowner。
+- [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]]：[[community/kvcache-ai/Mooncake/Xun Sun|Xun Sun]]：Mooncake EP/PG 共同维护与 Elastic EP 合作者。
+- [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]]：[[community/kvcache-ai/Mooncake/Xun Sun|Xun Sun]]：Mooncake PG / Elastic EP 共同作者与工程协作。
 - [[community/kvcache-ai/Mooncake/Zheming Li|Zheming Li]]：FAST 2025 Mooncake 论文作者。USENIX 官方作者信息将其 2025 论文 affiliation 标为 Moonshot AI。
 - [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：Mooncake 联合创建者之一
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：参与 Mooncake 社区维护与跨生态协作
@@ -105,5 +118,6 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/月之暗面/月之暗面|月之暗面]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-co-development`。
+- [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-co-development`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->

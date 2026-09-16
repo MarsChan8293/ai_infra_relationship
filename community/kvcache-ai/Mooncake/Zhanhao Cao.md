@@ -4,13 +4,13 @@ name: Zhanhao Cao
 aliases: ["caozhanhao", "@caozhanhao"]
 current_affiliations: ["趋境科技"]
 communities: [Mooncake, SGLang]
+linked_companies:
+  - "company/趋境科技/趋境科技"
 projects: [Mooncake]
 roles: [Mooncake PG Contributor, Elastic EP Contributor]
 areas: [expert-parallelism, process-group, llm-inference, distributed-communication, fault-tolerance]
 confidence: verified
 last_verified: "2026-09"
-linked_companies:
-  - "company/趋境科技/趋境科技"
 ---
 # Zhanhao Cao
 
@@ -36,3 +36,12 @@ Mooncake 2026 年代码和发布记录显示 `@caozhanhao` 持续贡献 PG，包
 - https://www.lmsys.org/blog/2026-03-25-eep-partial-failure-tolerance
 - https://arxiv.org/abs/2605.10670
 - https://github.com/kvcache-ai/Mooncake/releases
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

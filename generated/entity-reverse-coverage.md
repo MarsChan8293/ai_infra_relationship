@@ -4,14 +4,14 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked person: 36
-- Company-person associations: 185
+- Company-person associations: 188
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 184
+- People with generated linked_companies: 187
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 351
-- Non-company affiliations recognized and routed elsewhere: 57
-- Unresolved source values (backlog, non-fatal): 0
+- Project/community-person associations: 364
+- Non-company affiliations recognized and routed elsewhere: 58
+- Unresolved source values (backlog, non-fatal): 2
 - Audit errors: 0
 
 ## Companies
@@ -20,7 +20,7 @@
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
 | [[company/华为/华为|华为]] | 20 |
-| [[company/趋境科技/趋境科技|趋境科技]] | 13 |
+| [[company/趋境科技/趋境科技|趋境科技]] | 16 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
@@ -60,14 +60,14 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 24 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 19 |
+| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 19 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
+| [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 15 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
-| [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
-| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
@@ -90,6 +90,7 @@
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
+| [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
@@ -116,10 +117,16 @@
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
 | [[company/Together AI/Ladder Residual|Ladder Residual]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
-| [[community/radixark/Miles/Miles|Miles]] | 1 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
+
+## Unresolved source values
+
+这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
+
+- `community/kvcache-ai/Mooncake/Xinpeng Zhao.md` · `affiliation` → `Alibaba Cloud`
+- `community/kvcache-ai/Mooncake/Xuchun Shang.md` · `affiliation` → `Alibaba Cloud`

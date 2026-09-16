@@ -2,11 +2,11 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 296
-- People with ≥1 school: 128
-- People without known school: 168
-- Coverage: 43.2%
-- Person-school associations: 166
+- Person nodes: 302
+- People with ≥1 school: 130
+- People without known school: 172
+- Coverage: 43.0%
+- Person-school associations: 168
 - School nodes: 47
 - Audit errors: 0
 
@@ -14,7 +14,7 @@
 
 | School | People |
 | --- | ---: |
-| 清华大学 | 45 |
+| 清华大学 | 46 |
 | UC Berkeley | 20 |
 | 北京大学 | 17 |
 | 上海交通大学 | 14 |
@@ -24,6 +24,7 @@
 | Stanford University | 3 |
 | UCLA | 3 |
 | Harvard University | 2 |
+| 北京邮电大学 | 2 |
 | 厦门大学 | 2 |
 | 四川大学 | 2 |
 | Georgia Institute of Technology | 2 |
@@ -38,7 +39,6 @@
 | Columbia University | 1 |
 | 南京大学 | 1 |
 | UC Davis | 1 |
-| 北京邮电大学 | 1 |
 | 复旦大学 | 1 |
 | 北京航空航天大学 | 1 |
 | 中山大学 | 1 |
@@ -49,53 +49,53 @@
 
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
-| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 8.685 | 11 |
-| 2 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
-| 3 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
-| 4 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
-| 5 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 6.52 | 8 |
-| 6 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
-| 7 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
-| 8 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.52 | 8 |
-| 9 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
-| 10 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
-| 11 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.35 | 7 |
-| 12 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
-| 13 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
-| 14 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
-| 15 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
-| 16 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
-| 17 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
-| 18 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
-| 19 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 |
-| 20 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
-| 21 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 6.022 | 4 |
-| 22 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
-| 23 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
-| 24 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
-| 25 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
-| 26 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
-| 27 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
-| 28 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
-| 29 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
-| 30 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
-| 31 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
-| 32 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
-| 33 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
-| 34 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
-| 35 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
-| 36 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
-| 37 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
-| 38 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 39 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
-| 40 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
-| 41 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 42 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
-| 43 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |
-| 44 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
-| 45 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
-| 46 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 |
-| 47 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |
-| 48 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 |
-| 49 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
-| 50 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
+| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.187 | 16 |
+| 2 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.07 | 8 |
+| 3 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
+| 4 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
+| 5 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 |
+| 6 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 |
+| 7 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
+| 8 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
+| 9 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
+| 10 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.52 | 8 |
+| 11 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
+| 12 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
+| 13 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.35 | 7 |
+| 14 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
+| 15 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.35 | 7 |
+| 16 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
+| 17 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
+| 18 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
+| 19 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
+| 20 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
+| 21 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
+| 22 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 |
+| 23 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
+| 24 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 6.022 | 4 |
+| 25 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
+| 26 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
+| 27 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
+| 28 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
+| 29 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
+| 30 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
+| 31 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
+| 32 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
+| 33 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
+| 34 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
+| 35 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
+| 36 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
+| 37 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
+| 38 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
+| 39 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
+| 40 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
+| 41 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
+| 42 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 43 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
+| 44 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
+| 45 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
+| 46 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |
+| 47 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
+| 48 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
+| 49 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 |
+| 50 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |

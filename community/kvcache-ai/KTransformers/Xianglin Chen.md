@@ -3,13 +3,13 @@ type: person
 name: Xianglin Chen
 current_affiliations: ["趋境科技"]
 communities: [KTransformers]
+linked_companies:
+  - "company/趋境科技/趋境科技"
 projects: [KTransformers]
 roles: [KTransformers SOSP 2025 Author]
 areas: [heterogeneous-inference, moe-serving, cpu-gpu-hybrid-inference, llm-inference]
 confidence: verified
 last_verified: "2026-09"
-linked_companies:
-  - "company/趋境科技/趋境科技"
 ---
 # Xianglin Chen
 
@@ -31,3 +31,12 @@ KTransformers 官方仓库进一步把项目维护组织列为清华 MADSys、Ap
 - https://sigops.org/s/conferences/sosp/2025/schedule.html
 - https://github.com/kvcache-ai/ktransformers
 - https://madsys.cs.tsinghua.edu.cn/publication/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

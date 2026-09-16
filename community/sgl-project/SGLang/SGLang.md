@@ -5,6 +5,11 @@ linked_people:
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
   - "community/Ascend/MemCache/nbbb24"
   - "community/kvcache-ai/Mooncake/Shangming Cai"
+  - "community/kvcache-ai/Mooncake/Xinpeng Zhao"
+  - "community/kvcache-ai/Mooncake/Xuchun Shang"
+  - "community/kvcache-ai/Mooncake/Xun Sun"
+  - "community/kvcache-ai/Mooncake/Yue Chen"
+  - "community/kvcache-ai/Mooncake/Zhanhao Cao"
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
   - "community/sgl-project/SGLang/Shenggui Li"
   - "community/sgl-project/SGLang/Yineng Zhang"
@@ -63,6 +68,11 @@ https://github.com/sgl-project/sglang
 - [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]]：[[SGLang]]：NVIDIA/model-specific optimization 与 CI 方向贡献者
 - [[community/Ascend/MemCache/nbbb24|nbbb24]]：2026 年提交 SGLang PR #26043，将 Ascend MemCache 接入 HiCache 作为新的 L3 external storage backend。
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：[[SGLang]]：PD disaggregation / CI 相关核心贡献者
+- [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]]：**Elastic EP**：2026 Elastic EP 论文作者之一，连接 Alibaba Cloud、Mooncake EP/PG 和 SGLang serving。
+- [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]]：**Elastic EP**：2026 Elastic EP 论文作者之一，连接 Alibaba Cloud、Mooncake 与 SGLang。
+- [[community/kvcache-ai/Mooncake/Xun Sun|Xun Sun]]：[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：Mooncake / SGLang 集成协作者；Elastic EP 共同作者。
+- [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]]：[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：连接 Mooncake EP 与 SGLang serving 集成的共同作者网络。
+- [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]]：[[company/趋境科技/趋境科技|趋境科技（Approaching.AI）]]：SGLang 官方 Elastic EP 文章在致谢中将 Zhanhao Cao 明确列入 Approaching AI 团队；因此记录当前组织关联，不据此猜测具体职级。
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：**Alibaba Cloud 同事 + Mooncake Codeowner**。截至 2026-09 两人均公开关联 Alibaba Cloud，并共同维护 Mooncake；马腾偏项目生态/社区与云侧协作，Shangming Cai 负责 SGLang Integration。首次在 Alibaba Cloud 共事的精确月份公开未确认。
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。
