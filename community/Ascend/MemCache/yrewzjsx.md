@@ -3,6 +3,7 @@ type: person
 name: yrewzjsx
 aliases: ["@yrewzjsx"]
 current_affiliations: ["华为"]
+public_email: zhangjinshi2@huawei.com
 projects: [MemCache, MemFabric]
 roles: [Frequent Merge Gatekeeper, Core Contributor]
 areas: [kv-cache, memory-pooling, performance, reliability, ascend]
@@ -15,6 +16,8 @@ last_verified: "2026-09"
 
 ## 公开身份
 公开仓库 merge metadata 长期使用 `yrewzjsx` handle；提交记录中的协作者字段出现 `zhangjinshi2@huawei.com`，足以确认华为项目 affiliation，但当前不据邮箱猜中文实名或职级。
+
+公开职业邮箱：`zhangjinshi2@huawei.com`。
 
 ## MemCache
 - 在 MemCache 的大量 MR 中持续出现 `Merged-by: yrewzjsx`，覆盖配置、存储层、KV Event、CI、文档、可靠性等多个子系统，是当前最明显的代码入口 / 合并把关者之一。
