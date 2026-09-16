@@ -3,6 +3,7 @@ type: person
 name: Zixi Qu
 aliases: ["huawei_zixiqu", "zixiqu", "ZixiQu"]
 current_affiliations: ["华为"]
+public_email: quzixi@huawei.com
 projects: [MemCache, MemFabric]
 roles: [KV Event Contributor, Cross-project Contributor]
 areas: [kv-cache, kv-event, prefill-affinity, distributed-serving, security, memory-pooling, ascend]
@@ -15,6 +16,8 @@ last_verified: "2026-09"
 
 ## 身份核验
 2026 年 MemCache / MemFabric 提交 metadata 同时出现 `huawei_zixiqu`、`zixiqu`、`Zixi Qu` 与 `quzixi@huawei.com`，因此这些 handle 可可靠归并到同一项目人物。这里仅依据当前项目提交记录确认华为 affiliation，不与外部同名个人自动合并。
+
+公开职业邮箱：`quzixi@huawei.com`。
 
 ## MemCache
 - 推进 KV Event：增加 key store/remove/clear 广播，使 PyMotor 的 kv-conductor 能做 prefill 节点亲和性计算。
