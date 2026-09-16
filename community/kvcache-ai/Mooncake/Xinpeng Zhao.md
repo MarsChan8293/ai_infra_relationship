@@ -2,7 +2,9 @@
 type: person
 name: Xinpeng Zhao
 aliases: ["zxpdemonio", "@zxpdemonio"]
-current_affiliations: ["Alibaba Cloud"]
+current_affiliations: ["阿里巴巴"]
+linked_companies:
+  - "company/阿里巴巴/阿里巴巴"
 communities: [Mooncake, SGLang]
 projects: [Mooncake, Miles]
 roles: [Mooncake Store Integration Codeowner, Mooncake Contributor]
@@ -13,6 +15,7 @@ last_verified: "2026-09"
 # Xinpeng Zhao
 
 GitHub：`@zxpdemonio`
+当前关联：[[company/阿里巴巴/阿里巴巴|阿里巴巴 / Alibaba Cloud]]
 
 ## 当前身份
 公开 Mooncake / SGLang 生态材料将 Xinpeng Zhao 列在 Alibaba Cloud / Aliyun 团队。Mooncake 当前 `CODEOWNERS` 中，`@zxpdemonio` 负责 `mooncake-integration/store`，并参与 `mooncake-wheel` 等路径的维护。
