@@ -86,13 +86,13 @@
 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL|sglang-plugin-FL]] | maintainers | unresolved | 2026-09-23 | 8.645 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | originating_org | success | 2026-09-17 | 8.491 |
 | [[university/清华大学/FastDecode|FastDecode]] | originating_org | success | 2026-09-17 | 8.037 |
-| [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 7.657 |
 | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 7.208 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 7.166 |
 | [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.771 |
 | [[university/浙江大学/Zheng Li|Zheng Li]] | project_contribution | success | 2026-09-17 | 6.408 |
 | [[university/上海交通大学/Rong Chen|Rong Chen]] | project_contribution | success | 2026-09-17 | 6.204 |
 | [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇]] | affiliation | success | 2026-09-17 | 6.146 |
+| [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 6.102 |
 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | affiliation | success | 2026-09-17 | 6.099 |
 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | affiliation | success | 2026-09-17 | 6.085 |
 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | affiliation | success | 2026-09-17 | 6.071 |

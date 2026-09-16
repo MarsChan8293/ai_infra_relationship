@@ -61,13 +61,13 @@
 | 31 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
 | 32 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
 | 33 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
-| 34 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 | 2 | 0 |
-| 35 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
-| 36 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 | 4 | 0 |
-| 37 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 | 4 | 0 |
-| 38 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 | 1 | 0 |
-| 39 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 | 2 | 0 |
-| 40 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 | 1 | 0 |
+| 34 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 | 3 | 0 |
+| 35 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 | 2 | 0 |
+| 36 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
+| 37 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 | 4 | 0 |
+| 38 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 | 4 | 0 |
+| 39 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 | 1 | 0 |
+| 40 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 | 2 | 0 |
 
 ## Structured bridge nodes
 

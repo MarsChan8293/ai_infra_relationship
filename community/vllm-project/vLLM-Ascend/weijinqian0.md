@@ -6,6 +6,10 @@ aliases: ["weijinqian0", "@weijinqian0", "weijinqian_v1", "@weijinqian_v1"]
 public_email: weijinqian@huawei.com
 communities: [vLLM-Ascend]
 roles: [Committer, RFC Author]
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 areas: [llm-inference, ascend, attention, operators, graph-execution, moe, kv-cache]
 confidence: high
 last_verified: "2026-09"
@@ -40,3 +44,12 @@ vLLM-Ascend 官方 Contributors 页面将 GitHub ID `@weijinqian0` 对应实名�
 - https://github.com/vllm-project/vllm-ascend/commit/dbe4c338f2fac797bba8d03352f13f4af7da2aa6
 - https://github.com/vllm-project/vllm-ascend/issues/16375
 - https://github.com/vllm-project/vllm-ascend/issues/15067
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->
