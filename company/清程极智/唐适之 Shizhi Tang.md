@@ -28,7 +28,7 @@ relations:
 
 ## 项目贡献
 - [[community/thu-pacman/Chitu/Chitu|Chitu（赤兔）]]：公开演讲和清程极智资料均把唐适之与赤兔推理引擎研发直接关联；项目覆盖多节点、多实例、PD 分离与多元异构算力部署。
-- [[community/QingCheng-AI/BaGuaLu/BaGuaLu|BaGuaLu（八卦炉）]]：BaGuaLu 论文作者网络成员，并从清华 HPC / AI systems 研究线延续到清程极智的训练—推理系统研发。
+- [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu（八卦炉）]]：BaGuaLu 论文作者网络成员，并从清华 HPC / AI systems 研究线延续到清程极智的训练—推理系统研发。
 
 ## 人物关系
 - [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：**清华博士导师 / 学生 + 清程极智产业化网络**。翟季冬课题组公开 alumni 页面将 Shizhi Tang 2024 博士毕业后的去向列为 QingCheng.AI；翟季冬任公司首席科学家。
@@ -42,4 +42,5 @@ relations:
 - https://www.qc-ai.cn/products/chitu
 - https://www.qc-ai.cn/products/bagualu
 - https://github.com/thu-pacman/chitu
+- https://github.com/thu-pacman/BaGuaLu
 - https://tech.ifeng.com/c/8upyBoALrnO
