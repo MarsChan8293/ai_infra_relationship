@@ -2,13 +2,13 @@
 type: project
 name: mini-SGLang
 organization: sgl-project
+linked_people: []
 repository: https://github.com/sgl-project/mini-sglang
 open_source: true
 layer: llm-serving-runtime
 areas: [llm-serving, radix-cache, chunked-prefill, overlap-scheduling, tensor-parallelism, flashinfer, cuda-kernels]
-linked_people:
-  - "university/上海交通大学/Xiaoze Fan"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # mini-SGLang
 

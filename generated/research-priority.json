@@ -5,7 +5,7 @@
   "replacement": "generated/research-actions.json",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1281,
+  "candidate_count": 1283,
   "selected_actions": [
     {
       "action_id": "company/月之暗面/checkpoint-engine::maintainers",
@@ -981,8 +981,8 @@
         "project_docs_or_announcement"
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploration",
-      "priority": 8.297,
+      "bucket": "bridge",
+      "priority": 8.436,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -993,11 +993,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 6.05,
+        "bridge_score": 7.872,
         "novelty": 1.0,
-        "frontier_potential": 0.575,
+        "frontier_potential": 0.514,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
+        "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.1,
@@ -1009,9 +1009,9 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
-        "bridge 6.0"
+        "bridge 7.9"
       ],
-      "base_priority": 8.197,
+      "base_priority": 8.336,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1095,6 +1095,76 @@
           "yield_adjustment": 0.173
         },
         "key_yield_adjustment": 0.173,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/sgl-project/mini-SGLang/mini-SGLang",
+        "name": "mini-SGLang",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.266,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.166,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
       }
     },
@@ -4765,74 +4835,6 @@
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       }
-    },
-    {
-      "action_id": "company/趋境科技/Hongbo Kang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/趋境科技/Hongbo Kang",
-        "name": "Hongbo Kang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.129,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.95,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 8.55,
-        "novelty": 1.0,
-        "frontier_potential": 0.265,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kv-cache",
-        "opens underrepresented target types",
-        "bridge 8.6"
-      ],
-      "base_priority": 6.846,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
     }
   ],
   "planner_entrypoint": "scripts/plan-research.py",
@@ -4924,6 +4926,6 @@
       }
     }
   },
-  "eligible_count": 1255,
+  "eligible_count": 1257,
   "suppressed_count": 26
 }

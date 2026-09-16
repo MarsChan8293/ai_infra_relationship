@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1281
-- Eligible actions: 1255
+- Candidate actions: 1283
+- Eligible actions: 1257
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -42,36 +42,36 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.297 |
-| 2 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
-| 3 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
-| 4 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
-| 5 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
-| 6 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
-| 7 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 8 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
-| 9 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 10 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 11 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 12 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 13 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 14 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
-| 15 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
-| 16 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
-| 17 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
-| 18 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
-| 19 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
-| 20 | [[company/Samsung/Samsung|Samsung]] | company | projects | 7.414 |
-| 21 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
-| 22 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
-| 23 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
-| 24 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
-| 25 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
-| 26 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
-| 27 | [[community/LMCache/LMCache/deng451e|deng451e]] | person | affiliation | 7.323 |
-| 28 | [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]] | person | affiliation | 7.318 |
-| 29 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
-| 30 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
+| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.436 |
+| 2 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.266 |
+| 3 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
+| 4 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
+| 5 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
+| 6 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
+| 7 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
+| 8 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
+| 9 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 10 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 11 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 12 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 13 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 14 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 15 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 16 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
+| 17 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
+| 18 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
+| 19 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
+| 20 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
+| 21 | [[company/Samsung/Samsung|Samsung]] | company | projects | 7.414 |
+| 22 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
+| 23 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
+| 24 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
+| 25 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
+| 26 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
+| 27 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
+| 28 | [[community/LMCache/LMCache/deng451e|deng451e]] | person | affiliation | 7.323 |
+| 29 | [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]] | person | affiliation | 7.318 |
+| 30 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
 
 ## Cooldown / history-suppressed
 
