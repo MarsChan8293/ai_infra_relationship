@@ -6,26 +6,26 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1070
-- Eligible actions: 1052
-- Cooldown-suppressed: 18
-- History records: 20
+- Candidate actions: 1093
+- Eligible actions: 1066
+- Cooldown-suppressed: 27
+- History records: 30
 - Selected actions: 10
 
 ## Selected actions
 
 | Rank | Source | Type | Research action | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL|sglang-plugin-FL]] | project | maintainers | person | exploitation | 8.514 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 2 | [[community/vllm-project/Jenga/Jenga|Jenga]] | project | originating_org | company, school, research, community, team | bridge | 8.491 | new | coverage 0/1；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
-| 3 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | project | maintainers | person | bridge | 8.198 | new | coverage 0/4；source type Project；infra: serving/inference, kernel；opens underrepresented target types |
-| 4 | [[university/清华大学/FastDecode|FastDecode]] | project | originating_org | company, school, research, community, team | exploration | 8.037 | new | coverage 0/1；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 5 | [[company/面壁智能/面壁智能|面壁智能]] | company | projects | project, community, team | exploration | 7.997 | new | coverage 0/3；source type Company；infra: serving/inference, quantization, ascend；opens underrepresented target types |
-| 6 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | person | affiliation | company, school, research, team | exploration | 7.710 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, quantization；opens underrepresented target types |
-| 7 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | person | affiliation | company, school, research, team | exploration | 7.687 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
-| 8 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | person | affiliation | company, school, research, team | exploitation | 7.665 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 9 | [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]] | person | affiliation | company, school, research, team | exploitation | 7.665 | new | coverage 0/2；source type Person；infra: kernel, distributed, moe；opens underrepresented target types |
-| 10 | [[company/华为/华为|华为]] | company | key_people | person | bridge | 7.486 | new | coverage 0/4；source type Company；infra: serving/inference, kernel, distributed；opens underrepresented target types |
+| 1 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | person | exploration | 8.078 | new | coverage 0/4；source type Project；infra: kernel, distributed；opens underrepresented target types |
+| 2 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | person | exploration | 8.078 | new | coverage 0/4；source type Project；infra: serving/inference, quantization；opens underrepresented target types |
+| 3 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | company, school, research, community, team | exploration | 8.033 | new | coverage 0/1；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
+| 4 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | company, school, research, team | exploitation | 7.875 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, ascend；opens underrepresented target types |
+| 5 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | company, school, research, team | exploitation | 7.841 | new | coverage 0/2；source type Person；infra: serving/inference, disaggregation, ascend；opens underrepresented target types |
+| 6 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | company, school, research, team | exploration | 7.834 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, ascend；opens underrepresented target types |
+| 7 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | company, school, research, team | exploitation | 7.706 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, distributed；opens underrepresented target types |
+| 8 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | project, community, team | bridge | 7.514 | new | coverage 0/3；source type Company；infra: serving/inference, kernel；opens underrepresented target types |
+| 9 | [[company/xAI/xAI|xAI]] | company | projects | project, community, team | verification | 7.423 | new | coverage 0/3；source type Company；infra: serving/inference, kernel；opens underrepresented target types |
+| 10 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | person | exploitation | 7.407 | new | coverage 0/4；source type Project；infra: serving/inference；opens underrepresented target types |
 
 ## Agent execution contract
 
@@ -42,36 +42,36 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 7.933 |
-| 2 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.660 |
-| 3 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.626 |
-| 4 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.619 |
-| 5 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | 7.531 |
-| 6 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
-| 7 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.491 |
-| 8 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.456 |
-| 9 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
-| 10 | [[company/xAI/xAI|xAI]] | company | projects | 7.365 |
-| 11 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
-| 12 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.324 |
-| 13 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.304 |
-| 14 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
-| 15 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.282 |
-| 16 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.282 |
-| 17 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.282 |
-| 18 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.276 |
-| 19 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.257 |
-| 20 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.250 |
-| 21 | [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | school | labs_or_groups | 7.211 |
-| 22 | [[company/派欧云/王闻宇 Wayne Wang|王闻宇]] | person | project_contribution | 7.201 |
-| 23 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | project | originating_org | 7.134 |
-| 24 | [[company/趋境科技/Hongbo Kang|Hongbo Kang]] | person | project_contribution | 7.129 |
-| 25 | [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]] | person | affiliation | 7.061 |
-| 26 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | person | project_contribution | 7.057 |
-| 27 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | person | project_contribution | 7.053 |
-| 28 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | person | project_contribution | 7.051 |
-| 29 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | person | affiliation | 7.047 |
-| 30 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | maintainers | 7.013 |
+| 1 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | 7.531 |
+| 2 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 3 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
+| 4 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
+| 5 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
+| 6 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
+| 7 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
+| 8 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
+| 9 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
+| 10 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
+| 11 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
+| 12 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
+| 13 | [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]] | person | affiliation | 7.276 |
+| 14 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | person | affiliation | 7.262 |
+| 15 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | project | originating_org | 7.234 |
+| 16 | [[community/triton-inference-server/Triton-Inference-Server/Faradawn Yang|Faradawn Yang]] | person | affiliation | 7.227 |
+| 17 | [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | school | labs_or_groups | 7.211 |
+| 18 | [[company/派欧云/王闻宇 Wayne Wang|王闻宇]] | person | project_contribution | 7.201 |
+| 19 | [[community/ModelTC/LightLLM/Hailong Yang|Hailong Yang]] | person | affiliation | 7.193 |
+| 20 | [[community/ModelTC/LightLLM/Ruihao Gong|Ruihao Gong]] | person | affiliation | 7.193 |
+| 21 | [[community/ModelTC/LightLLM/Siyu Wu|Siyu Wu]] | person | affiliation | 7.193 |
+| 22 | [[community/Project-HAMi/HAMi/DSFans2014|DSFans2014]] | person | affiliation | 7.188 |
+| 23 | [[community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen|陈乐群]] | person | affiliation | 7.159 |
+| 24 | [[community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu|吕梦思]] | person | affiliation | 7.140 |
+| 25 | [[company/趋境科技/Hongbo Kang|Hongbo Kang]] | person | project_contribution | 7.129 |
+| 26 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | maintainers | 7.096 |
+| 27 | [[community/vllm-project/AIBrix/Jianliang Qi|Jianliang Qi]] | person | affiliation | 7.079 |
+| 28 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | person | project_contribution | 7.057 |
+| 29 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | person | project_contribution | 7.053 |
+| 30 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | person | project_contribution | 7.051 |
 
 ## Cooldown / history-suppressed
 
@@ -85,13 +85,22 @@
 | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | maintainers | unresolved | 2026-09-23 | 9.182 |
 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | maintainers | unresolved | 2026-09-23 | 8.929 |
 | [[company/月之暗面/MoonEP|MoonEP]] | maintainers | unresolved | 2026-09-23 | 8.758 |
+| [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL|sglang-plugin-FL]] | maintainers | unresolved | 2026-09-23 | 8.645 |
+| [[community/vllm-project/Jenga/Jenga|Jenga]] | originating_org | success | 2026-09-17 | 8.491 |
+| [[university/清华大学/FastDecode|FastDecode]] | originating_org | success | 2026-09-17 | 8.037 |
 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 7.657 |
 | [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.771 |
 | [[university/浙江大学/Zheng Li|Zheng Li]] | project_contribution | success | 2026-09-17 | 6.408 |
 | [[university/上海交通大学/Rong Chen|Rong Chen]] | project_contribution | success | 2026-09-17 | 6.204 |
 | [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇]] | affiliation | success | 2026-09-17 | 6.146 |
+| [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | affiliation | success | 2026-09-17 | 6.099 |
+| [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | affiliation | success | 2026-09-17 | 6.085 |
+| [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | affiliation | success | 2026-09-17 | 6.071 |
+| [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | affiliation | success | 2026-09-17 | 6.071 |
+| [[company/面壁智能/面壁智能|面壁智能]] | projects | success | 2026-09-17 | 5.804 |
 | [[university/上海交通大学/上海交通大学|上海交通大学]] | labs_or_groups | partial | 2026-09-18 | 5.833 |
 | [[university/浙江大学/浙江大学|浙江大学]] | labs_or_groups | success | 2026-09-17 | 5.729 |
 | [[university/University of Chicago/University of Chicago|University of Chicago]] | labs_or_groups | success | 2026-09-17 | 5.656 |
 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | project_contribution | success | 2026-09-17 | 5.486 |
 | [[company/清程极智/唐适之 Shizhi Tang|唐适之]] | project_contribution | success | 2026-09-17 | 5.448 |
+| [[company/华为/华为|华为]] | key_people | success | 2026-09-17 | 5.079 |

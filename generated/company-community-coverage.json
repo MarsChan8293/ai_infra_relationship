@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 42,
-  "companies_with_links": 28,
-  "project_community_nodes": 63,
-  "project_community_nodes_with_links": 39,
-  "association_pairs": 55,
-  "asserted_on_both_sides": 55,
+  "companies_with_links": 29,
+  "project_community_nodes": 64,
+  "project_community_nodes_with_links": 40,
+  "association_pairs": 56,
+  "asserted_on_both_sides": 56,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -20,6 +20,10 @@
     {
       "source": "company/阿里巴巴/阿里巴巴.md",
       "value": "Qwen-Coder"
+    },
+    {
+      "source": "company/面壁智能/面壁智能.md",
+      "value": "MiniCPM"
     }
   ],
   "unresolved_source_values": [],
@@ -680,6 +684,18 @@
       "entity_name": "TokenSpeed",
       "entity_type": "project",
       "relation": "cross-company-co-creation",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/面壁智能/面壁智能",
+      "company_name": "面壁智能",
+      "entity_id": "company/面壁智能/ForgeTrain",
+      "entity_name": "ForgeTrain",
+      "entity_type": "infra-project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

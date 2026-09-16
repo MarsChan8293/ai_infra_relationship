@@ -15,6 +15,8 @@ linked_people:
   - "community/ai-dynamo/NIXL/Ilia Yastrebov"
   - "community/ai-dynamo/NIXL/Mikhail Brinskiy"
   - "community/ai-dynamo/NIXL/Tomer Davidor"
+  - "community/flashinfer-ai/FlashInfer/aleozlx"
+  - "community/flashinfer-ai/FlashInfer/Brian K. Ryu"
   - "community/flashinfer-ai/FlashInfer/Jingfan Sun"
   - "community/flashinfer-ai/FlashInfer/Yang Xu"
   - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
@@ -83,6 +85,8 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]]：[[NVIDIA]]
 - [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]]：[[NVIDIA]]
 - [[community/ai-dynamo/NIXL/Tomer Davidor|Tomer Davidor]]：[[NVIDIA]]
+- [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
 - [[community/flashinfer-ai/FlashInfer/Jingfan Sun|Jingfan Sun]]：[[NVIDIA]]：Software Engineer
 - [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：[[NVIDIA]]
 - [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：[[NVIDIA]]：AI Compiler 工程方向

@@ -1083,7 +1083,8 @@
         "npu-kernels",
         "quantization"
       ],
-      "linked_people": [],
+      "people": "",
+      "linked_people": "",
       "projects": [
         "vLLM-Ascend",
         "MindIE-LLM",
@@ -3484,6 +3485,54 @@
     }
   },
   {
+    "id": "company/面壁智能/ForgeTrain",
+    "path": "company/面壁智能/ForgeTrain.md",
+    "name": "ForgeTrain",
+    "type": "infra-project",
+    "category": "company",
+    "frontmatter": {
+      "type": "infra-project",
+      "name": "ForgeTrain",
+      "company": "面壁智能",
+      "linked_people": [],
+      "areas": [
+        "llm-training",
+        "cuda-kernels",
+        "triton",
+        "distributed-training",
+        "performance-optimization"
+      ],
+      "layer": "training-framework",
+      "open_source": true,
+      "repository": "https://github.com/OpenBMB/ForgeTrain",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "company/面壁智能/MiniCPM",
+    "path": "company/面壁智能/MiniCPM.md",
+    "name": "MiniCPM",
+    "type": "model-project",
+    "category": "company",
+    "frontmatter": {
+      "type": "model-project",
+      "name": "MiniCPM",
+      "model": "MiniCPM",
+      "company": "面壁智能",
+      "areas": [
+        "on-device-inference",
+        "efficient-llm",
+        "quantization",
+        "long-context"
+      ],
+      "public_repo": true,
+      "repository": "https://github.com/OpenBMB/MiniCPM",
+      "open_weights": true,
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "company/面壁智能/面壁智能",
     "path": "company/面壁智能/面壁智能.md",
     "name": "面壁智能",
@@ -3505,8 +3554,12 @@
         "ascend"
       ],
       "people": "",
+      "projects": [
+        "MiniCPM",
+        "ForgeTrain"
+      ],
       "last_verified": "2026-09",
-      "linked_projects": []
+      "linked_projects": ""
     }
   },
   {
@@ -3625,15 +3678,23 @@
       "aliases": [
         "kostyab"
       ],
+      "current_affiliations": [
+        "华为"
+      ],
       "communities": [
         "ops-transformer"
+      ],
+      "roles": [
+        "Senior Researcher"
       ],
       "areas": [
         "ascendc",
         "sparse-attention",
         "kv-cache",
         "llm-decoding"
-      ]
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -3686,6 +3747,12 @@
     "frontmatter": {
       "type": "person",
       "name": "wangchao661",
+      "aliases": [
+        "@wangchao661"
+      ],
+      "current_affiliations": [
+        "华为"
+      ],
       "communities": [
         "ops-transformer"
       ],
@@ -3694,7 +3761,9 @@
         "mxfp4",
         "quantization",
         "inference-kernel"
-      ]
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -5890,7 +5959,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagTree",
-      "linked_people": [],
+      "linked_people": "",
       "companies": [],
       "company_relation": "community-led",
       "layer": "ai-compiler",
@@ -5902,8 +5971,171 @@
         "heterogeneous-computing",
         "multi-backend"
       ],
+      "people": "",
       "last_verified": "2026-09",
       "linked_companies": []
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/Galaxy1458",
+    "path": "community/flagos-ai/FlagTree/Galaxy1458.md",
+    "name": "Galaxy1458",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Galaxy1458",
+      "aliases": [
+        "@Galaxy1458"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/i3wanna2",
+    "path": "community/flagos-ai/FlagTree/i3wanna2.md",
+    "name": "i3wanna2",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "i3wanna2",
+      "aliases": [
+        "@i3wanna2"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/menchunlei",
+    "path": "community/flagos-ai/FlagTree/menchunlei.md",
+    "name": "menchunlei",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "menchunlei",
+      "aliases": [
+        "@menchunlei"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/sgjzfzzf",
+    "path": "community/flagos-ai/FlagTree/sgjzfzzf.md",
+    "name": "sgjzfzzf",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "sgjzfzzf",
+      "aliases": [
+        "@sgjzfzzf"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/sunnycase",
+    "path": "community/flagos-ai/FlagTree/sunnycase.md",
+    "name": "sunnycase",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "sunnycase",
+      "aliases": [
+        "@sunnycase"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/flagos-ai/FlagTree/zhzhcookie",
+    "path": "community/flagos-ai/FlagTree/zhzhcookie.md",
+    "name": "zhzhcookie",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "zhzhcookie",
+      "aliases": [
+        "@zhzhcookie"
+      ],
+      "projects": [
+        "FlagTree"
+      ],
+      "roles": [
+        "Maintainer"
+      ],
+      "areas": [
+        "ai-compiler",
+        "triton",
+        "heterogeneous-computing"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -5965,12 +6197,28 @@
     "frontmatter": {
       "type": "person",
       "name": "Brian K. Ryu",
+      "aliases": [
+        "Brian Ryu",
+        "bkryu"
+      ],
+      "current_affiliations": [
+        "NVIDIA"
+      ],
       "communities": [
         "FlashInfer"
       ],
       "roles": [
         "Full Codebase Approver"
-      ]
+      ],
+      "areas": [
+        "gpu-inference-kernels",
+        "attention",
+        "moe",
+        "low-precision",
+        "blackwell"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -6083,19 +6331,34 @@
   {
     "id": "community/flashinfer-ai/FlashInfer/aleozlx",
     "path": "community/flashinfer-ai/FlashInfer/aleozlx.md",
-    "name": "aleozlx",
+    "name": "Alex Yang",
     "type": "person",
     "category": "community",
     "frontmatter": {
       "type": "person",
-      "name": "aleozlx",
+      "name": "Alex Yang",
+      "aliases": [
+        "aleozlx",
+        "@aleozlx"
+      ],
+      "current_affiliations": [
+        "NVIDIA"
+      ],
       "communities": [
         "FlashInfer"
       ],
       "roles": [
         "Full Codebase Approver"
       ],
-      "identity_status": "public-handle"
+      "areas": [
+        "quantization",
+        "moe",
+        "gpu-inference-kernels",
+        "ci",
+        "api-governance"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {

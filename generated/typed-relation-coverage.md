@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 356
-- Person nodes with typed relations: 110 / 246
+- Person nodes with typed relations: 110 / 252
 - Hard errors: 0
 - Warnings: 5
 
@@ -47,27 +47,27 @@
 | 17 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
 | 18 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
 | 19 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
-| 20 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
-| 21 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
-| 22 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
-| 23 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
-| 24 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
-| 25 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 | 4 | 0 |
-| 26 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 | 4 | 0 |
-| 27 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 | 2 | 0 |
-| 28 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 | 1 | 0 |
-| 29 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 | 1 | 0 |
-| 30 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | 5.350 | 3 | 2 | 0 |
-| 31 | [[company/阿里巴巴/林俊旸 Junyang Lin|林俊旸]] | 4.822 | 9 | 5 | 0 |
-| 32 | [[company/阿里巴巴/惠彬原 Binyuan Hui|惠彬原]] | 4.670 | 8 | 4 | 0 |
-| 33 | [[company/阿里巴巴/郁博文 Bowen Yu|郁博文]] | 4.670 | 8 | 4 | 0 |
-| 34 | [[university/上海交通大学/Haibo Chen|Haibo Chen]] | 4.307 | 6 | 3 | 0 |
-| 35 | [[university/上海交通大学/Rong Chen|Rong Chen]] | 4.307 | 6 | 3 | 0 |
-| 36 | [[university/上海交通大学/Rongxin Cheng|Rongxin Cheng]] | 4.307 | 6 | 3 | 0 |
-| 37 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | 4.307 | 6 | 3 | 0 |
-| 38 | [[university/上海交通大学/Xingda Wei|Xingda Wei]] | 4.307 | 6 | 3 | 0 |
-| 39 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 4.085 | 5 | 4 | 0 |
-| 40 | [[company/OpenAI/Randall Lin|Randall Lin]] | 4.085 | 5 | 3 | 0 |
+| 20 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
+| 21 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
+| 22 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
+| 23 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
+| 24 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
+| 25 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
+| 26 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
+| 27 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 | 4 | 0 |
+| 28 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 | 4 | 0 |
+| 29 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 | 1 | 0 |
+| 30 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 | 2 | 0 |
+| 31 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 | 1 | 0 |
+| 32 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 | 1 | 0 |
+| 33 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | 5.350 | 3 | 2 | 0 |
+| 34 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | 5.350 | 3 | 1 | 0 |
+| 35 | [[company/阿里巴巴/林俊旸 Junyang Lin|林俊旸]] | 4.822 | 9 | 5 | 0 |
+| 36 | [[company/阿里巴巴/惠彬原 Binyuan Hui|惠彬原]] | 4.670 | 8 | 4 | 0 |
+| 37 | [[company/阿里巴巴/郁博文 Bowen Yu|郁博文]] | 4.670 | 8 | 4 | 0 |
+| 38 | [[university/上海交通大学/Haibo Chen|Haibo Chen]] | 4.307 | 6 | 3 | 0 |
+| 39 | [[university/上海交通大学/Rong Chen|Rong Chen]] | 4.307 | 6 | 3 | 0 |
+| 40 | [[university/上海交通大学/Rongxin Cheng|Rongxin Cheng]] | 4.307 | 6 | 3 | 0 |
 
 ## Structured bridge nodes
 

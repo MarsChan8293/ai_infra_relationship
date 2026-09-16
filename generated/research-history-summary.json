@@ -1,34 +1,44 @@
 {
   "as_of": "2026-09-16",
-  "history_records": 20,
-  "suppressed_by_cooldown": 18,
+  "history_records": 30,
+  "suppressed_by_cooldown": 27,
   "partial_followup_candidates": 2,
   "latest_status_counts_in_current_candidates": {
     "partial": 2,
-    "success": 8,
-    "unresolved": 8
+    "success": 16,
+    "unresolved": 9
   },
   "action_key_stats": {
-    "company:projects:project+community+team": {
-      "attempts": 2,
+    "company:key_people:person": {
+      "attempts": 1,
       "statuses": {
-        "success": 2
-      },
-      "mean_status_value": 1.0,
-      "mean_reward": 7.5,
-      "reward_signal": 0.954,
-      "yield_adjustment": 0.115
-    },
-    "person:affiliation:company+school+research+team": {
-      "attempts": 2,
-      "statuses": {
-        "partial": 1,
         "success": 1
       },
-      "mean_status_value": 0.675,
-      "mean_reward": 3.25,
-      "reward_signal": 0.671,
-      "yield_adjustment": 0.079
+      "mean_status_value": 1.0,
+      "mean_reward": 2.5,
+      "reward_signal": 0.555,
+      "yield_adjustment": 0.052
+    },
+    "company:projects:project+community+team": {
+      "attempts": 3,
+      "statuses": {
+        "success": 3
+      },
+      "mean_status_value": 1.0,
+      "mean_reward": 7.667,
+      "reward_signal": 0.958,
+      "yield_adjustment": 0.173
+    },
+    "person:affiliation:company+school+research+team": {
+      "attempts": 6,
+      "statuses": {
+        "partial": 1,
+        "success": 5
+      },
+      "mean_status_value": 0.892,
+      "mean_reward": 3.333,
+      "reward_signal": 0.682,
+      "yield_adjustment": 0.294
     },
     "person:project_contribution:project+community": {
       "attempts": 5,
@@ -41,14 +51,25 @@
       "yield_adjustment": 0.283
     },
     "project:maintainers:person": {
-      "attempts": 8,
+      "attempts": 10,
       "statuses": {
-        "unresolved": 8
+        "success": 1,
+        "unresolved": 9
       },
-      "mean_status_value": -0.5,
-      "mean_reward": 0.0,
-      "reward_signal": 0.0,
-      "yield_adjustment": -0.131
+      "mean_status_value": -0.35,
+      "mean_reward": 2.225,
+      "reward_signal": 0.505,
+      "yield_adjustment": -0.048
+    },
+    "project:originating_org:company+school+research+community+team": {
+      "attempts": 2,
+      "statuses": {
+        "success": 2
+      },
+      "mean_status_value": 1.0,
+      "mean_reward": 1.75,
+      "reward_signal": 0.412,
+      "yield_adjustment": 0.1
     },
     "school:labs_or_groups:research+team": {
       "attempts": 3,

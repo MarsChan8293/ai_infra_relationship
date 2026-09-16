@@ -3,14 +3,14 @@
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
 - Company nodes: 42
-- Companies with ≥1 linked project/community: 28
-- Project/community nodes: 63
-- Project/community nodes with ≥1 linked company: 39
-- Bidirectional association pairs: 55
-- Explicitly asserted on both sides: 55
+- Companies with ≥1 linked project/community: 29
+- Project/community nodes: 64
+- Project/community nodes with ≥1 linked company: 40
+- Bidirectional association pairs: 56
+- Explicitly asserted on both sides: 56
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
-- Recognized non-community project targets: 3
+- Recognized non-community project targets: 4
 - Unresolved explicit source values: 0
 - Audit errors: 0
 
@@ -71,9 +71,11 @@
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
 | [[company/道客/道客|道客]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
+| [[company/面壁智能/面壁智能|面壁智能]] | [[company/面壁智能/ForgeTrain|ForgeTrain]] | infra-project |  | both |
 
 ## Recognized non-community project targets
 
 - company/阿里巴巴/阿里巴巴.md → `Qwen`
 - company/阿里巴巴/阿里巴巴.md → `Qwen3`
 - company/阿里巴巴/阿里巴巴.md → `Qwen-Coder`
+- company/面壁智能/面壁智能.md → `MiniCPM`

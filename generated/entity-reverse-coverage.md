@@ -3,11 +3,11 @@
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。
 
 - Company nodes: 42
-- Companies with ≥1 linked person: 33
-- Company-person associations: 156
-- Project/community nodes: 68
-- Project/community nodes with ≥1 linked person: 54
-- Project/community-person associations: 276
+- Companies with ≥1 linked person: 34
+- Company-person associations: 160
+- Project/community nodes: 69
+- Project/community nodes with ≥1 linked person: 55
+- Project/community-person associations: 282
 - Non-company affiliations recognized and routed elsewhere: 55
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -16,7 +16,7 @@
 
 | Company | Linked people |
 | --- | ---: |
-| [[company/NVIDIA/NVIDIA|NVIDIA]] | 30 |
+| [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |
@@ -38,6 +38,7 @@
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
+| [[company/华为/华为|华为]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
@@ -70,6 +71,7 @@
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
+| [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |

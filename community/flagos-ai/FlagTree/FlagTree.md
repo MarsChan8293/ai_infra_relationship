@@ -1,7 +1,13 @@
 ---
 type: project
 name: FlagTree
-linked_people: []
+linked_people:
+  - "community/flagos-ai/FlagTree/Galaxy1458"
+  - "community/flagos-ai/FlagTree/i3wanna2"
+  - "community/flagos-ai/FlagTree/menchunlei"
+  - "community/flagos-ai/FlagTree/sgjzfzzf"
+  - "community/flagos-ai/FlagTree/sunnycase"
+  - "community/flagos-ai/FlagTree/zhzhcookie"
 companies: []
 company_relation: community-led
 layer: ai-compiler
@@ -39,3 +45,17 @@ FlagTree 官方 `MAINTAINERS.md` 明确列出 6 位项目维护者：[[community
 - https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
 - https://hub.baai.ac.cn/view/46246
 - https://hub.baai.ac.cn/view/57117
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/flagos-ai/FlagTree/Galaxy1458|Galaxy1458]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagTree/i3wanna2|i3wanna2]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagTree/menchunlei|menchunlei]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagTree/sgjzfzzf|sgjzfzzf]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagTree/sunnycase|sunnycase]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagTree/zhzhcookie|zhzhcookie]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+
+<!-- END AUTO PROJECT PEOPLE -->

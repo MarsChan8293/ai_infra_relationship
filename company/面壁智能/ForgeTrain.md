@@ -2,11 +2,14 @@
 type: infra-project
 name: ForgeTrain
 company: 面壁智能
+linked_people: []
 areas: [llm-training, cuda-kernels, triton, distributed-training, performance-optimization]
 layer: training-framework
 open_source: true
 repository: https://github.com/OpenBMB/ForgeTrain
 last_verified: "2026-09"
+linked_companies:
+  - "company/面壁智能/面壁智能"
 ---
 # ForgeTrain
 
@@ -19,3 +22,12 @@ ForgeTrain 是 OpenBMB 公开的 LLM pretraining framework。官方仓库在 202
 ## Sources
 - https://github.com/OpenBMB/ForgeTrain
 - https://www.modelbest.cn/
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/面壁智能/面壁智能|面壁智能]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
