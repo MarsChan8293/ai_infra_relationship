@@ -2,15 +2,13 @@
 type: project
 name: FreeToken
 organization: FlashML
+linked_people: []
 repository: https://github.com/FlashML-org/FreeToken
 open_source: true
 layer: edge-moe-serving
 areas: [llm-inference, moe-inference, edge-inference, cpu-gpu-coexecution, expert-caching, kv-cache, memory-management, quantization, cuda-kernels, agent-serving]
-linked_people:
-  - "university/UC Berkeley/Shuo Yang"
-  - "university/上海交通大学/Xiaoze Fan"
-  - "company/Inferact/Ion Stoica"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FreeToken
 
