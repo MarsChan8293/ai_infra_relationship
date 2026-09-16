@@ -7,6 +7,9 @@ current_affiliations: ["RadixArk"]
 schools:
   - "UC Berkeley"
   - "清华大学"
+projects:
+  - SGLang
+  - Miles
 roles: [cofounder, CTO]
 areas: [foundation-models, post-training, ai-infrastructure]
 last_verified: "2026-09"
@@ -31,6 +34,10 @@ relations:
 - [[NVIDIA]]：Nexusflow 被收购后加入，公开资料曾列 Principal Research Scientist
 - [[RadixArk]]：联合创始人、CTO；公司在 2025 年下半年已公开运行
 
+## 开源项目
+- [[SGLang]]：个人主页将 `sgl-project/sglang` 直接列在 Open Source 部分，并说明 RadixArk 团队由 SGLang creators / core developers 组成。
+- [[community/radixark/Miles/Miles|Miles]]：RadixArk 的大规模 post-training / RL infrastructure；个人主页明确将 Miles 与 SGLang 一起作为团队构建的 open AI infra。
+
 ## 人物关系
 - [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：**共同创业**。两人于 2025 年下半年共同启动 / 运营 [[RadixArk]]；截至 2026-09 盛颖任 CEO、朱邦华任 CTO，在 SGLang 生态、训练/推理基础设施与 post-training 商业化方向共事。
 - [[RadixArk/Qiaolin Yu|Qiaolin Yu]]：**RadixArk 同事**。Qiaolin Yu 公开履历显示 2025-12 加入 RadixArk founding team 任 MTS；2025-12–至今与朱邦华共事，主要负责 SGLang speculative decoding、模型优化和 GPU performance。
@@ -39,5 +46,8 @@ relations:
 - [[RadixArk/Xiaoyu Zhang|Xiaoyu Zhang / BBuf]]：**RadixArk 同事**。截至 2026-09 同属 RadixArk；Xiaoyu 负责 SGLang kernel、diffusion、多模态生成与 DeepSeek 优化。精确入职月份公开未确认。
 
 ## Sources
+- https://banghua.me/
+- https://github.com/sgl-project/sglang
+- https://github.com/radixark/miles
 - https://simons.berkeley.edu/people/banghua-zhu
 - https://www.linkedin.com/in/yingsheng1123
