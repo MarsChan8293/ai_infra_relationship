@@ -6,6 +6,7 @@ linked_people:
   - "community/kvcache-ai/Mooncake/Ke Yang"
   - "community/kvcache-ai/Mooncake/Shangming Cai"
   - "community/kvcache-ai/Mooncake/Zheming Li"
+  - "university/清华大学/Ruoyu Qin"
 layer: data-movement
 open_source: true
 repository: https://github.com/kvcache-ai/Mooncake
@@ -53,5 +54,6 @@ TENT 显示 Mooncake 的核心能力已经从“KV cache system”扩展到更�
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：2026 [[TENT]] 论文作者之一，连接 KV cache storage 与新一代异构数据移动层
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：2026 [[TENT]] 论文作者之一，把 Mooncake 数据移动层与 SGLang disaggregated serving 继续连在一起
 - [[community/kvcache-ai/Mooncake/Zheming Li|Zheming Li]]：2026 TENT 论文继续署名，说明其研究/工程贡献从 KVCache-centric serving 延伸到 Mooncake 下一代数据移动层。
+- [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：[[community/kvcache-ai/Mooncake/TENT|TENT]]：论文作者之一，参与新一代 disaggregated serving 异构 data movement 层。
 
 <!-- END AUTO PROJECT PEOPLE -->

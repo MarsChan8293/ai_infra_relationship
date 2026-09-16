@@ -12882,7 +12882,9 @@
         "english_name": "Ruoyu Qin",
         "aliases": [
           "Ruoyu Qin",
-          "秦若愚"
+          "秦若愚",
+          "chestnut-Q",
+          "@chestnut-Q"
         ],
         "current_affiliations": [
           "Tsinghua University",
@@ -12892,8 +12894,12 @@
         ],
         "schools": "",
         "linked_companies": "",
+        "communities": [
+          "Mooncake"
+        ],
         "projects": [
           "Mooncake",
+          "TENT",
           "Seer"
         ],
         "areas": [
@@ -12901,11 +12907,13 @@
           "kv-cache",
           "distributed-systems",
           "rl-rollout",
-          "speculative-decoding"
+          "speculative-decoding",
+          "data-movement"
         ],
         "roles": [
           "PhD Student",
-          "Research Intern"
+          "Research Intern",
+          "Mooncake Transfer Engine Codeowner"
         ],
         "confidence": "verified",
         "last_verified": "2026-09",
@@ -17905,6 +17913,11 @@
     {
       "source": "community/kvcache-ai/Mooncake/TENT",
       "target": "community/sgl-project/SGLang/Yineng Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/TENT",
+      "target": "university/清华大学/Ruoyu Qin",
       "kind": "wikilink"
     },
     {
@@ -28814,6 +28827,16 @@
     },
     {
       "source": "university/清华大学/Ruoyu Qin",
+      "target": "community/kvcache-ai/Mooncake/TENT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/清华大学/Ruoyu Qin",
+      "target": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/清华大学/Ruoyu Qin",
       "target": "company/月之暗面/Seer",
       "kind": "wikilink"
     },
@@ -32333,12 +32356,13 @@
       "bridge_score": 7.157
     },
     "community/kvcache-ai/Mooncake/TENT": {
-      "degree": 8,
-      "cross_category_degree": 0,
+      "degree": 9,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "university"
       ],
-      "bridge_score": 4.67
+      "bridge_score": 6.672
     },
     "community/kvcache-ai/Mooncake/Weiran He": {
       "degree": 1,
@@ -32411,14 +32435,14 @@
       "bridge_score": 3.085
     },
     "community/kvcache-ai/Mooncake/任峰 Feng Ren": {
-      "degree": 11,
-      "cross_category_degree": 4,
+      "degree": 12,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.485
+      "bridge_score": 9.95
     },
     "community/kvcache-ai/Mooncake/马腾 Teng Ma": {
       "degree": 12,
@@ -34022,14 +34046,14 @@
       "bridge_score": 12.948
     },
     "university/清华大学/Ruoyu Qin": {
-      "degree": 9,
-      "cross_category_degree": 5,
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.572
+      "bridge_score": 10.535
     },
     "university/清华大学/Weimin Zheng": {
       "degree": 7,

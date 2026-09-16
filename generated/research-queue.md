@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1268
-- Eligible actions: 1242
+- Candidate actions: 1267
+- Eligible actions: 1241
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -42,11 +42,11 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
-| 2 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
-| 3 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
-| 4 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
-| 5 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 7.924 |
+| 1 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
+| 2 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
+| 3 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
+| 4 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
+| 5 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
 | 6 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
 | 7 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
 | 8 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |

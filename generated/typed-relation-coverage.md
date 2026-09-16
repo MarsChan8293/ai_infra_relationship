@@ -13,10 +13,10 @@
 - `paper-coauthor`: 139
 - `open-source-collaboration`: 74
 - `research-collaboration`: 73
-- `mentor-network`: 53
+- `mentor-network`: 52
 - `technical-collaboration`: 51
 - `cofounder`: 38
-- `advisor`: 17
+- `advisor`: 18
 - `student`: 10
 - `same-lab`: 10
 - `community-maintainer`: 10
@@ -90,16 +90,16 @@
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
+| [[university/清华大学/Ruoyu Qin|秦若愚]] | 10.535 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
 | [[company/清程极智/郑纬民 Weimin Zheng|郑纬民]] | 10.300 | 4 | 2 | 50.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
+| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 9.950 | 4 | 1 | 25.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
-| [[university/清华大学/Ruoyu Qin|秦若愚]] | 9.572 | 3 | 3 | 100.0% |
 | [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] | 9.485 | 4 | 4 | 100.0% |
-| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 9.485 | 4 | 1 | 25.0% |
 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | 9.485 | 5 | 5 | 100.0% |

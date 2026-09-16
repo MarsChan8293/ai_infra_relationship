@@ -9,7 +9,7 @@
 - People with generated linked_companies: 189
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 364
+- Project/community-person associations: 365
 - Non-company affiliations recognized and routed elsewhere: 58
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -82,9 +82,9 @@
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
+| [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
-| [[community/kvcache-ai/Mooncake/TENT|TENT]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
