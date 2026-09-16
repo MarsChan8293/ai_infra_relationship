@@ -2,6 +2,9 @@
 type: company
 name: Ollama
 aliases: ["Ollama"]
+linked_people:
+  - "company/Ollama/Jeffrey Morgan"
+  - "company/Ollama/Michael Chiang"
 areas: [local-inference, hybrid-inference, open-models, developer-tools, model-serving, model-runtime]
 projects: [Ollama]
 people:
@@ -9,6 +12,8 @@ people:
   - "company/Ollama/Michael Chiang"
 headquarters: San Francisco
 last_verified: "2026-09"
+linked_projects:
+  - "community/ollama/Ollama/Ollama"
 ---
 # Ollama
 
@@ -43,3 +48,22 @@ Ollama 2026-07 官方宣布已融资累计 88M 美元，投资方包括 Benchmar
 - https://ollama.com/blog/all-aboard-open-models
 - https://www.ycombinator.com/companies/ollama
 - https://github.com/ollama/ollama
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
+
+- [[company/Ollama/Jeffrey Morgan|Jeffrey Morgan]]：人物页 `current_affiliations:` 明确记录。
+- [[company/Ollama/Michael Chiang|Michael Chiang]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/ollama/Ollama/Ollama|Ollama]]：公司页与社区/项目页均有显式记录；关系：`company-originated`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

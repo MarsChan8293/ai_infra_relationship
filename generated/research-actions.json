@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1288,
+  "candidate_count": 1297,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 1,
@@ -993,7 +993,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.388,
+      "priority": 8.379,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1004,11 +1004,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 8.55,
+        "bridge_score": 8.72,
         "novelty": 1.0,
-        "frontier_potential": 0.407,
+        "frontier_potential": 0.383,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
+        "redundancy_penalty": 0.176,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.1,
@@ -1020,9 +1020,9 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
-        "bridge 8.6"
+        "bridge 8.7"
       ],
-      "base_priority": 8.288,
+      "base_priority": 8.279,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -5459,6 +5459,73 @@
       }
     },
     {
+      "action_id": "community/ggml-org/llama.cpp/llama.cpp::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ggml-org/llama.cpp/llama.cpp",
+        "name": "llama.cpp",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.016,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 6.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.305,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, moe",
+        "bridge 6.7"
+      ],
+      "base_priority": 7.064,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -5660,72 +5727,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/ggml-org/llama.cpp/llama.cpp::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/ggml-org/llama.cpp/llama.cpp",
-        "name": "llama.cpp",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.999,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 5.935,
-        "novelty": 0.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.282,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kernel, moe"
-      ],
-      "base_priority": 7.047,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -7576,7 +7577,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 6.758,
+      "priority": 6.765,
       "cost": 0.9,
       "coverage": {
         "existing": 1,
@@ -7587,11 +7588,11 @@
         "infra_relevance": 2.65,
         "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 5.672,
+        "bridge_score": 6.507,
         "novelty": 0.0,
-        "frontier_potential": 0.514,
+        "frontier_potential": 0.435,
         "uncertainty": 0.413,
-        "redundancy_penalty": 0.267,
+        "redundancy_penalty": 0.294,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -7601,9 +7602,10 @@
       "reasons": [
         "coverage 1/4",
         "source type Project",
-        "infra: serving/inference, quantization, ascend"
+        "infra: serving/inference, quantization, ascend",
+        "bridge 6.5"
       ],
-      "base_priority": 6.806,
+      "base_priority": 6.813,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -15349,6 +15351,73 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/ollama/Ollama/Ollama::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ollama/Ollama/Ollama",
+        "name": "Ollama",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.225,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 7.372,
+        "novelty": 0.0,
+        "frontier_potential": 0.364,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.404,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 7.4"
+      ],
+      "base_priority": 6.273,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -32996,6 +33065,138 @@
       }
     },
     {
+      "action_id": "company/Ollama/Jeffrey Morgan::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/Ollama/Jeffrey Morgan",
+        "name": "Jeffrey Morgan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.372,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference"
+      ],
+      "base_priority": 5.089,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Michael Chiang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/Ollama/Michael Chiang",
+        "name": "Michael Chiang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.372,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference"
+      ],
+      "base_priority": 5.089,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DualPath/DualPath::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -39614,6 +39815,146 @@
       }
     },
     {
+      "action_id": "company/Ollama/Jeffrey Morgan::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "company/Ollama/Jeffrey Morgan",
+        "name": "Jeffrey Morgan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 5.068,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.75,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.774,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Michael Chiang::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "company/Ollama/Michael Chiang",
+        "name": "Michael Chiang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 5.068,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.75,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.774,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM-Omni/Yongxiang Huang::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -39680,70 +40021,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/ggml-org/ggml/ggml::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/ggml-org/ggml/ggml",
-        "name": "ggml",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 5.066,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.672,
-        "novelty": 0.5,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, quantization, ascend"
-      ],
-      "base_priority": 5.066,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -51970,71 +52247,6 @@
       }
     },
     {
-      "action_id": "community/FlashML-org/FreeToken/FreeToken::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/FlashML-org/FreeToken/FreeToken",
-        "name": "FreeToken",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 4.604,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 7,
-        "bridge_score": 8.55,
-        "novelty": 0.5,
-        "frontier_potential": 0.407,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.386,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "bridge 8.6"
-      ],
-      "base_priority": 4.604,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -52216,6 +52428,72 @@
         "opens underrepresented target types"
       ],
       "base_priority": 4.594,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Ollama::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/Ollama/Ollama",
+        "name": "Ollama",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "bridge",
+      "priority": 4.593,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.635,
+        "novelty": 1.0,
+        "frontier_potential": 0.408,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types",
+        "bridge 6.6"
+      ],
+      "base_priority": 4.593,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -54769,70 +55047,6 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/ggml-org/llama.cpp/llama.cpp::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/ggml-org/llama.cpp/llama.cpp",
-        "name": "llama.cpp",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 4.424,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 5.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Project",
-        "infra: serving/inference, kernel, moe"
-      ],
-      "base_priority": 4.424,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -58861,6 +59075,71 @@
       }
     },
     {
+      "action_id": "community/ggml-org/ggml/ggml::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/ggml-org/ggml/ggml",
+        "name": "ggml",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 4.245,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.507,
+        "novelty": 0.5,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, quantization, ascend",
+        "bridge 6.5"
+      ],
+      "base_priority": 4.245,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/深度求索/邵智宏 Zhihong Shao::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -60775,6 +61054,72 @@
           "yield_adjustment": 0.0
         },
         "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Ollama::key_people",
+      "action_key": "company:key_people:person",
+      "source": {
+        "id": "company/Ollama/Ollama",
+        "name": "Ollama",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_team_page",
+        "github_org_maintainers"
+      ],
+      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
+      "bucket": "exploitation",
+      "priority": 4.149,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.635,
+        "novelty": 0.0,
+        "frontier_potential": 0.408,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.052,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Company",
+        "infra: serving/inference, scheduler",
+        "bridge 6.6"
+      ],
+      "base_priority": 4.097,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 1,
+          "statuses": {
+            "success": 1
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 2.5,
+          "reward_signal": 0.555,
+          "yield_adjustment": 0.052
+        },
+        "key_yield_adjustment": 0.052,
         "exact_status_adjustment": 0.0
       }
     },
@@ -75200,6 +75545,132 @@
       }
     },
     {
+      "action_id": "company/Ollama/Jeffrey Morgan::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/Ollama/Jeffrey Morgan",
+        "name": "Jeffrey Morgan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.23,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference"
+      ],
+      "base_priority": 3.23,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Michael Chiang::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/Ollama/Michael Chiang",
+        "name": "Michael Chiang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.23,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference"
+      ],
+      "base_priority": 3.23,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/深度求索/黄可钊 Kezhao Huang::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -76043,6 +76514,138 @@
         "evidence quality below target"
       ],
       "base_priority": 3.14,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Jeffrey Morgan::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "company/Ollama/Jeffrey Morgan",
+        "name": "Jeffrey Morgan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 3.127,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.667,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 3.127,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Ollama/Michael Chiang::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "company/Ollama/Michael Chiang",
+        "name": "Michael Chiang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 3.127,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 0.667,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 3.127,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -85416,6 +86019,6 @@
       }
     }
   },
-  "eligible_count": 1262,
+  "eligible_count": 1271,
   "suppressed_count": 26
 }

@@ -2,14 +2,14 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 44
-- Companies with ≥1 linked person: 36
-- Company-person associations: 192
+- Company nodes: 45
+- Companies with ≥1 linked person: 37
+- Company-person associations: 194
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 191
-- Project/community nodes: 87
-- Project/community nodes with ≥1 linked person: 68
-- Project/community-person associations: 373
+- People with generated linked_companies: 193
+- Project/community nodes: 88
+- Project/community nodes with ≥1 linked person: 69
+- Project/community-person associations: 375
 - Non-company affiliations recognized and routed elsewhere: 60
 - Unresolved source values (backlog, non-fatal): 3
 - Audit errors: 0
@@ -43,6 +43,7 @@
 | [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
+| [[company/Ollama/Ollama|Ollama]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
@@ -105,6 +106,7 @@
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
+| [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |

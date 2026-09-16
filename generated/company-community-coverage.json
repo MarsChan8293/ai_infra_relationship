@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 44,
-  "companies_with_links": 29,
-  "project_community_nodes": 81,
-  "project_community_nodes_with_links": 47,
-  "association_pairs": 64,
-  "asserted_on_both_sides": 64,
+  "company_nodes": 45,
+  "companies_with_links": 30,
+  "project_community_nodes": 82,
+  "project_community_nodes_with_links": 48,
+  "association_pairs": 65,
+  "asserted_on_both_sides": 65,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -240,6 +240,18 @@
       "entity_name": "Triton Inference Server",
       "entity_type": "project",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Ollama/Ollama",
+      "company_name": "Ollama",
+      "entity_id": "community/ollama/Ollama/Ollama",
+      "entity_name": "Ollama",
+      "entity_type": "project",
+      "relation": "company-originated",
       "sources": [
         "company",
         "entity"

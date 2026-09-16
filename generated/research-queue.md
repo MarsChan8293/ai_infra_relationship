@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1288
-- Eligible actions: 1262
+- Candidate actions: 1297
+- Eligible actions: 1271
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -42,7 +42,7 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.388 |
+| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.379 |
 | 2 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.218 |
 | 3 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
 | 4 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |

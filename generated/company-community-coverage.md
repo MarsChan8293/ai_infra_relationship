@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 44
-- Companies with ≥1 linked project/community: 29
-- Project/community nodes: 81
-- Project/community nodes with ≥1 linked company: 47
-- Bidirectional association pairs: 64
-- Explicitly asserted on both sides: 64
+- Company nodes: 45
+- Companies with ≥1 linked project/community: 30
+- Project/community nodes: 82
+- Project/community nodes with ≥1 linked company: 48
+- Bidirectional association pairs: 65
+- Explicitly asserted on both sides: 65
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -34,6 +34,7 @@
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | project | company-led | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | project | company-led | both |
+| [[company/Ollama/Ollama|Ollama]] | [[community/ollama/Ollama/Ollama|Ollama]] | project | company-originated | both |
 | [[company/RadixArk/RadixArk|RadixArk]] | [[community/radixark/Miles/Miles|Miles]] | project | company-led | both |
 | [[company/RadixArk/RadixArk|RadixArk]] | [[community/sgl-project/SGLang/SGLang|SGLang]] | project | core-maintainer-network | both |
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |

@@ -1,20 +1,20 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 538,
-  "complete_count": 538,
+  "node_count": 542,
+  "complete_count": 542,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
-    "company": 44,
+    "company": 45,
     "index": 4,
     "infra-project": 3,
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 307,
+    "person": 309,
     "person-link": 4,
-    "project": 79,
+    "project": 80,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 12,
@@ -1777,6 +1777,15 @@
       "missing_required": []
     },
     {
+      "id": "community/ollama/Ollama/Ollama",
+      "type": "project",
+      "source_markdown": "community/ollama/Ollama/Ollama.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/ollama/Ollama/Ollama.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/Oneflow-Inc/OneFlow/OneFlow",
       "type": "project",
       "source_markdown": "community/Oneflow-Inc/OneFlow/OneFlow.md",
@@ -2844,6 +2853,33 @@
       "source_markdown": "company/NVIDIA/NVIDIA.md",
       "schema_definition": "schema/company.yaml",
       "schema_instance": "schema/nodes/company/NVIDIA/NVIDIA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Ollama/Jeffrey Morgan",
+      "type": "person",
+      "source_markdown": "company/Ollama/Jeffrey Morgan.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/Ollama/Jeffrey Morgan.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Ollama/Michael Chiang",
+      "type": "person",
+      "source_markdown": "company/Ollama/Michael Chiang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/Ollama/Michael Chiang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Ollama/Ollama",
+      "type": "company",
+      "source_markdown": "company/Ollama/Ollama.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/Ollama/Ollama.yaml",
       "status": "complete",
       "missing_required": []
     },

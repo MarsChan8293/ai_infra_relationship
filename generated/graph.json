@@ -441,6 +441,105 @@
       }
     },
     {
+      "id": "company/Ollama/Jeffrey Morgan",
+      "path": "company/Ollama/Jeffrey Morgan.md",
+      "name": "Jeffrey Morgan",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "Jeffrey Morgan",
+        "aliases": [
+          "Jeffrey Morgan",
+          "Jeff Morgan",
+          "jmorganca"
+        ],
+        "current_affiliations": [
+          "Ollama"
+        ],
+        "communities": [
+          "Ollama"
+        ],
+        "roles": [
+          "Ollama Co-founder"
+        ],
+        "linked_companies": "",
+        "areas": [
+          "local-inference",
+          "model-runtime",
+          "developer-tools",
+          "open-models"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "company/Ollama/Michael Chiang",
+      "path": "company/Ollama/Michael Chiang.md",
+      "name": "Michael Chiang",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "Michael Chiang",
+        "aliases": [
+          "Michael Chiang",
+          "mchiang0610"
+        ],
+        "current_affiliations": [
+          "Ollama"
+        ],
+        "communities": [
+          "Ollama"
+        ],
+        "roles": [
+          "Ollama Co-founder"
+        ],
+        "linked_companies": "",
+        "areas": [
+          "local-inference",
+          "model-runtime",
+          "developer-tools",
+          "open-models"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "company/Ollama/Ollama",
+      "path": "company/Ollama/Ollama.md",
+      "name": "Ollama",
+      "type": "company",
+      "category": "company",
+      "frontmatter": {
+        "type": "company",
+        "name": "Ollama",
+        "aliases": [
+          "Ollama"
+        ],
+        "linked_people": "",
+        "areas": [
+          "local-inference",
+          "hybrid-inference",
+          "open-models",
+          "developer-tools",
+          "model-serving",
+          "model-runtime"
+        ],
+        "projects": [
+          "Ollama"
+        ],
+        "people": "",
+        "headquarters": "San Francisco",
+        "last_verified": "2026-09",
+        "linked_projects": ""
+      }
+    },
+    {
       "id": "company/OpenAI/GPT-4.5",
       "path": "company/OpenAI/GPT-4.5.md",
       "name": "GPT-4.5",
@@ -9225,6 +9324,50 @@
         "website": "https://www.lmsys.org/",
         "last_verified": "2026-09",
         "linked_companies": []
+      }
+    },
+    {
+      "id": "community/ollama/Ollama/Ollama",
+      "path": "community/ollama/Ollama/Ollama.md",
+      "name": "Ollama",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Ollama",
+        "linked_people": "",
+        "companies": [
+          "Ollama"
+        ],
+        "company_relation": "company-originated",
+        "layer": "local-inference-platform",
+        "open_source": true,
+        "repository": "https://github.com/ollama/ollama",
+        "areas": [
+          "local-inference",
+          "hybrid-inference",
+          "model-serving",
+          "model-management",
+          "gguf",
+          "ggml",
+          "llama-cpp",
+          "mlx",
+          "multimodal-inference",
+          "tool-calling",
+          "openai-compatible-api",
+          "agent-integrations"
+        ],
+        "hardware": [
+          "CPU",
+          "NVIDIA GPU",
+          "AMD GPU",
+          "Apple Silicon",
+          "Vulkan"
+        ],
+        "governance": "Ollama company-led open-source project",
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": ""
       }
     },
     {
@@ -19211,6 +19354,51 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/kvcache-ai/KTransformers/KTransformers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "company/Ollama/Jeffrey Morgan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "company/Ollama/Michael Chiang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama",
+      "target": "company/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "target": "community/Ascend/TransferQueue/TransferQueue",
       "kind": "wikilink"
@@ -23063,6 +23251,61 @@
     {
       "source": "company/Neural Magic/Neural Magic",
       "target": "company/Red Hat/Red Hat",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Jeffrey Morgan",
+      "target": "community/ollama/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Jeffrey Morgan",
+      "target": "company/Ollama/Michael Chiang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Jeffrey Morgan",
+      "target": "company/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Michael Chiang",
+      "target": "community/ollama/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Michael Chiang",
+      "target": "company/Ollama/Jeffrey Morgan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Michael Chiang",
+      "target": "company/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Ollama",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Ollama",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Ollama",
+      "target": "community/ollama/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Ollama",
+      "target": "company/Ollama/Jeffrey Morgan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Ollama/Ollama",
+      "target": "company/Ollama/Michael Chiang",
       "kind": "wikilink"
     },
     {
@@ -30277,6 +30520,33 @@
       ],
       "bridge_score": 7.557
     },
+    "company/Ollama/Jeffrey Morgan": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.35
+    },
+    "company/Ollama/Michael Chiang": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.35
+    },
+    "company/Ollama/Ollama": {
+      "degree": 5,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.635
+    },
     "company/OpenAI/GPT-4.5": {
       "degree": 2,
       "cross_category_degree": 0,
@@ -31650,14 +31920,14 @@
       "bridge_score": 5.35
     },
     "community/FlashML-org/FreeToken/FreeToken": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.55
+      "bridge_score": 8.72
     },
     "community/InfiniTensor/InfiniTensor": {
       "degree": 4,
@@ -32837,13 +33107,13 @@
       "bridge_score": 6.7
     },
     "community/ggml-org/ggml/ggml": {
-      "degree": 4,
-      "cross_category_degree": 1,
+      "degree": 6,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.672
+      "bridge_score": 6.507
     },
     "community/ggml-org/llama.cpp/Georgi Gerganov": {
       "degree": 4,
@@ -32855,13 +33125,13 @@
       "bridge_score": 5.672
     },
     "community/ggml-org/llama.cpp/llama.cpp": {
-      "degree": 5,
-      "cross_category_degree": 1,
+      "degree": 7,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.7
     },
     "community/hpcaitech/Colossal-AI/Colossal-AI": {
       "degree": 10,
@@ -32937,7 +33207,7 @@
       "bridge_score": 5.7
     },
     "community/kvcache-ai/KTransformers/KTransformers": {
-      "degree": 28,
+      "degree": 29,
       "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
@@ -32945,7 +33215,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 14.708
+      "bridge_score": 14.757
     },
     "community/kvcache-ai/KTransformers/Peilin Li": {
       "degree": 4,
@@ -33315,6 +33585,15 @@
       ],
       "bridge_score": 5.935
     },
+    "community/ollama/Ollama/Ollama": {
+      "degree": 9,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 7.372
+    },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
       "degree": 7,
       "cross_category_degree": 1,
@@ -33398,7 +33677,7 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 83,
+      "degree": 84,
       "cross_category_degree": 38,
       "neighbor_categories": [
         "community",
@@ -33406,7 +33685,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 25.692
+      "bridge_score": 25.709
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -33828,7 +34107,7 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 112,
+      "degree": 113,
       "cross_category_degree": 51,
       "neighbor_categories": [
         "community",
@@ -33836,7 +34115,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 30.67
+      "bridge_score": 30.683
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,

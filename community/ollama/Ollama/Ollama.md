@@ -1,6 +1,9 @@
 ---
 type: project
 name: Ollama
+linked_people:
+  - "company/Ollama/Jeffrey Morgan"
+  - "company/Ollama/Michael Chiang"
 companies: ["Ollama"]
 company_relation: company-originated
 layer: local-inference-platform
@@ -13,6 +16,8 @@ people:
   - "company/Ollama/Jeffrey Morgan"
   - "company/Ollama/Michael Chiang"
 last_verified: "2026-09"
+linked_companies:
+  - "company/Ollama/Ollama"
 ---
 # Ollama
 
@@ -77,3 +82,22 @@ Ollama 公司由 [[company/Ollama/Jeffrey Morgan|Jeffrey Morgan]] 与 [[company/
 - https://ollama.com/blog/improved-performance-and-model-support-with-gguf
 - https://ollama.com/blog/all-aboard-open-models
 - https://www.ycombinator.com/companies/ollama
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/Ollama/Jeffrey Morgan|Jeffrey Morgan]]：[[company/Ollama/Michael Chiang|Michael Chiang]]：Ollama 共同创始人；此前也是 Kitematic 共同创始人。
+- [[company/Ollama/Michael Chiang|Michael Chiang]]：[[company/Ollama/Jeffrey Morgan|Jeffrey Morgan]]：Ollama 共同创始人；此前也是 Kitematic 共同创始人。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Ollama/Ollama|Ollama]]：公司页与社区/项目页均有显式记录；关系：`company-originated`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

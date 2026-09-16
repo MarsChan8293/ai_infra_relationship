@@ -5,6 +5,8 @@ aliases: ["Michael Chiang", "mchiang0610"]
 current_affiliations: ["Ollama"]
 communities: [Ollama]
 roles: [Ollama Co-founder]
+linked_companies:
+  - "company/Ollama/Ollama"
 areas: [local-inference, model-runtime, developer-tools, open-models]
 confidence: verified
 last_verified: "2026-09"
@@ -32,3 +34,12 @@ Michael 作为公司与项目共同创始人，长期参与 Ollama 的产品和�
 - https://www.ycombinator.com/companies/ollama
 - https://github.com/ollama/ollama
 - https://github.com/ollama/ollama/commit/fc8707686f4fd03e73721a056bb86646c3a3e028
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Ollama/Ollama|Ollama]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->
