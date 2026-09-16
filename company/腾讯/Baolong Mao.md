@@ -3,6 +3,7 @@ type: person
 name: Baolong Mao
 aliases: ["Baolong Ma", "maobaolong", "baoloongmao"]
 current_affiliations: ["腾讯"]
+public_email: baoloongmao@tencent.com
 communities: [LMCache, vLLM]
 roles: [LMCache Committer, Component Owner]
 linked_companies:
@@ -23,6 +24,8 @@ LMCache 官方 `MAINTAINERS.md` 将其列为 Tencent Committer。当前 `CODEOWN
 
 他同时直接向 vLLM 提交 LMCache KV Connector / multiprocess 相关修复，包括 2026 年 prefix cache、MLA lookup、LMCacheMPConnector 等路径，因此这里记录为 LMCache ↔ vLLM 的直接开源桥，而不是仅凭两个项目邻接推断。
 
+公开 LMCache commit 使用 `baoloongmao@tencent.com`，因此现在也能通过职业邮箱机制独立验证腾讯组织关联。
+
 ## Mooncake 连接
 LMCache 仓库中的 `mooncake_store_l2_adapter.py`、`mooncake_lookup_client.py` 等路径由 `@maobaolong` 直接 ownership，说明他负责 LMCache 侧 Mooncake Store 集成。这里记录为技术集成上下文，不等价于 Mooncake 项目 maintainer 身份。
 
@@ -34,6 +37,7 @@ LMCache 仓库中的 `mooncake_store_l2_adapter.py`、`mooncake_lookup_client.py
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
+- https://github.com/LMCache/LMCache/commit/5e69770cd46be1763ff65bc4e05ea2fd1d9645b9
 - https://github.com/vllm-project/vllm/commit/b58e082d95ffad57a6a9aaffa8b76c862b3bbcf3
 - https://github.com/vllm-project/vllm/commit/b2f749dc97d59e3eb808499e88a29663f2143aa1
 
