@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1272,
+  "candidate_count": 1274,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 1,
@@ -426,6 +426,76 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Aionw::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Aionw",
+        "name": "Aoi",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 7.951,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.657,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/tyy0829::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -546,76 +616,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 7.636,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/yiz-liu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/yiz-liu",
-        "name": "yiz-liu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploitation",
-      "priority": 7.875,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: serving/inference, kernel, ascend",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.581,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1434,6 +1434,76 @@
         "opens underrepresented target types"
       ],
       "base_priority": 7.67,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Aionw::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Aionw",
+        "name": "Aoi",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 7.951,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.657,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -10641,6 +10711,72 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Aionw::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Aionw",
+        "name": "Aoi",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.501,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 3.822,
+        "novelty": 0.5,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed"
+      ],
+      "base_priority": 6.218,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Hongtao Chen::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -12760,77 +12896,6 @@
       }
     },
     {
-      "action_id": "community/kvcache-ai/Mooncake/Xinpeng Zhao::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/kvcache-ai/Mooncake/Xinpeng Zhao",
-        "name": "Xinpeng Zhao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.384,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.52,
-        "novelty": 0.75,
-        "frontier_potential": 0.25,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.314,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.5"
-      ],
-      "base_priority": 6.09,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/Ascend/MemCache/Zixi Qu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -12968,6 +13033,77 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Xinpeng Zhao::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinpeng Zhao",
+        "name": "Xinpeng Zhao",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.383,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.672,
+        "novelty": 0.75,
+        "frontier_potential": 0.237,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.323,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 6.7"
+      ],
+      "base_priority": 6.089,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ModelTC/LightLLM/Su Fubao::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -13066,11 +13202,11 @@
         "infra_relevance": 2.7,
         "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 9.187,
+        "bridge_score": 9.27,
         "novelty": 0.75,
-        "frontier_potential": 0.182,
+        "frontier_potential": 0.177,
         "uncertainty": 0.275,
-        "redundancy_penalty": 0.365,
+        "redundancy_penalty": 0.37,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.294,
@@ -13082,7 +13218,7 @@
         "source type Person",
         "infra: serving/inference, kv-cache, distributed",
         "opens underrepresented target types",
-        "bridge 9.2"
+        "bridge 9.3"
       ],
       "base_priority": 6.083,
       "eligible": true,
@@ -15234,7 +15370,7 @@
       ],
       "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
       "bucket": "bridge",
-      "priority": 6.182,
+      "priority": 6.18,
       "cost": 1.0,
       "coverage": {
         "existing": 1,
@@ -15245,11 +15381,11 @@
         "infra_relevance": 2.7,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 6.52,
+        "bridge_score": 6.672,
         "novelty": 0.75,
-        "frontier_potential": 0.25,
+        "frontier_potential": 0.237,
         "uncertainty": 0.275,
-        "redundancy_penalty": 0.314,
+        "redundancy_penalty": 0.323,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.294,
@@ -15261,9 +15397,9 @@
         "source type Person",
         "infra: serving/inference, kv-cache, distributed",
         "opens underrepresented target types",
-        "bridge 6.5"
+        "bridge 6.7"
       ],
-      "base_priority": 5.888,
+      "base_priority": 5.886,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -23561,7 +23697,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "bridge",
-      "priority": 5.714,
+      "priority": 5.715,
       "cost": 1.0,
       "coverage": {
         "existing": 2,
@@ -23572,11 +23708,11 @@
         "infra_relevance": 2.7,
         "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 9.187,
+        "bridge_score": 9.27,
         "novelty": 0.5,
-        "frontier_potential": 0.182,
+        "frontier_potential": 0.177,
         "uncertainty": 0.183,
-        "redundancy_penalty": 0.446,
+        "redundancy_penalty": 0.451,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.283,
@@ -23587,9 +23723,9 @@
         "coverage 2/3",
         "source type Person",
         "infra: serving/inference, kv-cache, distributed",
-        "bridge 9.2"
+        "bridge 9.3"
       ],
-      "base_priority": 5.431,
+      "base_priority": 5.432,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -84359,6 +84495,6 @@
       }
     }
   },
-  "eligible_count": 1246,
+  "eligible_count": 1248,
   "suppressed_count": 26
 }

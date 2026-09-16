@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 364
-- Person nodes with typed relations: 116 / 303
+- Person nodes with typed relations: 116 / 304
 - Hard errors: 0
 - Warnings: 6
 
@@ -30,7 +30,7 @@
 | ---: | --- | ---: | ---: | ---: | ---: |
 | 1 | [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]] | 10.059 | 10 | 4 | 0 |
 | 2 | [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
-| 3 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.187 | 16 | 6 | 0 |
+| 3 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.270 | 17 | 6 | 0 |
 | 4 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.070 | 8 | 6 | 0 |
 | 5 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
 | 6 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
@@ -52,9 +52,9 @@
 | 22 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
 | 23 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 | 2 | 0 |
 | 24 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
-| 25 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
-| 26 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.520 | 8 | 4 | 0 |
-| 27 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.520 | 8 | 4 | 0 |
+| 25 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 | 4 | 0 |
+| 26 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 | 4 | 0 |
+| 27 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
 | 28 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
 | 29 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
 | 30 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |

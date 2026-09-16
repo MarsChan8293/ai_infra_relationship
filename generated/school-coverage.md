@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 303
+- Person nodes: 304
 - People with ≥1 school: 130
-- People without known school: 173
-- Coverage: 42.9%
+- People without known school: 174
+- Coverage: 42.8%
 - Person-school associations: 168
 - School nodes: 47
 - Audit errors: 0
@@ -49,16 +49,16 @@
 
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
-| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.187 | 16 |
+| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.27 | 17 |
 | 2 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.07 | 8 |
 | 3 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 |
 | 4 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
 | 5 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
 | 6 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 |
 | 7 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 |
-| 8 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
-| 9 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.52 | 8 |
-| 10 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.52 | 8 |
+| 8 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 |
+| 9 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 |
+| 10 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
 | 11 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
 | 12 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
 | 13 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.52 | 8 |

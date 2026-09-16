@@ -2,6 +2,7 @@
 type: project
 name: Mooncake
 linked_people:
+  - "community/kvcache-ai/Mooncake/Aionw"
   - "community/kvcache-ai/Mooncake/Jialei Cui"
   - "community/kvcache-ai/Mooncake/Ke Yang"
   - "community/kvcache-ai/Mooncake/Shangming Cai"
@@ -89,6 +90,7 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/kvcache-ai/Mooncake/Aionw|Aoi]]：**AcceleratorDevice abstraction**：降低 Mooncake Store 本地 accelerator memory 代码对具体 vendor SDK 的耦合。
 - [[community/kvcache-ai/Mooncake/Jialei Cui|Jialei Cui]]：FAST 2025 Mooncake 论文作者。USENIX 官方作者页将其该论文 affiliation 标为 Moonshot AI。
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：[[趋境科技]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ykwd` 标注为 Approaching AI，并使用 `yangke@approaching.ai` 联系邮箱；这里据此记录当前 affiliation，不从邮箱扩展任何职级。
 - [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：[[阿里巴巴]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ShangmingCai` 标注为 Alibaba Cloud，并明确其 Mooncake 职责为 SGLang Integration。

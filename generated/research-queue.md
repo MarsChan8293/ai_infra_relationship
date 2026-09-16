@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1272
-- Eligible actions: 1246
+- Candidate actions: 1274
+- Eligible actions: 1248
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -22,9 +22,9 @@
 | 4 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | person | exploration | 8.865 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 | 5 | [[company/Intel/Intel|Intel]] | company | projects | project, community, team | exploration | 8.266 | new | coverage 0/3；source type Company；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
 | 6 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | company, school, research, team | exploration | 7.964 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 7 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | company, school, research, team | exploitation | 7.951 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 8 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | company, school, research, team | exploration | 7.930 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
-| 9 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | company, school, research, team | exploitation | 7.875 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, ascend；opens underrepresented target types |
+| 7 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | company, school, research, team | exploitation | 7.951 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 8 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | company, school, research, team | exploitation | 7.951 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 9 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | company, school, research, team | exploration | 7.930 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
 | 10 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | person | exploration | 7.835 | new | coverage 0/4；source type Research Institution；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 
 ## Agent execution contract
@@ -48,30 +48,30 @@
 | 4 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
 | 5 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
 | 6 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 7 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 8 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 9 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 10 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 11 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 12 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
-| 13 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
-| 14 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
-| 15 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
-| 16 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
-| 17 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
-| 18 | [[company/Samsung/Samsung|Samsung]] | company | projects | 7.414 |
-| 19 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
-| 20 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
-| 21 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
-| 22 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
-| 23 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
-| 24 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
-| 25 | [[community/LMCache/LMCache/deng451e|deng451e]] | person | affiliation | 7.323 |
-| 26 | [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]] | person | affiliation | 7.318 |
-| 27 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
-| 28 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
-| 29 | [[community/vllm-project/vLLM-Omni/Canlin Guo|Canlin Guo]] | person | affiliation | 7.289 |
-| 30 | [[community/Ascend/MemCache/DreamerLeader|DreamerLeader]] | person | affiliation | 7.278 |
+| 7 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 8 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 9 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 10 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 11 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 12 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 13 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 14 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
+| 15 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
+| 16 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
+| 17 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
+| 18 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
+| 19 | [[company/Samsung/Samsung|Samsung]] | company | projects | 7.414 |
+| 20 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
+| 21 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
+| 22 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
+| 23 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
+| 24 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
+| 25 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
+| 26 | [[community/LMCache/LMCache/deng451e|deng451e]] | person | affiliation | 7.323 |
+| 27 | [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]] | person | affiliation | 7.318 |
+| 28 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
+| 29 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
+| 30 | [[community/vllm-project/vLLM-Omni/Canlin Guo|Canlin Guo]] | person | affiliation | 7.289 |
 
 ## Cooldown / history-suppressed
 
