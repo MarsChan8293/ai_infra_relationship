@@ -36,13 +36,23 @@ https://github.com/vllm-project/vllm-ascend
 - [[msModelSlim]]：量化工具链，连接 W8A8 / W4A8 / MXFP 系低比特部署。
 - [[管文宇 Guan Wenyu]]：2026 年贡献 MiniMax-M2.5 在 Ascend A3 + vLLM-Ascend 上的 MXFP4/W4A4 推理适配。
 
+## openYuanRong 数据平面
+- [[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]]：当前官方 KV Pool 文档支持它作为 `AscendStoreConnector` 的 storage backend，提供 distributed KV pool 路径。
+- [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]]：RFork 官方指南直接要求安装 `openyuanrong-transfer-engine`，用于 Ascend 推理实例的模型权重传输。
+- [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]]：因此与 vLLM-Ascend 的关系已从“潜在国产分布式底座”升级成明确的 KV storage + weight-transfer 软件集成。
+
 ## 生态关系
-[[vLLM]] · [[LMCache]] · [[Mooncake]] · [[DeepJIT]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[msModelSlim]]。它是 hardware backend，不应与独立 serving engine 视为平级替代关系。
+[[vLLM]] · [[LMCache]] · [[Mooncake]] · [[DeepJIT]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[msModelSlim]] · [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]]。它是 hardware backend，不应与独立 serving engine 视为平级替代关系。
+
+## Sources
+- https://github.com/vllm-project/vllm-ascend
+- https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/kv_pool.html
+- https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/rfork.html
 
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
 ## 关联公司（自动汇总）
 
-以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+以下关系由公司页与社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`hardware-ecosystem-core-contributor`。
 
