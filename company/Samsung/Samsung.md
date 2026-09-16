@@ -1,6 +1,9 @@
 ---
 type: company
 name: Samsung
+linked_people:
+  - "community/LMCache/LMCache/Dongjoo Seo"
+linked_projects: []
 ---
 # Samsung
 
@@ -16,3 +19,12 @@ Samsung 是半导体、存储与计算平台厂商。在本图谱中重点关注
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - https://github.com/LMCache/LMCache/commit/a2bb21d1c160e80e64389fed0d7213d5b9e0d84b
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
+
+- [[community/LMCache/LMCache/Dongjoo Seo|Dongjoo Seo]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO COMPANY PEOPLE -->

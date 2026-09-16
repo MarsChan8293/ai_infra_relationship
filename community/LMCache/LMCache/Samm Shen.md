@@ -10,6 +10,8 @@ communities: [LMCache, vLLM]
 roles: [Software Engineer, LMCache Committer, Component Owner]
 linked_companies:
   - "company/TensorMesh/TensorMesh"
+email_affiliations:
+  - "TensorMesh"
 areas: [kv-cache, gpu-connector, storage-backend, vllm-integration, sglang-integration, tensorrt-llm-integration, ci]
 confidence: verified
 last_verified: "2026-09"
@@ -61,6 +63,6 @@ relations:
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/TensorMesh/TensorMesh|TensorMesh]]：人物页 `current_affiliations:` 明确记录。
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->

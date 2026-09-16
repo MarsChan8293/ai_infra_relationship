@@ -6,6 +6,10 @@ current_affiliations: ["Samsung"]
 public_email: dongjoo.seo1@samsung.com
 communities: [LMCache]
 roles: [LMCache Committer, Component Owner]
+email_affiliations:
+  - "Samsung"
+linked_companies:
+  - "company/Samsung/Samsung"
 areas: [kv-cache, multiprocess, distributed-kv-cache, memory-management, storage-backend, dax, cxl, sglang-integration, c-extensions, rust, operator]
 confidence: verified
 last_verified: "2026-09"
@@ -27,3 +31,12 @@ LMCache 官方 `MAINTAINERS.md` 将 Dongjoo Seo 列为 Samsung Committer。2026 
 - https://github.com/LMCache/LMCache/commit/f09885bf10546d1d8e11939052660069a24502d1
 - https://github.com/LMCache/LMCache/commit/a2bb21d1c160e80e64389fed0d7213d5b9e0d84b
 - https://github.com/LMCache/LMCache/commit/e38ee4157a11703b07845f45fd98e714b25c13cd
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Samsung/Samsung|Samsung]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -2,8 +2,17 @@
 type: project
 name: LMCache
 linked_people:
+  - "community/LMCache/LMCache/Andy Luo"
+  - "community/LMCache/LMCache/deng451e"
+  - "community/LMCache/LMCache/Dongjoo Seo"
+  - "community/LMCache/LMCache/Hunter Zhang"
+  - "community/LMCache/LMCache/Oasis-Git"
+  - "community/LMCache/LMCache/Roy Huang"
+  - "community/LMCache/LMCache/Rui Zhang"
   - "community/LMCache/LMCache/Samm Shen"
   - "community/LMCache/LMCache/Shaoting Feng"
+  - "community/LMCache/LMCache/Tony Lin"
+  - "community/LMCache/LMCache/Zhengfei He"
   - "company/IBM/Martin Hickey"
   - "company/TensorMesh/Jiayi Yao"
   - "company/TensorMesh/Junchen Jiang"
@@ -82,8 +91,17 @@ LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/LMCache/LMCache/Andy Luo|Andy Luo]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- [[community/LMCache/LMCache/deng451e|deng451e]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- [[community/LMCache/LMCache/Dongjoo Seo|Dongjoo Seo]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[community/LMCache/LMCache/Hunter Zhang|Hunter Zhang]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[community/LMCache/LMCache/Oasis-Git|Oasis-Git]]：[[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：L2 performance / telemetry CI 多个 commit 有直接 co-author 证据，因此建立 `open-source-collaboration` / `technical-collaboration`。
+- [[community/LMCache/LMCache/Roy Huang|Roy Huang]]：LMCache operator 向 vLLM pod 注入 payload。
+- [[community/LMCache/LMCache/Rui Zhang|Rui Zhang]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：`lmcache/integration/vllm/`：CODEOWNER；
 - [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[community/LMCache/LMCache/Tony Lin|Tony Lin]]：https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]]：[[company/腾讯/Baolong Mao|Baolong Mao]]：#4621 的 LMCache build/CI commit 有直接 co-author 证据，记录为开源协作关系。
 - [[company/IBM/Martin Hickey|Martin Hickey]]：2026-01 直接向 vLLM 提交 LMCache connector KV events 修复，因此这里将其记录为 `IBM → Martin Hickey → LMCache → vLLM KV Connector` 的可验证桥梁，而不是仅因为 IBM 同时参与 llm-d 就推断项目关系。
 - [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：2025-03：为 LMCache connector 增加 chunked prefill 支持；
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。

@@ -50,7 +50,7 @@ TensorMesh 是围绕 LLM KV cache、disaggregated serving 与 inference memory/d
 
 以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：人物页 `current_affiliations:` 明确记录；University of Chicago：Mathematics + Computer Science 双学位；TensorMesh 官方团队页公开确认。
+- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：当前 affiliation + 公开职业邮箱域名双重证据；University of Chicago：Mathematics + Computer Science 双学位；TensorMesh 官方团队页公开确认。
 - [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：人物页 `current_affiliations:` 明确记录。
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：人物页 `current_affiliations:` 明确记录。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：人物页 `current_affiliations:` 明确记录；[[TensorMesh]]：联合创始人、Chief Scientist

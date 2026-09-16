@@ -2,14 +2,14 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 42
-- Companies with ≥1 linked person: 34
-- Company-person associations: 181
-- Email-domain-supported associations: 21
-- People with generated linked_companies: 180
+- Company nodes: 44
+- Companies with ≥1 linked person: 36
+- Company-person associations: 185
+- Email-domain-supported associations: 26
+- People with generated linked_companies: 184
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 339
+- Project/community-person associations: 348
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -23,10 +23,10 @@
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
+| [[company/字节跳动/字节跳动|字节跳动]] | 7 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
-| [[company/字节跳动/字节跳动|字节跳动]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
@@ -40,16 +40,18 @@
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
+| [[company/AMD/AMD|AMD]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
 | [[company/腾讯/腾讯|腾讯]] | 2 |
-| [[company/AMD/AMD|AMD]] | 1 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
 | [[company/Databricks/Databricks|Databricks]] | 1 |
 | [[company/HPE/HPE|HPE]] | 1 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 1 |
+| [[company/Intel/Intel|Intel]] | 1 |
+| [[company/Samsung/Samsung|Samsung]] | 1 |
 | [[company/道客/道客|道客]] | 1 |
 | [[company/面壁智能/面壁智能|面壁智能]] | 1 |
 
@@ -58,6 +60,7 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
+| [[community/LMCache/LMCache/LMCache|LMCache]] | 18 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 16 |
@@ -70,7 +73,6 @@
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
-| [[community/LMCache/LMCache/LMCache|LMCache]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |

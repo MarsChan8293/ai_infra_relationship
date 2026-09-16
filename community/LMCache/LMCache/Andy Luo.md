@@ -6,6 +6,10 @@ current_affiliations: ["AMD"]
 public_email: andy.luo@amd.com
 communities: [LMCache]
 roles: [ROCm Component Owner]
+email_affiliations:
+  - "AMD"
+linked_companies:
+  - "company/AMD/AMD"
 areas: [kv-cache, rocm, amd-instinct, gpu-connector, platform, multiprocess, atom, packaging]
 confidence: high
 last_verified: "2026-09"
@@ -26,3 +30,12 @@ last_verified: "2026-09"
 - https://github.com/LMCache/LMCache/commit/b28ed3882eac98f4c0e345c65d44ecd7b1e0f52a
 - https://github.com/LMCache/LMCache/commit/12d27030b56e0e96abe919d0d606c8cf0fc94a17
 - https://github.com/LMCache/LMCache/commit/23cca67908e17b193eb8fab08ba1beb0115881cd
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/AMD/AMD|AMD]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

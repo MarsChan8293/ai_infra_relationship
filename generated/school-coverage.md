@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 286
+- Person nodes: 295
 - People with ≥1 school: 128
-- People without known school: 158
-- Coverage: 44.8%
+- People without known school: 167
+- Coverage: 43.4%
 - Person-school associations: 166
 - School nodes: 47
 - Audit errors: 0
@@ -50,9 +50,9 @@
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
 | 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 8.685 | 11 |
-| 2 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
-| 3 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
-| 4 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 6.635 | 5 |
+| 2 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
+| 3 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
+| 4 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
 | 5 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 6.52 | 8 |
 | 6 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
 | 7 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
@@ -84,18 +84,18 @@
 | 33 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
 | 34 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
 | 35 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
-| 36 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 37 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
-| 38 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
-| 39 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 40 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
-| 41 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |
-| 42 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
-| 43 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
-| 44 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 |
-| 45 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |
-| 46 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 |
-| 47 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
-| 48 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
-| 49 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
-| 50 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 5.35 | 3 |
+| 36 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
+| 37 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
+| 38 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 39 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
+| 40 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
+| 41 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
+| 42 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |
+| 43 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
+| 44 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
+| 45 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 |
+| 46 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |
+| 47 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 |
+| 48 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
+| 49 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
+| 50 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |

@@ -1,6 +1,9 @@
 ---
 type: company
 name: Intel
+linked_people:
+  - "community/LMCache/LMCache/Tony Lin"
+linked_projects: []
 ---
 # Intel
 
@@ -15,3 +18,12 @@ Intel 是 CPU、数据中心与 AI 加速器厂商。在本图谱中重点关注
 ## Sources
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - https://github.com/LMCache/LMCache/commit/10ad9e42d39d513e86647519c30d93a162334c66
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
+
+- [[community/LMCache/LMCache/Tony Lin|Tony Lin]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO COMPANY PEOPLE -->

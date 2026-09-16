@@ -3,6 +3,7 @@ type: company
 name: AMD
 linked_people:
   - "community/ai-dynamo/NIXL/Matvei Pashkovskii"
+  - "community/LMCache/LMCache/Andy Luo"
 projects: [TokenSpeed]
 linked_projects:
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
@@ -24,6 +25,7 @@ AMD 是 CPU、GPU 与数据中心加速器厂商。其 Instinct GPU 与 ROCm 软
 以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
 - [[community/ai-dynamo/NIXL/Matvei Pashkovskii|Matvei Pashkovskii]]：人物页 `current_affiliations:` 明确记录；[[AMD]]
+- [[community/LMCache/LMCache/Andy Luo|Andy Luo]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

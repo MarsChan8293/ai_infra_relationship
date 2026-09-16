@@ -5,6 +5,8 @@ aliases: ["HUAIZHEN001", "@HUAIZHEN001"]
 current_affiliations: ["字节跳动"]
 communities: [LMCache]
 roles: [LMCache Committer]
+linked_companies:
+  - "company/字节跳动/字节跳动"
 areas: [kv-cache, llm-inference, storage-offload]
 confidence: verified
 last_verified: "2026-09"
@@ -18,3 +20,12 @@ LMCache 当前官方 `MAINTAINERS.md` 将 Hunter Zhang 列为 **Bytedance Commit
 
 ## Sources
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/字节跳动/字节跳动|字节跳动]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->
