@@ -16,8 +16,8 @@
 
 | Rank | Source | Type | Research action | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | project | maintainers | person | exploitation | 9.176 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 2 | [[community/Ascend/MemCache/MemCache|MemCache]] | project | maintainers | person | bridge | 9.138 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 1 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | project | maintainers | person | exploitation | 9.154 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 2 | [[community/Ascend/MemCache/MemCache|MemCache]] | project | maintainers | person | bridge | 9.127 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 | 3 | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | project | maintainers | person | bridge | 9.016 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 | 4 | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | person | exploitation | 8.966 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, ascend；opens underrepresented target types |
 | 5 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | company, school, research, team | exploitation | 7.875 | new | coverage 0/2；source type Person；infra: serving/inference, kernel, ascend；opens underrepresented target types |
