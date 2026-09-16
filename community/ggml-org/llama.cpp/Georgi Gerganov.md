@@ -5,6 +5,8 @@ aliases: ["Georgi Gerganov", "ggerganov"]
 current_affiliations: ["Hugging Face"]
 communities: [llama.cpp, ggml]
 roles: [llama.cpp Maintainer, ggml Founder, Hugging Face Team]
+linked_companies:
+  - "company/Hugging Face/Hugging Face"
 areas: [local-inference, edge-inference, tensor-runtime, quantization, gguf, cpu-gpu-hybrid, c-cpp, multi-backend]
 confidence: verified
 last_verified: "2026-09"
@@ -48,3 +50,12 @@ Georgi / ggml / llama.cpp 生态长期聚焦：
 - https://ggml.ai/
 - https://huggingface.co/blog/ggml-joins-hf
 - https://huggingface.co/ggerganov
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

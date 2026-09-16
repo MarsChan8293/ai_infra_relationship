@@ -2,6 +2,7 @@
 type: company
 name: Hugging Face
 linked_people:
+  - "community/ggml-org/llama.cpp/Georgi Gerganov"
   - "community/vllm-project/vLLM/Patrick von Platen"
 projects: [vLLM]
 linked_projects:
@@ -23,6 +24,7 @@ Hugging Face 是开放模型与机器学习工具生态公司，核心资产包�
 
 以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
+- [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]]：人物页 `current_affiliations:` 明确记录。
 - [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO COMPANY PEOPLE -->

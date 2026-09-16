@@ -4,14 +4,14 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked person: 36
-- Company-person associations: 191
+- Company-person associations: 192
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 190
+- People with generated linked_companies: 191
 - Project/community nodes: 85
 - Project/community nodes with ≥1 linked person: 66
 - Project/community-person associations: 371
 - Non-company affiliations recognized and routed elsewhere: 60
-- Unresolved source values (backlog, non-fatal): 3
+- Unresolved source values (backlog, non-fatal): 5
 - Audit errors: 0
 
 ## Companies
@@ -42,6 +42,7 @@
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
+| [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
@@ -49,7 +50,6 @@
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
 | [[company/Databricks/Databricks|Databricks]] | 1 |
 | [[company/HPE/HPE|HPE]] | 1 |
-| [[company/Hugging Face/Hugging Face|Hugging Face]] | 1 |
 | [[company/Intel/Intel|Intel]] | 1 |
 | [[company/Samsung/Samsung|Samsung]] | 1 |
 | [[company/道客/道客|道客]] | 1 |
@@ -130,6 +130,8 @@
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
+- `community/ggml-org/llama.cpp/Georgi Gerganov.md` · `communities` → `llama.cpp`
+- `community/ggml-org/llama.cpp/Georgi Gerganov.md` · `communities` → `ggml`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`
