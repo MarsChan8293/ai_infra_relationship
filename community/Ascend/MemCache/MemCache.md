@@ -111,7 +111,7 @@ https://github.com/Ascend/memcache
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
-- [[community/Ascend/MemCache/ader47|ader47]]：是 2026 年 layerwise KV Pool + MemCache backend 实现的直接共同贡献者。
+- [[community/Ascend/MemCache/ader47|ader47（Feng Liu）]]：是 2026 年 layerwise KV Pool + MemCache backend 实现的直接共同贡献者。
 - [[community/Ascend/MemCache/chenyz6|chenyz6]]：长期出现在 MemCache 的 `Merged-by` 记录中，覆盖 MetaService、MemFabric 接口、KV Event、测试与构建等关键路径。
 - [[community/Ascend/MemCache/DreamerLeader|DreamerLeader]]：2026-01 发起 vLLM-Ascend RFC #6410，明确提出把 MemCache 纳入 KV Pool storage backend，并将原有 MooncakeStoreConnector 抽象为统一的 AscendStoreConnector + Backend 接口。
 - [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]]：还涉及 async flush、rewarm 等 storage tier / reliability 工作，是当前 MemCache 分层存储方向非常值得继续追的人物。

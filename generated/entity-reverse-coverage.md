@@ -4,7 +4,7 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 173
+- Company-person associations: 174
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
 - Project/community-person associations: 332
@@ -17,7 +17,7 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
-| [[company/华为/华为|华为]] | 13 |
+| [[company/华为/华为|华为]] | 14 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |

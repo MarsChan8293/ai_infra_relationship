@@ -66,8 +66,8 @@
 | 36 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 | 4 | 0 |
 | 37 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 | 1 | 0 |
 | 38 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 | 2 | 0 |
-| 39 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 | 2 | 0 |
-| 40 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 | 1 | 0 |
+| 39 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 | 1 | 0 |
+| 40 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 | 2 | 0 |
 
 ## Structured bridge nodes
 

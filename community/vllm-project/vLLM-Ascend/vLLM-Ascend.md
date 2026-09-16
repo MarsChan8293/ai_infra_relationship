@@ -68,7 +68,7 @@ https://github.com/vllm-project/vllm-ascend
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
-- [[community/Ascend/MemCache/ader47|ader47]]：https://github.com/vllm-project/vllm-ascend/pull/11444
+- [[community/Ascend/MemCache/ader47|ader47（Feng Liu）]]：https://github.com/vllm-project/vllm-ascend/pull/11444
 - [[community/Ascend/MemCache/DreamerLeader|DreamerLeader]]：2026-01 发起 vLLM-Ascend RFC #6410，明确提出把 MemCache 纳入 KV Pool storage backend，并将原有 MooncakeStoreConnector 抽象为统一的 AscendStoreConnector + Backend 接口。
 - [[community/Ascend/MemCache/Pz1116|Pz1116]]：https://github.com/vllm-project/vllm-ascend/issues/9057
 - [[community/Ascend/MemCache/tyy0829|tyy0829]]：2026 年直接推进 vLLM-Ascend 的 **layerwise KV Pool + MemCache backend**：减少 per-layer key / MetaServer lookup 开销，把 GVA 分配移动到 worker，并使用 MemCache `batch_copy` / lease 生命周期管理完成按层 KV save/load。

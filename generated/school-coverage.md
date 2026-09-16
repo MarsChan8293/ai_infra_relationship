@@ -90,12 +90,12 @@
 | 39 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
 | 40 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
 | 41 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
-| 42 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |
-| 43 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 |
-| 44 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
-| 45 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
-| 46 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
-| 47 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 5.35 | 3 |
-| 48 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
-| 49 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
-| 50 | [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]] | 5.35 | 3 |
+| 42 | [[community/Ascend/MemCache/ader47|ader47]] | 5.672 | 4 |
+| 43 | [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]] | 5.672 | 4 |
+| 44 | [[community/Ascend/MemCache/吕有辉|吕有辉]] | 5.672 | 4 |
+| 45 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
+| 46 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
+| 47 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
+| 48 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 5.35 | 3 |
+| 49 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
+| 50 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
