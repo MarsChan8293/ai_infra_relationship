@@ -4,7 +4,7 @@
 
 - School nodes: 46
 - Schools with ≥1 linked person: 42
-- Reverse person-school associations: 160
+- Reverse person-school associations: 161
 - Audit errors: 0
 
 | School | Linked people |
@@ -17,9 +17,9 @@
 | [[university/浙江大学/浙江大学|浙江大学]] | 7 |
 | [[university/University of Chicago/University of Chicago|University of Chicago]] | 6 |
 | [[university/Stanford University/Stanford University|Stanford University]] | 3 |
+| [[university/UCLA/UCLA|UCLA]] | 3 |
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
-| [[university/UCLA/UCLA|UCLA]] | 2 |
 | [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 2 |
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 2 |

@@ -6,15 +6,15 @@
   "candidate_count": 1133,
   "selected_count": 10,
   "selected_family_counts": {
-    "company": 2,
+    "company": 1,
     "person": 4,
-    "project": 4
+    "project": 4,
+    "research": 1
   },
   "selected_bucket_counts": {
     "bridge": 2,
     "exploitation": 5,
-    "exploration": 2,
-    "verification": 1
+    "exploration": 3
   },
   "scoring_note": "Base expected-gain proxy plus small-sample-shrunk action_key history yield; exact recent success/partial/unresolved/rejected actions are temporarily suppressed by status-specific cooldowns. Partial outcomes retain resolved/unresolved dimensions.",
   "selected_actions": [
@@ -428,6 +428,70 @@
       }
     },
     {
+      "action_id": "university/IBM Research/IBM Research::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/IBM Research/IBM Research",
+        "name": "IBM Research",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploration",
+      "priority": 7.835,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.742,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Research Institution",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.835,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Ascend/ops-transformer/tangkaidi::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -618,75 +682,6 @@
         "bridge 6.2"
       ],
       "base_priority": 7.341,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 3,
-          "statuses": {
-            "success": 3
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
-        },
-        "key_yield_adjustment": 0.173,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/xAI/xAI::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/xAI/xAI",
-        "name": "xAI",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "verification",
-      "priority": 7.423,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.447,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 7.25,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1527,6 +1522,70 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/IBM Research/IBM Research::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/IBM Research/IBM Research",
+        "name": "IBM Research",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploration",
+      "priority": 7.835,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.742,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Research Institution",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.835,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -11450,6 +11509,70 @@
       }
     },
     {
+      "action_id": "university/IBM Research/IBM Research::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/IBM Research/IBM Research",
+        "name": "IBM Research",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "exploitation",
+      "priority": 6.276,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 0.5,
+        "frontier_potential": 0.742,
+        "uncertainty": 0.557,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Research Institution",
+        "infra: serving/inference, kv-cache, distributed"
+      ],
+      "base_priority": 6.276,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ray-project/Ray-Serve/Ray-Serve::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -11783,70 +11906,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/IBM Research/IBM Research::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/IBM Research/IBM Research",
-        "name": "IBM Research",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "exploitation",
-      "priority": 6.24,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 3.785,
-        "novelty": 0.5,
-        "frontier_potential": 0.606,
-        "uncertainty": 0.557,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, distributed"
-      ],
-      "base_priority": 6.24,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -16961,7 +17020,7 @@
       "signals": {
         "infra_relevance": 4.0,
         "evidence_quality": 0.95,
-        "url_count": 8,
+        "url_count": 11,
         "bridge_score": 9.25,
         "novelty": 0.5,
         "frontier_potential": 0.208,
@@ -16976,7 +17035,7 @@
       "reasons": [
         "coverage 2/3",
         "source type Person",
-        "infra: serving/inference, kernel, distributed",
+        "infra: serving/inference, kv-cache, scheduler",
         "bridge 9.2"
       ],
       "base_priority": 5.639,
@@ -17598,69 +17657,6 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/IBM Research/IBM Research::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/IBM Research/IBM Research",
-        "name": "IBM Research",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploitation",
-      "priority": 5.846,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 3.785,
-        "novelty": 0.0,
-        "frontier_potential": 0.606,
-        "uncertainty": 0.603,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, distributed"
-      ],
-      "base_priority": 5.846,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -19836,6 +19832,72 @@
       }
     },
     {
+      "action_id": "university/IBM Research/IBM Research::parent_or_partner_org",
+      "action_key": "research:parent_or_partner_org:school+company+research",
+      "source": {
+        "id": "university/IBM Research/IBM Research",
+        "name": "IBM Research",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "parent_or_partner_org",
+      "target_families": [
+        "school",
+        "company",
+        "research"
+      ],
+      "strategies": [
+        "official_about_page",
+        "institutional_partnership_page"
+      ],
+      "write_hint": "Distinguish parent institution from collaboration or sponsorship.",
+      "bucket": "exploration",
+      "priority": 5.707,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.742,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Research Institution",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.707,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/UC Berkeley/Xiangxi Mo::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -20107,72 +20169,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/IBM Research/IBM Research::parent_or_partner_org",
-      "action_key": "research:parent_or_partner_org:school+company+research",
-      "source": {
-        "id": "university/IBM Research/IBM Research",
-        "name": "IBM Research",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "parent_or_partner_org",
-      "target_families": [
-        "school",
-        "company",
-        "research"
-      ],
-      "strategies": [
-        "official_about_page",
-        "institutional_partnership_page"
-      ],
-      "write_hint": "Distinguish parent institution from collaboration or sponsorship.",
-      "bucket": "exploration",
-      "priority": 5.671,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.606,
-        "uncertainty": 0.74,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.671,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -23375,11 +23371,11 @@
       }
     },
     {
-      "action_id": "university/UCLA/UCLA::labs_or_groups",
+      "action_id": "university/四川大学/四川大学::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
-        "id": "university/UCLA/UCLA",
-        "name": "UCLA",
+        "id": "university/四川大学/四川大学",
+        "name": "四川大学",
         "type": "school",
         "family": "school"
       },
@@ -23441,11 +23437,11 @@
       }
     },
     {
-      "action_id": "university/四川大学/四川大学::labs_or_groups",
+      "action_id": "university/UCLA/UCLA::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
-        "id": "university/四川大学/四川大学",
-        "name": "四川大学",
+        "id": "university/UCLA/UCLA",
+        "name": "UCLA",
         "type": "school",
         "family": "school"
       },
@@ -23459,7 +23455,7 @@
       ],
       "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
       "bucket": "exploration",
-      "priority": 5.512,
+      "priority": 5.511,
       "cost": 1.1,
       "coverage": {
         "existing": 0,
@@ -23470,11 +23466,11 @@
         "infra_relevance": 0.0,
         "evidence_quality": 0.8,
         "url_count": 1,
-        "bridge_score": 3.785,
+        "bridge_score": 4.55,
         "novelty": 1.0,
-        "frontier_potential": 0.577,
+        "frontier_potential": 0.5,
         "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
+        "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.138,
@@ -23486,7 +23482,7 @@
         "source type School",
         "opens underrepresented target types"
       ],
-      "base_priority": 5.374,
+      "base_priority": 5.373,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -37278,70 +37274,6 @@
       }
     },
     {
-      "action_id": "university/UCLA/UCLA::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/UCLA/UCLA",
-        "name": "UCLA",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "exploration",
-      "priority": 4.885,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.885,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/四川大学/四川大学::projects",
       "action_key": "school:projects:project+community",
       "source": {
@@ -37525,6 +37457,70 @@
         "opens underrepresented target types"
       ],
       "base_priority": 4.884,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/UCLA/UCLA::projects",
+      "action_key": "school:projects:project+community",
+      "source": {
+        "id": "university/UCLA/UCLA",
+        "name": "UCLA",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "lab_github_org",
+        "official_project_pages"
+      ],
+      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
+      "bucket": "exploration",
+      "priority": 4.882,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 4.55,
+        "novelty": 1.0,
+        "frontier_potential": 0.5,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.882,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -59624,68 +59620,6 @@
       }
     },
     {
-      "action_id": "university/UCLA/UCLA::key_people",
-      "action_key": "school:key_people:person",
-      "source": {
-        "id": "university/UCLA/UCLA",
-        "name": "UCLA",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "faculty_directory",
-        "lab_people_pages"
-      ],
-      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
-      "bucket": "exploitation",
-      "priority": 3.527,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 5,
-        "gap": 0.6
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.785,
-        "novelty": 0.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.503,
-        "redundancy_penalty": 0.308,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/5",
-        "source type School"
-      ],
-      "base_priority": 3.527,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/四川大学/四川大学::key_people",
       "action_key": "school:key_people:person",
       "source": {
@@ -61059,69 +60993,6 @@
       }
     },
     {
-      "action_id": "university/UCLA/UCLA::spinouts",
-      "action_key": "school:spinouts:company",
-      "source": {
-        "id": "university/UCLA/UCLA",
-        "name": "UCLA",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "spinouts",
-      "target_families": [
-        "company"
-      ],
-      "strategies": [
-        "official_founder_bio",
-        "university_news_or_tech_transfer"
-      ],
-      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
-      "bucket": "exploration",
-      "priority": 3.467,
-      "cost": 1.6,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type School",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 3.467,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/OpenAI/o1::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -61355,6 +61226,69 @@
       "reasons": [
         "source coverage 1/2",
         "evidence quality below target"
+      ],
+      "base_priority": 3.459,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/UCLA/UCLA::spinouts",
+      "action_key": "school:spinouts:company",
+      "source": {
+        "id": "university/UCLA/UCLA",
+        "name": "UCLA",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "spinouts",
+      "target_families": [
+        "company"
+      ],
+      "strategies": [
+        "official_founder_bio",
+        "university_news_or_tech_transfer"
+      ],
+      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
+      "bucket": "exploration",
+      "priority": 3.459,
+      "cost": 1.6,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 4.55,
+        "novelty": 1.0,
+        "frontier_potential": 0.5,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type School",
+        "opens underrepresented target types"
       ],
       "base_priority": 3.459,
       "eligible": true,
@@ -66859,6 +66793,68 @@
       }
     },
     {
+      "action_id": "university/UCLA/UCLA::key_people",
+      "action_key": "school:key_people:person",
+      "source": {
+        "id": "university/UCLA/UCLA",
+        "name": "UCLA",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "faculty_directory",
+        "lab_people_pages"
+      ],
+      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
+      "bucket": "exploitation",
+      "priority": 2.939,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 3,
+        "desired": 5,
+        "gap": 0.4
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 4.55,
+        "novelty": 0.0,
+        "frontier_potential": 0.5,
+        "uncertainty": 0.393,
+        "redundancy_penalty": 0.388,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/5",
+        "source type School"
+      ],
+      "base_priority": 2.939,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/上海交通大学/Haibo Chen::verify_evidence",
       "action_key": "person:verify_evidence:none",
       "source": {
@@ -70582,6 +70578,66 @@
       }
     },
     {
+      "action_id": "university/UCLA/UCLA::verify_evidence",
+      "action_key": "school:verify_evidence:none",
+      "source": {
+        "id": "university/UCLA/UCLA",
+        "name": "UCLA",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 2.268,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 4.55,
+        "novelty": 0.0,
+        "frontier_potential": 1.0,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.069,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 2.268,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/清昴智能/姚航 Hang Yao::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -70815,66 +70871,6 @@
         "evidence quality below target"
       ],
       "base_priority": 2.227,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/UCLA/UCLA::verify_evidence",
-      "action_key": "school:verify_evidence:none",
-      "source": {
-        "id": "university/UCLA/UCLA",
-        "name": "UCLA",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 2.204,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.785,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 2.204,
       "eligible": true,
       "history": {
         "exact_attempts": 0,

@@ -2,20 +2,20 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 356
+- Typed relation edges: 358
 - Person nodes with typed relations: 110 / 261
 - Hard errors: 0
-- Warnings: 5
+- Warnings: 4
 
 ## Relation types
 
-- `coworker`: 145
+- `coworker`: 148
 - `paper-coauthor`: 139
 - `research-collaboration`: 73
 - `open-source-collaboration`: 71
 - `mentor-network`: 53
-- `technical-collaboration`: 48
-- `cofounder`: 37
+- `technical-collaboration`: 50
+- `cofounder`: 38
 - `advisor`: 15
 - `same-lab`: 10
 - `community-maintainer`: 10
@@ -88,8 +88,8 @@
 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
 | [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.350 | 7 | 7 | 100.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
+| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
-| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 10.757 | 5 | 5 | 100.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 5 | 4 | 80.0% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
@@ -99,7 +99,7 @@
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
 | [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]] | 9.709 | 4 | 2 | 50.0% |
-| [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]] | 9.707 | 4 | 3 | 75.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
 | [[university/清华大学/Ruoyu Qin|秦若愚]] | 9.572 | 3 | 3 | 100.0% |
 | [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] | 9.485 | 4 | 4 | 100.0% |
+| [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | 9.485 | 5 | 5 | 100.0% |

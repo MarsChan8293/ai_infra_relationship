@@ -317,10 +317,11 @@
     "kind": "typed-relation",
     "relation_types": [
       "cofounder",
+      "coworker",
       "open-source-collaboration"
     ],
-    "project": null,
-    "company": null,
+    "project": "vLLM",
+    "company": "Inferact",
     "start": null,
     "end": null,
     "confidence": "high",
@@ -4381,6 +4382,24 @@
     ]
   },
   {
+    "source": "community/llm-d/llm-d/Maroon Ayoub",
+    "target": "community/vllm-project/vLLM/Tyler Michael Smith",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "technical-collaboration"
+    ],
+    "project": "llm-d",
+    "company": "Red Hat",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://llm-d.ai/blog/kvcache-wins-you-can-see",
+      "https://llm-d.ai/blog/serving-glm-5-2-agentic-workloads-on-llm-d"
+    ]
+  },
+  {
     "source": "community/llm-d/llm-d/Nili Guy",
     "target": "community/llm-d/llm-d/Maroon Ayoub",
     "kind": "typed-relation",
@@ -5241,6 +5260,7 @@
     "target": "community/vllm-project/vLLM/游凯超 Kaichao You",
     "kind": "typed-relation",
     "relation_types": [
+      "cofounder",
       "coworker",
       "open-source-collaboration"
     ],
@@ -5382,6 +5402,24 @@
     "evidence": [
       "https://developers.redhat.com/articles/2024/07/15/vllm-brings-fp8-inference-open-source-community",
       "https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1"
+    ]
+  },
+  {
+    "source": "community/vllm-project/vLLM/Tyler Michael Smith",
+    "target": "community/llm-d/llm-d/Maroon Ayoub",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "technical-collaboration"
+    ],
+    "project": "llm-d",
+    "company": "Red Hat",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://llm-d.ai/blog/kvcache-wins-you-can-see",
+      "https://llm-d.ai/blog/serving-glm-5-2-agentic-workloads-on-llm-d"
     ]
   },
   {

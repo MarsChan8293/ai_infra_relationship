@@ -4,6 +4,7 @@ name: UCLA
 aliases: ["University of California, Los Angeles"]
 linked_people:
   - "community/llm-d/llm-d/Danny Harnik"
+  - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
   - "community/vllm-project/vLLM/乔一凡 Yifan Qiao"
 last_verified: "2026-09"
 ---
@@ -20,6 +21,7 @@ UCLA 是图谱中的高校节点，用于连接 AI Infra 人物的教育、访�
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
 - [[community/llm-d/llm-d/Danny Harnik|Danny Harnik]]：博士后阶段曾在 Technion 与 UCLA/IPAM。
+- [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[UCLA]]：Computer Science 博士，2024；导师 Harry Xu、Miryung Kim
 
 <!-- END AUTO SCHOOL PEOPLE -->

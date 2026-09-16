@@ -6,8 +6,8 @@ aliases: [郑连民, Lianmin Zheng]
 current_affiliations: ["UCLA"]
 schools:
   - "UC Berkeley"
-  - "上海交通大学"
   - "UCLA"
+  - "上海交通大学"
 communities: [SGLang, LMSYS]
 roles: [SGLang creator, scheduler merge-oncall, Assistant Professor]
 areas: [llm-serving, distributed-systems, compilers, evaluation]

@@ -6,7 +6,7 @@
 - People with ≥1 school: 123
 - People without known school: 138
 - Coverage: 47.1%
-- Person-school associations: 160
+- Person-school associations: 161
 - School nodes: 46
 - Audit errors: 0
 
@@ -22,12 +22,12 @@
 | 浙江大学 | 7 |
 | University of Chicago | 6 |
 | Stanford University | 3 |
+| UCLA | 3 |
 | Harvard University | 2 |
 | 厦门大学 | 2 |
 | 四川大学 | 2 |
 | Georgia Institute of Technology | 2 |
 | University of Washington | 2 |
-| UCLA | 2 |
 | University of Texas at Austin | 2 |
 | Seoul National University | 1 |
 | Franklin W. Olin College of Engineering | 1 |

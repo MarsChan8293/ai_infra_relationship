@@ -82,7 +82,7 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - [[community/llm-d/llm-d/David Simmons|David Simmons]]：[[llm-d]]：Community Manager
 - [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：[[llm-d]]：Community Manager
 - [[community/llm-d/llm-d/Marcio A L Silva|Marcio A L Silva]]：[[llm-d]]：截至 2026-09 为 Benchmarking SIG Lead。
-- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-08 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
+- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-07 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
 - [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
 - [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[llm-d]]：Community Manager
 - [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
