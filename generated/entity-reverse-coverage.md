@@ -8,10 +8,10 @@
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 190
 - Project/community nodes: 84
-- Project/community nodes with ≥1 linked person: 65
-- Project/community-person associations: 368
-- Non-company affiliations recognized and routed elsewhere: 58
-- Unresolved source values (backlog, non-fatal): 0
+- Project/community nodes with ≥1 linked person: 66
+- Project/community-person associations: 371
+- Non-company affiliations recognized and routed elsewhere: 60
+- Unresolved source values (backlog, non-fatal): 3
 - Audit errors: 0
 
 ## Companies
@@ -60,7 +60,7 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 24 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 25 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 21 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
@@ -99,6 +99,7 @@
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
+| [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
@@ -124,3 +125,11 @@
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
+
+## Unresolved source values
+
+这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
+
+- `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
+- `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
+- `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`

@@ -26,6 +26,7 @@ linked_people:
   - "company/RadixArk/盛颖 Ying Sheng"
   - "company/腾讯/Chunxiao Zheng"
   - "university/UC Berkeley/Shiyi Cao"
+  - "university/上海交通大学/Xiaoze Fan"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: llm-serving-engine
@@ -89,6 +90,7 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
 - [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：SGLang #38652：在 `UnifiedRadixCache` 中接入 LMCache external KV-cache backend。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
+- [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：https://github.com/sgl-project/mini-sglang
 
 <!-- END AUTO PROJECT PEOPLE -->
 

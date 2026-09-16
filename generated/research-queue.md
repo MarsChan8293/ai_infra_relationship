@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1277
-- Eligible actions: 1251
+- Candidate actions: 1281
+- Eligible actions: 1255
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -42,7 +42,7 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.183 |
+| 1 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.297 |
 | 2 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 8.125 |
 | 3 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
 | 4 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
@@ -98,7 +98,7 @@
 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | affiliation | success | 2026-09-17 | 6.071 |
 | [[company/面壁智能/面壁智能|面壁智能]] | projects | success | 2026-09-17 | 5.804 |
 | [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 5.803 |
-| [[university/上海交通大学/上海交通大学|上海交通大学]] | labs_or_groups | partial | 2026-09-18 | 5.833 |
+| [[university/上海交通大学/上海交通大学|上海交通大学]] | labs_or_groups | partial | 2026-09-18 | 5.825 |
 | [[university/浙江大学/浙江大学|浙江大学]] | labs_or_groups | success | 2026-09-17 | 5.763 |
 | [[university/University of Chicago/University of Chicago|University of Chicago]] | labs_or_groups | success | 2026-09-17 | 5.656 |
 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | project_contribution | success | 2026-09-17 | 5.486 |

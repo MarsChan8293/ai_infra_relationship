@@ -2,22 +2,22 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 364
-- Person nodes with typed relations: 116 / 304
+- Typed relation edges: 368
+- Person nodes with typed relations: 118 / 306
 - Hard errors: 0
 - Warnings: 6
 
 ## Relation types
 
 - `coworker`: 148
-- `paper-coauthor`: 139
+- `paper-coauthor`: 143
+- `research-collaboration`: 77
 - `open-source-collaboration`: 74
-- `research-collaboration`: 73
-- `mentor-network`: 52
+- `mentor-network`: 55
 - `technical-collaboration`: 51
 - `cofounder`: 38
-- `advisor`: 18
-- `student`: 10
+- `advisor`: 19
+- `student`: 11
 - `same-lab`: 10
 - `community-maintainer`: 10
 - `career-connection`: 5
@@ -76,7 +76,7 @@
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |
 | [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 14.685 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
-| [[company/Inferact/Ion Stoica|Ion Stoica]] | 13.022 | 8 | 8 | 100.0% |
+| [[company/Inferact/Ion Stoica|Ion Stoica]] | 13.859 | 8 | 8 | 100.0% |
 | [[university/清华大学/Mingxing Zhang|章明星]] | 12.948 | 4 | 3 | 75.0% |
 | [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 12.672 | 8 | 6 | 75.0% |
 | [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]] | 12.520 | 8 | 7 | 87.5% |

@@ -2,7 +2,9 @@
 type: project
 name: FreeToken
 organization: FlashML
-linked_people: []
+linked_people:
+  - "university/UC Berkeley/Shuo Yang"
+  - "university/上海交通大学/Xiaoze Fan"
 repository: https://github.com/FlashML-org/FreeToken
 open_source: true
 layer: edge-moe-serving
@@ -103,3 +105,13 @@ FreeToken 官方 README 明确写明：项目 **deeply inspired by mini-SGLang**
 - https://jasonfxz.top/
 - https://sky.cs.berkeley.edu/people/
 - https://github.com/sgl-project/mini-sglang
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：https://github.com/FlashML-org/FreeToken
+- [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：Shuo Yang：mentor；同时为 FreeToken 共同一作。
+
+<!-- END AUTO PROJECT PEOPLE -->

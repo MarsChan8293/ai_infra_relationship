@@ -2,7 +2,7 @@
 type: person
 name: Shuo Yang
 aliases: ["Shuo Yang", "Andy Yang", "andy-yang-1", "Andy_ShuoYang"]
-current_affiliations: ["UC Berkeley", "Sky Computing Lab", "LMSYS"]
+current_affiliations: ["UC Berkeley","Sky Computing Lab","LMSYS"]
 schools:
   - "UC Berkeley"
 communities: [FreeToken]
@@ -48,6 +48,9 @@ Berkeley Sky 官方 people 页面也将 Shuo Yang 列为 GSR。
 - UCCL：GPU networking / collective communication 研究网络。
 
 这些经历说明 Shuo Yang 在图谱中不是单一 FreeToken 项目作者，而是 Berkeley inference systems / algorithm-system co-design 的桥节点。
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://andy-yang-1.github.io/

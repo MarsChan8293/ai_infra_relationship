@@ -2,10 +2,10 @@
 type: person
 name: Xiaoze Fan
 aliases: ["Xiaoze Fan", "范晓泽", "JasonFan", "jason-fxz"]
-current_affiliations: ["上海交通大学", "UC Berkeley Sky Computing Lab"]
+current_affiliations: ["上海交通大学","UC Berkeley Sky Computing Lab"]
 schools:
-  - "上海交通大学"
   - "UC Berkeley"
+  - "上海交通大学"
 communities: [FreeToken, SGLang]
 roles: [Undergraduate Researcher, Visiting Student Researcher, FreeToken Co-first Author, mini-SGLang Developer]
 public_email: jasonfxz@sjtu.edu.cn
@@ -55,6 +55,10 @@ FreeToken 官方 README 又明确说明项目 **deeply inspired by mini-SGLang**
 ## 公开职业邮箱
 
 `jasonfxz@sjtu.edu.cn`，来自个人主页 / CV 与 FreeToken Git commit trailer，属于学校职业/学术邮箱，可作为 canonical public_email。
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://jasonfxz.top/

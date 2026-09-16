@@ -4551,7 +4551,7 @@
         "type": "project",
         "name": "FreeToken",
         "organization": "FlashML",
-        "linked_people": [],
+        "linked_people": "",
         "repository": "https://github.com/FlashML-org/FreeToken",
         "open_source": true,
         "layer": "edge-moe-serving",
@@ -11551,6 +11551,49 @@
       }
     },
     {
+      "id": "university/UC Berkeley/Shuo Yang",
+      "path": "university/UC Berkeley/Shuo Yang.md",
+      "name": "Shuo Yang",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Shuo Yang",
+        "aliases": [
+          "Shuo Yang",
+          "Andy Yang",
+          "andy-yang-1",
+          "Andy_ShuoYang"
+        ],
+        "current_affiliations": [
+          "UC Berkeley",
+          "Sky Computing Lab",
+          "LMSYS"
+        ],
+        "schools": "",
+        "communities": [
+          "FreeToken"
+        ],
+        "roles": [
+          "PhD Student",
+          "Researcher",
+          "FreeToken Co-first Author"
+        ],
+        "areas": [
+          "llm-serving",
+          "moe-inference",
+          "gpu-kernels",
+          "sparse-attention",
+          "multimodal-systems",
+          "edge-inference",
+          "algorithm-system-codesign"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
       "id": "university/UC Berkeley/UC Berkeley",
       "path": "university/UC Berkeley/UC Berkeley.md",
       "name": "UC Berkeley",
@@ -11913,6 +11956,52 @@
           "distributed-systems",
           "ai-systems"
         ]
+      }
+    },
+    {
+      "id": "university/上海交通大学/Xiaoze Fan",
+      "path": "university/上海交通大学/Xiaoze Fan.md",
+      "name": "Xiaoze Fan",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Xiaoze Fan",
+        "aliases": [
+          "Xiaoze Fan",
+          "范晓泽",
+          "JasonFan",
+          "jason-fxz"
+        ],
+        "current_affiliations": [
+          "上海交通大学",
+          "UC Berkeley Sky Computing Lab"
+        ],
+        "schools": "",
+        "communities": [
+          "FreeToken",
+          "SGLang"
+        ],
+        "roles": [
+          "Undergraduate Researcher",
+          "Visiting Student Researcher",
+          "FreeToken Co-first Author",
+          "mini-SGLang Developer"
+        ],
+        "public_email": "jasonfxz@sjtu.edu.cn",
+        "areas": [
+          "llm-serving",
+          "moe-inference",
+          "edge-inference",
+          "scheduling",
+          "radix-cache",
+          "chunked-prefill",
+          "overlap-scheduling",
+          "gpu-systems"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
       }
     },
     {
@@ -14165,6 +14254,16 @@
     {
       "source": "community/FlashML-org/FreeToken/FreeToken",
       "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/FlashML-org/FreeToken/FreeToken",
+      "target": "university/UC Berkeley/Shuo Yang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/FlashML-org/FreeToken/FreeToken",
+      "target": "university/上海交通大学/Xiaoze Fan",
       "kind": "wikilink"
     },
     {
@@ -19235,6 +19334,11 @@
     {
       "source": "community/sgl-project/SGLang/SGLang",
       "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "university/上海交通大学/Xiaoze Fan",
       "kind": "wikilink"
     },
     {
@@ -27333,6 +27437,26 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/UC Berkeley/Shuo Yang",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shuo Yang",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shuo Yang",
+      "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shuo Yang",
+      "target": "university/上海交通大学/Xiaoze Fan",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/UC Berkeley/UC Berkeley",
       "target": "community/ray-project/Ray-Serve/Ray-Serve",
       "kind": "wikilink"
@@ -27474,7 +27598,17 @@
     },
     {
       "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/UC Berkeley/Shuo Yang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
       "target": "university/UC Berkeley/Xiangxi Mo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/上海交通大学/Xiaoze Fan",
       "kind": "wikilink"
     },
     {
@@ -27873,6 +28007,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/上海交通大学/Xiaoze Fan",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/Xiaoze Fan",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/Xiaoze Fan",
+      "target": "university/UC Berkeley/Shuo Yang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/Xiaoze Fan",
+      "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/Xiaoze Fan",
+      "target": "university/上海交通大学/上海交通大学",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/上海交通大学/Xingda Wei",
       "target": "university/上海交通大学/Haibo Chen",
       "kind": "wikilink"
@@ -27970,6 +28129,11 @@
     {
       "source": "university/上海交通大学/上海交通大学",
       "target": "university/上海交通大学/Shengzhong Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/上海交通大学",
+      "target": "university/上海交通大学/Xiaoze Fan",
       "kind": "wikilink"
     },
     {
@@ -29778,14 +29942,14 @@
       "bridge_score": 15.905
     },
     "company/Inferact/Ion Stoica": {
-      "degree": 19,
-      "cross_category_degree": 12,
+      "degree": 21,
+      "cross_category_degree": 14,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.022
+      "bridge_score": 13.859
     },
     "company/Inferact/Joseph Gonzalez": {
       "degree": 12,
@@ -31227,12 +31391,13 @@
       "bridge_score": 5.35
     },
     "community/FlashML-org/FreeToken/FreeToken": {
-      "degree": 1,
-      "cross_category_degree": 1,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
-        "company"
+        "company",
+        "university"
       ],
-      "bridge_score": 2.85
+      "bridge_score": 6.05
     },
     "community/InfiniTensor/InfiniTensor": {
       "degree": 4,
@@ -32946,15 +33111,15 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 82,
-      "cross_category_degree": 37,
+      "degree": 83,
+      "cross_category_degree": 38,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 25.325
+      "bridge_score": 25.692
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -33743,15 +33908,25 @@
       ],
       "bridge_score": 5.672
     },
+    "university/UC Berkeley/Shuo Yang": {
+      "degree": 4,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.522
+    },
     "university/UC Berkeley/UC Berkeley": {
-      "degree": 31,
+      "degree": 33,
       "cross_category_degree": 26,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 18.6
+      "bridge_score": 18.687
     },
     "university/UC Berkeley/Xiangxi Mo": {
       "degree": 4,
@@ -33914,6 +34089,16 @@
       ],
       "bridge_score": 5.35
     },
+    "university/上海交通大学/Xiaoze Fan": {
+      "degree": 6,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 8.357
+    },
     "university/上海交通大学/Xingda Wei": {
       "degree": 6,
       "cross_category_degree": 0,
@@ -33923,14 +34108,14 @@
       "bridge_score": 4.307
     },
     "university/上海交通大学/上海交通大学": {
-      "degree": 19,
+      "degree": 20,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.322
+      "bridge_score": 12.392
     },
     "university/上海人工智能实验室/Han Lv": {
       "degree": 2,

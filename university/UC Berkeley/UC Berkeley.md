@@ -23,7 +23,9 @@ linked_people:
   - "company/潞晨科技/尤洋 Yang You"
   - "university/UC Berkeley/Shiyi Cao"
   - "university/UC Berkeley/Shu Liu"
+  - "university/UC Berkeley/Shuo Yang"
   - "university/UC Berkeley/Xiangxi Mo"
+  - "university/上海交通大学/Xiaoze Fan"
 ---
 # UC Berkeley
 
@@ -91,6 +93,8 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：UC Berkeley：计算机博士，研究高性能深度学习与大规模优化。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Shu Liu|Shu Liu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：UC Berkeley Sky Computing Lab：2026 Visiting Student Researcher；
 
 <!-- END AUTO SCHOOL PEOPLE -->
