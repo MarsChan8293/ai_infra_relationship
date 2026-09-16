@@ -1,6 +1,7 @@
 ---
 type: project
 name: HPC-Ops
+linked_people: []
 companies: ["腾讯"]
 company_relation: company-led
 layer: kernel
@@ -9,6 +10,8 @@ repository: https://github.com/Tencent/hpc-ops
 areas: [llm-inference, kernels, attention, moe, gemm, communication, sampling, quantization]
 hardware: [NVIDIA H20, SM90]
 last_verified: "2026-09"
+linked_companies:
+  - "company/腾讯/腾讯"
 ---
 # HPC-Ops
 
@@ -29,3 +32,12 @@ HPC-Ops 是腾讯混元 AI Infra 团队开发的高性能 LLM 推理算子库，
 ## Sources
 - https://github.com/Tencent/hpc-ops
 - https://github.com/Tencent/hpc-ops/blob/main/README.md
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/腾讯/腾讯|腾讯]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -3,11 +3,11 @@
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
 - Company nodes: 41
-- Companies with ≥1 linked project/community: 26
-- Project/community nodes: 57
-- Project/community nodes with ≥1 linked company: 33
-- Bidirectional association pairs: 49
-- Explicitly asserted on both sides: 49
+- Companies with ≥1 linked project/community: 28
+- Project/community nodes: 62
+- Project/community nodes with ≥1 linked company: 38
+- Bidirectional association pairs: 54
+- Explicitly asserted on both sides: 54
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 3
@@ -32,6 +32,7 @@
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | project | company-led | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | project | company-led | both |
+| [[company/RadixArk/RadixArk|RadixArk]] | [[community/radixark/Miles/Miles|Miles]] | project | company-led | both |
 | [[company/RadixArk/RadixArk|RadixArk]] | [[community/sgl-project/SGLang/SGLang|SGLang]] | project | core-maintainer-network | both |
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
@@ -60,8 +61,12 @@
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | project | industry-academia-research-collaboration | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | project | company-led | both |
+| [[company/清程极智/清程极智|清程极智]] | [[community/QingCheng-AI/ascend-kernel/ascend-kernel|ascend-kernel]] | project | company-led | both |
+| [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | project | company-led | both |
+| [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | company-originated-and-jointly-open-sourced-with-tsinghua | both |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | project | company-originated | both |
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
 | [[company/道客/道客|道客]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |

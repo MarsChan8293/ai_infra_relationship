@@ -3,6 +3,8 @@ type: research-institution
 name: IPADS
 organization: 上海交通大学
 aliases: ["Institute of Parallel and Distributed Systems", "上海交通大学并行与分布式系统研究所"]
+linked_people:
+  - "university/上海交通大学/Rong Chen"
 areas: [operating-systems, distributed-systems, ai-infrastructure, llm-serving, resource-management, gpu-systems]
 people:
   - "university/上海交通大学/Haibo Chen"
@@ -37,3 +39,12 @@ IPADS（Institute of Parallel and Distributed Systems，并行与分布式系统
 - https://ipads.sjtu.edu.cn/
 - https://www.cs.sjtu.edu.cn/en/jiaoshiml/chenrong.html
 - https://www.cs.sjtu.edu.cn/en/jiaoshiml/weixingda.html
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[university/上海交通大学/Rong Chen|Rong Chen]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+
+<!-- END AUTO RESEARCH PEOPLE -->

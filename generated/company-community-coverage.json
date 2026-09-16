@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 41,
-  "companies_with_links": 26,
-  "project_community_nodes": 57,
-  "project_community_nodes_with_links": 33,
-  "association_pairs": 49,
-  "asserted_on_both_sides": 49,
+  "companies_with_links": 28,
+  "project_community_nodes": 62,
+  "project_community_nodes_with_links": 38,
+  "association_pairs": 54,
+  "asserted_on_both_sides": 54,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -210,6 +210,18 @@
       "company_name": "NVIDIA",
       "entity_id": "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server",
       "entity_name": "Triton Inference Server",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/RadixArk/RadixArk",
+      "company_name": "RadixArk",
+      "entity_id": "community/radixark/Miles/Miles",
+      "entity_name": "Miles",
       "entity_type": "project",
       "relation": "company-led",
       "sources": [
@@ -554,6 +566,42 @@
       ]
     },
     {
+      "company_id": "company/清程极智/清程极智",
+      "company_name": "清程极智",
+      "entity_id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
+      "entity_name": "ascend-kernel",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/清程极智/清程极智",
+      "company_name": "清程极智",
+      "entity_id": "community/thu-pacman/BaGuaLu/BaGuaLu",
+      "entity_name": "BaGuaLu",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/清程极智/清程极智",
+      "company_name": "清程极智",
+      "entity_id": "community/thu-pacman/Chitu/Chitu",
+      "entity_name": "Chitu",
+      "entity_type": "project",
+      "relation": "company-originated-and-jointly-open-sourced-with-tsinghua",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
       "company_id": "company/潞晨科技/潞晨科技",
       "company_name": "潞晨科技",
       "entity_id": "community/hpcaitech/Colossal-AI/Colossal-AI",
@@ -572,6 +620,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/腾讯/腾讯",
+      "company_name": "腾讯",
+      "entity_id": "community/Tencent/HPC-Ops/HPC-Ops",
+      "entity_name": "HPC-Ops",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"

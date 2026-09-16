@@ -5,7 +5,7 @@
   "replacement": "generated/research-actions.json",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1058,
+  "candidate_count": 1062,
   "selected_actions": [
     {
       "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
@@ -192,200 +192,59 @@
       ]
     },
     {
-      "action_id": "company/清程极智/清程极智::projects",
-      "action_key": "company:projects:project+community+team",
+      "action_id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
       "source": {
-        "id": "company/清程极智/清程极智",
-        "name": "清程极智",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "bridge",
-      "priority": 8.137,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.4,
-        "novelty": 1.0,
-        "frontier_potential": 0.277,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.205,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, scheduler, kernel",
-        "opens underrepresented target types",
-        "bridge 7.4"
-      ]
-    },
-    {
-      "action_id": "company/RadixArk/朱邦华 Banghua Zhu::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/RadixArk/朱邦华 Banghua Zhu",
-        "name": "朱邦华",
+        "id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
+        "name": "管文宇",
         "type": "person",
         "family": "person"
       },
-      "relation": "project_contribution",
+      "relation": "affiliation",
       "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.807,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.022,
-        "novelty": 1.0,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.184,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 7.0"
-      ]
-    },
-    {
-      "action_id": "company/腾讯/腾讯::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/腾讯/腾讯",
-        "name": "腾讯",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
+        "company",
+        "school",
+        "research",
         "team"
       ],
       "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
+        "official_profile",
+        "company_or_lab_team_page"
       ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
       "bucket": "exploration",
-      "priority": 7.806,
+      "priority": 7.713,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
-        "desired": 3,
+        "desired": 2,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
         "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0
       },
       "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, kv-cache, distributed",
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
         "opens underrepresented target types"
       ]
     },
     {
-      "action_id": "company/清程极智/唐适之 Shizhi Tang::project_contribution",
+      "action_id": "university/浙江大学/Jue Wang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "company/清程极智/唐适之 Shizhi Tang",
-        "name": "唐适之",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.771,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.265,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ]
-    },
-    {
-      "action_id": "university/上海交通大学/Rong Chen::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/上海交通大学/Rong Chen",
-        "name": "Rong Chen",
+        "id": "university/浙江大学/Jue Wang",
+        "name": "Jue Wang",
         "type": "person",
         "family": "person"
       },
@@ -400,7 +259,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploitation",
-      "priority": 7.755,
+      "priority": 7.679,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -408,30 +267,124 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.822,
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.935,
         "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.129,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0
       },
       "reasons": [
         "coverage 0/3",
         "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
+        "infra: serving/inference, distributed, moe",
         "opens underrepresented target types"
       ]
     },
     {
-      "action_id": "university/上海交通大学/上海交通大学::labs_or_groups",
+      "action_id": "university/浙江大学/Zheng Li::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/浙江大学/Zheng Li",
+        "name": "Zheng Li",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 7.679,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/weijinqian0::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/weijinqian0",
+        "name": "weijinqian0",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 7.657,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "university/浙江大学/浙江大学::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
-        "id": "university/上海交通大学/上海交通大学",
-        "name": "上海交通大学",
+        "id": "university/浙江大学/浙江大学",
+        "name": "浙江大学",
         "type": "school",
         "family": "school"
       },
@@ -445,7 +398,7 @@
       ],
       "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
       "bucket": "bridge",
-      "priority": 7.72,
+      "priority": 7.605,
       "cost": 1.1,
       "coverage": {
         "existing": 0,
@@ -453,14 +406,60 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.45,
+        "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 12.17,
+        "url_count": 9,
+        "bridge_score": 10.185,
         "novelty": 1.0,
-        "frontier_potential": 0.236,
+        "frontier_potential": 0.289,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.231,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types",
+        "bridge 10.2"
+      ]
+    },
+    {
+      "action_id": "university/University of Chicago/University of Chicago::labs_or_groups",
+      "action_key": "school:labs_or_groups:research+team",
+      "source": {
+        "id": "university/University of Chicago/University of Chicago",
+        "name": "University of Chicago",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "labs_or_groups",
+      "target_families": [
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_department_or_lab_directory"
+      ],
+      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
+      "bucket": "bridge",
+      "priority": 7.506,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 11.235,
+        "novelty": 1.0,
+        "frontier_potential": 0.289,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.199,
         "distance": null,
         "distance_penalty": 0.0
       },
@@ -469,7 +468,7 @@
         "source type School",
         "infra: serving/inference, kv-cache, distributed",
         "opens underrepresented target types",
-        "bridge 12.2"
+        "bridge 11.2"
       ]
     }
   ],
@@ -656,6 +655,96 @@
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
         "bridge 8.2"
+      ]
+    },
+    {
+      "action_id": "community/QingCheng-AI/ascend-kernel/ascend-kernel::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
+        "name": "ascend-kernel",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.202,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.9,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, ascend",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/Tencent/HPC-Ops/HPC-Ops::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Tencent/HPC-Ops/HPC-Ops",
+        "name": "HPC-Ops",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.182,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
       ]
     },
     {
@@ -890,54 +979,6 @@
       ]
     },
     {
-      "action_id": "company/清程极智/清程极智::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/清程极智/清程极智",
-        "name": "清程极智",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "bridge",
-      "priority": 8.137,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.4,
-        "novelty": 1.0,
-        "frontier_potential": 0.277,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.205,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, scheduler, kernel",
-        "opens underrepresented target types",
-        "bridge 7.4"
-      ]
-    },
-    {
       "action_id": "university/清华大学/FastDecode::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -1033,239 +1074,6 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types"
-      ]
-    },
-    {
-      "action_id": "company/RadixArk/朱邦华 Banghua Zhu::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/RadixArk/朱邦华 Banghua Zhu",
-        "name": "朱邦华",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.807,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.022,
-        "novelty": 1.0,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.184,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 7.0"
-      ]
-    },
-    {
-      "action_id": "company/腾讯/腾讯::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/腾讯/腾讯",
-        "name": "腾讯",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 7.806,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ]
-    },
-    {
-      "action_id": "company/清程极智/唐适之 Shizhi Tang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/清程极智/唐适之 Shizhi Tang",
-        "name": "唐适之",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.771,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.265,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ]
-    },
-    {
-      "action_id": "university/上海交通大学/Rong Chen::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/上海交通大学/Rong Chen",
-        "name": "Rong Chen",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 7.755,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ]
-    },
-    {
-      "action_id": "university/上海交通大学/上海交通大学::labs_or_groups",
-      "action_key": "school:labs_or_groups:research+team",
-      "source": {
-        "id": "university/上海交通大学/上海交通大学",
-        "name": "上海交通大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "labs_or_groups",
-      "target_families": [
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_department_or_lab_directory"
-      ],
-      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
-      "bucket": "bridge",
-      "priority": 7.72,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 12.17,
-        "novelty": 1.0,
-        "frontier_potential": 0.236,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.231,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 12.2"
       ]
     },
     {
@@ -1409,53 +1217,6 @@
       ]
     },
     {
-      "action_id": "company/清程极智/马子轩 Zixuan Ma::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/清程极智/马子轩 Zixuan Ma",
-        "name": "马子轩",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.674,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.157,
-        "novelty": 1.0,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 6.2"
-      ]
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/weijinqian0::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -1500,52 +1261,6 @@
         "coverage 0/2",
         "source type Person",
         "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ]
-    },
-    {
-      "action_id": "university/上海交通大学/Xingda Wei::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/上海交通大学/Xingda Wei",
-        "name": "Xingda Wei",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 7.653,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
         "opens underrepresented target types"
       ]
     },
@@ -2634,50 +2349,47 @@
       ]
     },
     {
-      "action_id": "company/清程极智/师天麾 Tianhui Shi::project_contribution",
-      "action_key": "person:project_contribution:project+community",
+      "action_id": "community/thu-pacman/Chitu/Chitu::maintainers",
+      "action_key": "project:maintainers:person",
       "source": {
-        "id": "company/清程极智/师天麾 Tianhui Shi",
-        "name": "师天麾",
-        "type": "person",
-        "family": "person"
+        "id": "community/thu-pacman/Chitu/Chitu",
+        "name": "Chitu",
+        "type": "project",
+        "family": "project"
       },
-      "relation": "project_contribution",
+      "relation": "maintainers",
       "target_families": [
-        "project",
-        "community"
+        "person"
       ],
       "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
       ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.164,
-      "cost": 1.0,
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.144,
+      "cost": 0.9,
       "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
       },
       "signals": {
-        "infra_relevance": 1.75,
+        "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.265,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
         "distance": null,
         "distance_penalty": 0.0
       },
       "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3"
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed"
       ]
     },
     {
@@ -3285,6 +2997,290 @@
         "coverage 0/3",
         "source type Person",
         "infra: serving/inference, distributed",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Hailong Yang::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/ModelTC/LightLLM/Hailong Yang",
+        "name": "Hailong Yang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.899,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Ruihao Gong::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/ModelTC/LightLLM/Ruihao Gong",
+        "name": "Ruihao Gong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.899,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Siyu Wu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/ModelTC/LightLLM/Siyu Wu",
+        "name": "Siyu Wu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.899,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/Project-HAMi/HAMi/DSFans2014::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/Project-HAMi/HAMi/DSFans2014",
+        "name": "DSFans2014",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.894,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: scheduler, ascend",
+        "opens underrepresented target types"
+      ]
+    },
+    {
+      "action_id": "community/cloud-native/Kubernetes/Kubernetes::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/cloud-native/Kubernetes/Kubernetes",
+        "name": "Kubernetes",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.892,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 0.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.482,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler"
+      ]
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen",
+        "name": "陈乐群",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.865,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
         "opens underrepresented target types"
       ]
     }

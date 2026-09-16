@@ -1,6 +1,8 @@
 ---
 type: project
 name: KunServe
+linked_people:
+  - "university/上海交通大学/Rong Chen"
 layer: llm-serving
 open_source: true
 repository: https://github.com/SJTU-IPADS/kunserve
@@ -31,3 +33,12 @@ KunServe 把 SJTU 的 OS / resource-management 研究直接连到 LLM serving �
 - https://arxiv.org/abs/2412.18169
 - https://ipads.se.sjtu.edu.cn/_media/publications/kunserve-eurosys26.pdf
 - https://ipads.se.sjtu.edu.cn/pub/members/rong_chen
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/上海交通大学/Rong Chen|Rong Chen]]：[[university/上海交通大学/KunServe|KunServe]]：EuroSys 2026 版本作者之一；项目从 parameter-centric memory management 切入 LLM serving overload、GPU memory 与 KV cache 调度。
+
+<!-- END AUTO PROJECT PEOPLE -->

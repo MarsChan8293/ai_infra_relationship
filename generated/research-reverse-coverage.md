@@ -2,9 +2,9 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 9
-- Institutions with ≥1 linked person: 7
-- Research-person associations: 21
+- Research institution nodes: 10
+- Institutions with ≥1 linked person: 8
+- Research-person associations: 22
 - Audit errors: 0
 
 | Research institution | Linked people |
@@ -14,6 +14,7 @@
 | [[university/上海人工智能实验室/上海人工智能实验室|上海人工智能实验室]] | 3 |
 | [[university/北京大学/Tile-AI|Tile-AI]] | 2 |
 | [[university/IBM Research/IBM Research|IBM Research]] | 1 |
+| [[university/上海交通大学/IPADS|IPADS]] | 1 |
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院|北京智源人工智能研究院]] | 1 |
 | [[university/微软亚洲研究院/微软亚洲研究院|微软亚洲研究院]] | 1 |
 | [[university/Oak Ridge National Laboratory/Oak Ridge National Laboratory|Oak Ridge National Laboratory]] | 0 |

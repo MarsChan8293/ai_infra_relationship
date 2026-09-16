@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 444,
-  "complete_count": 444,
+  "node_count": 451,
+  "complete_count": 451,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
@@ -14,10 +14,10 @@
     "note": 21,
     "person": 246,
     "person-link": 4,
-    "project": 53,
+    "project": 59,
     "project-collection": 1,
     "relationship-map": 1,
-    "research-institution": 9,
+    "research-institution": 10,
     "school": 46
   },
   "nodes": [
@@ -1489,6 +1489,24 @@
       "missing_required": []
     },
     {
+      "id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
+      "type": "project",
+      "source_markdown": "community/QingCheng-AI/ascend-kernel/ascend-kernel.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/QingCheng-AI/ascend-kernel/ascend-kernel.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/radixark/Miles/Miles",
+      "type": "project",
+      "source_markdown": "community/radixark/Miles/Miles.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/radixark/Miles/Miles.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/ray-project/Ray-Serve/Ray-Serve",
       "type": "project",
       "source_markdown": "community/ray-project/Ray-Serve/Ray-Serve.md",
@@ -1584,6 +1602,33 @@
       "source_markdown": "community/sii-research/VCCL/VCCL.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/sii-research/VCCL/VCCL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Tencent/HPC-Ops/HPC-Ops",
+      "type": "project",
+      "source_markdown": "community/Tencent/HPC-Ops/HPC-Ops.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Tencent/HPC-Ops/HPC-Ops.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/thu-pacman/BaGuaLu/BaGuaLu",
+      "type": "project",
+      "source_markdown": "community/thu-pacman/BaGuaLu/BaGuaLu.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/thu-pacman/BaGuaLu/BaGuaLu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/thu-pacman/Chitu/Chitu",
+      "type": "project",
+      "source_markdown": "community/thu-pacman/Chitu/Chitu.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/thu-pacman/Chitu/Chitu.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3528,6 +3573,24 @@
       "source_markdown": "university/上海交通大学/Haibo Chen.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/university/上海交通大学/Haibo Chen.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/上海交通大学/IPADS",
+      "type": "research-institution",
+      "source_markdown": "university/上海交通大学/IPADS.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/上海交通大学/IPADS.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/上海交通大学/KunServe",
+      "type": "project",
+      "source_markdown": "university/上海交通大学/KunServe.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/university/上海交通大学/KunServe.yaml",
       "status": "complete",
       "missing_required": []
     },

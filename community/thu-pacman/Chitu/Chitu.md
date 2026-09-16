@@ -2,6 +2,8 @@
 type: project
 name: Chitu
 aliases: ["赤兔", "Chitu Inference Engine"]
+linked_people:
+  - "company/清程极智/唐适之 Shizhi Tang"
 companies: ["清程极智"]
 company_relation: company-originated-and-jointly-open-sourced-with-tsinghua
 layer: inference-engine
@@ -11,6 +13,8 @@ areas: [llm-serving, inference-engine, heterogeneous-compute, quantization, dist
 people:
   - "company/清程极智/唐适之 Shizhi Tang"
 last_verified: "2026-09"
+linked_companies:
+  - "company/清程极智/清程极智"
 ---
 # Chitu（赤兔）
 
@@ -34,3 +38,21 @@ Chitu（赤兔）是面向生产部署的大模型推理引擎，重点强调高
 - https://www.qc-ai.cn/products/chitu
 - https://www.qc-ai.cn/news/te7upl2wkvqrey3703yl6c4x
 - https://hangzhou2025.gosim.org/zh/speakers/shizhi-tang/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/清程极智/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]]：[[清程极智]]：负责赤兔（Chitu）推理引擎及并行训练/推理系统、算子优化，在多种异构国产算力上做 LLM inference 优化。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/清程极智/清程极智|清程极智]]：公司页与社区/项目页均有显式记录；关系：`company-originated-and-jointly-open-sourced-with-tsinghua`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

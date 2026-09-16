@@ -5,10 +5,10 @@
 - Company nodes: 41
 - Companies with ≥1 linked person: 32
 - Company-person associations: 155
-- Project/community nodes: 59
-- Project/community nodes with ≥1 linked person: 47
-- Project/community-person associations: 267
-- Non-company affiliations recognized and routed elsewhere: 54
+- Project/community nodes: 65
+- Project/community nodes with ≥1 linked person: 51
+- Project/community-person associations: 272
+- Non-company affiliations recognized and routed elsewhere: 55
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
@@ -55,7 +55,7 @@
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 28 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 15 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
@@ -93,10 +93,14 @@
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
+| [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 1 |
+| [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
+| [[university/上海交通大学/KunServe|KunServe]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
+| [[community/radixark/Miles/Miles|Miles]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |

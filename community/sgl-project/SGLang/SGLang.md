@@ -15,6 +15,7 @@ linked_people:
   - "company/RadixArk/Cheng Wan"
   - "company/RadixArk/Qiaolin Yu"
   - "company/RadixArk/Xiaoyu Zhang"
+  - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/盛颖 Ying Sheng"
   - "university/UC Berkeley/Shiyi Cao"
 companies: ["RadixArk"]
@@ -69,6 +70,7 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/Cheng Wan|Cheng Wan]]：SGLang parallelism、EPLB、DP Attention、distributed communication
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
+- [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[SGLang]]：个人主页将 `sgl-project/sglang` 直接列在 Open Source 部分，并说明 RadixArk 团队由 SGLang creators / core developers 组成。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
 

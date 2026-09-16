@@ -712,9 +712,7 @@
       "name": "RadixArk",
       "focus": "ai-inference-infrastructure",
       "linked_people": "",
-      "projects": [
-        "SGLang"
-      ],
+      "projects": "",
       "linked_projects": ""
     }
   },
@@ -769,6 +767,7 @@
         "RadixArk"
       ],
       "schools": "",
+      "projects": "",
       "roles": [
         "cofounder",
         "CTO"
@@ -2421,6 +2420,7 @@
         "清程极智"
       ],
       "schools": "",
+      "projects": "",
       "roles": [
         "Co-Founder",
         "Inference Engine Lead"
@@ -2522,7 +2522,8 @@
         "heterogeneous-compute"
       ],
       "linked_people": "",
-      "linked_projects": []
+      "projects": "",
+      "linked_projects": ""
     }
   },
   {
@@ -3006,9 +3007,10 @@
         "llm-serving",
         "distributed-systems"
       ],
+      "projects": "",
       "people": "",
       "last_verified": "2026-09",
-      "linked_projects": []
+      "linked_projects": ""
     }
   },
   {
@@ -4479,6 +4481,71 @@
       ],
       "last_verified": "2026-09",
       "linked_companies": []
+    }
+  },
+  {
+    "id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
+    "path": "community/QingCheng-AI/ascend-kernel/ascend-kernel.md",
+    "name": "ascend-kernel",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "ascend-kernel",
+      "linked_people": [],
+      "companies": [
+        "清程极智"
+      ],
+      "company_relation": "company-led",
+      "layer": "kernel",
+      "open_source": true,
+      "repository": "https://github.com/QingCheng-AI/ascend-kernel",
+      "areas": [
+        "ascend",
+        "kernels",
+        "llm-inference",
+        "heterogeneous-compute"
+      ],
+      "hardware": [
+        "Ascend"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/Tencent/HPC-Ops/HPC-Ops",
+    "path": "community/Tencent/HPC-Ops/HPC-Ops.md",
+    "name": "HPC-Ops",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "HPC-Ops",
+      "linked_people": [],
+      "companies": [
+        "腾讯"
+      ],
+      "company_relation": "company-led",
+      "layer": "kernel",
+      "open_source": true,
+      "repository": "https://github.com/Tencent/hpc-ops",
+      "areas": [
+        "llm-inference",
+        "kernels",
+        "attention",
+        "moe",
+        "gemm",
+        "communication",
+        "sampling",
+        "quantization"
+      ],
+      "hardware": [
+        "NVIDIA H20",
+        "SM90"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -6970,6 +7037,36 @@
     }
   },
   {
+    "id": "community/radixark/Miles/Miles",
+    "path": "community/radixark/Miles/Miles.md",
+    "name": "Miles",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Miles",
+      "linked_people": "",
+      "companies": [
+        "RadixArk"
+      ],
+      "company_relation": "company-led",
+      "layer": "post-training-infrastructure",
+      "open_source": true,
+      "repository": "https://github.com/radixark/miles",
+      "areas": [
+        "reinforcement-learning",
+        "post-training",
+        "distributed-training",
+        "rollout",
+        "sglang",
+        "weight-transfer"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/ray-project/Ray/Ray",
     "path": "community/ray-project/Ray/Ray.md",
     "name": "Ray",
@@ -7259,6 +7356,73 @@
       "company_relation": "industry-research-co-development",
       "layer": "collective-communication",
       "open_source": true,
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/thu-pacman/BaGuaLu/BaGuaLu",
+    "path": "community/thu-pacman/BaGuaLu/BaGuaLu.md",
+    "name": "BaGuaLu",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "BaGuaLu",
+      "aliases": [
+        "八卦炉",
+        "BaGuaLu-2"
+      ],
+      "linked_people": "",
+      "companies": [
+        "清程极智"
+      ],
+      "company_relation": "company-led",
+      "layer": "distributed-training",
+      "open_source": true,
+      "repository": "https://github.com/thu-pacman/BaGuaLu",
+      "areas": [
+        "distributed-training",
+        "parallelism",
+        "communication",
+        "moe",
+        "activation-memory",
+        "heterogeneous-compute"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/thu-pacman/Chitu/Chitu",
+    "path": "community/thu-pacman/Chitu/Chitu.md",
+    "name": "Chitu",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Chitu",
+      "aliases": [
+        "赤兔",
+        "Chitu Inference Engine"
+      ],
+      "linked_people": "",
+      "companies": [
+        "清程极智"
+      ],
+      "company_relation": "company-originated-and-jointly-open-sourced-with-tsinghua",
+      "layer": "inference-engine",
+      "open_source": true,
+      "repository": "https://github.com/thu-pacman/chitu",
+      "areas": [
+        "llm-serving",
+        "inference-engine",
+        "heterogeneous-compute",
+        "quantization",
+        "distributed-serving"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
       "linked_companies": ""
     }
   },
@@ -8816,6 +8980,61 @@
     }
   },
   {
+    "id": "university/上海交通大学/IPADS",
+    "path": "university/上海交通大学/IPADS.md",
+    "name": "IPADS",
+    "type": "research-institution",
+    "category": "university",
+    "frontmatter": {
+      "type": "research-institution",
+      "name": "IPADS",
+      "organization": "上海交通大学",
+      "aliases": [
+        "Institute of Parallel and Distributed Systems",
+        "上海交通大学并行与分布式系统研究所"
+      ],
+      "linked_people": "",
+      "areas": [
+        "operating-systems",
+        "distributed-systems",
+        "ai-infrastructure",
+        "llm-serving",
+        "resource-management",
+        "gpu-systems"
+      ],
+      "people": "",
+      "projects": "",
+      "website": "https://ipads.sjtu.edu.cn/",
+      "country": "China",
+      "city": "Shanghai",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "university/上海交通大学/KunServe",
+    "path": "university/上海交通大学/KunServe.md",
+    "name": "KunServe",
+    "type": "project",
+    "category": "university",
+    "frontmatter": {
+      "type": "project",
+      "name": "KunServe",
+      "linked_people": "",
+      "layer": "llm-serving",
+      "open_source": true,
+      "repository": "https://github.com/SJTU-IPADS/kunserve",
+      "areas": [
+        "llm-serving",
+        "memory-management",
+        "kv-cache",
+        "resource-management",
+        "elasticity"
+      ],
+      "people": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "university/上海交通大学/Rong Chen",
     "path": "university/上海交通大学/Rong Chen.md",
     "name": "Rong Chen",
@@ -8825,10 +9044,12 @@
       "type": "person",
       "name": "Rong Chen",
       "current_affiliations": [
-        "Shanghai Jiao Tong University"
+        "上海交通大学",
+        "IPADS"
       ],
       "lab": "IPADS",
       "schools": "",
+      "projects": "",
       "areas": [
         "ai-infrastructure",
         "distributed-systems",
@@ -8906,6 +9127,13 @@
       "type": "school",
       "name": "上海交通大学",
       "title": "上海交通大学",
+      "labs": "",
+      "areas": [
+        "ai-infrastructure",
+        "operating-systems",
+        "distributed-systems",
+        "llm-serving"
+      ],
       "linked_people": ""
     }
   },

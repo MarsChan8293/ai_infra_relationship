@@ -1,6 +1,7 @@
 ---
 type: project
 name: ascend-kernel
+linked_people: []
 companies: ["清程极智"]
 company_relation: company-led
 layer: kernel
@@ -9,6 +10,8 @@ repository: https://github.com/QingCheng-AI/ascend-kernel
 areas: [ascend, kernels, llm-inference, heterogeneous-compute]
 hardware: [Ascend]
 last_verified: "2026-09"
+linked_companies:
+  - "company/清程极智/清程极智"
 ---
 # ascend-kernel
 
@@ -24,3 +27,12 @@ last_verified: "2026-09"
 ## Sources
 - https://github.com/QingCheng-AI/ascend-kernel
 - https://github.com/QingCheng-AI
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/清程极智/清程极智|清程极智]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

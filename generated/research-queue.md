@@ -6,7 +6,7 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1058
+- Candidate actions: 1062
 - Selected actions: 10
 
 ## Selected actions
@@ -17,12 +17,12 @@
 | 2 | [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | project | maintainers | person | bridge | 9.397 | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler |
 | 3 | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | project | maintainers | person | bridge | 9.378 | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed |
 | 4 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | project | maintainers | person | bridge | 9.337 | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler |
-| 5 | [[company/清程极智/清程极智|清程极智]] | company | projects | project, community, team | bridge | 8.137 | coverage 0/3；source type Company；infra: serving/inference, scheduler, kernel |
-| 6 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | person | project_contribution | project, community | bridge | 7.807 | coverage 0/3；source type Person；infra: serving/inference, kernel, distributed |
-| 7 | [[company/腾讯/腾讯|腾讯]] | company | projects | project, community, team | exploration | 7.806 | coverage 0/3；source type Company；infra: serving/inference, kv-cache, distributed |
-| 8 | [[company/清程极智/唐适之 Shizhi Tang|唐适之]] | person | project_contribution | project, community | bridge | 7.771 | coverage 0/3；source type Person；infra: serving/inference, kernel, distributed |
-| 9 | [[university/上海交通大学/Rong Chen|Rong Chen]] | person | project_contribution | project, community | exploitation | 7.755 | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed |
-| 10 | [[university/上海交通大学/上海交通大学|上海交通大学]] | school | labs_or_groups | research, team | bridge | 7.720 | coverage 0/2；source type School；infra: serving/inference, kv-cache, distributed |
+| 5 | [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇]] | person | affiliation | company, school, research, team | exploration | 7.713 | coverage 0/2；source type Person；infra: serving/inference, distributed, moe |
+| 6 | [[university/浙江大学/Jue Wang|Jue Wang]] | person | project_contribution | project, community | exploitation | 7.679 | coverage 0/3；source type Person；infra: serving/inference, distributed, moe |
+| 7 | [[university/浙江大学/Zheng Li|Zheng Li]] | person | project_contribution | project, community | exploitation | 7.679 | coverage 0/3；source type Person；infra: serving/inference, distributed, moe |
+| 8 | [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]] | person | affiliation | company, school, research, team | exploitation | 7.657 | coverage 0/2；source type Person；infra: serving/inference, kernel, distributed |
+| 9 | [[university/浙江大学/浙江大学|浙江大学]] | school | labs_or_groups | research, team | bridge | 7.605 | coverage 0/2；source type School；infra: serving/inference, kv-cache, kernel |
+| 10 | [[university/University of Chicago/University of Chicago|University of Chicago]] | school | labs_or_groups | research, team | bridge | 7.506 | coverage 0/2；source type School；infra: serving/inference, kv-cache, distributed |
 
 ## Agent execution contract
 
@@ -38,33 +38,33 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | project | maintainers | 8.929 |
-| 2 | [[company/月之暗面/MoonEP|MoonEP]] | project | maintainers | 8.758 |
-| 3 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL|sglang-plugin-FL]] | project | maintainers | 8.645 |
-| 4 | [[community/vllm-project/Jenga/Jenga|Jenga]] | project | originating_org | 8.491 |
-| 5 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | project | maintainers | 8.329 |
-| 6 | [[university/清华大学/FastDecode|FastDecode]] | project | originating_org | 8.037 |
-| 7 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 7.933 |
-| 8 | [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇]] | person | affiliation | 7.713 |
-| 9 | [[university/浙江大学/Jue Wang|Jue Wang]] | person | project_contribution | 7.679 |
-| 10 | [[university/浙江大学/Zheng Li|Zheng Li]] | person | project_contribution | 7.679 |
-| 11 | [[company/清程极智/马子轩 Zixuan Ma|马子轩]] | person | project_contribution | 7.674 |
-| 12 | [[community/vllm-project/vLLM-Ascend/weijinqian0|weijinqian0]] | person | affiliation | 7.657 |
-| 13 | [[university/上海交通大学/Xingda Wei|Xingda Wei]] | person | project_contribution | 7.653 |
-| 14 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | person | affiliation | 7.631 |
-| 15 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | person | affiliation | 7.608 |
-| 16 | [[university/浙江大学/浙江大学|浙江大学]] | school | labs_or_groups | 7.605 |
-| 17 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | person | affiliation | 7.586 |
-| 18 | [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]] | person | affiliation | 7.586 |
-| 19 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.581 |
-| 20 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.547 |
-| 21 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.540 |
-| 22 | [[university/University of Chicago/University of Chicago|University of Chicago]] | school | labs_or_groups | 7.506 |
-| 23 | [[company/华为/华为|华为]] | company | key_people | 7.486 |
-| 24 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.455 |
-| 25 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.435 |
-| 26 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.412 |
-| 27 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.407 |
-| 28 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.341 |
-| 29 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.250 |
-| 30 | [[company/xAI/xAI|xAI]] | company | projects | 7.250 |
+| 1 | [[community/QingCheng-AI/ascend-kernel/ascend-kernel|ascend-kernel]] | project | maintainers | 9.202 |
+| 2 | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | maintainers | 9.182 |
+| 3 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | project | maintainers | 8.929 |
+| 4 | [[company/月之暗面/MoonEP|MoonEP]] | project | maintainers | 8.758 |
+| 5 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL|sglang-plugin-FL]] | project | maintainers | 8.645 |
+| 6 | [[community/vllm-project/Jenga/Jenga|Jenga]] | project | originating_org | 8.491 |
+| 7 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | project | maintainers | 8.329 |
+| 8 | [[university/清华大学/FastDecode|FastDecode]] | project | originating_org | 8.037 |
+| 9 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 7.933 |
+| 10 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | person | affiliation | 7.631 |
+| 11 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | person | affiliation | 7.608 |
+| 12 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | person | affiliation | 7.586 |
+| 13 | [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]] | person | affiliation | 7.586 |
+| 14 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.581 |
+| 15 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.547 |
+| 16 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.540 |
+| 17 | [[company/华为/华为|华为]] | company | key_people | 7.486 |
+| 18 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.455 |
+| 19 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.435 |
+| 20 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.412 |
+| 21 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.407 |
+| 22 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.341 |
+| 23 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.250 |
+| 24 | [[company/xAI/xAI|xAI]] | company | projects | 7.250 |
+| 25 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | 7.248 |
+| 26 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.231 |
+| 27 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.203 |
+| 28 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.203 |
+| 29 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.203 |
+| 30 | [[university/浙江大学/Lidan Shou|Lidan Shou]] | person | project_contribution | 7.173 |

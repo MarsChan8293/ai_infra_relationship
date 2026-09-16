@@ -9,8 +9,11 @@ linked_people:
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/盛颖 Ying Sheng"
-projects: [SGLang]
+projects:
+  - "SGLang"
+  - "Miles"
 linked_projects:
+  - "community/radixark/Miles/Miles"
   - "community/sgl-project/SGLang/SGLang"
 ---
 # RadixArk
@@ -43,6 +46,7 @@ RadixArk 是围绕高性能 LLM serving 与 [[SGLang]] 生态形成的 AI infras
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/radixark/Miles/Miles|Miles]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 - [[community/sgl-project/SGLang/SGLang|SGLang]]：公司页与社区/项目页均有显式记录；关系：`core-maintainer-network`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

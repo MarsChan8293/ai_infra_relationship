@@ -61,13 +61,13 @@
 | 31 | [[company/阿里巴巴/林俊旸 Junyang Lin|林俊旸]] | 4.822 | 9 | 5 | 0 |
 | 32 | [[company/阿里巴巴/惠彬原 Binyuan Hui|惠彬原]] | 4.670 | 8 | 4 | 0 |
 | 33 | [[company/阿里巴巴/郁博文 Bowen Yu|郁博文]] | 4.670 | 8 | 4 | 0 |
-| 34 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | 4.307 | 6 | 3 | 0 |
-| 35 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 4.085 | 5 | 4 | 0 |
-| 36 | [[company/OpenAI/Randall Lin|Randall Lin]] | 4.085 | 5 | 3 | 0 |
-| 37 | [[community/flashinfer-ai/FlashInfer/aleozlx|aleozlx]] | 4.085 | 5 | 4 | 0 |
-| 38 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | 4.085 | 5 | 3 | 0 |
-| 39 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | 4.085 | 5 | 3 | 0 |
-| 40 | [[community/flagos-ai/FlagOS/曹州|曹州]] | 4.085 | 5 | 2 | 0 |
+| 34 | [[university/上海交通大学/Haibo Chen|Haibo Chen]] | 4.307 | 6 | 3 | 0 |
+| 35 | [[university/上海交通大学/Rong Chen|Rong Chen]] | 4.307 | 6 | 3 | 0 |
+| 36 | [[university/上海交通大学/Rongxin Cheng|Rongxin Cheng]] | 4.307 | 6 | 3 | 0 |
+| 37 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | 4.307 | 6 | 3 | 0 |
+| 38 | [[university/上海交通大学/Xingda Wei|Xingda Wei]] | 4.307 | 6 | 3 | 0 |
+| 39 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 4.085 | 5 | 4 | 0 |
+| 40 | [[company/OpenAI/Randall Lin|Randall Lin]] | 4.085 | 5 | 3 | 0 |
 
 ## Structured bridge nodes
 
@@ -83,11 +83,11 @@
 | [[company/Inferact/Woosuk Kwon|Woosuk Kwon]] | 12.437 | 6 | 6 | 100.0% |
 | [[company/RadixArk/盛颖 Ying Sheng|盛颖]] | 12.170 | 7 | 7 | 100.0% |
 | [[university/清华大学/Mingxing Zhang|章明星]] | 12.087 | 4 | 3 | 75.0% |
+| [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 11.692 | 11 | 10 | 90.9% |
 | [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]] | 11.474 | 11 | 11 | 100.0% |
 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
 | [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.350 | 7 | 7 | 100.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
-| [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 11.272 | 11 | 10 | 90.9% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 10.757 | 5 | 5 | 100.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 5 | 4 | 80.0% |
