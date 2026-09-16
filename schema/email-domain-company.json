@@ -13,6 +13,66 @@
       "company": "华为",
       "confidence": "high",
       "note": "HiSilicon professional email is rolled up to the canonical parent-company node 华为 in this graph."
+    },
+    {
+      "domain": "redhat.com",
+      "company": "Red Hat",
+      "confidence": "high",
+      "note": "Red Hat professional domain; repeatedly observed in public vLLM maintainer and contributor commit trailers."
+    },
+    {
+      "domain": "inferact.ai",
+      "company": "Inferact",
+      "confidence": "high",
+      "note": "Inferact professional domain; used by public vLLM contributors including Woosuk Kwon and Yongye Zhu."
+    },
+    {
+      "domain": "nvidia.com",
+      "company": "NVIDIA",
+      "confidence": "high",
+      "note": "NVIDIA professional domain; case-insensitive matching also covers addresses written with NVIDIA.com capitalization."
+    },
+    {
+      "domain": "amd.com",
+      "company": "AMD",
+      "confidence": "high",
+      "note": "AMD professional domain observed in public vLLM contribution trailers."
+    },
+    {
+      "domain": "bytedance.com",
+      "company": "字节跳动",
+      "confidence": "high",
+      "note": "ByteDance professional domain mapped to the canonical 字节跳动 company node."
+    },
+    {
+      "domain": "alibaba-inc.com",
+      "company": "阿里巴巴",
+      "confidence": "high",
+      "note": "Alibaba corporate engineering email domain mapped to the canonical 阿里巴巴 company node."
+    },
+    {
+      "domain": "huggingface.co",
+      "company": "Hugging Face",
+      "confidence": "high",
+      "note": "Hugging Face professional domain observed in public vLLM contribution trailers."
+    },
+    {
+      "domain": "daocloud.io",
+      "company": "道客",
+      "confidence": "high",
+      "note": "DaoCloud professional domain mapped to the repository's canonical 道客 company node."
+    },
+    {
+      "domain": "meta.com",
+      "company": "Meta",
+      "confidence": "high",
+      "note": "Meta professional domain observed in public vLLM contribution metadata."
+    },
+    {
+      "domain": "ibm.com",
+      "company": "IBM",
+      "confidence": "high",
+      "note": "IBM base professional domain; subdomains such as ie.ibm.com and il.ibm.com inherit this mapping."
     }
   ],
   "ignored_domains": [
@@ -33,6 +93,7 @@
     "A mapped corporate domain proves an organization association at the time/source of the email, not necessarily current employment.",
     "Personal email providers and GitHub noreply addresses never create company edges.",
     "Partner/contractor domains are not mapped to a client or platform company without separate evidence.",
-    "Add a domain only when its ownership and canonical company target are verified."
+    "Add a domain only when its ownership and canonical company target are verified.",
+    "The vLLM ecosystem mappings above were added only for domains with direct public commit-trailer evidence and an existing canonical company node in this graph."
   ]
 }
