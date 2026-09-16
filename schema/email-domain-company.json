@@ -1,0 +1,38 @@
+{
+  "format": "ai-infra-relationship/email-domain-company-v1",
+  "description": "Conservative allowlist for deriving organization associations from explicitly public professional email addresses.",
+  "rules": [
+    {
+      "domain": "huawei.com",
+      "company": "华为",
+      "confidence": "high",
+      "note": "Huawei-owned professional email domain. Subdomains such as china.huawei.com inherit this mapping."
+    },
+    {
+      "domain": "hisilicon.com",
+      "company": "华为",
+      "confidence": "high",
+      "note": "HiSilicon professional email is rolled up to the canonical parent-company node 华为 in this graph."
+    }
+  ],
+  "ignored_domains": [
+    "users.noreply.github.com",
+    "gmail.com",
+    "googlemail.com",
+    "qq.com",
+    "163.com",
+    "126.com",
+    "outlook.com",
+    "hotmail.com",
+    "icloud.com",
+    "proton.me",
+    "protonmail.com"
+  ],
+  "notes": [
+    "Only public_email is eligible for automatic inference; arbitrary email-like strings in prose are not mined.",
+    "A mapped corporate domain proves an organization association at the time/source of the email, not necessarily current employment.",
+    "Personal email providers and GitHub noreply addresses never create company edges.",
+    "Partner/contractor domains are not mapped to a client or platform company without separate evidence.",
+    "Add a domain only when its ownership and canonical company target are verified."
+  ]
+}
