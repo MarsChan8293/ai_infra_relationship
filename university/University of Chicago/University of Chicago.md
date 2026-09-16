@@ -2,6 +2,8 @@
 type: school
 name: University of Chicago
 aliases: [UChicago, University of Chicago]
+labs:
+  - UChicago Systems Group
 linked_people:
   - "community/LMCache/LMCache/Samm Shen"
   - "community/LMCache/LMCache/Shaoting Feng"
@@ -15,6 +17,13 @@ linked_people:
 ## AI Infra 关系
 University of Chicago 在本图谱中形成了一条清晰的 **networked systems / ML systems → KV cache research → open-source inference infrastructure → startup** 路线，核心节点是 [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]、[[LMCache]] 与 [[TensorMesh]]。
 
+## Systems Group
+[[university/University of Chicago/Systems Group|UChicago Systems Group]] 是 UChicago Computer Science 官方列出的 systems research group。Junchen Jiang 的官方 faculty 页面将其列入 Systems Group；其个人主页则明确把 LMCache 列为近期项目，因此这条线可以结构化为：
+
+`University of Chicago → Systems Group → Junchen Jiang → LMCache → TensorMesh`
+
+这里不把整个 Systems Group 自动视为 LMCache 团队，只记录官方组别归属和 Junchen Jiang 的项目连接。
+
 ## 图谱中的人物连接
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：Computer Science Associate Professor；研究覆盖 networked systems 与 machine learning systems，也是 LMCache 共同创建者、TensorMesh 联合创始人 / CEO。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：UChicago systems / LLM inference 网络，研究涉及 distributed tensor loading、KV cache 与 serving。
@@ -24,6 +33,7 @@ University of Chicago 在本图谱中形成了一条清晰的 **networked system
 [[LMCache]] · [[TensorMesh]] · [[vLLM]] · [[Carnegie Mellon University]]
 
 ## Sources
+- https://www.computerscience.uchicago.edu/research/systems-architecture-networking/
 - https://www.computerscience.uchicago.edu/people/junchen-jiang/
 - https://people.cs.uchicago.edu/~junchenj/
 
