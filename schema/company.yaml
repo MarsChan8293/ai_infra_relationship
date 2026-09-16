@@ -33,7 +33,7 @@ fields:
     description: Optional curated high-value people references; do not mechanically enumerate every employee.
   linked_people:
     type: array[string]
-    description: Exhaustive derived reverse references from person current_affiliations. Generated automatically; do not edit by hand.
+    description: Exhaustive derived reverse references from person company-valued current_affiliations plus conservative email_affiliations generated from public professional email domains. Generated automatically; do not edit by hand.
   founded:
     type: string
   headquarters:
@@ -47,5 +47,6 @@ notes:
   - People and project relationships should be evidence-backed; compatibility or customer relationships are not sufficient by themselves.
   - `projects` is human-authored evidence; `linked_projects` is the exhaustive generated mirror of explicit company/project-community assertions from either side.
   - `linked_projects` must not be inferred merely because one or more employees contribute to an open-source project.
-  - `people` is curated; `linked_people` is the exhaustive generated reverse set derived only from person `current_affiliations`.
+  - `people` is curated; `linked_people` is the exhaustive generated reverse set derived from person company-valued `current_affiliations` plus generated `email_affiliations`.
+  - Email-domain evidence in `linked_people` proves an organization association in the public source context, not necessarily current employment, job title, team, reporting line, or historical start/end dates.
   - `linked_people` must not be interpreted as reporting-line, team, co-worker, or historical-employment evidence by itself.
