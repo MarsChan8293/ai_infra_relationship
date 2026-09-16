@@ -8,6 +8,7 @@ linked_people:
   - "community/vllm-project/vLLM-Ascend/yiz-liu"
   - "community/vllm-project/vLLM-Ascend/zzzzwwjj"
   - "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu"
+  - "community/vllm-project/vLLM-Omni/Canlin Guo"
 companies: ["华为"]
 company_relation: hardware-ecosystem-core-contributor
 layer: hardware-backend
@@ -69,5 +70,6 @@ https://github.com/vllm-project/vllm-ascend
 - [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：vLLM-Ascend 活跃维护者。
 - [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：vLLM-Ascend roadmap 主要推动者之一。
 - [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇（Guan Wenyu）]]：https://github.com/vllm-project/vllm-ascend
+- [[community/vllm-project/vLLM-Omni/Canlin Guo|Canlin Guo]]：2026 Q1 / Q2 NPU roadmap 的主要推动者，公开路线明确写出 vLLM-Omni NPU 支持依赖 [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]]，并把 [[MindIE-SD]] 作为 Ascend-optimized diffusion operator library 接入 FlashAttentionBackend / CustomOp 路径。
 
 <!-- END AUTO PROJECT PEOPLE -->

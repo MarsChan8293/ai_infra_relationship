@@ -2,9 +2,9 @@
 
 由 `scripts/audit-school-reverse-links.py` 自动生成。反向关系以人物页 `schools:` 为唯一事实源。
 
-- School nodes: 46
-- Schools with ≥1 linked person: 42
-- Reverse person-school associations: 161
+- School nodes: 47
+- Schools with ≥1 linked person: 44
+- Reverse person-school associations: 165
 - Audit errors: 0
 
 | School | Linked people |
@@ -24,6 +24,8 @@
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 2 |
 | [[university/四川大学/四川大学|四川大学]] | 2 |
+| [[university/香港中文大学/香港中文大学|香港中文大学]] | 2 |
+| [[university/香港科技大学/香港科技大学|香港科技大学]] | 2 |
 | [[university/Binghamton University/Binghamton University|Binghamton University]] | 1 |
 | [[university/Case Western Reserve University/Case Western Reserve University|Case Western Reserve University]] | 1 |
 | [[university/Columbia University/Columbia University|Columbia University]] | 1 |
@@ -54,4 +56,3 @@
 | [[university/Cornell University/Cornell University|Cornell University]] | 0 |
 | [[university/University of Toronto/University of Toronto|University of Toronto]] | 0 |
 | [[university/武汉大学/武汉大学|武汉大学]] | 0 |
-| [[university/香港科技大学/香港科技大学|香港科技大学]] | 0 |

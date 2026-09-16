@@ -1084,7 +1084,8 @@
           "npu-kernels",
           "quantization",
           "distributed-systems",
-          "serverless"
+          "serverless",
+          "multimodal-serving"
         ],
         "people": "",
         "linked_people": "",
@@ -7852,7 +7853,8 @@
           "YuanRong TransferEngine",
           "TransferQueue",
           "vLLM-Ascend",
-          "vLLM-Omni"
+          "vLLM-Omni",
+          "VeRL-Omni"
         ],
         "last_verified": "2026-09",
         "linked_companies": ""
@@ -8458,6 +8460,37 @@
         "roles": [
           "Active Contributor"
         ]
+      }
+    },
+    {
+      "id": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "path": "community/verl-project/VeRL-Omni/VeRL-Omni.md",
+      "name": "VeRL-Omni",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "VeRL-Omni",
+        "linked_people": "",
+        "layer": "multimodal-rl-post-training",
+        "open_source": true,
+        "repository": "https://github.com/verl-project/verl-omni",
+        "areas": [
+          "reinforcement-learning",
+          "post-training",
+          "multimodal",
+          "diffusion",
+          "rollout",
+          "distributed-training",
+          "ascend"
+        ],
+        "people": "",
+        "related_projects": [
+          "vLLM-Omni",
+          "openYuanRong"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
       }
     },
     {
@@ -9354,6 +9387,153 @@
       }
     },
     {
+      "id": "community/vllm-project/vLLM-Omni/Canlin Guo",
+      "path": "community/vllm-project/vLLM-Omni/Canlin Guo.md",
+      "name": "Canlin Guo",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Canlin Guo",
+        "aliases": [
+          "gcanlin",
+          "@gcanlin"
+        ],
+        "communities": [
+          "vLLM-Omni",
+          "vLLM-Ascend"
+        ],
+        "projects": [
+          "vLLM-Omni"
+        ],
+        "areas": [
+          "ascend",
+          "npu",
+          "hardware-backend",
+          "multimodal-serving",
+          "tts",
+          "diffusion"
+        ],
+        "roles": [
+          "vLLM-Omni Active Committer",
+          "NPU Integration Owner"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Gao Han",
+      "path": "community/vllm-project/vLLM-Omni/Gao Han.md",
+      "name": "Gao Han",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Gao Han",
+        "aliases": [
+          "Han Gao",
+          "Gaohan123",
+          "@Gaohan123"
+        ],
+        "current_affiliations": [
+          "华为"
+        ],
+        "schools": "",
+        "communities": [
+          "vLLM-Omni"
+        ],
+        "projects": [
+          "vLLM-Omni"
+        ],
+        "areas": [
+          "multimodal-serving",
+          "distributed-serving",
+          "realtime-serving",
+          "stage-runtime"
+        ],
+        "roles": [
+          "vLLM-Omni Lead Maintainer"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+      "path": "community/vllm-project/vLLM-Omni/Hongsheng Liu.md",
+      "name": "Hongsheng Liu",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Hongsheng Liu",
+        "aliases": [
+          "hsliuustc0106",
+          "@hsliuustc0106"
+        ],
+        "current_affiliations": [
+          "华为"
+        ],
+        "communities": [
+          "vLLM-Omni"
+        ],
+        "projects": [
+          "vLLM-Omni"
+        ],
+        "areas": [
+          "multimodal-serving",
+          "distributed-serving",
+          "hardware-portability",
+          "production-inference"
+        ],
+        "roles": [
+          "vLLM-Omni Lead Maintainer",
+          "Research Scientist"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "path": "community/vllm-project/vLLM-Omni/Yongxiang Huang.md",
+      "name": "Yongxiang Huang",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Yongxiang Huang",
+        "aliases": [
+          "Samit",
+          "SamitHuang",
+          "@SamitHuang"
+        ],
+        "schools": "",
+        "communities": [
+          "vLLM-Omni",
+          "VeRL-Omni"
+        ],
+        "projects": [
+          "vLLM-Omni",
+          "VeRL-Omni"
+        ],
+        "areas": [
+          "reinforcement-learning",
+          "diffusion",
+          "multimodal-serving",
+          "cache",
+          "post-training"
+        ],
+        "roles": [
+          "vLLM-Omni Active Committer",
+          "VeRL-Omni Lead Maintainer"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "path": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
       "name": "vLLM-Omni",
@@ -9369,16 +9549,23 @@
         "areas": [
           "multimodal-inference",
           "disaggregated-inference",
+          "diffusion-serving",
+          "realtime-serving",
           "data-transfer",
+          "reinforcement-learning",
           "npu",
           "serving"
         ],
         "people": "",
         "related_projects": [
           "vLLM",
+          "vLLM-Ascend",
+          "MindIE-SD",
           "YuanRong DataSystem",
           "YuanRong TransferEngine",
-          "Mooncake"
+          "Mooncake",
+          "VeRL-Omni",
+          "LiveServe"
         ],
         "last_verified": "2026-09",
         "linked_companies": []
@@ -11388,6 +11575,117 @@
         "type": "school",
         "name": "西北工业大学",
         "aliases": "",
+        "linked_people": ""
+      }
+    },
+    {
+      "id": "university/香港中文大学/James Cheng",
+      "path": "university/香港中文大学/James Cheng.md",
+      "name": "James Cheng",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "James Cheng",
+        "current_affiliations": [
+          "香港中文大学"
+        ],
+        "schools": "",
+        "projects": [
+          "vLLM-Omni",
+          "LiveServe"
+        ],
+        "areas": [
+          "multimodal-serving",
+          "rl-infrastructure",
+          "distributed-systems",
+          "ml-systems",
+          "vector-search"
+        ],
+        "roles": [
+          "Professor",
+          "PhD Advisor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "university/香港中文大学/LiveServe",
+      "path": "university/香港中文大学/LiveServe.md",
+      "name": "LiveServe",
+      "type": "project",
+      "category": "university",
+      "frontmatter": {
+        "type": "project",
+        "name": "LiveServe",
+        "linked_people": "",
+        "layer": "realtime-multimodal-serving",
+        "open_source": false,
+        "areas": [
+          "realtime-serving",
+          "multimodal-serving",
+          "kv-cache",
+          "scheduling",
+          "audio-serving",
+          "interaction-aware-serving"
+        ],
+        "people": "",
+        "related_projects": [
+          "vLLM-Omni"
+        ],
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "university/香港中文大学/Peiqi Yin",
+      "path": "university/香港中文大学/Peiqi Yin.md",
+      "name": "尹沛骐",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "尹沛骐",
+        "english_name": "Peiqi Yin",
+        "aliases": [
+          "Peiqi Yin",
+          "Yin Peiqi"
+        ],
+        "current_affiliations": [
+          "香港中文大学"
+        ],
+        "schools": "",
+        "projects": [
+          "vLLM-Omni",
+          "LiveServe"
+        ],
+        "areas": [
+          "multimodal-serving",
+          "distributed-serving",
+          "realtime-serving",
+          "sparse-attention",
+          "disaggregation"
+        ],
+        "roles": [
+          "PhD Candidate",
+          "vLLM-Omni First Author"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "university/香港中文大学/香港中文大学",
+      "path": "university/香港中文大学/香港中文大学.md",
+      "name": "香港中文大学",
+      "type": "school",
+      "category": "university",
+      "frontmatter": {
+        "type": "school",
+        "name": "香港中文大学",
+        "title": "香港中文大学",
         "linked_people": ""
       }
     },
@@ -16270,6 +16568,11 @@
     },
     {
       "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
       "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "kind": "wikilink"
     },
@@ -17024,6 +17327,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "target": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/vllm-project/AIBrix/AIBrix",
       "target": "community/Project-HAMi/HAMi/HAMi",
       "kind": "wikilink"
@@ -17290,6 +17603,11 @@
     },
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/Ascend/MindIE-SD/MindIE-SD",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/Ascend/msModelSlim/msModelSlim",
       "kind": "wikilink"
     },
@@ -17356,6 +17674,11 @@
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/vllm-project/vLLM-Omni/Canlin Guo",
       "kind": "wikilink"
     },
     {
@@ -17439,6 +17762,46 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/vllm-project/vLLM-Omni/Canlin Guo",
+      "target": "community/Ascend/MindIE-SD/MindIE-SD",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Canlin Guo",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Gao Han",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Gao Han",
+      "target": "university/香港科技大学/香港科技大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "target": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "target": "university/香港科技大学/香港科技大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/Ascend/MindIE-SD/MindIE-SD",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "kind": "wikilink"
@@ -17450,7 +17813,52 @@
     },
     {
       "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM-Omni/Canlin Guo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM-Omni/Gao Han",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "target": "community/vllm-project/vLLM/Roger Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "university/香港中文大学/James Cheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "university/香港中文大学/LiveServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "university/香港中文大学/Peiqi Yin",
       "kind": "wikilink"
     },
     {
@@ -21026,6 +21434,21 @@
     {
       "source": "company/华为/华为",
       "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Omni/Gao Han",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "kind": "wikilink"
     },
     {
@@ -26324,6 +26747,101 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/香港中文大学/James Cheng",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/James Cheng",
+      "target": "university/香港中文大学/LiveServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/James Cheng",
+      "target": "university/香港中文大学/Peiqi Yin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/James Cheng",
+      "target": "university/香港中文大学/香港中文大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/LiveServe",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/LiveServe",
+      "target": "university/香港中文大学/James Cheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/LiveServe",
+      "target": "university/香港中文大学/Peiqi Yin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/Peiqi Yin",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/Peiqi Yin",
+      "target": "university/香港中文大学/James Cheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/Peiqi Yin",
+      "target": "university/香港中文大学/LiveServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/Peiqi Yin",
+      "target": "university/香港中文大学/香港中文大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/香港中文大学",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/香港中文大学",
+      "target": "university/香港中文大学/James Cheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/香港中文大学",
+      "target": "university/香港中文大学/LiveServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港中文大学/香港中文大学",
+      "target": "university/香港中文大学/Peiqi Yin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港科技大学/香港科技大学",
+      "target": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港科技大学/香港科技大学",
+      "target": "community/vllm-project/vLLM-Omni/Gao Han",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港科技大学/香港科技大学",
+      "target": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/香港科技大学/香港科技大学",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/香港科技大学/香港科技大学",
       "target": "community/vllm-project/vLLM/Cyrus Leung",
       "kind": "wikilink"
@@ -26826,13 +27344,13 @@
       "bridge_score": 6.022
     },
     "company/华为/华为": {
-      "degree": 20,
-      "cross_category_degree": 19,
+      "degree": 23,
+      "cross_category_degree": 22,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 14.042
+      "bridge_score": 15.285
     },
     "company/商汤科技/商汤科技": {
       "degree": 8,
@@ -27725,14 +28243,14 @@
       "bridge_score": 8.2
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
-      "degree": 7,
+      "degree": 9,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 8.2
+      "bridge_score": 8.522
     },
     "community/Ascend/MindIE-SD/betta18": {
       "degree": 1,
@@ -29302,13 +29820,13 @@
       "bridge_score": 5.935
     },
     "community/openEuler/openYuanRong/openYuanRong": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.52
+      "bridge_score": 6.672
     },
     "community/openEuler/openYuanRong/梁义 Yi Liang": {
       "degree": 4,
@@ -29523,6 +30041,15 @@
         "company"
       ],
       "bridge_score": 5.35
+    },
+    "community/verl-project/VeRL-Omni/VeRL-Omni": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.672
     },
     "community/vllm-project/AIBrix/AIBrix": {
       "degree": 13,
@@ -29826,14 +30353,14 @@
       "bridge_score": 3.822
     },
     "community/vllm-project/vLLM-Ascend/vLLM-Ascend": {
-      "degree": 24,
+      "degree": 26,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 9.844
+      "bridge_score": 9.955
     },
     "community/vllm-project/vLLM-Ascend/weijinqian0": {
       "degree": 4,
@@ -29868,13 +30395,51 @@
       ],
       "bridge_score": 4.935
     },
-    "community/vllm-project/vLLM-Omni/vLLM-Omni": {
-      "degree": 4,
+    "community/vllm-project/vLLM-Omni/Canlin Guo": {
+      "degree": 3,
       "cross_category_degree": 0,
       "neighbor_categories": [
         "community"
       ],
-      "bridge_score": 3.822
+      "bridge_score": 3.5
+    },
+    "community/vllm-project/vLLM-Omni/Gao Han": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.2
+    },
+    "community/vllm-project/vLLM-Omni/Hongsheng Liu": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 4.935
+    },
+    "community/vllm-project/vLLM-Omni/Yongxiang Huang": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.35
+    },
+    "community/vllm-project/vLLM-Omni/vLLM-Omni": {
+      "degree": 17,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 10.77
     },
     "university/Binghamton University/Binghamton University": {
       "degree": 1,
@@ -30696,15 +31261,51 @@
       ],
       "bridge_score": 2.85
     },
-    "university/香港科技大学/香港科技大学": {
+    "university/香港中文大学/James Cheng": {
       "degree": 4,
-      "cross_category_degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.672
+    },
+    "university/香港中文大学/LiveServe": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.672
+    },
+    "university/香港中文大学/Peiqi Yin": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.672
+    },
+    "university/香港中文大学/香港中文大学": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.672
+    },
+    "university/香港科技大学/香港科技大学": {
+      "degree": 8,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.872
+      "bridge_score": 10.12
     },
     "university/鹏城实验室/鹏城实验室": {
       "degree": 4,

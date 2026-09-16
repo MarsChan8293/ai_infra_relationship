@@ -1083,7 +1083,8 @@
         "npu-kernels",
         "quantization",
         "distributed-systems",
-        "serverless"
+        "serverless",
+        "multimodal-serving"
       ],
       "people": "",
       "linked_people": "",
@@ -7851,7 +7852,8 @@
         "YuanRong TransferEngine",
         "TransferQueue",
         "vLLM-Ascend",
-        "vLLM-Omni"
+        "vLLM-Omni",
+        "VeRL-Omni"
       ],
       "last_verified": "2026-09",
       "linked_companies": ""
@@ -8457,6 +8459,37 @@
       "roles": [
         "Active Contributor"
       ]
+    }
+  },
+  {
+    "id": "community/verl-project/VeRL-Omni/VeRL-Omni",
+    "path": "community/verl-project/VeRL-Omni/VeRL-Omni.md",
+    "name": "VeRL-Omni",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "VeRL-Omni",
+      "linked_people": "",
+      "layer": "multimodal-rl-post-training",
+      "open_source": true,
+      "repository": "https://github.com/verl-project/verl-omni",
+      "areas": [
+        "reinforcement-learning",
+        "post-training",
+        "multimodal",
+        "diffusion",
+        "rollout",
+        "distributed-training",
+        "ascend"
+      ],
+      "people": "",
+      "related_projects": [
+        "vLLM-Omni",
+        "openYuanRong"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -9353,6 +9386,153 @@
     }
   },
   {
+    "id": "community/vllm-project/vLLM-Omni/Canlin Guo",
+    "path": "community/vllm-project/vLLM-Omni/Canlin Guo.md",
+    "name": "Canlin Guo",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Canlin Guo",
+      "aliases": [
+        "gcanlin",
+        "@gcanlin"
+      ],
+      "communities": [
+        "vLLM-Omni",
+        "vLLM-Ascend"
+      ],
+      "projects": [
+        "vLLM-Omni"
+      ],
+      "areas": [
+        "ascend",
+        "npu",
+        "hardware-backend",
+        "multimodal-serving",
+        "tts",
+        "diffusion"
+      ],
+      "roles": [
+        "vLLM-Omni Active Committer",
+        "NPU Integration Owner"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/vllm-project/vLLM-Omni/Gao Han",
+    "path": "community/vllm-project/vLLM-Omni/Gao Han.md",
+    "name": "Gao Han",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Gao Han",
+      "aliases": [
+        "Han Gao",
+        "Gaohan123",
+        "@Gaohan123"
+      ],
+      "current_affiliations": [
+        "华为"
+      ],
+      "schools": "",
+      "communities": [
+        "vLLM-Omni"
+      ],
+      "projects": [
+        "vLLM-Omni"
+      ],
+      "areas": [
+        "multimodal-serving",
+        "distributed-serving",
+        "realtime-serving",
+        "stage-runtime"
+      ],
+      "roles": [
+        "vLLM-Omni Lead Maintainer"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+    "path": "community/vllm-project/vLLM-Omni/Hongsheng Liu.md",
+    "name": "Hongsheng Liu",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Hongsheng Liu",
+      "aliases": [
+        "hsliuustc0106",
+        "@hsliuustc0106"
+      ],
+      "current_affiliations": [
+        "华为"
+      ],
+      "communities": [
+        "vLLM-Omni"
+      ],
+      "projects": [
+        "vLLM-Omni"
+      ],
+      "areas": [
+        "multimodal-serving",
+        "distributed-serving",
+        "hardware-portability",
+        "production-inference"
+      ],
+      "roles": [
+        "vLLM-Omni Lead Maintainer",
+        "Research Scientist"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+    "path": "community/vllm-project/vLLM-Omni/Yongxiang Huang.md",
+    "name": "Yongxiang Huang",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yongxiang Huang",
+      "aliases": [
+        "Samit",
+        "SamitHuang",
+        "@SamitHuang"
+      ],
+      "schools": "",
+      "communities": [
+        "vLLM-Omni",
+        "VeRL-Omni"
+      ],
+      "projects": [
+        "vLLM-Omni",
+        "VeRL-Omni"
+      ],
+      "areas": [
+        "reinforcement-learning",
+        "diffusion",
+        "multimodal-serving",
+        "cache",
+        "post-training"
+      ],
+      "roles": [
+        "vLLM-Omni Active Committer",
+        "VeRL-Omni Lead Maintainer"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "community/vllm-project/vLLM-Omni/vLLM-Omni",
     "path": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
     "name": "vLLM-Omni",
@@ -9368,16 +9548,23 @@
       "areas": [
         "multimodal-inference",
         "disaggregated-inference",
+        "diffusion-serving",
+        "realtime-serving",
         "data-transfer",
+        "reinforcement-learning",
         "npu",
         "serving"
       ],
       "people": "",
       "related_projects": [
         "vLLM",
+        "vLLM-Ascend",
+        "MindIE-SD",
         "YuanRong DataSystem",
         "YuanRong TransferEngine",
-        "Mooncake"
+        "Mooncake",
+        "VeRL-Omni",
+        "LiveServe"
       ],
       "last_verified": "2026-09",
       "linked_companies": []
@@ -11387,6 +11574,117 @@
       "type": "school",
       "name": "西北工业大学",
       "aliases": "",
+      "linked_people": ""
+    }
+  },
+  {
+    "id": "university/香港中文大学/James Cheng",
+    "path": "university/香港中文大学/James Cheng.md",
+    "name": "James Cheng",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "James Cheng",
+      "current_affiliations": [
+        "香港中文大学"
+      ],
+      "schools": "",
+      "projects": [
+        "vLLM-Omni",
+        "LiveServe"
+      ],
+      "areas": [
+        "multimodal-serving",
+        "rl-infrastructure",
+        "distributed-systems",
+        "ml-systems",
+        "vector-search"
+      ],
+      "roles": [
+        "Professor",
+        "PhD Advisor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "university/香港中文大学/LiveServe",
+    "path": "university/香港中文大学/LiveServe.md",
+    "name": "LiveServe",
+    "type": "project",
+    "category": "university",
+    "frontmatter": {
+      "type": "project",
+      "name": "LiveServe",
+      "linked_people": "",
+      "layer": "realtime-multimodal-serving",
+      "open_source": false,
+      "areas": [
+        "realtime-serving",
+        "multimodal-serving",
+        "kv-cache",
+        "scheduling",
+        "audio-serving",
+        "interaction-aware-serving"
+      ],
+      "people": "",
+      "related_projects": [
+        "vLLM-Omni"
+      ],
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "university/香港中文大学/Peiqi Yin",
+    "path": "university/香港中文大学/Peiqi Yin.md",
+    "name": "尹沛骐",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "尹沛骐",
+      "english_name": "Peiqi Yin",
+      "aliases": [
+        "Peiqi Yin",
+        "Yin Peiqi"
+      ],
+      "current_affiliations": [
+        "香港中文大学"
+      ],
+      "schools": "",
+      "projects": [
+        "vLLM-Omni",
+        "LiveServe"
+      ],
+      "areas": [
+        "multimodal-serving",
+        "distributed-serving",
+        "realtime-serving",
+        "sparse-attention",
+        "disaggregation"
+      ],
+      "roles": [
+        "PhD Candidate",
+        "vLLM-Omni First Author"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "university/香港中文大学/香港中文大学",
+    "path": "university/香港中文大学/香港中文大学.md",
+    "name": "香港中文大学",
+    "type": "school",
+    "category": "university",
+    "frontmatter": {
+      "type": "school",
+      "name": "香港中文大学",
+      "title": "香港中文大学",
       "linked_people": ""
     }
   },

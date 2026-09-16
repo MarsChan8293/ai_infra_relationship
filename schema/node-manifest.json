@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 483,
-  "complete_count": 483,
+  "node_count": 492,
+  "complete_count": 492,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
@@ -12,13 +12,13 @@
     "model-project": 13,
     "model-team": 1,
     "note": 19,
-    "person": 261,
+    "person": 267,
     "person-link": 4,
-    "project": 72,
+    "project": 74,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 12,
-    "school": 46
+    "school": 47
   },
   "nodes": [
     {
@@ -1885,6 +1885,15 @@
       "missing_required": []
     },
     {
+      "id": "community/verl-project/VeRL-Omni/VeRL-Omni",
+      "type": "project",
+      "source_markdown": "community/verl-project/VeRL-Omni/VeRL-Omni.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/verl-project/VeRL-Omni/VeRL-Omni.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/vllm-project/AIBrix/AIBrix",
       "type": "project",
       "source_markdown": "community/vllm-project/AIBrix/AIBrix.md",
@@ -2038,11 +2047,47 @@
       "missing_required": []
     },
     {
+      "id": "community/vllm-project/vLLM-Omni/Canlin Guo",
+      "type": "person",
+      "source_markdown": "community/vllm-project/vLLM-Omni/Canlin Guo.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/vllm-project/vLLM-Omni/Canlin Guo.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Gao Han",
+      "type": "person",
+      "source_markdown": "community/vllm-project/vLLM-Omni/Gao Han.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/vllm-project/vLLM-Omni/Gao Han.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Hongsheng Liu",
+      "type": "person",
+      "source_markdown": "community/vllm-project/vLLM-Omni/Hongsheng Liu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/vllm-project/vLLM-Omni/Hongsheng Liu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "type": "project",
       "source_markdown": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/vllm-project/vLLM-Omni/vLLM-Omni.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/Yongxiang Huang",
+      "type": "person",
+      "source_markdown": "community/vllm-project/vLLM-Omni/Yongxiang Huang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/vllm-project/vLLM-Omni/Yongxiang Huang.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -4347,6 +4392,42 @@
       "source_markdown": "university/西北工业大学/西北工业大学.md",
       "schema_definition": "schema/school.yaml",
       "schema_instance": "schema/nodes/university/西北工业大学/西北工业大学.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/香港中文大学/James Cheng",
+      "type": "person",
+      "source_markdown": "university/香港中文大学/James Cheng.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/香港中文大学/James Cheng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/香港中文大学/LiveServe",
+      "type": "project",
+      "source_markdown": "university/香港中文大学/LiveServe.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/university/香港中文大学/LiveServe.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/香港中文大学/Peiqi Yin",
+      "type": "person",
+      "source_markdown": "university/香港中文大学/Peiqi Yin.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/香港中文大学/Peiqi Yin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/香港中文大学/香港中文大学",
+      "type": "school",
+      "source_markdown": "university/香港中文大学/香港中文大学.md",
+      "schema_definition": "schema/school.yaml",
+      "schema_instance": "schema/nodes/university/香港中文大学/香港中文大学.yaml",
       "status": "complete",
       "missing_required": []
     },

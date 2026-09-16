@@ -2,7 +2,8 @@
 type: person
 name: Yongxiang Huang
 aliases: ["Samit", "SamitHuang", "@SamitHuang"]
-schools: ["香港科技大学"]
+schools:
+  - "香港科技大学"
 communities: ["vLLM-Omni", "VeRL-Omni"]
 projects: ["vLLM-Omni", "VeRL-Omni"]
 areas: [reinforcement-learning, diffusion, multimodal-serving, cache, post-training]

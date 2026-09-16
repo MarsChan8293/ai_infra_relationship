@@ -2,7 +2,13 @@
 type: project
 name: vLLM-Omni
 linked_people:
+  - "community/vllm-project/vLLM-Omni/Canlin Guo"
+  - "community/vllm-project/vLLM-Omni/Gao Han"
+  - "community/vllm-project/vLLM-Omni/Hongsheng Liu"
+  - "community/vllm-project/vLLM-Omni/Yongxiang Huang"
   - "community/vllm-project/vLLM/Roger Wang"
+  - "university/香港中文大学/James Cheng"
+  - "university/香港中文大学/Peiqi Yin"
 layer: multimodal-serving
 open_source: true
 repository: https://github.com/vllm-project/vllm-omni
@@ -79,6 +85,12 @@ vLLM-Omni 是 vLLM 生态面向 **any-to-any omni-modality models** 的推理与
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/vllm-project/vLLM-Omni/Canlin Guo|Canlin Guo]]：2026 Q1 / Q2 NPU roadmap 的主要推动者，公开路线明确写出 vLLM-Omni NPU 支持依赖 [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]]，并把 [[MindIE-SD]] 作为 Ascend-optimized diffusion operator library 接入 FlashAttentionBackend / CustomOp 路径。
+- [[community/vllm-project/vLLM-Omni/Gao Han|Gao Han]]：vLLM-Omni 2026 论文作者（论文署名 `Han Gao`）。
+- [[community/vllm-project/vLLM-Omni/Hongsheng Liu|Hongsheng Liu]]：vLLM-Omni 2026 fully-disaggregated serving 论文作者。
+- [[community/vllm-project/vLLM-Omni/Yongxiang Huang|Yongxiang Huang]]：https://github.com/vllm-project/vllm-omni/blob/main/docs/community/governance.md
 - [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：https://github.com/vllm-project/vllm-omni
+- [[university/香港中文大学/James Cheng|James Cheng]]：[[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]]：2026 fully-disaggregated any-to-any multimodal serving 论文作者。
+- [[university/香港中文大学/Peiqi Yin|尹沛骐（Peiqi Yin）]]：[[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]]：2026 论文第一作者。该系统把复杂 any-to-any multimodal model 拆成 stage graph，并通过独立 stage serving、动态资源分配与统一 connector 做 fully-disaggregated serving。
 
 <!-- END AUTO PROJECT PEOPLE -->

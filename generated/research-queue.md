@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1135
-- Eligible actions: 1109
+- Candidate actions: 1159
+- Eligible actions: 1133
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -50,21 +50,21 @@
 | 6 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
 | 7 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | project | originating_org | 7.924 |
 | 8 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 9 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | project | originating_org | 7.811 |
-| 10 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | 7.531 |
-| 11 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
-| 12 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
-| 13 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
-| 14 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
-| 15 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
-| 16 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
-| 17 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
-| 18 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
-| 19 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
-| 20 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
-| 21 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
-| 22 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
-| 23 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
+| 9 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | 7.531 |
+| 10 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 11 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]] | person | affiliation | 7.497 |
+| 12 | [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]] | person | affiliation | 7.497 |
+| 13 | [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]] | person | affiliation | 7.497 |
+| 14 | [[company/xAI/xAI|xAI]] | company | projects | 7.423 |
+| 15 | [[community/flagos-ai/FlagPerf/FlagPerf|FlagPerf]] | project | maintainers | 7.407 |
+| 16 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | project | maintainers | 7.387 |
+| 17 | [[university/上海交通大学/Shengzhong Liu|Shengzhong Liu]] | person | project_contribution | 7.371 |
+| 18 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | person | project_contribution | 7.364 |
+| 19 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL|vllm-plugin-FL]] | project | maintainers | 7.359 |
+| 20 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | project | originating_org | 7.350 |
+| 21 | [[company/无问芯穹/无问芯穹|无问芯穹]] | company | projects | 7.315 |
+| 22 | [[company/清程极智/汤雄超 Xiongchao Tang|汤雄超]] | person | project_contribution | 7.299 |
+| 23 | [[community/vllm-project/vLLM-Omni/Canlin Guo|Canlin Guo]] | person | affiliation | 7.289 |
 | 24 | [[community/kvcache-ai/Mooncake/Jialei Cui|Jialei Cui]] | person | affiliation | 7.278 |
 | 25 | [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]] | person | affiliation | 7.276 |
 | 26 | [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]] | person | affiliation | 7.262 |
@@ -79,7 +79,6 @@
 | --- | --- | --- | --- | ---: |
 | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | maintainers | unresolved | 2026-09-23 | 9.418 |
 | [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | maintainers | unresolved | 2026-09-23 | 9.390 |
-| [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 9.378 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 9.337 |
 | [[community/QingCheng-AI/ascend-kernel/ascend-kernel|ascend-kernel]] | maintainers | unresolved | 2026-09-23 | 9.202 |
 | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | maintainers | unresolved | 2026-09-23 | 9.182 |
@@ -89,6 +88,7 @@
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | originating_org | success | 2026-09-17 | 8.491 |
 | [[university/清华大学/FastDecode|FastDecode]] | originating_org | success | 2026-09-17 | 8.037 |
 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 7.657 |
+| [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 7.208 |
 | [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.771 |
 | [[university/浙江大学/Zheng Li|Zheng Li]] | project_contribution | success | 2026-09-17 | 6.408 |
 | [[university/上海交通大学/Rong Chen|Rong Chen]] | project_contribution | success | 2026-09-17 | 6.204 |

@@ -2,12 +2,12 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 261
-- People with ≥1 school: 123
-- People without known school: 138
-- Coverage: 47.1%
-- Person-school associations: 161
-- School nodes: 46
+- Person nodes: 267
+- People with ≥1 school: 127
+- People without known school: 140
+- Coverage: 47.6%
+- Person-school associations: 165
+- School nodes: 47
 - Audit errors: 0
 
 ## Top schools by linked people
@@ -29,6 +29,8 @@
 | Georgia Institute of Technology | 2 |
 | University of Washington | 2 |
 | University of Texas at Austin | 2 |
+| 香港科技大学 | 2 |
+| 香港中文大学 | 2 |
 | Seoul National University | 1 |
 | Franklin W. Olin College of Engineering | 1 |
 | Cornell Tech | 1 |
@@ -42,8 +44,6 @@
 | 中山大学 | 1 |
 | Massachusetts Institute of Technology | 1 |
 | Binghamton University | 1 |
-| Stony Brook University | 1 |
-| Lobachevsky State University of Nizhny Novgorod | 1 |
 
 ## High-value people still missing a verified school association
 

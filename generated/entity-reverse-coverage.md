@@ -4,11 +4,11 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 164
-- Project/community nodes: 80
-- Project/community nodes with ≥1 linked person: 59
-- Project/community-person associations: 297
-- Non-company affiliations recognized and routed elsewhere: 55
+- Company-person associations: 166
+- Project/community nodes: 82
+- Project/community nodes with ≥1 linked person: 61
+- Project/community-person associations: 307
+- Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
@@ -23,6 +23,7 @@
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
+| [[company/华为/华为|华为]] | 6 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
@@ -31,7 +32,6 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
-| [[company/华为/华为|华为]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
@@ -70,9 +70,10 @@
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 7 |
+| [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
-| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
@@ -94,6 +95,7 @@
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
+| [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
@@ -113,4 +115,4 @@
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
-| [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 1 |
+| [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |

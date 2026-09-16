@@ -3,7 +3,8 @@ type: person
 name: Gao Han
 aliases: ["Han Gao", "Gaohan123", "@Gaohan123"]
 current_affiliations: ["华为"]
-schools: ["香港科技大学"]
+schools:
+  - "香港科技大学"
 communities: ["vLLM-Omni"]
 projects: ["vLLM-Omni"]
 areas: [multimodal-serving, distributed-serving, realtime-serving, stage-runtime]
