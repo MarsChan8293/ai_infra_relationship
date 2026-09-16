@@ -2,7 +2,9 @@
 type: person
 name: Xuchun Shang
 aliases: ["XucSh", "@XucSh"]
-current_affiliations: ["Alibaba Cloud"]
+current_affiliations: ["阿里巴巴"]
+linked_companies:
+  - "company/阿里巴巴/阿里巴巴"
 communities: [Mooncake, SGLang]
 projects: [Mooncake, Miles]
 roles: [Mooncake Store Codeowner, Mooncake Contributor]
@@ -13,6 +15,7 @@ last_verified: "2026-09"
 # Xuchun Shang
 
 GitHub：`@XucSh`
+当前关联：[[company/阿里巴巴/阿里巴巴|阿里巴巴 / Alibaba Cloud]]
 
 ## 当前身份
 多份 2026 Mooncake / SGLang 官方材料把 Xuchun Shang 列在 Alibaba Cloud / Aliyun 贡献团队。Mooncake `CODEOWNERS` 将 `@XucSh` 列为 `mooncake-store` codeowner。
