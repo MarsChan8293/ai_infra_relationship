@@ -3,6 +3,7 @@ type: person
 name: Samuel Shen
 aliases: ["Samm Shen", "sammshen", "slshen"]
 current_affiliations: ["TensorMesh"]
+public_email: slshen@tensormesh.ai
 schools:
   - "University of Chicago"
 communities: [LMCache, vLLM]
@@ -35,13 +36,14 @@ relations:
 
 因此他是当前 LMCache 生态里很强的 `vLLM ↔ LMCache ↔ SGLang ↔ TensorRT-LLM ↔ TensorMesh` 桥节点。
 
+公开 LMCache commit 使用 `slshen@tensormesh.ai`，因此 TensorMesh 组织关系也有职业邮箱这一层独立证据。
+
 ## vLLM 直接贡献
 2026-06 Samuel Shen 直接向 vLLM 仓库提交 LMCache examples 更新，因此 vLLM 关系不仅来自 LMCache 内部 integration 目录，也有上游项目直接 commit 证据。
 
 ## 人物关系
 - [[company/腾讯/Baolong Mao|Baolong Mao]]：LMCache P2P / storage / integration 技术协作者。2026-01 LMCache 官方 P2P 文章将 Samuel Shen（TensorMesh）与 Baolong Mao（Tencent）共同列为 production-grade multi-node CPU P2P KV sharing 的作者/工程网络。
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：LMCache 维护协作者；这里记录开源协作，不因同属 TensorMesh 自动扩张人物关系类型。
-
 
 ## 学校关联
 - [[university/University of Chicago/University of Chicago|University of Chicago]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
@@ -50,6 +52,7 @@ relations:
 - https://www.tensormesh.ai/team-members/samuel-shen
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
+- https://github.com/LMCache/LMCache/commit/1106823089b04a852f00dfa40b7c641d23a2e6fb
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
 - https://github.com/vllm-project/vllm/commit/c9135db27cafb853af5e2cb86c1a0b3c6b5b8c91
 
