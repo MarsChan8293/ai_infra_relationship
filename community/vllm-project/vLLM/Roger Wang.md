@@ -2,6 +2,7 @@
 type: person
 name: Roger Wang
 current_affiliations: ["Inferact"]
+public_email: rogerw@inferact.ai
 communities: [vLLM, vLLM-Omni]
 linked_companies:
   - "company/Inferact/Inferact"
@@ -18,6 +19,8 @@ relations:
 
 社区：[[vLLM]]、[[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]]
 当前：[[Inferact]] founding team
+
+公开职业邮箱：`rogerw@inferact.ai`。2026-09 的 vLLM GDN / cudagraph 性能提交直接以该企业邮箱共同署名；另有个人域名 `rogerw.io` 用于部分提交，因此 canonical 联系字段优先保留企业邮箱。
 
 ## 教育经历
 - 公开个人资料暂未披露完整学历信息
@@ -42,6 +45,7 @@ vLLM Project Lead，主要负责 multimodality、benchmark 与多模态推理生
 - https://vllm.ai/events/vllm-conference/2026
 - https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
 - https://github.com/vllm-project/vllm-omni
+- https://github.com/vllm-project/vllm/commit/6cbb3c154ef1449d2b3c9131a237f36faa695734
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
