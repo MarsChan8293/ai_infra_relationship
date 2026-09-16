@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked project/community: 29
-- Project/community nodes: 74
-- Project/community nodes with ≥1 linked company: 43
-- Bidirectional association pairs: 59
-- Explicitly asserted on both sides: 59
+- Project/community nodes: 75
+- Project/community nodes with ≥1 linked company: 44
+- Bidirectional association pairs: 60
+- Explicitly asserted on both sides: 60
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -43,6 +43,7 @@
 | [[company/一流科技/一流科技|一流科技]] | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | project | company-originated | both |
 | [[company/华为/华为|华为]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MemCache/MemCache|MemCache]] | project | company-led | both |
+| [[company/华为/华为|华为]] | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | project | company-led | both |

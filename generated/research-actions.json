@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1134,
+  "candidate_count": 1135,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 1,
@@ -12,12 +12,79 @@
     "research": 1
   },
   "selected_bucket_counts": {
-    "bridge": 2,
-    "exploitation": 6,
+    "bridge": 3,
+    "exploitation": 5,
     "exploration": 2
   },
   "scoring_note": "Base expected-gain proxy plus small-sample-shrunk action_key history yield; exact recent success/partial/unresolved/rejected actions are temporarily suppressed by status-specific cooldowns. Partial outcomes retain resolved/unresolved dimensions.",
   "selected_actions": [
+    {
+      "action_id": "community/Ascend/MemFabric/MemFabric::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MemFabric/MemFabric",
+        "name": "MemFabric",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.176,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.7,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.224,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
     {
       "action_id": "community/Ascend/MemCache/MemCache::maintainers",
       "action_key": "project:maintainers:person",
@@ -36,8 +103,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 9.154,
+      "bucket": "bridge",
+      "priority": 9.138,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -48,11 +115,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 5,
-        "bridge_score": 5.935,
+        "bridge_score": 6.157,
         "novelty": 1.0,
-        "frontier_potential": 0.469,
+        "frontier_potential": 0.435,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
+        "redundancy_penalty": 0.156,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -63,9 +130,10 @@
         "coverage 0/4",
         "source type Project",
         "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
+        "opens underrepresented target types",
+        "bridge 6.2"
       ],
-      "base_priority": 9.202,
+      "base_priority": 9.186,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -201,73 +269,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 9.014,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/lightseekorg/TorchSpec/TorchSpec",
-        "name": "TorchSpec",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 8.907,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.307,
-        "novelty": 1.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.955,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -703,6 +704,73 @@
   ],
   "candidates": [
     {
+      "action_id": "community/Ascend/MemFabric/MemFabric::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MemFabric/MemFabric",
+        "name": "MemFabric",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.176,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.7,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.224,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/MemCache::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -720,8 +788,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 9.154,
+      "bucket": "bridge",
+      "priority": 9.138,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -732,11 +800,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 5,
-        "bridge_score": 5.935,
+        "bridge_score": 6.157,
         "novelty": 1.0,
-        "frontier_potential": 0.469,
+        "frontier_potential": 0.435,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
+        "redundancy_penalty": 0.156,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -747,9 +815,10 @@
         "coverage 0/4",
         "source type Project",
         "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
+        "opens underrepresented target types",
+        "bridge 6.2"
       ],
-      "base_priority": 9.202,
+      "base_priority": 9.186,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -28340,72 +28409,6 @@
       }
     },
     {
-      "action_id": "company/华为/华为::academic_links",
-      "action_key": "company:academic_links:school+research",
-      "source": {
-        "id": "company/华为/华为",
-        "name": "华为",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "academic_links",
-      "target_families": [
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_research_partnership_page",
-        "paper_affiliation"
-      ],
-      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
-      "bucket": "bridge",
-      "priority": 5.318,
-      "cost": 1.5,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 7,
-        "bridge_score": 13.622,
-        "novelty": 1.0,
-        "frontier_potential": 0.224,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.24,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Company",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types",
-        "bridge 13.6"
-      ],
-      "base_priority": 5.318,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -28453,6 +28456,72 @@
         "source type Person",
         "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types"
+      ],
+      "base_priority": 5.311,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/华为/华为::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/华为/华为",
+        "name": "华为",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "bridge",
+      "priority": 5.311,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 14.042,
+        "novelty": 1.0,
+        "frontier_potential": 0.218,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.244,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types",
+        "bridge 14.0"
       ],
       "base_priority": 5.311,
       "eligible": true,
@@ -75160,6 +75229,6 @@
       }
     }
   },
-  "eligible_count": 1108,
+  "eligible_count": 1109,
   "suppressed_count": 26
 }

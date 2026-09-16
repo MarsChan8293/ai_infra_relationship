@@ -1,6 +1,7 @@
 ---
 type: project
 name: MemFabric
+linked_people: []
 companies: ["华为"]
 company_relation: company-led
 layer: communication
@@ -8,8 +9,9 @@ hardware: [Ascend]
 open_source: true
 repository: https://gitcode.com/Ascend/memfabric_hybrid
 areas: [memory-pooling, data-movement, disaggregated-serving, kv-cache, rdma, ascend]
-linked_people: []
 last_verified: "2026-09"
+linked_companies:
+  - "company/华为/华为"
 ---
 # MemFabric
 
@@ -45,3 +47,12 @@ MemFabric 与 MemCache 的提交/合并记录中出现明显重叠的 handle，�
 - https://gitcode.com/Ascend/memfabric_hybrid/tree/master
 - https://gitcode.com/Ascend/memfabric_hybrid/blob/develop/README.md
 - https://gitcode.com/Ascend/memfabric_hybrid/tree/master/benchmark
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
