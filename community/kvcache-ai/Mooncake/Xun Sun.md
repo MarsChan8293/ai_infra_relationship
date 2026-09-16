@@ -12,14 +12,14 @@ areas: [expert-parallelism, distributed-communication, llm-inference, fault-tole
 confidence: verified
 last_verified: "2026-09"
 relations:
-  - '{"target":"university/清华大学/Mingxing Zhang","type":["advisor-student"],"confidence":"high","evidence":["https://github.com/UNIDY2002"]}'
+  - '{"target":"university/清华大学/Mingxing Zhang","type":["advisor"],"confidence":"high","evidence":["https://github.com/UNIDY2002"]}'
 ---
 # Xun Sun
 
 GitHub：`@UNIDY2002`
 
 ## 身份与研究背景
-- 清华大学 MADSys 成员。其公开 GitHub 主页明确写明由 [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]] 指导，因此记录为高置信度 advisor/student 强边。
+- 清华大学 MADSys 成员。其公开 GitHub 主页明确写明由 [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]] 指导，因此记录为高置信度导师/学生强边。
 - Mooncake maintainer；当前 `CODEOWNERS` 将 `@UNIDY2002` 列为 Mooncake EP、Mooncake PG 以及相关 Python EP 路径的 codeowner。
 - 研究和工程重点集中在 expert parallelism、PyTorch process group、GPU/设备侧通信以及弹性故障恢复。
 
