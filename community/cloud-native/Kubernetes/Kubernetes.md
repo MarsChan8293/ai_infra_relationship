@@ -1,6 +1,8 @@
 ---
 type: project
 name: Kubernetes
+companies: [Google]
+company_relation: originating-organization
 linked_people:
   - "community/llm-d/llm-d/Ashok Chandrasekar"
 category: cloud-native-platform
@@ -16,6 +18,10 @@ linked_companies: []
 ## 项目定位
 Kubernetes 是开源容器编排平台。在本图谱中只记录它与 AI Infra / LLM serving 的直接交叉，例如 [[llm-d]]、Inference Gateway、GPU workload orchestration 与生产推理平台，而不扩展成通用 cloud-native 人才图谱。
 
+## 起源与治理
+- **Google**：Kubernetes 官方 README 明确写明项目建立在 Google 运行 Borg 等生产工作负载十余年的经验之上；Google 是 Kubernetes 的 originating organization。
+- **CNCF**：Kubernetes 当前由 Cloud Native Computing Foundation 托管。这里把“项目起源”和“当前基金会托管/社区治理”分开，不把 CNCF 托管误写成 Google 当前单独治理。
+
 ## AI Infra 连接
 - [[llm-d]]：以 Kubernetes 为核心生产平台之一，把 inference engine、routing、KV-cache-aware scheduling 和 disaggregated serving 接入 cloud-native deployment 路径。
 - 人物关联仅在人物页明确把 Kubernetes 作为其项目/社区主线时建立，不因为任职于云厂商自动推断 Kubernetes 参与。
@@ -23,6 +29,8 @@ Kubernetes 是开源容器编排平台。在本图谱中只记录它与 AI Infra
 ## Sources
 - https://kubernetes.io/
 - https://github.com/kubernetes/kubernetes
+- https://github.com/kubernetes/kubernetes/blob/master/README.md
+- https://www.cncf.io/about/
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
