@@ -47,7 +47,7 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：Approaching AI，Mooncake Store
 
 ## 研究作者网络
-公开论文作者包括 [[university/清华大学/Ruoyu Qin|Ruoyu Qin]]、Zheming Li、Weiran He、Jialei Cui、Heyi Tang、[[community/kvcache-ai/Mooncake/任峰 Feng Ren|Feng Ren]]、[[community/kvcache-ai/Mooncake/马腾 Teng Ma|Teng Ma]]、[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]、[[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]]、[[company/趋境科技/武永卫 Yongwei Wu|Yongwei Wu]]、[[company/清程极智/郑纬民 Weimin Zheng|Weimin Zheng]]、Xinran Xu。FAST'25 版本与后续 ACM TOS 版本作者集合不同，正文按具体论文分别核验，不把作者列表机械合并为同一贡献角色。
+公开论文作者包括 [[university/清华大学/Ruoyu Qin|Ruoyu Qin]]、[[community/kvcache-ai/Mooncake/Zheming Li|Zheming Li]]、[[community/kvcache-ai/Mooncake/Weiran He|Weiran He]]、[[community/kvcache-ai/Mooncake/Jialei Cui|Jialei Cui]]、Heyi Tang、[[community/kvcache-ai/Mooncake/任峰 Feng Ren|Feng Ren]]、[[community/kvcache-ai/Mooncake/马腾 Teng Ma|Teng Ma]]、[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]、[[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]]、[[company/趋境科技/武永卫 Yongwei Wu|Yongwei Wu]]、[[company/清程极智/郑纬民 Weimin Zheng|Weimin Zheng]]、[[community/kvcache-ai/Mooncake/Xinran Xu|Xinran Xu]]。FAST'25 版本与后续 ACM TOS 版本作者集合不同，正文按具体论文分别核验，不把作者列表机械合并为同一贡献角色。
 
 ## 2026 数据平面扩张
 - [[community/kvcache-ai/Mooncake/TENT|TENT]]：Mooncake Transfer Engine NEXT，把静态路径选择升级为异构互联上的 declarative slice spraying / 动态调度 / 自愈数据移动层。
