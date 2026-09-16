@@ -10,6 +10,7 @@ linked_people:
   - "community/vllm-project/vLLM-Ascend/leolee"
   - "community/vllm-project/vLLM-Ascend/Levi-JQ"
   - "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai"
+  - "community/vllm-project/vLLM-Ascend/QiuChunshuo"
   - "community/vllm-project/vLLM-Ascend/Wang Xiyuan"
   - "community/vllm-project/vLLM-Ascend/weiguihua2"
   - "community/vllm-project/vLLM-Ascend/weijinqian0"
@@ -80,6 +81,7 @@ https://github.com/vllm-project/vllm-ascend
 - [[community/vllm-project/vLLM-Ascend/leolee|leolee]]：https://github.com/vllm-project/vllm-ascend/commit/92995fbbf30301b6f4b702fdb375a888608c1e20
 - [[community/vllm-project/vLLM-Ascend/Levi-JQ|Levi-JQ]]：https://github.com/vllm-project/vllm-ascend/commit/ce9e24a28131b59c6df27470ac42aee742a711ad
 - [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：2026 vLLM-Ascend 技术周会多次担任 Chair。
+- [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]]：https://github.com/vllm-project/vllm-ascend/commit/81e75f893b7ce98f1633cb66a5408687db6e039b
 - [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：vLLM-Ascend 主要维护与社区组织者之一。
 - [[community/vllm-project/vLLM-Ascend/weiguihua2|weiguihua2]]：https://github.com/vllm-project/vllm-ascend/commit/3d84be3ce62206223b39204722649b66c21033dd
 - [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]]：[[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：社区治理/Attention 工程邻接关系；缺 pair-specific 证据时不自动生成 typed edge。

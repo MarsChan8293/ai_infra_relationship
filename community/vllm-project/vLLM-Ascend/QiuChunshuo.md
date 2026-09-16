@@ -3,6 +3,10 @@ type: person
 name: QiuChunshuo
 aliases: ["@QiuChunshuo"]
 public_email: qiuchunshuo@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [vLLM-Ascend]
 roles: [Attention Performance Contributor, Context Parallelism Contributor]
 areas: [attention, mla, sfa, dcp, context-parallelism, kv-cache, triton, ascend]
@@ -30,3 +34,12 @@ last_verified: "2026-09"
 - https://github.com/vllm-project/vllm-ascend/commit/5c59cfba98045f49645284745be035346a4d82d8
 - https://github.com/vllm-project/vllm-ascend/commit/e5b9036207f74658c2d4699e2de290c3a3f2e145
 - https://github.com/vllm-project/vllm-ascend/commit/0aa1b486c0e6d3fb457822da2b9b49ede2578562
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

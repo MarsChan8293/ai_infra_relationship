@@ -4,12 +4,12 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 180
-- Email-domain-supported associations: 17
-- People with generated linked_companies: 179
+- Company-person associations: 181
+- Email-domain-supported associations: 18
+- People with generated linked_companies: 180
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 338
+- Project/community-person associations: 339
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -19,7 +19,7 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
-| [[company/华为/华为|华为]] | 19 |
+| [[company/华为/华为|华为]] | 20 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
@@ -60,8 +60,8 @@
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
-| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 14 |

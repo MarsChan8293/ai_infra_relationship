@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 360
-- Person nodes with typed relations: 112 / 285
+- Person nodes with typed relations: 112 / 286
 - Hard errors: 0
 - Warnings: 4
 

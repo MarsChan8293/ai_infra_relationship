@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1212,
+  "candidate_count": 1215,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 1,
@@ -6862,138 +6862,6 @@
       }
     },
     {
-      "action_id": "community/vllm-project/vLLM-Ascend/leolee::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/leolee",
-        "name": "leolee",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.745,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation"
-      ],
-      "base_priority": 6.462,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
-        "name": "weiguihua2",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.745,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation"
-      ],
-      "base_priority": 6.462,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -7041,6 +6909,138 @@
         "infra: serving/inference, distributed, moe"
       ],
       "base_priority": 6.462,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/leolee::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/leolee",
+        "name": "leolee",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.722,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation"
+      ],
+      "base_priority": 6.439,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
+        "name": "weiguihua2",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.722,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation"
+      ],
+      "base_priority": 6.439,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -7321,6 +7321,72 @@
           "yield_adjustment": 0.0
         },
         "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/QiuChunshuo::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/QiuChunshuo",
+        "name": "QiuChunshuo",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.709,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.6,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 0.5,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache, kernel, distributed"
+      ],
+      "base_priority": 6.426,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       }
     },
@@ -10694,146 +10760,6 @@
       }
     },
     {
-      "action_id": "community/vllm-project/vLLM-Ascend/leolee::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/leolee",
-        "name": "leolee",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.44,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
-        "name": "weiguihua2",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.44,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/vllm-project/AIBrix/CYJiang::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -11106,6 +11032,146 @@
       }
     },
     {
+      "action_id": "community/vllm-project/vLLM-Ascend/leolee::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/leolee",
+        "name": "leolee",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.418,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.75,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.124,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
+        "name": "weiguihua2",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.418,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.75,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.124,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/上海交通大学/KunServe::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -11167,6 +11233,76 @@
           "yield_adjustment": 0.0
         },
         "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/QiuChunshuo::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/QiuChunshuo",
+        "name": "QiuChunshuo",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 6.404,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.6,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 0.75,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kv-cache, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.11,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       }
     },
@@ -16777,134 +16913,6 @@
         "coverage 0/3",
         "source type Person",
         "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.996,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/leolee::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/leolee",
-        "name": "leolee",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.996,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.996,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
-        "name": "weiguihua2",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.996,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
         "opens underrepresented target types"
       ],
       "base_priority": 5.996,
@@ -26825,138 +26833,6 @@
       }
     },
     {
-      "action_id": "community/vllm-project/vLLM-Ascend/leolee::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/leolee",
-        "name": "leolee",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 5.476,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.476,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
-        "name": "weiguihua2",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 5.476,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kv-cache, distributed, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.476,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -33439,7 +33315,7 @@
       ],
       "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
       "bucket": "bridge",
-      "priority": 5.237,
+      "priority": 5.234,
       "cost": 1.5,
       "coverage": {
         "existing": 0,
@@ -33450,11 +33326,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 10,
-        "bridge_score": 20.459,
+        "bridge_score": 20.848,
         "novelty": 1.0,
-        "frontier_potential": 0.164,
+        "frontier_potential": 0.162,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.289,
+        "redundancy_penalty": 0.291,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.0,
@@ -33466,9 +33342,9 @@
         "source type Company",
         "infra: serving/inference, kv-cache, kernel",
         "opens underrepresented target types",
-        "bridge 20.5"
+        "bridge 20.8"
       ],
-      "base_priority": 5.237,
+      "base_priority": 5.234,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -54456,6 +54332,132 @@
       }
     },
     {
+      "action_id": "community/vllm-project/vLLM-Ascend/leolee::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/leolee",
+        "name": "leolee",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.269,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation"
+      ],
+      "base_priority": 4.269,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
+        "name": "weiguihua2",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.269,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation"
+      ],
+      "base_priority": 4.269,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/ader47::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -57533,6 +57535,138 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/leolee::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/leolee",
+        "name": "leolee",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.091,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.667,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.091,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/weiguihua2::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
+        "name": "weiguihua2",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.091,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.667,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kv-cache, distributed, disaggregation",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.091,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -65604,6 +65738,69 @@
         "opens underrepresented target types"
       ],
       "base_priority": 3.498,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM-Ascend/QiuChunshuo::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/vllm-project/vLLM-Ascend/QiuChunshuo",
+        "name": "QiuChunshuo",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.492,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 3.6,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.672,
+        "novelty": 0.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.348,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kv-cache, kernel, distributed"
+      ],
+      "base_priority": 3.492,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -80347,6 +80544,6 @@
       }
     }
   },
-  "eligible_count": 1186,
+  "eligible_count": 1189,
   "suppressed_count": 26
 }
