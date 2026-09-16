@@ -7,6 +7,8 @@ schools:
   - "北京大学"
 communities: [SGLang]
 roles: [SGLang Maintainer, Inference Systems Engineer]
+linked_companies:
+  - "company/RadixArk/RadixArk"
 areas: [gpu-performance, model-optimization, ci, release-engineering]
 confidence: high
 last_verified: "2026-09"
@@ -46,3 +48,12 @@ GitHub：Fridge003
 
 ## Sources
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/RadixArk/RadixArk|RadixArk]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

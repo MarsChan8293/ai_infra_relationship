@@ -6,6 +6,8 @@ schools:
   - "UCLA"
 communities: [llm-d]
 roles: [Senior Technical Staff Member, KV-Disaggregation SIG Lead]
+linked_companies:
+  - "company/IBM/IBM"
 areas: [kv-cache, cloud-storage, distributed-storage, disaggregated-inference]
 last_verified: "2026-09"
 relations:
@@ -41,3 +43,12 @@ KV cache、memory hierarchy、远端缓存与共享存储、filesystem offloadin
 - https://research.ibm.com/people/danny-harnik
 - https://llm-d.ai/blog/native-kv-cache-offloading-to-any-file-system-with-llm-d
 - https://llm-d.ai/blog/serving-hybrid-models-at-scale-in-llm-d
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/IBM/IBM|IBM]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

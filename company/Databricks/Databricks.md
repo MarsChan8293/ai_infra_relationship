@@ -14,10 +14,10 @@ Databricks 从 Apache Spark / UC Berkeley AMPLab 系谱发展为 Lakehouse 与�
 [[NIXL]] 等 inference data-movement 生态可连接 Databricks 的 AI platform 场景；更深层的历史关系则是 UC Berkeley systems 人才网络与 Ion Stoica 等学术/创业节点。不要把公司历史系谱与当前项目直接共事混为一谈。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/ai-dynamo/NIXL/James Thomas|James Thomas]]：[[Databricks]]
+- [[community/ai-dynamo/NIXL/James Thomas|James Thomas]]：人物页 `current_affiliations:` 明确记录；[[Databricks]]
 
 <!-- END AUTO COMPANY PEOPLE -->

@@ -14,10 +14,10 @@ HPE 是企业级服务器、HPC、网络与 AI infrastructure 厂商，覆盖计
 [[NIXL]] 等跨 GPU/CPU/storage 的数据移动项目与 HPE 这类系统厂商存在生态连接；同时 HPE/Cray 的 HPC 背景与大模型集群基础设施高度相关。具体人员合作仍以公开项目治理为准。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/ai-dynamo/NIXL/Ryan Hankins|Ryan Hankins]]：[[HPE]]
+- [[community/ai-dynamo/NIXL/Ryan Hankins|Ryan Hankins]]：人物页 `current_affiliations:` 明确记录；[[HPE]]
 
 <!-- END AUTO COMPANY PEOPLE -->

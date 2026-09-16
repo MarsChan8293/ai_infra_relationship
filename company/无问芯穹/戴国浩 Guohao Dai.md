@@ -8,6 +8,8 @@ schools:
   - "上海交通大学"
   - "清华大学"
 roles: [Co-Founder, Chief Scientist]
+linked_companies:
+  - "company/无问芯穹/无问芯穹"
 areas: [ai-systems, hardware-software-codesign, sparse-computing]
 last_verified: "2026-09"
 relations:
@@ -36,3 +38,12 @@ relations:
 - https://www.sii.edu.cn/2026/0529/c94a1051/page.htm
 - https://www.infinigence-ai.com/about-us.html
 - https://www.qimingvc.com/cn/node/7623
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/无问芯穹/无问芯穹|无问芯穹]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

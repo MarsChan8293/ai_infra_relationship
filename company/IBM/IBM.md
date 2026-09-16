@@ -37,16 +37,16 @@ IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施�
 - https://research.ibm.com/people/maroon-ayoub
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]]：[[IBM]]：截至 2026-09，llm-d 官方作者页列为 Distinguished Engineer, IBM。
-- [[community/llm-d/llm-d/Danny Harnik|Danny Harnik]]：[[IBM]]：IBM Research 官方人物页列为 Senior Technical Staff Member / Cloud Storage，长期研究 cloud storage 与大规模存储系统。
-- [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：[[IBM]]
-- [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
-- [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
-- [[company/IBM/Martin Hickey|Martin Hickey]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]]：人物页 `current_affiliations:` 明确记录；[[IBM]]：截至 2026-09，llm-d 官方作者页列为 Distinguished Engineer, IBM。
+- [[community/llm-d/llm-d/Danny Harnik|Danny Harnik]]：人物页 `current_affiliations:` 明确记录；[[IBM]]：IBM Research 官方人物页列为 Senior Technical Staff Member / Cloud Storage，长期研究 cloud storage 与大规模存储系统。
+- [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：人物页 `current_affiliations:` 明确记录；[[IBM]]
+- [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：人物页 `current_affiliations:` 明确记录；[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
+- [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：人物页 `current_affiliations:` 明确记录；[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
+- [[company/IBM/Martin Hickey|Martin Hickey]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

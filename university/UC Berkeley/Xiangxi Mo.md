@@ -27,7 +27,6 @@ Xiangxi Mo 是 Jenga 向 Berkeley inference-serving 历史纵深扩展的重要�
 ## 身份边界
 公开材料中偶有 `Xiangxi (Simon) Mo` 的写法，但本仓库已经存在独立的 [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] 节点，因此这里不把 `Simon Mo` 作为 alias，避免错误合并身份。
 
-
 ## 学校关联
 - [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

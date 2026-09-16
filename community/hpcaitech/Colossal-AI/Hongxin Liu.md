@@ -24,7 +24,6 @@ areas: [distributed-training, zero, fp8, checkpointing, ai-infrastructure]
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：**Colossal-AI 早期核心工程协作者**。两人在 Colossal-AI 文档、系统设计与 startup 阶段存在公开协作；Shenggui 后转向 SGLang / SpecForge。
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文合作者 + HPC-AI 创业网络**。共同署名原始 Colossal-AI 与 Elixir 等系统工作。
 
-
 ## 学校关联
 - [[university/华中科技大学/华中科技大学|华中科技大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

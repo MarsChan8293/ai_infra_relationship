@@ -4,6 +4,8 @@ name: Hongsheng Liu
 aliases: ["hsliuustc0106", "@hsliuustc0106"]
 current_affiliations: ["华为"]
 communities: ["vLLM-Omni"]
+linked_companies:
+  - "company/华为/华为"
 projects: ["vLLM-Omni"]
 areas: [multimodal-serving, distributed-serving, hardware-portability, production-inference]
 roles: [vLLM-Omni Lead Maintainer, Research Scientist]
@@ -28,3 +30,12 @@ Hongsheng Liu 把 vLLM-Omni 的社区治理与华为 AI Infra 人才网络连接
 - https://github.com/hsliuustc0106
 - https://arxiv.org/abs/2602.02204
 - https://github.com/vllm-project/vllm-omni/issues/5631
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

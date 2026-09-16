@@ -5,6 +5,8 @@ current_affiliations: ["Inferact"]
 schools:
   - "UC Berkeley"
 communities: [vLLM, "Ray Serve"]
+linked_companies:
+  - "company/Inferact/Inferact"
 areas: [serving-systems, api, benchmarking, observability, community-governance]
 roles: [Cofounder, CEO, Core Maintainer]
 confidence: verified
@@ -50,3 +52,12 @@ vLLM Lead Maintainer；公开资料显示自 2023 起 co-lead vLLM community，�
 - https://inferact.ai/
 - https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Inferact/Inferact|Inferact]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

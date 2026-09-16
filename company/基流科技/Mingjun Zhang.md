@@ -8,6 +8,8 @@ schools:
 communities: [VCCL]
 education: [南京大学]
 roles: [AI Infra Engineer]
+linked_companies:
+  - "company/基流科技/基流科技"
 areas: [collective-communication, gpu-networking, distributed-training]
 last_verified: "2026-09"
 relations:
@@ -36,3 +38,12 @@ relations:
 - https://github.com/Zhangmj0621
 - https://arxiv.org/abs/2510.00991
 - https://github.com/sii-research/VCCL
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/基流科技/基流科技|基流科技（InfraWaves）]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

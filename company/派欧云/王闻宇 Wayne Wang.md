@@ -5,6 +5,8 @@ english_name: Wayne Wang
 aliases: [王闻宇, Wayne Wang]
 current_affiliations: ["派欧云"]
 roles: [Co-Founder, CTO]
+linked_companies:
+  - "company/派欧云/派欧云"
 areas: [distributed-systems, cloud-infrastructure, agentic-cloud]
 last_verified: "2026-09"
 relations:
@@ -24,3 +26,12 @@ relations:
 
 ## Sources
 - https://ppio.com/about?from=ppinfra&index=0
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/派欧云/派欧云|派欧云]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

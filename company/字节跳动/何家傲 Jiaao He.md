@@ -6,6 +6,8 @@ aliases: ["Jiaao He", "Rick Ho", "laekov", "何家傲"]
 current_affiliations: ["ByteDance"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/字节跳动/字节跳动"
 projects: [FastDecode]
 areas: [llm-serving, distributed-training, moe, heterogeneous-inference, sparse-systems]
 roles: [Research Scientist]
@@ -37,3 +39,12 @@ relations:
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastmoe/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastermoe/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-journalscorrabs-2403-11421/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/字节跳动/字节跳动|字节跳动]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -25,7 +25,6 @@ UC Berkeley Sky Computing Lab / systems research network 成员，Ion Stoica 学
 ## 图谱意义
 Shu Liu 把 Jenga 的 serving-memory 方向继续连接到 MoE inference 与 Berkeley Sky 的新一代 AI systems 网络。
 
-
 ## 学校关联
 - [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

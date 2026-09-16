@@ -8,6 +8,8 @@ schools:
   - "UC Berkeley"
   - "清华大学"
 communities: [vLLM]
+linked_companies:
+  - "company/Inferact/Inferact"
 areas: [distributed-inference, parallelism, compiler-integration, rl-infrastructure, hardware-backends]
 roles: [Cofounder, Chief Scientist, Lead Maintainer]
 confidence: verified
@@ -85,3 +87,12 @@ relations:
 - https://arxiv.org/abs/2503.18292
 - https://www.jmlr.org/papers/v23/21-1127.html
 - https://www.linkedin.com/posts/yifan-qiao-cs_thrilled-to-share-that-i-have-joined-inferact-activity-7420166626714517504-j13f
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Inferact/Inferact|Inferact]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

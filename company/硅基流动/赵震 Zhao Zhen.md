@@ -5,6 +5,8 @@ english_name: Zhao Zhen
 aliases: [赵震, Zhao Zhen]
 current_affiliations: ["硅基流动"]
 roles: [COO]
+linked_companies:
+  - "company/硅基流动/硅基流动"
 areas: [operations, ai-infrastructure]
 last_verified: "2026-09"
 relations:
@@ -26,3 +28,12 @@ relations:
 - https://www.tsinghua.org.cn/info/1015/42666.htm
 - https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf
 - https://amp.kr-asia.com/surging-users-widening-losses-and-leased-compute-behind-siliconflows-ipo-filing
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/硅基流动/硅基流动|硅基流动]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

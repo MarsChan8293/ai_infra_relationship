@@ -25,7 +25,6 @@ relations:
 ## 关系边界
 导师关系有个人主页直接证据；论文共同署名只用于建立 research collaboration / project membership，不据此推断实验室内所有成员之间的导师或同事关系。
 
-
 ## 学校关联
 - [[university/香港中文大学/香港中文大学|香港中文大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

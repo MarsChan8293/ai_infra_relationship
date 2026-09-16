@@ -8,6 +8,8 @@ schools:
 communities: [SGLang, FlashInfer, Mooncake, TokenSpeed, LightSeek Foundation]
 education: [江南大学]
 roles: [Senior Director Inference, Governing Board Member, TokenSpeed Co-creator, Former SGLang Core Maintainer]
+linked_companies:
+  - "company/Together AI/Together AI"
 areas: [llm-inference, serving-systems, attention-kernels, kv-cache, agentic-inference]
 last_verified: "2026-09"
 relations:
@@ -58,3 +60,12 @@ Yineng Zhang 是当前图谱里少见的“kernel → serving engine → product
 - https://github.com/kvcache-ai/Mooncake
 - https://github.com/lightseekorg/tokenspeed
 - https://lightseek.org/blog/lightseek-tokenspeed.html
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Together AI/Together AI|Together AI]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

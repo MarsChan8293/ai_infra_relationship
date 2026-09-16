@@ -40,7 +40,6 @@ relations:
 ## 图谱意义
 李环是当前浙江大学节点里非常值得持续跟踪的 **“传统 data systems → modern LLM serving”** 连接点。研究问题已经与生产 inference engine 的瓶颈高度重叠，而不是停留在纯模型压缩层。
 
-
 ## 学校关联
 - [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

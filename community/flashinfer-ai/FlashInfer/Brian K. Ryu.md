@@ -5,6 +5,8 @@ aliases: [Brian Ryu, bkryu]
 current_affiliations: ["NVIDIA"]
 communities: [FlashInfer]
 roles: [Full Codebase Approver]
+linked_companies:
+  - "company/NVIDIA/NVIDIA"
 areas: [gpu-inference-kernels, attention, moe, low-precision, blackwell]
 confidence: verified
 last_verified: "2026-09"
@@ -30,3 +32,12 @@ GPU inference kernels、Attention、MoE、low precision、Blackwell performance�
 - https://github.com/flashinfer-ai/flashinfer
 - https://github.com/flashinfer-ai/flashinfer/commits?author=bkryu
 - FlashInfer CODEOWNERS / maintainer metadata
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

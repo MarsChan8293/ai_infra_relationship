@@ -33,7 +33,6 @@ relations:
 - [[吴童 Tong Wu]]：当前公开个人主页明确标注由 Zhi Yang 指导。
 - [[Lei Wang]]、[[Yining Shi]]：TileLang 初版核心开发与论文作者网络。
 
-
 ## 学校关联
 - [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

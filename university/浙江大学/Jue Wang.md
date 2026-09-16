@@ -5,6 +5,8 @@ aliases: [Jue Wang]
 current_affiliations: ["浙江大学","Together AI"]
 schools:
   - "浙江大学"
+linked_companies:
+  - "company/Together AI/Together AI"
 projects:
   - HMI
   - FloE
@@ -44,3 +46,12 @@ Jue Wang 是浙江大学 AI Infra 网络里很典型的 **“校内 systems trai
 - https://arxiv.org/abs/2504.17449
 - https://proceedings.mlr.press/v267/zhou25j.html
 - https://proceedings.mlr.press/v267/zhang25bg.html
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Together AI/Together AI|Together AI]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

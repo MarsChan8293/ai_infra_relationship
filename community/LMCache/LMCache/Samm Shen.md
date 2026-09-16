@@ -7,6 +7,8 @@ schools:
   - "University of Chicago"
 communities: [LMCache, vLLM]
 roles: [Software Engineer, LMCache Committer, Component Owner]
+linked_companies:
+  - "company/TensorMesh/TensorMesh"
 areas: [kv-cache, gpu-connector, storage-backend, vllm-integration, sglang-integration, tensorrt-llm-integration, ci]
 confidence: verified
 last_verified: "2026-09"
@@ -50,3 +52,12 @@ relations:
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
 - https://github.com/vllm-project/vllm/commit/c9135db27cafb853af5e2cb86c1a0b3c6b5b8c91
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

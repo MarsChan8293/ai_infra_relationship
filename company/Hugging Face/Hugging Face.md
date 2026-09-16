@@ -19,11 +19,11 @@ Hugging Face 是开放模型与机器学习工具生态公司，核心资产包�
 [[vLLM]] 与 Hugging Face model/Transformers compatibility 高度耦合，仓库中 [[Harry Mellor]]、[[Patrick von Platen]] 等节点体现了 model integration 与 serving engine 之间的人才/技术桥。兼容关系本身不等于公司共事。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

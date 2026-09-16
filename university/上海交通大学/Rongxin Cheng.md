@@ -18,7 +18,6 @@ areas: [llm-serving, memory-management]
 ## 图谱意义
 Rongxin Cheng 是 IPADS Modern AI Infrastructure 研究线中面向 LLM serving 的年轻研究者代表，连接 faculty 研究议题与具体系统实现。
 
-
 ## 学校关联
 - [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

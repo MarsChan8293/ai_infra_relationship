@@ -7,6 +7,8 @@ current_affiliations: ["Tsinghua University","TsingMao"]
 schools:
   - "清华大学"
 roles: [Professor, Scientific Advisor]
+linked_companies:
+  - "company/清昴智能/清昴智能"
 areas: [multimedia, ai-systems, automl]
 last_verified: "2026-09"
 relations:
@@ -24,3 +26,12 @@ relations:
 ## Sources
 - https://zyk.bjhd.gov.cn/jbdt/auto4510_51816/auto4510_54705/auto4510/auto4510/202406/t20240611_4656306_hd.shtml
 - https://mplus-gallery.nimbus-nimo.com/project/2022F-007
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/清昴智能/清昴智能|清昴智能]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

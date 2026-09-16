@@ -68,42 +68,42 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 [[TensorRT-LLM]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]]：[[NVIDIA]]
-- [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]]：[[NVIDIA]]：Senior Deep Learning Algorithms Engineer
-- [[community/ai-dynamo/Dynamo/Julien Mancuso|Julien Mancuso]]：[[NVIDIA]]
-- [[community/ai-dynamo/Dynamo/Karen Chung|Karen Chung]]：[[NVIDIA]]
-- [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]]：[[NVIDIA]]：Senior Deep Learning Algorithms Engineer
-- [[community/ai-dynamo/Dynamo/Ryan McCormick|Ryan McCormick]]：[[NVIDIA]]：AI inference systems
-- [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]]：[[NVIDIA]] Dynamo Engineering
-- [[community/ai-dynamo/Dynamo/Sungsoo Ha|Sungsoo Ha]]：[[NVIDIA]]
-- [[community/ai-dynamo/NIXL/Adit Ranadive|Adit Ranadive]]：[[NVIDIA]]：Senior Software Architect，Networking Software Advanced Development Group
-- [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]]：[[NVIDIA]]
-- [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]]：[[NVIDIA]]
-- [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]]：[[NVIDIA]]
-- [[community/ai-dynamo/NIXL/Tomer Davidor|Tomer Davidor]]：[[NVIDIA]]
-- [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
-- [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
-- [[community/flashinfer-ai/FlashInfer/Jingfan Sun|Jingfan Sun]]：[[NVIDIA]]：Software Engineer
-- [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：[[NVIDIA]]
-- [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：[[NVIDIA]]：AI Compiler 工程方向
-- [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Yao Yao|Yao Yao]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Yibin Li|Yibin Li]]：[[NVIDIA]]
-- [[community/NVIDIA/TensorRT-LLM/Zhaoyang Wang|Zhaoyang Wang]]：[[NVIDIA]]
-- [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]]：[[NVIDIA]]
-- [[community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty|Sai Kiran Polisetty]]：[[NVIDIA]]
-- [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]]：[[NVIDIA]]
-- [[university/北京大学/Yining Shi|Yining Shi]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
+- [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：Senior Deep Learning Algorithms Engineer
+- [[community/ai-dynamo/Dynamo/Julien Mancuso|Julien Mancuso]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/Dynamo/Karen Chung|Karen Chung]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：Senior Deep Learning Algorithms Engineer
+- [[community/ai-dynamo/Dynamo/Ryan McCormick|Ryan McCormick]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：AI inference systems
+- [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]] Dynamo Engineering
+- [[community/ai-dynamo/Dynamo/Sungsoo Ha|Sungsoo Ha]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/NIXL/Adit Ranadive|Adit Ranadive]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：Senior Software Architect，Networking Software Advanced Development Group
+- [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/NIXL/Ilia Yastrebov|Ilia Yastrebov]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/ai-dynamo/NIXL/Tomer Davidor|Tomer Davidor]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]]：人物页 `current_affiliations:` 明确记录。
+- [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]]：人物页 `current_affiliations:` 明确记录。
+- [[community/flashinfer-ai/FlashInfer/Jingfan Sun|Jingfan Sun]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：Software Engineer
+- [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]：AI Compiler 工程方向
+- [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Yao Yao|Yao Yao]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Yibin Li|Yibin Li]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/NVIDIA/TensorRT-LLM/Zhaoyang Wang|Zhaoyang Wang]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty|Sai Kiran Polisetty]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]]：人物页 `current_affiliations:` 明确记录；[[NVIDIA]]
+- [[university/北京大学/Yining Shi|Yining Shi]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

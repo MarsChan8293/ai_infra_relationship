@@ -4,6 +4,8 @@ name: Mengxuan Li
 aliases: ["李孟轩", "archlitchi"]
 current_affiliations: ["密瓜智能"]
 communities: [HAMi]
+linked_companies:
+  - "company/密瓜智能/密瓜智能"
 projects: ["HAMi Ascend Device Plugin"]
 roles: [Dynamia Co-Founder and Chief Architect, HAMi Maintainer, Ascend Device Plugin Approver]
 areas: [accelerator-scheduling, gpu-virtualization, heterogeneous-computing, ascend, kubernetes]
@@ -36,3 +38,12 @@ relations:
 - https://github.com/Project-HAMi/HAMi/blob/master/MAINTAINERS.md
 - https://github.com/Project-HAMi/ascend-device-plugin/blob/main/OWNERS
 - https://project-hami.io/changelog/v2.9.0
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/密瓜智能/密瓜智能|密瓜智能]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

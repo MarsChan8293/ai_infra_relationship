@@ -5,6 +5,8 @@ english_name: Hang Yao
 aliases: [姚航, Hang Yao]
 current_affiliations: ["清昴智能"]
 roles: [Co-Founder, COO]
+linked_companies:
+  - "company/清昴智能/清昴智能"
 areas: [operations, ai-infrastructure, deployment]
 last_verified: "2026-09"
 relations:
@@ -25,3 +27,12 @@ relations:
 ## Sources
 - https://k.sina.com.cn/article_6517029999_18471fc6f001018jmy.html
 - https://pitchhub.36kr.com/project/2228795956414208
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/清昴智能/清昴智能|清昴智能]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

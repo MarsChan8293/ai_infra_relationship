@@ -8,6 +8,8 @@ schools:
   - "清华大学"
 communities: [KTransformers]
 roles: [Maintainer, Paper Author, Engineer]
+linked_companies:
+  - "company/趋境科技/趋境科技"
 areas: [systems, ai-infrastructure, heterogeneous-inference, moe]
 last_verified: "2026-09"
 relations:
@@ -40,3 +42,12 @@ CPU-GPU heterogeneous inference、MoE、kt-kernel、异构专家放置与推理�
 - https://madsys.cs.tsinghua.edu.cn/
 - https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/
 - https://github.com/kvcache-ai/ktransformers/blob/main/MAINTAINERS.md
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

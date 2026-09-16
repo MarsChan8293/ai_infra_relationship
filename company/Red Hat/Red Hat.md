@@ -44,18 +44,18 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - https://www.redhat.com/en/about/press-releases/red-hat-completes-acquisition-neural-magic-fuel-optimized-generative-ai-innovation-across-hybrid-cloud
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/llm-d/llm-d/David Simmons|David Simmons]]：[[Red Hat]]
-- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：[[Red Hat]]：2026-06 与 2026-07 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
-- [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[Red Hat]]
-- [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
-- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
-- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
-- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
-- [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：[[Red Hat]]：Neural Magic 于 2025 年初并入 Red Hat 后继续从事大规模 LLM inference；当前公开资料将其列为 Chief Architect, Inference Engineering。
+- [[community/llm-d/llm-d/David Simmons|David Simmons]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]
+- [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：2026-06 与 2026-07 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
+- [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]
+- [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
+- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：人物页 `current_affiliations:` 明确记录。
+- [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
+- [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：Neural Magic 于 2025 年初并入 Red Hat 后继续从事大规模 LLM inference；当前公开资料将其列为 Chief Architect, Inference Engineering。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

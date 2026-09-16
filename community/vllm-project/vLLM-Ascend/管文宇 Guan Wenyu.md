@@ -6,6 +6,8 @@ aliases: [Guan Wenyu]
 current_affiliations: ["面壁智能"]
 communities: [vLLM-Ascend]
 roles: [Contributor]
+linked_companies:
+  - "company/面壁智能/面壁智能"
 areas: [llm-inference, ascend, minimax, quantization, moe, distributed-inference]
 confidence: high
 last_verified: "2026-09"
@@ -25,3 +27,12 @@ last_verified: "2026-09"
 - https://gitcode.com/cann/cann-recipes-infer/tree/master/contrib
 - https://github.com/vllm-project/vllm-ascend
 - https://www.modelbest.cn/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/面壁智能/面壁智能|面壁智能]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

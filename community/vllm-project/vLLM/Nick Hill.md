@@ -5,6 +5,8 @@ current_affiliations: ["Inferact"]
 schools:
   - "University of Warwick"
 communities: [vLLM]
+linked_companies:
+  - "company/Inferact/Inferact"
 areas: [scheduler, distributed-inference, kv-cache, api-server, ci]
 roles: [Founding Engineer, Core Maintainer]
 confidence: verified
@@ -45,3 +47,12 @@ Project Lead，负责 scheduler、AsyncLLM、distributed、API server、KV Conne
 - https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1
 - https://www.linkedin.com/in/nickhillprofile
 - https://www.linkedin.com/posts/nickhillprofile_im-excited-to-share-that-ive-joined-inferact-activity-7420171751466143744-S6_-
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Inferact/Inferact|Inferact]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

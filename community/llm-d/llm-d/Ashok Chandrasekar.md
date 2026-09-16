@@ -4,6 +4,8 @@ name: Ashok Chandrasekar
 current_affiliations: ["Google"]
 communities: [llm-d, Kubernetes]
 roles: [Benchmarking SIG Lead, Inference Perf Author]
+linked_companies:
+  - "company/Google/Google"
 areas: [llm-benchmarking, inference-performance, kubernetes]
 ---
 # Ashok Chandrasekar
@@ -24,3 +26,12 @@ LLM serving benchmark、集群级性能分析、performance regression、workloa
 - https://llm-d.ai/community/sigs
 - https://github.com/kubernetes-sigs/inference-perf
 - https://github.com/kubernetes-sigs/inference-perf/blob/main/paper/paper.md
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Google/Google|Google]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

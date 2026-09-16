@@ -8,6 +8,8 @@ schools:
 communities: [Colossal-AI]
 education: [北京大学]
 roles: [Software Engineer, Core Contributor]
+linked_companies:
+  - "company/潞晨科技/潞晨科技"
 areas: [distributed-training, heterogeneous-memory, llm-training]
 last_verified: "2026-09"
 relations:
@@ -35,3 +37,12 @@ relations:
 - https://ai.comp.nus.edu.sg/team.html
 - https://openreview.net/pdf?id=WO3qJC2TOG
 - https://arxiv.org/abs/2212.05339
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/潞晨科技/潞晨科技|潞晨科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

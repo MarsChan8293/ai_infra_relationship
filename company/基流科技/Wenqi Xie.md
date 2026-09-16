@@ -9,6 +9,8 @@ schools:
 communities: [VCCL]
 education: [北京大学, 清华大学]
 roles: [Executive Director, Co-CEO, Cofounder]
+linked_companies:
+  - "company/基流科技/基流科技"
 areas: [collective-communication, gpu-cluster, ai-infrastructure]
 last_verified: "2026-09"
 relations:
@@ -39,3 +41,12 @@ relations:
 - https://www.36kr.com/p/3552242507348873
 - https://arxiv.org/abs/2510.00991
 - https://www1.hkexnews.hk/app/sehk/2026/108484/documents/sehk26042906017.pdf
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/基流科技/基流科技|基流科技（InfraWaves）]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

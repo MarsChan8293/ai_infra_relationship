@@ -27,7 +27,6 @@ relations:
 ## 学术网络
 - [[university/香港中文大学/James Cheng|James Cheng]]：博士导师；两人共同参与 vLLM-Omni、LiveServe 等 systems 工作。
 
-
 ## 学校关联
 - [[university/香港中文大学/香港中文大学|香港中文大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

@@ -4,6 +4,8 @@ name: 罗站城
 english_name: Zhancheng Luo
 aliases: [罗站城, Zhancheng Luo, luozhancheng]
 current_affiliations: ["华为"]
+linked_companies:
+  - "company/华为/华为"
 projects: ["openYuanRong"]
 roles: [openYuanRong Maintainer, 华为系统软件架构师, YuanRong Function System Technical Lead]
 areas: [distributed-systems, serverless, agent-infrastructure, scheduling, linux-kernel, cloud-native]
@@ -26,3 +28,12 @@ openYuanRong / sig-YuanRong Maintainer，公开资料将其列为华为系统软
 - https://www.openeuler.org/zh/sig/sig-YuanRong
 - https://www.openeuler.org/zh/news/20260728-openYuanrong%20Meetup/20260728-openYuanrong%20Meetup.html
 - https://www.bagevent.com/event/9212806/p/581579
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -8,6 +8,8 @@ schools:
   - "UC Berkeley"
   - "北京大学"
 communities: [vLLM]
+linked_companies:
+  - "company/Meta/Meta"
 areas: [llm-inference, serving-systems, rl-infrastructure, memory-management]
 roles: [Co-creator, Lead Maintainer]
 confidence: verified
@@ -49,3 +51,12 @@ vLLM 共同创始人、Lead Maintainer，负责模型接口、RL integration 与
 - https://www.linkedin.com/in/zhuohan-li
 - https://arxiv.org/abs/2309.06180
 - https://arxiv.org/abs/2503.18292
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Meta/Meta|Meta]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

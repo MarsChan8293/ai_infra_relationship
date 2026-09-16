@@ -7,6 +7,8 @@ current_affiliations: ["深度求索"]
 schools:
   - "浙江大学"
 roles: [founder, CEO]
+linked_companies:
+  - "company/深度求索/深度求索"
 areas: ["ai-infrastructure"]
 last_verified: "2026-09"
 relations:
@@ -38,3 +40,12 @@ relations:
 - https://arxiv.org/abs/2412.19437
 - https://arxiv.org/abs/2501.12948
 - https://github.com/deepseek-ai
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

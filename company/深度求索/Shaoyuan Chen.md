@@ -5,6 +5,8 @@ aliases: ["Shaoyuan Chen"]
 current_affiliations: ["深度求索"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/深度求索/深度求索"
 projects: [KTransformers, DualPath, DeepSpec]
 areas: [llm-inference, heterogeneous-inference, kv-cache, speculative-decoding, distributed-systems]
 confidence: high
@@ -35,3 +37,12 @@ Shaoyuan Chen 把 `MADSys → KTransformers` 这条清华异构推理技术线�
 - https://sigops.org/s/conferences/sosp/2025/accepted.html
 - https://conferences.sigcomm.org/sigcomm/2026/accepted/
 - https://github.com/deepseek-ai/DeepSpec
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

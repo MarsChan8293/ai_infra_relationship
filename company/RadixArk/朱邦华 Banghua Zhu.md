@@ -7,6 +7,8 @@ current_affiliations: ["RadixArk"]
 schools:
   - "UC Berkeley"
   - "清华大学"
+linked_companies:
+  - "company/RadixArk/RadixArk"
 projects:
   - SGLang
   - Miles
@@ -51,3 +53,12 @@ relations:
 - https://github.com/radixark/miles
 - https://simons.berkeley.edu/people/banghua-zhu
 - https://www.linkedin.com/in/yingsheng1123
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/RadixArk/RadixArk|RadixArk]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

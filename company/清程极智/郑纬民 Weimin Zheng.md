@@ -8,6 +8,9 @@ schools:
   - "清华大学"
 communities: [Mooncake]
 roles: [Professor, Chief Advisor, Chief Scientific Advisor]
+linked_companies:
+  - "company/清程极智/清程极智"
+  - "company/趋境科技/趋境科技"
 areas: [high-performance-computing, computer-architecture, storage-systems, ai-infrastructure]
 last_verified: "2026-09"
 relations:
@@ -37,3 +40,13 @@ relations:
 - https://hpctest.cs.tsinghua.edu.cn/people.html
 - https://madsys.cs.tsinghua.edu.cn/publication/
 - https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/清程极智/清程极智|清程极智]]：人物页 `current_affiliations:` 明确记录。
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

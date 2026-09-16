@@ -43,19 +43,19 @@ Inferact 是 AI inference infrastructure 公司，由 vLLM 创建者、核心维
 - https://github.com/vllm-project/vllm
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：[[Inferact]]：核心工程团队；截至 2026-09 为 vLLM Project Lead
-- [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：[[Inferact]]：创始团队，2025–至今
-- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：[[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]、[[company/Inferact/Ion Stoica|Ion Stoica]]
-- [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：[[Princeton University]]：个人学术主页仍保留 PhD Student 简介；截至 2026-09，其 GitHub 公开资料同时显示为 [[Inferact]] MTS，因此不推断当前学籍状态或起止时间
-- [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
-- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[Inferact]]：联合创始人、Chief Scientist，2025–至今
-- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[Inferact]]：2026 公开 launch 中列为 founding member
-- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[Inferact]]：2026 公开 launch 中列为 founding member
-- [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[Inferact]]：联合创始人、CTO，2025-11–至今
+- [[community/vllm-project/vLLM/Nick Hill|Nick Hill]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：核心工程团队；截至 2026-09 为 vLLM Project Lead
+- [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：创始团队，2025–至今
+- [[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：人物页 `current_affiliations:` 明确记录；[[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]、[[company/Inferact/Ion Stoica|Ion Stoica]]
+- [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]]：人物页 `current_affiliations:` 明确记录；[[Princeton University]]：个人学术主页仍保留 PhD Student 简介；截至 2026-09，其 GitHub 公开资料同时显示为 [[Inferact]] MTS，因此不推断当前学籍状态或起止时间
+- [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：人物页 `current_affiliations:` 明确记录；[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
+- [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：联合创始人、Chief Scientist，2025–至今
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：2026 公开 launch 中列为 founding member
+- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：2026 公开 launch 中列为 founding member
+- [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：人物页 `current_affiliations:` 明确记录；[[Inferact]]：联合创始人、CTO，2025-11–至今
 
 <!-- END AUTO COMPANY PEOPLE -->
 

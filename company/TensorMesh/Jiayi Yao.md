@@ -7,6 +7,8 @@ schools:
   - "University of Chicago"
 communities: [LMCache, vLLM]
 roles: [LMCache Committer, CacheBlend First Author]
+linked_companies:
+  - "company/TensorMesh/TensorMesh"
 areas: [kv-cache, rag, cache-reuse, vllm-integration, distributed-storage]
 confidence: verified
 last_verified: "2026-09"
@@ -39,3 +41,12 @@ Google / LMCache 的 GKE 分层 KV cache 合作材料明确点名 Kuntai Du、Ji
 - https://blog.lmcache.ai/zh/2025/10/23/gke-lmcache/
 - https://github.com/vllm-project/vllm/commit/6d7f037748b2e7df64f3318e54101a1c80016f3c
 - https://github.com/vllm-project/vllm/commit/cda92307c145e7722cdc33e6d26e105eeb22b882
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/TensorMesh/TensorMesh|TensorMesh]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

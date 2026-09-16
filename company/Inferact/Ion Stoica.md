@@ -7,6 +7,8 @@ schools:
   - "UC Berkeley"
 communities: [vLLM, SGLang, Ray]
 roles: [Professor, Sky Lab Director, Inferact Founding Member]
+linked_companies:
+  - "company/Inferact/Inferact"
 areas: ["llm-inference","distributed-systems"]
 last_verified: "2026-09"
 relations:
@@ -51,3 +53,12 @@ Ion Stoica 是 Berkeley systems → AI serving 人才网络中的高中心度节
 - https://sky.cs.berkeley.edu/
 - https://inferact.ai/
 - https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Inferact/Inferact|Inferact]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

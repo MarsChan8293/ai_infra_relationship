@@ -6,6 +6,8 @@ aliases: [梁义, Yi Liang, liangyi1234]
 current_affiliations: ["华为"]
 schools:
   - "浙江大学"
+linked_companies:
+  - "company/华为/华为"
 projects: ["openYuanRong"]
 roles: [openYuanRong Maintainer, 华为通用Serverless首席专家, 华为元戎首席架构师]
 areas: [distributed-systems, serverless, ai-infrastructure, scheduling, reinforcement-learning]
@@ -33,3 +35,12 @@ openYuanRong 核心 Maintainer，也是华为通用 Serverless 首席专家 / �
 - https://www.openeuler.org/zh/news/20260728-openYuanrong%20Meetup/20260728-openYuanrong%20Meetup.html
 - https://www.openeuler.org/zh/interaction/summit-list/summit2025/
 - https://doi.org/10.1145/3651890.3672216
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

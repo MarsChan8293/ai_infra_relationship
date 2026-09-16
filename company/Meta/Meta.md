@@ -28,13 +28,13 @@ Meta 是同时拥有 Llama foundation models、PyTorch 软件栈和超大规模�
 - Llama 模型生态是 vLLM/SGLang 等引擎的重要 workload，但模型支持不自动推断人物直接合作。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：[[Meta]]：AI Research Scientist；构建大规模 RL system，并负责 Muse Spark 的 RL inference 重要工作
-- [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[Meta]]：AI Research Scientist，2025–至今
-- [[company/Meta/Richard Zou|Richard Zou]]：2026 vLLM Conference：以 PyTorch / Meta 身份分享 PyTorch 对 vLLM 的支持
+- [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]]：人物页 `current_affiliations:` 明确记录；[[Meta]]：AI Research Scientist；构建大规模 RL system，并负责 Muse Spark 的 RL inference 重要工作
+- [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：人物页 `current_affiliations:` 明确记录；[[Meta]]：AI Research Scientist，2025–至今
+- [[company/Meta/Richard Zou|Richard Zou]]：人物页 `current_affiliations:` 明确记录；2026 vLLM Conference：以 PyTorch / Meta 身份分享 PyTorch 对 vLLM 的支持
 
 <!-- END AUTO COMPANY PEOPLE -->
 

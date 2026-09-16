@@ -18,7 +18,6 @@ areas: [distributed-systems, networking, ai-systems]
 ## 图谱意义
 Fan Wu 所在网络与 IPADS 的 Modern AI Infrastructure 同校但并非同一实验室，应分别建模。
 
-
 ## 学校关联
 - [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

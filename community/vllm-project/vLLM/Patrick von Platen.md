@@ -3,6 +3,8 @@ type: person
 name: Patrick von Platen
 current_affiliations: ["Hugging Face"]
 communities: [vLLM]
+linked_companies:
+  - "company/Hugging Face/Hugging Face"
 areas: [model-implementations, transformers, diffusion]
 ---
 # Patrick von Platen
@@ -15,3 +17,12 @@ areas: [model-implementations, transformers, diffusion]
 ## Sources
 - https://huggingface.co/patrickvonplaten
 - https://docs.vllm.ai/en/v0.22.0/governance/process/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

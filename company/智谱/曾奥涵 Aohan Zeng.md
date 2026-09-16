@@ -6,6 +6,8 @@ aliases: [曾奥涵, Aohan Zeng]
 current_affiliations: ["智谱"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/智谱/智谱"
 areas: [pretraining, model-architecture, multimodal]
 last_verified: "2026-09"
 relations:
@@ -34,3 +36,12 @@ GLM 系核心研究者。公开项目资料明确其在 GLM-130B 中担任 Lead 
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
 - https://keg.cs.tsinghua.edu.cn/codegeex/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/智谱/智谱|智谱]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

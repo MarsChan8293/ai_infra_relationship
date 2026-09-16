@@ -5,6 +5,8 @@ aliases: ["Baolong Ma", "maobaolong", "baoloongmao"]
 current_affiliations: ["腾讯"]
 communities: [LMCache, vLLM]
 roles: [LMCache Committer, Component Owner]
+linked_companies:
+  - "company/腾讯/腾讯"
 areas: [kv-cache, distributed-kv-cache, storage-backend, platform, vllm-integration, p2p]
 confidence: verified
 last_verified: "2026-09"
@@ -34,3 +36,12 @@ LMCache 仓库中的 `mooncake_store_l2_adapter.py`、`mooncake_lookup_client.py
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
 - https://github.com/vllm-project/vllm/commit/b58e082d95ffad57a6a9aaffa8b76c862b3bbcf3
 - https://github.com/vllm-project/vllm/commit/b2f749dc97d59e3eb808499e88a29663f2143aa1
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/腾讯/腾讯|腾讯]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

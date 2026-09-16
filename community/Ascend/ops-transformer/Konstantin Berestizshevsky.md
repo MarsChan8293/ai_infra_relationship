@@ -5,6 +5,8 @@ aliases: [kostyab]
 current_affiliations: ["华为"]
 communities: [ops-transformer]
 roles: [Senior Researcher]
+linked_companies:
+  - "company/华为/华为"
 areas: [ascendc, sparse-attention, kv-cache, llm-decoding]
 confidence: verified
 last_verified: "2026-09"
@@ -30,3 +32,12 @@ GitCode handle：`kostyab`。
 ## Sources
 - https://sites.google.com/view/kostya-phd/home
 - https://gitcode.com/cann/ops-transformer/tree/master/experimental/select_attention_operators
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

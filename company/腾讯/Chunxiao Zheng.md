@@ -5,6 +5,8 @@ aliases: ["chunxiaozheng"]
 current_affiliations: ["腾讯"]
 communities: [LMCache]
 roles: [LMCache Committer, Component Owner]
+linked_companies:
+  - "company/腾讯/腾讯"
 areas: [kv-cache, distributed-kv-cache, memory-management, storage-backend, gds, p2p]
 confidence: verified
 last_verified: "2026-09"
@@ -27,3 +29,12 @@ LMCache 官方 `MAINTAINERS.md` 将 Chunxiao Zheng 列为 Tencent Committer。�
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/腾讯/腾讯|腾讯]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

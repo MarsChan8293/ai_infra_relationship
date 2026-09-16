@@ -5,6 +5,10 @@ english_name: Haiqing Peng
 aliases: ["p3rry", "@p3rry", "Peng Haiqing"]
 current_affiliations: ["华为"]
 public_email: penghaiqing1@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [MemCache, MemFabric]
 roles: [Cross-project Contributor, MemFabric Integration Contributor]
 areas: [memory-pooling, kv-cache, rdma, 56bit-gva, integration, kv-event, ascend]
@@ -35,3 +39,12 @@ MemCache / MemFabric 提交 metadata 使用 `p3rry`，并出现 `penghaiqing1@hu
 ## Sources
 - https://gitcode.com/Ascend/memcache/tree/develop
 - https://gitcode.com/Ascend/memfabric_hybrid/tree/release/1.1
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

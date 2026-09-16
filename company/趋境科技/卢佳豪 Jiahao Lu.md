@@ -9,6 +9,8 @@ schools:
 communities: [Mooncake]
 education: [Xiamen University]
 roles: [Research Intern, Engineer]
+linked_companies:
+  - "company/趋境科技/趋境科技"
 areas: [memory-systems, kv-cache, llm-serving]
 ---
 # 卢佳豪（Jiahao Lu）
@@ -31,3 +33,12 @@ areas: [memory-systems, kv-cache, llm-serving]
 ## Sources
 - https://lujhcoconut.github.io/
 - https://vllm.ai/blog/2026-05-06-mooncake-store
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/趋境科技/趋境科技|趋境科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

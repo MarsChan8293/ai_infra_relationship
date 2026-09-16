@@ -4,6 +4,10 @@ name: yrewzjsx
 aliases: ["@yrewzjsx"]
 current_affiliations: ["华为"]
 public_email: zhangjinshi2@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [MemCache, MemFabric]
 roles: [Frequent Merge Gatekeeper, Core Contributor]
 areas: [kv-cache, memory-pooling, performance, reliability, ascend]
@@ -34,3 +38,12 @@ last_verified: "2026-09"
 ## Sources
 - https://gitcode.com/Ascend/memcache/tree/develop
 - https://gitcode.com/Ascend/memfabric_hybrid/tree/master
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

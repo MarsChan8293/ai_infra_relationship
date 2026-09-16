@@ -7,6 +7,8 @@ current_affiliations: ["清程极智"]
 schools:
   - "清华大学"
 roles: [Co-Founder, Chairman, CEO]
+linked_companies:
+  - "company/清程极智/清程极智"
 areas: [parallel-computing, heterogeneous-computing, scheduling, performance-optimization]
 last_verified: "2026-09"
 relations:
@@ -30,3 +32,12 @@ relations:
 - https://www.qc-ai.cn/about
 - https://www.cyzone.cn/company/28273b8311825de4
 - https://www.21jingji.com/article/20250715/herald/a1130eadb3042c420d079adf71102b1d.html
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/清程极智/清程极智|清程极智]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

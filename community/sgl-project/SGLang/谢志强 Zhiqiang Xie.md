@@ -41,7 +41,6 @@ SGLang 原始论文作者、KV Cache 方向核心维护者，研究重点是大�
 - [[RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：**SGLang co-creator / 原始论文合著网络**。两人共同署名 SGLang 原始技术工作，2023–2024 属同一项目核心研究网络。盛颖后于 2025 创办 [[RadixArk]]，公开资料未显示谢志强加入 RadixArk，因此不标记为公司同事。
 - Christos Kozyrakis：**Stanford 博士导师**。谢志强在 Stanford MAST Lab 读博期间由其指导；该关系属于正式学术指导关系，与 SGLang 社区关系分开记录。Christos 当前不是仓库节点，因此本轮不为建立该边而新增普通节点。
 
-
 ## 学校关联
 - [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

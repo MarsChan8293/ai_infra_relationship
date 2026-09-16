@@ -8,6 +8,8 @@ schools:
   - "UC Berkeley"
 communities: [Colossal-AI]
 roles: [Founder]
+linked_companies:
+  - "company/潞晨科技/潞晨科技"
 areas: [distributed-training, high-performance-computing, optimization]
 ---
 # 尤洋（Yang You）
@@ -30,3 +32,12 @@ areas: [distributed-training, high-performance-computing, optimization]
 - https://company.hpc-ai.com/company
 - https://www.luchentech.com/team
 - https://colossalai.org/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/潞晨科技/潞晨科技|潞晨科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

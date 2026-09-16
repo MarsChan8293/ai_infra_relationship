@@ -23,7 +23,6 @@ LMCache 官方 2025 年 multimodal KV caching 文章明确记录其参与 vLLM V
 ## 图谱意义
 Shaoting Feng 是 LMCache 在两个方向上的高价值桥节点：一端连接 GPU/GDS 数据路径，另一端连接 vLLM multimodal 与 SGLang integration。
 
-
 ## 学校关联
 - [[university/University of Chicago/University of Chicago|University of Chicago]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

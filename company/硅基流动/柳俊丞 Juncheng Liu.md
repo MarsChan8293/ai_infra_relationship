@@ -4,6 +4,8 @@ name: 柳俊丞
 english_name: Juncheng Liu
 aliases: [柳俊丞, Juncheng Liu]
 current_affiliations: ["硅基流动"]
+linked_companies:
+  - "company/硅基流动/硅基流动"
 projects: [OneFlow]
 roles: [CTO]
 areas: [distributed-deep-learning, ai-inference, cuda-kernels]
@@ -30,3 +32,12 @@ relations:
 - https://oneflow2020.medium.com/how-to-implement-an-efficient-layernorm-cuda-kernel-oneflow-performance-optimization-731e91a285b8
 - https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf
 - https://amp.kr-asia.com/surging-users-widening-losses-and-leased-compute-behind-siliconflows-ipo-filing
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/硅基流动/硅基流动|硅基流动]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

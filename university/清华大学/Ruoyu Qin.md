@@ -6,6 +6,8 @@ aliases: ["Ruoyu Qin", "秦若愚"]
 current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University","月之暗面"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/月之暗面/月之暗面"
 projects: [Mooncake, Seer]
 areas: [llm-serving, kv-cache, distributed-systems, rl-rollout, speculative-decoding]
 roles: ["PhD Student", "Research Intern"]
@@ -43,3 +45,12 @@ relations:
 - https://qinruoyu.com/static/media/cv-qinruoyu.pdf
 - https://www.cs.tsinghua.edu.cn/info/1247/6286.htm
 - https://www.usenix.org/conference/osdi26/presentation/qin
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/月之暗面/月之暗面|月之暗面]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

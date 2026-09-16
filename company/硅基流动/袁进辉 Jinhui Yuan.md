@@ -6,6 +6,8 @@ aliases: [袁进辉, Jinhui Yuan]
 current_affiliations: ["硅基流动"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/硅基流动/硅基流动"
 projects: [OneFlow]
 roles: [Founder, CEO]
 areas: [distributed-deep-learning, inference, ai-infrastructure]
@@ -38,3 +40,12 @@ OneFlow 创业团队在 2023 年经历光年之外并购后，公开报道显示
 - https://arxiv.org/abs/2110.15032
 - https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf
 - https://www.nbd.com.cn/articles/2024-01-11/3203604.html
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/硅基流动/硅基流动|硅基流动]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

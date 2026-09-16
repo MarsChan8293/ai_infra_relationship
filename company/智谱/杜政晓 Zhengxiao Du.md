@@ -6,6 +6,8 @@ aliases: [杜政晓, Zhengxiao Du]
 current_affiliations: ["智谱"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/智谱/智谱"
 areas: [pretraining, foundation-models]
 last_verified: "2026-09"
 relations:
@@ -45,3 +47,12 @@ relations:
 - https://zxdu.xyz/
 - https://zxdu.xyz/files/CV.pdf
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/智谱/智谱|智谱]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

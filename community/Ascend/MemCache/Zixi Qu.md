@@ -4,6 +4,10 @@ name: Zixi Qu
 aliases: ["huawei_zixiqu", "zixiqu", "ZixiQu"]
 current_affiliations: ["华为"]
 public_email: quzixi@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [MemCache, MemFabric]
 roles: [KV Event Contributor, Cross-project Contributor]
 areas: [kv-cache, kv-event, prefill-affinity, distributed-serving, security, memory-pooling, ascend]
@@ -36,3 +40,12 @@ last_verified: "2026-09"
 - https://gitcode.com/Ascend/memcache/tree/develop/3rdparty
 - https://gitcode.com/Ascend/memcache/tree/develop/test
 - https://gitcode.com/Ascend/memfabric_hybrid/tree/master/examples
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -6,6 +6,8 @@ schools:
   - "University of Texas at Austin"
 communities: [vLLM, llm-d]
 roles: [Chief Architect, Core Maintainer, PD-Disaggregation SIG Lead]
+linked_companies:
+  - "company/Red Hat/Red Hat"
 areas: [distributed-inference, kernels, disaggregation, moe, collectives]
 confidence: verified
 last_verified: "2026-09"
@@ -47,3 +49,12 @@ relations:
 - https://developers.redhat.com/articles/2025/03/19/how-we-optimized-vllm-deepseek-r1
 - https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm
 - https://www.redhat.com/en/blog/bringing-nemotron-models-red-hat-ai-factory-nvidia
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Red Hat/Red Hat|Red Hat]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

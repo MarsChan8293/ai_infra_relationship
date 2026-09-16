@@ -37,13 +37,13 @@ OpenAI 是 frontier-model lab 与 AI 产品公司，在本图谱中重点观察�
 - https://liuxiaoxuanpku.github.io/
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[company/OpenAI/Randall Lin|Randall Lin]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
-- [[company/OpenAI/Youlong Cheng|Youlong Cheng]]：当前 affiliation；具体职位与时间以人物页公开来源为准。
-- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[OpenAI]]：Researcher；公开个人页确认曾参与 gpt-oss inference 与 GPT-5 post-training infrastructure
-- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：[[OpenAI]]：Research Engineer，2022–至今（按当前公开个人页）
+- [[company/OpenAI/Randall Lin|Randall Lin]]：人物页 `current_affiliations:` 明确记录。
+- [[company/OpenAI/Youlong Cheng|Youlong Cheng]]：人物页 `current_affiliations:` 明确记录。
+- [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：人物页 `current_affiliations:` 明确记录；[[OpenAI]]：Researcher；公开个人页确认曾参与 gpt-oss inference 与 GPT-5 post-training infrastructure
+- [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：人物页 `current_affiliations:` 明确记录；[[OpenAI]]：Research Engineer，2022–至今（按当前公开个人页）
 
 <!-- END AUTO COMPANY PEOPLE -->

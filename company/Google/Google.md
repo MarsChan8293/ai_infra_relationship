@@ -34,13 +34,13 @@ Google 在 AI Infra 中横跨 TPU、JAX/XLA、Kubernetes/GKE、数据中心网�
 - https://github.com/kubernetes-sigs/inference-perf
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
-## 当前关联人物（自动汇总）
+## 关联人物（自动汇总）
 
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开 affiliation，不自动推断直属汇报、团队归属或历史任职关系。
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
-- [[community/llm-d/llm-d/Abdullah Gharaibeh|Abdullah Gharaibeh]]：[[Google]]：截至 2026-08，llm-d 官方技术文章列为 Senior Staff Software Engineer, Google。
-- [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]]：[[Google]]：2026 Inference Perf 论文公开 affiliation 为 Google, USA。
-- [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]]：[[Google]]：llm-d 官方作者页列为 Distinguished Engineer, Google。
+- [[community/llm-d/llm-d/Abdullah Gharaibeh|Abdullah Gharaibeh]]：人物页 `current_affiliations:` 明确记录；[[Google]]：截至 2026-08，llm-d 官方技术文章列为 Senior Staff Software Engineer, Google。
+- [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]]：人物页 `current_affiliations:` 明确记录；[[Google]]：2026 Inference Perf 论文公开 affiliation 为 Google, USA。
+- [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]]：人物页 `current_affiliations:` 明确记录；[[Google]]：llm-d 官方作者页列为 Distinguished Engineer, Google。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

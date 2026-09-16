@@ -26,7 +26,6 @@ areas: [distributed-training, llm-serving, speculative-decoding, ai-systems]
 - [[company/潞晨科技/Haichen Huang|Haichen Huang]]：**Colossal-AI 论文 / 系统协作网络**。共同署名原始 Colossal-AI 系统工作；Haichen 当前仍在 HPC-AI Tech。
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：**Colossal-AI 论文与创业技术网络**。共同署名 Colossal-AI；公开资料支持技术协作，不把其历史 startup 职位扩写成当前公司关系。
 
-
 ## 学校关联
 - [[university/Nanyang Technological University/Nanyang Technological University|Nanyang Technological University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 

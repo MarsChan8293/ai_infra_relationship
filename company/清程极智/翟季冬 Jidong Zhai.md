@@ -6,6 +6,8 @@ aliases: [翟季冬, Jidong Zhai]
 current_affiliations: ["Tsinghua University","Qingcheng.ai"]
 schools:
   - "清华大学"
+linked_companies:
+  - "company/清程极智/清程极智"
 projects: [Jenga, FastDecode]
 roles: [Professor, Chief Scientist]
 areas: [high-performance-computing, distributed-training, performance-analysis, compiler-optimization, llm-serving]
@@ -64,3 +66,12 @@ relations:
 - https://wintersurf.github.io/
 - https://laekov.com.cn/cv/
 - https://www.tsinghua.org.cn/info/1953/42732.htm
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/清程极智/清程极智|清程极智]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

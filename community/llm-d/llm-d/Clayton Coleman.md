@@ -8,6 +8,8 @@ communities: [llm-d]
 education: [Case Western Reserve University]
 roles: [Distinguished Engineer, Project Leadership]
 status: inactive-on-leave
+linked_companies:
+  - "company/Google/Google"
 areas: [kubernetes, distributed-inference, cloud-native]
 ---
 # Clayton Coleman
@@ -33,3 +35,12 @@ areas: [kubernetes, distributed-inference, cloud-native]
 - https://llm-d.ai/blog/authors
 - https://llm-d.ai/blog/llm-d-announce
 - https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Google/Google|Google]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

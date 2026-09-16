@@ -5,6 +5,10 @@ english_name: Feng Liu
 aliases: ["@ader47", "F.Liu"]
 current_affiliations: ["华为"]
 public_email: liufeng248@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [MemCache, vLLM-Ascend]
 roles: [Layerwise KV Pool Co-author]
 areas: [kv-cache, layerwise-kv, gva, distributed-serving, ascend]
@@ -32,3 +36,12 @@ vLLM-Ascend 的公开提交同时出现 `ader47`、`F.Liu` / `Feng Liu` 与 `liu
 - https://github.com/vllm-project/vllm-ascend/pull/11444
 - https://github.com/vllm-project/vllm-ascend/pull/11585
 - https://github.com/vllm-project/vllm-ascend/commit/03a18ad6fd590b246d801ac0e77ec980cc74b831
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->
