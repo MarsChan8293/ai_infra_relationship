@@ -97,6 +97,12 @@
       "company": "IBM",
       "confidence": "high",
       "note": "IBM base professional domain; subdomains such as ie.ibm.com and il.ibm.com inherit this mapping."
+    },
+    {
+      "domain": "ollama.com",
+      "company": "Ollama",
+      "confidence": "high",
+      "note": "Ollama-owned professional domain; public Ollama commit trailers include addresses such as parth.sareen@ollama.com, jesse@ollama.com and daniel@ollama.com."
     }
   ],
   "ignored_domains": [
@@ -118,6 +124,6 @@
     "Personal email providers and GitHub noreply addresses never create company edges.",
     "Partner/contractor domains are not mapped to a client or platform company without separate evidence.",
     "Add a domain only when its ownership and canonical company target are verified.",
-    "The vLLM and LMCache ecosystem mappings above were added only for domains with direct public commit-trailer evidence and a canonical company target in this graph."
+    "The vLLM, LMCache and Ollama ecosystem mappings above were added only for domains with direct public commit-trailer evidence and a canonical company target in this graph."
   ]
 }
