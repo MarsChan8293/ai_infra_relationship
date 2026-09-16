@@ -5,6 +5,10 @@ aliases: [Jue Wang]
 current_affiliations: ["浙江大学","Together AI"]
 schools:
   - "浙江大学"
+projects:
+  - HMI
+  - FloE
+  - Ladder Residual
 areas: [llm-inference, tensor-parallelism, moe-inference, multi-tenant-serving]
 last_verified: "2026-09"
 relations:
@@ -14,13 +18,13 @@ relations:
 ---
 # Jue Wang
 
-浙江大学校友，2014–2018 年在浙大完成本科，2018–2023 年在浙江大学计算机系攻读博士，导师为 [[Lidan Shou]]。个人主页显示 2023 年加入 [[Together AI]]，2025 年起任 Senior Staff Researcher。
+浙江大学校友，2014–2018 年在浙大完成本科，2018–2023 年在浙江大学计算机系攻读博士，导师为 [[Lidan Shou]]。个人主页显示当前为 [[Together AI]] Principal Research Scientist，研究集中于高效、低成本 LLM algorithms and systems。
 
 ## Inference systems 研究
-其近年论文网络持续覆盖大模型推理系统问题：
-- **HMI**：与 [[Huan Li]]、[[Lidan Shou]] 等合作，研究 multi-tenant pretrained-model inference 的内存与资源复用。
-- **FloE**：参与显存受限 GPU 上的 MoE inference 系统研究，连接 expert offload / parameter movement 与系统优化。
-- **Ladder Residual**：参与重新设计 Transformer tensor parallelism 以加速 inference 的工作。
+- [[university/浙江大学/HMI|HMI]]：与 [[Huan Li]]、[[Lidan Shou]] 等合作，研究 multi-tenant pretrained-model inference 的内存与资源复用。
+- [[university/浙江大学/FloE|FloE]]：ICML 2025，参与显存受限 GPU 上的 MoE inference 系统研究，连接 expert compression / parameter movement 与系统优化。
+- [[company/Together AI/Ladder Residual|Ladder Residual]]：ICML 2025，通过重新设计 residual path 让 Tensor Parallel communication 与计算重叠，加速 distributed inference。
+- 此外个人主页还列出 SonicSampler、Kitty、Self-Spec 等 inference 方向工作。
 
 ## 人物关系
 - [[Lidan Shou]]：博士导师；之后仍在 HMI、FloE 等论文网络中持续合作。
@@ -31,12 +35,12 @@ relations:
 ## 图谱意义
 Jue Wang 是浙江大学 AI Infra 网络里很典型的 **“校内 systems training → 国际 AI infra 公司”** 人才流动节点。相比纯模型研究，其公开工作更靠近 parallelism、resource sharing、memory/data movement 与 inference architecture。
 
-
 ## 学校关联
-- [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/浙江大学/浙江大学|浙江大学]]：本科、博士与长期研究网络。
 
 ## Sources
 - https://juewang.me/about/
 - https://juewang.me/
 - https://arxiv.org/abs/2504.17449
 - https://proceedings.mlr.press/v267/zhou25j.html
+- https://proceedings.mlr.press/v267/zhang25bg.html
