@@ -8,6 +8,8 @@ communities: [LMCache, vLLM]
 roles: [LMCache Committer, Component Owner]
 linked_companies:
   - "company/IBM/IBM"
+email_affiliations:
+  - "IBM"
 areas: [kv-cache, kv-events, non-cuda, ci, packaging, vllm-integration, disaggregated-serving]
 confidence: verified
 last_verified: "2026-09"
@@ -37,6 +39,6 @@ LMCache 官方 `MAINTAINERS.md` 将 Martin Hickey 列为 IBM Committer。当前 
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/IBM/IBM|IBM]]：人物页 `current_affiliations:` 明确记录。
+- [[company/IBM/IBM|IBM]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->

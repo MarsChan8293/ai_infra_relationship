@@ -84,7 +84,7 @@ LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 
 
 - [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：`lmcache/integration/vllm/`：CODEOWNER；
 - [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
-- [[company/IBM/Martin Hickey|Martin Hickey]]：https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
+- [[company/IBM/Martin Hickey|Martin Hickey]]：2026-01 直接向 vLLM 提交 LMCache connector KV events 修复，因此这里将其记录为 `IBM → Martin Hickey → LMCache → vLLM KV Connector` 的可验证桥梁，而不是仅因为 IBM 同时参与 llm-d 就推断项目关系。
 - [[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：2025-03：为 LMCache connector 增加 chunked prefill 支持；
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[LMCache]]：共同创建者 / UChicago 研究网络核心节点。
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存

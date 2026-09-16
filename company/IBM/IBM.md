@@ -46,7 +46,7 @@ IBM 是企业级计算、混合云与 AI 平台公司，当前 AI 基础设施�
 - [[community/llm-d/llm-d/JJ Asghar|JJ Asghar]]：人物页 `current_affiliations:` 明确记录；[[IBM]]
 - [[community/llm-d/llm-d/Nili Guy|Nili Guy]]：人物页 `current_affiliations:` 明确记录；[[IBM]] / IBM Research：截至 2026-09，llm-d 官方作者资料列为 Senior Technical Staff Member, IBM Research。
 - [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：人物页 `current_affiliations:` 明确记录；[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
-- [[company/IBM/Martin Hickey|Martin Hickey]]：人物页 `current_affiliations:` 明确记录。
+- [[company/IBM/Martin Hickey|Martin Hickey]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO COMPANY PEOPLE -->
 
