@@ -1,16 +1,24 @@
 ---
 type: person
 name: ader47
-aliases: ["@ader47"]
+english_name: Feng Liu
+aliases: ["@ader47", "F.Liu"]
+current_affiliations: ["华为"]
+public_email: liufeng248@huawei.com
 projects: [MemCache, vLLM-Ascend]
 roles: [Layerwise KV Pool Co-author]
 areas: [kv-cache, layerwise-kv, gva, distributed-serving, ascend]
-confidence: project-credit
+confidence: high
 last_verified: "2026-09"
 ---
 # ader47
 
 项目：[[MemCache]] · [[vLLM-Ascend]]
+
+## 身份核验
+vLLM-Ascend 的公开提交同时出现 `ader47`、`F.Liu` / `Feng Liu` 与 `liufeng248@huawei.com`，并在同一提交中保留 `46866849+ader47@users.noreply.github.com`，因此可以可靠把该 handle 与 Feng Liu 及华为职业邮箱归并到同一开源身份。当前不据英文名进一步猜中文名或具体职级。
+
+公开职业邮箱：`liufeng248@huawei.com`。
 
 ## vLLM-Ascend × MemCache
 - 是 2026 年 layerwise KV Pool + MemCache backend 实现的直接共同贡献者。
@@ -23,3 +31,4 @@ last_verified: "2026-09"
 ## Sources
 - https://github.com/vllm-project/vllm-ascend/pull/11444
 - https://github.com/vllm-project/vllm-ascend/pull/11585
+- https://github.com/vllm-project/vllm-ascend/commit/03a18ad6fd590b246d801ac0e77ec980cc74b831
