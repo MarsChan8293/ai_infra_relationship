@@ -1,0 +1,75 @@
+schema: ai-infra-relationship/research-action-v1
+status: active
+kind: generated-planning-record
+producer: scripts/generate-research-queue.py
+source_of_truth:
+  - generated/nodes.json
+  - generated/edges.json
+  - generated/metrics.json
+required:
+  - action_id
+  - action_key
+  - source
+  - relation
+  - target_families
+  - strategies
+  - bucket
+  - priority
+  - cost
+  - coverage
+  - signals
+fields:
+  action_id:
+    type: string
+    description: Stable per-source planning id in the form <node-id>::<relation>.
+  action_key:
+    type: string
+    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>; suitable for future yield/history statistics.
+  source:
+    type: object
+    required: [id, name, type, family]
+    description: Existing canonical graph node from which research starts.
+  relation:
+    type: string
+    description: Typed research objective such as maintainers, projects, key_people, academic_lineage, or verify_evidence.
+  target_families:
+    type: array[string]
+    description: Expected canonical entity families; empty for evidence-only verification actions.
+  strategies:
+    type: array[string]
+    description: Preferred primary-source search strategies for a bounded agent run.
+  write_hint:
+    type: string
+    description: Evidence/graph-writing guardrail for the executing agent.
+  bucket:
+    type: string
+    enum: [exploitation, exploration, bridge, verification]
+  priority:
+    type: number
+    description: Deterministic heuristic action priority. It is not an entity importance score and is not a calibrated probability.
+  cost:
+    type: number
+    description: Relative research-cost prior used by the planner.
+  coverage:
+    type: object
+    description: Existing-versus-desired relation coverage used to compute the current gap. desired is a planning saturation target, not a completeness claim.
+  signals:
+    type: object
+    description: Explainable scoring inputs such as infra relevance, evidence quality, bridge score, novelty, frontier potential, uncertainty, redundancy penalty, and optional seed distance.
+  reasons:
+    type: array[string]
+    description: Human-readable explanation for why the action entered the queue.
+outputs:
+  primary: generated/research-actions.json
+  markdown_view: generated/research-queue.md
+  compatibility: generated/research-priority.json
+rules:
+  - Research actions rank what to investigate next; they must never be interpreted as rankings of people, companies, schools, communities, or projects.
+  - A high priority action does not authorize creation of a node or edge without evidence.
+  - The executing agent should prefer official pages, canonical repositories, governance files, papers, and institutional primary sources.
+  - Discovery beyond the bounded action should become a future frontier/action rather than triggering unbounded recursive traversal.
+  - Compatibility, sponsorship, co-location, shared employer, or shared school must not be promoted to a direct person relationship without independent evidence.
+notes:
+  - This is a non-node schema. Existing Markdown nodes do not need migration to adopt the action planner.
+  - Entity-specific completeness remains derived from current frontmatter plus resolved graph neighbours; no per-node planner metadata is required in Markdown.
+  - action_key is intentionally stable so a future history file can learn empirical success/cost priors without changing existing node schemas.
