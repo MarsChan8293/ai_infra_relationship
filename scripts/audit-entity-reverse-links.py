@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Audit derived company/project/community -> person reverse links."""
+"""Audit derived company/project/community -> person reverse links.
+
+Company-person associations are the union of:
+- person `current_affiliations:` that resolve to company nodes;
+- person `email_affiliations:` generated from mapped public professional email domains.
+
+The audit also verifies each person's generated `linked_companies:` canonical mirror.
+"""
 from __future__ import annotations
 
 import argparse
@@ -15,6 +22,8 @@ COMPANY_START = "<!-- BEGIN AUTO COMPANY PEOPLE -->"
 COMPANY_END = "<!-- END AUTO COMPANY PEOPLE -->"
 PROJECT_START = "<!-- BEGIN AUTO PROJECT PEOPLE -->"
 PROJECT_END = "<!-- END AUTO PROJECT PEOPLE -->"
+PERSON_COMPANY_START = "<!-- BEGIN AUTO PERSON COMPANIES -->"
+PERSON_COMPANY_END = "<!-- END AUTO PERSON COMPANIES -->"
 COMMON_ALIASES = {
     "清华大学": ["Tsinghua University"],
     "北京大学": ["Peking University", "PKU"],
@@ -122,7 +131,14 @@ def load_records(root: pathlib.Path):
             if not fm:
                 continue
             rel = path.relative_to(root).as_posix()
-            rows.append({"rel": rel, "id": rel[:-3], "fm": fm, "body": body, "type": get_scalar(fm, "type") or "", "name": get_scalar(fm, "name") or path.stem})
+            rows.append({
+                "rel": rel,
+                "id": rel[:-3],
+                "fm": fm,
+                "body": body,
+                "type": get_scalar(fm, "type") or "",
+                "name": get_scalar(fm, "name") or path.stem,
+            })
     return rows
 
 
@@ -202,15 +218,57 @@ def main() -> int:
     company_expected: dict[str, set[str]] = defaultdict(set)
     project_expected: dict[str, set[str]] = defaultdict(set)
     unresolved, noncompany_affiliations = [], []
+    email_affiliation_links = 0
+    person_link_errors = []
+
     for person in people:
+        expected_company_ids = set()
+
         for value in get_values(person["fm"], "current_affiliations"):
             target = resolve(value, company_aliases, company_ids)
             if target:
                 company_expected[target["id"]].add(person["id"])
+                expected_company_ids.add(target["id"])
             elif resolve(value, noncompany_aliases, noncompany_ids):
                 noncompany_affiliations.append({"person": person["rel"], "value": value})
             else:
                 unresolved.append({"kind": "affiliation", "person": person["rel"], "value": value})
+
+        for value in get_values(person["fm"], "email_affiliations"):
+            target = resolve(value, company_aliases, company_ids)
+            if target:
+                company_expected[target["id"]].add(person["id"])
+                expected_company_ids.add(target["id"])
+                email_affiliation_links += 1
+            else:
+                unresolved.append({"kind": "email_affiliation", "person": person["rel"], "value": value})
+
+        expected_links = sorted(expected_company_ids, key=str.casefold)
+        actual_links = sorted(get_values(person["fm"], "linked_companies"), key=str.casefold)
+        if expected_links != actual_links:
+            person_link_errors.append({
+                "kind": "person-linked-companies-mismatch",
+                "person": person["rel"],
+                "expected": expected_links,
+                "actual": actual_links,
+            })
+        person_block = generated_block(person["body"], PERSON_COMPANY_START, PERSON_COMPANY_END)
+        if expected_links and person_block is None:
+            person_link_errors.append({"kind": "person-company-auto-section-missing", "person": person["rel"]})
+            person_block = ""
+        if not expected_links and person_block is not None:
+            person_link_errors.append({"kind": "person-company-stale-auto-section", "person": person["rel"]})
+        missing_company_links = [
+            company_id for company_id in expected_links
+            if f"[[{company_id}|" not in (person_block or "") and f"[[{company_id}]]" not in (person_block or "")
+        ]
+        if missing_company_links:
+            person_link_errors.append({
+                "kind": "person-company-auto-body-missing",
+                "person": person["rel"],
+                "companies": missing_company_links,
+            })
+
         for field in ("projects", "project", "communities", "community"):
             for value in get_values(person["fm"], field):
                 target = resolve(value, project_aliases, project_ids)
@@ -219,7 +277,7 @@ def main() -> int:
                 else:
                     unresolved.append({"kind": field, "person": person["rel"], "value": value})
 
-    errors = []
+    errors = list(person_link_errors)
     company_rows = audit_group(companies, company_expected, COMPANY_START, COMPANY_END, errors, "company")
     project_rows = audit_group(projects, project_expected, PROJECT_START, PROJECT_END, errors, "project-community")
     company_links = sum(r["linked_people"] for r in company_rows)
@@ -229,6 +287,8 @@ def main() -> int:
         "company_nodes": len(companies),
         "companies_with_linked_people": sum(1 for r in company_rows if r["linked_people"]),
         "company_person_associations": company_links,
+        "email_affiliation_associations": email_affiliation_links,
+        "people_with_linked_companies": sum(1 for p in people if get_values(p["fm"], "linked_companies")),
         "project_community_nodes": len(projects),
         "project_community_nodes_with_linked_people": sum(1 for r in project_rows if r["linked_people"]),
         "project_community_person_associations": project_links,
@@ -242,10 +302,14 @@ def main() -> int:
 
     lines = [
         "# Company / Project → Person Reverse Coverage", "",
-        "由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。", "",
+        "由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与"
+        " `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。"
+        "项目/社区反向边来自人物 `projects:` / `communities:`。", "",
         f"- Company nodes: {len(companies)}",
         f"- Companies with ≥1 linked person: {payload['companies_with_linked_people']}",
         f"- Company-person associations: {company_links}",
+        f"- Email-domain-supported associations: {email_affiliation_links}",
+        f"- People with generated linked_companies: {payload['people_with_linked_companies']}",
         f"- Project/community nodes: {len(projects)}",
         f"- Project/community nodes with ≥1 linked person: {payload['project_community_nodes_with_linked_people']}",
         f"- Project/community-person associations: {project_links}",
@@ -269,7 +333,13 @@ def main() -> int:
             lines.append(f"- …另有 {len(unresolved) - 80} 条，详见 JSON 报告。")
     (generated / "entity-reverse-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    print(f"Entity reverse audit: {company_links} company-person links, {project_links} project/community-person links, {len(noncompany_affiliations)} non-company affiliations recognized, {len(unresolved)} unresolved backlog values, {len(errors)} errors.")
+    print(
+        f"Entity reverse audit: {company_links} company-person links "
+        f"({email_affiliation_links} email-domain-supported), "
+        f"{project_links} project/community-person links, "
+        f"{len(noncompany_affiliations)} non-company affiliations recognized, "
+        f"{len(unresolved)} unresolved backlog values, {len(errors)} errors."
+    )
     for error in errors[:80]:
         print("ERROR:", error)
     return 1 if errors else 0
