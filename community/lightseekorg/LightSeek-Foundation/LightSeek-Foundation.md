@@ -8,7 +8,6 @@ category: open-source-inference-foundation
 areas: [llm-inference, agentic-inference, speculative-decoding, serving-systems]
 governance: foundation-led
 website: https://lightseek.org/
-projects: [TokenSpeed, TorchSpec]
 last_verified: "2026-09"
 linked_companies: []
 ---
