@@ -36,7 +36,31 @@
       "domain": "amd.com",
       "company": "AMD",
       "confidence": "high",
-      "note": "AMD professional domain observed in public vLLM contribution trailers."
+      "note": "AMD professional domain observed in public vLLM and LMCache contribution trailers."
+    },
+    {
+      "domain": "intel.com",
+      "company": "Intel",
+      "confidence": "high",
+      "note": "Intel professional domain; LMCache CODEOWNER Tony Lin uses tony.lin@intel.com in public commit trailers."
+    },
+    {
+      "domain": "samsung.com",
+      "company": "Samsung",
+      "confidence": "high",
+      "note": "Samsung professional domain; LMCache Committer Dongjoo Seo uses dongjoo.seo1@samsung.com in public commit trailers."
+    },
+    {
+      "domain": "tencent.com",
+      "company": "腾讯",
+      "confidence": "high",
+      "note": "Tencent professional domain; LMCache Committer Baolong Mao uses baoloongmao@tencent.com in public commit trailers."
+    },
+    {
+      "domain": "tensormesh.ai",
+      "company": "TensorMesh",
+      "confidence": "high",
+      "note": "TensorMesh professional domain; LMCache maintainer Samuel Shen uses slshen@tensormesh.ai in public commit trailers."
     },
     {
       "domain": "bytedance.com",
@@ -94,6 +118,6 @@
     "Personal email providers and GitHub noreply addresses never create company edges.",
     "Partner/contractor domains are not mapped to a client or platform company without separate evidence.",
     "Add a domain only when its ownership and canonical company target are verified.",
-    "The vLLM ecosystem mappings above were added only for domains with direct public commit-trailer evidence and an existing canonical company node in this graph."
+    "The vLLM and LMCache ecosystem mappings above were added only for domains with direct public commit-trailer evidence and a canonical company target in this graph."
   ]
 }
