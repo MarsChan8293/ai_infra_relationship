@@ -1,0 +1,74 @@
+schema: ai-infra-relationship/research-action-history-v1
+status: active
+kind: durable-execution-ledger
+source_of_truth: research/action-history.json
+writers:
+  - scripts/record-research-action.py
+consumers:
+  - scripts/plan-research.py
+root_required:
+  - schema
+  - records
+record_required:
+  - run_id
+  - attempted_at
+  - action_id
+  - action_key
+  - status
+fields:
+  run_id:
+    type: string
+    description: Stable identifier for one bounded agent research run.
+  attempted_at:
+    type: string
+    pattern: YYYY-MM-DD
+    description: Date on which the action was actually investigated.
+  action_id:
+    type: string
+    description: Exact source-specific action id in the form <node-id>::<relation>.
+  action_key:
+    type: string
+    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>.
+  status:
+    type: string
+    enum: [success, partial, unresolved, rejected]
+    description: Outcome classification. partial is first-class and must not be collapsed into success/failure.
+  source_name:
+    type: string
+    description: Optional human-readable source entity snapshot for logs and review.
+  resolved_dimensions:
+    type: array[string]
+    description: Concrete subquestions resolved by this action, especially important for partial outcomes.
+  unresolved_dimensions:
+    type: array[string]
+    description: Concrete subquestions still open after this action.
+  outcome:
+    type: object
+    fields:
+      new_nodes: integer
+      new_edges: integer
+      evidence_upgraded: integer
+      verified_claims: integer
+      rejected_claims: integer
+    description: Auditable graph/evidence delta used as a lightweight empirical-yield signal.
+  reward:
+    type: number
+    description: Optional explicit reward override. Omit by default; planner can derive a transparent reward from outcome counts.
+  retry_after_days:
+    type: integer
+    description: Optional per-record cooldown override. Default cooldown is status-specific in scripts/plan-research.py.
+  note:
+    type: string
+    description: Short explanation of what was found or why the action remained unresolved/rejected.
+rules:
+  - Append one record for every executed research action, including negative outcomes.
+  - Do not record planner selection as execution; history starts only after evidence search was actually attempted.
+  - partial must list the important resolved and unresolved dimensions whenever possible.
+  - unresolved means useful investigation was attempted but the requested relationship could not be established at the evidence threshold.
+  - rejected means the proposed relationship/search direction was contradicted or should not be retried without materially new evidence.
+  - A contributor, citation author, employee, or compatible project must not be upgraded to a stronger role merely to produce a success outcome.
+  - History is durable input and must live outside generated/ so graph regeneration cannot erase it.
+notes:
+  - Current planner cooldown defaults are success=1 day, partial=2 days, unresolved=7 days, rejected=30 days.
+  - action_key statistics use strong small-sample shrinkage; the first few records only nudge priority.
+  - This is a non-node schema and does not require changes to entity Markdown frontmatter.

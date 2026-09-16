@@ -66,12 +66,16 @@ non_node_schemas:
     used_by: [person]
   research-action:
     file: schema/research-action.yaml
-    used_by: [scripts/generate-research-queue.py]
+    used_by: [scripts/plan-research.py]
     generated_output: generated/research-actions.json
+  research-action-history:
+    file: schema/research-action-history.yaml
+    used_by: [scripts/plan-research.py, scripts/record-research-action.py]
+    durable_input: research/action-history.json
 compatibility:
   university:
     canonical_type: school
-    note: Historical audit code may infer `university` for a school page without explicit frontmatter. New university institution pages must use `type: school` unless they are better represented as `research-institution`.
+    note: "Historical audit code may infer `university` for a school page without explicit frontmatter. New university institution pages must use `type: school` unless they are better represented as `research-institution`."
   affiliation:
     canonical_field: current_affiliations
     applies_to: [person, person-link]
@@ -109,7 +113,7 @@ instance_generation:
   generator: scripts/generate-node-schemas.py
   rule: Every Markdown graph node must have one generated YAML schema instance. Generated instances are mirrors and must not replace or be edited instead of the Markdown source.
 notes:
-  - This catalog is the authoritative registry of node types for the repository.
-  - `relation` and `research-action` are non-node schemas; they do not create Markdown graph entities.
-  - Adding a new `type:` value requires adding its schema and registering it here in the same change.
-  - Existing pages remain in migration mode; schema presence does not mean every legacy page already uses every recommended field.
+  - "This catalog is the authoritative registry of node types for the repository."
+  - "`relation`, `research-action`, and `research-action-history` are non-node schemas; they do not create Markdown graph entities."
+  - "Adding a new `type:` value requires adding its schema and registering it here in the same change."
+  - "Existing pages remain in migration mode; schema presence does not mean every legacy page already uses every recommended field."
