@@ -7,11 +7,11 @@
 - Company-person associations: 192
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 191
-- Project/community nodes: 86
-- Project/community nodes with ≥1 linked person: 67
-- Project/community-person associations: 372
+- Project/community nodes: 87
+- Project/community nodes with ≥1 linked person: 68
+- Project/community-person associations: 373
 - Non-company affiliations recognized and routed elsewhere: 60
-- Unresolved source values (backlog, non-fatal): 4
+- Unresolved source values (backlog, non-fatal): 3
 - Audit errors: 0
 
 ## Companies
@@ -126,12 +126,12 @@
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
 | [[community/ggml-org/ggml/ggml|ggml]] | 1 |
+| [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | 1 |
 
 ## Unresolved source values
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
-- `community/ggml-org/llama.cpp/Georgi Gerganov.md` · `communities` → `llama.cpp`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`

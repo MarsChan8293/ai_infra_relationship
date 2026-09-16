@@ -7762,6 +7762,54 @@
       }
     },
     {
+      "id": "community/ggml-org/llama.cpp/llama.cpp",
+      "path": "community/ggml-org/llama.cpp/llama.cpp.md",
+      "name": "llama.cpp",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "llama.cpp",
+        "linked_people": "",
+        "companies": [
+          "Hugging Face"
+        ],
+        "company_relation": "joined-hugging-face-maintainer-team",
+        "layer": "inference-engine",
+        "open_source": true,
+        "repository": "https://github.com/ggml-org/llama.cpp",
+        "areas": [
+          "llm-inference",
+          "vlm-inference",
+          "local-inference",
+          "edge-inference",
+          "quantization",
+          "gguf",
+          "cpu-gpu-hybrid",
+          "multi-backend",
+          "c-cpp",
+          "openai-compatible-server"
+        ],
+        "hardware": [
+          "CPU",
+          "NVIDIA GPU",
+          "AMD GPU",
+          "Apple Silicon",
+          "Ascend NPU",
+          "Intel GPU",
+          "Intel NPU",
+          "Moore Threads GPU",
+          "Snapdragon",
+          "RISC-V",
+          "WebGPU"
+        ],
+        "governance": "ggml-org maintainer network; project remains open-source and technically autonomous after GGML/llama.cpp team joined Hugging Face in 2026",
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": ""
+      }
+    },
+    {
       "id": "community/hpcaitech/Colossal-AI/Colossal-AI",
       "path": "community/hpcaitech/Colossal-AI/Colossal-AI.md",
       "name": "Colossal-AI",
@@ -17619,6 +17667,11 @@
     },
     {
       "source": "community/ggml-org/ggml/ggml",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/ggml/ggml",
       "target": "company/Hugging Face/Hugging Face",
       "kind": "wikilink"
     },
@@ -17634,6 +17687,31 @@
     },
     {
       "source": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "target": "company/Hugging Face/Hugging Face",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
       "target": "company/Hugging Face/Hugging Face",
       "kind": "wikilink"
     },
@@ -22295,6 +22373,11 @@
     {
       "source": "company/Hugging Face/Hugging Face",
       "target": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Hugging Face/Hugging Face",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
       "kind": "wikilink"
     },
     {
@@ -30061,13 +30144,13 @@
       "bridge_score": 5.7
     },
     "company/Hugging Face/Hugging Face": {
-      "degree": 7,
-      "cross_category_degree": 6,
+      "degree": 8,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 8.1
+      "bridge_score": 8.62
     },
     "company/IBM/IBM": {
       "degree": 13,
@@ -31547,14 +31630,14 @@
       "bridge_score": 5.35
     },
     "community/FlashML-org/FreeToken/FreeToken": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.135
+      "bridge_score": 8.357
     },
     "community/InfiniTensor/InfiniTensor": {
       "degree": 4,
@@ -32734,15 +32817,6 @@
       "bridge_score": 6.7
     },
     "community/ggml-org/ggml/ggml": {
-      "degree": 2,
-      "cross_category_degree": 1,
-      "neighbor_categories": [
-        "community",
-        "company"
-      ],
-      "bridge_score": 4.935
-    },
-    "community/ggml-org/llama.cpp/Georgi Gerganov": {
       "degree": 3,
       "cross_category_degree": 1,
       "neighbor_categories": [
@@ -32750,6 +32824,24 @@
         "company"
       ],
       "bridge_score": 5.35
+    },
+    "community/ggml-org/llama.cpp/Georgi Gerganov": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.672
+    },
+    "community/ggml-org/llama.cpp/llama.cpp": {
+      "degree": 4,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.672
     },
     "community/hpcaitech/Colossal-AI/Colossal-AI": {
       "degree": 10,

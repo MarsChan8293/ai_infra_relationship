@@ -93,9 +93,9 @@
 | 42 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
 | 43 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
 | 44 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 45 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
-| 46 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
-| 47 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 48 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
-| 49 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |
-| 50 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
+| 45 | [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]] | 5.672 | 4 |
+| 46 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 47 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
+| 48 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
+| 49 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
+| 50 | [[community/vllm-project/vLLM-Ascend/QiuChunshuo|QiuChunshuo]] | 5.672 | 4 |

@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 44,
   "companies_with_links": 29,
-  "project_community_nodes": 80,
-  "project_community_nodes_with_links": 46,
-  "association_pairs": 63,
-  "asserted_on_both_sides": 63,
+  "project_community_nodes": 81,
+  "project_community_nodes_with_links": 47,
+  "association_pairs": 64,
+  "asserted_on_both_sides": 64,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -82,6 +82,18 @@
       "company_name": "Hugging Face",
       "entity_id": "community/ggml-org/ggml/ggml",
       "entity_name": "ggml",
+      "entity_type": "project",
+      "relation": "joined-hugging-face-maintainer-team",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Hugging Face/Hugging Face",
+      "company_name": "Hugging Face",
+      "entity_id": "community/ggml-org/llama.cpp/llama.cpp",
+      "entity_name": "llama.cpp",
       "entity_type": "project",
       "relation": "joined-hugging-face-maintainer-team",
       "sources": [

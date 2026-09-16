@@ -1,6 +1,8 @@
 ---
 type: project
 name: llama.cpp
+linked_people:
+  - "community/ggml-org/llama.cpp/Georgi Gerganov"
 companies: ["Hugging Face"]
 company_relation: joined-hugging-face-maintainer-team
 layer: inference-engine
@@ -12,6 +14,8 @@ governance: ggml-org maintainer network; project remains open-source and technic
 people:
   - "community/ggml-org/llama.cpp/Georgi Gerganov"
 last_verified: "2026-09"
+linked_companies:
+  - "company/Hugging Face/Hugging Face"
 ---
 # llama.cpp
 
@@ -84,3 +88,21 @@ llama.cpp 官方 README 明确说明项目构建在 [[community/ggml-org/ggml/gg
 - https://github.com/ggml-org/ggml
 - https://ggml.ai/
 - https://huggingface.co/blog/ggml-joins-hf
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]]：llama.cpp 官方 README 当前维护的 `maintainer PRs` 查询明确包含 `ggerganov`，因此这里把其角色记录为 llama.cpp Maintainer，而不是仅凭历史提交数量推断治理身份。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：公司页与社区/项目页均有显式记录；关系：`joined-hugging-face-maintainer-team`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
