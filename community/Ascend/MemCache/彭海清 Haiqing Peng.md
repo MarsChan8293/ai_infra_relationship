@@ -4,6 +4,7 @@ name: 彭海清
 english_name: Haiqing Peng
 aliases: ["p3rry", "@p3rry", "Peng Haiqing"]
 current_affiliations: ["华为"]
+public_email: penghaiqing1@huawei.com
 projects: [MemCache, MemFabric]
 roles: [Cross-project Contributor, MemFabric Integration Contributor]
 areas: [memory-pooling, kv-cache, rdma, 56bit-gva, integration, kv-event, ascend]
@@ -16,6 +17,8 @@ last_verified: "2026-09"
 
 ## 身份核验
 MemCache / MemFabric 提交 metadata 使用 `p3rry`，并出现 `penghaiqing1@huawei.com`；MemCache 的 KV Event 集成 MR 还直接提到“基于 @彭海清 工作”，因此可把 handle、拼音邮箱与中文名交叉到同一人物。当前不推断具体职级。
+
+公开职业邮箱：`penghaiqing1@huawei.com`。
 
 ## MemCache
 - 负责或参与 MemFabric C API / 动态加载解耦、ABI 对齐、stream 字段适配等底层接口工作。
