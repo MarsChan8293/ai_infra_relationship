@@ -3,6 +3,7 @@ type: person
 name: chenyz6
 aliases: ["@chenyz6"]
 current_affiliations: ["华为"]
+public_email: chenxin146@huawei.com
 projects: [MemCache, MemFabric]
 roles: [Frequent Merge Gatekeeper, Core Contributor]
 areas: [kv-cache, memory-pooling, data-movement, performance, ascend]
@@ -15,6 +16,8 @@ last_verified: "2026-09"
 
 ## 公开身份
 公开提交 metadata 使用 `chenyz6` handle，并出现 `chenxin146@huawei.com`，可确认华为项目 affiliation；由于“陈鑫 / Chen Xin”同名很多，当前不把该邮箱自动映射到任何外部同名个人主页。
+
+公开职业邮箱：`chenxin146@huawei.com`。
 
 ## MemCache
 - 长期出现在 MemCache 的 `Merged-by` 记录中，覆盖 MetaService、MemFabric 接口、KV Event、测试与构建等关键路径。
