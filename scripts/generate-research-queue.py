@@ -1,35 +1,35 @@
 #!/usr/bin/env python3
-"""Generate a gap-aware Best-First research queue with selective DFS hints.
+"""Generate a heterogeneous ecosystem research-action queue.
 
-This script consumes the graph inventory produced by ``scripts/audit-graph.py``
-and ranks person nodes for the next research pass. The goal is not to rank
-people by importance. It ranks *research opportunities* by bridge value,
-missing relationship dimensions, AI-infra relevance, evidence quality,
-novelty, and optional distance from a seed node.
+This planner consumes the graph inventory produced by ``scripts/audit-graph.py``
+and ranks *research actions*, not people. A research action is a typed request:
 
-Outputs:
-  generated/research-priority.json
+    source entity -> relation to investigate -> target entity type(s) -> source strategy
+
+The planner is deterministic and intentionally lightweight so that a daily
+ChatGPT/Codex agent can execute a bounded set of actions without inventing its
+own global traversal strategy.
+
+Primary outputs:
+  generated/research-actions.json
   generated/research-queue.md
 
-Typical usage:
-  python3 scripts/audit-graph.py --root . --output generated
-  python3 scripts/generate-research-queue.py --root . --generated generated
-  python3 scripts/generate-research-queue.py --seed "游凯超" --limit 40
+Compatibility output:
+  generated/research-priority.json
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import pathlib
 import re
 import sys
-from collections import deque
+from collections import Counter, deque
 
 URL_RE = re.compile(r"https?://[^\s)>\]]+", re.I)
 
-# The groups are intentionally broad and explainable. They bias the queue toward
-# inference-system talent without hard-coding particular people or companies.
 RELEVANCE_GROUPS: tuple[tuple[str, tuple[str, ...], float], ...] = (
     ("serving/inference", ("inference", "serving", "推理", "在线服务"), 1.00),
     ("kv-cache", ("kv cache", "kv-cache", "kvcache", "pagedattention", "prefix cache", "lmcache"), 0.95),
@@ -39,8 +39,77 @@ RELEVANCE_GROUPS: tuple[tuple[str, tuple[str, ...], float], ...] = (
     ("moe", ("moe", "mixture of experts", "expert parallel", "专家并行"), 0.75),
     ("quantization", ("quantization", "quantized", "fp8", "int8", "int4", "量化"), 0.65),
     ("disaggregation", ("disaggregation", "prefill decode", "prefill-decode", "pd separation", "解耦"), 0.85),
-    ("ascend", ("ascend", "昇腾", "cann"), 1.00),
+    ("ascend", ("ascend", "昇腾", "cann", "mindie", "torch_npu"), 1.00),
 )
+
+TYPE_FAMILY = {
+    "person": "person",
+    "person-link": "person",
+    "company": "company",
+    "school": "school",
+    "university": "school",
+    "research-institution": "research",
+    "project": "project",
+    "infra-project": "project",
+    "model-project": "project",
+    "project-collection": "project",
+    "community": "community",
+    "model-team": "team",
+}
+
+FAMILY_LABEL = {
+    "person": "Person",
+    "company": "Company",
+    "school": "School",
+    "research": "Research Institution",
+    "project": "Project",
+    "community": "Community",
+    "team": "Team",
+}
+
+# fields are coverage hints. target_families also inspect resolved graph neighbours.
+# desired_count is a saturation target for planning, not a truth/completeness claim.
+ACTION_TEMPLATES: dict[str, tuple[dict, ...]] = {
+    "person": (
+        {"relation": "affiliation", "target_families": ("company", "school", "research", "team"), "fields": ("current_affiliations", "affiliations", "affiliation"), "desired_count": 2, "prior": 1.00, "cost": 1.0, "strategies": ("official_profile", "company_or_lab_team_page"), "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose."},
+        {"relation": "project_contribution", "target_families": ("project", "community"), "fields": ("projects", "communities"), "desired_count": 3, "prior": 1.20, "cost": 1.0, "strategies": ("github_or_gitcode_activity", "project_governance_or_release_notes"), "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose."},
+        {"relation": "technical_collaborator", "target_families": ("person",), "fields": ("relations",), "desired_count": 3, "prior": 0.90, "cost": 1.3, "strategies": ("github_pr_commit_review", "paper_or_technical_report"), "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit."},
+        {"relation": "academic_lineage", "target_families": ("person", "school", "research"), "fields": ("schools", "education"), "desired_count": 2, "prior": 0.75, "cost": 1.4, "strategies": ("official_academic_profile", "thesis_or_lab_page"), "write_hint": "Do not infer advisor/student from shared school; require direct evidence."},
+    ),
+    "company": (
+        {"relation": "key_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.00, "cost": 1.1, "strategies": ("official_team_page", "github_org_maintainers"), "write_hint": "Curate only high-value AI Infra people; linked_people remains derived."},
+        {"relation": "projects", "target_families": ("project", "community", "team"), "fields": ("projects", "linked_projects", "communities"), "desired_count": 3, "prior": 1.25, "cost": 1.0, "strategies": ("github_org_repositories", "official_engineering_blog_or_docs"), "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient."},
+        {"relation": "academic_links", "target_families": ("school", "research"), "fields": (), "desired_count": 1, "prior": 0.65, "cost": 1.5, "strategies": ("official_research_partnership_page", "paper_affiliation"), "write_hint": "Create only direct research, spinout, or institutional collaboration links."},
+    ),
+    "school": (
+        {"relation": "labs_or_groups", "target_families": ("research", "team"), "fields": ("labs",), "desired_count": 2, "prior": 1.15, "cost": 1.1, "strategies": ("official_department_or_lab_directory",), "write_hint": "Add labs/groups only when the institutional relationship is explicit."},
+        {"relation": "key_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 5, "prior": 1.20, "cost": 1.0, "strategies": ("faculty_directory", "lab_people_pages"), "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance."},
+        {"relation": "projects", "target_families": ("project", "community"), "fields": (), "desired_count": 2, "prior": 1.10, "cost": 1.2, "strategies": ("lab_github_org", "official_project_pages"), "write_hint": "Connect projects only when the school/lab relationship is directly supported."},
+        {"relation": "spinouts", "target_families": ("company",), "fields": (), "desired_count": 1, "prior": 0.75, "cost": 1.6, "strategies": ("official_founder_bio", "university_news_or_tech_transfer"), "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring."},
+    ),
+    "research": (
+        {"relation": "key_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.20, "cost": 1.0, "strategies": ("official_people_directory", "project_author_pages"), "write_hint": "Prefer researchers with concrete AI Infra projects or systems work."},
+        {"relation": "projects", "target_families": ("project", "community"), "fields": ("projects", "communities"), "desired_count": 3, "prior": 1.25, "cost": 1.0, "strategies": ("official_project_pages", "github_org_repositories"), "write_hint": "Connect only projects with direct institutional authorship or governance evidence."},
+        {"relation": "parent_or_partner_org", "target_families": ("school", "company", "research"), "fields": ("affiliations", "parent"), "desired_count": 1, "prior": 0.70, "cost": 1.3, "strategies": ("official_about_page", "institutional_partnership_page"), "write_hint": "Distinguish parent institution from collaboration or sponsorship."},
+    ),
+    "project": (
+        {"relation": "maintainers", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.35, "cost": 0.9, "strategies": ("governance_maintainers_codeowners", "github_or_gitcode_contributors"), "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence."},
+        {"relation": "originating_org", "target_families": ("company", "school", "research", "community", "team"), "fields": ("companies", "linked_companies", "company"), "desired_count": 1, "prior": 1.10, "cost": 1.0, "strategies": ("official_repository_org", "project_docs_or_announcement"), "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship."},
+        {"relation": "related_projects", "target_families": ("project", "community"), "fields": (), "desired_count": 3, "prior": 0.95, "cost": 1.2, "strategies": ("official_docs_integrations", "repository_dependencies_or_design_docs"), "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation."},
+    ),
+    "community": (
+        {"relation": "core_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.20, "cost": 1.0, "strategies": ("governance_or_maintainers", "github_or_gitcode_activity"), "write_hint": "Prefer organizers/maintainers with direct public evidence."},
+        {"relation": "projects", "target_families": ("project",), "fields": ("projects",), "desired_count": 3, "prior": 1.20, "cost": 1.0, "strategies": ("community_docs", "official_repository_namespace"), "write_hint": "Add concrete projects that belong to or are governed by the community."},
+        {"relation": "member_orgs", "target_families": ("company", "school", "research"), "fields": ("companies", "linked_companies"), "desired_count": 3, "prior": 0.90, "cost": 1.3, "strategies": ("governance_membership_page", "official_announcements"), "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient."},
+    ),
+    "team": (
+        {"relation": "key_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.20, "cost": 1.0, "strategies": ("official_team_or_author_page", "github_activity"), "write_hint": "Prefer people with direct technical responsibility or authorship."},
+        {"relation": "parent_org", "target_families": ("company", "school", "research"), "fields": ("company", "companies", "affiliations"), "desired_count": 1, "prior": 0.90, "cost": 0.8, "strategies": ("official_team_page", "parent_org_docs"), "write_hint": "Attach to the canonical parent organization rather than creating duplicate company entities."},
+        {"relation": "projects", "target_families": ("project", "community"), "fields": ("projects", "communities"), "desired_count": 3, "prior": 1.10, "cost": 1.0, "strategies": ("official_project_page", "github_org_repositories"), "write_hint": "Connect projects with direct team authorship or governance evidence."},
+    ),
+}
+
+FRONTIER_PRIOR = {"person": 0.75, "company": 1.00, "school": 1.00, "research": 1.05, "project": 1.15, "community": 1.10, "team": 1.00}
 
 
 def as_list(value) -> list:
@@ -51,35 +120,24 @@ def as_list(value) -> list:
     return [value]
 
 
-def first_nonempty_list(frontmatter: dict, *keys: str) -> list:
-    for key in keys:
-        values = as_list(frontmatter.get(key))
-        if values:
-            return values
-    return []
+def type_family(raw_type: object) -> str | None:
+    return TYPE_FAMILY.get(str(raw_type or "").strip())
 
 
 def resolve_seed(seed: str, nodes: list[dict]) -> str:
     wanted = seed.strip().casefold()
     if not wanted:
         raise ValueError("empty seed")
-
     exact_ids = [node["id"] for node in nodes if str(node.get("id", "")).casefold() == wanted]
     if len(exact_ids) == 1:
         return exact_ids[0]
-
     matches = []
     for node in nodes:
-        names = {
-            str(node.get("name", "")).strip().casefold(),
-            pathlib.PurePosixPath(str(node.get("id", ""))).name.casefold(),
-        }
+        names = {str(node.get("name", "")).strip().casefold(), pathlib.PurePosixPath(str(node.get("id", ""))).name.casefold()}
         fm = node.get("frontmatter") if isinstance(node.get("frontmatter"), dict) else {}
-        for alias in as_list(fm.get("aliases")):
-            names.add(str(alias).strip().casefold())
+        names.update(str(alias).strip().casefold() for alias in as_list(fm.get("aliases")))
         if wanted in names:
             matches.append(node["id"])
-
     if len(matches) == 1:
         return matches[0]
     if not matches:
@@ -115,305 +173,274 @@ def evidence_score(text: str) -> tuple[float, int]:
     urls = sorted(set(URL_RE.findall(text)))
     if not urls:
         return 0.0, 0
-    score = 0.55 if len(urls) == 1 else 0.90
-    trusted_markers = ("github.com/", "gitcode.com/", "gitee.com/", "arxiv.org/", "doi.org/", "docs.")
-    if any(marker in url.casefold() for url in urls for marker in trusted_markers):
+    score = 0.45 if len(urls) == 1 else 0.75
+    primary_markers = ("github.com/", "gitcode.com/", "gitee.com/", "arxiv.org/", "doi.org/", ".edu/", ".edu.cn/", "docs.")
+    if any(marker in url.casefold() for url in urls for marker in primary_markers):
         score += 0.35
     if len(urls) >= 3:
         score += 0.20
-    return round(min(score, 1.5), 3), len(urls)
+    return round(min(score, 1.30), 3), len(urls)
 
 
-def distance_penalty(distance: int | None, max_bfs_depth: int, seed_enabled: bool) -> float:
+def field_count(frontmatter: dict, fields: tuple[str, ...]) -> int:
+    refs: set[str] = set()
+    for field in fields:
+        for item in as_list(frontmatter.get(field)):
+            text = str(item).strip().casefold()
+            if text:
+                refs.add(text)
+    return len(refs)
+
+
+def neighbor_family_count(node_id: str, target_families: tuple[str, ...], neighbors: dict[str, set[str]], by_id: dict[str, dict]) -> int:
+    return sum(1 for neighbor_id in neighbors.get(node_id, set()) if neighbor_id in by_id and type_family(by_id[neighbor_id].get("type")) in target_families)
+
+
+def existing_coverage(node: dict, template: dict, neighbors: dict[str, set[str]], by_id: dict[str, dict]) -> int:
+    fm = node.get("frontmatter") if isinstance(node.get("frontmatter"), dict) else {}
+    explicit = field_count(fm, tuple(template.get("fields", ())))
+    graph_count = neighbor_family_count(node["id"], tuple(template.get("target_families", ())), neighbors, by_id)
+    return max(explicit, graph_count)
+
+
+def soft_distance_penalty(distance: int | None, seed_enabled: bool, max_bfs_depth: int) -> float:
     if not seed_enabled:
         return 0.0
     if distance is None:
-        return 4.0
-    if distance <= 1:
-        return 0.0
+        return 1.20
     if distance <= max_bfs_depth:
-        return 0.30 * (distance - 1)
-    return 0.30 * max(0, max_bfs_depth - 1) + 1.20 * (distance - max_bfs_depth)
+        return 0.0
+    return min(1.20, 0.16 * (distance - max_bfs_depth))
+
+
+def action_bucket(evidence: float, degree: int, novelty: float, bridge_component: float) -> str:
+    if evidence < 0.45:
+        return "verification"
+    if degree <= 3 and novelty >= 0.60:
+        return "exploration"
+    if bridge_component >= 0.75 and novelty >= 0.35:
+        return "bridge"
+    return "exploitation"
+
+
+def build_actions(root: pathlib.Path, nodes: list[dict], edges: list[dict], metrics: dict, seed_id: str | None, max_bfs_depth: int) -> list[dict]:
+    by_id = {node["id"]: node for node in nodes}
+    neighbors: dict[str, set[str]] = {node_id: set() for node_id in by_id}
+    for edge in edges:
+        source, target = edge.get("source"), edge.get("target")
+        if source in by_id and target in by_id:
+            neighbors[source].add(target)
+            neighbors[target].add(source)
+    distances = shortest_distances(seed_id, neighbors) if seed_id else {}
+    actions: list[dict] = []
+
+    for node in nodes:
+        family = type_family(node.get("type"))
+        if family not in ACTION_TEMPLATES:
+            continue
+        node_id = node["id"]
+        path = root / str(node.get("path", ""))
+        text = path.read_text(encoding="utf-8") if path.exists() else ""
+        relevance, relevance_hits = relevance_score(text)
+        evidence, url_count = evidence_score(text)
+        metric = metrics.get(node_id, {})
+        degree = int(metric.get("degree", len(neighbors.get(node_id, set()))))
+        bridge_raw = float(metric.get("bridge_score", 0.0))
+        bridge_component = min(1.50, bridge_raw / 8.0)
+        distance = distances.get(node_id) if seed_id else None
+        distance_penalty = soft_distance_penalty(distance, seed_id is not None, max_bfs_depth)
+        neighbor_families = {type_family(by_id[n].get("type")) for n in neighbors.get(node_id, set()) if n in by_id and type_family(by_id[n].get("type"))}
+
+        for template in ACTION_TEMPLATES[family]:
+            desired = max(1, int(template["desired_count"]))
+            existing = existing_coverage(node, template, neighbors, by_id)
+            gap = max(0.0, 1.0 - min(existing, desired) / desired)
+            if gap <= 0.0:
+                continue
+            targets = tuple(template["target_families"])
+            unseen_targets = sum(1 for target in targets if target not in neighbor_families)
+            novelty = unseen_targets / max(1, len(targets))
+            frontier = FRONTIER_PRIOR.get(family, 0.8) / math.sqrt(max(1.0, degree + 1.0))
+            uncertainty = min(1.0, 0.55 * gap + 0.45 * max(0.0, 1.0 - evidence / 1.30))
+            redundancy = 0.20 * math.log1p(existing) + 0.08 * math.log1p(max(0, degree))
+            prior, cost = float(template["prior"]), max(0.5, float(template["cost"]))
+            gain_proxy = 2.30 * gap + 1.35 * min(1.50, relevance / 2.0) + 1.15 * novelty + 0.90 * bridge_component + 0.80 * frontier + 0.65 * uncertainty + 0.35 * evidence + 0.80 * prior
+            priority = round(gain_proxy / cost - redundancy - distance_penalty, 3)
+            bucket = action_bucket(evidence, degree, novelty, bridge_component)
+            action_key = f"{family}:{template['relation']}:{'+'.join(targets)}"
+            reasons = [f"coverage {existing}/{desired}", f"source type {FAMILY_LABEL.get(family, family)}"]
+            if relevance_hits:
+                reasons.append("infra: " + ", ".join(relevance_hits[:3]))
+            if novelty >= 0.60:
+                reasons.append("opens underrepresented target types")
+            if bridge_raw >= 6.0:
+                reasons.append(f"bridge {bridge_raw:.1f}")
+            if url_count == 0:
+                reasons.append("missing source URLs")
+            if seed_id and distance is not None:
+                reasons.append(f"{distance}-hop from seed")
+            actions.append({
+                "action_id": f"{node_id}::{template['relation']}",
+                "action_key": action_key,
+                "source": {"id": node_id, "name": node.get("name") or pathlib.PurePosixPath(node_id).name, "type": node.get("type"), "family": family},
+                "relation": template["relation"],
+                "target_families": list(targets),
+                "strategies": list(template["strategies"]),
+                "write_hint": template["write_hint"],
+                "bucket": bucket,
+                "priority": priority,
+                "cost": cost,
+                "coverage": {"existing": existing, "desired": desired, "gap": round(gap, 3)},
+                "signals": {"infra_relevance": relevance, "evidence_quality": evidence, "url_count": url_count, "bridge_score": round(bridge_raw, 3), "novelty": round(novelty, 3), "frontier_potential": round(frontier, 3), "uncertainty": round(uncertainty, 3), "redundancy_penalty": round(redundancy, 3), "distance": distance, "distance_penalty": round(distance_penalty, 3)},
+                "reasons": reasons,
+            })
+
+        # Verification is a first-class action so weak evidence does not silently accumulate.
+        desired_urls = 2
+        if url_count < desired_urls:
+            gap = 1.0 - url_count / desired_urls
+            cost = 0.8
+            redundancy = 0.05 * math.log1p(max(0, degree))
+            gain_proxy = 2.00 * gap + 0.80 * min(1.50, relevance / 2.0) + 0.65 * bridge_component + 0.50 * FRONTIER_PRIOR.get(family, 0.8)
+            priority = round(gain_proxy / cost - redundancy - distance_penalty, 3)
+            actions.append({
+                "action_id": f"{node_id}::verify_evidence",
+                "action_key": f"{family}:verify_evidence:none",
+                "source": {"id": node_id, "name": node.get("name") or pathlib.PurePosixPath(node_id).name, "type": node.get("type"), "family": family},
+                "relation": "verify_evidence",
+                "target_families": [],
+                "strategies": ["official_primary_sources", "repository_or_paper_sources"],
+                "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+                "bucket": "verification",
+                "priority": priority,
+                "cost": cost,
+                "coverage": {"existing": url_count, "desired": desired_urls, "gap": round(gap, 3)},
+                "signals": {"infra_relevance": relevance, "evidence_quality": evidence, "url_count": url_count, "bridge_score": round(bridge_raw, 3), "novelty": 0.0, "frontier_potential": round(FRONTIER_PRIOR.get(family, 0.8), 3), "uncertainty": round(gap, 3), "redundancy_penalty": round(redundancy, 3), "distance": distance, "distance_penalty": round(distance_penalty, 3)},
+                "reasons": [f"source coverage {url_count}/{desired_urls}", "evidence quality below target"],
+            })
+
+    actions.sort(key=lambda item: (-float(item["priority"]), str(item["source"]["name"]), str(item["relation"])))
+    return actions
+
+
+def portfolio_select(actions: list[dict], budget: int, max_actions_per_source: int) -> list[dict]:
+    if budget <= 0:
+        return []
+    family_cap = max(1, math.ceil(budget * 0.40))
+    selected: list[dict] = []
+    selected_ids: set[str] = set()
+    source_counts: Counter[str] = Counter()
+    family_counts: Counter[str] = Counter()
+    for relaxed in (False, True):
+        for action in actions:
+            if len(selected) >= budget:
+                break
+            action_id, source_id, family = action["action_id"], action["source"]["id"], action["source"]["family"]
+            if action_id in selected_ids or source_counts[source_id] >= max_actions_per_source:
+                continue
+            if not relaxed and family_counts[family] >= family_cap:
+                continue
+            selected.append(action)
+            selected_ids.add(action_id)
+            source_counts[source_id] += 1
+            family_counts[family] += 1
+        if len(selected) >= budget:
+            break
+    return selected
 
 
 def escape_cell(value: object) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
 
 
+def write_markdown(path: pathlib.Path, selected: list[dict], actions: list[dict], seed_id: str | None, budget: int) -> None:
+    lines = [
+        "# Ecosystem Research Action Queue", "",
+        "由 `scripts/generate-research-queue.py` 自动生成。排序对象是**下一步调查动作**，不是人物、公司、学校或项目的重要性排名。", "",
+        "算法：**Typed Action Planner + heterogeneous portfolio selection**。每个动作由 `source entity × relation × target type × source strategy` 构成；优先级综合关系覆盖缺口、AI Infra 相关性、桥梁价值、目标类型新颖性、证据质量、frontier potential、uncertainty、research cost、redundancy/hub penalty 与可选 seed 距离。", "",
+        f"- Daily budget: {budget}", f"- Seed: `{seed_id}`" if seed_id else "- Seed: none (global ecosystem mode)", f"- Candidate actions: {len(actions)}", f"- Selected actions: {len(selected)}", "",
+        "## Selected actions", "", "| Rank | Source | Type | Research action | Target | Bucket | Priority | Why |", "| ---: | --- | --- | --- | --- | --- | ---: | --- |",
+    ]
+    for rank, action in enumerate(selected, 1):
+        source = action["source"]
+        target = ", ".join(action["target_families"]) or "evidence"
+        why = "；".join(action["reasons"][:3])
+        lines.append(f"| {rank} | [[{source['id']}|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {escape_cell(target)} | {escape_cell(action['bucket'])} | {float(action['priority']):.3f} | {escape_cell(why)} |")
+    lines.extend([
+        "", "## Agent execution contract", "", "对每个 selected action：", "",
+        "1. 优先查官方主页、官方仓库、governance/CODEOWNERS/MAINTAINERS、论文或机构一手资料。",
+        "2. 只新增可核验节点/边；兼容、点赞、关注、同校或同公司本身不得自动升级为人物直接关系。",
+        "3. 新发现但超出本 action 的线索不要无限递归，留给下一轮 planner。",
+        "4. 修改 Markdown 后重新运行 graph audit、typed relation audit 和 schema generation。",
+        "5. 记录 rejected/unresolved 线索，避免后续 agent 反复消费同一弱证据。", "",
+        "## Next frontier", "", "| Rank | Source | Type | Action | Priority |", "| ---: | --- | --- | --- | ---: |",
+    ])
+    selected_ids = {item["action_id"] for item in selected}
+    frontier = [item for item in actions if item["action_id"] not in selected_ids][:30]
+    for rank, action in enumerate(frontier, 1):
+        source = action["source"]
+        lines.append(f"| {rank} | [[{source['id']}|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {float(action['priority']):.3f} |")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=".")
     parser.add_argument("--generated", default="generated")
-    parser.add_argument("--seed", help="Optional person/node id, name, basename, or alias")
-    parser.add_argument("--limit", type=int, default=60)
-    parser.add_argument("--max-bfs-depth", type=int, default=2)
-    parser.add_argument(
-        "--dfs-budget",
-        type=int,
-        default=12,
-        help="Maximum number of globally highest-value candidates allowed to trigger selective DFS",
-    )
+    parser.add_argument("--seed", help="Optional node id, name, basename, or alias; any supported entity type is allowed")
+    parser.add_argument("--budget", type=int, default=10, help="Number of actions selected for one agent run")
+    parser.add_argument("--limit", type=int, default=60, help="Number of ranked candidates exposed in compatibility output")
+    parser.add_argument("--max-actions-per-source", type=int, default=1)
+    parser.add_argument("--max-bfs-depth", type=int, default=2, help="Soft seed-distance radius; not a traversal cutoff")
+    parser.add_argument("--dfs-budget", type=int, default=0, help="Deprecated compatibility flag. DFS is replaced by typed research actions.")
     args = parser.parse_args()
 
     root = pathlib.Path(args.root).resolve()
     generated = (root / args.generated).resolve()
-    nodes_path = generated / "nodes.json"
-    edges_path = generated / "edges.json"
-    metrics_path = generated / "metrics.json"
-
+    generated.mkdir(parents=True, exist_ok=True)
+    nodes_path, edges_path, metrics_path = generated / "nodes.json", generated / "edges.json", generated / "metrics.json"
     for path in (nodes_path, edges_path, metrics_path):
         if not path.exists():
             parser.error(f"missing {path}; run scripts/audit-graph.py first")
-
     nodes = json.loads(nodes_path.read_text(encoding="utf-8"))
     edges = json.loads(edges_path.read_text(encoding="utf-8"))
     metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
-    by_id = {node["id"]: node for node in nodes}
-
-    neighbors: dict[str, set[str]] = {node_id: set() for node_id in by_id}
-    for edge in edges:
-        source = edge.get("source")
-        target = edge.get("target")
-        if source in by_id and target in by_id:
-            neighbors[source].add(target)
-            neighbors[target].add(source)
 
     seed_id = None
-    distances: dict[str, int] = {}
     if args.seed:
         try:
             seed_id = resolve_seed(args.seed, nodes)
         except ValueError as exc:
             parser.error(str(exc))
-        distances = shortest_distances(seed_id, neighbors)
 
-    candidates = []
-    for node in nodes:
-        if node.get("type") != "person":
-            continue
-
-        node_id = node["id"]
-        fm = node.get("frontmatter") if isinstance(node.get("frontmatter"), dict) else {}
-        path = root / str(node.get("path", ""))
-        text = path.read_text(encoding="utf-8") if path.exists() else ""
-        body_len = len(text.strip())
-
-        affiliations = first_nonempty_list(fm, "current_affiliations", "affiliations", "affiliation")
-        projects = first_nonempty_list(fm, "projects")
-        communities = first_nonempty_list(fm, "communities")
-        relations = first_nonempty_list(fm, "relations")
-        areas = first_nonempty_list(fm, "areas")
-        roles = first_nonempty_list(fm, "roles")
-
-        gaps: list[str] = []
-        gap_score = 0.0
-        if not affiliations:
-            gaps.append("affiliation")
-            gap_score += 0.90
-        if not projects and not communities:
-            gaps.append("projects/communities")
-            gap_score += 1.10
-        if not relations:
-            gaps.append("relations")
-            gap_score += 1.30
-        if not areas:
-            gaps.append("areas")
-            gap_score += 0.75
-        if not URL_RE.search(text):
-            gaps.append("sources")
-            gap_score += 1.00
-        if body_len < 900:
-            gaps.append("thin-page")
-            gap_score += 1.00
-        elif body_len < 1600:
-            gaps.append("thin-page")
-            gap_score += 0.50
-        gap_score = round(min(gap_score, 4.5), 3)
-
-        combined = "\n".join(
-            [
-                text,
-                " ".join(str(item) for item in areas),
-                " ".join(str(item) for item in roles),
-                " ".join(str(item) for item in projects),
-                " ".join(str(item) for item in communities),
-            ]
-        )
-        relevance, relevance_hits = relevance_score(combined)
-        evidence, url_count = evidence_score(text)
-
-        adjacent = neighbors.get(node_id, set())
-        neighbor_types = {str(by_id[n].get("type", "")) for n in adjacent if n in by_id}
-        ecosystem_neighbors = sum(
-            1 for n in adjacent if n in by_id and by_id[n].get("type") in {"project", "community", "company"}
-        )
-        project_neighbors = sum(
-            1 for n in adjacent if n in by_id and by_id[n].get("type") in {"project", "community"}
-        )
-        novelty = min(3.0, 0.45 * len(neighbor_types) + 0.18 * ecosystem_neighbors)
-        novelty = round(novelty, 3)
-
-        bridge = float(metrics.get(node_id, {}).get("bridge_score", 0.0))
-        distance = distances.get(node_id) if seed_id else None
-        penalty = distance_penalty(distance, args.max_bfs_depth, seed_id is not None)
-
-        score = round(
-            1.60 * bridge
-            + 1.80 * gap_score
-            + 2.00 * relevance
-            + 0.80 * evidence
-            + 0.90 * novelty
-            - 1.20 * penalty,
-            3,
-        )
-
-        seed_near = seed_id is None or (distance is not None and distance <= args.max_bfs_depth + 1)
-        dfs_eligible = (
-            score >= 25.0
-            and bridge >= 7.5
-            and relevance >= 1.5
-            and ("relations" in gaps or project_neighbors >= 2)
-            and seed_near
-        )
-
-        expansion_targets = []
-        label_map = {
-            "affiliation": "current affiliation",
-            "projects/communities": "project/community links",
-            "relations": "typed person relations",
-            "areas": "technical areas",
-            "sources": "primary sources",
-            "thin-page": "biographical/context depth",
-        }
-        for gap in gaps:
-            label = label_map[gap]
-            if label not in expansion_targets:
-                expansion_targets.append(label)
-
-        reasons = []
-        if bridge >= 5:
-            reasons.append(f"bridge {bridge:.1f}")
-        if gap_score >= 2:
-            reasons.append(f"gap {gap_score:.1f}")
-        if relevance_hits:
-            reasons.append("infra: " + ", ".join(relevance_hits[:3]))
-        if project_neighbors >= 2:
-            reasons.append(f"multi-project {project_neighbors}")
-        if seed_id and distance is not None:
-            reasons.append(f"{distance}-hop from seed")
-        if not reasons:
-            reasons.append("underexplored node")
-
-        candidates.append(
-            {
-                "id": node_id,
-                "name": node.get("name") or pathlib.PurePosixPath(node_id).name,
-                "score": score,
-                "strategy": "best-first",
-                "dfs_eligible": dfs_eligible,
-                "bridge_score": round(bridge, 3),
-                "gap_score": gap_score,
-                "infra_relevance": relevance,
-                "evidence_quality": evidence,
-                "novelty": novelty,
-                "distance": distance,
-                "distance_penalty": round(penalty, 3),
-                "gaps": gaps,
-                "relevance_hits": relevance_hits,
-                "url_count": url_count,
-                "project_neighbors": project_neighbors,
-                "ecosystem_neighbors": ecosystem_neighbors,
-                "expansion_targets": expansion_targets,
-                "reasons": reasons,
-            }
-        )
-
-    candidates.sort(key=lambda item: (-item["score"], str(item["name"])))
-
-    # DFS is deliberately scarce. Eligibility is threshold-based, then the
-    # global budget keeps deep-dives from swallowing the Best-First frontier.
-    dfs_budget = max(0, args.dfs_budget)
-    dfs_selected = 0
-    for item in candidates:
-        if not item["dfs_eligible"] or dfs_selected >= dfs_budget:
-            continue
-        item["strategy"] = "selective-dfs"
-        item["expansion_targets"].append("hidden person chain")
-        dfs_selected += 1
-
-    limit = max(1, args.limit)
-    shown = candidates[:limit]
-
+    actions = build_actions(root, nodes, edges, metrics, seed_id, max(0, args.max_bfs_depth))
+    budget = max(1, args.budget)
+    selected = portfolio_select(actions, budget, max(1, args.max_actions_per_source))
+    family_counts = Counter(action["source"]["family"] for action in selected)
+    bucket_counts = Counter(action["bucket"] for action in selected)
     payload = {
-        "algorithm": "gap-aware-best-first-bfs-with-selective-dfs",
-        "formula": "1.60*bridge + 1.80*gap + 2.00*infra_relevance + 0.80*evidence + 0.90*novelty - 1.20*distance_penalty",
+        "algorithm": "heterogeneous-active-ecosystem-search-v1",
+        "ranking_unit": "research-action",
         "seed": seed_id,
-        "max_bfs_depth": args.max_bfs_depth,
-        "dfs_budget": dfs_budget,
-        "dfs_selected": dfs_selected,
-        "candidate_count": len(candidates),
-        "candidates": candidates,
+        "budget": budget,
+        "candidate_count": len(actions),
+        "selected_count": len(selected),
+        "selected_family_counts": dict(sorted(family_counts.items())),
+        "selected_bucket_counts": dict(sorted(bucket_counts.items())),
+        "scoring_note": "Heuristic expected-gain proxy: typed coverage gap + AI Infra relevance + target novelty + bridge/frontier potential + uncertainty + evidence, normalized by action cost and penalized for redundancy/hub bias and soft seed distance.",
+        "selected_actions": selected,
+        "candidates": actions,
     }
-    (generated / "research-priority.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    (generated / "research-actions.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    lines = [
-        "# Research Queue",
-        "",
-        "由 `scripts/generate-research-queue.py` 自动生成。它排序的是下一轮研究价值，不是人物重要性。",
-        "",
-        "算法：**Gap-aware Best-First BFS + Selective DFS**。先用局部 BFS 建立邻域，再按桥梁度、关系缺口、推理相关性、证据质量与新颖性重新排序；DFS 采用预算制，只允许最高价值的一小撮桥梁人物继续向深层关系链扩展。",
-        "",
-        "公式：`1.60×bridge + 1.80×gap + 2.00×infra_relevance + 0.80×evidence + 0.90×novelty - 1.20×distance_penalty`。",
-        "",
-        f"Selective DFS budget: **{dfs_budget}**，本轮实际触发 **{dfs_selected}**。",
-        "",
-    ]
-    if seed_id:
-        lines.extend(
-            [
-                f"Seed: `[[{seed_id}]]`，BFS 无明显惩罚深度：{args.max_bfs_depth} hop。",
-                "",
-            ]
-        )
-    lines.extend(
-        [
-            "| Rank | Person | Score | Strategy | Bridge | Gap | Infra | Distance | Why / next |",
-            "| ---: | --- | ---: | --- | ---: | ---: | ---: | ---: | --- |",
-        ]
-    )
-    for rank, item in enumerate(shown, 1):
-        distance_text = "-" if item["distance"] is None else str(item["distance"])
-        next_text = "; ".join(item["reasons"])
-        if item["expansion_targets"]:
-            next_text += " → " + ", ".join(item["expansion_targets"][:3])
-        label = escape_cell(item["name"])
-        lines.append(
-            f"| {rank} | [[{item['id']}|{label}]] | {item['score']:.3f} | {item['strategy']} | "
-            f"{item['bridge_score']:.3f} | {item['gap_score']:.3f} | {item['infra_relevance']:.3f} | "
-            f"{distance_text} | {escape_cell(next_text)} |"
-        )
+    legacy_limit = max(1, args.limit)
+    compatibility = {"algorithm": payload["algorithm"], "ranking_unit": payload["ranking_unit"], "deprecated_filename": True, "replacement": "generated/research-actions.json", "seed": seed_id, "budget": budget, "candidate_count": len(actions), "selected_actions": selected, "candidates": actions[:legacy_limit]}
+    (generated / "research-priority.json").write_text(json.dumps(compatibility, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_markdown(generated / "research-queue.md", selected, actions, seed_id, budget)
 
-    lines.extend(
-        [
-            "",
-            "## How to use",
-            "",
-            "- `best-first`: 优先补齐缺失关系维度，不沿单一路径无限向下钻。",
-            "- `selective-dfs`: 只对高桥梁度、高推理相关、且仍存在关系缺口的人物做深挖，并受 `--dfs-budget` 全局预算约束。",
-            "- 需要从某个人出发时，使用 `--seed <name-or-id>`；距离会进入评分，默认优先保留 2-hop 局部网络。",
-            "",
-        ]
-    )
-    (generated / "research-queue.md").write_text("\n".join(lines), encoding="utf-8")
-
-    print(
-        f"Research queue: {len(candidates)} person candidates, showing {len(shown)}, "
-        f"selective DFS={dfs_selected}/{dfs_budget}."
-    )
-    if seed_id:
-        print(f"Seed resolved to: {seed_id}")
+    print(f"Research planner: {len(actions)} candidate actions, {len(selected)} selected across {len(family_counts)} entity families.")
+    if args.dfs_budget:
+        print("WARN: --dfs-budget is deprecated and ignored; typed actions replace selective DFS.", file=sys.stderr)
     return 0
 
 
