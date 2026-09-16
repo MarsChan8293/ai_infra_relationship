@@ -6,8 +6,12 @@ linked_people:
   - "community/Ascend/MemCache/DreamerLeader"
   - "community/Ascend/MemCache/Pz1116"
   - "community/Ascend/MemCache/tyy0829"
+  - "community/vllm-project/vLLM-Ascend/chengruiqi"
+  - "community/vllm-project/vLLM-Ascend/leolee"
+  - "community/vllm-project/vLLM-Ascend/Levi-JQ"
   - "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai"
   - "community/vllm-project/vLLM-Ascend/Wang Xiyuan"
+  - "community/vllm-project/vLLM-Ascend/weiguihua2"
   - "community/vllm-project/vLLM-Ascend/weijinqian0"
   - "community/vllm-project/vLLM-Ascend/yiz-liu"
   - "community/vllm-project/vLLM-Ascend/zzzzwwjj"
@@ -72,8 +76,12 @@ https://github.com/vllm-project/vllm-ascend
 - [[community/Ascend/MemCache/DreamerLeader|DreamerLeader]]：2026-01 发起 vLLM-Ascend RFC #6410，明确提出把 MemCache 纳入 KV Pool storage backend，并将原有 MooncakeStoreConnector 抽象为统一的 AscendStoreConnector + Backend 接口。
 - [[community/Ascend/MemCache/Pz1116|Pz1116]]：https://github.com/vllm-project/vllm-ascend/issues/9057
 - [[community/Ascend/MemCache/tyy0829|tyy0829]]：2026 年直接推进 vLLM-Ascend 的 **layerwise KV Pool + MemCache backend**：减少 per-layer key / MetaServer lookup 开销，把 GVA 分配移动到 worker，并使用 MemCache `batch_copy` / lease 生命周期管理完成按层 KV save/load。
+- [[community/vllm-project/vLLM-Ascend/chengruiqi|chengruiqi]]：该实现明确使用 `AscendStoreConnector` + **MemCache backend**，并验证 MTP、prefix caching 与多前缀 pooled prefill workload，是 MemCache 与 vLLM-Ascend 当前非常直接的工程桥。
+- [[community/vllm-project/vLLM-Ascend/leolee|leolee]]：https://github.com/vllm-project/vllm-ascend/commit/92995fbbf30301b6f4b702fdb375a888608c1e20
+- [[community/vllm-project/vLLM-Ascend/Levi-JQ|Levi-JQ]]：https://github.com/vllm-project/vllm-ascend/commit/ce9e24a28131b59c6df27470ac42aee742a711ad
 - [[community/vllm-project/vLLM-Ascend/ningjingbengxiaohai|ningjingbengxiaohai]]：2026 vLLM-Ascend 技术周会多次担任 Chair。
 - [[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：vLLM-Ascend 主要维护与社区组织者之一。
+- [[community/vllm-project/vLLM-Ascend/weiguihua2|weiguihua2]]：https://github.com/vllm-project/vllm-ascend/commit/3d84be3ce62206223b39204722649b66c21033dd
 - [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]]：[[community/vllm-project/vLLM-Ascend/Wang Xiyuan|Wang Xiyuan]]：社区治理/Attention 工程邻接关系；缺 pair-specific 证据时不自动生成 typed edge。
 - [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]]：vLLM-Ascend 活跃维护者。
 - [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]]：vLLM-Ascend roadmap 主要推动者之一。

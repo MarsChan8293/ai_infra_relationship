@@ -3,6 +3,10 @@ type: person
 name: Levi-JQ
 aliases: ["@Levi-JQ"]
 public_email: yujinqi2@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [vLLM-Ascend]
 roles: [DSpark Contributor, Communication Performance Contributor]
 areas: [speculative-decoding, dspark, kimi-k3, tensor-parallelism, moe, communication, ascend]
@@ -28,3 +32,12 @@ vLLM-Ascend 的公开提交长期稳定使用 `Levi-JQ <yujinqi2@huawei.com>`。
 - https://github.com/vllm-project/vllm-ascend/commit/ce9e24a28131b59c6df27470ac42aee742a711ad
 - https://github.com/vllm-project/vllm-ascend/commit/b246529ec3ccb754e141d10018d70643a646992a
 - https://github.com/vllm-project/vllm-ascend/commit/616f872747bdc89de9b1c410b4b30888cd834705
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

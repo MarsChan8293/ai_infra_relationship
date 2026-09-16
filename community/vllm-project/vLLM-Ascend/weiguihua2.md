@@ -3,6 +3,10 @@ type: person
 name: weiguihua2
 aliases: ["@weiguihua2"]
 public_email: weiguihua2@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [vLLM-Ascend]
 roles: [DCP Contributor, Speculative Decoding Contributor]
 areas: [dcp, pcp, speculative-decoding, dspark, sfa, mla, kv-cache, ascend]
@@ -29,3 +33,12 @@ last_verified: "2026-09"
 - https://github.com/vllm-project/vllm-ascend/commit/9b2871baeaf2149f3f8126f5fd2bc9ff2fb0958a
 - https://github.com/vllm-project/vllm-ascend/commit/cdad5a32e0a0cc0232ae29ded29636162f4fb690
 - https://github.com/vllm-project/vllm-ascend/commit/cab37196df6366edd0eb38a0e35f15c9dc1e4f15
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

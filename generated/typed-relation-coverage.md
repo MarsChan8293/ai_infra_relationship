@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 360
-- Person nodes with typed relations: 112 / 281
+- Person nodes with typed relations: 112 / 285
 - Hard errors: 0
 - Warnings: 4
 
@@ -98,8 +98,8 @@
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
-| [[community/vllm-project/vLLM/Yongye Zhu|Yongye Zhu]] | 9.709 | 4 | 2 | 50.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
 | [[university/清华大学/Ruoyu Qin|秦若愚]] | 9.572 | 3 | 3 | 100.0% |
 | [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] | 9.485 | 4 | 4 | 100.0% |
 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | 9.485 | 5 | 5 | 100.0% |
+| [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋]] | 9.485 | 5 | 4 | 80.0% |

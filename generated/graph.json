@@ -323,8 +323,10 @@
         "current_affiliations": [
           "Inferact"
         ],
+        "public_email": "woosuk@inferact.ai",
         "schools": "",
         "linked_companies": "",
+        "email_affiliations": "",
         "projects": [
           "vLLM"
         ],
@@ -9686,6 +9688,7 @@
         "current_affiliations": [
           "Inferact"
         ],
+        "public_email": "yongye@inferact.ai",
         "schools": "",
         "communities": [
           "vLLM"
@@ -9695,6 +9698,7 @@
           "Contributor"
         ],
         "linked_companies": "",
+        "email_affiliations": "",
         "areas": [
           "llm-inference"
         ],
@@ -9838,6 +9842,41 @@
       }
     },
     {
+      "id": "community/vllm-project/vLLM-Ascend/Levi-JQ",
+      "path": "community/vllm-project/vLLM-Ascend/Levi-JQ.md",
+      "name": "Levi-JQ",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Levi-JQ",
+        "aliases": [
+          "@Levi-JQ"
+        ],
+        "public_email": "yujinqi2@huawei.com",
+        "email_affiliations": "",
+        "linked_companies": "",
+        "projects": [
+          "vLLM-Ascend"
+        ],
+        "roles": [
+          "DSpark Contributor",
+          "Communication Performance Contributor"
+        ],
+        "areas": [
+          "speculative-decoding",
+          "dspark",
+          "kimi-k3",
+          "tensor-parallelism",
+          "moe",
+          "communication",
+          "ascend"
+        ],
+        "confidence": "high",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "community/vllm-project/vLLM-Ascend/Wang Xiyuan",
       "path": "community/vllm-project/vLLM-Ascend/Wang Xiyuan.md",
       "name": "Wang Xiyuan",
@@ -9864,6 +9903,80 @@
           "roadmap"
         ],
         "confidence": "project-credit",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "path": "community/vllm-project/vLLM-Ascend/chengruiqi.md",
+      "name": "chengruiqi",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "chengruiqi",
+        "aliases": [
+          "chengruiqi (C)",
+          "@chengruiqi"
+        ],
+        "public_email": "c00913489@china.huawei.com",
+        "email_affiliations": "",
+        "linked_companies": "",
+        "projects": [
+          "vLLM-Ascend",
+          "MemCache"
+        ],
+        "roles": [
+          "KVPP Contributor",
+          "MemCache Integration Contributor"
+        ],
+        "areas": [
+          "kv-cache",
+          "kvpp",
+          "kv-pooling",
+          "memcache",
+          "pcp",
+          "pd-disaggregation",
+          "ascend"
+        ],
+        "confidence": "high",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Ascend/leolee",
+      "path": "community/vllm-project/vLLM-Ascend/leolee.md",
+      "name": "leolee",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "leolee",
+        "aliases": [
+          "@leolee",
+          "li1how"
+        ],
+        "public_email": "yihao.li@huawei.com",
+        "email_affiliations": "",
+        "linked_companies": "",
+        "projects": [
+          "vLLM-Ascend"
+        ],
+        "roles": [
+          "KV Pool Contributor",
+          "PCP Contributor",
+          "Speculative Decoding Contributor"
+        ],
+        "areas": [
+          "kv-cache",
+          "kv-pooling",
+          "pcp",
+          "pd-disaggregation",
+          "speculative-decoding",
+          "dspark",
+          "ascend"
+        ],
+        "confidence": "high",
         "last_verified": "2026-09"
       }
     },
@@ -9915,6 +10028,42 @@
         "layer": "hardware-backend",
         "open_source": true,
         "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Ascend/weiguihua2",
+      "path": "community/vllm-project/vLLM-Ascend/weiguihua2.md",
+      "name": "weiguihua2",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "weiguihua2",
+        "aliases": [
+          "@weiguihua2"
+        ],
+        "public_email": "weiguihua2@huawei.com",
+        "email_affiliations": "",
+        "linked_companies": "",
+        "projects": [
+          "vLLM-Ascend"
+        ],
+        "roles": [
+          "DCP Contributor",
+          "Speculative Decoding Contributor"
+        ],
+        "areas": [
+          "dcp",
+          "pcp",
+          "speculative-decoding",
+          "dspark",
+          "sfa",
+          "mla",
+          "kv-cache",
+          "ascend"
+        ],
+        "confidence": "high",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -12634,6 +12783,11 @@
     {
       "source": "community/Ascend/MemCache/MemCache",
       "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "community/vllm-project/vLLM-Ascend/chengruiqi",
       "kind": "wikilink"
     },
     {
@@ -18627,6 +18781,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/vllm-project/vLLM-Ascend/Levi-JQ",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/Levi-JQ",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/vllm-project/vLLM-Ascend/Wang Xiyuan",
       "target": "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai",
       "kind": "wikilink"
@@ -18649,6 +18813,31 @@
     {
       "source": "community/vllm-project/vLLM-Ascend/Wang Xiyuan",
       "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/leolee",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/leolee",
+      "target": "company/华为/华为",
       "kind": "wikilink"
     },
     {
@@ -18748,12 +18937,32 @@
     },
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/vllm-project/vLLM-Ascend/Levi-JQ",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/vllm-project/vLLM-Ascend/Wang Xiyuan",
       "kind": "wikilink"
     },
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/vllm-project/vLLM-Ascend/leolee",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/vllm-project/vLLM-Ascend/weiguihua2",
       "kind": "wikilink"
     },
     {
@@ -18788,6 +18997,16 @@
     },
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/weiguihua2",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/weiguihua2",
       "target": "company/华为/华为",
       "kind": "wikilink"
     },
@@ -19634,11 +19853,6 @@
     {
       "source": "community/vllm-project/vLLM/Yongye Zhu",
       "target": "company/Inferact/Inferact",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/vllm-project/vLLM/Yongye Zhu",
-      "target": "company/Meta/Meta",
       "kind": "wikilink"
     },
     {
@@ -22573,7 +22787,27 @@
     },
     {
       "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Ascend/Levi-JQ",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Ascend/chengruiqi",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Ascend/leolee",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
       "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/vllm-project/vLLM-Ascend/weiguihua2",
       "kind": "wikilink"
     },
     {
@@ -28217,14 +28451,14 @@
       "bridge_score": 12.437
     },
     "company/Meta/Meta": {
-      "degree": 20,
-      "cross_category_degree": 14,
+      "degree": 19,
+      "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.792
+      "bridge_score": 13.372
     },
     "company/Meta/Richard Zou": {
       "degree": 7,
@@ -28519,13 +28753,13 @@
       "bridge_score": 6.022
     },
     "company/华为/华为": {
-      "degree": 31,
-      "cross_category_degree": 30,
+      "degree": 35,
+      "cross_category_degree": 34,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 18.5
+      "bridge_score": 20.07
     },
     "company/商汤科技/商汤科技": {
       "degree": 8,
@@ -29380,13 +29614,13 @@
       "bridge_score": 3.085
     },
     "community/Ascend/MemCache/MemCache": {
-      "degree": 20,
+      "degree": 21,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.742
+      "bridge_score": 7.809
     },
     "community/Ascend/MemCache/Pz1116": {
       "degree": 3,
@@ -31573,14 +31807,14 @@
       "bridge_score": 8.007
     },
     "community/vllm-project/vLLM/Yongye Zhu": {
-      "degree": 10,
-      "cross_category_degree": 5,
+      "degree": 9,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.709
+      "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
       "degree": 112,
@@ -31623,6 +31857,15 @@
       ],
       "bridge_score": 14.855
     },
+    "community/vllm-project/vLLM-Ascend/Levi-JQ": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 4.935
+    },
     "community/vllm-project/vLLM-Ascend/Wang Xiyuan": {
       "degree": 6,
       "cross_category_degree": 0,
@@ -31630,6 +31873,24 @@
         "community"
       ],
       "bridge_score": 4.307
+    },
+    "community/vllm-project/vLLM-Ascend/chengruiqi": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.35
+    },
+    "community/vllm-project/vLLM-Ascend/leolee": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 4.935
     },
     "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai": {
       "degree": 4,
@@ -31640,14 +31901,23 @@
       "bridge_score": 3.822
     },
     "community/vllm-project/vLLM-Ascend/vLLM-Ascend": {
-      "degree": 30,
+      "degree": 34,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 10.154
+      "bridge_score": 10.329
+    },
+    "community/vllm-project/vLLM-Ascend/weiguihua2": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 4.935
     },
     "community/vllm-project/vLLM-Ascend/weijinqian0": {
       "degree": 4,

@@ -4,12 +4,12 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 175
-- Email-domain-supported associations: 10
-- People with generated linked_companies: 174
+- Company-person associations: 179
+- Email-domain-supported associations: 16
+- People with generated linked_companies: 178
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 333
+- Project/community-person associations: 338
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -19,7 +19,7 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
-| [[company/华为/华为|华为]] | 14 |
+| [[company/华为/华为|华为]] | 18 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
@@ -61,13 +61,13 @@
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
+| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
+| [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 14 |
-| [[community/Ascend/MemCache/MemCache|MemCache]] | 13 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
-| [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 9 |

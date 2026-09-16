@@ -3,6 +3,10 @@ type: person
 name: chengruiqi
 aliases: ["chengruiqi (C)", "@chengruiqi"]
 public_email: c00913489@china.huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [vLLM-Ascend, MemCache]
 roles: [KVPP Contributor, MemCache Integration Contributor]
 areas: [kv-cache, kvpp, kv-pooling, memcache, pcp, pd-disaggregation, ascend]
@@ -27,3 +31,12 @@ vLLM-Ascend 公开提交使用 `chengruiqi (C)`，并直接出现 `c00913489@chi
 ## Sources
 - https://github.com/vllm-project/vllm-ascend/commit/45b74a6904a2ea7b90c4f441da014003984099d2
 - https://github.com/vllm-project/vllm-ascend/commit/cafae11ebbb0f7b8c7818b7ba7db0ed9382bbd82
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

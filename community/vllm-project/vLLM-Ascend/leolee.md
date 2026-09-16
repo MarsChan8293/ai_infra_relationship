@@ -3,6 +3,10 @@ type: person
 name: leolee
 aliases: ["@leolee", "li1how"]
 public_email: yihao.li@huawei.com
+email_affiliations:
+  - "华为"
+linked_companies:
+  - "company/华为/华为"
 projects: [vLLM-Ascend]
 roles: [KV Pool Contributor, PCP Contributor, Speculative Decoding Contributor]
 areas: [kv-cache, kv-pooling, pcp, pd-disaggregation, speculative-decoding, dspark, ascend]
@@ -28,3 +32,12 @@ last_verified: "2026-09"
 - https://github.com/vllm-project/vllm-ascend/commit/92995fbbf30301b6f4b702fdb375a888608c1e20
 - https://github.com/vllm-project/vllm-ascend/commit/84b7f79573bbdc7f97ee7f74f659e26393dd4eea
 - https://github.com/vllm-project/vllm-ascend/commit/00ce2f026cb69a1fd1ac9c5f54b99602ff7c9566
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/华为/华为|华为]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

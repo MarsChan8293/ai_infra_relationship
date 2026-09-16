@@ -15,6 +15,7 @@ linked_people:
   - "community/Ascend/MemCache/Zixi Qu"
   - "community/Ascend/MemCache/吕有辉"
   - "community/Ascend/MemCache/彭海清 Haiqing Peng"
+  - "community/vllm-project/vLLM-Ascend/chengruiqi"
 companies: ["华为"]
 company_relation: company-led
 layer: kv-cache
@@ -124,5 +125,6 @@ https://github.com/Ascend/memcache
 - [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]]：https://gitcode.com/Ascend/memcache/tree/develop/3rdparty
 - [[community/Ascend/MemCache/吕有辉|吕有辉]]：在 MindIE-PyMotor 推进多 KV 池化后端支持，使 MemCache MetaService / LocalService 能适配 A2 / A3 / A5 等部署路径。
 - [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清（Haiqing Peng）]]：其贡献同时触及 MemFabric 自身和 MemCache 对 MemFabric 的接口边界，是这条数据面链路中很值得继续追的核心工程人物。
+- [[community/vllm-project/vLLM-Ascend/chengruiqi|chengruiqi]]：该实现明确使用 `AscendStoreConnector` + **MemCache backend**，并验证 MTP、prefix caching 与多前缀 pooled prefill workload，是 MemCache 与 vLLM-Ascend 当前非常直接的工程桥。
 
 <!-- END AUTO PROJECT PEOPLE -->

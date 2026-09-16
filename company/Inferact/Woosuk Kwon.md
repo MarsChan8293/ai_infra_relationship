@@ -8,6 +8,8 @@ schools:
   - "UC Berkeley"
 linked_companies:
   - "company/Inferact/Inferact"
+email_affiliations:
+  - "Inferact"
 projects: [vLLM]
 education: [Seoul National University, UC Berkeley]
 roles: [Founder, CTO, Lead Maintainer]
@@ -65,6 +67,6 @@ vLLM 创始人、PagedAttention 与早期 engine core 的主要设计者之一�
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/Inferact/Inferact|Inferact]]：人物页 `current_affiliations:` 明确记录。
+- [[company/Inferact/Inferact|Inferact]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->
