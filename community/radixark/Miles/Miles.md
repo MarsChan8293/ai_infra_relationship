@@ -8,7 +8,7 @@ company_relation: company-led
 layer: post-training-infrastructure
 open_source: true
 repository: https://github.com/radixark/miles
-areas: [reinforcement-learning, post-training, distributed-training, rollout, sglang, weight-transfer]
+areas: [reinforcement-learning, post-training, distributed-training, rollout, sglang, weight-transfer, data-movement]
 people:
   - "company/RadixArk/朱邦华 Banghua Zhu"
 last_verified: "2026-09"
@@ -27,8 +27,11 @@ Miles 是 RadixArk 面向大规模模型 post-training 的开源强化学习基�
 ## 与推理基础设施的连接
 Miles 的 rollout 层直接依赖 SGLang，并提供大模型 RL 训练到推理引擎之间的快速权重同步，因此它是“serving → post-training → serving”闭环的重要节点，而不只是训练框架。
 
+2026-08，[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 官方项目记录 Miles 已集成 Mooncake 作为 rollout data-transfer backend，用于 disaggregated RL 中 rollout 与 training 之间碎片化、异构数据的传输。这条关系把 Miles 的 RL orchestration 与 Mooncake 的 RDMA / tensor data plane 直接接起来。
+
 ## Sources
 - https://github.com/radixark/miles
+- https://github.com/kvcache-ai/Mooncake
 - https://banghua.me/
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
@@ -43,7 +46,7 @@ Miles 的 rollout 层直接依赖 SGLang，并提供大模型 RL 训练到推理
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
 ## 关联公司（自动汇总）
 
-以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+以下关系由公司页与社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/RadixArk/RadixArk|RadixArk]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
