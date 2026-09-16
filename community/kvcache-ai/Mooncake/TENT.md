@@ -1,6 +1,11 @@
 ---
 type: project
 name: TENT
+linked_people:
+  - "community/kvcache-ai/Mooncake/Jialei Cui"
+  - "community/kvcache-ai/Mooncake/Ke Yang"
+  - "community/kvcache-ai/Mooncake/Shangming Cai"
+  - "community/kvcache-ai/Mooncake/Zheming Li"
 layer: data-movement
 open_source: true
 repository: https://github.com/kvcache-ai/Mooncake
@@ -16,6 +21,7 @@ people:
   - "university/清华大学/Mingxing Zhang"
 governance: Mooncake subproject / Transfer Engine NEXT
 last_verified: "2026-09"
+linked_companies: []
 ---
 # TENT
 
@@ -37,3 +43,15 @@ TENT 显示 Mooncake 的核心能力已经从“KV cache system”扩展到更�
 - https://arxiv.org/abs/2604.00368
 - https://github.com/kvcache-ai/Mooncake/issues/1058
 - https://github.com/kvcache-ai/Mooncake
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/kvcache-ai/Mooncake/Jialei Cui|Jialei Cui]]：2026 TENT 论文继续署名，连接 Mooncake 原始 serving 系统与下一代异构数据移动层。
+- [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：2026 [[TENT]] 论文作者之一，连接 KV cache storage 与新一代异构数据移动层
+- [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：2026 [[TENT]] 论文作者之一，把 Mooncake 数据移动层与 SGLang disaggregated serving 继续连在一起
+- [[community/kvcache-ai/Mooncake/Zheming Li|Zheming Li]]：2026 TENT 论文继续署名，说明其研究/工程贡献从 KVCache-centric serving 延伸到 Mooncake 下一代数据移动层。
+
+<!-- END AUTO PROJECT PEOPLE -->

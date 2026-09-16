@@ -1894,6 +1894,38 @@
     }
   },
   {
+    "id": "company/月之暗面/checkpoint-engine",
+    "path": "company/月之暗面/checkpoint-engine.md",
+    "name": "Checkpoint Engine",
+    "type": "infra-project",
+    "category": "company",
+    "frontmatter": {
+      "type": "infra-project",
+      "name": "Checkpoint Engine",
+      "company": "月之暗面",
+      "linked_people": [],
+      "areas": [
+        "reinforcement-learning",
+        "weight-transfer",
+        "checkpoint-loading",
+        "distributed-training",
+        "inference-serving",
+        "rdma"
+      ],
+      "layer": "training-serving-data-plane",
+      "open_source": true,
+      "repository": "https://github.com/MoonshotAI/checkpoint-engine",
+      "related_projects": [
+        "Mooncake",
+        "SGLang",
+        "vLLM",
+        "Kimi-K2"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "company/月之暗面/吴育昕 Yuxin Wu",
     "path": "company/月之暗面/吴育昕 Yuxin Wu.md",
     "name": "吴育昕",
@@ -6796,12 +6828,71 @@
     }
   },
   {
+    "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+    "path": "community/kvcache-ai/Mooncake/Jialei Cui.md",
+    "name": "Jialei Cui",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Jialei Cui",
+      "communities": [
+        "Mooncake"
+      ],
+      "projects": [
+        "Mooncake",
+        "TENT"
+      ],
+      "roles": [
+        "Mooncake paper author"
+      ],
+      "areas": [
+        "llm-serving",
+        "kv-cache",
+        "disaggregated-serving",
+        "data-movement"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "community/kvcache-ai/Mooncake/Ke Yang",
     "path": "community/kvcache-ai/Mooncake/Ke Yang.md",
     "name": "Ke Yang",
-    "type": "note",
+    "type": "person",
     "category": "community",
-    "frontmatter": {}
+    "frontmatter": {
+      "type": "person",
+      "name": "Ke Yang",
+      "aliases": [
+        "ykwd",
+        "@ykwd"
+      ],
+      "current_affiliations": [
+        "趋境科技"
+      ],
+      "communities": [
+        "Mooncake"
+      ],
+      "projects": [
+        "Mooncake",
+        "TENT"
+      ],
+      "roles": [
+        "Mooncake Codeowner",
+        "Mooncake Store Owner"
+      ],
+      "areas": [
+        "kv-cache",
+        "distributed-storage",
+        "llm-inference",
+        "disaggregated-serving",
+        "data-movement"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
   },
   {
     "id": "community/kvcache-ai/Mooncake/Mooncake",
@@ -6819,16 +6910,170 @@
       "company_relation": "industry-academia-co-development",
       "layer": "kv-cache-centric-serving",
       "open_source": true,
-      "linked_companies": ""
+      "repository": "https://github.com/kvcache-ai/Mooncake",
+      "areas": [
+        "kv-cache",
+        "disaggregated-serving",
+        "rdma",
+        "data-movement",
+        "distributed-storage",
+        "reinforcement-learning",
+        "heterogeneous-interconnect"
+      ],
+      "governance": "KVCache.AI community; four official codeowners in MAINTAINERS.md",
+      "people": "",
+      "linked_companies": "",
+      "last_verified": "2026-09"
     }
   },
   {
     "id": "community/kvcache-ai/Mooncake/Shangming Cai",
     "path": "community/kvcache-ai/Mooncake/Shangming Cai.md",
     "name": "Shangming Cai",
-    "type": "note",
+    "type": "person",
     "category": "community",
-    "frontmatter": {}
+    "frontmatter": {
+      "type": "person",
+      "name": "Shangming Cai",
+      "aliases": [
+        "ShangmingCai",
+        "@ShangmingCai"
+      ],
+      "current_affiliations": [
+        "阿里巴巴"
+      ],
+      "communities": [
+        "Mooncake",
+        "SGLang"
+      ],
+      "projects": [
+        "Mooncake",
+        "TENT"
+      ],
+      "roles": [
+        "Mooncake Codeowner",
+        "SGLang Integration Owner"
+      ],
+      "areas": [
+        "llm-inference",
+        "disaggregated-serving",
+        "kv-cache",
+        "sglang",
+        "data-movement"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/kvcache-ai/Mooncake/TENT",
+    "path": "community/kvcache-ai/Mooncake/TENT.md",
+    "name": "TENT",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TENT",
+      "linked_people": "",
+      "layer": "data-movement",
+      "open_source": true,
+      "repository": "https://github.com/kvcache-ai/Mooncake",
+      "areas": [
+        "data-movement",
+        "rdma",
+        "heterogeneous-interconnect",
+        "fault-tolerance",
+        "disaggregated-serving",
+        "reinforcement-learning"
+      ],
+      "people": "",
+      "governance": "Mooncake subproject / Transfer Engine NEXT",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/kvcache-ai/Mooncake/Weiran He",
+    "path": "community/kvcache-ai/Mooncake/Weiran He.md",
+    "name": "Weiran He",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Weiran He",
+      "communities": [
+        "Mooncake"
+      ],
+      "projects": [
+        "Mooncake"
+      ],
+      "roles": [
+        "Mooncake FAST 2025 paper author"
+      ],
+      "areas": [
+        "llm-serving",
+        "kv-cache",
+        "disaggregated-serving"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+    "path": "community/kvcache-ai/Mooncake/Xinran Xu.md",
+    "name": "Xinran Xu",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Xinran Xu",
+      "communities": [
+        "Mooncake"
+      ],
+      "projects": [
+        "Mooncake"
+      ],
+      "roles": [
+        "Mooncake FAST 2025 paper author"
+      ],
+      "areas": [
+        "llm-serving",
+        "kv-cache",
+        "disaggregated-serving"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/kvcache-ai/Mooncake/Zheming Li",
+    "path": "community/kvcache-ai/Mooncake/Zheming Li.md",
+    "name": "Zheming Li",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Zheming Li",
+      "communities": [
+        "Mooncake"
+      ],
+      "projects": [
+        "Mooncake",
+        "TENT"
+      ],
+      "roles": [
+        "Mooncake paper author"
+      ],
+      "areas": [
+        "llm-serving",
+        "kv-cache",
+        "disaggregated-serving",
+        "data-movement"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
   },
   {
     "id": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
@@ -6948,6 +7193,32 @@
       "layer": "agentic-llm-inference-engine",
       "open_source": true,
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/lightseekorg/TorchSpec/TorchSpec",
+    "path": "community/lightseekorg/TorchSpec/TorchSpec.md",
+    "name": "TorchSpec",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TorchSpec",
+      "linked_people": [],
+      "layer": "speculative-decoding-training",
+      "open_source": true,
+      "repository": "https://github.com/lightseekorg/TorchSpec",
+      "areas": [
+        "speculative-decoding",
+        "distributed-training",
+        "hidden-state-transfer",
+        "vllm",
+        "sglang",
+        "tensorrt-llm"
+      ],
+      "governance": "LightSeek Foundation ecosystem",
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -7374,7 +7645,8 @@
         "distributed-training",
         "rollout",
         "sglang",
-        "weight-transfer"
+        "weight-transfer",
+        "data-movement"
       ],
       "people": "",
       "last_verified": "2026-09",
@@ -8041,6 +8313,31 @@
         "heterogeneous-models"
       ],
       "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/vllm-project/Speculators/Speculators",
+    "path": "community/vllm-project/Speculators/Speculators.md",
+    "name": "Speculators",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Speculators",
+      "linked_people": [],
+      "layer": "speculative-decoding-training",
+      "open_source": true,
+      "repository": "https://github.com/vllm-project/speculators",
+      "areas": [
+        "speculative-decoding",
+        "online-training",
+        "hidden-state-transfer",
+        "vllm",
+        "distributed-training"
+      ],
+      "governance": "vLLM Project ecosystem",
       "last_verified": "2026-09",
       "linked_companies": []
     }

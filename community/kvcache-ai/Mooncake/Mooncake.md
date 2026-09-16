@@ -2,6 +2,12 @@
 type: project
 name: Mooncake
 linked_people:
+  - "community/kvcache-ai/Mooncake/Jialei Cui"
+  - "community/kvcache-ai/Mooncake/Ke Yang"
+  - "community/kvcache-ai/Mooncake/Shangming Cai"
+  - "community/kvcache-ai/Mooncake/Weiran He"
+  - "community/kvcache-ai/Mooncake/Xinran Xu"
+  - "community/kvcache-ai/Mooncake/Zheming Li"
   - "community/kvcache-ai/Mooncake/任峰 Feng Ren"
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
   - "community/sgl-project/SGLang/Yineng Zhang"
@@ -76,6 +82,12 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/kvcache-ai/Mooncake/Jialei Cui|Jialei Cui]]：FAST 2025 Mooncake 论文作者。USENIX 官方作者页将其该论文 affiliation 标为 Moonshot AI。
+- [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：[[趋境科技]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ykwd` 标注为 Approaching AI，并使用 `yangke@approaching.ai` 联系邮箱；这里据此记录当前 affiliation，不从邮箱扩展任何职级。
+- [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：[[阿里巴巴]]：Mooncake 官方 `MAINTAINERS.md` 将 `@ShangmingCai` 标注为 Alibaba Cloud，并明确其 Mooncake 职责为 SGLang Integration。
+- [[community/kvcache-ai/Mooncake/Weiran He|Weiran He]]：项目关联；人物页已明确记录该项目。
+- [[community/kvcache-ai/Mooncake/Xinran Xu|Xinran Xu]]：项目关联；人物页已明确记录该项目。
+- [[community/kvcache-ai/Mooncake/Zheming Li|Zheming Li]]：FAST 2025 Mooncake 论文作者。USENIX 官方作者信息将其 2025 论文 affiliation 标为 Moonshot AI。
 - [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：Mooncake 联合创建者之一
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：参与 Mooncake 社区维护与跨生态协作
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[Mooncake]]：KVCache-centric disaggregated serving 论文作者，连接 SGLang / kernel 与清华 MADSys、Moonshot/Kimi serving 网络。

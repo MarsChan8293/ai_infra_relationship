@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 42,
   "companies_with_links": 29,
-  "project_community_nodes": 64,
-  "project_community_nodes_with_links": 40,
-  "association_pairs": 56,
-  "asserted_on_both_sides": 56,
+  "project_community_nodes": 68,
+  "project_community_nodes_with_links": 41,
+  "association_pairs": 57,
+  "asserted_on_both_sides": 57,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -444,6 +444,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/月之暗面/月之暗面",
+      "company_name": "月之暗面",
+      "entity_id": "company/月之暗面/checkpoint-engine",
+      "entity_name": "Checkpoint Engine",
+      "entity_type": "infra-project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

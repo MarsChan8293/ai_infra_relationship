@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1093,
+  "candidate_count": 1117,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 2,
@@ -11,13 +11,215 @@
     "project": 4
   },
   "selected_bucket_counts": {
-    "bridge": 1,
+    "bridge": 2,
     "exploitation": 4,
-    "exploration": 4,
+    "exploration": 3,
     "verification": 1
   },
   "scoring_note": "Base expected-gain proxy plus small-sample-shrunk action_key history yield; exact recent success/partial/unresolved/rejected actions are temporarily suppressed by status-specific cooldowns. Partial outcomes retain resolved/unresolved dimensions.",
   "selected_actions": [
+    {
+      "action_id": "company/月之暗面/checkpoint-engine::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/月之暗面/checkpoint-engine",
+        "name": "Checkpoint Engine",
+        "type": "infra-project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.016,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.635,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 6.6"
+      ],
+      "base_priority": 9.064,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/lightseekorg/TorchSpec/TorchSpec",
+        "name": "TorchSpec",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.907,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.307,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.955,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/Speculators/Speculators::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/vllm-project/Speculators/Speculators",
+        "name": "Speculators",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.865,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.913,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
     {
       "action_id": "company/面壁智能/ForgeTrain::maintainers",
       "action_key": "project:maintainers:person",
@@ -82,143 +284,6 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/面壁智能/MiniCPM::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/面壁智能/MiniCPM",
-        "name": "MiniCPM",
-        "type": "model-project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.078,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.65,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.126,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/cloud-native/Kubernetes/Kubernetes::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/cloud-native/Kubernetes/Kubernetes",
-        "name": "Kubernetes",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploration",
-      "priority": 8.033,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.1,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.933,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "success": 2
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 1.75,
-          "reward_signal": 0.412,
-          "yield_adjustment": 0.1
-        },
-        "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
       }
     },
@@ -639,14 +704,16 @@
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
       }
-    },
+    }
+  ],
+  "candidates": [
     {
-      "action_id": "community/flagos-ai/FlagPerf/FlagPerf::maintainers",
+      "action_id": "company/月之暗面/checkpoint-engine::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/flagos-ai/FlagPerf/FlagPerf",
-        "name": "FlagPerf",
-        "type": "project",
+        "id": "company/月之暗面/checkpoint-engine",
+        "name": "Checkpoint Engine",
+        "type": "infra-project",
         "family": "project"
       },
       "relation": "maintainers",
@@ -658,8 +725,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.407,
+      "bucket": "bridge",
+      "priority": 9.016,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -667,14 +734,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 1.0,
+        "infra_relevance": 2.7,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 4.307,
+        "bridge_score": 6.635,
         "novelty": 1.0,
-        "frontier_potential": 0.435,
+        "frontier_potential": 0.469,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -684,10 +751,11 @@
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference",
-        "opens underrepresented target types"
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 6.6"
       ],
-      "base_priority": 7.455,
+      "base_priority": 9.064,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -706,9 +774,141 @@
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
-    }
-  ],
-  "candidates": [
+    },
+    {
+      "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/lightseekorg/TorchSpec/TorchSpec",
+        "name": "TorchSpec",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.907,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.307,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.955,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/Speculators/Speculators::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/vllm-project/Speculators/Speculators",
+        "name": "Speculators",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.865,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.913,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
     {
       "action_id": "company/面壁智能/ForgeTrain::maintainers",
       "action_key": "project:maintainers:person",
@@ -895,6 +1095,146 @@
         "opens underrepresented target types"
       ],
       "base_priority": 7.933,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/TENT::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/TENT",
+        "name": "TENT",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploitation",
+      "priority": 7.924,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.824,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/Speculators/Speculators::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/vllm-project/Speculators/Speculators",
+        "name": "Speculators",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 7.916,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.816,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -2217,6 +2557,76 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Jialei Cui::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+        "name": "Jialei Cui",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.278,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.984,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -2357,6 +2767,146 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Weiran He::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Weiran He",
+        "name": "Weiran He",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.254,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.96,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Zheming Li::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Zheming Li",
+        "name": "Zheming Li",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.253,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.959,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Project-HAMi/ascend-device-plugin/ascend-device-plugin::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -2477,6 +3027,76 @@
         "opens underrepresented target types"
       ],
       "base_priority": 6.933,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+        "name": "Xinran Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.217,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.844,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.923,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -3252,6 +3872,73 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/radixark/Miles/Miles::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/radixark/Miles/Miles",
+        "name": "Miles",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.065,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.022,
+        "novelty": 0.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 6.0"
+      ],
+      "base_priority": 7.113,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -4953,73 +5640,6 @@
       }
     },
     {
-      "action_id": "community/kvcache-ai/Mooncake/任峰 Feng Ren::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
-        "name": "任峰",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 6.839,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.8,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 9.222,
-        "novelty": 0.5,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.323,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, disaggregation",
-        "bridge 9.2"
-      ],
-      "base_priority": 6.556,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/TensorMesh/Junchen Jiang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -5880,72 +6500,6 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/radixark/Miles/Miles::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/radixark/Miles/Miles",
-        "name": "Miles",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.693,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.7,
-        "novelty": 0.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.482,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe"
-      ],
-      "base_priority": 6.741,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -8461,7 +9015,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 6.479,
+      "priority": 6.478,
       "cost": 0.9,
       "coverage": {
         "existing": 2,
@@ -8472,11 +9026,11 @@
         "infra_relevance": 3.5,
         "evidence_quality": 1.3,
         "url_count": 5,
-        "bridge_score": 10.25,
+        "bridge_score": 10.337,
         "novelty": 0.0,
-        "frontier_potential": 0.287,
+        "frontier_potential": 0.279,
         "uncertainty": 0.275,
-        "redundancy_penalty": 0.442,
+        "redundancy_penalty": 0.446,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -8487,9 +9041,9 @@
         "coverage 2/4",
         "source type Project",
         "infra: serving/inference, scheduler, kernel",
-        "bridge 10.2"
+        "bridge 10.3"
       ],
-      "base_priority": 6.527,
+      "base_priority": 6.526,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -9523,6 +10077,77 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Ke Yang::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Ke Yang",
+        "name": "Ke Yang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.376,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.685,
+        "novelty": 0.75,
+        "frontier_potential": 0.217,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.337,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 8.7"
+      ],
+      "base_priority": 6.082,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/RadixArk/Cheng Wan::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -10545,6 +11170,77 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Shangming Cai::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Shangming Cai",
+        "name": "Shangming Cai",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.249,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.8,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.52,
+        "novelty": 0.75,
+        "frontier_potential": 0.25,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.314,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, disaggregation",
+        "opens underrepresented target types",
+        "bridge 6.5"
+      ],
+      "base_priority": 5.955,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       }
     },
@@ -14104,6 +14800,69 @@
       }
     },
     {
+      "action_id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation::core_people",
+      "action_key": "community:core_people:person",
+      "source": {
+        "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
+        "name": "LightSeek Foundation",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "core_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_or_maintainers",
+        "github_or_gitcode_activity"
+      ],
+      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
+      "bucket": "exploitation",
+      "priority": 5.989,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 3.822,
+        "novelty": 0.0,
+        "frontier_potential": 0.492,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Community",
+        "infra: serving/inference, kv-cache, kernel"
+      ],
+      "base_priority": 5.989,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/第四范式/第四范式::key_people",
       "action_key": "company:key_people:person",
       "source": {
@@ -15697,6 +16456,72 @@
       }
     },
     {
+      "action_id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation::member_orgs",
+      "action_key": "community:member_orgs:company+school+research",
+      "source": {
+        "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
+        "name": "LightSeek Foundation",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "member_orgs",
+      "target_families": [
+        "company",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "governance_membership_page",
+        "official_announcements"
+      ],
+      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
+      "bucket": "exploitation",
+      "priority": 5.895,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.492,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Community",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.895,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM/Simon Mo::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -15900,6 +16725,73 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/任峰 Feng Ren::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+        "name": "任峰",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.871,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.8,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 9.359,
+        "novelty": 0.5,
+        "frontier_potential": 0.226,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.412,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, disaggregation",
+        "bridge 9.4"
+      ],
+      "base_priority": 5.588,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ai-dynamo/Dynamo/Ryan McCormick::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -16027,69 +16919,6 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation::core_people",
-      "action_key": "community:core_people:person",
-      "source": {
-        "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
-        "name": "LightSeek Foundation",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "core_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_or_maintainers",
-        "github_or_gitcode_activity"
-      ],
-      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
-      "bucket": "exploitation",
-      "priority": 5.849,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 0.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.534,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Community",
-        "infra: serving/inference, kernel, disaggregation"
-      ],
-      "base_priority": 5.849,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -16680,6 +17509,72 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Weiran He::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Weiran He",
+        "name": "Weiran He",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.804,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 0.5,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.557,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 5.521,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Hongtao Chen::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -16791,72 +17686,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 5.8,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation::member_orgs",
-      "action_key": "community:member_orgs:company+school+research",
-      "source": {
-        "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
-        "name": "LightSeek Foundation",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "member_orgs",
-      "target_families": [
-        "company",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "governance_membership_page",
-        "official_announcements"
-      ],
-      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 5.797,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Community",
-        "infra: serving/inference, kernel, disaggregation",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.797,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -17186,6 +18015,72 @@
         "infra: serving/inference, kernel"
       ],
       "base_priority": 5.493,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+        "name": "Xinran Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.766,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 0.5,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.661,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 5.483,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -17991,6 +18886,73 @@
           "yield_adjustment": 0.0
         },
         "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Ke Yang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Ke Yang",
+        "name": "Ke Yang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.713,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.685,
+        "novelty": 0.5,
+        "frontier_potential": 0.217,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.419,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 8.7"
+      ],
+      "base_priority": 5.43,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       }
     },
@@ -19283,69 +20245,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation::projects",
-      "action_key": "community:projects:project",
-      "source": {
-        "id": "community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation",
-        "name": "LightSeek Foundation",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project"
-      ],
-      "strategies": [
-        "community_docs",
-        "official_repository_namespace"
-      ],
-      "write_hint": "Add concrete projects that belong to or are governed by the community.",
-      "bucket": "exploitation",
-      "priority": 5.628,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 0.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.488,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Community",
-        "infra: serving/inference, kernel, disaggregation"
-      ],
-      "base_priority": 5.628,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -27226,6 +28125,70 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Jialei Cui::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+        "name": "Jialei Cui",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.291,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.291,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Jiaqi Liao::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -27424,6 +28387,70 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Weiran He::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Weiran He",
+        "name": "Weiran He",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.28,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.28,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/Red Hat/Red Hat::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -27553,6 +28580,70 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Zheming Li::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Zheming Li",
+        "name": "Zheming Li",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.272,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.272,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -27999,6 +29090,70 @@
         "infra: serving/inference, kernel, ascend"
       ],
       "base_priority": 5.257,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+        "name": "Xinran Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.251,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.844,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.251,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -30376,6 +31531,66 @@
       }
     },
     {
+      "action_id": "company/阿里巴巴/阿里巴巴::verify_evidence",
+      "action_key": "company:verify_evidence:none",
+      "source": {
+        "id": "company/阿里巴巴/阿里巴巴",
+        "name": "阿里巴巴",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 5.109,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 11.3,
+        "novelty": 0.0,
+        "frontier_potential": 1.0,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.139,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 0/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 5.109,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/Neural Magic/Neural Magic::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -30834,66 +32049,6 @@
       }
     },
     {
-      "action_id": "company/阿里巴巴/阿里巴巴::verify_evidence",
-      "action_key": "company:verify_evidence:none",
-      "source": {
-        "id": "company/阿里巴巴/阿里巴巴",
-        "name": "阿里巴巴",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 5.067,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.95,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 10.857,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.135,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 5.067,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -31005,6 +32160,70 @@
         "opens underrepresented target types"
       ],
       "base_priority": 5.05,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/Speculators/Speculators::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/vllm-project/Speculators/Speculators",
+        "name": "Speculators",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 5.048,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 0.5,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.436,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed"
+      ],
+      "base_priority": 5.048,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -31344,6 +32563,70 @@
         "bridge 9.0"
       ],
       "base_priority": 5.036,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/TENT::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/TENT",
+        "name": "TENT",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 5.035,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.67,
+        "novelty": 0.5,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.314,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler"
+      ],
+      "base_priority": 5.035,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -31892,70 +33175,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 5.026,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/radixark/Miles/Miles::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/radixark/Miles/Miles",
-        "name": "Miles",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 5.022,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.7,
-        "novelty": 0.5,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.436,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, distributed, moe"
-      ],
-      "base_priority": 5.022,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -32695,73 +33914,6 @@
       }
     },
     {
-      "action_id": "company/月之暗面/Kimi-K2::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/月之暗面/Kimi-K2",
-        "name": "Kimi-K2",
-        "type": "model-project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 4.992,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.22,
-        "novelty": 0.0,
-        "frontier_potential": 0.383,
-        "uncertainty": 0.311,
-        "redundancy_penalty": 0.453,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "bridge 7.2"
-      ],
-      "base_priority": 5.04,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/ai-dynamo/Dynamo/Matej Kosec::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -32828,6 +33980,73 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/月之暗面/Kimi-K2::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/月之暗面/Kimi-K2",
+        "name": "Kimi-K2",
+        "type": "model-project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.985,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.372,
+        "novelty": 0.0,
+        "frontier_potential": 0.364,
+        "uncertainty": 0.311,
+        "redundancy_penalty": 0.461,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "bridge 7.4"
+      ],
+      "base_priority": 5.033,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -36115,6 +37334,72 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Jialei Cui::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+        "name": "Jialei Cui",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.861,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.308,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 4.578,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ai-dynamo/NIXL/Rongbing Zhou::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -36570,6 +37855,72 @@
         "infra: serving/inference, ascend"
       ],
       "base_priority": 4.562,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Zheming Li::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Zheming Li",
+        "name": "Zheming Li",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.836,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.253,
+        "redundancy_penalty": 0.308,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 4.553,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -37824,6 +39175,204 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Jialei Cui::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+        "name": "Jialei Cui",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.821,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.821,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Weiran He::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Weiran He",
+        "name": "Weiran He",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.813,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.813,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Zheming Li::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Zheming Li",
+        "name": "Zheming Li",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.803,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.803,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/Georgia Institute of Technology/Georgia Institute of Technology::projects",
       "action_key": "school:projects:project+community",
       "source": {
@@ -38352,6 +39901,72 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+        "name": "Xinran Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.786,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.844,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.786,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -39391,6 +41006,73 @@
       }
     },
     {
+      "action_id": "company/阿里巴巴/阿里巴巴::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/阿里巴巴/阿里巴巴",
+        "name": "阿里巴巴",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "verification",
+      "priority": 4.717,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 11.3,
+        "novelty": 1.0,
+        "frontier_potential": 0.25,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.222,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types",
+        "bridge 11.3",
+        "missing source URLs"
+      ],
+      "base_priority": 4.717,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/flagos-ai/FlagOS/赵英利 Yingli Zhao::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -39959,73 +41641,6 @@
         "infra: serving/inference"
       ],
       "base_priority": 4.697,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/阿里巴巴/阿里巴巴::academic_links",
-      "action_key": "company:academic_links:school+research",
-      "source": {
-        "id": "company/阿里巴巴/阿里巴巴",
-        "name": "阿里巴巴",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "academic_links",
-      "target_families": [
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_research_partnership_page",
-        "paper_affiliation"
-      ],
-      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
-      "bucket": "verification",
-      "priority": 4.693,
-      "cost": 1.5,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.95,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 10.857,
-        "novelty": 1.0,
-        "frontier_potential": 0.258,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.217,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Company",
-        "infra: serving/inference, kv-cache",
-        "opens underrepresented target types",
-        "bridge 10.9",
-        "missing source URLs"
-      ],
-      "base_priority": 4.693,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -43224,6 +44839,71 @@
       }
     },
     {
+      "action_id": "community/radixark/Miles/Miles::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/radixark/Miles/Miles",
+        "name": "Miles",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 4.476,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.022,
+        "novelty": 0.5,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.348,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 6.0"
+      ],
+      "base_priority": 4.476,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ai-dynamo/Dynamo/Stefan Schimanski::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -46251,7 +47931,7 @@
       ],
       "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
       "bucket": "verification",
-      "priority": 4.339,
+      "priority": 4.343,
       "cost": 0.8,
       "coverage": {
         "existing": 1,
@@ -46262,11 +47942,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 0.8,
         "url_count": 1,
-        "bridge_score": 10.135,
+        "bridge_score": 10.194,
         "novelty": 0.0,
         "frontier_potential": 1.15,
         "uncertainty": 0.5,
-        "redundancy_penalty": 0.159,
+        "redundancy_penalty": 0.161,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.0,
@@ -46277,7 +47957,7 @@
         "source coverage 1/2",
         "evidence quality below target"
       ],
-      "base_priority": 4.339,
+      "base_priority": 4.343,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -53462,70 +55142,6 @@
       }
     },
     {
-      "action_id": "company/趋境科技/卢佳豪 Jiahao Lu::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "company/趋境科技/卢佳豪 Jiahao Lu",
-        "name": "卢佳豪",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 3.86,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 1.95,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 8.707,
-        "novelty": 0.0,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.557,
-        "redundancy_penalty": 0.294,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache",
-        "bridge 8.7"
-      ],
-      "base_priority": 3.86,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/电子科技大学/电子科技大学::verify_evidence",
       "action_key": "school:verify_evidence:none",
       "source": {
@@ -53662,7 +55278,7 @@
       ],
       "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
       "bucket": "verification",
-      "priority": 3.842,
+      "priority": 3.852,
       "cost": 0.8,
       "coverage": {
         "existing": 1,
@@ -53673,11 +55289,11 @@
         "infra_relevance": 2.5,
         "evidence_quality": 0.8,
         "url_count": 1,
-        "bridge_score": 7.22,
+        "bridge_score": 7.372,
         "novelty": 0.0,
         "frontier_potential": 1.15,
         "uncertainty": 0.5,
-        "redundancy_penalty": 0.11,
+        "redundancy_penalty": 0.115,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.0,
@@ -53688,7 +55304,7 @@
         "source coverage 1/2",
         "evidence quality below target"
       ],
-      "base_priority": 3.842,
+      "base_priority": 3.852,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -55272,69 +56888,6 @@
         "evidence quality below target"
       ],
       "base_priority": 3.659,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/趋境科技/艾智远 Zhiyuan Ai::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "company/趋境科技/艾智远 Zhiyuan Ai",
-        "name": "艾智远",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 3.656,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 1.95,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 5.672,
-        "novelty": 0.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.557,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache"
-      ],
-      "base_priority": 3.656,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -57099,72 +58652,6 @@
         "evidence quality below target"
       ],
       "base_priority": 3.526,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/趋境科技/艾智远 Zhiyuan Ai::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "company/趋境科技/艾智远 Zhiyuan Ai",
-        "name": "艾智远",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploitation",
-      "priority": 3.521,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.95,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 5.672,
-        "novelty": 0.667,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.465,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 3.521,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -58971,70 +60458,6 @@
         "evidence quality below target"
       ],
       "base_priority": 3.454,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/kvcache-ai/Mooncake/马腾 Teng Ma::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/kvcache-ai/Mooncake/马腾 Teng Ma",
-        "name": "马腾",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 3.447,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 8.522,
-        "novelty": 0.0,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.253,
-        "redundancy_penalty": 0.404,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
-        "bridge 8.5"
-      ],
-      "base_priority": 3.447,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -63421,6 +64844,70 @@
       }
     },
     {
+      "action_id": "company/趋境科技/卢佳豪 Jiahao Lu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/趋境科技/卢佳豪 Jiahao Lu",
+        "name": "卢佳豪",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.097,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 8.707,
+        "novelty": 0.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.374,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "bridge 8.7"
+      ],
+      "base_priority": 3.097,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/sgl-project/SpecForge/SpecForge::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -64353,6 +65840,66 @@
       }
     },
     {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::verify_evidence",
+      "action_key": "person:verify_evidence:none",
+      "source": {
+        "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+        "name": "Xinran Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 2.913,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.75,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.035,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 2.913,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ray-project/Ray/Ray::verify_evidence",
       "action_key": "project:verify_evidence:none",
       "source": {
@@ -64456,6 +66003,69 @@
         "evidence quality below target"
       ],
       "base_priority": 2.901,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/趋境科技/艾智远 Zhiyuan Ai::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/趋境科技/艾智远 Zhiyuan Ai",
+        "name": "艾智远",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 2.894,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 5.672,
+        "novelty": 0.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.374,
+        "redundancy_penalty": 0.348,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 2.894,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -72428,6 +74038,6 @@
       }
     }
   },
-  "eligible_count": 1066,
+  "eligible_count": 1090,
   "suppressed_count": 27
 }

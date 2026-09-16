@@ -3,6 +3,7 @@ type: project
 name: SGLang
 linked_people:
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
+  - "community/kvcache-ai/Mooncake/Shangming Cai"
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
   - "community/sgl-project/SGLang/Shenggui Li"
   - "community/sgl-project/SGLang/Yineng Zhang"
@@ -58,6 +59,7 @@ https://github.com/sgl-project/sglang
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]]：[[SGLang]]：NVIDIA/model-specific optimization 与 CI 方向贡献者
+- [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：[[SGLang]]：PD disaggregation / CI 相关核心贡献者
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：[[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]]：**Alibaba Cloud 同事 + Mooncake Codeowner**。截至 2026-09 两人均公开关联 Alibaba Cloud，并共同维护 Mooncake；马腾偏项目生态/社区与云侧协作，Shangming Cai 负责 SGLang Integration。首次在 Alibaba Cloud 共事的精确月份公开未确认。
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。

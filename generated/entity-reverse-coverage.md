@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 160
-- Project/community nodes: 69
-- Project/community nodes with ≥1 linked person: 55
-- Project/community-person associations: 282
+- Company-person associations: 162
+- Project/community nodes: 73
+- Project/community nodes with ≥1 linked person: 56
+- Project/community-person associations: 293
 - Non-company affiliations recognized and routed elsewhere: 55
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -17,7 +17,7 @@
 | Company | Linked people |
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
-| [[company/趋境科技/趋境科技|趋境科技]] | 12 |
+| [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
@@ -29,11 +29,11 @@
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
+| [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
-| [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 4 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
@@ -56,10 +56,11 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 28 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 14 |
+| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
@@ -68,7 +69,6 @@
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
-| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
@@ -77,6 +77,7 @@
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/kvcache-ai/Mooncake/TENT|TENT]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |

@@ -2,12 +2,15 @@
 type: infra-project
 name: Checkpoint Engine
 company: 月之暗面
+linked_people: []
 areas: [reinforcement-learning, weight-transfer, checkpoint-loading, distributed-training, inference-serving, rdma]
 layer: training-serving-data-plane
 open_source: true
 repository: https://github.com/MoonshotAI/checkpoint-engine
 related_projects: [Mooncake, SGLang, vLLM, Kimi-K2]
 last_verified: "2026-09"
+linked_companies:
+  - "company/月之暗面/月之暗面"
 ---
 # Checkpoint Engine
 
@@ -26,3 +29,12 @@ P2P 更新路径直接依赖 [[community/kvcache-ai/Mooncake/Mooncake|Mooncake T
 - https://github.com/MoonshotAI/checkpoint-engine
 - https://github.com/kvcache-ai/Mooncake
 - https://arxiv.org/abs/2604.00368
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/月之暗面/月之暗面|月之暗面]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked project/community: 29
-- Project/community nodes: 64
-- Project/community nodes with ≥1 linked company: 40
-- Bidirectional association pairs: 56
-- Explicitly asserted on both sides: 56
+- Project/community nodes: 68
+- Project/community nodes with ≥1 linked company: 41
+- Bidirectional association pairs: 57
+- Explicitly asserted on both sides: 57
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -51,6 +51,7 @@
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[community/sii-research/VCCL/VCCL|VCCL]] | project | industry-research-co-development | both |
 | [[company/字节跳动/字节跳动|字节跳动]] | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | project | company-originated | both |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |

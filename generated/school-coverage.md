@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 252
+- Person nodes: 258
 - People with ≥1 school: 122
-- People without known school: 130
-- Coverage: 48.4%
+- People without known school: 136
+- Coverage: 47.3%
 - Person-school associations: 159
 - School nodes: 46
 - Audit errors: 0
@@ -49,53 +49,53 @@
 
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
-| 1 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.22 | 8 |
-| 2 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 6.635 | 5 |
-| 3 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
-| 4 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
-| 5 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
-| 6 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.35 | 7 |
-| 7 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
-| 8 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
-| 9 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
-| 10 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
-| 11 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
-| 12 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
-| 13 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
-| 14 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
-| 15 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
-| 16 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
-| 17 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
-| 18 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
-| 19 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
-| 20 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
-| 21 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
-| 22 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
-| 23 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
-| 24 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
-| 25 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
-| 26 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
-| 27 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
-| 28 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 29 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
-| 30 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
-| 31 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
-| 32 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
-| 33 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
-| 34 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
-| 35 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
-| 36 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
-| 37 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
-| 38 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 5.35 | 3 |
-| 39 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
-| 40 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
-| 41 | [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]] | 5.35 | 3 |
-| 42 | [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]] | 5.35 | 3 |
-| 43 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | 5.35 | 3 |
-| 44 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
-| 45 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
-| 46 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
-| 47 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |
-| 48 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |
-| 49 | [[community/ai-dynamo/NIXL/Efraim Eygin|Efraim Eygin]] | 4.935 | 2 |
-| 50 | [[community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat|Faraz Khoubsirat]] | 4.935 | 2 |
+| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 8.685 | 11 |
+| 2 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.22 | 8 |
+| 3 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 6.635 | 5 |
+| 4 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 6.52 | 8 |
+| 5 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
+| 6 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
+| 7 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
+| 8 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.35 | 7 |
+| 9 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
+| 10 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
+| 11 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
+| 12 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
+| 13 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
+| 14 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
+| 15 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
+| 16 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
+| 17 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
+| 18 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
+| 19 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
+| 20 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 5.935 | 5 |
+| 21 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
+| 22 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
+| 23 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
+| 24 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
+| 25 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
+| 26 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
+| 27 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
+| 28 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
+| 29 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
+| 30 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
+| 31 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 32 | [[community/Ascend/ops-transformer/Konstantin Berestizshevsky|Konstantin Berestizshevsky]] | 5.672 | 4 |
+| 33 | [[community/ai-dynamo/Dynamo/Matej Kosec|Matej Kosec]] | 5.672 | 4 |
+| 34 | [[community/ModelTC/LightLLM/Niu Shengxiao|Niu Shengxiao]] | 5.672 | 4 |
+| 35 | [[community/NVIDIA/TensorRT-LLM/Xin He|Xin He]] | 5.672 | 4 |
+| 36 | [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]] | 5.672 | 4 |
+| 37 | [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹]] | 5.672 | 4 |
+| 38 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 5.672 | 4 |
+| 39 | [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]] | 5.35 | 3 |
+| 40 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 5.35 | 3 |
+| 41 | [[community/vllm-project/vLLM/Patrick von Platen|Patrick von Platen]] | 5.35 | 3 |
+| 42 | [[community/NVIDIA/TensorRT-LLM/Xiao Wang|Xiao Wang]] | 5.35 | 3 |
+| 43 | [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]] | 5.35 | 3 |
+| 44 | [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]] | 5.35 | 3 |
+| 45 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | 5.35 | 3 |
+| 46 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
+| 47 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
+| 48 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
+| 49 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |
+| 50 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |

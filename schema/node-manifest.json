@@ -1,20 +1,20 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 465,
-  "complete_count": 465,
+  "node_count": 473,
+  "complete_count": 473,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 4,
     "company": 42,
     "index": 4,
-    "infra-project": 2,
+    "infra-project": 3,
     "model-project": 13,
     "model-team": 1,
-    "note": 21,
-    "person": 252,
+    "note": 19,
+    "person": 258,
     "person-link": 4,
-    "project": 62,
+    "project": 65,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 12,
@@ -967,10 +967,19 @@
       "missing_required": []
     },
     {
+      "id": "community/kvcache-ai/Mooncake/Jialei Cui",
+      "type": "person",
+      "source_markdown": "community/kvcache-ai/Mooncake/Jialei Cui.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Jialei Cui.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/kvcache-ai/Mooncake/Ke Yang",
-      "type": "note",
+      "type": "person",
       "source_markdown": "community/kvcache-ai/Mooncake/Ke Yang.md",
-      "schema_definition": "schema/note.yaml",
+      "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Ke Yang.yaml",
       "status": "complete",
       "missing_required": []
@@ -986,10 +995,46 @@
     },
     {
       "id": "community/kvcache-ai/Mooncake/Shangming Cai",
-      "type": "note",
+      "type": "person",
       "source_markdown": "community/kvcache-ai/Mooncake/Shangming Cai.md",
-      "schema_definition": "schema/note.yaml",
+      "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Shangming Cai.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/TENT",
+      "type": "project",
+      "source_markdown": "community/kvcache-ai/Mooncake/TENT.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/TENT.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/Weiran He",
+      "type": "person",
+      "source_markdown": "community/kvcache-ai/Mooncake/Weiran He.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Weiran He.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/Xinran Xu",
+      "type": "person",
+      "source_markdown": "community/kvcache-ai/Mooncake/Xinran Xu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Xinran Xu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/Zheming Li",
+      "type": "person",
+      "source_markdown": "community/kvcache-ai/Mooncake/Zheming Li.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/kvcache-ai/Mooncake/Zheming Li.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1026,6 +1071,15 @@
       "source_markdown": "community/lightseekorg/TokenSpeed/TokenSpeed.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/lightseekorg/TokenSpeed/TokenSpeed.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/lightseekorg/TorchSpec/TorchSpec",
+      "type": "project",
+      "source_markdown": "community/lightseekorg/TorchSpec/TorchSpec.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/lightseekorg/TorchSpec/TorchSpec.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1827,6 +1881,15 @@
       "source_markdown": "community/vllm-project/Jenga/Jenga.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/vllm-project/Jenga/Jenga.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/vllm-project/Speculators/Speculators",
+      "type": "project",
+      "source_markdown": "community/vllm-project/Speculators/Speculators.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/vllm-project/Speculators/Speculators.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2745,6 +2808,15 @@
       "source_markdown": "company/智谱/郑勤锴 Qinkai Zheng.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/company/智谱/郑勤锴 Qinkai Zheng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/月之暗面/checkpoint-engine",
+      "type": "infra-project",
+      "source_markdown": "company/月之暗面/checkpoint-engine.md",
+      "schema_definition": "schema/infra-project.yaml",
+      "schema_instance": "schema/nodes/company/月之暗面/checkpoint-engine.yaml",
       "status": "complete",
       "missing_required": []
     },
