@@ -141,7 +141,7 @@ LMCache 当前已明显从 CUDA-only 向多平台展开：
 - [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]：[[LMCache]]：核心维护、KV cache 系统设计、offloading / connector / 分层缓存
 - [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]：[[LMCache]]：KV cache offloading、connector、分层缓存与传输
 - [[company/腾讯/Baolong Mao|Baolong Mao]]：[[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：腾讯同事 + LMCache P2P / distributed cache 直接工程协作者。2026-01 LMCache 官方文章明确记录两位 Tencent 作者参与 multi-node CPU P2P KV sharing 的 productionization。
-- [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：[[company/腾讯/Baolong Mao|Baolong Mao]]：腾讯同事 + LMCache P2P / distributed cache 直接工程协作者，关系由官方 maintainer、CODEOWNERS 和 P2P 技术文章共同支撑。
+- [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：LMCache #4828：为 MP 模式加入 Unified LMCache Radix Cache connector；
 
 <!-- END AUTO PROJECT PEOPLE -->
 

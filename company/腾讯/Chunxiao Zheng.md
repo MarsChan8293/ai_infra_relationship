@@ -8,6 +8,8 @@ communities: [LMCache, SGLang]
 roles: [LMCache Committer, Component Owner, UnifiedRadixCache Integration Author]
 linked_companies:
   - "company/腾讯/腾讯"
+email_affiliations:
+  - "腾讯"
 areas: [kv-cache, distributed-kv-cache, memory-management, storage-backend, gds, p2p, sglang-integration, unified-radix-cache]
 confidence: verified
 last_verified: "2026-09"
@@ -48,6 +50,6 @@ LMCache 官方 `MAINTAINERS.md` 将 Chunxiao Zheng 列为 Tencent Committer。�
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/腾讯/腾讯|腾讯]]：人物页 `current_affiliations:` 明确记录。
+- [[company/腾讯/腾讯|腾讯]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->

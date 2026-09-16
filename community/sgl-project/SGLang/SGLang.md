@@ -19,6 +19,7 @@ linked_people:
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/盛颖 Ying Sheng"
+  - "company/腾讯/Chunxiao Zheng"
   - "university/UC Berkeley/Shiyi Cao"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
@@ -76,6 +77,7 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[SGLang]]：个人主页将 `sgl-project/sglang` 直接列在 Open Source 部分，并说明 RadixArk 团队由 SGLang creators / core developers 组成。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
+- [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：SGLang #38652：在 `UnifiedRadixCache` 中接入 LMCache external KV-cache backend。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
 
 <!-- END AUTO PROJECT PEOPLE -->
