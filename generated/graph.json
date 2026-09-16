@@ -3150,6 +3150,47 @@
       }
     },
     {
+      "id": "company/腾讯/Stary",
+      "path": "company/腾讯/Stary.md",
+      "name": "Stary",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "Stary",
+        "aliases": [
+          "staryxchen",
+          "@staryxchen"
+        ],
+        "current_affiliations": [
+          "腾讯"
+        ],
+        "linked_companies": "",
+        "communities": [
+          "Mooncake",
+          "FlexKV"
+        ],
+        "projects": [
+          "Mooncake",
+          "FlexKV"
+        ],
+        "roles": [
+          "Mooncake Transfer Engine Codeowner",
+          "FlexKV Collaborator"
+        ],
+        "areas": [
+          "kv-cache",
+          "data-movement",
+          "rdma",
+          "distributed-storage",
+          "llm-inference",
+          "gpu-communication"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "company/腾讯/腾讯",
       "path": "company/腾讯/腾讯.md",
       "name": "腾讯",
@@ -17807,6 +17848,11 @@
     },
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "company/腾讯/Stary",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "company/趋境科技/卢佳豪 Jiahao Lu",
       "kind": "wikilink"
     },
@@ -26171,6 +26217,26 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/腾讯/Stary",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/Stary",
+      "target": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/Stary",
+      "target": "company/腾讯/腾讯",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/Stary",
+      "target": "university/清华大学/Ruoyu Qin",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/腾讯/腾讯",
       "target": "community/Tencent/HPC-Ops/HPC-Ops",
       "kind": "wikilink"
@@ -26183,6 +26249,11 @@
     {
       "source": "company/腾讯/腾讯",
       "target": "company/腾讯/Chunxiao Zheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/腾讯/腾讯",
+      "target": "company/腾讯/Stary",
       "kind": "wikilink"
     },
     {
@@ -30563,14 +30634,24 @@
       ],
       "bridge_score": 6.022
     },
+    "company/腾讯/Stary": {
+      "degree": 4,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.872
+    },
     "company/腾讯/腾讯": {
-      "degree": 3,
+      "degree": 4,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 5.672
     },
     "company/趋境科技/Hongbo Kang": {
       "degree": 7,
@@ -32336,15 +32417,15 @@
       "bridge_score": 9.187
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 55,
-      "cross_category_degree": 17,
+      "degree": 56,
+      "cross_category_degree": 18,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 17.757
+      "bridge_score": 18.133
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -32435,14 +32516,14 @@
       "bridge_score": 3.085
     },
     "community/kvcache-ai/Mooncake/任峰 Feng Ren": {
-      "degree": 12,
-      "cross_category_degree": 5,
+      "degree": 13,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.95
+      "bridge_score": 10.407
     },
     "community/kvcache-ai/Mooncake/马腾 Teng Ma": {
       "degree": 12,
@@ -34046,14 +34127,14 @@
       "bridge_score": 12.948
     },
     "university/清华大学/Ruoyu Qin": {
-      "degree": 11,
-      "cross_category_degree": 7,
+      "degree": 12,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.535
+      "bridge_score": 11.0
     },
     "university/清华大学/Weimin Zheng": {
       "degree": 7,

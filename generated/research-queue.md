@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1267
-- Eligible actions: 1241
+- Candidate actions: 1270
+- Eligible actions: 1244
 - Cooldown-suppressed: 26
 - History records: 30
 - Selected actions: 10
@@ -88,7 +88,7 @@
 | [[university/清华大学/FastDecode|FastDecode]] | originating_org | success | 2026-09-17 | 8.037 |
 | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 7.208 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 7.166 |
-| [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.771 |
+| [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.747 |
 | [[university/浙江大学/Zheng Li|Zheng Li]] | project_contribution | success | 2026-09-17 | 6.408 |
 | [[university/上海交通大学/Rong Chen|Rong Chen]] | project_contribution | success | 2026-09-17 | 6.204 |
 | [[community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu|管文宇]] | affiliation | success | 2026-09-17 | 6.146 |

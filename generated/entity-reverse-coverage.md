@@ -4,14 +4,14 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked person: 36
-- Company-person associations: 190
+- Company-person associations: 191
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 189
+- People with generated linked_companies: 190
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 365
+- Project/community-person associations: 366
 - Non-company affiliations recognized and routed elsewhere: 58
-- Unresolved source values (backlog, non-fatal): 0
+- Unresolved source values (backlog, non-fatal): 2
 - Audit errors: 0
 
 ## Companies
@@ -40,12 +40,12 @@
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
+| [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
-| [[company/腾讯/腾讯|腾讯]] | 2 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
 | [[company/Databricks/Databricks|Databricks]] | 1 |
 | [[company/HPE/HPE|HPE]] | 1 |
@@ -61,8 +61,8 @@
 | --- | ---: |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 24 |
+| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 20 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
-| [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 19 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 15 |
@@ -123,3 +123,10 @@
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
+
+## Unresolved source values
+
+这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
+
+- `company/腾讯/Stary.md` · `projects` → `FlexKV`
+- `company/腾讯/Stary.md` · `communities` → `FlexKV`

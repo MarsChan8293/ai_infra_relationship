@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 364
-- Person nodes with typed relations: 116 / 302
+- Person nodes with typed relations: 116 / 303
 - Hard errors: 0
 - Warnings: 6
 
@@ -44,30 +44,30 @@
 | 14 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
 | 15 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 8.200 | 7 | 1 | 0 |
 | 16 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
-| 17 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
-| 18 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
-| 19 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
-| 20 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
-| 21 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
-| 22 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 | 2 | 0 |
-| 23 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
-| 24 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
-| 25 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.520 | 8 | 4 | 0 |
-| 26 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.520 | 8 | 4 | 0 |
-| 27 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
-| 28 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
-| 29 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
-| 30 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
-| 31 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
-| 32 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
-| 33 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
-| 34 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
-| 35 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
-| 36 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
-| 37 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
-| 38 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
-| 39 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
-| 40 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 | 3 | 0 |
+| 17 | [[company/腾讯/Stary|Stary]] | 7.872 | 4 | 2 | 0 |
+| 18 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
+| 19 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
+| 20 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
+| 21 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
+| 22 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
+| 23 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 | 2 | 0 |
+| 24 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
+| 25 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
+| 26 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.520 | 8 | 4 | 0 |
+| 27 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.520 | 8 | 4 | 0 |
+| 28 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
+| 29 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
+| 30 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
+| 31 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
+| 32 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
+| 33 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
+| 34 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
+| 35 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
+| 36 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
+| 37 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
+| 38 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
+| 39 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
+| 40 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
 
 ## Structured bridge nodes
 
@@ -89,15 +89,15 @@
 | [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.350 | 7 | 7 | 100.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |
+| [[university/清华大学/Ruoyu Qin|秦若愚]] | 11.000 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
-| [[university/清华大学/Ruoyu Qin|秦若愚]] | 10.535 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
+| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 10.407 | 4 | 1 | 25.0% |
 | [[company/清程极智/郑纬民 Weimin Zheng|郑纬民]] | 10.300 | 4 | 2 | 50.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
-| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 9.950 | 4 | 1 | 25.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
