@@ -53890,6 +53890,66 @@
       }
     },
     {
+      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+        "name": "MindIE-Motor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.219,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 8.522,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.115,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 4.219,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/verl-project/VeRL-Omni/VeRL-Omni::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -53937,66 +53997,6 @@
         "infra: scheduler, distributed, ascend"
       ],
       "base_priority": 4.218,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-        "name": "MindIE-Motor",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.209,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.37,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.11,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 4.209,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -77235,7 +77235,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "bridge",
-      "priority": 9.342,
+      "priority": 9.349,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -77246,11 +77246,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 8.522,
+        "bridge_score": 8.37,
         "novelty": 1.0,
-        "frontier_potential": 0.364,
+        "frontier_potential": 0.383,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.184,
+        "redundancy_penalty": 0.176,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -77263,10 +77263,10 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
-        "bridge 8.5",
+        "bridge 8.4",
         "cooldown active (unresolved, 7d remaining)"
       ],
-      "base_priority": 9.39,
+      "base_priority": 9.397,
       "eligible": false,
       "history": {
         "exact_attempts": 1,
@@ -78052,7 +78052,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 7.125,
+      "priority": 7.118,
       "cost": 0.9,
       "coverage": {
         "existing": 1,
@@ -78063,11 +78063,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 0.8,
         "url_count": 1,
-        "bridge_score": 8.37,
+        "bridge_score": 8.522,
         "novelty": 0.0,
-        "frontier_potential": 0.383,
+        "frontier_potential": 0.364,
         "uncertainty": 0.586,
-        "redundancy_penalty": 0.314,
+        "redundancy_penalty": 0.323,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.048,
@@ -78079,10 +78079,10 @@
         "coverage 1/4",
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
-        "bridge 8.4",
+        "bridge 8.5",
         "cooldown active (unresolved, 7d remaining)"
       ],
-      "base_priority": 7.173,
+      "base_priority": 7.166,
       "eligible": false,
       "history": {
         "exact_attempts": 1,

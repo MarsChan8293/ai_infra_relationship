@@ -78,7 +78,7 @@
 | Source | Action | Latest outcome | Eligible after | Base |
 | --- | --- | --- | --- | ---: |
 | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | maintainers | unresolved | 2026-09-23 | 9.418 |
-| [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | maintainers | unresolved | 2026-09-23 | 9.390 |
+| [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | maintainers | unresolved | 2026-09-23 | 9.397 |
 | [[community/QingCheng-AI/ascend-kernel/ascend-kernel|ascend-kernel]] | maintainers | unresolved | 2026-09-23 | 9.202 |
 | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | maintainers | unresolved | 2026-09-23 | 9.182 |
 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | maintainers | unresolved | 2026-09-23 | 8.929 |
@@ -88,7 +88,7 @@
 | [[university/清华大学/FastDecode|FastDecode]] | originating_org | success | 2026-09-17 | 8.037 |
 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 7.657 |
 | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 7.208 |
-| [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 7.173 |
+| [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 7.166 |
 | [[company/腾讯/腾讯|腾讯]] | projects | success | 2026-09-17 | 6.771 |
 | [[university/浙江大学/Zheng Li|Zheng Li]] | project_contribution | success | 2026-09-17 | 6.408 |
 | [[university/上海交通大学/Rong Chen|Rong Chen]] | project_contribution | success | 2026-09-17 | 6.204 |
