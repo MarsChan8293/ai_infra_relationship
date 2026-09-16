@@ -3,6 +3,7 @@ type: person
 name: Matthew Bonanni
 aliases: [MatthewBonanni]
 current_affiliations: ["Red Hat"]
+public_email: mbonanni@redhat.com
 schools:
   - "Stanford University"
 communities: [vLLM]
@@ -10,11 +11,14 @@ education: [Stanford University]
 roles: [Machine Learning Engineer, vLLM Maintainer]
 linked_companies:
   - "company/Red Hat/Red Hat"
+last_verified: "2026-09"
 ---
 # Matthew Bonanni
 
 社区：[[vLLM]]
 当前：[[Red Hat]] Machine Learning Engineer / vLLM Maintainer
+
+公开职业邮箱：`mbonanni@redhat.com`。vLLM 的 2026 年公开提交 trailer 多次直接使用该地址。
 
 ## 背景
 Matthew Bonanni 于 2025 年完成 Stanford PhD，研究背景来自 high-performance computing / massively parallel simulation。2025-07 起在 Red Hat 从事 LLM inference acceleration，并作为 vLLM Maintainer 参与开源推理引擎开发。
@@ -29,6 +33,8 @@ Matthew Bonanni 于 2025 年完成 Stanford PhD，研究背景来自 high-perfor
 - https://matthewbonanni.github.io/
 - https://matthewbonanni.github.io/experience/
 - https://github.com/MatthewBonanni
+- https://github.com/vllm-project/vllm/commit/79e205e8cdf7864b8b9f2d23c908b887f2f5badb
+- https://github.com/vllm-project/vllm/commit/5f2ee2fa8c59d9f9cddd07c79806e6418b0d841a
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
