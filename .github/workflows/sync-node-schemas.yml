@@ -77,8 +77,8 @@ jobs:
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
 
-      - name: Build gap-aware research priority queue
-        run: python3 scripts/generate-research-queue.py --root . --generated generated --limit 60
+      - name: Build heterogeneous ecosystem research action queue
+        run: python3 scripts/generate-research-queue.py --root . --generated generated --budget 10 --limit 60
 
       - name: Validate person-school coverage
         run: python3 scripts/audit-school-links.py --root . --generated generated
@@ -117,7 +117,7 @@ jobs:
             generated/audit.json generated/graph.json
             generated/typed-edges.json generated/typed-relations-audit.json
             generated/relation-coverage.json generated/typed-relation-coverage.md
-            generated/research-queue.md generated/research-priority.json
+            generated/research-queue.md generated/research-actions.json generated/research-priority.json
             generated/school-coverage.md generated/school-coverage.json
             generated/school-reverse-coverage.md generated/school-reverse-coverage.json
             generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json
@@ -126,7 +126,7 @@ jobs:
           )
 
           if [[ -z "$(git status --porcelain -- "${TRACKED[@]}")" ]]; then
-            echo "Markdown, core graph artifacts, research priority queue, bidirectional entity links, coverage reports, and node schemas already synchronized."
+            echo "Markdown, core graph artifacts, ecosystem research actions, bidirectional entity links, coverage reports, and node schemas already synchronized."
             exit 0
           fi
 
