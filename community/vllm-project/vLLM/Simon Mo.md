@@ -2,6 +2,7 @@
 type: person
 name: Simon Mo
 current_affiliations: ["Inferact"]
+public_email: simon@inferact.ai
 schools:
   - "UC Berkeley"
 communities: [vLLM, "Ray Serve"]
@@ -24,6 +25,8 @@ relations:
 
 社区：[[vLLM]] · [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]]
 当前：[[Inferact]] 联合创始人、CEO
+
+公开职业邮箱：`simon@inferact.ai`。2026-07 的多个 vLLM 公共提交直接使用该地址；早期/其他提交也出现个人邮箱，因此 canonical 联系字段优先采用企业邮箱。
 
 ## 教育经历
 - [[UC Berkeley]]：计算机博士；2026 dissertation《Building Open Source Inference Serving Systems》，导师 [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]、[[company/Inferact/Ion Stoica|Ion Stoica]]
@@ -52,6 +55,7 @@ vLLM Lead Maintainer；公开资料显示自 2023 起 co-lead vLLM community，�
 - https://inferact.ai/
 - https://docs.vllm.ai/en/latest/governance/process/
 - https://vllm.ai/blog/2026-07-16-keeping-vllm-production-quality
+- https://github.com/vllm-project/vllm/commit/72d16aee1576283444352583f36ae65b8ff58455
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
