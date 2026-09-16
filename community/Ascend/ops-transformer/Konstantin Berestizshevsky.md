@@ -2,12 +2,21 @@
 type: person
 name: Konstantin Berestizshevsky
 aliases: [kostyab]
+current_affiliations: ["华为"]
 communities: [ops-transformer]
+roles: [Senior Researcher]
 areas: [ascendc, sparse-attention, kv-cache, llm-decoding]
+confidence: verified
+last_verified: "2026-09"
 ---
 # Konstantin Berestizshevsky
 
-GitCode handle：`kostyab`
+GitCode handle：`kostyab`。
+
+## 当前关联
+个人学术主页明确写明其当前为 **Senior Researcher at Huawei in Zurich**，并列出 2021 年至今从 intern、postdoc 到 Senior Researcher 的 Huawei Zurich Research Center / Computing Systems Lab 经历。因此本图谱将其当前 affiliation 记录为 [[company/华为/华为|华为]]。
+
+其主页还明确列出 Tel Aviv University 的博士、硕士和本科学习经历。仓库目前尚无该校 canonical school 节点，因此这轮把教育事实保留在正文，不创建悬空的结构化 `schools:` 引用。
 
 ## 推理优化贡献
 - 2026 年在 CANN `ops-transformer` 贡献 Quest-based block-sparse attention predictor 的 AscendC kernel。
@@ -19,4 +28,5 @@ GitCode handle：`kostyab`
 - [[tangkaidi]]：**同一 CANN attention kernel 社区贡献者；2026**。二人均在 `ops-transformer` 的稀疏 attention / BlockSparseAttention 技术层贡献；尚未确认直接共同 MR。
 
 ## Sources
+- https://sites.google.com/view/kostya-phd/home
 - https://gitcode.com/cann/ops-transformer/tree/master/experimental/select_attention_operators
