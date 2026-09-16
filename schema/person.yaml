@@ -7,6 +7,7 @@ recommended:
   - english_name
   - aliases
   - current_affiliations
+  - public_email
   - schools
   - communities
   - areas
@@ -28,6 +29,9 @@ fields:
   current_affiliations:
     type: array[string]
     description: Current company, lab, university, or organization canonical names.
+  public_email:
+    type: string
+    description: Publicly disclosed professional/contact email with direct source evidence. Do not infer addresses from names or organization email patterns; prefer work/institutional addresses over personal mailboxes.
   schools:
     type: array[string]
     description: Canonical school names with a verifiable education, employment, postdoc, or visiting-research association. This field does not by itself imply degree, advisor, classmate, or same-lab relations.
@@ -62,6 +66,8 @@ legacy_migration:
   education: schools
 notes:
   - Existing pages are migrated incrementally. Legacy fields currently produce warnings rather than hard CI failures.
+  - `public_email` must come from explicit public evidence such as an official profile, paper, project commit/sign-off, or maintainer record; never synthesize or guess an address.
+  - Prefer work or institutional email in `public_email`. Personal QQ/Gmail/Outlook addresses found only in commit metadata should normally remain evidence rather than the canonical contact field when a professional address is unavailable.
   - Legacy `education` institutions are migrated into `schools` while the original field can remain during migration; `schools` is the canonical graph association.
   - `schools` is a weak entity association only. It must not be used to infer advisor/student, classmate, same-lab, or degree claims without separate evidence.
   - Person-to-person prose relations must still explain relation type, time/context, and evidence. Structured relations complement prose; they do not replace it.
