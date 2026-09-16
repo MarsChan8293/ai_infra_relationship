@@ -26,7 +26,7 @@ company_relation: research-to-startup-core-network
 layer: kv-cache-management
 open_source: true
 repository: https://github.com/LMCache/LMCache
-areas: [kv-cache, distributed-kv-cache, offloading, storage-backend, p2p, disaggregated-serving, vllm-integration, sglang-integration]
+areas: [kv-cache, distributed-kv-cache, offloading, storage-backend, p2p, disaggregated-serving, multiprocess, cacheblend, vllm-integration, sglang-integration, ascend, rocm, cxl]
 people:
   - "company/TensorMesh/Junchen Jiang"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
@@ -44,46 +44,77 @@ linked_companies:
 # LMCache
 
 ## 项目简介
-LMCache 是 LLM KV cache 的分层存储、传输、共享与复用系统，把 KV 从单 GPU HBM 扩展到 CPU、远端存储和跨实例/跨节点数据路径，并通过 connector 接入主流 serving engine。到 2026 年，其技术重点已从单进程 offload 扩展到 multiprocess（MP）架构、distributed KV、P2P sharing、PD disaggregation、KV management interface 和多硬件/多存储后端。
+LMCache 是 LLM KV cache 的分层存储、传输、共享与复用系统，把 KV 从单 GPU HBM 扩展到 CPU、远端存储和跨实例/跨节点数据路径，并通过 connector 接入主流 serving engine。到 2026 年，其技术重点已从单进程 offload 扩展到 multiprocess（MP）架构、distributed KV、P2P sharing、PD disaggregation、CacheBlend / sparse KV reuse、KV management interface 和多硬件/多存储后端。
 
 ## 当前治理 / 维护网络
 官方 `MAINTAINERS.md` 当前列出 10 名 Committer，包括 Yihua Cheng、Jiayi Yao、Kuntai Du、Martin Hickey、Hunter Zhang、Baolong Mao、Chunxiao Zheng、Shaoting Feng、Samuel Shen、Dongjoo Seo。
 
-当前 `CODEOWNERS` 进一步把责任细化到 core engine、cache controller、multiprocess、distributed/L2、GPU connector、platform、lookup client、storage backends、serving-engine integrations、C extensions、operator、ROCm、CI 等模块。这比单纯 contributor list 更适合构建本图谱的 maintainer / component-owner 强边。
+当前 `CODEOWNERS` 进一步把责任细化到 core engine、cache controller、multiprocess、distributed/L2、GPU connector、platform、lookup client、storage backends、serving-engine integrations、C extensions、operator、ROCm、CI 等模块。这一层比 contributor list 更适合构建 maintainer / component-owner 强边。
 
-## 关键人物
-- [[company/TensorMesh/程翊华 Yihua Cheng|程翊华（Yihua Cheng）]]、[[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰（Kuntai Du）]]、[[company/TensorMesh/Jiayi Yao|Jiayi Yao]]：UChicago / TensorMesh / LMCache 核心研究与工程网络。
-- [[community/LMCache/LMCache/Samm Shen|Samuel Shen]]：TensorMesh Software Engineer；横跨 LMCache 的 vLLM、SGLang、TensorRT-LLM integration ownership。
-- [[company/腾讯/Baolong Mao|Baolong Mao]]、[[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：Tencent Committer；distributed/L2、storage、platform 与 P2P 路径核心工程网络。
-- [[community/LMCache/LMCache/Shaoting Feng|Shaoting Feng]]：UChicago Committer；GPU/GDS、SGLang integration 与 vLLM multimodal KV caching 桥梁。
-- [[company/IBM/Martin Hickey|Martin Hickey]]：IBM Committer；non-CUDA、KV events、tests/CI/packaging，并直接向 vLLM 修复 LMCache connector。
+## 2026 新增工程骨架
+- [[community/LMCache/LMCache/Tony Lin|Tony Lin（hlin99）]]：Intel；distributed eviction、GPU connector、platform、storage backend、vLLM integration 等跨模块 CODEOWNER。
+- [[community/LMCache/LMCache/Andy Luo|Andy Luo（andyluo7）]]：AMD；ROCm / AMD Instinct、GPU connector、MP、ATOM 与 packaging 路线。
+- [[community/LMCache/LMCache/Dongjoo Seo|Dongjoo Seo（DongDongJu）]]：Samsung Committer；MP、distributed/L2、DAX/CXL、SGLang、C extensions、Rust / operator。
+- [[community/LMCache/LMCache/Oasis-Git|Oasis-Git]]：MP observability、L1/L2 telemetry、fault tolerance 与 SGLang integration。
+- [[community/LMCache/LMCache/Roy Huang|Roy Huang]]：isolated CUDA IPC、VMM IPC、MP observability、operator → vLLM deployment。
+- [[community/LMCache/LMCache/Rui Zhang|Rui Zhang]]：MP coordinator / control plane、operator 与 CLI。
+- [[community/LMCache/LMCache/Zhengfei He|Zhengfei He]]：distributed/L2、Valkey、NIXL、storage backend 与 transfer profiling。
+- [[community/LMCache/LMCache/deng451e|deng451e]]：CacheBlend、sparse prefetch 与 vLLM integration；身份只保留公开 handle，不推断公司。
+- [[community/LMCache/LMCache/chloroethylene|chloroethylene]]：LMCache ↔ vLLM-Ascend 的 Ascend MP / KV format / connector 桥节点。
 
 ## Serving Engine 关系
 ### vLLM
-LMCache 与 vLLM 已是双向工程集成关系，而不是单纯外部插件。vLLM 自身保留 `LMCacheConnectorV1`；Jiayi Yao、Baolong Mao、Samuel Shen、Martin Hickey 等都有可核验的 vLLM 侧直接 commit 或 connector 维护证据。
+LMCache 与 vLLM 已是双向工程集成关系，而不是单纯外部插件。vLLM 自身保留 `LMCacheConnectorV1`；Jiayi Yao、Baolong Mao、Samuel Shen、Martin Hickey 等都有可核验的 vLLM 侧直接 commit 或 connector 维护证据。Tony Lin、deng451e 等当前也直接 ownership `lmcache/integration/vllm/` 路径。
 
 ### SGLang
-LMCache 当前仓库有独立 `lmcache/integration/sglang/` 路径，CODEOWNERS 包括 Samuel Shen、Shaoting Feng 等。2026 Q3 roadmap 继续推进 SGLang MP async store/retrieve 与 HiCache integration。
+LMCache 已有独立 `lmcache/integration/sglang/` 路径。当前最值得跟踪的是 Chunxiao Zheng 发起的 **UnifiedRadixCache ↔ LMCache MP** 双仓集成：LMCache PR #4828 与 SGLang PR #38652 截至 2026-09-16 均为 open。PR 中已给出 DeepSeek-V4-Flash 与 Qwen-3.5-27B 的 prefix reuse、filesystem-hit 与 accuracy 验证，但在合入前仍标记为 active integration，不写成稳定发布能力。
 
-### TensorRT-LLM
-当前 `lmcache/integration/tensorrt_llm/` 由 Samuel Shen ownership，形成第三条主 serving-engine 集成线。
+### TensorRT-LLM / ATOM
+`lmcache/integration/tensorrt_llm/` 已有独立 adapter 与 ownership；2026 年 MP 架构又扩展到 ATOM。LMCache 正从“vLLM 的 KV offload 插件”逐步变成可跨多个 serving engine 的共享 cache runtime。
+
+## Ascend / vLLM-Ascend
+Ascend 路线已经从 roadmap 进入 upstream implementation：
+- 2026-03，[[community/LMCache/LMCache/chloroethylene|chloroethylene]] 向 vLLM-Ascend 合入 `LMCacheAscendConnector`（vLLM-Ascend #6882）；
+- LMCache #3968 于 2026-08-27 合入，将 Ascend NPU 纳入 MP platform，并识别 vLLM-Ascend per-layer `(K,V)` KV format；
+- LMCache #4763 于 2026-09-01 合入，通过 AscendCL `aclrtHostRegister` 提供 NPU pinned-memory backend，让 MP gather/scatter 的 D2H/H2D 可真正异步；
+- LMCache #5138 截至 2026-09-16 仍 open，继续处理 vLLM-Ascend MLA / DSA plane tuples，并报告 Ascend 910B roundtrip / detection 验证。
+
+因此当前最合理的图谱语义是 **active upstream integration**，而不是“规划中”或“已全部成熟”。
 
 ## Storage / 数据路径关系
-- **Mooncake Store**：LMCache 当前有 MooncakeStore L2 adapter、storage connector、lookup client；Baolong Mao / Chunxiao Zheng 在这些路径有明确 CODEOWNERS。这里表示 LMCache 侧技术集成，不等价于二人是 Mooncake maintainer。
-- **Redis / S3 / filesystem / native L2**：当前均有独立 connector / adapter ownership。
-- **3FS**：进入 2026 Q3 roadmap 的新 storage support，当前仍是 roadmap 状态，不标记为成熟 integration。
+- **Mooncake Store**：LMCache 有 MooncakeStore L2 adapter、storage connector、lookup client；Baolong Mao / Chunxiao Zheng 在这些路径有明确 CODEOWNERS。这里表示 LMCache 侧技术集成，不等价于二人是 Mooncake maintainer。
+- **Valkey / Redis / S3 / filesystem / native L2**：形成越来越清晰的 L2 adapter 层；Zhengfei He 直接推进 Valkey standalone / cluster adapter。
+- **Device-DAX / CXL**：Dongjoo Seo 持续推进 DAX hotplug、DAX L2 batching 等路线。#4338 曾验证 coordinator-owned shared Device-DAX L1 与 SGLang → vLLM 跨节点 KV sharing，但该 PR 已于 2026-09-14 closed、未合入，因此只保留为实验性证据，不标记为当前稳定能力。
+- **CacheBlend / sparse reuse**：`deng451e` 持续推进 fused-KV geometry、blend-rate correctness 与 sparse-prefetch 生命周期，是 LMCache 从 prefix-only reuse 向更细粒度 KV reuse 扩展的重要路线。
 
 ## 硬件生态
-2026 Q3 roadmap 明确列出新 accelerator/platform 支持方向：Ascend、Moore Threads、MACA、AWS Trainium。当前应建“planned / in-progress integration”语义，不能提前写成成熟支持。
+LMCache 当前已明显从 CUDA-only 向多平台展开：
+- **AMD / ROCm**：[[community/LMCache/LMCache/Andy Luo|Andy Luo]] 已进入 ROCm 相关 CODEOWNERS；
+- **Ascend NPU**：已有合入的 MP platform / pinned-memory 支持，并持续补 MLA/DSA KV format；
+- **Intel**：[[community/LMCache/LMCache/Tony Lin|Tony Lin]] 横跨 platform / connector / distributed 路径；
+- **Samsung / CXL-DAX**：[[community/LMCache/LMCache/Dongjoo Seo|Dongjoo Seo]] 推进存储级 KV cache 路线；
+- Moore Threads / MUSA、MetaX MACA、AWS Trainium 等也有持续工程工作，但这里暂不因硬件支持本身推断公司级 LMCache 治理关系。
 
-## TensorMesh 关系
-[[company/TensorMesh/TensorMesh|TensorMesh]] 由 LMCache 核心研究/工程网络产业化而来，并持续维护 LMCache。这里保留 `research-to-startup-core-network` 的公司级边；相反，Tencent / IBM 等当前只因为具体员工有维护贡献，因此不自动升级成公司级 LMCache 治理边。
+## TensorMesh 与公司关系原则
+[[company/TensorMesh/TensorMesh|TensorMesh]] 由 LMCache 核心研究/工程网络产业化而来，并持续维护 LMCache，因此保留 `research-to-startup-core-network` 公司级边。Tencent、IBM、Intel、AMD、Samsung、ByteDance 等虽然都有明确人物贡献或职业邮箱证据，但**员工参与不会自动升级为公司治理/所有权关系**；公司级项目边仍要求独立组织证据。
+
+## 下一轮 BFS
+优先追踪：
+1. UnifiedRadixCache 双仓 PR 的 reviewer / merge network，尤其 Chunxiao Zheng ↔ SGLang maintainers；
+2. `chloroethylene` 的 LMCache-Ascend / vLLM-Ascend review network，以及 #5138 后续落地；
+3. Dongjoo Seo / Rui Zhang / Zhengfei He 周围的 MP coordinator + DAX/CXL + L2 storage 子图；
+4. CacheBlend / sparse prefetch 与 SGLang SparDA 等更细粒度 KV reuse 路线。
 
 ## Sources
 - https://github.com/LMCache/LMCache
 - https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md
 - https://github.com/LMCache/LMCache/blob/dev/.github/CODEOWNERS
-- https://github.com/LMCache/LMCache/issues/4025
+- https://github.com/LMCache/LMCache/pull/4828
+- https://github.com/sgl-project/sglang/pull/38652
+- https://github.com/LMCache/LMCache/pull/3968
+- https://github.com/LMCache/LMCache/pull/4763
+- https://github.com/LMCache/LMCache/pull/5138
+- https://github.com/LMCache/LMCache/pull/4338
 - https://blog.lmcache.ai/en/2026/01/21/p2p-1/
 - https://blog.lmcache.ai/en/2025/03/31/cacheblend-best-paper-acm-eurosys25-enabling-100-kv-cache-hit-rate-in-rag/
 
