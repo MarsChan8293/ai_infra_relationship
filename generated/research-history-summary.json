@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-09-16",
+  "history_records": 20,
+  "suppressed_by_cooldown": 18,
+  "partial_followup_candidates": 2,
+  "latest_status_counts_in_current_candidates": {
+    "partial": 2,
+    "success": 8,
+    "unresolved": 8
+  },
+  "action_key_stats": {
+    "company:projects:project+community+team": {
+      "attempts": 2,
+      "statuses": {
+        "success": 2
+      },
+      "mean_status_value": 1.0,
+      "mean_reward": 7.5,
+      "reward_signal": 0.954,
+      "yield_adjustment": 0.115
+    },
+    "person:affiliation:company+school+research+team": {
+      "attempts": 2,
+      "statuses": {
+        "partial": 1,
+        "success": 1
+      },
+      "mean_status_value": 0.675,
+      "mean_reward": 3.25,
+      "reward_signal": 0.671,
+      "yield_adjustment": 0.079
+    },
+    "person:project_contribution:project+community": {
+      "attempts": 5,
+      "statuses": {
+        "success": 5
+      },
+      "mean_status_value": 1.0,
+      "mean_reward": 5.5,
+      "reward_signal": 0.88,
+      "yield_adjustment": 0.283
+    },
+    "project:maintainers:person": {
+      "attempts": 8,
+      "statuses": {
+        "unresolved": 8
+      },
+      "mean_status_value": -0.5,
+      "mean_reward": 0.0,
+      "reward_signal": 0.0,
+      "yield_adjustment": -0.131
+    },
+    "school:labs_or_groups:research+team": {
+      "attempts": 3,
+      "statuses": {
+        "partial": 1,
+        "success": 2
+      },
+      "mean_status_value": 0.783,
+      "mean_reward": 4.333,
+      "reward_signal": 0.794,
+      "yield_adjustment": 0.138
+    }
+  }
+}
