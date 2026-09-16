@@ -165,9 +165,7 @@
         "type": "company",
         "name": "Hugging Face",
         "linked_people": "",
-        "projects": [
-          "vLLM"
-        ],
+        "projects": "",
         "linked_projects": ""
       }
     },
@@ -7675,6 +7673,52 @@
         "roles": [
           "Original Paper Author"
         ]
+      }
+    },
+    {
+      "id": "community/ggml-org/ggml/ggml",
+      "path": "community/ggml-org/ggml/ggml.md",
+      "name": "ggml",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "ggml",
+        "linked_people": "",
+        "companies": [
+          "Hugging Face"
+        ],
+        "company_relation": "joined-hugging-face-maintainer-team",
+        "layer": "tensor-runtime",
+        "open_source": true,
+        "repository": "https://github.com/ggml-org/ggml",
+        "areas": [
+          "tensor-runtime",
+          "local-inference",
+          "edge-inference",
+          "quantization",
+          "gguf",
+          "cpu",
+          "gpu",
+          "npu",
+          "multi-backend",
+          "c-cpp"
+        ],
+        "hardware": [
+          "CPU",
+          "NVIDIA GPU",
+          "AMD GPU",
+          "Apple Silicon",
+          "Intel GPU",
+          "Intel NPU",
+          "Ascend NPU",
+          "RISC-V",
+          "WebAssembly"
+        ],
+        "governance": "ggml-org open-source community; Georgi Gerganov team joined Hugging Face in 2026 while projects remain open-source and community-governed",
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": ""
       }
     },
     {
@@ -17569,8 +17613,23 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/ggml-org/ggml/ggml",
+      "target": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/ggml/ggml",
+      "target": "company/Hugging Face/Hugging Face",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/ggml-org/llama.cpp/Georgi Gerganov",
       "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/Georgi Gerganov",
+      "target": "community/ggml-org/ggml/ggml",
       "kind": "wikilink"
     },
     {
@@ -22226,6 +22285,11 @@
     {
       "source": "company/HPE/HPE",
       "target": "community/ai-dynamo/NIXL/Ryan Hankins",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Hugging Face/Hugging Face",
+      "target": "community/ggml-org/ggml/ggml",
       "kind": "wikilink"
     },
     {
@@ -29997,13 +30061,13 @@
       "bridge_score": 5.7
     },
     "company/Hugging Face/Hugging Face": {
-      "degree": 6,
-      "cross_category_degree": 5,
+      "degree": 7,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.557
+      "bridge_score": 8.1
     },
     "company/IBM/IBM": {
       "degree": 13,
@@ -32669,7 +32733,7 @@
       ],
       "bridge_score": 6.7
     },
-    "community/ggml-org/llama.cpp/Georgi Gerganov": {
+    "community/ggml-org/ggml/ggml": {
       "degree": 2,
       "cross_category_degree": 1,
       "neighbor_categories": [
@@ -32677,6 +32741,15 @@
         "company"
       ],
       "bridge_score": 4.935
+    },
+    "community/ggml-org/llama.cpp/Georgi Gerganov": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.35
     },
     "community/hpcaitech/Colossal-AI/Colossal-AI": {
       "degree": 10,

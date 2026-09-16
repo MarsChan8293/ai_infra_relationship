@@ -4,10 +4,10 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked project/community: 29
-- Project/community nodes: 79
-- Project/community nodes with ≥1 linked company: 45
-- Bidirectional association pairs: 62
-- Explicitly asserted on both sides: 62
+- Project/community nodes: 80
+- Project/community nodes with ≥1 linked company: 46
+- Bidirectional association pairs: 63
+- Explicitly asserted on both sides: 63
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -20,6 +20,7 @@
 | [[company/Anyscale/Anyscale|Anyscale]] | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | project | core-commercial-ecosystem | both |
 | [[company/CoreWeave/CoreWeave|CoreWeave]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Google/Google|Google]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
+| [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/ggml/ggml|ggml]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/IBM/IBM|IBM]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Inferact/Inferact|Inferact]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |

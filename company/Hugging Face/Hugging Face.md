@@ -4,8 +4,11 @@ name: Hugging Face
 linked_people:
   - "community/ggml-org/llama.cpp/Georgi Gerganov"
   - "community/vllm-project/vLLM/Patrick von Platen"
-projects: [vLLM]
+projects:
+  - "vLLM"
+  - "ggml"
 linked_projects:
+  - "community/ggml-org/ggml/ggml"
   - "community/vllm-project/vLLM/vLLM"
 ---
 # Hugging Face
@@ -34,6 +37,7 @@ Hugging Face 是开放模型与机器学习工具生态公司，核心资产包�
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/ggml-org/ggml/ggml|ggml]]：公司页与社区/项目页均有显式记录；关系：`joined-hugging-face-maintainer-team`。
 - [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

@@ -1,6 +1,8 @@
 ---
 type: project
 name: ggml
+linked_people:
+  - "community/ggml-org/llama.cpp/Georgi Gerganov"
 companies: ["Hugging Face"]
 company_relation: joined-hugging-face-maintainer-team
 layer: tensor-runtime
@@ -12,6 +14,8 @@ governance: ggml-org open-source community; Georgi Gerganov team joined Hugging 
 people:
   - "community/ggml-org/llama.cpp/Georgi Gerganov"
 last_verified: "2026-09"
+linked_companies:
+  - "company/Hugging Face/Hugging Face"
 ---
 # ggml
 
@@ -49,3 +53,21 @@ llama.cpp 官方 README 明确写明项目 **built on top of ggml**。反过来�
 - https://github.com/ggml-org/ggml/blob/master/README.md
 - https://ggml.ai/
 - https://huggingface.co/blog/ggml-joins-hf
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]]：ggml 官方站点说明 ggml.ai 于 2023 年由 Georgi Gerganov 创立，用于支持 ggml 的开发。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Hugging Face/Hugging Face|Hugging Face]]：公司页与社区/项目页均有显式记录；关系：`joined-hugging-face-maintainer-team`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
