@@ -1,10 +1,12 @@
 # Company / Project → Person Reverse Coverage
 
-由 `scripts/audit-entity-reverse-links.py` 自动生成。公司反向边来自人物 `current_affiliations:`；项目/社区反向边来自人物 `projects:` / `communities:`。
+由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
 - Company-person associations: 174
+- Email-domain-supported associations: 7
+- People with generated linked_companies: 173
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
 - Project/community-person associations: 332
