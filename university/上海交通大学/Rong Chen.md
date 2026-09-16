@@ -1,7 +1,7 @@
 ---
 type: person
 name: Rong Chen
-current_affiliations: ["Shanghai Jiao Tong University", "IPADS"]
+current_affiliations: ["上海交通大学", "IPADS"]
 lab: IPADS
 schools:
   - "上海交通大学"
