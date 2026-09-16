@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 166
+- Company-person associations: 172
 - Project/community nodes: 82
-- Project/community nodes with ≥1 linked person: 61
-- Project/community-person associations: 307
+- Project/community nodes with ≥1 linked person: 63
+- Project/community-person associations: 320
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -18,12 +18,12 @@
 | --- | ---: |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
+| [[company/华为/华为|华为]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
-| [[company/华为/华为|华为]] | 6 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
@@ -70,10 +70,12 @@
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[community/Ascend/MemCache/MemCache|MemCache]] | 7 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
+| [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |

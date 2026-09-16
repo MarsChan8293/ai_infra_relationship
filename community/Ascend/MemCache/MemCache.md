@@ -1,7 +1,14 @@
 ---
 type: project
 name: MemCache
-linked_people: []
+linked_people:
+  - "community/Ascend/MemCache/chenyz6"
+  - "community/Ascend/MemCache/gcw_qYJeyWK4"
+  - "community/Ascend/MemCache/j00808874"
+  - "community/Ascend/MemCache/shilinlee"
+  - "community/Ascend/MemCache/yrewzjsx"
+  - "community/Ascend/MemCache/Zixi Qu"
+  - "community/Ascend/MemCache/彭海清 Haiqing Peng"
 companies: ["华为"]
 company_relation: company-led
 layer: kv-cache
@@ -65,3 +72,18 @@ https://github.com/Ascend/memcache
 - [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/Ascend/MemCache/chenyz6|chenyz6]]：长期出现在 MemCache 的 `Merged-by` 记录中，覆盖 MetaService、MemFabric 接口、KV Event、测试与构建等关键路径。
+- [[community/Ascend/MemCache/gcw_qYJeyWK4|gcw_qYJeyWK4]]：还涉及 async flush、rewarm 等 storage tier / reliability 工作，是当前 MemCache 分层存储方向非常值得继续追的人物。
+- [[community/Ascend/MemCache/j00808874|j00808874]]：早期到中期多次提交覆盖服务面与工程基础设施，是 MemCache 从“KV 存储库”走向可部署系统的重要贡献者之一。
+- [[community/Ascend/MemCache/shilinlee|shilinlee]]：https://gitcode.com/Ascend/memcache/tree/develop
+- [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]]：在 MemCache 的大量 MR 中持续出现 `Merged-by: yrewzjsx`，覆盖配置、存储层、KV Event、CI、文档、可靠性等多个子系统，是当前最明显的代码入口 / 合并把关者之一。
+- [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]]：https://gitcode.com/Ascend/memcache/tree/develop/3rdparty
+- [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清（Haiqing Peng）]]：其贡献同时触及 MemFabric 自身和 MemCache 对 MemFabric 的接口边界，是这条数据面链路中很值得继续追的核心工程人物。
+
+<!-- END AUTO PROJECT PEOPLE -->

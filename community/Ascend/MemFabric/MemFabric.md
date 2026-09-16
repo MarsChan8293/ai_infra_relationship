@@ -1,7 +1,13 @@
 ---
 type: project
 name: MemFabric
-linked_people: []
+linked_people:
+  - "community/Ascend/MemCache/chenyz6"
+  - "community/Ascend/MemCache/j00808874"
+  - "community/Ascend/MemCache/shilinlee"
+  - "community/Ascend/MemCache/yrewzjsx"
+  - "community/Ascend/MemCache/Zixi Qu"
+  - "community/Ascend/MemCache/彭海清 Haiqing Peng"
 companies: ["华为"]
 company_relation: company-led
 layer: communication
@@ -56,3 +62,17 @@ MemFabric 与 MemCache 的提交/合并记录中出现明显重叠的 handle，�
 - [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/Ascend/MemCache/chenyz6|chenyz6]]：长期出现在 MemCache 的 `Merged-by` 记录中，覆盖 MetaService、MemFabric 接口、KV Event、测试与构建等关键路径。
+- [[community/Ascend/MemCache/j00808874|j00808874]]：HOST_SHM 改动同时触及 `hybm` / `smem`，使其成为 MemCache 与 MemFabric 共享内存 / 数据面路径上的高价值桥梁人物。
+- [[community/Ascend/MemCache/shilinlee|shilinlee]]：https://gitcode.com/Ascend/memfabric_hybrid/tree/master/script
+- [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]]：在 MemFabric / memfabric_hybrid 的 develop、release 分支同样持续参与 merge，并与 [[chenyz6]] 形成跨仓库重复 review / merge 邻接。
+- [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]]：在 memfabric_hybrid 中参与 examples / naming 等改动，说明其活动跨越存储上层与内存池化底座。
+- [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清（Haiqing Peng）]]：负责或参与 MemFabric C API / 动态加载解耦、ABI 对齐、stream 字段适配等底层接口工作。
+
+<!-- END AUTO PROJECT PEOPLE -->
