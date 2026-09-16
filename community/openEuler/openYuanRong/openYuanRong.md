@@ -14,7 +14,7 @@ areas: [serverless, distributed-runtime, scheduling, distributed-data, ai-infras
 people:
   - "community/openEuler/openYuanRong/梁义 Yi Liang"
   - "community/openEuler/openYuanRong/罗站城 Zhancheng Luo"
-related_projects: ["YuanRong DataSystem", "YuanRong TransferEngine", "TransferQueue", "vLLM-Ascend", "vLLM-Omni"]
+related_projects: ["YuanRong DataSystem", "YuanRong TransferEngine", "TransferQueue", "vLLM-Ascend", "vLLM-Omni", "VeRL-Omni"]
 last_verified: "2026-09"
 linked_companies:
   - "company/华为/华为"
@@ -32,6 +32,7 @@ openYuanRong 是 OpenAtom openEuler 社区中的 Serverless 分布式计算引�
 - [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]]：其首个 KV storage backend 即 openYuanRong DataSystem，连接 post-training / veRL 数据流。
 - [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]]：KV Pool 可以选择 YuanRong DataSystem backend，RFork 则直接安装 YuanRong TransferEngine。
 - [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]]：当前实现同时提供 YuanrongConnector 与 Ascend NPU 专用 YuanrongTransferEngineConnector。
+- [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]]：项目 citation 明确把 `openYuanRong Team` 列为作者/共建方，同时 VeRL-Omni 用 vLLM-Omni 做 multimodal/diffusion rollout，因此 openYuanRong 从 serving data plane 进一步进入 multimodal RL/post-training 协作网络。
 
 ## 治理
 openEuler `sig-YuanRong` 负责项目演进与维护。截至 2026-09，SIG 页面列出 [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义（Yi Liang）]] 与 [[community/openEuler/openYuanRong/罗站城 Zhancheng Luo|罗站城（Zhancheng Luo）]] 两位 Maintainer；各子仓还有更多 repository-level maintainer / committer，本轮不把所有仓库权限成员机械升级为核心人物。
@@ -45,6 +46,7 @@ openEuler `sig-YuanRong` 负责项目演进与维护。截至 2026-09，SIG 页�
 - https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/rfork.html
 - https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/kv_pool.html
 - https://docs.vllm.ai/projects/vllm-omni/en/latest/design/feature/omni_connectors/yuanrong_transfer_engine_connector/
+- https://github.com/verl-project/verl-omni
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
@@ -59,7 +61,7 @@ openEuler `sig-YuanRong` 负责项目演进与维护。截至 2026-09，SIG 页�
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
 ## 关联公司（自动汇总）
 
-以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+以下关系由公司页与社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
 - [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-originated-open-source`。
 
