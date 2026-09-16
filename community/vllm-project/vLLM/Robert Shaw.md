@@ -8,6 +8,8 @@ schools:
 communities: [vLLM, llm-d]
 linked_companies:
   - "company/Red Hat/Red Hat"
+email_affiliations:
+  - "Red Hat"
 areas: [distributed-serving, disaggregation, kv-cache, observability, kubernetes, moe]
 roles: [Director of Engineering, Project Lead, Core Maintainer, PD-Disaggregation SIG Lead]
 confidence: verified
@@ -59,6 +61,6 @@ relations:
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/Red Hat/Red Hat|Red Hat]]：人物页 `current_affiliations:` 明确记录。
+- [[company/Red Hat/Red Hat|Red Hat]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->

@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1197,
+  "candidate_count": 1196,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 1,
@@ -5628,6 +5628,73 @@
         "bridge 10.4"
       ],
       "base_priority": 6.673,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/vllm-project/vLLM/Lucas Wilkinson::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/vllm-project/vLLM/Lucas Wilkinson",
+        "name": "Lucas Wilkinson",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 6.935,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.3,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 8.872,
+        "novelty": 0.5,
+        "frontier_potential": 0.237,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.323,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 8.9"
+      ],
+      "base_priority": 6.652,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -14533,7 +14600,7 @@
       "signals": {
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 17,
+        "url_count": 11,
         "bridge_score": 10.922,
         "novelty": 0.5,
         "frontier_potential": 0.168,
@@ -15213,7 +15280,7 @@
       "signals": {
         "infra_relevance": 1.75,
         "evidence_quality": 1.3,
-        "url_count": 3,
+        "url_count": 5,
         "bridge_score": 8.007,
         "novelty": 0.5,
         "frontier_potential": 0.283,
@@ -17279,69 +17346,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 5.948,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/University of Toronto/University of Toronto::key_people",
-      "action_key": "school:key_people:person",
-      "source": {
-        "id": "university/University of Toronto/University of Toronto",
-        "name": "University of Toronto",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "faculty_directory",
-        "lab_people_pages"
-      ],
-      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
-      "bucket": "exploration",
-      "priority": 5.947,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 5,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.45,
-        "url_count": 1,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.707,
-        "uncertainty": 0.844,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/5",
-        "source type School",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.947,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -54660,72 +54664,6 @@
       }
     },
     {
-      "action_id": "company/Neural Magic/Neural Magic::key_people",
-      "action_key": "company:key_people:person",
-      "source": {
-        "id": "company/Neural Magic/Neural Magic",
-        "name": "Neural Magic",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_team_page",
-        "github_org_maintainers"
-      ],
-      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
-      "bucket": "exploitation",
-      "priority": 4.19,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 7.557,
-        "novelty": 0.0,
-        "frontier_potential": 0.378,
-        "uncertainty": 0.328,
-        "redundancy_penalty": 0.433,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.052,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Company",
-        "infra: serving/inference, kernel, distributed",
-        "bridge 7.6"
-      ],
-      "base_priority": 4.138,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 1,
-          "statuses": {
-            "success": 1
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 2.5,
-          "reward_signal": 0.555,
-          "yield_adjustment": 0.052
-        },
-        "key_yield_adjustment": 0.052,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/智谱/张鹏 Zhang Peng::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -56058,6 +55996,68 @@
         "evidence quality below target"
       ],
       "base_priority": 4.128,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/University of Toronto/University of Toronto::key_people",
+      "action_key": "school:key_people:person",
+      "source": {
+        "id": "university/University of Toronto/University of Toronto",
+        "name": "University of Toronto",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "faculty_directory",
+        "lab_people_pages"
+      ],
+      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
+      "bucket": "exploitation",
+      "priority": 4.127,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 5,
+        "gap": 0.8
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.45,
+        "url_count": 1,
+        "bridge_score": 2.85,
+        "novelty": 0.0,
+        "frontier_potential": 0.707,
+        "uncertainty": 0.734,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/5",
+        "source type School"
+      ],
+      "base_priority": 4.127,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -70736,70 +70736,6 @@
       }
     },
     {
-      "action_id": "community/vllm-project/vLLM/Matthew Bonanni::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/vllm-project/vLLM/Matthew Bonanni",
-        "name": "Matthew Bonanni",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 2.986,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 8.007,
-        "novelty": 0.0,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.375,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, distributed",
-        "bridge 8.0"
-      ],
-      "base_priority": 2.986,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen::verify_evidence",
       "action_key": "person:verify_evidence:none",
       "source": {
@@ -79347,6 +79283,6 @@
       }
     }
   },
-  "eligible_count": 1171,
+  "eligible_count": 1170,
   "suppressed_count": 26
 }

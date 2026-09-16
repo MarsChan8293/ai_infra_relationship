@@ -87,7 +87,7 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：[[llm-d]]：Community Manager
 - [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]]：[[IBM]]：截至 2026-09，llm-d 官方作者资料列为 IBM Fellow。
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：[[llm-d]]：以社区孵化、推广、技术布道和生态连接为主要参与方式，尤其面向中国及 APAC 开发者与产业社区。
-- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[llm-d]]：PD-Disaggregation SIG Lead；同时处于项目创始/核心领导网络，连接 vLLM engine 与 Kubernetes-native distributed serving。
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：[[llm-d]]：PD-Disaggregation SIG Lead；连接 vLLM engine 与 Kubernetes-native distributed serving。
 - [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：[[llm-d]]：PD-Disaggregation SIG Lead，与 [[Robert Shaw]] 共同负责 prefill/decode separation、跨实例通信、异构资源利用与 distributed serving。
 
 <!-- END AUTO PROJECT PEOPLE -->

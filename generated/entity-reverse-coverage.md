@@ -4,12 +4,12 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 174
-- Email-domain-supported associations: 7
-- People with generated linked_companies: 173
+- Company-person associations: 175
+- Email-domain-supported associations: 10
+- People with generated linked_companies: 174
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
-- Project/community-person associations: 332
+- Project/community-person associations: 333
 - Non-company affiliations recognized and routed elsewhere: 57
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -22,7 +22,7 @@
 | [[company/华为/华为|华为]] | 14 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 13 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
-| [[company/Red Hat/Red Hat|Red Hat]] | 8 |
+| [[company/Red Hat/Red Hat|Red Hat]] | 9 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
@@ -57,7 +57,7 @@
 
 | Entity | Linked people |
 | --- | ---: |
-| [[community/vllm-project/vLLM/vLLM|vLLM]] | 28 |
+| [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 18 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |

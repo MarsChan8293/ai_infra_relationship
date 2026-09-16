@@ -6,6 +6,7 @@ linked_people:
   - "community/llm-d/llm-d/Maroon Ayoub"
   - "community/llm-d/llm-d/Pete Cheslock"
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
+  - "community/vllm-project/vLLM/Lucas Wilkinson"
   - "community/vllm-project/vLLM/Matthew Bonanni"
   - "community/vllm-project/vLLM/Michael Goin"
   - "community/vllm-project/vLLM/Robert Shaw"
@@ -52,9 +53,10 @@ Red Hat 是企业级开源与 hybrid-cloud 基础设施公司，OpenShift/Kubern
 - [[community/llm-d/llm-d/Maroon Ayoub|Maroon Ayoub]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：2026-06 与 2026-07 的 llm-d 官方技术文章均列为 Senior Principal Machine Learning Engineer, Red Hat。
 - [[community/llm-d/llm-d/Pete Cheslock|Pete Cheslock]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]
 - [[community/llm-d/llm-d/张家驹 Jiaju Zhang|张家驹（Jiaju Zhang）]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]] APAC CTO Office：推动 AI inference 技术与开源生态落地。
-- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：人物页 `current_affiliations:` 明确记录。
+- [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]]：当前 affiliation + 公开职业邮箱域名双重证据；[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM GPU / kernel performance
+- [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：当前 affiliation + 公开职业邮箱域名双重证据。
 - [[community/vllm-project/vLLM/Michael Goin|Michael Goin]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：Neural Magic 于 2025 年初并入后继续从事 vLLM 与 AI inference
-- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
+- [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]]：当前 affiliation + 公开职业邮箱域名双重证据；[[Red Hat]]：AI / inference engineering leadership；Neural Magic 于 2025 年初并入 Red Hat 后继续负责 vLLM / inference 方向。截至 2026-09，llm-d 官方作者资料列为 Director of Engineering, Red Hat。
 - [[community/vllm-project/vLLM/Tyler Michael Smith|Tyler Michael Smith]]：人物页 `current_affiliations:` 明确记录；[[Red Hat]]：Neural Magic 于 2025 年初并入 Red Hat 后继续从事大规模 LLM inference；当前公开资料将其列为 Chief Architect, Inference Engineering。
 
 <!-- END AUTO COMPANY PEOPLE -->

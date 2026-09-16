@@ -3,8 +3,14 @@ type: person
 name: Lucas Wilkinson
 current_affiliations: ["Red Hat"]
 public_email: lwilkins@redhat.com
+schools:
+  - "University of Toronto"
 communities: [vLLM]
 roles: [Project Lead, Core Maintainer, Engineer]
+email_affiliations:
+  - "Red Hat"
+linked_companies:
+  - "company/Red Hat/Red Hat"
 areas: [gpu-kernels, attention, flashinfer, marlin, machete, performance]
 confidence: high
 last_verified: "2026-09"
@@ -38,3 +44,12 @@ last_verified: "2026-09"
 - https://www.redhat.com/en/blog/enhancing-deepseek-models-mla-and-fp8-optimizations-vllm
 - https://github.com/vllm-project/vllm/blob/main/docs/governance/process.md
 - https://github.com/vllm-project/vllm/commit/79e205e8cdf7864b8b9f2d23c908b887f2f5badb
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Red Hat/Red Hat|Red Hat]]：当前 affiliation + 公开职业邮箱域名双重证据。
+
+<!-- END AUTO PERSON COMPANIES -->

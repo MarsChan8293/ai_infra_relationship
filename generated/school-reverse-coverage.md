@@ -3,8 +3,8 @@
 由 `scripts/audit-school-reverse-links.py` 自动生成。反向关系以人物页 `schools:` 为唯一事实源。
 
 - School nodes: 47
-- Schools with ≥1 linked person: 44
-- Reverse person-school associations: 165
+- Schools with ≥1 linked person: 45
+- Reverse person-school associations: 166
 - Audit errors: 0
 
 | School | Linked people |
@@ -41,6 +41,7 @@
 | [[university/UC Davis/UC Davis|UC Davis]] | 1 |
 | [[university/University of British Columbia/University of British Columbia|University of British Columbia]] | 1 |
 | [[university/University of Tennessee, Knoxville/University of Tennessee, Knoxville|University of Tennessee, Knoxville]] | 1 |
+| [[university/University of Toronto/University of Toronto|University of Toronto]] | 1 |
 | [[university/University of Warwick/University of Warwick|University of Warwick]] | 1 |
 | [[university/上海科技大学/上海科技大学|上海科技大学]] | 1 |
 | [[university/中山大学/中山大学|中山大学]] | 1 |
@@ -54,5 +55,4 @@
 | [[university/西交利物浦大学/西交利物浦大学|西交利物浦大学]] | 1 |
 | [[university/西北工业大学/西北工业大学|西北工业大学]] | 1 |
 | [[university/Cornell University/Cornell University|Cornell University]] | 0 |
-| [[university/University of Toronto/University of Toronto|University of Toronto]] | 0 |
 | [[university/武汉大学/武汉大学|武汉大学]] | 0 |
