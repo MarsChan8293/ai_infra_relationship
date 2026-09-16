@@ -2,6 +2,9 @@
 type: project
 name: openYuanRong
 aliases: [YuanRong, 元戎]
+linked_people:
+  - "community/openEuler/openYuanRong/梁义 Yi Liang"
+  - "community/openEuler/openYuanRong/罗站城 Zhancheng Luo"
 companies: ["华为"]
 company_relation: company-originated-open-source
 layer: distributed-compute-runtime
@@ -13,6 +16,8 @@ people:
   - "community/openEuler/openYuanRong/罗站城 Zhancheng Luo"
 related_projects: ["YuanRong DataSystem", "YuanRong TransferEngine", "TransferQueue", "vLLM-Ascend", "vLLM-Omni"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/华为/华为"
 ---
 # openYuanRong
 
@@ -40,3 +45,22 @@ openEuler `sig-YuanRong` 负责项目演进与维护。截至 2026-09，SIG 页�
 - https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/rfork.html
 - https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/kv_pool.html
 - https://docs.vllm.ai/projects/vllm-omni/en/latest/design/feature/omni_connectors/yuanrong_transfer_engine_connector/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义（Yi Liang）]]：openEuler `sig-YuanRong` 当前两位 Maintainer 之一，AtomGit ID `liangyi1234`。
+- [[community/openEuler/openYuanRong/罗站城 Zhancheng Luo|罗站城（Zhancheng Luo）]]：openEuler `sig-YuanRong` 当前两位 Maintainer 之一，AtomGit ID `luozhancheng`。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-originated-open-source`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

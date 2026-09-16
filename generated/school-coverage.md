@@ -2,11 +2,11 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 258
-- People with ≥1 school: 122
-- People without known school: 136
-- Coverage: 47.3%
-- Person-school associations: 159
+- Person nodes: 261
+- People with ≥1 school: 123
+- People without known school: 138
+- Coverage: 47.1%
+- Person-school associations: 160
 - School nodes: 46
 - Audit errors: 0
 
@@ -19,8 +19,8 @@
 | 北京大学 | 17 |
 | 上海交通大学 | 14 |
 | Carnegie Mellon University | 7 |
+| 浙江大学 | 7 |
 | University of Chicago | 6 |
-| 浙江大学 | 6 |
 | Stanford University | 3 |
 | Harvard University | 2 |
 | 厦门大学 | 2 |
@@ -50,7 +50,7 @@
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
 | 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 8.685 | 11 |
-| 2 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.22 | 8 |
+| 2 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
 | 3 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 6.635 | 5 |
 | 4 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 6.52 | 8 |
 | 5 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
@@ -94,8 +94,8 @@
 | 43 | [[community/Project-HAMi/HAMi/wawa0210|Xiao Zhang]] | 5.35 | 3 |
 | 44 | [[community/triton-inference-server/Triton-Inference-Server/Yingge He|Yingge He]] | 5.35 | 3 |
 | 45 | [[community/Ascend/ops-transformer/wangchao661|wangchao661]] | 5.35 | 3 |
-| 46 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
-| 47 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
-| 48 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
-| 49 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |
-| 50 | [[community/llm-d/llm-d/David Simmons|David Simmons]] | 4.935 | 2 |
+| 46 | [[community/openEuler/openYuanRong/罗站城 Zhancheng Luo|罗站城]] | 5.35 | 3 |
+| 47 | [[community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi|Akhil Saraswathi]] | 4.935 | 2 |
+| 48 | [[community/NVIDIA/TensorRT-LLM/Anurag Mukkara|Anurag Mukkara]] | 4.935 | 2 |
+| 49 | [[community/NVIDIA/TensorRT-LLM/Chang Liu|Chang Liu]] | 4.935 | 2 |
+| 50 | [[community/vllm-project/AIBrix/Chenyu Jiang|Chenyu Jiang]] | 4.935 | 2 |

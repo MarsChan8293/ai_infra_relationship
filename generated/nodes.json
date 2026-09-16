@@ -1081,7 +1081,9 @@
         "cann",
         "inference-runtime",
         "npu-kernels",
-        "quantization"
+        "quantization",
+        "distributed-systems",
+        "serverless"
       ],
       "people": "",
       "linked_people": "",
@@ -1092,7 +1094,8 @@
         "MindIE-SD",
         "msModelSlim",
         "ops-transformer",
-        "HAMi"
+        "HAMi",
+        "openYuanRong"
       ],
       "linked_projects": ""
     }
@@ -3675,6 +3678,68 @@
     "type": "note",
     "category": "community",
     "frontmatter": {}
+  },
+  {
+    "id": "community/Ascend/TransferQueue/TransferQueue",
+    "path": "community/Ascend/TransferQueue/TransferQueue.md",
+    "name": "TransferQueue",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TransferQueue",
+      "linked_people": "",
+      "layer": "post-training-data-plane",
+      "open_source": true,
+      "repository": "https://github.com/Ascend/TransferQueue",
+      "areas": [
+        "post-training",
+        "reinforcement-learning",
+        "streaming-data",
+        "distributed-data",
+        "npu",
+        "rdma",
+        "hccs"
+      ],
+      "people": "",
+      "related_projects": [
+        "YuanRong DataSystem",
+        "veRL",
+        "Mooncake"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong",
+    "path": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong.md",
+    "name": "荣程浩",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "荣程浩",
+      "english_name": "Chenghao Rong",
+      "aliases": [
+        "荣程浩",
+        "Chenghao Rong"
+      ],
+      "projects": [
+        "TransferQueue"
+      ],
+      "roles": [
+        "TransferQueue Maintainer"
+      ],
+      "areas": [
+        "post-training",
+        "reinforcement-learning",
+        "distributed-data",
+        "streaming-data",
+        "ai-infrastructure"
+      ],
+      "last_verified": "2026-09"
+    }
   },
   {
     "id": "community/Ascend/msModelSlim/msModelSlim",
@@ -7623,6 +7688,196 @@
     }
   },
   {
+    "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+    "path": "community/openEuler/openYuanRong/YuanRong DataSystem.md",
+    "name": "YuanRong DataSystem",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "YuanRong DataSystem",
+      "aliases": [
+        "openYuanRong DataSystem",
+        "yuanrong-datasystem"
+      ],
+      "linked_people": [],
+      "layer": "distributed-data-cache",
+      "open_source": true,
+      "repository": "https://github.com/openyuanrong/datasystem",
+      "areas": [
+        "distributed-cache",
+        "kv-cache",
+        "hbm",
+        "dram",
+        "ssd",
+        "rdma",
+        "hccs",
+        "npu",
+        "data-transfer"
+      ],
+      "related_projects": [
+        "openYuanRong",
+        "YuanRong TransferEngine",
+        "TransferQueue",
+        "vLLM-Ascend",
+        "vLLM-Omni"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+    "path": "community/openEuler/openYuanRong/YuanRong TransferEngine.md",
+    "name": "YuanRong TransferEngine",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "YuanRong TransferEngine",
+      "aliases": [
+        "openYuanRong TransferEngine",
+        "openyuanrong-transfer-engine"
+      ],
+      "linked_people": [],
+      "layer": "npu-data-transfer",
+      "open_source": true,
+      "areas": [
+        "data-transfer",
+        "rdma",
+        "roce",
+        "npu",
+        "kv-transfer",
+        "weight-transfer",
+        "disaggregated-inference"
+      ],
+      "related_projects": [
+        "openYuanRong",
+        "YuanRong DataSystem",
+        "vLLM-Ascend",
+        "vLLM-Omni"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/openEuler/openYuanRong/openYuanRong",
+    "path": "community/openEuler/openYuanRong/openYuanRong.md",
+    "name": "openYuanRong",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "openYuanRong",
+      "aliases": [
+        "YuanRong",
+        "元戎"
+      ],
+      "linked_people": "",
+      "companies": [
+        "华为"
+      ],
+      "company_relation": "company-originated-open-source",
+      "layer": "distributed-compute-runtime",
+      "open_source": true,
+      "repository": "https://github.com/openyuanrong/runtime",
+      "areas": [
+        "serverless",
+        "distributed-runtime",
+        "scheduling",
+        "distributed-data",
+        "ai-infrastructure",
+        "reinforcement-learning",
+        "inference"
+      ],
+      "people": "",
+      "related_projects": [
+        "YuanRong DataSystem",
+        "YuanRong TransferEngine",
+        "TransferQueue",
+        "vLLM-Ascend",
+        "vLLM-Omni"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/openEuler/openYuanRong/梁义 Yi Liang",
+    "path": "community/openEuler/openYuanRong/梁义 Yi Liang.md",
+    "name": "梁义",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "梁义",
+      "english_name": "Yi Liang",
+      "aliases": [
+        "梁义",
+        "Yi Liang",
+        "liangyi1234"
+      ],
+      "current_affiliations": [
+        "华为"
+      ],
+      "schools": "",
+      "projects": [
+        "openYuanRong"
+      ],
+      "roles": [
+        "openYuanRong Maintainer",
+        "华为通用Serverless首席专家",
+        "华为元戎首席架构师"
+      ],
+      "areas": [
+        "distributed-systems",
+        "serverless",
+        "ai-infrastructure",
+        "scheduling",
+        "reinforcement-learning"
+      ],
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+    "path": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo.md",
+    "name": "罗站城",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "罗站城",
+      "english_name": "Zhancheng Luo",
+      "aliases": [
+        "罗站城",
+        "Zhancheng Luo",
+        "luozhancheng"
+      ],
+      "current_affiliations": [
+        "华为"
+      ],
+      "projects": [
+        "openYuanRong"
+      ],
+      "roles": [
+        "openYuanRong Maintainer",
+        "华为系统软件架构师",
+        "YuanRong Function System Technical Lead"
+      ],
+      "areas": [
+        "distributed-systems",
+        "serverless",
+        "agent-infrastructure",
+        "scheduling",
+        "linux-kernel",
+        "cloud-native"
+      ],
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "community/radixark/Miles/Miles",
     "path": "community/radixark/Miles/Miles.md",
     "name": "Miles",
@@ -8567,16 +8822,19 @@
         "Inferact"
       ],
       "communities": [
-        "vLLM"
+        "vLLM",
+        "vLLM-Omni"
       ],
       "areas": [
         "multimodality",
         "benchmarking",
-        "model-support"
+        "model-support",
+        "multimodal-inference"
       ],
       "roles": [
         "Founding Team",
-        "Core Maintainer"
+        "Core Maintainer",
+        "vLLM-Omni Lead Maintainer"
       ],
       "confidence": "verified",
       "last_verified": "2026-09",
@@ -9034,6 +9292,37 @@
       ],
       "confidence": "high",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+    "path": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
+    "name": "vLLM-Omni",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "vLLM-Omni",
+      "linked_people": "",
+      "layer": "multimodal-serving",
+      "open_source": true,
+      "repository": "https://github.com/vllm-project/vllm-omni",
+      "areas": [
+        "multimodal-inference",
+        "disaggregated-inference",
+        "data-transfer",
+        "npu",
+        "serving"
+      ],
+      "people": "",
+      "related_projects": [
+        "vLLM",
+        "YuanRong DataSystem",
+        "YuanRong TransferEngine",
+        "Mooncake"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {

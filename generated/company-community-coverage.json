@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 42,
   "companies_with_links": 29,
-  "project_community_nodes": 68,
-  "project_community_nodes_with_links": 41,
-  "association_pairs": 57,
-  "asserted_on_both_sides": 57,
+  "project_community_nodes": 73,
+  "project_community_nodes_with_links": 42,
+  "association_pairs": 58,
+  "asserted_on_both_sides": 58,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -384,6 +384,18 @@
       "entity_name": "msModelSlim",
       "entity_type": "project",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/openEuler/openYuanRong/openYuanRong",
+      "entity_name": "openYuanRong",
+      "entity_type": "project",
+      "relation": "company-originated-open-source",
       "sources": [
         "company",
         "entity"

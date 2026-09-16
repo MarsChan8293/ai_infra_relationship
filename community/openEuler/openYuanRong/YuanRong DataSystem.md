@@ -2,12 +2,14 @@
 type: project
 name: YuanRong DataSystem
 aliases: [openYuanRong DataSystem, yuanrong-datasystem]
+linked_people: []
 layer: distributed-data-cache
 open_source: true
 repository: https://github.com/openyuanrong/datasystem
 areas: [distributed-cache, kv-cache, hbm, dram, ssd, rdma, hccs, npu, data-transfer]
 related_projects: ["openYuanRong", "YuanRong TransferEngine", "TransferQueue", "vLLM-Ascend", "vLLM-Omni"]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # YuanRong DataSystem
 

@@ -1082,7 +1082,9 @@
           "cann",
           "inference-runtime",
           "npu-kernels",
-          "quantization"
+          "quantization",
+          "distributed-systems",
+          "serverless"
         ],
         "people": "",
         "linked_people": "",
@@ -1093,7 +1095,8 @@
           "MindIE-SD",
           "msModelSlim",
           "ops-transformer",
-          "HAMi"
+          "HAMi",
+          "openYuanRong"
         ],
         "linked_projects": ""
       }
@@ -3676,6 +3679,68 @@
       "type": "note",
       "category": "community",
       "frontmatter": {}
+    },
+    {
+      "id": "community/Ascend/TransferQueue/TransferQueue",
+      "path": "community/Ascend/TransferQueue/TransferQueue.md",
+      "name": "TransferQueue",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "TransferQueue",
+        "linked_people": "",
+        "layer": "post-training-data-plane",
+        "open_source": true,
+        "repository": "https://github.com/Ascend/TransferQueue",
+        "areas": [
+          "post-training",
+          "reinforcement-learning",
+          "streaming-data",
+          "distributed-data",
+          "npu",
+          "rdma",
+          "hccs"
+        ],
+        "people": "",
+        "related_projects": [
+          "YuanRong DataSystem",
+          "veRL",
+          "Mooncake"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong",
+      "path": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong.md",
+      "name": "荣程浩",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "荣程浩",
+        "english_name": "Chenghao Rong",
+        "aliases": [
+          "荣程浩",
+          "Chenghao Rong"
+        ],
+        "projects": [
+          "TransferQueue"
+        ],
+        "roles": [
+          "TransferQueue Maintainer"
+        ],
+        "areas": [
+          "post-training",
+          "reinforcement-learning",
+          "distributed-data",
+          "streaming-data",
+          "ai-infrastructure"
+        ],
+        "last_verified": "2026-09"
+      }
     },
     {
       "id": "community/Ascend/msModelSlim/msModelSlim",
@@ -7624,6 +7689,196 @@
       }
     },
     {
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "path": "community/openEuler/openYuanRong/YuanRong DataSystem.md",
+      "name": "YuanRong DataSystem",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "YuanRong DataSystem",
+        "aliases": [
+          "openYuanRong DataSystem",
+          "yuanrong-datasystem"
+        ],
+        "linked_people": [],
+        "layer": "distributed-data-cache",
+        "open_source": true,
+        "repository": "https://github.com/openyuanrong/datasystem",
+        "areas": [
+          "distributed-cache",
+          "kv-cache",
+          "hbm",
+          "dram",
+          "ssd",
+          "rdma",
+          "hccs",
+          "npu",
+          "data-transfer"
+        ],
+        "related_projects": [
+          "openYuanRong",
+          "YuanRong TransferEngine",
+          "TransferQueue",
+          "vLLM-Ascend",
+          "vLLM-Omni"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "path": "community/openEuler/openYuanRong/YuanRong TransferEngine.md",
+      "name": "YuanRong TransferEngine",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "YuanRong TransferEngine",
+        "aliases": [
+          "openYuanRong TransferEngine",
+          "openyuanrong-transfer-engine"
+        ],
+        "linked_people": [],
+        "layer": "npu-data-transfer",
+        "open_source": true,
+        "areas": [
+          "data-transfer",
+          "rdma",
+          "roce",
+          "npu",
+          "kv-transfer",
+          "weight-transfer",
+          "disaggregated-inference"
+        ],
+        "related_projects": [
+          "openYuanRong",
+          "YuanRong DataSystem",
+          "vLLM-Ascend",
+          "vLLM-Omni"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/openEuler/openYuanRong/openYuanRong",
+      "path": "community/openEuler/openYuanRong/openYuanRong.md",
+      "name": "openYuanRong",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "openYuanRong",
+        "aliases": [
+          "YuanRong",
+          "元戎"
+        ],
+        "linked_people": "",
+        "companies": [
+          "华为"
+        ],
+        "company_relation": "company-originated-open-source",
+        "layer": "distributed-compute-runtime",
+        "open_source": true,
+        "repository": "https://github.com/openyuanrong/runtime",
+        "areas": [
+          "serverless",
+          "distributed-runtime",
+          "scheduling",
+          "distributed-data",
+          "ai-infrastructure",
+          "reinforcement-learning",
+          "inference"
+        ],
+        "people": "",
+        "related_projects": [
+          "YuanRong DataSystem",
+          "YuanRong TransferEngine",
+          "TransferQueue",
+          "vLLM-Ascend",
+          "vLLM-Omni"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "path": "community/openEuler/openYuanRong/梁义 Yi Liang.md",
+      "name": "梁义",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "梁义",
+        "english_name": "Yi Liang",
+        "aliases": [
+          "梁义",
+          "Yi Liang",
+          "liangyi1234"
+        ],
+        "current_affiliations": [
+          "华为"
+        ],
+        "schools": "",
+        "projects": [
+          "openYuanRong"
+        ],
+        "roles": [
+          "openYuanRong Maintainer",
+          "华为通用Serverless首席专家",
+          "华为元戎首席架构师"
+        ],
+        "areas": [
+          "distributed-systems",
+          "serverless",
+          "ai-infrastructure",
+          "scheduling",
+          "reinforcement-learning"
+        ],
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+      "path": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo.md",
+      "name": "罗站城",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "罗站城",
+        "english_name": "Zhancheng Luo",
+        "aliases": [
+          "罗站城",
+          "Zhancheng Luo",
+          "luozhancheng"
+        ],
+        "current_affiliations": [
+          "华为"
+        ],
+        "projects": [
+          "openYuanRong"
+        ],
+        "roles": [
+          "openYuanRong Maintainer",
+          "华为系统软件架构师",
+          "YuanRong Function System Technical Lead"
+        ],
+        "areas": [
+          "distributed-systems",
+          "serverless",
+          "agent-infrastructure",
+          "scheduling",
+          "linux-kernel",
+          "cloud-native"
+        ],
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "community/radixark/Miles/Miles",
       "path": "community/radixark/Miles/Miles.md",
       "name": "Miles",
@@ -8568,16 +8823,19 @@
           "Inferact"
         ],
         "communities": [
-          "vLLM"
+          "vLLM",
+          "vLLM-Omni"
         ],
         "areas": [
           "multimodality",
           "benchmarking",
-          "model-support"
+          "model-support",
+          "multimodal-inference"
         ],
         "roles": [
           "Founding Team",
-          "Core Maintainer"
+          "Core Maintainer",
+          "vLLM-Omni Lead Maintainer"
         ],
         "confidence": "verified",
         "last_verified": "2026-09",
@@ -9035,6 +9293,37 @@
         ],
         "confidence": "high",
         "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "path": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
+      "name": "vLLM-Omni",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "vLLM-Omni",
+        "linked_people": "",
+        "layer": "multimodal-serving",
+        "open_source": true,
+        "repository": "https://github.com/vllm-project/vllm-omni",
+        "areas": [
+          "multimodal-inference",
+          "disaggregated-inference",
+          "data-transfer",
+          "npu",
+          "serving"
+        ],
+        "people": "",
+        "related_projects": [
+          "vLLM",
+          "YuanRong DataSystem",
+          "YuanRong TransferEngine",
+          "Mooncake"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
       }
     },
     {
@@ -11314,6 +11603,26 @@
     {
       "source": "community/Ascend/MindIE-SD/betta18",
       "target": "community/Ascend/MindIE-SD/MindIE-SD",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/TransferQueue/TransferQueue",
+      "target": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/TransferQueue/TransferQueue",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong",
+      "target": "community/Ascend/TransferQueue/TransferQueue",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "kind": "wikilink"
     },
     {
@@ -15782,6 +16091,106 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "community/Ascend/TransferQueue/TransferQueue",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/Ascend/TransferQueue/TransferQueue",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "target": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "target": "university/浙江大学/浙江大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
+      "target": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/radixark/Miles/Miles",
       "target": "community/kvcache-ai/Mooncake/Mooncake",
       "kind": "wikilink"
@@ -16783,6 +17192,21 @@
     },
     {
       "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "target": "community/vllm-project/vLLM-Ascend/Wang Xiyuan",
       "kind": "wikilink"
     },
@@ -16889,6 +17313,21 @@
     {
       "source": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
       "target": "company/面壁智能/面壁智能",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni",
+      "target": "community/vllm-project/vLLM/Roger Wang",
       "kind": "wikilink"
     },
     {
@@ -17304,6 +17743,11 @@
     {
       "source": "community/vllm-project/vLLM/Robert Shaw",
       "target": "university/Harvard University/Harvard University",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/Roger Wang",
+      "target": "community/vllm-project/vLLM-Omni/vLLM-Omni",
       "kind": "wikilink"
     },
     {
@@ -20419,6 +20863,31 @@
     {
       "source": "company/华为/华为",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
+      "target": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo",
       "kind": "wikilink"
     },
     {
@@ -25078,6 +25547,11 @@
     },
     {
       "source": "university/浙江大学/浙江大学",
+      "target": "community/openEuler/openYuanRong/梁义 Yi Liang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/浙江大学/浙江大学",
       "target": "company/NVIDIA/NVIDIA",
       "kind": "wikilink"
     },
@@ -26219,13 +26693,13 @@
       "bridge_score": 6.022
     },
     "company/华为/华为": {
-      "degree": 13,
-      "cross_category_degree": 12,
+      "degree": 18,
+      "cross_category_degree": 17,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 11.007
+      "bridge_score": 13.198
     },
     "company/商汤科技/商汤科技": {
       "degree": 8,
@@ -27116,6 +27590,22 @@
         "community"
       ],
       "bridge_score": 2.5
+    },
+    "community/Ascend/TransferQueue/TransferQueue": {
+      "degree": 3,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.5
+    },
+    "community/Ascend/TransferQueue/荣程浩 Chenghao Rong": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
     },
     "community/Ascend/msModelSlim/msModelSlim": {
       "degree": 6,
@@ -28642,6 +29132,52 @@
       ],
       "bridge_score": 5.935
     },
+    "community/openEuler/openYuanRong/YuanRong DataSystem": {
+      "degree": 7,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.35
+    },
+    "community/openEuler/openYuanRong/YuanRong TransferEngine": {
+      "degree": 5,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.935
+    },
+    "community/openEuler/openYuanRong/openYuanRong": {
+      "degree": 8,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.52
+    },
+    "community/openEuler/openYuanRong/梁义 Yi Liang": {
+      "degree": 4,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.522
+    },
+    "community/openEuler/openYuanRong/罗站城 Zhancheng Luo": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.35
+    },
     "community/radixark/Miles/Miles": {
       "degree": 4,
       "cross_category_degree": 2,
@@ -29023,13 +29559,13 @@
       "bridge_score": 10.922
     },
     "community/vllm-project/vLLM/Roger Wang": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.22
+      "bridge_score": 7.372
     },
     "community/vllm-project/vLLM/Simon Mo": {
       "degree": 16,
@@ -29139,14 +29675,14 @@
       "bridge_score": 3.822
     },
     "community/vllm-project/vLLM-Ascend/vLLM-Ascend": {
-      "degree": 19,
+      "degree": 22,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 9.522
+      "bridge_score": 9.724
     },
     "community/vllm-project/vLLM-Ascend/weijinqian0": {
       "degree": 4,
@@ -29180,6 +29716,14 @@
         "company"
       ],
       "bridge_score": 4.935
+    },
+    "community/vllm-project/vLLM-Omni/vLLM-Omni": {
+      "degree": 4,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.822
     },
     "university/Binghamton University/Binghamton University": {
       "degree": 1,
@@ -29882,14 +30426,14 @@
       "bridge_score": 6.35
     },
     "university/浙江大学/浙江大学": {
-      "degree": 14,
-      "cross_category_degree": 6,
+      "degree": 15,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.507
+      "bridge_score": 10.95
     },
     "university/清华大学/FastDecode": {
       "degree": 2,

@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked project/community: 29
-- Project/community nodes: 68
-- Project/community nodes with ≥1 linked company: 41
-- Bidirectional association pairs: 57
-- Explicitly asserted on both sides: 57
+- Project/community nodes: 73
+- Project/community nodes with ≥1 linked company: 42
+- Bidirectional association pairs: 58
+- Explicitly asserted on both sides: 58
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -46,6 +46,7 @@
 | [[company/华为/华为|华为]] | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | project | company-led | both |
+| [[company/华为/华为|华为]] | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | project | company-originated-open-source | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | project | hardware-ecosystem-core-contributor | both |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[community/sii-research/VCCL/VCCL|VCCL]] | project | industry-research-co-development | both |

@@ -1,6 +1,8 @@
 ---
 type: project
 name: TransferQueue
+linked_people:
+  - "community/Ascend/TransferQueue/荣程浩 Chenghao Rong"
 layer: post-training-data-plane
 open_source: true
 repository: https://github.com/Ascend/TransferQueue
@@ -9,6 +11,7 @@ people:
   - "community/Ascend/TransferQueue/荣程浩 Chenghao Rong"
 related_projects: ["YuanRong DataSystem", "veRL", "Mooncake"]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # TransferQueue
 
@@ -31,3 +34,12 @@ TransferQueue 已进入 veRL 数据流并支持 streaming dataloader / async tra
 - https://github.com/Ascend/TransferQueue/blob/main/docs/storage_backends/openyuanrong_datasystem.md
 - https://www.openeuler.org/zh/news/20260728-openYuanrong%20Meetup/20260728-openYuanrong%20Meetup.html
 - https://github.com/verl-project/verl/blob/main/docs/data/transfer_queue.md
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/Ascend/TransferQueue/荣程浩 Chenghao Rong|荣程浩（Chenghao Rong）]]：[[community/Ascend/TransferQueue/TransferQueue|TransferQueue]]：社区维护者。
+
+<!-- END AUTO PROJECT PEOPLE -->

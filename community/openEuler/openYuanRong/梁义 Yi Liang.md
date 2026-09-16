@@ -4,7 +4,8 @@ name: 梁义
 english_name: Yi Liang
 aliases: [梁义, Yi Liang, liangyi1234]
 current_affiliations: ["华为"]
-schools: ["浙江大学"]
+schools:
+  - "浙江大学"
 projects: ["openYuanRong"]
 roles: [openYuanRong Maintainer, 华为通用Serverless首席专家, 华为元戎首席架构师]
 areas: [distributed-systems, serverless, ai-infrastructure, scheduling, reinforcement-learning]
@@ -22,6 +23,10 @@ openYuanRong 核心 Maintainer，也是华为通用 Serverless 首席专家 / �
 ## 图谱关系
 - [[community/openEuler/openYuanRong/罗站城 Zhancheng Luo|罗站城（Zhancheng Luo）]]：共同担任 openYuanRong / sig-YuanRong Maintainer；只记录公开治理协作，不扩展为私人关系。
 - [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]]：核心治理与架构人物。
+
+
+## 学校关联
+- [[university/浙江大学/浙江大学|浙江大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://www.openeuler.org/zh/sig/sig-YuanRong

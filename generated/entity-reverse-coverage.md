@@ -4,10 +4,10 @@
 
 - Company nodes: 42
 - Companies with ≥1 linked person: 34
-- Company-person associations: 162
-- Project/community nodes: 73
-- Project/community nodes with ≥1 linked person: 56
-- Project/community-person associations: 293
+- Company-person associations: 164
+- Project/community nodes: 78
+- Project/community nodes with ≥1 linked person: 59
+- Project/community-person associations: 297
 - Non-company affiliations recognized and routed elsewhere: 55
 - Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
@@ -31,6 +31,7 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
+| [[company/华为/华为|华为]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 4 |
@@ -38,7 +39,6 @@
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
-| [[company/华为/华为|华为]] | 2 |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | 2 |
 | [[company/派欧云/派欧云|派欧云]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
@@ -98,6 +98,7 @@
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
+| [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
 | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 1 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
@@ -111,3 +112,5 @@
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
+| [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
+| [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 1 |

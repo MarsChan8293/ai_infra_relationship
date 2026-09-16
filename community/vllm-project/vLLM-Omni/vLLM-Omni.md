@@ -1,6 +1,8 @@
 ---
 type: project
 name: vLLM-Omni
+linked_people:
+  - "community/vllm-project/vLLM/Roger Wang"
 layer: multimodal-serving
 open_source: true
 repository: https://github.com/vllm-project/vllm-omni
@@ -9,6 +11,7 @@ people:
   - "community/vllm-project/vLLM/Roger Wang"
 related_projects: ["vLLM", "YuanRong DataSystem", "YuanRong TransferEngine", "Mooncake"]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # vLLM-Omni
 
@@ -30,3 +33,12 @@ vLLM-Omni 是 vLLM 生态面向多模态 / 多 stage inference pipeline 的 serv
 - https://docs.vllm.ai/projects/vllm-omni/en/latest/design/feature/disaggregated_inference/
 - https://docs.vllm.ai/projects/vllm-omni/en/latest/design/feature/omni_connectors/yuanrong_transfer_engine_connector/
 - https://github.com/vllm-project/vllm-omni/blob/main/vllm_omni/distributed/omni_connectors/__init__.py
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/vllm-project/vLLM/Roger Wang|Roger Wang]]：https://github.com/vllm-project/vllm-omni
+
+<!-- END AUTO PROJECT PEOPLE -->
