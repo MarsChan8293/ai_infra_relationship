@@ -3,11 +3,13 @@ type: person
 name: 郑连民
 english_name: Lianmin Zheng
 aliases: [郑连民, Lianmin Zheng]
+current_affiliations: ["UCLA"]
 schools:
   - "UC Berkeley"
   - "上海交通大学"
+  - "UCLA"
 communities: [SGLang, LMSYS]
-roles: [SGLang creator, scheduler merge-oncall]
+roles: [SGLang creator, scheduler merge-oncall, Assistant Professor]
 areas: [llm-serving, distributed-systems, compilers, evaluation]
 confidence: verified
 last_verified: "2026-09"
@@ -20,7 +22,7 @@ relations:
 ---
 # 郑连民（Lianmin Zheng）
 
-SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。
+SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。2026-07 起任 [[UCLA]] Computer Science Assistant Professor。
 
 ## 教育经历
 - [[上海交通大学]]：ACM 荣誉班本科
@@ -29,7 +31,7 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 ## 工作与研究
 - Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
 - 曾在 [[xAI]] 负责 Grok inference 基础设施
-- 2026 年公开职业资料对其当前雇主存在 Meta / xAI 更新不同步，仓库不据此推断新的同事关系
+- [[UCLA]]：Computer Science Assistant Professor，2026-07–至今
 
 ## SGLang
 - 2023 年夏天参与启动 SGLang，2024-01 项目公开
@@ -50,3 +52,4 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/31234.html
 - https://arxiv.org/abs/2312.07104
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md
+- https://www.cs.ucla.edu/ucla-computer-science-welcomes-six-faculty-members-v1/
