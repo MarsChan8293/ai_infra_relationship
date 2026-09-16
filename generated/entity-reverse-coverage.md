@@ -4,14 +4,14 @@
 
 - Company nodes: 44
 - Companies with ≥1 linked person: 36
-- Company-person associations: 188
+- Company-person associations: 190
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 187
+- People with generated linked_companies: 189
 - Project/community nodes: 82
 - Project/community nodes with ≥1 linked person: 64
 - Project/community-person associations: 364
 - Non-company affiliations recognized and routed elsewhere: 58
-- Unresolved source values (backlog, non-fatal): 2
+- Unresolved source values (backlog, non-fatal): 0
 - Audit errors: 0
 
 ## Companies
@@ -25,6 +25,7 @@
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
 | [[company/清程极智/清程极智|清程极智]] | 7 |
+| [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 6 |
 | [[company/深度求索/深度求索|深度求索]] | 6 |
@@ -32,7 +33,6 @@
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
-| [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 5 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
@@ -123,10 +123,3 @@
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
-
-## Unresolved source values
-
-这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
-
-- `community/kvcache-ai/Mooncake/Xinpeng Zhao.md` · `affiliation` → `Alibaba Cloud`
-- `community/kvcache-ai/Mooncake/Xuchun Shang.md` · `affiliation` → `Alibaba Cloud`

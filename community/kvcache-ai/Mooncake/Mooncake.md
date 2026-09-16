@@ -21,9 +21,7 @@ linked_people:
   - "company/趋境科技/武永卫 Yongwei Wu"
   - "university/清华大学/Mingxing Zhang"
   - "university/清华大学/Ruoyu Qin"
-companies:
-  - "月之暗面"
-  - "趋境科技"
+companies: ["月之暗面","趋境科技"]
 company_relation: industry-academia-co-development
 layer: kv-cache-centric-serving
 open_source: true

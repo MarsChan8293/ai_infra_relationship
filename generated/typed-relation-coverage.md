@@ -52,22 +52,22 @@
 | 22 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.857 | 6 | 2 | 0 |
 | 23 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
 | 24 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
-| 25 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
-| 26 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
-| 27 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
-| 28 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
-| 29 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
-| 30 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
-| 31 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
-| 32 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
-| 33 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
-| 34 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
-| 35 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
-| 36 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
-| 37 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
-| 38 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 | 3 | 0 |
-| 39 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 | 2 | 0 |
-| 40 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
+| 25 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.520 | 8 | 4 | 0 |
+| 26 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.520 | 8 | 4 | 0 |
+| 27 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
+| 28 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
+| 29 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
+| 30 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
+| 31 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
+| 32 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
+| 33 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
+| 34 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
+| 35 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
+| 36 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
+| 37 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
+| 38 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
+| 39 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
+| 40 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 | 3 | 0 |
 
 ## Structured bridge nodes
 
