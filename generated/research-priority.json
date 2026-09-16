@@ -5,8 +5,75 @@
   "replacement": "generated/research-actions.json",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1133,
+  "candidate_count": 1134,
   "selected_actions": [
+    {
+      "action_id": "community/Ascend/MemCache/MemCache::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MemCache/MemCache",
+        "name": "MemCache",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.154,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.202,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
     {
       "action_id": "company/月之暗面/checkpoint-engine::maintainers",
       "action_key": "project:maintainers:person",
@@ -190,73 +257,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 8.955,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/vllm-project/Speculators/Speculators::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/vllm-project/Speculators/Speculators",
-        "name": "Speculators",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.865,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.913,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -691,6 +691,73 @@
     }
   ],
   "candidates": [
+    {
+      "action_id": "community/Ascend/MemCache/MemCache::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MemCache/MemCache",
+        "name": "MemCache",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.154,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.202,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
     {
       "action_id": "company/月之暗面/checkpoint-engine::maintainers",
       "action_key": "project:maintainers:person",
@@ -4740,76 +4807,6 @@
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao",
-        "name": "LyricZhao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.991,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.65,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.697,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
     }
   ],
   "planner_entrypoint": "scripts/plan-research.py",
@@ -4901,6 +4898,6 @@
       }
     }
   },
-  "eligible_count": 1107,
+  "eligible_count": 1108,
   "suppressed_count": 26
 }

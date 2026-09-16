@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 42,
   "companies_with_links": 29,
-  "project_community_nodes": 73,
-  "project_community_nodes_with_links": 42,
-  "association_pairs": 58,
-  "asserted_on_both_sides": 58,
+  "project_community_nodes": 74,
+  "project_community_nodes_with_links": 43,
+  "association_pairs": 59,
+  "asserted_on_both_sides": 59,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -336,6 +336,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/Ascend/MemCache/MemCache",
+      "entity_name": "MemCache",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"

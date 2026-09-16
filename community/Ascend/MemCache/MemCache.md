@@ -1,6 +1,7 @@
 ---
 type: project
 name: MemCache
+linked_people: []
 companies: ["华为"]
 company_relation: company-led
 layer: kv-cache
@@ -8,8 +9,9 @@ hardware: [Ascend]
 open_source: true
 repository: https://gitcode.com/Ascend/memcache
 areas: [kv-cache, distributed-storage, prefix-cache, memory-pooling, disaggregated-serving, ascend]
-linked_people: []
 last_verified: "2026-09"
+linked_companies:
+  - "company/华为/华为"
 ---
 # MemCache
 
@@ -54,3 +56,12 @@ https://github.com/Ascend/memcache
 - https://gitcode.com/Ascend/memcache/blob/develop/README.md
 - https://github.com/Ascend/memcache
 - https://docs.vllm.ai/projects/ascend/en/main/user_guide/feature_guide/kv_pool.html
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
