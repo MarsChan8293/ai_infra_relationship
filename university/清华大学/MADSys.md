@@ -14,6 +14,7 @@ linked_people:
   - "community/kvcache-ai/KTransformers/Qingliang Ou"
   - "community/kvcache-ai/KTransformers/Yuening Zhu"
   - "community/kvcache-ai/KTransformers/Ziwei Yuan"
+  - "company/趋境科技/武永卫 Yongwei Wu"
   - "university/清华大学/Jinlei Jiang"
   - "university/清华大学/Mingxing Zhang"
   - "university/清华大学/Ruoyu Qin"
@@ -112,6 +113,7 @@ MADSys 官方项目还包括 AgentENV 与 RDSM。AgentENV 面向大规模 agent 
 - [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[清华大学]] / MADSys Lab
 - [[community/kvcache-ai/KTransformers/Yuening Zhu|Yuening Zhu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[university/清华大学/MADSys|MADSys]]：官方主页记录 Ziwei Yuan 于 2026-08-31 加入实验室，并列入当前 Ph.D. Students。
+- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Jinlei Jiang|蒋金磊（Jinlei Jiang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
