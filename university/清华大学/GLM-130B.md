@@ -8,6 +8,7 @@ linked_people:
   - "company/智谱/曾奥涵 Aohan Zeng"
   - "company/智谱/杜政晓 Zhengxiao Du"
   - "company/智谱/郑勤锴 Qinkai Zheng"
+  - "company/清程极智/翟季冬 Jidong Zhai"
   - "company/清程极智/马子轩 Zixuan Ma"
   - "university/清华大学/Wenguang Chen"
 areas: [foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency]
@@ -54,6 +55,7 @@ GLM-130B 是清华 KEG 发起的 130B 中英双语稠密预训练模型，也是
 - [[company/智谱/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]：[[university/清华大学/GLM-130B|GLM-130B]]：2022–2023 学生负责人 / Lead Contributor；Model Implementation、Model Architecture、Training Stability 核心贡献
 - [[company/智谱/杜政晓 Zhengxiao Du|杜政晓（Zhengxiao Du）]]：[[university/清华大学/GLM-130B|GLM-130B]]：2022–2023 Model Implementation / Architecture
 - [[company/智谱/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：[[university/清华大学/GLM-130B|GLM-130B]]：2022 Tsinghua KEG contributor
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[university/清华大学/GLM-130B|GLM-130B]]：官方回顾明确记录 PACMAN 团队帮助 KEG 解决 100B 级训练的 pipeline、显存、故障与异构平台问题，形成 [[university/清华大学/KEG|KEG]] ↔ PACMAN 的直接协作。
 - [[company/清程极智/马子轩 Zixuan Ma|马子轩（Zixuan Ma）]]：[[university/清华大学/GLM-130B|GLM-130B]]：官方项目材料列为 PACMAN contributor，同时进入 ICLR 2023 GLM-130B 作者网络。
 - [[university/清华大学/Wenguang Chen|陈文光（Wenguang Chen）]]：[[university/清华大学/GLM-130B|GLM-130B]]：官方项目贡献团队将陈文光列入 Tsinghua PACMAN contributors，连接大模型训练中的并行 / 系统优化。
 

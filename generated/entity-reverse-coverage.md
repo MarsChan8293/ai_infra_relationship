@@ -9,7 +9,7 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 409
+- Project/community-person associations: 410
 - Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
@@ -81,8 +81,8 @@
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
+| [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
-| [[university/清华大学/GLM-130B|GLM-130B]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
