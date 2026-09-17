@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 45
-- Companies with ≥1 linked project/community: 30
-- Project/community nodes: 82
-- Project/community nodes with ≥1 linked company: 48
-- Bidirectional association pairs: 65
-- Explicitly asserted on both sides: 65
+- Company nodes: 50
+- Companies with ≥1 linked project/community: 35
+- Project/community nodes: 99
+- Project/community nodes with ≥1 linked company: 61
+- Bidirectional association pairs: 78
+- Explicitly asserted on both sides: 78
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -20,6 +20,7 @@
 | [[company/Anyscale/Anyscale|Anyscale]] | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | project | core-commercial-ecosystem | both |
 | [[company/CoreWeave/CoreWeave|CoreWeave]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Google/Google|Google]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | project |  | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/ggml/ggml|ggml]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
@@ -44,6 +45,7 @@
 | [[company/Together AI/Together AI|Together AI]] | [[company/Together AI/Ladder Residual|Ladder Residual]] | project | research-collaboration | both |
 | [[company/Together AI/Together AI|Together AI]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/一流科技/一流科技|一流科技]] | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | project | company-originated | both |
+| [[company/华为/华为|华为]] | [[community/Ascend/CANN/CANN|CANN]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MemCache/MemCache|MemCache]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | project | company-led | both |
@@ -55,12 +57,21 @@
 | [[company/华为/华为|华为]] | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | project | hardware-ecosystem-core-contributor | both |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[community/sii-research/VCCL/VCCL|VCCL]] | project | industry-research-co-development | both |
+| [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | project | company-originated | both |
+| [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | company-led | both |
+| [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar|lmcache-iluvatar]] | project | company-originated | both |
 | [[company/字节跳动/字节跳动|字节跳动]] | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | project | company-originated | both |
 | [[company/密瓜智能/密瓜智能|密瓜智能]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/MATE/MATE|MATE]] | project | company-led | both |
+| [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | company-led | both |
+| [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | project | company-led | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |
+| [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | company-led | both |
+| [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | company-led | both |
+| [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | project | company-led | both |
@@ -73,6 +84,8 @@
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | project | company-led | both |
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | company-originated-and-jointly-open-sourced-with-tsinghua | both |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | project | company-originated | both |
+| [[company/硅基流动/硅基流动|硅基流动]] | [[community/siliconflow/OneDiff/OneDiff|OneDiff]] | project | company-led | both |
+| [[company/硅基流动/硅基流动|硅基流动]] | [[community/siliconflow/SiliconLLM/SiliconLLM|SiliconLLM]] | project | company-led | both |
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | project | company-led | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |

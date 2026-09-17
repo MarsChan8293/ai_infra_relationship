@@ -1,20 +1,20 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 542,
-  "complete_count": 542,
+  "node_count": 582,
+  "complete_count": 582,
   "incomplete_count": 0,
   "counts_by_type": {
-    "community": 4,
-    "company": 45,
+    "community": 8,
+    "company": 50,
     "index": 4,
     "infra-project": 3,
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 309,
+    "person": 327,
     "person-link": 4,
-    "project": 80,
+    "project": 93,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 12,
@@ -198,6 +198,24 @@
       "source_markdown": "community/ai-dynamo/NIXL/Tomer Davidor.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/ai-dynamo/NIXL/Tomer Davidor.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Ascend/Ascend/Ascend",
+      "type": "community",
+      "source_markdown": "community/Ascend/Ascend/Ascend.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/Ascend/Ascend/Ascend.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Ascend/CANN/CANN",
+      "type": "project",
+      "source_markdown": "community/Ascend/CANN/CANN.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Ascend/CANN/CANN.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -459,6 +477,42 @@
       "source_markdown": "community/community.md",
       "schema_definition": "schema/index.yaml",
       "schema_instance": "schema/nodes/community/community.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Deep-Spark/DeepSpark/DeepSpark",
+      "type": "community",
+      "source_markdown": "community/Deep-Spark/DeepSpark/DeepSpark.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/Deep-Spark/DeepSpark/DeepSpark.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Deep-Spark/DeepSparkInference/DeepSparkInference",
+      "type": "project",
+      "source_markdown": "community/Deep-Spark/DeepSparkInference/DeepSparkInference.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Deep-Spark/DeepSparkInference/DeepSparkInference.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt",
+      "type": "project",
+      "source_markdown": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar",
+      "type": "project",
+      "source_markdown": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1008,6 +1062,15 @@
       "source_markdown": "community/ggml-org/llama.cpp/llama.cpp.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/ggml-org/llama.cpp/llama.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/GPUStack/GPUStack",
+      "type": "project",
+      "source_markdown": "community/gpustack/GPUStack/GPUStack.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/GPUStack/GPUStack.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1588,6 +1651,42 @@
       "missing_required": []
     },
     {
+      "id": "community/MetaX-MACA/mcoplib/mcoplib",
+      "type": "project",
+      "source_markdown": "community/MetaX-MACA/mcoplib/mcoplib.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MetaX-MACA/mcoplib/mcoplib.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MetaX-MACA/MetaX-MACA/MetaX-MACA",
+      "type": "community",
+      "source_markdown": "community/MetaX-MACA/MetaX-MACA/MetaX-MACA.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/MetaX-MACA/MetaX-MACA/MetaX-MACA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MetaX-MACA/MXDeepEP/MXDeepEP",
+      "type": "project",
+      "source_markdown": "community/MetaX-MACA/MXDeepEP/MXDeepEP.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MetaX-MACA/MXDeepEP/MXDeepEP.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
+      "type": "project",
+      "source_markdown": "community/MetaX-MACA/vLLM-metax/vLLM-metax.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MetaX-MACA/vLLM-metax/vLLM-metax.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/ModelTC/LightLLM/Hailong Yang",
       "type": "person",
       "source_markdown": "community/ModelTC/LightLLM/Hailong Yang.md",
@@ -1674,6 +1773,42 @@
       "source_markdown": "community/ModelTC/LightLLM/Zaijun Wang.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/ModelTC/LightLLM/Zaijun Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MooreThreads/MATE/MATE",
+      "type": "project",
+      "source_markdown": "community/MooreThreads/MATE/MATE.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MooreThreads/MATE/MATE.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MooreThreads/MUSA/MUSA",
+      "type": "community",
+      "source_markdown": "community/MooreThreads/MUSA/MUSA.md",
+      "schema_definition": "schema/community.yaml",
+      "schema_instance": "schema/nodes/community/MooreThreads/MUSA/MUSA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MooreThreads/torch_musa/torch_musa",
+      "type": "project",
+      "source_markdown": "community/MooreThreads/torch_musa/torch_musa.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MooreThreads/torch_musa/torch_musa.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MooreThreads/vllm-musa/vllm-musa",
+      "type": "project",
+      "source_markdown": "community/MooreThreads/vllm-musa/vllm-musa.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MooreThreads/vllm-musa/vllm-musa.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2083,6 +2218,24 @@
       "missing_required": []
     },
     {
+      "id": "community/sgl-project/SGLang/张亦弛",
+      "type": "person",
+      "source_markdown": "community/sgl-project/SGLang/张亦弛.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/sgl-project/SGLang/张亦弛.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/sgl-project/SGLang/张晓雨",
+      "type": "person",
+      "source_markdown": "community/sgl-project/SGLang/张晓雨.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/sgl-project/SGLang/张晓雨.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie",
       "type": "person",
       "source_markdown": "community/sgl-project/SGLang/谢志强 Zhiqiang Xie.md",
@@ -2115,6 +2268,24 @@
       "source_markdown": "community/sii-research/VCCL/VCCL.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/sii-research/VCCL/VCCL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/siliconflow/OneDiff/OneDiff",
+      "type": "project",
+      "source_markdown": "community/siliconflow/OneDiff/OneDiff.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/siliconflow/OneDiff/OneDiff.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/siliconflow/SiliconLLM/SiliconLLM",
+      "type": "project",
+      "source_markdown": "community/siliconflow/SiliconLLM/SiliconLLM.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/siliconflow/SiliconLLM/SiliconLLM.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2740,6 +2911,24 @@
       "missing_required": []
     },
     {
+      "id": "company/GPUStack/GPUStack",
+      "type": "company",
+      "source_markdown": "company/GPUStack/GPUStack.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/GPUStack/GPUStack.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/GPUStack/秦小康",
+      "type": "person",
+      "source_markdown": "company/GPUStack/秦小康.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/GPUStack/秦小康.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/HPE/HPE",
       "type": "company",
       "source_markdown": "company/HPE/HPE.md",
@@ -3028,11 +3217,29 @@
       "missing_required": []
     },
     {
+      "id": "company/RadixArk/王书文 Shuwen Wang",
+      "type": "person",
+      "source_markdown": "company/RadixArk/王书文 Shuwen Wang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/RadixArk/王书文 Shuwen Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/RadixArk/盛颖 Ying Sheng",
       "type": "person",
       "source_markdown": "company/RadixArk/盛颖 Ying Sheng.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/company/RadixArk/盛颖 Ying Sheng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/RadixArk/童心源 Xinyuan Tong",
+      "type": "person",
+      "source_markdown": "company/RadixArk/童心源 Xinyuan Tong.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/RadixArk/童心源 Xinyuan Tong.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3208,6 +3415,33 @@
       "missing_required": []
     },
     {
+      "id": "company/天数智芯/honglyua",
+      "type": "person",
+      "source_markdown": "company/天数智芯/honglyua.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/天数智芯/honglyua.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/天数智芯/shengyan.zhao",
+      "type": "person",
+      "source_markdown": "company/天数智芯/shengyan.zhao.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/天数智芯/shengyan.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/天数智芯/天数智芯",
+      "type": "company",
+      "source_markdown": "company/天数智芯/天数智芯.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/天数智芯/天数智芯.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/字节跳动/何家傲 Jiaao He",
       "type": "person",
       "source_markdown": "company/字节跳动/何家傲 Jiaao He.md",
@@ -3249,6 +3483,24 @@
       "source_markdown": "company/密瓜智能/密瓜智能.md",
       "schema_definition": "schema/company.yaml",
       "schema_instance": "schema/nodes/company/密瓜智能/密瓜智能.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/摩尔线程/Xiaodong Ye",
+      "type": "person",
+      "source_markdown": "company/摩尔线程/Xiaodong Ye.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/摩尔线程/Xiaodong Ye.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/摩尔线程/摩尔线程",
+      "type": "company",
+      "source_markdown": "company/摩尔线程/摩尔线程.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/摩尔线程/摩尔线程.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3460,11 +3712,47 @@
       "missing_required": []
     },
     {
+      "id": "company/沐曦/Xin Li",
+      "type": "person",
+      "source_markdown": "company/沐曦/Xin Li.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/沐曦/Xin Li.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/沐曦/杨建",
+      "type": "person",
+      "source_markdown": "company/沐曦/杨建.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/沐曦/杨建.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/沐曦/沐曦",
+      "type": "company",
+      "source_markdown": "company/沐曦/沐曦.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/沐曦/沐曦.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/派欧云/姚欣 Bill Yao",
       "type": "person",
       "source_markdown": "company/派欧云/姚欣 Bill Yao.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/company/派欧云/姚欣 Bill Yao.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/派欧云/李星星",
+      "type": "person",
+      "source_markdown": "company/派欧云/李星星.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/派欧云/李星星.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3604,6 +3892,15 @@
       "missing_required": []
     },
     {
+      "id": "company/清程极智/吉青",
+      "type": "person",
+      "source_markdown": "company/清程极智/吉青.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/清程极智/吉青.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/清程极智/唐适之 Shizhi Tang",
       "type": "person",
       "source_markdown": "company/清程极智/唐适之 Shizhi Tang.md",
@@ -3703,6 +4000,15 @@
       "missing_required": []
     },
     {
+      "id": "company/硅基流动/唐安波",
+      "type": "person",
+      "source_markdown": "company/硅基流动/唐安波.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/硅基流动/唐安波.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/硅基流动/曾华",
       "type": "person",
       "source_markdown": "company/硅基流动/曾华.md",
@@ -3730,6 +4036,15 @@
       "missing_required": []
     },
     {
+      "id": "company/硅基流动/胡健",
+      "type": "person",
+      "source_markdown": "company/硅基流动/胡健.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/硅基流动/胡健.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/硅基流动/袁进辉 Jinhui Yuan",
       "type": "person",
       "source_markdown": "company/硅基流动/袁进辉 Jinhui Yuan.md",
@@ -3744,6 +4059,24 @@
       "source_markdown": "company/硅基流动/赵震 Zhao Zhen.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/company/硅基流动/赵震 Zhao Zhen.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/积算科技/张宇",
+      "type": "person",
+      "source_markdown": "company/积算科技/张宇.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/积算科技/张宇.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/积算科技/积算科技",
+      "type": "company",
+      "source_markdown": "company/积算科技/积算科技.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/积算科技/积算科技.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -4747,6 +5080,15 @@
       "missing_required": []
     },
     {
+      "id": "university/清华大学/Kang Chen",
+      "type": "person",
+      "source_markdown": "university/清华大学/Kang Chen.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/清华大学/Kang Chen.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/清华大学/MADSys",
       "type": "research-institution",
       "source_markdown": "university/清华大学/MADSys.md",
@@ -4770,6 +5112,24 @@
       "source_markdown": "university/清华大学/Ruoyu Qin.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/university/清华大学/Ruoyu Qin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/清华大学/Shuai Mu",
+      "type": "person",
+      "source_markdown": "university/清华大学/Shuai Mu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/清华大学/Shuai Mu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/清华大学/Weichao Guo",
+      "type": "person",
+      "source_markdown": "university/清华大学/Weichao Guo.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/清华大学/Weichao Guo.yaml",
       "status": "complete",
       "missing_required": []
     },

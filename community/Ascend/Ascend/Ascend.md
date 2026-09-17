@@ -2,14 +2,8 @@
 type: community
 name: Ascend
 aliases: [Ascend, 昇腾, 昇腾开源生态]
-linked_people:
-  - "community/Ascend/ops-transformer/wangchao661"
-  - "community/Ascend/ops-transformer/Konstantin Berestizshevsky"
-  - "community/Ascend/MemCache/吕有辉"
-  - "community/vllm-project/vLLM-Omni/Gao Han"
-  - "community/vllm-project/vLLM-Omni/Hongsheng Liu"
-linked_companies:
-  - "company/华为/华为"
+linked_people: []
+linked_companies: []
 linked_projects:
   - "community/Ascend/CANN/CANN"
   - "community/Ascend/MemCache/MemCache"

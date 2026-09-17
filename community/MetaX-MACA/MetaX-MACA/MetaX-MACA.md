@@ -3,10 +3,9 @@ type: community
 name: MetaX-MACA
 aliases: [MXMACA, MetaX-MACA, 沐曦开源生态]
 linked_people:
-  - "company/沐曦/杨建"
   - "company/沐曦/Xin Li"
-linked_companies:
-  - "company/沐曦/沐曦"
+  - "company/沐曦/杨建"
+linked_companies: []
 linked_projects:
   - "community/MetaX-MACA/vLLM-metax/vLLM-metax"
   - "community/MetaX-MACA/mcoplib/mcoplib"
@@ -25,3 +24,13 @@ MetaX-MACA 是沐曦围绕 MXMACA 软件栈形成的公开开发者与开源项�
 - https://github.com/MetaX-MACA
 - https://www.metax-tech.com/about.html
 - https://www.metax-tech.com/en/ndetail/12549.html
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/沐曦/Xin Li|Xin Li]]：https://github.com/MetaX-MACA/vLLM-metax/commit/0a392dae73424a4e2aed24cad9b2b69163cad7ab
+- [[company/沐曦/杨建|杨建]]：社区贡献关联；人物页已明确记录该社区。
+
+<!-- END AUTO PROJECT PEOPLE -->

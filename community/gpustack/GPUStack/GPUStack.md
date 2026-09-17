@@ -2,12 +2,14 @@
 type: project
 name: GPUStack
 organization: gpustack
-layer: inference-orchestration
-open_source: true
 linked_people:
   - "company/GPUStack/秦小康"
+layer: inference-orchestration
+open_source: true
 linked_companies:
   - "company/GPUStack/GPUStack"
+companies:
+  - "GPUStack"
 ---
 # GPUStack
 
@@ -28,3 +30,21 @@ GPUStack 是面向生产环境的开源 GPU / accelerator 集群管理与 AI mod
 - https://gpustack.ai/
 - https://gpustack.ai/blog/introducing-gpustack/
 - https://www.aicconf.net/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/GPUStack/秦小康|秦小康]]：[[community/gpustack/GPUStack/GPUStack|GPUStack]]：公司 / 开源项目核心组织关系；项目本身是 GPU / NPU 集群管理与高性能模型 serving 编排层。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/GPUStack/GPUStack|GPUStack]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

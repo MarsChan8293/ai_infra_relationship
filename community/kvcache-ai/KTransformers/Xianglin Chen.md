@@ -38,6 +38,10 @@ KTransformers 官方仓库进一步把项目维护组织列为清华 MADSys、Ap
 ## 图谱意义
 陈祥麟把武永卫较早的清华 systems 人才网络与当前 CPU/GPU heterogeneous MoE inference、趋境科技产品化路线直接连接起来，是“学术系统研究 → 创业公司 CTO / 推理系统”的典型迁移节点。
 
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/
 - https://madsys.cs.tsinghua.edu.cn/author/xianglin-chen/

@@ -105,11 +105,11 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰（Feng Ren）]]：Mooncake 联合创建者之一
 - [[community/kvcache-ai/Mooncake/马腾 Teng Ma|马腾（Teng Ma）]]：参与 Mooncake 社区维护与跨生态协作
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[Mooncake]]：KVCache-centric disaggregated serving 论文作者，连接 SGLang / kernel 与清华 MADSys、Moonshot/Kimi serving 网络。
-- [[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：[[Mooncake]]：2025 Mooncake 论文作者，与 [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]] 等共同构成清华 systems / HPC 上游作者网络。
+- [[company/清程极智/郑纬民 Weimin Zheng|郑纬民（Weimin Zheng）]]：[[Mooncake]]：2025 Mooncake 论文作者，与武永卫、[[university/清华大学/Mingxing Zhang|Mingxing Zhang]] 等共同构成清华 systems / HPC 上游作者网络。
 - [[company/腾讯/Stary|Stary]]：[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]：当前 `CODEOWNERS` 将 `@staryxchen` 列为 `mooncake-transfer-engine` 与 TENT 路径 codeowner 之一。
 - [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪（Jiahao Lu）]]：[[趋境科技]]：公开个人主页写明正在公司实习并参与 Mooncake 开发。
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[Mooncake]]：2025 Mooncake 论文作者，连接 MADSys 与 Moonshot/Kimi production workload。
-- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]：FAST 2025 论文作者与研究导师网络核心；清华官方报道明确将 [[university/清华大学/Ruoyu Qin|Ruoyu Qin]] 列为其指导学生。
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**博士导师 + 长期 systems / AI Infra 合作者**。CCF 2018 优秀博士学位论文奖公示明确列出章明星博士论文《大规模图数据的高效计算》的培养单位为清华大学、导师为武永卫。毕业后两人仍持续共同署名 Mooncake、KTransformers 等工作，因此这条边同时具有正式 `student/advisor` 与长期 `research-collab...
 - [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]：FAST 2025 第一作者，连接清华 MADSys 与真实 Kimi production serving workload；当前 Mooncake `CODEOWNERS` 还将 `@chestnut-Q` 列为 Transfer Engine codeowner，说明其角色已从论文作者延伸到关键数据移动模块治理。
 
 <!-- END AUTO PROJECT PEOPLE -->

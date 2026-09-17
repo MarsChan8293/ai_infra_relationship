@@ -5,8 +5,8 @@ english_name: Kang Chen
 aliases: ["Kang Chen", "陈康"]
 current_affiliations: ["Peking University"]
 schools:
-  - "清华大学"
   - "北京大学"
+  - "清华大学"
 areas: [distributed-systems, storage-systems, rdma, disaggregated-memory, graph-systems, systems-software]
 roles: [Professor]
 confidence: verified
@@ -30,6 +30,10 @@ relations:
 
 ## 图谱意义
 陈康与武永卫共同构成清华传统 distributed/storage systems 人才培养网络的重要一支。这条路线向后连接 Shuai Mu、Weichao Guo 等系统人才，并与 MADSys 后续的 disaggregated memory、KV cache / LLM serving 研究形成技术谱系上的连续性。
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://cs.pku.edu.cn/info/1062/6300.htm

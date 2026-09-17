@@ -8,7 +8,9 @@ linked_people:
   - "company/RadixArk/Qiaolin Yu"
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
+  - "company/RadixArk/王书文 Shuwen Wang"
   - "company/RadixArk/盛颖 Ying Sheng"
+  - "company/RadixArk/童心源 Xinyuan Tong"
 projects:
   - "SGLang"
   - "Miles"
@@ -37,7 +39,9 @@ RadixArk 是围绕高性能 LLM serving 与 [[SGLang]] 生态形成的 AI infras
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：人物页 `current_affiliations:` 明确记录；[[RadixArk]]：founding team MTS，2025-12–至今
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：人物页 `current_affiliations:` 明确记录；[[RadixArk]]：工程师；截至 2026-09 在职
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：人物页 `current_affiliations:` 明确记录；[[RadixArk]]：联合创始人、CTO；公司在 2025 年下半年已公开运行
+- [[company/RadixArk/王书文 Shuwen Wang|王书文（Shuwen Wang）]]：人物页 `current_affiliations:` 明确记录。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：人物页 `current_affiliations:` 明确记录；[[RadixArk]]：联合创始人、CEO；公开信息显示公司自 2025 年下半年已开始运行
+- [[company/RadixArk/童心源 Xinyuan Tong|童心源（Xinyuan Tong）]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO COMPANY PEOPLE -->
 

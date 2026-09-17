@@ -14,6 +14,8 @@ linked_people:
   - "community/sgl-project/SGLang/Shenggui Li"
   - "community/sgl-project/SGLang/Yineng Zhang"
   - "community/sgl-project/SGLang/尹良升 Liangsheng Yin"
+  - "community/sgl-project/SGLang/张亦弛"
+  - "community/sgl-project/SGLang/张晓雨"
   - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
   - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
   - "company/Inferact/Ion Stoica"
@@ -23,7 +25,9 @@ linked_people:
   - "company/RadixArk/Qiaolin Yu"
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
+  - "company/RadixArk/王书文 Shuwen Wang"
   - "company/RadixArk/盛颖 Ying Sheng"
+  - "company/RadixArk/童心源 Xinyuan Tong"
   - "company/腾讯/Chunxiao Zheng"
   - "university/UC Berkeley/Shiyi Cao"
   - "university/上海交通大学/Xiaoze Fan"
@@ -78,6 +82,8 @@ https://github.com/sgl-project/sglang
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[SGLang]]：2024–2025 core maintainer，参与 DeepSeek-V3 day-0 support 与性能优化。
 - [[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：LMSYS：2023 起 Research Intern / research collaborator，与郑连民、盛颖等共同开发 SGLang
+- [[community/sgl-project/SGLang/张亦弛|张亦弛]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/sgl-project/SGLang/张晓雨|张晓雨]]：SGLang inference / kernel optimization。
 - [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**SGLang 原始论文合著者 + 当前系统模块协作者**。两人共同署名 2023/2024 SGLang 原始工作；截至 2026-09 郑连民负责 scheduler，谢志强负责 KV Cache merge oncall，属于 scheduler ↔ cache 的持续开源协作，不等同于公司同事。
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：Berkeley 期间参与 Alpa、TVM/Ansor、FastChat、Chatbot Arena、SGLang 等系统
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Ion Stoica 与 Joseph Gonzalez 指导，其系统研究谱系连接 Alpa、FastChat 与 [[SGLang]]；这里已从泛化 `mentor-network` 升级为正式 `student` 强边。
@@ -87,7 +93,9 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[SGLang]]：个人主页将 `sgl-project/sglang` 直接列在 Open Source 部分，并说明 RadixArk 团队由 SGLang creators / core developers 组成。
+- [[company/RadixArk/王书文 Shuwen Wang|王书文（Shuwen Wang）]]：[[community/sgl-project/SGLang/SGLang|SGLang]]：核心贡献者 / HiCache 维护者。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
+- [[company/RadixArk/童心源 Xinyuan Tong|童心源（Xinyuan Tong）]]：长期参与 SGLang 模型支持、生产级 serving、多模态与推测解码相关工程。
 - [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：SGLang #38652：在 `UnifiedRadixCache` 中接入 LMCache external KV-cache backend。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：https://github.com/sgl-project/mini-sglang

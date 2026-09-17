@@ -4,6 +4,7 @@ name: Shuai Mu
 aliases: ["Shuai Mu"]
 current_affiliations: ["Stony Brook University"]
 schools:
+  - "Stony Brook University"
   - "清华大学"
 areas: [distributed-systems, databases, consensus, replication, concurrency-control]
 roles: [Associate Professor]
@@ -35,6 +36,10 @@ Shuai Mu 是武永卫早期 systems 人才培养网络中非常清晰的一条�
 `清华 distributed/storage systems → consensus / transactions → Stony Brook distributed systems`
 
 这条支路不直接属于当前 LLM serving，但对理解武永卫团队在可靠分布式系统、存储与一致性方向的技术底座很有价值。
+
+## 学校关联
+- [[university/Stony Brook University/Stony Brook University|Stony Brook University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://mpaxos.com/

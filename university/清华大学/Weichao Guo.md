@@ -36,5 +36,8 @@ OPPO OS Kernel Team Principal Engineer。此前曾在 Huawei OS Kernel Lab 与 A
 ## 图谱意义
 Weichao Guo 本身不是当前 LLM serving 核心人物，但其职业轨迹能补足武永卫人才网络的“系统软件底座”一侧，并显示这套人才体系早在大模型时代之前就持续向 OS、存储和内核工程扩散。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://weichaoguo.github.io/

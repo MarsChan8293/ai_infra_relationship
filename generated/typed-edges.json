@@ -3124,9 +3124,79 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://www.qc-ai.cn/about",
-      "https://hpctest.cs.tsinghua.edu.cn/people.html",
       "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
+    "source": "company/清程极智/郑纬民 Weimin Zheng",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/publication/",
+      "https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml"
+    ]
+  },
+  {
+    "source": "company/清程极智/郑纬民 Weimin Zheng",
+    "target": "university/清华大学/Shuai Mu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "mentor-network",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "company/清程极智/郑纬民 Weimin Zheng",
+    "target": "university/清华大学/Weichao Guo",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "company/清程极智/郑纬民 Weimin Zheng",
+    "target": "university/清华大学/Kang Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "same-lab",
+      "research-collaboration",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/author/kang-chen/",
+      "https://mpaxos.com/cv.pdf"
     ]
   },
   {
@@ -3468,15 +3538,18 @@
     "target": "company/趋境科技/武永卫 Yongwei Wu",
     "kind": "typed-relation",
     "relation_types": [
-      "mentor-network"
+      "student",
+      "coworker",
+      "career-connection"
     ],
     "project": null,
-    "company": null,
+    "company": "趋境科技",
     "start": null,
     "end": null,
-    "confidence": "medium",
+    "confidence": "high",
     "evidence": [
-      "https://madsys.cs.tsinghua.edu.cn/people/"
+      "https://madsys.cs.tsinghua.edu.cn/author/hongbo-kang/",
+      "https://madsys.cs.tsinghua.edu.cn/"
     ]
   },
   {
@@ -3484,17 +3557,18 @@
     "target": "company/趋境科技/艾智远 Zhiyuan Ai",
     "kind": "typed-relation",
     "relation_types": [
-      "coworker"
+      "advisor",
+      "coworker",
+      "technical-collaboration"
     ],
     "project": null,
-    "company": null,
+    "company": "趋境科技",
     "start": null,
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://madsys.cs.tsinghua.edu.cn/",
-      "https://madsys.cs.tsinghua.edu.cn/publication/",
-      "https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"
+      "https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html",
+      "https://finance.sina.com.cn/wm/2026-07-16/doc-inihyyvy4516279.shtml"
     ]
   },
   {
@@ -3513,8 +3587,7 @@
     "confidence": "high",
     "evidence": [
       "https://madsys.cs.tsinghua.edu.cn/",
-      "https://madsys.cs.tsinghua.edu.cn/publication/",
-      "https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
     ]
   },
   {
@@ -3522,6 +3595,65 @@
     "target": "university/清华大学/Mingxing Zhang",
     "kind": "typed-relation",
     "relation_types": [
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.ccf.org.cn/Focus/2018-11-12/654739.shtml",
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "company/趋境科技/Hongbo Kang",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "coworker",
+      "career-connection"
+    ],
+    "project": null,
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/author/hongbo-kang/",
+      "https://madsys.cs.tsinghua.edu.cn/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "community/kvcache-ai/KTransformers/Xianglin Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "mentor-network",
+      "paper-coauthor",
+      "coworker"
+    ],
+    "project": "KTransformers",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html",
+      "https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "university/清华大学/Kang Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "same-lab",
+      "research-collaboration",
       "paper-coauthor"
     ],
     "project": null,
@@ -3530,9 +3662,153 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://madsys.cs.tsinghua.edu.cn/",
+      "https://madsys.cs.tsinghua.edu.cn/author/kang-chen/",
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "university/清华大学/Shuai Mu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "university/清华大学/Weichao Guo",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "company/清程极智/郑纬民 Weimin Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
       "https://madsys.cs.tsinghua.edu.cn/publication/",
-      "https://news.sciencenet.cn/htmlnews/2026/3/561898.shtm"
+      "https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "TENT",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "community/kvcache-ai/Mooncake/Ke Yang",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "TENT",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/publication/",
+      "https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"
+    ]
+  },
+  {
+    "source": "company/趋境科技/武永卫 Yongwei Wu",
+    "target": "university/清华大学/Yingdi Shan",
+    "kind": "typed-relation",
+    "relation_types": [
+      "same-lab",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/",
+      "https://www.usenix.org/conference/osdi26/presentation/qin"
+    ]
+  },
+  {
+    "source": "company/趋境科技/艾智远 Zhiyuan Ai",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "student",
+      "coworker",
+      "technical-collaboration"
+    ],
+    "project": null,
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html",
+      "https://finance.sina.com.cn/wm/2026-07-16/doc-inihyyvy4516279.shtml"
+    ]
+  },
+  {
+    "source": "company/趋境科技/艾智远 Zhiyuan Ai",
+    "target": "community/kvcache-ai/KTransformers/Xianglin Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor"
+    ],
+    "project": "KTransformers",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/",
+      "https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml"
     ]
   },
   {
@@ -4234,6 +4510,43 @@
     ]
   },
   {
+    "source": "community/kvcache-ai/KTransformers/Xianglin Chen",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "mentor-network",
+      "paper-coauthor",
+      "coworker"
+    ],
+    "project": "KTransformers",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html",
+      "https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"
+    ]
+  },
+  {
+    "source": "community/kvcache-ai/KTransformers/Xianglin Chen",
+    "target": "company/趋境科技/艾智远 Zhiyuan Ai",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor"
+    ],
+    "project": "KTransformers",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml",
+      "https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/"
+    ]
+  },
+  {
     "source": "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie",
     "target": "company/趋境科技/武永卫 Yongwei Wu",
     "kind": "typed-relation",
@@ -4290,6 +4603,43 @@
     ]
   },
   {
+    "source": "community/kvcache-ai/Mooncake/Ke Yang",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "TENT",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/publication/",
+      "https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"
+    ]
+  },
+  {
+    "source": "community/kvcache-ai/Mooncake/Ke Yang",
+    "target": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+    "kind": "typed-relation",
+    "relation_types": [
+      "open-source-collaboration",
+      "coworker"
+    ],
+    "project": "Mooncake",
+    "company": "趋境科技",
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://libfeng.com/",
+      "https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"
+    ]
+  },
+  {
     "source": "community/kvcache-ai/Mooncake/Xun Sun",
     "target": "university/清华大学/Mingxing Zhang",
     "kind": "typed-relation",
@@ -4321,6 +4671,25 @@
     "evidence": [
       "https://libfeng.com/",
       "https://github.com/kvcache-ai/Mooncake/blob/main/MAINTAINERS.md"
+    ]
+  },
+  {
+    "source": "community/kvcache-ai/Mooncake/任峰 Feng Ren",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "research-collaboration",
+      "career-connection"
+    ],
+    "project": "TENT",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/",
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
     ]
   },
   {
@@ -6492,6 +6861,78 @@
     ]
   },
   {
+    "source": "university/清华大学/Kang Chen",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "same-lab",
+      "research-collaboration",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/author/kang-chen/",
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
+    "source": "university/清华大学/Kang Chen",
+    "target": "university/清华大学/Shuai Mu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "university/清华大学/Kang Chen",
+    "target": "university/清华大学/Weichao Guo",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "university/清华大学/Mingxing Zhang",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "student",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.ccf.org.cn/Focus/2018-11-12/654739.shtml",
+      "https://madsys.cs.tsinghua.edu.cn/publication/"
+    ]
+  },
+  {
     "source": "university/清华大学/Mingxing Zhang",
     "target": "university/清华大学/Ruoyu Qin",
     "kind": "typed-relation",
@@ -6596,6 +7037,127 @@
       "https://qinruoyu.com/",
       "https://qinruoyu.com/static/media/cv-qinruoyu.pdf",
       "https://www.cs.tsinghua.edu.cn/info/1247/6286.htm"
+    ]
+  },
+  {
+    "source": "university/清华大学/Shuai Mu",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "university/清华大学/Shuai Mu",
+    "target": "university/清华大学/Kang Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "university/清华大学/Shuai Mu",
+    "target": "company/清程极智/郑纬民 Weimin Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "mentor-network",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://mpaxos.com/cv.pdf"
+    ]
+  },
+  {
+    "source": "university/清华大学/Weichao Guo",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "university/清华大学/Weichao Guo",
+    "target": "company/清程极智/郑纬民 Weimin Zheng",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "university/清华大学/Weichao Guo",
+    "target": "university/清华大学/Kang Chen",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://weichaoguo.github.io/"
+    ]
+  },
+  {
+    "source": "university/清华大学/Yingdi Shan",
+    "target": "company/趋境科技/武永卫 Yongwei Wu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "same-lab",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": "Seer",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://madsys.cs.tsinghua.edu.cn/",
+      "https://www.usenix.org/conference/osdi26/presentation/qin"
     ]
   },
   {

@@ -5,8 +5,7 @@ aliases: [DeepSpark 开源社区]
 linked_people:
   - "company/天数智芯/honglyua"
   - "company/天数智芯/shengyan.zhao"
-linked_companies:
-  - "company/天数智芯/天数智芯"
+linked_companies: []
 linked_projects:
   - "community/Deep-Spark/DeepSparkInference/DeepSparkInference"
   - "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt"
@@ -24,3 +23,13 @@ DeepSparkInference 同时覆盖 IGIE / ixRT 与 vLLM 等主流开源推理引擎
 ## Sources
 - https://github.com/Deep-Spark/DeepSpark
 - https://github.com/Deep-Spark/DeepSpark/blob/master/README.md
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/天数智芯/honglyua|honglyua]]：https://github.com/Deep-Spark/DeepSparkInference/commit/dcd2d3d1ef234082e930b635311915e403b8e078
+- [[company/天数智芯/shengyan.zhao|shengyan.zhao]]：https://github.com/Deep-Spark/DeepSparkInference/commit/d65b0f0a7ef656b4d606257d386aa3cfb3ee75b6
+
+<!-- END AUTO PROJECT PEOPLE -->

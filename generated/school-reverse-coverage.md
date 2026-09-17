@@ -4,14 +4,14 @@
 
 - School nodes: 47
 - Schools with ≥1 linked person: 45
-- Reverse person-school associations: 171
+- Reverse person-school associations: 177
 - Audit errors: 0
 
 | School | Linked people |
 | --- | ---: |
-| [[university/清华大学/清华大学|清华大学]] | 46 |
+| [[university/清华大学/清华大学|清华大学]] | 50 |
 | [[university/UC Berkeley/UC Berkeley|UC Berkeley]] | 22 |
-| [[university/北京大学/北京大学|北京大学]] | 17 |
+| [[university/北京大学/北京大学|北京大学]] | 18 |
 | [[university/上海交通大学/上海交通大学|上海交通大学]] | 15 |
 | [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | 7 |
 | [[university/浙江大学/浙江大学|浙江大学]] | 7 |
@@ -20,6 +20,7 @@
 | [[university/UCLA/UCLA|UCLA]] | 3 |
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
+| [[university/Stony Brook University/Stony Brook University|Stony Brook University]] | 2 |
 | [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 2 |
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | 2 |
@@ -37,7 +38,6 @@
 | [[university/Nanyang Technological University/Nanyang Technological University|Nanyang Technological University]] | 1 |
 | [[university/Princeton University/Princeton University|Princeton University]] | 1 |
 | [[university/Seoul National University/Seoul National University|Seoul National University]] | 1 |
-| [[university/Stony Brook University/Stony Brook University|Stony Brook University]] | 1 |
 | [[university/Technion - Israel Institute of Technology/Technion - Israel Institute of Technology|Technion - Israel Institute of Technology]] | 1 |
 | [[university/UC Davis/UC Davis|UC Davis]] | 1 |
 | [[university/University of British Columbia/University of British Columbia|University of British Columbia]] | 1 |

@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 45,
-  "companies_with_links": 30,
-  "project_community_nodes": 82,
-  "project_community_nodes_with_links": 48,
-  "association_pairs": 65,
-  "asserted_on_both_sides": 65,
+  "company_nodes": 50,
+  "companies_with_links": 35,
+  "project_community_nodes": 99,
+  "project_community_nodes_with_links": 61,
+  "association_pairs": 78,
+  "asserted_on_both_sides": 78,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -72,6 +72,18 @@
       "entity_name": "llm-d",
       "entity_type": "project",
       "relation": "founding-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/GPUStack/GPUStack",
+      "company_name": "GPUStack",
+      "entity_id": "community/gpustack/GPUStack/GPUStack",
+      "entity_name": "GPUStack",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"
@@ -368,6 +380,18 @@
     {
       "company_id": "company/华为/华为",
       "company_name": "华为",
+      "entity_id": "community/Ascend/CANN/CANN",
+      "entity_name": "CANN",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
       "entity_id": "community/Project-HAMi/HAMi/HAMi",
       "entity_name": "HAMi",
       "entity_type": "project",
@@ -498,6 +522,42 @@
       ]
     },
     {
+      "company_id": "company/天数智芯/天数智芯",
+      "company_name": "天数智芯",
+      "entity_id": "community/Deep-Spark/DeepSparkInference/DeepSparkInference",
+      "entity_name": "DeepSparkInference",
+      "entity_type": "project",
+      "relation": "company-originated",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/天数智芯/天数智芯",
+      "company_name": "天数智芯",
+      "entity_id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt",
+      "entity_name": "iluvatar-corex-ixrt",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/天数智芯/天数智芯",
+      "company_name": "天数智芯",
+      "entity_id": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar",
+      "entity_name": "lmcache-iluvatar",
+      "entity_type": "project",
+      "relation": "company-originated",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
       "company_id": "company/字节跳动/字节跳动",
       "company_name": "字节跳动",
       "entity_id": "community/vllm-project/AIBrix/AIBrix",
@@ -516,6 +576,42 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/摩尔线程/摩尔线程",
+      "company_name": "摩尔线程",
+      "entity_id": "community/MooreThreads/MATE/MATE",
+      "entity_name": "MATE",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/摩尔线程/摩尔线程",
+      "company_name": "摩尔线程",
+      "entity_id": "community/MooreThreads/torch_musa/torch_musa",
+      "entity_name": "torch_musa",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/摩尔线程/摩尔线程",
+      "company_name": "摩尔线程",
+      "entity_id": "community/MooreThreads/vllm-musa/vllm-musa",
+      "entity_name": "vllm-musa",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"
@@ -564,6 +660,42 @@
       "entity_name": "Seer",
       "entity_type": "project",
       "relation": "industry-academia-research-collaboration",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/沐曦/沐曦",
+      "company_name": "沐曦",
+      "entity_id": "community/MetaX-MACA/mcoplib/mcoplib",
+      "entity_name": "mcoplib",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/沐曦/沐曦",
+      "company_name": "沐曦",
+      "entity_id": "community/MetaX-MACA/MXDeepEP/MXDeepEP",
+      "entity_name": "MXDeepEP",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/沐曦/沐曦",
+      "company_name": "沐曦",
+      "entity_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
+      "entity_name": "vLLM-metax",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"
@@ -708,6 +840,30 @@
       "entity_name": "Colossal-AI",
       "entity_type": "project",
       "relation": "company-originated",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/硅基流动/硅基流动",
+      "company_name": "硅基流动",
+      "entity_id": "community/siliconflow/OneDiff/OneDiff",
+      "entity_name": "OneDiff",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/硅基流动/硅基流动",
+      "company_name": "硅基流动",
+      "entity_id": "community/siliconflow/SiliconLLM/SiliconLLM",
+      "entity_name": "SiliconLLM",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"

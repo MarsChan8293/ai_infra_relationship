@@ -58,13 +58,13 @@ https://github.com/kvcache-ai/ktransformers
 - [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[KTransformers]]：官方 Maintainer、论文作者
 - [[community/kvcache-ai/KTransformers/Peilin Li|Peilin Li]]：[[KTransformers]]：官方 Maintainer
 - [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[KTransformers]]：官方 Maintainer、论文作者
-- [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]]：[[company/趋境科技/艾智远 Zhiyuan Ai|艾智远（Zhiyuan Ai）]]：Approaching.AI 同组织，KTransformers SOSP 2025 共同作者。
+- [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]]：[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**师门网络 + 趋境科技同事 + KTransformers 共同作者**。公开材料支持“出身武永卫门下”，但本页谨慎保留为 `mentor-network`，不推断正式学位导师。
 - [[community/kvcache-ai/KTransformers/Xingxing Hao|Xingxing Hao]]：[[KTransformers]]：官方 Maintainer
 - [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[KTransformers]]：官方 Maintainer、论文作者
 - [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇（Weiyu Xie）]]：[[KTransformers]]：官方 Maintainer、SOSP 2025 论文共同第一作者之一；截至 2026-09 KTransformers MAINTAINERS 仍列其为 maintainer。
 - [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[community/kvcache-ai/KTransformers/KTransformers|KTransformers]]：SOSP 2025 论文作者，与 [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]] 共同研究 CPU/GPU hybrid MoE inference。
 - [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：[[KTransformers]]：SOSP 2025 论文作者，连接清华 MADSys 与 Approaching.AI 的 MoE heterogeneous inference 网络。
-- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[community/kvcache-ai/KTransformers/KTransformers|KTransformers]]：SOSP 2025 论文作者，连接 MADSys 与 CPU/GPU hybrid MoE inference。
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**博士导师 + 长期 systems / AI Infra 合作者**。CCF 2018 优秀博士学位论文奖公示明确列出章明星博士论文《大规模图数据的高效计算》的培养单位为清华大学、导师为武永卫。毕业后两人仍持续共同署名 Mooncake、KTransformers 等工作，因此这条边同时具有正式 `student/advisor` 与长期 `research-collab...
 
 <!-- END AUTO PROJECT PEOPLE -->
 
