@@ -2,21 +2,21 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 433
-- Person nodes with typed relations: 141 / 340
+- Typed relation edges: 435
+- Person nodes with typed relations: 143 / 342
 - Hard errors: 0
-- Warnings: 6
+- Warnings: 7
 
 ## Relation types
 
-- `paper-coauthor`: 195
+- `paper-coauthor`: 197
 - `coworker`: 164
-- `research-collaboration`: 123
+- `research-collaboration`: 125
 - `open-source-collaboration`: 79
 - `mentor-network`: 58
 - `technical-collaboration`: 53
 - `cofounder`: 47
-- `advisor`: 33
+- `advisor`: 35
 - `same-lab`: 30
 - `student`: 14
 - `community-maintainer`: 10
@@ -74,7 +74,7 @@
 | Person | Bridge | Person links | Typed | Coverage |
 | --- | ---: | ---: | ---: | ---: |
 | [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 18.687 | 12 | 12 | 100.0% |
-| [[company/Inferact/Ion Stoica|Ion Stoica]] | 16.307 | 8 | 8 | 100.0% |
+| [[company/Inferact/Ion Stoica|Ion Stoica]] | 17.107 | 8 | 8 | 100.0% |
 | [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 16.194 | 12 | 13 | 108.3% |
 | [[university/清华大学/Mingxing Zhang|章明星]] | 15.094 | 4 | 4 | 100.0% |
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |

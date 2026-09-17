@@ -22,12 +22,14 @@ linked_people:
   - "company/基流科技/胡效赫 Xiaohe Hu"
   - "company/潞晨科技/尤洋 Yang You"
   - "university/UC Berkeley/Matei Zaharia"
+  - "university/UC Berkeley/Michael Luo"
   - "university/UC Berkeley/Philipp Moritz"
   - "university/UC Berkeley/Reynold Xin"
   - "university/UC Berkeley/Robert Nishihara"
   - "university/UC Berkeley/Shiyi Cao"
   - "university/UC Berkeley/Shu Liu"
   - "university/UC Berkeley/Shuo Yang"
+  - "university/UC Berkeley/Tian Xia"
   - "university/UC Berkeley/Xiangxi Mo"
   - "university/上海交通大学/Xiaoze Fan"
 ---
@@ -96,12 +98,14 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 - [[company/基流科技/胡效赫 Xiaohe Hu|胡效赫（Xiaohe Hu）]]：UC Berkeley：2016–2017 访问研究经历。
 - [[company/潞晨科技/尤洋 Yang You|尤洋（Yang You）]]：UC Berkeley：计算机博士，研究高性能深度学习与大规模优化。
 - [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：UC Berkeley CS PhD，2007–2013。
+- [[university/UC Berkeley/Michael Luo|Michael Luo]]：UC Berkeley PhD，2021–2025。
 - [[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Reynold Xin|Reynold Xin]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Robert Nishihara|Robert Nishihara]]：长期 Berkeley RISELab / distributed AI systems 协作。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Shu Liu|Shu Liu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/UC Berkeley/Tian Xia|Tian Xia]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：UC Berkeley Sky Computing Lab：2026 Visiting Student Researcher；
 

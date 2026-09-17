@@ -30,6 +30,9 @@ Michael Luo 创建 Agentica Project，后续公开工作覆盖 rLLM、DeepScaleR
 
 这是 Ion 网络从 vLLM / SGLang 之后继续向 agent infrastructure 生长的一条新支线。
 
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Years/2025.html
 - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-203.pdf

@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1433
-- Eligible actions: 1422
+- Candidate actions: 1438
+- Eligible actions: 1427
 - Cooldown-suppressed: 11
 - History records: 30
 - Selected actions: 10
@@ -52,26 +52,26 @@
 | 8 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | 8.097 |
 | 9 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
 | 10 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
-| 11 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
-| 12 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
-| 13 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
-| 14 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | 7.964 |
-| 15 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
-| 16 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
-| 17 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
-| 18 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 19 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
-| 20 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
-| 21 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 22 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 23 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
-| 24 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 25 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 26 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 27 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
-| 28 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
-| 29 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
-| 30 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
+| 11 | [[university/UC Berkeley/Michael Luo|Michael Luo]] | person | project_contribution | 8.074 |
+| 12 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
+| 13 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
+| 14 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
+| 15 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | 7.964 |
+| 16 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
+| 17 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
+| 18 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
+| 19 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
+| 20 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 21 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
+| 22 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 23 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 24 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
+| 25 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 26 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 27 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 28 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
+| 29 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
+| 30 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
 
 ## Cooldown / history-suppressed
 
@@ -87,4 +87,4 @@
 | [[community/Ascend/MindIE-SD/MindIE-SD|MindIE-SD]] | maintainers | unresolved | 2026-09-23 | 7.208 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | maintainers | unresolved | 2026-09-23 | 7.166 |
 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | affiliation | partial | 2026-09-18 | 6.102 |
-| [[university/上海交通大学/上海交通大学|上海交通大学]] | labs_or_groups | partial | 2026-09-18 | 5.825 |
+| [[university/上海交通大学/上海交通大学|上海交通大学]] | labs_or_groups | partial | 2026-09-18 | 5.818 |

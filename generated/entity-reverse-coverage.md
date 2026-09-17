@@ -10,7 +10,7 @@
 - Project/community nodes: 111
 - Project/community nodes with ≥1 linked person: 81
 - Project/community-person associations: 416
-- Non-company affiliations recognized and routed elsewhere: 79
+- Non-company affiliations recognized and routed elsewhere: 81
 - Unresolved source values (backlog, non-fatal): 9
 - Audit errors: 0
 

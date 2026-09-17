@@ -6,6 +6,7 @@ aliases: ["SkyLab", "Berkeley Sky Computing Lab", "UC Berkeley Sky Computing Lab
 linked_people:
   - "university/UC Berkeley/Matei Zaharia"
   - "university/UC Berkeley/Shuo Yang"
+  - "university/UC Berkeley/Tian Xia"
   - "university/上海交通大学/Xiaoze Fan"
 areas: [cloud-computing, distributed-systems, llm-serving, ai-systems, agent-systems, heterogeneous-computing]
 projects: [Ray, vLLM, SGLang, Jenga, MoE-Lightning, FreeToken]
@@ -53,6 +54,7 @@ Sky Computing Lab 是研究机构节点。人物出现在 `linked_people` 只代
 
 - [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/UC Berkeley/Tian Xia|Tian Xia]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：UC Berkeley Sky Computing Lab：2026 Visiting Student Researcher；
 
 <!-- END AUTO RESEARCH PEOPLE -->

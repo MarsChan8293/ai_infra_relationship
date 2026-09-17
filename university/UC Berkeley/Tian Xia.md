@@ -4,8 +4,8 @@ name: Tian Xia
 aliases: ["Tian Xia"]
 current_affiliations: ["UC Berkeley","Sky Computing Lab"]
 schools:
-  - "上海交通大学"
   - "UC Berkeley"
+  - "上海交通大学"
 roles: [PhD Student]
 areas: [ai-infrastructure, llm-serving, distributed-systems, large-scale-inference, large-scale-training]
 last_verified: "2026-09"
@@ -24,6 +24,10 @@ UC Berkeley EECS 博士生、Sky Computing Lab 成员，导师为 [[company/Infe
 
 ## 图谱意义
 Tian Xia 代表 Ion / Sky 当前学生网络里偏“cloud-scale inference + training infrastructure”的一支，与 Shuo Yang 的 full-stack inference、Shu Liu 的 AI-driven systems、Shiyi Cao 的 heterogeneous ML systems 形成互补。
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://tianxia.me/
