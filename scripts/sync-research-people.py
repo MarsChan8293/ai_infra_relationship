@@ -23,6 +23,7 @@ COMMON_ALIASES = {
     "微软亚洲研究院": ["Microsoft Research Asia", "MSRA"],
     "北京智源人工智能研究院": ["BAAI", "Beijing Academy of Artificial Intelligence"],
     "MADSys": ["MADSys Lab", "MADSys Group", "MADSys Lab, Tsinghua University"],
+    "PACMAN": ["PACMAN Lab", "PACMAN Group", "PACMAN Lab, Tsinghua University"],
 }
 
 
