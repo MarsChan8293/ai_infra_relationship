@@ -4,13 +4,13 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked person: 43
-- Company-person associations: 211
+- Company-person associations: 213
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 210
 - Project/community nodes: 111
 - Project/community nodes with ≥1 linked person: 81
 - Project/community-person associations: 416
-- Non-company affiliations recognized and routed elsewhere: 81
+- Non-company affiliations recognized and routed elsewhere: 82
 - Unresolved source values (backlog, non-fatal): 9
 - Audit errors: 0
 
@@ -34,17 +34,17 @@
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
+| [[company/Databricks/Databricks|Databricks]] | 4 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
-| [[company/Databricks/Databricks|Databricks]] | 3 |
+| [[company/Anyscale/Anyscale|Anyscale]] | 3 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/派欧云/派欧云|派欧云]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
-| [[company/Anyscale/Anyscale|Anyscale]] | 2 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
 | [[company/Ollama/Ollama|Ollama]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |

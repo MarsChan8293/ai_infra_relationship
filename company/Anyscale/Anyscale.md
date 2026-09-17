@@ -2,6 +2,7 @@
 type: company
 name: Anyscale
 linked_people:
+  - "company/Inferact/Ion Stoica"
   - "university/UC Berkeley/Philipp Moritz"
   - "university/UC Berkeley/Robert Nishihara"
 projects: [Ray Serve]
@@ -33,6 +34,7 @@ Anyscale 是围绕 Ray 商业化与云上分布式 AI workload 建立的平台�
 
 以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：人物页 `current_affiliations:` 明确记录。
 - [[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：人物页 `current_affiliations:` 明确记录。
 - [[university/UC Berkeley/Robert Nishihara|Robert Nishihara]]：人物页 `current_affiliations:` 明确记录。
 

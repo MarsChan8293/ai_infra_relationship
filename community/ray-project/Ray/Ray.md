@@ -31,7 +31,7 @@ https://github.com/ray-project/ray
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
-- [[company/Inferact/Ion Stoica|Ion Stoica]]：社区贡献关联；人物页已明确记录该社区。
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：正式博士学生，博士论文即 Ray distributed execution engine；后共同创办 Anyscale。
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[Anyscale]]：Ray Core Software Engineer，2025-06–2025-12
 - [[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：[[community/ray-project/Ray/Ray|Ray]]：面向机器学习生态的通用分布式执行引擎，博士研究与开源项目直接重合。
 - [[university/UC Berkeley/Robert Nishihara|Robert Nishihara]]：共同创建 / 推动 [[community/ray-project/Ray/Ray|Ray]]；

@@ -308,6 +308,9 @@
         ],
         "current_affiliations": [
           "UC Berkeley",
+          "Sky Computing Lab",
+          "Anyscale",
+          "Databricks",
           "Inferact"
         ],
         "schools": "",
@@ -319,12 +322,17 @@
         "roles": [
           "Professor",
           "Sky Lab Director",
+          "Anyscale Executive Chairman",
+          "Databricks Executive Chairman",
           "Inferact Founding Member"
         ],
         "linked_companies": "",
         "areas": [
           "llm-inference",
-          "distributed-systems"
+          "distributed-systems",
+          "cloud-computing",
+          "ai-systems",
+          "agent-systems"
         ],
         "last_verified": "2026-09",
         "relations": ""
@@ -24770,6 +24778,11 @@
     },
     {
       "source": "company/Anyscale/Anyscale",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Anyscale/Anyscale",
       "target": "university/UC Berkeley/Philipp Moritz",
       "kind": "wikilink"
     },
@@ -25065,6 +25078,11 @@
     },
     {
       "source": "company/Databricks/Databricks",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Databricks/Databricks",
       "target": "university/UC Berkeley/Matei Zaharia",
       "kind": "wikilink"
     },
@@ -25325,12 +25343,12 @@
     },
     {
       "source": "company/Inferact/Ion Stoica",
-      "target": "community/ray-project/Ray/Ray",
+      "target": "community/apache/Spark/Spark",
       "kind": "wikilink"
     },
     {
       "source": "company/Inferact/Ion Stoica",
-      "target": "community/sgl-project/SGLang/SGLang",
+      "target": "community/ray-project/Ray/Ray",
       "kind": "wikilink"
     },
     {
@@ -25346,11 +25364,6 @@
     {
       "source": "company/Inferact/Ion Stoica",
       "target": "community/vllm-project/vLLM/Simon Mo",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/Inferact/Ion Stoica",
-      "target": "community/vllm-project/vLLM/vLLM",
       "kind": "wikilink"
     },
     {
@@ -25385,17 +25398,57 @@
     },
     {
       "source": "company/Inferact/Ion Stoica",
-      "target": "company/Inferact/Joseph Gonzalez",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/Inferact/Ion Stoica",
       "target": "company/Inferact/Woosuk Kwon",
       "kind": "wikilink"
     },
     {
       "source": "company/Inferact/Ion Stoica",
-      "target": "company/Meta/Meta",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Michael Luo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Philipp Moritz",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Reynold Xin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Robert Nishihara",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Shiyi Cao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Shu Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Shuo Yang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Sky Computing Lab",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Inferact/Ion Stoica",
+      "target": "university/UC Berkeley/Tian Xia",
       "kind": "wikilink"
     },
     {
@@ -34177,14 +34230,14 @@
       "bridge_score": 16.307
     },
     "company/Inferact/Ion Stoica": {
-      "degree": 29,
-      "cross_category_degree": 22,
+      "degree": 30,
+      "cross_category_degree": 24,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 17.107
+      "bridge_score": 17.854
     },
     "company/Inferact/Joseph Gonzalez": {
       "degree": 12,
@@ -34215,14 +34268,14 @@
       "bridge_score": 2.85
     },
     "company/Meta/Meta": {
-      "degree": 19,
+      "degree": 18,
       "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.372
+      "bridge_score": 13.298
     },
     "company/Meta/Richard Zou": {
       "degree": 7,
@@ -38643,22 +38696,24 @@
       "bridge_score": 7.872
     },
     "university/UC Berkeley/Shiyi Cao": {
-      "degree": 4,
-      "cross_category_degree": 1,
+      "degree": 5,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "company",
         "university"
       ],
-      "bridge_score": 5.672
+      "bridge_score": 7.785
     },
     "university/UC Berkeley/Shu Liu": {
-      "degree": 4,
-      "cross_category_degree": 1,
+      "degree": 5,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "company",
         "university"
       ],
-      "bridge_score": 5.672
+      "bridge_score": 7.785
     },
     "university/UC Berkeley/Shuo Yang": {
       "degree": 5,

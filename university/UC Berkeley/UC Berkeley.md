@@ -89,7 +89,7 @@ UC Berkeley 的 AI Infra 影响力具有非常连续的“systems lab → open-s
 - [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡（Yifan Qiao）]]：[[university/UC Berkeley/UC Berkeley|UC Berkeley Sky Lab]]：博士后；与 [[Inferact/Ion Stoica|Ion Stoica]]、[[Inferact/Joseph Gonzalez|Joseph E. Gonzalez]] 从事高效 AI systems 研究，加入 Inferact 前结束博士后阶段
 - [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰（Zhuohan Li）]]：[[UC Berkeley]]：计算机博士，2019–2024；导师 [[Ion Stoica]]
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：[[UC Berkeley]]：访问研究经历
-- [[company/Inferact/Ion Stoica|Ion Stoica]]：[[UC Berkeley]] EECS：Professor；Sky Computing Lab Director；研究 cloud computing 与 AI systems
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[UC Berkeley]] EECS：Associate Professor；Sky / RISE Lab founding member
 - [[company/Inferact/Woosuk Kwon|Woosuk Kwon]]：[[UC Berkeley]]：计算机博士，2021-08–2025-12；导师 [[Ion Stoica]]
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[UC Berkeley]]：Computer Science 博士；Sky Lab；导师 Alvin Cheung、[[Ion Stoica]]

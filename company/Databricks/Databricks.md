@@ -3,6 +3,7 @@ type: company
 name: Databricks
 linked_people:
   - "community/ai-dynamo/NIXL/James Thomas"
+  - "company/Inferact/Ion Stoica"
   - "university/UC Berkeley/Matei Zaharia"
   - "university/UC Berkeley/Reynold Xin"
 linked_projects: []
@@ -21,6 +22,7 @@ Databricks 从 Apache Spark / UC Berkeley AMPLab 系谱发展为 Lakehouse 与�
 以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
 
 - [[community/ai-dynamo/NIXL/James Thomas|James Thomas]]：人物页 `current_affiliations:` 明确记录；[[Databricks]]
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：人物页 `current_affiliations:` 明确记录。
 - [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：人物页 `current_affiliations:` 明确记录。
 - [[university/UC Berkeley/Reynold Xin|Reynold Xin]]：人物页 `current_affiliations:` 明确记录。
 
