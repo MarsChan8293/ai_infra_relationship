@@ -1,0 +1,46 @@
+---
+type: project
+name: GLM-130B
+organization: Tsinghua KEG / PACMAN / THUNLP / Zhipu AI
+linked_people:
+  - "company/智谱/唐杰 Jie Tang"
+  - "company/智谱/曾奥涵 Aohan Zeng"
+  - "company/智谱/杜政晓 Zhengxiao Du"
+  - "company/智谱/郑勤锴 Qinkai Zheng"
+  - "company/清程极智/翟季冬 Jidong Zhai"
+  - "university/清华大学/Wenguang Chen"
+  - "company/字节跳动/何家傲 Jiaao He"
+  - "company/清程极智/马子轩 Zixuan Ma"
+areas: [foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency]
+layer: pretraining-system-model-codesign
+open_source: true
+repository: https://github.com/THUDM/GLM-130B
+last_verified: "2026-09"
+---
+# GLM-130B
+
+GLM-130B 是清华 KEG 发起的 130B 中英双语稠密预训练模型，也是理解 [[university/清华大学/KEG|KEG]] 与 [[university/清华大学/PACMAN|PACMAN]] 如何发生真实系统协作的关键节点。
+
+## 组织分工
+官方项目材料明确列出：
+- KEG：Aohan Zeng、Xiao Liu 为学生负责人，郑政晓、郑勤锴等参与模型、数据、训练稳定性与评测。
+- PACMAN：马子轩、何家傲、孙桢波、翟季冬、陈文光作为技术贡献者。
+- THUNLP / BMInf：参与大模型训练与系统支持。
+- Zhipu.AI：提供计算资源并有工程贡献者参与。
+- 项目总负责：[[company/智谱/唐杰 Jie Tang|唐杰]]。
+
+## 系统意义
+项目官方回顾写明，在 100B 级预训练过程中遇到随机硬件故障、显存压力、Megatron / DeepSpeed 3D pipeline、optimizer state 恢复、TCP 阻塞以及异构加速器适配等问题，PACMAN 团队参与解决这些系统瓶颈。
+
+因此 GLM-130B 在本图谱里不仅是模型节点，也是 `model research ↔ large-scale systems` 的交叉证据。
+
+## 技术谱系
+`GLM → GLM-130B → ChatGLM / CodeGeeX → GLM-4.x`
+
+同时系统侧可观察到：
+`FastMoE / BaGuaLu → GLM-130B large-scale training → PACMAN LLM serving / compiler / memory optimization`
+
+## Sources
+- https://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/
+- https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
+- https://pacman.cs.tsinghua.edu.cn/~zjd/
