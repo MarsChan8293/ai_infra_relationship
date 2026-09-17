@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 50,
   "companies_with_links": 36,
-  "project_community_nodes": 107,
-  "project_community_nodes_with_links": 65,
-  "association_pairs": 83,
-  "asserted_on_both_sides": 83,
+  "project_community_nodes": 111,
+  "project_community_nodes_with_links": 66,
+  "association_pairs": 84,
+  "asserted_on_both_sides": 84,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -803,6 +803,18 @@
       "entity_id": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "entity_name": "DeepSeek Infra",
       "entity_type": "project-collection",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/深度求索/深度求索",
+      "company_name": "深度求索",
+      "entity_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+      "entity_name": "DeepSelect",
+      "entity_type": "project",
       "relation": "company-led",
       "sources": [
         "company",

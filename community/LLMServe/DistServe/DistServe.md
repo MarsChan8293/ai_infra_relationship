@@ -11,6 +11,7 @@ open_source: true
 repository: https://github.com/LLMServe/DistServe
 areas: [llm-serving, prefill-decode-disaggregation, scheduling, slo, distributed-inference, kv-cache]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # DistServe
 
@@ -27,3 +28,14 @@ DistServe 是刘胜与从“系统调度 / serving architecture”进入更底�
 - https://github.com/LLMServe/DistServe
 - https://github.com/LLMServe/DistServe/blob/main/setup.py
 - https://interestinglsy.github.io/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/LLMServe/DistServe/DistServe|DistServe]]：OSDI 2024，prefill / decode disaggregation 与 goodput/SLO 联合优化。
+- [[company/深度求索/Yinmin Zhong|Yinmin Zhong]]：[[community/LLMServe/DistServe/DistServe|DistServe]]：论文前两位作者为 Yinmin Zhong、Shengyu Liu。
+- [[university/北京大学/Xin Jin|Xin Jin]]：[[community/LLMServe/DistServe/DistServe|DistServe]]：prefill/decode disaggregation。
+
+<!-- END AUTO PROJECT PEOPLE -->

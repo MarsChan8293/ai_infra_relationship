@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1452,
+  "candidate_count": 1474,
   "selected_count": 10,
   "selected_family_counts": {
     "company": 2,
@@ -1043,6 +1043,158 @@
       }
     },
     {
+      "action_id": "community/LoongServe/LoongServe/LoongServe::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/LoongServe/LoongServe/LoongServe",
+        "name": "LoongServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.436,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.872,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 7.9"
+      ],
+      "base_priority": 8.336,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.872"
+      }
+    },
+    {
+      "action_id": "community/LLMServe/DistServe/DistServe::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/LLMServe/DistServe/DistServe",
+        "name": "DistServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.427,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.2,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 7.2"
+      ],
+      "base_priority": 8.327,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/MooreThreads/torch_musa/torch_musa::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1910,6 +2062,81 @@
           "yield_adjustment": 0.342
         },
         "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/interestingLSY/swiftLLM/swiftLLM::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/interestingLSY/swiftLLM/swiftLLM",
+        "name": "SwiftLLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.119,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.019,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "success": 2
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 1.75,
+          "reward_signal": 0.412,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -7894,6 +8121,78 @@
       }
     },
     {
+      "action_id": "community/interestingLSY/swiftLLM/swiftLLM::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/interestingLSY/swiftLLM/swiftLLM",
+        "name": "SwiftLLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.004,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.482,
+        "redundancy_penalty": 0.194,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler"
+      ],
+      "base_priority": 6.984,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "community/llm-d/llm-d/Marcio A L Silva::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -10004,6 +10303,220 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=7.220"
+      }
+    },
+    {
+      "action_id": "community/LoongServe/LoongServe/LoongServe::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/LoongServe/LoongServe/LoongServe",
+        "name": "LoongServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 6.825,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.872,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 7.9"
+      ],
+      "base_priority": 6.825,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.872"
+      }
+    },
+    {
+      "action_id": "community/LLMServe/DistServe/DistServe::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/LLMServe/DistServe/DistServe",
+        "name": "DistServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.82,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.2,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 7.2"
+      ],
+      "base_priority": 6.82,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/北京大学/Bingyang Wu::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/北京大学/Bingyang Wu",
+        "name": "Bingyang Wu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 6.807,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.022,
+        "novelty": 0.5,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 6.0"
+      ],
+      "base_priority": 6.465,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.022"
       }
     },
     {
@@ -13562,6 +14075,76 @@
       }
     },
     {
+      "action_id": "community/interestingLSY/swiftLLM/swiftLLM::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/interestingLSY/swiftLLM/swiftLLM",
+        "name": "SwiftLLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.573,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.573,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -14132,6 +14715,81 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+        "name": "Yi Qian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.547,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.253,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -15299,6 +15957,82 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "university/北京大学/Bingyang Wu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "university/北京大学/Bingyang Wu",
+        "name": "Bingyang Wu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.444,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.022,
+        "novelty": 0.75,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 6.0"
+      ],
+      "base_priority": 6.15,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.022"
       }
     },
     {
@@ -20308,6 +21042,82 @@
       }
     },
     {
+      "action_id": "university/北京大学/Xin Jin::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "university/北京大学/Xin Jin",
+        "name": "Xin Jin",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.205,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.635,
+        "novelty": 0.75,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, distributed, disaggregation",
+        "opens underrepresented target types",
+        "bridge 6.6"
+      ],
+      "base_priority": 5.911,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.635"
+      }
+    },
+    {
       "action_id": "community/openEuler/openYuanRong/openYuanRong::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -20748,6 +21558,79 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=8.485"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+        "name": "FlashMLA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.174,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.159,
+        "novelty": 0.0,
+        "frontier_potential": 0.347,
+        "uncertainty": 0.448,
+        "redundancy_penalty": 0.412,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "bridge 7.2"
+      ],
+      "base_priority": 6.154,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -26944,78 +27827,6 @@
       }
     },
     {
-      "action_id": "university/北京大学/北京大学::labs_or_groups",
-      "action_key": "school:labs_or_groups:research+team",
-      "source": {
-        "id": "university/北京大学/北京大学",
-        "name": "北京大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "labs_or_groups",
-      "target_families": [
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_department_or_lab_directory"
-      ],
-      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
-      "bucket": "bridge",
-      "priority": 5.925,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 15.205,
-        "novelty": 0.5,
-        "frontier_potential": 0.192,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.402,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.138,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type School",
-        "infra: serving/inference, kv-cache, scheduler",
-        "bridge 15.2"
-      ],
-      "base_priority": 5.787,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 3,
-          "statuses": {
-            "partial": 1,
-            "success": 2
-          },
-          "mean_status_value": 0.783,
-          "mean_reward": 4.333,
-          "reward_signal": 0.794,
-          "yield_adjustment": 0.138
-        },
-        "key_yield_adjustment": 0.138,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=15.205"
-      }
-    },
-    {
       "action_id": "community/sgl-project/SpecForge/SpecForge::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -27154,6 +27965,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/北京大学/北京大学::labs_or_groups",
+      "action_key": "school:labs_or_groups:research+team",
+      "source": {
+        "id": "university/北京大学/北京大学",
+        "name": "北京大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "labs_or_groups",
+      "target_families": [
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_department_or_lab_directory"
+      ],
+      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
+      "bucket": "bridge",
+      "priority": 5.909,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 15.707,
+        "novelty": 0.5,
+        "frontier_potential": 0.183,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.411,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.138,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type School",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 15.7"
+      ],
+      "base_priority": 5.771,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 3,
+          "statuses": {
+            "partial": 1,
+            "success": 2
+          },
+          "mean_status_value": 0.783,
+          "mean_reward": 4.333,
+          "reward_signal": 0.794,
+          "yield_adjustment": 0.138
+        },
+        "key_yield_adjustment": 0.138,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=15.707"
       }
     },
     {
@@ -28172,6 +29055,78 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.870"
+      }
+    },
+    {
+      "action_id": "company/深度求索/Yinmin Zhong::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/深度求索/Yinmin Zhong",
+        "name": "Yinmin Zhong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.843,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 8.485,
+        "novelty": 0.5,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 8.5"
+      ],
+      "base_priority": 5.501,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.485"
       }
     },
     {
@@ -31042,6 +31997,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/LLMServe/DistServe/DistServe::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/LLMServe/DistServe/DistServe",
+        "name": "DistServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.737,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.2,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.138,
+        "redundancy_penalty": 0.388,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 7.2"
+      ],
+      "base_priority": 5.717,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.250"
       }
     },
     {
@@ -34551,6 +35579,78 @@
       }
     },
     {
+      "action_id": "university/北京大学/Xin Jin::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/北京大学/Xin Jin",
+        "name": "Xin Jin",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.601,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.635,
+        "novelty": 0.5,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, distributed, disaggregation",
+        "bridge 6.6"
+      ],
+      "base_priority": 5.259,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.635"
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM-Omni/Hongsheng Liu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -36873,79 +37973,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSpec/DeepSpec::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSpec/DeepSpec",
-        "name": "DeepSpec",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.511,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.635,
-        "novelty": 0.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.02,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Project",
-        "infra: serving/inference, kernel",
-        "bridge 6.6"
-      ],
-      "base_priority": 5.491,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 14,
-          "statuses": {
-            "partial": 4,
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.15,
-          "mean_reward": 3.286,
-          "reward_signal": 0.676,
-          "yield_adjustment": 0.02
-        },
-        "key_yield_adjustment": 0.02,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
       "action_id": "university/UCLA/UCLA::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
@@ -38652,6 +39679,76 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+        "name": "DeepSelect",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 5.466,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.466,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -43476,79 +44573,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
-        "name": "FlashMLA",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.349,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.159,
-        "novelty": 0.0,
-        "frontier_potential": 0.347,
-        "uncertainty": 0.448,
-        "redundancy_penalty": 0.412,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.02,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Project",
-        "infra: serving/inference, kernel",
-        "bridge 7.2"
-      ],
-      "base_priority": 5.329,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 14,
-          "statuses": {
-            "partial": 4,
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.15,
-          "mean_reward": 3.286,
-          "reward_signal": 0.676,
-          "yield_adjustment": 0.02
-        },
-        "key_yield_adjustment": 0.02,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -62821,6 +63845,78 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+        "name": "DeepSelect",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.726,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: kernel"
+      ],
+      "base_priority": 4.706,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -63730,6 +64826,79 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.700"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSpec/DeepSpec::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSpec/DeepSpec",
+        "name": "DeepSpec",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.699,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.857,
+        "novelty": 0.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.138,
+        "redundancy_penalty": 0.433,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, kernel",
+        "bridge 6.9"
+      ],
+      "base_priority": 4.679,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.250"
       }
     },
     {
@@ -72938,6 +74107,75 @@
       }
     },
     {
+      "action_id": "company/深度求索/Yinmin Zhong::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/深度求索/Yinmin Zhong",
+        "name": "Yinmin Zhong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.283,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 8.485,
+        "novelty": 0.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 8.5"
+      ],
+      "base_priority": 4.283,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/vllm-project/AIBrix/Guangjian::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -74928,6 +76166,77 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+        "name": "Yi Qian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.188,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 3.5,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kernel"
+      ],
+      "base_priority": 3.846,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
       }
     },
     {
@@ -77785,6 +79094,71 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+        "name": "FlashMLA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.076,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.159,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.12,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 4.076,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence-only verification action"
       }
     },
     {
@@ -81617,76 +82991,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSpec/DeepSpec::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/deepseek-ai/DeepSpec/DeepSpec",
-        "name": "DeepSpec",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 3.871,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.635,
-        "novelty": 0.5,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Project",
-        "infra: serving/inference, kernel",
-        "bridge 6.6"
-      ],
-      "base_priority": 3.871,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.635"
-      }
-    },
-    {
       "action_id": "company/智谱/郑勤锴 Qinkai Zheng::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -81755,6 +83059,76 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=7.859"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSpec/DeepSpec::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/deepseek-ai/DeepSpec/DeepSpec",
+        "name": "DeepSpec",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 3.856,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.857,
+        "novelty": 0.5,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, kernel",
+        "bridge 6.9"
+      ],
+      "base_priority": 3.856,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.857"
       }
     },
     {
@@ -86242,38 +87616,40 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::verify_evidence",
-      "action_key": "project:verify_evidence:none",
+      "action_id": "university/北京大学/Bingyang Wu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
       "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
-        "name": "FlashMLA",
-        "type": "project",
-        "family": "project"
+        "id": "university/北京大学/Bingyang Wu",
+        "name": "Bingyang Wu",
+        "type": "person",
+        "family": "person"
       },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
       ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 3.526,
-      "cost": 0.8,
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.522,
+      "cost": 1.3,
       "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
       },
       "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.159,
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.022,
         "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.12,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.348,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.0,
@@ -86281,10 +87657,12 @@
         "history_eligible": true
       },
       "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target"
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 6.0"
       ],
-      "base_priority": 3.526,
+      "base_priority": 3.522,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -86300,10 +87678,10 @@
         "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       },
-      "operator": "verify",
+      "operator": "discover",
       "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence-only verification action"
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
       }
     },
     {
@@ -91867,6 +93245,75 @@
       }
     },
     {
+      "action_id": "university/北京大学/Xin Jin::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/北京大学/Xin Jin",
+        "name": "Xin Jin",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.335,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.635,
+        "novelty": 0.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, distributed, disaggregation",
+        "bridge 6.6"
+      ],
+      "base_priority": 3.335,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/tyy0829::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -95446,6 +96893,74 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+        "name": "Yi Qian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.018,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 3.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kernel"
+      ],
+      "base_priority": 3.018,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen::verify_evidence",
       "action_key": "person:verify_evidence:none",
       "source": {
@@ -95776,6 +97291,77 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence-only verification action"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+        "name": "Yi Qian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 2.93,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 3.5,
+        "novelty": 0.667,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 2.93,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -103688,7 +105274,7 @@
       }
     }
   },
-  "eligible_count": 1437,
+  "eligible_count": 1459,
   "suppressed_count": 15,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

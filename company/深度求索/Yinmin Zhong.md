@@ -1,10 +1,12 @@
 ---
 type: person
 name: Yinmin Zhong
-current_affiliations: ["Peking University", "深度求索"]
+current_affiliations: ["Peking University","深度求索"]
 schools:
   - "北京大学"
 public_email: zhongyinmin@pku.edu.cn
+linked_companies:
+  - "company/深度求索/深度求索"
 projects: [DistServe, LoongServe]
 areas: [llm-serving, rl-infra, distributed-systems, disaggregated-serving, training-systems]
 roles: [PhD Candidate, Core System R&D Engineer]
@@ -29,8 +31,21 @@ relations:
 - RLHFuse：NSDI 2025，stage fusion 优化 RLHF training。
 - DualPath：2026 DeepSeek-AI / PKU / Tsinghua 跨机构 inference network 的作者之一。
 
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www.yinminzhong.com/
 - https://www.yinminzhong.com/publications
 - https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin
 - https://arxiv.org/abs/2404.09526
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -35,7 +35,7 @@ https://github.com/deepseek-ai/FlashMLA
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[FlashMLA]]：2025 公开作者
-- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[FlashMLA]]：高性能 MLA decoding kernels；公开作者 / 核心技术贡献
+- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]：从 2025 MLA decode kernel 持续推进到 2026 DeepSeek V4.1；2026-09-10 直接提交 V4.1 attention kernels，覆盖 SM100 sparse prefill/decode、FP8 / FP4 KV cache，以及 fused norm + RoPE + attention + RoPE...
 
 <!-- END AUTO PROJECT PEOPLE -->
 

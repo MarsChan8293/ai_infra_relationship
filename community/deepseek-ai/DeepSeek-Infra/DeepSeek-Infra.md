@@ -68,7 +68,7 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 - [[community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou|Shangyan Zhou]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu|Yuxuan Liu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]]：社区贡献关联；人物页已明确记录该社区。
-- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：**FlashMLA + DeepGEMM 共同作者**。两人共同出现在 2025 FlashMLA 与 DeepGEMM 公开作者网络，合作覆盖 MLA/attention kernels 与 GEMM/MoE kernels；刘胜与 2025-04 起在 DeepSeek，Jiashi Li 的公开雇佣时间不足，因此不写精确同事起点。
+- [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]：从 2025 MLA decode kernel 持续推进到 2026 DeepSeek V4.1；2026-09-10 直接提交 V4.1 attention kernels，覆盖 SM100 sparse prefill/decode、FP8 / FP4 KV cache，以及 fused norm + RoPE + attention + RoPE...
 - [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：[[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：**DeepGEMM 共同作者**。两人共同出现在 2025 DeepGEMM 原始公开作者名单；周可行偏 MLIR/compiler 与 GEMM，赵成钢同时横跨 DeepEP 与 MoE communication。关系仅按共同开源项目作者记录，雇佣关系公开未确认。
 - [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：**DeepEP + DeepGEMM 共同作者**。两人同时出现在 2025 DeepEP 与 DeepGEMM 的原始公开作者名单，关系横跨 EP communication 与 GEMM/kernel 两层；公开资料不足以据此断言公司汇报关系。
 

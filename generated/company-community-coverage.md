@@ -4,10 +4,10 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked project/community: 36
-- Project/community nodes: 107
-- Project/community nodes with ≥1 linked company: 65
-- Bidirectional association pairs: 83
-- Explicitly asserted on both sides: 83
+- Project/community nodes: 111
+- Project/community nodes with ≥1 linked company: 66
+- Bidirectional association pairs: 84
+- Explicitly asserted on both sides: 84
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -81,6 +81,7 @@
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | project-collection | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSelect|DeepSelect]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | project | industry-academia-research-collaboration | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | project | company-led | both |

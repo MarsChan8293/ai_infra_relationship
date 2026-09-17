@@ -4,13 +4,13 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked person: 43
-- Company-person associations: 213
+- Company-person associations: 214
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 210
-- Project/community nodes: 114
-- Project/community nodes with ≥1 linked person: 83
-- Project/community-person associations: 420
-- Non-company affiliations recognized and routed elsewhere: 84
+- People with generated linked_companies: 211
+- Project/community nodes: 118
+- Project/community nodes with ≥1 linked person: 87
+- Project/community-person associations: 431
+- Non-company affiliations recognized and routed elsewhere: 87
 - Unresolved source values (backlog, non-fatal): 13
 - Audit errors: 0
 
@@ -26,9 +26,9 @@
 | [[company/RadixArk/RadixArk|RadixArk]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 8 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
+| [[company/深度求索/深度求索|深度求索]] | 7 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
-| [[company/深度求索/深度求索|深度求索]] | 6 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 6 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
@@ -94,11 +94,13 @@
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
+| [[community/LLMServe/DistServe/DistServe|DistServe]] | 3 |
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
@@ -108,8 +110,10 @@
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 2 |
 | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | 2 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepSelect|DeepSelect]] | 2 |
 | [[community/Deep-Spark/DeepSpark/DeepSpark|DeepSpark]] | 2 |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | 2 |
+| [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
 | [[university/清华大学/FastDecode|FastDecode]] | 2 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
@@ -128,7 +132,6 @@
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
-| [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
@@ -142,6 +145,7 @@
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge|SpecForge]] | 1 |
+| [[community/interestingLSY/swiftLLM/swiftLLM|SwiftLLM]] | 1 |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | 1 |
 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | 1 |
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |

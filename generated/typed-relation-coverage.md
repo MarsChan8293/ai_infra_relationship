@@ -2,21 +2,21 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 451
-- Person nodes with typed relations: 143 / 346
+- Typed relation edges: 461
+- Person nodes with typed relations: 147 / 350
 - Hard errors: 0
-- Warnings: 11
+- Warnings: 12
 
 ## Relation types
 
-- `paper-coauthor`: 206
-- `coworker`: 164
-- `research-collaboration`: 137
-- `open-source-collaboration`: 85
+- `paper-coauthor`: 209
+- `coworker`: 165
+- `research-collaboration`: 145
+- `open-source-collaboration`: 90
 - `mentor-network`: 58
-- `technical-collaboration`: 53
+- `technical-collaboration`: 56
 - `cofounder`: 51
-- `advisor`: 38
+- `advisor`: 42
 - `same-lab`: 30
 - `student`: 22
 - `community-maintainer`: 13
@@ -92,6 +92,7 @@
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |
 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 11.198 | 6 | 2 | 33.3% |
+| [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与]] | 11.198 | 7 | 7 | 100.0% |
 | [[university/清华大学/Ruoyu Qin|秦若愚]] | 11.000 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
@@ -102,4 +103,3 @@
 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 10.059 | 6 | 2 | 33.3% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
-| [[company/月之暗面/杨植麟 Zhilin Yang|杨植麟]] | 9.900 | 6 | 5 | 83.3% |

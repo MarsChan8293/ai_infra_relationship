@@ -2687,6 +2687,45 @@
     ]
   },
   {
+    "source": "company/深度求索/Yinmin Zhong",
+    "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": "2025-04",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.yinminzhong.com/",
+      "https://interestinglsy.github.io/",
+      "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+      "https://arxiv.org/abs/2404.09526"
+    ]
+  },
+  {
+    "source": "company/深度求索/Yinmin Zhong",
+    "target": "university/北京大学/Xin Jin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.yinminzhong.com/",
+      "https://xinjin.github.io/publications.html"
+    ]
+  },
+  {
     "source": "company/深度求索/梁文锋 Liang Wenfeng",
     "target": "company/深度求索/郭达雅 Daya Guo",
     "kind": "typed-relation",
@@ -4542,12 +4581,31 @@
     ]
   },
   {
-    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
-    "target": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+    "source": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+    "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
     "kind": "typed-relation",
     "relation_types": [
+      "open-source-collaboration",
+      "technical-collaboration"
+    ],
+    "project": "DeepSelect",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/deepseek-ai/DeepSelect/blob/main/README.md",
+      "https://github.com/deepseek-ai/DeepSelect/commit/671e260b3ae8c5b12352dec063569b54d34e12b1"
+    ]
+  },
+  {
+    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "target": "university/北京大学/Xin Jin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
       "paper-coauthor",
-      "coworker"
+      "research-collaboration"
     ],
     "project": null,
     "company": null,
@@ -4555,15 +4613,76 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/deepseek-ai"
+      "https://interestinglsy.github.io/",
+      "https://xinjin.github.io/",
+      "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+      "https://arxiv.org/abs/2404.09526"
     ]
   },
   {
     "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
-    "target": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
+    "target": "company/深度求索/Yinmin Zhong",
+    "kind": "typed-relation",
+    "relation_types": [
+      "coworker",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": "2025-04",
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://interestinglsy.github.io/",
+      "https://www.yinminzhong.com/",
+      "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+      "https://arxiv.org/abs/2404.09526"
+    ]
+  },
+  {
+    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "target": "university/北京大学/Bingyang Wu",
     "kind": "typed-relation",
     "relation_types": [
       "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://interestinglsy.github.io/",
+      "https://bingyangwu.github.io/",
+      "https://arxiv.org/abs/2404.09526"
+    ]
+  },
+  {
+    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "target": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+    "kind": "typed-relation",
+    "relation_types": [
+      "open-source-collaboration",
+      "technical-collaboration"
+    ],
+    "project": "DeepSelect",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/deepseek-ai/DeepSelect/blob/main/README.md",
+      "https://github.com/deepseek-ai/DeepSelect/commit/671e260b3ae8c5b12352dec063569b54d34e12b1"
+    ]
+  },
+  {
+    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "target": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+    "kind": "typed-relation",
+    "relation_types": [
+      "open-source-collaboration",
       "technical-collaboration"
     ],
     "project": null,
@@ -4572,15 +4691,17 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/deepseek-ai"
+      "https://github.com/deepseek-ai/FlashMLA",
+      "https://github.com/deepseek-ai/DeepGEMM"
     ]
   },
   {
     "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
-    "target": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+    "target": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
     "kind": "typed-relation",
     "relation_types": [
-      "paper-coauthor"
+      "open-source-collaboration",
+      "technical-collaboration"
     ],
     "project": null,
     "company": null,
@@ -4588,7 +4709,23 @@
     "end": null,
     "confidence": "high",
     "evidence": [
-      "https://github.com/deepseek-ai"
+      "https://github.com/deepseek-ai/DeepGEMM"
+    ]
+  },
+  {
+    "source": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "target": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+    "kind": "typed-relation",
+    "relation_types": [
+      "open-source-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://github.com/deepseek-ai/DeepGEMM"
     ]
   },
   {
@@ -7268,6 +7405,63 @@
     "evidence": [
       "https://jasonfxz.top/",
       "https://arxiv.org/abs/2608.16157"
+    ]
+  },
+  {
+    "source": "university/北京大学/Bingyang Wu",
+    "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://bingyangwu.github.io/",
+      "https://arxiv.org/abs/2404.09526",
+      "https://interestinglsy.github.io/"
+    ]
+  },
+  {
+    "source": "university/北京大学/Bingyang Wu",
+    "target": "university/北京大学/Xin Jin",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://bingyangwu.github.io/"
+    ]
+  },
+  {
+    "source": "university/北京大学/Xin Jin",
+    "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
+    "kind": "typed-relation",
+    "relation_types": [
+      "advisor",
+      "paper-coauthor",
+      "research-collaboration"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://interestinglsy.github.io/",
+      "https://xinjin.github.io/",
+      "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+      "https://arxiv.org/abs/2404.09526"
     ]
   },
   {

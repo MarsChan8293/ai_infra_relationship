@@ -24,6 +24,9 @@ relations:
 ## 后续技术路线
 Bingyang Wu 后续继续推进 MoE serving 与通信/调度方向，包括 ExpertPlex、UltraEP 等。这条支线与刘胜与进入 DeepSeek 后的 DeepGEMM / FlashMLA kernel 路线在 MoE inference stack 上具有明显技术邻接，但不把邻接自动写成直接协作。
 
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://bingyangwu.github.io/
 - https://arxiv.org/abs/2404.09526

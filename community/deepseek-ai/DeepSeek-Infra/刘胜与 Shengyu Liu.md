@@ -8,10 +8,10 @@ public_email: shengyuliu@deepseek.com
 schools:
   - "北京大学"
 communities: [DeepGEMM, FlashMLA, DeepSelect, DeepSeek-Infra]
-projects: [DeepGEMM, FlashMLA, DeepSelect, DistServe, LoongServe, SwiftLLM]
-education: [北京大学]
 linked_companies:
   - "company/深度求索/深度求索"
+projects: [DeepGEMM, FlashMLA, DeepSelect, DistServe, LoongServe, SwiftLLM]
+education: [北京大学]
 areas: [mlsys, gpu-kernels, mla, sparse-attention, topk, llm-serving, distributed-systems]
 confidence: verified
 last_verified: "2026-09"
@@ -75,6 +75,6 @@ relations:
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录，同时有公开职业邮箱与当前 Git commit 证据。
+- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录。
 
 <!-- END AUTO PERSON COMPANIES -->

@@ -25,6 +25,9 @@ relations:
 - [[community/LoongServe/LoongServe/LoongServe|LoongServe]]：elastic sequence parallelism for long-context serving。
 - 该研究组还持续发展 FastServe、RLHFuse、dLoRA、MegaScale-Infer 等训练 / serving 系统。
 
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://cs.pku.edu.cn/info/1217/1991.htm
 - https://xinjin.github.io/

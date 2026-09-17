@@ -2958,6 +2958,42 @@
     }
   },
   {
+    "id": "company/深度求索/Yinmin Zhong",
+    "path": "company/深度求索/Yinmin Zhong.md",
+    "name": "Yinmin Zhong",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yinmin Zhong",
+      "current_affiliations": [
+        "Peking University",
+        "深度求索"
+      ],
+      "schools": "",
+      "public_email": "zhongyinmin@pku.edu.cn",
+      "linked_companies": "",
+      "projects": [
+        "DistServe",
+        "LoongServe"
+      ],
+      "areas": [
+        "llm-serving",
+        "rl-infra",
+        "distributed-systems",
+        "disaggregated-serving",
+        "training-systems"
+      ],
+      "roles": [
+        "PhD Candidate",
+        "Core System R&D Engineer"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "company/深度求索/梁文锋 Liang Wenfeng",
     "path": "company/深度求索/梁文锋 Liang Wenfeng.md",
     "name": "梁文锋",
@@ -2999,16 +3035,7 @@
       "title": "深度求索",
       "focus": "frontier-models",
       "linked_people": "",
-      "projects": [
-        "DeepSeek-Infra",
-        "3FS",
-        "DeepEP",
-        "DeepGEMM",
-        "FlashMLA",
-        "DeepJIT",
-        "DualPath",
-        "DeepSpec"
-      ],
+      "projects": "",
       "linked_projects": ""
     }
   },
@@ -5614,6 +5641,32 @@
     }
   },
   {
+    "id": "community/LLMServe/DistServe/DistServe",
+    "path": "community/LLMServe/DistServe/DistServe.md",
+    "name": "DistServe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DistServe",
+      "organization": "Peking University / LLMServe",
+      "linked_people": "",
+      "layer": "disaggregated-llm-serving",
+      "open_source": true,
+      "repository": "https://github.com/LLMServe/DistServe",
+      "areas": [
+        "llm-serving",
+        "prefill-decode-disaggregation",
+        "scheduling",
+        "slo",
+        "distributed-inference",
+        "kv-cache"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/LMCache/LMCache/Andy Luo",
     "path": "community/LMCache/LMCache/Andy Luo.md",
     "name": "Andy Luo",
@@ -6085,6 +6138,32 @@
       ],
       "confidence": "high",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/LoongServe/LoongServe/LoongServe",
+    "path": "community/LoongServe/LoongServe/LoongServe.md",
+    "name": "LoongServe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "LoongServe",
+      "organization": "Peking University / Shanghai AI Laboratory",
+      "linked_people": "",
+      "layer": "long-context-llm-serving",
+      "open_source": true,
+      "repository": "https://github.com/LoongServe/LoongServe",
+      "areas": [
+        "llm-serving",
+        "long-context",
+        "sequence-parallelism",
+        "kv-cache",
+        "scheduling",
+        "distributed-inference"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -7596,6 +7675,36 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+    "path": "community/deepseek-ai/DeepSeek-Infra/DeepSelect.md",
+    "name": "DeepSelect",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DeepSelect",
+      "organization": "DeepSeek-AI",
+      "linked_people": "",
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "sparse-attention-topk-kernels",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/DeepSelect",
+      "areas": [
+        "topk",
+        "sparse-attention",
+        "sampling",
+        "cuda",
+        "gpu-kernels",
+        "deepseek-v4"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
     "path": "community/deepseek-ai/DeepSeek-Infra/FlashMLA.md",
     "name": "FlashMLA",
@@ -7721,6 +7830,40 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yi Qian.md",
+    "name": "Yi Qian",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yi Qian",
+      "aliases": [
+        "skip2004",
+        "@skip2004"
+      ],
+      "communities": [
+        "DeepSelect",
+        "DeepSpec"
+      ],
+      "projects": [
+        "DeepSelect"
+      ],
+      "areas": [
+        "gpu-kernels",
+        "topk",
+        "sparse-attention",
+        "speculative-decoding"
+      ],
+      "roles": [
+        "Open-source Author"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
     "name": "Yuxuan Liu",
@@ -7796,28 +7939,43 @@
       "english_name": "Shengyu Liu",
       "aliases": [
         "刘胜与",
-        "Shengyu Liu"
+        "Shengyu Liu",
+        "interestingLSY",
+        "@interestingLSY"
       ],
       "current_affiliations": [
         "深度求索"
       ],
+      "public_email": "shengyuliu@deepseek.com",
       "schools": "",
       "communities": [
         "DeepGEMM",
         "FlashMLA",
+        "DeepSelect",
         "DeepSeek-Infra"
+      ],
+      "linked_companies": "",
+      "projects": [
+        "DeepGEMM",
+        "FlashMLA",
+        "DeepSelect",
+        "DistServe",
+        "LoongServe",
+        "SwiftLLM"
       ],
       "education": [
         "北京大学"
       ],
-      "linked_companies": "",
       "areas": [
         "mlsys",
         "gpu-kernels",
         "mla",
+        "sparse-attention",
+        "topk",
         "llm-serving",
         "distributed-systems"
       ],
+      "confidence": "verified",
       "last_verified": "2026-09",
       "relations": ""
     }
@@ -9059,6 +9217,32 @@
         "checkpointing",
         "ai-infrastructure"
       ]
+    }
+  },
+  {
+    "id": "community/interestingLSY/swiftLLM/swiftLLM",
+    "path": "community/interestingLSY/swiftLLM/swiftLLM.md",
+    "name": "SwiftLLM",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "SwiftLLM",
+      "organization": "interestingLSY",
+      "linked_people": "",
+      "layer": "research-llm-inference-engine",
+      "open_source": true,
+      "repository": "https://github.com/interestingLSY/swiftLLM",
+      "areas": [
+        "llm-serving",
+        "inference-engine",
+        "triton",
+        "paged-attention",
+        "scheduling",
+        "gpu-kernels"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -14286,6 +14470,38 @@
     }
   },
   {
+    "id": "university/北京大学/Bingyang Wu",
+    "path": "university/北京大学/Bingyang Wu.md",
+    "name": "Bingyang Wu",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Bingyang Wu",
+      "current_affiliations": [
+        "Peking University"
+      ],
+      "schools": "",
+      "public_email": "bingyangwu@pku.edu.cn",
+      "projects": [
+        "LoongServe"
+      ],
+      "areas": [
+        "llm-serving",
+        "distributed-systems",
+        "moe-serving",
+        "scheduling",
+        "long-context"
+      ],
+      "roles": [
+        "PhD Candidate"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "university/北京大学/Lei Wang",
     "path": "university/北京大学/Lei Wang.md",
     "name": "Lei Wang",
@@ -14341,6 +14557,39 @@
       ],
       "website": "https://github.com/tile-ai",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "university/北京大学/Xin Jin",
+    "path": "university/北京大学/Xin Jin.md",
+    "name": "Xin Jin",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Xin Jin",
+      "current_affiliations": [
+        "Peking University"
+      ],
+      "schools": "",
+      "public_email": "xinjinpku@pku.edu.cn",
+      "projects": [
+        "DistServe",
+        "LoongServe"
+      ],
+      "areas": [
+        "computer-systems",
+        "llm-serving",
+        "distributed-systems",
+        "networking",
+        "cloud-computing"
+      ],
+      "roles": [
+        "Associate Professor with Tenure"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
     }
   },
   {
