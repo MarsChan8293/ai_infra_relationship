@@ -47,8 +47,7 @@ jobs:
           p=json.load(open('generated/research-actions.json',encoding='utf-8'))
           actions=[a for a in p['selected_actions'] if a['relation']=='verify_evidence']
           rx=re.compile(r'https?://[^\s<>()\]"\']+')
-          def clean(u):
-              return u.rstrip('.,;:!?`})]')
+          def clean(u): return u.rstrip('.,;:!?`})]')
           rows=[]; all_urls=[]
           for a in actions:
               sid=a['source']['id']; path=root/(sid+'.md')
@@ -58,8 +57,8 @@ jobs:
                   u=clean(u)
                   if u not in urls: urls.append(u)
               urls=urls[:6]
-              row={'action_id':a['action_id'],'source_id':sid,'source_name':a['source']['name'],'family':a['source']['family'],'path':str(path),'urls':urls}
-              rows.append(row); all_urls.extend(urls)
+              rows.append({'action_id':a['action_id'],'source_id':sid,'source_name':a['source']['name'],'family':a['source']['family'],'path':str(path),'urls':urls})
+              all_urls.extend(urls)
           def probe(url):
               req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 full-verify-audit/1.0','Range':'bytes=0-1024'})
               try:
@@ -71,13 +70,12 @@ jobs:
                   return url,'dead',int(e.code),url
               except Exception as e:
                   return url,'unknown',None,type(e).__name__
-          unique=list(dict.fromkeys(all_urls))
           results={}
           with concurrent.futures.ThreadPoolExecutor(max_workers=24) as ex:
-              for item in ex.map(probe,unique): results[item[0]]=item[1:]
+              for item in ex.map(probe,list(dict.fromkeys(all_urls))): results[item[0]]=item[1:]
           summary=collections.Counter()
           for r in rows:
-              checked=[]; domains=set(); live=0; reachable=0; dead=0; unknown=0
+              checked=[]; domains=set(); live=reachable=dead=unknown=0
               for u in r['urls']:
                   status,code,final=results.get(u,('unknown',None,''))
                   checked.append({'url':u,'status':status,'code':code,'final':final})
@@ -101,12 +99,17 @@ jobs:
               f.write(f"Evidence-only actions: {len(rows)}\n\n")
               for k,v in sorted(summary.items()): f.write(f'- {k}: {v}\n')
               f.write('\nThis is a URL/source-liveness audit only. It does not by itself prove every semantic claim.\n')
+          with open('generated/full-verify-evidence-exceptions.tsv','w',encoding='utf-8') as f:
+              f.write('action_id\tsource\tfamily\taudit_class\turl_count\treachable\tdead\tunknown\n')
+              for r in rows:
+                  if r['audit_class'] not in ('some-liveness','strong-liveness'):
+                      f.write(f"{r['action_id']}\t{r['source_name']}\t{r['family']}\t{r['audit_class']}\t{len(r['urls'])}\t{r['reachable']}\t{r['dead']}\t{r['unknown']}\n")
           PY
       - name: Commit generated VERIFY queue and audit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add generated/research-actions.json generated/research-priority.json generated/research-queue.md generated/research-history-summary.json generated/full-verify-selected.tsv generated/full-verify-summary.md generated/full-verify-evidence-audit.json generated/full-verify-evidence-audit.md
+          git add generated/research-actions.json generated/research-priority.json generated/research-queue.md generated/research-history-summary.json generated/full-verify-selected.tsv generated/full-verify-summary.md generated/full-verify-evidence-audit.json generated/full-verify-evidence-audit.md generated/full-verify-evidence-exceptions.tsv
           git diff --cached --quiet && exit 0
-          git commit -m 'chore(verify): generate full VERIFY queue and evidence audit'
+          git commit -m 'chore(verify): emit evidence audit exceptions'
           git push origin HEAD:verify-full-plan-2026-09-18
