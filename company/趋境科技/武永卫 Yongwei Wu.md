@@ -3,7 +3,7 @@ type: person
 name: 武永卫
 english_name: Yongwei Wu
 aliases: [武永卫, Yongwei Wu]
-current_affiliations: ["Tsinghua University","启元实验室","Approaching.AI"]
+current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University","启元实验室","Approaching.AI"]
 schools:
   - "清华大学"
 communities: [Mooncake, KTransformers]
@@ -28,7 +28,7 @@ relations:
 ---
 # 武永卫（Yongwei Wu）
 
-当前：[[清华大学]] 计算机系教授；[[university/启元实验室/启元实验室|启元实验室]]智能计算系统研究中心主任；2026-03–至今任 [[趋境科技]] 首席科学家。
+当前：[[清华大学]] 计算机系教授、[[university/清华大学/MADSys|MADSys]] faculty；[[university/启元实验室/启元实验室|启元实验室]]智能计算系统研究中心主任；2026-03–至今任 [[趋境科技]] 首席科学家。
 
 ## AI Infra 位置
 清华 MADSys / 高性能系统研究网络的重要节点，参与 [[Mooncake]]、[[KTransformers]] 等 KVCache-centric serving 与 CPU/GPU heterogeneous inference 工作，并通过启元实验室的九源统一智能计算架构连接国产智能芯片基础软件，通过趋境科技把“以存换算”、异构推理和 Token 基础设施推进产业化。
