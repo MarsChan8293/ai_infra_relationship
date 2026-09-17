@@ -45,7 +45,7 @@
     "frontmatter": {
       "type": "company",
       "name": "Anyscale",
-      "linked_people": [],
+      "linked_people": "",
       "projects": [
         "Ray Serve"
       ],
@@ -7227,6 +7227,32 @@
     }
   },
   {
+    "id": "community/apache/Spark/Spark",
+    "path": "community/apache/Spark/Spark.md",
+    "name": "Spark",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Spark",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "organization": "Apache Software Foundation",
+      "linked_people": "",
+      "repository": "https://github.com/apache/spark",
+      "open_source": true,
+      "areas": [
+        "distributed-computing",
+        "data-processing",
+        "cluster-computing",
+        "ai-data-platform"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/cloud-native/Kubernetes/Kubernetes",
     "path": "community/cloud-native/Kubernetes/Kubernetes.md",
     "name": "Kubernetes",
@@ -13026,6 +13052,45 @@
     }
   },
   {
+    "id": "university/UC Berkeley/Matei Zaharia",
+    "path": "university/UC Berkeley/Matei Zaharia.md",
+    "name": "Matei Zaharia",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Matei Zaharia",
+      "aliases": [
+        "Matei Zaharia"
+      ],
+      "current_affiliations": [
+        "Stanford University",
+        "Databricks",
+        "Sky Computing Lab"
+      ],
+      "schools": "",
+      "linked_companies": "",
+      "projects": [
+        "Spark",
+        "MoE-Lightning",
+        "FreeToken"
+      ],
+      "roles": [
+        "Stanford Professor",
+        "Databricks CTO",
+        "Sky Core Faculty"
+      ],
+      "areas": [
+        "distributed-systems",
+        "data-systems",
+        "ai-systems",
+        "llm-inference"
+      ],
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "university/UC Berkeley/MoE-Lightning",
     "path": "university/UC Berkeley/MoE-Lightning.md",
     "name": "MoE-Lightning",
@@ -13045,6 +13110,107 @@
       ],
       "people": "",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "university/UC Berkeley/Philipp Moritz",
+    "path": "university/UC Berkeley/Philipp Moritz.md",
+    "name": "Philipp Moritz",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Philipp Moritz",
+      "aliases": [
+        "Philipp Moritz"
+      ],
+      "current_affiliations": [
+        "Anyscale"
+      ],
+      "schools": "",
+      "linked_companies": "",
+      "projects": [
+        "Ray"
+      ],
+      "roles": [
+        "Anyscale Co-Founder",
+        "Ray Creator"
+      ],
+      "areas": [
+        "distributed-systems",
+        "machine-learning-systems",
+        "ai-infrastructure"
+      ],
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "university/UC Berkeley/Reynold Xin",
+    "path": "university/UC Berkeley/Reynold Xin.md",
+    "name": "Reynold Xin",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Reynold Xin",
+      "aliases": [
+        "Reynold Xin",
+        "Reynold Shi Xin"
+      ],
+      "current_affiliations": [
+        "Databricks"
+      ],
+      "schools": "",
+      "linked_companies": "",
+      "projects": [
+        "Spark"
+      ],
+      "roles": [
+        "Databricks Co-Founder",
+        "Databricks Chief Architect"
+      ],
+      "areas": [
+        "distributed-data-systems",
+        "stream-processing",
+        "database-systems",
+        "ai-data-platform"
+      ],
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "university/UC Berkeley/Robert Nishihara",
+    "path": "university/UC Berkeley/Robert Nishihara.md",
+    "name": "Robert Nishihara",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "Robert Nishihara",
+      "aliases": [
+        "Robert Nishihara"
+      ],
+      "current_affiliations": [
+        "Anyscale"
+      ],
+      "schools": "",
+      "linked_companies": "",
+      "projects": [
+        "Ray"
+      ],
+      "roles": [
+        "Anyscale Co-Founder",
+        "Ray Creator"
+      ],
+      "areas": [
+        "distributed-systems",
+        "machine-learning-systems",
+        "ai-infrastructure"
+      ],
+      "last_verified": "2026-09",
+      "relations": ""
     }
   },
   {
@@ -13158,6 +13324,42 @@
       "confidence": "verified",
       "last_verified": "2026-09",
       "relations": ""
+    }
+  },
+  {
+    "id": "university/UC Berkeley/Sky Computing Lab",
+    "path": "university/UC Berkeley/Sky Computing Lab.md",
+    "name": "Sky Computing Lab",
+    "type": "research-institution",
+    "category": "university",
+    "frontmatter": {
+      "type": "research-institution",
+      "name": "Sky Computing Lab",
+      "organization": "UC Berkeley",
+      "aliases": [
+        "SkyLab",
+        "Berkeley Sky Computing Lab",
+        "UC Berkeley Sky Computing Lab"
+      ],
+      "linked_people": "",
+      "areas": [
+        "cloud-computing",
+        "distributed-systems",
+        "llm-serving",
+        "ai-systems",
+        "agent-systems",
+        "heterogeneous-computing"
+      ],
+      "projects": [
+        "Ray",
+        "vLLM",
+        "SGLang",
+        "Jenga",
+        "MoE-Lightning",
+        "FreeToken"
+      ],
+      "website": "https://sky.cs.berkeley.edu/",
+      "last_verified": "2026-09"
     }
   },
   {

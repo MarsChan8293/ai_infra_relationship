@@ -3,15 +3,15 @@
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
 - Company nodes: 50
-- Companies with ≥1 linked person: 42
-- Company-person associations: 207
+- Companies with ≥1 linked person: 43
+- Company-person associations: 211
 - Email-domain-supported associations: 27
-- People with generated linked_companies: 206
-- Project/community nodes: 110
-- Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 410
-- Non-company affiliations recognized and routed elsewhere: 75
-- Unresolved source values (backlog, non-fatal): 11
+- People with generated linked_companies: 210
+- Project/community nodes: 111
+- Project/community nodes with ≥1 linked person: 81
+- Project/community-person associations: 416
+- Non-company affiliations recognized and routed elsewhere: 79
+- Unresolved source values (backlog, non-fatal): 9
 - Audit errors: 0
 
 ## Companies
@@ -37,12 +37,14 @@
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
+| [[company/Databricks/Databricks|Databricks]] | 3 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/派欧云/派欧云|派欧云]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
+| [[company/Anyscale/Anyscale|Anyscale]] | 2 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
 | [[company/Ollama/Ollama|Ollama]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
@@ -51,7 +53,6 @@
 | [[company/沐曦/沐曦|沐曦]] | 2 |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
-| [[company/Databricks/Databricks|Databricks]] | 1 |
 | [[company/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[company/HPE/HPE|HPE]] | 1 |
 | [[company/Intel/Intel|Intel]] | 1 |
@@ -93,12 +94,15 @@
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/ray-project/Ray/Ray|Ray]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
+| [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
+| [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 3 |
 | [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
@@ -111,16 +115,14 @@
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
-| [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[community/MetaX-MACA/MetaX-MACA/MetaX-MACA|MetaX-MACA]] | 2 |
-| [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
-| [[community/ray-project/Ray/Ray|Ray]] | 2 |
+| [[community/apache/Spark/Spark|Spark]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
@@ -151,9 +153,7 @@
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
-- `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
-- `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `projects` → `SmartMoE`

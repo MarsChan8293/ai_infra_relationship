@@ -46,7 +46,7 @@
       "frontmatter": {
         "type": "company",
         "name": "Anyscale",
-        "linked_people": [],
+        "linked_people": "",
         "projects": [
           "Ray Serve"
         ],
@@ -7228,6 +7228,32 @@
       }
     },
     {
+      "id": "community/apache/Spark/Spark",
+      "path": "community/apache/Spark/Spark.md",
+      "name": "Spark",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Spark",
+        "aliases": [
+          "Apache Spark"
+        ],
+        "organization": "Apache Software Foundation",
+        "linked_people": "",
+        "repository": "https://github.com/apache/spark",
+        "open_source": true,
+        "areas": [
+          "distributed-computing",
+          "data-processing",
+          "cluster-computing",
+          "ai-data-platform"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/cloud-native/Kubernetes/Kubernetes",
       "path": "community/cloud-native/Kubernetes/Kubernetes.md",
       "name": "Kubernetes",
@@ -13027,6 +13053,45 @@
       }
     },
     {
+      "id": "university/UC Berkeley/Matei Zaharia",
+      "path": "university/UC Berkeley/Matei Zaharia.md",
+      "name": "Matei Zaharia",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Matei Zaharia",
+        "aliases": [
+          "Matei Zaharia"
+        ],
+        "current_affiliations": [
+          "Stanford University",
+          "Databricks",
+          "Sky Computing Lab"
+        ],
+        "schools": "",
+        "linked_companies": "",
+        "projects": [
+          "Spark",
+          "MoE-Lightning",
+          "FreeToken"
+        ],
+        "roles": [
+          "Stanford Professor",
+          "Databricks CTO",
+          "Sky Core Faculty"
+        ],
+        "areas": [
+          "distributed-systems",
+          "data-systems",
+          "ai-systems",
+          "llm-inference"
+        ],
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
       "id": "university/UC Berkeley/MoE-Lightning",
       "path": "university/UC Berkeley/MoE-Lightning.md",
       "name": "MoE-Lightning",
@@ -13046,6 +13111,107 @@
         ],
         "people": "",
         "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "university/UC Berkeley/Philipp Moritz",
+      "path": "university/UC Berkeley/Philipp Moritz.md",
+      "name": "Philipp Moritz",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Philipp Moritz",
+        "aliases": [
+          "Philipp Moritz"
+        ],
+        "current_affiliations": [
+          "Anyscale"
+        ],
+        "schools": "",
+        "linked_companies": "",
+        "projects": [
+          "Ray"
+        ],
+        "roles": [
+          "Anyscale Co-Founder",
+          "Ray Creator"
+        ],
+        "areas": [
+          "distributed-systems",
+          "machine-learning-systems",
+          "ai-infrastructure"
+        ],
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "university/UC Berkeley/Reynold Xin",
+      "path": "university/UC Berkeley/Reynold Xin.md",
+      "name": "Reynold Xin",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Reynold Xin",
+        "aliases": [
+          "Reynold Xin",
+          "Reynold Shi Xin"
+        ],
+        "current_affiliations": [
+          "Databricks"
+        ],
+        "schools": "",
+        "linked_companies": "",
+        "projects": [
+          "Spark"
+        ],
+        "roles": [
+          "Databricks Co-Founder",
+          "Databricks Chief Architect"
+        ],
+        "areas": [
+          "distributed-data-systems",
+          "stream-processing",
+          "database-systems",
+          "ai-data-platform"
+        ],
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "university/UC Berkeley/Robert Nishihara",
+      "path": "university/UC Berkeley/Robert Nishihara.md",
+      "name": "Robert Nishihara",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Robert Nishihara",
+        "aliases": [
+          "Robert Nishihara"
+        ],
+        "current_affiliations": [
+          "Anyscale"
+        ],
+        "schools": "",
+        "linked_companies": "",
+        "projects": [
+          "Ray"
+        ],
+        "roles": [
+          "Anyscale Co-Founder",
+          "Ray Creator"
+        ],
+        "areas": [
+          "distributed-systems",
+          "machine-learning-systems",
+          "ai-infrastructure"
+        ],
+        "last_verified": "2026-09",
+        "relations": ""
       }
     },
     {
@@ -13159,6 +13325,42 @@
         "confidence": "verified",
         "last_verified": "2026-09",
         "relations": ""
+      }
+    },
+    {
+      "id": "university/UC Berkeley/Sky Computing Lab",
+      "path": "university/UC Berkeley/Sky Computing Lab.md",
+      "name": "Sky Computing Lab",
+      "type": "research-institution",
+      "category": "university",
+      "frontmatter": {
+        "type": "research-institution",
+        "name": "Sky Computing Lab",
+        "organization": "UC Berkeley",
+        "aliases": [
+          "SkyLab",
+          "Berkeley Sky Computing Lab",
+          "UC Berkeley Sky Computing Lab"
+        ],
+        "linked_people": "",
+        "areas": [
+          "cloud-computing",
+          "distributed-systems",
+          "llm-serving",
+          "ai-systems",
+          "agent-systems",
+          "heterogeneous-computing"
+        ],
+        "projects": [
+          "Ray",
+          "vLLM",
+          "SGLang",
+          "Jenga",
+          "MoE-Lightning",
+          "FreeToken"
+        ],
+        "website": "https://sky.cs.berkeley.edu/",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -16301,6 +16503,16 @@
     },
     {
       "source": "community/FlashML-org/FreeToken/FreeToken",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/FlashML-org/FreeToken/FreeToken",
+      "target": "university/UC Berkeley/MoE-Lightning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/FlashML-org/FreeToken/FreeToken",
       "target": "university/UC Berkeley/Shuo Yang",
       "kind": "wikilink"
     },
@@ -17737,6 +17949,26 @@
     {
       "source": "community/ai-dynamo/NIXL/Tomer Davidor",
       "target": "company/NVIDIA/NVIDIA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/apache/Spark/Spark",
+      "target": "company/Databricks/Databricks",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/apache/Spark/Spark",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/apache/Spark/Spark",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/apache/Spark/Spark",
+      "target": "university/UC Berkeley/Reynold Xin",
       "kind": "wikilink"
     },
     {
@@ -21690,6 +21922,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/ray-project/Ray/Ray",
+      "target": "university/UC Berkeley/Philipp Moritz",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ray-project/Ray/Ray",
+      "target": "university/UC Berkeley/Robert Nishihara",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/sgl-project/SGLang/SGLang",
       "target": "community/Ascend/MemCache/nbbb24",
       "kind": "wikilink"
@@ -24465,6 +24707,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/Anyscale/Anyscale",
+      "target": "university/UC Berkeley/Philipp Moritz",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Anyscale/Anyscale",
+      "target": "university/UC Berkeley/Robert Nishihara",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/Baseten/Baseten",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -24747,6 +24999,16 @@
     {
       "source": "company/Databricks/Databricks",
       "target": "community/ai-dynamo/NIXL/NIXL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Databricks/Databricks",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Databricks/Databricks",
+      "target": "university/UC Berkeley/Reynold Xin",
       "kind": "wikilink"
     },
     {
@@ -30535,6 +30797,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/Stanford University/Stanford University",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/Stony Brook University/Stony Brook University",
       "target": "community/ai-dynamo/Dynamo/Sungsoo Ha",
       "kind": "wikilink"
@@ -30550,6 +30817,56 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "community/apache/Spark/Spark",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "company/Databricks/Databricks",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "university/Stanford University/Stanford University",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "university/UC Berkeley/MoE-Lightning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "university/UC Berkeley/Sky Computing Lab",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Matei Zaharia",
+      "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/MoE-Lightning",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/MoE-Lightning",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/UC Berkeley/MoE-Lightning",
       "target": "university/UC Berkeley/Shiyi Cao",
       "kind": "wikilink"
@@ -30557,6 +30874,71 @@
     {
       "source": "university/UC Berkeley/MoE-Lightning",
       "target": "university/UC Berkeley/Shu Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Philipp Moritz",
+      "target": "community/ray-project/Ray/Ray",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Philipp Moritz",
+      "target": "company/Anyscale/Anyscale",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Philipp Moritz",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Philipp Moritz",
+      "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Reynold Xin",
+      "target": "community/apache/Spark/Spark",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Reynold Xin",
+      "target": "company/Databricks/Databricks",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Reynold Xin",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Reynold Xin",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Reynold Xin",
+      "target": "university/UC Berkeley/UC Berkeley",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Robert Nishihara",
+      "target": "community/ray-project/Ray/Ray",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Robert Nishihara",
+      "target": "company/Anyscale/Anyscale",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Robert Nishihara",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Robert Nishihara",
+      "target": "university/UC Berkeley/UC Berkeley",
       "kind": "wikilink"
     },
     {
@@ -30611,6 +30993,66 @@
     },
     {
       "source": "university/UC Berkeley/Shuo Yang",
+      "target": "university/上海交通大学/Xiaoze Fan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "community/FlashML-org/FreeToken/FreeToken",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "community/vllm-project/Jenga/Jenga",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "company/Anyscale/Anyscale",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "company/Databricks/Databricks",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "company/Inferact/Inferact",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "university/UC Berkeley/MoE-Lightning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "university/UC Berkeley/Shuo Yang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
       "target": "university/上海交通大学/Xiaoze Fan",
       "kind": "wikilink"
     },
@@ -30742,6 +31184,26 @@
     {
       "source": "university/UC Berkeley/UC Berkeley",
       "target": "company/潞晨科技/尤洋 Yang You",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/UC Berkeley/Matei Zaharia",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/UC Berkeley/Philipp Moritz",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/UC Berkeley/Reynold Xin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/UC Berkeley",
+      "target": "university/UC Berkeley/Robert Nishihara",
       "kind": "wikilink"
     },
     {
@@ -33480,14 +33942,14 @@
       "bridge_score": 6.985
     },
     "company/Anyscale/Anyscale": {
-      "degree": 10,
-      "cross_category_degree": 7,
+      "degree": 13,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.409
+      "bridge_score": 11.807
     },
     "company/Baseten/Baseten": {
       "degree": 5,
@@ -33516,14 +33978,14 @@
       "bridge_score": 3.785
     },
     "company/Databricks/Databricks": {
-      "degree": 5,
-      "cross_category_degree": 3,
+      "degree": 9,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.135
+      "bridge_score": 10.272
     },
     "company/Fireworks AI/Fireworks AI": {
       "degree": 2,
@@ -33598,24 +34060,24 @@
       "bridge_score": 5.7
     },
     "company/Inferact/Inferact": {
-      "degree": 26,
-      "cross_category_degree": 19,
+      "degree": 27,
+      "cross_category_degree": 20,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 15.905
+      "bridge_score": 16.307
     },
     "company/Inferact/Ion Stoica": {
-      "degree": 21,
-      "cross_category_degree": 14,
+      "degree": 27,
+      "cross_category_degree": 20,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.859
+      "bridge_score": 16.307
     },
     "company/Inferact/Joseph Gonzalez": {
       "degree": 12,
@@ -35282,14 +35744,14 @@
       "bridge_score": 5.672
     },
     "community/FlashML-org/FreeToken/FreeToken": {
-      "degree": 8,
-      "cross_category_degree": 3,
+      "degree": 11,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.72
+      "bridge_score": 10.185
     },
     "community/InfiniTensor/InfiniTensor": {
       "degree": 4,
@@ -36028,6 +36490,15 @@
         "company"
       ],
       "bridge_score": 4.935
+    },
+    "community/apache/Spark/Spark": {
+      "degree": 4,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "company",
+        "university"
+      ],
+      "bridge_score": 6.722
     },
     "community/cloud-native/Kubernetes/Kubernetes": {
       "degree": 2,
@@ -37134,13 +37605,14 @@
       "bridge_score": 6.507
     },
     "community/ray-project/Ray/Ray": {
-      "degree": 4,
-      "cross_category_degree": 3,
+      "degree": 6,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "university"
       ],
-      "bridge_score": 6.372
+      "bridge_score": 9.057
     },
     "community/ray-project/Ray-Serve/Ray-Serve": {
       "degree": 8,
@@ -37161,15 +37633,15 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 88,
-      "cross_category_degree": 39,
+      "degree": 89,
+      "cross_category_degree": 40,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 26.126
+      "bridge_score": 26.492
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -37480,14 +37952,14 @@
       "bridge_score": 4.935
     },
     "community/vllm-project/Jenga/Jenga": {
-      "degree": 14,
-      "cross_category_degree": 10,
+      "degree": 15,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.907
+      "bridge_score": 12.35
     },
     "community/vllm-project/Speculators/Speculators": {
       "degree": 1,
@@ -37655,15 +38127,15 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 113,
-      "cross_category_degree": 50,
+      "degree": 114,
+      "cross_category_degree": 51,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 30.333
+      "bridge_score": 30.695
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -37979,14 +38451,14 @@
       "bridge_score": 2.85
     },
     "university/Stanford University/Stanford University": {
-      "degree": 6,
+      "degree": 7,
       "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.057
+      "bridge_score": 9.25
     },
     "university/Stony Brook University/Stony Brook University": {
       "degree": 2,
@@ -38005,14 +38477,54 @@
       ],
       "bridge_score": 2.85
     },
+    "university/UC Berkeley/Matei Zaharia": {
+      "degree": 9,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 9.222
+    },
     "university/UC Berkeley/MoE-Lightning": {
-      "degree": 3,
-      "cross_category_degree": 1,
+      "degree": 6,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "university"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 6.507
+    },
+    "university/UC Berkeley/Philipp Moritz": {
+      "degree": 4,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.872
+    },
+    "university/UC Berkeley/Reynold Xin": {
+      "degree": 5,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 8.135
+    },
+    "university/UC Berkeley/Robert Nishihara": {
+      "degree": 4,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 7.872
     },
     "university/UC Berkeley/Shiyi Cao": {
       "degree": 4,
@@ -38033,24 +38545,34 @@
       "bridge_score": 5.672
     },
     "university/UC Berkeley/Shuo Yang": {
-      "degree": 4,
+      "degree": 5,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.522
+      "bridge_score": 7.785
+    },
+    "university/UC Berkeley/Sky Computing Lab": {
+      "degree": 12,
+      "cross_category_degree": 8,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 11.0
     },
     "university/UC Berkeley/UC Berkeley": {
-      "degree": 33,
+      "degree": 37,
       "cross_category_degree": 26,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 18.687
+      "bridge_score": 18.848
     },
     "university/UC Berkeley/Xiangxi Mo": {
       "degree": 4,
@@ -38214,14 +38736,14 @@
       "bridge_score": 5.35
     },
     "university/上海交通大学/Xiaoze Fan": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.9
+      "bridge_score": 9.07
     },
     "university/上海交通大学/Xingda Wei": {
       "degree": 6,

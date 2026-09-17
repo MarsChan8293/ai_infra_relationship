@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1428
-- Eligible actions: 1417
+- Candidate actions: 1433
+- Eligible actions: 1422
 - Cooldown-suppressed: 11
 - History records: 30
 - Selected actions: 10
@@ -44,34 +44,34 @@
 | ---: | --- | --- | --- | ---: |
 | 1 | [[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]] | project | maintainers | 8.907 |
 | 2 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | 8.865 |
-| 3 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.379 |
-| 4 | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | maintainers | 8.354 |
-| 5 | [[community/MooreThreads/MATE/MATE|MATE]] | project | maintainers | 8.345 |
-| 6 | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar|lmcache-iluvatar]] | project | maintainers | 8.319 |
-| 7 | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | maintainers | 8.313 |
-| 8 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.218 |
-| 9 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | 8.097 |
-| 10 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
-| 11 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
-| 12 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
-| 13 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
-| 14 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
-| 15 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | 7.964 |
-| 16 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
-| 17 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
-| 18 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
-| 19 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 20 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
-| 21 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
-| 22 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 23 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 24 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
-| 25 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 26 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 27 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 28 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
-| 29 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
-| 30 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 3 | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | maintainers | 8.354 |
+| 4 | [[community/MooreThreads/MATE/MATE|MATE]] | project | maintainers | 8.345 |
+| 5 | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar|lmcache-iluvatar]] | project | maintainers | 8.319 |
+| 6 | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | maintainers | 8.313 |
+| 7 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.218 |
+| 8 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | 8.097 |
+| 9 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
+| 10 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
+| 11 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
+| 12 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
+| 13 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
+| 14 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | 7.964 |
+| 15 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
+| 16 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
+| 17 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
+| 18 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
+| 19 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 20 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
+| 21 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 22 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 23 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
+| 24 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 25 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 26 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 27 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
+| 28 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
+| 29 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 30 | [[company/清昴智能/清昴智能|清昴智能]] | company | projects | 7.514 |
 
 ## Cooldown / history-suppressed
 

@@ -4,8 +4,10 @@ name: Matei Zaharia
 aliases: ["Matei Zaharia"]
 current_affiliations: ["Stanford University","Databricks","Sky Computing Lab"]
 schools:
+  - "Stanford University"
   - "UC Berkeley"
-  - "University of Waterloo"
+linked_companies:
+  - "company/Databricks/Databricks"
 projects: [Spark, MoE-Lightning, FreeToken]
 roles: [Stanford Professor, Databricks CTO, Sky Core Faculty]
 areas: [distributed-systems, data-systems, ai-systems, llm-inference]
@@ -32,8 +34,22 @@ Apache Spark 原始创建者、Databricks 联合创始人 / CTO、Stanford 教�
 Matei Zaharia 是 Ion Stoica 网络里非常重要的“跨代桥”：
 `Spark / Databricks → Sky → modern AI systems`。
 
+
+## 学校关联
+- [[university/Stanford University/Stanford University|Stanford University]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Years/2013.html
 - https://people.eecs.berkeley.edu/~matei/cv.pdf
 - https://sky.cs.berkeley.edu/people/
 - https://www.databricks.com/dataaisummit/session/summit-live-spark-talk-everything-spark-dlt-and-open-source
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/Databricks/Databricks|Databricks]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

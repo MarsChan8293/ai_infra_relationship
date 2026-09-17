@@ -3,6 +3,7 @@ type: project
 name: FreeToken
 organization: FlashML
 linked_people:
+  - "university/UC Berkeley/Matei Zaharia"
   - "university/UC Berkeley/Shuo Yang"
   - "university/上海交通大学/Xiaoze Fan"
 repository: https://github.com/FlashML-org/FreeToken
@@ -111,6 +112,7 @@ FreeToken 官方 README 明确写明：项目 **deeply inspired by mini-SGLang**
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：[[university/UC Berkeley/MoE-Lightning|MoE-Lightning]]、[[community/FlashML-org/FreeToken/FreeToken|FreeToken]] 等新一代工作把早期 distributed data systems 谱系重新连接到 LLM / MoE inference。
 - [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：https://github.com/FlashML-org/FreeToken
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：Shuo Yang：mentor；同时为 FreeToken 共同一作。
 

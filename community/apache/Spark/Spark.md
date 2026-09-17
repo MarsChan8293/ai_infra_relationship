@@ -3,11 +3,14 @@ type: project
 name: Spark
 aliases: ["Apache Spark"]
 organization: Apache Software Foundation
-linked_people: []
+linked_people:
+  - "university/UC Berkeley/Matei Zaharia"
+  - "university/UC Berkeley/Reynold Xin"
 repository: https://github.com/apache/spark
 open_source: true
 areas: [distributed-computing, data-processing, cluster-computing, ai-data-platform]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Apache Spark
 
@@ -26,3 +29,13 @@ Apache Spark 起源于 UC Berkeley AMPLab，是 Berkeley systems “研究 → �
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Years/2013.html
 - https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-26.html
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：[[community/apache/Spark/Spark|Spark]] 是这段 Berkeley systems 研究的核心产物。
+- [[university/UC Berkeley/Reynold Xin|Reynold Xin]]：[[community/apache/Spark/Spark|Apache Spark]]：Berkeley AMPLab / distributed dataflow 技术谱系的重要参与者。
+
+<!-- END AUTO PROJECT PEOPLE -->

@@ -3,6 +3,7 @@ type: project
 name: MoE-Lightning
 organization: UC Berkeley
 linked_people:
+  - "university/UC Berkeley/Matei Zaharia"
   - "university/UC Berkeley/Shiyi Cao"
   - "university/UC Berkeley/Shu Liu"
 layer: inference-engine
@@ -36,6 +37,7 @@ MoE-Lightning 把 Jenga 的 memory-management 路线继续推进到 MoE heteroge
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：[[university/UC Berkeley/MoE-Lightning|MoE-Lightning]]、[[community/FlashML-org/FreeToken/FreeToken|FreeToken]] 等新一代工作把早期 distributed data systems 谱系重新连接到 LLM / MoE inference。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[university/UC Berkeley/MoE-Lightning|MoE-Lightning]]：ASPLOS 2025 第一作者，研究 memory-constrained GPU 上的高吞吐 MoE inference。
 - [[university/UC Berkeley/Shu Liu|Shu Liu]]：[[university/UC Berkeley/MoE-Lightning|MoE-Lightning]]：ASPLOS 2025 作者，与 [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]] 等共同研究 memory-constrained GPU 上的高吞吐 MoE inference。
 

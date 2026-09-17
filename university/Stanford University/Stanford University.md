@@ -6,6 +6,7 @@ linked_people:
   - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
   - "community/vllm-project/vLLM/Matthew Bonanni"
   - "company/RadixArk/盛颖 Ying Sheng"
+  - "university/UC Berkeley/Matei Zaharia"
 ---
 # Stanford University
 
@@ -30,5 +31,6 @@ Stanford University 在本图谱中主要作为 AI systems / serving 人才的�
 - [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：[[Stanford University]]：计算机博士在读，MAST Lab；导师 Christos Kozyrakis，并与 Kayvon Fatahalian 合作
 - [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]]：教育关联；人物页 `education` 已明确记录该校。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：[[Stanford University]]：计算机博士，导师 Clark Barrett
+- [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 
 <!-- END AUTO SCHOOL PEOPLE -->

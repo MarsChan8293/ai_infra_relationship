@@ -4,6 +4,8 @@ name: Ray
 linked_people:
   - "company/Inferact/Ion Stoica"
   - "company/RadixArk/Qiaolin Yu"
+  - "university/UC Berkeley/Philipp Moritz"
+  - "university/UC Berkeley/Robert Nishihara"
 repository: https://github.com/ray-project/ray
 open_source: true
 areas: [ai-infrastructure]
@@ -31,5 +33,7 @@ https://github.com/ray-project/ray
 
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：社区贡献关联；人物页已明确记录该社区。
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[Anyscale]]：Ray Core Software Engineer，2025-06–2025-12
+- [[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：[[community/ray-project/Ray/Ray|Ray]]：面向机器学习生态的通用分布式执行引擎，博士研究与开源项目直接重合。
+- [[university/UC Berkeley/Robert Nishihara|Robert Nishihara]]：共同创建 / 推动 [[community/ray-project/Ray/Ray|Ray]]；
 
 <!-- END AUTO PROJECT PEOPLE -->
