@@ -9,6 +9,8 @@ confidence: project-credit
 last_verified: "2026-09"
 relations:
   - '{"target":"community/siliconflow/OneDiff/OneDiff","type":["community-maintainer","open-source-collaboration"],"project":"OneDiff","confidence":"high","evidence":["https://github.com/siliconflow/onediff/pulls","https://github.com/siliconflow/onediff/releases"]}'
+projects:
+  - "OneFlow"
 ---
 # strint
 

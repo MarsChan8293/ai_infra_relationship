@@ -10,6 +10,8 @@ linked_companies:
 areas: [local-inference, edge-inference, tensor-runtime, quantization, gguf, cpu-gpu-hybrid, c-cpp, multi-backend]
 confidence: verified
 last_verified: "2026-09"
+projects:
+  - "llama.cpp"
 ---
 # Georgi Gerganov
 
