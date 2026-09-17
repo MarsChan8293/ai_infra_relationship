@@ -73,7 +73,7 @@
 
 | Person | Bridge | Person links | Typed | Coverage |
 | --- | ---: | ---: | ---: | ---: |
-| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 18.294 | 12 | 12 | 100.0% |
+| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 18.687 | 12 | 12 | 100.0% |
 | [[university/清华大学/Mingxing Zhang|章明星]] | 15.094 | 4 | 4 | 100.0% |
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |
 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
@@ -88,18 +88,18 @@
 | [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]] | 11.535 | 12 | 11 | 91.7% |
 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
 | [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.350 | 7 | 7 | 100.0% |
+| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 11.300 | 5 | 2 | 40.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |
+| [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 11.198 | 6 | 2 | 33.3% |
 | [[university/清华大学/Ruoyu Qin|秦若愚]] | 11.000 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
-| [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 10.857 | 5 | 2 | 40.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
+| [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 10.120 | 3 | 3 | 100.0% |
+| [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 10.059 | 6 | 2 | 33.3% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
-| [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]] | 9.770 | 2 | 2 | 100.0% |
-| [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
-| [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.572 | 6 | 2 | 33.3% |

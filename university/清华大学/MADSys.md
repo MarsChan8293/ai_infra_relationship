@@ -4,7 +4,6 @@ name: MADSys
 organization: 清华大学
 aliases: ["MADSys Lab", "MADSys Group", "MADSys Lab, Tsinghua University"]
 linked_people:
-  - "company/趋境科技/武永卫 Yongwei Wu"
   - "community/kvcache-ai/KTransformers/Boxin Zhang"
   - "community/kvcache-ai/KTransformers/Chen Lin"
   - "community/kvcache-ai/KTransformers/Chengyu Qiu"

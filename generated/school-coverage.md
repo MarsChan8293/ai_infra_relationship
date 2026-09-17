@@ -49,7 +49,7 @@
 
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
-| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 9.27 | 17 |
+| 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 11.198 | 18 |
 | 2 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 |
 | 3 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
 | 4 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
