@@ -12,6 +12,7 @@ roles: ["Associate Professor"]
 confidence: verified
 last_verified: "2026-09"
 relations:
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["student","paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://www.ccf.org.cn/Focus/2018-11-12/654739.shtml","https://madsys.cs.tsinghua.edu.cn/publication/"]}'
   - '{"target":"university/清华大学/Ruoyu Qin","type":["mentor-network","research-collaboration"],"confidence":"medium","evidence":["https://www.cs.tsinghua.edu.cn/info/1247/6286.htm"]}'
   - '{"target":"company/深度求索/Shaoyuan Chen","type":["paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://sigops.org/s/conferences/sosp/2025/accepted.html","https://conferences.sigcomm.org/sigcomm/2026/accepted/"]}'
   - '{"target":"university/清华大学/Yingdi Shan","type":["paper-coauthor","research-collaboration"],"project":"Seer","confidence":"high","evidence":["https://www.usenix.org/conference/osdi26/presentation/qin"]}'
@@ -24,6 +25,10 @@ relations:
 - 2017：[[university/清华大学/清华大学|清华大学]]计算机科学与技术博士。
 - 2017–2022：深信服创新研究院，曾任 Chief Algorithm Expert / Head of Sangfor Innovation Institute。
 - 2022–至今：回到清华大学计算机系任教；官方 faculty 页面当前列为 Associate Professor。
+
+## 学术谱系
+- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**博士导师 + 长期 systems / AI Infra 合作者**。CCF 2018 优秀博士学位论文奖公示明确列出章明星博士论文《大规模图数据的高效计算》的培养单位为清华大学、导师为武永卫。毕业后两人仍持续共同署名 Mooncake、KTransformers 等工作，因此这条边同时具有正式 `student/advisor` 与长期 `research-collaboration` 两层含义。
+- 这条关系把当前 AI Infra 人才链清晰串成：`武永卫 → 章明星 → Ruoyu Qin`。其中 [[university/清华大学/Ruoyu Qin|Ruoyu Qin]] 是章明星指导网络中的下一代研究者，不直接标记为武永卫学生。
 
 ## AI Infra 关系
 - [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]：FAST 2025 论文作者与研究导师网络核心；清华官方报道明确将 [[university/清华大学/Ruoyu Qin|Ruoyu Qin]] 列为其指导学生。
@@ -39,18 +44,20 @@ relations:
 ## 图谱意义
 章明星所在路线把传统 storage / distributed systems 的设计问题直接推入 LLM serving 热路径。沿这一节点 BFS 可以同时进入两条高价值支路：
 
-`Mooncake → Ruoyu Qin → Moonshot AI Infra → Seer`
+`武永卫 → 章明星 → Ruoyu Qin → Moonshot AI Infra → Seer`
 
 以及
 
-`KTransformers → Shaoyuan Chen → DeepSeek → DualPath / DeepSpec`。
+`武永卫 → 章明星 → KTransformers → Shaoyuan Chen → DeepSeek → DualPath / DeepSpec`。
 
 ## 学校关联
 - [[university/清华大学/清华大学|清华大学]]：博士与当前任职机构。
 
 ## Sources
+- https://www.ccf.org.cn/Focus/2018-11-12/654739.shtml
 - https://www.cs.tsinghua.edu.cn/csen/info/1301/4666.htm
 - https://madsys.cs.tsinghua.edu.cn/
+- https://madsys.cs.tsinghua.edu.cn/publication/
 - https://www.cs.tsinghua.edu.cn/info/1247/6286.htm
 - https://sigops.org/s/conferences/sosp/2025/accepted.html
 - https://www.usenix.org/conference/osdi26/presentation/qin
