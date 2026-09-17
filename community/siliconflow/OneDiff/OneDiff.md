@@ -2,7 +2,9 @@
 type: project
 name: OneDiff
 organization: siliconflow
-linked_people: []
+linked_people:
+  - "community/siliconflow/OneDiff/strint"
+  - "community/siliconflow/OneDiff/marigoold"
 companies: ["硅基流动"]
 company_relation: company-led
 layer: diffusion-inference-compiler
@@ -26,16 +28,21 @@ OneDiff 是硅基流动维护的开源 diffusion / multimodal inference accelera
 
 ## Compiler 路线
 OneDiff 公开支持两条 compiler backend：
-- [[OneFlow]]：延续硅基流动团队的 OneFlow 系统技术积累。
+- [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]]：延续硅基流动团队的 OneFlow 系统技术积累。
 - Nexfort：面向 PyTorch 2.x / DiT 等 workload 的轻量 compiler backend；OneDiff 文档称部分优化正逐步由 OneFlow backend 迁移到 Nexfort。
 
 这使 OneDiff 成为观察 `OneFlow → compiler/kernel → multimodal inference` 人才迁移的高价值入口。
 
-## 人物探索边界
-GitHub release、PR、Wiki 中可见 `strint`、`marigoold`、`clackhan`、Xiaoyu Xu 等高信号贡献者 / 维护活动，但本节点暂不据此自动推断其当前雇主。后续应通过企业邮箱、官方团队页、持续 review ownership 等证据再升级人物节点。
+## 维护者 / Collaborator
+- [[community/siliconflow/OneDiff/strint|strint]]：GitHub Pull Requests 页面将其标记为 **Collaborator**；release notes 中持续出现 compiler、CI、项目维护相关改动。
+- [[community/siliconflow/OneDiff/marigoold|marigoold]]：GitHub Pull Requests 页面将其标记为 **Collaborator**；长期参与 Diffusers / ComfyUI / SD3 等集成与维护。
+
+这里的 `Collaborator` 是 GitHub 项目级权限/身份信号，只用于确认 OneDiff 的维护关系，不自动推断真实姓名、当前雇主或公司职位。`clackhan`、Xiaoyu Xu 等仍保留为贡献线索，待更稳定的 governance / review ownership 证据后再升级人物边。
 
 ## Sources
 - https://github.com/siliconflow/onediff
+- https://github.com/siliconflow/onediff/pulls
+- https://github.com/siliconflow/onediff/releases
 - https://github.com/siliconflow/onediff/wiki
 - https://github.com/siliconflow/onediff/tree/main/src/onediff/infer_compiler/backends/nexfort
 
