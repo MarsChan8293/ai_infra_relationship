@@ -4,10 +4,10 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked project/community: 35
-- Project/community nodes: 99
-- Project/community nodes with ≥1 linked company: 61
-- Bidirectional association pairs: 78
-- Explicitly asserted on both sides: 78
+- Project/community nodes: 100
+- Project/community nodes with ≥1 linked company: 62
+- Bidirectional association pairs: 80
+- Explicitly asserted on both sides: 80
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -66,6 +66,7 @@
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | company-led | both |
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | project | company-led | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | infra-project |  | both |
+| [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] | community | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |
@@ -90,6 +91,7 @@
 | [[company/腾讯/腾讯|腾讯]] | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | project | company-led | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
+| [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] | community | industry-academia-co-development | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/道客/道客|道客]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |

@@ -2,20 +2,17 @@
 type: community
 name: KVCache.AI
 aliases: ["KVCache.AI", "KVCache.ai", "kvcache-ai"]
+linked_people: []
 category: llm-inference-optimization-community
 repository: https://github.com/kvcache-ai
 companies: ["趋境科技","月之暗面"]
 company_relation: industry-academia-co-development
 linked_companies:
-  - "company/趋境科技/趋境科技"
   - "company/月之暗面/月之暗面"
+  - "company/趋境科技/趋境科技"
 linked_projects:
   - "community/kvcache-ai/Mooncake/Mooncake"
   - "community/kvcache-ai/KTransformers/KTransformers"
-linked_people:
-  - "university/清华大学/Mingxing Zhang"
-  - "company/趋境科技/武永卫 Yongwei Wu"
-  - "university/清华大学/Ruoyu Qin"
 areas: [llm-inference, kv-cache, caching, scheduling, compression, offloading, disaggregated-serving, heterogeneous-inference]
 governance: MADSys and industry collaborators open-source organization
 last_verified: "2026-09"
@@ -45,3 +42,13 @@ KVCache.AI 是 MADSys 从传统 memory / storage / distributed systems 转向 LL
 - https://github.com/kvcache-ai
 - https://madsys.cs.tsinghua.edu.cn/
 - https://madsys.cs.tsinghua.edu.cn/~zhangmx/
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/月之暗面/月之暗面|月之暗面]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-co-development`。
+- [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-co-development`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

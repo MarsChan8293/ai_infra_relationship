@@ -4062,10 +4062,7 @@
           "kv-cache"
         ],
         "linked_people": "",
-        "projects": [
-          "KTransformers",
-          "Mooncake"
-        ],
+        "projects": "",
         "linked_projects": ""
       }
     },
@@ -8784,7 +8781,9 @@
         "layer": "inference-orchestration",
         "open_source": true,
         "linked_companies": "",
-        "companies": ""
+        "companies": [
+          "GPUStack"
+        ]
       }
     },
     {
@@ -9159,6 +9158,44 @@
         ],
         "last_verified": "2026-09",
         "relations": ""
+      }
+    },
+    {
+      "id": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "path": "community/kvcache-ai/KVCache.AI/KVCache.AI.md",
+      "name": "KVCache.AI",
+      "type": "community",
+      "category": "community",
+      "frontmatter": {
+        "type": "community",
+        "name": "KVCache.AI",
+        "aliases": [
+          "KVCache.AI",
+          "KVCache.ai",
+          "kvcache-ai"
+        ],
+        "linked_people": [],
+        "category": "llm-inference-optimization-community",
+        "repository": "https://github.com/kvcache-ai",
+        "companies": [
+          "趋境科技",
+          "月之暗面"
+        ],
+        "company_relation": "industry-academia-co-development",
+        "linked_companies": "",
+        "linked_projects": "",
+        "areas": [
+          "llm-inference",
+          "kv-cache",
+          "caching",
+          "scheduling",
+          "compression",
+          "offloading",
+          "disaggregated-serving",
+          "heterogeneous-inference"
+        ],
+        "governance": "MADSys and industry collaborators open-source organization",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -19601,6 +19638,36 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "community/kvcache-ai/KTransformers/KTransformers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "company/月之暗面/月之暗面",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "company/趋境科技/趋境科技",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "university/清华大学/MADSys",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "target": "university/清华大学/Mingxing Zhang",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/kvcache-ai/Mooncake/Aionw",
       "target": "community/kvcache-ai/Mooncake/Ke Yang",
       "kind": "wikilink"
@@ -27317,6 +27384,11 @@
     },
     {
       "source": "company/月之暗面/月之暗面",
+      "target": "community/kvcache-ai/KVCache.AI/KVCache.AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/月之暗面/月之暗面",
       "target": "community/kvcache-ai/Mooncake/Mooncake",
       "kind": "wikilink"
     },
@@ -28918,6 +28990,11 @@
     {
       "source": "company/趋境科技/趋境科技",
       "target": "community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/趋境科技/趋境科技",
+      "target": "community/kvcache-ai/KVCache.AI/KVCache.AI",
       "kind": "wikilink"
     },
     {
@@ -33047,15 +33124,15 @@
       "bridge_score": 3.5
     },
     "company/月之暗面/月之暗面": {
-      "degree": 21,
-      "cross_category_degree": 9,
+      "degree": 22,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 13.609
+      "bridge_score": 14.024
     },
     "company/月之暗面/杨植麟 Zhilin Yang": {
       "degree": 13,
@@ -33537,14 +33614,14 @@
       "bridge_score": 6.285
     },
     "company/趋境科技/趋境科技": {
-      "degree": 26,
-      "cross_category_degree": 17,
+      "degree": 27,
+      "cross_category_degree": 18,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 15.205
+      "bridge_score": 15.607
     },
     "company/道客/道客": {
       "degree": 4,
@@ -35337,7 +35414,7 @@
       "bridge_score": 5.7
     },
     "community/kvcache-ai/KTransformers/KTransformers": {
-      "degree": 28,
+      "degree": 29,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
@@ -35345,7 +35422,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 14.358
+      "bridge_score": 14.407
     },
     "community/kvcache-ai/KTransformers/Peilin Li": {
       "degree": 4,
@@ -35405,6 +35482,16 @@
       ],
       "bridge_score": 9.6
     },
+    "community/kvcache-ai/KVCache.AI/KVCache.AI": {
+      "degree": 6,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 8.707
+    },
     "community/kvcache-ai/Mooncake/Aionw": {
       "degree": 4,
       "cross_category_degree": 0,
@@ -35431,7 +35518,7 @@
       "bridge_score": 9.27
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 60,
+      "degree": 61,
       "cross_category_degree": 19,
       "neighbor_categories": [
         "community",
@@ -35439,7 +35526,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 18.581
+      "bridge_score": 18.604
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -37214,24 +37301,24 @@
       "bridge_score": 6.507
     },
     "university/清华大学/MADSys": {
-      "degree": 14,
-      "cross_category_degree": 10,
+      "degree": 15,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.907
+      "bridge_score": 12.35
     },
     "university/清华大学/Mingxing Zhang": {
-      "degree": 18,
-      "cross_category_degree": 12,
+      "degree": 19,
+      "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.948
+      "bridge_score": 13.372
     },
     "university/清华大学/Ruoyu Qin": {
       "degree": 12,

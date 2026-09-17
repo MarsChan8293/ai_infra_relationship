@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1412
-- Eligible actions: 1401
+- Candidate actions: 1414
+- Eligible actions: 1403
 - Cooldown-suppressed: 11
 - History records: 30
 - Selected actions: 10

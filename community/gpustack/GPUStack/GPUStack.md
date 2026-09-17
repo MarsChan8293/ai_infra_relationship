@@ -8,8 +8,7 @@ layer: inference-orchestration
 open_source: true
 linked_companies:
   - "company/GPUStack/GPUStack"
-companies:
-  - "GPUStack"
+companies: ["GPUStack"]
 ---
 # GPUStack
 
