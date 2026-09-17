@@ -2,6 +2,7 @@
 type: research-institution
 name: "Systems and Architectures (STAR) Lab"
 organization: "University of British Columbia"
+linked_people: []
 areas: [computer-architecture, memory-systems, ml-systems, llm-inference]
 website: https://prashantnair.bitbucket.io/
 country: "Canada"

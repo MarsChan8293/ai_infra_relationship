@@ -11,11 +11,13 @@ linked_people:
   - "community/ModelTC/LightLLM/Siyu Wu"
   - "community/ModelTC/LightLLM/Su Fubao"
   - "community/ModelTC/LightLLM/Zaijun Wang"
-companies: []
+companies:
+  - "商汤科技"
 company_relation: community-led
 layer: llm-serving-engine
 open_source: true
-linked_companies: []
+linked_companies:
+  - "company/商汤科技/商汤科技"
 ---
 # LightLLM
 
@@ -50,3 +52,12 @@ https://github.com/ModelTC/lightllm
 - [[community/ModelTC/LightLLM/Zaijun Wang|Zaijun Wang]]：[[LightLLM]]：论文作者、持续核心工程贡献者
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/商汤科技/商汤科技|商汤科技]]：公司页与社区/项目页均有显式记录；关系：`community-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

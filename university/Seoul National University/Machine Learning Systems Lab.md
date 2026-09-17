@@ -2,6 +2,7 @@
 type: research-institution
 name: "Machine Learning Systems Lab"
 organization: "Seoul National University"
+linked_people: []
 areas: [machine-learning-systems, llm-training, llm-inference, quantization]
 website: https://mlsys.snu.ac.kr/
 country: "South Korea"

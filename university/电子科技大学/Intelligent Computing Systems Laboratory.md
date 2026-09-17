@@ -2,6 +2,7 @@
 type: research-institution
 name: "Intelligent Computing Systems Laboratory"
 organization: "电子科技大学"
+linked_people: []
 areas: [intelligent-computing, edge-cloud, systems, machine-learning]
 website: https://www.nise.ac.cn/
 country: "China"

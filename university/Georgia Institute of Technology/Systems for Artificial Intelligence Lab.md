@@ -2,6 +2,7 @@
 type: research-institution
 name: "Systems for Artificial Intelligence Lab"
 organization: "Georgia Institute of Technology"
+linked_people: []
 areas: [ai-systems, distributed-systems, llm-inference, resource-management]
 website: https://faculty.cc.gatech.edu/~atumanov/
 country: "USA"

@@ -2,6 +2,7 @@
 type: research-institution
 name: "SyFI Lab"
 organization: "University of Washington"
+linked_people: []
 areas: [ai-infrastructure, llm-serving, distributed-training, gpu-systems]
 website: https://syfi.cs.washington.edu/
 country: "USA"

@@ -4,9 +4,9 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1474
+- Candidate actions: 1512
 - Selected actions: 10
-- History records: 36
+- History records: 213
 
 ## Selected portfolio
 
@@ -16,12 +16,12 @@
 | 2 | DISCOVER | coverage_gap | [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] | project | maintainers | person | exploration | 8.944 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 3 | DISCOVER | coverage_gap | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | person | exploration | 8.933 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 | 4 | DISCOVER | coverage_gap | [[company/Intel/xFasterTransformer|xFasterTransformer]] | project | maintainers | person | exploration | 8.708 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, quantization；opens underrepresented target types |
-| 5 | DISCOVER | coverage_gap | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | project, community | exploration | 8.279 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
-| 6 | DISCOVER | bridge | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.196 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
-| 7 | VERIFY | weak_evidence | [[company/xAI/xAI|xAI]] | company | projects | project, community, team | verification | 7.482 | new | coverage 0/3；source type Company；infra: serving/inference, kernel；opens underrepresented target types |
-| 8 | VERIFY | weak_evidence | [[university/清华大学/Weimin Zheng|Weimin Zheng]] | person | project_contribution | project, community | verification | 6.711 | new | coverage 1/3；source type Person；infra: serving/inference, kv-cache, distributed；bridge 9.2 |
-| 9 | VERIFY | weak_evidence | [[company/Fireworks AI/Fireworks AI|Fireworks AI]] | company | key_people | person | verification | 6.509 | new | coverage 0/4；source type Company；infra: serving/inference, kernel；opens underrepresented target types |
-| 10 | VERIFY | weak_evidence | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | school | labs_or_groups | research, team | verification | 6.157 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
+| 5 | DISCOVER | coverage_gap | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | project, community | exploration | 8.273 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
+| 6 | DISCOVER | bridge | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.190 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
+| 7 | VERIFY | weak_evidence | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | school | projects | project, community | verification | 5.477 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
+| 8 | VERIFY | weak_evidence | [[university/电子科技大学/电子科技大学|电子科技大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
+| 9 | VERIFY | weak_evidence | [[university/西北工业大学/西北工业大学|西北工业大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
+| 10 | VERIFY | weak_evidence | [[university/清华大学/Weimin Zheng|Weimin Zheng]] | person | verify_evidence | evidence | verification | 5.265 | new | source coverage 0/2；evidence quality below target |
 
 ## DISCOVER
 

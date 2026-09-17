@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 50,
-  "companies_with_links": 36,
+  "companies_with_links": 38,
   "project_community_nodes": 111,
-  "project_community_nodes_with_links": 66,
-  "association_pairs": 84,
-  "asserted_on_both_sides": 84,
+  "project_community_nodes_with_links": 67,
+  "association_pairs": 86,
+  "asserted_on_both_sides": 86,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -84,6 +84,18 @@
       "entity_name": "GPUStack",
       "entity_type": "project",
       "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/HPE/HPE",
+      "company_name": "HPE",
+      "entity_id": "community/ai-dynamo/NIXL/NIXL",
+      "entity_name": "NIXL",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"
@@ -540,6 +552,18 @@
       "entity_name": "vLLM-Ascend",
       "entity_type": "project",
       "relation": "hardware-ecosystem-core-contributor",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/商汤科技/商汤科技",
+      "company_name": "商汤科技",
+      "entity_id": "community/ModelTC/LightLLM/LightLLM",
+      "entity_name": "LightLLM",
+      "entity_type": "project",
+      "relation": "community-led",
       "sources": [
         "company",
         "entity"

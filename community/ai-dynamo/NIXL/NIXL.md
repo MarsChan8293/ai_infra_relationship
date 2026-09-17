@@ -12,11 +12,14 @@ linked_people:
   - "community/ai-dynamo/NIXL/Ryan Hankins"
   - "community/ai-dynamo/NIXL/Tomer Davidor"
 governance: company-led
-companies: ["NVIDIA"]
+companies:
+  - "NVIDIA"
+  - "HPE"
 company_relation: company-led
 layer: inference-data-movement
 open_source: true
 linked_companies:
+  - "company/HPE/HPE"
   - "company/NVIDIA/NVIDIA"
 ---
 # NIXL
@@ -58,6 +61,7 @@ https://github.com/ai-dynamo/nixl
 
 以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
 
+- [[company/HPE/HPE|HPE]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 - [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -2,6 +2,7 @@
 type: research-institution
 name: "AI Innovation Institute"
 organization: "Stony Brook University"
+linked_people: []
 areas: [ai-systems, machine-learning, gpu-computing, large-language-models]
 website: https://ai.stonybrook.edu/
 country: "USA"

@@ -1,10 +1,10 @@
 ---
 type: company
 name: HPE
-projects:
-  - "NIXL"
 linked_people:
   - "community/ai-dynamo/NIXL/Ryan Hankins"
+projects:
+  - "NIXL"
 linked_projects:
   - "community/ai-dynamo/NIXL/NIXL"
 ---
@@ -30,3 +30,12 @@ The NIXL edge records HPE-affiliated contributor Ryan Hankins' work on libfabric
 
 ### Sources
 - https://github.com/ai-dynamo/nixl
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/ai-dynamo/NIXL/NIXL|NIXL]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

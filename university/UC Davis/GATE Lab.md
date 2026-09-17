@@ -2,6 +2,7 @@
 type: research-institution
 name: "GATE Lab"
 organization: "UC Davis"
+linked_people: []
 areas: [hardware-for-ml, ml-systems, inference-efficiency, hw-sw-codesign]
 website: https://www.ece.ucdavis.edu/~avesta/
 country: "USA"

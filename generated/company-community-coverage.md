@@ -3,11 +3,11 @@
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
 - Company nodes: 50
-- Companies with ≥1 linked project/community: 36
+- Companies with ≥1 linked project/community: 38
 - Project/community nodes: 111
-- Project/community nodes with ≥1 linked company: 66
-- Bidirectional association pairs: 84
-- Explicitly asserted on both sides: 84
+- Project/community nodes with ≥1 linked company: 67
+- Bidirectional association pairs: 86
+- Explicitly asserted on both sides: 86
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -21,6 +21,7 @@
 | [[company/CoreWeave/CoreWeave|CoreWeave]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Google/Google|Google]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | project |  | both |
+| [[company/HPE/HPE|HPE]] | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | project | company-led | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/ggml/ggml|ggml]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
@@ -59,6 +60,7 @@
 | [[company/华为/华为|华为]] | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | project | company-originated-open-source | both |
 | [[company/华为/华为|华为]] | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | project | hardware-ecosystem-core-contributor | both |
+| [[company/商汤科技/商汤科技|商汤科技]] | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | project | community-led | both |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[community/sii-research/VCCL/VCCL|VCCL]] | project | industry-research-co-development | both |
 | [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | project | company-originated | both |
 | [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | company-led | both |
