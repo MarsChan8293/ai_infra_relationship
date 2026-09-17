@@ -12,7 +12,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 ### 组织 → 项目
 - `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]
 - `ai-dynamo`：[[Dynamo]] · [[NIXL]]
-- `kvcache-ai`：[[KTransformers]] · [[Mooncake]]
+- `kvcache-ai`：[[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[KTransformers]] · [[Mooncake]]
 - `Ascend`：[[Ascend]] · [[CANN]] · [[MemCache]] · [[MemFabric]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]
 - `MetaX-MACA`：[[MetaX-MACA]] · [[vLLM-metax]] · [[mcoplib]] · [[MXDeepEP]]
 - `MooreThreads`：[[MUSA]] · [[vllm-musa]] · [[MATE]] · [[torch_musa]]
@@ -64,7 +64,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Mooncake]] | [[company/月之暗面/月之暗面|月之暗面]] | 产学共研 / production workload |
 | [[Ray-Serve]] | [[company/Anyscale/Anyscale|Anyscale]] | core commercial / maintainer ecosystem |
 | [[TokenSpeed]] | [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/AMD/AMD|AMD]] · [[company/Together AI/Together AI|Together AI]] · [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 跨公司共同创建/协作 |
-| [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能|密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
+| [[HAMi]] | [[company/第四范式/第四范式|第四范式]] · [[company/密瓜智能/密瓜智能]] · [[company/道客/道客|道客]] · [[company/NVIDIA/NVIDIA|NVIDIA]] · [[company/华为/华为|华为]] | originator + 跨公司 maintainer/contributor |
 | [[KTransformers]] | [[company/趋境科技/趋境科技|趋境科技]] | 产业/学术核心网络 |
 | [[VCCL]] | [[company/基流科技/基流科技|基流科技]] | 产业/研究共建 |
 | [[OneFlow]] | [[company/一流科技/一流科技|一流科技]] | 原始开发 / 主导 |
@@ -87,7 +87,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 [[TileLang]] · [[FlagTree]]
 
 ## Kernel / Communication / KV
-[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]] · [[mcoplib]] · [[MATE]] · [[MXDeepEP]] · [[lmcache-iluvatar]]
+[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]] · [[mcoplib]] · [[MATE]] · [[MXDeepEP]] · [[lmcache-iluvatar]]
 
 ## Distributed / Cloud Native
 [[Dynamo]] · [[llm-d]] · [[AIBrix]] · [[Triton-Inference-Server]]
