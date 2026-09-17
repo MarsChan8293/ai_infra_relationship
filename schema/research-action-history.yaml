@@ -1,4 +1,4 @@
-schema: ai-infra-relationship/research-action-history-v1
+schema: ai-infra-relationship/research-action-history-v2
 status: active
 kind: durable-execution-ledger
 source_of_truth: research/action-history.json
@@ -25,17 +25,21 @@ fields:
     description: Date on which the action was actually investigated.
   action_id:
     type: string
-    description: Exact source-specific action id in the form <node-id>::<relation>.
+    description: Exact source-specific action id in the form <node-id>::<relation>. Operator is intentionally excluded so one objective shares history across research modes.
   action_key:
     type: string
-    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>.
+    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>. Operator is intentionally excluded.
+  operator:
+    type: string
+    enum: [expand, discover, verify]
+    description: Optional snapshot of the research operator that caused this execution. Old history records without it remain valid.
+  source_name:
+    type: string
+    description: Optional human-readable source entity snapshot for logs and review.
   status:
     type: string
     enum: [success, partial, unresolved, rejected]
     description: Outcome classification. partial is first-class and must not be collapsed into success/failure.
-  source_name:
-    type: string
-    description: Optional human-readable source entity snapshot for logs and review.
   resolved_dimensions:
     type: array[string]
     description: Concrete subquestions resolved by this action, especially important for partial outcomes.
@@ -63,11 +67,12 @@ fields:
 rules:
   - Append one record for every executed research action, including negative outcomes.
   - Do not record planner selection as execution; history starts only after evidence search was actually attempted.
+  - operator is optional metadata, not part of action identity, cooldown identity, or action_key yield aggregation.
   - partial must list the important resolved and unresolved dimensions whenever possible.
   - unresolved means useful investigation was attempted but the requested relationship could not be established at the evidence threshold.
   - rejected means the proposed relationship/search direction was contradicted or should not be retried without materially new evidence.
   - A contributor, citation author, employee, or compatible project must not be upgraded to a stronger role merely to produce a success outcome.
-  - History is durable input and must live outside generated/ so graph regeneration cannot erase it.
+  - History is durable input and must live outside generated/ so graph regeneration never erases it.
 notes:
   - Current planner cooldown defaults are success=1 day, partial=2 days, unresolved=7 days, rejected=30 days.
   - action_key statistics use strong small-sample shrinkage; the first few records only nudge priority.
