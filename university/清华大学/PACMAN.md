@@ -3,7 +3,13 @@ type: research-institution
 name: PACMAN
 organization: 清华大学
 aliases: ["PACMAN Lab", "PACMAN Group", "Parallel Architecture & Compiler technology of Mobile, Accelerated, and Networked systems Group"]
-linked_people: []
+linked_people:
+  - "company/清程极智/翟季冬 Jidong Zhai"
+  - "university/清华大学/Haojie Wang"
+  - "university/清华大学/Mingshu Zhai"
+  - "university/清华大学/Qihao Zhang"
+  - "university/清华大学/Wenguang Chen"
+  - "university/清华大学/Zan Zong"
 areas: [high-performance-computing, ai-compiler, distributed-training, llm-serving, quantization, kv-cache, heterogeneous-computing]
 projects: [FastMoE, BaGuaLu, GLM-130B, FastDecode, Jenga, Chitu, QFactory, Lethe]
 website: https://pacman.cs.tsinghua.edu.cn/
@@ -49,3 +55,17 @@ PACMAN 官方 alumni 页面提供了非常清晰的 2024–2025 迁移：
 - https://pacman.cs.tsinghua.edu.cn/~zjd/people/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/category/mlsys/
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Haojie Wang|Haojie Wang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Mingshu Zhai|Mingshu Zhai]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Qihao Zhang|Qihao Zhang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Wenguang Chen|陈文光（Wenguang Chen）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/清华大学/Zan Zong|Zan Zong]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+
+<!-- END AUTO RESEARCH PEOPLE -->
