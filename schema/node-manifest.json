@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 606,
-  "complete_count": 606,
+  "node_count": 613,
+  "complete_count": 613,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
@@ -12,9 +12,9 @@
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 342,
+    "person": 346,
     "person-link": 4,
-    "project": 98,
+    "project": 101,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 15,
@@ -2317,11 +2317,29 @@
       "missing_required": []
     },
     {
+      "id": "community/siliconflow/OneDiff/marigoold",
+      "type": "person",
+      "source_markdown": "community/siliconflow/OneDiff/marigoold.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/siliconflow/OneDiff/marigoold.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/siliconflow/OneDiff/OneDiff",
       "type": "project",
       "source_markdown": "community/siliconflow/OneDiff/OneDiff.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/siliconflow/OneDiff/OneDiff.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/siliconflow/OneDiff/strint",
+      "type": "person",
+      "source_markdown": "community/siliconflow/OneDiff/strint.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/siliconflow/OneDiff/strint.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3082,6 +3100,33 @@
       "missing_required": []
     },
     {
+      "id": "company/Intel/OpenVINO GenAI",
+      "type": "project",
+      "source_markdown": "company/Intel/OpenVINO GenAI.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/Intel/OpenVINO GenAI.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Intel/OpenVINO",
+      "type": "project",
+      "source_markdown": "company/Intel/OpenVINO.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/Intel/OpenVINO.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Intel/xFasterTransformer",
+      "type": "project",
+      "source_markdown": "company/Intel/xFasterTransformer.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/Intel/xFasterTransformer.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/Meta/Meta",
       "type": "company",
       "source_markdown": "company/Meta/Meta.md",
@@ -3699,6 +3744,24 @@
       "source_markdown": "company/月之暗面/checkpoint-engine.md",
       "schema_definition": "schema/infra-project.yaml",
       "schema_instance": "schema/nodes/company/月之暗面/checkpoint-engine.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/月之暗面/checkpoint-engine/HubertZhang",
+      "type": "person",
+      "source_markdown": "company/月之暗面/checkpoint-engine/HubertZhang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/月之暗面/checkpoint-engine/HubertZhang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/月之暗面/checkpoint-engine/weixiao-huang",
+      "type": "person",
+      "source_markdown": "company/月之暗面/checkpoint-engine/weixiao-huang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/月之暗面/checkpoint-engine/weixiao-huang.yaml",
       "status": "complete",
       "missing_required": []
     },

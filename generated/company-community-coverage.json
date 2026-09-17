@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 50,
-  "companies_with_links": 35,
-  "project_community_nodes": 104,
-  "project_community_nodes_with_links": 62,
-  "association_pairs": 80,
-  "asserted_on_both_sides": 80,
+  "companies_with_links": 36,
+  "project_community_nodes": 107,
+  "project_community_nodes_with_links": 65,
+  "association_pairs": 83,
+  "asserted_on_both_sides": 83,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -144,6 +144,42 @@
       "entity_name": "vLLM",
       "entity_type": "project",
       "relation": "cross-company-core-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Intel/Intel",
+      "company_name": "Intel",
+      "entity_id": "company/Intel/OpenVINO",
+      "entity_name": "OpenVINO",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Intel/Intel",
+      "company_name": "Intel",
+      "entity_id": "company/Intel/OpenVINO GenAI",
+      "entity_name": "OpenVINO GenAI",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Intel/Intel",
+      "company_name": "Intel",
+      "entity_id": "company/Intel/xFasterTransformer",
+      "entity_name": "xFasterTransformer",
+      "entity_type": "project",
+      "relation": "company-led",
       "sources": [
         "company",
         "entity"

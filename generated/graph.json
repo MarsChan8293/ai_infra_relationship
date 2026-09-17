@@ -420,7 +420,104 @@
         "type": "company",
         "name": "Intel",
         "linked_people": "",
-        "linked_projects": []
+        "linked_projects": "",
+        "projects": ""
+      }
+    },
+    {
+      "id": "company/Intel/OpenVINO GenAI",
+      "path": "company/Intel/OpenVINO GenAI.md",
+      "name": "OpenVINO GenAI",
+      "type": "project",
+      "category": "company",
+      "frontmatter": {
+        "type": "project",
+        "name": "OpenVINO GenAI",
+        "organization": "OpenVINO Toolkit / Intel",
+        "linked_people": [],
+        "companies": [
+          "Intel"
+        ],
+        "company_relation": "company-led",
+        "layer": "genai-inference-library",
+        "open_source": true,
+        "repository": "https://github.com/openvinotoolkit/openvino.genai",
+        "areas": [
+          "llm-inference",
+          "genai",
+          "continuous-batching",
+          "kv-cache",
+          "speculative-decoding",
+          "sparse-attention",
+          "cpu",
+          "gpu",
+          "npu"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": "",
+        "linked_projects": ""
+      }
+    },
+    {
+      "id": "company/Intel/OpenVINO",
+      "path": "company/Intel/OpenVINO.md",
+      "name": "OpenVINO",
+      "type": "project",
+      "category": "company",
+      "frontmatter": {
+        "type": "project",
+        "name": "OpenVINO",
+        "organization": "OpenVINO Toolkit / Intel",
+        "linked_people": [],
+        "companies": [
+          "Intel"
+        ],
+        "company_relation": "company-led",
+        "layer": "inference-runtime-toolkit",
+        "open_source": true,
+        "repository": "https://github.com/openvinotoolkit/openvino",
+        "areas": [
+          "inference-runtime",
+          "llm-inference",
+          "genai",
+          "cpu",
+          "gpu",
+          "npu",
+          "model-optimization"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": "",
+        "linked_projects": ""
+      }
+    },
+    {
+      "id": "company/Intel/xFasterTransformer",
+      "path": "company/Intel/xFasterTransformer.md",
+      "name": "xFasterTransformer",
+      "type": "project",
+      "category": "company",
+      "frontmatter": {
+        "type": "project",
+        "name": "xFasterTransformer",
+        "organization": "Intel",
+        "linked_people": [],
+        "companies": [
+          "Intel"
+        ],
+        "company_relation": "company-led",
+        "layer": "cpu-llm-inference-runtime",
+        "open_source": true,
+        "repository": "https://github.com/intel/xFasterTransformer",
+        "areas": [
+          "llm-inference",
+          "cpu",
+          "xeon",
+          "distributed-inference",
+          "quantization",
+          "vllm"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": ""
       }
     },
     {
@@ -2375,6 +2472,65 @@
       }
     },
     {
+      "id": "company/月之暗面/checkpoint-engine/HubertZhang",
+      "path": "company/月之暗面/checkpoint-engine/HubertZhang.md",
+      "name": "HubertZhang",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "HubertZhang",
+        "aliases": [
+          "@HubertZhang"
+        ],
+        "communities": [
+          "Checkpoint Engine"
+        ],
+        "roles": [
+          "GitHub Collaborator",
+          "Release Maintainer"
+        ],
+        "areas": [
+          "llm-inference",
+          "weight-transfer",
+          "rdma",
+          "checkpoint-loading",
+          "distributed-systems"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "company/月之暗面/checkpoint-engine/weixiao-huang",
+      "path": "company/月之暗面/checkpoint-engine/weixiao-huang.md",
+      "name": "weixiao-huang",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "weixiao-huang",
+        "aliases": [
+          "@weixiao-huang"
+        ],
+        "communities": [
+          "Checkpoint Engine"
+        ],
+        "roles": [
+          "Release Publisher"
+        ],
+        "areas": [
+          "llm-inference",
+          "weight-transfer",
+          "checkpoint-loading"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
       "id": "company/月之暗面/checkpoint-engine",
       "path": "company/月之暗面/checkpoint-engine.md",
       "name": "Checkpoint Engine",
@@ -2384,7 +2540,7 @@
         "type": "infra-project",
         "name": "Checkpoint Engine",
         "company": "月之暗面",
-        "linked_people": [],
+        "linked_people": "",
         "areas": [
           "reinforcement-learning",
           "weight-transfer",
@@ -11122,7 +11278,7 @@
         "type": "project",
         "name": "OneDiff",
         "organization": "siliconflow",
-        "linked_people": [],
+        "linked_people": "",
         "companies": [
           "硅基流动"
         ],
@@ -11131,6 +11287,64 @@
         "open_source": true,
         "linked_companies": "",
         "linked_projects": ""
+      }
+    },
+    {
+      "id": "community/siliconflow/OneDiff/marigoold",
+      "path": "community/siliconflow/OneDiff/marigoold.md",
+      "name": "marigoold",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "marigoold",
+        "aliases": [
+          "@marigoold"
+        ],
+        "communities": [
+          "OneDiff"
+        ],
+        "roles": [
+          "GitHub Collaborator"
+        ],
+        "areas": [
+          "diffusion-inference",
+          "compiler",
+          "comfyui",
+          "stable-diffusion"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
+      "id": "community/siliconflow/OneDiff/strint",
+      "path": "community/siliconflow/OneDiff/strint.md",
+      "name": "strint",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "strint",
+        "aliases": [
+          "@strint"
+        ],
+        "communities": [
+          "OneDiff"
+        ],
+        "roles": [
+          "GitHub Collaborator"
+        ],
+        "areas": [
+          "diffusion-inference",
+          "compiler",
+          "kernels",
+          "comfyui"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09",
+        "relations": ""
       }
     },
     {
@@ -15456,6 +15670,11 @@
           "Tsinghua University"
         ],
         "schools": "",
+        "projects": [
+          "UltraAttn",
+          "FlowPrefill",
+          "SmartMoE"
+        ],
         "roles": [
           "Postdoc"
         ],
@@ -22586,7 +22805,27 @@
     },
     {
       "source": "community/siliconflow/OneDiff/OneDiff",
+      "target": "community/siliconflow/OneDiff/marigoold",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/siliconflow/OneDiff/OneDiff",
+      "target": "community/siliconflow/OneDiff/strint",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/siliconflow/OneDiff/OneDiff",
       "target": "company/硅基流动/硅基流动",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/siliconflow/OneDiff/marigoold",
+      "target": "community/siliconflow/OneDiff/OneDiff",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/siliconflow/OneDiff/strint",
+      "target": "community/siliconflow/OneDiff/OneDiff",
       "kind": "wikilink"
     },
     {
@@ -25590,6 +25829,41 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/Intel/Intel",
+      "target": "company/Intel/OpenVINO",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/Intel",
+      "target": "company/Intel/OpenVINO GenAI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/Intel",
+      "target": "company/Intel/xFasterTransformer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/OpenVINO",
+      "target": "company/Intel/Intel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/OpenVINO",
+      "target": "company/Intel/OpenVINO GenAI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/OpenVINO GenAI",
+      "target": "company/Intel/Intel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/xFasterTransformer",
+      "target": "company/Intel/Intel",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/Meta/Meta",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -28496,12 +28770,27 @@
     },
     {
       "source": "company/月之暗面/checkpoint-engine",
-      "target": "company/月之暗面/Kimi-K2",
+      "target": "company/月之暗面/checkpoint-engine/HubertZhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/月之暗面/checkpoint-engine",
+      "target": "company/月之暗面/checkpoint-engine/weixiao-huang",
       "kind": "wikilink"
     },
     {
       "source": "company/月之暗面/checkpoint-engine",
       "target": "company/月之暗面/月之暗面",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/月之暗面/checkpoint-engine/HubertZhang",
+      "target": "company/月之暗面/checkpoint-engine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/月之暗面/checkpoint-engine/weixiao-huang",
+      "target": "company/月之暗面/checkpoint-engine",
       "kind": "wikilink"
     },
     {
@@ -34323,12 +34612,37 @@
       "bridge_score": 12.437
     },
     "company/Intel/Intel": {
-      "degree": 1,
+      "degree": 4,
       "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "company"
       ],
-      "bridge_score": 2.85
+      "bridge_score": 5.672
+    },
+    "company/Intel/OpenVINO GenAI": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "company"
+      ],
+      "bridge_score": 3.085
+    },
+    "company/Intel/OpenVINO": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "company"
+      ],
+      "bridge_score": 3.085
+    },
+    "company/Intel/xFasterTransformer": {
+      "degree": 1,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "company"
+      ],
+      "bridge_score": 2.5
     },
     "company/Meta/Meta": {
       "degree": 18,
@@ -34982,13 +35296,13 @@
       "bridge_score": 6.35
     },
     "company/月之暗面/Kimi-K2": {
-      "degree": 9,
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.372
+      "bridge_score": 7.22
     },
     "company/月之暗面/Kimi-K3": {
       "degree": 8,
@@ -35017,14 +35331,30 @@
       ],
       "bridge_score": 7.75
     },
+    "company/月之暗面/checkpoint-engine/HubertZhang": {
+      "degree": 1,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "company"
+      ],
+      "bridge_score": 2.5
+    },
+    "company/月之暗面/checkpoint-engine/weixiao-huang": {
+      "degree": 1,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "company"
+      ],
+      "bridge_score": 2.5
+    },
     "company/月之暗面/checkpoint-engine": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.635
+      "bridge_score": 6.857
     },
     "company/月之暗面/吴育昕 Yuxin Wu": {
       "degree": 7,
@@ -37962,13 +38292,29 @@
       "bridge_score": 11.0
     },
     "community/siliconflow/OneDiff/OneDiff": {
-      "degree": 2,
+      "degree": 4,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 5.672
+    },
+    "community/siliconflow/OneDiff/marigoold": {
+      "degree": 1,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 2.5
+    },
+    "community/siliconflow/OneDiff/strint": {
+      "degree": 1,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 2.5
     },
     "community/siliconflow/SiliconLLM/SiliconLLM": {
       "degree": 6,

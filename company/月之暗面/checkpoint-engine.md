@@ -48,3 +48,13 @@ GitHub 项目身份不能单独推出 Moonshot AI 雇佣关系；人物节点因
 - [[company/月之暗面/月之暗面|月之暗面]]：公司页与社区/项目页均有显式记录。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/月之暗面/checkpoint-engine/HubertZhang|HubertZhang]]：[[company/月之暗面/checkpoint-engine|Checkpoint Engine]]：GitHub Collaborator，且持续发布 v0.3.4、v0.4.0、v0.4.1、v0.4.2 等版本。
+- [[company/月之暗面/checkpoint-engine/weixiao-huang|weixiao-huang]]：[[company/月之暗面/checkpoint-engine|Checkpoint Engine]]：2026 年 release publishing 活动，可作为后续治理核验线索。
+
+<!-- END AUTO PROJECT PEOPLE -->

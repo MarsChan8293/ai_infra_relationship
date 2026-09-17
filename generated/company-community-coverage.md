@@ -3,11 +3,11 @@
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
 - Company nodes: 50
-- Companies with ≥1 linked project/community: 35
-- Project/community nodes: 104
-- Project/community nodes with ≥1 linked company: 62
-- Bidirectional association pairs: 80
-- Explicitly asserted on both sides: 80
+- Companies with ≥1 linked project/community: 36
+- Project/community nodes: 107
+- Project/community nodes with ≥1 linked company: 65
+- Bidirectional association pairs: 83
+- Explicitly asserted on both sides: 83
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -26,6 +26,9 @@
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/IBM/IBM|IBM]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Inferact/Inferact|Inferact]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/Intel/Intel|Intel]] | [[company/Intel/OpenVINO|OpenVINO]] | project | company-led | both |
+| [[company/Intel/Intel|Intel]] | [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] | project | company-led | both |
+| [[company/Intel/Intel|Intel]] | [[company/Intel/xFasterTransformer|xFasterTransformer]] | project | company-led | both |
 | [[company/Meta/Meta|Meta]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/Neural Magic/Neural Magic|Neural Magic]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |

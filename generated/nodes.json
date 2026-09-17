@@ -419,7 +419,104 @@
       "type": "company",
       "name": "Intel",
       "linked_people": "",
-      "linked_projects": []
+      "linked_projects": "",
+      "projects": ""
+    }
+  },
+  {
+    "id": "company/Intel/OpenVINO GenAI",
+    "path": "company/Intel/OpenVINO GenAI.md",
+    "name": "OpenVINO GenAI",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "OpenVINO GenAI",
+      "organization": "OpenVINO Toolkit / Intel",
+      "linked_people": [],
+      "companies": [
+        "Intel"
+      ],
+      "company_relation": "company-led",
+      "layer": "genai-inference-library",
+      "open_source": true,
+      "repository": "https://github.com/openvinotoolkit/openvino.genai",
+      "areas": [
+        "llm-inference",
+        "genai",
+        "continuous-batching",
+        "kv-cache",
+        "speculative-decoding",
+        "sparse-attention",
+        "cpu",
+        "gpu",
+        "npu"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": "",
+      "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/Intel/OpenVINO",
+    "path": "company/Intel/OpenVINO.md",
+    "name": "OpenVINO",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "OpenVINO",
+      "organization": "OpenVINO Toolkit / Intel",
+      "linked_people": [],
+      "companies": [
+        "Intel"
+      ],
+      "company_relation": "company-led",
+      "layer": "inference-runtime-toolkit",
+      "open_source": true,
+      "repository": "https://github.com/openvinotoolkit/openvino",
+      "areas": [
+        "inference-runtime",
+        "llm-inference",
+        "genai",
+        "cpu",
+        "gpu",
+        "npu",
+        "model-optimization"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": "",
+      "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/Intel/xFasterTransformer",
+    "path": "company/Intel/xFasterTransformer.md",
+    "name": "xFasterTransformer",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "xFasterTransformer",
+      "organization": "Intel",
+      "linked_people": [],
+      "companies": [
+        "Intel"
+      ],
+      "company_relation": "company-led",
+      "layer": "cpu-llm-inference-runtime",
+      "open_source": true,
+      "repository": "https://github.com/intel/xFasterTransformer",
+      "areas": [
+        "llm-inference",
+        "cpu",
+        "xeon",
+        "distributed-inference",
+        "quantization",
+        "vllm"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -2374,6 +2471,65 @@
     }
   },
   {
+    "id": "company/月之暗面/checkpoint-engine/HubertZhang",
+    "path": "company/月之暗面/checkpoint-engine/HubertZhang.md",
+    "name": "HubertZhang",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "HubertZhang",
+      "aliases": [
+        "@HubertZhang"
+      ],
+      "communities": [
+        "Checkpoint Engine"
+      ],
+      "roles": [
+        "GitHub Collaborator",
+        "Release Maintainer"
+      ],
+      "areas": [
+        "llm-inference",
+        "weight-transfer",
+        "rdma",
+        "checkpoint-loading",
+        "distributed-systems"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "company/月之暗面/checkpoint-engine/weixiao-huang",
+    "path": "company/月之暗面/checkpoint-engine/weixiao-huang.md",
+    "name": "weixiao-huang",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "weixiao-huang",
+      "aliases": [
+        "@weixiao-huang"
+      ],
+      "communities": [
+        "Checkpoint Engine"
+      ],
+      "roles": [
+        "Release Publisher"
+      ],
+      "areas": [
+        "llm-inference",
+        "weight-transfer",
+        "checkpoint-loading"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "company/月之暗面/checkpoint-engine",
     "path": "company/月之暗面/checkpoint-engine.md",
     "name": "Checkpoint Engine",
@@ -2383,7 +2539,7 @@
       "type": "infra-project",
       "name": "Checkpoint Engine",
       "company": "月之暗面",
-      "linked_people": [],
+      "linked_people": "",
       "areas": [
         "reinforcement-learning",
         "weight-transfer",
@@ -11121,7 +11277,7 @@
       "type": "project",
       "name": "OneDiff",
       "organization": "siliconflow",
-      "linked_people": [],
+      "linked_people": "",
       "companies": [
         "硅基流动"
       ],
@@ -11130,6 +11286,64 @@
       "open_source": true,
       "linked_companies": "",
       "linked_projects": ""
+    }
+  },
+  {
+    "id": "community/siliconflow/OneDiff/marigoold",
+    "path": "community/siliconflow/OneDiff/marigoold.md",
+    "name": "marigoold",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "marigoold",
+      "aliases": [
+        "@marigoold"
+      ],
+      "communities": [
+        "OneDiff"
+      ],
+      "roles": [
+        "GitHub Collaborator"
+      ],
+      "areas": [
+        "diffusion-inference",
+        "compiler",
+        "comfyui",
+        "stable-diffusion"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "community/siliconflow/OneDiff/strint",
+    "path": "community/siliconflow/OneDiff/strint.md",
+    "name": "strint",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "strint",
+      "aliases": [
+        "@strint"
+      ],
+      "communities": [
+        "OneDiff"
+      ],
+      "roles": [
+        "GitHub Collaborator"
+      ],
+      "areas": [
+        "diffusion-inference",
+        "compiler",
+        "kernels",
+        "comfyui"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
     }
   },
   {
@@ -15455,6 +15669,11 @@
         "Tsinghua University"
       ],
       "schools": "",
+      "projects": [
+        "UltraAttn",
+        "FlowPrefill",
+        "SmartMoE"
+      ],
       "roles": [
         "Postdoc"
       ],

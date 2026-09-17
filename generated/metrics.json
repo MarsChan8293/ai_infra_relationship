@@ -186,12 +186,37 @@
     "bridge_score": 12.437
   },
   "company/Intel/Intel": {
-    "degree": 1,
+    "degree": 4,
     "cross_category_degree": 1,
     "neighbor_categories": [
-      "community"
+      "community",
+      "company"
     ],
-    "bridge_score": 2.85
+    "bridge_score": 5.672
+  },
+  "company/Intel/OpenVINO GenAI": {
+    "degree": 2,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "company"
+    ],
+    "bridge_score": 3.085
+  },
+  "company/Intel/OpenVINO": {
+    "degree": 2,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "company"
+    ],
+    "bridge_score": 3.085
+  },
+  "company/Intel/xFasterTransformer": {
+    "degree": 1,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "company"
+    ],
+    "bridge_score": 2.5
   },
   "company/Meta/Meta": {
     "degree": 18,
@@ -845,13 +870,13 @@
     "bridge_score": 6.35
   },
   "company/月之暗面/Kimi-K2": {
-    "degree": 9,
+    "degree": 8,
     "cross_category_degree": 3,
     "neighbor_categories": [
       "community",
       "company"
     ],
-    "bridge_score": 7.372
+    "bridge_score": 7.22
   },
   "company/月之暗面/Kimi-K3": {
     "degree": 8,
@@ -880,14 +905,30 @@
     ],
     "bridge_score": 7.75
   },
+  "company/月之暗面/checkpoint-engine/HubertZhang": {
+    "degree": 1,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "company"
+    ],
+    "bridge_score": 2.5
+  },
+  "company/月之暗面/checkpoint-engine/weixiao-huang": {
+    "degree": 1,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "company"
+    ],
+    "bridge_score": 2.5
+  },
   "company/月之暗面/checkpoint-engine": {
-    "degree": 5,
+    "degree": 6,
     "cross_category_degree": 3,
     "neighbor_categories": [
       "community",
       "company"
     ],
-    "bridge_score": 6.635
+    "bridge_score": 6.857
   },
   "company/月之暗面/吴育昕 Yuxin Wu": {
     "degree": 7,
@@ -3825,13 +3866,29 @@
     "bridge_score": 11.0
   },
   "community/siliconflow/OneDiff/OneDiff": {
-    "degree": 2,
+    "degree": 4,
     "cross_category_degree": 1,
     "neighbor_categories": [
       "community",
       "company"
     ],
-    "bridge_score": 4.935
+    "bridge_score": 5.672
+  },
+  "community/siliconflow/OneDiff/marigoold": {
+    "degree": 1,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "community"
+    ],
+    "bridge_score": 2.5
+  },
+  "community/siliconflow/OneDiff/strint": {
+    "degree": 1,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "community"
+    ],
+    "bridge_score": 2.5
   },
   "community/siliconflow/SiliconLLM/SiliconLLM": {
     "degree": 6,

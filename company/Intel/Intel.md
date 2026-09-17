@@ -4,9 +4,13 @@ name: Intel
 linked_people:
   - "community/LMCache/LMCache/Tony Lin"
 linked_projects:
-  - "company/Intel/xFasterTransformer"
   - "company/Intel/OpenVINO"
   - "company/Intel/OpenVINO GenAI"
+  - "company/Intel/xFasterTransformer"
+projects:
+  - "OpenVINO"
+  - "OpenVINO GenAI"
+  - "xFasterTransformer"
 ---
 # Intel
 
@@ -49,3 +53,14 @@ Neural Speed、Intel Extension for Transformers 已在 2024 年归档；Intel Ex
 - [[community/LMCache/LMCache/Tony Lin|Tony Lin]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[company/Intel/OpenVINO|OpenVINO]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[company/Intel/xFasterTransformer|xFasterTransformer]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

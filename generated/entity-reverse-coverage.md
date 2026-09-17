@@ -7,11 +7,11 @@
 - Company-person associations: 213
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 210
-- Project/community nodes: 111
-- Project/community nodes with ≥1 linked person: 81
-- Project/community-person associations: 416
+- Project/community nodes: 114
+- Project/community nodes with ≥1 linked person: 83
+- Project/community-person associations: 420
 - Non-company affiliations recognized and routed elsewhere: 84
-- Unresolved source values (backlog, non-fatal): 10
+- Unresolved source values (backlog, non-fatal): 13
 - Audit errors: 0
 
 ## Companies
@@ -107,6 +107,7 @@
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 2 |
+| [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | 2 |
 | [[community/Deep-Spark/DeepSpark/DeepSpark|DeepSpark]] | 2 |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
@@ -121,6 +122,7 @@
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[community/MetaX-MACA/MetaX-MACA/MetaX-MACA|MetaX-MACA]] | 2 |
 | [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
+| [[community/siliconflow/OneDiff/OneDiff|OneDiff]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/apache/Spark/Spark|Spark]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
@@ -162,3 +164,6 @@
 - `university/清华大学/Weichao Guo.md` · `affiliation` → `OPPO`
 - `university/清华大学/Wenguang Chen.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Zan Zong.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/清华大学/Zan Zong.md` · `projects` → `UltraAttn`
+- `university/清华大学/Zan Zong.md` · `projects` → `FlowPrefill`
+- `university/清华大学/Zan Zong.md` · `projects` → `SmartMoE`

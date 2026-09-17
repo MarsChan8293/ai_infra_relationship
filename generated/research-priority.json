@@ -9,14 +9,87 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1432,
+  "candidate_count": 1452,
   "selected_actions": [
     {
-      "action_id": "community/siliconflow/OneDiff/OneDiff::maintainers",
+      "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/siliconflow/OneDiff/OneDiff",
-        "name": "OneDiff",
+        "id": "community/lightseekorg/TorchSpec/TorchSpec",
+        "name": "TorchSpec",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.975,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.307,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.955,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/Intel/OpenVINO GenAI::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/Intel/OpenVINO GenAI",
+        "name": "OpenVINO GenAI",
         "type": "project",
         "family": "project"
       },
@@ -30,7 +103,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 9.257,
+      "priority": 8.944,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -38,43 +111,44 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.3,
+        "infra_relevance": 2.8,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 4.935,
+        "bridge_score": 3.085,
         "novelty": 1.0,
         "frontier_potential": 0.664,
         "uncertainty": 0.55,
         "redundancy_penalty": 0.088,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, kernel, distributed",
+        "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types"
       ],
-      "base_priority": 9.305,
+      "base_priority": 8.924,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -84,11 +158,11 @@
       }
     },
     {
-      "action_id": "community/Ascend/CANN/CANN::maintainers",
+      "action_id": "community/vllm-project/Speculators/Speculators::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/Ascend/CANN/CANN",
-        "name": "CANN",
+        "id": "community/vllm-project/Speculators/Speculators",
+        "name": "Speculators",
         "type": "project",
         "family": "project"
       },
@@ -101,80 +175,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 9.105,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.153,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "company/月之暗面/checkpoint-engine::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/月之暗面/checkpoint-engine",
-        "name": "Checkpoint Engine",
-        "type": "infra-project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.016,
+      "bucket": "exploration",
+      "priority": 8.933,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -183,16 +185,16 @@
       },
       "signals": {
         "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.635,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
         "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -200,40 +202,40 @@
         "coverage 0/4",
         "source type Project",
         "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.6"
+        "opens underrepresented target types"
       ],
-      "base_priority": 9.064,
+      "base_priority": 8.913,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.635"
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
-      "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
+      "action_id": "company/Intel/xFasterTransformer::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
-        "name": "YuanRong TransferEngine",
+        "id": "company/Intel/xFasterTransformer",
+        "name": "xFasterTransformer",
         "type": "project",
         "family": "project"
       },
@@ -246,8 +248,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 8.966,
+      "bucket": "exploration",
+      "priority": 8.708,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -255,43 +257,44 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.935,
+        "infra_relevance": 2.4,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
         "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, distributed, ascend",
+        "infra: serving/inference, distributed, quantization",
         "opens underrepresented target types"
       ],
-      "base_priority": 9.014,
+      "base_priority": 8.688,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -301,11 +304,11 @@
       }
     },
     {
-      "action_id": "university/清华大学/Zan Zong::project_contribution",
+      "action_id": "university/清华大学/Haojie Wang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
+        "id": "university/清华大学/Haojie Wang",
+        "name": "Haojie Wang",
         "type": "person",
         "family": "person"
       },
@@ -320,7 +323,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploration",
-      "priority": 8.321,
+      "priority": 8.279,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -328,7 +331,7 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 4.0,
+        "infra_relevance": 2.85,
         "evidence_quality": 1.3,
         "url_count": 3,
         "bridge_score": 5.35,
@@ -338,32 +341,32 @@
         "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/3",
         "source type Person",
-        "infra: serving/inference, scheduler, distributed",
+        "infra: serving/inference, kv-cache, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 8.038,
+      "base_priority": 7.937,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -373,27 +376,26 @@
       }
     },
     {
-      "action_id": "company/Intel/Intel::projects",
-      "action_key": "company:projects:project+community+team",
+      "action_id": "company/趋境科技/艾智远 Zhiyuan Ai::project_contribution",
+      "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "company/Intel/Intel",
-        "name": "Intel",
-        "type": "company",
-        "family": "company"
+        "id": "company/趋境科技/艾智远 Zhiyuan Ai",
+        "name": "艾智远",
+        "type": "person",
+        "family": "person"
       },
-      "relation": "projects",
+      "relation": "project_contribution",
       "target_families": [
         "project",
-        "community",
-        "team"
+        "community"
       ],
       "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
       ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 8.266,
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 8.196,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -401,48 +403,49 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
+        "infra_relevance": 2.7,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 6.285,
         "novelty": 1.0,
-        "frontier_potential": 0.707,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
+        "source type Person",
+        "infra: serving/inference, kv-cache, moe",
+        "opens underrepresented target types",
+        "bridge 6.3"
       ],
-      "base_priority": 8.093,
+      "base_priority": 7.854,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 6,
           "statuses": {
-            "success": 3
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
+        "kind": "bridge",
+        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -466,7 +469,7 @@
       ],
       "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
       "bucket": "verification",
-      "priority": 7.423,
+      "priority": 7.482,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -484,7 +487,7 @@
         "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.232,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -501,16 +504,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 4,
           "statuses": {
-            "success": 3
+            "success": 4
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.232,
         "exact_status_adjustment": 0.0
       },
       "operator": "verify",
@@ -539,7 +542,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "verification",
-      "priority": 6.652,
+      "priority": 6.711,
       "cost": 1.0,
       "coverage": {
         "existing": 1,
@@ -557,7 +560,7 @@
         "redundancy_penalty": 0.305,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -574,16 +577,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "verify",
@@ -740,295 +743,6 @@
   ],
   "candidates": [
     {
-      "action_id": "community/siliconflow/OneDiff/OneDiff::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/siliconflow/OneDiff/OneDiff",
-        "name": "OneDiff",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.257,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.305,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/Ascend/CANN/CANN::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/CANN/CANN",
-        "name": "CANN",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 9.105,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.153,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "company/月之暗面/checkpoint-engine::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/月之暗面/checkpoint-engine",
-        "name": "Checkpoint Engine",
-        "type": "infra-project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.016,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.635,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.6"
-      ],
-      "base_priority": 9.064,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.635"
-      }
-    },
-    {
-      "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
-        "name": "YuanRong TransferEngine",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 8.966,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, distributed, ascend",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.014,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1047,7 +761,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 8.907,
+      "priority": 8.975,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1065,7 +779,7 @@
         "redundancy_penalty": 0.156,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1081,17 +795,91 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/Intel/OpenVINO GenAI::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/Intel/OpenVINO GenAI",
+        "name": "OpenVINO GenAI",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.944,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.8,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.924,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1119,7 +907,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.865,
+      "priority": 8.933,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1137,7 +925,7 @@
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1153,17 +941,91 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/Intel/xFasterTransformer::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/Intel/xFasterTransformer",
+        "name": "xFasterTransformer",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.708,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.688,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1191,7 +1053,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.354,
+      "priority": 8.422,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1209,7 +1071,7 @@
         "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1225,17 +1087,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1263,7 +1126,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "bridge",
-      "priority": 8.345,
+      "priority": 8.413,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1281,7 +1144,7 @@
         "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1298,95 +1161,24 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.285"
-      }
-    },
-    {
-      "action_id": "university/清华大学/Zan Zong::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 8.321,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.038,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1408,7 +1200,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 8.319,
+      "priority": 8.387,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1426,7 +1218,7 @@
         "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1442,17 +1234,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1480,7 +1273,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.313,
+      "priority": 8.381,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1498,7 +1291,7 @@
         "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1514,90 +1307,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "company/Intel/Intel::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/Intel/Intel",
-        "name": "Intel",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 8.266,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.707,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.093,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 3,
-          "statuses": {
-            "success": 3
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
-        },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1626,7 +1347,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploration",
-      "priority": 8.22,
+      "priority": 8.279,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1644,7 +1365,7 @@
         "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1660,16 +1381,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1773,7 +1494,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "bridge",
-      "priority": 8.137,
+      "priority": 8.196,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1791,7 +1512,7 @@
         "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1808,16 +1529,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1846,7 +1567,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "bridge",
-      "priority": 8.128,
+      "priority": 8.187,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1864,7 +1585,7 @@
         "redundancy_penalty": 0.166,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1881,16 +1602,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1919,7 +1640,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploitation",
-      "priority": 8.097,
+      "priority": 8.156,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1937,7 +1658,7 @@
         "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -1953,16 +1674,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -1990,7 +1711,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.078,
+      "priority": 8.146,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -2008,7 +1729,7 @@
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -2024,17 +1745,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -2062,7 +1784,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.078,
+      "priority": 8.146,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -2080,7 +1802,7 @@
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -2096,17 +1818,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -2135,7 +1858,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploration",
-      "priority": 8.074,
+      "priority": 8.133,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -2153,7 +1876,7 @@
         "redundancy_penalty": 0.088,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -2169,16 +1892,89 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/MetaX-MACA/MXDeepEP/MXDeepEP::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/MetaX-MACA/MXDeepEP/MXDeepEP",
+        "name": "MXDeepEP",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.049,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.672,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.029,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -2398,78 +2194,6 @@
           "yield_adjustment": 0.1
         },
         "key_yield_adjustment": 0.1,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/MetaX-MACA/MXDeepEP/MXDeepEP::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/MetaX-MACA/MXDeepEP/MXDeepEP",
-        "name": "MXDeepEP",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.981,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.029,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -2779,6 +2503,78 @@
       }
     },
     {
+      "action_id": "company/派欧云/李星星::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/派欧云/李星星",
+        "name": "李星星",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 7.926,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.584,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/vllm-project/Speculators/Speculators::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -2920,78 +2716,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "company/派欧云/李星星::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/派欧云/李星星",
-        "name": "李星星",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 7.867,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.584,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -3370,6 +3094,79 @@
       }
     },
     {
+      "action_id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt",
+        "name": "iluvatar-corex-ixrt",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 7.747,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.727,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/flagos-ai/FlagOS/赵英利 Yingli Zhao::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -3445,78 +3242,6 @@
       }
     },
     {
-      "action_id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt",
-        "name": "iluvatar-corex-ixrt",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 7.679,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.727,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "university/清华大学/Weichao Guo::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -3536,7 +3261,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "bridge",
-      "priority": 7.536,
+      "priority": 7.595,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -3554,7 +3279,7 @@
         "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -3571,22 +3296,95 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.022"
+      }
+    },
+    {
+      "action_id": "company/Intel/OpenVINO::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/Intel/OpenVINO",
+        "name": "OpenVINO",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 7.594,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.574,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3609,7 +3407,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploitation",
-      "priority": 7.514,
+      "priority": 7.573,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -3627,7 +3425,7 @@
         "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -3643,16 +3441,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -3682,7 +3480,7 @@
       ],
       "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
       "bucket": "bridge",
-      "priority": 7.514,
+      "priority": 7.573,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -3700,7 +3498,7 @@
         "redundancy_penalty": 0.156,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.232,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -3717,22 +3515,167 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 4,
           "statuses": {
-            "success": 3
+            "success": 4
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.232,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.157"
+      }
+    },
+    {
+      "action_id": "university/UC Berkeley/Tian Xia::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/UC Berkeley/Tian Xia",
+        "name": "Tian Xia",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 7.523,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.672,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.181,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/清华大学/Shuai Mu::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Shuai Mu",
+        "name": "Shuai Mu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 7.511,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 6.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, distributed",
+        "opens underrepresented target types",
+        "bridge 6.3"
+      ],
+      "base_priority": 7.169,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -3961,151 +3904,6 @@
       }
     },
     {
-      "action_id": "university/UC Berkeley/Tian Xia::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/UC Berkeley/Tian Xia",
-        "name": "Tian Xia",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 7.464,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.181,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/清华大学/Shuai Mu::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Shuai Mu",
-        "name": "Shuai Mu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.452,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 6.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ],
-      "base_priority": 7.169,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.285"
-      }
-    },
-    {
       "action_id": "company/xAI/xAI::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -4126,7 +3924,7 @@
       ],
       "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
       "bucket": "verification",
-      "priority": 7.423,
+      "priority": 7.482,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -4144,7 +3942,7 @@
         "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.232,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4161,22 +3959,95 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 4,
           "statuses": {
-            "success": 3
+            "success": 4
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.232,
         "exact_status_adjustment": 0.0
       },
       "operator": "verify",
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence_quality=0.000"
+      }
+    },
+    {
+      "action_id": "community/flagos-ai/FlagPerf/FlagPerf::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/flagos-ai/FlagPerf/FlagPerf",
+        "name": "FlagPerf",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.475,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.307,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.455,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4200,7 +4071,7 @@
       ],
       "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
       "bucket": "exploration",
-      "priority": 7.414,
+      "priority": 7.473,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -4218,7 +4089,7 @@
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.232,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4234,88 +4105,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 4,
           "statuses": {
-            "success": 3
+            "success": 4
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
         },
-        "key_yield_adjustment": 0.173,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/flagos-ai/FlagPerf/FlagPerf::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/flagos-ai/FlagPerf/FlagPerf",
-        "name": "FlagPerf",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.407,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.307,
-        "novelty": 1.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.455,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.232,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4345,7 +4144,7 @@
       ],
       "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
       "bucket": "exploration",
-      "priority": 7.407,
+      "priority": 7.466,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -4363,7 +4162,7 @@
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.232,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4379,16 +4178,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 4,
           "statuses": {
-            "success": 3
+            "success": 4
           },
           "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.232,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4416,7 +4215,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploitation",
-      "priority": 7.387,
+      "priority": 7.455,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -4434,7 +4233,7 @@
         "redundancy_penalty": 0.176,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.02,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4450,17 +4249,18 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 14,
           "statuses": {
+            "partial": 4,
             "success": 1,
             "unresolved": 9
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4489,7 +4289,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploration",
-      "priority": 7.371,
+      "priority": 7.43,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -4507,7 +4307,7 @@
         "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4523,16 +4323,89 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL",
+        "name": "vllm-plugin-FL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.427,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.02,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.407,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 14,
+          "statuses": {
+            "partial": 4,
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.15,
+          "mean_reward": 3.286,
+          "reward_signal": 0.676,
+          "yield_adjustment": 0.02
+        },
+        "key_yield_adjustment": 0.02,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4561,7 +4434,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploitation",
-      "priority": 7.364,
+      "priority": 7.423,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -4579,7 +4452,7 @@
         "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
@@ -4595,16 +4468,16 @@
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
-            "success": 5
+            "success": 6
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4614,75 +4487,221 @@
       }
     },
     {
-      "action_id": "community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL::maintainers",
-      "action_key": "project:maintainers:person",
+      "action_id": "company/积算科技/张宇::project_contribution",
+      "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL",
-        "name": "vllm-plugin-FL",
-        "type": "project",
-        "family": "project"
+        "id": "company/积算科技/张宇",
+        "name": "张宇",
+        "type": "person",
+        "family": "person"
       },
-      "relation": "maintainers",
+      "relation": "project_contribution",
       "target_families": [
-        "person"
+        "project",
+        "community"
       ],
       "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
       ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.359,
-      "cost": 0.9,
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 7.395,
+      "cost": 1.0,
       "coverage": {
         "existing": 0,
-        "desired": 4,
+        "desired": 3,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.1,
+        "infra_relevance": 1.85,
+        "evidence_quality": 0.75,
         "url_count": 2,
-        "bridge_score": 4.67,
+        "bridge_score": 2.5,
         "novelty": 1.0,
-        "frontier_potential": 0.383,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.176,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.74,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
+        "history_yield_adjustment": 0.342,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference",
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, scheduler",
         "opens underrepresented target types"
       ],
-      "base_priority": 7.407,
+      "base_priority": 7.053,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 6,
           "statuses": {
-            "success": 1,
-            "unresolved": 9
+            "success": 6
           },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
         },
-        "key_yield_adjustment": -0.048,
+        "key_yield_adjustment": 0.342,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/无问芯穹/无问芯穹::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/无问芯穹/无问芯穹",
+        "name": "无问芯穹",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "exploitation",
+      "priority": 7.374,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.307,
+        "novelty": 1.0,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.232,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Company",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.142,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 4,
+          "statuses": {
+            "success": 4
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 9.312,
+          "reward_signal": 0.981,
+          "yield_adjustment": 0.232
+        },
+        "key_yield_adjustment": 0.232,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/清程极智/汤雄超 Xiongchao Tang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/清程极智/汤雄超 Xiongchao Tang",
+        "name": "汤雄超",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 7.358,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.6,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 6.52,
+        "novelty": 1.0,
+        "frontier_potential": 0.25,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.342,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 6.5"
+      ],
+      "base_priority": 7.016,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "success": 6
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.958,
+          "reward_signal": 0.903,
+          "yield_adjustment": 0.342
+        },
+        "key_yield_adjustment": 0.342,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.520"
       }
     },
     {
@@ -4752,78 +4771,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "company/积算科技/张宇::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/积算科技/张宇",
-        "name": "张宇",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 7.336,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.85,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.74,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.053,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -4983,70 +4930,72 @@
       }
     },
     {
-      "action_id": "company/无问芯穹/无问芯穹::projects",
-      "action_key": "company:projects:project+community+team",
+      "action_id": "community/vllm-project/vLLM-Omni/Canlin Guo::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
       "source": {
-        "id": "company/无问芯穹/无问芯穹",
-        "name": "无问芯穹",
-        "type": "company",
-        "family": "company"
+        "id": "community/vllm-project/vLLM-Omni/Canlin Guo",
+        "name": "Canlin Guo",
+        "type": "person",
+        "family": "person"
       },
-      "relation": "projects",
+      "relation": "affiliation",
       "target_families": [
-        "project",
-        "community",
+        "company",
+        "school",
+        "research",
         "team"
       ],
       "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
+        "official_profile",
+        "company_or_lab_team_page"
       ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "exploitation",
-      "priority": 7.315,
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.289,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
-        "desired": 3,
+        "desired": 2,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 1.85,
+        "infra_relevance": 2.0,
         "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.307,
+        "url_count": 6,
+        "bridge_score": 3.5,
         "novelty": 1.0,
-        "frontier_potential": 0.378,
+        "frontier_potential": 0.375,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
+        "redundancy_penalty": 0.111,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
+        "history_yield_adjustment": 0.294,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
-        "coverage 0/3",
-        "source type Company",
-        "infra: serving/inference, scheduler",
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, ascend",
         "opens underrepresented target types"
       ],
-      "base_priority": 7.142,
+      "base_priority": 6.995,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 3,
+          "attempts": 6,
           "statuses": {
-            "success": 3
+            "partial": 1,
+            "success": 5
           },
-          "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
         },
-        "key_yield_adjustment": 0.173,
+        "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -5056,76 +5005,153 @@
       }
     },
     {
-      "action_id": "company/清程极智/汤雄超 Xiongchao Tang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
+      "action_id": "community/siliconflow/OneDiff/strint::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
       "source": {
-        "id": "company/清程极智/汤雄超 Xiongchao Tang",
-        "name": "汤雄超",
+        "id": "community/siliconflow/OneDiff/strint",
+        "name": "strint",
         "type": "person",
         "family": "person"
       },
-      "relation": "project_contribution",
+      "relation": "affiliation",
       "target_families": [
-        "project",
-        "community"
+        "company",
+        "school",
+        "research",
+        "team"
       ],
       "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
+        "official_profile",
+        "company_or_lab_team_page"
       ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 7.299,
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.289,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
-        "desired": 3,
+        "desired": 2,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 1.6,
-        "evidence_quality": 0.95,
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
         "url_count": 4,
-        "bridge_score": 6.52,
+        "bridge_score": 2.5,
         "novelty": 1.0,
-        "frontier_potential": 0.25,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.176,
+        "frontier_potential": 0.53,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.294,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
-        "coverage 0/3",
+        "coverage 0/2",
         "source type Person",
-        "infra: scheduler, distributed",
-        "opens underrepresented target types",
-        "bridge 6.5"
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
       ],
-      "base_priority": 7.016,
+      "base_priority": 6.995,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 6,
           "statuses": {
+            "partial": 1,
             "success": 5
           },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.520"
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Ascend/MemCache/DreamerLeader::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/Ascend/MemCache/DreamerLeader",
+        "name": "DreamerLeader",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 7.278,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.294,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kv-cache, ascend",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.984,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 1,
+            "success": 5
+          },
+          "mean_status_value": 0.892,
+          "mean_reward": 3.333,
+          "reward_signal": 0.682,
+          "yield_adjustment": 0.294
+        },
+        "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     }
   ]

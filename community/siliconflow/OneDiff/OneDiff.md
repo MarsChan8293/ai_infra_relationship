@@ -3,8 +3,8 @@ type: project
 name: OneDiff
 organization: siliconflow
 linked_people:
-  - "community/siliconflow/OneDiff/strint"
   - "community/siliconflow/OneDiff/marigoold"
+  - "community/siliconflow/OneDiff/strint"
 companies: ["硅基流动"]
 company_relation: company-led
 layer: diffusion-inference-compiler
@@ -54,3 +54,13 @@ OneDiff 公开支持两条 compiler backend：
 - [[company/硅基流动/硅基流动|硅基流动]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/siliconflow/OneDiff/marigoold|marigoold]]：[[community/siliconflow/OneDiff/OneDiff|OneDiff]]：GitHub Collaborator；持续参与 diffusion inference 集成与维护。
+- [[community/siliconflow/OneDiff/strint|strint]]：[[community/siliconflow/OneDiff/OneDiff|OneDiff]]：GitHub Collaborator；长期参与 Nexfort backend、性能、CI 与项目维护工作。
+
+<!-- END AUTO PROJECT PEOPLE -->
