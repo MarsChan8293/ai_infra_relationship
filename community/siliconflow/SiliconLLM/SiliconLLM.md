@@ -1,0 +1,44 @@
+---
+type: project
+name: SiliconLLM
+organization: siliconflow
+companies: ["硅基流动"]
+company_relation: company-led
+layer: llm-inference-engine
+open_source: false
+linked_companies:
+  - "company/硅基流动/硅基流动"
+linked_people:
+  - "company/硅基流动/袁进辉 Jinhui Yuan"
+  - "company/硅基流动/柳俊丞 Juncheng Liu"
+  - "company/硅基流动/唐安波"
+---
+# SiliconLLM
+
+SiliconLLM 是硅基流动自研的大模型高性能推理引擎，是公司从模型 API / MaaS 向 production Token infrastructure 延伸的核心技术层。
+
+## AI Infra 位置
+公开技术材料显示，硅基流动围绕推理引擎持续做模型、机制、框架和算子层联合优化，并将能力扩展到：
+- high-throughput / low-latency model serving
+- MoE 与大规模并行
+- Prefill / Decode separation
+- KV Cache 与 Prefix Cache aware routing
+- 异构 GPU / NPU backend
+- 模型实例弹性调度与生产级 SLA
+
+## PD / KV Cache 异构实践
+2026 年硅基流动与摩尔线程发布 PD 分离异构混部方案，在 Prefill 侧使用 MTT S5000，在 Decode 侧使用另一类高带宽 GPU，并通过 [[Mooncake]] RDMA 做 KV Cache 跨芯片传输。硅基流动推理引擎负责统一模型加载、执行与调度；摩尔线程 [[MATE]] 提供硬件算子优化。
+
+因此 SiliconLLM 在本图谱里的关键技术链为：
+`SiliconLLM → PD separation → Mooncake / KV transfer → MUSA / MATE → heterogeneous inference`
+
+## 人物证据边界
+- 袁进辉公开介绍过 SiliconLLM 与国产推理生态。
+- 柳俊丞作为 CTO 连接公司总体技术研发路线，但当前公开资料不足以把某个 SiliconLLM 代码模块直接归于其个人维护。
+- 唐安波公开披露 production inference 的 PD、KV Cache、routing 与调度架构，属于架构实践接口人物，不等同于代码 maintainer。
+
+## Sources
+- https://siliconflow.cn/news/zj5pf6x81ka0q6gf17jusbnq
+- https://www.siliconflow.cn/news/pbjrn9ci5sgyvljkzs90gp05
+- https://siliconflow.cn/news/vztpt9m5ijsupt2k2quotssg
+- https://siliconflow.cn/news/y9r99a4bmvehkr9u3os87dhe

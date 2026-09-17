@@ -8,7 +8,7 @@ linked_companies:
   - "company/硅基流动/硅基流动"
 projects: [OneFlow]
 roles: [CTO]
-areas: [distributed-deep-learning, ai-inference, cuda-kernels]
+areas: [distributed-deep-learning, ai-inference, cuda-kernels, model-serving, inference-infrastructure]
 last_verified: "2026-09"
 relations:
   - '{"target":"company/硅基流动/袁进辉 Jinhui Yuan","type":["paper-coauthor","technical-collaboration"],"confidence":"high","evidence":["https://arxiv.org/abs/2110.15032","https://oneflow2020.medium.com/how-to-implement-an-efficient-layernorm-cuda-kernel-oneflow-performance-optimization-731e91a285b8","https://www1.hkexnews.hk/app/sehk/2026/108701/documents/sehk26063002927_c.pdf"]}'
@@ -22,10 +22,16 @@ relations:
 - [[OneFlow]]：分布式深度学习框架核心技术网络；共同署名 2021 OneFlow 系统论文。
 - OneFlow CUDA/kernel 优化工作中参与 LayerNorm、elementwise 等性能工程。
 - [[硅基流动]]：2023–至今进入袁进辉带领的 OneFlow 核心班底，任 CTO，技术方向从训练框架延伸到生成式 AI inference / token infrastructure。
+- 当前公司核心技术栈已形成 [[SiliconLLM]]、Token 供应平台与异构算力调度体系。作为 CTO，柳俊丞是这条总体技术路线的重要组织节点；公开资料暂不足以把 SiliconLLM 某个具体代码模块直接归为其个人维护。
 
 ## 人物关系
 - [[company/硅基流动/袁进辉 Jinhui Yuan|袁进辉（Jinhui Yuan）]]：**OneFlow 长期技术合作者 + SiliconFlow 创业团队**。两人共同署名 2021 OneFlow 系统论文；2023 袁进辉带 OneFlow 核心团队创立 SiliconFlow，柳俊丞任 CTO。
 - [[company/硅基流动/赵震 Zhao Zhen|赵震（Zhao Zhen）]]：**OneFlow 旧同事 + SiliconFlow 核心管理团队**。公开 IPO/公司资料将两人都列为 OneFlow 旧部，当前分别任 SiliconFlow CTO、COO；不据此推断具体研发协作边界。
+
+## BFS 价值
+`OneFlow / CUDA kernel → 柳俊丞 → SiliconFlow CTO → SiliconLLM / inference infrastructure → engine / scheduler / heterogeneous backend engineers`
+
+柳俊丞因此是继续寻找硅基流动匿名核心推理工程师时最重要的 seed 之一。
 
 ## Sources
 - https://arxiv.org/abs/2110.15032
