@@ -1,0 +1,52 @@
+name: Full DISCOVER Plan
+
+on:
+  push:
+    branches:
+      - discover-full-plan-2026-09-18
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: discover-full-plan-2026-09-18
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate DISCOVER-only full queue
+        run: python3 scripts/plan-research-v3.py --operator discover --budget 2000 --limit 2000 --as-of 2026-09-18
+      - name: Emit compact execution list
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          p=json.load(open('generated/research-actions.json',encoding='utf-8'))
+          selected=p['selected_actions']
+          with open('generated/full-discover-selected.tsv','w',encoding='utf-8') as f:
+              f.write('rank\taction_id\tsource\tfamily\trelation\tpriority\ttrigger\thistory\n')
+              for i,a in enumerate(selected,1):
+                  s=a['source']; h=((a.get('history') or {}).get('latest') or {}).get('status') or 'new'
+                  f.write(f"{i}\t{a['action_id']}\t{s['name']}\t{s['family']}\t{a['relation']}\t{a['priority']}\t{(a.get('trigger') or {}).get('kind','')}\t{h}\n")
+          c=collections.Counter((a['source']['family'],a['relation']) for a in selected)
+          t=collections.Counter((a.get('trigger') or {}).get('kind','') for a in selected)
+          with open('generated/full-discover-summary.md','w',encoding='utf-8') as f:
+              f.write(f'# Full DISCOVER Summary\n\nSelected actions: {len(selected)}\n\n')
+              f.write('## By family/relation\n\n| Source family | Relation | Count |\n|---|---|---:|\n')
+              for (fam,rel),n in sorted(c.items(), key=lambda x:(-x[1],x[0])):
+                  f.write(f'| {fam} | {rel} | {n} |\n')
+              f.write('\n## By trigger\n\n')
+              for k,v in t.most_common(): f.write(f'- {k or "unknown"}: {v}\n')
+          PY
+      - name: Commit generated DISCOVER queue
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add generated/research-actions.json generated/research-priority.json generated/research-queue.md generated/research-history-summary.json generated/full-discover-selected.tsv generated/full-discover-summary.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore(discover): generate full DISCOVER queue'
+          git push origin HEAD:discover-full-plan-2026-09-18
