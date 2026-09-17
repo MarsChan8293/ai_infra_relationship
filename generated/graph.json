@@ -13399,6 +13399,62 @@
       }
     },
     {
+      "id": "community/xPU-IO/Tutti/Tutti",
+      "path": "community/xPU-IO/Tutti/Tutti.md",
+      "name": "Tutti",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Tutti",
+        "linked_people": "",
+        "layer": "kv-cache",
+        "open_source": true,
+        "repository": "https://github.com/xPU-IO/Tutti",
+        "areas": [
+          "kv-cache",
+          "gpu-storage",
+          "nvme",
+          "ssd-offload",
+          "llm-serving",
+          "vllm-integration",
+          "storage-runtime",
+          "multi-vendor-gpu"
+        ],
+        "hardware": [
+          "NVIDIA GPU",
+          "MetaX GPU"
+        ],
+        "people": "",
+        "governance": "xPU-IO hosted project; public formal maintainer roster not yet specified",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/xPU-IO/xPU-IO",
+      "path": "community/xPU-IO/xPU-IO.md",
+      "name": "xPU-IO",
+      "type": "community",
+      "category": "community",
+      "frontmatter": {
+        "type": "community",
+        "name": "xPU-IO",
+        "linked_people": "",
+        "category": "gpu-storage",
+        "areas": [
+          "gpu-storage",
+          "nvme",
+          "kv-cache",
+          "storage-runtime",
+          "multi-vendor-gpu"
+        ],
+        "governance": "GitHub organization hosting Tutti; formal maintainer roster is not publicly specified",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "university/Binghamton University/Binghamton University",
       "path": "university/Binghamton University/Binghamton University.md",
       "name": "Binghamton University",
@@ -14653,6 +14709,47 @@
       }
     },
     {
+      "id": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "path": "university/上海交通大学/张一鸣 Yiming Zhang.md",
+      "name": "张一鸣",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "张一鸣",
+        "english_name": "Yiming Zhang",
+        "aliases": [
+          "Yiming Zhang"
+        ],
+        "current_affiliations": [
+          "上海交通大学",
+          "NICE Lab"
+        ],
+        "public_email": "zhangyiming@cs.sjtu.edu.cn",
+        "schools": "",
+        "projects": [
+          "Tutti",
+          "GeminiFS"
+        ],
+        "areas": [
+          "storage-systems",
+          "operating-systems",
+          "networking",
+          "ai-systems",
+          "gpu-storage",
+          "kv-cache"
+        ],
+        "roles": [
+          "Distinguished Professor",
+          "Tutti Paper Author",
+          "GeminiFS Paper Author"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
+      }
+    },
+    {
       "id": "university/上海人工智能实验室/Han Lv",
       "path": "university/上海人工智能实验室/Han Lv.md",
       "name": "Han Lv",
@@ -15234,6 +15331,81 @@
         "country": "China",
         "city": "Nanjing",
         "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "university/厦门大学/GeminiFS",
+      "path": "university/厦门大学/GeminiFS.md",
+      "name": "GeminiFS",
+      "type": "project",
+      "category": "university",
+      "frontmatter": {
+        "type": "project",
+        "name": "GeminiFS",
+        "linked_people": "",
+        "layer": "gpu-storage",
+        "open_source": true,
+        "repository": "https://github.com/nicexlab/GeminiFS",
+        "areas": [
+          "gpu-storage",
+          "filesystem",
+          "nvme",
+          "direct-storage",
+          "ml-systems",
+          "llm-storage"
+        ],
+        "people": "",
+        "governance": "NICE Lab research project; upstream repository is deprecated in favor of Tutti",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "university/厦门大学/Shi Qiu",
+      "path": "university/厦门大学/Shi Qiu.md",
+      "name": "Shi Qiu",
+      "type": "person",
+      "category": "university",
+      "frontmatter": {
+        "type": "person",
+        "name": "Shi Qiu",
+        "aliases": [
+          "Qiu Shi",
+          "qq502233945",
+          "@qq502233945"
+        ],
+        "current_affiliations": [
+          "厦门大学",
+          "NICE Lab"
+        ],
+        "public_email": "ryeqiu@tencent.com",
+        "schools": "",
+        "communities": [
+          "xPU-IO"
+        ],
+        "email_affiliations": "",
+        "linked_companies": "",
+        "projects": [
+          "Tutti",
+          "GeminiFS"
+        ],
+        "areas": [
+          "gpu-storage",
+          "filesystem",
+          "nvme",
+          "kv-cache",
+          "llm-serving",
+          "storage-systems",
+          "virtualization"
+        ],
+        "roles": [
+          "Ph.D. Student",
+          "Tutti Paper Author",
+          "GeminiFS Paper Author",
+          "Tutti Community Contact"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09",
+        "relations": ""
       }
     },
     {
@@ -25865,6 +26037,51 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "university/厦门大学/GeminiFS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/Tutti/Tutti",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/xPU-IO",
+      "target": "community/xPU-IO/Tutti/Tutti",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xPU-IO/xPU-IO",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/AMD/AMD",
       "target": "community/LMCache/LMCache/Andy Luo",
       "kind": "wikilink"
@@ -31235,6 +31452,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/腾讯/腾讯",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/趋境科技/Hongbo Kang",
       "target": "community/kvcache-ai/Mooncake/Ke Yang",
       "kind": "wikilink"
@@ -33215,6 +33437,41 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/上海交通大学/上海交通大学",
+      "target": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/上海交通大学",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "target": "community/xPU-IO/Tutti/Tutti",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "target": "university/上海交通大学/上海交通大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "target": "university/厦门大学/GeminiFS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "target": "university/厦门大学/厦门大学",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/上海人工智能实验室/Han Lv",
       "target": "community/InternLM/LMDeploy/LMDeploy",
       "kind": "wikilink"
@@ -33725,6 +33982,51 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/厦门大学/GeminiFS",
+      "target": "community/xPU-IO/Tutti/Tutti",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/GeminiFS",
+      "target": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/GeminiFS",
+      "target": "university/厦门大学/Shi Qiu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "community/xPU-IO/Tutti/Tutti",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "company/腾讯/腾讯",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "university/上海交通大学/上海交通大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "university/厦门大学/GeminiFS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/Shi Qiu",
+      "target": "university/厦门大学/厦门大学",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/厦门大学/厦门大学",
       "target": "company/趋境科技/卢佳豪 Jiahao Lu",
       "kind": "wikilink"
@@ -33732,6 +34034,16 @@
     {
       "source": "university/厦门大学/厦门大学",
       "target": "company/阿里巴巴/万宇 Yu Wan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/厦门大学",
+      "target": "university/上海交通大学/张一鸣 Yiming Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/厦门大学/厦门大学",
+      "target": "university/厦门大学/Shi Qiu",
       "kind": "wikilink"
     },
     {
@@ -36817,13 +37129,14 @@
       "bridge_score": 8.485
     },
     "company/腾讯/腾讯": {
-      "degree": 5,
-      "cross_category_degree": 2,
+      "degree": 6,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "university"
       ],
-      "bridge_score": 6.285
+      "bridge_score": 8.357
     },
     "company/趋境科技/Hongbo Kang": {
       "degree": 8,
@@ -37371,7 +37684,7 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 35,
+      "degree": 36,
       "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
@@ -37379,7 +37692,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 15.37
+      "bridge_score": 15.409
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -37496,13 +37809,13 @@
       "bridge_score": 5.35
     },
     "community/MetaX-MACA/vLLM-metax/vLLM-metax": {
-      "degree": 4,
+      "degree": 5,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.022
+      "bridge_score": 6.285
     },
     "community/ModelTC/LightLLM/Hailong Yang": {
       "degree": 1,
@@ -38919,7 +39232,7 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 61,
+      "degree": 62,
       "cross_category_degree": 19,
       "neighbor_categories": [
         "community",
@@ -38927,7 +39240,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 18.604
+      "bridge_score": 18.627
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -39806,7 +40119,7 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 113,
+      "degree": 114,
       "cross_category_degree": 50,
       "neighbor_categories": [
         "community",
@@ -39814,7 +40127,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 30.333
+      "bridge_score": 30.345
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -39996,6 +40309,24 @@
         "university"
       ],
       "bridge_score": 10.77
+    },
+    "community/xPU-IO/Tutti/Tutti": {
+      "degree": 8,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 7.22
+    },
+    "community/xPU-IO/xPU-IO": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 4.935
     },
     "university/Binghamton University/Binghamton University": {
       "degree": 1,
@@ -40495,14 +40826,23 @@
       "bridge_score": 4.307
     },
     "university/上海交通大学/上海交通大学": {
-      "degree": 22,
+      "degree": 24,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.524
+      "bridge_score": 12.644
+    },
+    "university/上海交通大学/张一鸣 Yiming Zhang": {
+      "degree": 5,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.935
     },
     "university/上海人工智能实验室/Han Lv": {
       "degree": 2,
@@ -40704,13 +41044,33 @@
       "neighbor_categories": [],
       "bridge_score": 0.0
     },
+    "university/厦门大学/GeminiFS": {
+      "degree": 3,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 5.35
+    },
+    "university/厦门大学/Shi Qiu": {
+      "degree": 7,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 8.55
+    },
     "university/厦门大学/厦门大学": {
-      "degree": 2,
+      "degree": 4,
       "cross_category_degree": 2,
       "neighbor_categories": [
-        "company"
+        "company",
+        "university"
       ],
-      "bridge_score": 3.785
+      "bridge_score": 6.022
     },
     "university/启元实验室/启元实验室": {
       "degree": 9,

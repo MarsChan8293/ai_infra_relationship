@@ -4,14 +4,14 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked person: 44
-- Company-person associations: 215
-- Email-domain-supported associations: 27
-- People with generated linked_companies: 212
-- Project/community nodes: 118
-- Project/community nodes with ≥1 linked person: 88
-- Project/community-person associations: 440
-- Non-company affiliations recognized and routed elsewhere: 87
-- Unresolved source values (backlog, non-fatal): 13
+- Company-person associations: 216
+- Email-domain-supported associations: 28
+- People with generated linked_companies: 213
+- Project/community nodes: 121
+- Project/community nodes with ≥1 linked person: 91
+- Project/community-person associations: 445
+- Non-company affiliations recognized and routed elsewhere: 89
+- Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
 
 ## Companies
@@ -38,12 +38,12 @@
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
+| [[company/腾讯/腾讯|腾讯]] | 4 |
 | [[company/Anyscale/Anyscale|Anyscale]] | 3 |
 | [[company/Google/Google|Google]] | 3 |
 | [[company/Meta/Meta|Meta]] | 3 |
 | [[company/派欧云/派欧云|派欧云]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
-| [[company/腾讯/腾讯|腾讯]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
 | [[company/Ollama/Ollama|Ollama]] | 2 |
@@ -122,6 +122,7 @@
 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
+| [[university/厦门大学/GeminiFS|GeminiFS]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
@@ -132,6 +133,7 @@
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
 | [[community/apache/Spark/Spark|Spark]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
+| [[community/xPU-IO/Tutti/Tutti|Tutti]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
@@ -155,6 +157,7 @@
 | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | 1 |
 | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | 1 |
 | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | 1 |
+| [[community/xPU-IO/xPU-IO|xPU-IO]] | 1 |
 
 ## Unresolved source values
 
@@ -163,6 +166,8 @@
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/UC Berkeley/Shiyi Cao.md` · `affiliation` → `BAIR`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
+- `university/上海交通大学/张一鸣 Yiming Zhang.md` · `affiliation` → `NICE Lab`
+- `university/厦门大学/Shi Qiu.md` · `affiliation` → `NICE Lab`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `projects` → `SmartMoE`

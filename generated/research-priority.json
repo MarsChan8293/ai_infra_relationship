@@ -9,7 +9,7 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1545,
+  "candidate_count": 1554,
   "selected_actions": [
     {
       "action_id": "community/vllm-project/Speculators/Speculators::originating_org",
@@ -1734,6 +1734,82 @@
       }
     },
     {
+      "action_id": "university/厦门大学/GeminiFS::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "university/厦门大学/GeminiFS",
+        "name": "GeminiFS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 6.792,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.6,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "university/UC Davis/GATE Lab::key_people",
       "action_key": "research:key_people:person",
       "source": {
@@ -3372,6 +3448,79 @@
       }
     },
     {
+      "action_id": "community/xPU-IO/Tutti/Tutti::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/xPU-IO/Tutti/Tutti",
+        "name": "Tutti",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.244,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 7.22,
+        "novelty": 0.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.396,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "bridge 7.2"
+      ],
+      "base_priority": 6.167,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/flashinfer-ai/FlashInfer/aleozlx::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -5002,152 +5151,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.285"
-      }
-    },
-    {
-      "action_id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty",
-        "name": "Sai Kiran Polisetty",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.073,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.75,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.448,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, scheduler, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.915,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "company/IBM/Martin Hickey::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "company/IBM/Martin Hickey",
-        "name": "Martin Hickey",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 6.07,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 5.7,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.144,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.926,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 11,
-          "statuses": {
-            "partial": 11
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.773,
-          "reward_signal": 0.6,
-          "yield_adjustment": 0.144
-        },
-        "key_yield_adjustment": 0.144,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     }
   ]

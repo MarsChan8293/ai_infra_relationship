@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1545,
+  "candidate_count": 1554,
   "selected_count": 10,
   "selected_family_counts": {
     "person": 1,
@@ -1741,6 +1741,82 @@
       }
     },
     {
+      "action_id": "university/厦门大学/GeminiFS::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "university/厦门大学/GeminiFS",
+        "name": "GeminiFS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 6.792,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.6,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "university/UC Davis/GATE Lab::key_people",
       "action_key": "research:key_people:person",
       "source": {
@@ -3376,6 +3452,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/xPU-IO/Tutti/Tutti::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/xPU-IO/Tutti/Tutti",
+        "name": "Tutti",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.244,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 7.22,
+        "novelty": 0.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.396,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "bridge 7.2"
+      ],
+      "base_priority": 6.167,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -8492,6 +8641,76 @@
       }
     },
     {
+      "action_id": "community/xPU-IO/xPU-IO::core_people",
+      "action_key": "community:core_people:person",
+      "source": {
+        "id": "community/xPU-IO/xPU-IO",
+        "name": "xPU-IO",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "core_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_or_maintainers",
+        "github_or_gitcode_activity"
+      ],
+      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
+      "bucket": "exploitation",
+      "priority": 5.686,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.635,
+        "uncertainty": 0.482,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.15,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Community",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 5.536,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.167,
+          "reward_signal": 0.659,
+          "yield_adjustment": 0.15
+        },
+        "key_yield_adjustment": 0.15,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/Mooncake/Weiran He::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -9717,6 +9936,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
+      }
+    },
+    {
+      "action_id": "community/xPU-IO/xPU-IO::member_orgs",
+      "action_key": "community:member_orgs:company+school+research",
+      "source": {
+        "id": "community/xPU-IO/xPU-IO",
+        "name": "xPU-IO",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "member_orgs",
+      "target_families": [
+        "company",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "governance_membership_page",
+        "official_announcements"
+      ],
+      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
+      "bucket": "exploration",
+      "priority": 5.608,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.635,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.052,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Community",
+        "infra: serving/inference, kv-cache",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.556,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.75,
+          "reward_signal": 0.734,
+          "yield_adjustment": 0.052
+        },
+        "key_yield_adjustment": 0.052,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -16000,6 +16292,79 @@
       }
     },
     {
+      "action_id": "company/腾讯/腾讯::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/腾讯/腾讯",
+        "name": "腾讯",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "bridge",
+      "priority": 5.354,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.357,
+        "novelty": 1.0,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.143,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 8.4"
+      ],
+      "base_priority": 5.211,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.667,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.143
+        },
+        "key_yield_adjustment": 0.143,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.357"
+      }
+    },
+    {
       "action_id": "company/RadixArk/Xiaoyu Zhang::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -16440,6 +16805,74 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/xPU-IO/xPU-IO::projects",
+      "action_key": "community:projects:project",
+      "source": {
+        "id": "community/xPU-IO/xPU-IO",
+        "name": "xPU-IO",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project"
+      ],
+      "strategies": [
+        "community_docs",
+        "official_repository_namespace"
+      ],
+      "write_hint": "Add concrete projects that belong to or are governed by the community.",
+      "bucket": "exploitation",
+      "priority": 5.315,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.635,
+        "uncertainty": 0.436,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Community",
+        "infra: serving/inference, kv-cache"
+      ],
+      "base_priority": 5.315,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -18233,151 +18666,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
-        "name": "vLLM-metax",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 5.229,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 6.022,
-        "novelty": 0.5,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.436,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, kernel, moe",
-        "bridge 6.0"
-      ],
-      "base_priority": 5.078,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 26,
-          "statuses": {
-            "partial": 26
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.269,
-          "reward_signal": 0.674,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.022"
-      }
-    },
-    {
-      "action_id": "company/腾讯/腾讯::academic_links",
-      "action_key": "company:academic_links:school+research",
-      "source": {
-        "id": "company/腾讯/腾讯",
-        "name": "腾讯",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "academic_links",
-      "target_families": [
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_research_partnership_page",
-        "paper_affiliation"
-      ],
-      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
-      "bucket": "bridge",
-      "priority": 5.227,
-      "cost": 1.5,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.408,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.143,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Company",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ],
-      "base_priority": 5.084,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 6
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.667,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.143
-        },
-        "key_yield_adjustment": 0.143,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -25752,6 +26040,77 @@
       }
     },
     {
+      "action_id": "university/厦门大学/厦门大学::projects",
+      "action_key": "school:projects:project+community",
+      "source": {
+        "id": "university/厦门大学/厦门大学",
+        "name": "厦门大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "lab_github_org",
+        "official_project_pages"
+      ],
+      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
+      "bucket": "verification",
+      "priority": 4.884,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 6.022,
+        "novelty": 1.0,
+        "frontier_potential": 0.447,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "opens underrepresented target types",
+        "bridge 6.0",
+        "missing source URLs"
+      ],
+      "base_priority": 4.884,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
       "action_id": "university/UC Davis/GATE Lab::parent_or_partner_org",
       "action_key": "research:parent_or_partner_org:school+company+research",
       "source": {
@@ -29170,76 +29529,6 @@
       }
     },
     {
-      "action_id": "university/厦门大学/厦门大学::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/厦门大学/厦门大学",
-        "name": "厦门大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "verification",
-      "priority": 4.802,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 4.802,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
       "action_id": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -32195,6 +32484,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.600"
+      }
+    },
+    {
+      "action_id": "university/厦门大学/GeminiFS::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/厦门大学/GeminiFS",
+        "name": "GeminiFS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.671,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: distributed"
+      ],
+      "base_priority": 4.594,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -40661,78 +41022,6 @@
       }
     },
     {
-      "action_id": "company/腾讯/腾讯::key_people",
-      "action_key": "company:key_people:person",
-      "source": {
-        "id": "company/腾讯/腾讯",
-        "name": "腾讯",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_team_page",
-        "github_org_maintainers"
-      ],
-      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
-      "bucket": "exploitation",
-      "priority": 4.283,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.285,
-        "novelty": 0.0,
-        "frontier_potential": 0.408,
-        "uncertainty": 0.138,
-        "redundancy_penalty": 0.421,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.178,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Company",
-        "infra: serving/inference, kv-cache, distributed",
-        "bridge 6.3"
-      ],
-      "base_priority": 4.105,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 8,
-          "statuses": {
-            "partial": 7,
-            "success": 1
-          },
-          "mean_status_value": 0.431,
-          "mean_reward": 3.781,
-          "reward_signal": 0.738,
-          "yield_adjustment": 0.178
-        },
-        "key_yield_adjustment": 0.178,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.250"
-      }
-    },
-    {
       "action_id": "company/摩尔线程/Xiaodong Ye::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -41515,6 +41804,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "university/上海交通大学/张一鸣 Yiming Zhang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/上海交通大学/张一鸣 Yiming Zhang",
+        "name": "张一鸣",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.218,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 0.95,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 5.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kv-cache"
+      ],
+      "base_priority": 4.067,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
       }
     },
     {
@@ -43517,6 +43878,77 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence-only verification action"
+      }
+    },
+    {
+      "action_id": "university/厦门大学/GeminiFS::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/厦门大学/GeminiFS",
+        "name": "GeminiFS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 4.176,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.5,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: distributed"
+      ],
+      "base_priority": 4.025,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 26,
+          "statuses": {
+            "partial": 26
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.269,
+          "reward_signal": 0.674,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -45775,6 +46207,77 @@
       }
     },
     {
+      "action_id": "university/厦门大学/Shi Qiu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/厦门大学/Shi Qiu",
+        "name": "Shi Qiu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.021,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.95,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 8.55,
+        "novelty": 0.0,
+        "frontier_potential": 0.265,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.305,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache",
+        "bridge 8.6"
+      ],
+      "base_priority": 3.877,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSpec/DeepSpec::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -47773,6 +48276,78 @@
       }
     },
     {
+      "action_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
+        "name": "vLLM-metax",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 3.911,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 6.285,
+        "novelty": 0.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.253,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Project",
+        "infra: serving/inference, kernel, moe",
+        "bridge 6.3"
+      ],
+      "base_priority": 3.76,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 26,
+          "statuses": {
+            "partial": 26
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.269,
+          "reward_signal": 0.674,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Jiaqi Liao::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -49463,6 +50038,74 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "university/厦门大学/厦门大学::verify_evidence",
+      "action_key": "school:verify_evidence:none",
+      "source": {
+        "id": "university/厦门大学/厦门大学",
+        "name": "厦门大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.756,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 6.022,
+        "novelty": 0.0,
+        "frontier_potential": 1.0,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.08,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.1,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 0/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 3.656,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 18,
+          "statuses": {
+            "partial": 17,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.303,
+          "mean_reward": 0.944,
+          "reward_signal": 0.232,
+          "yield_adjustment": 0.1
+        },
+        "key_yield_adjustment": 0.1,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence-only verification action"
       }
     },
     {
@@ -51801,74 +52444,6 @@
       "source": {
         "id": "university/University of Washington/University of Washington",
         "name": "University of Washington",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 3.554,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 3.785,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.1,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 3.454,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 18,
-          "statuses": {
-            "partial": 17,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.303,
-          "mean_reward": 0.944,
-          "reward_signal": 0.232,
-          "yield_adjustment": 0.1
-        },
-        "key_yield_adjustment": 0.1,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence-only verification action"
-      }
-    },
-    {
-      "action_id": "university/厦门大学/厦门大学::verify_evidence",
-      "action_key": "school:verify_evidence:none",
-      "source": {
-        "id": "university/厦门大学/厦门大学",
-        "name": "厦门大学",
         "type": "school",
         "family": "school"
       },
@@ -54582,6 +55157,78 @@
       }
     },
     {
+      "action_id": "university/厦门大学/厦门大学::spinouts",
+      "action_key": "school:spinouts:company",
+      "source": {
+        "id": "university/厦门大学/厦门大学",
+        "name": "厦门大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "spinouts",
+      "target_families": [
+        "company"
+      ],
+      "strategies": [
+        "official_founder_bio",
+        "university_news_or_tech_transfer"
+      ],
+      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
+      "bucket": "verification",
+      "priority": 3.477,
+      "cost": 1.6,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 6.022,
+        "novelty": 1.0,
+        "frontier_potential": 0.447,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.021,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type School",
+        "opens underrepresented target types",
+        "bridge 6.0",
+        "missing source URLs"
+      ],
+      "base_priority": 3.456,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 1,
+          "statuses": {
+            "partial": 1
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.5,
+          "reward_signal": 0.358,
+          "yield_adjustment": 0.021
+        },
+        "key_yield_adjustment": 0.021,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/tyy0829::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -54798,76 +55445,6 @@
       "source": {
         "id": "university/University of Washington/University of Washington",
         "name": "University of Washington",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "faculty_directory",
-        "lab_people_pages"
-      ],
-      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
-      "bucket": "verification",
-      "priority": 3.461,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 5,
-        "gap": 0.6
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 3.785,
-        "novelty": 0.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.78,
-        "redundancy_penalty": 0.308,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.034,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/5",
-        "source type School",
-        "missing source URLs"
-      ],
-      "base_priority": 3.427,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 0.5,
-          "reward_signal": 0.124,
-          "yield_adjustment": 0.034
-        },
-        "key_yield_adjustment": 0.034,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "university/厦门大学/厦门大学::key_people",
-      "action_key": "school:key_people:person",
-      "source": {
-        "id": "university/厦门大学/厦门大学",
-        "name": "厦门大学",
         "type": "school",
         "family": "school"
       },
@@ -56069,77 +56646,6 @@
       }
     },
     {
-      "action_id": "university/厦门大学/厦门大学::spinouts",
-      "action_key": "school:spinouts:company",
-      "source": {
-        "id": "university/厦门大学/厦门大学",
-        "name": "厦门大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "spinouts",
-      "target_families": [
-        "company"
-      ],
-      "strategies": [
-        "official_founder_bio",
-        "university_news_or_tech_transfer"
-      ],
-      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
-      "bucket": "verification",
-      "priority": 3.425,
-      "cost": 1.6,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.021,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type School",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 3.404,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 1,
-          "statuses": {
-            "partial": 1
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.021
-        },
-        "key_yield_adjustment": 0.021,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
       "action_id": "university/UC Berkeley/Philipp Moritz::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -57055,6 +57561,76 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "university/上海交通大学/张一鸣 Yiming Zhang::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/上海交通大学/张一鸣 Yiming Zhang",
+        "name": "张一鸣",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.324,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 0.95,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 5.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: kv-cache"
+      ],
+      "base_priority": 3.18,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -60499,6 +61075,77 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
+      }
+    },
+    {
+      "action_id": "university/厦门大学/厦门大学::key_people",
+      "action_key": "school:key_people:person",
+      "source": {
+        "id": "university/厦门大学/厦门大学",
+        "name": "厦门大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "faculty_directory",
+        "lab_people_pages"
+      ],
+      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
+      "bucket": "verification",
+      "priority": 2.403,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 4,
+        "desired": 5,
+        "gap": 0.2
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 6.022,
+        "novelty": 0.0,
+        "frontier_potential": 0.447,
+        "uncertainty": 0.56,
+        "redundancy_penalty": 0.451,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.034,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 4/5",
+        "source type School",
+        "bridge 6.0",
+        "missing source URLs"
+      ],
+      "base_priority": 2.369,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 0.5,
+          "reward_signal": 0.124,
+          "yield_adjustment": 0.034
+        },
+        "key_yield_adjustment": 0.034,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
       }
     },
     {
@@ -72196,95 +72843,6 @@
       }
     },
     {
-      "action_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
-        "name": "vLLM-metax",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.899,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 6.022,
-        "novelty": 0.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.482,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kernel, moe",
-        "bridge 6.0",
-        "cooldown active (partial, 3d remaining)"
-      ],
-      "base_priority": 6.822,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
       "action_id": "community/ggml-org/ggml/ggml::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -72334,6 +72892,95 @@
         "cooldown active (partial, 3d remaining)"
       ],
       "base_priority": 6.813,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
+      "action_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
+        "name": "vLLM-metax",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.878,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 6.285,
+        "novelty": 0.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.482,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, moe",
+        "bridge 6.3",
+        "cooldown active (partial, 3d remaining)"
+      ],
+      "base_priority": 6.801,
       "eligible": false,
       "history": {
         "exact_attempts": 1,
@@ -85843,6 +86490,107 @@
       }
     },
     {
+      "action_id": "company/腾讯/腾讯::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/腾讯/腾讯",
+        "name": "腾讯",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "bridge",
+      "priority": 6.182,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.357,
+        "novelty": 0.667,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.182,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Company",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 8.4",
+        "cooldown active (partial, 3d remaining)"
+      ],
+      "base_priority": 6.0,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 2,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "repository_context:https://github.com/tencent/hpc-ops",
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:9",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "project_relevance_and_direct_relation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 32,
+          "statuses": {
+            "partial": 24,
+            "success": 7,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.466,
+          "mean_reward": 3.336,
+          "reward_signal": 0.683,
+          "yield_adjustment": 0.182
+        },
+        "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "project_relevance_and_direct_relation"
+        ]
+      }
+    },
+    {
       "action_id": "company/无问芯穹/戴国浩 Guohao Dai::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -89443,107 +90191,6 @@
       }
     },
     {
-      "action_id": "company/腾讯/腾讯::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/腾讯/腾讯",
-        "name": "腾讯",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "bridge",
-      "priority": 5.985,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.285,
-        "novelty": 0.667,
-        "frontier_potential": 0.408,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.182,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Company",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.3",
-        "cooldown active (partial, 3d remaining)"
-      ],
-      "base_priority": 5.803,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 2,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "repository_context:https://github.com/tencent/hpc-ops",
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:9",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "project_relevance_and_direct_relation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 32,
-          "statuses": {
-            "partial": 24,
-            "success": 7,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.466,
-          "mean_reward": 3.336,
-          "reward_signal": 0.683,
-          "yield_adjustment": 0.182
-        },
-        "key_yield_adjustment": 0.182,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "project_relevance_and_direct_relation"
-        ]
-      }
-    },
-    {
       "action_id": "community/sgl-project/SpecForge/SpecForge::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -90498,97 +91145,6 @@
       }
     },
     {
-      "action_id": "university/上海交通大学/上海交通大学::labs_or_groups",
-      "action_key": "school:labs_or_groups:research+team",
-      "source": {
-        "id": "university/上海交通大学/上海交通大学",
-        "name": "上海交通大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "labs_or_groups",
-      "target_families": [
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_department_or_lab_directory"
-      ],
-      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
-      "bucket": "bridge",
-      "priority": 5.931,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 12.524,
-        "novelty": 0.5,
-        "frontier_potential": 0.209,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.389,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.12,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type School",
-        "infra: serving/inference, kv-cache, distributed",
-        "bridge 12.5",
-        "cooldown active (partial, 3d remaining)"
-      ],
-      "base_priority": 5.811,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 2,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "IPADS is canonical and strongly verified; NNE-Lab remains insufficiently stable for a separate canonical node.",
-          "resolved_dimensions": [
-            "IPADS"
-          ],
-          "unresolved_dimensions": [
-            "NNE_Lab_canonicalization"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 48,
-          "statuses": {
-            "partial": 41,
-            "success": 2,
-            "unresolved": 5
-          },
-          "mean_status_value": 0.289,
-          "mean_reward": 2.25,
-          "reward_signal": 0.51,
-          "yield_adjustment": 0.12
-        },
-        "key_yield_adjustment": 0.12,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "NNE_Lab_canonicalization"
-        ]
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM/Matthew Bonanni::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -90679,6 +91235,97 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "contribution_role_strength"
+        ]
+      }
+    },
+    {
+      "action_id": "university/上海交通大学/上海交通大学::labs_or_groups",
+      "action_key": "school:labs_or_groups:research+team",
+      "source": {
+        "id": "university/上海交通大学/上海交通大学",
+        "name": "上海交通大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "labs_or_groups",
+      "target_families": [
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_department_or_lab_directory"
+      ],
+      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
+      "bucket": "bridge",
+      "priority": 5.918,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 12.644,
+        "novelty": 0.5,
+        "frontier_potential": 0.2,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.396,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.12,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type School",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 12.6",
+        "cooldown active (partial, 3d remaining)"
+      ],
+      "base_priority": 5.798,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 2,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "IPADS is canonical and strongly verified; NNE-Lab remains insufficiently stable for a separate canonical node.",
+          "resolved_dimensions": [
+            "IPADS"
+          ],
+          "unresolved_dimensions": [
+            "NNE_Lab_canonicalization"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 48,
+          "statuses": {
+            "partial": 41,
+            "success": 2,
+            "unresolved": 5
+          },
+          "mean_status_value": 0.289,
+          "mean_reward": 2.25,
+          "reward_signal": 0.51,
+          "yield_adjustment": 0.12
+        },
+        "key_yield_adjustment": 0.12,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "NNE_Lab_canonicalization"
         ]
       }
     },
@@ -98843,6 +99490,101 @@
       }
     },
     {
+      "action_id": "university/厦门大学/厦门大学::labs_or_groups",
+      "action_key": "school:labs_or_groups:research+team",
+      "source": {
+        "id": "university/厦门大学/厦门大学",
+        "name": "厦门大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "labs_or_groups",
+      "target_families": [
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_department_or_lab_directory"
+      ],
+      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
+      "bucket": "verification",
+      "priority": 5.496,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 6.022,
+        "novelty": 1.0,
+        "frontier_potential": 0.447,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.12,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "opens underrepresented target types",
+        "bridge 6.0",
+        "missing source URLs",
+        "cooldown active (partial, 3d remaining)"
+      ],
+      "base_priority": 5.376,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "XMU groups with LLM/agent work were found, but direct AI-inference-infrastructure fit remains too weak for canonicalization.",
+          "resolved_dimensions": [
+            "谷雨大模型实验室 candidate",
+            "空间感知与计算实验室 candidate"
+          ],
+          "unresolved_dimensions": [
+            "ai_infra_fit",
+            "canonicalization"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 48,
+          "statuses": {
+            "partial": 41,
+            "success": 2,
+            "unresolved": 5
+          },
+          "mean_status_value": 0.289,
+          "mean_reward": 2.25,
+          "reward_signal": 0.51,
+          "yield_adjustment": 0.12
+        },
+        "key_yield_adjustment": 0.12,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "ai_infra_fit",
+          "canonicalization"
+        ]
+      }
+    },
+    {
       "action_id": "university/四川大学/四川大学::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
@@ -102112,100 +102854,6 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "second_high_value_ai_infra_group"
-        ]
-      }
-    },
-    {
-      "action_id": "university/厦门大学/厦门大学::labs_or_groups",
-      "action_key": "school:labs_or_groups:research+team",
-      "source": {
-        "id": "university/厦门大学/厦门大学",
-        "name": "厦门大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "labs_or_groups",
-      "target_families": [
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_department_or_lab_directory"
-      ],
-      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
-      "bucket": "verification",
-      "priority": 5.403,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.12,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "opens underrepresented target types",
-        "missing source URLs",
-        "cooldown active (partial, 3d remaining)"
-      ],
-      "base_priority": 5.283,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "XMU groups with LLM/agent work were found, but direct AI-inference-infrastructure fit remains too weak for canonicalization.",
-          "resolved_dimensions": [
-            "谷雨大模型实验室 candidate",
-            "空间感知与计算实验室 candidate"
-          ],
-          "unresolved_dimensions": [
-            "ai_infra_fit",
-            "canonicalization"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 48,
-          "statuses": {
-            "partial": 41,
-            "success": 2,
-            "unresolved": 5
-          },
-          "mean_status_value": 0.289,
-          "mean_reward": 2.25,
-          "reward_signal": 0.51,
-          "yield_adjustment": 0.12
-        },
-        "key_yield_adjustment": 0.12,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "ai_infra_fit",
-          "canonicalization"
         ]
       }
     },
@@ -107027,7 +107675,7 @@
       ],
       "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
       "bucket": "bridge",
-      "priority": 5.023,
+      "priority": 5.012,
       "cost": 1.6,
       "coverage": {
         "existing": 0,
@@ -107038,11 +107686,11 @@
         "infra_relevance": 3.45,
         "evidence_quality": 1.3,
         "url_count": 5,
-        "bridge_score": 12.524,
+        "bridge_score": 12.644,
         "novelty": 1.0,
-        "frontier_potential": 0.209,
+        "frontier_potential": 0.2,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.251,
+        "redundancy_penalty": 0.258,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.021,
@@ -107055,10 +107703,10 @@
         "source type School",
         "infra: serving/inference, kv-cache, distributed",
         "opens underrepresented target types",
-        "bridge 12.5",
+        "bridge 12.6",
         "cooldown active (partial, 3d remaining)"
       ],
-      "base_priority": 5.002,
+      "base_priority": 4.991,
       "eligible": false,
       "history": {
         "exact_attempts": 1,
@@ -125827,7 +126475,7 @@
       }
     }
   },
-  "eligible_count": 852,
+  "eligible_count": 861,
   "suppressed_count": 693,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

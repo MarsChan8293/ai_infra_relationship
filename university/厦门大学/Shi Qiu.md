@@ -2,11 +2,16 @@
 type: person
 name: Shi Qiu
 aliases: ["Qiu Shi", "qq502233945", "@qq502233945"]
-current_affiliations: ["厦门大学", "NICE Lab"]
+current_affiliations: ["厦门大学","NICE Lab"]
 public_email: ryeqiu@tencent.com
 schools:
+  - "上海交通大学"
   - "厦门大学"
 communities: [xPU-IO]
+email_affiliations:
+  - "腾讯"
+linked_companies:
+  - "company/腾讯/腾讯"
 projects: [Tutti, GeminiFS]
 areas: [gpu-storage, filesystem, nvme, kv-cache, llm-serving, storage-systems, virtualization]
 roles: [Ph.D. Student, Tutti Paper Author, GeminiFS Paper Author, Tutti Community Contact]
@@ -33,6 +38,11 @@ Shi Qiu 是厦门大学计算机方向博士生、NICE Lab 成员，个人主页
 
 Tutti README 公开给出 `ryeqiu@tencent.com` 作为社区联系邮箱。该邮箱可记录为公开 professional contact，但邮箱域名本身不用于推断当前腾讯雇佣关系；当前学术 affiliation 以个人主页的厦门大学 / NICE Lab 信息为准。
 
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/厦门大学/厦门大学|厦门大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www.qiushi.host/
 - https://www.usenix.org/conference/fast25/speaker-or-organizer/shi-qiu-nice-lab-xiamen-university
@@ -40,3 +50,12 @@ Tutti README 公开给出 `ryeqiu@tencent.com` 作为社区联系邮箱。该邮
 - https://arxiv.org/abs/2605.03375
 - https://github.com/xPU-IO/Tutti
 - https://github.com/xPU-IO/Tutti/commit/8ffd81f294b85dadc80e40aa04a58b56d010bec7
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/腾讯/腾讯|腾讯]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

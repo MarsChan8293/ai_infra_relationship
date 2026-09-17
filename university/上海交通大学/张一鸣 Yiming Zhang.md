@@ -3,7 +3,7 @@ type: person
 name: 张一鸣
 english_name: Yiming Zhang
 aliases: ["Yiming Zhang"]
-current_affiliations: ["上海交通大学", "NICE Lab"]
+current_affiliations: ["上海交通大学","NICE Lab"]
 public_email: zhangyiming@cs.sjtu.edu.cn
 schools:
   - "上海交通大学"
@@ -29,6 +29,10 @@ relations:
 ## Affiliation 边界
 
 FAST 2025 的 GeminiFS 页面仍显示 Xiamen University / Shanghai Jiao Tong University 双 affiliation；上海交大当前官方教师页则给出更清晰的时间线：2021-07 至 2025-03 在厦门大学任教授，2024-11 至今在上海交通大学任特聘教授。因此 frontmatter 中把上海交通大学作为当前学校，同时保留厦门大学历史学校关联。
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/厦门大学/厦门大学|厦门大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://www.cs.sjtu.edu.cn/jiaoshiml/zhangyiming.html

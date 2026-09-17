@@ -1,6 +1,9 @@
 ---
 type: project
 name: GeminiFS
+linked_people:
+  - "university/上海交通大学/张一鸣 Yiming Zhang"
+  - "university/厦门大学/Shi Qiu"
 layer: gpu-storage
 open_source: true
 repository: https://github.com/nicexlab/GeminiFS
@@ -29,3 +32,13 @@ FAST 2025 官方页面将 Shi Qiu、Weinan Liu、Yifan Hu、Jianqin Yan、Zhiron
 - https://www.usenix.org/conference/fast25/presentation/qiu
 - https://github.com/nicexlab/GeminiFS
 - https://arxiv.org/abs/2605.03375
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/上海交通大学/张一鸣 Yiming Zhang|张一鸣（Yiming Zhang）]]：[[university/厦门大学/GeminiFS|GeminiFS]]：FAST 2025 作者；上海交大官方页面将其列为 corresponding author。
+- [[university/厦门大学/Shi Qiu|Shi Qiu]]：[[university/厦门大学/GeminiFS|GeminiFS]]：FAST 2025 第一作者之一，GPU-centric companion file system。
+
+<!-- END AUTO PROJECT PEOPLE -->

@@ -4,7 +4,7 @@
 
 - School nodes: 47
 - Schools with ≥1 linked person: 45
-- Reverse person-school associations: 200
+- Reverse person-school associations: 204
 - Audit errors: 0
 
 | School | Linked people |
@@ -12,11 +12,12 @@
 | [[university/清华大学/清华大学|清华大学]] | 61 |
 | [[university/UC Berkeley/UC Berkeley|UC Berkeley]] | 28 |
 | [[university/北京大学/北京大学|北京大学]] | 21 |
-| [[university/上海交通大学/上海交通大学|上海交通大学]] | 17 |
+| [[university/上海交通大学/上海交通大学|上海交通大学]] | 19 |
 | [[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]] | 7 |
 | [[university/浙江大学/浙江大学|浙江大学]] | 7 |
 | [[university/University of Chicago/University of Chicago|University of Chicago]] | 6 |
 | [[university/Stanford University/Stanford University|Stanford University]] | 4 |
+| [[university/厦门大学/厦门大学|厦门大学]] | 4 |
 | [[university/UCLA/UCLA|UCLA]] | 3 |
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
@@ -24,7 +25,6 @@
 | [[university/University of Texas at Austin/University of Texas at Austin|University of Texas at Austin]] | 2 |
 | [[university/University of Washington/University of Washington|University of Washington]] | 2 |
 | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | 2 |
-| [[university/厦门大学/厦门大学|厦门大学]] | 2 |
 | [[university/四川大学/四川大学|四川大学]] | 2 |
 | [[university/香港中文大学/香港中文大学|香港中文大学]] | 2 |
 | [[university/香港科技大学/香港科技大学|香港科技大学]] | 2 |

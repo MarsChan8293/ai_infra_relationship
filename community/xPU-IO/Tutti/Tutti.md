@@ -1,6 +1,9 @@
 ---
 type: project
 name: Tutti
+linked_people:
+  - "university/上海交通大学/张一鸣 Yiming Zhang"
+  - "university/厦门大学/Shi Qiu"
 layer: kv-cache
 open_source: true
 repository: https://github.com/xPU-IO/Tutti
@@ -11,6 +14,7 @@ people:
   - "university/上海交通大学/张一鸣 Yiming Zhang"
 governance: xPU-IO hosted project; public formal maintainer roster not yet specified
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Tutti
 
@@ -45,3 +49,13 @@ Tutti PR #11 / 对应 merge commit 由 `ljye2023` 提交，公开提交邮箱为
 - https://github.com/xPU-IO/Tutti/pull/11
 - https://github.com/xPU-IO/Tutti/commit/2f1c7f91513f17cf157da5c159c635a71096d32c
 - https://github.com/nicexlab/GeminiFS
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/上海交通大学/张一鸣 Yiming Zhang|张一鸣（Yiming Zhang）]]：[[community/xPU-IO/Tutti/Tutti|Tutti]]：2026 论文作者，与 GeminiFS 形成连续的 GPU-centric storage → SSD-backed KV cache 研究路线。
+- [[university/厦门大学/Shi Qiu|Shi Qiu]]：[[community/xPU-IO/Tutti/Tutti|Tutti]]：2026 论文第一作者；项目将 GPU-centric storage 继续推进到 SSD-backed KV cache / long-context LLM serving。
+
+<!-- END AUTO PROJECT PEOPLE -->
