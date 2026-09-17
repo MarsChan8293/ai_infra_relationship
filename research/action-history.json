@@ -334,6 +334,84 @@
       "resolved_dimensions": ["key_people:wangchao661", "key_people:Konstantin Berestizshevsky"],
       "unresolved_dimensions": [],
       "outcome": {"new_nodes": 0, "new_edges": 0, "evidence_upgraded": 0, "verified_claims": 2, "rejected_claims": 0}
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "community/siliconflow/OneDiff/OneDiff::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "OneDiff",
+      "resolved_dimensions": ["maintainer:strint", "maintainer:marigoold"],
+      "unresolved_dimensions": ["additional_maintainers", "identity_or_affiliation_for_handle_only_nodes"],
+      "outcome": {"new_nodes": 2, "new_edges": 2, "evidence_upgraded": 2, "verified_claims": 2, "rejected_claims": 0},
+      "note": "GitHub PR listings explicitly label strint and marigoold as Collaborator. Other high-signal contributors were not upgraded without stable governance evidence."
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "community/Ascend/CANN/CANN::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "CANN",
+      "resolved_dimensions": ["governance:TSC-PMC-SIG-role-model", "governance:SIG-level-maintainers"],
+      "unresolved_dimensions": ["umbrella_CANN_maintainers", "inference_hotspot_repo_ownership"],
+      "outcome": {"new_nodes": 0, "new_edges": 0, "evidence_upgraded": 1, "verified_claims": 1, "rejected_claims": 1},
+      "note": "CANN governance is hierarchical. TSC membership is project-level governance and was intentionally not promoted to umbrella maintainer edges; repo/SIG ownership must be resolved per component."
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "company/月之暗面/checkpoint-engine::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "Checkpoint Engine",
+      "resolved_dimensions": ["maintainer:HubertZhang", "release_publisher:weixiao-huang"],
+      "unresolved_dimensions": ["additional_maintainers", "identity_or_affiliation_for_handle_only_nodes"],
+      "outcome": {"new_nodes": 2, "new_edges": 2, "evidence_upgraded": 2, "verified_claims": 2, "rejected_claims": 0},
+      "note": "HubertZhang is explicitly labeled Collaborator and is a sustained release publisher/core contributor. weixiao-huang has release-publishing evidence only and was not upgraded to a strong maintainer role."
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "YuanRong TransferEngine",
+      "resolved_dimensions": ["parent_repo_admin:车煜林", "parent_repo_committer:姚昊林"],
+      "unresolved_dimensions": ["transfer_engine_directory_ownership", "transfer_engine_maintainers"],
+      "outcome": {"new_nodes": 0, "new_edges": 0, "evidence_upgraded": 1, "verified_claims": 2, "rejected_claims": 1},
+      "note": "openEuler governance confirms yuanrong-datasystem administrator/committer roles, but current evidence does not map them precisely to TransferEngine directory ownership, so no maintainer edge was created."
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "university/清华大学/Zan Zong::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "Zan Zong",
+      "resolved_dimensions": ["project_contribution:UltraAttn", "project_contribution:FlowPrefill", "project_contribution:SmartMoE"],
+      "unresolved_dimensions": ["current_affiliation_verify"],
+      "outcome": {"new_nodes": 0, "new_edges": 3, "evidence_upgraded": 3, "verified_claims": 3, "rejected_claims": 0},
+      "note": "PACMAN author/publication pages directly support all three project contributions. A separate current-affiliation time-drift signal was discovered and deferred to VERIFY rather than mixed into this action."
+    },
+    {
+      "run_id": "2026-09-17-discover-1",
+      "attempted_at": "2026-09-17",
+      "action_id": "company/Intel/Intel::projects",
+      "action_key": "company:projects:project+community+team",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "Intel",
+      "resolved_dimensions": ["project:xFasterTransformer", "project:OpenVINO", "project:OpenVINO GenAI"],
+      "unresolved_dimensions": [],
+      "outcome": {"new_nodes": 3, "new_edges": 3, "evidence_upgraded": 3, "verified_claims": 3, "rejected_claims": 0},
+      "note": "Selected current active Intel inference projects. Archived Neural Speed / Intel Extension for Transformers / Intel Extension for PyTorch were documented as historical rather than used to fill current frontier coverage."
     }
   ]
 }
