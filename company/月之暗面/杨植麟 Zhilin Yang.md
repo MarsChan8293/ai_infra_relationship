@@ -10,6 +10,7 @@ schools:
 roles: [cofounder, CEO]
 linked_companies:
   - "company/月之暗面/月之暗面"
+projects: [FastMoE]
 areas: [foundation-models, language-modeling]
 last_verified: "2026-09"
 relations:
@@ -32,6 +33,9 @@ relations:
 - Recurrent AI：早期创业
 - [[月之暗面]]：2023 年春创立，联合创始人 / CEO
 
+## AI Infra 交叉
+- [[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：与何家傲、Jiezhong Qiu、曾奥涵、翟季冬、唐杰共同署名，形成 KEG / model research 与 PACMAN / MoE systems 的早期交叉。
+
 ## 人物关系
 - [[智谱/唐杰 Jie Tang|唐杰（Jie Tang）]]：**清华本科科研导师 ↔ 学生 + GLM 论文合著者**。杨植麟 2011–2015 在清华计算机本科阶段接受唐杰科研指导；两人共同署名 ACL 2022 原始 GLM。2023 杨植麟创办 Moonshot AI 后，两人分属不同组织，因此当前不标记为公司同事。
 - [[月之暗面/吴育昕 Yuxin Wu|吴育昕（Yuxin Wu）]]：**清华同届校友 + Moonshot 联合创始人 / 同事**。两人都于 2015 年从清华计算机相关专业毕业，可确认同期在校；2023 年春 Moonshot AI 成立后共同创业并持续共事。公开资料不足以证明本科阶段属于同一班级，因此写“同期校友”而不是“同班同学”。
@@ -46,6 +50,7 @@ relations:
 ## Sources
 - https://keg.cs.tsinghua.edu.cn/jietang/
 - https://keg.cs.tsinghua.edu.cn/codegeex/
+- https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastmoe/
 - https://www.moonshot.ai/about
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
