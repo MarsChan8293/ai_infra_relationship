@@ -1,7 +1,7 @@
 ---
 type: person
 name: Weichao Guo
-aliases: ["Weichao Guo", "郭维超"]
+aliases: ["Weichao Guo"]
 current_affiliations: ["OPPO"]
 schools:
   - "清华大学"
