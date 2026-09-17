@@ -8,6 +8,10 @@ roles: [Founder, CEO]
 linked_companies:
   - "company/趋境科技/趋境科技"
 areas: [ai-inference, token-service, systems]
+last_verified: "2026-09"
+relations:
+  - '{"target":"company/趋境科技/武永卫 Yongwei Wu","type":["student","coworker","technical-collaboration"],"company":"趋境科技","confidence":"high","evidence":["https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html","https://finance.sina.com.cn/wm/2026-07-16/doc-inihyyvy4516279.shtml"]}'
+  - '{"target":"community/kvcache-ai/KTransformers/Xianglin Chen","type":["coworker","paper-coauthor"],"company":"趋境科技","project":"KTransformers","confidence":"high","evidence":["https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/","https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml"]}'
 ---
 # 艾智远（Zhiyuan Ai）
 
@@ -16,12 +20,19 @@ areas: [ai-inference, token-service, systems]
 ## 技术与创业背景
 公开资料显示其为清华大学计算机博士，围绕高效能 Token 生产、异构推理和企业级 AI inference infrastructure 推动 Approaching.AI 的 ATaaS / Token 服务路线。
 
-## 人物关系
-- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**公司技术/学术网络**。武永卫作为趋境科技首席科学家、清华计算机系教授，连接 MADSys / Mooncake 等系统研究；艾智远负责公司创业与产品化方向。
+## 学术与产业关系
+- [[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]：**博士师生关系 + 趋境科技产业化协作**。2024 年趋境科技早期资料称核心创始团队艾智远、陈超、陈祥麟均“出身武永卫门下”；2026 年公开报道进一步明确艾智远清华博士阶段师从武永卫。当前艾智远任 CEO、武永卫任 Chief Scientist，因此同时存在可验证的公司同事与技术协作关系。
+- [[community/kvcache-ai/KTransformers/Xianglin Chen|陈祥麟（Xianglin Chen）]]：**清华 systems 师门网络 + 趋境科技同事 + KTransformers 共同作者**。两人均为趋境科技核心技术团队成员，并共同署名 KTransformers SOSP 2025。
 - [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]]：**Approaching.AI 同事 + 推理/KV cache 工程网络**。公开 vLLM Mooncake Store 集成致谢将 Ke Yang 与多名 Approaching.AI 工程师列为技术反馈贡献者；不据此推断直接汇报关系。
 
+## 图谱意义
+艾智远是武永卫人才网络从清华 systems 研究走向创业和产品化的关键节点。通过趋境科技，这条线与章明星牵引的 KVCache.AI、KTransformers，以及 Mooncake / Token service 生态发生汇合。
+
 ## Sources
-- https://news.sina.cn/sx/2026-03-31/detail-inhswiea2103535.d.html
+- https://media.qimingpian.cn/2024/08/20/fc8db9f5d67d5d3581d38a0db024fef7.html
+- https://finance.sina.com.cn/wm/2026-07-16/doc-inihyyvy4516279.shtml
+- https://finance.sina.com.cn/jjxw/2026-07-13/doc-inihrnpf4308921.shtml
+- https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/
 - https://approaching-ai.com/
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
