@@ -1,6 +1,8 @@
 ---
 type: school
 name: "Massachusetts Institute of Technology"
+labs:
+  - "HAN Lab"
 linked_people:
   - "community/ai-dynamo/Dynamo/Karen Chung"
 ---

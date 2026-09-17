@@ -1,7 +1,8 @@
 ---
 type: company
 name: Fireworks AI
-linked_people: []
+linked_people:
+  - "company/Fireworks AI/Lin Qiao"
 linked_projects: []
 ---
 # Fireworks AI
@@ -11,3 +12,7 @@ Fireworks AI 是面向生成式 AI 的 inference 与 model serving 平台公司�
 
 ## 图谱中的连接
 [[vLLM]]、CUDA/GPU kernels、open-model ecosystem 与高性能 serving 是主要交叉面。具体人物边仅在公开任职与项目贡献同时可核验时建立，避免把“使用某 engine”误写成共同维护。
+
+## Sources
+- https://fireworks.ai/
+- https://www.indexventures.com/companies/fireworks-ai/

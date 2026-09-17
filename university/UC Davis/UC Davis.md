@@ -1,6 +1,8 @@
 ---
 type: school
 name: "UC Davis"
+labs:
+  - "GATE Lab"
 linked_people:
   - "company/字节跳动/方佳瑞 Jiarui Fang"
 ---

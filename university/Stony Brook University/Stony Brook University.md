@@ -1,6 +1,8 @@
 ---
 type: school
 name: "Stony Brook University"
+labs:
+  - "AI Innovation Institute"
 linked_people:
   - "community/ai-dynamo/Dynamo/Sungsoo Ha"
   - "university/清华大学/Shuai Mu"

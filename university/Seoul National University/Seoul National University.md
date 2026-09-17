@@ -1,6 +1,8 @@
 ---
 type: school
 name: "Seoul National University"
+labs:
+  - "Machine Learning Systems Lab"
 linked_people:
   - "company/Inferact/Woosuk Kwon"
 ---

@@ -1,6 +1,8 @@
 ---
 type: school
 name: "Georgia Institute of Technology"
+labs:
+  - "Systems for Artificial Intelligence Lab"
 linked_people:
   - "community/ai-dynamo/NIXL/Adit Ranadive"
   - "community/flashinfer-ai/FlashInfer/Jingfan Sun"

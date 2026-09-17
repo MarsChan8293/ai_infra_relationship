@@ -1,9 +1,12 @@
 ---
 type: company
 name: HPE
+projects:
+  - "NIXL"
 linked_people:
   - "community/ai-dynamo/NIXL/Ryan Hankins"
-linked_projects: []
+linked_projects:
+  - "community/ai-dynamo/NIXL/NIXL"
 ---
 # HPE
 
@@ -21,3 +24,9 @@ HPE 是企业级服务器、HPC、网络与 AI infrastructure 厂商，覆盖计
 - [[community/ai-dynamo/NIXL/Ryan Hankins|Ryan Hankins]]：人物页 `current_affiliations:` 明确记录；[[HPE]]
 
 <!-- END AUTO COMPANY PEOPLE -->
+
+## VERIFY note — NIXL
+The NIXL edge records HPE-affiliated contributor Ryan Hankins' work on libfabric/CXI integration. It is a contributor-network edge, not an HPE ownership claim.
+
+### Sources
+- https://github.com/ai-dynamo/nixl

@@ -54,3 +54,8 @@ RadixArk 是围绕高性能 LLM serving 与 [[SGLang]] 生态形成的 AI infras
 - [[community/sgl-project/SGLang/SGLang|SGLang]]：公司页与社区/项目页均有显式记录；关系：`core-maintainer-network`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->
+
+## Sources
+- https://www.radixark.com/blog/radixark-launches-100m-seed
+- https://github.com/radixark/miles
+- https://github.com/sgl-project/sglang
