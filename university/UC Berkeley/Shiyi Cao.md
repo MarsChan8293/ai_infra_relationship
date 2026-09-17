@@ -4,9 +4,8 @@ name: Shiyi Cao
 aliases: ["Shiyi Cao", "曹诗怡"]
 current_affiliations: ["UC Berkeley","Sky Computing Lab","BAIR"]
 schools:
-  - "上海交通大学"
-  - "ETH Zurich"
   - "UC Berkeley"
+  - "上海交通大学"
 communities: [SGLang]
 projects: [MoE-Lightning]
 areas: [llm-serving, moe-inference, rl-systems, heterogeneous-compute, agent-systems]
@@ -30,6 +29,10 @@ UC Berkeley EECS 博士生，个人主页与 CV 明确写明由 [[company/Infera
 
 ## 图谱意义
 Shiyi Cao 把 Ion / Joseph 的 Sky systems 网络同时连接到 `MoE inference + SGLang + RL/agent systems`，是 Berkeley 新一代 AI Infra / model-system co-design 的高连接节点。
+
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://shiyicao.com/

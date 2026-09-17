@@ -6,7 +6,7 @@
 - People with ≥1 school: 151
 - People without known school: 191
 - Coverage: 44.1%
-- Person-school associations: 196
+- Person-school associations: 197
 - School nodes: 47
 - Audit errors: 0
 
@@ -17,7 +17,7 @@
 | 清华大学 | 61 |
 | UC Berkeley | 28 |
 | 北京大学 | 18 |
-| 上海交通大学 | 16 |
+| 上海交通大学 | 17 |
 | Carnegie Mellon University | 7 |
 | 浙江大学 | 7 |
 | University of Chicago | 6 |

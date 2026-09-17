@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1438,
+  "candidate_count": 1434,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -17594,77 +17594,6 @@
       }
     },
     {
-      "action_id": "university/UC Berkeley/Shu Liu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/UC Berkeley/Shu Liu",
-        "name": "Shu Liu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.267,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.75,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.282,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 7.8"
-      ],
-      "base_priority": 5.973,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/启元实验室/李映辉 Yinghui Li::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -27344,77 +27273,6 @@
       }
     },
     {
-      "action_id": "university/UC Berkeley/Shiyi Cao::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/UC Berkeley/Shiyi Cao",
-        "name": "Shiyi Cao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 5.76,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.75,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.282,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.294,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, moe",
-        "opens underrepresented target types",
-        "bridge 7.8"
-      ],
-      "base_priority": 5.466,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 1,
-            "success": 5
-          },
-          "mean_status_value": 0.892,
-          "mean_reward": 3.333,
-          "reward_signal": 0.682,
-          "yield_adjustment": 0.294
-        },
-        "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/kvcache-ai/Mooncake/Xun Sun::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -31263,73 +31121,6 @@
       }
     },
     {
-      "action_id": "university/UC Berkeley/Shu Liu::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/UC Berkeley/Shu Liu",
-        "name": "Shu Liu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 5.604,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.5,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "bridge 7.8"
-      ],
-      "base_priority": 5.321,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/商汤科技/商汤科技::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -31396,6 +31187,73 @@
           "yield_adjustment": 0.173
         },
         "key_yield_adjustment": 0.173,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/UC Berkeley/Shu Liu::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/UC Berkeley/Shu Liu",
+        "name": "Shu Liu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.599,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 8,
+        "bridge_score": 8.007,
+        "novelty": 0.5,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
+        "bridge 8.0"
+      ],
+      "base_priority": 5.316,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       }
     },
@@ -34151,6 +34009,75 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Anyscale/Anyscale::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/Anyscale/Anyscale",
+        "name": "Anyscale",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "bridge",
+      "priority": 5.492,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 11.35,
+        "novelty": 0.667,
+        "frontier_potential": 0.277,
+        "uncertainty": 0.304,
+        "redundancy_penalty": 0.425,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.173,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Company",
+        "infra: serving/inference, distributed",
+        "opens underrepresented target types",
+        "bridge 11.3"
+      ],
+      "base_priority": 5.319,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 3,
+          "statuses": {
+            "success": 3
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 7.667,
+          "reward_signal": 0.958,
+          "yield_adjustment": 0.173
+        },
+        "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
       }
     },
@@ -45195,6 +45122,73 @@
       }
     },
     {
+      "action_id": "university/UC Berkeley/Shiyi Cao::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/UC Berkeley/Shiyi Cao",
+        "name": "Shiyi Cao",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.126,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 1.3,
+        "url_count": 8,
+        "bridge_score": 8.72,
+        "novelty": 0.5,
+        "frontier_potential": 0.25,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.396,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, moe",
+        "bridge 8.7"
+      ],
+      "base_priority": 4.843,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/摩尔线程/摩尔线程::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -45576,73 +45570,6 @@
         "infra: serving/inference"
       ],
       "base_priority": 4.818,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/UC Berkeley/Shiyi Cao::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/UC Berkeley/Shiyi Cao",
-        "name": "Shiyi Cao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 5.098,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.5,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, moe",
-        "bridge 7.8"
-      ],
-      "base_priority": 4.815,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -46467,66 +46394,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/Anyscale/Anyscale::verify_evidence",
-      "action_key": "company:verify_evidence:none",
-      "source": {
-        "id": "company/Anyscale/Anyscale",
-        "name": "Anyscale",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 5.067,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 11.807,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.132,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 5.067,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -48329,71 +48196,6 @@
       }
     },
     {
-      "action_id": "university/上海交通大学/上海交通大学::spinouts",
-      "action_key": "school:spinouts:company",
-      "source": {
-        "id": "university/上海交通大学/上海交通大学",
-        "name": "上海交通大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "spinouts",
-      "target_families": [
-        "company"
-      ],
-      "strategies": [
-        "official_founder_bio",
-        "university_news_or_tech_transfer"
-      ],
-      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
-      "bucket": "bridge",
-      "priority": 5.008,
-      "cost": 1.6,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 12.459,
-        "novelty": 1.0,
-        "frontier_potential": 0.213,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.247,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type School",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 12.5"
-      ],
-      "base_priority": 5.008,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/腾讯/Baolong Mao::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -48457,6 +48259,71 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/上海交通大学/上海交通大学::spinouts",
+      "action_key": "school:spinouts:company",
+      "source": {
+        "id": "university/上海交通大学/上海交通大学",
+        "name": "上海交通大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "spinouts",
+      "target_families": [
+        "company"
+      ],
+      "strategies": [
+        "official_founder_bio",
+        "university_news_or_tech_transfer"
+      ],
+      "write_hint": "Require founder/alumni/lab-spinoff evidence; do not infer from geography or hiring.",
+      "bucket": "bridge",
+      "priority": 5.002,
+      "cost": 1.6,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 12.524,
+        "novelty": 1.0,
+        "frontier_potential": 0.209,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.251,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type School",
+        "infra: serving/inference, kv-cache, distributed",
+        "opens underrepresented target types",
+        "bridge 12.5"
+      ],
+      "base_priority": 5.002,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -49334,6 +49201,75 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "company/Databricks/Databricks::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/Databricks/Databricks",
+        "name": "Databricks",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "bridge",
+      "priority": 4.96,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 10.272,
+        "novelty": 0.667,
+        "frontier_potential": 0.316,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.404,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.173,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Company",
+        "infra: serving/inference",
+        "opens underrepresented target types",
+        "bridge 10.3"
+      ],
+      "base_priority": 4.787,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 3,
+          "statuses": {
+            "success": 3
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 7.667,
+          "reward_signal": 0.958,
+          "yield_adjustment": 0.173
+        },
+        "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
       }
     },
@@ -55713,76 +55649,6 @@
       }
     },
     {
-      "action_id": "company/Databricks/Databricks::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/Databricks/Databricks",
-        "name": "Databricks",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "verification",
-      "priority": 4.798,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 10.272,
-        "novelty": 0.667,
-        "frontier_potential": 0.316,
-        "uncertainty": 0.633,
-        "redundancy_penalty": 0.404,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.173,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Company",
-        "infra: serving/inference",
-        "opens underrepresented target types",
-        "bridge 10.3",
-        "missing source URLs"
-      ],
-      "base_priority": 4.625,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 3,
-          "statuses": {
-            "success": 3
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 7.667,
-          "reward_signal": 0.958,
-          "yield_adjustment": 0.173
-        },
-        "key_yield_adjustment": 0.173,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/HPE/HPE::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -60845,66 +60711,6 @@
         "bridge 8.3"
       ],
       "base_priority": 4.556,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/Databricks/Databricks::verify_evidence",
-      "action_key": "company:verify_evidence:none",
-      "source": {
-        "id": "company/Databricks/Databricks",
-        "name": "Databricks",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.553,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 10.272,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.115,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 4.553,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -83305,70 +83111,6 @@
       }
     },
     {
-      "action_id": "university/UC Berkeley/Shu Liu::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/UC Berkeley/Shu Liu",
-        "name": "Shu Liu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 3.382,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "bridge 7.8"
-      ],
-      "base_priority": 3.382,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/阿里巴巴/惠彬原 Binyuan Hui::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -84267,6 +84009,70 @@
         "evidence quality below target"
       ],
       "base_priority": 3.38,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/UC Berkeley/Shu Liu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/UC Berkeley/Shu Liu",
+        "name": "Shu Liu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.375,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 8,
+        "bridge_score": 8.007,
+        "novelty": 0.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
+        "bridge 8.0"
+      ],
+      "base_priority": 3.375,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -87913,70 +87719,6 @@
           "yield_adjustment": -0.048
         },
         "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/UC Berkeley/Shiyi Cao::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/UC Berkeley/Shiyi Cao",
-        "name": "Shiyi Cao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 2.993,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 7.785,
-        "novelty": 0.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.363,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, moe",
-        "bridge 7.8"
-      ],
-      "base_priority": 2.993,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -95081,7 +94823,7 @@
       ],
       "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
       "bucket": "bridge",
-      "priority": 5.956,
+      "priority": 5.949,
       "cost": 1.1,
       "coverage": {
         "existing": 1,
@@ -95092,11 +94834,11 @@
         "infra_relevance": 3.45,
         "evidence_quality": 1.3,
         "url_count": 5,
-        "bridge_score": 12.459,
+        "bridge_score": 12.524,
         "novelty": 0.5,
-        "frontier_potential": 0.213,
+        "frontier_potential": 0.209,
         "uncertainty": 0.275,
-        "redundancy_penalty": 0.386,
+        "redundancy_penalty": 0.389,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.138,
@@ -95111,7 +94853,7 @@
         "bridge 12.5",
         "cooldown active (partial, 1d remaining)"
       ],
-      "base_priority": 5.818,
+      "base_priority": 5.811,
       "eligible": false,
       "history": {
         "exact_attempts": 1,
@@ -95234,6 +94976,6 @@
       }
     }
   },
-  "eligible_count": 1427,
+  "eligible_count": 1423,
   "suppressed_count": 11
 }

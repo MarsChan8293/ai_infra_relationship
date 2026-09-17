@@ -10,8 +10,8 @@
 - Project/community nodes: 111
 - Project/community nodes with ≥1 linked person: 81
 - Project/community-person associations: 416
-- Non-company affiliations recognized and routed elsewhere: 82
-- Unresolved source values (backlog, non-fatal): 9
+- Non-company affiliations recognized and routed elsewhere: 84
+- Unresolved source values (backlog, non-fatal): 10
 - Audit errors: 0
 
 ## Companies
@@ -153,6 +153,7 @@
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/UC Berkeley/Shiyi Cao.md` · `affiliation` → `BAIR`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`

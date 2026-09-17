@@ -97,7 +97,7 @@ https://github.com/sgl-project/sglang
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：SGLang co-creator / original paper author
 - [[company/RadixArk/童心源 Xinyuan Tong|童心源（Xinyuan Tong）]]：长期参与 SGLang 模型支持、生产级 serving、多模态与推测解码相关工程。
 - [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]]：SGLang #38652：在 `UnifiedRadixCache` 中接入 LMCache external KV-cache backend。
-- [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[SGLang]]：UC Berkeley Sky 官方项目页面把 Shiyi Cao 列为 SGLang collaborator，连接 Berkeley inference research 与开源 serving runtime。
+- [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：[[community/sgl-project/SGLang/SGLang|SGLang]]：Berkeley Sky 官方项目网络中的 collaborator，连接 Berkeley inference research 与开源 serving runtime。
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：https://github.com/sgl-project/mini-sglang
 
 <!-- END AUTO PROJECT PEOPLE -->

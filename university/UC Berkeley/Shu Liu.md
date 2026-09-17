@@ -27,6 +27,9 @@ UC Berkeley CS 博士生、[[university/UC Berkeley/Sky Computing Lab|Sky Comput
 ## 图谱意义
 Shu Liu 是 `Jenga → MoE inference → AI-driven systems / agents` 的桥节点，也体现 Ion Stoica / Sky 最新一代研究方向的变化。
 
+## 学校关联
+- [[university/UC Berkeley/UC Berkeley|UC Berkeley]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://shulynnliu.com/
 - https://arxiv.org/abs/2503.18292

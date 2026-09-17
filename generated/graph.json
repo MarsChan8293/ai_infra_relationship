@@ -50,7 +50,8 @@
         "projects": [
           "Ray Serve"
         ],
-        "linked_projects": ""
+        "linked_projects": "",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -110,7 +111,8 @@
         "type": "company",
         "name": "Databricks",
         "linked_people": "",
-        "linked_projects": []
+        "linked_projects": [],
+        "last_verified": "2026-09"
       }
     },
     {
@@ -13263,10 +13265,13 @@
         "type": "person",
         "name": "Shiyi Cao",
         "aliases": [
-          "Shiyi Cao"
+          "Shiyi Cao",
+          "曹诗怡"
         ],
         "current_affiliations": [
-          "UC Berkeley"
+          "UC Berkeley",
+          "Sky Computing Lab",
+          "BAIR"
         ],
         "schools": "",
         "communities": [
@@ -13279,7 +13284,8 @@
           "llm-serving",
           "moe-inference",
           "rl-systems",
-          "heterogeneous-compute"
+          "heterogeneous-compute",
+          "agent-systems"
         ],
         "roles": [
           "PhD Student"
@@ -13299,10 +13305,12 @@
         "type": "person",
         "name": "Shu Liu",
         "aliases": [
-          "Shu Liu"
+          "Shu Liu",
+          "Shu Lynn Liu"
         ],
         "current_affiliations": [
-          "UC Berkeley"
+          "UC Berkeley",
+          "Sky Computing Lab"
         ],
         "schools": "",
         "projects": [
@@ -13313,7 +13321,8 @@
           "llm-systems",
           "moe-inference",
           "ai-systems",
-          "distributed-systems"
+          "distributed-systems",
+          "agent-systems"
         ],
         "roles": [
           "PhD Student"
@@ -24768,12 +24777,7 @@
     },
     {
       "source": "company/Anyscale/Anyscale",
-      "target": "community/vllm-project/vLLM/Simon Mo",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/Anyscale/Anyscale",
-      "target": "community/vllm-project/vLLM/vLLM",
+      "target": "community/ray-project/Ray/Ray",
       "kind": "wikilink"
     },
     {
@@ -25074,6 +25078,11 @@
     {
       "source": "company/Databricks/Databricks",
       "target": "community/ai-dynamo/NIXL/NIXL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Databricks/Databricks",
+      "target": "community/apache/Spark/Spark",
       "kind": "wikilink"
     },
     {
@@ -31073,7 +31082,22 @@
     },
     {
       "source": "university/UC Berkeley/Shiyi Cao",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shiyi Cao",
+      "target": "company/Inferact/Joseph Gonzalez",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shiyi Cao",
       "target": "university/UC Berkeley/MoE-Lightning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shiyi Cao",
+      "target": "university/UC Berkeley/Sky Computing Lab",
       "kind": "wikilink"
     },
     {
@@ -31082,8 +31106,18 @@
       "kind": "wikilink"
     },
     {
+      "source": "university/UC Berkeley/Shiyi Cao",
+      "target": "university/上海交通大学/上海交通大学",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/UC Berkeley/Shu Liu",
       "target": "community/vllm-project/Jenga/Jenga",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shu Liu",
+      "target": "company/Inferact/Ion Stoica",
       "kind": "wikilink"
     },
     {
@@ -31094,6 +31128,11 @@
     {
       "source": "university/UC Berkeley/Shu Liu",
       "target": "university/UC Berkeley/Shiyi Cao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Shu Liu",
+      "target": "university/UC Berkeley/Sky Computing Lab",
       "kind": "wikilink"
     },
     {
@@ -31169,6 +31208,16 @@
     {
       "source": "university/UC Berkeley/Sky Computing Lab",
       "target": "university/UC Berkeley/MoE-Lightning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "university/UC Berkeley/Shiyi Cao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/UC Berkeley/Sky Computing Lab",
+      "target": "university/UC Berkeley/Shu Liu",
       "kind": "wikilink"
     },
     {
@@ -31869,6 +31918,11 @@
     {
       "source": "university/上海交通大学/上海交通大学",
       "target": "company/智谱/郑勤锴 Qinkai Zheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/上海交通大学",
+      "target": "university/UC Berkeley/Shiyi Cao",
       "kind": "wikilink"
     },
     {
@@ -34102,14 +34156,14 @@
       "bridge_score": 6.985
     },
     "company/Anyscale/Anyscale": {
-      "degree": 13,
-      "cross_category_degree": 10,
+      "degree": 12,
+      "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.807
+      "bridge_score": 11.35
     },
     "company/Baseten/Baseten": {
       "degree": 5,
@@ -34240,14 +34294,14 @@
       "bridge_score": 17.854
     },
     "company/Inferact/Joseph Gonzalez": {
-      "degree": 12,
-      "cross_category_degree": 9,
+      "degree": 13,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.35
+      "bridge_score": 11.807
     },
     "company/Inferact/Woosuk Kwon": {
       "degree": 16,
@@ -38287,15 +38341,15 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 114,
-      "cross_category_degree": 51,
+      "degree": 113,
+      "cross_category_degree": 50,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 30.695
+      "bridge_score": 30.333
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -38696,24 +38750,24 @@
       "bridge_score": 7.872
     },
     "university/UC Berkeley/Shiyi Cao": {
-      "degree": 5,
-      "cross_category_degree": 2,
+      "degree": 8,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.785
+      "bridge_score": 8.72
     },
     "university/UC Berkeley/Shu Liu": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.785
+      "bridge_score": 8.007
     },
     "university/UC Berkeley/Shuo Yang": {
       "degree": 5,
@@ -38726,14 +38780,14 @@
       "bridge_score": 7.785
     },
     "university/UC Berkeley/Sky Computing Lab": {
-      "degree": 13,
+      "degree": 15,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.107
+      "bridge_score": 11.3
     },
     "university/UC Berkeley/Tian Xia": {
       "degree": 4,
@@ -38934,14 +38988,14 @@
       "bridge_score": 4.307
     },
     "university/上海交通大学/上海交通大学": {
-      "degree": 21,
+      "degree": 22,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.459
+      "bridge_score": 12.524
     },
     "university/上海人工智能实验室/Han Lv": {
       "degree": 2,

@@ -2,21 +2,21 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 444
+- Typed relation edges: 447
 - Person nodes with typed relations: 143 / 342
 - Hard errors: 0
 - Warnings: 7
 
 ## Relation types
 
-- `paper-coauthor`: 203
+- `paper-coauthor`: 206
 - `coworker`: 164
-- `research-collaboration`: 134
+- `research-collaboration`: 137
 - `open-source-collaboration`: 81
 - `mentor-network`: 58
 - `technical-collaboration`: 53
 - `cofounder`: 51
-- `advisor`: 35
+- `advisor`: 38
 - `same-lab`: 30
 - `student`: 22
 - `community-maintainer`: 10
@@ -84,10 +84,10 @@
 | [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
 | [[company/Inferact/Woosuk Kwon|Woosuk Kwon]] | 12.437 | 6 | 6 | 100.0% |
 | [[company/RadixArk/盛颖 Ying Sheng|盛颖]] | 12.170 | 7 | 7 | 100.0% |
+| [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.807 | 7 | 7 | 100.0% |
 | [[company/清程极智/郑纬民 Weimin Zheng|郑纬民]] | 11.650 | 7 | 6 | 85.7% |
 | [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]] | 11.535 | 12 | 11 | 91.7% |
 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
-| [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] | 11.350 | 7 | 7 | 100.0% |
 | [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 11.300 | 5 | 2 | 40.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.207 | 5 | 5 | 100.0% |

@@ -6,6 +6,8 @@ aliases: ["SkyLab", "Berkeley Sky Computing Lab", "UC Berkeley Sky Computing Lab
 linked_people:
   - "company/Inferact/Ion Stoica"
   - "university/UC Berkeley/Matei Zaharia"
+  - "university/UC Berkeley/Shiyi Cao"
+  - "university/UC Berkeley/Shu Liu"
   - "university/UC Berkeley/Shuo Yang"
   - "university/UC Berkeley/Tian Xia"
   - "university/上海交通大学/Xiaoze Fan"
@@ -55,6 +57,8 @@ Sky Computing Lab 是研究机构节点。人物出现在 `linked_people` 只代
 
 - [[company/Inferact/Ion Stoica|Ion Stoica]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/UC Berkeley/Matei Zaharia|Matei Zaharia]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[university/UC Berkeley/Shu Liu|Shu Liu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/UC Berkeley/Shuo Yang|Shuo Yang]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/UC Berkeley/Tian Xia|Tian Xia]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/上海交通大学/Xiaoze Fan|Xiaoze Fan]]：UC Berkeley Sky Computing Lab：2026 Visiting Student Researcher；
