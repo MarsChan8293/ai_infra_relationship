@@ -21,11 +21,29 @@ jobs:
           python-version: '3.11'
       - name: Generate VERIFY-only full queue
         run: python3 scripts/plan-research-v3.py --operator verify --budget 2000 --limit 2000 --as-of 2026-09-18
+      - name: Emit compact execution list
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          p=json.load(open('generated/research-actions.json',encoding='utf-8'))
+          selected=p['selected_actions']
+          with open('generated/full-verify-selected.tsv','w',encoding='utf-8') as f:
+              f.write('rank\taction_id\tsource\tfamily\trelation\tpriority\ttrigger\thistory\n')
+              for i,a in enumerate(selected,1):
+                  s=a['source']; h=((a.get('history') or {}).get('latest') or {}).get('status') or 'new'
+                  f.write(f"{i}\t{a['action_id']}\t{s['name']}\t{s['family']}\t{a['relation']}\t{a['priority']}\t{(a.get('trigger') or {}).get('kind','')}\t{h}\n")
+          c=collections.Counter((a['source']['family'],a['relation']) for a in selected)
+          with open('generated/full-verify-summary.md','w',encoding='utf-8') as f:
+              f.write(f'# Full VERIFY Summary\n\nSelected actions: {len(selected)}\n\n')
+              f.write('| Source family | Relation | Count |\n|---|---|---:|\n')
+              for (fam,rel),n in sorted(c.items(), key=lambda x:(-x[1],x[0])):
+                  f.write(f'| {fam} | {rel} | {n} |\n')
+          PY
       - name: Commit generated VERIFY queue
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add generated/research-actions.json generated/research-priority.json generated/research-queue.md generated/research-history-summary.json
+          git add generated/research-actions.json generated/research-priority.json generated/research-queue.md generated/research-history-summary.json generated/full-verify-selected.tsv generated/full-verify-summary.md
           git diff --cached --quiet && exit 0
           git commit -m 'chore(verify): generate full VERIFY queue'
           git push origin HEAD:verify-full-plan-2026-09-18
