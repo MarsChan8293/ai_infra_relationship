@@ -8,23 +8,38 @@ linked_people:
   - "university/UC Berkeley/Robert Nishihara"
 repository: https://github.com/ray-project/ray
 open_source: true
-areas: [ai-infrastructure]
+areas: [ai-infrastructure, distributed-computing, machine-learning-systems, training, serving]
 last_verified: "2026-09"
 linked_companies: []
 ---
 # Ray
 
 ## 项目简介
-Ray 是面向 AI 与 Python 工作负载的分布式计算框架，Ray Serve 等组件被广泛用于模型服务与 AI Infra。
+Ray 是起源于 UC Berkeley RISELab 的分布式执行框架，最初针对机器学习工作负载中的通用 distributed execution 问题，后来扩展到 training、RL、data processing 与 model serving。
 
-## GitHub
-https://github.com/ray-project/ray
+## Berkeley 起源
+- [[university/UC Berkeley/Philipp Moritz|Philipp Moritz]]：2019 Berkeley 博士论文主题即 Ray，导师 Michael Jordan 与 [[company/Inferact/Ion Stoica|Ion Stoica]]。
+- [[university/UC Berkeley/Robert Nishihara|Robert Nishihara]]：Ray creator；其正式博士导师为 Michael Jordan，与 Ion 的关系是 research / open-source collaboration。
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：Berkeley faculty / Ray research network / Anyscale co-founder。
 
-## 主要维护者 / 组织
-- ray-project
+因此这条谱系应建模为：
+`UC Berkeley RISELab → Ray → Anyscale`
 
-## 生态关系
-该节点用于承接仓库中已有的人才与项目关系；具体人物边仍以人物页的公开证据为准。
+## AI Infra 生态
+- [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]]：把 Ray actor / distributed execution 基础设施延伸到 production model serving。
+- [[company/Anyscale/Anyscale|Anyscale]]：由 Ray creators 创办的商业平台，是 Ray 最直接的产业化节点。
+- Simon Mo 等人物又把 Ray Serve / Anyscale production serving 经验带入 Berkeley vLLM / Inferact 网络。
+- [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] 等后续工程人才体现 Ray core 人才继续流向新一代 inference startups。
+
+## 治理变化
+2025 Ray 加入 PyTorch Foundation。该变化意味着 Ray 的开源治理不应简单等同于 Anyscale 公司所有权；Anyscale 仍是核心商业与工程生态节点，但社区治理需要与公司关系分开建模。
+
+## Sources
+- https://github.com/ray-project/ray
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-124.html
+- https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-30.html
+- https://www.anyscale.com/press/founders-of-open-source-project-ray-launch-anyscale-with-usd-20-6m-in-funding-to-democratize-distributed-programmingfounders-of-open-source-project-ray-launch-anyscale-with-usd-20-6m-in-funding-to-democratize-distributed-programming
+- https://www.anyscale.com/blog/ray-by-anyscale-joins-pytorch-foundation
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
