@@ -3,6 +3,7 @@ type: project
 name: QFactory
 organization: thu-pacman
 linked_people:
+  - "company/清程极智/翟季冬 Jidong Zhai"
   - "university/清华大学/Mingshu Zhai"
   - "university/清华大学/Qihao Zhang"
 areas: [llm-serving, quantization, kernel-generation, ai-compiler]
@@ -31,6 +32,7 @@ QFactory 通过 Qtile Graph 表达与优化 quantized kernels，把量化策略�
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/thu-pacman/QFactory/QFactory|QFactory]]：USENIX ATC 2025，量化 LLM serving / kernel generation。
 - [[university/清华大学/Mingshu Zhai|Mingshu Zhai]]：[[community/thu-pacman/QFactory/QFactory|QFactory]]：USENIX ATC 2025 作者，连接 tensor/compiler 研究与量化 LLM serving。
 - [[university/清华大学/Qihao Zhang|Qihao Zhang]]：[[community/thu-pacman/QFactory/QFactory|QFactory]]：USENIX ATC 2025 第一作者，面向 quantized LLM serving 的 Qtile Graph / kernel optimization。
 

@@ -8,10 +8,10 @@
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 206
 - Project/community nodes: 110
-- Project/community nodes with ≥1 linked person: 78
-- Project/community-person associations: 396
+- Project/community nodes with ≥1 linked person: 80
+- Project/community-person associations: 399
 - Non-company affiliations recognized and routed elsewhere: 75
-- Unresolved source values (backlog, non-fatal): 10
+- Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
 
 ## Companies
@@ -97,6 +97,7 @@
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
+| [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
 | [[community/Deep-Spark/DeepSpark/DeepSpark|DeepSpark]] | 2 |
@@ -117,13 +118,13 @@
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
-| [[community/thu-pacman/QFactory/QFactory|QFactory]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
 | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 1 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
+| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
@@ -131,6 +132,7 @@
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
 | [[company/Together AI/Ladder Residual|Ladder Residual]] | 1 |
+| [[community/thu-pacman/Lethe/Lethe|Lethe]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |
 | [[community/MooreThreads/MUSA/MUSA|MUSA]] | 1 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] | 1 |
@@ -148,6 +150,7 @@
 
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
+- `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`

@@ -2,7 +2,8 @@
 type: project
 name: Lethe
 organization: thu-pacman
-linked_people: []
+linked_people:
+  - "company/清程极智/翟季冬 Jidong Zhai"
 areas: [llm-serving, kv-cache, reasoning-models, cache-pruning, memory-efficiency]
 layer: kv-cache-optimization
 open_source: false
@@ -20,3 +21,12 @@ Lethe 是 PACMAN 参与的 reasoning-intensive LLM serving 工作，发表于 AA
 ## Sources
 - https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-confaaai-zeng-zyhzljz-26/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/author/jidong-zhai/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/thu-pacman/Lethe/Lethe|Lethe]]：AAAI 2026，reasoning-intensive serving 的 adaptive KV-cache pruning。
+
+<!-- END AUTO PROJECT PEOPLE -->

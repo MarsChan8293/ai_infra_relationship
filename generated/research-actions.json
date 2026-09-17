@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1438,
+  "candidate_count": 1434,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -66,73 +66,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 9.305,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.114,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.162,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -288,6 +221,140 @@
       }
     },
     {
+      "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+        "name": "YuanRong TransferEngine",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.966,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, ascend",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.014,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/清华大学/Zan Zong::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Zan Zong",
+        "name": "Zan Zong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 8.344,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.061,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "company/Intel/Intel::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -356,11 +423,11 @@
       }
     },
     {
-      "action_id": "university/清华大学/Zan Zong::project_contribution",
+      "action_id": "university/清华大学/Haojie Wang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
+        "id": "university/清华大学/Haojie Wang",
+        "name": "Haojie Wang",
         "type": "person",
         "family": "person"
       },
@@ -375,7 +442,7 @@
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
       "bucket": "exploration",
-      "priority": 8.181,
+      "priority": 8.243,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -383,14 +450,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 4.0,
+        "infra_relevance": 2.85,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 2.5,
+        "bridge_score": 4.935,
         "novelty": 1.0,
-        "frontier_potential": 0.53,
+        "frontier_potential": 0.433,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
+        "redundancy_penalty": 0.088,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.283,
@@ -400,10 +467,10 @@
       "reasons": [
         "coverage 0/3",
         "source type Person",
-        "infra: serving/inference, scheduler, distributed",
+        "infra: serving/inference, kv-cache, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 7.898,
+      "base_priority": 7.96,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -559,73 +626,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Jinlei Jiang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Jinlei Jiang",
-        "name": "蒋金磊",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 8.097,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.814,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/Ascend/Ascend/Ascend::core_people",
       "action_key": "community:core_people:person",
       "source": {
@@ -739,73 +739,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 9.305,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.114,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.162,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1368,6 +1301,73 @@
       }
     },
     {
+      "action_id": "university/清华大学/Zan Zong::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Zan Zong",
+        "name": "Zan Zong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 8.344,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.061,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1570,6 +1570,73 @@
       }
     },
     {
+      "action_id": "university/清华大学/Haojie Wang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Haojie Wang",
+        "name": "Haojie Wang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 8.243,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.96,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -1636,73 +1703,6 @@
           "yield_adjustment": 0.1
         },
         "key_yield_adjustment": 0.1,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Zan Zong::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 8.181,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.898,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
       }
     },
@@ -1891,73 +1891,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 7.814,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Haojie Wang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Haojie Wang",
-        "name": "Haojie Wang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 8.079,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.796,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -6178,6 +6111,73 @@
       }
     },
     {
+      "action_id": "community/thu-pacman/FastMoE/FastMoE::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/thu-pacman/FastMoE/FastMoE",
+        "name": "FastMoE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.14,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 3.35,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.05,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "bridge 6.0"
+      ],
+      "base_priority": 7.188,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -7945,6 +7945,73 @@
       }
     },
     {
+      "action_id": "university/清华大学/Qihao Zhang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Qihao Zhang",
+        "name": "Qihao Zhang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 6.93,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.3,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.2,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 7.2"
+      ],
+      "base_priority": 6.647,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/UC Berkeley/Shuo Yang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -9627,72 +9694,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Qihao Zhang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Qihao Zhang",
-        "name": "Qihao Zhang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.745,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed"
-      ],
-      "base_priority": 6.462,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -10209,6 +10210,72 @@
         "bridge 7.6"
       ],
       "base_priority": 6.715,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/thu-pacman/FastMoE/FastMoE",
+        "name": "FastMoE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.713,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.35,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.05,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 6.0"
+      ],
+      "base_priority": 6.713,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -12591,71 +12658,6 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.583,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 3.785,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.583,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -16778,6 +16780,72 @@
       }
     },
     {
+      "action_id": "university/清华大学/GLM-130B::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/清华大学/GLM-130B",
+        "name": "GLM-130B",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 6.351,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 6.3"
+      ],
+      "base_priority": 6.351,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DualPath/DualPath::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -17120,71 +17188,6 @@
           "yield_adjustment": 0.283
         },
         "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/GLM-130B::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "university/清华大学/GLM-130B",
-        "name": "GLM-130B",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 6.338,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.338,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },
@@ -22317,70 +22320,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Mingshu Zhai::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/清华大学/Mingshu Zhai",
-        "name": "Mingshu Zhai",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.996,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.15,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.996,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/上海人工智能实验室/Qian Yao::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -22425,70 +22364,6 @@
         "coverage 0/3",
         "source type Person",
         "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.996,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Qihao Zhang::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/清华大学/Qihao Zhang",
-        "name": "Qihao Zhang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.996,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
         "opens underrepresented target types"
       ],
       "base_priority": 5.996,
@@ -23636,6 +23511,73 @@
         "source type Person",
         "infra: distributed, moe",
         "bridge 9.1"
+      ],
+      "base_priority": 5.68,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 5,
+          "statuses": {
+            "success": 5
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 5.5,
+          "reward_signal": 0.88,
+          "yield_adjustment": 0.283
+        },
+        "key_yield_adjustment": 0.283,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/清华大学/Mingshu Zhai::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Mingshu Zhai",
+        "name": "Mingshu Zhai",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 5.963,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 3.15,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 7.2,
+        "novelty": 0.5,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.283,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
+        "bridge 7.2"
       ],
       "base_priority": 5.68,
       "eligible": true,
@@ -25591,70 +25533,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Zan Zong::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.878,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.878,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/guyan364::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -26182,72 +26060,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/GLM-130B::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "university/清华大学/GLM-130B",
-        "name": "GLM-130B",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.827,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.672,
-        "novelty": 0.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.348,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe"
-      ],
-      "base_priority": 5.875,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/ningjingbengxiaohai::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -26770,70 +26582,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Haojie Wang::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "university/清华大学/Haojie Wang",
-        "name": "Haojie Wang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.8,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.8,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/kvcache-ai/KTransformers/Hongtao Chen::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -27288,72 +27036,6 @@
         "bridge 11.3"
       ],
       "base_priority": 5.497,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Mingshu Zhai::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Mingshu Zhai",
-        "name": "Mingshu Zhai",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 5.778,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 3.15,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 4.935,
-        "novelty": 0.5,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.308,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, distributed, moe"
-      ],
-      "base_priority": 5.495,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -46788,6 +46470,73 @@
       }
     },
     {
+      "action_id": "university/清华大学/GLM-130B::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/清华大学/GLM-130B",
+        "name": "GLM-130B",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.053,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.285,
+        "novelty": 0.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.138,
+        "redundancy_penalty": 0.421,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "bridge 6.3"
+      ],
+      "base_priority": 5.101,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ModelTC/LightLLM/Shihao Bai::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -62536,6 +62285,71 @@
       }
     },
     {
+      "action_id": "university/清华大学/KEG::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/清华大学/KEG",
+        "name": "KEG",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "bridge",
+      "priority": 4.471,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 10.885,
+        "novelty": 0.5,
+        "frontier_potential": 0.303,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.419,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Research Institution",
+        "infra: moe",
+        "bridge 10.9"
+      ],
+      "base_priority": 4.471,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM/Patrick von Platen::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -63457,41 +63271,40 @@
       }
     },
     {
-      "action_id": "university/清华大学/KEG::projects",
-      "action_key": "research:projects:project+community",
+      "action_id": "university/清华大学/Mingshu Zhai::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
       "source": {
-        "id": "university/清华大学/KEG",
-        "name": "KEG",
-        "type": "research-institution",
-        "family": "research"
+        "id": "university/清华大学/Mingshu Zhai",
+        "name": "Mingshu Zhai",
+        "type": "person",
+        "family": "person"
       },
-      "relation": "projects",
+      "relation": "technical_collaborator",
       "target_families": [
-        "project",
-        "community"
+        "person"
       ],
       "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
+        "github_pr_commit_review",
+        "paper_or_technical_report"
       ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "bridge",
-      "priority": 4.435,
-      "cost": 1.0,
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.429,
+      "cost": 1.3,
       "coverage": {
-        "existing": 2,
+        "existing": 1,
         "desired": 3,
-        "gap": 0.333
+        "gap": 0.667
       },
       "signals": {
-        "infra_relevance": 0.75,
+        "infra_relevance": 3.15,
         "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 10.409,
-        "novelty": 0.5,
-        "frontier_potential": 0.317,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.412,
+        "url_count": 5,
+        "bridge_score": 7.2,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.0,
@@ -63499,12 +63312,76 @@
         "history_eligible": true
       },
       "reasons": [
-        "coverage 2/3",
-        "source type Research Institution",
-        "infra: moe",
-        "bridge 10.4"
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, distributed, moe",
+        "bridge 7.2"
       ],
-      "base_priority": 4.435,
+      "base_priority": 4.429,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/清华大学/Qihao Zhang::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/清华大学/Qihao Zhang",
+        "name": "Qihao Zhang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.429,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.3,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.2,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 7.2"
+      ],
+      "base_priority": 4.429,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -66854,6 +66731,69 @@
       }
     },
     {
+      "action_id": "university/清华大学/Zan Zong::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/清华大学/Zan Zong",
+        "name": "Zan Zong",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.291,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, distributed"
+      ],
+      "base_priority": 4.291,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "university/香港中文大学/香港中文大学::spinouts",
       "action_key": "school:spinouts:company",
       "source": {
@@ -68299,6 +68239,69 @@
         "infra: scheduler, distributed, ascend"
       ],
       "base_priority": 4.218,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "university/清华大学/Haojie Wang::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/清华大学/Haojie Wang",
+        "name": "Haojie Wang",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.213,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel"
+      ],
+      "base_priority": 4.213,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -70575,72 +70578,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Mingshu Zhai::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "university/清华大学/Mingshu Zhai",
-        "name": "Mingshu Zhai",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 4.114,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.15,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 4.935,
-        "novelty": 0.667,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.114,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "university/上海人工智能实验室/Qian Yao::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -70687,72 +70624,6 @@
         "coverage 1/2",
         "source type Person",
         "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.114,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Qihao Zhang::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "university/清华大学/Qihao Zhang",
-        "name": "Qihao Zhang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 4.114,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.667,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
         "opens underrepresented target types"
       ],
       "base_priority": 4.114,
@@ -73223,72 +73094,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/Zan Zong::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "university/清华大学/Zan Zong",
-        "name": "Zan Zong",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 4.007,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 0.667,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.194,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.007,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/tile-ai/TileScale/TileScale::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -74311,72 +74116,6 @@
         "opens underrepresented target types"
       ],
       "base_priority": 3.943,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/Haojie Wang::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "university/清华大学/Haojie Wang",
-        "name": "Haojie Wang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 3.934,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 0.667,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.194,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 3.934,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -95241,6 +94980,6 @@
       }
     }
   },
-  "eligible_count": 1427,
+  "eligible_count": 1423,
   "suppressed_count": 11
 }

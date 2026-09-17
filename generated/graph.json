@@ -3237,13 +3237,18 @@
         ],
         "current_affiliations": [
           "Tsinghua University",
+          "PACMAN Lab",
+          "Tsinghua University",
           "Qingcheng.ai"
         ],
         "schools": "",
         "linked_companies": "",
         "projects": [
           "Jenga",
-          "FastDecode"
+          "FastDecode",
+          "FastMoE",
+          "QFactory",
+          "Lethe"
         ],
         "roles": [
           "Professor",
@@ -3254,7 +3259,9 @@
           "distributed-training",
           "performance-analysis",
           "compiler-optimization",
-          "llm-serving"
+          "llm-serving",
+          "quantization",
+          "kv-cache"
         ],
         "last_verified": "2026-09",
         "relations": ""
@@ -11191,7 +11198,7 @@
         "type": "project",
         "name": "FastMoE",
         "organization": "thu-pacman",
-        "linked_people": [],
+        "linked_people": "",
         "areas": [
           "moe",
           "distributed-training",
@@ -11216,7 +11223,7 @@
         "type": "project",
         "name": "Lethe",
         "organization": "thu-pacman",
-        "linked_people": [],
+        "linked_people": "",
         "areas": [
           "llm-serving",
           "kv-cache",
@@ -22303,6 +22310,11 @@
     },
     {
       "source": "community/thu-pacman/FastMoE/FastMoE",
+      "target": "company/清程极智/翟季冬 Jidong Zhai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/thu-pacman/FastMoE/FastMoE",
       "target": "university/清华大学/KEG",
       "kind": "wikilink"
     },
@@ -28973,6 +28985,21 @@
     },
     {
       "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "community/thu-pacman/FastMoE/FastMoE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "community/thu-pacman/Lethe/Lethe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "community/thu-pacman/QFactory/QFactory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
       "target": "community/vllm-project/Jenga/Jenga",
       "kind": "wikilink"
     },
@@ -29018,27 +29045,47 @@
     },
     {
       "source": "company/清程极智/翟季冬 Jidong Zhai",
-      "target": "company/清程极智/汤雄超 Xiongchao Tang",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/清程极智/翟季冬 Jidong Zhai",
       "target": "company/清程极智/清程极智",
       "kind": "wikilink"
     },
     {
       "source": "company/清程极智/翟季冬 Jidong Zhai",
-      "target": "company/清程极智/靳江明 Jiangming Jin",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/清程极智/翟季冬 Jidong Zhai",
-      "target": "company/清程极智/马子轩 Zixuan Ma",
-      "kind": "wikilink"
-    },
-    {
-      "source": "company/清程极智/翟季冬 Jidong Zhai",
       "target": "university/清华大学/FastDecode",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/GLM-130B",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/KEG",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/Mingshu Zhai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/PACMAN",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/Qihao Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/清程极智/翟季冬 Jidong Zhai",
+      "target": "university/清华大学/Zan Zong",
       "kind": "wikilink"
     },
     {
@@ -34407,14 +34454,14 @@
       "bridge_score": 10.337
     },
     "company/清程极智/翟季冬 Jidong Zhai": {
-      "degree": 25,
-      "cross_category_degree": 12,
+      "degree": 32,
+      "cross_category_degree": 19,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.4
+      "bridge_score": 16.194
     },
     "company/清程极智/郑纬民 Weimin Zheng": {
       "degree": 15,
@@ -37110,12 +37157,13 @@
       "bridge_score": 6.372
     },
     "community/thu-pacman/FastMoE/FastMoE": {
-      "degree": 2,
-      "cross_category_degree": 2,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
+        "company",
         "university"
       ],
-      "bridge_score": 3.785
+      "bridge_score": 6.05
     },
     "community/thu-pacman/Lethe/Lethe": {
       "degree": 2,
@@ -38385,21 +38433,22 @@
       "bridge_score": 5.7
     },
     "university/清华大学/GLM-130B": {
-      "degree": 4,
+      "degree": 5,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "company",
+        "university"
+      ],
+      "bridge_score": 6.285
+    },
+    "university/清华大学/Haojie Wang": {
+      "degree": 2,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "company",
         "university"
       ],
-      "bridge_score": 5.672
-    },
-    "university/清华大学/Haojie Wang": {
-      "degree": 1,
-      "cross_category_degree": 0,
-      "neighbor_categories": [
-        "university"
-      ],
-      "bridge_score": 2.5
+      "bridge_score": 4.935
     },
     "university/清华大学/Jinlei Jiang": {
       "degree": 5,
@@ -38411,14 +38460,14 @@
       "bridge_score": 5.935
     },
     "university/清华大学/KEG": {
-      "degree": 10,
-      "cross_category_degree": 7,
+      "degree": 11,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.409
+      "bridge_score": 10.885
     },
     "university/清华大学/Kang Chen": {
       "degree": 7,
@@ -38440,13 +38489,14 @@
       "bridge_score": 17.9
     },
     "university/清华大学/Mingshu Zhai": {
-      "degree": 2,
-      "cross_category_degree": 1,
+      "degree": 3,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "company",
         "university"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 7.2
     },
     "university/清华大学/Mingxing Zhang": {
       "degree": 24,
@@ -38469,13 +38519,14 @@
       "bridge_score": 12.787
     },
     "university/清华大学/Qihao Zhang": {
-      "degree": 2,
-      "cross_category_degree": 1,
+      "degree": 3,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "company",
         "university"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 7.2
     },
     "university/清华大学/Ruoyu Qin": {
       "degree": 12,
@@ -38544,12 +38595,13 @@
       "bridge_score": 8.707
     },
     "university/清华大学/Zan Zong": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 2,
+      "cross_category_degree": 1,
       "neighbor_categories": [
+        "company",
         "university"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 4.935
     },
     "university/清华大学/清华大学": {
       "degree": 82,

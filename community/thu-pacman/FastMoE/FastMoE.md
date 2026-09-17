@@ -2,7 +2,8 @@
 type: project
 name: FastMoE
 organization: thu-pacman
-linked_people: []
+linked_people:
+  - "company/清程极智/翟季冬 Jidong Zhai"
 areas: [moe, distributed-training, all-to-all-communication, load-balancing, large-model-training]
 layer: distributed-moe-training
 open_source: true
@@ -23,3 +24,12 @@ FastMoE 的作者网络非常关键：何家傲、Jiezhong Qiu、曾奥涵、杨
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastmoe/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastermoe/
 - https://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：PACMAN 与 KEG 早期 MoE system co-design 强边。
+
+<!-- END AUTO PROJECT PEOPLE -->
