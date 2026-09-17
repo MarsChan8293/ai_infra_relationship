@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Reset current-run history, harden parser, and clean generated nodes
+      - name: Reset current-run history and clean generated nodes
         run: |
           python3 - <<'PY'
           import json, pathlib
@@ -52,35 +52,12 @@ jobs:
               "GOV_FILES = ('MAINTAINERS.md','MAINTAINERS','.github/MAINTAINERS.md','CODEOWNERS','.github/CODEOWNERS','OWNERS','OWNERS.md','GOVERNANCE.md')",
               "GOV_FILES = ('MAINTAINERS.md','MAINTAINERS','.github/MAINTAINERS.md')"
           )
-          needle="""                hs=[]
-                for h in HANDLE_RE.findall(text):
-                    if h.lower() not in BOT_HANDLES and h not in hs: hs.append(h)"""
-          replacement="""                hs=[]
-                section=text
-                active_match=re.search(r'(?ims)^##\\s+Active\\s*$([\\s\\S]*?)(?=^##\\s|\\Z)', text)
-                if active_match:
-                    section=active_match.group(1)
-                for line in section.splitlines():
-                    line=line.strip()
-                    if not line.startswith('|'):
-                        continue
-                    cols=[c.strip().strip('`*') for c in line.strip('|').split('|')]
-                    if not cols:
-                        continue
-                    candidate=cols[0]
-                    if re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]{0,38}', candidate):
-                        low=candidate.lower()
-                        if low not in BOT_HANDLES and low not in {'github','githubid','id','maintainer','maintainers'} and candidate not in hs:
-                            hs.append(candidate)
-                for h in HANDLE_RE.findall(section):
-                    if h.lower() not in BOT_HANDLES and h not in hs: hs.append(h)"""
-          if needle not in text:
-              raise SystemExit('maintainer table parser patch target not found')
-          text=text.replace(needle,replacement,1)
           path.write_text(text,encoding='utf-8')
           PY
       - name: Execute full DISCOVER pass
         run: python3 scripts/execute-full-discover-run.py
+      - name: Promote active maintainer-table identities
+        run: python3 scripts/promote-maintainer-tables.py
       - name: Validate research history and operators
         run: |
           python3 scripts/test-research-history.py
