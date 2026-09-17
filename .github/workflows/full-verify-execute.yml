@@ -23,9 +23,9 @@ jobs:
         run: python3 scripts/execute-full-verify-run.py
       - name: Validate research history and operators
         run: |
-          python3 scripts/test-research-action-history.py
+          python3 scripts/test-research-history.py
           python3 scripts/test-research-operators.py
-          python3 scripts/validate-typed-relations.py
+          python3 scripts/audit-typed-relations.py --root . --generated generated
       - name: Commit full VERIFY results
         run: |
           git config user.name 'github-actions[bot]'
