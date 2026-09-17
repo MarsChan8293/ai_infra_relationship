@@ -4,8 +4,7 @@
   "run_id": "2026-09-18-discover-full",
   "actions": 505,
   "status_counts": {
-    "success": 4,
-    "partial": 493,
+    "partial": 497,
     "unresolved": 8
   },
   "relation_counts": {
@@ -24,82 +23,18 @@
     "academic_links": 6,
     "spinouts": 1
   },
-  "created_nodes": [
-    "community/lightseekorg/TorchSpec/yubofredwang",
-    "community/lightseekorg/TorchSpec/cicirori",
-    "community/lightseekorg/TorchSpec/Dogacel",
-    "company/Intel/Wovchena",
-    "company/Intel/as-suvorov",
-    "company/Intel/Retribution98",
-    "company/Intel/likholat",
-    "company/Intel/sgonorov",
-    "company/Intel/RyanMetcalfeInt8",
-    "community/vllm-project/Speculators/fynnsu",
-    "community/vllm-project/Speculators/shanjiaz",
-    "community/vllm-project/Speculators/rahul-tuli",
-    "community/vllm-project/Speculators/orestis-z",
-    "community/vllm-project/Speculators/dsikka",
-    "community/vllm-project/Speculators/dhuangnm",
-    "community/ggml-org/llama.cpp/ngxson",
-    "community/ggml-org/llama.cpp/JohannesGaessler",
-    "community/ggml-org/llama.cpp/CISC",
-    "community/ggml-org/llama.cpp/srogmann",
-    "community/ggml-org/llama.cpp/danbev",
-    "community/verl-project/VeRL-Omni/zhtmike",
-    "community/verl-project/VeRL-Omni/wtomin",
-    "community/verl-project/VeRL-Omni/chenyingshu",
-    "community/verl-project/VeRL-Omni/NancyFyong",
-    "community/verl-project/VeRL-Omni/WenzheWang",
-    "community/lightseekorg/TokenSpeed/zhyncs",
-    "community/lightseekorg/TokenSpeed/borontion",
-    "community/lightseekorg/TokenSpeed/antiagainst",
-    "community/lightseekorg/TokenSpeed/dongjiyingdjy",
-    "community/lightseekorg/TokenSpeed/syuoni",
-    "community/lightseekorg/TokenSpeed/LorrinWWW",
-    "community/ray-project/Ray-Serve/SongGuyang",
-    "community/ray-project/Ray-Serve/raulchen",
-    "community/ray-project/Ray-Serve/kfstorm",
-    "community/ray-project/Ray-Serve/edoakes",
-    "community/ray-project/Ray-Serve/MengjinYan",
-    "community/ray-project/Ray-Serve/marosset",
-    "community/sgl-project/SpecForge/FrankLeeeee",
-    "community/sgl-project/SpecForge/zyksir",
-    "community/sgl-project/SpecForge/sleepcoo",
-    "community/sgl-project/SpecForge/shuaills",
-    "community/sgl-project/SpecForge/FlamingoPg",
-    "community/flagos-ai/FlagCX/MC952-arch",
-    "community/flagos-ai/FlagCX/mikethegoblin",
-    "community/radixark/Miles/fzyzcjy",
-    "community/radixark/Miles/Ying1123",
-    "community/radixark/Miles/yushengsu-thu",
-    "community/radixark/Miles/guapisolo",
-    "community/radixark/Miles/yueming-yuan",
-    "community/radixark/Miles/Zhichenzzz",
-    "community/flagos-ai/FlagGems/global-owner2",
-    "community/flagos-ai/FlagGems/0x45f",
-    "community/flagos-ai/FlagGems/huangyiqun",
-    "community/flagos-ai/FlagGems/103yiran",
-    "community/flagos-ai/FlagGems/modao1234",
-    "community/flagos-ai/FlagGems/bin913",
-    "community/Oneflow-Inc/OneFlow/liujuncheng",
-    "community/Oneflow-Inc/OneFlow/daquexian",
-    "community/Oneflow-Inc/OneFlow/chengtbf",
-    "community/Oneflow-Inc/OneFlow/hjchen2"
-  ],
+  "created_nodes": [],
   "records": [
     {
       "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
       "source_id": "community/lightseekorg/TorchSpec/TorchSpec",
       "source_name": "TorchSpec",
       "relation": "maintainers",
-      "status": "success",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@yubofredwang",
-        "maintainer:@cicirori",
-        "maintainer:@Dogacel"
+      "status": "partial",
+      "resolved": [],
+      "unresolved": [
+        "maintainer_governance"
       ],
-      "unresolved": [],
       "source_urls": [
         "https://github.com/lightseekorg/TorchSpec",
         "https://pytorch.org/blog/torchspec-speculative-decoding-training-at-scale/"
@@ -118,22 +53,8 @@
       ],
       "governance": {
         "repo": "https://github.com/lightseekorg/TorchSpec",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/lightseekorg/TorchSpec/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "yubofredwang",
-              "cicirori",
-              "Dogacel"
-            ]
-          }
-        ],
-        "handles": [
-          "yubofredwang",
-          "cicirori",
-          "Dogacel"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -142,17 +63,9 @@
       "source_name": "OpenVINO GenAI",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@Wovchena",
-        "maintainer:@as-suvorov",
-        "maintainer:@Retribution98",
-        "maintainer:@likholat",
-        "maintainer:@sgonorov",
-        "maintainer:@RyanMetcalfeInt8"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/openvinotoolkit/openvino.genai",
@@ -172,38 +85,8 @@
       ],
       "governance": {
         "repo": "https://github.com/openvinotoolkit/openvino.genai",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino.genai/master/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "Wovchena",
-              "as-suvorov",
-              "Retribution98",
-              "likholat",
-              "sgonorov",
-              "RyanMetcalfeInt8",
-              "pavel-esir",
-              "yatarkan",
-              "sbalandi",
-              "apaniukov",
-              "avasenin-14"
-            ]
-          }
-        ],
-        "handles": [
-          "Wovchena",
-          "as-suvorov",
-          "Retribution98",
-          "likholat",
-          "sgonorov",
-          "RyanMetcalfeInt8",
-          "pavel-esir",
-          "yatarkan",
-          "sbalandi",
-          "apaniukov",
-          "avasenin-14"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -212,17 +95,9 @@
       "source_name": "Speculators",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@fynnsu",
-        "maintainer:@shanjiaz",
-        "maintainer:@rahul-tuli",
-        "maintainer:@orestis-z",
-        "maintainer:@dsikka",
-        "maintainer:@dhuangnm"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/vllm-project/speculators",
@@ -242,30 +117,8 @@
       ],
       "governance": {
         "repo": "https://github.com/vllm-project/speculators",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/vllm-project/speculators/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "fynnsu",
-              "shanjiaz",
-              "rahul-tuli",
-              "orestis-z",
-              "dsikka",
-              "dhuangnm",
-              "deepak-kumar-neu"
-            ]
-          }
-        ],
-        "handles": [
-          "fynnsu",
-          "shanjiaz",
-          "rahul-tuli",
-          "orestis-z",
-          "dsikka",
-          "dhuangnm",
-          "deepak-kumar-neu"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -1359,11 +1212,9 @@
       "source_name": "OpenVINO",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS"
-      ],
+      "resolved": [],
       "unresolved": [
-        "maintainer_identity_parse"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/openvinotoolkit/openvino",
@@ -1383,13 +1234,7 @@
       ],
       "governance": {
         "repo": "https://github.com/openvinotoolkit/openvino",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": []
-          }
-        ],
+        "files": [],
         "handles": []
       }
     },
@@ -2996,17 +2841,9 @@
       "source_name": "llama.cpp",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:CODEOWNERS",
-        "maintainer:@ngxson",
-        "maintainer:@ggerganov",
-        "maintainer:@JohannesGaessler",
-        "maintainer:@CISC",
-        "maintainer:@srogmann",
-        "maintainer:@danbev"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/ggml-org/llama.cpp",
@@ -3026,62 +2863,8 @@
       ],
       "governance": {
         "repo": "https://github.com/ggml-org/llama.cpp",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/CODEOWNERS",
-            "path": "CODEOWNERS",
-            "handles": [
-              "ngxson",
-              "ggerganov",
-              "JohannesGaessler",
-              "CISC",
-              "srogmann",
-              "danbev",
-              "pwilkin",
-              "am17an",
-              "hanyin-arm",
-              "naco-siren",
-              "bartowski1182",
-              "alex-spacemit",
-              "IMbackK",
-              "marty1885",
-              "cavusmustafa",
-              "wine99",
-              "kpouget",
-              "Andreas-Krebbel",
-              "AlekseiNikiforovIBM",
-              "avinashcpandey",
-              "Jiten1parmar",
-              "z-vishal",
-              "Green-Sky"
-            ]
-          }
-        ],
-        "handles": [
-          "ngxson",
-          "ggerganov",
-          "JohannesGaessler",
-          "CISC",
-          "srogmann",
-          "danbev",
-          "pwilkin",
-          "am17an",
-          "hanyin-arm",
-          "naco-siren",
-          "bartowski1182",
-          "alex-spacemit",
-          "IMbackK",
-          "marty1885",
-          "cavusmustafa",
-          "wine99",
-          "kpouget",
-          "Andreas-Krebbel",
-          "AlekseiNikiforovIBM",
-          "avinashcpandey",
-          "Jiten1parmar",
-          "z-vishal",
-          "Green-Sky"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -4251,17 +4034,9 @@
       "source_name": "VeRL-Omni",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@samithuang",
-        "maintainer:@zhtmike",
-        "maintainer:@wtomin",
-        "maintainer:@chenyingshu",
-        "maintainer:@NancyFyong",
-        "maintainer:@WenzheWang"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/verl-project/verl-omni",
@@ -4281,38 +4056,8 @@
       ],
       "governance": {
         "repo": "https://github.com/verl-project/verl-omni",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/verl-project/verl-omni/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "samithuang",
-              "zhtmike",
-              "wtomin",
-              "chenyingshu",
-              "NancyFyong",
-              "WenzheWang",
-              "cr-gao",
-              "knlnguyen1802",
-              "Sky-Trigger",
-              "ZihaoW123",
-              "ruihanglix"
-            ]
-          }
-        ],
-        "handles": [
-          "samithuang",
-          "zhtmike",
-          "wtomin",
-          "chenyingshu",
-          "NancyFyong",
-          "WenzheWang",
-          "cr-gao",
-          "knlnguyen1802",
-          "Sky-Trigger",
-          "ZihaoW123",
-          "ruihanglix"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -5213,12 +4958,8 @@
       "relation": "related_projects",
       "status": "partial",
       "resolved": [
-        "frontier_repo:https://github.com/ovg-project/kvcached",
-        "frontier_repo:https://github.com/pku-dair/hetu",
-        "frontier_repo:https://github.com/tie-pilot-qxw/syncopate",
-        "frontier_repo:https://github.com/kstep-dev/kstep",
         "internal_graph_links:18",
-        "reachable_sources:2"
+        "reachable_sources:1"
       ],
       "unresolved": [
         "project_relevance_and_direct_relation"
@@ -5227,12 +4968,7 @@
         "https://www.usenix.org/conference/osdi26/presentation/qin",
         "https://www.usenix.org/conference/osdi26/technical-sessions"
       ],
-      "discovered_repositories": [
-        "https://github.com/ovg-project/kvcached",
-        "https://github.com/pku-dair/hetu",
-        "https://github.com/tie-pilot-qxw/syncopate",
-        "https://github.com/kstep-dev/kstep"
-      ],
+      "discovered_repositories": [],
       "governance": null
     },
     {
@@ -5857,17 +5593,11 @@
       "source_id": "community/lightseekorg/TokenSpeed/TokenSpeed",
       "source_name": "TokenSpeed",
       "relation": "maintainers",
-      "status": "success",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@zhyncs",
-        "maintainer:@borontion",
-        "maintainer:@antiagainst",
-        "maintainer:@dongjiyingdjy",
-        "maintainer:@syuoni",
-        "maintainer:@LorrinWWW"
+      "status": "partial",
+      "resolved": [],
+      "unresolved": [
+        "maintainer_governance"
       ],
-      "unresolved": [],
       "source_urls": [
         "https://github.com/lightseekorg/tokenspeed",
         "https://lightseek.org/blog/lightseek-tokenspeed.html"
@@ -5886,33 +5616,8 @@
       ],
       "governance": {
         "repo": "https://github.com/lightseekorg/tokenspeed",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": []
-          },
-          {
-            "url": "https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/GOVERNANCE.md",
-            "path": "GOVERNANCE.md",
-            "handles": [
-              "zhyncs",
-              "borontion",
-              "antiagainst",
-              "dongjiyingdjy",
-              "syuoni",
-              "LorrinWWW"
-            ]
-          }
-        ],
-        "handles": [
-          "zhyncs",
-          "borontion",
-          "antiagainst",
-          "dongjiyingdjy",
-          "syuoni",
-          "LorrinWWW"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -7147,17 +6852,9 @@
       "source_name": "Ray Serve",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@SongGuyang",
-        "maintainer:@raulchen",
-        "maintainer:@kfstorm",
-        "maintainer:@edoakes",
-        "maintainer:@MengjinYan",
-        "maintainer:@marosset"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/ray-project/ray"
@@ -7176,44 +6873,8 @@
       ],
       "governance": {
         "repo": "https://github.com/ray-project/ray",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/ray-project/ray/master/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "SongGuyang",
-              "raulchen",
-              "kfstorm",
-              "edoakes",
-              "MengjinYan",
-              "marosset",
-              "jackfrancis",
-              "alimaazamat",
-              "richardliaw",
-              "matthewdeng",
-              "pcmoritz",
-              "thomasdesr",
-              "andrewsykim",
-              "ryanaoleary"
-            ]
-          }
-        ],
-        "handles": [
-          "SongGuyang",
-          "raulchen",
-          "kfstorm",
-          "edoakes",
-          "MengjinYan",
-          "marosset",
-          "jackfrancis",
-          "alimaazamat",
-          "richardliaw",
-          "matthewdeng",
-          "pcmoritz",
-          "thomasdesr",
-          "andrewsykim",
-          "ryanaoleary"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -9627,17 +9288,11 @@
       "source_id": "community/sgl-project/SpecForge/SpecForge",
       "source_name": "SpecForge",
       "relation": "maintainers",
-      "status": "success",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@FrankLeeeee",
-        "maintainer:@zyksir",
-        "maintainer:@sleepcoo",
-        "maintainer:@shuaills",
-        "maintainer:@FlamingoPg",
-        "maintainer:@zhyncs"
+      "status": "partial",
+      "resolved": [],
+      "unresolved": [
+        "maintainer_governance"
       ],
-      "unresolved": [],
       "source_urls": [
         "https://github.com/sgl-project/SpecForge",
         "https://github.com/sgl-project/SpecForge/blob/main/README.md"
@@ -9656,28 +9311,8 @@
       ],
       "governance": {
         "repo": "https://github.com/sgl-project/SpecForge",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/sgl-project/SpecForge/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "FrankLeeeee",
-              "zyksir",
-              "sleepcoo",
-              "shuaills",
-              "FlamingoPg",
-              "zhyncs"
-            ]
-          }
-        ],
-        "handles": [
-          "FrankLeeeee",
-          "zyksir",
-          "sleepcoo",
-          "shuaills",
-          "FlamingoPg",
-          "zhyncs"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -9971,14 +9606,13 @@
       "source_id": "community/flagos-ai/FlagCX/FlagCX",
       "source_name": "FlagCX",
       "relation": "maintainers",
-      "status": "success",
+      "status": "partial",
       "resolved": [
-        "governance_file:MAINTAINERS.md",
-        "maintainer:@MC952-arch",
-        "maintainer:@mikethegoblin",
-        "maintainer:@aoyulong"
+        "governance_file:MAINTAINERS.md"
       ],
-      "unresolved": [],
+      "unresolved": [
+        "maintainer_identity_parse"
+      ],
       "source_urls": [
         "https://github.com/flagos-ai/FlagCX",
         "https://github.com/flagos-ai/FlagCX/blob/main/MAINTAINERS.md"
@@ -10002,29 +9636,9 @@
             "url": "https://raw.githubusercontent.com/flagos-ai/FlagCX/main/MAINTAINERS.md",
             "path": "MAINTAINERS.md",
             "handles": []
-          },
-          {
-            "url": "https://raw.githubusercontent.com/flagos-ai/FlagCX/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "MC952-arch",
-              "mikethegoblin",
-              "aoyulong"
-            ]
-          },
-          {
-            "url": "https://raw.githubusercontent.com/flagos-ai/FlagCX/main/GOVERNANCE.md",
-            "path": "GOVERNANCE.md",
-            "handles": [
-              "MC952-arch"
-            ]
           }
         ],
-        "handles": [
-          "MC952-arch",
-          "mikethegoblin",
-          "aoyulong"
-        ]
+        "handles": []
       }
     },
     {
@@ -11680,17 +11294,9 @@
       "source_name": "Miles",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@fzyzcjy",
-        "maintainer:@Ying1123",
-        "maintainer:@yushengsu-thu",
-        "maintainer:@guapisolo",
-        "maintainer:@yueming-yuan",
-        "maintainer:@Zhichenzzz"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://github.com/radixark/miles",
@@ -11710,36 +11316,8 @@
       ],
       "governance": {
         "repo": "https://github.com/radixark/miles",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/radixark/miles/main/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "fzyzcjy",
-              "Ying1123",
-              "yushengsu-thu",
-              "guapisolo",
-              "yueming-yuan",
-              "Zhichenzzz",
-              "maocheng23",
-              "Shi-Dong",
-              "Rockdu",
-              "jybsuper"
-            ]
-          }
-        ],
-        "handles": [
-          "fzyzcjy",
-          "Ying1123",
-          "yushengsu-thu",
-          "guapisolo",
-          "yueming-yuan",
-          "Zhichenzzz",
-          "maocheng23",
-          "Shi-Dong",
-          "Rockdu",
-          "jybsuper"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {
@@ -12125,16 +11703,10 @@
       "relation": "maintainers",
       "status": "partial",
       "resolved": [
-        "governance_file:MAINTAINERS.md",
-        "maintainer:@global-owner2",
-        "maintainer:@0x45f",
-        "maintainer:@huangyiqun",
-        "maintainer:@103yiran",
-        "maintainer:@modao1234",
-        "maintainer:@bin913"
+        "governance_file:MAINTAINERS.md"
       ],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_identity_parse"
       ],
       "source_urls": [
         "https://github.com/flagos-ai/FlagGems",
@@ -12159,41 +11731,9 @@
             "url": "https://raw.githubusercontent.com/flagos-ai/FlagGems/master/MAINTAINERS.md",
             "path": "MAINTAINERS.md",
             "handles": []
-          },
-          {
-            "url": "https://raw.githubusercontent.com/flagos-ai/FlagGems/master/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "global-owner2",
-              "0x45f",
-              "huangyiqun",
-              "103yiran",
-              "modao1234",
-              "bin913",
-              "w1120029931-bit",
-              "hellojack163",
-              "Caeruleann",
-              "tengqm"
-            ]
-          },
-          {
-            "url": "https://raw.githubusercontent.com/flagos-ai/FlagGems/master/GOVERNANCE.md",
-            "path": "GOVERNANCE.md",
-            "handles": []
           }
         ],
-        "handles": [
-          "global-owner2",
-          "0x45f",
-          "huangyiqun",
-          "103yiran",
-          "modao1234",
-          "bin913",
-          "w1120029931-bit",
-          "hellojack163",
-          "Caeruleann",
-          "tengqm"
-        ]
+        "handles": []
       }
     },
     {
@@ -14006,17 +13546,9 @@
       "source_name": "OneFlow",
       "relation": "maintainers",
       "status": "partial",
-      "resolved": [
-        "governance_file:.github/CODEOWNERS",
-        "maintainer:@liujuncheng",
-        "maintainer:@BBuf",
-        "maintainer:@daquexian",
-        "maintainer:@chengtbf",
-        "maintainer:@strint",
-        "maintainer:@hjchen2"
-      ],
+      "resolved": [],
       "unresolved": [
-        "additional_governance_handles_after_cap"
+        "maintainer_governance"
       ],
       "source_urls": [
         "https://arxiv.org/abs/2110.15032",
@@ -14036,32 +13568,8 @@
       ],
       "governance": {
         "repo": "https://github.com/Oneflow-Inc/oneflow",
-        "files": [
-          {
-            "url": "https://raw.githubusercontent.com/Oneflow-Inc/oneflow/master/.github/CODEOWNERS",
-            "path": ".github/CODEOWNERS",
-            "handles": [
-              "liujuncheng",
-              "BBuf",
-              "daquexian",
-              "chengtbf",
-              "strint",
-              "hjchen2",
-              "jackalcooper",
-              "doombeaker"
-            ]
-          }
-        ],
-        "handles": [
-          "liujuncheng",
-          "BBuf",
-          "daquexian",
-          "chengtbf",
-          "strint",
-          "hjchen2",
-          "jackalcooper",
-          "doombeaker"
-        ]
+        "files": [],
+        "handles": []
       }
     },
     {

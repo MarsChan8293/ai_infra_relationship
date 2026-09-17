@@ -4,9 +4,9 @@ This run executes the DISCOVER operator against the full currently eligible port
 
 - DISCOVER actions: **505**
 - Coverage-gap triggers and bridge triggers are both included.
-- Durable outcomes: partial=493, success=4, unresolved=8
-- Governance-maintainer nodes created: **60**
-- Newly encoded maintainer project edges: **61**
+- Durable outcomes: partial=497, unresolved=8
+- Governance-maintainer nodes created: **0**
+- Newly encoded maintainer project edges: **0**
 
 ## Evidence policy
 
@@ -33,66 +33,7 @@ The full pass separates discovery from promotion. Project maintainer actions may
 
 ## New governance-maintainer nodes
 
-- `community/lightseekorg/TorchSpec/yubofredwang`
-- `community/lightseekorg/TorchSpec/cicirori`
-- `community/lightseekorg/TorchSpec/Dogacel`
-- `company/Intel/Wovchena`
-- `company/Intel/as-suvorov`
-- `company/Intel/Retribution98`
-- `company/Intel/likholat`
-- `company/Intel/sgonorov`
-- `company/Intel/RyanMetcalfeInt8`
-- `community/vllm-project/Speculators/fynnsu`
-- `community/vllm-project/Speculators/shanjiaz`
-- `community/vllm-project/Speculators/rahul-tuli`
-- `community/vllm-project/Speculators/orestis-z`
-- `community/vllm-project/Speculators/dsikka`
-- `community/vllm-project/Speculators/dhuangnm`
-- `community/ggml-org/llama.cpp/ngxson`
-- `community/ggml-org/llama.cpp/JohannesGaessler`
-- `community/ggml-org/llama.cpp/CISC`
-- `community/ggml-org/llama.cpp/srogmann`
-- `community/ggml-org/llama.cpp/danbev`
-- `community/verl-project/VeRL-Omni/zhtmike`
-- `community/verl-project/VeRL-Omni/wtomin`
-- `community/verl-project/VeRL-Omni/chenyingshu`
-- `community/verl-project/VeRL-Omni/NancyFyong`
-- `community/verl-project/VeRL-Omni/WenzheWang`
-- `community/lightseekorg/TokenSpeed/zhyncs`
-- `community/lightseekorg/TokenSpeed/borontion`
-- `community/lightseekorg/TokenSpeed/antiagainst`
-- `community/lightseekorg/TokenSpeed/dongjiyingdjy`
-- `community/lightseekorg/TokenSpeed/syuoni`
-- `community/lightseekorg/TokenSpeed/LorrinWWW`
-- `community/ray-project/Ray-Serve/SongGuyang`
-- `community/ray-project/Ray-Serve/raulchen`
-- `community/ray-project/Ray-Serve/kfstorm`
-- `community/ray-project/Ray-Serve/edoakes`
-- `community/ray-project/Ray-Serve/MengjinYan`
-- `community/ray-project/Ray-Serve/marosset`
-- `community/sgl-project/SpecForge/FrankLeeeee`
-- `community/sgl-project/SpecForge/zyksir`
-- `community/sgl-project/SpecForge/sleepcoo`
-- `community/sgl-project/SpecForge/shuaills`
-- `community/sgl-project/SpecForge/FlamingoPg`
-- `community/flagos-ai/FlagCX/MC952-arch`
-- `community/flagos-ai/FlagCX/mikethegoblin`
-- `community/radixark/Miles/fzyzcjy`
-- `community/radixark/Miles/Ying1123`
-- `community/radixark/Miles/yushengsu-thu`
-- `community/radixark/Miles/guapisolo`
-- `community/radixark/Miles/yueming-yuan`
-- `community/radixark/Miles/Zhichenzzz`
-- `community/flagos-ai/FlagGems/global-owner2`
-- `community/flagos-ai/FlagGems/0x45f`
-- `community/flagos-ai/FlagGems/huangyiqun`
-- `community/flagos-ai/FlagGems/103yiran`
-- `community/flagos-ai/FlagGems/modao1234`
-- `community/flagos-ai/FlagGems/bin913`
-- `community/Oneflow-Inc/OneFlow/liujuncheng`
-- `community/Oneflow-Inc/OneFlow/daquexian`
-- `community/Oneflow-Inc/OneFlow/chengtbf`
-- `community/Oneflow-Inc/OneFlow/hjchen2`
+- None
 
 ## Frontier artifact
 
