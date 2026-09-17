@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1434,
+  "candidate_count": 1432,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -6111,73 +6111,6 @@
       }
     },
     {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.14,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.05,
-        "novelty": 0.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "bridge 6.0"
-      ],
-      "base_priority": 7.188,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -10095,6 +10028,72 @@
       }
     },
     {
+      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/thu-pacman/FastMoE/FastMoE",
+        "name": "FastMoE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 6.717,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.35,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.722,
+        "novelty": 1.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 6.7"
+      ],
+      "base_priority": 6.717,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/InfiniTensor/InfiniTensor::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -10210,72 +10209,6 @@
         "bridge 7.6"
       ],
       "base_priority": 6.715,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.713,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.05,
-        "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types",
-        "bridge 6.0"
-      ],
-      "base_priority": 6.713,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -16329,6 +16262,72 @@
       }
     },
     {
+      "action_id": "university/清华大学/GLM-130B::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/清华大学/GLM-130B",
+        "name": "GLM-130B",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 6.369,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.857,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 6.9"
+      ],
+      "base_priority": 6.369,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/flashinfer-ai/FlashInfer/aleozlx::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -16780,72 +16779,6 @@
       }
     },
     {
-      "action_id": "university/清华大学/GLM-130B::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "university/清华大学/GLM-130B",
-        "name": "GLM-130B",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 6.351,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ],
-      "base_priority": 6.351,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DualPath/DualPath::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -17258,6 +17191,73 @@
           "yield_adjustment": 0.294
         },
         "key_yield_adjustment": 0.294,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
+      "action_id": "community/thu-pacman/FastMoE/FastMoE::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/thu-pacman/FastMoE/FastMoE",
+        "name": "FastMoE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.333,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.35,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.722,
+        "novelty": 0.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.348,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "bridge 6.7"
+      ],
+      "base_priority": 6.381,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "success": 1,
+            "unresolved": 9
+          },
+          "mean_status_value": -0.35,
+          "mean_reward": 2.225,
+          "reward_signal": 0.505,
+          "yield_adjustment": -0.048
+        },
+        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -46466,73 +46466,6 @@
           "yield_adjustment": 0.0
         },
         "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "university/清华大学/GLM-130B::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "university/清华大学/GLM-130B",
-        "name": "GLM-130B",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.053,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.285,
-        "novelty": 0.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.138,
-        "redundancy_penalty": 0.421,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "bridge 6.3"
-      ],
-      "base_priority": 5.101,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "success": 1,
-            "unresolved": 9
-          },
-          "mean_status_value": -0.35,
-          "mean_reward": 2.225,
-          "reward_signal": 0.505,
-          "yield_adjustment": -0.048
-        },
-        "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
       }
     },
@@ -75997,72 +75930,6 @@
       }
     },
     {
-      "action_id": "company/智谱/曾奥涵 Aohan Zeng::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/智谱/曾奥涵 Aohan Zeng",
-        "name": "曾奥涵",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 3.735,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.022,
-        "novelty": 0.5,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.183,
-        "redundancy_penalty": 0.404,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "bridge 7.0"
-      ],
-      "base_priority": 3.452,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
       "action_id": "company/智谱/杜政晓 Zhengxiao Du::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -94980,6 +94847,6 @@
       }
     }
   },
-  "eligible_count": 1423,
+  "eligible_count": 1421,
   "suppressed_count": 11
 }

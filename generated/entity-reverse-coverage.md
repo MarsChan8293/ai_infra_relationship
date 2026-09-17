@@ -9,7 +9,7 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 399
+- Project/community-person associations: 401
 - Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
@@ -95,6 +95,7 @@
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
+| [[university/清华大学/GLM-130B|GLM-130B]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |
@@ -104,12 +105,12 @@
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
 | [[university/清华大学/FastDecode|FastDecode]] | 2 |
+| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 2 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 2 |
-| [[university/清华大学/GLM-130B|GLM-130B]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
@@ -124,7 +125,6 @@
 | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 1 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
-| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
