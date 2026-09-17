@@ -4,8 +4,8 @@
   "actions": 145,
   "summary": {
     "no-urls": 6,
-    "some-liveness": 136,
-    "unconfirmed-liveness": 3
+    "some-liveness": 137,
+    "unconfirmed-liveness": 2
   },
   "records": [
     {
@@ -3278,17 +3278,17 @@
       "checked": [
         {
           "url": "https://cse.hkust.edu.hk/pg/seminars/F23/lin.html",
-          "status": "unknown",
-          "code": null,
-          "final": "URLError"
+          "status": "live",
+          "code": 200,
+          "final": "https://cse.hkust.edu.hk/pg/seminars/F23/lin.html"
         }
       ],
-      "live": 0,
-      "reachable": 0,
+      "live": 1,
+      "reachable": 1,
       "dead": 0,
-      "unknown": 1,
-      "distinct_reachable_domains": 0,
-      "audit_class": "unconfirmed-liveness"
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
     },
     {
       "action_id": "company/阿里巴巴/惠彬原 Binyuan Hui::verify_evidence",
