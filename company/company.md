@@ -11,4 +11,4 @@ AI 模型公司、云厂商、AI Infra 创业公司与平台公司的一级分�
 国内 AI Infra 创业公司成员遍历：[[China AI Infra Startups BFS]]
 
 ## Cloud / Enterprise / Hardware
-[[NVIDIA]] · [[AMD]] · [[Google]] · [[Amazon]] · [[阿里巴巴]] · [[Red Hat]] · [[IBM]] · [[HPE]] · [[字节跳动]] · [[Databricks]] · [[道客]] · [[商汤科技]] · [[华为]] · [[第四范式]]
+[[NVIDIA]] · [[AMD]] · [[Google]] · [[Amazon]] · [[阿里巴巴]] · [[Red Hat]] · [[IBM]] · [[HPE]] · [[字节跳动]] · [[Databricks]] · [[道客]] · [[商汤科技]] · [[华为]] · [[沐曦]] · [[摩尔线程]] · [[天数智芯]] · [[第四范式]]

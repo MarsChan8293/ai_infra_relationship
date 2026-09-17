@@ -7,13 +7,16 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 
 `community/<organization>/<project>/...`
 
-`organization` 优先采用项目实际使用的上游 GitHub / GitCode namespace 或明确治理组织，而不是按技术类别或主要贡献公司机械归类。例如 NVIDIA 发起的 Dynamo / NIXL 位于 `ai-dynamo`，而不是因公司关系统一塞进 `NVIDIA`。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。
+`organization` 优先采用项目实际使用的上游 GitHub / GitCode namespace 或明确治理组织，而不是按技术类别或主要贡献公司机械归类。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。
 
 ### 组织 → 项目
 - `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]
 - `ai-dynamo`：[[Dynamo]] · [[NIXL]]
 - `kvcache-ai`：[[KTransformers]] · [[Mooncake]]
-- `Ascend`：[[MemCache]] · [[MemFabric]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]
+- `Ascend`：[[Ascend]] · [[CANN]] · [[MemCache]] · [[MemFabric]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]
+- `MetaX-MACA`：[[MetaX-MACA]] · [[vLLM-metax]] · [[mcoplib]] · [[MXDeepEP]]
+- `MooreThreads`：[[MUSA]] · [[vllm-musa]] · [[MATE]] · [[torch_musa]]
+- `Deep-Spark`：[[DeepSpark]] · [[DeepSparkInference]] · [[iluvatar-corex-ixrt]] · [[lmcache-iluvatar]]
 - `deepseek-ai`：[[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA
 - `ggml-org`：[[llama.cpp]] · [[ggml]]
 - `ollama`：[[Ollama]]
@@ -49,6 +52,10 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Dynamo]] / [[NIXL]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
 | [[vLLM]] | [[company/Inferact/Inferact|Inferact]] · [[company/Red Hat/Red Hat|Red Hat]] · [[company/Meta/Meta|Meta]] · [[company/Hugging Face/Hugging Face|Hugging Face]] · [[company/TensorMesh/TensorMesh|TensorMesh]] | 跨公司 core contributor 网络 |
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
+| [[CANN]] | [[company/华为/华为|华为]] | 公司主导 / 全面开源开放 |
+| [[vLLM-metax]] / [[mcoplib]] / [[MXDeepEP]] | [[company/沐曦/沐曦|沐曦]] | MXMACA 公司开源生态 |
+| [[vllm-musa]] / [[MATE]] / [[torch_musa]] | [[company/摩尔线程/摩尔线程|摩尔线程]] | MUSA 公司开源生态 |
+| [[DeepSparkInference]] / [[iluvatar-corex-ixrt]] / [[lmcache-iluvatar]] | [[company/天数智芯/天数智芯|天数智芯]] | DeepSpark / CoreX 推理生态 |
 | [[llama.cpp]] / [[ggml]] | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2026 GGML / llama.cpp maintainer team 加入 HF；项目保持开源与技术自主 |
 | [[Ollama]] | [[company/Ollama/Ollama|Ollama]] | 原始开发 / 公司主导 |
 | [[FlagScale]] / [[FlagGems]] / [[FlagCX]] / [[FlagTree]] / [[FlagAttention]] / [[FlagRelease]] / [[FlagPerf]] | 暂无单一主要公司 | [[FlagOS]] 社区发起 / 智源研究院与多机构共建 |
@@ -68,19 +75,19 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[Ollama]]
+[[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[Ollama]]
 
 ## Local / Edge Inference
 [[llama.cpp]] · [[ggml]] · [[Ollama]] · [[FreeToken]] · [[KTransformers]]
 
 ## Distributed Training / Framework
-[[OneFlow]] · [[Colossal-AI]] · [[FlagScale]]
+[[OneFlow]] · [[Colossal-AI]] · [[FlagScale]] · [[torch_musa]]
 
 ## Compiler / Kernel DSL
 [[TileLang]] · [[FlagTree]]
 
 ## Kernel / Communication / KV
-[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]]
+[[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]] · [[mcoplib]] · [[MATE]] · [[MXDeepEP]] · [[lmcache-iluvatar]]
 
 ## Distributed / Cloud Native
 [[Dynamo]] · [[llm-d]] · [[AIBrix]] · [[Triton-Inference-Server]]
@@ -88,10 +95,13 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 ## FlagOS / Heterogeneous AI Stack
 [[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagTree]] · [[FlagCX]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
 
+## Domestic Accelerator OSS Ecosystems
+[[Ascend]] / [[CANN]] · [[MetaX-MACA]] / [[vLLM-metax]] · [[MUSA]] / [[vllm-musa]] · [[DeepSpark]] / [[DeepSparkInference]]
+
 ## Ascend Inference Optimization
-[[vLLM-Ascend]] · [[MemCache]] · [[MemFabric]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
+[[CANN]] · [[vLLM-Ascend]] · [[MemCache]] · [[MemFabric]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
 
 ## Hardware / Heterogeneous
-[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]] · [[llama.cpp]] · [[ggml]] · [[Ollama]] · [[FreeToken]]
+[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]] · [[CANN]] · [[MetaX-MACA]] · [[MUSA]] · [[DeepSpark]] · [[llama.cpp]] · [[ggml]] · [[Ollama]] · [[FreeToken]]
 
 旧 `Communities/` 重复索引已移除；项目实体仍以项目同名文件作为 canonical 节点，但物理目录统一归入上游 organization / namespace。
