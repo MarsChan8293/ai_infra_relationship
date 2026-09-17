@@ -8,6 +8,7 @@ schools:
   - "清华大学"
 linked_companies:
   - "company/智谱/智谱"
+projects: [GLM-130B]
 areas: [pretraining, foundation-models]
 last_verified: "2026-09"
 relations:
@@ -33,13 +34,13 @@ relations:
 
 ## 项目
 - 原始 GLM：2022 ACL 作者
-- GLM-130B：2022–2023 Model Implementation / Architecture
+- [[university/清华大学/GLM-130B|GLM-130B]]：2022–2023 Model Implementation / Architecture
 - [[GLM-4-Voice]]
 - [[GLM-4.5]]
 
 ## 人物关系
 - [[智谱/唐杰 Jie Tang|唐杰（Jie Tang）]]：**长期导师 ↔ 学生 + GLM 合作者**。2017–2019 KEG RA 阶段由唐杰指导，2020-08–2025-06 清华博士阶段唐杰为正式导师；两人共同署名 2022 原始 GLM，并继续位于 GLM-130B / 后续 GLM 技术谱系。
-- [[智谱/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]：**GLM-130B 核心工程合作者，后续 Zhipu/GLM 同事网络**。GLM-130B（2022–2023）中曾奥涵是 Lead Contributor，杜政晓负责 model implementation / architecture；两人之后又共同参与 [[GLM-4-Voice]] 与 [[GLM-4.5]]。至少从 2023 杜政晓任 Zhipu Tech Lead 起处于同一 GLM 研发组织网络。
+- [[智谱/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]：**GLM-130B 核心工程合作者，后续 Zhipu/GLM 同事网络**。2022–2023 GLM-130B 中曾奥涵是 Lead Contributor，杜政晓负责 model implementation / architecture；两人之后又共同参与 [[GLM-4-Voice]] 与 [[GLM-4.5]]。至少从 2023 杜政晓任 Zhipu Tech Lead 起处于同一 GLM 研发组织网络。
 - [[智谱/郑勤锴 Qinkai Zheng|郑勤锴（Qinkai Zheng）]]：**清华 KEG / GLM-130B 合作者，后续 Zhipu 技术同事**。两人在 2022 GLM-130B contributor 网络已有合作；之后分别负责 base-model pretraining 与 CodeGeeX/coding 模型方向。截至 2026-09 均处于 Zhipu/GLM 技术网络，郑勤锴正式入职月份公开未确认。
 - [[月之暗面/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：**2022 原始 GLM 论文合著者，不是已确认的 Zhipu 同事**。两人共同署名 ACL 2022 GLM；杨植麟后来于 2023 创办 Moonshot AI，因此这条边主要代表早期清华/GLM 学术合作。
 
