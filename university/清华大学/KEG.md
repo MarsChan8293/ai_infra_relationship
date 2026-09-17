@@ -3,12 +3,7 @@ type: research-institution
 name: KEG
 organization: 清华大学
 aliases: ["Knowledge Engineering Group", "Tsinghua KEG", "清华大学知识工程实验室"]
-linked_people:
-  - "company/智谱/唐杰 Jie Tang"
-  - "company/智谱/曾奥涵 Aohan Zeng"
-  - "company/智谱/杜政晓 Zhengxiao Du"
-  - "company/智谱/郑勤锴 Qinkai Zheng"
-  - "company/月之暗面/杨植麟 Zhilin Yang"
+linked_people: []
 areas: [foundation-models, pretraining, knowledge-graphs, agents, code-models]
 projects: [GLM-130B, CodeGeeX]
 website: https://keg.cs.tsinghua.edu.cn/

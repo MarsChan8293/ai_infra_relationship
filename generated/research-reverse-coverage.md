@@ -2,7 +2,7 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 12
+- Research institution nodes: 13
 - Institutions with ≥1 linked person: 7
 - Research-person associations: 28
 - Audit errors: 0
@@ -17,6 +17,7 @@
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院|北京智源人工智能研究院]] | 1 |
 | [[university/微软亚洲研究院/微软亚洲研究院|微软亚洲研究院]] | 1 |
 | [[university/IBM Research/IBM Research|IBM Research]] | 0 |
+| [[university/清华大学/KEG|KEG]] | 0 |
 | [[university/Oak Ridge National Laboratory/Oak Ridge National Laboratory|Oak Ridge National Laboratory]] | 0 |
 | [[university/浙江大学/SuDIS|SuDIS]] | 0 |
 | [[university/University of Chicago/Systems Group|UChicago Systems Group]] | 0 |
