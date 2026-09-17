@@ -36479,6 +36479,71 @@
       }
     },
     {
+      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/thu-pacman/FastMoE/FastMoE",
+        "name": "FastMoE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 5.438,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.35,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.97,
+        "novelty": 0.5,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.314,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "bridge 9.0"
+      ],
+      "base_priority": 5.438,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      }
+    },
+    {
       "action_id": "community/ggml-org/llama.cpp/Georgi Gerganov::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -37209,71 +37274,6 @@
           "yield_adjustment": 0.173
         },
         "key_yield_adjustment": 0.173,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "community/thu-pacman/FastMoE/FastMoE::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/thu-pacman/FastMoE/FastMoE",
-        "name": "FastMoE",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 5.414,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.35,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 8.45,
-        "novelty": 0.5,
-        "frontier_potential": 0.407,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.305,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "bridge 8.4"
-      ],
-      "base_priority": 5.414,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       }
     },

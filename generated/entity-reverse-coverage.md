@@ -9,7 +9,7 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 408
+- Project/community-person associations: 409
 - Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
@@ -88,9 +88,9 @@
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
+| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
-| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
