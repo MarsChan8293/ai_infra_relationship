@@ -61,7 +61,10 @@ def frontmatter(text: str) -> dict:
     d={}; key=None
     for raw in lines[1:end]:
         if raw.startswith('  - ') and key:
-            d.setdefault(key,[]).append(raw[4:].strip().strip('"\'')); continue
+            if not isinstance(d.get(key),list):
+                d[key]=[]
+            d[key].append(raw[4:].strip().strip('"\''))
+            continue
         if ':' in raw and not raw.startswith(' '):
             key,val=raw.split(':',1); key=key.strip(); val=val.strip()
             if val.startswith('[') and val.endswith(']'):
