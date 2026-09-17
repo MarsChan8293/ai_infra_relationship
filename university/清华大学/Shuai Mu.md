@@ -1,7 +1,7 @@
 ---
 type: person
 name: Shuai Mu
-aliases: ["Shuai Mu", "穆帅"]
+aliases: ["Shuai Mu"]
 current_affiliations: ["Stony Brook University"]
 schools:
   - "清华大学"
