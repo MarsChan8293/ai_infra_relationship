@@ -1,4 +1,4 @@
-schema: ai-infra-relationship/research-action-v2
+schema: ai-infra-relationship/research-action-v3
 status: active
 kind: generated-planning-record
 producer: scripts/plan-research.py
@@ -11,6 +11,8 @@ source_of_truth:
 required:
   - action_id
   - action_key
+  - operator
+  - trigger
   - source
   - relation
   - target_families
@@ -26,10 +28,31 @@ required:
 fields:
   action_id:
     type: string
-    description: Stable per-source planning id in the form <node-id>::<relation>.
+    description: Stable per-source planning id in the form <node-id>::<relation>. Operator must not be part of the id.
   action_key:
     type: string
-    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>; used for empirical yield/history statistics.
+    description: Reusable action class in the form <source-family>:<relation>:<target-family-set>; used for empirical yield/history statistics. Operator must not be part of the key.
+  operator:
+    type: string
+    enum: [expand, discover, verify]
+    description: Top-level research operator. expand follows an explicit seed, discover fills graph gaps/frontiers, verify strengthens or challenges evidence.
+  trigger:
+    type: object
+    required: [kind]
+    description: Explainable reason this candidate was generated; trigger is not part of action identity.
+    fields:
+      kind:
+        type: string
+        enum: [seed, coverage_gap, frontier, bridge, weak_evidence, history_followup]
+      seed:
+        type: string
+        description: Optional canonical seed id/name for expand actions.
+      distance:
+        type: integer
+        description: Optional graph distance from the seed; used only as a soft signal.
+      detail:
+        type: string
+        description: Optional human-readable trigger detail.
   source:
     type: object
     required: [id, name, type, family]
@@ -49,9 +72,10 @@ fields:
   bucket:
     type: string
     enum: [exploitation, exploration, bridge, verification]
+    description: Scheduling label retained for compatibility. It is not a top-level research method; operator carries that semantic.
   base_priority:
     type: number
-    description: Deterministic graph-only priority from the v1 candidate generator before history.
+    description: Deterministic graph-only priority from the candidate generator before history.
   priority:
     type: number
     description: Final history-aware deterministic priority. It is not an entity importance score or calibrated probability.
@@ -79,8 +103,11 @@ outputs:
   history_summary: generated/research-history-summary.json
   compatibility: generated/research-priority.json
 rules:
+  - The only top-level research operators are expand, discover, and verify.
+  - expand is seed-driven local heterogeneous expansion; discover is global gap/frontier discovery; verify is evidence strengthening, contradiction checking, and history follow-up.
   - Research actions rank what to investigate next; they must never be interpreted as rankings of people, companies, schools, communities, or projects.
   - A high priority action does not authorize creation of a node or edge without evidence.
+  - Operator and trigger must never be added to action_id or action_key; the same source+relation shares one durable history across operators.
   - Recent exact actions marked success, partial, unresolved, or rejected are temporarily ineligible according to status-specific cooldown.
   - partial is a first-class outcome; resolved_dimensions and unresolved_dimensions should guide later follow-up after cooldown.
   - action_key empirical yield may only make a small priority adjustment until sufficient history accumulates.
@@ -88,6 +115,6 @@ rules:
   - Discovery beyond the bounded action should become a future frontier/action rather than triggering unbounded recursive traversal.
   - Compatibility, sponsorship, co-location, shared employer, or shared school must not be promoted to a direct person relationship without independent evidence.
 notes:
-  - This is a non-node schema. Existing Markdown nodes do not need migration to adopt history-aware planning.
+  - This is a non-node schema. Existing Markdown nodes do not need migration to adopt research operators.
   - Entity-specific completeness remains derived from current frontmatter plus resolved graph neighbours; no per-node planner metadata is required in Markdown.
   - Durable execution history is validated separately by schema/research-action-history.yaml.
