@@ -3,7 +3,8 @@ type: research-institution
 name: KEG
 organization: 清华大学
 aliases: ["Knowledge Engineering Group", "Tsinghua KEG", "清华大学知识工程实验室"]
-linked_people: []
+linked_people:
+  - "company/智谱/唐杰 Jie Tang"
 areas: [foundation-models, pretraining, knowledge-graphs, agents, code-models]
 projects: [GLM-130B, CodeGeeX]
 website: https://keg.cs.tsinghua.edu.cn/
@@ -33,3 +34,12 @@ KEG 更接近 model / algorithm / data 侧，不应与 [[university/清华大学
 - https://keg.cs.tsinghua.edu.cn/jietang/
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
 - https://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[company/智谱/唐杰 Jie Tang|唐杰（Jie Tang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+
+<!-- END AUTO RESEARCH PEOPLE -->

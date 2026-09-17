@@ -9,8 +9,8 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 78
-- Project/community-person associations: 395
-- Non-company affiliations recognized and routed elsewhere: 74
+- Project/community-person associations: 396
+- Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 10
 - Audit errors: 0
 
@@ -108,6 +108,7 @@
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 2 |
+| [[university/清华大学/GLM-130B|GLM-130B]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
@@ -125,7 +126,6 @@
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
-| [[university/清华大学/GLM-130B|GLM-130B]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |

@@ -2,16 +2,16 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 421
+- Typed relation edges: 422
 - Person nodes with typed relations: 137 / 336
 - Hard errors: 0
 - Warnings: 6
 
 ## Relation types
 
-- `paper-coauthor`: 190
+- `paper-coauthor`: 191
 - `coworker`: 162
-- `research-collaboration`: 111
+- `research-collaboration`: 112
 - `open-source-collaboration`: 75
 - `mentor-network`: 58
 - `technical-collaboration`: 53
@@ -78,7 +78,7 @@
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |
 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 13.859 | 8 | 8 | 100.0% |
-| [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 13.344 | 11 | 10 | 90.9% |
+| [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 13.400 | 11 | 10 | 90.9% |
 | [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]] | 12.948 | 8 | 7 | 87.5% |
 | [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 12.672 | 8 | 6 | 75.0% |
 | [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
