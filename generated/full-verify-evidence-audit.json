@@ -1,0 +1,3438 @@
+{
+  "schema": "ai-infra-relationship/full-verify-evidence-audit-v1",
+  "as_of": "2026-09-18",
+  "actions": 145,
+  "summary": {
+    "no-urls": 6,
+    "some-liveness": 136,
+    "unconfirmed-liveness": 3
+  },
+  "records": [
+    {
+      "action_id": "company/字节跳动/字节跳动::verify_evidence",
+      "source_id": "company/字节跳动/字节跳动",
+      "source_name": "字节跳动",
+      "family": "company",
+      "path": "company/字节跳动/字节跳动.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "company/NVIDIA/NVIDIA::verify_evidence",
+      "source_id": "company/NVIDIA/NVIDIA",
+      "source_name": "NVIDIA",
+      "family": "company",
+      "path": "company/NVIDIA/NVIDIA.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "company/AMD/AMD::verify_evidence",
+      "source_id": "company/AMD/AMD",
+      "source_name": "AMD",
+      "family": "company",
+      "path": "company/AMD/AMD.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "company/阿里巴巴/阿里巴巴::verify_evidence",
+      "source_id": "company/阿里巴巴/阿里巴巴",
+      "source_name": "阿里巴巴",
+      "family": "company",
+      "path": "company/阿里巴巴/阿里巴巴.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/FlashInfer::verify_evidence",
+      "source_id": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "source_name": "FlashInfer",
+      "family": "project",
+      "path": "community/flashinfer-ai/FlashInfer/FlashInfer.md",
+      "urls": [
+        "https://github.com/flashinfer-ai/flashinfer"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/flashinfer-ai/flashinfer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/NIXL::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/NIXL",
+      "source_name": "NIXL",
+      "family": "project",
+      "path": "community/ai-dynamo/NIXL/NIXL.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/Hugging Face/Hugging Face::verify_evidence",
+      "source_id": "company/Hugging Face/Hugging Face",
+      "source_name": "Hugging Face",
+      "family": "company",
+      "path": "company/Hugging Face/Hugging Face.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "community/Project-HAMi/HAMi/HAMi::verify_evidence",
+      "source_id": "community/Project-HAMi/HAMi/HAMi",
+      "source_name": "HAMi",
+      "family": "project",
+      "path": "community/Project-HAMi/HAMi/HAMi.md",
+      "urls": [
+        "https://github.com/Project-HAMi/HAMi"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/Project-HAMi/HAMi",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/Project-HAMi/HAMi"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/LightLLM::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/LightLLM",
+      "source_name": "LightLLM",
+      "family": "project",
+      "path": "community/ModelTC/LightLLM/LightLLM.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+      "source_name": "TensorRT-LLM",
+      "family": "project",
+      "path": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/Amazon/Amazon::verify_evidence",
+      "source_id": "company/Amazon/Amazon",
+      "source_name": "Amazon / AWS",
+      "family": "company",
+      "path": "company/Amazon/Amazon.md",
+      "urls": [],
+      "checked": [],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "no-urls"
+    },
+    {
+      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::verify_evidence",
+      "source_id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "source_name": "MindIE-Motor",
+      "family": "project",
+      "path": "community/Ascend/MindIE-Motor/MindIE-Motor.md",
+      "urls": [
+        "https://gitcode.com/Ascend/MindIE-Motor"
+      ],
+      "checked": [
+        {
+          "url": "https://gitcode.com/Ascend/MindIE-Motor",
+          "status": "live",
+          "code": 200,
+          "final": "https://gitcode.com/Ascend/MindIE-Motor"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/Ascend/ops-transformer/ops-transformer::verify_evidence",
+      "source_id": "community/Ascend/ops-transformer/ops-transformer",
+      "source_name": "ops-transformer",
+      "family": "project",
+      "path": "community/Ascend/ops-transformer/ops-transformer.md",
+      "urls": [
+        "https://gitcode.com/cann/ops-transformer"
+      ],
+      "checked": [
+        {
+          "url": "https://gitcode.com/cann/ops-transformer",
+          "status": "live",
+          "code": 200,
+          "final": "https://gitcode.com/cann/ops-transformer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "source_name": "DeepGEMM",
+      "family": "project",
+      "path": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM.md",
+      "urls": [
+        "https://github.com/deepseek-ai/DeepGEMM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai/DeepGEMM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai/DeepGEMM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/月之暗面/Kimi-K3::verify_evidence",
+      "source_id": "company/月之暗面/Kimi-K3",
+      "source_name": "Kimi-K3",
+      "family": "project",
+      "path": "company/月之暗面/Kimi-K3.md",
+      "urls": [
+        "https://github.com/MoonshotAI/Kimi-K3"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MoonshotAI/Kimi-K3",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MoonshotAI/Kimi-K3"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "source_name": "FlashMLA",
+      "family": "project",
+      "path": "community/deepseek-ai/DeepSeek-Infra/FlashMLA.md",
+      "urls": [
+        "https://github.com/deepseek-ai/FlashMLA"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai/FlashMLA",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai/FlashMLA"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/AIBrix::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/AIBrix",
+      "source_name": "AIBrix",
+      "family": "project",
+      "path": "community/vllm-project/AIBrix/AIBrix.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+      "source_name": "DeepJIT",
+      "family": "project",
+      "path": "community/deepseek-ai/DeepSeek-Infra/DeepJIT.md",
+      "urls": [
+        "https://github.com/deepseek-ai/DeepJIT"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai/DeepJIT",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai/DeepJIT"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server::verify_evidence",
+      "source_id": "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server",
+      "source_name": "Triton Inference Server",
+      "family": "project",
+      "path": "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server.md",
+      "urls": [
+        "https://github.com/triton-inference-server/server"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/triton-inference-server/server",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/triton-inference-server/server"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/月之暗面/Kimi-K2::verify_evidence",
+      "source_id": "company/月之暗面/Kimi-K2",
+      "source_name": "Kimi-K2",
+      "family": "project",
+      "path": "company/月之暗面/Kimi-K2.md",
+      "urls": [
+        "https://github.com/MoonshotAI/Kimi-K2"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MoonshotAI/Kimi-K2"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/3FS::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/3FS",
+      "source_name": "3FS",
+      "family": "project",
+      "path": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
+      "urls": [
+        "https://github.com/deepseek-ai/3FS"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai/3FS",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai/3FS"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+      "source_name": "周可行",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/月之暗面/MoonEP::verify_evidence",
+      "source_id": "company/月之暗面/MoonEP",
+      "source_name": "MoonEP",
+      "family": "project",
+      "path": "company/月之暗面/MoonEP.md",
+      "urls": [
+        "https://github.com/MoonshotAI/MoonEP"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MoonshotAI/MoonEP",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MoonshotAI/MoonEP"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Boxin Zhang::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Boxin Zhang",
+      "source_name": "Boxin Zhang",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Boxin Zhang.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Jianwei Dong::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Jianwei Dong",
+      "source_name": "Jianwei Dong",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Jianwei Dong.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Jingqi Tang::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Jingqi Tang",
+      "source_name": "Jingqi Tang",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Jingqi Tang.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Ryan McCormick::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Ryan McCormick",
+      "source_name": "Ryan McCormick",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Ryan McCormick.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Jiahao Wang::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Jiahao Wang",
+      "source_name": "Jiahao Wang",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Jiahao Wang.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ray-project/Ray-Serve/Ray-Serve::verify_evidence",
+      "source_id": "community/ray-project/Ray-Serve/Ray-Serve",
+      "source_name": "Ray Serve",
+      "family": "project",
+      "path": "community/ray-project/Ray-Serve/Ray-Serve.md",
+      "urls": [
+        "https://github.com/ray-project/ray"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ray-project/ray",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ray-project/ray"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/清程极智/吉青::verify_evidence",
+      "source_id": "company/清程极智/吉青",
+      "source_name": "吉青",
+      "family": "person",
+      "path": "company/清程极智/吉青.md",
+      "urls": [
+        "https://www.aicconf.net/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.aicconf.net/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.aicconf.net/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
+      "source_name": "赵成钢",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Hongtao Chen::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Hongtao Chen",
+      "source_name": "Hongtao Chen",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Hongtao Chen.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Qingliang Ou::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Qingliang Ou",
+      "source_name": "Qingliang Ou",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Qingliang Ou.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Ishan Dhanani::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Ishan Dhanani",
+      "source_name": "Ishan Dhanani",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Ishan Dhanani.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Niu Shengxiao::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Niu Shengxiao",
+      "source_name": "Niu Shengxiao",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Niu Shengxiao.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Zaijun Wang::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Zaijun Wang",
+      "source_name": "Zaijun Wang",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Zaijun Wang.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Jiaqi Liao::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Jiaqi Liao",
+      "source_name": "Jiaqi Liao",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Jiaqi Liao.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty::verify_evidence",
+      "source_id": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty",
+      "source_name": "Sai Kiran Polisetty",
+      "family": "person",
+      "path": "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty.md",
+      "urls": [
+        "https://github.com/triton-inference-server/server"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/triton-inference-server/server",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/triton-inference-server/server"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Xin He::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Xin He",
+      "source_name": "Xin He",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Xin He.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/上海交通大学/Xingda Wei::verify_evidence",
+      "source_id": "university/上海交通大学/Xingda Wei",
+      "source_name": "Xingda Wei",
+      "family": "person",
+      "path": "university/上海交通大学/Xingda Wei.md",
+      "urls": [
+        "https://ipads.se.sjtu.edu.cn/~wxd/"
+      ],
+      "checked": [
+        {
+          "url": "https://ipads.se.sjtu.edu.cn/~wxd/",
+          "status": "dead",
+          "code": 404,
+          "final": "https://ipads.se.sjtu.edu.cn/~wxd/"
+        }
+      ],
+      "live": 0,
+      "reachable": 0,
+      "dead": 1,
+      "unknown": 0,
+      "distinct_reachable_domains": 0,
+      "audit_class": "unconfirmed-liveness"
+    },
+    {
+      "action_id": "company/阿里巴巴/Qwen3::verify_evidence",
+      "source_id": "company/阿里巴巴/Qwen3",
+      "source_name": "Qwen3",
+      "family": "project",
+      "path": "company/阿里巴巴/Qwen3.md",
+      "urls": [
+        "https://github.com/QwenLM/Qwen3"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/QwenLM/Qwen3",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/QwenLM/Qwen3"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepEP::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "source_name": "DeepEP",
+      "family": "project",
+      "path": "community/deepseek-ai/DeepSeek-Infra/DeepEP.md",
+      "urls": [
+        "https://github.com/deepseek-ai/DeepEP"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai/DeepEP",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai/DeepEP"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/Ascend/ops-transformer/tangkaidi::verify_evidence",
+      "source_id": "community/Ascend/ops-transformer/tangkaidi",
+      "source_name": "tangkaidi",
+      "family": "person",
+      "path": "community/Ascend/ops-transformer/tangkaidi.md",
+      "urls": [
+        "https://gitcode.com/cann/ops-transformer"
+      ],
+      "checked": [
+        {
+          "url": "https://gitcode.com/cann/ops-transformer",
+          "status": "live",
+          "code": 200,
+          "final": "https://gitcode.com/cann/ops-transformer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Su Fubao::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Su Fubao",
+      "source_name": "Su Fubao",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Su Fubao.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar::verify_evidence",
+      "source_id": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar",
+      "source_name": "lmcache-iluvatar",
+      "family": "project",
+      "path": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar.md",
+      "urls": [
+        "https://github.com/Deep-Spark/lmcache-iluvatar"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/Deep-Spark/lmcache-iluvatar",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/Deep-Spark/lmcache-iluvatar"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/Baseten/Baseten::verify_evidence",
+      "source_id": "company/Baseten/Baseten",
+      "source_name": "Baseten",
+      "family": "company",
+      "path": "company/Baseten/Baseten.md",
+      "urls": [
+        "https://zhyncs.com/"
+      ],
+      "checked": [
+        {
+          "url": "https://zhyncs.com/",
+          "status": "live",
+          "code": 206,
+          "final": "https://zhyncs.com/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/MetaX-MACA/mcoplib/mcoplib::verify_evidence",
+      "source_id": "community/MetaX-MACA/mcoplib/mcoplib",
+      "source_name": "mcoplib",
+      "family": "project",
+      "path": "community/MetaX-MACA/mcoplib/mcoplib.md",
+      "urls": [
+        "https://github.com/MetaX-MACA/mcoplib"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MetaX-MACA/mcoplib",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MetaX-MACA/mcoplib"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Adit Ranadive::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Adit Ranadive",
+      "source_name": "Adit Ranadive",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Adit Ranadive.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/智谱/GLM-4.5::verify_evidence",
+      "source_id": "company/智谱/GLM-4.5",
+      "source_name": "GLM-4.5",
+      "family": "project",
+      "path": "company/智谱/GLM-4.5.md",
+      "urls": [
+        "https://github.com/zai-org/GLM-4.5"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/zai-org/GLM-4.5",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/zai-org/GLM-4.5"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai::verify_evidence",
+      "source_id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "source_name": "赖睿航",
+      "family": "person",
+      "path": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai.md",
+      "urls": [
+        "https://github.com/flashinfer-ai/flashinfer"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/flashinfer-ai/flashinfer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/MetaX-MACA/MXDeepEP/MXDeepEP::verify_evidence",
+      "source_id": "community/MetaX-MACA/MXDeepEP/MXDeepEP",
+      "source_name": "MXDeepEP",
+      "family": "project",
+      "path": "community/MetaX-MACA/MXDeepEP/MXDeepEP.md",
+      "urls": [
+        "https://github.com/MetaX-MACA/MXDeepEP"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MetaX-MACA/MXDeepEP",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MetaX-MACA/MXDeepEP"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Stanford University/Stanford University::verify_evidence",
+      "source_id": "university/Stanford University/Stanford University",
+      "source_name": "Stanford University",
+      "family": "school",
+      "path": "university/Stanford University/Stanford University.md",
+      "urls": [
+        "https://cs.stanford.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://cs.stanford.edu/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.cs.stanford.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Yi Zhang::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Yi Zhang",
+      "source_name": "Yi Zhang",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Yi Zhang.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+      "source_name": "Kuai Yu",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Liang Zhao::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Liang Zhao",
+      "source_name": "Liang Zhao",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Liang Zhao.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+      "source_name": "Zhean Xu",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/摩尔线程/Xiaodong Ye::verify_evidence",
+      "source_id": "company/摩尔线程/Xiaodong Ye",
+      "source_name": "Xiaodong Ye",
+      "family": "person",
+      "path": "company/摩尔线程/Xiaodong Ye.md",
+      "urls": [
+        "https://github.com/MooreThreads/vllm-musa/commit/9a90ece5837599d5bf68c6ba3b1891f86c579f71"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/MooreThreads/vllm-musa/commit/9a90ece5837599d5bf68c6ba3b1891f86c579f71",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/MooreThreads/vllm-musa/commit/9a90ece5837599d5bf68c6ba3b1891f86c579f71"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Mikhail Brinskiy::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Mikhail Brinskiy",
+      "source_name": "Mikhail Brinskiy",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Mikhail Brinskiy.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/triton-inference-server/Triton-Inference-Server/Yingge He::verify_evidence",
+      "source_id": "community/triton-inference-server/Triton-Inference-Server/Yingge He",
+      "source_name": "Yingge He",
+      "family": "person",
+      "path": "community/triton-inference-server/Triton-Inference-Server/Yingge He.md",
+      "urls": [
+        "https://github.com/triton-inference-server/server"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/triton-inference-server/server",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/triton-inference-server/server"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/LMCache/LMCache/Hunter Zhang::verify_evidence",
+      "source_id": "community/LMCache/LMCache/Hunter Zhang",
+      "source_name": "Hunter Zhang",
+      "family": "person",
+      "path": "community/LMCache/LMCache/Hunter Zhang.md",
+      "urls": [
+        "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/LMCache/LMCache/blob/dev/MAINTAINERS.md"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/KTransformers/Xingxing Hao::verify_evidence",
+      "source_id": "community/kvcache-ai/KTransformers/Xingxing Hao",
+      "source_name": "Xingxing Hao",
+      "family": "person",
+      "path": "community/kvcache-ai/KTransformers/Xingxing Hao.md",
+      "urls": [
+        "https://github.com/kvcache-ai/ktransformers"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/kvcache-ai/ktransformers"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Xiao Wang::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Xiao Wang",
+      "source_name": "Xiao Wang",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Xiao Wang.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi::verify_evidence",
+      "source_id": "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi",
+      "source_name": "Akhil Saraswathi",
+      "family": "person",
+      "path": "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi.md",
+      "urls": [
+        "https://github.com/triton-inference-server/server"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/triton-inference-server/server",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/triton-inference-server/server"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat",
+      "source_name": "Faraz Khoubsirat",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Faraz Khoubsirat.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/sgl-project/SGLang/张晓雨::verify_evidence",
+      "source_id": "community/sgl-project/SGLang/张晓雨",
+      "source_name": "张晓雨",
+      "family": "person",
+      "path": "community/sgl-project/SGLang/张晓雨.md",
+      "urls": [
+        "https://www.aicconf.net/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.aicconf.net/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.aicconf.net/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/上海交通大学/Shengzhong Liu::verify_evidence",
+      "source_id": "university/上海交通大学/Shengzhong Liu",
+      "source_name": "Shengzhong Liu",
+      "family": "person",
+      "path": "university/上海交通大学/Shengzhong Liu.md",
+      "urls": [
+        "https://junyi-chen.github.io/"
+      ],
+      "checked": [
+        {
+          "url": "https://junyi-chen.github.io/",
+          "status": "live",
+          "code": 206,
+          "final": "https://junyi-chen.github.io/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/阿里巴巴/Qwen-Coder::verify_evidence",
+      "source_id": "company/阿里巴巴/Qwen-Coder",
+      "source_name": "Qwen-Coder",
+      "family": "project",
+      "path": "company/阿里巴巴/Qwen-Coder.md",
+      "urls": [
+        "https://github.com/QwenLM/Qwen3-Coder"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/QwenLM/Qwen3-Coder",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/QwenLM/Qwen3-Coder"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/llm-d/llm-d/JJ Asghar::verify_evidence",
+      "source_id": "community/llm-d/llm-d/JJ Asghar",
+      "source_name": "JJ Asghar",
+      "family": "person",
+      "path": "community/llm-d/llm-d/JJ Asghar.md",
+      "urls": [
+        "https://github.com/llm-d/llm-d"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/llm-d/llm-d",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/llm-d/llm-d"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Julien Mancuso::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Julien Mancuso",
+      "source_name": "Julien Mancuso",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Julien Mancuso.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/University of Texas at Austin/University of Texas at Austin::verify_evidence",
+      "source_id": "university/University of Texas at Austin/University of Texas at Austin",
+      "source_name": "University of Texas at Austin",
+      "family": "school",
+      "path": "university/University of Texas at Austin/University of Texas at Austin.md",
+      "urls": [
+        "https://www.utexas.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.utexas.edu/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.utexas.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen::verify_evidence",
+      "source_id": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen",
+      "source_name": "陈乐群",
+      "family": "person",
+      "path": "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen.md",
+      "urls": [
+        "https://github.com/flashinfer-ai/flashinfer"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/flashinfer-ai/flashinfer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/上海交通大学/Haibo Chen::verify_evidence",
+      "source_id": "university/上海交通大学/Haibo Chen",
+      "source_name": "Haibo Chen",
+      "family": "person",
+      "path": "university/上海交通大学/Haibo Chen.md",
+      "urls": [
+        "https://ipads.se.sjtu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://ipads.se.sjtu.edu.cn/",
+          "status": "live",
+          "code": 200,
+          "final": "https://ipads.sjtu.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Jianliang Qi::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Jianliang Qi",
+      "source_name": "Jianliang Qi",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Jianliang Qi.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/kvcache-ai/Mooncake/Xinran Xu::verify_evidence",
+      "source_id": "community/kvcache-ai/Mooncake/Xinran Xu",
+      "source_name": "Xinran Xu",
+      "family": "person",
+      "path": "community/kvcache-ai/Mooncake/Xinran Xu.md",
+      "urls": [
+        "https://www.usenix.org/conference/fast25/presentation/qin"
+      ],
+      "checked": [
+        {
+          "url": "https://www.usenix.org/conference/fast25/presentation/qin",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.usenix.org/conference/fast25/presentation/qin"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/llm-d/llm-d/Marcio A L Silva::verify_evidence",
+      "source_id": "community/llm-d/llm-d/Marcio A L Silva",
+      "source_name": "Marcio A L Silva",
+      "family": "person",
+      "path": "community/llm-d/llm-d/Marcio A L Silva.md",
+      "urls": [
+        "https://llm-d.ai/community/sigs"
+      ],
+      "checked": [
+        {
+          "url": "https://llm-d.ai/community/sigs",
+          "status": "live",
+          "code": 206,
+          "final": "https://llm-d.ai/community/sigs"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang::verify_evidence",
+      "source_id": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang",
+      "source_name": "Faradawn Yang",
+      "family": "person",
+      "path": "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang.md",
+      "urls": [
+        "https://github.com/triton-inference-server/server"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/triton-inference-server/server",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/triton-inference-server/server"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Hailong Yang::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Hailong Yang",
+      "source_name": "Hailong Yang",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Hailong Yang.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Ruihao Gong::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Ruihao Gong",
+      "source_name": "Ruihao Gong",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Ruihao Gong.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Siyu Wu::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Siyu Wu",
+      "source_name": "Siyu Wu",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Siyu Wu.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/tile-ai/TileScale/TileScale::verify_evidence",
+      "source_id": "community/tile-ai/TileScale/TileScale",
+      "source_name": "TileScale",
+      "family": "project",
+      "path": "community/tile-ai/TileScale/TileScale.md",
+      "urls": [
+        "https://github.com/tile-ai/tilescale"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/tile-ai/tilescale",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/tile-ai/tilescale"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Shihao Bai::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Shihao Bai",
+      "source_name": "Shihao Bai",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Shihao Bai.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/LyricZhao",
+      "source_name": "LyricZhao",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/LyricZhao.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "source_name": "Chenhao Xu",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/OpenAI/GPT-4o::verify_evidence",
+      "source_id": "company/OpenAI/GPT-4o",
+      "source_name": "GPT-4o",
+      "family": "project",
+      "path": "company/OpenAI/GPT-4o.md",
+      "urls": [
+        "https://openai.com/gpt-4o-contributions/"
+      ],
+      "checked": [
+        {
+          "url": "https://openai.com/gpt-4o-contributions/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://openai.com/gpt-4o-contributions/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/智谱/GLM-4-Voice::verify_evidence",
+      "source_id": "company/智谱/GLM-4-Voice",
+      "source_name": "GLM-4-Voice",
+      "family": "project",
+      "path": "company/智谱/GLM-4-Voice.md",
+      "urls": [
+        "https://github.com/zai-org/GLM-4-Voice"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/zai-org/GLM-4-Voice",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/zai-org/GLM-4-Voice"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Stefan Schimanski::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Stefan Schimanski",
+      "source_name": "Stefan Schimanski",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Stefan Schimanski.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng",
+      "source_name": "Chengqi Deng",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang",
+      "source_name": "Liyue Zhang",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+      "source_name": "Shangyan Zhou",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
+      "source_name": "Yuxuan Liu",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Alec Flowers::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Alec Flowers",
+      "source_name": "Alec Flowers",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Alec Flowers.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/Dynamo/Matej Kosec::verify_evidence",
+      "source_id": "community/ai-dynamo/Dynamo/Matej Kosec",
+      "source_name": "Matej Kosec",
+      "family": "person",
+      "path": "community/ai-dynamo/Dynamo/Matej Kosec.md",
+      "urls": [
+        "https://github.com/ai-dynamo/dynamo"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/dynamo"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Chang Liu::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Chang Liu",
+      "source_name": "Chang Liu",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Chang Liu.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Matvei Pashkovskii::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Matvei Pashkovskii",
+      "source_name": "Matvei Pashkovskii",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Matvei Pashkovskii.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ModelTC/LightLLM/Sang Chengmeng::verify_evidence",
+      "source_id": "community/ModelTC/LightLLM/Sang Chengmeng",
+      "source_name": "Sang Chengmeng",
+      "family": "person",
+      "path": "community/ModelTC/LightLLM/Sang Chengmeng.md",
+      "urls": [
+        "https://github.com/ModelTC/lightllm"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ModelTC/lightllm",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ModelTC/lightllm"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Xin Li::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Xin Li",
+      "source_name": "Xin Li",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Xin Li.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Yibin Li::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Yibin Li",
+      "source_name": "Yibin Li",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Yibin Li.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang",
+      "source_name": "Zhaoyang Wang",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/sgl-project/SGLang/张亦弛::verify_evidence",
+      "source_id": "community/sgl-project/SGLang/张亦弛",
+      "source_name": "张亦弛",
+      "family": "person",
+      "path": "community/sgl-project/SGLang/张亦弛.md",
+      "urls": [
+        "https://www.aicconf.net/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.aicconf.net/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.aicconf.net/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Oak Ridge National Laboratory/Oak Ridge National Laboratory::verify_evidence",
+      "source_id": "university/Oak Ridge National Laboratory/Oak Ridge National Laboratory",
+      "source_name": "Oak Ridge National Laboratory",
+      "family": "research",
+      "path": "university/Oak Ridge National Laboratory/Oak Ridge National Laboratory.md",
+      "urls": [
+        "https://www.ornl.gov/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.ornl.gov/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.ornl.gov/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Brian Nguyen::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Brian Nguyen",
+      "source_name": "Brian Nguyen",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Brian Nguyen.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Yao Yao::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Yao Yao",
+      "source_name": "Yao Yao",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Yao Yao.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/OpenAI/GPT-4::verify_evidence",
+      "source_id": "company/OpenAI/GPT-4",
+      "source_name": "GPT-4",
+      "family": "project",
+      "path": "company/OpenAI/GPT-4.md",
+      "urls": [
+        "https://openai.com/contributions/gpt-4/"
+      ],
+      "checked": [
+        {
+          "url": "https://openai.com/contributions/gpt-4/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://openai.com/contributions/gpt-4/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/sail-sg/EnvPool/EnvPool::verify_evidence",
+      "source_id": "community/sail-sg/EnvPool/EnvPool",
+      "source_name": "EnvPool",
+      "family": "project",
+      "path": "community/sail-sg/EnvPool/EnvPool.md",
+      "urls": [
+        "https://github.com/sail-sg/envpool"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/sail-sg/envpool",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/sail-sg/envpool"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Chenyu Jiang::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Chenyu Jiang",
+      "source_name": "Chenyu Jiang",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Chenyu Jiang.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/上海交通大学/Rongxin Cheng::verify_evidence",
+      "source_id": "university/上海交通大学/Rongxin Cheng",
+      "source_name": "Rongxin Cheng",
+      "family": "person",
+      "path": "university/上海交通大学/Rongxin Cheng.md",
+      "urls": [
+        "https://ipads.se.sjtu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://ipads.se.sjtu.edu.cn/",
+          "status": "live",
+          "code": 200,
+          "final": "https://ipads.sjtu.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Rongbing Zhou::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Rongbing Zhou",
+      "source_name": "Rongbing Zhou",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Rongbing Zhou.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Tomer Davidor::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Tomer Davidor",
+      "source_name": "Tomer Davidor",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Tomer Davidor.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/Wuwei Lin::verify_evidence",
+      "source_id": "community/flashinfer-ai/FlashInfer/Wuwei Lin",
+      "source_name": "Wuwei Lin",
+      "family": "person",
+      "path": "community/flashinfer-ai/FlashInfer/Wuwei Lin.md",
+      "urls": [
+        "https://github.com/flashinfer-ai/flashinfer"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/flashinfer-ai/flashinfer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/OpenAI/o1::verify_evidence",
+      "source_id": "company/OpenAI/o1",
+      "source_name": "o1",
+      "family": "project",
+      "path": "company/OpenAI/o1.md",
+      "urls": [
+        "https://openai.com/openai-o1-contributions/"
+      ],
+      "checked": [
+        {
+          "url": "https://openai.com/openai-o1-contributions/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://openai.com/openai-o1-contributions/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/CYJiang::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/CYJiang",
+      "source_name": "CYJiang",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/CYJiang.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu",
+      "source_name": "Anyi Xu",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Harvard University/Harvard University::verify_evidence",
+      "source_id": "university/Harvard University/Harvard University",
+      "source_name": "Harvard University",
+      "family": "school",
+      "path": "university/Harvard University/Harvard University.md",
+      "urls": [
+        "https://www.harvard.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.harvard.edu/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.harvard.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Princeton University/Princeton University::verify_evidence",
+      "source_id": "university/Princeton University/Princeton University",
+      "source_name": "Princeton University",
+      "family": "school",
+      "path": "university/Princeton University/Princeton University.md",
+      "urls": [
+        "https://www.princeton.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.princeton.edu/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.princeton.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen::verify_evidence",
+      "source_id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "source_name": "陈天奇",
+      "family": "person",
+      "path": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen.md",
+      "urls": [
+        "https://github.com/flashinfer-ai/flashinfer"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/flashinfer-ai/flashinfer",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/flashinfer-ai/flashinfer"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/UCLA/UCLA::verify_evidence",
+      "source_id": "university/UCLA/UCLA",
+      "source_name": "UCLA",
+      "family": "school",
+      "path": "university/UCLA/UCLA.md",
+      "urls": [
+        "https://www.ucla.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.ucla.edu/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.ucla.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/OpenAI/GPT-4.5::verify_evidence",
+      "source_id": "company/OpenAI/GPT-4.5",
+      "source_name": "GPT-4.5",
+      "family": "project",
+      "path": "company/OpenAI/GPT-4.5.md",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-4-5/"
+      ],
+      "checked": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-4-5/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://openai.com/index/introducing-gpt-4-5/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/四川大学/四川大学::verify_evidence",
+      "source_id": "university/四川大学/四川大学",
+      "source_name": "四川大学",
+      "family": "school",
+      "path": "university/四川大学/四川大学.md",
+      "urls": [
+        "https://www.scu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.scu.edu.cn/",
+          "status": "unknown",
+          "code": null,
+          "final": "URLError"
+        }
+      ],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 1,
+      "distinct_reachable_domains": 0,
+      "audit_class": "unconfirmed-liveness"
+    },
+    {
+      "action_id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara::verify_evidence",
+      "source_id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
+      "source_name": "Anurag Mukkara",
+      "family": "person",
+      "path": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara.md",
+      "urls": [
+        "https://github.com/NVIDIA/TensorRT-LLM"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/NVIDIA/TensorRT-LLM",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/NVIDIA/TensorRT-LLM"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/llm-d/llm-d/David Simmons::verify_evidence",
+      "source_id": "community/llm-d/llm-d/David Simmons",
+      "source_name": "David Simmons",
+      "family": "person",
+      "path": "community/llm-d/llm-d/David Simmons.md",
+      "urls": [
+        "https://github.com/llm-d/llm-d"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/llm-d/llm-d",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/llm-d/llm-d"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Efraim Eygin::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Efraim Eygin",
+      "source_name": "Efraim Eygin",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Efraim Eygin.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Ilia Yastrebov::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Ilia Yastrebov",
+      "source_name": "Ilia Yastrebov",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Ilia Yastrebov.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/James Thomas::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/James Thomas",
+      "source_name": "James Thomas",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/James Thomas.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Jingyuan Zhang::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Jingyuan Zhang",
+      "source_name": "Jingyuan Zhang",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Jingyuan Zhang.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/llm-d/llm-d/Pete Cheslock::verify_evidence",
+      "source_id": "community/llm-d/llm-d/Pete Cheslock",
+      "source_name": "Pete Cheslock",
+      "family": "person",
+      "path": "community/llm-d/llm-d/Pete Cheslock.md",
+      "urls": [
+        "https://github.com/llm-d/llm-d"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/llm-d/llm-d",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/llm-d/llm-d"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/ai-dynamo/NIXL/Ryan Hankins::verify_evidence",
+      "source_id": "community/ai-dynamo/NIXL/Ryan Hankins",
+      "source_name": "Ryan Hankins",
+      "family": "person",
+      "path": "community/ai-dynamo/NIXL/Ryan Hankins.md",
+      "urls": [
+        "https://github.com/ai-dynamo/nixl"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/ai-dynamo/nixl",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/ai-dynamo/nixl"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Columbia University/Columbia University::verify_evidence",
+      "source_id": "university/Columbia University/Columbia University",
+      "source_name": "Columbia University",
+      "family": "school",
+      "path": "university/Columbia University/Columbia University.md",
+      "urls": [
+        "https://www.columbia.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.columbia.edu/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://www.columbia.edu/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Cornell Tech/Cornell Tech::verify_evidence",
+      "source_id": "university/Cornell Tech/Cornell Tech",
+      "source_name": "Cornell Tech",
+      "family": "school",
+      "path": "university/Cornell Tech/Cornell Tech.md",
+      "urls": [
+        "https://tech.cornell.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://tech.cornell.edu/",
+          "status": "live",
+          "code": 206,
+          "final": "https://tech.cornell.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/Cornell University/Cornell University::verify_evidence",
+      "source_id": "university/Cornell University/Cornell University",
+      "source_name": "Cornell University",
+      "family": "school",
+      "path": "university/Cornell University/Cornell University.md",
+      "urls": [
+        "https://www.cornell.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.cornell.edu/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.cornell.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/University of Tennessee, Knoxville/University of Tennessee, Knoxville::verify_evidence",
+      "source_id": "university/University of Tennessee, Knoxville/University of Tennessee, Knoxville",
+      "source_name": "University of Tennessee, Knoxville",
+      "family": "school",
+      "path": "university/University of Tennessee, Knoxville/University of Tennessee, Knoxville.md",
+      "urls": [
+        "https://www.utk.edu/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.utk.edu/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.utk.edu/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/University of Toronto/University of Toronto::verify_evidence",
+      "source_id": "university/University of Toronto/University of Toronto",
+      "source_name": "University of Toronto",
+      "family": "school",
+      "path": "university/University of Toronto/University of Toronto.md",
+      "urls": [
+        "https://www.utoronto.ca/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.utoronto.ca/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.utoronto.ca/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/University of Warwick/University of Warwick::verify_evidence",
+      "source_id": "university/University of Warwick/University of Warwick",
+      "source_name": "University of Warwick",
+      "family": "school",
+      "path": "university/University of Warwick/University of Warwick.md",
+      "urls": [
+        "https://warwick.ac.uk/"
+      ],
+      "checked": [
+        {
+          "url": "https://warwick.ac.uk/",
+          "status": "live",
+          "code": 200,
+          "final": "https://warwick.ac.uk/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/上海科技大学/上海科技大学::verify_evidence",
+      "source_id": "university/上海科技大学/上海科技大学",
+      "source_name": "上海科技大学",
+      "family": "school",
+      "path": "university/上海科技大学/上海科技大学.md",
+      "urls": [
+        "https://www.shanghaitech.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.shanghaitech.edu.cn/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.shanghaitech.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/中山大学/中山大学::verify_evidence",
+      "source_id": "university/中山大学/中山大学",
+      "source_name": "中山大学",
+      "family": "school",
+      "path": "university/中山大学/中山大学.md",
+      "urls": [
+        "https://www.sysu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.sysu.edu.cn/",
+          "status": "reachable",
+          "code": 403,
+          "final": "https://www.sysu.edu.cn/"
+        }
+      ],
+      "live": 0,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/北京航空航天大学/北京航空航天大学::verify_evidence",
+      "source_id": "university/北京航空航天大学/北京航空航天大学",
+      "source_name": "北京航空航天大学",
+      "family": "school",
+      "path": "university/北京航空航天大学/北京航空航天大学.md",
+      "urls": [
+        "https://www.buaa.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.buaa.edu.cn/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.buaa.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/复旦大学/复旦大学::verify_evidence",
+      "source_id": "university/复旦大学/复旦大学",
+      "source_name": "复旦大学",
+      "family": "school",
+      "path": "university/复旦大学/复旦大学.md",
+      "urls": [
+        "https://www.fudan.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.fudan.edu.cn/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.fudan.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/武汉大学/武汉大学::verify_evidence",
+      "source_id": "university/武汉大学/武汉大学",
+      "source_name": "武汉大学",
+      "family": "school",
+      "path": "university/武汉大学/武汉大学.md",
+      "urls": [
+        "https://www.whu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.whu.edu.cn/",
+          "status": "live",
+          "code": 206,
+          "final": "https://www.whu.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "university/西交利物浦大学/西交利物浦大学::verify_evidence",
+      "source_id": "university/西交利物浦大学/西交利物浦大学",
+      "source_name": "西交利物浦大学",
+      "family": "school",
+      "path": "university/西交利物浦大学/西交利物浦大学.md",
+      "urls": [
+        "https://www.xjtlu.edu.cn/"
+      ],
+      "checked": [
+        {
+          "url": "https://www.xjtlu.edu.cn/",
+          "status": "live",
+          "code": 200,
+          "final": "https://www.xjtlu.edu.cn/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/阿里巴巴/林俊旸 Junyang Lin::verify_evidence",
+      "source_id": "company/阿里巴巴/林俊旸 Junyang Lin",
+      "source_name": "林俊旸",
+      "family": "person",
+      "path": "company/阿里巴巴/林俊旸 Junyang Lin.md",
+      "urls": [
+        "https://cse.hkust.edu.hk/pg/seminars/F23/lin.html"
+      ],
+      "checked": [
+        {
+          "url": "https://cse.hkust.edu.hk/pg/seminars/F23/lin.html",
+          "status": "unknown",
+          "code": null,
+          "final": "URLError"
+        }
+      ],
+      "live": 0,
+      "reachable": 0,
+      "dead": 0,
+      "unknown": 1,
+      "distinct_reachable_domains": 0,
+      "audit_class": "unconfirmed-liveness"
+    },
+    {
+      "action_id": "company/阿里巴巴/惠彬原 Binyuan Hui::verify_evidence",
+      "source_id": "company/阿里巴巴/惠彬原 Binyuan Hui",
+      "source_name": "惠彬原",
+      "family": "person",
+      "path": "company/阿里巴巴/惠彬原 Binyuan Hui.md",
+      "urls": [
+        "https://huybery.github.io/"
+      ],
+      "checked": [
+        {
+          "url": "https://huybery.github.io/",
+          "status": "live",
+          "code": 206,
+          "final": "https://huybery.github.io/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "company/阿里巴巴/郁博文 Bowen Yu::verify_evidence",
+      "source_id": "company/阿里巴巴/郁博文 Bowen Yu",
+      "source_name": "郁博文",
+      "family": "person",
+      "path": "company/阿里巴巴/郁博文 Bowen Yu.md",
+      "urls": [
+        "https://yubowen-ph.github.io/"
+      ],
+      "checked": [
+        {
+          "url": "https://yubowen-ph.github.io/",
+          "status": "live",
+          "code": 206,
+          "final": "https://yubowen-ph.github.io/"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/guyan364::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/guyan364",
+      "source_name": "guyan364",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/guyan364.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/kurisu6912::verify_evidence",
+      "source_id": "community/deepseek-ai/DeepSeek-Infra/kurisu6912",
+      "source_name": "kurisu6912",
+      "family": "person",
+      "path": "community/deepseek-ai/DeepSeek-Infra/kurisu6912.md",
+      "urls": [
+        "https://github.com/deepseek-ai"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/deepseek-ai",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/deepseek-ai"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Guangjian::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Guangjian",
+      "source_name": "Guangjian",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Guangjian.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    },
+    {
+      "action_id": "community/vllm-project/AIBrix/Jiang Xiaobin::verify_evidence",
+      "source_id": "community/vllm-project/AIBrix/Jiang Xiaobin",
+      "source_name": "Jiang Xiaobin",
+      "family": "person",
+      "path": "community/vllm-project/AIBrix/Jiang Xiaobin.md",
+      "urls": [
+        "https://github.com/vllm-project/aibrix"
+      ],
+      "checked": [
+        {
+          "url": "https://github.com/vllm-project/aibrix",
+          "status": "live",
+          "code": 206,
+          "final": "https://github.com/vllm-project/aibrix"
+        }
+      ],
+      "live": 1,
+      "reachable": 1,
+      "dead": 0,
+      "unknown": 0,
+      "distinct_reachable_domains": 1,
+      "audit_class": "some-liveness"
+    }
+  ]
+}
