@@ -8,7 +8,7 @@ schools:
   - "清华大学"
 linked_companies:
   - "company/清程极智/清程极智"
-projects: [Jenga, FastDecode, FastMoE, QFactory, Lethe]
+projects: [Jenga, FastDecode, FastMoE, QFactory, Lethe, GLM-130B]
 roles: [Professor, Chief Scientist]
 areas: [high-performance-computing, distributed-training, performance-analysis, compiler-optimization, llm-serving, quantization, kv-cache]
 last_verified: "2026-09"
