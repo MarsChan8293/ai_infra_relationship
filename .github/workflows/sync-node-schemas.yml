@@ -112,7 +112,7 @@ jobs:
           for action in payload["candidates"]:
               assert action["operator"] in {"discover", "verify"}
               assert isinstance(action.get("trigger"), dict) and action["trigger"].get("kind")
-              assert action["operator"] not in action["action_id"].lower()
+              assert action["action_id"] == f"{action['source']['id']}::{action['relation']}"
           print("v3 global output validated:", payload["selected_operator_counts"])
           PY
 
@@ -143,7 +143,7 @@ jobs:
           assert any(a["operator"] == "expand" for a in payload["candidates"]), "no EXPAND candidates"
           for action in payload["candidates"]:
               assert action["operator"] in {"expand", "verify"}
-              assert action["operator"] not in action["action_id"].lower()
+              assert action["action_id"] == f"{action['source']['id']}::{action['relation']}"
           print("v3 seeded output validated:", payload["selected_operator_counts"])
           PY
 
@@ -199,7 +199,7 @@ jobs:
           fi
 
           git config user.name "github-actions[bot]"
-          git config user.email "4189822+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${TRACKED[@]}"
           git commit -m "chore(graph): sync graph artifacts and reverse links"
           git push origin HEAD:main
