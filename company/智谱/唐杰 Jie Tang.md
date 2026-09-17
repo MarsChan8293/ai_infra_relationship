@@ -8,7 +8,7 @@ schools:
   - "清华大学"
 linked_companies:
   - "company/智谱/智谱"
-projects: [GLM-130B]
+projects: [GLM-130B, FastMoE]
 areas: [foundation-models, knowledge-graphs, data-mining]
 last_verified: "2026-09"
 relations:
@@ -26,6 +26,7 @@ relations:
 
 ## 模型项目
 - GLM / [[university/清华大学/GLM-130B|GLM-130B]] / ChatGLM
+- [[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：与 PACMAN 的早期 MoE system co-design 交叉
 - CodeGeeX
 - [[GLM-4.5]] 作者与学术网络
 
@@ -40,6 +41,7 @@ relations:
 - https://keg.cs.tsinghua.edu.cn/jietang/
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
 - https://keg.cs.tsinghua.edu.cn/codegeex/
+- https://pacman.cs.tsinghua.edu.cn/~zjd/projects/fastmoe/
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
