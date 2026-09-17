@@ -9,6 +9,7 @@ schools:
 roles: [Senior R&D Expert]
 linked_companies:
   - "company/清程极智/清程极智"
+projects: [BaGuaLu, GLM-130B]
 areas: [distributed-training, high-performance-computing, llm-serving, compiler-optimization]
 last_verified: "2026-09"
 relations:
@@ -18,12 +19,13 @@ relations:
 ---
 # 马子轩（Zixuan Ma）
 
-当前：[[清程极智]] 高级研发专家；清华大学计算机系高性能计算研究网络成员，BaGuaLu（八卦炉）论文第一作者。
+当前：[[清程极智]] 高级研发专家；清华大学计算机系高性能计算研究网络成员，[[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu（八卦炉）]]论文第一作者。
 
 ## 教育与技术经历
 - [[清华大学]]：计算机系本科；翟季冬课题组公开页面长期将其列在 HPC / AI systems 研究网络。
-- BaGuaLu：PPoPP 2022 第一作者，面向超大规模超算训练 brain-scale pretrained models。
-- 后续研究覆盖 SmartMoE、GLM-130B、IntelliGen、ChituDiffusion 等训练/推理与异构优化方向。
+- [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]]：PPoPP 2022 第一作者，面向超大规模超算训练 brain-scale pretrained models。
+- [[university/清华大学/GLM-130B|GLM-130B]]：官方项目材料列为 PACMAN contributor，同时进入 ICLR 2023 GLM-130B 作者网络。
+- 后续研究覆盖 SmartMoE、IntelliGen、ChituDiffusion 等训练/推理与异构优化方向。
 - [[清程极智]]：公开公司文章列为高级研发专家，继续围绕八卦炉及大模型训练/推理系统进行技术工作。
 
 ## 人物关系
@@ -36,6 +38,7 @@ relations:
 - https://pacman.cs.tsinghua.edu.cn/~zjd/projects/bagualu/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/author/zixuan-ma/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/publication/generated/dblp-confppopp-ma-hqcwszwtzlfhg-22/
+- https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
