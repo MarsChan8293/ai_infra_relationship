@@ -12,11 +12,15 @@ on:
       - "research/action-history.json"
       - "schema/*.yaml"
       - "schema/email-domain-company.json"
+      - "docs/research-action-planner.md"
+      - "docs/research-operators.md"
       - "scripts/audit-graph.py"
       - "scripts/generate-research-queue.py"
       - "scripts/plan-research.py"
+      - "scripts/plan-research-v3.py"
       - "scripts/record-research-action.py"
       - "scripts/test-research-history.py"
+      - "scripts/test-research-operators.py"
       - "scripts/audit-typed-relations.py"
       - "scripts/audit-school-links.py"
       - "scripts/audit-school-reverse-links.py"
@@ -85,8 +89,63 @@ jobs:
       - name: Test research-action history planner
         run: python3 scripts/test-research-history.py
 
+      - name: Test research operator planner
+        run: python3 scripts/test-research-operators.py
+
       - name: Build history-aware heterogeneous research action queue
         run: python3 scripts/plan-research.py --root . --generated generated --history research/action-history.json --budget 10 --limit 60
+
+      - name: Build Research Operator Planner v3 queue
+        run: python3 scripts/plan-research-v3.py --root . --generated generated --history research/action-history.json --budget 10 --limit 60
+
+      - name: Validate Research Operator Planner v3 global output
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path("generated/research-actions.json").read_text(encoding="utf-8"))
+          assert payload["algorithm"] == "research-operator-planner-v3"
+          assert set(payload["operators"]) == {"discover", "verify"}
+          assert payload["selected_actions"], "global planner selected no actions"
+          assert len({a["action_id"] for a in payload["selected_actions"]}) == len(payload["selected_actions"])
+          for action in payload["candidates"]:
+              assert action["operator"] in {"discover", "verify"}
+              assert isinstance(action.get("trigger"), dict) and action["trigger"].get("kind")
+              assert action["operator"] not in action["action_id"].lower()
+          print("v3 global output validated:", payload["selected_operator_counts"])
+          PY
+
+      - name: Smoke-test seeded EXPAND and VERIFY in isolated output
+        run: |
+          TMP_GENERATED="$(mktemp -d)"
+          cp generated/nodes.json generated/edges.json generated/metrics.json "$TMP_GENERATED/"
+          python3 scripts/plan-research-v3.py \
+            --root . \
+            --generated "$TMP_GENERATED" \
+            --history research/action-history.json \
+            --seed "Mooncake" \
+            --budget 6 \
+            --limit 30
+          python3 - "$TMP_GENERATED" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          generated = Path(sys.argv[1])
+          payload = json.loads((generated / "research-actions.json").read_text(encoding="utf-8"))
+          assert payload["algorithm"] == "research-operator-planner-v3"
+          assert payload["seed"], "seed was not resolved"
+          assert set(payload["operators"]) == {"expand", "verify"}
+          assert payload["selected_actions"], "seeded planner selected no actions"
+          ids = [a["action_id"] for a in payload["selected_actions"]]
+          assert len(ids) == len(set(ids)), "duplicate action identities in seeded portfolio"
+          assert any(a["operator"] == "expand" for a in payload["candidates"]), "no EXPAND candidates"
+          for action in payload["candidates"]:
+              assert action["operator"] in {"expand", "verify"}
+              assert action["operator"] not in action["action_id"].lower()
+          print("v3 seeded output validated:", payload["selected_operator_counts"])
+          PY
 
       - name: Validate person-school coverage
         run: python3 scripts/audit-school-links.py --root . --generated generated
@@ -140,7 +199,7 @@ jobs:
           fi
 
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "4189822+github-actions[bot]@users.noreply.github.com"
           git add "${TRACKED[@]}"
           git commit -m "chore(graph): sync graph artifacts and reverse links"
           git push origin HEAD:main
