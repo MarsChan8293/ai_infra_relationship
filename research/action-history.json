@@ -6221,22 +6221,22 @@
       "action_id": "community/flagos-ai/FlagRelease/FlagRelease::maintainers",
       "action_key": "project:maintainers:person",
       "operator": "discover",
-      "status": "partial",
+      "status": "success",
       "source_name": "FlagRelease",
       "resolved_dimensions": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@shh2000",
+        "maintainer:@tianxiao-baai"
       ],
-      "unresolved_dimensions": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved_dimensions": [],
       "outcome": {
-        "new_nodes": 0,
-        "new_edges": 0,
-        "evidence_upgraded": 0,
-        "verified_claims": 0,
+        "new_nodes": 2,
+        "new_edges": 2,
+        "evidence_upgraded": 2,
+        "verified_claims": 2,
         "rejected_claims": 0
       },
-      "note": "Governance file found but no stable individual GitHub handles were parsed."
+      "note": "Active project MAINTAINERS table verified 2 GitHub maintainer handle(s); 2 handle-first nodes created."
     },
     {
       "run_id": "2026-09-18-discover-full",
@@ -9332,8 +9332,12 @@
       "status": "partial",
       "source_name": "Seer",
       "resolved_dimensions": [
+        "frontier_repo:https://github.com/ovg-project/kvcached",
+        "frontier_repo:https://github.com/pku-dair/hetu",
+        "frontier_repo:https://github.com/tie-pilot-qxw/syncopate",
+        "frontier_repo:https://github.com/kstep-dev/kstep",
         "internal_graph_links:18",
-        "reachable_sources:1"
+        "reachable_sources:2"
       ],
       "unresolved_dimensions": [
         "project_relevance_and_direct_relation"
@@ -9500,11 +9504,11 @@
       "source_name": "chaunceyjiang",
       "resolved_dimensions": [
         "repository_context:https://github.com/project-hami/hami",
-        "frontier_repo:https://github.com/vllm-project/vllm",
         "frontier_repo:https://github.com/features/copilot",
         "frontier_repo:https://github.com/features/ai",
         "frontier_repo:https://github.com/features/actions",
         "frontier_repo:https://github.com/features/codespaces",
+        "frontier_repo:https://github.com/features/code-review",
         "internal_graph_links:4",
         "reachable_sources:2"
       ],
@@ -13504,22 +13508,24 @@
       "action_id": "community/flagos-ai/FlagCX/FlagCX::maintainers",
       "action_key": "project:maintainers:person",
       "operator": "discover",
-      "status": "partial",
+      "status": "success",
       "source_name": "FlagCX",
       "resolved_dimensions": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@MC952-arch",
+        "maintainer:@Caozhou1995",
+        "maintainer:@aoyulong",
+        "maintainer:@mikethegoblin"
       ],
-      "unresolved_dimensions": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved_dimensions": [],
       "outcome": {
-        "new_nodes": 0,
-        "new_edges": 0,
-        "evidence_upgraded": 0,
-        "verified_claims": 0,
+        "new_nodes": 2,
+        "new_edges": 2,
+        "evidence_upgraded": 4,
+        "verified_claims": 4,
         "rejected_claims": 0
       },
-      "note": "Governance file found but no stable individual GitHub handles were parsed."
+      "note": "Active project MAINTAINERS table verified 4 GitHub maintainer handle(s); 2 handle-first nodes created."
     },
     {
       "run_id": "2026-09-18-discover-full",
@@ -15526,22 +15532,25 @@
       "action_id": "community/flagos-ai/FlagGems/FlagGems::maintainers",
       "action_key": "project:maintainers:person",
       "operator": "discover",
-      "status": "partial",
+      "status": "success",
       "source_name": "FlagGems",
       "resolved_dimensions": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@0x45f",
+        "maintainer:@huangyiqun",
+        "maintainer:@Galaxy1458",
+        "maintainer:@zhzhcookie",
+        "maintainer:@tengqm"
       ],
-      "unresolved_dimensions": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved_dimensions": [],
       "outcome": {
-        "new_nodes": 0,
-        "new_edges": 0,
-        "evidence_upgraded": 0,
-        "verified_claims": 0,
+        "new_nodes": 3,
+        "new_edges": 5,
+        "evidence_upgraded": 5,
+        "verified_claims": 5,
         "rejected_claims": 0
       },
-      "note": "Governance file found but no stable individual GitHub handles were parsed."
+      "note": "Active project MAINTAINERS table verified 5 GitHub maintainer handle(s); 3 handle-first nodes created."
     },
     {
       "run_id": "2026-09-18-discover-full",
@@ -15583,7 +15592,6 @@
       "source_name": "Patrick von Platen",
       "resolved_dimensions": [
         "frontier_repo:https://github.com/openai/consistency_models",
-        "frontier_repo:https://github.com/vllm-project/vllm",
         "internal_graph_links:3",
         "reachable_sources:2"
       ],

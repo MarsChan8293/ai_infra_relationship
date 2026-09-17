@@ -2,7 +2,7 @@
 type: person
 name: Galaxy1458
 aliases: ["@Galaxy1458"]
-projects: [FlagTree]
+projects: ["FlagTree", "FlagGems"]
 roles: [Maintainer]
 areas: [ai-compiler, triton, heterogeneous-computing]
 confidence: verified

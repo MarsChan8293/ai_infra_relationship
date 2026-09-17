@@ -2,7 +2,7 @@
 type: person
 name: zhzhcookie
 aliases: ["@zhzhcookie"]
-projects: [FlagTree]
+projects: ["FlagTree", "FlagGems"]
 roles: [Maintainer]
 areas: [ai-compiler, triton, heterogeneous-computing]
 confidence: verified

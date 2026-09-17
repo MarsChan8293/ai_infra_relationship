@@ -4,7 +4,8 @@
   "run_id": "2026-09-18-discover-full",
   "actions": 505,
   "status_counts": {
-    "partial": 497,
+    "partial": 494,
+    "success": 3,
     "unresolved": 8
   },
   "relation_counts": {
@@ -23,7 +24,15 @@
     "academic_links": 6,
     "spinouts": 1
   },
-  "created_nodes": [],
+  "created_nodes": [
+    "community/flagos-ai/FlagRelease/shh2000",
+    "community/flagos-ai/FlagRelease/tianxiao-baai",
+    "community/flagos-ai/FlagCX/MC952-arch",
+    "community/flagos-ai/FlagCX/mikethegoblin",
+    "community/flagos-ai/FlagGems/0x45f",
+    "community/flagos-ai/FlagGems/huangyiqun",
+    "community/flagos-ai/FlagGems/tengqm"
+  ],
   "records": [
     {
       "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
@@ -1522,13 +1531,13 @@
       "source_id": "community/flagos-ai/FlagRelease/FlagRelease",
       "source_name": "FlagRelease",
       "relation": "maintainers",
-      "status": "partial",
+      "status": "success",
       "resolved": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@shh2000",
+        "maintainer:@tianxiao-baai"
       ],
-      "unresolved": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved": [],
       "source_urls": [
         "https://github.com/flagos-ai/FlagRelease",
         "https://hub.baai.ac.cn/view/47531"
@@ -4958,8 +4967,12 @@
       "relation": "related_projects",
       "status": "partial",
       "resolved": [
+        "frontier_repo:https://github.com/ovg-project/kvcached",
+        "frontier_repo:https://github.com/pku-dair/hetu",
+        "frontier_repo:https://github.com/tie-pilot-qxw/syncopate",
+        "frontier_repo:https://github.com/kstep-dev/kstep",
         "internal_graph_links:18",
-        "reachable_sources:1"
+        "reachable_sources:2"
       ],
       "unresolved": [
         "project_relevance_and_direct_relation"
@@ -4968,7 +4981,12 @@
         "https://www.usenix.org/conference/osdi26/presentation/qin",
         "https://www.usenix.org/conference/osdi26/technical-sessions"
       ],
-      "discovered_repositories": [],
+      "discovered_repositories": [
+        "https://github.com/ovg-project/kvcached",
+        "https://github.com/pku-dair/hetu",
+        "https://github.com/tie-pilot-qxw/syncopate",
+        "https://github.com/kstep-dev/kstep"
+      ],
       "governance": null
     },
     {
@@ -5144,11 +5162,11 @@
       "status": "partial",
       "resolved": [
         "repository_context:https://github.com/project-hami/hami",
-        "frontier_repo:https://github.com/vllm-project/vllm",
         "frontier_repo:https://github.com/features/copilot",
         "frontier_repo:https://github.com/features/ai",
         "frontier_repo:https://github.com/features/actions",
         "frontier_repo:https://github.com/features/codespaces",
+        "frontier_repo:https://github.com/features/code-review",
         "internal_graph_links:4",
         "reachable_sources:2"
       ],
@@ -5160,7 +5178,6 @@
         "https://github.com/Project-HAMi/HAMi/blob/master/AUTHORS.md"
       ],
       "discovered_repositories": [
-        "https://github.com/vllm-project/vllm",
         "https://github.com/features/copilot",
         "https://github.com/features/ai",
         "https://github.com/features/actions",
@@ -5169,7 +5186,8 @@
         "https://github.com/features/code-quality",
         "https://github.com/security/advanced-security",
         "https://github.com/enterprise/startups",
-        "https://github.com/solutions/industry"
+        "https://github.com/solutions/industry",
+        "https://github.com/solutions/use-case"
       ],
       "governance": null
     },
@@ -6211,9 +6229,7 @@
         "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
         "https://conferences.sigcomm.org/sigcomm/2026/program/papers/"
       ],
-      "discovered_repositories": [
-        "https://github.com/froot-netsys/zk-analytics."
-      ],
+      "discovered_repositories": [],
       "governance": null
     },
     {
@@ -9606,13 +9622,15 @@
       "source_id": "community/flagos-ai/FlagCX/FlagCX",
       "source_name": "FlagCX",
       "relation": "maintainers",
-      "status": "partial",
+      "status": "success",
       "resolved": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@MC952-arch",
+        "maintainer:@Caozhou1995",
+        "maintainer:@aoyulong",
+        "maintainer:@mikethegoblin"
       ],
-      "unresolved": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved": [],
       "source_urls": [
         "https://github.com/flagos-ai/FlagCX",
         "https://github.com/flagos-ai/FlagCX/blob/main/MAINTAINERS.md"
@@ -11701,13 +11719,16 @@
       "source_id": "community/flagos-ai/FlagGems/FlagGems",
       "source_name": "FlagGems",
       "relation": "maintainers",
-      "status": "partial",
+      "status": "success",
       "resolved": [
-        "governance_file:MAINTAINERS.md"
+        "governance_file:MAINTAINERS.md",
+        "maintainer:@0x45f",
+        "maintainer:@huangyiqun",
+        "maintainer:@Galaxy1458",
+        "maintainer:@zhzhcookie",
+        "maintainer:@tengqm"
       ],
-      "unresolved": [
-        "maintainer_identity_parse"
-      ],
+      "unresolved": [],
       "source_urls": [
         "https://github.com/flagos-ai/FlagGems",
         "https://github.com/flagos-ai/FlagGems/blob/master/MAINTAINERS.md"
@@ -11780,7 +11801,6 @@
       "status": "partial",
       "resolved": [
         "frontier_repo:https://github.com/openai/consistency_models",
-        "frontier_repo:https://github.com/vllm-project/vllm",
         "internal_graph_links:3",
         "reachable_sources:2"
       ],
@@ -11792,8 +11812,7 @@
         "https://docs.vllm.ai/en/v0.22.0/governance/process/"
       ],
       "discovered_repositories": [
-        "https://github.com/openai/consistency_models",
-        "https://github.com/vllm-project/vllm"
+        "https://github.com/openai/consistency_models"
       ],
       "governance": null
     },

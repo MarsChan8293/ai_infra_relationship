@@ -4,9 +4,9 @@ This run executes the DISCOVER operator against the full currently eligible port
 
 - DISCOVER actions: **505**
 - Coverage-gap triggers and bridge triggers are both included.
-- Durable outcomes: partial=497, unresolved=8
-- Governance-maintainer nodes created: **0**
-- Newly encoded maintainer project edges: **0**
+- Durable outcomes: partial=494, success=3, unresolved=8
+- Governance-maintainer nodes created: **7**
+- Newly encoded maintainer project edges: **9**
 
 ## Evidence policy
 
@@ -33,7 +33,13 @@ The full pass separates discovery from promotion. Project maintainer actions may
 
 ## New governance-maintainer nodes
 
-- None
+- `community/flagos-ai/FlagRelease/shh2000`
+- `community/flagos-ai/FlagRelease/tianxiao-baai`
+- `community/flagos-ai/FlagCX/MC952-arch`
+- `community/flagos-ai/FlagCX/mikethegoblin`
+- `community/flagos-ai/FlagGems/0x45f`
+- `community/flagos-ai/FlagGems/huangyiqun`
+- `community/flagos-ai/FlagGems/tengqm`
 
 ## Frontier artifact
 
