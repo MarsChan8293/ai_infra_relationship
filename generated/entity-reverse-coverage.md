@@ -9,8 +9,8 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 106
 - Project/community nodes with ≥1 linked person: 76
-- Project/community-person associations: 389
-- Non-company affiliations recognized and routed elsewhere: 61
+- Project/community-person associations: 392
+- Non-company affiliations recognized and routed elsewhere: 68
 - Unresolved source values (backlog, non-fatal): 4
 - Audit errors: 0
 
@@ -69,9 +69,9 @@
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 21 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
+| [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 18 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
-| [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 15 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |

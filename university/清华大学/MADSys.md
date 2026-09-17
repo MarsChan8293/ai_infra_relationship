@@ -5,10 +5,16 @@ organization: 清华大学
 aliases: ["MADSys Lab", "MADSys Group", "MADSys Lab, Tsinghua University"]
 linked_people:
   - "community/kvcache-ai/KTransformers/Boxin Zhang"
+  - "community/kvcache-ai/KTransformers/Chen Lin"
+  - "community/kvcache-ai/KTransformers/Chengyu Qiu"
   - "community/kvcache-ai/KTransformers/Hongtao Chen"
   - "community/kvcache-ai/KTransformers/Jianwei Dong"
   - "community/kvcache-ai/KTransformers/Jingqi Tang"
+  - "community/kvcache-ai/KTransformers/Peilin Li"
   - "community/kvcache-ai/KTransformers/Qingliang Ou"
+  - "community/kvcache-ai/KTransformers/Yuening Zhu"
+  - "community/kvcache-ai/KTransformers/Ziwei Yuan"
+  - "university/清华大学/Jinlei Jiang"
   - "university/清华大学/Mingxing Zhang"
   - "university/清华大学/Ruoyu Qin"
   - "university/清华大学/Yingdi Shan"
@@ -48,10 +54,16 @@ MADSys 是清华大学计算机系面向 Machine Learning / AI / Big Data System
 以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
 
 - [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Chen Lin|Chen Lin]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[community/kvcache-ai/KTransformers/Chengyu Qiu|Chengyu Qiu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[community/kvcache-ai/KTransformers/Hongtao Chen|Hongtao Chen]]：[[清华大学]] / MADSys Lab
 - [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]]：[[清华大学]] / MADSys Lab
 - [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Peilin Li|Peilin Li]]：[[university/清华大学/MADSys|MADSys]]：官方主页 2026-08-31 新闻记录其加入 MADSys，并在当前 Ph.D. Students 列表中列出 Peilin Li。
 - [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]]：[[清华大学]] / MADSys Lab
+- [[community/kvcache-ai/KTransformers/Yuening Zhu|Yuening Zhu]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
+- [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]]：[[university/清华大学/MADSys|MADSys]]：官方主页记录 Ziwei Yuan 于 2026-08-31 加入实验室，并列入当前 Ph.D. Students。
+- [[university/清华大学/Jinlei Jiang|蒋金磊（Jinlei Jiang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：研究机构 affiliation；具体角色与时间以人物页公开来源为准。
 - [[university/清华大学/Yingdi Shan|闪英迪（Yingdi Shan）]]：2024–至今：清华大学计算机系高性能计算研究所助理研究员；MADSys 个人主页将其列为 Research Assistant Professor。

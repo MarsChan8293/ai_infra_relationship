@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1414
-- Eligible actions: 1403
+- Candidate actions: 1420
+- Eligible actions: 1409
 - Cooldown-suppressed: 11
 - History records: 30
 - Selected actions: 10
@@ -23,9 +23,9 @@
 | 5 | [[company/Intel/Intel|Intel]] | company | projects | project, community, team | exploration | 8.266 | new | coverage 0/3；source type Company；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
 | 6 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.137 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
 | 7 | [[university/清华大学/Kang Chen|陈康]] | person | project_contribution | project, community | bridge | 8.131 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 8 | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.015 | new | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 9 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | company, school, research, team | exploration | 7.964 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 10 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | company, school, research, team | exploitation | 7.951 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 8 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | project, community | exploitation | 8.097 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 9 | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.015 | new | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
+| 10 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | company, school, research, team | exploration | 7.964 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 
 ## Agent execution contract
 
@@ -58,20 +58,20 @@
 | 14 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
 | 15 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
 | 16 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
-| 17 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
-| 18 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
-| 19 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 20 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
-| 21 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
-| 22 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 23 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 24 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
-| 25 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 26 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 27 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 28 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
-| 29 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
-| 30 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 17 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
+| 18 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
+| 19 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
+| 20 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
+| 21 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 22 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
+| 23 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 24 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 25 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
+| 26 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 27 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 28 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 29 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
+| 30 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
 
 ## Cooldown / history-suppressed
 

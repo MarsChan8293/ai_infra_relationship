@@ -27,6 +27,9 @@ relations:
 ## 图谱意义
 Chen Lin 把 KTransformers 的异构执行和 Fusion RAG Cache 的缓存复用连接起来，是 MADSys 当前学生层值得保留的 inference-focused 节点。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/author/chen-lin/
 - https://madsys.cs.tsinghua.edu.cn/

@@ -34,6 +34,9 @@ relations:
 ## 图谱意义
 在人才图谱中，蒋金磊更适合作为 MADSys faculty 骨架节点，而不是强行归入 LLM inference 人才。他帮助区分两层关系：上层的 Mooncake / KTransformers / Seer 与下层长期存在的 storage、cloud、DPU/offloading 系统研究。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/author/jinlei-jiang/
 - https://madsys.cs.tsinghua.edu.cn/

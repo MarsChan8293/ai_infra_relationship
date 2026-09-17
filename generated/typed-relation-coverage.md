@@ -2,22 +2,22 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 401
-- Person nodes with typed relations: 126 / 327
+- Typed relation edges: 413
+- Person nodes with typed relations: 132 / 331
 - Hard errors: 0
 - Warnings: 6
 
 ## Relation types
 
-- `paper-coauthor`: 171
+- `paper-coauthor`: 182
 - `coworker`: 162
-- `research-collaboration`: 92
+- `research-collaboration`: 103
 - `open-source-collaboration`: 75
 - `mentor-network`: 58
 - `technical-collaboration`: 53
 - `cofounder`: 40
 - `advisor`: 30
-- `same-lab`: 15
+- `same-lab`: 27
 - `student`: 14
 - `community-maintainer`: 10
 - `career-connection`: 8
@@ -73,11 +73,11 @@
 
 | Person | Bridge | Person links | Typed | Coverage |
 | --- | ---: | ---: | ---: | ---: |
-| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 16.307 | 12 | 12 | 100.0% |
+| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 18.294 | 12 | 12 | 100.0% |
+| [[university/清华大学/Mingxing Zhang|章明星]] | 15.094 | 4 | 4 | 100.0% |
 | [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]] | 14.855 | 16 | 16 | 100.0% |
 | [[community/vllm-project/vLLM/李卓翰 Zhuohan Li|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 13.859 | 8 | 8 | 100.0% |
-| [[university/清华大学/Mingxing Zhang|章明星]] | 13.372 | 4 | 4 | 100.0% |
 | [[company/TensorMesh/杜昆泰 Kuntai Du|杜昆泰]] | 12.672 | 8 | 6 | 75.0% |
 | [[community/vllm-project/vLLM/Chen Zhang|Chen Zhang]] | 12.520 | 8 | 7 | 87.5% |
 | [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
@@ -100,6 +100,6 @@
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
+| [[community/kvcache-ai/KTransformers/Ziwei Yuan|Ziwei Yuan]] | 9.770 | 2 | 2 | 100.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 9.600 | 3 | 3 | 100.0% |
 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 9.572 | 6 | 2 | 33.3% |
-| [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]] | 9.485 | 4 | 4 | 100.0% |

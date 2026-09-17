@@ -3,8 +3,8 @@ type: person
 name: Peilin Li
 current_affiliations: ["Approaching.AI","MADSys Lab, Tsinghua University"]
 schools:
-  - "西北工业大学"
   - "清华大学"
+  - "西北工业大学"
 communities: [KTransformers]
 education: [Northwestern Polytechnical University]
 roles: [Maintainer, Ph.D. Student, KTransformers-FineTune Presenter]

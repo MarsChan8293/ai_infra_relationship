@@ -26,6 +26,9 @@ relations:
 ## 图谱意义
 Chengyu Qiu 属于 MADSys 新一代直接进入 heterogeneous LLM inference 的学生节点，适合连接 `MADSys → KTransformers → MoE hybrid inference` 主线。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/author/chengyu-qiu/
 - https://madsys.cs.tsinghua.edu.cn/

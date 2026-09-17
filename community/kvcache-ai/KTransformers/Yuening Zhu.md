@@ -27,6 +27,9 @@ relations:
 ## 图谱意义
 Yuening Zhu 是 MADSys 当前学生中同时跨越 KTransformers 与 RAG cache 两条推理优化支路的节点，体现实验室从 heterogeneous compute 向 cache/retrieval serving 扩展的趋势。
 
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://madsys.cs.tsinghua.edu.cn/author/yuening-zhu/
 - https://madsys.cs.tsinghua.edu.cn/publication/ktransformers-unleashing-the-full-potential-of-cpu/gpu-hybrid-inference-for-moe-models/

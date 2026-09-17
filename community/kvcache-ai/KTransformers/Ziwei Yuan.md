@@ -3,8 +3,8 @@ type: person
 name: Ziwei Yuan
 current_affiliations: ["Approaching.AI","MADSys Lab, Tsinghua University"]
 schools:
-  - "电子科技大学"
   - "清华大学"
+  - "电子科技大学"
 communities: [KTransformers]
 education: [University of Electronic Science and Technology of China]
 roles: [Maintainer, Paper Author, Ph.D. Student]
