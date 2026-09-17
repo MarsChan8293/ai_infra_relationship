@@ -9,7 +9,7 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 407
+- Project/community-person associations: 408
 - Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
@@ -90,13 +90,13 @@
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
+| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
-| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |

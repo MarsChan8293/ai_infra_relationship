@@ -5,6 +5,7 @@ organization: thu-pacman
 linked_people:
   - "company/字节跳动/何家傲 Jiaao He"
   - "company/智谱/曾奥涵 Aohan Zeng"
+  - "company/月之暗面/杨植麟 Zhilin Yang"
   - "company/清程极智/翟季冬 Jidong Zhai"
 areas: [moe, distributed-training, all-to-all-communication, load-balancing, large-model-training]
 layer: distributed-moe-training
@@ -34,6 +35,7 @@ FastMoE 的作者网络非常关键：何家傲、Jiezhong Qiu、曾奥涵、杨
 
 - [[company/字节跳动/何家傲 Jiaao He|何家傲（Jiaao He）]]：[[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：**博士导师 + 系统论文长期合作者**。合作覆盖 [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] / FasterMoE / SmartMoE 与 [[university/清华大学/FastDecode|FastDecode]]。
 - [[company/智谱/曾奥涵 Aohan Zeng|曾奥涵（Aohan Zeng）]]：[[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：早期 MoE systems 合作者，连接 KEG 与 PACMAN
+- [[company/月之暗面/杨植麟 Zhilin Yang|杨植麟（Zhilin Yang）]]：[[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：与何家傲、Jiezhong Qiu、曾奥涵、翟季冬、唐杰共同署名，形成 KEG / model research 与 PACMAN / MoE systems 的早期交叉。
 - [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：[[community/thu-pacman/FastMoE/FastMoE|FastMoE]]：PACMAN 与 KEG 早期 MoE system co-design 强边。
 
 <!-- END AUTO PROJECT PEOPLE -->

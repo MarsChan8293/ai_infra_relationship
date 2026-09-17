@@ -102,4 +102,4 @@
 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 10.059 | 6 | 2 | 33.3% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
 | [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
-| [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 9.770 | 2 | 2 | 100.0% |
+| [[company/月之暗面/杨植麟 Zhilin Yang|杨植麟]] | 9.900 | 6 | 5 | 83.3% |
