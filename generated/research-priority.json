@@ -1,9 +1,13 @@
 {
-  "algorithm": "heterogeneous-active-ecosystem-search-v2-history-aware",
+  "algorithm": "research-operator-planner-v3",
   "ranking_unit": "research-action",
   "deprecated_filename": true,
   "replacement": "generated/research-actions.json",
   "seed": null,
+  "operators": [
+    "discover",
+    "verify"
+  ],
   "budget": 10,
   "candidate_count": 1432,
   "selected_actions": [
@@ -72,6 +76,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -139,6 +148,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -207,6 +221,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.635"
       }
     },
     {
@@ -274,6 +293,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -341,6 +365,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -409,29 +438,35 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
-      "action_id": "university/清华大学/Haojie Wang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
+      "action_id": "company/xAI/xAI::projects",
+      "action_key": "company:projects:project+community+team",
       "source": {
-        "id": "university/清华大学/Haojie Wang",
-        "name": "Haojie Wang",
-        "type": "person",
-        "family": "person"
+        "id": "company/xAI/xAI",
+        "name": "xAI",
+        "type": "company",
+        "family": "company"
       },
-      "relation": "project_contribution",
+      "relation": "projects",
       "target_families": [
         "project",
-        "community"
+        "community",
+        "team"
       ],
       "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
       ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 8.22,
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "verification",
+      "priority": 7.423,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -439,120 +474,58 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.35,
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 5.672,
         "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
+        "frontier_potential": 0.447,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.129,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
+        "history_yield_adjustment": 0.173,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.937,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 5,
-          "statuses": {
-            "success": 5
-          },
-          "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
-        },
-        "key_yield_adjustment": 0.283,
-        "exact_status_adjustment": 0.0
-      }
-    },
-    {
-      "action_id": "company/趋境科技/艾智远 Zhiyuan Ai::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/趋境科技/艾智远 Zhiyuan Ai",
-        "name": "艾智远",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 8.137,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 7,
-        "bridge_score": 6.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.283,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, moe",
+        "source type Company",
+        "infra: serving/inference, kernel",
         "opens underrepresented target types",
-        "bridge 6.3"
+        "missing source URLs"
       ],
-      "base_priority": 7.854,
+      "base_priority": 7.25,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 5,
+          "attempts": 3,
           "statuses": {
-            "success": 5
+            "success": 3
           },
           "mean_status_value": 1.0,
-          "mean_reward": 5.5,
-          "reward_signal": 0.88,
-          "yield_adjustment": 0.283
+          "mean_reward": 7.667,
+          "reward_signal": 0.958,
+          "yield_adjustment": 0.173
         },
-        "key_yield_adjustment": 0.283,
+        "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
       }
     },
     {
-      "action_id": "university/清华大学/Kang Chen::project_contribution",
+      "action_id": "university/清华大学/Weimin Zheng::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
-        "id": "university/清华大学/Kang Chen",
-        "name": "陈康",
-        "type": "person",
+        "id": "university/清华大学/Weimin Zheng",
+        "name": "Weimin Zheng",
+        "type": "person-link",
         "family": "person"
       },
       "relation": "project_contribution",
@@ -565,23 +538,23 @@
         "project_governance_or_release_notes"
       ],
       "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 8.128,
+      "bucket": "verification",
+      "priority": 6.652,
       "cost": 1.0,
       "coverage": {
-        "existing": 0,
+        "existing": 1,
         "desired": 3,
-        "gap": 1.0
+        "gap": 0.667
       },
       "signals": {
         "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 8,
-        "bridge_score": 6.7,
-        "novelty": 1.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 9.25,
+        "novelty": 0.5,
         "frontier_potential": 0.265,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
+        "uncertainty": 0.817,
+        "redundancy_penalty": 0.305,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.283,
@@ -589,13 +562,13 @@
         "history_eligible": true
       },
       "reasons": [
-        "coverage 0/3",
+        "coverage 1/3",
         "source type Person",
         "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "bridge 6.7"
+        "bridge 9.2",
+        "missing source URLs"
       ],
-      "base_priority": 7.845,
+      "base_priority": 6.369,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -612,70 +585,156 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
       }
     },
     {
-      "action_id": "community/Ascend/Ascend/Ascend::core_people",
-      "action_key": "community:core_people:person",
+      "action_id": "company/Fireworks AI/Fireworks AI::key_people",
+      "action_key": "company:key_people:person",
       "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
+        "id": "company/Fireworks AI/Fireworks AI",
+        "name": "Fireworks AI",
+        "type": "company",
+        "family": "company"
       },
-      "relation": "core_people",
+      "relation": "key_people",
       "target_families": [
         "person"
       ],
       "strategies": [
-        "governance_or_maintainers",
-        "github_or_gitcode_activity"
+        "official_team_page",
+        "github_org_maintainers"
       ],
-      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
-      "bucket": "exploration",
-      "priority": 8.015,
-      "cost": 1.0,
+      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
+      "bucket": "verification",
+      "priority": 6.509,
+      "cost": 1.1,
       "coverage": {
         "existing": 0,
         "desired": 4,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 4.935,
         "novelty": 1.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.55,
+        "frontier_potential": 0.577,
+        "uncertainty": 1.0,
         "redundancy_penalty": 0.088,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
+        "history_yield_adjustment": 0.052,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/4",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
+        "source type Company",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types",
+        "missing source URLs"
       ],
-      "base_priority": 8.015,
+      "base_priority": 6.457,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
+          "attempts": 1,
+          "statuses": {
+            "success": 1
+          },
+          "mean_status_value": 1.0,
+          "mean_reward": 2.5,
+          "reward_signal": 0.555,
+          "yield_adjustment": 0.052
         },
-        "key_yield_adjustment": 0.0,
+        "key_yield_adjustment": 0.052,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
+      "action_id": "university/北京邮电大学/北京邮电大学::labs_or_groups",
+      "action_key": "school:labs_or_groups:research+team",
+      "source": {
+        "id": "university/北京邮电大学/北京邮电大学",
+        "name": "北京邮电大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "labs_or_groups",
+      "target_families": [
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_department_or_lab_directory"
+      ],
+      "write_hint": "Add labs/groups only when the institutional relationship is explicit.",
+      "bucket": "verification",
+      "priority": 6.157,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.95,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.577,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.138,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "infra: kv-cache",
+        "opens underrepresented target types",
+        "missing source URLs"
+      ],
+      "base_priority": 6.019,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 3,
+          "statuses": {
+            "partial": 1,
+            "success": 2
+          },
+          "mean_status_value": 0.783,
+          "mean_reward": 4.333,
+          "reward_signal": 0.794,
+          "yield_adjustment": 0.138
+        },
+        "key_yield_adjustment": 0.138,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
       }
     }
   ],
@@ -745,6 +804,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -812,6 +876,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -880,6 +949,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.635"
       }
     },
     {
@@ -947,6 +1021,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1014,6 +1093,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1081,6 +1165,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1148,6 +1237,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1216,6 +1310,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -1283,6 +1382,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1350,6 +1454,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1417,6 +1526,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1485,6 +1599,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1552,6 +1671,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1622,6 +1746,11 @@
         },
         "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1690,6 +1819,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -1758,6 +1892,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.700"
       }
     },
     {
@@ -1825,6 +1964,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1892,6 +2036,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1959,6 +2108,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2026,6 +2180,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2096,6 +2255,11 @@
         },
         "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2160,6 +2324,11 @@
         },
         "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2230,6 +2399,11 @@
         },
         "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2297,6 +2471,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2367,6 +2546,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2437,6 +2621,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2507,6 +2696,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2577,6 +2771,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2647,6 +2846,11 @@
         },
         "key_yield_adjustment": 0.1,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2717,6 +2921,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2784,6 +2993,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2854,6 +3068,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2924,6 +3143,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -2988,6 +3212,11 @@
         },
         "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3058,6 +3287,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3128,6 +3362,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3198,6 +3437,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3265,6 +3509,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3333,6 +3582,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.022"
       }
     },
     {
@@ -3400,6 +3654,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3469,6 +3728,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.157"
       }
     },
     {
@@ -3539,6 +3803,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3609,6 +3878,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3679,6 +3953,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3746,6 +4025,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3814,6 +4098,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.285"
       }
     },
     {
@@ -3883,6 +4172,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
       }
     },
     {
@@ -3951,6 +4245,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4018,6 +4317,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4086,6 +4390,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4153,6 +4462,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4220,6 +4534,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4287,6 +4606,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4354,6 +4678,11 @@
         },
         "key_yield_adjustment": -0.048,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4424,6 +4753,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4491,6 +4825,11 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4561,6 +4900,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4631,6 +4975,11 @@
         },
         "key_yield_adjustment": 0.294,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4699,6 +5048,11 @@
         },
         "key_yield_adjustment": 0.173,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -4767,98 +5121,12 @@
         },
         "key_yield_adjustment": 0.283,
         "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.520"
       }
     }
-  ],
-  "planner_entrypoint": "scripts/plan-research.py",
-  "history_path": "research/action-history.json",
-  "history_as_of": "2026-09-17",
-  "history_summary": {
-    "as_of": "2026-09-17",
-    "history_records": 30,
-    "suppressed_by_cooldown": 11,
-    "partial_followup_candidates": 2,
-    "latest_status_counts_in_current_candidates": {
-      "partial": 2,
-      "success": 13,
-      "unresolved": 9
-    },
-    "action_key_stats": {
-      "company:key_people:person": {
-        "attempts": 1,
-        "statuses": {
-          "success": 1
-        },
-        "mean_status_value": 1.0,
-        "mean_reward": 2.5,
-        "reward_signal": 0.555,
-        "yield_adjustment": 0.052
-      },
-      "company:projects:project+community+team": {
-        "attempts": 3,
-        "statuses": {
-          "success": 3
-        },
-        "mean_status_value": 1.0,
-        "mean_reward": 7.667,
-        "reward_signal": 0.958,
-        "yield_adjustment": 0.173
-      },
-      "person:affiliation:company+school+research+team": {
-        "attempts": 6,
-        "statuses": {
-          "partial": 1,
-          "success": 5
-        },
-        "mean_status_value": 0.892,
-        "mean_reward": 3.333,
-        "reward_signal": 0.682,
-        "yield_adjustment": 0.294
-      },
-      "person:project_contribution:project+community": {
-        "attempts": 5,
-        "statuses": {
-          "success": 5
-        },
-        "mean_status_value": 1.0,
-        "mean_reward": 5.5,
-        "reward_signal": 0.88,
-        "yield_adjustment": 0.283
-      },
-      "project:maintainers:person": {
-        "attempts": 10,
-        "statuses": {
-          "success": 1,
-          "unresolved": 9
-        },
-        "mean_status_value": -0.35,
-        "mean_reward": 2.225,
-        "reward_signal": 0.505,
-        "yield_adjustment": -0.048
-      },
-      "project:originating_org:company+school+research+community+team": {
-        "attempts": 2,
-        "statuses": {
-          "success": 2
-        },
-        "mean_status_value": 1.0,
-        "mean_reward": 1.75,
-        "reward_signal": 0.412,
-        "yield_adjustment": 0.1
-      },
-      "school:labs_or_groups:research+team": {
-        "attempts": 3,
-        "statuses": {
-          "partial": 1,
-          "success": 2
-        },
-        "mean_status_value": 0.783,
-        "mean_reward": 4.333,
-        "reward_signal": 0.794,
-        "yield_adjustment": 0.138
-      }
-    }
-  },
-  "eligible_count": 1421,
-  "suppressed_count": 11
+  ]
 }
