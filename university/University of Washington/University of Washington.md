@@ -1,6 +1,8 @@
 ---
 type: school
 name: "University of Washington"
+labs:
+  - "SyFI Lab"
 linked_people:
   - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"

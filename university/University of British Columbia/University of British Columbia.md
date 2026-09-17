@@ -1,6 +1,8 @@
 ---
 type: school
 name: "University of British Columbia"
+labs:
+  - "Systems and Architectures (STAR) Lab"
 linked_people:
   - "community/llm-d/llm-d/Abdullah Gharaibeh"
 ---
