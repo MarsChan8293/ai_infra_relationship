@@ -9,7 +9,7 @@
 - People with generated linked_companies: 206
 - Project/community nodes: 110
 - Project/community nodes with ≥1 linked person: 80
-- Project/community-person associations: 401
+- Project/community-person associations: 407
 - Non-company affiliations recognized and routed elsewhere: 75
 - Unresolved source values (backlog, non-fatal): 11
 - Audit errors: 0
@@ -82,6 +82,7 @@
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[university/清华大学/GLM-130B|GLM-130B]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
@@ -95,17 +96,17 @@
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
-| [[university/清华大学/GLM-130B|GLM-130B]] | 3 |
+| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
 | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | 3 |
+| [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 2 |
 | [[community/Deep-Spark/DeepSpark/DeepSpark|DeepSpark]] | 2 |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
 | [[university/清华大学/FastDecode|FastDecode]] | 2 |
-| [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 2 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
@@ -122,7 +123,6 @@
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
-| [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | 1 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |

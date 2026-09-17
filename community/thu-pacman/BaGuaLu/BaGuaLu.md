@@ -4,6 +4,7 @@ name: BaGuaLu
 aliases: ["八卦炉", "BaGuaLu-2"]
 linked_people:
   - "company/清程极智/唐适之 Shizhi Tang"
+  - "company/清程极智/马子轩 Zixuan Ma"
 companies: ["清程极智"]
 company_relation: company-led
 layer: distributed-training
@@ -46,6 +47,7 @@ BaGuaLu（八卦炉）是清华 HPC / AI systems 研究网络发展出的分布�
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[company/清程极智/唐适之 Shizhi Tang|唐适之（Shizhi Tang）]]：[[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu（八卦炉）]]：BaGuaLu 论文作者网络成员，并从清华 HPC / AI systems 研究线延续到清程极智的训练—推理系统研发。
+- [[company/清程极智/马子轩 Zixuan Ma|马子轩（Zixuan Ma）]]：[[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]]：PPoPP 2022 第一作者，面向超大规模超算训练 brain-scale pretrained models。
 
 <!-- END AUTO PROJECT PEOPLE -->
 
