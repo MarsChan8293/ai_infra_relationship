@@ -12,9 +12,7 @@ linked_people:
   - "community/ai-dynamo/NIXL/Ryan Hankins"
   - "community/ai-dynamo/NIXL/Tomer Davidor"
 governance: company-led
-companies:
-  - "NVIDIA"
-  - "HPE"
+companies: ["NVIDIA","HPE"]
 company_relation: company-led
 layer: inference-data-movement
 open_source: true

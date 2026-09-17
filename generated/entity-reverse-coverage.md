@@ -8,8 +8,8 @@
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 212
 - Project/community nodes: 118
-- Project/community nodes with ≥1 linked person: 87
-- Project/community-person associations: 431
+- Project/community nodes with ≥1 linked person: 88
+- Project/community-person associations: 440
 - Non-company affiliations recognized and routed elsewhere: 87
 - Unresolved source values (backlog, non-fatal): 13
 - Audit errors: 0
@@ -85,6 +85,7 @@
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
@@ -93,6 +94,7 @@
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
+| [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
@@ -117,8 +119,7 @@
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
 | [[university/清华大学/FastDecode|FastDecode]] | 2 |
-| [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 2 |
-| [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 2 |
+| [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |

@@ -4,20 +4,20 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1512
+- Candidate actions: 1545
 - Selected actions: 10
-- History records: 213
+- History records: 718
 
 ## Selected portfolio
 
 | Rank | Operator | Trigger | Source | Type | Relation | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | DISCOVER | coverage_gap | [[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]] | project | maintainers | person | exploitation | 8.975 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 2 | DISCOVER | coverage_gap | [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] | project | maintainers | person | exploration | 8.944 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
-| 3 | DISCOVER | coverage_gap | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | person | exploration | 8.933 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 4 | DISCOVER | coverage_gap | [[company/Intel/xFasterTransformer|xFasterTransformer]] | project | maintainers | person | exploration | 8.708 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, quantization；opens underrepresented target types |
-| 5 | DISCOVER | coverage_gap | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | project, community | exploration | 8.273 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
-| 6 | DISCOVER | bridge | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.190 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
+| 1 | DISCOVER | coverage_gap | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | company, school, research, community, team | exploration | 8.008 | new | coverage 0/1；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 2 | DISCOVER | coverage_gap | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | key_people | person | exploration | 7.840 | new | coverage 0/4；source type Research Institution；infra: serving/inference, kv-cache, quantization；opens underrepresented target types |
+| 3 | DISCOVER | coverage_gap | [[university/University of British Columbia/Systems and Architectures STAR Lab|Systems and Architectures (STAR) Lab]] | research | key_people | person | exploration | 7.358 | new | coverage 0/4；source type Research Institution；infra: serving/inference, kv-cache；opens underrepresented target types |
+| 4 | DISCOVER | coverage_gap | [[university/University of Washington/SyFI Lab|SyFI Lab]] | research | key_people | person | exploration | 7.267 | new | coverage 0/4；source type Research Institution；infra: serving/inference, distributed；opens underrepresented target types |
+| 5 | DISCOVER | coverage_gap | [[university/南京大学/大模型研究协同创新中心|大模型研究协同创新中心]] | research | key_people | person | exploration | 7.267 | new | coverage 0/4；source type Research Institution；infra: serving/inference, distributed；opens underrepresented target types |
+| 6 | DISCOVER | coverage_gap | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | maintainers | person | exploitation | 7.177 | new | coverage 1/4；source type Project；infra: serving/inference, scheduler, kernel |
 | 7 | VERIFY | weak_evidence | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | school | projects | project, community | verification | 5.477 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
 | 8 | VERIFY | weak_evidence | [[university/电子科技大学/电子科技大学|电子科技大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
 | 9 | VERIFY | weak_evidence | [[university/西北工业大学/西北工业大学|西北工业大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |

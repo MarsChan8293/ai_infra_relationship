@@ -1,7 +1,9 @@
 ---
 type: project
 name: FlagRelease
-linked_people: []
+linked_people:
+  - "community/flagos-ai/FlagRelease/shh2000"
+  - "community/flagos-ai/FlagRelease/tianxiao-baai"
 companies: []
 company_relation: community-led
 layer: model-porting-release
@@ -29,3 +31,13 @@ https://github.com/flagos-ai/FlagRelease
 - https://github.com/flagos-ai/FlagRelease
 - https://hub.baai.ac.cn/view/47531
 - https://hub.baai.ac.cn/view/57117
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/flagos-ai/FlagRelease/shh2000|shh2000]]：https://raw.githubusercontent.com/flagos-ai/FlagRelease/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagRelease/tianxiao-baai|tianxiao-baai]]：https://raw.githubusercontent.com/flagos-ai/FlagRelease/main/MAINTAINERS.md
+
+<!-- END AUTO PROJECT PEOPLE -->

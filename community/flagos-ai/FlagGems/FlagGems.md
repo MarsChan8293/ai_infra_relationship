@@ -2,8 +2,13 @@
 type: project
 name: FlagGems
 linked_people:
+  - "community/flagos-ai/FlagGems/0x45f"
+  - "community/flagos-ai/FlagGems/huangyiqun"
+  - "community/flagos-ai/FlagGems/tengqm"
   - "community/flagos-ai/FlagOS/白童心"
   - "community/flagos-ai/FlagOS/陈飞宇"
+  - "community/flagos-ai/FlagTree/Galaxy1458"
+  - "community/flagos-ai/FlagTree/zhzhcookie"
 companies: []
 company_relation: community-led
 layer: kernel-library
@@ -38,7 +43,12 @@ https://github.com/flagos-ai/FlagGems
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/flagos-ai/FlagGems/0x45f|0x45f]]：https://raw.githubusercontent.com/flagos-ai/FlagGems/master/MAINTAINERS.md
+- [[community/flagos-ai/FlagGems/huangyiqun|huangyiqun]]：https://raw.githubusercontent.com/flagos-ai/FlagGems/master/MAINTAINERS.md
+- [[community/flagos-ai/FlagGems/tengqm|tengqm]]：https://raw.githubusercontent.com/flagos-ai/FlagGems/master/MAINTAINERS.md
 - [[community/flagos-ai/FlagOS/白童心|白童心]]：[[FlagGems]]：**项目早期研发 / 技术介绍**；2024 智源大会由其系统介绍 FlagGems 的研发背景、跨后端支持与性能数据。
 - [[community/flagos-ai/FlagOS/陈飞宇|陈飞宇]]：[[FlagGems]]：**开源项目开发**；智源官方人物页明确列为项目开发者，2025 公开分享进一步聚焦运行时优化。
+- [[community/flagos-ai/FlagTree/Galaxy1458|Galaxy1458]]：项目关联；人物页已明确记录该项目。
+- [[community/flagos-ai/FlagTree/zhzhcookie|zhzhcookie]]：项目关联；人物页已明确记录该项目。
 
 <!-- END AUTO PROJECT PEOPLE -->

@@ -2,6 +2,8 @@
 type: project
 name: FlagCX
 linked_people:
+  - "community/flagos-ai/FlagCX/MC952-arch"
+  - "community/flagos-ai/FlagCX/mikethegoblin"
   - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
   - "community/flagos-ai/FlagOS/曹州"
 companies: []
@@ -38,6 +40,8 @@ https://github.com/flagos-ai/FlagCX
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/flagos-ai/FlagCX/MC952-arch|MC952-arch]]：https://raw.githubusercontent.com/flagos-ai/FlagCX/main/MAINTAINERS.md
+- [[community/flagos-ai/FlagCX/mikethegoblin|mikethegoblin]]：https://raw.githubusercontent.com/flagos-ai/FlagCX/main/MAINTAINERS.md
 - [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙（Yulong Ao）]]：[[FlagCX]]：**开源项目维护**；当前官方 MAINTAINERS 列表包含 `aoyulong`，智源官方资料同时明确其负责该统一通信库。
 - [[community/flagos-ai/FlagOS/曹州|曹州]]：[[FlagCX]]：**开源项目维护**；官方 MAINTAINERS 同样列出 `Caozhou1995`。
 

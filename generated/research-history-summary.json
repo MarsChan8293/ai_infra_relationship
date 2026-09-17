@@ -1,36 +1,66 @@
 {
   "as_of": "2026-09-17",
-  "history_records": 213,
-  "suppressed_by_cooldown": 190,
-  "partial_followup_candidates": 161,
+  "history_records": 718,
+  "suppressed_by_cooldown": 693,
+  "partial_followup_candidates": 655,
   "latest_status_counts_in_current_candidates": {
-    "partial": 161,
-    "success": 19,
-    "unresolved": 23
+    "partial": 655,
+    "success": 11,
+    "unresolved": 31
   },
   "action_key_stats": {
-    "company:key_people:person": {
+    "community:core_people:person": {
+      "attempts": 6,
+      "statuses": {
+        "partial": 6
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 3.167,
+      "reward_signal": 0.659,
+      "yield_adjustment": 0.15
+    },
+    "community:member_orgs:company+school+research": {
       "attempts": 2,
       "statuses": {
-        "partial": 1,
+        "partial": 2
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 3.75,
+      "reward_signal": 0.734,
+      "yield_adjustment": 0.052
+    },
+    "company:academic_links:school+research": {
+      "attempts": 6,
+      "statuses": {
+        "partial": 6
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 2.667,
+      "reward_signal": 0.583,
+      "yield_adjustment": 0.143
+    },
+    "company:key_people:person": {
+      "attempts": 8,
+      "statuses": {
+        "partial": 7,
         "success": 1
       },
-      "mean_status_value": 0.675,
-      "mean_reward": 3.625,
-      "reward_signal": 0.719,
-      "yield_adjustment": 0.08
+      "mean_status_value": 0.431,
+      "mean_reward": 3.781,
+      "reward_signal": 0.738,
+      "yield_adjustment": 0.178
     },
     "company:projects:project+community+team": {
-      "attempts": 10,
+      "attempts": 32,
       "statuses": {
-        "partial": 2,
+        "partial": 24,
         "success": 7,
         "unresolved": 1
       },
-      "mean_status_value": 0.72,
-      "mean_reward": 4.925,
-      "reward_signal": 0.843,
-      "yield_adjustment": 0.263
+      "mean_status_value": 0.466,
+      "mean_reward": 3.336,
+      "reward_signal": 0.683,
+      "yield_adjustment": 0.182
     },
     "company:verify_evidence:none": {
       "attempts": 7,
@@ -44,25 +74,36 @@
       "yield_adjustment": -0.096
     },
     "person:affiliation:company+school+research+team": {
-      "attempts": 7,
+      "attempts": 124,
       "statuses": {
-        "partial": 2,
+        "partial": 119,
         "success": 5
       },
-      "mean_status_value": 0.814,
-      "mean_reward": 3.286,
-      "reward_signal": 0.676,
-      "yield_adjustment": 0.273
+      "mean_status_value": 0.376,
+      "mean_reward": 3.254,
+      "reward_signal": 0.672,
+      "yield_adjustment": 0.158
     },
     "person:project_contribution:project+community": {
-      "attempts": 9,
+      "attempts": 209,
       "statuses": {
+        "partial": 200,
         "success": 9
       },
-      "mean_status_value": 1.0,
-      "mean_reward": 4.833,
-      "reward_signal": 0.836,
-      "yield_adjustment": 0.336
+      "mean_status_value": 0.378,
+      "mean_reward": 2.749,
+      "reward_signal": 0.596,
+      "yield_adjustment": 0.151
+    },
+    "person:technical_collaborator:person": {
+      "attempts": 11,
+      "statuses": {
+        "partial": 11
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 2.773,
+      "reward_signal": 0.6,
+      "yield_adjustment": 0.144
     },
     "person:verify_evidence:none": {
       "attempts": 88,
@@ -76,26 +117,37 @@
       "yield_adjustment": 0.111
     },
     "project:maintainers:person": {
-      "attempts": 14,
+      "attempts": 65,
       "statuses": {
-        "partial": 4,
-        "success": 1,
-        "unresolved": 9
+        "partial": 45,
+        "success": 4,
+        "unresolved": 16
       },
-      "mean_status_value": -0.15,
-      "mean_reward": 3.286,
-      "reward_signal": 0.676,
-      "yield_adjustment": 0.02
+      "mean_status_value": 0.181,
+      "mean_reward": 1.381,
+      "reward_signal": 0.332,
+      "yield_adjustment": 0.077
     },
     "project:originating_org:company+school+research+community+team": {
-      "attempts": 2,
+      "attempts": 10,
       "statuses": {
+        "partial": 8,
         "success": 2
       },
-      "mean_status_value": 1.0,
-      "mean_reward": 1.75,
-      "reward_signal": 0.412,
-      "yield_adjustment": 0.1
+      "mean_status_value": 0.48,
+      "mean_reward": 3.9,
+      "reward_signal": 0.751,
+      "yield_adjustment": 0.192
+    },
+    "project:related_projects:project+community": {
+      "attempts": 26,
+      "statuses": {
+        "partial": 26
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 3.269,
+      "reward_signal": 0.674,
+      "yield_adjustment": 0.151
     },
     "project:verify_evidence:none": {
       "attempts": 31,
@@ -107,6 +159,37 @@
       "reward_signal": 0.245,
       "yield_adjustment": 0.113
     },
+    "research:key_people:person": {
+      "attempts": 2,
+      "statuses": {
+        "partial": 2
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 2.75,
+      "reward_signal": 0.596,
+      "yield_adjustment": 0.048
+    },
+    "research:parent_or_partner_org:school+company+research": {
+      "attempts": 1,
+      "statuses": {
+        "partial": 1
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 4.0,
+      "reward_signal": 0.762,
+      "yield_adjustment": 0.026
+    },
+    "research:projects:project+community": {
+      "attempts": 20,
+      "statuses": {
+        "partial": 19,
+        "unresolved": 1
+      },
+      "mean_status_value": 0.307,
+      "mean_reward": 1.5,
+      "reward_signal": 0.358,
+      "yield_adjustment": 0.112
+    },
     "research:verify_evidence:none": {
       "attempts": 1,
       "statuses": {
@@ -117,17 +200,37 @@
       "reward_signal": 0.245,
       "yield_adjustment": 0.019
     },
-    "school:labs_or_groups:research+team": {
-      "attempts": 24,
+    "school:key_people:person": {
+      "attempts": 2,
       "statuses": {
-        "partial": 17,
+        "partial": 2
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 0.5,
+      "reward_signal": 0.124,
+      "yield_adjustment": 0.034
+    },
+    "school:labs_or_groups:research+team": {
+      "attempts": 48,
+      "statuses": {
+        "partial": 41,
         "success": 2,
         "unresolved": 5
       },
-      "mean_status_value": 0.227,
-      "mean_reward": 3.188,
-      "reward_signal": 0.662,
-      "yield_adjustment": 0.118
+      "mean_status_value": 0.289,
+      "mean_reward": 2.25,
+      "reward_signal": 0.51,
+      "yield_adjustment": 0.12
+    },
+    "school:spinouts:company": {
+      "attempts": 1,
+      "statuses": {
+        "partial": 1
+      },
+      "mean_status_value": 0.35,
+      "mean_reward": 1.5,
+      "reward_signal": 0.358,
+      "yield_adjustment": 0.021
     },
     "school:verify_evidence:none": {
       "attempts": 18,

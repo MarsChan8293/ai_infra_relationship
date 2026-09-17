@@ -11,8 +11,7 @@ linked_people:
   - "community/ModelTC/LightLLM/Siyu Wu"
   - "community/ModelTC/LightLLM/Su Fubao"
   - "community/ModelTC/LightLLM/Zaijun Wang"
-companies:
-  - "商汤科技"
+companies: ["商汤科技"]
 company_relation: community-led
 layer: llm-serving-engine
 open_source: true
