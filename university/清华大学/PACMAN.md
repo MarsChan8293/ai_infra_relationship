@@ -3,20 +3,7 @@ type: research-institution
 name: PACMAN
 organization: 清华大学
 aliases: ["PACMAN Lab", "PACMAN Group", "Parallel Architecture & Compiler technology of Mobile, Accelerated, and Networked systems Group"]
-linked_people:
-  - "company/清程极智/翟季冬 Jidong Zhai"
-  - "university/清华大学/Wenguang Chen"
-  - "company/字节跳动/何家傲 Jiaao He"
-  - "company/字节跳动/郑立言 Liyan Zheng"
-  - "company/深度求索/黄可钊 Kezhao Huang"
-  - "community/vllm-project/vLLM/Chen Zhang"
-  - "company/清程极智/马子轩 Zixuan Ma"
-  - "company/清程极智/唐适之 Shizhi Tang"
-  - "company/清程极智/师天麾 Tianhui Shi"
-  - "university/清华大学/Qihao Zhang"
-  - "university/清华大学/Mingshu Zhai"
-  - "university/清华大学/Haojie Wang"
-  - "university/清华大学/Zan Zong"
+linked_people: []
 areas: [high-performance-computing, ai-compiler, distributed-training, llm-serving, quantization, kv-cache, heterogeneous-computing]
 projects: [FastMoE, BaGuaLu, GLM-130B, FastDecode, Jenga, Chitu, QFactory, Lethe]
 website: https://pacman.cs.tsinghua.edu.cn/

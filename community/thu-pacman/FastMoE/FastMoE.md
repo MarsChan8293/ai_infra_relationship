@@ -2,17 +2,13 @@
 type: project
 name: FastMoE
 organization: thu-pacman
-linked_people:
-  - "company/字节跳动/何家傲 Jiaao He"
-  - "company/清程极智/翟季冬 Jidong Zhai"
-  - "company/智谱/曾奥涵 Aohan Zeng"
-  - "company/月之暗面/杨植麟 Zhilin Yang"
-  - "company/智谱/唐杰 Jie Tang"
+linked_people: []
 areas: [moe, distributed-training, all-to-all-communication, load-balancing, large-model-training]
 layer: distributed-moe-training
 open_source: true
 repository: https://github.com/laekov/fastmoe
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FastMoE
 

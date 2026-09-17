@@ -1,7 +1,7 @@
 ---
 type: person
 name: Qihao Zhang
-current_affiliations: ["Tsinghua University", "PACMAN Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","PACMAN Lab, Tsinghua University"]
 schools:
   - "清华大学"
 projects: [QFactory]
@@ -20,6 +20,9 @@ PACMAN PhD student，研究聚焦 machine learning systems / parallel computing�
 ## AI Infra
 - [[community/thu-pacman/QFactory/QFactory|QFactory]]：USENIX ATC 2025 第一作者，面向 quantized LLM serving 的 Qtile Graph / kernel optimization。
 - RoMeo：后续继续研究 mixed-precision quantization 与 LLM serving。
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://pacman.cs.tsinghua.edu.cn/~zjd/author/qihao-zhang/

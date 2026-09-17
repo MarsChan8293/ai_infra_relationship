@@ -1,7 +1,7 @@
 ---
 type: person
 name: Mingshu Zhai
-current_affiliations: ["Tsinghua University", "PACMAN Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","PACMAN Lab, Tsinghua University"]
 schools:
   - "清华大学"
 projects: [QFactory, SmartMoE]
@@ -23,6 +23,9 @@ PACMAN PhD student，研究覆盖 ML systems、MoE、quantization 与 HPC。
 - RoMeo：进一步面向 rotated mixed-precision quantization。
 
 这条轨迹体现 PACMAN 从 distributed MoE training 向 inference quantization 的技术迁移。
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://pacman.cs.tsinghua.edu.cn/~zjd/author/mingshu-zhai/

@@ -1,7 +1,7 @@
 ---
 type: person
 name: Haojie Wang
-current_affiliations: ["Tsinghua University", "PACMAN Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","PACMAN Lab, Tsinghua University"]
 schools:
   - "清华大学"
 roles: [Assistant Researcher]
@@ -22,6 +22,9 @@ relations:
 - ChituDiffusion / dynamic diffusion LLM inference：继续把 compiler / runtime 方法用于新型生成 workload。
 
 因此 Haojie Wang 是 PACMAN “编译器 → serving runtime”迁移里值得保留的中间层人物。
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://pacman.cs.tsinghua.edu.cn/~zjd/author/haojie-wang/

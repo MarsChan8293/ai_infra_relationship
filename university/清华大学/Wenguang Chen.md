@@ -3,7 +3,7 @@ type: person
 name: 陈文光
 english_name: Wenguang Chen
 aliases: ["Wenguang Chen", "陈文光"]
-current_affiliations: ["Tsinghua University", "PACMAN Lab, Tsinghua University"]
+current_affiliations: ["Tsinghua University","PACMAN Lab, Tsinghua University"]
 schools:
   - "清华大学"
 projects: [GLM-130B]
@@ -24,6 +24,9 @@ relations:
 - CodeGeeX：官方项目页将陈文光列为指导教师之一，形成 PACMAN systems 与 KEG code-model 路线的另一条交叉。
 - MEPipe：EuroSys 2025，围绕 cost-effective accelerators 上的大模型 memory-efficient pipeline scheduling，显示其研究继续延伸到现代 LLM training systems。
 - 与 [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] 长期共同构成 PACMAN faculty / HPC systems 网络。
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://pacman.cs.tsinghua.edu.cn/~cwg/

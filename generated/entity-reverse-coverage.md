@@ -7,11 +7,11 @@
 - Company-person associations: 207
 - Email-domain-supported associations: 27
 - People with generated linked_companies: 206
-- Project/community nodes: 106
-- Project/community nodes with ≥1 linked person: 76
-- Project/community-person associations: 392
-- Non-company affiliations recognized and routed elsewhere: 69
-- Unresolved source values (backlog, non-fatal): 4
+- Project/community nodes: 110
+- Project/community nodes with ≥1 linked person: 78
+- Project/community-person associations: 395
+- Non-company affiliations recognized and routed elsewhere: 74
+- Unresolved source values (backlog, non-fatal): 10
 - Audit errors: 0
 
 ## Companies
@@ -116,6 +116,7 @@
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 2 |
 | [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
+| [[community/thu-pacman/QFactory/QFactory|QFactory]] | 2 |
 | [[community/ray-project/Ray/Ray|Ray]] | 2 |
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
@@ -124,6 +125,7 @@
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
+| [[university/清华大学/GLM-130B|GLM-130B]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
@@ -149,4 +151,10 @@
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `Sky Computing Lab`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/Xiaoze Fan.md` · `affiliation` → `UC Berkeley Sky Computing Lab`
+- `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/清华大学/Mingshu Zhai.md` · `projects` → `SmartMoE`
+- `university/清华大学/Qihao Zhang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Weichao Guo.md` · `affiliation` → `OPPO`
+- `university/清华大学/Wenguang Chen.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/清华大学/Zan Zong.md` · `affiliation` → `PACMAN Lab, Tsinghua University`

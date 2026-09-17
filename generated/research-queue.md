@@ -6,8 +6,8 @@
 
 - Daily budget: 10
 - Seed: none (global ecosystem mode)
-- Candidate actions: 1419
-- Eligible actions: 1408
+- Candidate actions: 1438
+- Eligible actions: 1427
 - Cooldown-suppressed: 11
 - History records: 30
 - Selected actions: 10
@@ -17,15 +17,15 @@
 | Rank | Source | Type | Research action | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | ---: | --- | --- |
 | 1 | [[community/siliconflow/OneDiff/OneDiff|OneDiff]] | project | maintainers | person | exploration | 9.257 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 2 | [[community/Ascend/CANN/CANN|CANN]] | project | maintainers | person | exploitation | 9.105 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 3 | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | project | maintainers | person | bridge | 9.016 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 4 | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | person | exploitation | 8.966 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, ascend；opens underrepresented target types |
+| 2 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | project | maintainers | person | exploration | 9.114 | new | coverage 0/4；source type Project；infra: serving/inference, scheduler, distributed；opens underrepresented target types |
+| 3 | [[community/Ascend/CANN/CANN|CANN]] | project | maintainers | person | exploitation | 9.105 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
+| 4 | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | project | maintainers | person | bridge | 9.016 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
 | 5 | [[company/Intel/Intel|Intel]] | company | projects | project, community, team | exploration | 8.266 | new | coverage 0/3；source type Company；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
-| 6 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.137 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
-| 7 | [[university/清华大学/Kang Chen|陈康]] | person | project_contribution | project, community | bridge | 8.128 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 8 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | project, community | exploitation | 8.097 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 9 | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.015 | new | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 10 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | company, school, research, team | exploration | 7.964 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 6 | [[university/清华大学/Zan Zong|Zan Zong]] | person | project_contribution | project, community | exploration | 8.181 | new | coverage 0/3；source type Person；infra: serving/inference, scheduler, distributed；opens underrepresented target types |
+| 7 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | person | project_contribution | project, community | bridge | 8.137 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, moe；opens underrepresented target types |
+| 8 | [[university/清华大学/Kang Chen|陈康]] | person | project_contribution | project, community | bridge | 8.128 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 9 | [[university/清华大学/Jinlei Jiang|蒋金磊]] | person | project_contribution | project, community | exploitation | 8.097 | new | coverage 0/3；source type Person；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
+| 10 | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.015 | new | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 
 ## Agent execution contract
 
@@ -42,36 +42,36 @@
 
 | Rank | Source | Type | Action | Priority |
 | ---: | --- | --- | --- | ---: |
-| 1 | [[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]] | project | maintainers | 8.907 |
-| 2 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | 8.865 |
-| 3 | [[community/vllm-project/Jenga/Jenga|Jenga]] | project | originating_org | 8.591 |
+| 1 | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | 8.966 |
+| 2 | [[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]] | project | maintainers | 8.907 |
+| 3 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | maintainers | 8.865 |
 | 4 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | project | originating_org | 8.379 |
 | 5 | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | maintainers | 8.354 |
 | 6 | [[community/MooreThreads/MATE/MATE|MATE]] | project | maintainers | 8.345 |
 | 7 | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar|lmcache-iluvatar]] | project | maintainers | 8.319 |
 | 8 | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | maintainers | 8.313 |
 | 9 | [[community/sgl-project/mini-SGLang/mini-SGLang|mini-SGLang]] | project | originating_org | 8.218 |
-| 10 | [[university/清华大学/FastDecode|FastDecode]] | project | originating_org | 8.137 |
+| 10 | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | 8.079 |
 | 11 | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project | maintainers | 8.078 |
 | 12 | [[company/面壁智能/MiniCPM|MiniCPM]] | project | maintainers | 8.078 |
 | 13 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | project | originating_org | 8.033 |
 | 14 | [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | project | originating_org | 8.010 |
 | 15 | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | maintainers | 7.981 |
-| 16 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
-| 17 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
-| 18 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
-| 19 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
-| 20 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
-| 21 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
-| 22 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
-| 23 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
-| 24 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
-| 25 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
-| 26 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
-| 27 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
-| 28 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
-| 29 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
-| 30 | [[company/清昴智能/关超宇 Chaoyu Guan|关超宇]] | person | project_contribution | 7.514 |
+| 16 | [[community/Ascend/MemCache/Pz1116|Pz1116]] | person | affiliation | 7.964 |
+| 17 | [[community/kvcache-ai/Mooncake/Aionw|Aoi]] | person | affiliation | 7.951 |
+| 18 | [[community/Ascend/MemCache/tyy0829|tyy0829]] | person | affiliation | 7.951 |
+| 19 | [[community/LMCache/LMCache/Roy Huang|Roy Huang]] | person | affiliation | 7.930 |
+| 20 | [[community/vllm-project/Speculators/Speculators|Speculators]] | project | originating_org | 7.916 |
+| 21 | [[community/vllm-project/vLLM-Ascend/yiz-liu|yiz-liu]] | person | affiliation | 7.875 |
+| 22 | [[company/派欧云/李星星|李星星]] | person | project_contribution | 7.867 |
+| 23 | [[community/Ascend/MemCache/shilinlee|shilinlee]] | person | affiliation | 7.850 |
+| 24 | [[community/vllm-project/vLLM-Ascend/zzzzwwjj|zzzzwwjj]] | person | affiliation | 7.841 |
+| 25 | [[university/IBM Research/IBM Research|IBM Research]] | research | key_people | 7.835 |
+| 26 | [[community/Ascend/ops-transformer/tangkaidi|tangkaidi]] | person | affiliation | 7.834 |
+| 27 | [[community/Ascend/MemCache/nbbb24|nbbb24]] | person | affiliation | 7.760 |
+| 28 | [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利]] | person | affiliation | 7.706 |
+| 29 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | maintainers | 7.679 |
+| 30 | [[university/清华大学/Weichao Guo|Weichao Guo]] | person | project_contribution | 7.536 |
 
 ## Cooldown / history-suppressed
 

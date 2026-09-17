@@ -3,14 +3,7 @@ type: project
 name: GLM-130B
 organization: Tsinghua KEG / PACMAN / THUNLP / Zhipu AI
 linked_people:
-  - "company/智谱/唐杰 Jie Tang"
-  - "company/智谱/曾奥涵 Aohan Zeng"
-  - "company/智谱/杜政晓 Zhengxiao Du"
-  - "company/智谱/郑勤锴 Qinkai Zheng"
-  - "company/清程极智/翟季冬 Jidong Zhai"
   - "university/清华大学/Wenguang Chen"
-  - "company/字节跳动/何家傲 Jiaao He"
-  - "company/清程极智/马子轩 Zixuan Ma"
 areas: [foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency]
 layer: pretraining-system-model-codesign
 open_source: true
@@ -44,3 +37,12 @@ GLM-130B 是清华 KEG 发起的 130B 中英双语稠密预训练模型，也是
 - https://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/
 - https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/
 - https://pacman.cs.tsinghua.edu.cn/~zjd/
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/清华大学/Wenguang Chen|陈文光（Wenguang Chen）]]：[[university/清华大学/GLM-130B|GLM-130B]]：官方项目贡献团队将陈文光列入 Tsinghua PACMAN contributors，连接大模型训练中的并行 / 系统优化。
+
+<!-- END AUTO PROJECT PEOPLE -->
