@@ -19,7 +19,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `Deep-Spark`：[[DeepSpark]] · [[DeepSparkInference]] · [[iluvatar-corex-ixrt]] · [[lmcache-iluvatar]]
 - `deepseek-ai`：[[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA
 - `ggml-org`：[[llama.cpp]] · [[ggml]]
-- `ollama`：[[Ollama]]
+- `ollama`：[[community/ollama/Ollama/Ollama|Ollama]]
 - `FlashML-org`：[[FreeToken]]
 - `hpcaitech`：[[Colossal-AI]]
 - `flashinfer-ai`：[[FlashInfer]]
@@ -57,7 +57,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[vllm-musa]] / [[MATE]] / [[torch_musa]] | [[company/摩尔线程/摩尔线程|摩尔线程]] | MUSA 公司开源生态 |
 | [[DeepSparkInference]] / [[iluvatar-corex-ixrt]] / [[lmcache-iluvatar]] | [[company/天数智芯/天数智芯|天数智芯]] | DeepSpark / CoreX 推理生态 |
 | [[llama.cpp]] / [[ggml]] | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2026 GGML / llama.cpp maintainer team 加入 HF；项目保持开源与技术自主 |
-| [[Ollama]] | [[company/Ollama/Ollama|Ollama]] | 原始开发 / 公司主导 |
+| [[community/ollama/Ollama/Ollama|Ollama]] | [[company/Ollama/Ollama|Ollama]] | 原始开发 / 公司主导 |
 | [[FlagScale]] / [[FlagGems]] / [[FlagCX]] / [[FlagTree]] / [[FlagAttention]] / [[FlagRelease]] / [[FlagPerf]] | 暂无单一主要公司 | [[FlagOS]] 社区发起 / 智源研究院与多机构共建 |
 | [[LMCache]] | [[company/TensorMesh/TensorMesh|TensorMesh]] | research → startup core network |
 | [[LMDeploy]] | 暂无单一主要公司 | [[上海人工智能实验室]] / InternLM 开源生态主导 |
@@ -75,10 +75,10 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[Ollama]]
+[[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
 
 ## Local / Edge Inference
-[[llama.cpp]] · [[ggml]] · [[Ollama]] · [[FreeToken]] · [[KTransformers]]
+[[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]] · [[torch_musa]]
@@ -102,6 +102,6 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 [[CANN]] · [[vLLM-Ascend]] · [[MemCache]] · [[MemFabric]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]]
 
 ## Hardware / Heterogeneous
-[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]] · [[CANN]] · [[MetaX-MACA]] · [[MUSA]] · [[DeepSpark]] · [[llama.cpp]] · [[ggml]] · [[Ollama]] · [[FreeToken]]
+[[HAMi]] · [[KTransformers]] · [[MemFabric]] · [[FlagPerf]] · [[CANN]] · [[MetaX-MACA]] · [[MUSA]] · [[DeepSpark]] · [[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]]
 
 旧 `Communities/` 重复索引已移除；项目实体仍以项目同名文件作为 canonical 节点，但物理目录统一归入上游 organization / namespace。
