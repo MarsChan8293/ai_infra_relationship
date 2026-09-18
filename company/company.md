@@ -6,7 +6,7 @@ AI 模型公司、云厂商、AI Infra 创业公司与平台公司的一级分�
 [[OpenAI]] · [[深度求索]] · [[阿里巴巴]]（[[Qwen|通义千问]]） · [[月之暗面]] · [[智谱]] · [[xAI]] · [[Meta]]
 
 ## AI Infra / Serving / Platform
-[[Inferact]] · [[RadixArk]] · [[TensorMesh]] · [[Anyscale]] · [[Baseten]] · [[Fireworks AI]] · [[Together AI]] · [[Hugging Face]] · [[硅基流动]] · [[无问芯穹]] · [[清程极智]] · [[潞晨科技]] · [[清昴智能]] · [[趋境科技]] · [[基流科技]] · [[派欧云]] · [[一流科技]] · [[密瓜智能]]
+[[Inferact]] · [[RadixArk]] · [[TensorMesh]] · [[Anyscale]] · [[Baseten]] · [[Fireworks AI]] · [[Together AI]] · [[Hugging Face]] · [[硅基流动]] · [[无问芯穹]] · [[清程极智]] · [[潞晨科技]] · [[清昴智能]] · [[趋境科技]] · [[基流科技]] · [[派欧云]] · [[一流科技]] · [[密瓜智能]] · [[杭州先进编译科技有限公司]]
 
 国内 AI Infra 创业公司成员遍历：[[China AI Infra Startups BFS]]
 

@@ -29,14 +29,22 @@ https://github.com/flagos-ai/FlagGems
 ## 主要维护者 / 组织
 当前官方 `MAINTAINERS.md` 列出 `0x45f`、`huangyiqun`、`Galaxy1458`、`zhzhcookie` 等维护者。[[白童心]] 是 FlagGems 早期发布与技术方向的公开介绍者；[[陈飞宇]] 为公开确认的 FlagGems 项目开发者。这里区分“历史/技术负责人”与“当前 maintainer 列表”。
 
+## 先进编译实验室贡献线
+AdvancedCompiler GitHub 账号维护了 AdvancedCompiler/FlagGems fork，并长期以 FlagGems upstream collaborator 身份提交工程 PR。公开 PR 覆盖 W8A8/FP8 matmul、FlashAttention varlen、paged MQA logits、vLLM RMSNorm patch、TopK、TLE operators 与数值稳定性修复等。
+
+这是一条长期工程贡献关系，不表示[[company/杭州先进编译科技有限公司/先进编译实验室|先进编译实验室]]拥有 FlagGems 或参与 FlagOS 项目治理。
+
 ## 生态关系
-[[FlagOS]] · [[FlagTree]] · [[FlagAttention]] · [[FlagScale]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]] · [[vLLM]] · [[SGLang]]。
+[[FlagOS]] · [[FlagTree]] · [[FlagAttention]] · [[FlagScale]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]] · [[vLLM]] · [[SGLang]] · [[company/杭州先进编译科技有限公司/先进编译实验室|先进编译实验室]]。
 
 ## Sources
 - https://github.com/flagos-ai/FlagGems
 - https://github.com/flagos-ai/FlagGems/blob/master/MAINTAINERS.md
 - https://hub.baai.ac.cn/view/37643
 - https://www.baai.ac.cn/zh-cn/system
+- https://github.com/AdvancedCompiler/FlagGems
+- https://github.com/flagos-ai/FlagGems/pull/4744
+- https://github.com/flagos-ai/FlagGems/pull/3287
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）

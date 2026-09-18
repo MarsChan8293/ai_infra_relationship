@@ -34,6 +34,9 @@ linked_companies: []
 - [[白童心]]：智源 AI 算子库 / 编译器方向研究者，FlagGems 早期公开发布与技术介绍的重要人物。
 - [[陈飞宇]]：智源 AI 编译研发工程师，FlagGems / FlagAttention 项目开发者。
 
+## 外部贡献网络
+- [[company/杭州先进编译科技有限公司/先进编译实验室|先进编译实验室]]：通过 [[FlagTree]] 与 [[FlagGems]] 形成稳定的 compiler / kernel 外部贡献网络；[[company/杭州先进编译科技有限公司/李嘉楠|李嘉楠]]为公开确认的 FlagTree 核心开发贡献者，AdvancedCompiler 账号则长期向 FlagGems upstream 提交工程 PR。这里记录外部技术协作，不推断 FlagOS 对实验室的组织隶属关系。
+
 ## 与现有推理生态的连接
 FlagOS 的推理侧并不是另起炉灶：[[vllm-plugin-FL]] 直接连接 [[vLLM]]，[[sglang-plugin-FL]] 直接连接 [[SGLang]]；[[FlagGems]] / [[FlagAttention]] 提供算子层能力，[[FlagCX]] 提供通信层能力，[[FlagTree]] 面向多后端编译，[[FlagScale]] 覆盖训推框架层。
 
@@ -43,6 +46,8 @@ FlagOS 的推理侧并不是另起炉灶：[[vllm-plugin-FL]] 直接连接 [[vLL
 - https://hub.baai.ac.cn/view/57117
 - https://github.com/flagos-ai
 - https://docs.flagos.io/en/latest/
+- https://flagos.csdn.net/684f83da870cef7360648130.html
+- https://github.com/AdvancedCompiler/FlagGems
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
