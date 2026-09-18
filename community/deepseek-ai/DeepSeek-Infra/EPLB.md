@@ -39,7 +39,8 @@ EPLB（Expert Parallelism Load Balancer）是 DeepSeek-V3 / R1 Expert Parallel �
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
-- [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] / DSpark：2026 DSpark 作者网络成员，进入 DeepSeek speculative decoding 全栈研究线；与 [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋（Wenfeng Liang）]] 同属论文作者网络。\n- [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB...
+- [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] / DSpark：2026 DSpark 作者网络成员，进入 DeepSeek speculative decoding 全栈研究线；与 [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋（Wenfeng Liang）]] 同属论文作者网络。
+- [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB...
 
 <!-- END AUTO PROJECT PEOPLE -->
 

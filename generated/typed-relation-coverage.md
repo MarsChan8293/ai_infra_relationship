@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 463
-- Person nodes with typed relations: 149 / 366
+- Person nodes with typed relations: 149 / 371
 - Hard errors: 0
 - Warnings: 12
 
@@ -28,52 +28,52 @@
 
 | Rank | Person | Bridge | Degree | Person links | Typed relations |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| 1 | [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]] | 10.059 | 10 | 4 | 0 |
-| 2 | [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
-| 3 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
-| 4 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
-| 5 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
-| 6 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
-| 7 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.522 | 9 | 3 | 0 |
-| 8 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
-| 9 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
-| 10 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
-| 11 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
-| 12 | [[university/北京大学/吴童 Tong Wu|Tong Wu]] | 8.357 | 6 | 1 | 0 |
-| 13 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
-| 14 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 8.200 | 7 | 1 | 0 |
-| 15 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
-| 16 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
-| 17 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
-| 18 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
-| 19 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
-| 20 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
-| 21 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
-| 22 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 | 4 | 0 |
-| 23 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 | 4 | 0 |
-| 24 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
-| 25 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
-| 26 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
-| 27 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
-| 28 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
-| 29 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
-| 30 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
-| 31 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
-| 32 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
-| 33 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
-| 34 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
-| 35 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
-| 36 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
-| 37 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
-| 38 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 | 3 | 0 |
-| 39 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 | 2 | 0 |
-| 40 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 | 4 | 0 |
+| 1 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 11.107 | 13 | 1 | 0 |
+| 2 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 10.535 | 11 | 4 | 0 |
+| 3 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 10.535 | 11 | 4 | 0 |
+| 4 | [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]] | 10.059 | 10 | 4 | 0 |
+| 5 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 10.059 | 10 | 4 | 0 |
+| 6 | [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
+| 7 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
+| 8 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
+| 9 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
+| 10 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
+| 11 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.522 | 9 | 3 | 0 |
+| 12 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
+| 13 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
+| 14 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
+| 15 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
+| 16 | [[university/北京大学/吴童 Tong Wu|Tong Wu]] | 8.357 | 6 | 1 | 0 |
+| 17 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
+| 18 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
+| 19 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
+| 20 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
+| 21 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
+| 22 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
+| 23 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
+| 24 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
+| 25 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 | 4 | 0 |
+| 26 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 | 4 | 0 |
+| 27 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
+| 28 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
+| 29 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
+| 30 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
+| 31 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
+| 32 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
+| 33 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
+| 34 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 | 4 | 0 |
+| 35 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
+| 36 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
+| 37 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
+| 38 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行]] | 6.157 | 6 | 3 | 0 |
+| 39 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 | 3 | 0 |
+| 40 | [[university/上海交通大学/Fan Wu|Fan Wu]] | 6.022 | 4 | 1 | 0 |
 
 ## Structured bridge nodes
 
 | Person | Bridge | Person links | Typed | Coverage |
 | --- | ---: | ---: | ---: | ---: |
-| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 18.687 | 12 | 12 | 100.0% |
+| [[company/趋境科技/武永卫 Yongwei Wu|武永卫]] | 20.635 | 12 | 12 | 100.0% |
 | [[company/Inferact/Ion Stoica|Ion Stoica]] | 17.854 | 16 | 17 | 106.2% |
 | [[company/清程极智/翟季冬 Jidong Zhai|翟季冬]] | 16.194 | 12 | 13 | 108.3% |
 | [[university/清华大学/Mingxing Zhang|章明星]] | 15.094 | 4 | 4 | 100.0% |

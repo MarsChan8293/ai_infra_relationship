@@ -5616,6 +5616,170 @@
     }
   },
   {
+    "id": "community/InfiniTensor/GordonYang1",
+    "path": "community/InfiniTensor/GordonYang1.md",
+    "name": "GordonYang1",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "GordonYang1",
+      "aliases": [
+        "@GordonYang1"
+      ],
+      "communities": [
+        "InfiniTensor"
+      ],
+      "projects": [
+        "InfiniCCL",
+        "InfiniCore",
+        "ntops"
+      ],
+      "areas": [
+        "collective-communication",
+        "distributed-systems",
+        "operator-integration",
+        "gpu-kernels"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniCCL",
+    "path": "community/InfiniTensor/InfiniCCL.md",
+    "name": "InfiniCCL",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniCCL",
+      "linked_people": "",
+      "layer": "collective-communication",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniCCL",
+      "areas": [
+        "collective-communication",
+        "distributed-systems",
+        "nccl",
+        "hccl",
+        "cncl",
+        "mpi",
+        "heterogeneous-compute"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniCore",
+    "path": "community/InfiniTensor/InfiniCore.md",
+    "name": "InfiniCore",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniCore",
+      "linked_people": "",
+      "layer": "heterogeneous-compute",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniCore",
+      "areas": [
+        "heterogeneous-compute",
+        "runtime",
+        "operators",
+        "collective-communication",
+        "hardware-backend",
+        "llm-inference"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniLM",
+    "path": "community/InfiniTensor/InfiniLM.md",
+    "name": "InfiniLM",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniLM",
+      "linked_people": "",
+      "layer": "inference-engine",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniLM",
+      "areas": [
+        "llm-inference",
+        "paged-attention",
+        "cuda-graph",
+        "tensor-parallel",
+        "pipeline-parallel",
+        "moe",
+        "quantization",
+        "heterogeneous-compute"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniOps",
+    "path": "community/InfiniTensor/InfiniOps.md",
+    "name": "InfiniOps",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniOps",
+      "linked_people": "",
+      "layer": "gpu-kernels",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniOps",
+      "areas": [
+        "operator-library",
+        "gpu-kernels",
+        "attention",
+        "kv-cache",
+        "quantization",
+        "heterogeneous-compute",
+        "ascend"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniRT",
+    "path": "community/InfiniTensor/InfiniRT.md",
+    "name": "InfiniRT",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniRT",
+      "linked_people": "",
+      "layer": "hardware-runtime",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniRT",
+      "areas": [
+        "runtime",
+        "device-abstraction",
+        "memory-management",
+        "heterogeneous-compute",
+        "cuda",
+        "hardware-backend"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/InfiniTensor/InfiniTensor",
     "path": "community/InfiniTensor/InfiniTensor.md",
     "name": "InfiniTensor",
@@ -5633,11 +5797,217 @@
         "inference-engine",
         "tensor-compiler",
         "hardware-backend",
+        "heterogeneous-compute",
+        "cuda-graph",
+        "dynamic-shape"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/InfiniTrain",
+    "path": "community/InfiniTensor/InfiniTrain.md",
+    "name": "InfiniTrain",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "InfiniTrain",
+      "linked_people": [],
+      "layer": "distributed-training",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/InfiniTrain",
+      "areas": [
+        "distributed-training",
+        "tensor-parallel",
+        "pipeline-parallel",
+        "sequence-parallel",
+        "zero",
+        "communication-compute-overlap",
+        "autograd"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/NineToothed",
+    "path": "community/InfiniTensor/NineToothed.md",
+    "name": "NineToothed",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "NineToothed",
+      "linked_people": "",
+      "layer": "compiler",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/ninetoothed",
+      "areas": [
+        "compiler",
+        "kernel-dsl",
+        "triton",
+        "tilelang",
+        "gpu-kernels",
+        "tensor-oriented-metaprogramming",
         "heterogeneous-compute"
       ],
       "people": "",
       "last_verified": "2026-09",
       "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/baominghelly",
+    "path": "community/InfiniTensor/baominghelly.md",
+    "name": "baominghelly",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "baominghelly",
+      "aliases": [
+        "@baominghelly"
+      ],
+      "communities": [
+        "InfiniTensor"
+      ],
+      "projects": [
+        "InfiniOps",
+        "InfiniCCL",
+        "InfiniLM"
+      ],
+      "areas": [
+        "ascend",
+        "cambricon",
+        "attention-kernels",
+        "collective-communication",
+        "hccl",
+        "cncl"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/InfiniTensor/ntops",
+    "path": "community/InfiniTensor/ntops.md",
+    "name": "ntops",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "ntops",
+      "linked_people": "",
+      "layer": "gpu-kernels",
+      "open_source": true,
+      "repository": "https://github.com/InfiniTensor/ntops",
+      "areas": [
+        "gpu-kernels",
+        "llm-operators",
+        "ninetoothed",
+        "kernel-dsl"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/InfiniTensor/qinyiqun",
+    "path": "community/InfiniTensor/qinyiqun.md",
+    "name": "qinyiqun",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "qinyiqun",
+      "aliases": [
+        "@qinyiqun"
+      ],
+      "communities": [
+        "InfiniTensor"
+      ],
+      "projects": [
+        "InfiniLM",
+        "InfiniCore"
+      ],
+      "areas": [
+        "llm-inference",
+        "moe",
+        "expert-parallel",
+        "quantization",
+        "marlin",
+        "async-runtime"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/InfiniTensor/wooway777",
+    "path": "community/InfiniTensor/wooway777.md",
+    "name": "wooway777",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "wooway777",
+      "aliases": [
+        "@wooway777"
+      ],
+      "communities": [
+        "InfiniTensor"
+      ],
+      "projects": [
+        "InfiniLM",
+        "InfiniCore",
+        "InfiniOps"
+      ],
+      "areas": [
+        "llm-inference",
+        "heterogeneous-compute",
+        "cuda-graph",
+        "multimodal",
+        "ascend",
+        "serving"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/InfiniTensor/zhangyue207",
+    "path": "community/InfiniTensor/zhangyue207.md",
+    "name": "zhangyue207",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "zhangyue207",
+      "aliases": [
+        "@zhangyue207"
+      ],
+      "communities": [
+        "InfiniTensor"
+      ],
+      "projects": [
+        "InfiniOps",
+        "InfiniCore",
+        "InfiniLM"
+      ],
+      "areas": [
+        "ascend",
+        "attention-kernels",
+        "kv-cache",
+        "rope",
+        "sampling",
+        "hardware-backend"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -15808,7 +16178,15 @@
       ],
       "people": "",
       "projects": [
-        "InfiniTensor"
+        "InfiniTensor",
+        "InfiniCore",
+        "InfiniOps",
+        "InfiniRT",
+        "InfiniCCL",
+        "InfiniLM",
+        "InfiniTrain",
+        "NineToothed",
+        "ntops"
       ],
       "city": "北京",
       "country": "中国",
@@ -15857,17 +16235,22 @@
       "english_name": "Zezhong Pan",
       "aliases": [
         "潘泽众",
-        "Zezhong Pan"
+        "Zezhong Pan",
+        "PanZezhong1725"
       ],
       "current_affiliations": [
         "启元实验室"
       ],
-      "areas": [
-        "operator-library",
+      "projects": [
+        "InfiniCore",
+        "InfiniLM]\\nareas: [operator-library",
         "communication",
         "runtime",
         "heterogeneous-compute",
-        "ai-systems"
+        "ai-systems",
+        "llm-inference",
+        "moe",
+        "pipeline-parallel"
       ],
       "roles": [
         "Engineer"
@@ -15897,14 +16280,18 @@
       ],
       "schools": "",
       "projects": [
-        "InfiniTensor"
+        "InfiniTensor",
+        "InfiniLM",
+        "NineToothed"
       ],
       "areas": [
         "ai-compilers",
         "high-performance-computing",
         "tensor-compiler",
         "heterogeneous-compute",
-        "inference-engine"
+        "inference-engine",
+        "kernel-dsl",
+        "cuda-graph"
       ],
       "roles": [
         "Assistant Researcher",
@@ -15926,19 +16313,29 @@
       "english_name": "Jiacheng Huang",
       "aliases": [
         "黄嘉成",
-        "Jiacheng Huang"
+        "Jiacheng Huang",
+        "voltjia"
       ],
       "current_affiliations": [
         "启元实验室"
       ],
-      "areas": [
-        "programming-languages",
+      "projects": [
+        "NineToothed",
+        "InfiniCore",
+        "InfiniOps",
+        "InfiniRT",
+        "InfiniCCL",
+        "InfiniLM]\\nareas: [programming-languages",
         "ai-compilers",
         "heterogeneous-compute",
-        "ai-systems"
+        "ai-systems",
+        "kernel-dsl",
+        "runtime",
+        "collective-communication"
       ],
       "roles": [
-        "Engineer"
+        "Engineer",
+        "NineToothed Core Contributor"
       ],
       "confidence": "verified",
       "last_verified": "2026-09"

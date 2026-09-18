@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 366
+- Person nodes: 371
 - People with ≥1 school: 156
-- People without known school: 210
-- Coverage: 42.6%
+- People without known school: 215
+- Coverage: 42.0%
 - Person-school associations: 204
 - School nodes: 47
 - Audit errors: 0
@@ -50,41 +50,41 @@
 | Rank | Person | Bridge score | Degree |
 | ---: | --- | ---: | ---: |
 | 1 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 11.198 | 18 |
-| 2 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 |
-| 3 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
-| 4 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
-| 5 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 |
-| 6 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.87 | 8 |
-| 7 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 |
-| 8 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 |
-| 9 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
-| 10 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
-| 11 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
-| 12 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.52 | 8 |
-| 13 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 6.507 | 6 |
-| 14 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
-| 15 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
-| 16 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
-| 17 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.35 | 7 |
-| 18 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.285 | 5 |
-| 19 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
-| 20 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
-| 21 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
-| 22 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
-| 23 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
-| 24 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
-| 25 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 |
-| 26 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
-| 27 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 6.022 | 4 |
-| 28 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]] | 5.935 | 5 |
-| 29 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
-| 30 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
-| 31 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
-| 32 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
-| 33 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
-| 34 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
-| 35 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
-| 36 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
+| 2 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 10.535 | 11 |
+| 3 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 10.535 | 11 |
+| 4 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 10.059 | 10 |
+| 5 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 |
+| 6 | [[company/腾讯/Baolong Mao|Baolong Mao]] | 7.75 | 7 |
+| 7 | [[community/vllm-project/vLLM/Roger Wang|Roger Wang]] | 7.372 | 9 |
+| 8 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 |
+| 9 | [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]] | 6.87 | 8 |
+| 10 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 |
+| 11 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 |
+| 12 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 |
+| 13 | [[community/flashinfer-ai/FlashInfer/Yang Xu|Yang Xu]] | 6.52 | 8 |
+| 14 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.52 | 8 |
+| 15 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.52 | 8 |
+| 16 | [[company/硅基流动/柳俊丞 Juncheng Liu|柳俊丞]] | 6.507 | 6 |
+| 17 | [[community/llm-d/llm-d/Carlos Costa|Carlos Costa]] | 6.35 | 7 |
+| 18 | [[company/RadixArk/Cheng Wan|Cheng Wan]] | 6.35 | 7 |
+| 19 | [[company/基流科技/Yanmin Jia|Yanmin Jia]] | 6.35 | 7 |
+| 20 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.35 | 7 |
+| 21 | [[company/趋境科技/艾智远 Zhiyuan Ai|艾智远]] | 6.285 | 5 |
+| 22 | [[community/flashinfer-ai/FlashInfer/aleozlx|Alex Yang]] | 6.157 | 6 |
+| 23 | [[community/llm-d/llm-d/Ashok Chandrasekar|Ashok Chandrasekar]] | 6.157 | 6 |
+| 24 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu|Brian K. Ryu]] | 6.157 | 6 |
+| 25 | [[company/基流科技/He Liu|He Liu]] | 6.157 | 6 |
+| 26 | [[community/llm-d/llm-d/Nili Guy|Nili Guy]] | 6.157 | 6 |
+| 27 | [[community/llm-d/llm-d/Vita Bortnikov|Vita Bortnikov]] | 6.157 | 6 |
+| 28 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 |
+| 29 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
+| 30 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 6.022 | 4 |
+| 31 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]] | 5.935 | 5 |
+| 32 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
+| 33 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
+| 34 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
+| 35 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
+| 36 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
 | 37 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
 | 38 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
 | 39 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |

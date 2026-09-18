@@ -1,6 +1,13 @@
 ---
 type: project
 name: InfiniCore
+linked_people:
+  - "community/InfiniTensor/GordonYang1"
+  - "community/InfiniTensor/qinyiqun"
+  - "community/InfiniTensor/wooway777"
+  - "community/InfiniTensor/zhangyue207"
+  - "university/启元实验室/潘泽众 Zezhong Pan"
+  - "university/启元实验室/黄嘉成 Jiacheng Huang"
 layer: heterogeneous-compute
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniCore
@@ -13,6 +20,7 @@ people:
   - "community/InfiniTensor/wooway777"
   - "community/InfiniTensor/GordonYang1"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # InfiniCore
 
@@ -35,3 +43,17 @@ InfiniCore 是九源生态的统一异构计算架构。2026-09-11 官方仓库�
 - https://github.com/InfiniTensor/InfiniCore
 - https://github.com/InfiniTensor/InfiniCore/pull/1406
 - https://github.com/InfiniTensor/InfiniCore/commit/26f7382d121380bb146e81dada08a8835bce5ad2
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/InfiniTensor/GordonYang1|GordonYang1]]：[[InfiniCore]]：NVIDIA operator integration / correctness 修复。
+- [[community/InfiniTensor/qinyiqun|qinyiqun]]：[[InfiniCore]]：MoE runtime / operators、quantized GEMM、Marlin repack、async tensor copy。
+- [[community/InfiniTensor/wooway777|wooway777]]：[[InfiniCore]]：Moore Threads / MetaX graph、Iluvatar / Ali Qwen operators 等多后端工程。
+- [[community/InfiniTensor/zhangyue207|zhangyue207]]：[[InfiniCore]] / [[InfiniLM]]：同时参与 Kunlun / Hygon 等推理适配与 model execution 修复。
+- [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众（Zezhong Pan）]]：与 [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]]、[[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]]、[[university/启元实验室/李映辉 Yinghui Li|李映辉]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫]] 共同署名《面向国产智能芯片的统一智能计算架构》。\n- GitHub `PanZezhong1725` 在 [[community/InfiniTe...
+- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：与 [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]]、[[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]]、[[university/启元实验室/李映辉 Yinghui Li|李映辉]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫]] 共同署名《面向国产智能芯片的统一智能计算架构》。\n- GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTens...
+
+<!-- END AUTO PROJECT PEOPLE -->

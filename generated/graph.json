@@ -5617,6 +5617,170 @@
       }
     },
     {
+      "id": "community/InfiniTensor/GordonYang1",
+      "path": "community/InfiniTensor/GordonYang1.md",
+      "name": "GordonYang1",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "GordonYang1",
+        "aliases": [
+          "@GordonYang1"
+        ],
+        "communities": [
+          "InfiniTensor"
+        ],
+        "projects": [
+          "InfiniCCL",
+          "InfiniCore",
+          "ntops"
+        ],
+        "areas": [
+          "collective-communication",
+          "distributed-systems",
+          "operator-integration",
+          "gpu-kernels"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniCCL",
+      "path": "community/InfiniTensor/InfiniCCL.md",
+      "name": "InfiniCCL",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniCCL",
+        "linked_people": "",
+        "layer": "collective-communication",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniCCL",
+        "areas": [
+          "collective-communication",
+          "distributed-systems",
+          "nccl",
+          "hccl",
+          "cncl",
+          "mpi",
+          "heterogeneous-compute"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniCore",
+      "path": "community/InfiniTensor/InfiniCore.md",
+      "name": "InfiniCore",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniCore",
+        "linked_people": "",
+        "layer": "heterogeneous-compute",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniCore",
+        "areas": [
+          "heterogeneous-compute",
+          "runtime",
+          "operators",
+          "collective-communication",
+          "hardware-backend",
+          "llm-inference"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniLM",
+      "path": "community/InfiniTensor/InfiniLM.md",
+      "name": "InfiniLM",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniLM",
+        "linked_people": "",
+        "layer": "inference-engine",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniLM",
+        "areas": [
+          "llm-inference",
+          "paged-attention",
+          "cuda-graph",
+          "tensor-parallel",
+          "pipeline-parallel",
+          "moe",
+          "quantization",
+          "heterogeneous-compute"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniOps",
+      "path": "community/InfiniTensor/InfiniOps.md",
+      "name": "InfiniOps",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniOps",
+        "linked_people": "",
+        "layer": "gpu-kernels",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniOps",
+        "areas": [
+          "operator-library",
+          "gpu-kernels",
+          "attention",
+          "kv-cache",
+          "quantization",
+          "heterogeneous-compute",
+          "ascend"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniRT",
+      "path": "community/InfiniTensor/InfiniRT.md",
+      "name": "InfiniRT",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniRT",
+        "linked_people": "",
+        "layer": "hardware-runtime",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniRT",
+        "areas": [
+          "runtime",
+          "device-abstraction",
+          "memory-management",
+          "heterogeneous-compute",
+          "cuda",
+          "hardware-backend"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/InfiniTensor/InfiniTensor",
       "path": "community/InfiniTensor/InfiniTensor.md",
       "name": "InfiniTensor",
@@ -5634,11 +5798,217 @@
           "inference-engine",
           "tensor-compiler",
           "hardware-backend",
+          "heterogeneous-compute",
+          "cuda-graph",
+          "dynamic-shape"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/InfiniTrain",
+      "path": "community/InfiniTensor/InfiniTrain.md",
+      "name": "InfiniTrain",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "InfiniTrain",
+        "linked_people": [],
+        "layer": "distributed-training",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/InfiniTrain",
+        "areas": [
+          "distributed-training",
+          "tensor-parallel",
+          "pipeline-parallel",
+          "sequence-parallel",
+          "zero",
+          "communication-compute-overlap",
+          "autograd"
+        ],
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/NineToothed",
+      "path": "community/InfiniTensor/NineToothed.md",
+      "name": "NineToothed",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "NineToothed",
+        "linked_people": "",
+        "layer": "compiler",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/ninetoothed",
+        "areas": [
+          "compiler",
+          "kernel-dsl",
+          "triton",
+          "tilelang",
+          "gpu-kernels",
+          "tensor-oriented-metaprogramming",
           "heterogeneous-compute"
         ],
         "people": "",
         "last_verified": "2026-09",
         "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/baominghelly",
+      "path": "community/InfiniTensor/baominghelly.md",
+      "name": "baominghelly",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "baominghelly",
+        "aliases": [
+          "@baominghelly"
+        ],
+        "communities": [
+          "InfiniTensor"
+        ],
+        "projects": [
+          "InfiniOps",
+          "InfiniCCL",
+          "InfiniLM"
+        ],
+        "areas": [
+          "ascend",
+          "cambricon",
+          "attention-kernels",
+          "collective-communication",
+          "hccl",
+          "cncl"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/InfiniTensor/ntops",
+      "path": "community/InfiniTensor/ntops.md",
+      "name": "ntops",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "ntops",
+        "linked_people": "",
+        "layer": "gpu-kernels",
+        "open_source": true,
+        "repository": "https://github.com/InfiniTensor/ntops",
+        "areas": [
+          "gpu-kernels",
+          "llm-operators",
+          "ninetoothed",
+          "kernel-dsl"
+        ],
+        "people": "",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/InfiniTensor/qinyiqun",
+      "path": "community/InfiniTensor/qinyiqun.md",
+      "name": "qinyiqun",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "qinyiqun",
+        "aliases": [
+          "@qinyiqun"
+        ],
+        "communities": [
+          "InfiniTensor"
+        ],
+        "projects": [
+          "InfiniLM",
+          "InfiniCore"
+        ],
+        "areas": [
+          "llm-inference",
+          "moe",
+          "expert-parallel",
+          "quantization",
+          "marlin",
+          "async-runtime"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/InfiniTensor/wooway777",
+      "path": "community/InfiniTensor/wooway777.md",
+      "name": "wooway777",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "wooway777",
+        "aliases": [
+          "@wooway777"
+        ],
+        "communities": [
+          "InfiniTensor"
+        ],
+        "projects": [
+          "InfiniLM",
+          "InfiniCore",
+          "InfiniOps"
+        ],
+        "areas": [
+          "llm-inference",
+          "heterogeneous-compute",
+          "cuda-graph",
+          "multimodal",
+          "ascend",
+          "serving"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/InfiniTensor/zhangyue207",
+      "path": "community/InfiniTensor/zhangyue207.md",
+      "name": "zhangyue207",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "zhangyue207",
+        "aliases": [
+          "@zhangyue207"
+        ],
+        "communities": [
+          "InfiniTensor"
+        ],
+        "projects": [
+          "InfiniOps",
+          "InfiniCore",
+          "InfiniLM"
+        ],
+        "areas": [
+          "ascend",
+          "attention-kernels",
+          "kv-cache",
+          "rope",
+          "sampling",
+          "hardware-backend"
+        ],
+        "confidence": "project-credit",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -15809,7 +16179,15 @@
         ],
         "people": "",
         "projects": [
-          "InfiniTensor"
+          "InfiniTensor",
+          "InfiniCore",
+          "InfiniOps",
+          "InfiniRT",
+          "InfiniCCL",
+          "InfiniLM",
+          "InfiniTrain",
+          "NineToothed",
+          "ntops"
         ],
         "city": "北京",
         "country": "中国",
@@ -15858,17 +16236,22 @@
         "english_name": "Zezhong Pan",
         "aliases": [
           "潘泽众",
-          "Zezhong Pan"
+          "Zezhong Pan",
+          "PanZezhong1725"
         ],
         "current_affiliations": [
           "启元实验室"
         ],
-        "areas": [
-          "operator-library",
+        "projects": [
+          "InfiniCore",
+          "InfiniLM]\\nareas: [operator-library",
           "communication",
           "runtime",
           "heterogeneous-compute",
-          "ai-systems"
+          "ai-systems",
+          "llm-inference",
+          "moe",
+          "pipeline-parallel"
         ],
         "roles": [
           "Engineer"
@@ -15898,14 +16281,18 @@
         ],
         "schools": "",
         "projects": [
-          "InfiniTensor"
+          "InfiniTensor",
+          "InfiniLM",
+          "NineToothed"
         ],
         "areas": [
           "ai-compilers",
           "high-performance-computing",
           "tensor-compiler",
           "heterogeneous-compute",
-          "inference-engine"
+          "inference-engine",
+          "kernel-dsl",
+          "cuda-graph"
         ],
         "roles": [
           "Assistant Researcher",
@@ -15927,19 +16314,29 @@
         "english_name": "Jiacheng Huang",
         "aliases": [
           "黄嘉成",
-          "Jiacheng Huang"
+          "Jiacheng Huang",
+          "voltjia"
         ],
         "current_affiliations": [
           "启元实验室"
         ],
-        "areas": [
-          "programming-languages",
+        "projects": [
+          "NineToothed",
+          "InfiniCore",
+          "InfiniOps",
+          "InfiniRT",
+          "InfiniCCL",
+          "InfiniLM]\\nareas: [programming-languages",
           "ai-compilers",
           "heterogeneous-compute",
-          "ai-systems"
+          "ai-systems",
+          "kernel-dsl",
+          "runtime",
+          "collective-communication"
         ],
         "roles": [
-          "Engineer"
+          "Engineer",
+          "NineToothed Core Contributor"
         ],
         "confidence": "verified",
         "last_verified": "2026-09"
@@ -18058,6 +18455,311 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/InfiniTensor/GordonYang1",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/GordonYang1",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/GordonYang1",
+      "target": "community/InfiniTensor/ntops",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "community/InfiniTensor/GordonYang1",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "community/InfiniTensor/baominghelly",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "company/趋境科技/武永卫 Yongwei Wu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "university/启元实验室/李映辉 Yinghui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL",
+      "target": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/GordonYang1",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/InfiniRT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/InfiniTrain",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/qinyiqun",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/wooway777",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "community/InfiniTensor/zhangyue207",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "company/趋境科技/武永卫 Yongwei Wu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "university/启元实验室/李映辉 Yinghui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore",
+      "target": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/InfiniTensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/baominghelly",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/qinyiqun",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/wooway777",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "community/InfiniTensor/zhangyue207",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniLM",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "community/InfiniTensor/baominghelly",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "community/InfiniTensor/wooway777",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "community/InfiniTensor/zhangyue207",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "company/趋境科技/武永卫 Yongwei Wu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "university/启元实验室/李映辉 Yinghui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps",
+      "target": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "company/趋境科技/武永卫 Yongwei Wu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "university/启元实验室/李映辉 Yinghui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT",
+      "target": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/GordonYang1",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniRT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/InfiniTrain",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/NineToothed",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/baominghelly",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/ntops",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/qinyiqun",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/wooway777",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTensor",
+      "target": "community/InfiniTensor/zhangyue207",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/InfiniTensor/InfiniTensor",
       "target": "company/字节跳动/郑立言 Liyan Zheng",
       "kind": "wikilink"
@@ -18069,12 +18771,122 @@
     },
     {
       "source": "community/InfiniTensor/InfiniTensor",
-      "target": "university/启元实验室/启元实验室",
+      "target": "university/启元实验室/王豪杰 Haojie Wang",
       "kind": "wikilink"
     },
     {
-      "source": "community/InfiniTensor/InfiniTensor",
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "community/InfiniTensor/InfiniTensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "community/tile-ai/TileLang/TileLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "company/趋境科技/武永卫 Yongwei Wu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "university/启元实验室/李映辉 Yinghui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "university/启元实验室/潘泽众 Zezhong Pan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
       "target": "university/启元实验室/王豪杰 Haojie Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/NineToothed",
+      "target": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/baominghelly",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/baominghelly",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/baominghelly",
+      "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/ntops",
+      "target": "community/InfiniTensor/GordonYang1",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/ntops",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/ntops",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/ntops",
+      "target": "community/InfiniTensor/NineToothed",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/qinyiqun",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/qinyiqun",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/wooway777",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/wooway777",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/wooway777",
+      "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/zhangyue207",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/zhangyue207",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InfiniTensor/zhangyue207",
+      "target": "community/InfiniTensor/InfiniOps",
       "kind": "wikilink"
     },
     {
@@ -34804,6 +35616,16 @@
     },
     {
       "source": "university/启元实验室/潘泽众 Zezhong Pan",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/潘泽众 Zezhong Pan",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/潘泽众 Zezhong Pan",
       "target": "company/趋境科技/武永卫 Yongwei Wu",
       "kind": "wikilink"
     },
@@ -34829,7 +35651,17 @@
     },
     {
       "source": "university/启元实验室/王豪杰 Haojie Wang",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/王豪杰 Haojie Wang",
       "target": "community/InfiniTensor/InfiniTensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/王豪杰 Haojie Wang",
+      "target": "community/InfiniTensor/NineToothed",
       "kind": "wikilink"
     },
     {
@@ -34845,6 +35677,36 @@
     {
       "source": "university/启元实验室/王豪杰 Haojie Wang",
       "target": "university/清华大学/清华大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/InfiniCCL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/InfiniCore",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/InfiniLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/InfiniRT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/启元实验室/黄嘉成 Jiacheng Huang",
+      "target": "community/InfiniTensor/NineToothed",
       "kind": "wikilink"
     },
     {
@@ -37869,14 +38731,14 @@
       "bridge_score": 8.707
     },
     "company/趋境科技/武永卫 Yongwei Wu": {
-      "degree": 33,
-      "cross_category_degree": 26,
+      "degree": 38,
+      "cross_category_degree": 31,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 18.687
+      "bridge_score": 20.635
     },
     "company/趋境科技/艾智远 Zhiyuan Ai": {
       "degree": 5,
@@ -38329,14 +39191,130 @@
       ],
       "bridge_score": 10.185
     },
-    "community/InfiniTensor/InfiniTensor": {
+    "community/InfiniTensor/GordonYang1": {
       "degree": 4,
-      "cross_category_degree": 4,
+      "cross_category_degree": 0,
       "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.822
+    },
+    "community/InfiniTensor/InfiniCCL": {
+      "degree": 10,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
         "company",
         "university"
       ],
-      "bridge_score": 6.722
+      "bridge_score": 9.709
+    },
+    "community/InfiniTensor/InfiniCore": {
+      "degree": 16,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 10.337
+    },
+    "community/InfiniTensor/InfiniLM": {
+      "degree": 9,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "university"
+      ],
+      "bridge_score": 7.372
+    },
+    "community/InfiniTensor/InfiniOps": {
+      "degree": 10,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 9.709
+    },
+    "community/InfiniTensor/InfiniRT": {
+      "degree": 7,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 9.25
+    },
+    "community/InfiniTensor/InfiniTensor": {
+      "degree": 17,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 10.07
+    },
+    "community/InfiniTensor/InfiniTrain": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
+    "community/InfiniTensor/NineToothed": {
+      "degree": 9,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 9.572
+    },
+    "community/InfiniTensor/baominghelly": {
+      "degree": 4,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.822
+    },
+    "community/InfiniTensor/ntops": {
+      "degree": 5,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 4.085
+    },
+    "community/InfiniTensor/qinyiqun": {
+      "degree": 3,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.5
+    },
+    "community/InfiniTensor/wooway777": {
+      "degree": 4,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.822
+    },
+    "community/InfiniTensor/zhangyue207": {
+      "degree": 4,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.822
     },
     "community/InternLM/LMDeploy/LMDeploy": {
       "degree": 6,
@@ -39298,13 +40276,13 @@
       "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/TileKernels": {
-      "degree": 11,
+      "degree": 12,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.935
+      "bridge_score": 7.05
     },
     "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao": {
       "degree": 3,
@@ -40611,14 +41589,14 @@
       "bridge_score": 6.722
     },
     "community/tile-ai/TileLang/TileLang": {
-      "degree": 17,
+      "degree": 18,
       "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.52
+      "bridge_score": 12.598
     },
     "community/tile-ai/TileScale/TileScale": {
       "degree": 3,
@@ -41891,41 +42869,44 @@
       "bridge_score": 8.522
     },
     "university/启元实验室/李映辉 Yinghui Li": {
-      "degree": 5,
-      "cross_category_degree": 1,
-      "neighbor_categories": [
-        "company",
-        "university"
-      ],
-      "bridge_score": 5.935
-    },
-    "university/启元实验室/潘泽众 Zezhong Pan": {
-      "degree": 5,
-      "cross_category_degree": 1,
-      "neighbor_categories": [
-        "company",
-        "university"
-      ],
-      "bridge_score": 5.935
-    },
-    "university/启元实验室/王豪杰 Haojie Wang": {
-      "degree": 7,
-      "cross_category_degree": 2,
+      "degree": 10,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.2
+      "bridge_score": 10.059
     },
-    "university/启元实验室/黄嘉成 Jiacheng Huang": {
-      "degree": 5,
-      "cross_category_degree": 1,
+    "university/启元实验室/潘泽众 Zezhong Pan": {
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
+        "community",
         "company",
         "university"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 10.535
+    },
+    "university/启元实验室/王豪杰 Haojie Wang": {
+      "degree": 13,
+      "cross_category_degree": 8,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 11.107
+    },
+    "university/启元实验室/黄嘉成 Jiacheng Huang": {
+      "degree": 11,
+      "cross_category_degree": 7,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 10.535
     },
     "university/四川大学/四川大学": {
       "degree": 2,

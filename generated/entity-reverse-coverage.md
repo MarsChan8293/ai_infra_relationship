@@ -7,11 +7,11 @@
 - Company-person associations: 221
 - Email-domain-supported associations: 34
 - People with generated linked_companies: 218
-- Project/community nodes: 127
-- Project/community nodes with ≥1 linked person: 95
-- Project/community-person associations: 453
+- Project/community nodes: 135
+- Project/community nodes with ≥1 linked person: 102
+- Project/community-person associations: 480
 - Non-company affiliations recognized and routed elsewhere: 89
-- Unresolved source values (backlog, non-fatal): 15
+- Unresolved source values (backlog, non-fatal): 30
 - Audit errors: 0
 
 ## Companies
@@ -86,18 +86,22 @@
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
+| [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
+| [[community/InfiniTensor/InfiniCore|InfiniCore]] | 6 |
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
+| [[community/InfiniTensor/InfiniLM|InfiniLM]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 4 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/InfiniTensor/InfiniOps|InfiniOps]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | 4 |
@@ -107,6 +111,7 @@
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
 | [[community/LLMServe/DistServe/DistServe|DistServe]] | 3 |
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 3 |
+| [[community/InfiniTensor/InfiniCCL|InfiniCCL]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
 | [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 3 |
@@ -125,10 +130,10 @@
 | [[university/浙江大学/FloE|FloE]] | 2 |
 | [[university/厦门大学/GeminiFS|GeminiFS]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
-| [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 2 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[community/MetaX-MACA/MetaX-MACA/MetaX-MACA|MetaX-MACA]] | 2 |
+| [[community/InfiniTensor/NineToothed|NineToothed]] | 2 |
 | [[community/ollama/Ollama/Ollama|Ollama]] | 2 |
 | [[community/siliconflow/OneDiff/OneDiff|OneDiff]] | 2 |
 | [[community/Oneflow-Inc/OneFlow/OneFlow|OneFlow]] | 2 |
@@ -143,6 +148,7 @@
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
+| [[community/InfiniTensor/InfiniRT|InfiniRT]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
 | [[community/deepseek-ai/DeepSeek-Infra/LPLB|LPLB]] | 1 |
@@ -159,6 +165,7 @@
 | [[community/verl-project/VeRL-Omni/VeRL-Omni|VeRL-Omni]] | 1 |
 | [[community/ggml-org/ggml/ggml|ggml]] | 1 |
 | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | 1 |
+| [[community/InfiniTensor/ntops|ntops]] | 1 |
 | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | 1 |
 | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | 1 |
 | [[community/xPU-IO/xPU-IO|xPU-IO]] | 1 |
@@ -172,6 +179,21 @@
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/张一鸣 Yiming Zhang.md` · `affiliation` → `NICE Lab`
 - `university/厦门大学/Shi Qiu.md` · `affiliation` → `NICE Lab`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `InfiniLM]\nareas: [operator-library`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `communication`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `runtime`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `heterogeneous-compute`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `ai-systems`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `llm-inference`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `moe`
+- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `pipeline-parallel`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `InfiniLM]\nareas: [programming-languages`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `ai-compilers`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `heterogeneous-compute`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `ai-systems`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `kernel-dsl`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `runtime`
+- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `collective-communication`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `projects` → `SmartMoE`

@@ -2,6 +2,14 @@
 type: project
 name: InfiniTensor
 organization: InfiniTensor
+linked_people:
+  - "community/InfiniTensor/baominghelly"
+  - "community/InfiniTensor/GordonYang1"
+  - "community/InfiniTensor/qinyiqun"
+  - "community/InfiniTensor/wooway777"
+  - "community/InfiniTensor/zhangyue207"
+  - "company/字节跳动/郑立言 Liyan Zheng"
+  - "university/启元实验室/王豪杰 Haojie Wang"
 layer: inference-engine
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniTensor
@@ -11,6 +19,7 @@ people:
   - "company/字节跳动/郑立言 Liyan Zheng"
   - "company/清程极智/翟季冬 Jidong Zhai"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # InfiniTensor
 
@@ -60,3 +69,18 @@ EinNet 是 OSDI 2023 derivation-based tensor program optimizer，由 [[company/�
 - https://www.cs.tsinghua.edu.cn/info/1257/5770.htm
 - https://cccf.hrbeu.edu.cn/cn/article/id/5aa85132-b8db-4152-99d8-7b3cab286df2
 - https://www.usenix.org/conference/osdi23/presentation/zheng
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/InfiniTensor/baominghelly|baominghelly]]：https://github.com/InfiniTensor/InfiniOps/pull/977
+- [[community/InfiniTensor/GordonYang1|GordonYang1]]：https://github.com/InfiniTensor/InfiniCCL/pull/60
+- [[community/InfiniTensor/qinyiqun|qinyiqun]]：https://github.com/InfiniTensor/InfiniLM/pull/444
+- [[community/InfiniTensor/wooway777|wooway777]]：https://github.com/InfiniTensor/InfiniLM/pull/574
+- [[community/InfiniTensor/zhangyue207|zhangyue207]]：https://github.com/InfiniTensor/InfiniOps/pull/783
+- [[company/字节跳动/郑立言 Liyan Zheng|郑立言（Liyan Zheng）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：公开个人主页列为其核心项目；项目由 EinNet 等 tensor-program optimization 研究线演化而来，当前定位为面向 GPU / AI accelerators 的高性能推理引擎。
+- [[university/启元实验室/王豪杰 Haojie Wang|王豪杰（Haojie Wang）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。\n- [[community/InfiniTensor/NineToothed|NineToo...
+
+<!-- END AUTO PROJECT PEOPLE -->
