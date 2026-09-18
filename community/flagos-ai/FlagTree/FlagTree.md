@@ -8,7 +8,10 @@ linked_people:
   - "community/flagos-ai/FlagTree/sgjzfzzf"
   - "community/flagos-ai/FlagTree/sunnycase"
   - "community/flagos-ai/FlagTree/zhzhcookie"
-companies: []
+  - "company/杭州先进编译科技有限公司/李嘉楠"
+  - "company/杭州先进编译科技有限公司/柴赟达"
+companies:
+  - "杭州先进编译科技有限公司"
 company_relation: community-led
 layer: ai-compiler
 repository: https://github.com/flagos-ai/FlagTree
@@ -24,7 +27,8 @@ people:
   - "company/杭州先进编译科技有限公司/李嘉楠"
   - "company/杭州先进编译科技有限公司/柴赟达"
 last_verified: "2026-09"
-linked_companies: []
+linked_companies:
+  - "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司"
 ---
 # FlagTree
 
@@ -66,5 +70,16 @@ FlagTree 官方 `MAINTAINERS.md` 明确列出 6 位项目维护者：[[community
 - [[community/flagos-ai/FlagTree/sgjzfzzf|sgjzfzzf]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
 - [[community/flagos-ai/FlagTree/sunnycase|sunnycase]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
 - [[community/flagos-ai/FlagTree/zhzhcookie|zhzhcookie]]：https://github.com/flagos-ai/FlagTree/blob/main/MAINTAINERS.md
+- [[company/杭州先进编译科技有限公司/李嘉楠|李嘉楠（Jianan Li）]]：2025 FlagOS 技术文章明确写明：李嘉楠来自[[先进编译实验室]]，是 [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 核心开发贡献者。
+- [[company/杭州先进编译科技有限公司/柴赟达|柴赟达（Yunda Chai）]]：[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] / TLE：2026 CNCC 报告题目为“AI编译优化：Triton-tle在国产平台上的适配优化”，直接连接 TLE-Lite / TLE-Struct / TLE-Raw 路线。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]]：公司页与社区/项目页均有显式记录；关系：`community-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

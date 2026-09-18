@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 50
-- Companies with ≥1 linked project/community: 38
+- Company nodes: 51
+- Companies with ≥1 linked project/community: 39
 - Project/community nodes: 127
-- Project/community nodes with ≥1 linked company: 73
-- Bidirectional association pairs: 92
-- Explicitly asserted on both sides: 92
+- Project/community nodes with ≥1 linked company: 75
+- Bidirectional association pairs: 94
+- Explicitly asserted on both sides: 94
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -75,6 +75,8 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |
+| [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | project | community-led | both |
+| [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | project | community-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | company-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | company-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | project | company-led | both |

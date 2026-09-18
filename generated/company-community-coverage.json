@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 50,
-  "companies_with_links": 38,
+  "company_nodes": 51,
+  "companies_with_links": 39,
   "project_community_nodes": 127,
-  "project_community_nodes_with_links": 73,
-  "association_pairs": 92,
-  "asserted_on_both_sides": 92,
+  "project_community_nodes_with_links": 75,
+  "association_pairs": 94,
+  "asserted_on_both_sides": 94,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -732,6 +732,30 @@
       "entity_name": "Seer",
       "entity_type": "project",
       "relation": "industry-academia-research-collaboration",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司",
+      "company_name": "杭州先进编译科技有限公司",
+      "entity_id": "community/flagos-ai/FlagGems/FlagGems",
+      "entity_name": "FlagGems",
+      "entity_type": "project",
+      "relation": "community-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司",
+      "company_name": "杭州先进编译科技有限公司",
+      "entity_id": "community/flagos-ai/FlagTree/FlagTree",
+      "entity_name": "FlagTree",
+      "entity_type": "project",
+      "relation": "community-led",
       "sources": [
         "company",
         "entity"

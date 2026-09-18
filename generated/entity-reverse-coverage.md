@@ -2,15 +2,15 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 50
-- Companies with ≥1 linked person: 44
-- Company-person associations: 221
+- Company nodes: 51
+- Companies with ≥1 linked person: 45
+- Company-person associations: 222
 - Email-domain-supported associations: 34
-- People with generated linked_companies: 218
+- People with generated linked_companies: 219
 - Project/community nodes: 135
 - Project/community nodes with ≥1 linked person: 102
-- Project/community-person associations: 482
-- Non-company affiliations recognized and routed elsewhere: 89
+- Project/community-person associations: 486
+- Non-company affiliations recognized and routed elsewhere: 91
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
 
@@ -59,6 +59,7 @@
 | [[company/Intel/Intel|Intel]] | 1 |
 | [[company/Samsung/Samsung|Samsung]] | 1 |
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | 1 |
+| [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | 1 |
 | [[company/积算科技/积算科技|积算科技]] | 1 |
 | [[company/道客/道客|道客]] | 1 |
 | [[company/面壁智能/面壁智能|面壁智能]] | 1 |
@@ -82,6 +83,8 @@
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 8 |
+| [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 8 |
+| [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 8 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
@@ -89,8 +92,6 @@
 | [[community/InfiniTensor/InfiniLM|InfiniLM]] | 7 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
-| [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
-| [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 6 |
 | [[community/InfiniTensor/InfiniCore|InfiniCore]] | 6 |
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |

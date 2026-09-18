@@ -9,6 +9,8 @@ linked_people:
   - "community/flagos-ai/FlagOS/白童心"
   - "community/flagos-ai/FlagOS/赵英利 Yingli Zhao"
   - "community/flagos-ai/FlagOS/陈飞宇"
+  - "company/杭州先进编译科技有限公司/李嘉楠"
+  - "company/杭州先进编译科技有限公司/柴赟达"
 category: heterogeneous-ai-system-stack
 repository: https://github.com/flagos-ai
 companies: []
@@ -60,5 +62,7 @@ FlagOS 的推理侧并不是另起炉灶：[[vllm-plugin-FL]] 直接连接 [[vLL
 - [[community/flagos-ai/FlagOS/白童心|白童心]]：[[FlagOS]]：**系统软件栈研发网络**；FlagGems 后续成为 FlagOS 核心技术库之一。
 - [[community/flagos-ai/FlagOS/赵英利 Yingli Zhao|赵英利（Yingli Zhao）]]：[[吕梦思 Mengsi Lyu]]：**公开技术协作**；2024 FlagOS Triton & vLLM Workshop 共同分享 FlagScale 多模态压缩与推理实践。
 - [[community/flagos-ai/FlagOS/陈飞宇|陈飞宇]]：社区贡献关联；人物页已明确记录该社区。
+- [[company/杭州先进编译科技有限公司/李嘉楠|李嘉楠（Jianan Li）]]：2025 FlagOS 技术文章明确写明：李嘉楠来自[[先进编译实验室]]，是 [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 核心开发贡献者。
+- [[company/杭州先进编译科技有限公司/柴赟达|柴赟达（Yunda Chai）]]：[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] / TLE：2026 CNCC 报告题目为“AI编译优化：Triton-tle在国产平台上的适配优化”，直接连接 TLE-Lite / TLE-Struct / TLE-Raw 路线。
 
 <!-- END AUTO PROJECT PEOPLE -->

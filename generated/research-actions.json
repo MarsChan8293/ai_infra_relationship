@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1602,
+  "candidate_count": 1612,
   "selected_count": 10,
   "selected_family_counts": {
     "person": 2,
@@ -2586,6 +2586,79 @@
       }
     },
     {
+      "action_id": "company/杭州先进编译科技有限公司/高伟::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/高伟",
+        "name": "高伟",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 6.959,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.55,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: kernel, quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.808,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/Ascend/TransferQueue/TransferQueue::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -3466,6 +3539,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "company/杭州先进编译科技有限公司/韩林::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/韩林",
+        "name": "韩林",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.382,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.231,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -21480,6 +21626,82 @@
       }
     },
     {
+      "action_id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司",
+        "name": "杭州先进编译科技有限公司",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "bridge",
+      "priority": 5.231,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.507,
+        "novelty": 0.667,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.182,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Company",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types",
+        "bridge 6.5"
+      ],
+      "base_priority": 5.049,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 32,
+          "statuses": {
+            "partial": 24,
+            "success": 7,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.466,
+          "mean_reward": 3.336,
+          "reward_signal": 0.683,
+          "yield_adjustment": 0.182
+        },
+        "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.507"
+      }
+    },
+    {
       "action_id": "company/AMD/AMD::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -24193,6 +24415,81 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/杭州先进编译科技有限公司/高伟::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/高伟",
+        "name": "高伟",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 5.051,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.55,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 3.5,
+        "novelty": 0.75,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.396,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kernel, quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.893,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -35655,6 +35952,79 @@
       }
     },
     {
+      "action_id": "company/杭州先进编译科技有限公司/李嘉楠::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/李嘉楠",
+        "name": "李嘉楠",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.709,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.55,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 6.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.265,
+        "uncertainty": 0.304,
+        "redundancy_penalty": 0.386,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kernel, quantization",
+        "bridge 6.7"
+      ],
+      "base_priority": 4.558,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
+      }
+    },
+    {
       "action_id": "community/Ascend/TransferQueue/荣程浩 Chenghao Rong::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -39150,6 +39520,81 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence-only verification action"
+      }
+    },
+    {
+      "action_id": "company/杭州先进编译科技有限公司/韩林::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/韩林",
+        "name": "韩林",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 4.474,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 3.822,
+        "novelty": 0.75,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.316,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -45410,6 +45855,78 @@
       }
     },
     {
+      "action_id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司::key_people",
+      "action_key": "company:key_people:person",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司",
+        "name": "杭州先进编译科技有限公司",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_team_page",
+        "github_org_maintainers"
+      ],
+      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
+      "bucket": "exploitation",
+      "priority": 4.258,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 6.507,
+        "novelty": 0.0,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.178,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Company",
+        "infra: serving/inference, kernel",
+        "bridge 6.5"
+      ],
+      "base_priority": 4.08,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 8,
+          "statuses": {
+            "partial": 7,
+            "success": 1
+          },
+          "mean_status_value": 0.431,
+          "mean_reward": 3.781,
+          "reward_signal": 0.738,
+          "yield_adjustment": 0.178
+        },
+        "key_yield_adjustment": 0.178,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/Pz1116::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -50228,6 +50745,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "company/杭州先进编译科技有限公司/柴赟达::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/柴赟达",
+        "name": "柴赟达",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 4.013,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.55,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 6.507,
+        "novelty": 0.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.374,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kernel, quantization",
+        "bridge 6.5"
+      ],
+      "base_priority": 3.862,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
       }
     },
     {
@@ -64267,6 +64857,77 @@
       }
     },
     {
+      "action_id": "company/杭州先进编译科技有限公司/柴赟达::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/柴赟达",
+        "name": "柴赟达",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 2.843,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.55,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 6.507,
+        "novelty": 0.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.374,
+        "redundancy_penalty": 0.375,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kernel, quantization",
+        "bridge 6.5"
+      ],
+      "base_priority": 2.699,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
+      }
+    },
+    {
       "action_id": "company/派欧云/姚欣 Bill Yao::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -64540,6 +65201,76 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence-only verification action"
+      }
+    },
+    {
+      "action_id": "company/杭州先进编译科技有限公司/高伟::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "company/杭州先进编译科技有限公司/高伟",
+        "name": "高伟",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 2.703,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 1.55,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 3.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.304,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: kernel, quantization"
+      ],
+      "base_priority": 2.559,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.333"
       }
     },
     {
@@ -113753,105 +114484,6 @@
       }
     },
     {
-      "action_id": "community/flagos-ai/FlagOS/FlagOS::member_orgs",
-      "action_key": "community:member_orgs:company+school+research",
-      "source": {
-        "id": "community/flagos-ai/FlagOS/FlagOS",
-        "name": "FlagOS",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "member_orgs",
-      "target_families": [
-        "company",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "governance_membership_page",
-        "official_announcements"
-      ],
-      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
-      "bucket": "bridge",
-      "priority": 4.75,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 8.092,
-        "novelty": 0.667,
-        "frontier_potential": 0.24,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.382,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.052,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 8.1",
-        "cooldown active (partial, 2d remaining)"
-      ],
-      "base_priority": 4.698,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "repository_context:https://github.com/flagos-ai/flagscale",
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:34",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "member_orgs_semantic_confirmation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.75,
-          "reward_signal": 0.734,
-          "yield_adjustment": 0.052
-        },
-        "key_yield_adjustment": 0.052,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "member_orgs_semantic_confirmation"
-        ]
-      }
-    },
-    {
       "action_id": "company/Ollama/Ollama::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -117295,6 +117927,105 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence-only verification action"
+      }
+    },
+    {
+      "action_id": "community/flagos-ai/FlagOS/FlagOS::member_orgs",
+      "action_key": "community:member_orgs:company+school+research",
+      "source": {
+        "id": "community/flagos-ai/FlagOS/FlagOS",
+        "name": "FlagOS",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "member_orgs",
+      "target_families": [
+        "company",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "governance_membership_page",
+        "official_announcements"
+      ],
+      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
+      "bucket": "bridge",
+      "priority": 4.205,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.3,
+        "url_count": 8,
+        "bridge_score": 10.835,
+        "novelty": 0.667,
+        "frontier_potential": 0.225,
+        "uncertainty": 0.183,
+        "redundancy_penalty": 0.474,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.052,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Community",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "bridge 10.8",
+        "cooldown active (partial, 2d remaining)"
+      ],
+      "base_priority": 4.153,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "repository_context:https://github.com/flagos-ai/flagscale",
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:34",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "member_orgs_semantic_confirmation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.75,
+          "reward_signal": 0.734,
+          "yield_adjustment": 0.052
+        },
+        "key_yield_adjustment": 0.052,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "member_orgs_semantic_confirmation"
+        ]
       }
     },
     {
@@ -129610,7 +130341,7 @@
   "history_as_of": "2026-09-18",
   "history_summary": {
     "as_of": "2026-09-18",
-    "history_records": 720,
+    "history_records": 721,
     "suppressed_by_cooldown": 685,
     "partial_followup_candidates": 647,
     "latest_status_counts_in_current_candidates": {
@@ -129810,6 +130541,16 @@
         "reward_signal": 0.358,
         "yield_adjustment": 0.112
       },
+      "research:related_projects:project+company+person": {
+        "attempts": 1,
+        "statuses": {
+          "success": 1
+        },
+        "mean_status_value": 1.0,
+        "mean_reward": 49.5,
+        "reward_signal": 1.0,
+        "yield_adjustment": 0.058
+      },
       "research:verify_evidence:none": {
         "attempts": 1,
         "statuses": {
@@ -129865,7 +130606,7 @@
       }
     }
   },
-  "eligible_count": 917,
+  "eligible_count": 927,
   "suppressed_count": 685,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

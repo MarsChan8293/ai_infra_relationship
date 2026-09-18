@@ -9,14 +9,16 @@ linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
   - "community/flagos-ai/FlagTree/Galaxy1458"
   - "community/flagos-ai/FlagTree/zhzhcookie"
-companies: []
+companies:
+  - "杭州先进编译科技有限公司"
 company_relation: community-led
 layer: kernel-library
 repository: https://github.com/flagos-ai/FlagGems
 open_source: true
 areas: [triton, kernels, heterogeneous-computing, performance-optimization]
 last_verified: 2026-09
-linked_companies: []
+linked_companies:
+  - "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司"
 ---
 # FlagGems
 
@@ -60,3 +62,12 @@ AdvancedCompiler GitHub 账号维护了 AdvancedCompiler/FlagGems fork，并长�
 - [[community/flagos-ai/FlagTree/zhzhcookie|zhzhcookie]]：项目关联；人物页已明确记录该项目。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]]：公司页与社区/项目页均有显式记录；关系：`community-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

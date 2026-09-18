@@ -4,9 +4,9 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1602
+- Candidate actions: 1612
 - Selected actions: 10
-- History records: 720
+- History records: 721
 
 ## Selected portfolio
 
