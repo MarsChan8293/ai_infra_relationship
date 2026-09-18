@@ -1,6 +1,8 @@
 ---
 type: project
 name: LPLB
+linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
 companies: ["深度求索"]
 company_relation: company-led
 layer: moe-load-balancing
@@ -10,6 +12,8 @@ areas: [moe, expert-parallel, load-balancing, gpu-systems, nvshmem, inference]
 people:
   - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
 last_verified: "2026-09"
+linked_companies:
+  - "company/深度求索/深度求索"
 ---
 # LPLB
 
@@ -28,3 +32,21 @@ LPLB（Linear-Programming-Based Load Balancer）是 DeepSeek 开源的 MoE Exper
 - https://github.com/deepseek-ai/LPLB/blob/main/README.md
 - https://github.com/deepseek-ai/LPLB/blob/main/pyproject.toml
 - https://github.com/deepseek-ai/LPLB/commit/0490f79452f7ef277e814449600b1b1dd4c663b3
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]]：[[LPLB]]：`pyproject.toml` 唯一显式 package author，公开邮箱 `caohuanqi@deepseek.com`。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

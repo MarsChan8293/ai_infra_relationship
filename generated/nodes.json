@@ -2971,7 +2971,8 @@
       "projects": [
         "KTransformers",
         "DualPath",
-        "DeepSpec"
+        "DeepSpec",
+        "EPLB"
       ],
       "areas": [
         "llm-inference",
@@ -7619,10 +7620,7 @@
     "frontmatter": {
       "type": "person",
       "name": "Chenhao Xu",
-      "communities": [
-        "DeepGEMM",
-        "DeepSeek-Infra"
-      ]
+      "public_email": "xch@deepseek.com\\ncommunities: [DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepGEMM, TileKernels]\\nareas: [gpu-kernels, gemm, moe, tilelang]\\nconfidence: high\\nlast_verified: \"2026-09"
     }
   },
   {
@@ -7736,6 +7734,35 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/EPLB",
+    "path": "community/deepseek-ai/DeepSeek-Infra/EPLB.md",
+    "name": "EPLB",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "EPLB",
+      "linked_people": "",
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "expert-parallel-load-balancing",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/EPLB",
+      "areas": [
+        "moe",
+        "expert-parallel",
+        "load-balancing",
+        "inference",
+        "distributed-systems"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
     "path": "community/deepseek-ai/DeepSeek-Infra/FlashMLA.md",
     "name": "FlashMLA",
@@ -7753,6 +7780,40 @@
       "layer": "attention-kernels",
       "open_source": true,
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao.md",
+    "name": "Huanqi Cao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Huanqi Cao",
+      "aliases": [
+        "Huanqi Cao"
+      ],
+      "public_email": "caohuanqi@deepseek.com",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "LPLB",
+        "TileKernels",
+        "DeepSpec"
+      ],
+      "areas": [
+        "moe",
+        "expert-parallel",
+        "load-balancing",
+        "gpu-kernels",
+        "speculative-decoding"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -7790,11 +7851,37 @@
     "frontmatter": {
       "type": "person",
       "name": "Kuai Yu",
-      "communities": [
-        "DeepEP",
-        "DeepGEMM",
-        "DeepSeek-Infra"
-      ]
+      "public_email": "yukuai@deepseek.com\\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepEP, DeepGEMM, TileKernels]\\nareas: [moe-communication, gemm, gpu-kernels, tilelang]\\nconfidence: high\\nlast_verified: \"2026-09"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/LPLB",
+    "path": "community/deepseek-ai/DeepSeek-Infra/LPLB.md",
+    "name": "LPLB",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "LPLB",
+      "linked_people": "",
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "moe-load-balancing",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/LPLB",
+      "areas": [
+        "moe",
+        "expert-parallel",
+        "load-balancing",
+        "gpu-systems",
+        "nvshmem",
+        "inference"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -7846,6 +7933,71 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Rui Tian.md",
+    "name": "Rui Tian",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Rui Tian",
+      "aliases": [
+        "Rui Tian",
+        "tianr22"
+      ],
+      "public_email": "tianr22@deepseek.com",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "TileKernels",
+        "DeepSpec"
+      ],
+      "areas": [
+        "gpu-kernels",
+        "engram",
+        "speculative-decoding",
+        "llm-inference"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Runji Wang",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Runji Wang.md",
+    "name": "Runji Wang",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Runji Wang",
+      "aliases": [
+        "Runji Wang",
+        "wangrunji0408"
+      ],
+      "public_email": "runji@deepseek.com",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "smallpond"
+      ],
+      "areas": [
+        "distributed-data-processing",
+        "storage-systems",
+        "3fs",
+        "duckdb"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
     "path": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou.md",
     "name": "Shangyan Zhou",
@@ -7858,6 +8010,100 @@
         "DeepEP",
         "DeepSeek-Infra"
       ]
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+    "path": "community/deepseek-ai/DeepSeek-Infra/TileKernels.md",
+    "name": "TileKernels",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TileKernels",
+      "linked_people": "",
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "gpu-kernels",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/TileKernels",
+      "areas": [
+        "gpu-kernels",
+        "tilelang",
+        "moe",
+        "quantization",
+        "fp8",
+        "fp4",
+        "routing",
+        "engram"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao.md",
+    "name": "Weilin Zhao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Weilin Zhao",
+      "aliases": [
+        "Weilin Zhao"
+      ],
+      "public_email": "zhaoweilin@deepseek.com",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "TileKernels"
+      ],
+      "areas": [
+        "gpu-kernels",
+        "tilelang",
+        "moe",
+        "quantization"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang.md",
+    "name": "Xiangwen Wang",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Xiangwen Wang",
+      "aliases": [
+        "Xiangwen Wang"
+      ],
+      "public_email": "xiangwen.wang@deepseek.com",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "TileKernels"
+      ],
+      "areas": [
+        "gpu-kernels",
+        "tilelang",
+        "moe",
+        "quantization"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -7895,6 +8141,34 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yiliang Xiong",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yiliang Xiong.md",
+    "name": "Yiliang Xiong",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yiliang Xiong",
+      "aliases": [
+        "Yiliang Xiong"
+      ],
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "smallpond"
+      ],
+      "areas": [
+        "distributed-data-processing",
+        "storage-systems",
+        "3fs",
+        "duckdb"
+      ],
+      "confidence": "project-credit",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
     "name": "Yuxuan Liu",
@@ -7923,6 +8197,36 @@
         "DeepGEMM",
         "DeepSeek-Infra"
       ]
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/deepseek-recipe",
+    "path": "community/deepseek-ai/DeepSeek-Infra/deepseek-recipe.md",
+    "name": "deepseek-recipe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "deepseek-recipe",
+      "linked_people": [],
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "serving-api-adapter",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/deepseek-recipe",
+      "areas": [
+        "llm-serving",
+        "api-protocol",
+        "prompt-encoding",
+        "response-parsing",
+        "rust",
+        "python",
+        "multimodal"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -7959,6 +8263,66 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/profile-data",
+    "path": "community/deepseek-ai/DeepSeek-Infra/profile-data.md",
+    "name": "profile-data",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "profile-data",
+      "linked_people": [],
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "systems-profiling",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/profile-data",
+      "areas": [
+        "profiling",
+        "moe",
+        "expert-parallel",
+        "prefill",
+        "decode",
+        "overlap",
+        "production-inference"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/smallpond",
+    "path": "community/deepseek-ai/DeepSeek-Infra/smallpond.md",
+    "name": "smallpond",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "smallpond",
+      "linked_people": "",
+      "companies": [
+        "深度求索"
+      ],
+      "company_relation": "company-led",
+      "layer": "distributed-data-processing",
+      "open_source": true,
+      "repository": "https://github.com/deepseek-ai/smallpond",
+      "areas": [
+        "data-processing",
+        "distributed-query",
+        "duckdb",
+        "3fs",
+        "parquet",
+        "training-data"
+      ],
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
     "path": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu.md",
     "name": "刘胜与",
@@ -7986,6 +8350,7 @@
         "DeepSeek-Infra"
       ],
       "linked_companies": "",
+      "email_affiliations": "",
       "projects": [
         "DeepGEMM",
         "FlashMLA",
@@ -8057,11 +8422,7 @@
         "Chenggang Zhao"
       ],
       "schools": "",
-      "communities": [
-        "DeepEP",
-        "DeepGEMM",
-        "DeepSeek-Infra"
-      ],
+      "public_email": "chenggangz@deepseek.com\\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepEP, DeepGEMM, TileKernels]\\nconfidence: high\\nlast_verified: \"2026-09",
       "education": [
         "清华大学"
       ],

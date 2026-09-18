@@ -4,16 +4,13 @@ name: DeepGEMM
 parent: DeepSeek-Infra
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Anyi Xu"
-  - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
   - "community/deepseek-ai/DeepSeek-Infra/guyan364"
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
-  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
   - "community/deepseek-ai/DeepSeek-Infra/Liang Zhao"
   - "community/deepseek-ai/DeepSeek-Infra/LyricZhao"
   - "community/deepseek-ai/DeepSeek-Infra/Zhean Xu"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
   - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
-  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 companies: ["深度求索"]
 company_relation: company-led
 layer: gpu-kernels
@@ -44,16 +41,13 @@ https://github.com/deepseek-ai/DeepGEMM
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/deepseek-ai/DeepSeek-Infra/Anyi Xu|Anyi Xu]]：社区贡献关联；人物页已明确记录该社区。
-- [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu|Chenhao Xu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/guyan364|guyan364]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[DeepGEMM]]：2025 原始公开作者
-- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/LyricZhao|LyricZhao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]]：公开作者，GEMM / MoE kernel 技术线。
 - [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：[[DeepGEMM]]：2025 原始公开作者
-- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepGEMM]]：2025 公开项目原始作者
 
 <!-- END AUTO PROJECT PEOPLE -->
 

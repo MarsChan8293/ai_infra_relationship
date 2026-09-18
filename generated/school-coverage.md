@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 360
+- Person nodes: 366
 - People with ≥1 school: 156
-- People without known school: 204
-- Coverage: 43.3%
+- People without known school: 210
+- Coverage: 42.6%
 - Person-school associations: 204
 - School nodes: 47
 - Audit errors: 0
@@ -76,26 +76,26 @@
 | 25 | [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清]] | 6.157 | 6 |
 | 26 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao|敖玉龙]] | 6.157 | 6 |
 | 27 | [[company/腾讯/Chunxiao Zheng|Chunxiao Zheng]] | 6.022 | 4 |
-| 28 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
-| 29 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
-| 30 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
-| 31 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
-| 32 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
-| 33 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
-| 34 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
-| 35 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
-| 36 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
-| 37 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
-| 38 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
-| 39 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
-| 40 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
-| 41 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
-| 42 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
-| 43 | [[company/摩尔线程/Xiaodong Ye|Xiaodong Ye]] | 5.7 | 3 |
-| 44 | [[company/沐曦/Xin Li|Xin Li]] | 5.7 | 3 |
-| 45 | [[company/天数智芯/honglyua|honglyua]] | 5.7 | 3 |
-| 46 | [[company/天数智芯/shengyan.zhao|shengyan.zhao]] | 5.7 | 3 |
-| 47 | [[company/RadixArk/童心源 Xinyuan Tong|童心源]] | 5.7 | 3 |
-| 48 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
-| 49 | [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]] | 5.672 | 4 |
-| 50 | [[community/ai-dynamo/Dynamo/Ishan Dhanani|Ishan Dhanani]] | 5.672 | 4 |
+| 28 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]] | 5.935 | 5 |
+| 29 | [[community/vllm-project/vLLM-Ascend/weijinqian0|Jinqian Wei]] | 5.935 | 5 |
+| 30 | [[community/Project-HAMi/HAMi/archlitchi|Mengxuan Li]] | 5.935 | 5 |
+| 31 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang|Yi Zhang]] | 5.935 | 5 |
+| 32 | [[community/Ascend/MemCache/j00808874|j00808874]] | 5.935 | 5 |
+| 33 | [[university/启元实验室/李映辉 Yinghui Li|李映辉]] | 5.935 | 5 |
+| 34 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 5.935 | 5 |
+| 35 | [[company/硅基流动/赵震 Zhao Zhen|赵震]] | 5.935 | 5 |
+| 36 | [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成]] | 5.935 | 5 |
+| 37 | [[community/kvcache-ai/KTransformers/Boxin Zhang|Boxin Zhang]] | 5.7 | 3 |
+| 38 | [[community/kvcache-ai/KTransformers/Jianwei Dong|Jianwei Dong]] | 5.7 | 3 |
+| 39 | [[community/kvcache-ai/KTransformers/Jingqi Tang|Jingqi Tang]] | 5.7 | 3 |
+| 40 | [[company/IBM/Martin Hickey|Martin Hickey]] | 5.7 | 3 |
+| 41 | [[community/kvcache-ai/KTransformers/Qingliang Ou|Qingliang Ou]] | 5.7 | 3 |
+| 42 | [[community/ai-dynamo/Dynamo/Stefan Schimanski|Stefan Schimanski]] | 5.7 | 3 |
+| 43 | [[community/LMCache/LMCache/Tony Lin|Tony Lin]] | 5.7 | 3 |
+| 44 | [[company/摩尔线程/Xiaodong Ye|Xiaodong Ye]] | 5.7 | 3 |
+| 45 | [[company/沐曦/Xin Li|Xin Li]] | 5.7 | 3 |
+| 46 | [[company/天数智芯/honglyua|honglyua]] | 5.7 | 3 |
+| 47 | [[company/天数智芯/shengyan.zhao|shengyan.zhao]] | 5.7 | 3 |
+| 48 | [[company/RadixArk/童心源 Xinyuan Tong|童心源]] | 5.7 | 3 |
+| 49 | [[community/ai-dynamo/Dynamo/Alec Flowers|Alec Flowers]] | 5.672 | 4 |
+| 50 | [[community/ggml-org/llama.cpp/Georgi Gerganov|Georgi Gerganov]] | 5.672 | 4 |

@@ -4,6 +4,10 @@ name: Huanqi Cao
 aliases: ["Huanqi Cao"]
 public_email: caohuanqi@deepseek.com
 communities: [DeepSeek-Infra]
+email_affiliations:
+  - "深度求索"
+linked_companies:
+  - "company/深度求索/深度求索"
 projects: [LPLB, TileKernels, DeepSpec]
 areas: [moe, expert-parallel, load-balancing, gpu-kernels, speculative-decoding]
 confidence: high
@@ -24,3 +28,12 @@ DeepSeek 公开 AI Infra 作者网络中的跨层人物，官方仓库直接连�
 - https://github.com/deepseek-ai/LPLB/blob/main/pyproject.toml
 - https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml
 - https://github.com/deepseek-ai/DeepSpec/blob/main/README.md
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

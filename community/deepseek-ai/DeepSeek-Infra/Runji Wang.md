@@ -4,6 +4,10 @@ name: Runji Wang
 aliases: ["Runji Wang", "wangrunji0408"]
 public_email: runji@deepseek.com
 communities: [DeepSeek-Infra]
+email_affiliations:
+  - "深度求索"
+linked_companies:
+  - "company/深度求索/深度求索"
 projects: [smallpond]
 areas: [distributed-data-processing, storage-systems, 3fs, duckdb]
 confidence: high
@@ -21,3 +25,12 @@ DeepSeek [[smallpond]] 公开作者与初始提交者之一，连接 [[3FS]] 与
 - https://github.com/deepseek-ai/smallpond/blob/main/pyproject.toml
 - https://github.com/deepseek-ai/smallpond/commit/770aa417d59c3327fcbecc2f4652baf4aabba846
 - https://github.com/deepseek-ai/smallpond/commit/ed112db42af4d006a80861d1305a1c22cabdd359
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

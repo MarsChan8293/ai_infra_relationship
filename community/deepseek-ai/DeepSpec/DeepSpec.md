@@ -2,6 +2,8 @@
 type: project
 name: DeepSpec
 linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
+  - "community/deepseek-ai/DeepSeek-Infra/Rui Tian"
   - "community/deepseek-ai/DeepSeek-Infra/Yi Qian"
   - "company/深度求索/Shaoyuan Chen"
 companies: ["深度求索"]
@@ -43,8 +45,11 @@ DeepSpec 关注通过 draft model 提高 token generation 效率。DSpark 使用
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]]：[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：DSpark 论文作者网络成员。
+- [[community/deepseek-ai/DeepSeek-Infra/Rui Tian|Rui Tian]]：[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：DSpark 作者网络成员。
 - [[community/deepseek-ai/DeepSeek-Infra/Yi Qian|Yi Qian]]：https://github.com/deepseek-ai/DeepSpec
 - [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] / DSpark：2026 DSpark 作者网络成员，进入 DeepSeek speculative decoding 全栈研究线；与 [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋（Wenfeng Liang）]] 同属论文作者网络。
+- [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB...
 
 <!-- END AUTO PROJECT PEOPLE -->
 

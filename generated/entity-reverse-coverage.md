@@ -4,12 +4,12 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked person: 44
-- Company-person associations: 216
-- Email-domain-supported associations: 28
-- People with generated linked_companies: 213
-- Project/community nodes: 121
-- Project/community nodes with ≥1 linked person: 91
-- Project/community-person associations: 445
+- Company-person associations: 221
+- Email-domain-supported associations: 34
+- People with generated linked_companies: 218
+- Project/community nodes: 127
+- Project/community nodes with ≥1 linked person: 95
+- Project/community-person associations: 453
 - Non-company affiliations recognized and routed elsewhere: 89
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
@@ -21,12 +21,12 @@
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
 | [[company/华为/华为|华为]] | 20 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 16 |
+| [[company/深度求索/深度求索|深度求索]] | 12 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 8 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
-| [[company/深度求索/深度求索|深度求索]] | 7 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 6 |
@@ -70,21 +70,21 @@
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 29 |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 21 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 19 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 18 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 16 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 8 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
@@ -94,11 +94,13 @@
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
+| [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 4 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
+| [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
@@ -116,7 +118,6 @@
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSelect|DeepSelect]] | 2 |
 | [[community/Deep-Spark/DeepSpark/DeepSpark|DeepSpark]] | 2 |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | 2 |
-| [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 2 |
 | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | 2 |
 | [[university/清华大学/FastDecode|FastDecode]] | 2 |
 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | 2 |
@@ -135,13 +136,16 @@
 | [[community/tile-ai/TileScale/TileScale|TileScale]] | 2 |
 | [[community/xPU-IO/Tutti/Tutti|Tutti]] | 2 |
 | [[community/openEuler/openYuanRong/openYuanRong|openYuanRong]] | 2 |
+| [[community/deepseek-ai/DeepSeek-Infra/smallpond|smallpond]] | 2 |
 | [[community/thu-pacman/Chitu/Chitu|Chitu]] | 1 |
+| [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
+| [[community/deepseek-ai/DeepSeek-Infra/LPLB|LPLB]] | 1 |
 | [[company/Together AI/Ladder Residual|Ladder Residual]] | 1 |
 | [[community/thu-pacman/Lethe/Lethe|Lethe]] | 1 |
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation|LightSeek Foundation]] | 1 |

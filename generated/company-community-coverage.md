@@ -4,10 +4,10 @@
 
 - Company nodes: 50
 - Companies with ≥1 linked project/community: 38
-- Project/community nodes: 113
-- Project/community nodes with ≥1 linked company: 67
-- Bidirectional association pairs: 86
-- Explicitly asserted on both sides: 86
+- Project/community nodes: 119
+- Project/community nodes with ≥1 linked company: 73
+- Bidirectional association pairs: 92
+- Explicitly asserted on both sides: 92
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -83,10 +83,16 @@
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | project-collection | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/deepseek-recipe|deepseek-recipe]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSelect|DeepSelect]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DualPath/DualPath|DualPath]] | project | industry-academia-research-collaboration | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | project | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/LPLB|LPLB]] | project | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/profile-data|profile-data]] | project | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/smallpond|smallpond]] | project | company-led | both |
+| [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | project | company-led | both |
 | [[company/清程极智/清程极智|清程极智]] | [[community/QingCheng-AI/ascend-kernel/ascend-kernel|ascend-kernel]] | project | company-led | both |
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | project | company-led | both |
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | company-originated-and-jointly-open-sourced-with-tsinghua | both |

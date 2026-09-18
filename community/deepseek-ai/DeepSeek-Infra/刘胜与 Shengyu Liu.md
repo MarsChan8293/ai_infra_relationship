@@ -10,6 +10,8 @@ schools:
 communities: [DeepGEMM, FlashMLA, DeepSelect, DeepSeek-Infra]
 linked_companies:
   - "company/深度求索/深度求索"
+email_affiliations:
+  - "深度求索"
 projects: [DeepGEMM, FlashMLA, DeepSelect, DistServe, LoongServe, SwiftLLM]
 education: [北京大学]
 areas: [mlsys, gpu-kernels, mla, sparse-attention, topk, llm-serving, distributed-systems]
@@ -75,6 +77,6 @@ relations:
 
 以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
 
-- [[company/深度求索/深度求索|深度求索]]：人物页 `current_affiliations:` 明确记录。
+- [[company/深度求索/深度求索|深度求索]]：当前 affiliation + 公开职业邮箱域名双重证据。
 
 <!-- END AUTO PERSON COMPANIES -->

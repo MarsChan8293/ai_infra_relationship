@@ -1,6 +1,7 @@
 ---
 type: project
 name: deepseek-recipe
+linked_people: []
 companies: ["深度求索"]
 company_relation: company-led
 layer: serving-api-adapter
@@ -8,6 +9,8 @@ open_source: true
 repository: https://github.com/deepseek-ai/deepseek-recipe
 areas: [llm-serving, api-protocol, prompt-encoding, response-parsing, rust, python, multimodal]
 last_verified: "2026-09"
+linked_companies:
+  - "company/深度求索/深度求索"
 ---
 # deepseek-recipe
 
@@ -23,3 +26,12 @@ deepseek-recipe 是 DeepSeek 2026-09 开源的 serving glue layer：用 Rust lib
 - https://github.com/deepseek-ai/deepseek-recipe
 - https://github.com/deepseek-ai/deepseek-recipe/blob/main/README.md
 - https://github.com/deepseek-ai/deepseek-recipe/commit/57b9c842429d850b03b5fdbe3fed266c13cc7f2b
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

@@ -3,7 +3,7 @@
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
 - Typed relation edges: 463
-- Person nodes with typed relations: 149 / 360
+- Person nodes with typed relations: 149 / 366
 - Hard errors: 0
 - Warnings: 12
 
@@ -34,11 +34,11 @@
 | 4 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
 | 5 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
 | 6 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
-| 7 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
-| 8 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
-| 9 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
-| 10 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
-| 11 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.370 | 8 | 3 | 0 |
+| 7 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.522 | 9 | 3 | 0 |
+| 8 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
+| 9 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
+| 10 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |
+| 11 | [[community/kvcache-ai/Mooncake/Yue Chen|Yue Chen]] | 8.370 | 8 | 4 | 0 |
 | 12 | [[university/北京大学/吴童 Tong Wu|Tong Wu]] | 8.357 | 6 | 1 | 0 |
 | 13 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
 | 14 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 8.200 | 7 | 1 | 0 |
@@ -98,8 +98,8 @@
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
+| [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 10.272 | 2 | 2 | 100.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie|谢威宇]] | 10.120 | 3 | 3 | 100.0% |
 | [[community/kvcache-ai/KTransformers/Xianglin Chen|Xianglin Chen]] | 10.059 | 6 | 2 | 33.3% |
 | [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌]] | 10.057 | 5 | 3 | 60.0% |
-| [[community/vllm-project/vLLM/Nick Hill|Nick Hill]] | 9.922 | 5 | 3 | 60.0% |
