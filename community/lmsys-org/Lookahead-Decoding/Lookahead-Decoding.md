@@ -1,6 +1,7 @@
 ---
 type: project
 name: Lookahead Decoding
+linked_people: []
 companies: []
 company_relation: research-community
 layer: speculative-decoding
@@ -11,6 +12,7 @@ people:
   - "company/Inferact/Ion Stoica"
 governance: "LMSYS-listed research project; code hosted by Hao AI Lab"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Lookahead Decoding
 

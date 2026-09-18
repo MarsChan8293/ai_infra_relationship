@@ -4,12 +4,12 @@
 
 - Company nodes: 51
 - Companies with ≥1 linked person: 45
-- Company-person associations: 222
+- Company-person associations: 224
 - Email-domain-supported associations: 34
-- People with generated linked_companies: 219
-- Project/community nodes: 135
+- People with generated linked_companies: 221
+- Project/community nodes: 139
 - Project/community nodes with ≥1 linked person: 102
-- Project/community-person associations: 486
+- Project/community-person associations: 495
 - Non-company affiliations recognized and routed elsewhere: 91
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
@@ -22,9 +22,9 @@
 | [[company/华为/华为|华为]] | 20 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 16 |
 | [[company/深度求索/深度求索|深度求索]] | 12 |
+| [[company/RadixArk/RadixArk|RadixArk]] | 10 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
-| [[company/RadixArk/RadixArk|RadixArk]] | 8 |
 | [[company/清程极智/清程极智|清程极智]] | 8 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 7 |
@@ -68,7 +68,7 @@
 
 | Entity | Linked people |
 | --- | ---: |
-| [[community/sgl-project/SGLang/SGLang|SGLang]] | 29 |
+| [[community/sgl-project/SGLang/SGLang|SGLang]] | 31 |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 21 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 19 |
@@ -86,6 +86,7 @@
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 8 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 8 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
+| [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
@@ -104,6 +105,7 @@
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/InfiniTensor/InfiniOps|InfiniOps]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
+| [[community/radixark/Miles/Miles|Miles]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
@@ -114,7 +116,6 @@
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 3 |
 | [[community/InfiniTensor/InfiniCCL|InfiniCCL]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | 3 |
-| [[community/radixark/Miles/Miles|Miles]] | 3 |
 | [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]] | 3 |
 | [[community/thu-pacman/QFactory/QFactory|QFactory]] | 3 |
 | [[company/月之暗面/Seer|Seer]] | 3 |
@@ -131,7 +132,6 @@
 | [[university/浙江大学/FloE|FloE]] | 2 |
 | [[university/厦门大学/GeminiFS|GeminiFS]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
-| [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 2 |
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
 | [[community/MetaX-MACA/MetaX-MACA/MetaX-MACA|MetaX-MACA]] | 2 |
 | [[community/InfiniTensor/NineToothed|NineToothed]] | 2 |

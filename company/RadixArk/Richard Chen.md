@@ -4,6 +4,8 @@ name: Richard Chen
 aliases: ["Richard Chen"]
 current_affiliations: ["RadixArk"]
 communities: [LMSYS, SGLang]
+linked_companies:
+  - "company/RadixArk/RadixArk"
 projects: [SGLang]
 areas: [llm-inference, model-serving, radixattention, speculative-decoding, local-inference]
 roles: [Member of Technical Staff, LMSYS Officer, SGLang Contributor]
@@ -28,3 +30,12 @@ Richard Chen 把 LMSYS 的社区治理、RadixArk 的工程组织和 SGLang 的�
 - https://www.deeplearning.ai/short-courses/efficient-inference-with-sglang/
 - https://www.lmsys.org/blog/2025-10-13-nvidia-dgx-spark/
 - https://www.lmsys.org/blog/2025-12-15-run-nvidia-nemotron-3-nano/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/RadixArk/RadixArk|RadixArk]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -9,8 +9,7 @@ linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
   - "community/flagos-ai/FlagTree/Galaxy1458"
   - "community/flagos-ai/FlagTree/zhzhcookie"
-companies:
-  - "杭州先进编译科技有限公司"
+companies: ["杭州先进编译科技有限公司"]
 company_relation: community-led
 layer: kernel-library
 repository: https://github.com/flagos-ai/FlagGems

@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 676,
-  "complete_count": 676,
+  "node_count": 682,
+  "complete_count": 682,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 10,
@@ -12,9 +12,9 @@
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 375,
+    "person": 377,
     "person-link": 4,
-    "project": 121,
+    "project": 125,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 27,
@@ -2011,11 +2011,47 @@
       "missing_required": []
     },
     {
+      "id": "community/lmsys-org/FastChat/FastChat",
+      "type": "project",
+      "source_markdown": "community/lmsys-org/FastChat/FastChat.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/lmsys-org/FastChat/FastChat.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/lmsys-org/LMSYS/LMSYS",
       "type": "community",
       "source_markdown": "community/lmsys-org/LMSYS/LMSYS.md",
       "schema_definition": "schema/community.yaml",
       "schema_instance": "schema/nodes/community/lmsys-org/LMSYS/LMSYS.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "type": "project",
+      "source_markdown": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/lmsys-org/RouteLLM/RouteLLM",
+      "type": "project",
+      "source_markdown": "community/lmsys-org/RouteLLM/RouteLLM.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/lmsys-org/RouteLLM/RouteLLM.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/lmsys-org/S-LoRA/S-LoRA",
+      "type": "project",
+      "source_markdown": "community/lmsys-org/S-LoRA/S-LoRA.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/lmsys-org/S-LoRA/S-LoRA.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3658,6 +3694,15 @@
       "missing_required": []
     },
     {
+      "id": "company/RadixArk/Mingyi Lu",
+      "type": "person",
+      "source_markdown": "company/RadixArk/Mingyi Lu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/RadixArk/Mingyi Lu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/RadixArk/Qiaolin Yu",
       "type": "person",
       "source_markdown": "company/RadixArk/Qiaolin Yu.md",
@@ -3672,6 +3717,15 @@
       "source_markdown": "company/RadixArk/RadixArk.md",
       "schema_definition": "schema/company.yaml",
       "schema_instance": "schema/nodes/company/RadixArk/RadixArk.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/RadixArk/Richard Chen",
+      "type": "person",
+      "source_markdown": "company/RadixArk/Richard Chen.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/RadixArk/Richard Chen.yaml",
       "status": "complete",
       "missing_required": []
     },

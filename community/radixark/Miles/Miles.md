@@ -4,6 +4,7 @@ name: Miles
 linked_people:
   - "community/kvcache-ai/Mooncake/Xinpeng Zhao"
   - "community/kvcache-ai/Mooncake/Xuchun Shang"
+  - "company/RadixArk/Mingyi Lu"
   - "company/RadixArk/朱邦华 Banghua Zhu"
 companies: ["RadixArk"]
 company_relation: company-led
@@ -43,6 +44,7 @@ Miles 的 rollout 层直接依赖 SGLang，并提供大模型 RL 训练到推理
 
 - [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]]：**RL rollout data**：Mooncake × Miles 的 2026 rollout-data-transfer 工作致谢 Xinpeng Zhao，并明确其参与实现、review、validation 等跨仓库工作。
 - [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]]：**Miles rollout transfer**：Mooncake × Miles 工作致谢其参与实现、review、validation 与设计反馈。
+- [[company/RadixArk/Mingyi Lu|Mingyi Lu]]：[[community/radixark/Miles/Miles|Miles]]：2026 SGLang & Miles 联合工程记录中的贡献网络成员。
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[community/radixark/Miles/Miles|Miles]]：RadixArk 的大规模 post-training / RL infrastructure；个人主页明确将 Miles 与 SGLang 一起作为团队构建的 open AI infra。
 
 <!-- END AUTO PROJECT PEOPLE -->

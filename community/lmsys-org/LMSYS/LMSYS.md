@@ -2,6 +2,15 @@
 type: community
 name: LMSYS
 aliases: ["LMSYS Org", "lmsys.org", "Large Model Systems"]
+linked_people:
+  - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
+  - "company/Inferact/Ion Stoica"
+  - "company/Inferact/Joseph Gonzalez"
+  - "company/RadixArk/Mingyi Lu"
+  - "company/RadixArk/Richard Chen"
+  - "company/RadixArk/朱邦华 Banghua Zhu"
+  - "company/RadixArk/盛颖 Ying Sheng"
+  - "university/清华大学/Mingxing Zhang"
 repository: https://github.com/lm-sys
 people:
   - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
@@ -12,9 +21,6 @@ people:
   - "company/Inferact/Joseph Gonzalez"
   - "company/Inferact/Ion Stoica"
   - "university/清华大学/Mingxing Zhang"
-linked_people:
-  - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
-  - "company/RadixArk/盛颖 Ying Sheng"
 category: ai-systems-community
 areas: [llm-serving, evaluation, open-source-ai, ai-infrastructure, speculative-decoding, model-routing, adapter-serving]
 governance: "501(c)(3) nonprofit; officer/advisor-governed open-source and research incubator"
@@ -55,13 +61,18 @@ LMSYS 社区关联只表示公开的研究、社区、项目参与或官网治�
 - https://www.lmsys.org/about/
 - https://www.lmsys.org/projects/
 
-
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：[[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：**LMSYS/SGLang 研究与开源合作者**。尹良升从 2023 年起在 LMSYS/SGLang 网络中与郑连民、盛颖工作；2024 年夏天三人有明确的共同 debug 记录。当前郑连民负责 Scheduler merge oncall，尹良升负责 Scheduler + speculative decoding，属于持...
+- [[company/Inferact/Ion Stoica|Ion Stoica]]：https://www.lmsys.org/about/
+- [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：https://www.lmsys.org/about/
+- [[company/RadixArk/Mingyi Lu|Mingyi Lu]]：[[community/lmsys-org/LMSYS/LMSYS|LMSYS]]：截至 2026-09 官网列为 current officer。
+- [[company/RadixArk/Richard Chen|Richard Chen]]：[[community/lmsys-org/LMSYS/LMSYS|LMSYS]]：截至 2026-09 官网列为 current officer。
+- [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：https://www.lmsys.org/about/
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：[[community/sgl-project/SGLang/尹良升 Liangsheng Yin|尹良升（Liangsheng Yin）]]：**LMSYS/SGLang 研究与开源合作者**。自 2023 年起进入同一 SGLang 核心开发网络；2024 年夏天有明确共同 debug 记录。尹良升目前负责 scheduler / speculative decoding，盛颖更多承担项目创建、社区与公司建设。
+- [[university/清华大学/Mingxing Zhang|章明星（Mingxing Zhang）]]：[[community/lmsys-org/LMSYS/LMSYS|LMSYS]]：截至 2026-09 官网列为 advisor，使清华 MADSys / Mooncake / KTransformers / Seer / DualPath 研究网络与 LMSYS 的正式治理层建立直接桥接。
 
 <!-- END AUTO PROJECT PEOPLE -->

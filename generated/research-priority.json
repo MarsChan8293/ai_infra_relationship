@@ -9,7 +9,7 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1612,
+  "candidate_count": 1620,
   "selected_actions": [
     {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/profile-data::maintainers",
@@ -4213,6 +4213,78 @@
       }
     },
     {
+      "action_id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+        "name": "Lookahead Decoding",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.29,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, distributed"
+      ],
+      "base_priority": 6.213,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "community/thu-pacman/Lethe/Lethe::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -5099,95 +5171,6 @@
           "note": null,
           "resolved_dimensions": [
             "identity:Alex Yang",
-            "employer:NVIDIA"
-          ],
-          "unresolved_dimensions": [],
-          "cooldown_days": 1,
-          "cooldown_until": "2026-09-17"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.157"
-      }
-    },
-    {
-      "action_id": "community/flashinfer-ai/FlashInfer/Brian K. Ryu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/Brian K. Ryu",
-        "name": "Brian K. Ryu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.229,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 6.157,
-        "novelty": 0.75,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.344,
-        "redundancy_penalty": 0.294,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-17"
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 6.2",
-        "recent successful action"
-      ],
-      "base_priority": 6.071,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-3",
-          "attempted_at": "2026-09-16",
-          "status": "success",
-          "note": null,
-          "resolved_dimensions": [
             "employer:NVIDIA"
           ],
           "unresolved_dimensions": [],

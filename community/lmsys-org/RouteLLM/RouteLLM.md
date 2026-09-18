@@ -1,6 +1,7 @@
 ---
 type: project
 name: RouteLLM
+linked_people: []
 companies: []
 company_relation: community-led
 layer: model-routing
@@ -12,6 +13,7 @@ people:
   - "company/Inferact/Ion Stoica"
 governance: LMSYS project
 last_verified: "2026-09"
+linked_companies: []
 ---
 # RouteLLM
 

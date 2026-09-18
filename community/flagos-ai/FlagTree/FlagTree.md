@@ -10,8 +10,7 @@ linked_people:
   - "community/flagos-ai/FlagTree/zhzhcookie"
   - "company/杭州先进编译科技有限公司/李嘉楠"
   - "company/杭州先进编译科技有限公司/柴赟达"
-companies:
-  - "杭州先进编译科技有限公司"
+companies: ["杭州先进编译科技有限公司"]
 company_relation: community-led
 layer: ai-compiler
 repository: https://github.com/flagos-ai/FlagTree

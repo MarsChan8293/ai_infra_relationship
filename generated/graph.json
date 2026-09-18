@@ -346,14 +346,16 @@
         "communities": [
           "vLLM",
           "SGLang",
-          "Ray"
+          "Ray",
+          "LMSYS"
         ],
         "roles": [
           "Professor",
           "Sky Lab Director",
           "Anyscale Executive Chairman",
           "Databricks Executive Chairman",
-          "Inferact Founding Member"
+          "Inferact Founding Member",
+          "LMSYS Advisor"
         ],
         "linked_companies": "",
         "areas": [
@@ -387,12 +389,14 @@
         "schools": "",
         "communities": [
           "vLLM",
-          "SGLang"
+          "SGLang",
+          "LMSYS"
         ],
         "roles": [
           "Professor",
           "Sky Lab Founding Member",
-          "Inferact Founding Member"
+          "Inferact Founding Member",
+          "LMSYS Advisor"
         ],
         "linked_companies": "",
         "areas": [
@@ -983,6 +987,44 @@
       }
     },
     {
+      "id": "company/RadixArk/Mingyi Lu",
+      "path": "company/RadixArk/Mingyi Lu.md",
+      "name": "Mingyi Lu",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "Mingyi Lu",
+        "aliases": [
+          "Mingyi Lu"
+        ],
+        "current_affiliations": [
+          "RadixArk"
+        ],
+        "communities": [
+          "LMSYS",
+          "SGLang"
+        ],
+        "linked_companies": "",
+        "projects": [
+          "SGLang",
+          "Miles"
+        ],
+        "areas": [
+          "llm-inference",
+          "model-serving",
+          "post-training",
+          "model-optimization"
+        ],
+        "roles": [
+          "LMSYS Officer",
+          "SGLang/Miles Contributor"
+        ],
+        "confidence": "high",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "company/RadixArk/Qiaolin Yu",
       "path": "company/RadixArk/Qiaolin Yu.md",
       "name": "Qiaolin Yu",
@@ -1029,6 +1071,45 @@
         "linked_people": "",
         "projects": "",
         "linked_projects": ""
+      }
+    },
+    {
+      "id": "company/RadixArk/Richard Chen",
+      "path": "company/RadixArk/Richard Chen.md",
+      "name": "Richard Chen",
+      "type": "person",
+      "category": "company",
+      "frontmatter": {
+        "type": "person",
+        "name": "Richard Chen",
+        "aliases": [
+          "Richard Chen"
+        ],
+        "current_affiliations": [
+          "RadixArk"
+        ],
+        "communities": [
+          "LMSYS",
+          "SGLang"
+        ],
+        "linked_companies": "",
+        "projects": [
+          "SGLang"
+        ],
+        "areas": [
+          "llm-inference",
+          "model-serving",
+          "radixattention",
+          "speculative-decoding",
+          "local-inference"
+        ],
+        "roles": [
+          "Member of Technical Staff",
+          "LMSYS Officer",
+          "SGLang Contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-09"
       }
     },
     {
@@ -1084,10 +1165,14 @@
         ],
         "schools": "",
         "linked_companies": "",
+        "communities": [
+          "LMSYS"
+        ],
         "projects": "",
         "roles": [
           "cofounder",
-          "CTO"
+          "CTO",
+          "LMSYS Officer"
         ],
         "areas": [
           "foundation-models",
@@ -1161,7 +1246,8 @@
         "roles": [
           "cofounder",
           "CEO",
-          "SGLang co-creator"
+          "SGLang co-creator",
+          "LMSYS Officer"
         ],
         "linked_companies": "",
         "areas": [
@@ -9195,7 +9281,9 @@
         "type": "project",
         "name": "FlagGems",
         "linked_people": "",
-        "companies": "",
+        "companies": [
+          "杭州先进编译科技有限公司"
+        ],
         "company_relation": "community-led",
         "layer": "kernel-library",
         "repository": "https://github.com/flagos-ai/FlagGems",
@@ -9629,7 +9717,9 @@
         "type": "project",
         "name": "FlagTree",
         "linked_people": "",
-        "companies": "",
+        "companies": [
+          "杭州先进编译科技有限公司"
+        ],
         "company_relation": "community-led",
         "layer": "ai-compiler",
         "repository": "https://github.com/flagos-ai/FlagTree",
@@ -11900,6 +11990,34 @@
       }
     },
     {
+      "id": "community/lmsys-org/FastChat/FastChat",
+      "path": "community/lmsys-org/FastChat/FastChat.md",
+      "name": "FastChat",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "FastChat",
+        "linked_people": [],
+        "companies": [],
+        "company_relation": "community-led",
+        "layer": "llm-serving",
+        "open_source": true,
+        "repository": "https://github.com/lm-sys/FastChat",
+        "areas": [
+          "llm-serving",
+          "openai-compatible-api",
+          "model-serving",
+          "distributed-serving",
+          "evaluation"
+        ],
+        "people": "",
+        "governance": "LMSYS project",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/lmsys-org/LMSYS/LMSYS",
       "path": "community/lmsys-org/LMSYS/LMSYS.md",
       "name": "LMSYS",
@@ -11910,18 +12028,108 @@
         "name": "LMSYS",
         "aliases": [
           "LMSYS Org",
-          "lmsys.org"
+          "lmsys.org",
+          "Large Model Systems"
         ],
         "linked_people": "",
+        "repository": "https://github.com/lm-sys",
+        "people": "",
         "category": "ai-systems-community",
         "areas": [
           "llm-serving",
           "evaluation",
           "open-source-ai",
-          "ai-infrastructure"
+          "ai-infrastructure",
+          "speculative-decoding",
+          "model-routing",
+          "adapter-serving"
         ],
-        "governance": "community-led",
+        "governance": "501(c)(3) nonprofit; officer/advisor-governed open-source and research incubator",
         "website": "https://www.lmsys.org/",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "path": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding.md",
+      "name": "Lookahead Decoding",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Lookahead Decoding",
+        "linked_people": [],
+        "companies": [],
+        "company_relation": "research-community",
+        "layer": "speculative-decoding",
+        "open_source": true,
+        "repository": "https://github.com/hao-ai-lab/LookaheadDecoding",
+        "areas": [
+          "speculative-decoding",
+          "parallel-decoding",
+          "llm-inference",
+          "latency-optimization"
+        ],
+        "people": "",
+        "governance": "LMSYS-listed research project; code hosted by Hao AI Lab",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/lmsys-org/RouteLLM/RouteLLM",
+      "path": "community/lmsys-org/RouteLLM/RouteLLM.md",
+      "name": "RouteLLM",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "RouteLLM",
+        "linked_people": [],
+        "companies": [],
+        "company_relation": "community-led",
+        "layer": "model-routing",
+        "open_source": true,
+        "repository": "https://github.com/lm-sys/RouteLLM",
+        "areas": [
+          "llm-routing",
+          "inference-cost",
+          "model-selection",
+          "preference-learning",
+          "serving"
+        ],
+        "people": "",
+        "governance": "LMSYS project",
+        "last_verified": "2026-09",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/lmsys-org/S-LoRA/S-LoRA",
+      "path": "community/lmsys-org/S-LoRA/S-LoRA.md",
+      "name": "S-LoRA",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "S-LoRA",
+        "linked_people": [],
+        "companies": [],
+        "company_relation": "research-community",
+        "layer": "adapter-serving",
+        "open_source": true,
+        "repository": "https://github.com/S-LoRA/S-LoRA",
+        "areas": [
+          "llm-serving",
+          "lora",
+          "adapter-serving",
+          "memory-management",
+          "batching",
+          "cuda-kernels"
+        ],
+        "people": "",
+        "governance": "LMSYS/Berkeley research project; upstream repository is archived",
         "last_verified": "2026-09",
         "linked_companies": []
       }
@@ -12492,7 +12700,8 @@
         "roles": [
           "SGLang creator",
           "scheduler merge-oncall",
-          "Assistant Professor"
+          "Assistant Professor",
+          "LMSYS Officer"
         ],
         "areas": [
           "llm-serving",
@@ -17132,6 +17341,9 @@
           "Tsinghua University"
         ],
         "schools": "",
+        "communities": [
+          "LMSYS"
+        ],
         "projects": [
           "Mooncake",
           "KTransformers",
@@ -17146,7 +17358,8 @@
           "heterogeneous-inference"
         ],
         "roles": [
-          "Associate Professor"
+          "Associate Professor",
+          "LMSYS Advisor"
         ],
         "confidence": "verified",
         "last_verified": "2026-09",
@@ -24723,6 +24936,46 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/lmsys-org/FastChat/FastChat",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/FastChat/FastChat",
+      "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/FastChat/FastChat",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/FastChat/FastChat",
+      "target": "company/Inferact/Joseph Gonzalez",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "community/lmsys-org/FastChat/FastChat",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "community/lmsys-org/RouteLLM/RouteLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "community/lmsys-org/S-LoRA/S-LoRA",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/lmsys-org/LMSYS/LMSYS",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -24744,7 +24997,87 @@
     },
     {
       "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "company/Inferact/Joseph Gonzalez",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "company/RadixArk/Mingyi Lu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "company/RadixArk/Richard Chen",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "company/RadixArk/朱邦华 Banghua Zhu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
       "target": "company/RadixArk/盛颖 Ying Sheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/LMSYS/LMSYS",
+      "target": "university/清华大学/Mingxing Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/RouteLLM/RouteLLM",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/RouteLLM/RouteLLM",
+      "target": "company/Inferact/Joseph Gonzalez",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "community/sgl-project/SGLang/郑连民 Lianmin Zheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "company/Inferact/Joseph Gonzalez",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "company/RadixArk/朱邦华 Banghua Zhu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "company/RadixArk/盛颖 Ying Sheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "university/UC Berkeley/Shiyi Cao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA",
+      "target": "university/UC Berkeley/Shuo Yang",
       "kind": "wikilink"
     },
     {
@@ -24925,6 +25258,11 @@
     {
       "source": "community/radixark/Miles/Miles",
       "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/radixark/Miles/Miles",
+      "target": "company/RadixArk/Mingyi Lu",
       "kind": "wikilink"
     },
     {
@@ -25129,12 +25467,22 @@
     },
     {
       "source": "community/sgl-project/SGLang/SGLang",
+      "target": "company/RadixArk/Mingyi Lu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
       "target": "company/RadixArk/Qiaolin Yu",
       "kind": "wikilink"
     },
     {
       "source": "community/sgl-project/SGLang/SGLang",
       "target": "company/RadixArk/RadixArk",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "company/RadixArk/Richard Chen",
       "kind": "wikilink"
     },
     {
@@ -29478,6 +29826,26 @@
       "kind": "wikilink"
     },
     {
+      "source": "company/RadixArk/Mingyi Lu",
+      "target": "community/lmsys-org/LMSYS/LMSYS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Mingyi Lu",
+      "target": "community/radixark/Miles/Miles",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Mingyi Lu",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Mingyi Lu",
+      "target": "company/RadixArk/RadixArk",
+      "kind": "wikilink"
+    },
+    {
       "source": "company/RadixArk/Qiaolin Yu",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -29544,7 +29912,17 @@
     },
     {
       "source": "company/RadixArk/RadixArk",
+      "target": "company/RadixArk/Mingyi Lu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/RadixArk",
       "target": "company/RadixArk/Qiaolin Yu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/RadixArk",
+      "target": "company/RadixArk/Richard Chen",
       "kind": "wikilink"
     },
     {
@@ -29570,6 +29948,21 @@
     {
       "source": "company/RadixArk/RadixArk",
       "target": "company/RadixArk/童心源 Xinyuan Tong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Richard Chen",
+      "target": "community/lmsys-org/LMSYS/LMSYS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Richard Chen",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/RadixArk/Richard Chen",
+      "target": "company/RadixArk/RadixArk",
       "kind": "wikilink"
     },
     {
@@ -36799,6 +37192,11 @@
     },
     {
       "source": "university/清华大学/Mingxing Zhang",
+      "target": "community/lmsys-org/LMSYS/LMSYS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/清华大学/Mingxing Zhang",
       "target": "company/月之暗面/Seer",
       "kind": "wikilink"
     },
@@ -37834,24 +38232,24 @@
       "bridge_score": 16.307
     },
     "company/Inferact/Ion Stoica": {
-      "degree": 30,
-      "cross_category_degree": 24,
+      "degree": 35,
+      "cross_category_degree": 29,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 17.854
+      "bridge_score": 19.82
     },
     "company/Inferact/Joseph Gonzalez": {
-      "degree": 13,
-      "cross_category_degree": 10,
+      "degree": 17,
+      "cross_category_degree": 14,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.807
+      "bridge_score": 13.57
     },
     "company/Inferact/Woosuk Kwon": {
       "degree": 16,
@@ -38071,6 +38469,15 @@
       ],
       "bridge_score": 6.35
     },
+    "company/RadixArk/Mingyi Lu": {
+      "degree": 4,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.372
+    },
     "company/RadixArk/Qiaolin Yu": {
       "degree": 11,
       "cross_category_degree": 4,
@@ -38082,14 +38489,23 @@
       "bridge_score": 9.485
     },
     "company/RadixArk/RadixArk": {
-      "degree": 15,
+      "degree": 17,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.6
+      "bridge_score": 10.77
+    },
+    "company/RadixArk/Richard Chen": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.7
     },
     "company/RadixArk/Xiaoyu Zhang": {
       "degree": 8,
@@ -38101,14 +38517,14 @@
       "bridge_score": 6.87
     },
     "company/RadixArk/朱邦华 Banghua Zhu": {
-      "degree": 11,
-      "cross_category_degree": 4,
+      "degree": 13,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.485
+      "bridge_score": 10.407
     },
     "company/RadixArk/王书文 Shuwen Wang": {
       "degree": 2,
@@ -38120,14 +38536,14 @@
       "bridge_score": 4.935
     },
     "company/RadixArk/盛颖 Ying Sheng": {
-      "degree": 17,
-      "cross_category_degree": 10,
+      "degree": 18,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 12.17
+      "bridge_score": 12.598
     },
     "company/RadixArk/童心源 Xinyuan Tong": {
       "degree": 3,
@@ -41721,14 +42137,52 @@
       ],
       "bridge_score": 5.672
     },
-    "community/lmsys-org/LMSYS/LMSYS": {
+    "community/lmsys-org/FastChat/FastChat": {
       "degree": 5,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.285
+    },
+    "community/lmsys-org/LMSYS/LMSYS": {
+      "degree": 15,
+      "cross_category_degree": 7,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 10.95
+    },
+    "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding": {
+      "degree": 2,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 4.935
+    },
+    "community/lmsys-org/RouteLLM/RouteLLM": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 5.7
+    },
+    "community/lmsys-org/S-LoRA/S-LoRA": {
+      "degree": 8,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "university"
+      ],
+      "bridge_score": 9.77
     },
     "community/ollama/Ollama/Ollama": {
       "degree": 10,
@@ -41786,13 +42240,13 @@
       "bridge_score": 5.35
     },
     "community/radixark/Miles/Miles": {
-      "degree": 6,
-      "cross_category_degree": 2,
+      "degree": 7,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 7.05
     },
     "community/ray-project/Ray/Ray": {
       "degree": 7,
@@ -41823,15 +42277,15 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 89,
-      "cross_category_degree": 40,
+      "degree": 92,
+      "cross_category_degree": 42,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 26.492
+      "bridge_score": 27.239
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -41892,14 +42346,14 @@
       "bridge_score": 10.409
     },
     "community/sgl-project/SGLang/郑连民 Lianmin Zheng": {
-      "degree": 14,
+      "degree": 16,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 11.207
+      "bridge_score": 11.387
     },
     "community/sgl-project/SpecForge/SpecForge": {
       "degree": 3,
@@ -42784,14 +43238,14 @@
       "bridge_score": 7.872
     },
     "university/UC Berkeley/Shiyi Cao": {
-      "degree": 8,
-      "cross_category_degree": 3,
+      "degree": 9,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.72
+      "bridge_score": 9.222
     },
     "university/UC Berkeley/Shu Liu": {
       "degree": 6,
@@ -42804,14 +43258,14 @@
       "bridge_score": 8.007
     },
     "university/UC Berkeley/Shuo Yang": {
-      "degree": 5,
-      "cross_category_degree": 2,
+      "degree": 6,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 7.785
+      "bridge_score": 8.357
     },
     "university/UC Berkeley/Sky Computing Lab": {
       "degree": 15,
@@ -43524,14 +43978,14 @@
       "bridge_score": 7.522
     },
     "university/清华大学/Mingxing Zhang": {
-      "degree": 24,
-      "cross_category_degree": 17,
+      "degree": 25,
+      "cross_category_degree": 18,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 15.094
+      "bridge_score": 15.5
     },
     "university/清华大学/PACMAN": {
       "degree": 20,

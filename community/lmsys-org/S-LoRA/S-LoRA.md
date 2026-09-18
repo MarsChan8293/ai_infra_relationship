@@ -1,6 +1,7 @@
 ---
 type: project
 name: S-LoRA
+linked_people: []
 companies: []
 company_relation: research-community
 layer: adapter-serving
@@ -17,6 +18,7 @@ people:
   - "company/Inferact/Ion Stoica"
 governance: "LMSYS/Berkeley research project; upstream repository is archived"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # S-LoRA
 

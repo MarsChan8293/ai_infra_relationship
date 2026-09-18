@@ -4,6 +4,8 @@ name: Mingyi Lu
 aliases: ["Mingyi Lu"]
 current_affiliations: ["RadixArk"]
 communities: [LMSYS, SGLang]
+linked_companies:
+  - "company/RadixArk/RadixArk"
 projects: [SGLang, Miles]
 areas: [llm-inference, model-serving, post-training, model-optimization]
 roles: [LMSYS Officer, SGLang/Miles Contributor]
@@ -29,3 +31,12 @@ Mingyi Lu 是一个“社区治理 + production model enablement”桥节点：�
 - https://www.lmsys.org/blog/2026-08-12-qwen3-8-day0-support/
 - https://www.lmsys.org/blog/2026-08-26-qwen-flash-next/
 - https://www.linkedin.com/in/mingyi-lu/
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/RadixArk/RadixArk|RadixArk]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

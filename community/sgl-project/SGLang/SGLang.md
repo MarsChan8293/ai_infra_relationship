@@ -22,7 +22,9 @@ linked_people:
   - "company/Inferact/Joseph Gonzalez"
   - "company/RadixArk/Baizhou Zhang"
   - "company/RadixArk/Cheng Wan"
+  - "company/RadixArk/Mingyi Lu"
   - "company/RadixArk/Qiaolin Yu"
+  - "company/RadixArk/Richard Chen"
   - "company/RadixArk/Xiaoyu Zhang"
   - "company/RadixArk/朱邦华 Banghua Zhu"
   - "company/RadixArk/王书文 Shuwen Wang"
@@ -90,7 +92,9 @@ https://github.com/sgl-project/sglang
 - [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]]：[[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民（Lianmin Zheng）]]：**UC Berkeley 博士导师 / 学生**。郑连民 Berkeley 博士阶段由 Joseph Gonzalez 与 Ion Stoica 指导；其系统工作从 Alpa、FastChat 延伸到 [[SGLang]]。这里已从泛化 `mentor-network` 升级为正式 `student` 强边。
 - [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]]：SGLang NVIDIA / model-specific optimization
 - [[company/RadixArk/Cheng Wan|Cheng Wan]]：SGLang parallelism、EPLB、DP Attention、distributed communication
+- [[company/RadixArk/Mingyi Lu|Mingyi Lu]]：[[community/sgl-project/SGLang/SGLang|SGLang]]：2025–2026 多次出现在 NVIDIA Nemotron、DeepSeek-V4、Qwen3.8 / Qwen3.8-Flash-Next 等模型支持与优化记录中。
 - [[company/RadixArk/Qiaolin Yu|Qiaolin Yu]]：[[SGLang]] speculative decoding、模型优化与 GPU 性能
+- [[company/RadixArk/Richard Chen|Richard Chen]]：[[community/sgl-project/SGLang/SGLang|SGLang]]：参与模型支持、推理优化与技术教育；DeepLearning.AI 与 LMSYS / RadixArk 联合课程《Efficient Inference with SGLang》由其授课。
 - [[company/RadixArk/Xiaoyu Zhang|Xiaoyu Zhang]]：SGLang kernel、diffusion、多模态生成与 DeepSeek 优化
 - [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华（Banghua Zhu）]]：[[SGLang]]：个人主页将 `sgl-project/sglang` 直接列在 Open Source 部分，并说明 RadixArk 团队由 SGLang creators / core developers 组成。
 - [[company/RadixArk/王书文 Shuwen Wang|王书文（Shuwen Wang）]]：[[community/sgl-project/SGLang/SGLang|SGLang]]：核心贡献者 / HiCache 维护者。

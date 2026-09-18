@@ -1,6 +1,7 @@
 ---
 type: project
 name: FastChat
+linked_people: []
 companies: []
 company_relation: community-led
 layer: llm-serving
@@ -16,6 +17,7 @@ people:
   - "company/Inferact/Ion Stoica"
 governance: LMSYS project
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FastChat
 

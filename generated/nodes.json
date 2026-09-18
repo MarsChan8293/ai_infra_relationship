@@ -345,14 +345,16 @@
       "communities": [
         "vLLM",
         "SGLang",
-        "Ray"
+        "Ray",
+        "LMSYS"
       ],
       "roles": [
         "Professor",
         "Sky Lab Director",
         "Anyscale Executive Chairman",
         "Databricks Executive Chairman",
-        "Inferact Founding Member"
+        "Inferact Founding Member",
+        "LMSYS Advisor"
       ],
       "linked_companies": "",
       "areas": [
@@ -386,12 +388,14 @@
       "schools": "",
       "communities": [
         "vLLM",
-        "SGLang"
+        "SGLang",
+        "LMSYS"
       ],
       "roles": [
         "Professor",
         "Sky Lab Founding Member",
-        "Inferact Founding Member"
+        "Inferact Founding Member",
+        "LMSYS Advisor"
       ],
       "linked_companies": "",
       "areas": [
@@ -982,6 +986,44 @@
     }
   },
   {
+    "id": "company/RadixArk/Mingyi Lu",
+    "path": "company/RadixArk/Mingyi Lu.md",
+    "name": "Mingyi Lu",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Mingyi Lu",
+      "aliases": [
+        "Mingyi Lu"
+      ],
+      "current_affiliations": [
+        "RadixArk"
+      ],
+      "communities": [
+        "LMSYS",
+        "SGLang"
+      ],
+      "linked_companies": "",
+      "projects": [
+        "SGLang",
+        "Miles"
+      ],
+      "areas": [
+        "llm-inference",
+        "model-serving",
+        "post-training",
+        "model-optimization"
+      ],
+      "roles": [
+        "LMSYS Officer",
+        "SGLang/Miles Contributor"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "company/RadixArk/Qiaolin Yu",
     "path": "company/RadixArk/Qiaolin Yu.md",
     "name": "Qiaolin Yu",
@@ -1028,6 +1070,45 @@
       "linked_people": "",
       "projects": "",
       "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/RadixArk/Richard Chen",
+    "path": "company/RadixArk/Richard Chen.md",
+    "name": "Richard Chen",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Richard Chen",
+      "aliases": [
+        "Richard Chen"
+      ],
+      "current_affiliations": [
+        "RadixArk"
+      ],
+      "communities": [
+        "LMSYS",
+        "SGLang"
+      ],
+      "linked_companies": "",
+      "projects": [
+        "SGLang"
+      ],
+      "areas": [
+        "llm-inference",
+        "model-serving",
+        "radixattention",
+        "speculative-decoding",
+        "local-inference"
+      ],
+      "roles": [
+        "Member of Technical Staff",
+        "LMSYS Officer",
+        "SGLang Contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -1083,10 +1164,14 @@
       ],
       "schools": "",
       "linked_companies": "",
+      "communities": [
+        "LMSYS"
+      ],
       "projects": "",
       "roles": [
         "cofounder",
-        "CTO"
+        "CTO",
+        "LMSYS Officer"
       ],
       "areas": [
         "foundation-models",
@@ -1160,7 +1245,8 @@
       "roles": [
         "cofounder",
         "CEO",
-        "SGLang co-creator"
+        "SGLang co-creator",
+        "LMSYS Officer"
       ],
       "linked_companies": "",
       "areas": [
@@ -9194,7 +9280,9 @@
       "type": "project",
       "name": "FlagGems",
       "linked_people": "",
-      "companies": "",
+      "companies": [
+        "杭州先进编译科技有限公司"
+      ],
       "company_relation": "community-led",
       "layer": "kernel-library",
       "repository": "https://github.com/flagos-ai/FlagGems",
@@ -9628,7 +9716,9 @@
       "type": "project",
       "name": "FlagTree",
       "linked_people": "",
-      "companies": "",
+      "companies": [
+        "杭州先进编译科技有限公司"
+      ],
       "company_relation": "community-led",
       "layer": "ai-compiler",
       "repository": "https://github.com/flagos-ai/FlagTree",
@@ -11899,6 +11989,34 @@
     }
   },
   {
+    "id": "community/lmsys-org/FastChat/FastChat",
+    "path": "community/lmsys-org/FastChat/FastChat.md",
+    "name": "FastChat",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "FastChat",
+      "linked_people": [],
+      "companies": [],
+      "company_relation": "community-led",
+      "layer": "llm-serving",
+      "open_source": true,
+      "repository": "https://github.com/lm-sys/FastChat",
+      "areas": [
+        "llm-serving",
+        "openai-compatible-api",
+        "model-serving",
+        "distributed-serving",
+        "evaluation"
+      ],
+      "people": "",
+      "governance": "LMSYS project",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/lmsys-org/LMSYS/LMSYS",
     "path": "community/lmsys-org/LMSYS/LMSYS.md",
     "name": "LMSYS",
@@ -11909,18 +12027,108 @@
       "name": "LMSYS",
       "aliases": [
         "LMSYS Org",
-        "lmsys.org"
+        "lmsys.org",
+        "Large Model Systems"
       ],
       "linked_people": "",
+      "repository": "https://github.com/lm-sys",
+      "people": "",
       "category": "ai-systems-community",
       "areas": [
         "llm-serving",
         "evaluation",
         "open-source-ai",
-        "ai-infrastructure"
+        "ai-infrastructure",
+        "speculative-decoding",
+        "model-routing",
+        "adapter-serving"
       ],
-      "governance": "community-led",
+      "governance": "501(c)(3) nonprofit; officer/advisor-governed open-source and research incubator",
       "website": "https://www.lmsys.org/",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+    "path": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding.md",
+    "name": "Lookahead Decoding",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Lookahead Decoding",
+      "linked_people": [],
+      "companies": [],
+      "company_relation": "research-community",
+      "layer": "speculative-decoding",
+      "open_source": true,
+      "repository": "https://github.com/hao-ai-lab/LookaheadDecoding",
+      "areas": [
+        "speculative-decoding",
+        "parallel-decoding",
+        "llm-inference",
+        "latency-optimization"
+      ],
+      "people": "",
+      "governance": "LMSYS-listed research project; code hosted by Hao AI Lab",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/lmsys-org/RouteLLM/RouteLLM",
+    "path": "community/lmsys-org/RouteLLM/RouteLLM.md",
+    "name": "RouteLLM",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "RouteLLM",
+      "linked_people": [],
+      "companies": [],
+      "company_relation": "community-led",
+      "layer": "model-routing",
+      "open_source": true,
+      "repository": "https://github.com/lm-sys/RouteLLM",
+      "areas": [
+        "llm-routing",
+        "inference-cost",
+        "model-selection",
+        "preference-learning",
+        "serving"
+      ],
+      "people": "",
+      "governance": "LMSYS project",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/lmsys-org/S-LoRA/S-LoRA",
+    "path": "community/lmsys-org/S-LoRA/S-LoRA.md",
+    "name": "S-LoRA",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "S-LoRA",
+      "linked_people": [],
+      "companies": [],
+      "company_relation": "research-community",
+      "layer": "adapter-serving",
+      "open_source": true,
+      "repository": "https://github.com/S-LoRA/S-LoRA",
+      "areas": [
+        "llm-serving",
+        "lora",
+        "adapter-serving",
+        "memory-management",
+        "batching",
+        "cuda-kernels"
+      ],
+      "people": "",
+      "governance": "LMSYS/Berkeley research project; upstream repository is archived",
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -12491,7 +12699,8 @@
       "roles": [
         "SGLang creator",
         "scheduler merge-oncall",
-        "Assistant Professor"
+        "Assistant Professor",
+        "LMSYS Officer"
       ],
       "areas": [
         "llm-serving",
@@ -17131,6 +17340,9 @@
         "Tsinghua University"
       ],
       "schools": "",
+      "communities": [
+        "LMSYS"
+      ],
       "projects": [
         "Mooncake",
         "KTransformers",
@@ -17145,7 +17357,8 @@
         "heterogeneous-inference"
       ],
       "roles": [
-        "Associate Professor"
+        "Associate Professor",
+        "LMSYS Advisor"
       ],
       "confidence": "verified",
       "last_verified": "2026-09",
