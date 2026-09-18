@@ -18549,6 +18549,44 @@
         "rejected_claims": 0
       },
       "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge."
+    },
+    {
+      "run_id": "expand-deepseek-ai-2026-09-18",
+      "attempted_at": "2026-09-18",
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "operator": "expand",
+      "status": "partial",
+      "source_name": "DeepSeek Infra / deepseek-ai",
+      "resolved_dimensions": [
+        "EPLB",
+        "LPLB",
+        "TileKernels",
+        "smallpond",
+        "profile-data",
+        "deepseek-recipe",
+        "Huanqi Cao",
+        "Rui Tian",
+        "Xiangwen Wang",
+        "Weilin Zhao",
+        "Runji Wang",
+        "Yiliang Xiong",
+        "TileLang adoption bridge"
+      ],
+      "unresolved_dimensions": [
+        "deepseek-recipe coauthor real-name disambiguation",
+        "formal maintainer governance for several new repositories",
+        "profile-data maintainer identity"
+      ],
+      "outcome": {
+        "new_nodes": 12,
+        "new_edges": 19,
+        "evidence_upgraded": 8,
+        "verified_claims": 20,
+        "rejected_claims": 0
+      },
+      "note": "Systems-first EXPAND of the deepseek-ai GitHub organization; preserved contributor/maintainer and email/employment evidence boundaries.",
+      "retry_after_days": 14
     }
   ]
 }

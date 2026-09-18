@@ -1,12 +1,12 @@
 ---
 type: person
 name: Kuai Yu
-communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+public_email: yukuai@deepseek.com\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\nprojects: [DeepEP, DeepGEMM, TileKernels]\nareas: [moe-communication, gemm, gpu-kernels, tilelang]\nconfidence: high\nlast_verified: "2026-09"
 ---
 # Kuai Yu
 
 ## 项目关系
-[[DeepEP]] · [[DeepGEMM]]
+[[DeepEP]] · [[DeepGEMM]] · [[TileKernels]]
 
 ## 教育与工作经历
 公开简历待补。
@@ -15,4 +15,4 @@ communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
 MoE communication、GEMM kernels。
 
 ## Sources
-- Project source / contributor context: https://github.com/deepseek-ai
+- Project source / contributor context: https://github.com/deepseek-ai\n- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml

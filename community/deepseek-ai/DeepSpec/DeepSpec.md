@@ -22,7 +22,7 @@ DeepSpec 是 [[company/深度求索/深度求索|深度求索]] / deepseek-ai �
 ## DSpark 作者网络
 DeepSpec README 给出的 DSpark 论文作者网络包含：
 - [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]：从 MADSys / KTransformers / DualPath 延伸到 speculative decoding。
-- [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋（Wenfeng Liang）]]：DeepSeek 创始人与 DSpark 作者网络成员。
+- [[company/深度求索/梁文锋 Liang Wenfeng|梁文锋（Wenfeng Liang）]]：DeepSeek 创始人与 DSpark 作者网络成员。\n- [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]]、[[community/deepseek-ai/DeepSeek-Infra/Rui Tian|Rui Tian]]：DSpark 作者，同时共同出现在 [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] 作者网络；Huanqi Cao 进一步连接 [[community/deepseek-ai/DeepSeek-Infra/LPLB|LPLB]]。
 - 其他作者还包括 Xin Cheng、Jiashi Li、Yixuan Tan、Wentao Zhang、Anyi Xu 等 DeepSeek 研究人员。
 
 这里仅按公开论文作者 / 项目维护证据建边，不把全部作者自动视为同一直属团队。

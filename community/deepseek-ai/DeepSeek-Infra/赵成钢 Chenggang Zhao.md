@@ -5,7 +5,7 @@ english_name: Chenggang Zhao
 aliases: [赵成钢, Chenggang Zhao]
 schools:
   - "清华大学"
-communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+public_email: chenggangz@deepseek.com\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\nprojects: [DeepEP, DeepGEMM, TileKernels]\nconfidence: high\nlast_verified: "2026-09"
 education: [清华大学]
 areas: [expert-parallel, gpu-kernels, moe-systems, hpc]
 name_verification: Tsinghua SCC Team
@@ -20,7 +20,7 @@ DeepSeek 系统基础设施的重要公开作者，横跨 [[DeepEP]] 与 [[DeepG
 
 ## DeepSeek Infra
 - [[DeepEP]]：2025 公开项目原始作者
-- [[DeepGEMM]]：2025 公开项目原始作者
+- [[DeepGEMM]]：2025 公开项目原始作者\n- [[TileKernels]]：2026 官方 citation / package author，继续连接 MoE routing、quantization 与 TileLang-based kernel 路线
 - 技术方向：Expert Parallel communication、GPU GEMM、MoE systems、跨节点高性能通信
 
 ## 人物关系
@@ -34,4 +34,4 @@ DeepSeek 系统基础设施的重要公开作者，横跨 [[DeepEP]] 与 [[DeepG
 ## Sources
 - Project source / contributor context: https://github.com/deepseek-ai
 - Tsinghua SCC Team official history / wiki
-- DeepSeek DeepEP / DeepGEMM public author credits
+- DeepSeek DeepEP / DeepGEMM public author credits\n- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml

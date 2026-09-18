@@ -29,7 +29,7 @@ linked_companies:
 # DeepSeek Infra
 
 ## 项目简介
-DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集合，不是一个单独代码库。它把模型训练与推理中的关键系统能力拆成通信、GPU kernel、attention、分布式存储与 JIT 等独立组件，形成从 MoE communication 到 storage 的纵向技术栈。
+DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集合，不是一个单独代码库。它把模型训练与推理中的关键系统能力拆成通信、GPU kernel、attention、Expert Parallel 负载均衡、分布式存储、数据处理、profiling、serving protocol 与 JIT 等独立组件，形成从 MoE communication / kernel 到 storage / serving glue 的纵向技术栈。
 
 ## GitHub
 组织主页：https://github.com/deepseek-ai
@@ -39,7 +39,7 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 - [[DeepGEMM]]：https://github.com/deepseek-ai/DeepGEMM
 - [[FlashMLA]]：https://github.com/deepseek-ai/FlashMLA
 - [[3FS]]：https://github.com/deepseek-ai/3FS
-- [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT
+- [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT\n- [[EPLB]]：https://github.com/deepseek-ai/EPLB\n- [[LPLB]]：https://github.com/deepseek-ai/LPLB\n- [[TileKernels]]：https://github.com/deepseek-ai/TileKernels\n- [[smallpond]]：https://github.com/deepseek-ai/smallpond\n- [[profile-data]]：https://github.com/deepseek-ai/profile-data\n- [[deepseek-recipe]]：https://github.com/deepseek-ai/deepseek-recipe
 
 ## 主要贡献公司
 - [[company/深度求索/深度求索|深度求索]]：项目集合的发起、开源与主要维护组织；各子项目均单独保留公司归属与人物维护证据。

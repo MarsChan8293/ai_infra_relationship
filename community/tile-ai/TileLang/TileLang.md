@@ -55,7 +55,7 @@ TileLang 并非从零出现。它可以放在北大/微软 AI compiler 长链中
 - **TVM**：TileLang 官方明确感谢 TVM 社区，当前编译基础设施建立在 TVM 之上。
 - [[NVIDIA]]：[[Yining Shi]] 的后续去向，把北大 compiler 人才链连接到 GPU 平台侧。
 - [[字节跳动]]：[[吴童 Tong Wu]] 的公开实习去向，是年轻 TileLang/LLM systems 人才向产业扩散的一个桥。
-- BitBLAS / AttentionEngine：TileLang 官方仓库列出的采用项目，可作为后续继续扩图的节点。
+- [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]]：DeepSeek 2026 开源的 TileLang-based LLM GPU kernel 集合，形成 `TileLang → DeepSeek production kernels` 的直接技术采用边。\n- BitBLAS / AttentionEngine：TileLang 官方仓库列出的采用项目，可作为后续继续扩图的节点。
 
 ## 图谱洞察
 北大 TileLang 系最值得保留的不是“某个 DSL 项目”，而是连续十余年的系统抽象迁移：从 Rammer 的 holistic scheduling，到 Welder 的 tile-level memory optimization，再到 TileLang 把 tile 变成开发者可直接编程的 AI kernel abstraction。它与 [[FlashInfer]]、DeepGEMM、Triton 一类项目处在相邻技术层，未来很可能通过 attention/GEMM/MLA kernel 与 [[vLLM]]、[[SGLang]] 等 serving runtime 形成更多直接连接。
@@ -66,7 +66,7 @@ TileLang 并非从零出现。它可以放在北大/微软 AI compiler 长链中
 - https://ir.pku.edu.cn/handle/20.500.11897/751298
 - https://www.usenix.org/conference/osdi25/presentation/cheng
 - https://www.usenix.org/conference/osdi23/presentation/shi
-- https://www.usenix.org/conference/osdi20/presentation/ma
+- https://www.usenix.org/conference/osdi20/presentation/ma\n- https://github.com/deepseek-ai/TileKernels
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
