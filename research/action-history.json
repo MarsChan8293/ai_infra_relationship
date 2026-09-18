@@ -18587,6 +18587,48 @@
       },
       "note": "Systems-first EXPAND of the deepseek-ai GitHub organization; preserved contributor/maintainer and email/employment evidence boundaries.",
       "retry_after_days": 14
+    },
+    {
+      "run_id": "expand-infinitensor-2026-09-18",
+      "attempted_at": "2026-09-18",
+      "action_id": "community/InfiniTensor/InfiniTensor::related_projects",
+      "action_key": "project:related_projects:project+community+person",
+      "operator": "expand",
+      "status": "success",
+      "source_name": "InfiniTensor",
+      "resolved_dimensions": [
+        "InfiniCore",
+        "InfiniOps",
+        "InfiniRT",
+        "InfiniCCL",
+        "InfiniLM",
+        "InfiniTrain",
+        "NineToothed",
+        "ntops",
+        "Haojie Wang/whjthu",
+        "Jiacheng Huang/voltjia",
+        "Zezhong Pan/PanZezhong1725",
+        "zhangyue207",
+        "baominghelly",
+        "qinyiqun",
+        "wooway777",
+        "GordonYang1",
+        "Ascend operator path",
+        "TileLang backend bridge"
+      ],
+      "unresolved_dimensions": [
+        "real-name disambiguation for handle-only contributors",
+        "formal maintainer governance for several component repositories"
+      ],
+      "outcome": {
+        "new_nodes": 13,
+        "new_edges": 32,
+        "evidence_upgraded": 10,
+        "verified_claims": 24,
+        "rejected_claims": 0
+      },
+      "note": "Expanded InfiniTensor from a single inference-engine node into the modern InfiniCore/InfiniLM/InfiniTrain/NineToothed heterogeneous AI Infra stack while preserving contributor/maintainer and handle/identity boundaries.",
+      "retry_after_days": 30
     }
   ]
 }
