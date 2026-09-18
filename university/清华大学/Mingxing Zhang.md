@@ -6,9 +6,10 @@ aliases: ["Mingxing Zhang", "章明星"]
 current_affiliations: ["Tsinghua University","MADSys Lab, Tsinghua University"]
 schools:
   - "清华大学"
+communities: [LMSYS]
 projects: [Mooncake, KTransformers, Seer, DualPath]
 areas: [storage-systems, distributed-systems, llm-serving, kv-cache, heterogeneous-inference]
-roles: ["Associate Professor"]
+roles: ["Associate Professor", "LMSYS Advisor"]
 confidence: verified
 last_verified: "2026-09"
 relations:
@@ -35,6 +36,7 @@ relations:
 - [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]]：SOSP 2025 论文作者，连接 MADSys 与 CPU/GPU hybrid MoE inference。
 - [[company/月之暗面/Seer|Seer]]：OSDI 2026 论文作者，与 Ruoyu Qin、[[university/清华大学/Yingdi Shan|闪英迪（Yingdi Shan）]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫（Yongwei Wu）]]等共同把 MADSys 技术路线延伸到 synchronous LLM RL rollout 与 speculative decoding。
 - [[community/deepseek-ai/DualPath/DualPath|DualPath]]：SIGCOMM 2026 作者；与 [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]]、北大 systems / DeepSeek-AI 作者网络合作研究 agentic LLM inference 的 disaggregated KV-cache storage I/O。
+- [[community/lmsys-org/LMSYS/LMSYS|LMSYS]]：截至 2026-09 官网列为 advisor，使清华 MADSys / Mooncake / KTransformers / Seer / DualPath 研究网络与 LMSYS 的正式治理层建立直接桥接。
 
 ## 人才扩散
 - [[university/清华大学/Ruoyu Qin|Ruoyu Qin]]：Mooncake 第一作者；清华官方报道支持指导关系，后进一步进入 Moonshot AI Infra / Seer 研究网络。
@@ -62,3 +64,4 @@ relations:
 - https://sigops.org/s/conferences/sosp/2025/accepted.html
 - https://www.usenix.org/conference/osdi26/presentation/qin
 - https://conferences.sigcomm.org/sigcomm/2026/accepted/
+- https://www.lmsys.org/about/

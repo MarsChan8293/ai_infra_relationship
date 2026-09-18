@@ -5,8 +5,8 @@ aliases: [Joseph Gonzalez, Joseph E. Gonzalez]
 current_affiliations: ["UC Berkeley","Inferact"]
 schools:
   - "UC Berkeley"
-communities: [vLLM, SGLang]
-roles: [Professor, Sky Lab Founding Member, Inferact Founding Member]
+communities: [vLLM, SGLang, LMSYS]
+roles: [Professor, Sky Lab Founding Member, Inferact Founding Member, LMSYS Advisor]
 linked_companies:
   - "company/Inferact/Inferact"
 areas: ["llm-inference"]
@@ -41,6 +41,9 @@ Joseph Gonzalez 长期研究 machine learning systems、data systems 与 model s
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超（Kaichao You）]]：**Berkeley Sky 技术环境 + Inferact founding network**。游凯超 2024 在 Sky Lab 访问；2026 Inferact 官方 launch 将 Joseph 与游凯超都列入 founding members。公开资料不足以写成正式导师关系，因此仍只保留 `mentor-network`。
 - [[Inferact/Ion Stoica|Ion Stoica]]：**UC Berkeley systems 长期合作 + 共同指导 + Inferact founding network**。两人在 Sky / RISE systems 研究中长期合作，共同指导 Simon Mo 等学生，并于 2026 同列 Inferact founding members。
 
+## LMSYS
+截至 2026-09，LMSYS 官网将 Joseph Gonzalez 列为 advisor。其与 Ion Stoica 共同构成 Berkeley model-serving 指导网络，并直接连接 FastChat、S-LoRA、RouteLLM、SGLang 与 vLLM 等系统。
+
 ## Sources
 - https://vcresearch.berkeley.edu/faculty/joseph-gonzalez
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html
@@ -50,6 +53,8 @@ Joseph Gonzalez 长期研究 machine learning systems、data systems 与 model s
 - https://inferact.ai/
 - https://arxiv.org/abs/2309.06180
 - https://arxiv.org/abs/2312.07104
+- https://www.lmsys.org/about/
+
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）

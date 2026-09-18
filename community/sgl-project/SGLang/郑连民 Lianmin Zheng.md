@@ -9,7 +9,7 @@ schools:
   - "UCLA"
   - "上海交通大学"
 communities: [SGLang, LMSYS]
-roles: [SGLang creator, scheduler merge-oncall, Assistant Professor]
+roles: [SGLang creator, scheduler merge-oncall, Assistant Professor, LMSYS Officer]
 areas: [llm-serving, distributed-systems, compilers, evaluation]
 confidence: verified
 last_verified: "2026-09"
@@ -22,7 +22,7 @@ relations:
 ---
 # 郑连民（Lianmin Zheng）
 
-SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人。2026-07 起任 [[UCLA]] Computer Science Assistant Professor。
+SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人；截至 2026-09 LMSYS 官网列为 current officer。2026-07 起任 [[UCLA]] Computer Science Assistant Professor。
 
 ## 教育经历
 - [[上海交通大学]]：ACM 荣誉班本科
@@ -53,3 +53,4 @@ SGLang 第一作者 / 核心创建者之一，也是 LMSYS.org 联合创始人�
 - https://arxiv.org/abs/2312.07104
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md
 - https://www.cs.ucla.edu/ucla-computer-science-welcomes-six-faculty-members-v1/
+- https://www.lmsys.org/about/

@@ -5,8 +5,8 @@ aliases: [Ion Stoica]
 current_affiliations: ["UC Berkeley","Sky Computing Lab","Anyscale","Databricks","Inferact"]
 schools:
   - "UC Berkeley"
-communities: [vLLM, SGLang, Ray]
-roles: [Professor, Sky Lab Director, Anyscale Executive Chairman, Databricks Executive Chairman, Inferact Founding Member]
+communities: [vLLM, SGLang, Ray, LMSYS]
+roles: [Professor, Sky Lab Director, Anyscale Executive Chairman, Databricks Executive Chairman, Inferact Founding Member, LMSYS Advisor]
 linked_companies:
   - "company/Anyscale/Anyscale"
   - "company/Databricks/Databricks"
@@ -71,6 +71,9 @@ Ion Stoica 是 Berkeley systems → AI infrastructure 网络中最重要的跨�
 - [[community/vllm-project/vLLM/游凯超 Kaichao You|游凯超]]：Berkeley Sky 访问 + Inferact founding network；公开证据不足以写正式导师关系。
 - Jenga 又把 Ion / Berkeley Sky 与清华 PACMAN、vLLM 维护者网络连接起来。
 
+## LMSYS
+截至 2026-09，LMSYS 官网将 Ion Stoica 列为 advisor。该正式治理关系与其 Berkeley Sky 导师网络相互独立，但共同解释了为什么 vLLM / SGLang / FastChat / Lookahead Decoding 等 serving 系统在同一人才网络中反复出现。
+
 ## Sources
 - https://www2.eecs.berkeley.edu/Faculty/Homepages/stoica.html
 - https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html
@@ -84,6 +87,8 @@ Ion Stoica 是 Berkeley systems → AI infrastructure 网络中最重要的跨�
 - https://shiyicao.com/
 - https://shulynnliu.com/
 - https://andy-yang-1.github.io/
+- https://www.lmsys.org/about/
+
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）

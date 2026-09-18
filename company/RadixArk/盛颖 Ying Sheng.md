@@ -10,7 +10,7 @@ schools:
   - "UC Berkeley"
   - "上海交通大学"
 communities: [SGLang, LMSYS]
-roles: [cofounder, CEO, SGLang co-creator]
+roles: [cofounder, CEO, SGLang co-creator, LMSYS Officer]
 linked_companies:
   - "company/RadixArk/RadixArk"
 areas: ["llm-inference"]
@@ -28,7 +28,7 @@ relations:
 
 组织：[[RadixArk]]
 社区：[[SGLang]]
-当前：RadixArk 联合创始人、CEO。
+当前：RadixArk 联合创始人、CEO；LMSYS current officer。
 
 ## 教育经历
 - [[上海交通大学]]：ACM 班本科
@@ -66,6 +66,8 @@ relations:
 - https://arxiv.org/abs/2312.07104
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md
 - https://www.linkedin.com/in/yingsheng1123
+- https://www.lmsys.org/about/
+
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）

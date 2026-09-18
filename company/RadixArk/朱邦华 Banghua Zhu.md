@@ -9,10 +9,11 @@ schools:
   - "清华大学"
 linked_companies:
   - "company/RadixArk/RadixArk"
+communities: [LMSYS]
 projects:
   - SGLang
   - Miles
-roles: [cofounder, CTO]
+roles: [cofounder, CTO, LMSYS Officer]
 areas: [foundation-models, post-training, ai-infrastructure]
 last_verified: "2026-09"
 relations:
@@ -47,12 +48,17 @@ relations:
 - [[RadixArk/Cheng Wan|Cheng Wan]]：**RadixArk 同事**。截至 2026-09 同属 RadixArk；Cheng Wan 负责 SGLang parallelism / EPLB / distributed communication，与公司大规模 inference 方向直接相关。精确入职月份公开未确认。
 - [[RadixArk/Xiaoyu Zhang|Xiaoyu Zhang / BBuf]]：**RadixArk 同事**。截至 2026-09 同属 RadixArk；Xiaoyu 负责 SGLang kernel、diffusion、多模态生成与 DeepSeek 优化。精确入职月份公开未确认。
 
+## LMSYS
+截至 2026-09，LMSYS 官网将 Banghua Zhu 列为 current officer。结合其 RadixArk CTO、SGLang / Miles 技术路线，这一治理身份把 LMSYS 的研究社区层与 production inference / post-training 工程组织直接连接起来。该关系只表示官网治理角色，不从中额外推断 LMSYS 与 RadixArk 的公司所有权关系。
+
 ## Sources
 - https://banghua.me/
 - https://github.com/sgl-project/sglang
 - https://github.com/radixark/miles
 - https://simons.berkeley.edu/people/banghua-zhu
 - https://www.linkedin.com/in/yingsheng1123
+- https://www.lmsys.org/about/
+
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
 ## 关联公司（自动汇总）
