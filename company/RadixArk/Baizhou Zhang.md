@@ -4,6 +4,7 @@ name: Baizhou Zhang
 aliases: [Fridge003]
 current_affiliations: ["RadixArk"]
 schools:
+  - "UC San Diego"
   - "北京大学"
 communities: [SGLang]
 roles: [SGLang Maintainer, Inference Systems Engineer]
@@ -45,6 +46,10 @@ GitHub：Fridge003
 - [[RadixArk/Qiaolin Yu|Qiaolin Yu]]：**RadixArk 同事 + SGLang NVIDIA optimization 协作者**。至少从 2025-12 Qiaolin 加入 RadixArk 起，两人处于同一公司/社区技术网络；二者都参与 NVIDIA/model-specific optimization，Baizhou 还负责 CI/release/package。
 - [[RadixArk/Cheng Wan|Cheng Wan]]：**RadixArk 同事 + SGLang distributed systems 协作者**。截至 2026-09 同属 RadixArk；Baizhou 负责 model-specific/GPU 与 release，Cheng 负责 parallelism / EPLB / distributed communication，二者在多 GPU / 多模型部署路径上形成上下游协作。
 - [[RadixArk/Xiaoyu Zhang|Xiaoyu Zhang / BBuf]]：**RadixArk 同事 + SGLang kernel 协作者**。截至 2026-09 同属 RadixArk；Xiaoyu 负责 kernel、diffusion 与 DeepSeek 优化，Baizhou负责 NVIDIA/model-specific optimization，属于 GPU execution 层的同团队协作。
+
+
+## 学校关联
+- [[university/UC San Diego/UC San Diego|UC San Diego]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/sgl-project/sglang/blob/main/.github/MAINTAINER.md

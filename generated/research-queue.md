@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1620
+- Candidate actions: 1628
 - Selected actions: 10
 - History records: 721
 
@@ -16,8 +16,8 @@
 | 2 | DISCOVER | coverage_gap | [[community/InfiniTensor/InfiniTrain|InfiniTrain]] | project | maintainers | person | exploration | 8.861 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 3 | DISCOVER | bridge | [[community/InfiniTensor/InfiniLM|InfiniLM]] | project | originating_org | company, school, research, community, team | bridge | 8.281 | new | coverage 0/1；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 4 | DISCOVER | bridge | [[community/InfiniTensor/InfiniCore|InfiniCore]] | project | originating_org | company, school, research, community, team | bridge | 8.236 | new | coverage 0/1；source type Project；infra: serving/inference, distributed, moe；opens underrepresented target types |
-| 5 | DISCOVER | coverage_gap | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | key_people | person | exploration | 7.840 | new | coverage 0/4；source type Research Institution；infra: serving/inference, kv-cache, quantization；opens underrepresented target types |
-| 6 | DISCOVER | coverage_gap | [[community/InfiniTensor/qinyiqun|qinyiqun]] | person | affiliation | company, school, research, team | exploration | 7.828 | new | coverage 0/2；source type Person；infra: serving/inference, distributed, moe；opens underrepresented target types |
+| 5 | DISCOVER | coverage_gap | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | key_people | person | exploration | 8.135 | new | coverage 0/4；source type Research Institution；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
+| 6 | DISCOVER | coverage_gap | [[university/University of Washington/SyFI Lab|SyFI Lab]] | research | key_people | person | exploration | 8.115 | new | coverage 0/4；source type Research Institution；infra: serving/inference, scheduler, kernel；opens underrepresented target types |
 | 7 | VERIFY | weak_evidence | [[university/北京邮电大学/北京邮电大学|北京邮电大学]] | school | projects | project, community | verification | 5.477 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
 | 8 | VERIFY | weak_evidence | [[university/电子科技大学/电子科技大学|电子科技大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |
 | 9 | VERIFY | weak_evidence | [[university/西北工业大学/西北工业大学|西北工业大学]] | school | projects | project, community | verification | 5.368 | new | coverage 0/2；source type School；infra: kv-cache；opens underrepresented target types |

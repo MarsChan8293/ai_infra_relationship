@@ -46,19 +46,19 @@
 | 16 | [[university/北京大学/Yining Shi|Yining Shi]] | 8.200 | 7 | 4 | 0 |
 | 17 | [[community/vllm-project/vLLM/Matthew Bonanni|Matthew Bonanni]] | 8.007 | 6 | 3 | 0 |
 | 18 | [[community/ai-dynamo/NIXL/Mikhail Brinskiy|Mikhail Brinskiy]] | 7.785 | 5 | 1 | 0 |
-| 19 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
-| 20 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
-| 21 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
-| 22 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
-| 23 | [[company/杭州先进编译科技有限公司/李嘉楠|李嘉楠]] | 6.700 | 7 | 2 | 0 |
-| 24 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 6.700 | 7 | 1 | 0 |
-| 25 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 | 4 | 0 |
-| 26 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 | 4 | 0 |
-| 27 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
-| 28 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
-| 29 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
-| 30 | [[company/杭州先进编译科技有限公司/柴赟达|柴赟达]] | 6.507 | 6 | 2 | 0 |
-| 31 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 6.507 | 6 | 1 | 0 |
+| 19 | [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇]] | 7.722 | 9 | 1 | 0 |
+| 20 | [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航]] | 7.570 | 8 | 1 | 0 |
+| 21 | [[community/openEuler/openYuanRong/梁义 Yi Liang|梁义]] | 7.522 | 4 | 1 | 0 |
+| 22 | [[company/深度求索/郭达雅 Daya Guo|郭达雅]] | 7.159 | 10 | 4 | 0 |
+| 23 | [[community/kvcache-ai/Mooncake/Shangming Cai|Shangming Cai]] | 7.157 | 13 | 3 | 0 |
+| 24 | [[university/北京大学/程羽 Yu Cheng|Yu Cheng]] | 6.870 | 8 | 4 | 0 |
+| 25 | [[company/杭州先进编译科技有限公司/李嘉楠|李嘉楠]] | 6.700 | 7 | 2 | 0 |
+| 26 | [[community/kvcache-ai/Mooncake/Xinpeng Zhao|Xinpeng Zhao]] | 6.672 | 9 | 4 | 0 |
+| 27 | [[community/kvcache-ai/Mooncake/Xuchun Shang|Xuchun Shang]] | 6.672 | 9 | 4 | 0 |
+| 28 | [[community/Ascend/MemCache/yrewzjsx|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
+| 29 | [[community/Ascend/MemCache/Zixi Qu|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
+| 30 | [[community/Ascend/MemCache/chenyz6|chenyz6]] | 6.520 | 8 | 5 | 0 |
+| 31 | [[company/杭州先进编译科技有限公司/柴赟达|柴赟达]] | 6.507 | 6 | 2 | 0 |
 | 32 | [[university/UC Berkeley/Xiangxi Mo|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
 | 33 | [[university/北京大学/Lei Wang|Lei Wang]] | 6.350 | 7 | 3 | 0 |
 | 34 | [[community/kvcache-ai/Mooncake/Zhanhao Cao|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
@@ -85,19 +85,19 @@
 | [[company/RadixArk/盛颖 Ying Sheng|盛颖]] | 12.598 | 7 | 7 | 100.0% |
 | [[community/vllm-project/vLLM/乔一凡 Yifan Qiao|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
 | [[company/Inferact/Woosuk Kwon|Woosuk Kwon]] | 12.437 | 6 | 6 | 100.0% |
+| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.820 | 5 | 5 | 100.0% |
 | [[company/清程极智/郑纬民 Weimin Zheng|郑纬民]] | 11.650 | 7 | 6 | 85.7% |
 | [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]] | 11.535 | 12 | 11 | 91.7% |
 | [[community/vllm-project/vLLM/Simon Mo|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
-| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|郑连民]] | 11.387 | 5 | 5 | 100.0% |
 | [[community/kvcache-ai/Mooncake/任峰 Feng Ren|任峰]] | 11.300 | 5 | 2 | 40.0% |
 | [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
 | [[community/kvcache-ai/Mooncake/Ke Yang|Ke Yang]] | 11.198 | 6 | 2 | 33.3% |
 | [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与]] | 11.198 | 7 | 7 | 100.0% |
 | [[university/清华大学/Ruoyu Qin|秦若愚]] | 11.000 | 4 | 3 | 75.0% |
 | [[community/vllm-project/vLLM/Robert Shaw|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
+| [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.885 | 3 | 3 | 100.0% |
 | [[community/vllm-project/vLLM/Michael Goin|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng|程翊华]] | 10.409 | 4 | 2 | 50.0% |
-| [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强]] | 10.409 | 3 | 3 | 100.0% |
 | [[company/RadixArk/朱邦华 Banghua Zhu|朱邦华]] | 10.407 | 5 | 5 | 100.0% |
 | [[company/深度求索/Shaoyuan Chen|Shaoyuan Chen]] | 10.272 | 2 | 2 | 100.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |

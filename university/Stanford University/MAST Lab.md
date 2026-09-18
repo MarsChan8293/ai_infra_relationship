@@ -3,6 +3,7 @@ type: research-institution
 name: "MAST Lab"
 aliases: ["Stanford Multi-scale Architectures & Systems Team", "Stanford MAST"]
 organization: "Stanford University"
+linked_people: []
 areas: [computer-systems, ai-infrastructure, llm-serving, kv-cache, cloud-systems, resilient-serving]
 people:
   - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"

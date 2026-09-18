@@ -3,6 +3,7 @@ type: research-institution
 name: "Hao AI Lab"
 aliases: ["HaoAI Lab"]
 organization: "UC San Diego"
+linked_people: []
 areas: [machine-learning-systems, llm-serving, distributed-systems, speculative-decoding, model-parallelism]
 projects:
   - vLLM

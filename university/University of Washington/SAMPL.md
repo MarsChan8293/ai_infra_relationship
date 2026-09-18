@@ -3,6 +3,7 @@ type: research-institution
 name: "SAMPL"
 aliases: ["SAMPL Research Group"]
 organization: "University of Washington"
+linked_people: []
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, gpu-kernels, compilers, quantization]
 people:
   - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"

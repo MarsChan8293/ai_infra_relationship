@@ -6,8 +6,8 @@
 - People with ≥1 school: 156
 - People without known school: 221
 - Coverage: 41.4%
-- Person-school associations: 204
-- School nodes: 47
+- Person-school associations: 205
+- School nodes: 48
 - Audit errors: 0
 
 ## Top schools by linked people
@@ -35,6 +35,7 @@
 | 香港中文大学 | 2 |
 | Seoul National University | 1 |
 | Franklin W. Olin College of Engineering | 1 |
+| UC San Diego | 1 |
 | Cornell Tech | 1 |
 | 西交利物浦大学 | 1 |
 | Columbia University | 1 |
@@ -43,7 +44,6 @@
 | 复旦大学 | 1 |
 | 北京航空航天大学 | 1 |
 | 中山大学 | 1 |
-| Massachusetts Institute of Technology | 1 |
 
 ## High-value people still missing a verified school association
 

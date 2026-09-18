@@ -4,6 +4,8 @@ name: "UC San Diego"
 aliases: ["University of California San Diego", "University of California, San Diego", "UCSD"]
 labs:
   - "Hao AI Lab"
+linked_people:
+  - "company/RadixArk/Baizhou Zhang"
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, distributed-systems]
 website: https://ucsd.edu/
 country: "USA"
@@ -19,3 +21,12 @@ UC San Diego 在本图谱中的核心 AI Infra 入口是 [[university/UC San Die
 ## Sources
 - https://ucsd.edu/
 - https://cseweb.ucsd.edu/~haozhang/
+
+<!-- BEGIN AUTO SCHOOL PEOPLE -->
+## 关联人物（自动汇总）
+
+以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
+
+- [[company/RadixArk/Baizhou Zhang|Baizhou Zhang]]：UC San Diego：硕士
+
+<!-- END AUTO SCHOOL PEOPLE -->

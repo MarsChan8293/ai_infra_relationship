@@ -3,6 +3,7 @@ type: research-institution
 name: "Catalyst Group"
 aliases: ["CMU Catalyst", "CMU Automated Learning Systems Group"]
 organization: "Carnegie Mellon University"
+linked_people: []
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, compilers, gpu-systems, speculative-decoding, structured-generation]
 people:
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"

@@ -2,9 +2,9 @@
 
 由 `scripts/audit-school-reverse-links.py` 自动生成。反向关系以人物页 `schools:` 为唯一事实源。
 
-- School nodes: 47
-- Schools with ≥1 linked person: 45
-- Reverse person-school associations: 204
+- School nodes: 48
+- Schools with ≥1 linked person: 46
+- Reverse person-school associations: 205
 - Audit errors: 0
 
 | School | Linked people |
@@ -40,6 +40,7 @@
 | [[university/Seoul National University/Seoul National University|Seoul National University]] | 1 |
 | [[university/Technion - Israel Institute of Technology/Technion - Israel Institute of Technology|Technion - Israel Institute of Technology]] | 1 |
 | [[university/UC Davis/UC Davis|UC Davis]] | 1 |
+| [[university/UC San Diego/UC San Diego|UC San Diego]] | 1 |
 | [[university/University of British Columbia/University of British Columbia|University of British Columbia]] | 1 |
 | [[university/University of Tennessee, Knoxville/University of Tennessee, Knoxville|University of Tennessee, Knoxville]] | 1 |
 | [[university/University of Toronto/University of Toronto|University of Toronto]] | 1 |
