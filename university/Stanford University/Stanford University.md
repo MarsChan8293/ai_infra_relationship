@@ -2,26 +2,31 @@
 type: school
 name: Stanford University
 aliases: [Stanford]
+labs:
+  - "MAST Lab"
+areas: [ai-infrastructure, computer-systems, llm-serving, cloud-systems]
 linked_people:
   - "community/sgl-project/SGLang/谢志强 Zhiqiang Xie"
   - "community/vllm-project/vLLM/Matthew Bonanni"
   - "company/RadixArk/盛颖 Ying Sheng"
   - "university/UC Berkeley/Matei Zaharia"
+last_verified: "2026-09"
 ---
 # Stanford University
 
 ## AI Infra 关系
-Stanford University 在本图谱中主要作为 AI systems / serving 人才的教育与研究经历节点。这里只实体化与现有 inference optimization 人物网络直接相连的关系。
+Stanford University 在本图谱中主要作为 AI systems / serving 人才的教育与研究经历节点。当前进一步实体化 [[university/Stanford University/MAST Lab|MAST Lab]]，用于承载 long-context serving、KV cache、resilient serving 与 agent-system efficiency 这条系统研究线。
 
 ## 图谱中的人物连接
-- [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：研究经历连接 Stanford，并进一步连接 [[SGLang]]。
+- [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie|谢志强（Zhiqiang Xie）]]：Stanford MAST Lab 博士生，导师 Christos Kozyrakis；同时连接 [[SGLang]]。
 - [[company/RadixArk/盛颖 Ying Sheng|盛颖（Ying Sheng）]]：Stanford 学术经历连接 SGLang / RadixArk serving systems 网络。
 
 ## 图谱中的连接
-[[SGLang]] · [[RadixArk]]
+[[SGLang]] · [[RadixArk]] · [[university/Stanford University/MAST Lab|MAST Lab]]
 
 ## Sources
 - https://cs.stanford.edu/
+- https://mast.stanford.edu/
 
 <!-- BEGIN AUTO SCHOOL PEOPLE -->
 ## 关联人物（自动汇总）
