@@ -6,7 +6,9 @@ linked_people:
   - "community/InfiniTensor/qinyiqun"
   - "community/InfiniTensor/wooway777"
   - "community/InfiniTensor/zhangyue207"
+  - "university/启元实验室/潘泽众 Zezhong Pan"
   - "university/启元实验室/王豪杰 Haojie Wang"
+  - "university/启元实验室/黄嘉成 Jiacheng Huang"
 layer: inference-engine
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniLM
@@ -58,6 +60,8 @@ InfiniLM 是当前 InfiniTensor / 九源生态中更明确的现代大模型推�
 - [[community/InfiniTensor/qinyiqun|qinyiqun]]：[[InfiniLM]]：MoE inference + Expert Parallel、Qwen MoE、decode-step async token handoff、Hygon Qwen3-235B 等。
 - [[community/InfiniTensor/wooway777|wooway777]]：[[InfiniLM]]：OpenAI agent compatibility、GLM / Qwen / multimodal、MetaX 等 serving / inference 适配。
 - [[community/InfiniTensor/zhangyue207|zhangyue207]]：[[InfiniCore]] / [[InfiniLM]]：同时参与 Kunlun / Hygon 等推理适配与 model execution 修复。
-- [[university/启元实验室/王豪杰 Haojie Wang|王豪杰（Haojie Wang）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。\n- [[community/InfiniTensor/NineToothed|NineToo...
+- [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众（Zezhong Pan）]]：GitHub `PanZezhong1725` 在 [[community/InfiniTensor/InfiniCore|InfiniCore]] 持续推进 MoE / paged cache / Kimi Delta Attention / InfiniCCL wrapper 等，在 [[community/InfiniTensor/InfiniLM|InfiniLM]] 推进 Kimi-K3、Qwen3-next 与 cross-node PP + intra-n...
+- [[university/启元实验室/王豪杰 Haojie Wang|王豪杰（Haojie Wang）]]：[[community/InfiniTensor/InfiniLM|InfiniLM]]：推进 KTransformers CPU-GPU MoE offload / FusedMoE 与 out-of-tree model plugin。
+- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTensor/NineToothed|NineToothed]]、[[community/InfiniTensor/InfiniCore|InfiniCore]]、[[community/InfiniTensor/InfiniOps|InfiniOps]]、[[community/InfiniTensor/InfiniRT|InfiniRT]]、[[community/Infini...
 
 <!-- END AUTO PROJECT PEOPLE -->

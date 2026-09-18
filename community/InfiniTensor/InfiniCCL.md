@@ -44,6 +44,6 @@ InfiniCCL 是 [[InfiniCore]] 的统一 collective communication 层，面向多�
 
 - [[community/InfiniTensor/baominghelly|baominghelly]]：[[InfiniCCL]]：Ascend HCCL backend、Cambricon CNCL backend。
 - [[community/InfiniTensor/GordonYang1|GordonYang1]]：[[InfiniCCL]]：Send/Recv、AllGather、ReduceScatter、Broadcast、Scatter、Gather、Reduce、AllToAll 等多项 collective / P2P primitive。
-- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：与 [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]]、[[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]]、[[university/启元实验室/李映辉 Yinghui Li|李映辉]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫]] 共同署名《面向国产智能芯片的统一智能计算架构》。\n- GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTens...
+- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTensor/NineToothed|NineToothed]]、[[community/InfiniTensor/InfiniCore|InfiniCore]]、[[community/InfiniTensor/InfiniOps|InfiniOps]]、[[community/InfiniTensor/InfiniRT|InfiniRT]]、[[community/Infini...
 
 <!-- END AUTO PROJECT PEOPLE -->

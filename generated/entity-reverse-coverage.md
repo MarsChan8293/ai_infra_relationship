@@ -9,9 +9,9 @@
 - People with generated linked_companies: 218
 - Project/community nodes: 135
 - Project/community nodes with ≥1 linked person: 102
-- Project/community-person associations: 480
+- Project/community-person associations: 482
 - Non-company affiliations recognized and routed elsewhere: 89
-- Unresolved source values (backlog, non-fatal): 30
+- Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
 
 ## Companies
@@ -86,6 +86,7 @@
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
+| [[community/InfiniTensor/InfiniLM|InfiniLM]] | 7 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 6 |
@@ -94,7 +95,6 @@
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
-| [[community/InfiniTensor/InfiniLM|InfiniLM]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 4 |
@@ -179,21 +179,6 @@
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
 - `university/上海交通大学/张一鸣 Yiming Zhang.md` · `affiliation` → `NICE Lab`
 - `university/厦门大学/Shi Qiu.md` · `affiliation` → `NICE Lab`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `InfiniLM]\nareas: [operator-library`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `communication`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `runtime`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `heterogeneous-compute`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `ai-systems`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `llm-inference`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `moe`
-- `university/启元实验室/潘泽众 Zezhong Pan.md` · `projects` → `pipeline-parallel`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `InfiniLM]\nareas: [programming-languages`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `ai-compilers`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `heterogeneous-compute`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `ai-systems`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `kernel-dsl`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `runtime`
-- `university/启元实验室/黄嘉成 Jiacheng Huang.md` · `projects` → `collective-communication`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
 - `university/清华大学/Mingshu Zhai.md` · `projects` → `SmartMoE`

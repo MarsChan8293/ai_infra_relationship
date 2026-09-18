@@ -81,6 +81,6 @@ EinNet 是 OSDI 2023 derivation-based tensor program optimizer，由 [[company/�
 - [[community/InfiniTensor/wooway777|wooway777]]：https://github.com/InfiniTensor/InfiniLM/pull/574
 - [[community/InfiniTensor/zhangyue207|zhangyue207]]：https://github.com/InfiniTensor/InfiniOps/pull/783
 - [[company/字节跳动/郑立言 Liyan Zheng|郑立言（Liyan Zheng）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：公开个人主页列为其核心项目；项目由 EinNet 等 tensor-program optimization 研究线演化而来，当前定位为面向 GPU / AI accelerators 的高性能推理引擎。
-- [[university/启元实验室/王豪杰 Haojie Wang|王豪杰（Haojie Wang）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。\n- [[community/InfiniTensor/NineToothed|NineToo...
+- [[university/启元实验室/王豪杰 Haojie Wang|王豪杰（Haojie Wang）]]：[[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。
 
 <!-- END AUTO PROJECT PEOPLE -->

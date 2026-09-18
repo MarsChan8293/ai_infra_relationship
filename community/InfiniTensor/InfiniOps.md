@@ -52,6 +52,6 @@ InfiniOps 同时覆盖 NVIDIA、Cambricon、Kunlun、Moore Threads、MetaX、Hyg
 - [[community/InfiniTensor/baominghelly|baominghelly]]：[[InfiniOps]]：Ascend paged / variable-length FlashAttention、KV-cache provider、Ascend 910C CI；Cambricon 类型兼容等。
 - [[community/InfiniTensor/wooway777|wooway777]]：[[InfiniOps]]：Ascend basic LLaMA operators。
 - [[community/InfiniTensor/zhangyue207|zhangyue207]]：[[InfiniOps]]：Ascend FlashAttention、reshape-and-cache、RMSNorm / add-RMSNorm、RoPE、TopK/TopP sampler、custom kernel build。
-- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：与 [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]]、[[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]]、[[university/启元实验室/李映辉 Yinghui Li|李映辉]]、[[company/趋境科技/武永卫 Yongwei Wu|武永卫]] 共同署名《面向国产智能芯片的统一智能计算架构》。\n- GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTens...
+- [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTensor/NineToothed|NineToothed]]、[[community/InfiniTensor/InfiniCore|InfiniCore]]、[[community/InfiniTensor/InfiniOps|InfiniOps]]、[[community/InfiniTensor/InfiniRT|InfiniRT]]、[[community/Infini...
 
 <!-- END AUTO PROJECT PEOPLE -->

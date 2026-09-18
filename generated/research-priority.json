@@ -9,7 +9,7 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1600,
+  "candidate_count": 1602,
   "selected_actions": [
     {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/profile-data::maintainers",
@@ -158,11 +158,11 @@
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniOps::originating_org",
+      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
-        "id": "community/InfiniTensor/InfiniOps",
-        "name": "InfiniOps",
+        "id": "community/InfiniTensor/InfiniLM",
+        "name": "InfiniLM",
         "type": "project",
         "family": "project"
       },
@@ -180,7 +180,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.537,
+      "priority": 8.281,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -188,14 +188,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.5,
+        "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 9.709,
+        "url_count": 5,
+        "bridge_score": 7.75,
         "novelty": 1.0,
-        "frontier_potential": 0.347,
+        "frontier_potential": 0.319,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.192,
+        "redundancy_penalty": 0.205,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -205,11 +205,11 @@
       "reasons": [
         "coverage 0/1",
         "source type Project",
-        "infra: kv-cache, kernel, quantization",
+        "infra: serving/inference, kernel, distributed",
         "opens underrepresented target types",
-        "bridge 9.7"
+        "bridge 7.8"
       ],
-      "base_priority": 8.345,
+      "base_priority": 8.089,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -231,7 +231,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=9.709"
+        "detail": "bridge_score=7.750"
       }
     },
     {
@@ -257,7 +257,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.519,
+      "priority": 8.236,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -268,11 +268,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 10.337,
+        "bridge_score": 7.607,
         "novelty": 1.0,
-        "frontier_potential": 0.279,
+        "frontier_potential": 0.297,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.227,
+        "redundancy_penalty": 0.217,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -284,9 +284,9 @@
         "source type Project",
         "infra: serving/inference, distributed, moe",
         "opens underrepresented target types",
-        "bridge 10.3"
+        "bridge 7.6"
       ],
-      "base_priority": 8.327,
+      "base_priority": 8.044,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -308,7 +308,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=10.337"
+        "detail": "bridge_score=7.607"
       }
     },
     {
@@ -887,11 +887,11 @@
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniOps::originating_org",
+      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
-        "id": "community/InfiniTensor/InfiniOps",
-        "name": "InfiniOps",
+        "id": "community/InfiniTensor/InfiniLM",
+        "name": "InfiniLM",
         "type": "project",
         "family": "project"
       },
@@ -909,7 +909,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.537,
+      "priority": 8.281,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -917,14 +917,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.5,
+        "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 9.709,
+        "url_count": 5,
+        "bridge_score": 7.75,
         "novelty": 1.0,
-        "frontier_potential": 0.347,
+        "frontier_potential": 0.319,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.192,
+        "redundancy_penalty": 0.205,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -934,11 +934,11 @@
       "reasons": [
         "coverage 0/1",
         "source type Project",
-        "infra: kv-cache, kernel, quantization",
+        "infra: serving/inference, kernel, distributed",
         "opens underrepresented target types",
-        "bridge 9.7"
+        "bridge 7.8"
       ],
-      "base_priority": 8.345,
+      "base_priority": 8.089,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -960,7 +960,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=9.709"
+        "detail": "bridge_score=7.750"
       }
     },
     {
@@ -986,7 +986,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.519,
+      "priority": 8.236,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -997,11 +997,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 10.337,
+        "bridge_score": 7.607,
         "novelty": 1.0,
-        "frontier_potential": 0.279,
+        "frontier_potential": 0.297,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.227,
+        "redundancy_penalty": 0.217,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -1013,9 +1013,9 @@
         "source type Project",
         "infra: serving/inference, distributed, moe",
         "opens underrepresented target types",
-        "bridge 10.3"
+        "bridge 7.6"
       ],
-      "base_priority": 8.327,
+      "base_priority": 8.044,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1037,15 +1037,15 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=10.337"
+        "detail": "bridge_score=7.607"
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
+      "action_id": "community/InfiniTensor/InfiniOps::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
-        "id": "community/InfiniTensor/InfiniLM",
-        "name": "InfiniLM",
+        "id": "community/InfiniTensor/InfiniOps",
+        "name": "InfiniOps",
         "type": "project",
         "family": "project"
       },
@@ -1063,7 +1063,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 8.296,
+      "priority": 8.211,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1071,14 +1071,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 4.0,
+        "infra_relevance": 3.5,
         "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.372,
+        "url_count": 6,
+        "bridge_score": 6.809,
         "novelty": 1.0,
-        "frontier_potential": 0.364,
+        "frontier_potential": 0.347,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.184,
+        "redundancy_penalty": 0.192,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -1088,11 +1088,11 @@
       "reasons": [
         "coverage 0/1",
         "source type Project",
-        "infra: serving/inference, kernel, distributed",
+        "infra: kv-cache, kernel, quantization",
         "opens underrepresented target types",
-        "bridge 7.4"
+        "bridge 6.8"
       ],
-      "base_priority": 8.104,
+      "base_priority": 8.019,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1114,7 +1114,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=7.372"
+        "detail": "bridge_score=6.809"
       }
     },
     {
@@ -1736,7 +1736,7 @@
       ],
       "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
       "bucket": "bridge",
-      "priority": 7.694,
+      "priority": 7.373,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -1747,11 +1747,11 @@
         "infra_relevance": 1.75,
         "evidence_quality": 1.3,
         "url_count": 6,
-        "bridge_score": 9.709,
+        "bridge_score": 6.672,
         "novelty": 1.0,
-        "frontier_potential": 0.347,
+        "frontier_potential": 0.364,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.192,
+        "redundancy_penalty": 0.184,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.192,
@@ -1763,9 +1763,9 @@
         "source type Project",
         "infra: distributed, ascend",
         "opens underrepresented target types",
-        "bridge 9.7"
+        "bridge 6.7"
       ],
-      "base_priority": 7.502,
+      "base_priority": 7.181,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1787,7 +1787,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=9.709"
+        "detail": "bridge_score=6.672"
       }
     },
     {
@@ -2144,83 +2144,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.750"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniRT::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniRT",
-        "name": "InfiniRT",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 7.142,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 9.25,
-        "novelty": 1.0,
-        "frontier_potential": 0.407,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types",
-        "bridge 9.2"
-      ],
-      "base_priority": 6.95,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=9.250"
       }
     },
     {
@@ -2803,6 +2726,83 @@
       }
     },
     {
+      "action_id": "community/InfiniTensor/InfiniRT::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/InfiniTensor/InfiniRT",
+        "name": "InfiniRT",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 6.815,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.166,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: kernel",
+        "opens underrepresented target types",
+        "bridge 6.3"
+      ],
+      "base_priority": 6.623,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.350"
+      }
+    },
+    {
       "action_id": "university/厦门大学/GeminiFS::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -3095,82 +3095,6 @@
       }
     },
     {
-      "action_id": "university/启元实验室/潘泽众 Zezhong Pan::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/启元实验室/潘泽众 Zezhong Pan",
-        "name": "潘泽众",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.65,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 10.535,
-        "novelty": 0.75,
-        "frontier_potential": 0.217,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.337,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 10.5"
-      ],
-      "base_priority": 6.492,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=10.535"
-      }
-    },
-    {
       "action_id": "community/InfiniTensor/ntops::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -3315,6 +3239,82 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/启元实验室/潘泽众 Zezhong Pan::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "university/启元实验室/潘泽众 Zezhong Pan",
+        "name": "潘泽众",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.498,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 8.55,
+        "novelty": 0.75,
+        "frontier_potential": 0.265,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.305,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "bridge 8.6"
+      ],
+      "base_priority": 6.34,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.550"
       }
     },
     {
