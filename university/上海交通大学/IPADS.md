@@ -5,7 +5,7 @@ organization: 上海交通大学
 aliases: ["Institute of Parallel and Distributed Systems", "上海交通大学并行与分布式系统研究所"]
 linked_people:
   - "university/上海交通大学/Rong Chen"
-areas: [operating-systems, distributed-systems, ai-infrastructure, llm-serving, resource-management, gpu-systems]
+areas: [operating-systems, distributed-systems, ai-infrastructure, llm-serving, resource-management, gpu-systems, kv-cache]
 people:
   - "university/上海交通大学/Haibo Chen"
   - "university/上海交通大学/Rong Chen"
@@ -20,10 +20,10 @@ last_verified: "2026-09"
 ---
 # IPADS
 
-IPADS（Institute of Parallel and Distributed Systems，并行与分布式系统研究所）是上海交通大学的系统研究机构。其官方 research statement 覆盖操作系统、分布式系统、数据库、体系结构、编译与人工智能的交叉系统研究，并公开列出 PowerInfer 等开源系统。
+IPADS（Institute of Parallel and Distributed Systems，并行与分布式系统研究所）是上海交通大学的系统研究机构。其官方 research statement 覆盖操作系统、分布式系统、数据库、体系结构、编译与人工智能的交叉系统研究，并形成了越来越密集的 AI Infra / LLM serving 研究线。
 
 ## AI Infra 主线
-近年来 IPADS 的一条明确主线是从传统 OS / distributed systems 延伸到 AI training、LLM serving、GPU resource management 与 KV cache / memory management。
+IPADS 的优势是从 OS、cluster、resource management 与 heterogeneous hardware 出发切入 AI infrastructure，而不是围绕单一 inference engine 展开。
 
 核心人物包括：
 - [[university/上海交通大学/Haibo Chen|Haibo Chen]]
@@ -31,12 +31,17 @@ IPADS（Institute of Parallel and Distributed Systems，并行与分布式系统
 - [[university/上海交通大学/Xingda Wei|Xingda Wei]]
 - [[university/上海交通大学/Rongxin Cheng|Rongxin Cheng]]
 
-## 代表项目
+## 代表项目 / 工作
 - [[university/上海交通大学/KunServe|KunServe]]：面向 LLM serving 内存过载的 parameter-centric memory management。
-- 相关研究网络还覆盖 BlitzScale、PhoenixOS、XSched、KV cache study、AITurbo 等系统方向；这些线索后续由 planner 按独立 action 再决定是否建节点。
+- **PowerInfer**：SOSP 2024，本地 consumer-GPU LLM inference，采用 locality-aware CPU-GPU hybrid execution。
+- **BlitzScale**：OSDI 2025，面向大模型 serving 的快速 live autoscaling。
+- **KVCache Cache in the Wild**：ATC 2025，从大型云环境刻画并优化 KV cache。
+- 相关研究网络还包括 PhoenixOS、XSched、PipeLLM、AITurbo 等系统方向；是否独立建项目节点由后续 EXPAND / DISCOVER 决定。
 
 ## Sources
 - https://ipads.sjtu.edu.cn/
+- https://ipads.sjtu.edu.cn/pub/members/haibo_chen
+- https://ipads.se.sjtu.edu.cn/_media/publications/song-sosp24.pdf
 - https://www.cs.sjtu.edu.cn/en/jiaoshiml/chenrong.html
 - https://www.cs.sjtu.edu.cn/en/jiaoshiml/weixingda.html
 
