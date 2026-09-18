@@ -2,12 +2,12 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 377
-- People with ≥1 school: 156
+- Person nodes: 380
+- People with ≥1 school: 159
 - People without known school: 221
-- Coverage: 41.4%
-- Person-school associations: 205
-- School nodes: 48
+- Coverage: 41.8%
+- Person-school associations: 208
+- School nodes: 49
 - Audit errors: 0
 
 ## Top schools by linked people
@@ -24,6 +24,7 @@
 | Stanford University | 4 |
 | 厦门大学 | 4 |
 | UCLA | 3 |
+| 华南理工大学 | 3 |
 | Harvard University | 2 |
 | 北京邮电大学 | 2 |
 | 四川大学 | 2 |
@@ -43,7 +44,6 @@
 | UC Davis | 1 |
 | 复旦大学 | 1 |
 | 北京航空航天大学 | 1 |
-| 中山大学 | 1 |
 
 ## High-value people still missing a verified school association
 

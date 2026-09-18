@@ -1,24 +1,24 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 688,
-  "complete_count": 688,
+  "node_count": 696,
+  "complete_count": 696,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 10,
-    "company": 51,
+    "company": 52,
     "index": 4,
     "infra-project": 3,
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 377,
+    "person": 380,
     "person-link": 4,
-    "project": 125,
+    "project": 126,
     "project-collection": 1,
     "relationship-map": 1,
-    "research-institution": 32,
-    "school": 48
+    "research-institution": 34,
+    "school": 49
   },
   "nodes": [
     {
@@ -4018,6 +4018,15 @@
       "missing_required": []
     },
     {
+      "id": "company/广电五舟/广电五舟",
+      "type": "company",
+      "source_markdown": "company/广电五舟/广电五舟.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/广电五舟/广电五舟.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/摩尔线程/Xiaodong Ye",
       "type": "person",
       "source_markdown": "company/摩尔线程/Xiaodong Ye.md",
@@ -5706,6 +5715,69 @@
       "source_markdown": "university/华中科技大学/华中科技大学.md",
       "schema_definition": "schema/school.yaml",
       "schema_instance": "schema/nodes/university/华中科技大学/华中科技大学.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/Kairos",
+      "type": "project",
+      "source_markdown": "university/华南理工大学/Kairos.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/Kairos.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/先进计算体系结构团队",
+      "type": "research-institution",
+      "source_markdown": "university/华南理工大学/先进计算体系结构团队.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/先进计算体系结构团队.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/华南理工大学",
+      "type": "school",
+      "source_markdown": "university/华南理工大学/华南理工大学.md",
+      "schema_definition": "schema/school.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/华南理工大学.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/国产可信算力产业应用创新实验室",
+      "type": "research-institution",
+      "source_markdown": "university/华南理工大学/国产可信算力产业应用创新实验室.md",
+      "schema_definition": "schema/research-institution.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/国产可信算力产业应用创新实验室.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/林伟伟 Weiwei Lin",
+      "type": "person",
+      "source_markdown": "university/华南理工大学/林伟伟 Weiwei Lin.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/林伟伟 Weiwei Lin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/王新华 Xinhua Wang",
+      "type": "person",
+      "source_markdown": "university/华南理工大学/王新华 Xinhua Wang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/王新华 Xinhua Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/许言午 Yanwu Xu",
+      "type": "person",
+      "source_markdown": "university/华南理工大学/许言午 Yanwu Xu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/许言午 Yanwu Xu.yaml",
       "status": "complete",
       "missing_required": []
     },

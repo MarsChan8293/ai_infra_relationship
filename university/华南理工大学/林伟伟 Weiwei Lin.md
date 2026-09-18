@@ -3,9 +3,7 @@ type: person
 name: 林伟伟
 english_name: Weiwei Lin
 aliases: ["Weiwei Lin", "林伟伟"]
-current_affiliations:
-  - "华南理工大学"
-  - "先进计算体系结构团队"
+current_affiliations: ["华南理工大学","先进计算体系结构团队"]
 public_email: linww@scut.edu.cn
 schools:
   - "华南理工大学"
@@ -28,6 +26,9 @@ last_verified: "2026-09"
 ## 人物关系
 
 - [[university/华南理工大学/王新华 Xinhua Wang|王新华（Xinhua Wang）]]：ACAT 同团队研究者，并共同署名 Kairos 等深度学习调度研究。公开页面不足以在本轮把关系进一步写成正式导师 / 学生关系。
+
+## 学校关联
+- [[university/华南理工大学/华南理工大学|华南理工大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://github.com/ACAT-SCUT/.github/blob/main/profile/README.md

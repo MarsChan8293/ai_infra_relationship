@@ -2,15 +2,15 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 51
+- Company nodes: 52
 - Companies with ≥1 linked person: 45
 - Company-person associations: 224
 - Email-domain-supported associations: 34
 - People with generated linked_companies: 221
-- Project/community nodes: 139
-- Project/community nodes with ≥1 linked person: 102
-- Project/community-person associations: 495
-- Non-company affiliations recognized and routed elsewhere: 91
+- Project/community nodes: 140
+- Project/community nodes with ≥1 linked person: 103
+- Project/community-person associations: 496
+- Non-company affiliations recognized and routed elsewhere: 97
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
 
@@ -150,6 +150,7 @@
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/InfiniTensor/InfiniRT|InfiniRT]] | 1 |
+| [[university/华南理工大学/Kairos|Kairos]] | 1 |
 | [[community/cloud-native/Kubernetes/Kubernetes|Kubernetes]] | 1 |
 | [[university/上海交通大学/KunServe|KunServe]] | 1 |
 | [[community/deepseek-ai/DeepSeek-Infra/LPLB|LPLB]] | 1 |

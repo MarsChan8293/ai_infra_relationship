@@ -2,9 +2,9 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 32
-- Institutions with ≥1 linked person: 11
-- Research-person associations: 44
+- Research institution nodes: 34
+- Institutions with ≥1 linked person: 13
+- Research-person associations: 47
 - Audit errors: 0
 
 | Research institution | Linked people |
@@ -16,9 +16,11 @@
 | [[university/上海人工智能实验室/上海人工智能实验室|上海人工智能实验室]] | 3 |
 | [[university/北京大学/Tile-AI|Tile-AI]] | 2 |
 | [[company/杭州先进编译科技有限公司/先进编译实验室|先进编译实验室]] | 2 |
+| [[university/华南理工大学/先进计算体系结构团队|先进计算体系结构团队]] | 2 |
 | [[university/上海交通大学/IPADS|IPADS]] | 1 |
 | [[university/清华大学/KEG|KEG]] | 1 |
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院|北京智源人工智能研究院]] | 1 |
+| [[university/华南理工大学/国产可信算力产业应用创新实验室|国产可信算力产业应用创新实验室]] | 1 |
 | [[university/微软亚洲研究院/微软亚洲研究院|微软亚洲研究院]] | 1 |
 | [[university/Stony Brook University/AI Innovation Institute|AI Innovation Institute]] | 0 |
 | [[university/Carnegie Mellon University/Catalyst Group|Catalyst Group]] | 0 |

@@ -1,6 +1,8 @@
 ---
 type: project
 name: Kairos
+linked_people:
+  - "university/华南理工大学/王新华 Xinhua Wang"
 companies: []
 company_relation: academic-research
 layer: cluster-scheduling
@@ -30,3 +32,12 @@ Kairos 是华南理工大学 [[university/华南理工大学/先进计算体系�
 
 ## Sources
 - https://github.com/ACAT-SCUT/.github/blob/main/profile/students/wangxinhua.md
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/华南理工大学/王新华 Xinhua Wang|王新华（Xinhua Wang）]]：项目关联；人物页已明确记录该项目。
+
+<!-- END AUTO PROJECT PEOPLE -->

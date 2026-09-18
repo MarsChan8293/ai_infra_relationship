@@ -2,7 +2,7 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 51
+- Company nodes: 52
 - Companies with ≥1 linked project/community: 39
 - Project/community nodes: 131
 - Project/community nodes with ≥1 linked company: 75

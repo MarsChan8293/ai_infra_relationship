@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1628,
+  "candidate_count": 1645,
   "selected_count": 10,
   "selected_family_counts": {
     "person": 1,
@@ -1934,6 +1934,154 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/国产可信算力产业应用创新实验室::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/华南理工大学/国产可信算力产业应用创新实验室",
+        "name": "国产可信算力产业应用创新实验室",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "exploration",
+      "priority": 7.635,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.525,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.112,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Research Institution",
+        "infra: serving/inference, ascend",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.523,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 20,
+          "statuses": {
+            "partial": 19,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.307,
+          "mean_reward": 1.5,
+          "reward_signal": 0.358,
+          "yield_adjustment": 0.112
+        },
+        "key_yield_adjustment": 0.112,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/广电五舟/广电五舟::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/广电五舟/广电五舟",
+        "name": "广州广电五舟科技股份有限公司",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "exploration",
+      "priority": 7.595,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.55,
+        "novelty": 1.0,
+        "frontier_potential": 0.5,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.182,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Company",
+        "infra: serving/inference, ascend",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.413,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 32,
+          "statuses": {
+            "partial": 24,
+            "success": 7,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.466,
+          "mean_reward": 3.336,
+          "reward_signal": 0.683,
+          "yield_adjustment": 0.182
+        },
+        "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/InfiniTensor/InfiniCCL::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -2601,7 +2749,7 @@
       ],
       "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
       "bucket": "exploitation",
-      "priority": 7.017,
+      "priority": 7.0,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -2612,11 +2760,11 @@
         "infra_relevance": 1.65,
         "evidence_quality": 0.95,
         "url_count": 4,
-        "bridge_score": 3.822,
+        "bridge_score": 4.085,
         "novelty": 1.0,
-        "frontier_potential": 0.47,
+        "frontier_potential": 0.429,
         "uncertainty": 0.671,
-        "redundancy_penalty": 0.129,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.048,
@@ -2629,7 +2777,7 @@
         "infra: kernel, distributed",
         "opens underrepresented target types"
       ],
-      "base_priority": 6.969,
+      "base_priority": 6.952,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -3083,6 +3231,79 @@
           "yield_adjustment": 0.158
         },
         "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/许言午 Yanwu Xu::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/华南理工大学/许言午 Yanwu Xu",
+        "name": "许言午",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploration",
+      "priority": 6.839,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.688,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -3753,6 +3974,77 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/华南理工大学::projects",
+      "action_key": "school:projects:project+community",
+      "source": {
+        "id": "university/华南理工大学/华南理工大学",
+        "name": "华南理工大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "lab_github_org",
+        "official_project_pages"
+      ],
+      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
+      "bucket": "bridge",
+      "priority": 6.562,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.157,
+        "novelty": 1.0,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "infra: serving/inference, scheduler, ascend",
+        "opens underrepresented target types",
+        "bridge 6.2"
+      ],
+      "base_priority": 6.562,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.157"
+      }
+    },
+    {
       "action_id": "university/启元实验室/潘泽众 Zezhong Pan::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -4182,6 +4474,150 @@
           "yield_adjustment": 0.151
         },
         "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/Kairos::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/华南理工大学/Kairos",
+        "name": "Kairos",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.366,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.196,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/先进计算体系结构团队::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/华南理工大学/先进计算体系结构团队",
+        "name": "先进计算体系结构团队",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "exploitation",
+      "priority": 6.358,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.085,
+        "novelty": 0.5,
+        "frontier_potential": 0.429,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.112,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Research Institution",
+        "infra: serving/inference, scheduler, ascend"
+      ],
+      "base_priority": 6.246,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 20,
+          "statuses": {
+            "partial": 19,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.307,
+          "mean_reward": 1.5,
+          "reward_signal": 0.358,
+          "yield_adjustment": 0.112
+        },
+        "key_yield_adjustment": 0.112,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -5163,6 +5599,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/林伟伟 Weiwei Lin::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/华南理工大学/林伟伟 Weiwei Lin",
+        "name": "林伟伟",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.267,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.822,
+        "novelty": 0.5,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, ascend"
+      ],
+      "base_priority": 6.116,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -11162,6 +11670,78 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/Kairos::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/华南理工大学/Kairos",
+        "name": "Kairos",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.757,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.448,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed"
+      ],
+      "base_priority": 5.68,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/LMCache/LMCache/deng451e::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -14123,6 +14703,78 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/王新华 Xinhua Wang::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/华南理工大学/王新华 Xinhua Wang",
+        "name": "王新华",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.592,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.822,
+        "novelty": 0.5,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, scheduler"
+      ],
+      "base_priority": 5.441,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/Zixi Qu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -14408,6 +15060,76 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=8.135"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/国产可信算力产业应用创新实验室::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/华南理工大学/国产可信算力产业应用创新实验室",
+        "name": "国产可信算力产业应用创新实验室",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploitation",
+      "priority": 5.578,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.525,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Research Institution",
+        "infra: serving/inference, ascend"
+      ],
+      "base_priority": 5.53,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.75,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.048
+        },
+        "key_yield_adjustment": 0.048,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
       }
     },
     {
@@ -23707,6 +24429,76 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/先进计算体系结构团队::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/华南理工大学/先进计算体系结构团队",
+        "name": "先进计算体系结构团队",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploitation",
+      "priority": 5.155,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.085,
+        "novelty": 0.0,
+        "frontier_potential": 0.429,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Research Institution",
+        "infra: serving/inference, scheduler, ascend"
+      ],
+      "base_priority": 5.107,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.75,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.048
+        },
+        "key_yield_adjustment": 0.048,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -24734,6 +25526,77 @@
         "infra_relevance": 1.0,
         "evidence_quality": 1.3,
         "url_count": 5,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.935,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/许言午 Yanwu Xu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/华南理工大学/许言午 Yanwu Xu",
+        "name": "许言午",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.079,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
         "bridge_score": 5.35,
         "novelty": 1.0,
         "frontier_potential": 0.375,
@@ -26491,6 +27354,77 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/华南理工大学::key_people",
+      "action_key": "school:key_people:person",
+      "source": {
+        "id": "university/华南理工大学/华南理工大学",
+        "name": "华南理工大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "faculty_directory",
+        "lab_people_pages"
+      ],
+      "write_hint": "Prioritize AI Infra faculty, students, alumni, and maintainers with verifiable relevance.",
+      "bucket": "exploitation",
+      "priority": 4.998,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 3,
+        "desired": 5,
+        "gap": 0.4
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.157,
+        "novelty": 0.0,
+        "frontier_potential": 0.378,
+        "uncertainty": 0.22,
+        "redundancy_penalty": 0.433,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.034,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/5",
+        "source type School",
+        "infra: serving/inference, scheduler, ascend",
+        "bridge 6.2"
+      ],
+      "base_priority": 4.964,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 0.5,
+          "reward_signal": 0.124,
+          "yield_adjustment": 0.034
+        },
+        "key_yield_adjustment": 0.034,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.400"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -27997,6 +28931,77 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/广电五舟/广电五舟::key_people",
+      "action_key": "company:key_people:person",
+      "source": {
+        "id": "company/广电五舟/广电五舟",
+        "name": "广州广电五舟科技股份有限公司",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_team_page",
+        "github_org_maintainers"
+      ],
+      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
+      "bucket": "exploitation",
+      "priority": 4.938,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.55,
+        "novelty": 0.0,
+        "frontier_potential": 0.5,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.178,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Company",
+        "infra: serving/inference, ascend"
+      ],
+      "base_priority": 4.76,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 8,
+          "statuses": {
+            "partial": 7,
+            "success": 1
+          },
+          "mean_status_value": 0.431,
+          "mean_reward": 3.781,
+          "reward_signal": 0.738,
+          "yield_adjustment": 0.178
+        },
+        "key_yield_adjustment": 0.178,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
       }
     },
     {
@@ -50499,6 +51504,76 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/林伟伟 Weiwei Lin::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/华南理工大学/林伟伟 Weiwei Lin",
+        "name": "林伟伟",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 4.16,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.822,
+        "novelty": 0.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, scheduler, ascend"
+      ],
+      "base_priority": 4.016,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/TensorRT-LLM/Brian Nguyen::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -57938,6 +59013,73 @@
       }
     },
     {
+      "action_id": "university/华南理工大学/Kairos::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "university/华南理工大学/Kairos",
+        "name": "Kairos",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.668,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.069,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 3.555,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence-only verification action"
+      }
+    },
+    {
       "action_id": "university/北京大学/Bingyang Wu::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -58147,6 +59289,76 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
+      }
+    },
+    {
+      "action_id": "university/华南理工大学/王新华 Xinhua Wang::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "university/华南理工大学/王新华 Xinhua Wang",
+        "name": "王新华",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 3.641,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 3.822,
+        "novelty": 0.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, scheduler"
+      ],
+      "base_priority": 3.497,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -76719,98 +77931,6 @@
       }
     },
     {
-      "action_id": "university/鹏城实验室/鹏城实验室::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/鹏城实验室/鹏城实验室",
-        "name": "鹏城实验室",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "exploitation",
-      "priority": 7.121,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.65,
-        "evidence_quality": 0.95,
-        "url_count": 4,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.47,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.112,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Research Institution",
-        "infra: kernel, distributed",
-        "opens underrepresented target types",
-        "cooldown active (partial, 2d remaining)"
-      ],
-      "base_priority": 7.009,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "internal_graph_links:3",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "project_relevance_and_direct_relation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 20,
-          "statuses": {
-            "partial": 19,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.307,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.112
-        },
-        "key_yield_adjustment": 0.112,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "project_relevance_and_direct_relation"
-        ]
-      }
-    },
-    {
       "action_id": "community/kvcache-ai/Mooncake/Weiran He::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -76993,6 +78113,98 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "current_affiliation"
+        ]
+      }
+    },
+    {
+      "action_id": "university/鹏城实验室/鹏城实验室::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/鹏城实验室/鹏城实验室",
+        "name": "鹏城实验室",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "exploitation",
+      "priority": 7.104,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.65,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.429,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.112,
+        "history_status_adjustment": 0.0,
+        "history_eligible": false,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Research Institution",
+        "infra: kernel, distributed",
+        "opens underrepresented target types",
+        "cooldown active (partial, 2d remaining)"
+      ],
+      "base_priority": 6.992,
+      "eligible": false,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "internal_graph_links:3",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "project_relevance_and_direct_relation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 20,
+          "statuses": {
+            "partial": 19,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.307,
+          "mean_reward": 1.5,
+          "reward_signal": 0.358,
+          "yield_adjustment": 0.112
+        },
+        "key_yield_adjustment": 0.112,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "project_relevance_and_direct_relation"
         ]
       }
     },
@@ -131598,7 +132810,7 @@
       }
     }
   },
-  "eligible_count": 951,
+  "eligible_count": 968,
   "suppressed_count": 677,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

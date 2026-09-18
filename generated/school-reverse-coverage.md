@@ -2,9 +2,9 @@
 
 由 `scripts/audit-school-reverse-links.py` 自动生成。反向关系以人物页 `schools:` 为唯一事实源。
 
-- School nodes: 48
-- Schools with ≥1 linked person: 46
-- Reverse person-school associations: 205
+- School nodes: 49
+- Schools with ≥1 linked person: 47
+- Reverse person-school associations: 208
 - Audit errors: 0
 
 | School | Linked people |
@@ -19,6 +19,7 @@
 | [[university/Stanford University/Stanford University|Stanford University]] | 4 |
 | [[university/厦门大学/厦门大学|厦门大学]] | 4 |
 | [[university/UCLA/UCLA|UCLA]] | 3 |
+| [[university/华南理工大学/华南理工大学|华南理工大学]] | 3 |
 | [[university/Georgia Institute of Technology/Georgia Institute of Technology|Georgia Institute of Technology]] | 2 |
 | [[university/Harvard University/Harvard University|Harvard University]] | 2 |
 | [[university/Stony Brook University/Stony Brook University|Stony Brook University]] | 2 |
