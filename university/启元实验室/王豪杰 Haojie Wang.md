@@ -19,7 +19,9 @@ last_verified: "2026-09"
 ## AI Infra 关系
 
 - [[启元实验室]]：2025 年 CCF《计算》作者简介明确列为“启元实验室智能计算系统研究中心 / 清华大学计算机科学与技术系助理研究员”。
-- [[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。\n- [[community/InfiniTensor/NineToothed|NineToothed]]：GitHub `whjthu` 直接推进 SSA compiler pipeline、多平台 target architecture、Triton layout/reduction/runtime optimization，并在 2026-09 继续扩展 AscendC / BangC backend。\n- [[community/InfiniTensor/InfiniLM|InfiniLM]]：推进 KTransformers CPU-GPU MoE offload / FusedMoE 与 out-of-tree model plugin。
+- [[community/InfiniTensor/InfiniTensor|InfiniTensor]]：清华大学计算机系个人主页明确写明“目前在主持开源项目 InfiniTensor 的开发工作”；2026 仍直接贡献 dynamic CUDA Graph recapture/cache、dynamic-shape memory reuse 与 ONNX frontend。
+- [[community/InfiniTensor/NineToothed|NineToothed]]：GitHub `whjthu` 直接推进 SSA compiler pipeline、多平台 target architecture、Triton layout/reduction/runtime optimization，并在 2026-09 继续扩展 AscendC / BangC backend。
+- [[community/InfiniTensor/InfiniLM|InfiniLM]]：推进 KTransformers CPU-GPU MoE offload / FusedMoE 与 out-of-tree model plugin。
 - [[university/清华大学/清华大学|清华大学]]：2015 年获工程力学与航空航天工程学士，2021 年获计算机科学与技术博士；博士毕业后在清华计算机系高性能所从事博士后研究，2023 年留任助理研究员。
 - [[company/清程极智/翟季冬 Jidong Zhai|翟季冬（Jidong Zhai）]]：共同作者网络覆盖 PET（OSDI 2021）与 EinNet（OSDI 2023），连接清华 HPC / tensor-program optimization 与 InfiniTensor 的技术谱系。这里仅记录公开论文合作，不额外推断导师关系。
 
@@ -31,5 +33,9 @@ last_verified: "2026-09"
 - https://www.cs.tsinghua.edu.cn/info/1257/5770.htm
 - https://hpc.cs.tsinghua.edu.cn/info/1539/2712.htm
 - https://cccf.hrbeu.edu.cn/cn/article/id/5aa85132-b8db-4152-99d8-7b3cab286df2
-- https://github.com/InfiniTensor/InfiniTensor\n- https://github.com/InfiniTensor/InfiniTensor/pull/314\n- https://github.com/InfiniTensor/ninetoothed/pull/164\n- https://github.com/InfiniTensor/ninetoothed/pull/213\n- https://github.com/InfiniTensor/InfiniLM/pull/548
+- https://github.com/InfiniTensor/InfiniTensor
+- https://github.com/InfiniTensor/InfiniTensor/pull/314
+- https://github.com/InfiniTensor/ninetoothed/pull/164
+- https://github.com/InfiniTensor/ninetoothed/pull/213
+- https://github.com/InfiniTensor/InfiniLM/pull/548
 - https://www.usenix.org/conference/osdi23/presentation/zheng
