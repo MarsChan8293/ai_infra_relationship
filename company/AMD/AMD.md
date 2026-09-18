@@ -7,6 +7,8 @@ linked_people:
 projects: [TokenSpeed]
 linked_projects:
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
+people:
+  - "university/华南理工大学/陆璐 Lu Lu"
 ---
 # AMD
 
@@ -16,8 +18,14 @@ AMD 是 CPU、GPU 与数据中心加速器厂商。其 Instinct GPU 与 ROCm 软
 ## 主要贡献的社区项目
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：LightSeek Foundation 项目的跨公司 co-creation / accelerator & Triton 工程协作方之一。
 
+## 历史人才桥梁
+- [[university/华南理工大学/陆璐 Lu Lu|陆璐（Lu Lu）]]：2013 年中国科学技术大学超级计算中心公开讲座信息将其列为“AMD 公司应用解决方案部门软件架构师、华南理工大学教授”，并讲授 HSA / OpenCL / GPU heterogeneous computing。该记录作为历史职业与技术路线证据，不表示其当前仍任职 AMD。
+
 ## 图谱中的连接
 [[vLLM]]、[[llm-d]]、[[NIXL]] 等项目都需要处理 AMD/ROCm 或跨硬件生态适配。这里记录的是软硬件生态连接，不把“支持 AMD”自动等同于 AMD 员工直接参与项目。
+
+## Sources
+- https://scc.ustc.edu.cn/pxxx/201307/t20130720_155061.html
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
 ## 关联人物（自动汇总）
