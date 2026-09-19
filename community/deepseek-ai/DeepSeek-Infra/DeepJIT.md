@@ -14,7 +14,7 @@ company_relation: company-led
 layer: compiler
 areas:
   - "jit-compilation"
-  - "gpu-kernel-generation"
+  - "kernel-generation"
 hardware:
   - "gpu"
 integrations: []
