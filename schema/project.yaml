@@ -1,17 +1,17 @@
-schema: ai-infra-relationship/project-v2
+schema: ai-infra-relationship/project-v3
 status: migration
 required:
   - type
   - name
 recommended:
-  - companies
-  - linked_companies
-  - company_relation
   - layer
-  - open_source
+  - status
   - repository
+  - docs
   - areas
-  - linked_people
+  - hardware
+  - integrations
+  - companies
   - last_verified
 fields:
   type:
@@ -19,45 +19,112 @@ fields:
   name:
     type: string
     description: Canonical project name.
+  layer:
+    type: string
+    enum:
+      - inference-engine
+      - distributed-serving
+      - gateway
+      - kv-cache
+      - storage
+      - communication
+      - runtime
+      - kernel
+      - compiler
+      - training
+      - scheduler
+      - device-resource
+      - benchmark
+      - ecosystem
+      - optimization
+      - other
+    description: Stable primary AI Infra layer. Fine-grained technical detail belongs in areas, not in layer.
+  status:
+    type: string
+    enum: [active, maintenance, deprecated, archived, unknown]
+    description: Current project lifecycle status when directly verifiable.
+  repository:
+    type: string
+    description: Canonical official GitHub, GitCode, or other source repository URL.
+  docs:
+    type: string
+    description: Canonical official documentation URL when available.
+  areas:
+    type: array[string]
+    description: Stable technical focus tags. Do not duplicate a second capabilities taxonomy.
+  hardware:
+    type: array[string]
+    description: Explicitly supported hardware or platform families such as nvidia, amd, ascend, cambricon, metax.
+  integrations:
+    type: array[string]
+    description: Direct, verifiable software integrations with canonical project identities. Similarity alone is not an integration.
   companies:
     type: array[string]
     description: Human-authored companies with strong origin, founding, core-maintainer, or long-term engineering evidence.
-  linked_companies:
-    type: array[string]
-    description: Exhaustive derived canonical company references from the union of project companies/company and company projects/communities assertions. Generated automatically; do not edit by hand.
-  company_relation:
-    type: string
-    description: Nature of the human-authored company relationship, for example company-originated, company-led, founding-contributors, core-maintainer-network, community-led.
-  layer:
-    type: string
-    description: Primary AI Infra layer such as inference-engine, distributed-serving, kv-cache, compiler, kernel, communication, hardware-backend.
-  open_source:
-    type: boolean
-  repository:
-    type: string
-    description: Canonical official GitHub or GitCode repository URL.
-  areas:
-    type: array[string]
-  hardware:
-    type: array[string]
-  governance:
-    type: string
-  people:
-    type: array[string]
-    description: Optional curated high-value contributors or maintainers with direct public evidence.
-  linked_people:
-    type: array[string]
-    description: Exhaustive derived reverse references from person projects/communities fields. Generated automatically; do not edit by hand.
   last_verified:
     type: string
     pattern: YYYY-MM
+    description: Freshness marker for the project facts on this page.
+
+compatibility_fields:
+  organization:
+    status: deprecated
+    replacement: companies-or-body
+    description: Upstream namespace or governance organization. Normalize to canonical company/community entities or prose rather than adding a new upstream_org field.
+  open_source:
+    status: deprecated
+    description: Kept only for legacy pages during migration. Repository presence and body evidence usually carry the useful information.
+  company_relation:
+    status: deprecated
+    description: A single scalar cannot accurately describe multiple company relationships. Preserve nuanced relation evidence in prose or typed graph relations.
+  people:
+    status: deprecated
+    description: Curated people lists may remain during migration, but new pages should prefer evidence in prose plus person-side explicit project membership.
+  linked_people:
+    status: derived
+    description: Generated reverse project-person references. Do not treat as a human-authored canonical fact.
+  linked_companies:
+    status: derived
+    description: Generated reverse company references. Do not treat as a human-authored canonical fact.
+  governance:
+    status: deprecated
+    description: Governance is usually richer than one scalar; keep detailed governance evidence in the Markdown body.
+  related_projects:
+    status: deprecated
+    replacement: integrations-or-body
+  category:
+    status: legacy
+    replacement: layer
+  repo:
+    status: legacy
+    replacement: repository
+  capabilities:
+    status: legacy
+    replacement: areas
+  backends:
+    status: legacy
+    replacement: hardware
+  snapshot:
+    status: legacy
+    replacement: last_verified
+  updated:
+    status: legacy
+    description: Git history already records file modification time.
+  upstream_org:
+    status: rejected
+    description: Do not introduce this field; normalize organization identity into existing company/community entities or prose.
+
 legacy_migration:
   company: companies
+  category: layer
+  repo: repository
+  capabilities: areas
+  backends: hardware
+  snapshot.as_of: last_verified
+
 notes:
-  - Existing project pages are migrated incrementally; legacy singular company currently produces a warning.
-  - Compatibility, sponsorship, or downstream usage alone is not enough to put a company in `companies`.
-  - `companies` is human-authored evidence; `linked_companies` is the exhaustive generated mirror of explicit project/company assertions from either side.
-  - `linked_companies` must not be inferred merely because employees from a company contribute to the project.
-  - The project body should remain independently readable and include purpose, repository, maintainers/governance, and ecosystem relationships.
-  - `people` is curated; `linked_people` is exhaustive and derived only from explicit person project/community membership metadata.
-  - A reverse project link does not by itself imply employment, governance authority, or co-worker relations.
+  - Markdown remains the source of truth; generated schema instances and reverse links are derived views.
+  - Project v3 intentionally keeps frontmatter small. Detailed features, version snapshots, governance, evidence, and boundaries belong in the body.
+  - Compatibility, sponsorship, downstream usage, or employee participation alone is not enough to put a company in companies.
+  - integrations must be backed by direct project-level evidence and must not be inferred from shared areas.
+  - linked_people and linked_companies remain migration-compatible while current sync scripts are being refactored, but they are not canonical human-authored facts.
