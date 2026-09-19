@@ -6,6 +6,19 @@
 >
 > 非目标：本计划不迁移 `ai_infra_docs/software/concepts`、`chip`、`models` 或其他长篇技术资料。
 
+## 当前迁移进度
+
+截至 2026-09-19，已完成第一轮源数据迁移：
+
+- [x] `schema/project.yaml` 已升级为精简的 `project-v3`。
+- [x] `schema/catalog.yaml` 已停止把 `infra-project` 作为新的 canonical type。
+- [x] MoonEP、Checkpoint Engine、ForgeTrain 三个 `infra-project` 源页面已迁为 `project`。
+- [x] 相关 sync / audit / research 脚本已移除 `infra-project` 主路径，并在 node schema generator 中保留迁移兼容 alias。
+- [x] 首批 12 个高价值 Software 项目已吸收 docs 项目级技术元数据：vLLM、SGLang、LMCache、Mooncake、llm-d、DeepEP、DeepSeek-Infra、vLLM-Ascend、KTransformers、FlashInfer、DeepGEMM、FlashMLA。
+- [x] 首批项目已按 v3 规则收敛：`category → layer`、`capabilities → areas`、`backends → hardware`、`snapshot.as_of → last_verified`，并补充 `status/docs/integrations`。
+- [ ] generated graph / schema mirrors 需要在源数据变更后重建并复核；最后一次检查时仍是迁移前 snapshot，因此暂不把派生数据同步标记为完成。
+- [ ] 其余 Software 项目继续按 layer 分批迁移。
+
 ## 0. 迁移边界与约束
 
 - [ ] 将 `ai_infra_docs/software/projects/*` 的软件项目事实迁入本仓库对应 canonical project 页面。
@@ -55,7 +68,7 @@ companies:
 last_verified: "2026-09"
 ```
 
-- [ ] 将 `schema/project.yaml` 从 `project-v2` 升级到 `project-v3`。
+- [x] 将 `schema/project.yaml` 从 `project-v2` 升级到 `project-v3`。
 - [ ] canonical Project Schema 优先只保留：
   - [ ] `type`
   - [ ] `name`
@@ -194,11 +207,11 @@ metrics / coverage
 
 当前 `infra-project` 与 `project` 的字段高度重复，且现有实例很少。本次迁移顺手统一。
 
-- [ ] 将现有 `type: infra-project` 节点逐个迁为 `type: project`。
-- [ ] `company` → `companies`。
+- [x] 将现有 `type: infra-project` 节点逐个迁为 `type: project`。
+- [x] `company` → `companies`。
 - [ ] 原 `infra-project.layer` 映射到 canonical layer。
 - [ ] 原 `related_projects` 根据证据迁入正文或项目关系。
-- [ ] 从 `schema/catalog.yaml` 移除新的 `infra-project` 创建入口。
+- [x] 从 `schema/catalog.yaml` 移除新的 `infra-project` 创建入口。
 - [ ] 迁移完成后删除或仅保留 `schema/infra-project.yaml` 兼容说明。
 - [ ] generator / planner / audit 不再把 `infra-project` 当独立 canonical entity type。
 
@@ -226,19 +239,19 @@ metrics / coverage
 
 ### 3.1 Inference Engine
 
-- [ ] vLLM
-- [ ] SGLang
+- [x] vLLM
+- [x] SGLang
 - [ ] TensorRT-LLM
 - [ ] llama.cpp
 - [ ] LightLLM
-- [ ] KTransformers
-- [ ] vLLM-Ascend
+- [x] KTransformers
+- [x] vLLM-Ascend
 - [ ] MindIE-LLM
 - [ ] MindIE-SD
 
 ### 3.2 Distributed Serving / Gateway
 
-- [ ] llm-d
+- [x] llm-d
 - [ ] NVIDIA Dynamo
 - [ ] AIBrix
 - [ ] KServe
@@ -250,8 +263,8 @@ metrics / coverage
 
 ### 3.3 KV / Storage
 
-- [ ] LMCache
-- [ ] Mooncake
+- [x] LMCache
+- [x] Mooncake
 - [ ] 3FS
 
 ### 3.4 Communication
@@ -259,18 +272,18 @@ metrics / coverage
 - [ ] NIXL
 - [ ] NCCL
 - [ ] RCCL
-- [ ] DeepEP
+- [x] DeepEP
 - [ ] UCX
 - [ ] VCCL
 - [ ] FlagCX
 
 ### 3.5 Runtime / Kernel
 
-- [ ] FlashInfer
+- [x] FlashInfer
 - [ ] FlashAttention
 - [ ] CUTLASS
-- [ ] DeepGEMM
-- [ ] FlashMLA
+- [x] DeepGEMM
+- [x] FlashMLA
 - [ ] FlagGems
 - [ ] FlagAttention
 - [ ] ops-transformer
@@ -307,7 +320,7 @@ metrics / coverage
 
 ### 3.10 Ecosystem / Optimization / Benchmark
 
-- [ ] DeepSeek-Infra
+- [x] DeepSeek-Infra
 - [ ] FlagOS
 - [ ] msModelSlim
 - [ ] FlagPerf
@@ -407,10 +420,10 @@ metrics / coverage
 
 ### Batch A：基础设施
 
-- [ ] project-v3 精简 schema
+- [x] project-v3 精简 schema
 - [ ] layer/category migration mapping
-- [ ] infra-project → project 迁移
-- [ ] catalog
+- [x] infra-project → project 源节点迁移
+- [x] catalog
 - [ ] validators
 - [ ] graph builder
 - [ ] 59 项目 migration mapping 表
