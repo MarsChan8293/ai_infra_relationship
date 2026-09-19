@@ -68,6 +68,8 @@ def main():
     area_map=json.loads(area_map_path.read_text(encoding="utf-8")) if area_map_path.exists() else {"automatic":{}}
     area_aliases=area_map.get("automatic") or {}
     errors=[]; projects=[]; infra=[]
+    if len(items)!=59:
+        errors.append({"kind":"mapping-count","path":"research/software-project-migration.json","detail":f"expected 59, got {len(items)}"})
     for r in ROOTS:
         b=root/r
         if not b.exists():continue
@@ -90,11 +92,17 @@ def main():
         names[fold(p["name"])].append(p)
         if p.get("repo_canonical") and p["repo_canonical"]!="__deep__":
             repos[p["repo_canonical"]].append(p)
-    seen=set()
+    seen=set(); seen_sources=set(); seen_slugs=set()
     for it in items:
         path=it["canonical_path"]; target=root/path
+        source_path=it.get("source_path")
+        slug=it.get("slug")
         if path in seen:errors.append({"kind":"duplicate-map","path":path,"detail":it["name"]})
         seen.add(path)
+        if source_path in seen_sources:errors.append({"kind":"duplicate-source-map","path":path,"detail":str(source_path)})
+        seen_sources.add(source_path)
+        if slug in seen_slugs:errors.append({"kind":"duplicate-slug","path":path,"detail":str(slug)})
+        seen_slugs.add(slug)
         if not target.exists():errors.append({"kind":"missing","path":path,"detail":it["name"]}); continue
         f=fm(target.read_text(encoding="utf-8"))
         if f.get("type")!="project":errors.append({"kind":"type","path":path,"detail":repr(f.get("type"))})
