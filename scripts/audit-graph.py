@@ -28,6 +28,16 @@ WIKILINK_RE = re.compile(r"(?<!!)\[\[([^\]\n]+)\]\]")
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
 REPO_RE = re.compile(r"https?://(?:www\.)?(?:github\.com|gitcode\.com)/[^\s)>\]]+", re.I)
 
+PROJECT_V3_LEGACY_FIELDS = {
+    "category": "layer",
+    "repo": "repository",
+    "capabilities": "areas",
+    "backends": "hardware",
+    "snapshot": "last_verified",
+    "updated": "git-history",
+    "upstream_org": "companies/community-or-body",
+}
+
 NODE_ROOTS = ("company", "community", "university")
 INDEX_BASENAMES = {"company", "community", "university"}
 
