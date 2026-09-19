@@ -1,6 +1,10 @@
 ---
 type: project
 name: llm-d
+status: active
+repository: https://github.com/llm-d/llm-d
+docs: https://llm-d.ai/
+last_verified: "2026-09"
 linked_people:
   - "community/llm-d/llm-d/Abdullah Gharaibeh"
   - "community/llm-d/llm-d/Ashok Chandrasekar"
@@ -20,14 +24,24 @@ linked_people:
 governance: cross-company
 companies: ["Red Hat","Google","IBM","CoreWeave","NVIDIA"]
 company_relation: founding-contributors
-layer: kubernetes-distributed-inference
-open_source: true
+layer: distributed-serving
 linked_companies:
   - "company/CoreWeave/CoreWeave"
   - "company/Google/Google"
   - "company/IBM/IBM"
   - "company/NVIDIA/NVIDIA"
   - "company/Red Hat/Red Hat"
+areas:
+  - "request-routing"
+  - "kv-aware-routing"
+  - "pd-disaggregation"
+  - "worker-pool-orchestration"
+  - "kubernetes"
+integrations:
+  - "vLLM"
+  - "SGLang"
+  - "LMCache"
+  - "Gateway API Inference Extension"
 ---
 # llm-d
 
