@@ -1,6 +1,10 @@
 ---
 type: project
 name: HAMi
+status: active
+repository: https://github.com/Project-HAMi/HAMi
+docs: https://project-hami.io/
+last_verified: "2026-09"
 linked_people:
   - "community/Project-HAMi/HAMi/archlitchi"
   - "community/Project-HAMi/HAMi/chaunceyjiang"
@@ -8,8 +12,24 @@ linked_people:
   - "community/Project-HAMi/HAMi/wawa0210"
 companies: ["第四范式","密瓜智能","道客","NVIDIA","华为"]
 company_relation: cross-company-maintainer-network
-layer: kubernetes-heterogeneous-device-virtualization
-open_source: true
+layer: device-resource
+areas:
+  - "gpu-sharing"
+  - "memory-isolation"
+  - "device-plugin"
+  - "heterogeneous-accelerators"
+  - "topology-aware-allocation"
+hardware:
+  - "nvidia"
+  - "ascend"
+  - "cambricon"
+  - "hygon"
+  - "iluvatar"
+  - "metax"
+  - "moore-threads"
+integrations:
+  - "KAI-Scheduler"
+  - "Kubernetes DRA"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
   - "company/华为/华为"
