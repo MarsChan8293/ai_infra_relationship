@@ -161,15 +161,67 @@
     "frontmatter": {
       "type": "company",
       "name": "GPUStack",
-      "focus": [
+      "aliases": [
+        "GPUStack.ai"
+      ],
+      "linked_people": "",
+      "areas": [
         "ai-infrastructure",
         "gpu-cluster",
         "model-serving",
-        "heterogeneous-compute"
+        "heterogeneous-compute",
+        "distributed-inference",
+        "gpu-resource-management",
+        "maas",
+        "gpuaas"
       ],
-      "linked_people": "",
       "projects": "",
+      "people": "",
+      "founded": "2022",
+      "headquarters": "Shenzhen, Guangdong, China",
+      "last_verified": "2026-09",
       "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/GPUStack/Yinlin Li",
+    "path": "company/GPUStack/Yinlin Li.md",
+    "name": "Yinlin Li",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yinlin Li",
+      "aliases": [
+        "linyinli",
+        "@linyinli"
+      ],
+      "current_affiliations": [
+        "GPUStack"
+      ],
+      "public_email": "yinlin@gpustack.ai",
+      "communities": [
+        "GPUStack"
+      ],
+      "linked_companies": "",
+      "projects": [
+        "GPUStack",
+        "GPUStack Community Inference Backends"
+      ],
+      "roles": [
+        "Solutions Architect",
+        "Open Source Contributor"
+      ],
+      "areas": [
+        "cloud-native",
+        "kubernetes",
+        "model-serving",
+        "heterogeneous-inference",
+        "ascend",
+        "developer-experience"
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -10781,14 +10833,355 @@
     "frontmatter": {
       "type": "project",
       "name": "GPUStack",
-      "organization": "gpustack",
       "linked_people": "",
-      "layer": "inference-orchestration",
-      "open_source": true,
-      "linked_companies": "",
+      "layer": "distributed-serving",
+      "status": "active",
+      "repository": "https://github.com/gpustack/gpustack",
+      "docs": "https://docs.gpustack.ai/latest/",
+      "areas": [
+        "gpu-cluster",
+        "model-serving",
+        "inference-orchestration",
+        "heterogeneous-compute",
+        "model-gateway",
+        "distributed-inference",
+        "scheduler",
+        "maas",
+        "gpuaas",
+        "observability"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "ascend",
+        "hygon",
+        "metax",
+        "mthreads",
+        "iluvatar",
+        "cambricon",
+        "t-head"
+      ],
+      "integrations": [
+        "vLLM",
+        "SGLang",
+        "TensorRT-LLM",
+        "LMCache",
+        "GPUStack Runtime",
+        "GPUStack Runner",
+        "GPUStack Operator",
+        "GPUStack Community Inference Backends",
+        "GGUF Parser"
+      ],
       "companies": [
         "GPUStack"
-      ]
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/gpustack/GPUStack/gitlawr",
+    "path": "community/gpustack/GPUStack/gitlawr.md",
+    "name": "gitlawr",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "gitlawr",
+      "aliases": [
+        "@gitlawr"
+      ],
+      "communities": [
+        "GPUStack"
+      ],
+      "projects": [
+        "GPUStack"
+      ],
+      "roles": [
+        "GPUStack Collaborator"
+      ],
+      "areas": [
+        "kv-cache",
+        "model-serving",
+        "control-plane",
+        "multi-tenant",
+        "cloud-native",
+        "kubernetes"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/gpustack/GPUStack/thxCode",
+    "path": "community/gpustack/GPUStack/thxCode.md",
+    "name": "thxCode",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "thxCode",
+      "aliases": [
+        "@thxCode"
+      ],
+      "communities": [
+        "GPUStack"
+      ],
+      "projects": [
+        "GPUStack Runtime",
+        "GPUStack Runner",
+        "GPUStack Operator",
+        "GGUF Parser"
+      ],
+      "roles": [
+        "Cross-Project Core Contributor"
+      ],
+      "areas": [
+        "gpu-runtime",
+        "heterogeneous-accelerators",
+        "inference-serving",
+        "kubernetes",
+        "device-resource",
+        "kv-cache",
+        "vllm",
+        "ascend"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "community/gpustack/GPUStack/yxf0314",
+    "path": "community/gpustack/GPUStack/yxf0314.md",
+    "name": "yxf0314",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "yxf0314",
+      "aliases": [
+        "@yxf0314"
+      ],
+      "communities": [
+        "GPUStack"
+      ],
+      "projects": [
+        "GPUStack",
+        "GPUStack Runtime"
+      ],
+      "roles": [
+        "GPUStack Contributor"
+      ],
+      "areas": [
+        "distributed-serving",
+        "vllm",
+        "scheduler",
+        "load-balancing",
+        "ascend",
+        "inference-backend",
+        "observability"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "community/gpustack/community-inference-backends/community-inference-backends",
+    "path": "community/gpustack/community-inference-backends/community-inference-backends.md",
+    "name": "GPUStack Community Inference Backends",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GPUStack Community Inference Backends",
+      "linked_people": "",
+      "layer": "ecosystem",
+      "status": "active",
+      "repository": "https://github.com/gpustack/community-inference-backends",
+      "areas": [
+        "inference-backend",
+        "backend-marketplace",
+        "model-serving",
+        "extensibility",
+        "heterogeneous-inference"
+      ],
+      "integrations": [
+        "GPUStack",
+        "llama.cpp",
+        "TensorRT-LLM",
+        "TokenSpeed"
+      ],
+      "companies": [
+        "GPUStack"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/gpustack/gguf-parser-go/gguf-parser-go",
+    "path": "community/gpustack/gguf-parser-go/gguf-parser-go.md",
+    "name": "GGUF Parser",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GGUF Parser",
+      "linked_people": "",
+      "layer": "benchmark",
+      "status": "active",
+      "repository": "https://github.com/gpustack/gguf-parser-go",
+      "areas": [
+        "gguf",
+        "memory-estimation",
+        "throughput-estimation",
+        "model-profiling",
+        "resource-planning",
+        "placement"
+      ],
+      "integrations": [
+        "GPUStack",
+        "llama.cpp"
+      ],
+      "companies": [
+        "GPUStack"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/gpustack/gpustack-operator/gpustack-operator",
+    "path": "community/gpustack/gpustack-operator/gpustack-operator.md",
+    "name": "GPUStack Operator",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GPUStack Operator",
+      "linked_people": "",
+      "layer": "device-resource",
+      "status": "active",
+      "repository": "https://github.com/gpustack/gpustack-operator",
+      "docs": "https://docs.gpustack.ai/gpustack-operator/",
+      "areas": [
+        "kubernetes",
+        "accelerator-scheduling",
+        "gpu-sharing",
+        "gpu-slicing",
+        "hardware-partitioning",
+        "kueue",
+        "device-management",
+        "kv-cache"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "ascend",
+        "hygon",
+        "metax",
+        "mthreads",
+        "iluvatar",
+        "cambricon",
+        "t-head"
+      ],
+      "integrations": [
+        "GPUStack"
+      ],
+      "companies": [
+        "GPUStack"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/gpustack/runner/runner",
+    "path": "community/gpustack/runner/runner.md",
+    "name": "GPUStack Runner",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GPUStack Runner",
+      "linked_people": "",
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/gpustack/runner",
+      "areas": [
+        "inference-runtime",
+        "container-images",
+        "backend-packaging",
+        "heterogeneous-inference",
+        "vllm",
+        "sglang",
+        "mindie"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "ascend",
+        "hygon",
+        "metax",
+        "mthreads",
+        "t-head"
+      ],
+      "integrations": [
+        "GPUStack",
+        "vLLM",
+        "SGLang",
+        "MindIE-LLM"
+      ],
+      "companies": [
+        "GPUStack"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/gpustack/runtime/runtime",
+    "path": "community/gpustack/runtime/runtime.md",
+    "name": "GPUStack Runtime",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GPUStack Runtime",
+      "linked_people": "",
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/gpustack/runtime",
+      "areas": [
+        "gpu-detection",
+        "workload-runtime",
+        "heterogeneous-accelerators",
+        "device-management",
+        "docker",
+        "kubernetes",
+        "podman"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "ascend",
+        "hygon",
+        "metax",
+        "mthreads",
+        "iluvatar",
+        "cambricon",
+        "t-head"
+      ],
+      "integrations": [
+        "GPUStack"
+      ],
+      "companies": [
+        "GPUStack"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {

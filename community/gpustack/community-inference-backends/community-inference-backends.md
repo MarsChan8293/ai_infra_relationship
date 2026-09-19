@@ -1,6 +1,8 @@
 ---
 type: project
 name: GPUStack Community Inference Backends
+linked_people:
+  - "company/GPUStack/Yinlin Li"
 layer: ecosystem
 status: active
 repository: https://github.com/gpustack/community-inference-backends
@@ -8,6 +10,8 @@ areas: [inference-backend, backend-marketplace, model-serving, extensibility, he
 integrations: [GPUStack, llama.cpp, TensorRT-LLM, TokenSpeed]
 companies: ["GPUStack"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/GPUStack/GPUStack"
 ---
 # GPUStack Community Inference Backends
 
@@ -33,3 +37,21 @@ last_verified: "2026-09"
 - https://github.com/gpustack/community-inference-backends
 - https://github.com/gpustack/community-inference-backends/commit/e314e1bb0152d806a3e35ef49e63729344fffe60
 - https://github.com/gpustack/community-inference-backends/commit/6669659af1de493f92a3eefabd93112e9d1a544c
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/GPUStack/Yinlin Li|Yinlin Li]]：2026-01 初始化 [[community/gpustack/community-inference-backends/community-inference-backends|GPUStack Community Inference Backends]] catalog，形成 GPUStack core 与社区 inference engine 之间的扩展边界。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/GPUStack/GPUStack|GPUStack]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

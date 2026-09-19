@@ -4,12 +4,12 @@
 
 - Company nodes: 54
 - Companies with ≥1 linked person: 46
-- Company-person associations: 228
+- Company-person associations: 229
 - Email-domain-supported associations: 37
-- People with generated linked_companies: 225
-- Project/community nodes: 158
-- Project/community nodes with ≥1 linked person: 105
-- Project/community-person associations: 509
+- People with generated linked_companies: 226
+- Project/community nodes: 163
+- Project/community nodes with ≥1 linked person: 110
+- Project/community-person associations: 519
 - Non-company affiliations recognized and routed elsewhere: 98
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
@@ -45,6 +45,7 @@
 | [[company/派欧云/派欧云|派欧云]] | 3 |
 | [[company/清昴智能/清昴智能|清昴智能]] | 3 |
 | [[company/AMD/AMD|AMD]] | 2 |
+| [[company/GPUStack/GPUStack|GPUStack]] | 2 |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | 2 |
 | [[company/Ollama/Ollama|Ollama]] | 2 |
 | [[company/Together AI/Together AI|Together AI]] | 2 |
@@ -54,7 +55,6 @@
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | 2 |
 | [[company/Amazon/Amazon|Amazon / AWS]] | 1 |
 | [[company/Fireworks AI/Fireworks AI|Fireworks AI]] | 1 |
-| [[company/GPUStack/GPUStack|GPUStack]] | 1 |
 | [[company/HPE/HPE|HPE]] | 1 |
 | [[company/Intel/Intel|Intel]] | 1 |
 | [[company/Samsung/Samsung|Samsung]] | 1 |
@@ -99,6 +99,7 @@
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
+| [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
 | [[community/kvcache-ai/Mooncake/TENT|TENT]] | 5 |
 | [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] | 4 |
@@ -131,6 +132,7 @@
 | [[community/flagos-ai/FlagRelease/FlagRelease|FlagRelease]] | 2 |
 | [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] | 2 |
 | [[university/浙江大学/FloE|FloE]] | 2 |
+| [[community/gpustack/runtime/runtime|GPUStack Runtime]] | 2 |
 | [[university/厦门大学/GeminiFS|GeminiFS]] | 2 |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin|HAMi Ascend Device Plugin]] | 2 |
 | [[university/香港中文大学/LiveServe|LiveServe]] | 2 |
@@ -148,7 +150,10 @@
 | [[community/deepseek-ai/DeepSeek-Infra/EPLB|EPLB]] | 1 |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | 1 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | 1 |
-| [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 1 |
+| [[community/gpustack/gguf-parser-go/gguf-parser-go|GGUF Parser]] | 1 |
+| [[community/gpustack/community-inference-backends/community-inference-backends|GPUStack Community Inference Backends]] | 1 |
+| [[community/gpustack/gpustack-operator/gpustack-operator|GPUStack Operator]] | 1 |
+| [[community/gpustack/runner/runner|GPUStack Runner]] | 1 |
 | [[university/浙江大学/HMI|HMI]] | 1 |
 | [[community/InfiniTensor/InfiniRT|InfiniRT]] | 1 |
 | [[university/华南理工大学/Kairos|Kairos]] | 1 |

@@ -1,6 +1,12 @@
 ---
 type: project
 name: GPUStack
+linked_people:
+  - "community/gpustack/GPUStack/gitlawr"
+  - "community/gpustack/GPUStack/thxCode"
+  - "community/gpustack/GPUStack/yxf0314"
+  - "company/GPUStack/Yinlin Li"
+  - "company/GPUStack/秦小康"
 layer: distributed-serving
 status: active
 repository: https://github.com/gpustack/gpustack
@@ -10,6 +16,8 @@ hardware: [nvidia, amd, ascend, hygon, metax, mthreads, iluvatar, cambricon, t-h
 integrations: [vLLM, SGLang, TensorRT-LLM, LMCache, "GPUStack Runtime", "GPUStack Runner", "GPUStack Operator", "GPUStack Community Inference Backends", "GGUF Parser"]
 companies: ["GPUStack"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/GPUStack/GPUStack"
 ---
 # GPUStack
 
@@ -73,3 +81,25 @@ GPUStack 早期曾以 llama-box 承接 llama.cpp / GGUF 等 backend；从 v2.0.0
 - https://github.com/gpustack/gpustack-operator
 - https://github.com/gpustack/community-inference-backends
 - https://github.com/gpustack/gguf-parser-go
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/gpustack/GPUStack/gitlawr|gitlawr]]：https://github.com/gpustack/gpustack/pull/6219
+- [[community/gpustack/GPUStack/thxCode|thxCode]]：https://github.com/gpustack/gpustack/pull/6165
+- [[community/gpustack/GPUStack/yxf0314|yxf0314]]：GPUStack Runner / Runtime dependency 升级。
+- [[company/GPUStack/Yinlin Li|Yinlin Li]]：GPUStack Wiki 的 FAQ / Kubernetes 安装内容长期由其维护。
+- [[company/GPUStack/秦小康|秦小康]]：[[community/gpustack/GPUStack/GPUStack|GPUStack]]：公司 / 开源项目核心组织关系；项目本身是 GPU / NPU 集群管理与高性能模型 serving 编排层。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/GPUStack/GPUStack|GPUStack]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

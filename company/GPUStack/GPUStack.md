@@ -2,6 +2,9 @@
 type: company
 name: GPUStack
 aliases: ["GPUStack.ai"]
+linked_people:
+  - "company/GPUStack/Yinlin Li"
+  - "company/GPUStack/秦小康"
 areas: [ai-infrastructure, gpu-cluster, model-serving, heterogeneous-compute, distributed-inference, gpu-resource-management, maas, gpuaas]
 projects:
   - GPUStack
@@ -16,6 +19,13 @@ people:
 founded: "2022"
 headquarters: "Shenzhen, Guangdong, China"
 last_verified: "2026-09"
+linked_projects:
+  - "community/gpustack/gguf-parser-go/gguf-parser-go"
+  - "community/gpustack/GPUStack/GPUStack"
+  - "community/gpustack/community-inference-backends/community-inference-backends"
+  - "community/gpustack/gpustack-operator/gpustack-operator"
+  - "community/gpustack/runner/runner"
+  - "community/gpustack/runtime/runtime"
 ---
 # GPUStack
 
@@ -62,3 +72,27 @@ GPUStack.ai 的公开公司介绍明确写到核心团队成员包括 former Ran
 - https://github.com/gpustack/gpustack-operator
 - https://github.com/gpustack/community-inference-backends
 - https://www.aicconf.net/
+
+<!-- BEGIN AUTO COMPANY PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 与/或 `public_email` 企业域名规则反向汇总。邮箱域名证据表示可核验的组织关联，但不会单独推断当前任职、职级、直属汇报或团队归属。
+
+- [[company/GPUStack/Yinlin Li|Yinlin Li]]：人物页 `current_affiliations:` 明确记录。
+- [[company/GPUStack/秦小康|秦小康]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO COMPANY PEOPLE -->
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/gpustack/gguf-parser-go/gguf-parser-go|GGUF Parser]]：公司页与社区/项目页均有显式记录。
+- [[community/gpustack/GPUStack/GPUStack|GPUStack]]：公司页与社区/项目页均有显式记录。
+- [[community/gpustack/community-inference-backends/community-inference-backends|GPUStack Community Inference Backends]]：公司页与社区/项目页均有显式记录。
+- [[community/gpustack/gpustack-operator/gpustack-operator|GPUStack Operator]]：公司页与社区/项目页均有显式记录。
+- [[community/gpustack/runner/runner|GPUStack Runner]]：公司页与社区/项目页均有显式记录。
+- [[community/gpustack/runtime/runtime|GPUStack Runtime]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

@@ -9,7 +9,7 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1720,
+  "candidate_count": 1738,
   "selected_actions": [
     {
       "action_id": "community/Ascend/CANN/CANN::maintainers",
@@ -4733,6 +4733,78 @@
       }
     },
     {
+      "action_id": "community/gpustack/gpustack-operator/gpustack-operator::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/gpustack/gpustack-operator/gpustack-operator",
+        "name": "GPUStack Operator",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.177,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.35,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler"
+      ],
+      "base_priority": 7.1,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "community/sgl-project/mini-SGLang/mini-SGLang::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -4948,6 +5020,79 @@
       }
     },
     {
+      "action_id": "community/gpustack/runner/runner::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/gpustack/runner/runner",
+        "name": "GPUStack Runner",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.034,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.157,
+        "novelty": 0.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.294,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, ascend",
+        "bridge 6.2"
+      ],
+      "base_priority": 6.957,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "community/LLMServe/DistServe/DistServe::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -5091,153 +5236,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=7.872"
-      }
-    },
-    {
-      "action_id": "company/爱特思/深圳爱特思信息技术有限公司::projects",
-      "action_key": "company:projects:project+community+team",
-      "source": {
-        "id": "company/爱特思/深圳爱特思信息技术有限公司",
-        "name": "深圳爱特思信息技术有限公司",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "github_org_repositories",
-        "official_engineering_blog_or_docs"
-      ],
-      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 6.991,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.667,
-        "frontier_potential": 0.577,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.182,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Company",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.809,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 32,
-          "statuses": {
-            "partial": 24,
-            "success": 7,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.466,
-          "mean_reward": 3.336,
-          "reward_signal": 0.683,
-          "yield_adjustment": 0.182
-        },
-        "key_yield_adjustment": 0.182,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "community/cloud-native/Kubernetes/Kubernetes::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/cloud-native/Kubernetes/Kubernetes",
-        "name": "Kubernetes",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.969,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 3.085,
-        "novelty": 0.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.482,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler"
-      ],
-      "base_priority": 6.892,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.750"
       }
     }
   ]

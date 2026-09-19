@@ -5,6 +5,8 @@ aliases: [linyinli, "@linyinli"]
 current_affiliations: ["GPUStack"]
 public_email: yinlin@gpustack.ai
 communities: [GPUStack]
+linked_companies:
+  - "company/GPUStack/GPUStack"
 projects: [GPUStack, "GPUStack Community Inference Backends"]
 roles: ["Solutions Architect", "Open Source Contributor"]
 areas: [cloud-native, kubernetes, model-serving, heterogeneous-inference, ascend, developer-experience]
@@ -37,3 +39,12 @@ Yinlin Li（GitHub: linyinli）是 GPUStack 生态中偏 cloud-native / solution
 - https://github.com/gpustack/gpustack/wiki/FAQ
 - https://github.com/gpustack/community-inference-backends/commit/e314e1bb0152d806a3e35ef49e63729344fffe60
 - https://www.getprog.ai/profile/42955482
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/GPUStack/GPUStack|GPUStack]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

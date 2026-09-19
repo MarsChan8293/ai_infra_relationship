@@ -4,10 +4,10 @@
 
 - Company nodes: 54
 - Companies with ≥1 linked project/community: 41
-- Project/community nodes: 158
-- Project/community nodes with ≥1 linked company: 82
-- Bidirectional association pairs: 101
-- Explicitly asserted on both sides: 101
+- Project/community nodes: 163
+- Project/community nodes with ≥1 linked company: 87
+- Bidirectional association pairs: 106
+- Explicitly asserted on both sides: 106
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -21,7 +21,12 @@
 | [[company/Anyscale/Anyscale|Anyscale]] | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | project | core-commercial-ecosystem | both |
 | [[company/CoreWeave/CoreWeave|CoreWeave]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Google/Google|Google]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/gguf-parser-go/gguf-parser-go|GGUF Parser]] | project |  | both |
 | [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | project |  | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/community-inference-backends/community-inference-backends|GPUStack Community Inference Backends]] | project |  | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/gpustack-operator/gpustack-operator|GPUStack Operator]] | project |  | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/runner/runner|GPUStack Runner]] | project |  | both |
+| [[company/GPUStack/GPUStack|GPUStack]] | [[community/gpustack/runtime/runtime|GPUStack Runtime]] | project |  | both |
 | [[company/HPE/HPE|HPE]] | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | project | company-led | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/ggml/ggml|ggml]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face|Hugging Face]] | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | project | joined-hugging-face-maintainer-team | both |

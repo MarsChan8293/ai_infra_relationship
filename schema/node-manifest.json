@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 717,
-  "complete_count": 717,
+  "node_count": 726,
+  "complete_count": 726,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
@@ -11,9 +11,9 @@
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 381,
+    "person": 385,
     "person-link": 4,
-    "project": 148,
+    "project": 153,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 34,
@@ -1299,11 +1299,83 @@
       "missing_required": []
     },
     {
+      "id": "community/gpustack/community-inference-backends/community-inference-backends",
+      "type": "project",
+      "source_markdown": "community/gpustack/community-inference-backends/community-inference-backends.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/community-inference-backends/community-inference-backends.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/gguf-parser-go/gguf-parser-go",
+      "type": "project",
+      "source_markdown": "community/gpustack/gguf-parser-go/gguf-parser-go.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/gguf-parser-go/gguf-parser-go.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/gpustack-operator/gpustack-operator",
+      "type": "project",
+      "source_markdown": "community/gpustack/gpustack-operator/gpustack-operator.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/gpustack-operator/gpustack-operator.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/GPUStack/gitlawr",
+      "type": "person",
+      "source_markdown": "community/gpustack/GPUStack/gitlawr.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/GPUStack/gitlawr.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/gpustack/GPUStack/GPUStack",
       "type": "project",
       "source_markdown": "community/gpustack/GPUStack/GPUStack.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/gpustack/GPUStack/GPUStack.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/GPUStack/thxCode",
+      "type": "person",
+      "source_markdown": "community/gpustack/GPUStack/thxCode.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/GPUStack/thxCode.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/GPUStack/yxf0314",
+      "type": "person",
+      "source_markdown": "community/gpustack/GPUStack/yxf0314.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/GPUStack/yxf0314.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/runner/runner",
+      "type": "project",
+      "source_markdown": "community/gpustack/runner/runner.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/runner/runner.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/gpustack/runtime/runtime",
+      "type": "project",
+      "source_markdown": "community/gpustack/runtime/runtime.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/gpustack/runtime/runtime.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3545,6 +3617,15 @@
       "source_markdown": "company/GPUStack/GPUStack.md",
       "schema_definition": "schema/company.yaml",
       "schema_instance": "schema/nodes/company/GPUStack/GPUStack.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/GPUStack/Yinlin Li",
+      "type": "person",
+      "source_markdown": "company/GPUStack/Yinlin Li.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/GPUStack/Yinlin Li.yaml",
       "status": "complete",
       "missing_required": []
     },
