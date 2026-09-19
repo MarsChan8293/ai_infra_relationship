@@ -1,15 +1,15 @@
 ---
-type: infra-project
+type: project
 name: Checkpoint Engine
-company: 月之暗面
+companies: ["月之暗面"]
 linked_people:
   - "company/月之暗面/checkpoint-engine/HubertZhang"
   - "company/月之暗面/checkpoint-engine/weixiao-huang"
 areas: [reinforcement-learning, weight-transfer, checkpoint-loading, distributed-training, inference-serving, rdma]
-layer: training-serving-data-plane
-open_source: true
+layer: distributed-serving
 repository: https://github.com/MoonshotAI/checkpoint-engine
-related_projects: [Mooncake, SGLang, vLLM, Kimi-K2]
+status: active
+integrations: [Mooncake, SGLang, vLLM]
 last_verified: "2026-09"
 linked_companies:
   - "company/月之暗面/月之暗面"
