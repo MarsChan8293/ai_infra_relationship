@@ -353,7 +353,11 @@ def main() -> int:
     # Export them as derived typed edges so Graph Explorer and downstream
     # consumers can query them without forcing every project to duplicate an
     # equivalent JSON-string relation object.
-    integration_pairs: set[tuple[str, str]] = set()
+    integration_pairs: set[tuple[str, str]] = {
+        tuple(sorted((edge["source"], edge["target"])))
+        for edge in typed_edges
+        if "project-integration" in (edge.get("relation_types") or [])
+    }
     for node in nodes:
         if node.get("type") != "project":
             continue
