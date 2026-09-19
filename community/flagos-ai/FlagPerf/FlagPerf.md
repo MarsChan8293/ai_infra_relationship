@@ -1,14 +1,22 @@
 ---
 type: project
 name: FlagPerf
+status: active
 linked_people: []
 companies: []
 company_relation: community-led
-layer: ai-hardware-benchmark
+layer: benchmark
 repository: https://github.com/flagos-ai/FlagPerf
-open_source: true
-areas: [benchmark, ai-hardware, training, inference, heterogeneous-computing]
-last_verified: 2026-09
+areas:
+  - "benchmark"
+  - "ai-hardware"
+  - "training"
+  - "inference"
+  - "heterogeneous-computing"
+  - "ai-benchmark"
+  - "heterogeneous-benchmark"
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # FlagPerf
