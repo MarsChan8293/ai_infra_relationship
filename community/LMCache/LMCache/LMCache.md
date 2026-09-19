@@ -1,6 +1,8 @@
 ---
 type: project
 name: LMCache
+status: active
+docs: https://docs.lmcache.ai/
 linked_people:
   - "community/LMCache/LMCache/Andy Luo"
   - "community/LMCache/LMCache/chloroethylene"
@@ -23,10 +25,27 @@ linked_people:
   - "company/腾讯/Chunxiao Zheng"
 companies: ["TensorMesh"]
 company_relation: research-to-startup-core-network
-layer: kv-cache-management
-open_source: true
+layer: kv-cache
 repository: https://github.com/LMCache/LMCache
-areas: [kv-cache, distributed-kv-cache, offloading, storage-backend, p2p, disaggregated-serving, multiprocess, cacheblend, vllm-integration, sglang-integration, ascend, rocm, cxl]
+areas:
+  - "kv-cache"
+  - "distributed-kv-cache"
+  - "offloading"
+  - "storage-backend"
+  - "p2p"
+  - "disaggregated-serving"
+  - "multiprocess"
+  - "cacheblend"
+  - "vllm-integration"
+  - "sglang-integration"
+  - "ascend"
+  - "rocm"
+  - "cxl"
+  - "kv-offload"
+  - "prefix-reuse"
+  - "remote-kv-cache"
+  - "kv-transfer"
+  - "observability"
 people:
   - "company/TensorMesh/Junchen Jiang"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
@@ -37,6 +56,12 @@ people:
   - "company/腾讯/Chunxiao Zheng"
   - "community/LMCache/LMCache/Shaoting Feng"
   - "company/IBM/Martin Hickey"
+hardware:
+  - "nvidia"
+integrations:
+  - "vLLM"
+  - "llm-d"
+  - "NIXL"
 last_verified: "2026-09"
 linked_companies:
   - "company/TensorMesh/TensorMesh"
