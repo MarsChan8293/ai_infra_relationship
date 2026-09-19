@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagCX
+status: active
 linked_people:
   - "community/flagos-ai/FlagCX/MC952-arch"
   - "community/flagos-ai/FlagCX/mikethegoblin"
@@ -8,11 +9,16 @@ linked_people:
   - "community/flagos-ai/FlagOS/曹州"
 companies: []
 company_relation: community-led
-layer: collective-communication
+layer: communication
 repository: https://github.com/flagos-ai/FlagCX
-open_source: true
-areas: [collective-communication, heterogeneous-computing, distributed-training, distributed-inference]
-last_verified: 2026-09
+areas:
+  - "collective-communication"
+  - "heterogeneous-computing"
+  - "distributed-training"
+  - "distributed-inference"
+  - "heterogeneous-communication"
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # FlagCX
