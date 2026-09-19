@@ -1,6 +1,10 @@
 ---
 type: project
 name: FlashInfer
+status: active
+repository: https://github.com/flashinfer-ai/flashinfer
+docs: https://docs.flashinfer.ai/
+last_verified: "2026-09"
 linked_people:
   - "community/flashinfer-ai/FlashInfer/aleozlx"
   - "community/flashinfer-ai/FlashInfer/Brian K. Ryu"
@@ -15,9 +19,18 @@ linked_people:
   - "community/sgl-project/SGLang/Yineng Zhang"
 companies: []
 company_relation: community-led-with-industry-contributors
-layer: gpu-kernels
-open_source: true
+layer: runtime
 linked_companies: []
+areas:
+  - "attention-kernels"
+  - "paged-attention"
+  - "lora-kernels"
+  - "kernel-generation"
+hardware:
+  - "nvidia"
+integrations:
+  - "vLLM"
+  - "SGLang"
 ---
 # FlashInfer
 
