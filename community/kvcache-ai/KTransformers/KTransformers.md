@@ -2,6 +2,9 @@
 type: project
 name: KTransformers
 organization: KVCache.AI
+status: active
+repository: https://github.com/kvcache-ai/ktransformers
+last_verified: "2026-09"
 linked_people:
   - "community/kvcache-ai/KTransformers/Boxin Zhang"
   - "community/kvcache-ai/KTransformers/Chen Lin"
@@ -23,10 +26,17 @@ linked_people:
   - "university/清华大学/Mingxing Zhang"
 companies: ["趋境科技"]
 company_relation: industry-academia-core-network
-layer: heterogeneous-inference
-open_source: true
+layer: inference-engine
 linked_companies:
   - "company/趋境科技/趋境科技"
+areas:
+  - "heterogeneous-inference"
+  - "cpu-gpu-offload"
+  - "moe-inference"
+hardware:
+  - "cpu"
+  - "nvidia"
+integrations: []
 ---
 # KTransformers
 
