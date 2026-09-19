@@ -1,0 +1,424 @@
+{
+  "format": "ai-infra-relationship/software-project-migration-v1",
+  "source_repository": "MarsChan8293/ai_infra_docs",
+  "target_repository": "MarsChan8293/ai_infra_relationship",
+  "source_root": "software/projects",
+  "project_count": 59,
+  "scope": "project-only",
+  "concepts_migrated": false,
+  "projects": [
+    {
+      "slug": "vllm",
+      "name": "vLLM",
+      "source_path": "software/projects/vllm.md",
+      "canonical_path": "community/vllm-project/vLLM/vLLM.md",
+      "action": "merge"
+    },
+    {
+      "slug": "sglang",
+      "name": "SGLang",
+      "source_path": "software/projects/sglang.md",
+      "canonical_path": "community/sgl-project/SGLang/SGLang.md",
+      "action": "merge"
+    },
+    {
+      "slug": "tensorrt-llm",
+      "name": "TensorRT-LLM",
+      "source_path": "software/projects/tensorrt-llm.md",
+      "canonical_path": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM.md",
+      "action": "merge"
+    },
+    {
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "source_path": "software/projects/llama-cpp.md",
+      "canonical_path": "community/ggml-org/llama.cpp/llama.cpp.md",
+      "action": "merge"
+    },
+    {
+      "slug": "lightllm",
+      "name": "LightLLM",
+      "source_path": "software/projects/lightllm.md",
+      "canonical_path": "community/ModelTC/LightLLM/LightLLM.md",
+      "action": "merge"
+    },
+    {
+      "slug": "ktransformers",
+      "name": "KTransformers",
+      "source_path": "software/projects/ktransformers.md",
+      "canonical_path": "community/kvcache-ai/KTransformers/KTransformers.md",
+      "action": "merge"
+    },
+    {
+      "slug": "vllm-ascend",
+      "name": "vLLM-Ascend",
+      "source_path": "software/projects/vllm-ascend.md",
+      "canonical_path": "community/vllm-project/vLLM-Ascend/vLLM-Ascend.md",
+      "action": "merge"
+    },
+    {
+      "slug": "mindie-llm",
+      "name": "MindIE-LLM",
+      "source_path": "software/projects/mindie-llm.md",
+      "canonical_path": "community/Ascend/MindIE-LLM/MindIE-LLM.md",
+      "action": "merge"
+    },
+    {
+      "slug": "mindie-sd",
+      "name": "MindIE-SD",
+      "source_path": "software/projects/mindie-sd.md",
+      "canonical_path": "community/Ascend/MindIE-SD/MindIE-SD.md",
+      "action": "merge"
+    },
+    {
+      "slug": "llm-d",
+      "name": "llm-d",
+      "source_path": "software/projects/llm-d.md",
+      "canonical_path": "community/llm-d/llm-d/llm-d.md",
+      "action": "merge"
+    },
+    {
+      "slug": "nvidia-dynamo",
+      "name": "NVIDIA Dynamo",
+      "source_path": "software/projects/nvidia-dynamo.md",
+      "canonical_path": "community/ai-dynamo/Dynamo/Dynamo.md",
+      "action": "merge"
+    },
+    {
+      "slug": "aibrix",
+      "name": "AIBrix",
+      "source_path": "software/projects/aibrix.md",
+      "canonical_path": "community/vllm-project/AIBrix/AIBrix.md",
+      "action": "merge"
+    },
+    {
+      "slug": "kserve",
+      "name": "KServe",
+      "source_path": "software/projects/kserve.md",
+      "canonical_path": "community/kserve/KServe/KServe.md",
+      "action": "create"
+    },
+    {
+      "slug": "ray-serve",
+      "name": "Ray Serve",
+      "source_path": "software/projects/ray-serve.md",
+      "canonical_path": "community/ray-project/Ray-Serve/Ray-Serve.md",
+      "action": "merge"
+    },
+    {
+      "slug": "gateway-api-inference-extension",
+      "name": "Gateway API Inference Extension",
+      "source_path": "software/projects/gateway-api-inference-extension.md",
+      "canonical_path": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension.md",
+      "action": "create"
+    },
+    {
+      "slug": "triton-inference-server",
+      "name": "Triton Inference Server",
+      "source_path": "software/projects/triton-inference-server.md",
+      "canonical_path": "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server.md",
+      "action": "merge"
+    },
+    {
+      "slug": "bentoml",
+      "name": "BentoML",
+      "source_path": "software/projects/bentoml.md",
+      "canonical_path": "community/bentoml/BentoML/BentoML.md",
+      "action": "create"
+    },
+    {
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "source_path": "software/projects/litellm.md",
+      "canonical_path": "community/BerriAI/LiteLLM/LiteLLM.md",
+      "action": "create"
+    },
+    {
+      "slug": "lmcache",
+      "name": "LMCache",
+      "source_path": "software/projects/lmcache.md",
+      "canonical_path": "community/LMCache/LMCache/LMCache.md",
+      "action": "merge"
+    },
+    {
+      "slug": "mooncake",
+      "name": "Mooncake",
+      "source_path": "software/projects/mooncake.md",
+      "canonical_path": "community/kvcache-ai/Mooncake/Mooncake.md",
+      "action": "merge"
+    },
+    {
+      "slug": "3fs",
+      "name": "3FS",
+      "source_path": "software/projects/3fs.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
+      "action": "merge"
+    },
+    {
+      "slug": "nixl",
+      "name": "NIXL",
+      "source_path": "software/projects/nixl.md",
+      "canonical_path": "community/ai-dynamo/NIXL/NIXL.md",
+      "action": "merge"
+    },
+    {
+      "slug": "nccl",
+      "name": "NCCL",
+      "source_path": "software/projects/nccl.md",
+      "canonical_path": "community/NVIDIA/NCCL/NCCL.md",
+      "action": "create"
+    },
+    {
+      "slug": "rccl",
+      "name": "RCCL",
+      "source_path": "software/projects/rccl.md",
+      "canonical_path": "community/ROCm/RCCL/RCCL.md",
+      "action": "create"
+    },
+    {
+      "slug": "deepep",
+      "name": "DeepEP",
+      "source_path": "software/projects/deepep.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/DeepEP.md",
+      "action": "merge"
+    },
+    {
+      "slug": "ucx",
+      "name": "UCX",
+      "source_path": "software/projects/ucx.md",
+      "canonical_path": "community/OpenUCX/UCX/UCX.md",
+      "action": "create"
+    },
+    {
+      "slug": "vccl",
+      "name": "VCCL",
+      "source_path": "software/projects/vccl.md",
+      "canonical_path": "community/sii-research/VCCL/VCCL.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagcx",
+      "name": "FlagCX",
+      "source_path": "software/projects/flagcx.md",
+      "canonical_path": "community/flagos-ai/FlagCX/FlagCX.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flashinfer",
+      "name": "FlashInfer",
+      "source_path": "software/projects/flashinfer.md",
+      "canonical_path": "community/flashinfer-ai/FlashInfer/FlashInfer.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flashattention",
+      "name": "FlashAttention",
+      "source_path": "software/projects/flashattention.md",
+      "canonical_path": "community/Dao-AILab/FlashAttention/FlashAttention.md",
+      "action": "create"
+    },
+    {
+      "slug": "cutlass",
+      "name": "CUTLASS",
+      "source_path": "software/projects/cutlass.md",
+      "canonical_path": "community/NVIDIA/CUTLASS/CUTLASS.md",
+      "action": "create"
+    },
+    {
+      "slug": "deepgemm",
+      "name": "DeepGEMM",
+      "source_path": "software/projects/deepgemm.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flashmla",
+      "name": "FlashMLA",
+      "source_path": "software/projects/flashmla.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/FlashMLA.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flaggems",
+      "name": "FlagGems",
+      "source_path": "software/projects/flaggems.md",
+      "canonical_path": "community/flagos-ai/FlagGems/FlagGems.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagattention",
+      "name": "FlagAttention",
+      "source_path": "software/projects/flagattention.md",
+      "canonical_path": "community/flagos-ai/FlagAttention/FlagAttention.md",
+      "action": "merge"
+    },
+    {
+      "slug": "ops-transformer",
+      "name": "ops-transformer",
+      "source_path": "software/projects/ops-transformer.md",
+      "canonical_path": "community/Ascend/ops-transformer/ops-transformer.md",
+      "action": "merge"
+    },
+    {
+      "slug": "mindie-motor",
+      "name": "MindIE-Motor",
+      "source_path": "software/projects/mindie-motor.md",
+      "canonical_path": "community/Ascend/MindIE-Motor/MindIE-Motor.md",
+      "action": "merge"
+    },
+    {
+      "slug": "tokenspeed",
+      "name": "TokenSpeed",
+      "source_path": "software/projects/tokenspeed.md",
+      "canonical_path": "community/lightseekorg/TokenSpeed/TokenSpeed.md",
+      "action": "merge"
+    },
+    {
+      "slug": "vllm-plugin-fl",
+      "name": "vllm-plugin-FL",
+      "source_path": "software/projects/vllm-plugin-fl.md",
+      "canonical_path": "community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL.md",
+      "action": "merge"
+    },
+    {
+      "slug": "sglang-plugin-fl",
+      "name": "sglang-plugin-FL",
+      "source_path": "software/projects/sglang-plugin-fl.md",
+      "canonical_path": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL.md",
+      "action": "merge"
+    },
+    {
+      "slug": "triton",
+      "name": "Triton",
+      "source_path": "software/projects/triton.md",
+      "canonical_path": "community/triton-lang/Triton/Triton.md",
+      "action": "create"
+    },
+    {
+      "slug": "tilelang",
+      "name": "TileLang",
+      "source_path": "software/projects/tilelang.md",
+      "canonical_path": "community/tile-ai/TileLang/TileLang.md",
+      "action": "merge"
+    },
+    {
+      "slug": "deepjit",
+      "name": "DeepJIT",
+      "source_path": "software/projects/deepjit.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/DeepJIT.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagtree",
+      "name": "FlagTree",
+      "source_path": "software/projects/flagtree.md",
+      "canonical_path": "community/flagos-ai/FlagTree/FlagTree.md",
+      "action": "merge"
+    },
+    {
+      "slug": "colossal-ai",
+      "name": "Colossal-AI",
+      "source_path": "software/projects/colossal-ai.md",
+      "canonical_path": "community/hpcaitech/Colossal-AI/Colossal-AI.md",
+      "action": "merge"
+    },
+    {
+      "slug": "oneflow",
+      "name": "OneFlow",
+      "source_path": "software/projects/oneflow.md",
+      "canonical_path": "community/Oneflow-Inc/OneFlow/OneFlow.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagscale",
+      "name": "FlagScale",
+      "source_path": "software/projects/flagscale.md",
+      "canonical_path": "community/flagos-ai/FlagScale/FlagScale.md",
+      "action": "merge"
+    },
+    {
+      "slug": "kai-scheduler",
+      "name": "KAI-Scheduler",
+      "source_path": "software/projects/kai-scheduler.md",
+      "canonical_path": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.md",
+      "action": "create"
+    },
+    {
+      "slug": "volcano",
+      "name": "Volcano",
+      "source_path": "software/projects/volcano.md",
+      "canonical_path": "community/volcano-sh/Volcano/Volcano.md",
+      "action": "create"
+    },
+    {
+      "slug": "kueue",
+      "name": "Kueue",
+      "source_path": "software/projects/kueue.md",
+      "canonical_path": "community/kubernetes-sigs/Kueue/Kueue.md",
+      "action": "create"
+    },
+    {
+      "slug": "hami",
+      "name": "HAMi",
+      "source_path": "software/projects/hami.md",
+      "canonical_path": "community/Project-HAMi/HAMi/HAMi.md",
+      "action": "merge"
+    },
+    {
+      "slug": "kubernetes-dra",
+      "name": "Kubernetes DRA",
+      "source_path": "software/projects/kubernetes-dra.md",
+      "canonical_path": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA.md",
+      "action": "create"
+    },
+    {
+      "slug": "nvidia-gpu-operator",
+      "name": "NVIDIA GPU Operator",
+      "source_path": "software/projects/nvidia-gpu-operator.md",
+      "canonical_path": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator.md",
+      "action": "create"
+    },
+    {
+      "slug": "nvidia-k8s-device-plugin",
+      "name": "NVIDIA k8s-device-plugin",
+      "source_path": "software/projects/nvidia-k8s-device-plugin.md",
+      "canonical_path": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.md",
+      "action": "create"
+    },
+    {
+      "slug": "deepseek-infra",
+      "name": "DeepSeek-Infra",
+      "source_path": "software/projects/deepseek-infra.md",
+      "canonical_path": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagos",
+      "name": "FlagOS",
+      "source_path": "software/projects/flagos.md",
+      "canonical_path": "community/flagos-ai/FlagOS/FlagOS.md",
+      "action": "merge"
+    },
+    {
+      "slug": "msmodelslim",
+      "name": "msModelSlim",
+      "source_path": "software/projects/msmodelslim.md",
+      "canonical_path": "community/Ascend/msModelSlim/msModelSlim.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagperf",
+      "name": "FlagPerf",
+      "source_path": "software/projects/flagperf.md",
+      "canonical_path": "community/flagos-ai/FlagPerf/FlagPerf.md",
+      "action": "merge"
+    },
+    {
+      "slug": "flagrelease",
+      "name": "FlagRelease",
+      "source_path": "software/projects/flagrelease.md",
+      "canonical_path": "community/flagos-ai/FlagRelease/FlagRelease.md",
+      "action": "merge"
+    }
+  ]
+}
