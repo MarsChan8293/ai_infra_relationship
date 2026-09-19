@@ -1,14 +1,22 @@
 ---
 type: project
 name: vllm-plugin-FL
+status: active
 linked_people: []
 companies: []
 company_relation: community-led
-layer: llm-serving-adapter
+layer: runtime
 repository: https://github.com/flagos-ai/vllm-plugin-FL
-open_source: true
-areas: [vllm, heterogeneous-inference, hardware-backend, llm-serving]
-last_verified: 2026-09
+areas:
+  - "vllm"
+  - "heterogeneous-inference"
+  - "hardware-backend"
+  - "llm-serving"
+  - "vllm-plugin"
+  - "heterogeneous-backend"
+integrations:
+  - "vLLM"
+last_verified: "2026-09"
 linked_companies: []
 ---
 # vllm-plugin-FL
