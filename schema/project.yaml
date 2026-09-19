@@ -49,6 +49,9 @@ fields:
   docs:
     type: string
     description: Canonical official documentation URL when available.
+  parent:
+    type: string
+    description: Optional canonical parent project for a real subproject or monorepo component, for example Ray Serve -> Ray or Kubernetes DRA -> Kubernetes.
   areas:
     type: array[string]
     description: Stable technical focus tags. Do not duplicate a second capabilities taxonomy.
