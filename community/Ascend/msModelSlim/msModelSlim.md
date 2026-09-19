@@ -1,12 +1,18 @@
 ---
 type: project
 name: msModelSlim
+status: active
+last_verified: "2026-09"
 linked_people: []
 companies: ["华为"]
 company_relation: company-led
-layer: model-compression-and-quantization
-hardware: [Ascend]
-open_source: true
+layer: optimization
+hardware:
+  - "ascend"
+areas:
+  - "model-compression"
+  - "quantization"
+integrations: []
 linked_companies:
   - "company/华为/华为"
 ---
