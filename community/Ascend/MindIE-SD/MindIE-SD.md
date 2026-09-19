@@ -1,12 +1,18 @@
 ---
 type: project
 name: MindIE-SD
+status: active
+last_verified: "2026-09"
 linked_people: []
 companies: ["华为"]
 company_relation: company-led
-layer: inference-kernels-and-dispatch
-hardware: [Ascend]
-open_source: true
+layer: inference-engine
+hardware:
+  - "ascend"
+areas:
+  - "diffusion-inference"
+  - "ascend-inference"
+integrations: []
 linked_companies:
   - "company/华为/华为"
 ---
