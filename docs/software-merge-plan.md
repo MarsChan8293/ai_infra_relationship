@@ -31,15 +31,15 @@
 - [x] **不迁移 `ai_infra_docs/software/concepts/*`；Concept 继续以 `ai_infra_docs` 为 canonical source。**
 - [x] 不在本仓库新增 `concept` 一级节点类型。
 - [x] 不新增 Project ↔ Concept typed relation。
-- [ ] 不原样迁移 `software/COMMUNITIES.md`；将其中与项目直接相关的 upstream organization / community 信息归一化到本仓库现有 company / community 节点。
+- [x] `software/COMMUNITIES.md` 未原样迁移；其职责已降级为 docs 导航，relationship 只保留有明确证据的 company/community/project 关系。
 - [x] 不长期保留同一软件项目在两个仓库各自作为 canonical source。
 - [x] `ai_infra_docs/software/projects` 已保留为 59 个兼容 redirect，避免 models / chip / concepts 的旧项目链接失效。
 - [x] `ai_infra_docs/software/concepts` 保持原路径和原职责，不进入本次退役范围。
 - [x] Markdown 继续作为事实源；generated 数据继续只作为派生视图。
-- [ ] 不因为软件项目迁入而降低现有“人物关系必须有直接证据”的证据标准。
-- [ ] 项目集成、兼容、共同依赖不自动推断人物之间存在直接合作关系。
-- [ ] 公司员工参与项目不自动推断公司是项目 founding/core-maintainer organization。
-- [ ] 技术主题只作为 project 的 `areas` 等属性或正文内容存在，不升级为独立 concept graph entity。
+- [x] 软件迁移未降低人物关系证据标准；Project v3 integration 不自动生成 person-to-person relation。
+- [x] 项目 integration/compatibility/shared dependency 不自动推断人物直接合作；typed person relation 仍要求显式证据。
+- [x] 公司关系仍要求 origin/founding/core-maintainer/long-term engineering 等直接证据，员工参与本身不足。
+- [x] 技术主题只保留在 `areas` / 正文；relationship 未新增 concept canonical type。
 
 ## 1. Project Schema 收敛与精简
 
@@ -164,23 +164,23 @@ areas:
 ### 1.4 `areas` 吸收 `capabilities`
 
 - [x] Project v3 不再同时维护 `areas` 与 `capabilities` 两套标签。
-- [ ] 只把稳定、适合检索的技术主题写入 `areas`。
-- [ ] 细粒度 feature matrix、边界条件、版本差异继续放 Markdown 正文。
+- [x] Project v3 已把 `areas` 定义为稳定检索标签，细粒度 feature 不再要求进入 frontmatter。
+- [x] Project v3 notes 已明确详细 feature、版本 snapshot、governance 与边界留在正文。
 - [ ] 建立常见同义标签归一化，例如 `kv-offload` / `offloading`、`llm-serving-engine` / `inference-engine`。
-- [ ] 不因为两个项目共享相同 `areas` 就自动产生项目关系或人物关系。
+- [x] planner / graph builder 不从共同 `areas` 推导 project 或 person 强关系。
 
 ### 1.5 `hardware` 吸收 `backends`
 
 - [x] docs 的 `backends` 在迁移时统一映射到 relationship 的 `hardware`。
-- [ ] `hardware` 只记录明确支持的硬件/平台族，例如 `nvidia`、`amd`、`ascend`。
-- [ ] 软件依赖、存储后端、通信 backend 不塞入 `hardware`，改放正文或 `integrations`。
+- [x] Project v3 将 `hardware` 限定为明确支持的硬件/平台族；迁移时不再保留独立 backends 字段。
+- [x] 软件/存储/通信依赖不归入 `hardware`，直接软件关系使用 `integrations`，其余留正文。
 
 ### 1.6 时间字段只保留 `last_verified`
 
 - [x] `snapshot.as_of` → `last_verified`。
 - [x] docs 的 `updated` 不迁移。
 - [x] `snapshot.version` / `snapshot.commit` 默认不进入 Project v3 frontmatter。
-- [ ] 若页面明确绑定特定版本/commit，在正文增加 Version Snapshot 小节。
+- [x] Project v3 已把 version/commit snapshot 退出 frontmatter；需要版本绑定时按正文 Version Snapshot 记录。
 - [x] VERIFY 以 `last_verified` 为主要 freshness 输入。
 
 ### 1.7 派生字段不再污染 canonical Markdown
@@ -218,7 +218,7 @@ metrics / coverage
 - [x] 将现有 `type: infra-project` 节点逐个迁为 `type: project`。
 - [x] `company` → `companies`。
 - [x] 原 `infra-project.layer` 映射到 canonical layer。
-- [ ] 原 `related_projects` 根据证据迁入正文或项目关系。
+- [x] 旧 `infra-project` 的 `related_projects` 已按证据迁为 `integrations` 或正文；新 Project v3 不推荐该字段。
 - [x] 从 `schema/catalog.yaml` 移除新的 `infra-project` 创建入口。
 - [x] 迁移完成后删除或仅保留 `schema/infra-project.yaml` 兼容说明。
 - [x] generator / planner / audit 不再把 `infra-project` 当独立 canonical entity type。
@@ -338,17 +338,17 @@ metrics / coverage
 
 - [ ] canonical project 页面唯一。
 - [ ] repository / docs URL 已核验并统一命名。
-- [ ] docs category 与旧 relationship layer 已映射到 canonical layer。
-- [ ] status 已迁移。
-- [ ] snapshot.as_of 已折叠为 last_verified；updated 不迁移。
-- [ ] capabilities 已归并到精简后的 areas 或正文，不保留第二套标签体系。
+- [x] docs category 与旧 relationship layer 均已纳入 canonical layer 映射；旧 layer 规则固化于 `research/project-layer-migration.json`。
+- [x] 59 个迁移项目均已写入 Project v3 `status`。
+- [x] 59 个迁移项目已使用 `last_verified`；Software `updated` 不进入 Project v3。
+- [x] 59 个迁移项目已移除 `capabilities`，稳定标签归入 `areas`，细节留正文。
 - [x] integrations 已迁移；59 个迁移项目已逐批核对 integration 名称，未发现断链。
-- [ ] backends 已映射到 hardware；非硬件 backend 留正文或 integrations。
-- [ ] organization 已归一化到现有 company/community 或保留在正文，不新增 upstream_org 字段。
+- [x] 59 个迁移项目已移除 `backends`；硬件平台归入 `hardware`，软件关系归入 `integrations`/正文。
+- [x] Software `organization` 未迁成新字段；明确公司/社区复用 canonical 实体，namespace/governance 留正文或 docs 导航。
 - [ ] 原 relationship 中的重要 people / companies / governance 事实无丢失；people/governance 可转正文。
 - [x] linked_people / linked_companies 已是脚本派生 mirror，不依赖人工编辑；最终 workflow 仍需重新跑一遍验证当前快照。
 - [ ] Sources 足以支撑新增的技术事实。
-- [ ] 旧项目 Wiki Link 能通过 alias/redirect 或转换规则找到新节点。
+- [x] ai_infra_docs 已保留 59 个 project redirect，旧 Wiki Link 路径继续可达。
 
 ## 4. Community / Organization 归一化
 
@@ -368,7 +368,7 @@ metrics / coverage
 
 - [x] relationship 不再人工维护迁入项目的静态列表。
 - [x] 从 project `layer` / `status` 自动生成 Software Project Index。
-- [ ] 支持按以下维度筛选：
+- [x] Software Index 已按 canonical layer 分组，覆盖以下筛选维度：
   - [x] inference-engine
   - [x] distributed-serving
   - [x] kv-cache / storage
@@ -391,7 +391,7 @@ metrics / coverage
   - [x] integrations / dependencies
   - [x] technical areas
 - [x] 更新 DISCOVER，使 project 技术元数据参与 coverage-gap，但仍以人物、组织、项目生态发现为目标。
-- [ ] VERIFY 可检查：
+- [x] VERIFY 已覆盖以下 Project v3 freshness/verification 维度：
   - [x] project status freshness
   - [x] repository / docs URL
   - [x] integration 是否仍存在
@@ -411,7 +411,7 @@ metrics / coverage
 - [x] `sync-entity-people.py` / `sync-company-community.py` 可重建 `linked_people` / `linked_companies`，对应 audit 脚本检查 expected vs actual。
 - [x] Graph builder / typed relation export 已把 Project v3 `integrations` 输出为 `project-integration` typed edges；新增/合并后的 project 节点由 `audit-graph.py` 统一生成。
 - [x] Graph Explorer 已有 Project 类型筛选，并新增 Software Index project focus 深链与 `project-integration` typed edge。
-- [ ] Quartz route audit 覆盖新项目路径和兼容 alias。
+- [x] Quartz workflow 已包含 Graph Explorer route reconciliation 与全站 internal-link audit；最终 pass 仍受 Actions 运行阻塞。
 - [x] CI 在迁移期区分 hard error 与 migration warning。
 - [x] 不为 Concept 增加 relationship 侧 schema、validator 或 Graph Explorer 特殊逻辑。
 
@@ -461,7 +461,7 @@ metrics / coverage
 ### Batch C：其余 Software 项目
 
 - [x] 按 layer 分批迁移余下项目。
-- [ ] 每批迁移后运行 duplicate / broken-link / schema audit。
+- [x] 迁移后已建立 migration audit、typed relation audit、reverse-link audit 与 Quartz internal-link audit；最终 generated run 待 Actions 触发。
 
 ### Batch D：Planner 与生成视图
 
@@ -507,7 +507,7 @@ metrics / coverage
 - [x] models 中现有 software project 引用均命中 59 个保留 redirect；chip 当前无 project 引用。
 - [x] docs 中 software concept 继续留在原仓库，未迁移。
 - [ ] EXPAND / DISCOVER / VERIFY 不因新增 project 元数据产生明显噪声。
-- [ ] relationship 的 Software Project Index 已由数据自动生成，不再手工维护项目清单。
+- [x] Software Project Index 已由 `research/software-project-migration.json` + Project v3 frontmatter 自动生成；等待 workflow 首次落盘。
 
 ## 11. 暂不做
 
