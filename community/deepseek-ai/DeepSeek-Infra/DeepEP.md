@@ -2,6 +2,10 @@
 type: project
 name: DeepEP
 parent: DeepSeek-Infra
+status: active
+repository: https://github.com/deepseek-ai/DeepEP
+docs: https://github.com/deepseek-ai/DeepEP
+last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng"
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
@@ -12,10 +16,19 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Zhean Xu"
 companies: ["深度求索"]
 company_relation: company-led
-layer: expert-parallel-communication
-open_source: true
+layer: communication
 linked_companies:
   - "company/深度求索/深度求索"
+areas:
+  - "expert-parallel"
+  - "all-to-all"
+  - "moe-dispatch"
+  - "moe-combine"
+  - "low-latency"
+hardware:
+  - "nvidia"
+integrations:
+  - "NCCL"
 ---
 # DeepEP
 
