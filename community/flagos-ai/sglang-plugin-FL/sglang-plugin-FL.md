@@ -1,14 +1,22 @@
 ---
 type: project
 name: sglang-plugin-FL
+status: active
 linked_people: []
 companies: []
 company_relation: community-led
-layer: llm-serving-adapter
+layer: runtime
 repository: https://github.com/flagos-ai/sglang-plugin-FL
-open_source: true
-areas: [sglang, heterogeneous-inference, hardware-backend, llm-serving]
-last_verified: 2026-09
+areas:
+  - "sglang"
+  - "heterogeneous-inference"
+  - "hardware-backend"
+  - "llm-serving"
+  - "sglang-plugin"
+  - "heterogeneous-backend"
+integrations:
+  - "SGLang"
+last_verified: "2026-09"
 linked_companies: []
 ---
 # sglang-plugin-FL
