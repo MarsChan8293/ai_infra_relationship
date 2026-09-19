@@ -170,7 +170,7 @@ def relevance_score(text: str) -> tuple[float, list[str]]:
 
 
 def project_freshness_age_months(value: object) -> int | None:
-    match = re.fullmatch(r"(\\d{4})-(\\d{2})", str(value or "").strip())
+    match = re.fullmatch(r"(\d{4})-(\d{2})", str(value or "").strip())
     if not match:
         return None
     year, month = int(match.group(1)), int(match.group(2))
