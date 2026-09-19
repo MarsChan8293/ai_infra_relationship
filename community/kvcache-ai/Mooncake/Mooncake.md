@@ -1,6 +1,8 @@
 ---
 type: project
 name: Mooncake
+status: active
+docs: https://github.com/kvcache-ai/Mooncake
 linked_people:
   - "community/kvcache-ai/Mooncake/Aionw"
   - "community/kvcache-ai/Mooncake/Jialei Cui"
@@ -25,10 +27,19 @@ linked_people:
   - "university/清华大学/Ruoyu Qin"
 companies: ["月之暗面","趋境科技"]
 company_relation: industry-academia-co-development
-layer: kv-cache-centric-serving
-open_source: true
+layer: kv-cache
 repository: https://github.com/kvcache-ai/Mooncake
-areas: [kv-cache, disaggregated-serving, rdma, data-movement, distributed-storage, reinforcement-learning, heterogeneous-interconnect]
+areas:
+  - "kv-cache"
+  - "disaggregated-serving"
+  - "rdma"
+  - "data-movement"
+  - "distributed-storage"
+  - "reinforcement-learning"
+  - "heterogeneous-interconnect"
+  - "transfer-engine"
+  - "distributed-kv-store"
+  - "kv-cache-sharing"
 governance: KVCache.AI community; four official codeowners in MAINTAINERS.md
 people:
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
@@ -38,6 +49,14 @@ people:
 linked_companies:
   - "company/月之暗面/月之暗面"
   - "company/趋境科技/趋境科技"
+hardware:
+  - "nvidia"
+  - "cambricon"
+  - "hygon"
+  - "iluvatar"
+integrations:
+  - "vLLM"
+  - "SGLang"
 last_verified: "2026-09"
 ---
 # Mooncake
