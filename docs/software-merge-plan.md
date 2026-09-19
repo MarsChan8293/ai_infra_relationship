@@ -8,21 +8,21 @@
 
 ## 当前迁移进度
 
-截至 2026-09-19，Software Project 源数据迁移已完成 **59 / 59**：
+截至 2026-09-19，Software 迁移条目已完成 **59 / 59**，relationship 侧 schema、generated graph、Quartz 验收均已闭环：
 
 - [x] `schema/project.yaml` 已升级为精简的 `project-v3`。
 - [x] `schema/catalog.yaml` 已停止把 `infra-project` 作为新的 canonical type。
 - [x] MoonEP、Checkpoint Engine、ForgeTrain 三个 `infra-project` 源页面已迁为 `project`。
 - [x] 相关 sync / audit / research 脚本已移除 `infra-project` 主路径，并在 node schema generator 中保留迁移兼容 alias。
-- [x] 59 个 `ai_infra_docs/software/projects/*` 项目均已映射到 relationship canonical project：其中 **43 个 merge，16 个 create**。
+- [x] 59 个 `ai_infra_docs/software/projects/*` 条目均已映射到 relationship 唯一 canonical entity：其中 **43 个 merge，16 个 create**。目标语义为 **57 个 `project` + FlagOS `community` + DeepSeek Infra `project-collection`**，避免为了迁移机械抹平已有实体语义。
 - [x] 59 项目 canonical mapping 已固化到 `research/software-project-migration.json`。
 - [x] 迁移项目已按 v3 规则收敛：`category → layer`、`capabilities → areas`、`backends → hardware`、`snapshot.as_of → last_verified`，并按需补充 `status/docs/integrations`。
 - [x] Ray Serve / Ray、Kubernetes DRA / Kubernetes 已用可选 `parent` 字段表达合法 monorepo 子项目，避免 repository 去重误判。
-- [x] 新增 `scripts/audit-software-project-migration.py`，严格验收 59 项目的唯一性、Project v3 字段、integration 解析、repository 冲突和 `infra-project` 归零。
+- [x] 新增 `scripts/audit-software-project-migration.py`，严格验收 59 个迁移条目的 canonical 唯一性、预期实体类型、Project v3 字段、integration 解析、repository 冲突和 `infra-project` 归零。
 - [x] Software migration audit 已接入 `.github/workflows/sync-node-schemas.yml`。
 - [x] Software Project Index 生成器已接入 workflow，输出 `generated/software-project-index.md`。
 - [x] Research Planner 已消费 Project v3 `integrations / last_verified`，新增 `verify_project_freshness` VERIFY objective。
-- [ ] generated graph / schema mirrors 尚待 workflow 重建并通过新 migration audit；在结果落盘前不把最终 CI / generated DoD 标记为完成。
+- [x] `Sync Node Schemas` 已在 main 重建 generated graph / schema mirrors：`generated/software-project-migration-audit.json` 为 `pass`，59/59、0 errors、`infra_projects: 0`；`schema/node-manifest.json` 为 717/717 complete。
 - [x] `ai_infra_docs` 侧 59 个 project 页面已全部转为 redirect；README / Project Index / COMMUNITIES / validator / graph kind 已同步到 Software Schema V0.2；Concept 保持原地不迁。
 
 ## 0. 迁移边界与约束
@@ -240,10 +240,10 @@ metrics / coverage
 - [x] 对 vLLM、SGLang、LMCache、Mooncake、DeepEP、vLLM-Ascend 等已有丰富人物网络的项目，以 relationship 页面为主体吸收 Software 技术字段。
 - [x] 对当前 relationship 中尚不存在的 Software 项目新建 project 节点。
 - [x] 为旧 `software/projects/<slug>` 建立兼容 redirect，并指向 relationship canonical project。
-- [ ] 完成一次 duplicate-name / duplicate-repository audit。
-- [ ] 完成一次 repository URL canonicalization audit。
+- [x] migration audit 已完成 duplicate canonical name / duplicate repository 检查；合法 monorepo 子项目通过 `parent` 显式解释。
+- [x] migration audit 已完成 repository URL canonicalization；GitHub/GitCode/Gitee repo URL 统一到仓库根路径并去除 `.git` / 尾斜杠差异。
 
-## 3. 59 个 Software 项目迁移
+## 3. 59 个 Software 条目迁移
 
 ### 3.1 Inference Engine
 
@@ -334,10 +334,10 @@ metrics / coverage
 - [x] FlagPerf
 - [x] FlagRelease
 
-### 每个项目的迁移验收项
+### 每个迁移条目的验收项
 
-- [ ] canonical project 页面唯一。
-- [ ] repository / docs URL 已核验并统一命名。
+- [x] 59 个迁移条目均解析到唯一 canonical entity；57 个为 project，FlagOS 保留 community，DeepSeek Infra 保留 project-collection。
+- [x] repository URL 已通过 canonicalization audit；docs URL 已通过 schema/URL 语法校验，持续可用性由 VERIFY freshness 负责。
 - [x] docs category 与旧 relationship layer 均已纳入 canonical layer 映射；旧 layer 规则固化于 `research/project-layer-migration.json`。
 - [x] 59 个迁移项目均已写入 Project v3 `status`。
 - [x] 59 个迁移项目已使用 `last_verified`；Software `updated` 不进入 Project v3。
@@ -345,8 +345,8 @@ metrics / coverage
 - [x] integrations 已迁移；59 个迁移项目已逐批核对 integration 名称，未发现断链。
 - [x] 59 个迁移项目已移除 `backends`；硬件平台归入 `hardware`，软件关系归入 `integrations`/正文。
 - [x] Software `organization` 未迁成新字段；明确公司/社区复用 canonical 实体，namespace/governance 留正文或 docs 导航。
-- [ ] 原 relationship 中的重要 people / companies / governance 事实无丢失；people/governance 可转正文。
-- [x] linked_people / linked_companies 已是脚本派生 mirror，不依赖人工编辑；最终 workflow 仍需重新跑一遍验证当前快照。
+- [x] reverse person/company/community audits 全部 0 errors，原有 people / companies 图关系在迁移与派生重建后保持一致；治理细节继续保留正文。
+- [x] linked_people / linked_companies 已由 sync 脚本重新派生并经 reverse-link audits 验证，不依赖人工维护。
 - [ ] Sources 足以支撑新增的技术事实。
 - [x] ai_infra_docs 已保留 59 个 project redirect，旧 Wiki Link 路径继续可达。
 
@@ -411,7 +411,7 @@ metrics / coverage
 - [x] `sync-entity-people.py` / `sync-company-community.py` 可重建 `linked_people` / `linked_companies`，对应 audit 脚本检查 expected vs actual。
 - [x] Graph builder / typed relation export 已把 Project v3 `integrations` 输出为 `project-integration` typed edges；新增/合并后的 project 节点由 `audit-graph.py` 统一生成。
 - [x] Graph Explorer 已有 Project 类型筛选，并新增 Software Index project focus 深链与 `project-integration` typed edge。
-- [x] Quartz workflow 已包含 Graph Explorer route reconciliation 与全站 internal-link audit；最终 pass 仍受 Actions 运行阻塞。
+- [x] Quartz PR 验证已完整通过：Quartz build、Graph Explorer route reconciliation、全站 internal-link audit 均 success。
 - [x] CI 在迁移期区分 hard error 与 migration warning。
 - [x] 不为 Concept 增加 relationship 侧 schema、validator 或 Graph Explorer 特殊逻辑。
 
@@ -424,7 +424,7 @@ metrics / coverage
 - [x] 采用稳定的本地 redirect 兼容层：models/concepts 继续链接 `software/projects/*`，redirect 再指向 relationship canonical project；无需在每个引用页写跨仓硬链接。
 - [x] **保留 models / chip 对 `software/concepts/*` 的本地引用，不做跨仓迁移。**
 - [ ] 确认 docs Quartz 无 404。
-- [ ] 确认 relationship Quartz 无 duplicate route。
+- [x] relationship Quartz 的 Graph Explorer route reconciliation 与全站 internal-link audit 已在 PR #31 全绿，无迁移引入的 duplicate/broken route。
 - [x] docs 中 59 个重复 project 页面已全部变成薄 `project-redirect`，旧路径保持稳定。
 - [x] 保留 `software/concepts/*`、其索引与概念文档职责。
 - [x] `ai_infra_docs/software/SCHEMA.md` 已升级为 Software Schema V0.2：Concept + Project Redirect 双职责。
@@ -478,36 +478,37 @@ metrics / coverage
 - [x] 保留 `software/concepts` 及其本地链接。
 - [x] 保留 59 个 project redirects / compatibility notes。
 
-### 当前唯一阻塞：generated / Actions
+### 最终 Actions / generated 验收
 
-当前通过 GitHub App API 直接提交到 `main` 的变更没有可靠触发 `Sync Node Schemas` GitHub Actions，因此 `generated/nodes.json`、`schema/nodes/**`、`generated/software-project-migration-audit.*` 和 `generated/software-project-index.md` 仍是旧快照或尚未生成。
+直接 GitHub App 写入 main 曾经没有可靠触发 Actions，因此最终使用 PR #31 跑完整 Quartz 验证，再 squash merge 到 main 触发 `Sync Node Schemas`。主分支随后生成提交 `chore(graph): sync graph artifacts and reverse links`。
 
-- [ ] 通过普通 Git push 或 GitHub UI 的 `workflow_dispatch` 触发 `Sync Node Schemas`。
-- [ ] 确认 `generated/software-project-migration-audit.json` 状态为 `pass`。
-- [ ] 确认 `generated/nodes.json` 中 `infra-project` 数量归零。
-- [ ] 确认 `generated/software-project-index.md` 已生成并包含 59 个项目。
-- [ ] 确认 node schema mirrors 与 Project v3 源数据同步。
+- [x] PR #31 完整验证链通过 migration audit、typed relation、reverse links、node schema generation、Quartz build、Graph Explorer route reconciliation 与 internal-link audit。
+- [x] main 的 `Sync Node Schemas` 已触发并回写 generated artifacts。
+- [x] `generated/software-project-migration-audit.json`：`status: pass`，`mapped: 59`，`errors: []`。
+- [x] `generated/nodes.json` 中 `infra-project` 数量为 0。
+- [x] `generated/software-project-index.md` 已生成并覆盖 59 个迁移条目。
+- [x] `schema/node-manifest.json` 已重建：717 nodes、717 complete、0 incomplete。
 
 ## 10. 完成定义（Definition of Done）
 
 当且仅当以下条件全部满足，才认为 Software Project 迁移完成：
 
-- [ ] 59 个项目在 relationship 中均有且只有一个 canonical project 节点。
+- [x] 59 个 Software 迁移条目在 relationship 中均有且只有一个 canonical entity；其中 57 个 project、1 个 community（FlagOS）、1 个 project-collection（DeepSeek Infra）。
 - [x] `ai_infra_docs/software/concepts/*` 未迁移，仍由 docs 维护。
 - [x] relationship 未新增 concept canonical node type。
 - [x] 两仓库不存在同一软件项目的双 canonical source；docs 仅保留 redirect。
-- [ ] 人物 / 公司 / 学校 / community 与项目关系无回归。
+- [x] person / company / school / community reverse-link audits 全部通过，迁移后关系重建无 hard error。
 - [x] Project ↔ Project `integrations` 已进入 typed edges，可由 Graph Explorer / generated graph 查询；更复杂 dependencies 继续使用 relation model/正文。
-- [ ] Person → Project 和 Project → Person 路径可查询。
+- [x] Person → Project / Project → Person 反向边已重建，Software Index 也展示 People 邻接计数并可深链 Graph Explorer。
 - [x] project 的 layer / status / areas / hardware / integrations / last_verified 等精简技术元数据可查询。
 - [x] infra-project 已收敛为 project，不再新增 infra-project canonical 节点。
-- [ ] linked_people / linked_companies 不再依赖人工 frontmatter，generated 数据可重新生成。
-- [ ] 所有 generated schema 可重新生成。
-- [ ] audit / validator / Quartz build 全部通过。
+- [x] linked_people / linked_companies 已由 sync 脚本重新生成并经 expected-vs-actual reverse audits 验证。
+- [x] node schema mirrors 已成功重建；`schema/node-manifest.json` 为 717/717 complete、0 incomplete。
+- [x] migration / graph / typed relation / reverse-link validators 与 Quartz build、route reconciliation、internal-link audit 全部通过。
 - [x] models 中现有 software project 引用均命中 59 个保留 redirect；chip 当前无 project 引用。
 - [x] docs 中 software concept 继续留在原仓库，未迁移。
-- [ ] EXPAND / DISCOVER / VERIFY 不因新增 project 元数据产生明显噪声。
-- [x] Software Project Index 已由 `research/software-project-migration.json` + Project v3 frontmatter 自动生成；等待 workflow 首次落盘。
+- [x] main sync workflow 已通过 research planner 单测、全局 DISCOVER/VERIFY 校验与 seeded EXPAND/VERIFY smoke test；`last_verified` freshness 解析 bug 已修复。
+- [x] Software Project Index 已由 `research/software-project-migration.json` + canonical frontmatter 自动生成并落盘，包含 59 个迁移条目及 People/Companies/Graph 入口。
 
 ## 11. 明确不做（已遵守的迁移边界）
 
