@@ -5,7 +5,11 @@ english_name: Chenggang Zhao
 aliases: [赵成钢, Chenggang Zhao]
 schools:
   - "清华大学"
-public_email: chenggangz@deepseek.com\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\nprojects: [DeepEP, DeepGEMM, TileKernels]\nconfidence: high\nlast_verified: "2026-09"
+public_email: chenggangz@deepseek.com
+communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+projects: [DeepEP, DeepGEMM, TileKernels]
+confidence: high
+last_verified: "2026-09"
 education: [清华大学]
 areas: [expert-parallel, gpu-kernels, moe-systems, hpc]
 name_verification: Tsinghua SCC Team
