@@ -166,7 +166,7 @@ areas:
 - [x] Project v3 不再同时维护 `areas` 与 `capabilities` 两套标签。
 - [x] Project v3 已把 `areas` 定义为稳定检索标签，细粒度 feature 不再要求进入 frontmatter。
 - [x] Project v3 notes 已明确详细 feature、版本 snapshot、governance 与边界留在正文。
-- [ ] 建立常见同义标签归一化，例如 `kv-offload` / `offloading`、`llm-serving-engine` / `inference-engine`。
+- [x] 已建立保守同义词归一化表 `research/project-area-normalization.json`；明显同义词可自动收敛，存在语义差异的标签进入 `review_required`。
 - [x] planner / graph builder 不从共同 `areas` 推导 project 或 person 强关系。
 
 ### 1.5 `hardware` 吸收 `backends`
@@ -509,17 +509,17 @@ metrics / coverage
 - [ ] EXPAND / DISCOVER / VERIFY 不因新增 project 元数据产生明显噪声。
 - [x] Software Project Index 已由 `research/software-project-migration.json` + Project v3 frontmatter 自动生成；等待 workflow 首次落盘。
 
-## 11. 暂不做
+## 11. 明确不做（已遵守的迁移边界）
 
-- [ ] 不迁移 `ai_infra_docs/software/concepts`。
-- [ ] 不新增 Concept Schema。
-- [ ] 不新增 Project ↔ Concept 图谱关系。
-- [ ] 不迁移 `ai_infra_docs/chip`。
-- [ ] 不迁移 `ai_infra_docs/models`。
-- [ ] 不把所有 AI Infra 技术知识都塞进 relationship。
-- [ ] 不把论文、博客、教程默认建成一级 graph entity。
-- [ ] 不因技术邻接自动推断人际关系。
-- [ ] 不在 project schema 稳定前批量删除 docs 原项目文件。
-- [ ] 不把 docs 的所有 Software 字段机械搬入 relationship。
-- [ ] 不在 Project v3 新增 `upstream_org` / `capabilities` / `backends` / `snapshot`。
+- [x] 不迁移 `ai_infra_docs/software/concepts`。
+- [x] 不新增 Concept Schema。
+- [x] 不新增 Project ↔ Concept 图谱关系。
+- [x] 不迁移 `ai_infra_docs/chip`。
+- [x] 不迁移 `ai_infra_docs/models`。
+- [x] 不把所有 AI Infra 技术知识都塞进 relationship。
+- [x] 不把论文、博客、教程默认建成一级 graph entity。
+- [x] 不因技术邻接自动推断人际关系。
+- [x] 不在 project schema 稳定前批量删除 docs 原项目文件。
+- [x] 不把 docs 的所有 Software 字段机械搬入 relationship。
+- [x] 不在 Project v3 新增 `upstream_org` / `capabilities` / `backends` / `snapshot`。
 - [x] 不把 `linked_people` / `linked_companies` 当成人工维护的 canonical facts；它们是可重建的物化派生字段。
