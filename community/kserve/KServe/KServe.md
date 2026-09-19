@@ -1,6 +1,7 @@
 ---
 type: project
 name: KServe
+linked_people: []
 layer: distributed-serving
 status: active
 repository: https://github.com/kserve/kserve
@@ -15,6 +16,7 @@ integrations:
   - "vLLM"
   - "Gateway API Inference Extension"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # KServe
 

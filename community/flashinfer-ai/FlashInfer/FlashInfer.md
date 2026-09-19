@@ -2,9 +2,6 @@
 type: project
 name: FlashInfer
 status: active
-repository: https://github.com/flashinfer-ai/flashinfer
-docs: https://docs.flashinfer.ai/
-last_verified: "2026-09"
 linked_people:
   - "community/flashinfer-ai/FlashInfer/aleozlx"
   - "community/flashinfer-ai/FlashInfer/Brian K. Ryu"
@@ -17,6 +14,9 @@ linked_people:
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
   - "community/NVIDIA/TensorRT-LLM/Brian Nguyen"
   - "community/sgl-project/SGLang/Yineng Zhang"
+repository: https://github.com/flashinfer-ai/flashinfer
+docs: https://docs.flashinfer.ai/
+last_verified: "2026-09"
 companies: []
 company_relation: community-led-with-industry-contributors
 layer: runtime

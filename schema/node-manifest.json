@@ -1,20 +1,19 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 696,
-  "complete_count": 696,
+  "node_count": 717,
+  "complete_count": 717,
   "incomplete_count": 0,
   "counts_by_type": {
-    "community": 10,
-    "company": 52,
+    "community": 9,
+    "company": 54,
     "index": 4,
-    "infra-project": 3,
     "model-project": 13,
     "model-team": 1,
     "note": 18,
-    "person": 380,
+    "person": 381,
     "person-link": 4,
-    "project": 126,
+    "project": 148,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 34,
@@ -472,6 +471,33 @@
       "missing_required": []
     },
     {
+      "id": "community/bentoml/BentoML/BentoML",
+      "type": "project",
+      "source_markdown": "community/bentoml/BentoML/BentoML.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/bentoml/BentoML/BentoML.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/BerriAI/LiteLLM/LiteLLM",
+      "type": "project",
+      "source_markdown": "community/BerriAI/LiteLLM/LiteLLM.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/BerriAI/LiteLLM/LiteLLM.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA",
+      "type": "project",
+      "source_markdown": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/cloud-native/Kubernetes-DRA/Kubernetes-DRA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/cloud-native/Kubernetes/Kubernetes",
       "type": "project",
       "source_markdown": "community/cloud-native/Kubernetes/Kubernetes.md",
@@ -486,6 +512,15 @@
       "source_markdown": "community/community.md",
       "schema_definition": "schema/index.yaml",
       "schema_instance": "schema/nodes/community/community.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "type": "project",
+      "source_markdown": "community/Dao-AILab/FlashAttention/FlashAttention.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Dao-AILab/FlashAttention/FlashAttention.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1435,6 +1470,42 @@
       "missing_required": []
     },
     {
+      "id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler",
+      "type": "project",
+      "source_markdown": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kserve/KServe/KServe",
+      "type": "project",
+      "source_markdown": "community/kserve/KServe/KServe.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kserve/KServe/KServe.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "type": "project",
+      "source_markdown": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kubernetes-sigs/Kueue/Kueue",
+      "type": "project",
+      "source_markdown": "community/kubernetes-sigs/Kueue/Kueue.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kubernetes-sigs/Kueue/Kueue.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/kvcache-ai/KTransformers/Boxin Zhang",
       "type": "person",
       "source_markdown": "community/kvcache-ai/KTransformers/Boxin Zhang.md",
@@ -2227,6 +2298,42 @@
       "missing_required": []
     },
     {
+      "id": "community/NVIDIA/CUTLASS/CUTLASS",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/CUTLASS/CUTLASS.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/CUTLASS/CUTLASS.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/NCCL/NCCL",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/NCCL/NCCL.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/NCCL/NCCL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
       "type": "person",
       "source_markdown": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara.md",
@@ -2385,6 +2492,15 @@
       "source_markdown": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/openEuler/openYuanRong/罗站城 Zhancheng Luo.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/OpenUCX/UCX/UCX",
+      "type": "project",
+      "source_markdown": "community/OpenUCX/UCX/UCX.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/OpenUCX/UCX/UCX.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2574,6 +2690,15 @@
       "source_markdown": "community/ray-project/Ray/Ray.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/ray-project/Ray/Ray.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/ROCm/RCCL/RCCL",
+      "type": "project",
+      "source_markdown": "community/ROCm/RCCL/RCCL.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/ROCm/RCCL/RCCL.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2786,9 +2911,9 @@
     },
     {
       "id": "community/tile-ai/TileLang/TileLang",
-      "type": "community",
+      "type": "project",
       "source_markdown": "community/tile-ai/TileLang/TileLang.md",
-      "schema_definition": "schema/community.yaml",
+      "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/tile-ai/TileLang/TileLang.yaml",
       "status": "complete",
       "missing_required": []
@@ -2844,6 +2969,15 @@
       "source_markdown": "community/triton-inference-server/Triton-Inference-Server/Yingge He.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/triton-inference-server/Triton-Inference-Server/Yingge He.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/triton-lang/Triton/Triton",
+      "type": "project",
+      "source_markdown": "community/triton-lang/Triton/Triton.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/triton-lang/Triton/Triton.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3276,6 +3410,15 @@
       "source_markdown": "community/vllm-project/vLLM/游凯超 Kaichao You.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/vllm-project/vLLM/游凯超 Kaichao You.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/volcano-sh/Volcano/Volcano",
+      "type": "project",
+      "source_markdown": "community/volcano-sh/Volcano/Volcano.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/volcano-sh/Volcano/Volcano.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -4163,9 +4306,9 @@
     },
     {
       "id": "company/月之暗面/checkpoint-engine",
-      "type": "infra-project",
+      "type": "project",
       "source_markdown": "company/月之暗面/checkpoint-engine.md",
-      "schema_definition": "schema/infra-project.yaml",
+      "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/company/月之暗面/checkpoint-engine.yaml",
       "status": "complete",
       "missing_required": []
@@ -4217,9 +4360,9 @@
     },
     {
       "id": "company/月之暗面/MoonEP",
-      "type": "infra-project",
+      "type": "project",
       "source_markdown": "company/月之暗面/MoonEP.md",
-      "schema_definition": "schema/infra-project.yaml",
+      "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/company/月之暗面/MoonEP.yaml",
       "status": "complete",
       "missing_required": []
@@ -4621,6 +4764,24 @@
       "missing_required": []
     },
     {
+      "id": "company/爱特思/国产化人工智能算力平台异构并行加速项目",
+      "type": "project",
+      "source_markdown": "company/爱特思/国产化人工智能算力平台异构并行加速项目.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/爱特思/国产化人工智能算力平台异构并行加速项目.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/爱特思/深圳爱特思信息技术有限公司",
+      "type": "company",
+      "source_markdown": "company/爱特思/深圳爱特思信息技术有限公司.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/爱特思/深圳爱特思信息技术有限公司.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/硅基流动/唐安波",
       "type": "person",
       "source_markdown": "company/硅基流动/唐安波.md",
@@ -4743,6 +4904,15 @@
       "source_markdown": "company/腾讯/腾讯.md",
       "schema_definition": "schema/company.yaml",
       "schema_instance": "schema/nodes/company/腾讯/腾讯.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/超聚变/超聚变",
+      "type": "company",
+      "source_markdown": "company/超聚变/超聚变.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/超聚变/超聚变.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -4910,9 +5080,9 @@
     },
     {
       "id": "company/面壁智能/ForgeTrain",
-      "type": "infra-project",
+      "type": "project",
       "source_markdown": "company/面壁智能/ForgeTrain.md",
-      "schema_definition": "schema/infra-project.yaml",
+      "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/company/面壁智能/ForgeTrain.yaml",
       "status": "complete",
       "missing_required": []
@@ -5755,6 +5925,15 @@
       "missing_required": []
     },
     {
+      "id": "university/华南理工大学/异构计算平台并行加速解决方案",
+      "type": "project",
+      "source_markdown": "university/华南理工大学/异构计算平台并行加速解决方案.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/异构计算平台并行加速解决方案.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/华南理工大学/林伟伟 Weiwei Lin",
       "type": "person",
       "source_markdown": "university/华南理工大学/林伟伟 Weiwei Lin.md",
@@ -5778,6 +5957,15 @@
       "source_markdown": "university/华南理工大学/许言午 Yanwu Xu.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/university/华南理工大学/许言午 Yanwu Xu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/华南理工大学/陆璐 Lu Lu",
+      "type": "person",
+      "source_markdown": "university/华南理工大学/陆璐 Lu Lu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/university/华南理工大学/陆璐 Lu Lu.yaml",
       "status": "complete",
       "missing_required": []
     },

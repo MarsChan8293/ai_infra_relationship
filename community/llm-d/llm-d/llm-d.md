@@ -2,9 +2,6 @@
 type: project
 name: llm-d
 status: active
-repository: https://github.com/llm-d/llm-d
-docs: https://llm-d.ai/
-last_verified: "2026-09"
 linked_people:
   - "community/llm-d/llm-d/Abdullah Gharaibeh"
   - "community/llm-d/llm-d/Ashok Chandrasekar"
@@ -21,6 +18,9 @@ linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
   - "community/vllm-project/vLLM/Robert Shaw"
   - "community/vllm-project/vLLM/Tyler Michael Smith"
+repository: https://github.com/llm-d/llm-d
+docs: https://llm-d.ai/
+last_verified: "2026-09"
 governance: cross-company
 companies: ["Red Hat","Google","IBM","CoreWeave","NVIDIA"]
 company_relation: founding-contributors

@@ -2,6 +2,7 @@
 type: project
 name: Kubernetes DRA
 parent: Kubernetes
+linked_people: []
 layer: device-resource
 status: active
 repository: https://github.com/kubernetes/kubernetes
@@ -17,6 +18,7 @@ integrations:
   - "KAI-Scheduler"
   - "NVIDIA GPU Operator"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Kubernetes DRA
 

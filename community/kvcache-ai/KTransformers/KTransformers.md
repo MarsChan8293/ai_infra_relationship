@@ -3,8 +3,6 @@ type: project
 name: KTransformers
 organization: KVCache.AI
 status: active
-repository: https://github.com/kvcache-ai/ktransformers
-last_verified: "2026-09"
 linked_people:
   - "community/kvcache-ai/KTransformers/Boxin Zhang"
   - "community/kvcache-ai/KTransformers/Chen Lin"
@@ -24,6 +22,8 @@ linked_people:
   - "company/深度求索/Shaoyuan Chen"
   - "company/趋境科技/武永卫 Yongwei Wu"
   - "university/清华大学/Mingxing Zhang"
+repository: https://github.com/kvcache-ai/ktransformers
+last_verified: "2026-09"
 companies: ["趋境科技"]
 company_relation: industry-academia-core-network
 layer: inference-engine

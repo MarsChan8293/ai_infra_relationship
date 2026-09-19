@@ -2,9 +2,6 @@
 type: project
 name: SGLang
 status: active
-repository: https://github.com/sgl-project/sglang
-docs: https://docs.sglang.ai/
-last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
   - "community/Ascend/MemCache/nbbb24"
@@ -37,6 +34,9 @@ linked_people:
   - "company/腾讯/Chunxiao Zheng"
   - "university/UC Berkeley/Shiyi Cao"
   - "university/上海交通大学/Xiaoze Fan"
+repository: https://github.com/sgl-project/sglang
+docs: https://docs.sglang.ai/
+last_verified: "2026-09"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
 layer: inference-engine

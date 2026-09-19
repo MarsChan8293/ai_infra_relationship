@@ -2,9 +2,6 @@
 type: project
 name: NVIDIA Dynamo
 status: active
-repository: https://github.com/ai-dynamo/dynamo
-docs: https://docs.nvidia.com/dynamo/
-last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/Dynamo/Alec Flowers"
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
@@ -17,6 +14,9 @@ linked_people:
   - "community/ai-dynamo/NIXL/Adit Ranadive"
   - "community/kvcache-ai/Mooncake/马腾 Teng Ma"
   - "community/triton-inference-server/Triton-Inference-Server/Yingge He"
+repository: https://github.com/ai-dynamo/dynamo
+docs: https://docs.nvidia.com/dynamo/
+last_verified: "2026-09"
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led

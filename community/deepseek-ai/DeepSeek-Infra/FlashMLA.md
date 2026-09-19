@@ -3,11 +3,11 @@ type: project
 name: FlashMLA
 parent: DeepSeek-Infra
 status: active
-repository: https://github.com/deepseek-ai/FlashMLA
-last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
+repository: https://github.com/deepseek-ai/FlashMLA
+last_verified: "2026-09"
 companies: ["深度求索"]
 company_relation: company-led
 layer: runtime

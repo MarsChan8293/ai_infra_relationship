@@ -1,6 +1,7 @@
 ---
 type: project
 name: Triton
+linked_people: []
 layer: compiler
 status: active
 repository: https://github.com/triton-lang/triton
@@ -15,6 +16,7 @@ hardware:
   - "amd"
 integrations:
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Triton
 

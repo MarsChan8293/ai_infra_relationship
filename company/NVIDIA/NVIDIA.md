@@ -42,11 +42,19 @@ projects:
   - "HAMi"
   - "TokenSpeed"
   - "llm-d"
+  - "CUTLASS"
+  - "NCCL"
+  - "NVIDIA GPU Operator"
+  - "NVIDIA k8s-device-plugin"
 linked_projects:
+  - "community/NVIDIA/CUTLASS/CUTLASS"
   - "community/Project-HAMi/HAMi/HAMi"
   - "community/llm-d/llm-d/llm-d"
+  - "community/NVIDIA/NCCL/NCCL"
   - "community/ai-dynamo/NIXL/NIXL"
   - "community/ai-dynamo/Dynamo/Dynamo"
+  - "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator"
+  - "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin"
   - "community/NVIDIA/TensorRT-LLM/TensorRT-LLM"
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
   - "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server"
@@ -112,10 +120,14 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：公司页与社区/项目页均有显式记录。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 - [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[community/NVIDIA/NCCL/NCCL|NCCL]]：公司页与社区/项目页均有显式记录。
 - [[community/ai-dynamo/NIXL/NIXL|NIXL]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 - [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator|NVIDIA GPU Operator]]：公司页与社区/项目页均有显式记录。
+- [[community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin|NVIDIA k8s-device-plugin]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
 - [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：公司页与社区/项目页均有显式记录；关系：`company-led`。

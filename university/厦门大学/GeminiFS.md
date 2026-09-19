@@ -13,6 +13,7 @@ people:
   - "university/上海交通大学/张一鸣 Yiming Zhang"
 governance: NICE Lab research project; upstream repository is deprecated in favor of Tutti
 last_verified: "2026-09"
+linked_companies: []
 ---
 # GeminiFS
 

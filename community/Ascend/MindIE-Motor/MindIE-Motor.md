@@ -2,9 +2,9 @@
 type: project
 name: MindIE-Motor
 status: active
-last_verified: "2026-09"
 linked_people:
   - "community/Ascend/MemCache/吕有辉"
+last_verified: "2026-09"
 companies: ["华为"]
 company_relation: company-led
 layer: runtime

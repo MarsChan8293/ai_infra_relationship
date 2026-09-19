@@ -2,8 +2,6 @@
 type: project
 name: LightLLM
 status: active
-repository: https://github.com/ModelTC/lightllm
-last_verified: "2026-09"
 linked_people:
   - "community/ModelTC/LightLLM/Hailong Yang"
   - "community/ModelTC/LightLLM/Junyi Chen"
@@ -14,6 +12,8 @@ linked_people:
   - "community/ModelTC/LightLLM/Siyu Wu"
   - "community/ModelTC/LightLLM/Su Fubao"
   - "community/ModelTC/LightLLM/Zaijun Wang"
+repository: https://github.com/ModelTC/lightllm
+last_verified: "2026-09"
 companies: ["商汤科技"]
 company_relation: community-led
 layer: inference-engine

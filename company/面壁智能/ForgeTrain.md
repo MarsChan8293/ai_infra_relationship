@@ -1,8 +1,8 @@
 ---
 type: project
 name: ForgeTrain
-companies: ["面壁智能"]
 linked_people: []
+companies: ["面壁智能"]
 areas: [llm-training, cuda-kernels, triton, distributed-training, performance-optimization]
 layer: training
 repository: https://github.com/OpenBMB/ForgeTrain

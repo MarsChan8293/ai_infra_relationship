@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 52,
-  "companies_with_links": 39,
-  "project_community_nodes": 131,
-  "project_community_nodes_with_links": 75,
-  "association_pairs": 94,
-  "asserted_on_both_sides": 94,
+  "company_nodes": 54,
+  "companies_with_links": 41,
+  "project_community_nodes": 158,
+  "project_community_nodes_with_links": 82,
+  "association_pairs": 101,
+  "asserted_on_both_sides": 101,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -29,6 +29,18 @@
   "unresolved_source_values": [],
   "audit_errors": [],
   "pairs": [
+    {
+      "company_id": "company/AMD/AMD",
+      "company_name": "AMD",
+      "entity_id": "community/ROCm/RCCL/RCCL",
+      "entity_name": "RCCL",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
     {
       "company_id": "company/AMD/AMD",
       "company_name": "AMD",
@@ -224,6 +236,18 @@
     {
       "company_id": "company/NVIDIA/NVIDIA",
       "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/CUTLASS/CUTLASS",
+      "entity_name": "CUTLASS",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
       "entity_id": "community/Project-HAMi/HAMi/HAMi",
       "entity_name": "HAMi",
       "entity_type": "project",
@@ -248,6 +272,18 @@
     {
       "company_id": "company/NVIDIA/NVIDIA",
       "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/NCCL/NCCL",
+      "entity_name": "NCCL",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
       "entity_id": "community/ai-dynamo/NIXL/NIXL",
       "entity_name": "NIXL",
       "entity_type": "project",
@@ -264,6 +300,30 @@
       "entity_name": "NVIDIA Dynamo",
       "entity_type": "project",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator",
+      "entity_name": "NVIDIA GPU Operator",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin",
+      "entity_name": "NVIDIA k8s-device-plugin",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"
@@ -682,7 +742,7 @@
       "company_name": "月之暗面",
       "entity_id": "company/月之暗面/checkpoint-engine",
       "entity_name": "Checkpoint Engine",
-      "entity_type": "infra-project",
+      "entity_type": "project",
       "relation": null,
       "sources": [
         "company",
@@ -718,7 +778,7 @@
       "company_name": "月之暗面",
       "entity_id": "company/月之暗面/MoonEP",
       "entity_name": "MoonEP",
-      "entity_type": "infra-project",
+      "entity_type": "project",
       "relation": null,
       "sources": [
         "company",
@@ -790,6 +850,18 @@
       "company_name": "沐曦",
       "entity_id": "community/MetaX-MACA/vLLM-metax/vLLM-metax",
       "entity_name": "vLLM-metax",
+      "entity_type": "project",
+      "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/爱特思/深圳爱特思信息技术有限公司",
+      "company_name": "深圳爱特思信息技术有限公司",
+      "entity_id": "company/爱特思/国产化人工智能算力平台异构并行加速项目",
+      "entity_name": "国产化人工智能算力平台异构并行加速项目",
       "entity_type": "project",
       "relation": "company-led",
       "sources": [
@@ -1086,6 +1158,18 @@
       ]
     },
     {
+      "company_id": "company/超聚变/超聚变",
+      "company_name": "超聚变数字技术股份有限公司",
+      "entity_id": "university/华南理工大学/异构计算平台并行加速解决方案",
+      "entity_name": "异构计算平台并行加速解决方案",
+      "entity_type": "project",
+      "relation": "research-collaboration",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
       "company_id": "company/趋境科技/趋境科技",
       "company_name": "趋境科技",
       "entity_id": "community/kvcache-ai/KTransformers/KTransformers",
@@ -1150,7 +1234,7 @@
       "company_name": "面壁智能",
       "entity_id": "company/面壁智能/ForgeTrain",
       "entity_name": "ForgeTrain",
-      "entity_type": "infra-project",
+      "entity_type": "project",
       "relation": null,
       "sources": [
         "company",

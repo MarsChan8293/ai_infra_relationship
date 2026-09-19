@@ -2,8 +2,8 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 465
-- Person nodes with typed relations: 150 / 380
+- Typed relation edges: 470
+- Person nodes with typed relations: 150 / 381
 - Hard errors: 0
 - Warnings: 12
 
@@ -14,13 +14,14 @@
 - `research-collaboration`: 148
 - `open-source-collaboration`: 90
 - `mentor-network`: 58
-- `technical-collaboration`: 57
+- `technical-collaboration`: 58
 - `cofounder`: 51
 - `advisor`: 43
 - `same-lab`: 31
 - `student`: 23
 - `community-maintainer`: 13
-- `career-connection`: 8
+- `career-connection`: 9
+- `project-integration`: 3
 
 ## Next migration candidates
 
@@ -33,11 +34,11 @@
 | 3 | [[community/hpcaitech/Colossal-AI/Hongxin Liu|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
 | 4 | [[university/启元实验室/王豪杰 Haojie Wang|王豪杰]] | 9.222 | 9 | 1 | 0 |
 | 5 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
-| 6 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
-| 7 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
-| 8 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 8.550 | 7 | 4 | 0 |
-| 9 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
-| 10 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 8.522 | 9 | 3 | 0 |
+| 6 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢]] | 9.009 | 10 | 3 | 0 |
+| 7 | [[community/vllm-project/vLLM/Lucas Wilkinson|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
+| 8 | [[company/趋境科技/卢佳豪 Jiahao Lu|卢佳豪]] | 8.707 | 6 | 2 | 0 |
+| 9 | [[university/启元实验室/潘泽众 Zezhong Pan|潘泽众]] | 8.550 | 7 | 4 | 0 |
+| 10 | [[company/OpenAI/Luke Metz|Luke Metz]] | 8.522 | 9 | 4 | 0 |
 | 11 | [[community/ModelTC/LightLLM/Junyi Chen|Junyi Chen]] | 8.485 | 5 | 2 | 0 |
 | 12 | [[company/腾讯/Stary|Stary]] | 8.485 | 5 | 2 | 0 |
 | 13 | [[community/llm-d/llm-d/Clayton Coleman|Clayton Coleman]] | 8.370 | 8 | 3 | 0 |

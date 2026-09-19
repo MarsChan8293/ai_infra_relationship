@@ -2,9 +2,6 @@
 type: project
 name: NIXL
 status: active
-repository: https://github.com/ai-dynamo/nixl
-docs: https://github.com/ai-dynamo/nixl/blob/main/docs/nixl.md
-last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/NIXL/Adit Ranadive"
   - "community/ai-dynamo/NIXL/Efraim Eygin"
@@ -15,6 +12,9 @@ linked_people:
   - "community/ai-dynamo/NIXL/Rongbing Zhou"
   - "community/ai-dynamo/NIXL/Ryan Hankins"
   - "community/ai-dynamo/NIXL/Tomer Davidor"
+repository: https://github.com/ai-dynamo/nixl
+docs: https://github.com/ai-dynamo/nixl/blob/main/docs/nixl.md
+last_verified: "2026-09"
 governance: company-led
 companies: ["NVIDIA","HPE"]
 company_relation: company-led

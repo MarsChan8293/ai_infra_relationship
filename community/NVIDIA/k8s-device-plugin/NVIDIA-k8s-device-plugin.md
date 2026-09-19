@@ -1,6 +1,7 @@
 ---
 type: project
 name: NVIDIA k8s-device-plugin
+linked_people: []
 layer: device-resource
 status: active
 repository: https://github.com/NVIDIA/k8s-device-plugin
@@ -16,9 +17,10 @@ hardware:
   - "nvidia"
 integrations:
   - "NVIDIA GPU Operator"
-companies:
-  - "NVIDIA"
+companies: ["NVIDIA"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/NVIDIA/NVIDIA"
 ---
 # NVIDIA k8s-device-plugin
 
@@ -53,3 +55,12 @@ last_verified: "2026-09"
 ## 直接来源
 
 - https://github.com/NVIDIA/k8s-device-plugin
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

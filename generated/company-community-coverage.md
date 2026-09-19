@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 52
-- Companies with ≥1 linked project/community: 39
-- Project/community nodes: 131
-- Project/community nodes with ≥1 linked company: 75
-- Bidirectional association pairs: 94
-- Explicitly asserted on both sides: 94
+- Company nodes: 54
+- Companies with ≥1 linked project/community: 41
+- Project/community nodes: 158
+- Project/community nodes with ≥1 linked company: 82
+- Bidirectional association pairs: 101
+- Explicitly asserted on both sides: 101
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -16,6 +16,7 @@
 
 | Company | Community / project | Type | Relation | Explicit source |
 | --- | --- | --- | --- | --- |
+| [[company/AMD/AMD|AMD]] | [[community/ROCm/RCCL/RCCL|RCCL]] | project |  | both |
 | [[company/AMD/AMD|AMD]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/Anyscale/Anyscale|Anyscale]] | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | project | core-commercial-ecosystem | both |
 | [[company/CoreWeave/CoreWeave|CoreWeave]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
@@ -32,10 +33,14 @@
 | [[company/Intel/Intel|Intel]] | [[company/Intel/xFasterTransformer|xFasterTransformer]] | project | company-led | both |
 | [[company/Meta/Meta|Meta]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/Neural Magic/Neural Magic|Neural Magic]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] | project |  | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
+| [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/NCCL/NCCL|NCCL]] | project |  | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | project | company-led | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | project | company-led | both |
+| [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator|NVIDIA GPU Operator]] | project |  | both |
+| [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin|NVIDIA k8s-device-plugin]] | project |  | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | project | company-led | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | project | company-led | both |
@@ -70,16 +75,17 @@
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/MATE/MATE|MATE]] | project | company-led | both |
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/torch_musa/torch_musa|torch_musa]] | project | company-led | both |
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | project | company-led | both |
-| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | infra-project |  | both |
+| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/checkpoint-engine|Checkpoint Engine]] | project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] | community | industry-academia-co-development | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
-| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | infra-project |  | both |
+| [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/MoonEP|MoonEP]] | project |  | both |
 | [[company/月之暗面/月之暗面|月之暗面]] | [[company/月之暗面/Seer|Seer]] | project | industry-academia-research-collaboration | both |
 | [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | project | community-led | both |
 | [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | project | community-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/mcoplib/mcoplib|mcoplib]] | project | company-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/MXDeepEP/MXDeepEP|MXDeepEP]] | project | company-led | both |
 | [[company/沐曦/沐曦|沐曦]] | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | project | company-led | both |
+| [[company/爱特思/深圳爱特思信息技术有限公司|深圳爱特思信息技术有限公司]] | [[company/爱特思/国产化人工智能算力平台异构并行加速项目|国产化人工智能算力平台异构并行加速项目]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | project | company-led | both |
 | [[company/深度求索/深度求索|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | project | company-led | both |
@@ -104,12 +110,13 @@
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | project | company-led | both |
 | [[company/腾讯/腾讯|腾讯]] | [[community/Tencent/HPC-Ops/HPC-Ops|HPC-Ops]] | project | company-led | both |
+| [[company/超聚变/超聚变|超聚变数字技术股份有限公司]] | [[university/华南理工大学/异构计算平台并行加速解决方案|异构计算平台并行加速解决方案]] | project | research-collaboration | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | project | industry-academia-core-network | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] | community | industry-academia-co-development | both |
 | [[company/趋境科技/趋境科技|趋境科技]] | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/道客/道客|道客]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]] | project | cross-company-co-creation | both |
-| [[company/面壁智能/面壁智能|面壁智能]] | [[company/面壁智能/ForgeTrain|ForgeTrain]] | infra-project |  | both |
+| [[company/面壁智能/面壁智能|面壁智能]] | [[company/面壁智能/ForgeTrain|ForgeTrain]] | project |  | both |
 
 ## Recognized non-community project targets
 

@@ -2,14 +2,14 @@
 type: project
 name: Colossal-AI
 status: active
-repository: https://github.com/hpcaitech/ColossalAI
-last_verified: "2026-09"
 linked_people:
   - "community/hpcaitech/Colossal-AI/Hongxin Liu"
   - "community/sgl-project/SGLang/Shenggui Li"
   - "company/字节跳动/方佳瑞 Jiarui Fang"
   - "company/潞晨科技/Haichen Huang"
   - "company/潞晨科技/尤洋 Yang You"
+repository: https://github.com/hpcaitech/ColossalAI
+last_verified: "2026-09"
 companies: ["潞晨科技"]
 company_relation: company-originated
 layer: training

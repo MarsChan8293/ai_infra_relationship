@@ -3,11 +3,11 @@ type: project
 name: Ray Serve
 parent: Ray
 status: active
+linked_people:
+  - "community/vllm-project/vLLM/Simon Mo"
 repository: https://github.com/ray-project/ray
 docs: https://docs.ray.io/en/latest/serve/
 last_verified: "2026-09"
-linked_people:
-  - "community/vllm-project/vLLM/Simon Mo"
 companies: ["Anyscale"]
 company_relation: core-commercial-ecosystem
 layer: distributed-serving

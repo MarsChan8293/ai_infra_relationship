@@ -1,6 +1,7 @@
 ---
 type: project
 name: UCX
+linked_people: []
 layer: communication
 status: active
 repository: https://github.com/openucx/ucx
@@ -19,6 +20,7 @@ hardware:
 integrations:
   - "NIXL"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # UCX
 

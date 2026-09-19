@@ -1,6 +1,7 @@
 ---
 type: project
 name: Volcano
+linked_people: []
 layer: scheduler
 status: active
 repository: https://github.com/volcano-sh/volcano
@@ -14,6 +15,7 @@ areas:
   - "kubernetes"
 integrations:
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Volcano
 

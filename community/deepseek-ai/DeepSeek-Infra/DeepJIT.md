@@ -3,12 +3,12 @@ type: project
 name: DeepJIT
 parent: DeepSeek-Infra
 status: active
-repository: https://github.com/deepseek-ai/DeepJIT
-last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/guyan364"
   - "community/deepseek-ai/DeepSeek-Infra/kurisu6912"
   - "community/deepseek-ai/DeepSeek-Infra/LyricZhao"
+repository: https://github.com/deepseek-ai/DeepJIT
+last_verified: "2026-09"
 companies: ["深度求索"]
 company_relation: company-led
 layer: compiler

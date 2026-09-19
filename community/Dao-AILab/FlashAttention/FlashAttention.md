@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlashAttention
+linked_people: []
 layer: runtime
 status: active
 repository: https://github.com/Dao-AILab/flash-attention
@@ -14,6 +15,7 @@ hardware:
   - "amd"
 integrations:
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FlashAttention
 

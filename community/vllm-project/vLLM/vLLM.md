@@ -2,9 +2,6 @@
 type: project
 name: vLLM
 status: active
-repository: https://github.com/vllm-project/vllm
-docs: https://docs.vllm.ai/
-last_verified: "2026-09"
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
   - "community/LMCache/LMCache/Samm Shen"
@@ -35,6 +32,9 @@ linked_people:
   - "company/TensorMesh/程翊华 Yihua Cheng"
   - "company/腾讯/Baolong Mao"
   - "university/UC Berkeley/Xiangxi Mo"
+repository: https://github.com/vllm-project/vllm
+docs: https://docs.vllm.ai/
+last_verified: "2026-09"
 companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh","Neural Magic"]
 company_relation: cross-company-core-contributors
 layer: inference-engine

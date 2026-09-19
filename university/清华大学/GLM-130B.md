@@ -16,6 +16,7 @@ layer: pretraining-system-model-codesign
 open_source: true
 repository: https://github.com/THUDM/GLM-130B
 last_verified: "2026-09"
+linked_companies: []
 ---
 # GLM-130B
 

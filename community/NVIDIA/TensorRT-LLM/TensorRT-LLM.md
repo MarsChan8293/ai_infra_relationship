@@ -2,9 +2,6 @@
 type: project
 name: TensorRT-LLM
 status: active
-repository: https://github.com/NVIDIA/TensorRT-LLM
-docs: https://docs.nvidia.com/tensorrt-llm/
-last_verified: "2026-09"
 linked_people:
   - "community/NVIDIA/TensorRT-LLM/Anurag Mukkara"
   - "community/NVIDIA/TensorRT-LLM/Brian Nguyen"
@@ -16,6 +13,9 @@ linked_people:
   - "community/NVIDIA/TensorRT-LLM/Yi Zhang"
   - "community/NVIDIA/TensorRT-LLM/Yibin Li"
   - "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang"
+repository: https://github.com/NVIDIA/TensorRT-LLM
+docs: https://docs.nvidia.com/tensorrt-llm/
+last_verified: "2026-09"
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led

@@ -1,10 +1,10 @@
 ---
 type: project
 name: Checkpoint Engine
-companies: ["月之暗面"]
 linked_people:
   - "company/月之暗面/checkpoint-engine/HubertZhang"
   - "company/月之暗面/checkpoint-engine/weixiao-huang"
+companies: ["月之暗面"]
 areas: [reinforcement-learning, weight-transfer, checkpoint-loading, distributed-training, inference-serving, rdma]
 layer: distributed-serving
 repository: https://github.com/MoonshotAI/checkpoint-engine

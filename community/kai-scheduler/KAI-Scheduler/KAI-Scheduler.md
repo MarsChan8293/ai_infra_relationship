@@ -1,6 +1,7 @@
 ---
 type: project
 name: KAI-Scheduler
+linked_people: []
 layer: scheduler
 status: active
 repository: https://github.com/kai-scheduler/KAI-Scheduler
@@ -17,6 +18,7 @@ integrations:
   - "HAMi"
   - "Kubernetes DRA"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # KAI-Scheduler
 

@@ -3,14 +3,14 @@ type: project-collection
 name: DeepSeek Infra
 company: 深度求索
 status: active
-repository: https://github.com/deepseek-ai
-last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Anyi Xu"
   - "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng"
+  - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
   - "community/deepseek-ai/DeepSeek-Infra/guyan364"
   - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
+  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
   - "community/deepseek-ai/DeepSeek-Infra/kurisu6912"
   - "community/deepseek-ai/DeepSeek-Infra/Liang Zhao"
   - "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang"
@@ -25,6 +25,9 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Zhean Xu"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
   - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
+  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
+repository: https://github.com/deepseek-ai
+last_verified: "2026-09"
 companies: [深度求索]
 company_relation: company-led
 layer: ecosystem
@@ -68,9 +71,11 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 
 - [[community/deepseek-ai/DeepSeek-Infra/Anyi Xu|Anyi Xu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Chengqi Deng|Chengqi Deng]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu|Chenhao Xu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/guyan364|guyan364]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：**DeepEP + DeepGEMM 共同作者**。2025 两人同时出现在两个项目的原始作者名单，合作关系覆盖 Expert Parallel communication 与 GEMM / MoE kernels。公开资料不足以确认雇佣起止与直属关系。
+- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/kurisu6912|kurisu6912]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Liyue Zhang|Liyue Zhang]]：社区贡献关联；人物页已明确记录该社区。
@@ -85,6 +90,7 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 - [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]：从 2025 MLA decode kernel 持续推进到 2026 DeepSeek V4.1；2026-09-10 直接提交 V4.1 attention kernels，覆盖 SM100 sparse prefill/decode、FP8 / FP4 KV cache，以及 fused norm + RoPE + attention + RoPE...
 - [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：[[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：**DeepGEMM 共同作者**。两人共同出现在 2025 DeepGEMM 原始公开作者名单；周可行偏 MLIR/compiler 与 GEMM，赵成钢同时横跨 DeepEP 与 MoE communication。关系仅按共同开源项目作者记录，雇佣关系公开未确认。
+- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：**DeepEP + DeepGEMM 共同作者**。两人同时出现在 2025 DeepEP 与 DeepGEMM 的原始公开作者名单，关系横跨 EP communication 与 GEMM/kernel 两层；公开资料不足以据此断言公司汇报关系。
 
 <!-- END AUTO PROJECT PEOPLE -->
 

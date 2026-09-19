@@ -2,15 +2,15 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 52
-- Companies with ≥1 linked person: 45
-- Company-person associations: 224
-- Email-domain-supported associations: 34
-- People with generated linked_companies: 221
-- Project/community nodes: 140
-- Project/community nodes with ≥1 linked person: 103
-- Project/community-person associations: 496
-- Non-company affiliations recognized and routed elsewhere: 97
+- Company nodes: 54
+- Companies with ≥1 linked person: 46
+- Company-person associations: 228
+- Email-domain-supported associations: 37
+- People with generated linked_companies: 225
+- Project/community nodes: 158
+- Project/community nodes with ≥1 linked person: 105
+- Project/community-person associations: 509
+- Non-company affiliations recognized and routed elsewhere: 98
 - Unresolved source values (backlog, non-fatal): 15
 - Audit errors: 0
 
@@ -21,7 +21,7 @@
 | [[company/NVIDIA/NVIDIA|NVIDIA]] | 32 |
 | [[company/华为/华为|华为]] | 20 |
 | [[company/趋境科技/趋境科技|趋境科技]] | 16 |
-| [[company/深度求索/深度求索|深度求索]] | 12 |
+| [[company/深度求索/深度求索|深度求索]] | 15 |
 | [[company/RadixArk/RadixArk|RadixArk]] | 10 |
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
@@ -60,6 +60,7 @@
 | [[company/Samsung/Samsung|Samsung]] | 1 |
 | [[company/摩尔线程/摩尔线程|摩尔线程]] | 1 |
 | [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]] | 1 |
+| [[company/爱特思/深圳爱特思信息技术有限公司|深圳爱特思信息技术有限公司]] | 1 |
 | [[company/积算科技/积算科技|积算科技]] | 1 |
 | [[company/道客/道客|道客]] | 1 |
 | [[company/面壁智能/面壁智能|面壁智能]] | 1 |
@@ -70,28 +71,29 @@
 | --- | ---: |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | 31 |
 | [[community/vllm-project/vLLM/vLLM|vLLM]] | 29 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 22 |
 | [[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] | 21 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra|DeepSeek Infra]] | 19 |
 | [[community/LMCache/LMCache/LMCache|LMCache]] | 19 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | 18 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | 17 |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | 15 |
 | [[community/Ascend/MemCache/MemCache|MemCache]] | 14 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | 11 |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] | 10 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | 9 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | 8 |
 | [[community/flagos-ai/FlagOS/FlagOS|FlagOS]] | 8 |
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 8 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
 | [[community/InfiniTensor/InfiniLM|InfiniLM]] | 7 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 7 |
+| [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/InfiniTensor/InfiniCore|InfiniCore]] | 6 |
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
@@ -107,7 +109,6 @@
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/radixark/Miles/Miles|Miles]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
-| [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
@@ -171,6 +172,8 @@
 | [[community/MetaX-MACA/vLLM-metax/vLLM-metax|vLLM-metax]] | 1 |
 | [[community/MooreThreads/vllm-musa/vllm-musa|vllm-musa]] | 1 |
 | [[community/xPU-IO/xPU-IO|xPU-IO]] | 1 |
+| [[company/爱特思/国产化人工智能算力平台异构并行加速项目|国产化人工智能算力平台异构并行加速项目]] | 1 |
+| [[university/华南理工大学/异构计算平台并行加速解决方案|异构计算平台并行加速解决方案]] | 1 |
 
 ## Unresolved source values
 

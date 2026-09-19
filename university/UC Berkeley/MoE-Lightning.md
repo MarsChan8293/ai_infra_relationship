@@ -12,6 +12,7 @@ people:
   - "university/UC Berkeley/Shiyi Cao"
   - "university/UC Berkeley/Shu Liu"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # MoE-Lightning
 

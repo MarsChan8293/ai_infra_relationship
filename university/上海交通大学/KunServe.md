@@ -13,6 +13,7 @@ people:
   - "university/上海交通大学/Rong Chen"
   - "university/上海交通大学/Haibo Chen"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # KunServe
 

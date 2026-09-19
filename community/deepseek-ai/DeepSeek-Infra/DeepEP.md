@@ -3,17 +3,19 @@ type: project
 name: DeepEP
 parent: DeepSeek-Infra
 status: active
-repository: https://github.com/deepseek-ai/DeepEP
-docs: https://github.com/deepseek-ai/DeepEP
-last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng"
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
+  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
   - "community/deepseek-ai/DeepSeek-Infra/Liang Zhao"
   - "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang"
   - "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou"
   - "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu"
   - "community/deepseek-ai/DeepSeek-Infra/Zhean Xu"
+  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
+repository: https://github.com/deepseek-ai/DeepEP
+docs: https://github.com/deepseek-ai/DeepEP
+last_verified: "2026-09"
 companies: ["深度求索"]
 company_relation: company-led
 layer: communication
@@ -54,11 +56,13 @@ https://github.com/deepseek-ai/DeepEP
 
 - [[community/deepseek-ai/DeepSeek-Infra/Chengqi Deng|Chengqi Deng]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[DeepEP]]：2025 原始公开作者
+- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：项目关联；人物页已明确记录该项目。
 - [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Liyue Zhang|Liyue Zhang]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou|Shangyan Zhou]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu|Yuxuan Liu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepEP]]：2025 公开项目原始作者
 
 <!-- END AUTO PROJECT PEOPLE -->
 

@@ -17,10 +17,9 @@
       "type": "company",
       "name": "AMD",
       "linked_people": "",
-      "projects": [
-        "TokenSpeed"
-      ],
-      "linked_projects": ""
+      "projects": "",
+      "linked_projects": "",
+      "people": ""
     }
   },
   {
@@ -2571,18 +2570,24 @@
     "id": "company/月之暗面/MoonEP",
     "path": "company/月之暗面/MoonEP.md",
     "name": "MoonEP",
-    "type": "infra-project",
+    "type": "project",
     "category": "company",
     "frontmatter": {
-      "type": "infra-project",
-      "company": "月之暗面",
+      "type": "project",
+      "name": "MoonEP",
       "linked_people": [],
+      "companies": [
+        "月之暗面"
+      ],
+      "layer": "communication",
+      "repository": "https://github.com/MoonshotAI/MoonEP",
+      "status": "active",
+      "last_verified": "2026-09",
       "areas": [
         "expert-parallelism",
         "communication",
         "moe"
       ],
-      "open_source": true,
       "linked_companies": ""
     }
   },
@@ -2676,13 +2681,15 @@
     "id": "company/月之暗面/checkpoint-engine",
     "path": "company/月之暗面/checkpoint-engine.md",
     "name": "Checkpoint Engine",
-    "type": "infra-project",
+    "type": "project",
     "category": "company",
     "frontmatter": {
-      "type": "infra-project",
+      "type": "project",
       "name": "Checkpoint Engine",
-      "company": "月之暗面",
       "linked_people": "",
+      "companies": [
+        "月之暗面"
+      ],
       "areas": [
         "reinforcement-learning",
         "weight-transfer",
@@ -2691,14 +2698,13 @@
         "inference-serving",
         "rdma"
       ],
-      "layer": "training-serving-data-plane",
-      "open_source": true,
+      "layer": "distributed-serving",
       "repository": "https://github.com/MoonshotAI/checkpoint-engine",
-      "related_projects": [
+      "status": "active",
+      "integrations": [
         "Mooncake",
         "SGLang",
-        "vLLM",
-        "Kimi-K2"
+        "vLLM"
       ],
       "last_verified": "2026-09",
       "linked_companies": ""
@@ -4026,6 +4032,72 @@
     }
   },
   {
+    "id": "company/爱特思/国产化人工智能算力平台异构并行加速项目",
+    "path": "company/爱特思/国产化人工智能算力平台异构并行加速项目.md",
+    "name": "国产化人工智能算力平台异构并行加速项目",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "国产化人工智能算力平台异构并行加速项目",
+      "linked_people": "",
+      "companies": [
+        "深圳爱特思信息技术有限公司"
+      ],
+      "company_relation": "company-led",
+      "layer": "operator-optimization",
+      "open_source": false,
+      "areas": [
+        "domestic-ai-compute",
+        "operator-optimization",
+        "kernel",
+        "heterogeneous-compute",
+        "model-training",
+        "model-inference",
+        "performance-engineering"
+      ],
+      "hardware": [
+        "Ascend 910",
+        "domestic AI accelerators"
+      ],
+      "governance": "Shenzhen Aitesi company-led R&D and commercialization project",
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "company/爱特思/深圳爱特思信息技术有限公司",
+    "path": "company/爱特思/深圳爱特思信息技术有限公司.md",
+    "name": "深圳爱特思信息技术有限公司",
+    "type": "company",
+    "category": "company",
+    "frontmatter": {
+      "type": "company",
+      "name": "深圳爱特思信息技术有限公司",
+      "aliases": [
+        "深圳爱特思",
+        "Aitesi Shenzhen"
+      ],
+      "linked_people": "",
+      "areas": [
+        "ai-infrastructure",
+        "operator-optimization",
+        "heterogeneous-compute",
+        "ascend",
+        "domestic-ai-accelerators",
+        "hpc",
+        "application-migration"
+      ],
+      "projects": "",
+      "people": "",
+      "founded": "2023",
+      "headquarters": "Shenzhen, China",
+      "last_verified": "2026-09",
+      "linked_projects": ""
+    }
+  },
+  {
     "id": "company/硅基流动/唐安波",
     "path": "company/硅基流动/唐安波.md",
     "name": "唐安波",
@@ -4457,6 +4529,34 @@
       ],
       "projects": "",
       "people": "",
+      "last_verified": "2026-09",
+      "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/超聚变/超聚变",
+    "path": "company/超聚变/超聚变.md",
+    "name": "超聚变数字技术股份有限公司",
+    "type": "company",
+    "category": "company",
+    "frontmatter": {
+      "type": "company",
+      "name": "超聚变数字技术股份有限公司",
+      "aliases": [
+        "超聚变",
+        "xFusion"
+      ],
+      "linked_people": [],
+      "areas": [
+        "ai-infrastructure",
+        "servers",
+        "heterogeneous-compute",
+        "operating-systems",
+        "hpc",
+        "model-deployment"
+      ],
+      "projects": "",
+      "headquarters": "Zhengzhou, China",
       "last_verified": "2026-09",
       "linked_projects": ""
     }
@@ -4917,13 +5017,15 @@
     "id": "company/面壁智能/ForgeTrain",
     "path": "company/面壁智能/ForgeTrain.md",
     "name": "ForgeTrain",
-    "type": "infra-project",
+    "type": "project",
     "category": "company",
     "frontmatter": {
-      "type": "infra-project",
+      "type": "project",
       "name": "ForgeTrain",
-      "company": "面壁智能",
       "linked_people": [],
+      "companies": [
+        "面壁智能"
+      ],
       "areas": [
         "llm-training",
         "cuda-kernels",
@@ -4931,9 +5033,9 @@
         "distributed-training",
         "performance-optimization"
       ],
-      "layer": "training-framework",
-      "open_source": true,
+      "layer": "training",
       "repository": "https://github.com/OpenBMB/ForgeTrain",
+      "status": "active",
       "last_verified": "2026-09",
       "linked_companies": ""
     }
@@ -5568,16 +5670,17 @@
     "frontmatter": {
       "type": "project",
       "name": "MindIE-LLM",
+      "status": "active",
       "linked_people": [],
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "company-led",
-      "layer": "inference-runtime",
-      "hardware": [
-        "Ascend"
-      ],
-      "open_source": true,
+      "layer": "inference-engine",
+      "hardware": "",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -5598,16 +5701,17 @@
     "frontmatter": {
       "type": "project",
       "name": "MindIE-Motor",
+      "status": "active",
       "linked_people": "",
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "company-led",
-      "layer": "distributed-inference-control-plane",
-      "hardware": [
-        "Ascend"
-      ],
-      "open_source": true,
+      "layer": "runtime",
+      "hardware": "",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -5620,16 +5724,17 @@
     "frontmatter": {
       "type": "project",
       "name": "MindIE-SD",
+      "status": "active",
       "linked_people": [],
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "company-led",
-      "layer": "inference-kernels-and-dispatch",
-      "hardware": [
-        "Ascend"
-      ],
-      "open_source": true,
+      "layer": "inference-engine",
+      "hardware": "",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -5712,16 +5817,17 @@
     "frontmatter": {
       "type": "project",
       "name": "msModelSlim",
+      "status": "active",
       "linked_people": [],
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "company-led",
-      "layer": "model-compression-and-quantization",
-      "hardware": [
-        "Ascend"
-      ],
-      "open_source": true,
+      "layer": "optimization",
+      "hardware": "",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -5766,16 +5872,18 @@
     "frontmatter": {
       "type": "project",
       "name": "ops-transformer",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/Ascend/ops-transformer",
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "company-led",
-      "layer": "npu-kernels",
-      "hardware": [
-        "Ascend"
-      ],
-      "open_source": true,
+      "layer": "runtime",
+      "hardware": "",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -5825,6 +5933,47 @@
       ],
       "confidence": "verified",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/BerriAI/LiteLLM/LiteLLM",
+    "path": "community/BerriAI/LiteLLM/LiteLLM.md",
+    "name": "LiteLLM",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "LiteLLM",
+      "linked_people": [],
+      "layer": "distributed-serving",
+      "status": "active",
+      "repository": "https://github.com/BerriAI/litellm",
+      "docs": "https://docs.litellm.ai/",
+      "areas": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/Dao-AILab/FlashAttention/FlashAttention",
+    "path": "community/Dao-AILab/FlashAttention/FlashAttention.md",
+    "name": "FlashAttention",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "FlashAttention",
+      "linked_people": [],
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/Dao-AILab/flash-attention",
+      "docs": "https://github.com/Dao-AILab/flash-attention",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -6510,30 +6659,19 @@
     "frontmatter": {
       "type": "project",
       "name": "LMCache",
+      "status": "active",
+      "docs": "https://docs.lmcache.ai/",
       "linked_people": "",
       "companies": [
         "TensorMesh"
       ],
       "company_relation": "research-to-startup-core-network",
-      "layer": "kv-cache-management",
-      "open_source": true,
+      "layer": "kv-cache",
       "repository": "https://github.com/LMCache/LMCache",
-      "areas": [
-        "kv-cache",
-        "distributed-kv-cache",
-        "offloading",
-        "storage-backend",
-        "p2p",
-        "disaggregated-serving",
-        "multiprocess",
-        "cacheblend",
-        "vllm-integration",
-        "sglang-integration",
-        "ascend",
-        "rocm",
-        "cxl"
-      ],
+      "areas": "",
       "people": "",
+      "hardware": "",
+      "integrations": "",
       "last_verified": "2026-09",
       "linked_companies": ""
     }
@@ -7018,13 +7156,18 @@
     "frontmatter": {
       "type": "project",
       "name": "LightLLM",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/ModelTC/lightllm",
+      "last_verified": "2026-09",
       "companies": [
         "商汤科技"
       ],
       "company_relation": "community-led",
-      "layer": "llm-serving-engine",
-      "open_source": true,
+      "layer": "inference-engine",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -7254,6 +7397,78 @@
     }
   },
   {
+    "id": "community/NVIDIA/CUTLASS/CUTLASS",
+    "path": "community/NVIDIA/CUTLASS/CUTLASS.md",
+    "name": "CUTLASS",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CUTLASS",
+      "linked_people": [],
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/cutlass",
+      "docs": "https://docs.nvidia.com/cutlass/latest/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator",
+    "path": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator.md",
+    "name": "NVIDIA GPU Operator",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "NVIDIA GPU Operator",
+      "linked_people": [],
+      "layer": "device-resource",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/gpu-operator",
+      "docs": "https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/NVIDIA/NCCL/NCCL",
+    "path": "community/NVIDIA/NCCL/NCCL.md",
+    "name": "NCCL",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "NCCL",
+      "linked_people": [],
+      "layer": "communication",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/nccl",
+      "docs": "https://docs.nvidia.com/deeplearning/nccl/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
     "path": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara.md",
     "name": "Anurag Mukkara",
@@ -7335,14 +7550,20 @@
     "frontmatter": {
       "type": "project",
       "name": "TensorRT-LLM",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/NVIDIA/TensorRT-LLM",
+      "docs": "https://docs.nvidia.com/tensorrt-llm/",
+      "last_verified": "2026-09",
       "governance": "company-led",
       "companies": [
         "NVIDIA"
       ],
       "company_relation": "company-led",
-      "layer": "inference-runtime",
-      "open_source": true,
+      "layer": "inference-engine",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -7455,6 +7676,30 @@
     }
   },
   {
+    "id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin",
+    "path": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.md",
+    "name": "NVIDIA k8s-device-plugin",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "NVIDIA k8s-device-plugin",
+      "linked_people": [],
+      "layer": "device-resource",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/k8s-device-plugin",
+      "docs": "https://github.com/NVIDIA/k8s-device-plugin",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/Oneflow-Inc/OneFlow/OneFlow",
     "path": "community/Oneflow-Inc/OneFlow/OneFlow.md",
     "name": "OneFlow",
@@ -7463,14 +7708,40 @@
     "frontmatter": {
       "type": "project",
       "name": "OneFlow",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/Oneflow-Inc/oneflow",
+      "last_verified": "2026-09",
       "companies": [
         "一流科技"
       ],
       "company_relation": "company-originated",
-      "layer": "distributed-deep-learning-framework",
-      "open_source": true,
+      "layer": "training",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/OpenUCX/UCX/UCX",
+    "path": "community/OpenUCX/UCX/UCX.md",
+    "name": "UCX",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "UCX",
+      "linked_people": [],
+      "layer": "communication",
+      "status": "active",
+      "repository": "https://github.com/openucx/ucx",
+      "docs": "https://openucx.readthedocs.io/en/master/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -7523,7 +7794,11 @@
     "frontmatter": {
       "type": "project",
       "name": "HAMi",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/Project-HAMi/HAMi",
+      "docs": "https://project-hami.io/",
+      "last_verified": "2026-09",
       "companies": [
         "第四范式",
         "密瓜智能",
@@ -7532,8 +7807,10 @@
         "华为"
       ],
       "company_relation": "cross-company-maintainer-network",
-      "layer": "kubernetes-heterogeneous-device-virtualization",
-      "open_source": true,
+      "layer": "device-resource",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -7780,6 +8057,30 @@
     }
   },
   {
+    "id": "community/ROCm/RCCL/RCCL",
+    "path": "community/ROCm/RCCL/RCCL.md",
+    "name": "RCCL",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "RCCL",
+      "linked_people": [],
+      "layer": "communication",
+      "status": "active",
+      "repository": "https://github.com/ROCm/rocm-systems",
+      "docs": "https://rocm.docs.amd.com/projects/rccl/en/latest/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "AMD"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/Tencent/HPC-Ops/HPC-Ops",
     "path": "community/Tencent/HPC-Ops/HPC-Ops.md",
     "name": "HPC-Ops",
@@ -7841,14 +8142,20 @@
     "frontmatter": {
       "type": "project",
       "name": "NVIDIA Dynamo",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/ai-dynamo/dynamo",
+      "docs": "https://docs.nvidia.com/dynamo/",
+      "last_verified": "2026-09",
       "governance": "company-led",
       "companies": [
         "NVIDIA"
       ],
       "company_relation": "company-led",
-      "layer": "distributed-inference-orchestration",
-      "open_source": true,
+      "layer": "distributed-serving",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -8129,15 +8436,21 @@
     "frontmatter": {
       "type": "project",
       "name": "NIXL",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/ai-dynamo/nixl",
+      "docs": "https://github.com/ai-dynamo/nixl/blob/main/docs/nixl.md",
+      "last_verified": "2026-09",
       "governance": "company-led",
       "companies": [
         "NVIDIA",
         "HPE"
       ],
       "company_relation": "company-led",
-      "layer": "inference-data-movement",
-      "open_source": true,
+      "layer": "communication",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -8222,6 +8535,27 @@
     }
   },
   {
+    "id": "community/bentoml/BentoML/BentoML",
+    "path": "community/bentoml/BentoML/BentoML.md",
+    "name": "BentoML",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "BentoML",
+      "linked_people": [],
+      "layer": "distributed-serving",
+      "status": "active",
+      "repository": "https://github.com/bentoml/BentoML",
+      "docs": "https://docs.bentoml.com/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/cloud-native/Kubernetes/Kubernetes",
     "path": "community/cloud-native/Kubernetes/Kubernetes.md",
     "name": "Kubernetes",
@@ -8246,6 +8580,27 @@
     }
   },
   {
+    "id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA",
+    "path": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA.md",
+    "name": "Kubernetes DRA",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Kubernetes DRA",
+      "parent": "Kubernetes",
+      "linked_people": [],
+      "layer": "device-resource",
+      "status": "active",
+      "repository": "https://github.com/kubernetes/kubernetes",
+      "docs": "https://kubernetes.io/docs/concepts/scheduling-eviction/dynamic-resource-allocation/",
+      "areas": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/community",
     "path": "community/community.md",
     "name": "community",
@@ -8263,13 +8618,17 @@
       "type": "project",
       "name": "3FS",
       "parent": "DeepSeek-Infra",
+      "status": "active",
       "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/3FS",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "distributed-storage",
-      "open_source": true,
+      "layer": "storage",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -8312,7 +8671,25 @@
     "frontmatter": {
       "type": "person",
       "name": "Chenhao Xu",
-      "public_email": "xch@deepseek.com\\ncommunities: [DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepGEMM, TileKernels]\\nareas: [gpu-kernels, gemm, moe, tilelang]\\nconfidence: high\\nlast_verified: \"2026-09"
+      "public_email": "xch@deepseek.com",
+      "communities": [
+        "DeepGEMM",
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "DeepGEMM",
+        "TileKernels"
+      ],
+      "areas": [
+        "gpu-kernels",
+        "gemm",
+        "moe",
+        "tilelang"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -8325,14 +8702,20 @@
       "type": "project",
       "name": "DeepEP",
       "parent": "DeepSeek-Infra",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DeepEP",
+      "docs": "https://github.com/deepseek-ai/DeepEP",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "expert-parallel-communication",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "communication",
+      "linked_companies": "",
+      "areas": "",
+      "hardware": "",
+      "integrations": ""
     }
   },
   {
@@ -8345,13 +8728,19 @@
       "type": "project",
       "name": "DeepGEMM",
       "parent": "DeepSeek-Infra",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DeepGEMM",
+      "docs": "https://github.com/deepseek-ai/DeepGEMM",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "gpu-kernels",
-      "open_source": true,
+      "layer": "runtime",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -8365,13 +8754,18 @@
       "type": "project",
       "name": "DeepJIT",
       "parent": "DeepSeek-Infra",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DeepJIT",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "kernel-jit",
-      "open_source": true,
+      "layer": "compiler",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -8385,14 +8779,18 @@
       "type": "project-collection",
       "name": "DeepSeek Infra",
       "company": "深度求索",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/deepseek-ai",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "systems-stack",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "ecosystem",
+      "linked_companies": "",
+      "areas": "",
+      "integrations": []
     }
   },
   {
@@ -8464,13 +8862,18 @@
       "type": "project",
       "name": "FlashMLA",
       "parent": "DeepSeek-Infra",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/FlashMLA",
+      "last_verified": "2026-09",
       "companies": [
         "深度求索"
       ],
       "company_relation": "company-led",
-      "layer": "attention-kernels",
-      "open_source": true,
+      "layer": "runtime",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -8543,7 +8946,27 @@
     "frontmatter": {
       "type": "person",
       "name": "Kuai Yu",
-      "public_email": "yukuai@deepseek.com\\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepEP, DeepGEMM, TileKernels]\\nareas: [moe-communication, gemm, gpu-kernels, tilelang]\\nconfidence: high\\nlast_verified: \"2026-09"
+      "public_email": "yukuai@deepseek.com",
+      "communities": [
+        "DeepEP",
+        "DeepGEMM",
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "DeepEP",
+        "DeepGEMM",
+        "TileKernels"
+      ],
+      "areas": [
+        "moe-communication",
+        "gemm",
+        "gpu-kernels",
+        "tilelang"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09"
     }
   },
   {
@@ -9114,7 +9537,21 @@
         "Chenggang Zhao"
       ],
       "schools": "",
-      "public_email": "chenggangz@deepseek.com\\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\\nprojects: [DeepEP, DeepGEMM, TileKernels]\\nconfidence: high\\nlast_verified: \"2026-09",
+      "public_email": "chenggangz@deepseek.com",
+      "communities": [
+        "DeepEP",
+        "DeepGEMM",
+        "DeepSeek-Infra"
+      ],
+      "email_affiliations": "",
+      "linked_companies": "",
+      "projects": [
+        "DeepEP",
+        "DeepGEMM",
+        "TileKernels"
+      ],
+      "confidence": "high",
+      "last_verified": "2026-09",
       "education": [
         "清华大学"
       ],
@@ -9191,19 +9628,14 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagAttention",
+      "status": "active",
       "linked_people": "",
       "companies": [],
       "company_relation": "community-led",
-      "layer": "attention-kernel",
+      "layer": "runtime",
       "repository": "https://github.com/flagos-ai/FlagAttention",
-      "open_source": true,
-      "areas": [
-        "attention",
-        "triton",
-        "kernels",
-        "llm-inference",
-        "heterogeneous-computing"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9217,18 +9649,14 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagCX",
+      "status": "active",
       "linked_people": "",
       "companies": [],
       "company_relation": "community-led",
-      "layer": "collective-communication",
+      "layer": "communication",
       "repository": "https://github.com/flagos-ai/FlagCX",
-      "open_source": true,
-      "areas": [
-        "collective-communication",
-        "heterogeneous-computing",
-        "distributed-training",
-        "distributed-inference"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9308,20 +9736,16 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagGems",
+      "status": "active",
       "linked_people": "",
       "companies": [
         "杭州先进编译科技有限公司"
       ],
       "company_relation": "community-led",
-      "layer": "kernel-library",
+      "layer": "runtime",
       "repository": "https://github.com/flagos-ai/FlagGems",
-      "open_source": true,
-      "areas": [
-        "triton",
-        "kernels",
-        "heterogeneous-computing",
-        "performance-optimization"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": ""
     }
@@ -9386,19 +9810,12 @@
         "智源社区"
       ],
       "linked_people": "",
-      "category": "heterogeneous-ai-system-stack",
-      "repository": "https://github.com/flagos-ai",
+      "layer": "ecosystem",
+      "status": "active",
+      "repository": "https://github.com/flagos-ai/FlagOS",
       "companies": [],
       "company_relation": "community-led",
-      "areas": [
-        "heterogeneous-computing",
-        "llm-training",
-        "llm-inference",
-        "ai-compiler",
-        "kernels",
-        "communication",
-        "benchmarking"
-      ],
+      "areas": "",
       "governance": "BAAI-initiated multi-organization open-source community",
       "people": [
         "敖玉龙",
@@ -9408,6 +9825,7 @@
         "白童心",
         "陈飞宇"
       ],
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9624,19 +10042,14 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagPerf",
+      "status": "active",
       "linked_people": [],
       "companies": [],
       "company_relation": "community-led",
-      "layer": "ai-hardware-benchmark",
+      "layer": "benchmark",
       "repository": "https://github.com/flagos-ai/FlagPerf",
-      "open_source": true,
-      "areas": [
-        "benchmark",
-        "ai-hardware",
-        "training",
-        "inference",
-        "heterogeneous-computing"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9650,18 +10063,14 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagRelease",
+      "status": "active",
       "linked_people": "",
       "companies": [],
       "company_relation": "community-led",
-      "layer": "model-porting-release",
+      "layer": "ecosystem",
       "repository": "https://github.com/flagos-ai/FlagRelease",
-      "open_source": true,
-      "areas": [
-        "model-porting",
-        "deployment",
-        "heterogeneous-inference",
-        "release-engineering"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9719,18 +10128,14 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagScale",
+      "status": "active",
       "linked_people": "",
       "companies": [],
       "company_relation": "community-led",
-      "layer": "distributed-training-serving",
+      "layer": "training",
       "repository": "https://github.com/flagos-ai/FlagScale",
-      "open_source": true,
-      "areas": [
-        "distributed-training",
-        "heterogeneous-training",
-        "llm-inference",
-        "auto-tuning"
-      ],
+      "areas": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9744,21 +10149,17 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagTree",
+      "status": "active",
       "linked_people": "",
       "companies": [
         "杭州先进编译科技有限公司"
       ],
       "company_relation": "community-led",
-      "layer": "ai-compiler",
+      "layer": "compiler",
       "repository": "https://github.com/flagos-ai/FlagTree",
-      "open_source": true,
-      "areas": [
-        "compiler",
-        "triton",
-        "heterogeneous-computing",
-        "multi-backend"
-      ],
+      "areas": "",
       "people": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": ""
     }
@@ -9936,18 +10337,14 @@
     "frontmatter": {
       "type": "project",
       "name": "sglang-plugin-FL",
+      "status": "active",
       "linked_people": [],
       "companies": [],
       "company_relation": "community-led",
-      "layer": "llm-serving-adapter",
+      "layer": "runtime",
       "repository": "https://github.com/flagos-ai/sglang-plugin-FL",
-      "open_source": true,
-      "areas": [
-        "sglang",
-        "heterogeneous-inference",
-        "hardware-backend",
-        "llm-serving"
-      ],
+      "areas": "",
+      "integrations": "",
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -9961,18 +10358,14 @@
     "frontmatter": {
       "type": "project",
       "name": "vllm-plugin-FL",
+      "status": "active",
       "linked_people": [],
       "companies": [],
       "company_relation": "community-led",
-      "layer": "llm-serving-adapter",
+      "layer": "runtime",
       "repository": "https://github.com/flagos-ai/vllm-plugin-FL",
-      "open_source": true,
-      "areas": [
-        "vllm",
-        "heterogeneous-inference",
-        "hardware-backend",
-        "llm-serving"
-      ],
+      "areas": "",
+      "integrations": "",
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -10020,12 +10413,18 @@
     "frontmatter": {
       "type": "project",
       "name": "FlashInfer",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/flashinfer-ai/flashinfer",
+      "docs": "https://docs.flashinfer.ai/",
+      "last_verified": "2026-09",
       "companies": [],
       "company_relation": "community-led-with-industry-contributors",
-      "layer": "gpu-kernels",
-      "open_source": true,
-      "linked_companies": []
+      "layer": "runtime",
+      "linked_companies": [],
+      "areas": "",
+      "hardware": "",
+      "integrations": ""
     }
   },
   {
@@ -10355,41 +10754,20 @@
     "frontmatter": {
       "type": "project",
       "name": "llama.cpp",
+      "status": "active",
+      "docs": "https://github.com/ggml-org/llama.cpp",
       "linked_people": "",
       "companies": [
         "Hugging Face"
       ],
       "company_relation": "joined-hugging-face-maintainer-team",
       "layer": "inference-engine",
-      "open_source": true,
       "repository": "https://github.com/ggml-org/llama.cpp",
-      "areas": [
-        "llm-inference",
-        "vlm-inference",
-        "local-inference",
-        "edge-inference",
-        "quantization",
-        "gguf",
-        "cpu-gpu-hybrid",
-        "multi-backend",
-        "c-cpp",
-        "openai-compatible-server"
-      ],
-      "hardware": [
-        "CPU",
-        "NVIDIA GPU",
-        "AMD GPU",
-        "Apple Silicon",
-        "Ascend NPU",
-        "Intel GPU",
-        "Intel NPU",
-        "Moore Threads GPU",
-        "Snapdragon",
-        "RISC-V",
-        "WebGPU"
-      ],
+      "areas": "",
+      "hardware": "",
       "governance": "ggml-org maintainer network; project remains open-source and technically autonomous after GGML/llama.cpp team joined Hugging Face in 2026",
       "people": "",
+      "integrations": [],
       "last_verified": "2026-09",
       "linked_companies": ""
     }
@@ -10422,13 +10800,18 @@
     "frontmatter": {
       "type": "project",
       "name": "Colossal-AI",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/hpcaitech/ColossalAI",
+      "last_verified": "2026-09",
       "companies": [
         "潞晨科技"
       ],
       "company_relation": "company-originated",
-      "layer": "distributed-training",
-      "open_source": true,
+      "layer": "training",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -10485,6 +10868,86 @@
         "scheduling",
         "gpu-kernels"
       ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler",
+    "path": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.md",
+    "name": "KAI-Scheduler",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KAI-Scheduler",
+      "linked_people": [],
+      "layer": "scheduler",
+      "status": "active",
+      "repository": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "docs": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "areas": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/kserve/KServe/KServe",
+    "path": "community/kserve/KServe/KServe.md",
+    "name": "KServe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KServe",
+      "linked_people": [],
+      "layer": "distributed-serving",
+      "status": "active",
+      "repository": "https://github.com/kserve/kserve",
+      "docs": "https://kserve.github.io/website/",
+      "areas": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+    "path": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension.md",
+    "name": "Gateway API Inference Extension",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Gateway API Inference Extension",
+      "linked_people": [],
+      "layer": "distributed-serving",
+      "status": "active",
+      "repository": "https://github.com/kubernetes-sigs/gateway-api-inference-extension",
+      "docs": "https://gateway-api-inference-extension.sigs.k8s.io/",
+      "areas": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/kubernetes-sigs/Kueue/Kueue",
+    "path": "community/kubernetes-sigs/Kueue/Kueue.md",
+    "name": "Kueue",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Kueue",
+      "linked_people": [],
+      "layer": "scheduler",
+      "status": "active",
+      "repository": "https://github.com/kubernetes-sigs/kueue",
+      "docs": "https://kueue.sigs.k8s.io/docs/",
+      "areas": "",
+      "integrations": "",
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -10709,14 +11172,19 @@
       "type": "project",
       "name": "KTransformers",
       "organization": "KVCache.AI",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/kvcache-ai/ktransformers",
+      "last_verified": "2026-09",
       "companies": [
         "趋境科技"
       ],
       "company_relation": "industry-academia-core-network",
-      "layer": "heterogeneous-inference",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "inference-engine",
+      "linked_companies": "",
+      "areas": "",
+      "hardware": "",
+      "integrations": []
     }
   },
   {
@@ -11107,27 +11575,22 @@
     "frontmatter": {
       "type": "project",
       "name": "Mooncake",
+      "status": "active",
+      "docs": "https://github.com/kvcache-ai/Mooncake",
       "linked_people": "",
       "companies": [
         "月之暗面",
         "趋境科技"
       ],
       "company_relation": "industry-academia-co-development",
-      "layer": "kv-cache-centric-serving",
-      "open_source": true,
+      "layer": "kv-cache",
       "repository": "https://github.com/kvcache-ai/Mooncake",
-      "areas": [
-        "kv-cache",
-        "disaggregated-serving",
-        "rdma",
-        "data-movement",
-        "distributed-storage",
-        "reinforcement-learning",
-        "heterogeneous-interconnect"
-      ],
+      "areas": "",
       "governance": "KVCache.AI community; four official codeowners in MAINTAINERS.md",
       "people": "",
       "linked_companies": "",
+      "hardware": "",
+      "integrations": "",
       "last_verified": "2026-09"
     }
   },
@@ -11180,6 +11643,7 @@
     "frontmatter": {
       "type": "project",
       "name": "TENT",
+      "parent": "Mooncake",
       "linked_people": "",
       "layer": "data-movement",
       "open_source": true,
@@ -11591,7 +12055,10 @@
     "frontmatter": {
       "type": "project",
       "name": "TokenSpeed",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/lightseekorg/TokenSpeed",
+      "last_verified": "2026-09",
       "governance": "foundation-led",
       "organization": "LightSeek Foundation",
       "companies": [
@@ -11601,8 +12068,9 @@
         "阿里巴巴"
       ],
       "company_relation": "cross-company-co-creation",
-      "layer": "agentic-llm-inference-engine",
-      "open_source": true,
+      "layer": "runtime",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -11974,7 +12442,11 @@
     "frontmatter": {
       "type": "project",
       "name": "llm-d",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/llm-d/llm-d",
+      "docs": "https://llm-d.ai/",
+      "last_verified": "2026-09",
       "governance": "cross-company",
       "companies": [
         "Red Hat",
@@ -11984,9 +12456,10 @@
         "NVIDIA"
       ],
       "company_relation": "founding-contributors",
-      "layer": "kubernetes-distributed-inference",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "distributed-serving",
+      "linked_companies": "",
+      "areas": "",
+      "integrations": ""
     }
   },
   {
@@ -12462,13 +12935,20 @@
     "frontmatter": {
       "type": "project",
       "name": "Ray Serve",
+      "parent": "Ray",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/ray-project/ray",
+      "docs": "https://docs.ray.io/en/latest/serve/",
+      "last_verified": "2026-09",
       "companies": [
         "Anyscale"
       ],
       "company_relation": "core-commercial-ecosystem",
       "layer": "distributed-serving",
-      "open_source": true,
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -12500,14 +12980,20 @@
     "frontmatter": {
       "type": "project",
       "name": "SGLang",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/sgl-project/sglang",
+      "docs": "https://docs.sglang.ai/",
+      "last_verified": "2026-09",
       "companies": [
         "RadixArk"
       ],
       "company_relation": "core-maintainer-network",
-      "layer": "llm-serving-engine",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "inference-engine",
+      "linked_companies": "",
+      "areas": "",
+      "hardware": "",
+      "integrations": ""
     }
   },
   {
@@ -12804,13 +13290,17 @@
       "type": "project",
       "name": "VCCL",
       "full_name": "Venus Collective Communication Library",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/sii-research/vccl",
+      "last_verified": "2026-09",
       "companies": [
         "基流科技"
       ],
       "company_relation": "industry-research-co-development",
-      "layer": "collective-communication",
-      "open_source": true,
+      "layer": "communication",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -13085,16 +13575,21 @@
     "id": "community/tile-ai/TileLang/TileLang",
     "path": "community/tile-ai/TileLang/TileLang.md",
     "name": "TileLang",
-    "type": "community",
+    "type": "project",
     "category": "community",
     "frontmatter": {
-      "type": "community",
+      "type": "project",
       "name": "TileLang",
       "linked_people": "",
-      "category": "ai-compiler-kernel-dsl",
+      "layer": "compiler",
+      "status": "active",
+      "repository": "https://github.com/tile-ai/tilelang",
+      "last_verified": "2026-09",
       "companies": [],
       "company_relation": "academic-research-led",
-      "github": "https://github.com/tile-ai/tilelang",
+      "areas": "",
+      "hardware": "",
+      "integrations": [],
       "linked_companies": []
     }
   },
@@ -13185,13 +13680,19 @@
     "frontmatter": {
       "type": "project",
       "name": "Triton Inference Server",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/triton-inference-server/server",
+      "docs": "https://docs.nvidia.com/deeplearning/triton-inference-server/",
+      "last_verified": "2026-09",
       "companies": [
         "NVIDIA"
       ],
       "company_relation": "company-led",
-      "layer": "production-inference-server",
-      "open_source": true,
+      "layer": "distributed-serving",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -13215,6 +13716,27 @@
         "Active Contributor"
       ],
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/triton-lang/Triton/Triton",
+    "path": "community/triton-lang/Triton/Triton.md",
+    "name": "Triton",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Triton",
+      "linked_people": [],
+      "layer": "compiler",
+      "status": "active",
+      "repository": "https://github.com/triton-lang/triton",
+      "docs": "https://triton-lang.org/main/index.html",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -13258,13 +13780,17 @@
       "type": "project",
       "name": "AIBrix",
       "parent": "vLLM Project",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/vllm-project/aibrix",
+      "last_verified": "2026-09",
       "companies": [
         "字节跳动"
       ],
       "company_relation": "company-originated",
-      "layer": "cloud-native-inference-infrastructure",
-      "open_source": true,
+      "layer": "distributed-serving",
+      "areas": "",
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -13865,7 +14391,11 @@
     "frontmatter": {
       "type": "project",
       "name": "vLLM",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/vllm-project/vllm",
+      "docs": "https://docs.vllm.ai/",
+      "last_verified": "2026-09",
       "companies": [
         "Inferact",
         "Red Hat",
@@ -13876,8 +14406,10 @@
       ],
       "company_relation": "cross-company-core-contributors",
       "layer": "inference-engine",
-      "open_source": true,
-      "linked_companies": ""
+      "linked_companies": "",
+      "areas": "",
+      "hardware": "",
+      "integrations": ""
     }
   },
   {
@@ -14206,14 +14738,19 @@
     "frontmatter": {
       "type": "project",
       "name": "vLLM-Ascend",
+      "status": "active",
       "linked_people": "",
+      "repository": "https://github.com/vllm-project/vllm-ascend",
+      "last_verified": "2026-09",
       "companies": [
         "华为"
       ],
       "company_relation": "hardware-ecosystem-core-contributor",
-      "layer": "hardware-backend",
-      "open_source": true,
-      "linked_companies": ""
+      "layer": "inference-engine",
+      "linked_companies": "",
+      "areas": "",
+      "hardware": "",
+      "integrations": ""
     }
   },
   {
@@ -14569,6 +15106,26 @@
         "VeRL-Omni",
         "LiveServe"
       ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/volcano-sh/Volcano/Volcano",
+    "path": "community/volcano-sh/Volcano/Volcano.md",
+    "name": "Volcano",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Volcano",
+      "linked_people": [],
+      "layer": "scheduler",
+      "status": "active",
+      "repository": "https://github.com/volcano-sh/volcano",
+      "docs": "https://volcano.sh/en/docs/",
+      "areas": "",
+      "integrations": "",
       "last_verified": "2026-09",
       "linked_companies": []
     }
@@ -15151,7 +15708,8 @@
         "memory-optimization"
       ],
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -15918,7 +16476,8 @@
         "elasticity"
       ],
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -16686,7 +17245,8 @@
       ],
       "governance": "SCUT ACAT academic research system",
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -16747,7 +17307,9 @@
         "llm-inference",
         "cloud-computing",
         "edge-inference",
-        "domestic-ai-accelerators"
+        "domestic-ai-accelerators",
+        "operator-optimization",
+        "open-source-os"
       ],
       "website": "https://www.scut.edu.cn/",
       "country": "China",
@@ -16783,6 +17345,41 @@
       "country": "China",
       "city": "Guangzhou",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "university/华南理工大学/异构计算平台并行加速解决方案",
+    "path": "university/华南理工大学/异构计算平台并行加速解决方案.md",
+    "name": "异构计算平台并行加速解决方案",
+    "type": "project",
+    "category": "university",
+    "frontmatter": {
+      "type": "project",
+      "name": "异构计算平台并行加速解决方案",
+      "linked_people": "",
+      "companies": [
+        "超聚变数字技术股份有限公司"
+      ],
+      "company_relation": "research-collaboration",
+      "layer": "heterogeneous-compute-platform",
+      "open_source": false,
+      "areas": [
+        "heterogeneous-compute",
+        "operator-optimization",
+        "ai-model-deployment",
+        "openEuler",
+        "hpc",
+        "multi-node-communication",
+        "performance-engineering"
+      ],
+      "hardware": [
+        "Kunpeng",
+        "Ascend NPU"
+      ],
+      "governance": "SCUT Lu Lu team + xFusion joint innovation; solution built on openEuler/FusionOS ecosystem",
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -16898,6 +17495,48 @@
     }
   },
   {
+    "id": "university/华南理工大学/陆璐 Lu Lu",
+    "path": "university/华南理工大学/陆璐 Lu Lu.md",
+    "name": "陆璐",
+    "type": "person",
+    "category": "university",
+    "frontmatter": {
+      "type": "person",
+      "name": "陆璐",
+      "english_name": "Lu Lu",
+      "aliases": [
+        "Lu Lu",
+        "陆璐"
+      ],
+      "current_affiliations": [
+        "华南理工大学",
+        "深圳爱特思信息技术有限公司"
+      ],
+      "public_email": "lul@scut.edu.cn",
+      "schools": "",
+      "linked_companies": "",
+      "projects": "",
+      "areas": [
+        "heterogeneous-compute",
+        "hpc",
+        "operator-optimization",
+        "ai-compute",
+        "ascend",
+        "kunpeng",
+        "open-source-os",
+        "multi-node-communication",
+        "model-deployment"
+      ],
+      "roles": [
+        "Professor",
+        "Founder"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "university/南京大学/南京大学",
     "path": "university/南京大学/南京大学.md",
     "name": "南京大学",
@@ -16956,7 +17595,8 @@
       ],
       "people": "",
       "governance": "NICE Lab research project; upstream repository is deprecated in favor of Tutti",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -17362,7 +18002,8 @@
         "triton"
       ],
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -17387,7 +18028,8 @@
         "pipeline"
       ],
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -17580,7 +18222,8 @@
         "cpu-gpu-pipeline"
       ],
       "people": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -17604,7 +18247,8 @@
       "layer": "pretraining-system-model-codesign",
       "open_source": true,
       "repository": "https://github.com/THUDM/GLM-130B",
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -18384,7 +19028,8 @@
       "related_projects": [
         "vLLM-Omni"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-09",
+      "linked_companies": []
     }
   },
   {
@@ -18477,6 +19122,7 @@
       "labs": [
         "先进计算研究部"
       ],
+      "people": "",
       "website": "https://www.pcl.ac.cn/",
       "country": "China",
       "city": "Shenzhen",

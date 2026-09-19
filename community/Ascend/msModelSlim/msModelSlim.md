@@ -2,8 +2,8 @@
 type: project
 name: msModelSlim
 status: active
-last_verified: "2026-09"
 linked_people: []
+last_verified: "2026-09"
 companies: ["华为"]
 company_relation: company-led
 layer: optimization

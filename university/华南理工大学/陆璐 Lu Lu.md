@@ -3,12 +3,12 @@ type: person
 name: 陆璐
 english_name: Lu Lu
 aliases: ["Lu Lu", "陆璐"]
-current_affiliations:
-  - "华南理工大学"
-  - "深圳爱特思信息技术有限公司"
+current_affiliations: ["华南理工大学","深圳爱特思信息技术有限公司"]
 public_email: lul@scut.edu.cn
 schools:
   - "华南理工大学"
+linked_companies:
+  - "company/爱特思/深圳爱特思信息技术有限公司"
 projects:
   - "异构计算平台并行加速解决方案"
   - "国产化人工智能算力平台异构并行加速项目"
@@ -66,6 +66,10 @@ relations:
 - [[university/鹏城实验室/鹏城实验室|鹏城实验室]]：2025 年公开嘉宾资料仍将其列为“双聘教授”。本页保留带时间戳的 affiliation，不把它强写成 2026 年持续在任。
 - [[company/爱特思/深圳爱特思信息技术有限公司|深圳爱特思]]：2025–2026 公开资料仍显示其为创始人 / 法定代表人。
 
+
+## 学校关联
+- [[university/华南理工大学/华南理工大学|华南理工大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 - https://www.ccf.org.cn/Chapters/TC/11_list/TCSE/
 - https://www.xfusion.com/minisite/cn/xfusion-explorer-summit2025
@@ -75,3 +79,12 @@ relations:
 - https://job.zust.edu.cn/positionDetail/2851114f08284a1ab9fa4b872482f94c
 - https://www.pazhoulab.com/2025/10/7091/
 - https://patents.google.com/patent/CN117851738A/zh
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/爱特思/深圳爱特思信息技术有限公司|深圳爱特思信息技术有限公司]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

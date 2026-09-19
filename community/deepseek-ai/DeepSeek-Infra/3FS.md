@@ -3,9 +3,9 @@ type: project
 name: 3FS
 parent: DeepSeek-Infra
 status: active
+linked_people: []
 repository: https://github.com/deepseek-ai/3FS
 last_verified: "2026-09"
-linked_people: []
 companies: ["深度求索"]
 company_relation: company-led
 layer: storage

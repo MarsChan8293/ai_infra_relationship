@@ -2,14 +2,14 @@
 type: project
 name: Triton Inference Server
 status: active
-repository: https://github.com/triton-inference-server/server
-docs: https://docs.nvidia.com/deeplearning/triton-inference-server/
-last_verified: "2026-09"
 linked_people:
   - "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi"
   - "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang"
   - "community/triton-inference-server/Triton-Inference-Server/Sai Kiran Polisetty"
   - "community/triton-inference-server/Triton-Inference-Server/Yingge He"
+repository: https://github.com/triton-inference-server/server
+docs: https://docs.nvidia.com/deeplearning/triton-inference-server/
+last_verified: "2026-09"
 companies: ["NVIDIA"]
 company_relation: company-led
 layer: distributed-serving

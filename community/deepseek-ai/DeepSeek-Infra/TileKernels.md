@@ -2,10 +2,13 @@
 type: project
 name: TileKernels
 linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
   - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
+  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
   - "community/deepseek-ai/DeepSeek-Infra/Rui Tian"
   - "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao"
   - "community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang"
+  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 companies: ["深度求索"]
 company_relation: company-led
 layer: gpu-kernels
@@ -52,10 +55,16 @@ TileKernels 是 DeepSeek 基于 [[community/tile-ai/TileLang/TileLang|TileLang]]
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu|Chenhao Xu]]：Project source / contributor context: https://github.com/deepseek-ai
+- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml
 - [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao|Huanqi Cao]]：[[TileKernels]]：官方 citation 与 package author。
+- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：Project source / contributor context: https://github.com/deepseek-ai
+- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml
 - [[community/deepseek-ai/DeepSeek-Infra/Rui Tian|Rui Tian]]：[[TileKernels]]：官方 citation / package author；GitHub `tianr22` 提交 Engram kernel revision，package metadata 同时公开 `tianr22@deepseek.com`，因此 handle ↔ 姓名映射可核验。
 - [[community/deepseek-ai/DeepSeek-Infra/Weilin Zhao|Weilin Zhao]]：https://github.com/deepseek-ai/TileKernels/blob/main/README.md
 - [[community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang|Xiangwen Wang]]：https://github.com/deepseek-ai/TileKernels/blob/main/README.md
+- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepGEMM]]：2025 公开项目原始作者
+- [[TileKernels]]：2026 官方 citation / package author，继续连接 MoE routing、quantization 与 TileLang-based kernel 路线
 
 <!-- END AUTO PROJECT PEOPLE -->
 

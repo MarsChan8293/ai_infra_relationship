@@ -3,8 +3,6 @@ type: project
 name: AIBrix
 parent: vLLM Project
 status: active
-repository: https://github.com/vllm-project/aibrix
-last_verified: "2026-09"
 linked_people:
   - "community/vllm-project/AIBrix/Chenyu Jiang"
   - "community/vllm-project/AIBrix/CYJiang"
@@ -13,6 +11,8 @@ linked_people:
   - "community/vllm-project/AIBrix/Jianliang Qi"
   - "community/vllm-project/AIBrix/Jingyuan Zhang"
   - "community/vllm-project/AIBrix/Xin Li"
+repository: https://github.com/vllm-project/aibrix
+last_verified: "2026-09"
 companies: ["字节跳动"]
 company_relation: company-originated
 layer: distributed-serving

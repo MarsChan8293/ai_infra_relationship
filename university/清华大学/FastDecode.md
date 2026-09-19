@@ -11,6 +11,7 @@ people:
   - "company/字节跳动/何家傲 Jiaao He"
   - "company/清程极智/翟季冬 Jidong Zhai"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FastDecode
 

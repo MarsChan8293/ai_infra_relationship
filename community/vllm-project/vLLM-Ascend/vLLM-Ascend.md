@@ -2,8 +2,6 @@
 type: project
 name: vLLM-Ascend
 status: active
-repository: https://github.com/vllm-project/vllm-ascend
-last_verified: "2026-09"
 linked_people:
   - "community/Ascend/MemCache/ader47"
   - "community/Ascend/MemCache/DreamerLeader"
@@ -22,6 +20,8 @@ linked_people:
   - "community/vllm-project/vLLM-Ascend/zzzzwwjj"
   - "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu"
   - "community/vllm-project/vLLM-Omni/Canlin Guo"
+repository: https://github.com/vllm-project/vllm-ascend
+last_verified: "2026-09"
 companies: ["华为"]
 company_relation: hardware-ecosystem-core-contributor
 layer: inference-engine

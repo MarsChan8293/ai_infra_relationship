@@ -12,6 +12,7 @@ people:
   - "university/香港中文大学/James Cheng"
 related_projects: ["vLLM-Omni"]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # LiveServe
 

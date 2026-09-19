@@ -7648,6 +7648,39 @@
     ]
   },
   {
+    "source": "university/华南理工大学/陆璐 Lu Lu",
+    "target": "company/AMD/AMD",
+    "kind": "typed-relation",
+    "relation_types": [
+      "career-connection"
+    ],
+    "project": null,
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://scc.ustc.edu.cn/pxxx/201307/t20130720_155061.html"
+    ]
+  },
+  {
+    "source": "university/华南理工大学/陆璐 Lu Lu",
+    "target": "company/超聚变/超聚变",
+    "kind": "typed-relation",
+    "relation_types": [
+      "technical-collaboration"
+    ],
+    "project": "异构计算平台并行加速解决方案",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [
+      "https://www.xfusion.com/cn/news/fusionos-openeuler-summit-2023",
+      "https://www.openeuler.org/zh/showcase/education/huanan/"
+    ]
+  },
+  {
     "source": "university/厦门大学/Shi Qiu",
     "target": "university/上海交通大学/张一鸣 Yiming Zhang",
     "kind": "typed-relation",
@@ -8437,5 +8470,50 @@
     "evidence": [
       "https://yinpeiqi.github.io/"
     ]
+  },
+  {
+    "source": "company/月之暗面/checkpoint-engine",
+    "target": "community/kvcache-ai/Mooncake/Mooncake",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Checkpoint Engine",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "company/月之暗面/checkpoint-engine",
+    "target": "community/sgl-project/SGLang/SGLang",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Checkpoint Engine",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "company/月之暗面/checkpoint-engine",
+    "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Checkpoint Engine",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
   }
 ]

@@ -2,10 +2,10 @@
 type: project
 name: TokenSpeed
 status: active
-repository: https://github.com/lightseekorg/TokenSpeed
-last_verified: "2026-09"
 linked_people:
   - "community/sgl-project/SGLang/Yineng Zhang"
+repository: https://github.com/lightseekorg/TokenSpeed
+last_verified: "2026-09"
 governance: foundation-led
 organization: LightSeek Foundation
 companies: ["NVIDIA","AMD","Together AI","阿里巴巴"]

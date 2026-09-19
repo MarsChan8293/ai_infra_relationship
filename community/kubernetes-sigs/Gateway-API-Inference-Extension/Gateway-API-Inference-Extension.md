@@ -1,6 +1,7 @@
 ---
 type: project
 name: Gateway API Inference Extension
+linked_people: []
 layer: distributed-serving
 status: active
 repository: https://github.com/kubernetes-sigs/gateway-api-inference-extension
@@ -15,6 +16,7 @@ integrations:
   - "KServe"
   - "llm-d"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Gateway API Inference Extension
 

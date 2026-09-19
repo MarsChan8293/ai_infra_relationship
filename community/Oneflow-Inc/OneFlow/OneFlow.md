@@ -2,11 +2,11 @@
 type: project
 name: OneFlow
 status: active
-repository: https://github.com/Oneflow-Inc/oneflow
-last_verified: "2026-09"
 linked_people:
   - "company/硅基流动/柳俊丞 Juncheng Liu"
   - "company/硅基流动/袁进辉 Jinhui Yuan"
+repository: https://github.com/Oneflow-Inc/oneflow
+last_verified: "2026-09"
 companies: ["一流科技"]
 company_relation: company-originated
 layer: training

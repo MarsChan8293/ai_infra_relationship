@@ -1,6 +1,7 @@
 ---
 type: project
 name: NVIDIA GPU Operator
+linked_people: []
 layer: device-resource
 status: active
 repository: https://github.com/NVIDIA/gpu-operator
@@ -17,9 +18,10 @@ hardware:
 integrations:
   - "NVIDIA k8s-device-plugin"
   - "Kubernetes DRA"
-companies:
-  - "NVIDIA"
+companies: ["NVIDIA"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/NVIDIA/NVIDIA"
 ---
 # NVIDIA GPU Operator
 
@@ -56,3 +58,12 @@ GPU Operator 负责 NVIDIA GPU 节点软件生命周期，不负责 AI workload 
 
 - https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/
 - https://github.com/NVIDIA/gpu-operator
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

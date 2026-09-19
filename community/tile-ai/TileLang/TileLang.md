@@ -1,15 +1,15 @@
 ---
 type: project
 name: TileLang
-layer: compiler
-status: active
-repository: https://github.com/tile-ai/tilelang
-last_verified: "2026-09"
 linked_people:
   - "university/北京大学/Lei Wang"
   - "university/北京大学/Yining Shi"
   - "university/北京大学/吴童 Tong Wu"
   - "university/北京大学/程羽 Yu Cheng"
+layer: compiler
+status: active
+repository: https://github.com/tile-ai/tilelang
+last_verified: "2026-09"
 companies: []
 company_relation: academic-research-led
 areas:

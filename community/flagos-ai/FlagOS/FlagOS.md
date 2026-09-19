@@ -2,8 +2,6 @@
 type: community
 name: FlagOS
 aliases: [FlagOS, 众智 FlagOS, 智源 FlagOS, 智源社区]
-layer: ecosystem
-status: active
 linked_people:
   - "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu"
   - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
@@ -13,6 +11,8 @@ linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
   - "company/杭州先进编译科技有限公司/李嘉楠"
   - "company/杭州先进编译科技有限公司/柴赟达"
+layer: ecosystem
+status: active
 repository: https://github.com/flagos-ai/FlagOS
 companies: []
 company_relation: community-led

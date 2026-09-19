@@ -7,6 +7,10 @@ schools:
   - "清华大学"
 public_email: chenggangz@deepseek.com
 communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+email_affiliations:
+  - "深度求索"
+linked_companies:
+  - "company/深度求索/深度求索"
 projects: [DeepEP, DeepGEMM, TileKernels]
 confidence: high
 last_verified: "2026-09"
@@ -39,3 +43,12 @@ DeepSeek 系统基础设施的重要公开作者，横跨 [[DeepEP]] 与 [[DeepG
 - Project source / contributor context: https://github.com/deepseek-ai
 - Tsinghua SCC Team official history / wiki
 - DeepSeek DeepEP / DeepGEMM public author credits\n- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/深度求索/深度求索|深度求索]]：公开职业邮箱域名证据；表示组织关联，不单独证明当前任职。
+
+<!-- END AUTO PERSON COMPANIES -->

@@ -1,6 +1,7 @@
 ---
 type: project
 name: Kueue
+linked_people: []
 layer: scheduler
 status: active
 repository: https://github.com/kubernetes-sigs/kueue
@@ -14,6 +15,7 @@ areas:
   - "kubernetes"
 integrations:
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Kueue
 

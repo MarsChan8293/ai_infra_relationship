@@ -9,14 +9,14 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1645,
+  "candidate_count": 1720,
   "selected_actions": [
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/profile-data::maintainers",
+      "action_id": "community/Ascend/CANN/CANN::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/profile-data",
-        "name": "profile-data",
+        "id": "community/Ascend/CANN/CANN",
+        "name": "CANN",
         "type": "project",
         "family": "project"
       },
@@ -29,8 +29,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.929,
+      "bucket": "exploitation",
+      "priority": 9.429,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -38,31 +38,48 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.35,
+        "infra_relevance": 3.65,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 5.935,
         "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.111,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-19"
       },
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types"
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved umbrella_CANN_maintainers, inference_hotspot_repo_ownership"
       ],
-      "base_priority": 8.852,
+      "base_priority": 9.202,
       "eligible": true,
       "history": {
-        "exact_attempts": 0,
-        "latest": null,
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-17-discover-1",
+          "attempted_at": "2026-09-17",
+          "status": "partial",
+          "note": "CANN governance is hierarchical. TSC membership is project-level governance and was intentionally not promoted to umbrella maintainer edges; repo/SIG ownership must be resolved per component.",
+          "resolved_dimensions": [
+            "governance:TSC-PMC-SIG-role-model",
+            "governance:SIG-level-maintainers"
+          ],
+          "unresolved_dimensions": [
+            "umbrella_CANN_maintainers",
+            "inference_hotspot_repo_ownership"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-19"
+        },
         "action_key_stats": {
           "attempts": 65,
           "statuses": {
@@ -76,20 +93,24 @@
           "yield_adjustment": 0.077
         },
         "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
+        "exact_status_adjustment": 0.15
       },
-      "operator": "discover",
+      "operator": "verify",
       "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "umbrella_CANN_maintainers",
+          "inference_hotspot_repo_ownership"
+        ]
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniTrain::maintainers",
+      "action_id": "community/NVIDIA/CUTLASS/CUTLASS::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/InfiniTensor/InfiniTrain",
-        "name": "InfiniTrain",
+        "id": "community/NVIDIA/CUTLASS/CUTLASS",
+        "name": "CUTLASS",
         "type": "project",
         "family": "project"
       },
@@ -103,7 +124,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.861,
+      "priority": 9.259,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -111,679 +132,27 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.65,
+        "infra_relevance": 3.4,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 3.085,
+        "bridge_score": 2.85,
         "novelty": 1.0,
-        "frontier_potential": 0.664,
+        "frontier_potential": 0.813,
         "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.784,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniLM",
-        "name": "InfiniLM",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.281,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.75,
-        "novelty": 1.0,
-        "frontier_potential": 0.319,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.205,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 7.8"
-      ],
-      "base_priority": 8.089,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.750"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniCore::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniCore",
-        "name": "InfiniCore",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.236,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.607,
-        "novelty": 1.0,
-        "frontier_potential": 0.297,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.217,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 7.6"
-      ],
-      "base_priority": 8.044,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.607"
-      }
-    },
-    {
-      "action_id": "university/Massachusetts Institute of Technology/HAN Lab::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/Massachusetts Institute of Technology/HAN Lab",
-        "name": "HAN Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploration",
-      "priority": 8.135,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 0.0,
-        "novelty": 1.0,
-        "frontier_potential": 1.05,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.0,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.087,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/University of Washington/SyFI Lab::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/University of Washington/SyFI Lab",
-        "name": "SyFI Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploration",
-      "priority": 8.115,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.742,
-        "uncertainty": 0.55,
         "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
+        "history_yield_adjustment": 0.077,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
         "coverage 0/4",
-        "source type Research Institution",
+        "source type Project",
         "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 8.067,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/北京邮电大学/北京邮电大学::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/北京邮电大学/北京邮电大学",
-        "name": "北京邮电大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "verification",
-      "priority": 5.477,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.95,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 5.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.577,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "infra: kv-cache",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 5.477,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "university/电子科技大学/电子科技大学::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/电子科技大学/电子科技大学",
-        "name": "电子科技大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "verification",
-      "priority": 5.368,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.95,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.707,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "infra: kv-cache",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 5.368,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "university/西北工业大学/西北工业大学::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/西北工业大学/西北工业大学",
-        "name": "西北工业大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "verification",
-      "priority": 5.368,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.95,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.707,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "infra: kv-cache",
-        "opens underrepresented target types",
-        "missing source URLs"
-      ],
-      "base_priority": 5.368,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "university/清华大学/Weimin Zheng::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "university/清华大学/Weimin Zheng",
-        "name": "Weimin Zheng",
-        "type": "person-link",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 5.265,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 9.25,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.104,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 5.154,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence-only verification action"
-      }
-    }
-  ],
-  "candidates": [
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/profile-data::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/profile-data",
-        "name": "profile-data",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.929,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.852,
+      "base_priority": 9.182,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -810,11 +179,11 @@
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniTrain::maintainers",
+      "action_id": "community/BerriAI/LiteLLM/LiteLLM::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/InfiniTensor/InfiniTrain",
-        "name": "InfiniTrain",
+        "id": "community/BerriAI/LiteLLM/LiteLLM",
+        "name": "LiteLLM",
         "type": "project",
         "family": "project"
       },
@@ -828,7 +197,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 8.861,
+      "priority": 9.258,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -836,14 +205,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.65,
+        "infra_relevance": 3.6,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 3.085,
+        "bridge_score": 0.0,
         "novelty": 1.0,
-        "frontier_potential": 0.664,
+        "frontier_potential": 1.15,
         "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
+        "redundancy_penalty": 0.0,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.077,
@@ -853,10 +222,10 @@
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, kernel, distributed",
+        "infra: serving/inference, kv-cache, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 8.784,
+      "base_priority": 9.181,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -883,234 +252,76 @@
       }
     },
     {
-      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
+      "action_id": "community/volcano-sh/Volcano/Volcano::maintainers",
+      "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/InfiniTensor/InfiniLM",
-        "name": "InfiniLM",
+        "id": "community/volcano-sh/Volcano/Volcano",
+        "name": "Volcano",
         "type": "project",
         "family": "project"
       },
-      "relation": "originating_org",
+      "relation": "maintainers",
       "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
+        "person"
       ],
       "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
       ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.281,
-      "cost": 1.0,
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.258,
+      "cost": 0.9,
       "coverage": {
         "existing": 0,
-        "desired": 1,
+        "desired": 4,
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.75,
+        "infra_relevance": 3.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
         "novelty": 1.0,
-        "frontier_potential": 0.319,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.205,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
         "distance": null,
         "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
+        "history_yield_adjustment": 0.077,
         "history_status_adjustment": 0.0,
         "history_eligible": true
       },
       "reasons": [
-        "coverage 0/1",
+        "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 7.8"
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
       ],
-      "base_priority": 8.089,
+      "base_priority": 9.181,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
         "latest": null,
         "action_key_stats": {
-          "attempts": 10,
+          "attempts": 65,
           "statuses": {
-            "partial": 8,
-            "success": 2
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
           },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
         },
-        "key_yield_adjustment": 0.192,
+        "key_yield_adjustment": 0.077,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
       "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.750"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniCore::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniCore",
-        "name": "InfiniCore",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.236,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.607,
-        "novelty": 1.0,
-        "frontier_potential": 0.297,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.217,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 7.6"
-      ],
-      "base_priority": 8.044,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.607"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniOps::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniOps",
-        "name": "InfiniOps",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.211,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 6.809,
-        "novelty": 1.0,
-        "frontier_potential": 0.347,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.192,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: kv-cache, kernel, quantization",
-        "opens underrepresented target types",
-        "bridge 6.8"
-      ],
-      "base_priority": 8.019,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.809"
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -1330,6 +541,2496 @@
       }
     },
     {
+      "action_id": "university/清华大学/Weimin Zheng::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "university/清华大学/Weimin Zheng",
+        "name": "Weimin Zheng",
+        "type": "person-link",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "verification",
+      "priority": 6.52,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 9.25,
+        "novelty": 0.5,
+        "frontier_potential": 0.265,
+        "uncertainty": 0.817,
+        "redundancy_penalty": 0.305,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-19"
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 9.2",
+        "missing source URLs",
+        "recent successful action"
+      ],
+      "base_priority": 6.369,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "success",
+          "note": "Mooncake authorship and MADSys publication records directly verify the contribution.",
+          "resolved_dimensions": [
+            "Mooncake paper contribution"
+          ],
+          "unresolved_dimensions": [],
+          "cooldown_days": 1,
+          "cooldown_until": "2026-09-19"
+        },
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
+      "action_id": "university/北京邮电大学/北京邮电大学::projects",
+      "action_key": "school:projects:project+community",
+      "source": {
+        "id": "university/北京邮电大学/北京邮电大学",
+        "name": "北京邮电大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "lab_github_org",
+        "official_project_pages"
+      ],
+      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
+      "bucket": "verification",
+      "priority": 5.477,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.95,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.577,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "infra: kv-cache",
+        "opens underrepresented target types",
+        "missing source URLs"
+      ],
+      "base_priority": 5.477,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
+      "action_id": "university/电子科技大学/电子科技大学::projects",
+      "action_key": "school:projects:project+community",
+      "source": {
+        "id": "university/电子科技大学/电子科技大学",
+        "name": "电子科技大学",
+        "type": "school",
+        "family": "school"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "lab_github_org",
+        "official_project_pages"
+      ],
+      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
+      "bucket": "verification",
+      "priority": 5.368,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.95,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.707,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type School",
+        "infra: kv-cache",
+        "opens underrepresented target types",
+        "missing source URLs"
+      ],
+      "base_priority": 5.368,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "action_id": "community/Ascend/CANN/CANN::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/CANN/CANN",
+        "name": "CANN",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.429,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.65,
+        "evidence_quality": 1.3,
+        "url_count": 7,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-19"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved umbrella_CANN_maintainers, inference_hotspot_repo_ownership"
+      ],
+      "base_priority": 9.202,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-17-discover-1",
+          "attempted_at": "2026-09-17",
+          "status": "partial",
+          "note": "CANN governance is hierarchical. TSC membership is project-level governance and was intentionally not promoted to umbrella maintainer edges; repo/SIG ownership must be resolved per component.",
+          "resolved_dimensions": [
+            "governance:TSC-PMC-SIG-role-model",
+            "governance:SIG-level-maintainers"
+          ],
+          "unresolved_dimensions": [
+            "umbrella_CANN_maintainers",
+            "inference_hotspot_repo_ownership"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-19"
+        },
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "umbrella_CANN_maintainers",
+          "inference_hotspot_repo_ownership"
+        ]
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/CUTLASS/CUTLASS::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/CUTLASS/CUTLASS",
+        "name": "CUTLASS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.259,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.182,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/BerriAI/LiteLLM/LiteLLM::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/BerriAI/LiteLLM/LiteLLM",
+        "name": "LiteLLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.258,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.181,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/volcano-sh/Volcano/Volcano::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/volcano-sh/Volcano/Volcano",
+        "name": "Volcano",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.258,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 9.181,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/openEuler/openYuanRong/YuanRong TransferEngine",
+        "name": "YuanRong TransferEngine",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 9.241,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-19"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, ascend",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved transfer_engine_directory_ownership, transfer_engine_maintainers"
+      ],
+      "base_priority": 9.014,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-17-discover-1",
+          "attempted_at": "2026-09-17",
+          "status": "partial",
+          "note": "openEuler governance confirms yuanrong-datasystem administrator/committer roles, but current evidence does not map them precisely to TransferEngine directory ownership, so no maintainer edge was created.",
+          "resolved_dimensions": [
+            "parent_repo_admin:车煜林",
+            "parent_repo_committer:姚昊林"
+          ],
+          "unresolved_dimensions": [
+            "transfer_engine_directory_ownership",
+            "transfer_engine_maintainers"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-19"
+        },
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "transfer_engine_directory_ownership",
+          "transfer_engine_maintainers"
+        ]
+      }
+    },
+    {
+      "action_id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA",
+        "name": "Kubernetes DRA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.07,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.993,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Dao-AILab/FlashAttention/FlashAttention::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Dao-AILab/FlashAttention/FlashAttention",
+        "name": "FlashAttention",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.028,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.951,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/kserve/KServe/KServe::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kserve/KServe/KServe",
+        "name": "KServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.995,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.918,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/triton-lang/Triton/Triton::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/triton-lang/Triton/Triton",
+        "name": "Triton",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.995,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.918,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/NCCL/NCCL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/NCCL/NCCL",
+        "name": "NCCL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.959,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.882,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/ROCm/RCCL/RCCL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ROCm/RCCL/RCCL",
+        "name": "RCCL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.959,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.882,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+        "name": "Gateway API Inference Extension",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.958,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.881,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/profile-data::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/profile-data",
+        "name": "profile-data",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.929,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 5.35,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.852,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/InfiniTensor/InfiniTrain::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/InfiniTensor/InfiniTrain",
+        "name": "InfiniTrain",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.861,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 3.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.784,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator",
+        "name": "NVIDIA GPU Operator",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.434,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.357,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin",
+        "name": "NVIDIA k8s-device-plugin",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.355,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.85,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.278,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/bentoml/BentoML/BentoML::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/bentoml/BentoML/BentoML",
+        "name": "BentoML",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.32,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.243,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/InfiniTensor/InfiniLM::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/InfiniTensor/InfiniLM",
+        "name": "InfiniLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.281,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 7.75,
+        "novelty": 1.0,
+        "frontier_potential": 0.319,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.205,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "bridge 7.8"
+      ],
+      "base_priority": 8.089,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.750"
+      }
+    },
+    {
+      "action_id": "community/BerriAI/LiteLLM/LiteLLM::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/BerriAI/LiteLLM/LiteLLM",
+        "name": "LiteLLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.254,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.062,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/volcano-sh/Volcano/Volcano::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/volcano-sh/Volcano/Volcano",
+        "name": "Volcano",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.254,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.7,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.062,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/InfiniTensor/InfiniCore::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/InfiniTensor/InfiniCore",
+        "name": "InfiniCore",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.236,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 7.607,
+        "novelty": 1.0,
+        "frontier_potential": 0.297,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.217,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 7.6"
+      ],
+      "base_priority": 8.044,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.607"
+      }
+    },
+    {
+      "action_id": "community/InfiniTensor/InfiniOps::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/InfiniTensor/InfiniOps",
+        "name": "InfiniOps",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.211,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 6.809,
+        "novelty": 1.0,
+        "frontier_potential": 0.347,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.192,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: kv-cache, kernel, quantization",
+        "opens underrepresented target types",
+        "bridge 6.8"
+      ],
+      "base_priority": 8.019,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.809"
+      }
+    },
+    {
+      "action_id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler",
+        "name": "KAI-Scheduler",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 8.166,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.6,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.089,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/Massachusetts Institute of Technology/HAN Lab::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/Massachusetts Institute of Technology/HAN Lab",
+        "name": "HAN Lab",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploration",
+      "priority": 8.135,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.45,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.05,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Research Institution",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.087,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.75,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.048
+        },
+        "key_yield_adjustment": 0.048,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/University of Washington/SyFI Lab::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/University of Washington/SyFI Lab",
+        "name": "SyFI Lab",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploration",
+      "priority": 8.115,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 2.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.742,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.048,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Research Institution",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.067,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.75,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.048
+        },
+        "key_yield_adjustment": 0.048,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA",
+        "name": "Kubernetes DRA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.086,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.894,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Dao-AILab/FlashAttention/FlashAttention::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/Dao-AILab/FlashAttention/FlashAttention",
+        "name": "FlashAttention",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.048,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.856,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group::projects",
+      "action_key": "research:projects:project+community",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group",
+        "name": "Catalyst Group",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_project_pages",
+        "github_org_repositories"
+      ],
+      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
+      "bucket": "bridge",
+      "priority": 8.042,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.55,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 6.635,
+        "novelty": 1.0,
+        "frontier_potential": 0.429,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.112,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Research Institution",
+        "infra: serving/inference, kernel, quantization",
+        "opens underrepresented target types",
+        "bridge 6.6"
+      ],
+      "base_priority": 7.93,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 20,
+          "statuses": {
+            "partial": 19,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.307,
+          "mean_reward": 1.5,
+          "reward_signal": 0.358,
+          "yield_adjustment": 0.112
+        },
+        "key_yield_adjustment": 0.112,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.635"
+      }
+    },
+    {
+      "action_id": "community/kserve/KServe/KServe::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kserve/KServe/KServe",
+        "name": "KServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.018,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.826,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/triton-lang/Triton/Triton::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/triton-lang/Triton/Triton",
+        "name": "Triton",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.018,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.826,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/vllm-project/Speculators/Speculators::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -1381,6 +3082,82 @@
         "opens underrepresented target types"
       ],
       "base_priority": 7.816,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+        "name": "Gateway API Inference Extension",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 7.984,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.792,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1927,6 +3704,79 @@
       }
     },
     {
+      "action_id": "community/kubernetes-sigs/Kueue/Kueue::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kubernetes-sigs/Kueue/Kueue",
+        "name": "Kueue",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 7.645,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.85,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: scheduler",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.568,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "university/华南理工大学/国产可信算力产业应用创新实验室::projects",
       "action_key": "research:projects:project+community",
       "source": {
@@ -2066,6 +3916,232 @@
           "yield_adjustment": 0.182
         },
         "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/OpenUCX/UCX/UCX::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/OpenUCX/UCX/UCX",
+        "name": "UCX",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 7.57,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.75,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.493,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/InfiniTensor/NineToothed::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/InfiniTensor/NineToothed",
+        "name": "NineToothed",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 7.503,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.332,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: kernel, ascend",
+        "opens underrepresented target types",
+        "bridge 7.3"
+      ],
+      "base_priority": 7.311,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.285"
+      }
+    },
+    {
+      "action_id": "community/bentoml/BentoML/BentoML::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/bentoml/BentoML/BentoML",
+        "name": "BentoML",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 7.411,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.75,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.219,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -2296,6 +4372,82 @@
       }
     },
     {
+      "action_id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler",
+        "name": "KAI-Scheduler",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 7.272,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.6,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 0.0,
+        "novelty": 1.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.0,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: scheduler, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.08,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "university/南京大学/大模型研究协同创新中心::key_people",
       "action_key": "research:key_people:person",
       "source": {
@@ -2506,6 +4658,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "company/爱特思/国产化人工智能算力平台异构并行加速项目::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/爱特思/国产化人工智能算力平台异构并行加速项目",
+        "name": "国产化人工智能算力平台异构并行加速项目",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.179,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 3.65,
+        "evidence_quality": 0.95,
+        "url_count": 3,
+        "bridge_score": 4.935,
+        "novelty": 0.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.534,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.077,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed"
+      ],
+      "base_priority": 7.102,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 65,
+          "statuses": {
+            "partial": 45,
+            "success": 4,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.181,
+          "mean_reward": 1.381,
+          "reward_signal": 0.332,
+          "yield_adjustment": 0.077
+        },
+        "key_yield_adjustment": 0.077,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
       }
     },
     {
@@ -2724,77 +4948,6 @@
       }
     },
     {
-      "action_id": "university/鹏城实验室/鹏城实验室::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/鹏城实验室/鹏城实验室",
-        "name": "鹏城实验室",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploitation",
-      "priority": 7.0,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.65,
-        "evidence_quality": 0.95,
-        "url_count": 4,
-        "bridge_score": 4.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.429,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Research Institution",
-        "infra: kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.952,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/LLMServe/DistServe/DistServe::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -2941,6 +5094,81 @@
       }
     },
     {
+      "action_id": "company/爱特思/深圳爱特思信息技术有限公司::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/爱特思/深圳爱特思信息技术有限公司",
+        "name": "深圳爱特思信息技术有限公司",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "exploration",
+      "priority": 6.991,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.65,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 0.667,
+        "frontier_potential": 0.577,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.182,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Company",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.809,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 32,
+          "statuses": {
+            "partial": 24,
+            "success": 7,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.466,
+          "mean_reward": 3.336,
+          "reward_signal": 0.683,
+          "yield_adjustment": 0.182
+        },
+        "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/cloud-native/Kubernetes/Kubernetes::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -3004,2144 +5232,6 @@
           "yield_adjustment": 0.077
         },
         "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.750"
-      }
-    },
-    {
-      "action_id": "company/杭州先进编译科技有限公司/高伟::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/杭州先进编译科技有限公司/高伟",
-        "name": "高伟",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 6.959,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.55,
-        "evidence_quality": 0.95,
-        "url_count": 3,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.671,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kernel, quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.808,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/Ascend/TransferQueue/TransferQueue::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/TransferQueue/TransferQueue",
-        "name": "TransferQueue",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.946,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 3.45,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 3.5,
-        "novelty": 0.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: scheduler, distributed, disaggregation"
-      ],
-      "base_priority": 6.869,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.750"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/GordonYang1::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/InfiniTensor/GordonYang1",
-        "name": "GordonYang1",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploitation",
-      "priority": 6.904,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.65,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.746,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/华南理工大学/许言午 Yanwu Xu::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/华南理工大学/许言午 Yanwu Xu",
-        "name": "许言午",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploration",
-      "priority": 6.839,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.688,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/InfiniRT::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/InfiniRT",
-        "name": "InfiniRT",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 6.815,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.407,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ],
-      "base_priority": 6.623,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.350"
-      }
-    },
-    {
-      "action_id": "university/University of Washington/SAMPL::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/University of Washington/SAMPL",
-        "name": "SAMPL",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "bridge",
-      "priority": 6.803,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.3,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 7.75,
-        "novelty": 0.5,
-        "frontier_potential": 0.371,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.305,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.112,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Research Institution",
-        "infra: serving/inference, kernel, moe",
-        "bridge 7.8"
-      ],
-      "base_priority": 6.691,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 20,
-          "statuses": {
-            "partial": 19,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.307,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.112
-        },
-        "key_yield_adjustment": 0.112,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.750"
-      }
-    },
-    {
-      "action_id": "university/厦门大学/GeminiFS::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "university/厦门大学/GeminiFS",
-        "name": "GeminiFS",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploration",
-      "priority": 6.792,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.75,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.6,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/UC Davis/GATE Lab::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/UC Davis/GATE Lab",
-        "name": "GATE Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploration",
-      "priority": 6.76,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 0.0,
-        "novelty": 1.0,
-        "frontier_potential": 1.05,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.0,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Research Institution",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.712,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/Stanford University/MAST Lab::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/Stanford University/MAST Lab",
-        "name": "MAST Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "exploitation",
-      "priority": 6.75,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.7,
-        "novelty": 0.5,
-        "frontier_potential": 0.525,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.112,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, scheduler"
-      ],
-      "base_priority": 6.638,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 20,
-          "statuses": {
-            "partial": 19,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.307,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.112
-        },
-        "key_yield_adjustment": 0.112,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "community/interestingLSY/swiftLLM/swiftLLM::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/interestingLSY/swiftLLM/swiftLLM",
-        "name": "SwiftLLM",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.743,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.573,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/LPLB::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/LPLB",
-        "name": "LPLB",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.734,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 6.157,
-        "novelty": 0.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.294,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "bridge 6.2"
-      ],
-      "base_priority": 6.657,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.750"
-      }
-    },
-    {
-      "action_id": "community/InfiniTensor/ntops::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/InfiniTensor/ntops",
-        "name": "ntops",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploitation",
-      "priority": 6.609,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 4.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.417,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/北京邮电大学/网络与交换技术全国重点实验室::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/北京邮电大学/网络与交换技术全国重点实验室",
-        "name": "网络与交换技术全国重点实验室",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploration",
-      "priority": 6.592,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.75,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 0.0,
-        "novelty": 1.0,
-        "frontier_potential": 1.05,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.0,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Research Institution",
-        "infra: distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.544,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/华南理工大学/华南理工大学::projects",
-      "action_key": "school:projects:project+community",
-      "source": {
-        "id": "university/华南理工大学/华南理工大学",
-        "name": "华南理工大学",
-        "type": "school",
-        "family": "school"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "lab_github_org",
-        "official_project_pages"
-      ],
-      "write_hint": "Connect projects only when the school/lab relationship is directly supported.",
-      "bucket": "bridge",
-      "priority": 6.562,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.157,
-        "novelty": 1.0,
-        "frontier_potential": 0.378,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type School",
-        "infra: serving/inference, scheduler, ascend",
-        "opens underrepresented target types",
-        "bridge 6.2"
-      ],
-      "base_priority": 6.562,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.157"
-      }
-    },
-    {
-      "action_id": "university/启元实验室/潘泽众 Zezhong Pan::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/启元实验室/潘泽众 Zezhong Pan",
-        "name": "潘泽众",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.498,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 8.55,
-        "novelty": 0.75,
-        "frontier_potential": 0.265,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.305,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 8.6"
-      ],
-      "base_priority": 6.34,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=8.550"
-      }
-    },
-    {
-      "action_id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
-        "name": "Lookahead Decoding",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.471,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 1.75,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 7.2,
-        "novelty": 0.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.077,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, distributed",
-        "bridge 7.2"
-      ],
-      "base_priority": 6.394,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 65,
-          "statuses": {
-            "partial": 45,
-            "success": 4,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.181,
-          "mean_reward": 1.381,
-          "reward_signal": 0.332,
-          "yield_adjustment": 0.077
-        },
-        "key_yield_adjustment": 0.077,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.750"
-      }
-    },
-    {
-      "action_id": "company/Intel/xFasterTransformer::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "company/Intel/xFasterTransformer",
-        "name": "xFasterTransformer",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.406,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, distributed, quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.236,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/IBM Research/IBM Research::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/IBM Research/IBM Research",
-        "name": "IBM Research",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "exploitation",
-      "priority": 6.388,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 0.5,
-        "frontier_potential": 0.742,
-        "uncertainty": 0.557,
-        "redundancy_penalty": 0.194,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.112,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, distributed"
-      ],
-      "base_priority": 6.276,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 20,
-          "statuses": {
-            "partial": 19,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.307,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.112
-        },
-        "key_yield_adjustment": 0.112,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "company/杭州先进编译科技有限公司/韩林::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "company/杭州先进编译科技有限公司/韩林",
-        "name": "韩林",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.382,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.65,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.231,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/kvcache-ai/Mooncake/Aionw::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/kvcache-ai/Mooncake/Aionw",
-        "name": "Aoi",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.369,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 7,
-        "bridge_score": 3.822,
-        "novelty": 0.5,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed"
-      ],
-      "base_priority": 6.218,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "university/华南理工大学/Kairos::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "university/华南理工大学/Kairos",
-        "name": "Kairos",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.366,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.575,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.196,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/华南理工大学/先进计算体系结构团队::projects",
-      "action_key": "research:projects:project+community",
-      "source": {
-        "id": "university/华南理工大学/先进计算体系结构团队",
-        "name": "先进计算体系结构团队",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_project_pages",
-        "github_org_repositories"
-      ],
-      "write_hint": "Connect only projects with direct institutional authorship or governance evidence.",
-      "bucket": "exploitation",
-      "priority": 6.358,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.085,
-        "novelty": 0.5,
-        "frontier_potential": 0.429,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.282,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.112,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Research Institution",
-        "infra: serving/inference, scheduler, ascend"
-      ],
-      "base_priority": 6.246,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 20,
-          "statuses": {
-            "partial": 19,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.307,
-          "mean_reward": 1.5,
-          "reward_signal": 0.358,
-          "yield_adjustment": 0.112
-        },
-        "key_yield_adjustment": 0.112,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "community/LMCache/LMCache/Roy Huang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/LMCache/LMCache/Roy Huang",
-        "name": "Roy Huang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 6.348,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 2.85,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 2.5,
-        "novelty": 0.5,
-        "frontier_potential": 0.53,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.194,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, kernel"
-      ],
-      "base_priority": 6.197,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "university/北京大学/Bingyang Wu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/北京大学/Bingyang Wu",
-        "name": "Bingyang Wu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.308,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 6.022,
-        "novelty": 0.75,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types",
-        "bridge 6.0"
-      ],
-      "base_priority": 6.15,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.022"
-      }
-    },
-    {
-      "action_id": "community/LMCache/LMCache/Dongjoo Seo::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/LMCache/LMCache/Dongjoo Seo",
-        "name": "Dongjoo Seo",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.304,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 5,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/Levi-JQ::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/Levi-JQ",
-        "name": "Levi-JQ",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.304,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "university/上海人工智能实验室/Qian Yao::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "university/上海人工智能实验室/Qian Yao",
-        "name": "Qian Yao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.304,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/vllm-project/vLLM-Ascend/管文宇 Guan Wenyu",
-        "name": "管文宇",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.304,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 0.75,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-17"
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "recent successful action"
-      ],
-      "base_priority": 6.146,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-2",
-          "attempted_at": "2026-09-16",
-          "status": "success",
-          "note": null,
-          "resolved_dimensions": [
-            "employer:面壁智能"
-          ],
-          "unresolved_dimensions": [],
-          "cooldown_days": 1,
-          "cooldown_until": "2026-09-17"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "university/Stanford University/MAST Lab::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/Stanford University/MAST Lab",
-        "name": "MAST Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploitation",
-      "priority": 6.293,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.7,
-        "novelty": 0.0,
-        "frontier_potential": 0.525,
-        "uncertainty": 0.413,
-        "redundancy_penalty": 0.25,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.048,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Research Institution",
-        "infra: serving/inference, kv-cache, scheduler"
-      ],
-      "base_priority": 6.245,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.75,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.048
-        },
-        "key_yield_adjustment": 0.048,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",

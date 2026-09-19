@@ -13,6 +13,7 @@ people:
   - "university/浙江大学/Huan Li"
   - "university/浙江大学/Lidan Shou"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # HMI
 

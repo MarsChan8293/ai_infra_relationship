@@ -1,6 +1,7 @@
 ---
 type: project
 name: LiteLLM
+linked_people: []
 layer: distributed-serving
 status: active
 repository: https://github.com/BerriAI/litellm
@@ -13,6 +14,7 @@ areas:
   - "openai-compatible-proxy"
 integrations:
 last_verified: "2026-09"
+linked_companies: []
 ---
 # LiteLLM
 

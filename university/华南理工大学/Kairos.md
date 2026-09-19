@@ -14,6 +14,7 @@ people:
   - "university/华南理工大学/王新华 Xinhua Wang"
   - "university/华南理工大学/林伟伟 Weiwei Lin"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Kairos
 

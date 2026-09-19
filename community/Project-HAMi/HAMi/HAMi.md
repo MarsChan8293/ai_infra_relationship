@@ -2,14 +2,14 @@
 type: project
 name: HAMi
 status: active
-repository: https://github.com/Project-HAMi/HAMi
-docs: https://project-hami.io/
-last_verified: "2026-09"
 linked_people:
   - "community/Project-HAMi/HAMi/archlitchi"
   - "community/Project-HAMi/HAMi/chaunceyjiang"
   - "community/Project-HAMi/HAMi/DSFans2014"
   - "community/Project-HAMi/HAMi/wawa0210"
+repository: https://github.com/Project-HAMi/HAMi
+docs: https://project-hami.io/
+last_verified: "2026-09"
 companies: ["第四范式","密瓜智能","道客","NVIDIA","华为"]
 company_relation: cross-company-maintainer-network
 layer: device-resource

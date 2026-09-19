@@ -1,8 +1,8 @@
 ---
 type: project
 name: MoonEP
-companies: ["月之暗面"]
 linked_people: []
+companies: ["月之暗面"]
 layer: communication
 repository: https://github.com/MoonshotAI/MoonEP
 status: active

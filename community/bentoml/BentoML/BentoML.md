@@ -1,6 +1,7 @@
 ---
 type: project
 name: BentoML
+linked_people: []
 layer: distributed-serving
 status: active
 repository: https://github.com/bentoml/BentoML
@@ -16,6 +17,7 @@ hardware:
 integrations:
   - "vLLM"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # BentoML
 
