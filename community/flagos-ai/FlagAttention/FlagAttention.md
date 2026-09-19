@@ -14,7 +14,7 @@ areas:
   - "kernels"
   - "llm-inference"
   - "heterogeneous-computing"
-  - "attention-kernel"
+  - "attention-kernels"
   - "heterogeneous-attention"
 integrations: []
 last_verified: "2026-09"
