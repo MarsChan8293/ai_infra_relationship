@@ -16,7 +16,7 @@ import shutil
 import sys
 from collections import Counter
 
-TYPE_ALIASES = {"university": "school"}
+TYPE_ALIASES = {"university": "school", "infra-project": "project"}
 PRIORITY_KEYS = [
     "type", "name", "title", "english_name", "aliases", "canonical",
     "current_affiliations", "company", "companies", "organization", "team",
