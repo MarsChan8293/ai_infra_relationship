@@ -15,7 +15,7 @@ company_relation: academic-research-led
 github: https://github.com/tile-ai/tilelang
 areas:
   - "kernel-dsl"
-  - "gpu-kernel-generation"
+  - "kernel-generation"
 hardware:
   - "gpu"
 integrations: []
