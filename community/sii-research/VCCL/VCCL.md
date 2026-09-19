@@ -2,6 +2,9 @@
 type: project
 name: VCCL
 full_name: Venus Collective Communication Library
+status: active
+repository: https://github.com/sii-research/vccl
+last_verified: "2026-09"
 linked_people:
   - "company/基流科技/He Liu"
   - "company/基流科技/Mingjun Zhang"
@@ -9,8 +12,11 @@ linked_people:
   - "company/基流科技/Yanmin Jia"
 companies: ["基流科技"]
 company_relation: industry-research-co-development
-layer: collective-communication
-open_source: true
+layer: communication
+areas:
+  - "collective-communication"
+  - "accelerator-communication"
+integrations: []
 linked_companies:
   - "company/基流科技/基流科技"
 ---
