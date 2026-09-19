@@ -70,8 +70,19 @@ VERIFY 优先处理：
 - unresolved / rejected 后满足 retry 条件的关系
 - contributor 与 maintainer、同校与同学、兼容与直接协作等容易角色膨胀的关系
 - 需要刷新或确认的 current affiliation / governance role
+- Project v3 的 freshness：当 `last_verified` 缺失或达到刷新阈值时生成 `verify_project_freshness`，核验 `status`、官方 `repository/docs`、`integrations` 与 governance drift
 
 VERIFY 的目标首先是提高证据质量；结果可以是 success、partial、unresolved 或 rejected，不要求为了“成功率”制造新节点或更强关系。
+
+### Project v3 freshness
+
+Project v3 将可机器核验的项目状态收敛到 `layer / status / repository / docs / areas / hardware / integrations / last_verified`。Planner 对这些字段的使用遵循：
+
+- `integrations` 是 project → project coverage hint，必须来自直接项目级证据。
+- `areas` 用于 AI Infra relevance，不把相同 area 自动升级为项目集成或人物协作。
+- `last_verified` 是唯一 freshness 时间输入；旧 `snapshot.as_of` 不再参与新项目规划。
+- 当项目 freshness 过期时，生成稳定 objective：`<project-id>::verify_project_freshness`。
+- freshness VERIFY 可以确认、更新或否定旧的 integration/status/governance 信息，不要求必须新增节点或边。
 
 ## Operator 与 action identity
 
@@ -103,7 +114,7 @@ trigger:
 - Company：key people、projects、academic links
 - School：labs/groups、key people、projects、spinouts
 - Research Institution：key people、projects、parent/partner org
-- Project：maintainers、originating org、related projects
+- Project：maintainers、originating org、related projects；其中 `related_projects` coverage 会直接读取 Project v3 的 `integrations`
 - Community：core people、projects、member orgs
 - Team：key people、parent org、projects
 
