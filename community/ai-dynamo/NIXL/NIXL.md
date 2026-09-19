@@ -1,6 +1,10 @@
 ---
 type: project
 name: NIXL
+status: active
+repository: https://github.com/ai-dynamo/nixl
+docs: https://github.com/ai-dynamo/nixl/blob/main/docs/nixl.md
+last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/NIXL/Adit Ranadive"
   - "community/ai-dynamo/NIXL/Efraim Eygin"
@@ -14,8 +18,20 @@ linked_people:
 governance: company-led
 companies: ["NVIDIA","HPE"]
 company_relation: company-led
-layer: inference-data-movement
-open_source: true
+layer: communication
+areas:
+  - "point-to-point-transfer"
+  - "memory-storage-abstraction"
+  - "plugin-backends"
+  - "gpu-direct"
+  - "storage"
+hardware:
+  - "nvidia"
+  - "cpu"
+integrations:
+  - "NVIDIA Dynamo"
+  - "LMCache"
+  - "UCX"
 linked_companies:
   - "company/HPE/HPE"
   - "company/NVIDIA/NVIDIA"
