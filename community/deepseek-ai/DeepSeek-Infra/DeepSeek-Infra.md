@@ -2,6 +2,9 @@
 type: project-collection
 name: DeepSeek Infra
 company: 深度求索
+status: active
+repository: https://github.com/deepseek-ai
+last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Anyi Xu"
   - "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng"
@@ -24,10 +27,15 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
 companies: [深度求索]
 company_relation: company-led
-layer: systems-stack
-open_source: true
+layer: ecosystem
 linked_companies:
   - "company/深度求索/深度求索"
+areas:
+  - "ai-infrastructure"
+  - "kernel-optimization"
+  - "communication"
+  - "storage"
+integrations: []
 ---
 # DeepSeek Infra
 
