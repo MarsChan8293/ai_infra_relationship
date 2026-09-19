@@ -64,6 +64,9 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--root",default="."); ap.add_argument("--generated",default="generated")
     a=ap.parse_args(); root=pathlib.Path(a.root).resolve(); gen=root/a.generated; gen.mkdir(parents=True,exist_ok=True)
     m=json.loads((root/"research/software-project-migration.json").read_text(encoding="utf-8")); items=m["projects"]
+    area_map_path=root/"research/project-area-normalization.json"
+    area_map=json.loads(area_map_path.read_text(encoding="utf-8")) if area_map_path.exists() else {"automatic":{}}
+    area_aliases=area_map.get("automatic") or {}
     errors=[]; projects=[]; infra=[]
     for r in ROOTS:
         b=root/r
@@ -118,6 +121,9 @@ def main():
         if not isinstance(lv,str) or not MONTH.match(lv):errors.append({"kind":"last_verified","path":path,"detail":repr(lv)})
         for k in LEGACY:
             if k in f:errors.append({"kind":"legacy-field","path":path,"detail":k})
+        for area in lst(f.get("areas")):
+            if area in area_aliases:
+                errors.append({"kind":"area-alias-not-normalized","path":path,"detail":f"{area} -> {area_aliases[area]}"})
         for x in lst(f.get("integrations")):
             ms=names.get(fold(x),[])
             if len(ms)!=1:errors.append({"kind":"integration","path":path,"detail":f"{x}: {[q['path'] for q in ms]}"})
