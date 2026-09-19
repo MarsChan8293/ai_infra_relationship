@@ -20,57 +20,195 @@
 - [ ] 不因为软件项目迁入而降低现有“人物关系必须有直接证据”的证据标准。
 - [ ] 项目集成、兼容、共同依赖不自动推断人物之间存在直接合作关系。
 - [ ] 公司员工参与项目不自动推断公司是项目 founding/core-maintainer organization。
-- [ ] 技术主题只作为 project 的 `areas` / `capabilities` 等属性存在，不升级为独立 concept graph entity。
+- [ ] 技术主题只作为 project 的 `areas` 等属性或正文内容存在，不升级为独立 concept graph entity。
 
-## 1. Project Schema 收敛
+## 1. Project Schema 收敛与精简
 
-### 1.1 Project Schema v3
+本次迁移不采用“Software Schema + relationship Project Schema 字段并集”的方式，而是重新收敛为一个更小的 canonical Project Schema。原则是：**只把需要稳定查询、需要机器校验、且无法可靠从正文或图结构派生的信息放进 frontmatter。**
+
+### 1.1 Project Schema v3：建议只保留核心字段
+
+目标 canonical frontmatter：
+
+```yaml
+type: project
+name: vLLM
+layer: inference-engine
+status: active
+repository: https://github.com/vllm-project/vllm
+docs: https://docs.vllm.ai/
+areas:
+  - llm-serving
+  - kv-cache
+  - speculative-decoding
+hardware:
+  - nvidia
+  - amd
+  - ascend
+integrations:
+  - LMCache
+  - llm-d
+  - Mooncake
+companies:
+  - Inferact
+  - Meta
+last_verified: "2026-09"
+```
 
 - [ ] 将 `schema/project.yaml` 从 `project-v2` 升级到 `project-v3`。
-- [ ] 保留现有 ecosystem 字段：
-  - [ ] `companies`
-  - [ ] `linked_companies`
-  - [ ] `company_relation`
-  - [ ] `people`
-  - [ ] `linked_people`
-  - [ ] `governance`
+- [ ] canonical Project Schema 优先只保留：
+  - [ ] `type`
+  - [ ] `name`
+  - [ ] `layer`
+  - [ ] `status`
   - [ ] `repository`
+  - [ ] `docs`
   - [ ] `areas`
   - [ ] `hardware`
-  - [ ] `last_verified`
-- [ ] 从 Software Schema V0.1 吸收项目级技术字段：
-  - [ ] `docs`
-  - [ ] `status`
-  - [ ] `upstream_org`
-  - [ ] `capabilities`
   - [ ] `integrations`
-  - [ ] `backends`
-  - [ ] `snapshot.version`
-  - [ ] `snapshot.commit`
-  - [ ] `snapshot.as_of`
-- [ ] 统一 `layer` 与 Software `category`，确定 canonical 枚举。
-- [ ] 为现有 `layer` 值和 Software category 建 migration mapping。
-- [ ] 明确 `areas` / `capabilities` 是项目属性，不要求对应独立 Concept 节点。
-- [ ] 明确 `upstream_org` 只表示 canonical upstream namespace / governance organization，不等于 company ownership。
-- [ ] 明确 `integrations` 只记录直接可核验的软件集成，不把“同类项目”写成 integration。
-- [ ] 明确 `backends` 与 `hardware` 的边界，避免两个字段表达同一事实。
+  - [ ] `companies`
+  - [ ] `last_verified`
+- [ ] 允许极少数兼容字段在迁移期继续存在，但不作为新页面推荐字段。
 - [ ] 更新 `schema/catalog.yaml`、schema generator 和 validator 对 project-v3 的支持。
 - [ ] 保证旧 project-v2 页面在迁移期只产生 warning，不立即成为 hard error。
 
-### 1.2 项目间软件关系
+### 1.2 两边字段映射与删减
 
-- [ ] 继续以 project ↔ project 为本次迁移的主要技术关系。
-- [ ] 明确支持 / 保留以下项目关系语义：
-  - [ ] `integrates-with`
-  - [ ] `depends-on`
-  - [ ] `backend-for`
-  - [ ] `alternative-to`
-  - [ ] `extends`
-  - [ ] `managed-by`
-  - [ ] `related`
-- [ ] 优先复用已有 relation model，避免再造平行关系系统。
+| ai_infra_docs / relationship 现有字段 | Project v3 处理 | 原因 |
+| --- | --- | --- |
+| `object_type` | → `type` | 与 relationship 命名统一 |
+| `schema_version` | 删除 | schema catalog 已负责 schema 版本 |
+| `category` | → `layer` | 保留 relationship 字段名，但采用有限枚举 |
+| `organization` | 不直接迁字段 | 归一化到已有 company/community 实体或正文治理信息 |
+| `repo` | → `repository` | 纯命名统一 |
+| `docs` | 保留 | 稳定且有查询价值 |
+| `status` | 保留 | 可用于 VERIFY / freshness |
+| `snapshot.as_of` | → `last_verified` | 避免两套事实时间 |
+| `snapshot.version` | 移到正文 | 多数项目为空，只有版本绑定页面才需要 |
+| `snapshot.commit` | 移到正文 | 同上 |
+| `updated` | 删除 | Git 历史已经提供文件更新时间 |
+| `capabilities` | 合并进 `areas`，细节留正文 | 避免 capability / area 标签体系重复漂移 |
+| `integrations` | 保留 | 是最有价值的机器可查询项目关系之一 |
+| `relations` | 本次不迁入 Project v3 核心字段 | 避免同时维护两套项目关系系统 |
+| `backends` | → `hardware` | 当前主要表达硬件/平台支持 |
+| `open_source` | 逐步废弃 | 对绝大多数项目信息量低；repository 与正文可表达 |
+| `company_relation` | 逐步废弃 | 单一 scalar 无法准确描述多个公司的不同关系 |
+| `people` | 逐步退出 canonical frontmatter | curated maintainer/contributor 事实放正文，反向关系由图生成 |
+| `linked_people` | 仅派生 | 不应手工维护 |
+| `linked_companies` | 仅派生 | 不应手工维护 |
+| `governance` | 移到正文 | 治理结构通常不是一个 string 能准确表达 |
+
+### 1.3 `layer` 收敛：有限枚举，技术细节放 `areas`
+
+relationship 当前 `layer` 已混入大量细粒度描述。本次迁移统一为有限枚举，优先复用 Software Schema 的分类思想。
+
+建议 canonical `layer`：
+
+- [ ] `inference-engine`
+- [ ] `distributed-serving`
+- [ ] `gateway`
+- [ ] `kv-cache`
+- [ ] `storage`
+- [ ] `communication`
+- [ ] `runtime`
+- [ ] `kernel`
+- [ ] `compiler`
+- [ ] `training`
+- [ ] `scheduler`
+- [ ] `device-resource`
+- [ ] `benchmark`
+- [ ] `ecosystem`
+- [ ] `optimization`
+- [ ] `other`
+
+例如 HAMi 不再使用：
+
+```yaml
+layer: kubernetes-heterogeneous-device-virtualization
+```
+
+而是：
+
+```yaml
+layer: device-resource
+areas:
+  - kubernetes
+  - heterogeneous-accelerator
+  - gpu-sharing
+  - device-virtualization
+```
+
+- [ ] 建立现有 relationship `layer` → canonical layer 的 migration mapping。
+- [ ] 建立 docs `category` → canonical layer 的 migration mapping。
+- [ ] validator 对新页面强制 canonical layer；旧页面迁移期先 warning。
+
+### 1.4 `areas` 吸收 `capabilities`
+
+- [ ] Project v3 不再同时维护 `areas` 与 `capabilities` 两套标签。
+- [ ] 只把稳定、适合检索的技术主题写入 `areas`。
+- [ ] 细粒度 feature matrix、边界条件、版本差异继续放 Markdown 正文。
+- [ ] 建立常见同义标签归一化，例如 `kv-offload` / `offloading`、`llm-serving-engine` / `inference-engine`。
+- [ ] 不因为两个项目共享相同 `areas` 就自动产生项目关系或人物关系。
+
+### 1.5 `hardware` 吸收 `backends`
+
+- [ ] docs 的 `backends` 在迁移时统一映射到 relationship 的 `hardware`。
+- [ ] `hardware` 只记录明确支持的硬件/平台族，例如 `nvidia`、`amd`、`ascend`。
+- [ ] 软件依赖、存储后端、通信 backend 不塞入 `hardware`，改放正文或 `integrations`。
+
+### 1.6 时间字段只保留 `last_verified`
+
+- [ ] `snapshot.as_of` → `last_verified`。
+- [ ] docs 的 `updated` 不迁移。
+- [ ] `snapshot.version` / `snapshot.commit` 默认不进入 Project v3 frontmatter。
+- [ ] 若页面明确绑定特定版本/commit，在正文增加 Version Snapshot 小节。
+- [ ] VERIFY 以 `last_verified` 为主要 freshness 输入。
+
+### 1.7 派生字段不再污染 canonical Markdown
+
+长期目标：
+
+```text
+人工维护 Project Frontmatter
+        ↓
+约 10 个稳定字段
+
+Markdown 正文
+        ↓
+治理、维护者、核心能力、边界、证据、版本细节
+
+Generated Graph / schema mirrors
+        ↓
+linked_people
+linked_companies
+reverse integrations
+metrics / coverage
+```
+
+- [ ] `linked_people` 只存在于 generated 数据 / schema mirror，不作为人工事实源。
+- [ ] `linked_companies` 只存在于 generated 数据 / schema mirror，不作为人工事实源。
+- [ ] 评估 `people` 是否完全由正文维护者段落 + person 侧显式 project membership 派生；迁移期允许兼容，Project v3 不推荐新增。
+- [ ] 自动生成字段必须可从 Markdown / 关系边重新构建，禁止成为唯一事实源。
+
+### 1.8 合并 `infra-project` → `project`
+
+当前 `infra-project` 与 `project` 的字段高度重复，且现有实例很少。本次迁移顺手统一。
+
+- [ ] 将现有 `type: infra-project` 节点逐个迁为 `type: project`。
+- [ ] `company` → `companies`。
+- [ ] 原 `infra-project.layer` 映射到 canonical layer。
+- [ ] 原 `related_projects` 根据证据迁入正文或项目关系。
+- [ ] 从 `schema/catalog.yaml` 移除新的 `infra-project` 创建入口。
+- [ ] 迁移完成后删除或仅保留 `schema/infra-project.yaml` 兼容说明。
+- [ ] generator / planner / audit 不再把 `infra-project` 当独立 canonical entity type。
+
+### 1.9 项目间软件关系
+
+- [ ] 本次迁移优先把 `integrations` 作为机器可查询的 project ↔ project 技术关系。
+- [ ] `integrations` 只记录直接、可核验的软件集成，不记录“同类项目”或纯技术邻接。
+- [ ] 更复杂的 `depends-on`、`backend-for`、`alternative-to`、`extends` 等关系继续使用现有 relation model 或正文，不在本次迁移中再造一套平行 schema。
 - [ ] 不把正文中的普通 Wiki Link 自动升级为 typed relation。
-- [ ] 不根据相同 `areas` / `capabilities` 自动生成 project ↔ project 强关系。
+- [ ] 不根据相同 `areas` 自动生成 project ↔ project 强关系。
 
 ## 2. Canonical Entity 对齐与去重
 
@@ -178,15 +316,16 @@
 ### 每个项目的迁移验收项
 
 - [ ] canonical project 页面唯一。
-- [ ] repository / docs URL 已核验。
-- [ ] layer/category 已映射。
+- [ ] repository / docs URL 已核验并统一命名。
+- [ ] docs category 与旧 relationship layer 已映射到 canonical layer。
 - [ ] status 已迁移。
-- [ ] snapshot.as_of 已迁移或重新核验。
-- [ ] areas / capabilities 已迁移，且不把推测写入 YAML。
+- [ ] snapshot.as_of 已折叠为 last_verified；updated 不迁移。
+- [ ] capabilities 已归并到精简后的 areas 或正文，不保留第二套标签体系。
 - [ ] integrations 已迁移，并能解析到 canonical project。
-- [ ] backends/hardware 已归一化。
-- [ ] upstream_org 已解析到现有 company/community 或明确 namespace。
-- [ ] 原 relationship 中的 people / companies / governance 信息无丢失。
+- [ ] backends 已映射到 hardware；非硬件 backend 留正文或 integrations。
+- [ ] organization 已归一化到现有 company/community 或保留在正文，不新增 upstream_org 字段。
+- [ ] 原 relationship 中的重要 people / companies / governance 事实无丢失；people/governance 可转正文。
+- [ ] linked_people / linked_companies 可由 generated graph 重建，不依赖手工 frontmatter。
 - [ ] Sources 足以支撑新增的技术事实。
 - [ ] 旧项目 Wiki Link 能通过 alias/redirect 或转换规则找到新节点。
 
@@ -224,24 +363,26 @@
   - [ ] maintainers / contributors
   - [ ] upstream organization
   - [ ] integrations / dependencies
-  - [ ] technical areas / capabilities
+  - [ ] technical areas
 - [ ] 更新 DISCOVER，使 project 技术元数据参与 coverage-gap，但仍以人物、组织、项目生态发现为目标。
 - [ ] VERIFY 可检查：
   - [ ] project status freshness
   - [ ] repository / docs URL
   - [ ] integration 是否仍存在
   - [ ] governance / maintainer 漂移
-  - [ ] snapshot 过期
-- [ ] planner 明确禁止从“共同 areas / capabilities”自动产生 person-to-person 强边。
+  - [ ] last_verified 过期
+- [ ] planner 明确禁止从“共同 areas”自动产生 person-to-person 强边。
 - [ ] 更新 `docs/research-action-planner.md` 与 `docs/research-operators.md`。
 
 ## 7. Validator / Graph Builder / CI
 
 - [ ] Validator 支持 project-v3。
 - [ ] 检查 `integrations` 指向存在的 canonical project。
-- [ ] 检查 `snapshot.as_of` 格式与缺失。
+- [ ] 检查 `last_verified` 格式与缺失。
 - [ ] 检查 repository URL 冲突。
-- [ ] 检查同一 repo 被多个 canonical project 重复声明。
+- [ ] 检查同一 repository 被多个 canonical project 重复声明。
+- [ ] 检查新页面不再新增 `capabilities` / `backends` / `snapshot` / `upstream_org` 等已收敛字段。
+- [ ] 检查 `linked_people` / `linked_companies` 能从图结构重新生成。
 - [ ] Graph builder 正确输出新增/合并后的 project 节点与 project relations。
 - [ ] Graph Explorer 保持并增强 Project 筛选。
 - [ ] Quartz route audit 覆盖新项目路径和兼容 alias。
@@ -266,11 +407,13 @@
 
 ### Batch A：基础设施
 
-- [ ] project-v3
+- [ ] project-v3 精简 schema
+- [ ] layer/category migration mapping
+- [ ] infra-project → project 迁移
 - [ ] catalog
 - [ ] validators
 - [ ] graph builder
-- [ ] migration mapping 表
+- [ ] 59 项目 migration mapping 表
 
 ### Batch B：高价值重复项目
 
@@ -320,7 +463,9 @@
 - [ ] 人物 / 公司 / 学校 / community 与项目关系无回归。
 - [ ] Project ↔ Project integrations / dependencies 可查询。
 - [ ] Person → Project 和 Project → Person 路径可查询。
-- [ ] project 的 areas / capabilities / backends / snapshot 等技术元数据可查询。
+- [ ] project 的 layer / status / areas / hardware / integrations / last_verified 等精简技术元数据可查询。
+- [ ] infra-project 已收敛为 project，不再新增 infra-project canonical 节点。
+- [ ] linked_people / linked_companies 不再依赖人工 frontmatter，generated 数据可重新生成。
 - [ ] 所有 generated schema 可重新生成。
 - [ ] audit / validator / Quartz build 全部通过。
 - [ ] docs 中 models/chip 的原有 software project 链接无 404。
@@ -339,3 +484,6 @@
 - [ ] 不把论文、博客、教程默认建成一级 graph entity。
 - [ ] 不因技术邻接自动推断人际关系。
 - [ ] 不在 project schema 稳定前批量删除 docs 原项目文件。
+- [ ] 不把 docs 的所有 Software 字段机械搬入 relationship。
+- [ ] 不在 Project v3 新增 `upstream_org` / `capabilities` / `backends` / `snapshot`。
+- [ ] 不把 `linked_people` / `linked_companies` 当成人工维护的 canonical facts。
