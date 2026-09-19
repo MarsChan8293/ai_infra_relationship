@@ -1,6 +1,10 @@
 ---
 type: project
 name: TensorRT-LLM
+status: active
+repository: https://github.com/NVIDIA/TensorRT-LLM
+docs: https://docs.nvidia.com/tensorrt-llm/
+last_verified: "2026-09"
 linked_people:
   - "community/NVIDIA/TensorRT-LLM/Anurag Mukkara"
   - "community/NVIDIA/TensorRT-LLM/Brian Nguyen"
@@ -15,8 +19,18 @@ linked_people:
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led
-layer: inference-runtime
-open_source: true
+layer: inference-engine
+areas:
+  - "tensorrt-engine"
+  - "quantization"
+  - "speculative-decoding"
+  - "tensor-parallel"
+  - "expert-parallel"
+  - "disaggregated-serving"
+hardware:
+  - "nvidia"
+integrations:
+  - "NVIDIA Dynamo"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
 ---
