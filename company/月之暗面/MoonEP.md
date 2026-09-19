@@ -1,9 +1,13 @@
 ---
-type: infra-project
-company: 月之暗面
+type: project
+name: MoonEP
+companies: ["月之暗面"]
 linked_people: []
+layer: communication
+repository: https://github.com/MoonshotAI/MoonEP
+status: active
+last_verified: "2026-09"
 areas: [expert-parallelism, communication, moe]
-open_source: true
 linked_companies:
   - "company/月之暗面/月之暗面"
 ---
