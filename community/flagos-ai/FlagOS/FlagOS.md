@@ -2,6 +2,8 @@
 type: community
 name: FlagOS
 aliases: [FlagOS, 众智 FlagOS, 智源 FlagOS, 智源社区]
+layer: ecosystem
+status: active
 linked_people:
   - "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu"
   - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
@@ -11,14 +13,23 @@ linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
   - "company/杭州先进编译科技有限公司/李嘉楠"
   - "company/杭州先进编译科技有限公司/柴赟达"
-category: heterogeneous-ai-system-stack
-repository: https://github.com/flagos-ai
+repository: https://github.com/flagos-ai/FlagOS
 companies: []
 company_relation: community-led
-areas: [heterogeneous-computing, llm-training, llm-inference, ai-compiler, kernels, communication, benchmarking]
+areas:
+  - "heterogeneous-computing"
+  - "llm-training"
+  - "llm-inference"
+  - "ai-compiler"
+  - "kernels"
+  - "communication"
+  - "benchmarking"
+  - "heterogeneous-ai-stack"
+  - "ecosystem-integration"
 governance: BAAI-initiated multi-organization open-source community
 people: [敖玉龙, 赵英利, 曹州, 吕梦思, 白童心, 陈飞宇]
-last_verified: 2026-09
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # 众智 FlagOS 社区
