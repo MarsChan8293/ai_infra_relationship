@@ -18,10 +18,6 @@ node_schemas:
     file: schema/project.yaml
     source: explicit-frontmatter
     canonical: true
-  infra-project:
-    file: schema/infra-project.yaml
-    source: explicit-frontmatter
-    canonical: true
   project-collection:
     file: schema/project-collection.yaml
     source: explicit-frontmatter
@@ -85,6 +81,9 @@ compatibility:
   company_on_project:
     canonical_field: companies
     applies_to: [project]
+  infra_project:
+    canonical_type: project
+    note: "Legacy infra-project nodes are migrated to project; do not create new infra-project nodes."
   github_on_community:
     canonical_field: repository
     applies_to: [community]
@@ -94,7 +93,6 @@ coverage_policy:
     - person-link
     - company
     - project
-    - infra-project
     - project-collection
     - community
     - school
