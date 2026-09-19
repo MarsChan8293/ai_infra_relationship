@@ -1,6 +1,10 @@
 ---
 type: project
 name: Triton Inference Server
+status: active
+repository: https://github.com/triton-inference-server/server
+docs: https://docs.nvidia.com/deeplearning/triton-inference-server/
+last_verified: "2026-09"
 linked_people:
   - "community/triton-inference-server/Triton-Inference-Server/Akhil Saraswathi"
   - "community/triton-inference-server/Triton-Inference-Server/Faradawn Yang"
@@ -8,8 +12,16 @@ linked_people:
   - "community/triton-inference-server/Triton-Inference-Server/Yingge He"
 companies: ["NVIDIA"]
 company_relation: company-led
-layer: production-inference-server
-open_source: true
+layer: distributed-serving
+areas:
+  - "model-serving"
+  - "dynamic-batching"
+  - "multi-framework-serving"
+hardware:
+  - "nvidia"
+  - "cpu"
+integrations:
+  - "TensorRT-LLM"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
 ---
