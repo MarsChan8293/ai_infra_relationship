@@ -1,13 +1,23 @@
 ---
 type: project
 name: OneFlow
+status: active
+repository: https://github.com/Oneflow-Inc/oneflow
+last_verified: "2026-09"
 linked_people:
   - "company/硅基流动/柳俊丞 Juncheng Liu"
   - "company/硅基流动/袁进辉 Jinhui Yuan"
 companies: ["一流科技"]
 company_relation: company-originated
-layer: distributed-deep-learning-framework
-open_source: true
+layer: training
+areas:
+  - "deep-learning-framework"
+  - "distributed-training"
+  - "tensor-runtime"
+hardware:
+  - "nvidia"
+  - "cpu"
+integrations: []
 linked_companies:
   - "company/一流科技/一流科技"
 ---
