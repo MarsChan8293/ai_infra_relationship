@@ -1,6 +1,7 @@
 ---
 type: project
 name: TENT
+parent: Mooncake
 linked_people:
   - "community/kvcache-ai/Mooncake/Jialei Cui"
   - "community/kvcache-ai/Mooncake/Ke Yang"
