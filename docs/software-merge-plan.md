@@ -196,18 +196,20 @@ Markdown 正文
         ↓
 治理、维护者、核心能力、边界、证据、版本细节
 
-Generated Graph / schema mirrors
+Derived relation cache / generated graph
         ↓
 linked_people
 linked_companies
 reverse integrations
 metrics / coverage
+
+> 当前 sync 架构会把部分 derived mirror 物化回 Markdown frontmatter，以便 Quartz / Obsidian 和反向审计直接使用。它们仍然是可重建缓存，不是人工事实源。
 ```
 
-- [ ] `linked_people` 只存在于 generated 数据 / schema mirror，不作为人工事实源。
-- [ ] `linked_companies` 只存在于 generated 数据 / schema mirror，不作为人工事实源。
-- [ ] 评估 `people` 是否完全由正文维护者段落 + person 侧显式 project membership 派生；迁移期允许兼容，Project v3 不推荐新增。
-- [ ] 自动生成字段必须可从 Markdown / 关系边重新构建，禁止成为唯一事实源。
+- [x] `linked_people` 由 `sync-entity-people.py` 等脚本派生；允许作为可重建缓存物化回 Markdown，但不作为人工事实源。
+- [x] `linked_companies` 由 company/person/project 显式断言派生；允许物化回 Markdown，但不作为人工事实源。
+- [x] `people` 继续作为可选 curated 高价值列表；`linked_people` 承担 exhaustive reverse mirror，Project v3 不要求新页面维护 `people`。
+- [x] 自动字段均由 sync 脚本从人工字段/关系边重建，并有 reverse-link audit 校验；禁止将 derived mirror 当唯一事实源。
 
 ### 1.8 合并 `infra-project` → `project`
 
@@ -344,7 +346,7 @@ metrics / coverage
 - [ ] backends 已映射到 hardware；非硬件 backend 留正文或 integrations。
 - [ ] organization 已归一化到现有 company/community 或保留在正文，不新增 upstream_org 字段。
 - [ ] 原 relationship 中的重要 people / companies / governance 事实无丢失；people/governance 可转正文。
-- [ ] linked_people / linked_companies 可由 generated graph 重建，不依赖手工 frontmatter。
+- [x] linked_people / linked_companies 已是脚本派生 mirror，不依赖人工编辑；最终 workflow 仍需重新跑一遍验证当前快照。
 - [ ] Sources 足以支撑新增的技术事实。
 - [ ] 旧项目 Wiki Link 能通过 alias/redirect 或转换规则找到新节点。
 
@@ -406,7 +408,7 @@ metrics / coverage
 - [x] 检查 repository URL 冲突。
 - [x] 检查同一 repository 被多个 canonical project 重复声明。
 - [x] 检查新页面不再新增 `capabilities` / `backends` / `snapshot` / `upstream_org` 等已收敛字段。
-- [ ] 检查 `linked_people` / `linked_companies` 能从图结构重新生成。
+- [x] `sync-entity-people.py` / `sync-company-community.py` 可重建 `linked_people` / `linked_companies`，对应 audit 脚本检查 expected vs actual。
 - [x] Graph builder / typed relation export 已把 Project v3 `integrations` 输出为 `project-integration` typed edges；新增/合并后的 project 节点由 `audit-graph.py` 统一生成。
 - [x] Graph Explorer 已有 Project 类型筛选，并新增 Software Index project focus 深链与 `project-integration` typed edge。
 - [ ] Quartz route audit 覆盖新项目路径和兼容 alias。
@@ -520,4 +522,4 @@ metrics / coverage
 - [ ] 不在 project schema 稳定前批量删除 docs 原项目文件。
 - [ ] 不把 docs 的所有 Software 字段机械搬入 relationship。
 - [ ] 不在 Project v3 新增 `upstream_org` / `capabilities` / `backends` / `snapshot`。
-- [ ] 不把 `linked_people` / `linked_companies` 当成人工维护的 canonical facts。
+- [x] 不把 `linked_people` / `linked_companies` 当成人工维护的 canonical facts；它们是可重建的物化派生字段。
