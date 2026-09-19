@@ -23,7 +23,7 @@
 - [x] Software Project Index 生成器已接入 workflow，输出 `generated/software-project-index.md`。
 - [x] Research Planner 已消费 Project v3 `integrations / last_verified`，新增 `verify_project_freshness` VERIFY objective。
 - [ ] generated graph / schema mirrors 尚待 workflow 重建并通过新 migration audit；在结果落盘前不把最终 CI / generated DoD 标记为完成。
-- [ ] `ai_infra_docs` 侧的 project stub / redirect / 跨仓链接收尾尚未执行；Concept 保持原地不迁。
+- [x] `ai_infra_docs` 侧 59 个 project 页面已全部转为 redirect；README / Project Index / COMMUNITIES / validator / graph kind 已同步到 Software Schema V0.2；Concept 保持原地不迁。
 
 ## 0. 迁移边界与约束
 
@@ -32,8 +32,8 @@
 - [x] 不在本仓库新增 `concept` 一级节点类型。
 - [x] 不新增 Project ↔ Concept typed relation。
 - [ ] 不原样迁移 `software/COMMUNITIES.md`；将其中与项目直接相关的 upstream organization / community 信息归一化到本仓库现有 company / community 节点。
-- [ ] 不长期保留同一软件项目在两个仓库各自作为 canonical source。
-- [ ] 迁移期间 `ai_infra_docs/software/projects` 保留兼容入口，避免 models / chip 页面中的旧项目链接立即失效。
+- [x] 不长期保留同一软件项目在两个仓库各自作为 canonical source。
+- [x] `ai_infra_docs/software/projects` 已保留为 59 个兼容 redirect，避免 models / chip / concepts 的旧项目链接失效。
 - [x] `ai_infra_docs/software/concepts` 保持原路径和原职责，不进入本次退役范围。
 - [x] Markdown 继续作为事实源；generated 数据继续只作为派生视图。
 - [ ] 不因为软件项目迁入而降低现有“人物关系必须有直接证据”的证据标准。
@@ -237,7 +237,7 @@ metrics / coverage
 - [x] 对重名或多层目录项目建立稳定 canonical ID。
 - [x] 对 vLLM、SGLang、LMCache、Mooncake、DeepEP、vLLM-Ascend 等已有丰富人物网络的项目，以 relationship 页面为主体吸收 Software 技术字段。
 - [x] 对当前 relationship 中尚不存在的 Software 项目新建 project 节点。
-- [ ] 为旧 `software/projects/<slug>` 记录兼容 alias / redirect target。
+- [x] 为旧 `software/projects/<slug>` 建立兼容 redirect，并指向 relationship canonical project。
 - [ ] 完成一次 duplicate-name / duplicate-repository audit。
 - [ ] 完成一次 repository URL canonicalization audit。
 
@@ -410,17 +410,17 @@ metrics / coverage
 
 ## 8. ai_infra_docs 兼容迁移
 
-- [ ] 第一阶段继续保留 `ai_infra_docs/software/projects`，但标注 relationship 为 project canonical source。
-- [ ] 建立旧 software project path → relationship canonical URL 映射。
+- [x] `ai_infra_docs/software/projects` 已全部转为 `project-redirect`，relationship 为唯一 canonical project source。
+- [x] 建立旧 software project path → relationship canonical URL 映射；relationship 侧同时保留 `research/software-project-migration.json`。
 - [ ] 扫描 `ai_infra_docs/models/**` 对 software project 的引用。
 - [ ] 扫描 `ai_infra_docs/chip/**` 对 software project 的引用。
 - [ ] 将项目跨仓引用改为稳定 URL / external canonical reference，或在 build 时重写。
-- [ ] **保留 models / chip 对 `software/concepts/*` 的本地引用，不做跨仓迁移。**
+- [x] **保留 models / chip 对 `software/concepts/*` 的本地引用，不做跨仓迁移。**
 - [ ] 确认 docs Quartz 无 404。
 - [ ] 确认 relationship Quartz 无 duplicate route。
-- [ ] 兼容期结束后，将 docs 中重复 project 页面变成薄 redirect/stub 或删除。
-- [ ] 保留 `software/concepts/*`、其索引与概念文档职责。
-- [ ] Software Schema 若仍服务 docs Concept，可拆分或收缩为 Concept-only 规则；不要因 Project 迁移误删 Concept 所需约束。
+- [x] docs 中 59 个重复 project 页面已全部变成薄 `project-redirect`，旧路径保持稳定。
+- [x] 保留 `software/concepts/*`、其索引与概念文档职责。
+- [x] `ai_infra_docs/software/SCHEMA.md` 已升级为 Software Schema V0.2：Concept + Project Redirect 双职责。
 
 ## 9. 推荐执行批次
 
@@ -466,10 +466,20 @@ metrics / coverage
 ### Batch E：docs 收尾
 
 - [ ] models/chip 的 project 跨仓链接迁移完成。
-- [ ] docs software project canonical 内容退役。
-- [ ] 删除重复项目数据和不再需要的 project schema 规则。
-- [ ] 保留 `software/concepts` 及其本地链接。
-- [ ] 保留必要 redirects / compatibility notes。
+- [x] docs software project canonical 内容退役，59 个页面全部降级为 redirect。
+- [x] docs project 页面不再复制 capability / integration / backend / snapshot 等 canonical 项目事实；validator 已要求全部 project 页面为 redirect。
+- [x] 保留 `software/concepts` 及其本地链接。
+- [x] 保留 59 个 project redirects / compatibility notes。
+
+### 当前唯一阻塞：generated / Actions
+
+当前通过 GitHub App API 直接提交到 `main` 的变更没有可靠触发 `Sync Node Schemas` GitHub Actions，因此 `generated/nodes.json`、`schema/nodes/**`、`generated/software-project-migration-audit.*` 和 `generated/software-project-index.md` 仍是旧快照或尚未生成。
+
+- [ ] 通过普通 Git push 或 GitHub UI 的 `workflow_dispatch` 触发 `Sync Node Schemas`。
+- [ ] 确认 `generated/software-project-migration-audit.json` 状态为 `pass`。
+- [ ] 确认 `generated/nodes.json` 中 `infra-project` 数量归零。
+- [ ] 确认 `generated/software-project-index.md` 已生成并包含 59 个项目。
+- [ ] 确认 node schema mirrors 与 Project v3 源数据同步。
 
 ## 10. 完成定义（Definition of Done）
 
@@ -478,7 +488,7 @@ metrics / coverage
 - [ ] 59 个项目在 relationship 中均有且只有一个 canonical project 节点。
 - [x] `ai_infra_docs/software/concepts/*` 未迁移，仍由 docs 维护。
 - [x] relationship 未新增 concept canonical node type。
-- [ ] 两仓库不存在同一软件项目的双 canonical source。
+- [x] 两仓库不存在同一软件项目的双 canonical source；docs 仅保留 redirect。
 - [ ] 人物 / 公司 / 学校 / community 与项目关系无回归。
 - [ ] Project ↔ Project integrations / dependencies 可查询。
 - [ ] Person → Project 和 Project → Person 路径可查询。
@@ -488,7 +498,7 @@ metrics / coverage
 - [ ] 所有 generated schema 可重新生成。
 - [ ] audit / validator / Quartz build 全部通过。
 - [ ] docs 中 models/chip 的原有 software project 链接无 404。
-- [ ] docs 中 software concept 链接保持原状可用。
+- [x] docs 中 software concept 继续留在原仓库，未迁移。
 - [ ] EXPAND / DISCOVER / VERIFY 不因新增 project 元数据产生明显噪声。
 - [ ] relationship 的 Software Project Index 已由数据自动生成，不再手工维护项目清单。
 
