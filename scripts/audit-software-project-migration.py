@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse,json,pathlib,re,sys
 from collections import defaultdict
+from urllib.parse import urlsplit, urlunsplit
 
 ROOTS=("company","community","university")
 LAYERS={"inference-engine","distributed-serving","gateway","kv-cache","storage","communication","runtime","kernel","compiler","training","scheduler","device-resource","benchmark","ecosystem","optimization","other"}
@@ -37,6 +38,28 @@ def lst(v):
 
 def fold(s):return re.sub(r"\s+"," ",s.strip()).casefold()
 
+def canonical_repository_url(value):
+    if not isinstance(value,str) or not value.strip():
+        return None
+    raw=value.strip()
+    parsed=urlsplit(raw)
+    if parsed.scheme not in {"http","https"} or not parsed.netloc:
+        return None
+    host=parsed.netloc.casefold()
+    if host.startswith("www."):
+        host=host[4:]
+    path=parsed.path.rstrip("/")
+    if path.endswith(".git"):
+        path=path[:-4]
+    # Repository field must identify a repository/org root, not a deep page.
+    if host in {"github.com","gitcode.com","gitee.com"}:
+        parts=[part for part in path.split("/") if part]
+        if host=="github.com" and len(parts)>2:
+            return "__deep__"
+        if host in {"gitcode.com","gitee.com"} and len(parts)>2:
+            return "__deep__"
+    return urlunsplit(("https",host,path,"",""))
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--root",default="."); ap.add_argument("--generated",default="generated")
     a=ap.parse_args(); root=pathlib.Path(a.root).resolve(); gen=root/a.generated; gen.mkdir(parents=True,exist_ok=True)
@@ -48,12 +71,22 @@ def main():
         for p in b.rglob("*.md"):
             f=fm(p.read_text(encoding="utf-8")); t=f.get("type"); rel=p.relative_to(root).as_posix()
             if t=="infra-project":infra.append(rel)
-            if t=="project":projects.append({"path":rel,"name":str(f.get("name") or p.stem),"repo":f.get("repository"),"parent":f.get("parent"),"fm":f})
+            if t=="project":
+                repo_raw=f.get("repository")
+                projects.append({
+                    "path":rel,
+                    "name":str(f.get("name") or p.stem),
+                    "repo":repo_raw,
+                    "repo_canonical":canonical_repository_url(repo_raw),
+                    "parent":f.get("parent"),
+                    "fm":f
+                })
     for p in infra:errors.append({"kind":"infra-project","path":p,"detail":"migrate to project"})
     names=defaultdict(list); repos=defaultdict(list)
     for p in projects:
         names[fold(p["name"])].append(p)
-        if isinstance(p["repo"],str) and p["repo"].strip():repos[p["repo"].rstrip("/")].append(p)
+        if p.get("repo_canonical") and p["repo_canonical"]!="__deep__":
+            repos[p["repo_canonical"]].append(p)
     seen=set()
     for it in items:
         path=it["canonical_path"]; target=root/path
@@ -67,6 +100,20 @@ def main():
         if len(ms)!=1 or ms[0]["path"]!=path:errors.append({"kind":"non-unique-name","path":path,"detail":str([x["path"] for x in ms])})
         if f.get("layer") not in LAYERS:errors.append({"kind":"layer","path":path,"detail":repr(f.get("layer"))})
         if f.get("status") not in STATUS:errors.append({"kind":"status","path":path,"detail":repr(f.get("status"))})
+        repo_raw=f.get("repository")
+        repo_canonical=canonical_repository_url(repo_raw)
+        if repo_raw not in (None,""):
+            if repo_canonical is None:
+                errors.append({"kind":"repository-url-invalid","path":path,"detail":repr(repo_raw)})
+            elif repo_canonical=="__deep__":
+                errors.append({"kind":"repository-url-not-root","path":path,"detail":repr(repo_raw)})
+            elif repo_raw!=repo_canonical:
+                errors.append({"kind":"repository-url-noncanonical","path":path,"detail":f"{repo_raw!r} -> {repo_canonical!r}"})
+        docs_raw=f.get("docs")
+        if docs_raw not in (None,""):
+            parsed_docs=urlsplit(str(docs_raw))
+            if parsed_docs.scheme not in {"http","https"} or not parsed_docs.netloc:
+                errors.append({"kind":"docs-url-invalid","path":path,"detail":repr(docs_raw)})
         lv=f.get("last_verified")
         if not isinstance(lv,str) or not MONTH.match(lv):errors.append({"kind":"last_verified","path":path,"detail":repr(lv)})
         for k in LEGACY:
