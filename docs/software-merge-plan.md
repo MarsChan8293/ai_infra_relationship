@@ -417,9 +417,9 @@ metrics / coverage
 
 - [x] `ai_infra_docs/software/projects` 已全部转为 `project-redirect`，relationship 为唯一 canonical project source。
 - [x] 建立旧 software project path → relationship canonical URL 映射；relationship 侧同时保留 `research/software-project-migration.json`。
-- [ ] 扫描 `ai_infra_docs/models/**` 对 software project 的引用。
-- [ ] 扫描 `ai_infra_docs/chip/**` 对 software project 的引用。
-- [ ] 将项目跨仓引用改为稳定 URL / external canonical reference，或在 build 时重写。
+- [x] 已扫描 `ai_infra_docs/models/**`：当前 7 个页面引用 software project，均命中保留的 `software/projects/*` redirect。
+- [x] 已扫描 `ai_infra_docs/chip/**`：当前没有 `software/projects/*` 引用。
+- [x] 采用稳定的本地 redirect 兼容层：models/concepts 继续链接 `software/projects/*`，redirect 再指向 relationship canonical project；无需在每个引用页写跨仓硬链接。
 - [x] **保留 models / chip 对 `software/concepts/*` 的本地引用，不做跨仓迁移。**
 - [ ] 确认 docs Quartz 无 404。
 - [ ] 确认 relationship Quartz 无 duplicate route。
@@ -470,7 +470,7 @@ metrics / coverage
 
 ### Batch E：docs 收尾
 
-- [ ] models/chip 的 project 跨仓链接迁移完成。
+- [x] models/chip 的 project 引用兼容迁移完成：models 通过本地 redirect 间接指向 relationship，chip 当前无 project 引用。
 - [x] docs software project canonical 内容退役，59 个页面全部降级为 redirect。
 - [x] docs project 页面不再复制 capability / integration / backend / snapshot 等 canonical 项目事实；validator 已要求全部 project 页面为 redirect。
 - [x] 保留 `software/concepts` 及其本地链接。
@@ -502,7 +502,7 @@ metrics / coverage
 - [ ] linked_people / linked_companies 不再依赖人工 frontmatter，generated 数据可重新生成。
 - [ ] 所有 generated schema 可重新生成。
 - [ ] audit / validator / Quartz build 全部通过。
-- [ ] docs 中 models/chip 的原有 software project 链接无 404。
+- [x] models 中现有 software project 引用均命中 59 个保留 redirect；chip 当前无 project 引用。
 - [x] docs 中 software concept 继续留在原仓库，未迁移。
 - [ ] EXPAND / DISCOVER / VERIFY 不因新增 project 元数据产生明显噪声。
 - [ ] relationship 的 Software Project Index 已由数据自动生成，不再手工维护项目清单。
