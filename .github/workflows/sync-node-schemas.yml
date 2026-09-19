@@ -30,6 +30,7 @@ on:
       - "scripts/audit-research-links.py"
       - "scripts/audit-company-community-links.py"
       - "scripts/generate-node-schemas.py"
+      - "scripts/generate-software-project-index.py"
       - "scripts/migrate-legacy-education.py"
       - "scripts/repair-markdown-quality.py"
       - "scripts/repair-markdown-safe.py"
@@ -90,6 +91,9 @@ jobs:
 
       - name: Validate software project migration
         run: python3 scripts/audit-software-project-migration.py --root . --generated generated
+
+      - name: Generate software project index
+        run: python3 scripts/generate-software-project-index.py --root . --output generated/software-project-index.md
 
       - name: Test research-action history planner
         run: python3 scripts/test-research-history.py
