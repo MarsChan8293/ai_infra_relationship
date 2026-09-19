@@ -23,7 +23,7 @@ import re
 from collections import defaultdict
 
 ROOTS = ("company", "community")
-ENTITY_TYPES = {"project", "community", "infra-project", "project-collection"}
+ENTITY_TYPES = {"project", "community", "project-collection"}
 NON_COMMUNITY_PROJECT_TYPES = {"model-team", "model-project"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->"
 COMPANY_END = "<!-- END AUTO COMPANY COMMUNITY LINKS -->"
