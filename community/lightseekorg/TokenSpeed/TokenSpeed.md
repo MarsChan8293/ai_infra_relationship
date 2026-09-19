@@ -12,7 +12,7 @@ companies: ["NVIDIA","AMD","Together AI","阿里巴巴"]
 company_relation: cross-company-co-creation
 layer: runtime
 areas:
-  - "llm-inference-optimization"
+  - "inference-optimization"
   - "performance-tooling"
 integrations: []
 linked_companies:
