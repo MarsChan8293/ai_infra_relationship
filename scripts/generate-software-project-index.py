@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse,json,pathlib,sys
 from collections import defaultdict
+from urllib.parse import quote
 
 ORDER=["inference-engine","distributed-serving","gateway","kv-cache","storage","communication","runtime","kernel","compiler","training","scheduler","device-resource","benchmark","ecosystem","optimization","other"]
 
@@ -43,7 +44,10 @@ def main():
         groups[str(f.get("layer") or "other")].append({
             "name":item["name"],"path":item["canonical_path"][:-3],
             "status":str(f.get("status") or ""),"areas":vals(f.get("areas")),
-            "integrations":vals(f.get("integrations")),"action":item["action"]
+            "integrations":vals(f.get("integrations")),
+            "linked_people":vals(f.get("linked_people")),
+            "linked_companies":vals(f.get("linked_companies")),
+            "action":item["action"]
         })
     lines=["# Software Project Index","",
            "Generated from research/software-project-migration.json and canonical Project v3 frontmatter.","",
@@ -51,10 +55,21 @@ def main():
     for layer in ORDER:
         rows=sorted(groups.get(layer,[]),key=lambda x:x["name"].casefold())
         if not rows:continue
-        lines += [f"## {layer}","", "| Project | Status | Areas | Integrations |", "| --- | --- | --- | ---: |"]
+        lines += [
+            f"## {layer}",
+            "",
+            "| Project | Status | Areas | Integrations | People | Companies | Graph |",
+            "| --- | --- | --- | ---: | ---: | ---: | --- |",
+        ]
         for r in rows:
             areas=", ".join(r["areas"][:5])
-            lines.append(f"| [[{r['path']}|{r['name']}]] | {r['status']} | {areas} | {len(r['integrations'])} |")
+            focus=quote(r["name"],safe="")
+            graph=f"https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus={focus}"
+            lines.append(
+                f"| [[{r['path']}|{r['name']}]] | {r['status']} | {areas} | "
+                f"{len(r['integrations'])} | {len(r['linked_people'])} | "
+                f"{len(r['linked_companies'])} | [Graph]({graph}) |"
+            )
         lines.append("")
     unknown=sorted(set(groups)-set(ORDER))
     if unknown:
