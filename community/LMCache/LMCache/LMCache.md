@@ -41,7 +41,6 @@ areas:
   - "ascend"
   - "rocm"
   - "cxl"
-  - "kv-offload"
   - "prefix-reuse"
   - "remote-kv-cache"
   - "kv-transfer"
