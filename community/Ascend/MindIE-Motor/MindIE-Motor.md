@@ -1,13 +1,19 @@
 ---
 type: project
 name: MindIE-Motor
+status: active
+last_verified: "2026-09"
 linked_people:
   - "community/Ascend/MemCache/吕有辉"
 companies: ["华为"]
 company_relation: company-led
-layer: distributed-inference-control-plane
-hardware: [Ascend]
-open_source: true
+layer: runtime
+hardware:
+  - "ascend"
+areas:
+  - "inference-runtime"
+  - "ascend-runtime"
+integrations: []
 linked_companies:
   - "company/华为/华为"
 ---
