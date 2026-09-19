@@ -1,6 +1,7 @@
 ---
 type: project
 name: Ray Serve
+parent: Ray
 status: active
 repository: https://github.com/ray-project/ray
 docs: https://docs.ray.io/en/latest/serve/
