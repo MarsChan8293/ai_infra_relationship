@@ -27,7 +27,12 @@ def fm(text):
     for raw in lines[1:end]:
         if not raw.strip() or raw.lstrip().startswith("#"):continue
         if raw.startswith("  - ") and cur:
-            d.setdefault(cur,[]).append(scalar(raw[4:])); continue
+            if not isinstance(d.get(cur), list):
+                if d.get(cur) in ("", None):
+                    d[cur]=[]
+                else:
+                    continue
+            d[cur].append(scalar(raw[4:])); continue
         if raw.startswith((" ","-")) or ":" not in raw:continue
         k,v=raw.split(":",1); cur=k.strip(); d[cur]=scalar(v)
     return d
