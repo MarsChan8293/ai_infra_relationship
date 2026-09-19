@@ -1,15 +1,23 @@
 ---
 type: project
 name: FlagAttention
+status: active
 linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
 companies: []
 company_relation: community-led
-layer: attention-kernel
+layer: runtime
 repository: https://github.com/flagos-ai/FlagAttention
-open_source: true
-areas: [attention, triton, kernels, llm-inference, heterogeneous-computing]
-last_verified: 2026-09
+areas:
+  - "attention"
+  - "triton"
+  - "kernels"
+  - "llm-inference"
+  - "heterogeneous-computing"
+  - "attention-kernel"
+  - "heterogeneous-attention"
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # FlagAttention
