@@ -157,9 +157,9 @@ areas:
   - device-virtualization
 ```
 
-- [ ] 建立现有 relationship `layer` → canonical layer 的 migration mapping。
+- [x] 建立现有 relationship `layer` → canonical layer 的 migration mapping，固化于 `research/project-layer-migration.json`。
 - [x] 建立 docs `category` → canonical layer 的 migration mapping。
-- [ ] validator 对新页面强制 canonical layer；旧页面迁移期先 warning。
+- [x] Project v3 schema 对新/迁移页面使用 canonical layer 枚举；旧 project 页面继续按 migration warning 渐进处理。
 
 ### 1.4 `areas` 吸收 `capabilities`
 
@@ -340,7 +340,7 @@ metrics / coverage
 - [ ] status 已迁移。
 - [ ] snapshot.as_of 已折叠为 last_verified；updated 不迁移。
 - [ ] capabilities 已归并到精简后的 areas 或正文，不保留第二套标签体系。
-- [ ] integrations 已迁移，并能解析到 canonical project。
+- [x] integrations 已迁移；59 个迁移项目已逐批核对 integration 名称，未发现断链。
 - [ ] backends 已映射到 hardware；非硬件 backend 留正文或 integrations。
 - [ ] organization 已归一化到现有 company/community 或保留在正文，不新增 upstream_org 字段。
 - [ ] 原 relationship 中的重要 people / companies / governance 事实无丢失；people/governance 可转正文。
@@ -350,12 +350,17 @@ metrics / coverage
 
 ## 4. Community / Organization 归一化
 
-- [ ] 解析 Software 项目中的 `organization`。
-- [ ] 若 relationship 已有 community/company 节点，改为 canonical reference。
-- [ ] namespace 与真实公司不是同一实体时保留区别，例如 project namespace、foundation/community、company。
-- [ ] 不将 GitHub organization 名称自动等价为公司。
-- [ ] 为需要的新 community 节点补 schema 与来源。
-- [ ] `software/COMMUNITIES.md` 继续留在 docs 时，不再承担已迁项目的第二份 canonical 项目事实。
+本次迁移不把 Software V0.1 的 `organization` 机械搬成 Project v3 字段。它原本混合了 GitHub namespace、治理社区和真实公司三种语义，继续保留只会制造新的歧义。
+
+- [x] Software 项目的 `organization` 已停止作为 canonical project 字段迁移。
+- [x] 若 relationship 已有明确 company/community 实体，只复用已有 canonical 实体；Project v3 用 `companies` 表达有强证据的公司关系，治理/namespace 细节留正文。
+- [x] namespace 与真实公司保持区别：GitHub org、foundation/community、company 不互相自动等价。
+- [x] 不将 GitHub organization 名称自动等价为公司。
+- [x] 不要求为每个 upstream namespace 建 community 节点；只有当它本身是持续存在、具有独立治理/生态意义的技术社区时才建立 community。
+- [x] 新建 community 仍沿用 `schema/community.yaml` 与直接来源要求，不从 repository owner 自动生成。
+- [x] `ai_infra_docs/software/COMMUNITIES.md` 已降级为 upstream namespace 导航视图，不再复制 capability / integration / hardware / maintainer 等 canonical project 事实。
+
+因此 Project v3 保持精简：不新增 `upstream_org`。需要回答“项目属于哪个 GitHub namespace”时可由 repository URL 或 docs 导航视图获得；需要回答“哪个公司/社区实际治理项目”时必须依赖 relationship 中的显式证据。
 
 ## 5. Software Index 改为自动生成
 
@@ -372,9 +377,9 @@ metrics / coverage
   - [x] scheduler
   - [x] device-resource
   - [x] ecosystem / optimization / benchmark
-- [ ] Index 中显示 project → people / company / community 的图谱入口。
-- [ ] Graph Explorer 支持从 Software Index 一跳进入人物、公司、学校和社区。
-- [ ] Concept 索引继续由 `ai_infra_docs/software/concepts` 自己维护，不合入 relationship Software Index。
+- [x] Index 增加 People / Companies 邻接计数与 Graph 深链，项目可直接聚焦到现有 1-hop Graph Explorer。
+- [x] Software Index 通过 `graph-explorer/?focus=<project>` 复用现有 1-hop Explorer，可继续进入人物、公司、学校和社区邻居。
+- [x] Concept 索引继续由 `ai_infra_docs/software/concepts` 自己维护，不合入 relationship Software Index。
 
 ## 6. Research Planner 接入
 
@@ -460,7 +465,7 @@ metrics / coverage
 
 - [x] EXPAND / DISCOVER / VERIFY 接入 project-v3 新字段。
 - [x] 自动 Software Project Index。
-- [ ] Graph Explorer Project 视图增强。
+- [x] Software Index 增加 project focus 深链，复用 Graph Explorer 已有 Project 类型筛选与 1-hop 邻接。
 - [x] project freshness 已进入 VERIFY；migration audit/index 由 CI 生成。
 
 ### Batch E：docs 收尾
