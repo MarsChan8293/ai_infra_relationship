@@ -22,7 +22,7 @@ import pathlib
 import re
 from collections import defaultdict
 
-ROOTS = ("company", "community")
+ROOTS = ("company", "community", "university")
 ENTITY_TYPES = {"project", "community", "project-collection"}
 NON_COMMUNITY_PROJECT_TYPES = {"model-team", "model-project"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->"
