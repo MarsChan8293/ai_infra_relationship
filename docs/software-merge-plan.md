@@ -20,6 +20,8 @@
 - [x] Ray Serve / Ray、Kubernetes DRA / Kubernetes 已用可选 `parent` 字段表达合法 monorepo 子项目，避免 repository 去重误判。
 - [x] 新增 `scripts/audit-software-project-migration.py`，严格验收 59 项目的唯一性、Project v3 字段、integration 解析、repository 冲突和 `infra-project` 归零。
 - [x] Software migration audit 已接入 `.github/workflows/sync-node-schemas.yml`。
+- [x] Software Project Index 生成器已接入 workflow，输出 `generated/software-project-index.md`。
+- [x] Research Planner 已消费 Project v3 `integrations / last_verified`，新增 `verify_project_freshness` VERIFY objective。
 - [ ] generated graph / schema mirrors 尚待 workflow 重建并通过新 migration audit；在结果落盘前不把最终 CI / generated DoD 标记为完成。
 - [ ] `ai_infra_docs` 侧的 project stub / redirect / 跨仓链接收尾尚未执行；Concept 保持原地不迁。
 
@@ -221,8 +223,8 @@ metrics / coverage
 
 ### 1.9 项目间软件关系
 
-- [ ] 本次迁移优先把 `integrations` 作为机器可查询的 project ↔ project 技术关系。
-- [ ] `integrations` 只记录直接、可核验的软件集成，不记录“同类项目”或纯技术邻接。
+- [x] 本次迁移优先把 `integrations` 作为机器可查询的 project ↔ project 技术关系。
+- [x] `integrations` 只记录直接、可核验的软件集成，不记录“同类项目”或纯技术邻接。
 - [ ] 更复杂的 `depends-on`、`backend-for`、`alternative-to`、`extends` 等关系继续使用现有 relation model 或正文，不在本次迁移中再造一套平行 schema。
 - [ ] 不把正文中的普通 Wiki Link 自动升级为 typed relation。
 - [ ] 不根据相同 `areas` 自动生成 project ↔ project 强关系。
@@ -357,39 +359,39 @@ metrics / coverage
 
 ## 5. Software Index 改为自动生成
 
-- [ ] relationship 不再人工维护迁入项目的静态列表。
-- [ ] 从 project `layer` / `status` 自动生成 Software Project Index。
+- [x] relationship 不再人工维护迁入项目的静态列表。
+- [x] 从 project `layer` / `status` 自动生成 Software Project Index。
 - [ ] 支持按以下维度筛选：
-  - [ ] inference-engine
-  - [ ] distributed-serving
-  - [ ] kv-cache / storage
-  - [ ] communication
-  - [ ] runtime / kernel
-  - [ ] compiler
-  - [ ] training
-  - [ ] scheduler
-  - [ ] device-resource
-  - [ ] ecosystem / optimization / benchmark
+  - [x] inference-engine
+  - [x] distributed-serving
+  - [x] kv-cache / storage
+  - [x] communication
+  - [x] runtime / kernel
+  - [x] compiler
+  - [x] training
+  - [x] scheduler
+  - [x] device-resource
+  - [x] ecosystem / optimization / benchmark
 - [ ] Index 中显示 project → people / company / community 的图谱入口。
 - [ ] Graph Explorer 支持从 Software Index 一跳进入人物、公司、学校和社区。
 - [ ] Concept 索引继续由 `ai_infra_docs/software/concepts` 自己维护，不合入 relationship Software Index。
 
 ## 6. Research Planner 接入
 
-- [ ] 更新 EXPAND，使 project 节点可沿以下方向扩展：
-  - [ ] maintainers / contributors
-  - [ ] upstream organization
-  - [ ] integrations / dependencies
-  - [ ] technical areas
-- [ ] 更新 DISCOVER，使 project 技术元数据参与 coverage-gap，但仍以人物、组织、项目生态发现为目标。
+- [x] 更新 EXPAND，使 project 节点可沿以下方向扩展：
+  - [x] maintainers / contributors
+  - [x] upstream organization
+  - [x] integrations / dependencies
+  - [x] technical areas
+- [x] 更新 DISCOVER，使 project 技术元数据参与 coverage-gap，但仍以人物、组织、项目生态发现为目标。
 - [ ] VERIFY 可检查：
-  - [ ] project status freshness
-  - [ ] repository / docs URL
-  - [ ] integration 是否仍存在
-  - [ ] governance / maintainer 漂移
-  - [ ] last_verified 过期
-- [ ] planner 明确禁止从“共同 areas”自动产生 person-to-person 强边。
-- [ ] 更新 `docs/research-action-planner.md` 与 `docs/research-operators.md`。
+  - [x] project status freshness
+  - [x] repository / docs URL
+  - [x] integration 是否仍存在
+  - [x] governance / maintainer 漂移
+  - [x] last_verified 过期
+- [x] planner 明确禁止从“共同 areas”自动产生 person-to-person 强边。
+- [x] 更新 `docs/research-action-planner.md` 与 `docs/research-operators.md`。
 
 ## 7. Validator / Graph Builder / CI
 
@@ -456,10 +458,10 @@ metrics / coverage
 
 ### Batch D：Planner 与生成视图
 
-- [ ] EXPAND / DISCOVER / VERIFY 接入 project-v3 新字段。
-- [ ] 自动 Software Project Index。
+- [x] EXPAND / DISCOVER / VERIFY 接入 project-v3 新字段。
+- [x] 自动 Software Project Index。
 - [ ] Graph Explorer Project 视图增强。
-- [ ] coverage / freshness 报告。
+- [x] project freshness 已进入 VERIFY；migration audit/index 由 CI 生成。
 
 ### Batch E：docs 收尾
 
