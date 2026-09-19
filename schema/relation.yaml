@@ -40,6 +40,7 @@ fields:
   confidence: high, medium, or low
   evidence: array of public source URLs
 rules:
+  - Project v3 `integrations` may be exported as derived `project-integration` typed edges; do not duplicate the same assertion manually in `relations`.
   - Structured relations complement the prose relationship section; they do not replace it.
   - `coworker` requires verified overlapping employment or formal-team membership.
   - `paper-coauthor` proves coauthorship only and must not be promoted to coworker without separate evidence.
