@@ -105,6 +105,18 @@ class ResearchOperatorTests(unittest.TestCase):
         self.assertEqual(operator, "verify")
         self.assertEqual(trigger["kind"], "weak_evidence")
 
+    def test_verify_project_freshness_relation_is_always_verify(self):
+        candidate = action(
+            action_id="community/example/Project::verify_project_freshness",
+            relation="verify_project_freshness",
+            evidence=1.0,
+            gap=0.0,
+            bucket="verification",
+        )
+        operator, trigger = PLAN.choose_operator(candidate, "community/example/Project")
+        self.assertEqual(operator, "verify")
+        self.assertEqual(trigger["kind"], "weak_evidence")
+
 
 if __name__ == "__main__":
     unittest.main()
