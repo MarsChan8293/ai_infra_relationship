@@ -1,5 +1,5 @@
 ---
-type: community
+type: project
 name: TileLang
 layer: compiler
 status: active
@@ -12,7 +12,6 @@ linked_people:
   - "university/北京大学/程羽 Yu Cheng"
 companies: []
 company_relation: academic-research-led
-github: https://github.com/tile-ai/tilelang
 areas:
   - "kernel-dsl"
   - "kernel-generation"

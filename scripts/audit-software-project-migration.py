@@ -4,6 +4,7 @@ from collections import defaultdict
 from urllib.parse import urlsplit, urlunsplit
 
 ROOTS=("company","community","university")
+CANONICAL_TYPES={"project","community","project-collection"}
 LAYERS={"inference-engine","distributed-serving","gateway","kv-cache","storage","communication","runtime","kernel","compiler","training","scheduler","device-resource","benchmark","ecosystem","optimization","other"}
 STATUS={"active","maintenance","deprecated","archived","unknown"}
 LEGACY={"object_type","schema_version","category","repo","capabilities","backends","snapshot","updated","upstream_org"}
@@ -27,7 +28,12 @@ def fm(text):
     for raw in lines[1:end]:
         if not raw.strip() or raw.lstrip().startswith("#"):continue
         if raw.startswith("  - ") and cur:
-            d.setdefault(cur,[]).append(scalar(raw[4:])); continue
+            if not isinstance(d.get(cur), list):
+                if d.get(cur) in ("", None):
+                    d[cur]=[]
+                else:
+                    continue
+            d[cur].append(scalar(raw[4:])); continue
         if raw.startswith((" ","-")) or ":" not in raw:continue
         k,v=raw.split(":",1); cur=k.strip(); d[cur]=scalar(v)
     return d
@@ -67,39 +73,54 @@ def main():
     area_map_path=root/"research/project-area-normalization.json"
     area_map=json.loads(area_map_path.read_text(encoding="utf-8")) if area_map_path.exists() else {"automatic":{}}
     area_aliases=area_map.get("automatic") or {}
-    errors=[]; projects=[]; infra=[]
+    errors=[]; entities=[]; projects=[]; infra=[]
+    if len(items)!=59:
+        errors.append({"kind":"mapping-count","path":"research/software-project-migration.json","detail":f"expected 59, got {len(items)}"})
     for r in ROOTS:
         b=root/r
         if not b.exists():continue
         for p in b.rglob("*.md"):
             f=fm(p.read_text(encoding="utf-8")); t=f.get("type"); rel=p.relative_to(root).as_posix()
             if t=="infra-project":infra.append(rel)
-            if t=="project":
+            if t in CANONICAL_TYPES:
                 repo_raw=f.get("repository")
-                projects.append({
+                record={
                     "path":rel,
                     "name":str(f.get("name") or p.stem),
+                    "type":t,
                     "repo":repo_raw,
                     "repo_canonical":canonical_repository_url(repo_raw),
                     "parent":f.get("parent"),
                     "fm":f
-                })
+                }
+                entities.append(record)
+                if t=="project":
+                    projects.append(record)
     for p in infra:errors.append({"kind":"infra-project","path":p,"detail":"migrate to project"})
-    names=defaultdict(list); repos=defaultdict(list)
+    entity_names=defaultdict(list); project_names=defaultdict(list); repos=defaultdict(list)
+    for e in entities:
+        entity_names[fold(e["name"])].append(e)
     for p in projects:
-        names[fold(p["name"])].append(p)
+        project_names[fold(p["name"])].append(p)
         if p.get("repo_canonical") and p["repo_canonical"]!="__deep__":
             repos[p["repo_canonical"]].append(p)
-    seen=set()
+    seen=set(); seen_sources=set(); seen_slugs=set()
     for it in items:
         path=it["canonical_path"]; target=root/path
+        source_path=it.get("source_path")
+        slug=it.get("slug")
         if path in seen:errors.append({"kind":"duplicate-map","path":path,"detail":it["name"]})
         seen.add(path)
+        if source_path in seen_sources:errors.append({"kind":"duplicate-source-map","path":path,"detail":str(source_path)})
+        seen_sources.add(source_path)
+        if slug in seen_slugs:errors.append({"kind":"duplicate-slug","path":path,"detail":str(slug)})
+        seen_slugs.add(slug)
         if not target.exists():errors.append({"kind":"missing","path":path,"detail":it["name"]}); continue
         f=fm(target.read_text(encoding="utf-8"))
-        if f.get("type")!="project":errors.append({"kind":"type","path":path,"detail":repr(f.get("type"))})
+        expected_type=it.get("expected_type","project")
+        if f.get("type")!=expected_type:errors.append({"kind":"type","path":path,"detail":f"expected {expected_type!r}, got {f.get('type')!r}"})
         if f.get("name")!=it["name"]:errors.append({"kind":"name","path":path,"detail":repr(f.get("name"))})
-        ms=names.get(fold(it["name"]),[])
+        ms=entity_names.get(fold(it["name"]),[])
         if len(ms)!=1 or ms[0]["path"]!=path:errors.append({"kind":"non-unique-name","path":path,"detail":str([x["path"] for x in ms])})
         if f.get("layer") not in LAYERS:errors.append({"kind":"layer","path":path,"detail":repr(f.get("layer"))})
         if f.get("status") not in STATUS:errors.append({"kind":"status","path":path,"detail":repr(f.get("status"))})
@@ -125,7 +146,7 @@ def main():
             if area in area_aliases:
                 errors.append({"kind":"area-alias-not-normalized","path":path,"detail":f"{area} -> {area_aliases[area]}"})
         for x in lst(f.get("integrations")):
-            ms=names.get(fold(x),[])
+            ms=project_names.get(fold(x),[])
             if len(ms)!=1:errors.append({"kind":"integration","path":path,"detail":f"{x}: {[q['path'] for q in ms]}"})
     mapped_paths={it["canonical_path"] for it in items}
     for repo,rows in repos.items():
@@ -138,7 +159,7 @@ def main():
             parent_of_peer=any(fold(str(y.get("parent") or ""))==fold(x["name"]) for y in scoped)
             if not (child_of_peer or parent_of_peer):bad.append(x)
         if bad:errors.append({"kind":"duplicate-repository","path":bad[0]["path"],"detail":repo+" :: "+", ".join(x["name"] for x in scoped)})
-    out={"format":"software-project-migration-audit-v1","mapped":len(items),"projects":len(projects),"infra_projects":len(infra),"errors":errors,"status":"pass" if not errors else "fail"}
+    out={"format":"software-project-migration-audit-v1","mapped":len(items),"software_entities":len(entities),"projects":len(projects),"infra_projects":len(infra),"errors":errors,"status":"pass" if not errors else "fail"}
     (gen/"software-project-migration-audit.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     md=["# Software Project Migration Audit","",f"- Status: **{out['status'].upper()}**",f"- Mapped: {len(items)} / 59",f"- Project nodes: {len(projects)}",f"- infra-project nodes: {len(infra)}",f"- Errors: {len(errors)}","","## Errors",""]
     md += ["- None."] if not errors else [f"- `{e['kind']}`: `{e['path']}` - {e['detail']}" for e in errors]

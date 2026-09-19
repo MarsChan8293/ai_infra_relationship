@@ -1,7 +1,12 @@
 ---
 type: person
 name: Chenhao Xu
-public_email: xch@deepseek.com\ncommunities: [DeepGEMM, DeepSeek-Infra]\nprojects: [DeepGEMM, TileKernels]\nareas: [gpu-kernels, gemm, moe, tilelang]\nconfidence: high\nlast_verified: "2026-09"
+public_email: xch@deepseek.com
+communities: [DeepGEMM, DeepSeek-Infra]
+projects: [DeepGEMM, TileKernels]
+areas: [gpu-kernels, gemm, moe, tilelang]
+confidence: high
+last_verified: "2026-09"
 ---
 # Chenhao Xu
 
