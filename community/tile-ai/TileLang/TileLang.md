@@ -1,15 +1,24 @@
 ---
 type: community
 name: TileLang
+layer: compiler
+status: active
+repository: https://github.com/tile-ai/tilelang
+last_verified: "2026-09"
 linked_people:
   - "university/北京大学/Lei Wang"
   - "university/北京大学/Yining Shi"
   - "university/北京大学/吴童 Tong Wu"
   - "university/北京大学/程羽 Yu Cheng"
-category: ai-compiler-kernel-dsl
 companies: []
 company_relation: academic-research-led
 github: https://github.com/tile-ai/tilelang
+areas:
+  - "kernel-dsl"
+  - "gpu-kernel-generation"
+hardware:
+  - "gpu"
+integrations: []
 linked_companies: []
 ---
 # TileLang
