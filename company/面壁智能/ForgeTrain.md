@@ -1,12 +1,12 @@
 ---
-type: infra-project
+type: project
 name: ForgeTrain
-company: 面壁智能
+companies: ["面壁智能"]
 linked_people: []
 areas: [llm-training, cuda-kernels, triton, distributed-training, performance-optimization]
-layer: training-framework
-open_source: true
+layer: training
 repository: https://github.com/OpenBMB/ForgeTrain
+status: active
 last_verified: "2026-09"
 linked_companies:
   - "company/面壁智能/面壁智能"
