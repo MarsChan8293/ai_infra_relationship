@@ -1,6 +1,10 @@
 ---
 type: project
 name: NVIDIA Dynamo
+status: active
+repository: https://github.com/ai-dynamo/dynamo
+docs: https://docs.nvidia.com/dynamo/
+last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/Dynamo/Alec Flowers"
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
@@ -16,8 +20,22 @@ linked_people:
 governance: company-led
 companies: ["NVIDIA"]
 company_relation: company-led
-layer: distributed-inference-orchestration
-open_source: true
+layer: distributed-serving
+areas:
+  - "distributed-inference"
+  - "disaggregated-serving"
+  - "kv-aware-routing"
+  - "cache-management"
+  - "autoscaling"
+hardware:
+  - "nvidia"
+  - "amd"
+  - "intel"
+integrations:
+  - "vLLM"
+  - "SGLang"
+  - "TensorRT-LLM"
+  - "NIXL"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
 ---
