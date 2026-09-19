@@ -21,6 +21,7 @@ Compatibility output:
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import math
 import pathlib
@@ -94,7 +95,7 @@ ACTION_TEMPLATES: dict[str, tuple[dict, ...]] = {
     "project": (
         {"relation": "maintainers", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.35, "cost": 0.9, "strategies": ("governance_maintainers_codeowners", "github_or_gitcode_contributors"), "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence."},
         {"relation": "originating_org", "target_families": ("company", "school", "research", "community", "team"), "fields": ("companies", "linked_companies", "company"), "desired_count": 1, "prior": 1.10, "cost": 1.0, "strategies": ("official_repository_org", "project_docs_or_announcement"), "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship."},
-        {"relation": "related_projects", "target_families": ("project", "community"), "fields": (), "desired_count": 3, "prior": 0.95, "cost": 1.2, "strategies": ("official_docs_integrations", "repository_dependencies_or_design_docs"), "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation."},
+        {"relation": "related_projects", "target_families": ("project", "community"), "fields": ("integrations", "related_projects"), "desired_count": 3, "prior": 0.95, "cost": 1.2, "strategies": ("official_docs_integrations", "repository_dependencies_or_design_docs"), "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation."},
     ),
     "community": (
         {"relation": "core_people", "target_families": ("person",), "fields": ("people", "linked_people"), "desired_count": 4, "prior": 1.20, "cost": 1.0, "strategies": ("governance_or_maintainers", "github_or_gitcode_activity"), "write_hint": "Prefer organizers/maintainers with direct public evidence."},
@@ -166,6 +167,17 @@ def relevance_score(text: str) -> tuple[float, list[str]]:
             score += weight
             hits.append(label)
     return round(min(score, 4.0), 3), hits
+
+
+def project_freshness_age_months(value: object) -> int | None:
+    match = re.fullmatch(r"(\\d{4})-(\\d{2})", str(value or "").strip())
+    if not match:
+        return None
+    year, month = int(match.group(1)), int(match.group(2))
+    if not 1 <= month <= 12:
+        return None
+    today = dt.date.today()
+    return max(0, (today.year - year) * 12 + today.month - month)
 
 
 def evidence_score(text: str) -> tuple[float, int]:
@@ -317,6 +329,38 @@ def build_actions(root: pathlib.Path, nodes: list[dict], edges: list[dict], metr
                 "signals": {"infra_relevance": relevance, "evidence_quality": evidence, "url_count": url_count, "bridge_score": round(bridge_raw, 3), "novelty": 0.0, "frontier_potential": round(FRONTIER_PRIOR.get(family, 0.8), 3), "uncertainty": round(gap, 3), "redundancy_penalty": round(redundancy, 3), "distance": distance, "distance_penalty": round(distance_penalty, 3)},
                 "reasons": [f"source coverage {url_count}/{desired_urls}", "evidence quality below target"],
             })
+
+        if family == "project":
+            fm = node.get("frontmatter") if isinstance(node.get("frontmatter"), dict) else {}
+            freshness_age = project_freshness_age_months(fm.get("last_verified"))
+            if freshness_age is None or freshness_age >= 3:
+                freshness_gap = 1.0 if freshness_age is None else min(1.0, freshness_age / 12.0)
+                cost = 0.9
+                redundancy = 0.05 * math.log1p(max(0, degree))
+                gain_proxy = 1.70 * freshness_gap + 0.65 * min(1.50, relevance / 2.0) + 0.35 * bridge_component
+                priority = round(gain_proxy / cost - redundancy - distance_penalty, 3)
+                reasons = [
+                    "missing last_verified" if freshness_age is None else f"last_verified age {freshness_age} months",
+                    f"status={fm.get('status') or 'unknown'}",
+                ]
+                integrations = as_list(fm.get("integrations"))
+                if integrations:
+                    reasons.append(f"{len(integrations)} integrations to re-check")
+                actions.append({
+                    "action_id": f"{node_id}::verify_project_freshness",
+                    "action_key": "project:verify_project_freshness:none",
+                    "source": {"id": node_id, "name": node.get("name") or pathlib.PurePosixPath(node_id).name, "type": node.get("type"), "family": family},
+                    "relation": "verify_project_freshness",
+                    "target_families": [],
+                    "strategies": ["official_repository_releases", "official_docs", "integration_docs"],
+                    "write_hint": "Re-check project status, canonical repository/docs, integrations, governance drift, and refresh last_verified only with current evidence.",
+                    "bucket": "verification",
+                    "priority": priority,
+                    "cost": cost,
+                    "coverage": {"existing": 0 if freshness_age is None else max(0, 3 - freshness_age), "desired": 3, "gap": round(freshness_gap, 3)},
+                    "signals": {"infra_relevance": relevance, "evidence_quality": evidence, "url_count": url_count, "bridge_score": round(bridge_raw, 3), "novelty": 0.0, "frontier_potential": round(FRONTIER_PRIOR.get(family, 0.8), 3), "uncertainty": round(freshness_gap, 3), "redundancy_penalty": round(redundancy, 3), "distance": distance, "distance_penalty": round(distance_penalty, 3), "freshness_age_months": freshness_age},
+                    "reasons": reasons,
+                })
 
     actions.sort(key=lambda item: (-float(item["priority"]), str(item["source"]["name"]), str(item["relation"])))
     return actions
