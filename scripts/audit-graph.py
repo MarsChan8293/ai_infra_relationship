@@ -205,6 +205,17 @@ def main() -> int:
         # Legacy-schema migration warnings. These are deliberately non-fatal in v1.
         if record["type"] == "project" and "company" in fm:
             warnings.append({"kind": "legacy-project-company-field", "source": source, "detail": "prefer companies"})
+        if record["type"] == "infra-project":
+            warnings.append({"kind": "legacy-infra-project-type", "source": source, "detail": "migrate to type: project"})
+        if record["type"] == "project":
+            for legacy_field, replacement in PROJECT_V3_LEGACY_FIELDS.items():
+                if legacy_field in fm:
+                    warnings.append({
+                        "kind": "legacy-project-v3-field",
+                        "source": source,
+                        "field": legacy_field,
+                        "detail": f"prefer {replacement}",
+                    })
         if "affiliation" in fm:
             warnings.append({"kind": "legacy-affiliation-field", "source": source, "detail": "prefer affiliations/current_affiliations"})
         if record["type"] == "person" and not fm.get("name"):
