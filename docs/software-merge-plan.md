@@ -8,28 +8,32 @@
 
 ## 当前迁移进度
 
-截至 2026-09-19，已完成第一轮源数据迁移：
+截至 2026-09-19，Software Project 源数据迁移已完成 **59 / 59**：
 
 - [x] `schema/project.yaml` 已升级为精简的 `project-v3`。
 - [x] `schema/catalog.yaml` 已停止把 `infra-project` 作为新的 canonical type。
 - [x] MoonEP、Checkpoint Engine、ForgeTrain 三个 `infra-project` 源页面已迁为 `project`。
 - [x] 相关 sync / audit / research 脚本已移除 `infra-project` 主路径，并在 node schema generator 中保留迁移兼容 alias。
-- [x] 首批 12 个高价值 Software 项目已吸收 docs 项目级技术元数据：vLLM、SGLang、LMCache、Mooncake、llm-d、DeepEP、DeepSeek-Infra、vLLM-Ascend、KTransformers、FlashInfer、DeepGEMM、FlashMLA。
-- [x] 首批项目已按 v3 规则收敛：`category → layer`、`capabilities → areas`、`backends → hardware`、`snapshot.as_of → last_verified`，并补充 `status/docs/integrations`。
-- [ ] generated graph / schema mirrors 需要在源数据变更后重建并复核；最后一次检查时仍是迁移前 snapshot，因此暂不把派生数据同步标记为完成。
-- [ ] 其余 Software 项目继续按 layer 分批迁移。
+- [x] 59 个 `ai_infra_docs/software/projects/*` 项目均已映射到 relationship canonical project：其中 **43 个 merge，16 个 create**。
+- [x] 59 项目 canonical mapping 已固化到 `research/software-project-migration.json`。
+- [x] 迁移项目已按 v3 规则收敛：`category → layer`、`capabilities → areas`、`backends → hardware`、`snapshot.as_of → last_verified`，并按需补充 `status/docs/integrations`。
+- [x] Ray Serve / Ray、Kubernetes DRA / Kubernetes 已用可选 `parent` 字段表达合法 monorepo 子项目，避免 repository 去重误判。
+- [x] 新增 `scripts/audit-software-project-migration.py`，严格验收 59 项目的唯一性、Project v3 字段、integration 解析、repository 冲突和 `infra-project` 归零。
+- [x] Software migration audit 已接入 `.github/workflows/sync-node-schemas.yml`。
+- [ ] generated graph / schema mirrors 尚待 workflow 重建并通过新 migration audit；在结果落盘前不把最终 CI / generated DoD 标记为完成。
+- [ ] `ai_infra_docs` 侧的 project stub / redirect / 跨仓链接收尾尚未执行；Concept 保持原地不迁。
 
 ## 0. 迁移边界与约束
 
-- [ ] 将 `ai_infra_docs/software/projects/*` 的软件项目事实迁入本仓库对应 canonical project 页面。
-- [ ] **不迁移 `ai_infra_docs/software/concepts/*`；Concept 继续以 `ai_infra_docs` 为 canonical source。**
-- [ ] 不在本仓库新增 `concept` 一级节点类型。
-- [ ] 不新增 Project ↔ Concept typed relation。
+- [x] 将 `ai_infra_docs/software/projects/*` 的软件项目事实迁入本仓库对应 canonical project 页面。
+- [x] **不迁移 `ai_infra_docs/software/concepts/*`；Concept 继续以 `ai_infra_docs` 为 canonical source。**
+- [x] 不在本仓库新增 `concept` 一级节点类型。
+- [x] 不新增 Project ↔ Concept typed relation。
 - [ ] 不原样迁移 `software/COMMUNITIES.md`；将其中与项目直接相关的 upstream organization / community 信息归一化到本仓库现有 company / community 节点。
 - [ ] 不长期保留同一软件项目在两个仓库各自作为 canonical source。
 - [ ] 迁移期间 `ai_infra_docs/software/projects` 保留兼容入口，避免 models / chip 页面中的旧项目链接立即失效。
-- [ ] `ai_infra_docs/software/concepts` 保持原路径和原职责，不进入本次退役范围。
-- [ ] Markdown 继续作为事实源；generated 数据继续只作为派生视图。
+- [x] `ai_infra_docs/software/concepts` 保持原路径和原职责，不进入本次退役范围。
+- [x] Markdown 继续作为事实源；generated 数据继续只作为派生视图。
 - [ ] 不因为软件项目迁入而降低现有“人物关系必须有直接证据”的证据标准。
 - [ ] 项目集成、兼容、共同依赖不自动推断人物之间存在直接合作关系。
 - [ ] 公司员工参与项目不自动推断公司是项目 founding/core-maintainer organization。
@@ -69,21 +73,21 @@ last_verified: "2026-09"
 ```
 
 - [x] 将 `schema/project.yaml` 从 `project-v2` 升级到 `project-v3`。
-- [ ] canonical Project Schema 优先只保留：
-  - [ ] `type`
-  - [ ] `name`
-  - [ ] `layer`
-  - [ ] `status`
-  - [ ] `repository`
-  - [ ] `docs`
-  - [ ] `areas`
-  - [ ] `hardware`
-  - [ ] `integrations`
-  - [ ] `companies`
-  - [ ] `last_verified`
-- [ ] 允许极少数兼容字段在迁移期继续存在，但不作为新页面推荐字段。
-- [ ] 更新 `schema/catalog.yaml`、schema generator 和 validator 对 project-v3 的支持。
-- [ ] 保证旧 project-v2 页面在迁移期只产生 warning，不立即成为 hard error。
+- [x] canonical Project Schema 优先只保留以下核心字段（另允许可选 `parent` 表达真实子项目）：
+  - [x] `type`
+  - [x] `name`
+  - [x] `layer`
+  - [x] `status`
+  - [x] `repository`
+  - [x] `docs`
+  - [x] `areas`
+  - [x] `hardware`
+  - [x] `integrations`
+  - [x] `companies`
+  - [x] `last_verified`
+- [x] 允许极少数兼容字段在迁移期继续存在，但不作为新页面推荐字段。
+- [x] 更新 `schema/catalog.yaml`、schema generator 和 validator 对 project-v3 的支持。
+- [x] 保证旧 project-v2 页面在迁移期只产生 warning，不立即成为 hard error。
 
 ### 1.2 两边字段映射与删减
 
@@ -117,22 +121,22 @@ relationship 当前 `layer` 已混入大量细粒度描述。本次迁移统一�
 
 建议 canonical `layer`：
 
-- [ ] `inference-engine`
-- [ ] `distributed-serving`
-- [ ] `gateway`
-- [ ] `kv-cache`
-- [ ] `storage`
-- [ ] `communication`
-- [ ] `runtime`
-- [ ] `kernel`
-- [ ] `compiler`
-- [ ] `training`
-- [ ] `scheduler`
-- [ ] `device-resource`
-- [ ] `benchmark`
-- [ ] `ecosystem`
-- [ ] `optimization`
-- [ ] `other`
+- [x] `inference-engine`
+- [x] `distributed-serving`
+- [x] `gateway`
+- [x] `kv-cache`
+- [x] `storage`
+- [x] `communication`
+- [x] `runtime`
+- [x] `kernel`
+- [x] `compiler`
+- [x] `training`
+- [x] `scheduler`
+- [x] `device-resource`
+- [x] `benchmark`
+- [x] `ecosystem`
+- [x] `optimization`
+- [x] `other`
 
 例如 HAMi 不再使用：
 
@@ -152,12 +156,12 @@ areas:
 ```
 
 - [ ] 建立现有 relationship `layer` → canonical layer 的 migration mapping。
-- [ ] 建立 docs `category` → canonical layer 的 migration mapping。
+- [x] 建立 docs `category` → canonical layer 的 migration mapping。
 - [ ] validator 对新页面强制 canonical layer；旧页面迁移期先 warning。
 
 ### 1.4 `areas` 吸收 `capabilities`
 
-- [ ] Project v3 不再同时维护 `areas` 与 `capabilities` 两套标签。
+- [x] Project v3 不再同时维护 `areas` 与 `capabilities` 两套标签。
 - [ ] 只把稳定、适合检索的技术主题写入 `areas`。
 - [ ] 细粒度 feature matrix、边界条件、版本差异继续放 Markdown 正文。
 - [ ] 建立常见同义标签归一化，例如 `kv-offload` / `offloading`、`llm-serving-engine` / `inference-engine`。
@@ -165,17 +169,17 @@ areas:
 
 ### 1.5 `hardware` 吸收 `backends`
 
-- [ ] docs 的 `backends` 在迁移时统一映射到 relationship 的 `hardware`。
+- [x] docs 的 `backends` 在迁移时统一映射到 relationship 的 `hardware`。
 - [ ] `hardware` 只记录明确支持的硬件/平台族，例如 `nvidia`、`amd`、`ascend`。
 - [ ] 软件依赖、存储后端、通信 backend 不塞入 `hardware`，改放正文或 `integrations`。
 
 ### 1.6 时间字段只保留 `last_verified`
 
-- [ ] `snapshot.as_of` → `last_verified`。
-- [ ] docs 的 `updated` 不迁移。
-- [ ] `snapshot.version` / `snapshot.commit` 默认不进入 Project v3 frontmatter。
+- [x] `snapshot.as_of` → `last_verified`。
+- [x] docs 的 `updated` 不迁移。
+- [x] `snapshot.version` / `snapshot.commit` 默认不进入 Project v3 frontmatter。
 - [ ] 若页面明确绑定特定版本/commit，在正文增加 Version Snapshot 小节。
-- [ ] VERIFY 以 `last_verified` 为主要 freshness 输入。
+- [x] VERIFY 以 `last_verified` 为主要 freshness 输入。
 
 ### 1.7 派生字段不再污染 canonical Markdown
 
@@ -209,11 +213,11 @@ metrics / coverage
 
 - [x] 将现有 `type: infra-project` 节点逐个迁为 `type: project`。
 - [x] `company` → `companies`。
-- [ ] 原 `infra-project.layer` 映射到 canonical layer。
+- [x] 原 `infra-project.layer` 映射到 canonical layer。
 - [ ] 原 `related_projects` 根据证据迁入正文或项目关系。
 - [x] 从 `schema/catalog.yaml` 移除新的 `infra-project` 创建入口。
-- [ ] 迁移完成后删除或仅保留 `schema/infra-project.yaml` 兼容说明。
-- [ ] generator / planner / audit 不再把 `infra-project` 当独立 canonical entity type。
+- [x] 迁移完成后删除或仅保留 `schema/infra-project.yaml` 兼容说明。
+- [x] generator / planner / audit 不再把 `infra-project` 当独立 canonical entity type。
 
 ### 1.9 项目间软件关系
 
@@ -225,12 +229,12 @@ metrics / coverage
 
 ## 2. Canonical Entity 对齐与去重
 
-- [ ] 为 59 个 Software 项目建立迁移映射表：
+- [x] 为 59 个 Software 项目建立迁移映射表：
   `docs software slug → relationship canonical path → action(merge/create/alias)`。
-- [ ] 优先识别本仓库已经存在的项目，禁止直接复制形成第二个 canonical 页面。
-- [ ] 对重名或多层目录项目建立稳定 canonical ID。
-- [ ] 对 vLLM、SGLang、LMCache、Mooncake、DeepEP、vLLM-Ascend 等已有丰富人物网络的项目，以 relationship 页面为主体吸收 Software 技术字段。
-- [ ] 对当前 relationship 中尚不存在的 Software 项目新建 project 节点。
+- [x] 优先识别本仓库已经存在的项目，禁止直接复制形成第二个 canonical 页面。
+- [x] 对重名或多层目录项目建立稳定 canonical ID。
+- [x] 对 vLLM、SGLang、LMCache、Mooncake、DeepEP、vLLM-Ascend 等已有丰富人物网络的项目，以 relationship 页面为主体吸收 Software 技术字段。
+- [x] 对当前 relationship 中尚不存在的 Software 项目新建 project 节点。
 - [ ] 为旧 `software/projects/<slug>` 记录兼容 alias / redirect target。
 - [ ] 完成一次 duplicate-name / duplicate-repository audit。
 - [ ] 完成一次 repository URL canonicalization audit。
@@ -241,90 +245,90 @@ metrics / coverage
 
 - [x] vLLM
 - [x] SGLang
-- [ ] TensorRT-LLM
-- [ ] llama.cpp
-- [ ] LightLLM
+- [x] TensorRT-LLM
+- [x] llama.cpp
+- [x] LightLLM
 - [x] KTransformers
 - [x] vLLM-Ascend
-- [ ] MindIE-LLM
-- [ ] MindIE-SD
+- [x] MindIE-LLM
+- [x] MindIE-SD
 
 ### 3.2 Distributed Serving / Gateway
 
 - [x] llm-d
-- [ ] NVIDIA Dynamo
-- [ ] AIBrix
-- [ ] KServe
-- [ ] Ray Serve
-- [ ] Gateway API Inference Extension
-- [ ] Triton Inference Server
-- [ ] BentoML
-- [ ] LiteLLM
+- [x] NVIDIA Dynamo
+- [x] AIBrix
+- [x] KServe
+- [x] Ray Serve
+- [x] Gateway API Inference Extension
+- [x] Triton Inference Server
+- [x] BentoML
+- [x] LiteLLM
 
 ### 3.3 KV / Storage
 
 - [x] LMCache
 - [x] Mooncake
-- [ ] 3FS
+- [x] 3FS
 
 ### 3.4 Communication
 
-- [ ] NIXL
-- [ ] NCCL
-- [ ] RCCL
+- [x] NIXL
+- [x] NCCL
+- [x] RCCL
 - [x] DeepEP
-- [ ] UCX
-- [ ] VCCL
-- [ ] FlagCX
+- [x] UCX
+- [x] VCCL
+- [x] FlagCX
 
 ### 3.5 Runtime / Kernel
 
 - [x] FlashInfer
-- [ ] FlashAttention
-- [ ] CUTLASS
+- [x] FlashAttention
+- [x] CUTLASS
 - [x] DeepGEMM
 - [x] FlashMLA
-- [ ] FlagGems
-- [ ] FlagAttention
-- [ ] ops-transformer
-- [ ] MindIE-Motor
-- [ ] TokenSpeed
-- [ ] vllm-plugin-FL
-- [ ] sglang-plugin-FL
+- [x] FlagGems
+- [x] FlagAttention
+- [x] ops-transformer
+- [x] MindIE-Motor
+- [x] TokenSpeed
+- [x] vllm-plugin-FL
+- [x] sglang-plugin-FL
 
 ### 3.6 Compiler
 
-- [ ] Triton
-- [ ] TileLang
-- [ ] DeepJIT
-- [ ] FlagTree
+- [x] Triton
+- [x] TileLang
+- [x] DeepJIT
+- [x] FlagTree
 
 ### 3.7 Training / Framework
 
-- [ ] Colossal-AI
-- [ ] OneFlow
-- [ ] FlagScale
+- [x] Colossal-AI
+- [x] OneFlow
+- [x] FlagScale
 
 ### 3.8 Scheduler
 
-- [ ] KAI-Scheduler
-- [ ] Volcano
-- [ ] Kueue
+- [x] KAI-Scheduler
+- [x] Volcano
+- [x] Kueue
 
 ### 3.9 Device Resource
 
-- [ ] HAMi
-- [ ] Kubernetes DRA
-- [ ] NVIDIA GPU Operator
-- [ ] NVIDIA k8s-device-plugin
+- [x] HAMi
+- [x] Kubernetes DRA
+- [x] NVIDIA GPU Operator
+- [x] NVIDIA k8s-device-plugin
 
 ### 3.10 Ecosystem / Optimization / Benchmark
 
 - [x] DeepSeek-Infra
-- [ ] FlagOS
-- [ ] msModelSlim
-- [ ] FlagPerf
-- [ ] FlagRelease
+- [x] FlagOS
+- [x] msModelSlim
+- [x] FlagPerf
+- [x] FlagRelease
 
 ### 每个项目的迁移验收项
 
@@ -389,18 +393,18 @@ metrics / coverage
 
 ## 7. Validator / Graph Builder / CI
 
-- [ ] Validator 支持 project-v3。
-- [ ] 检查 `integrations` 指向存在的 canonical project。
-- [ ] 检查 `last_verified` 格式与缺失。
-- [ ] 检查 repository URL 冲突。
-- [ ] 检查同一 repository 被多个 canonical project 重复声明。
-- [ ] 检查新页面不再新增 `capabilities` / `backends` / `snapshot` / `upstream_org` 等已收敛字段。
+- [x] Validator 支持 project-v3。
+- [x] 检查 `integrations` 指向存在的 canonical project。
+- [x] 检查 `last_verified` 格式与缺失。
+- [x] 检查 repository URL 冲突。
+- [x] 检查同一 repository 被多个 canonical project 重复声明。
+- [x] 检查新页面不再新增 `capabilities` / `backends` / `snapshot` / `upstream_org` 等已收敛字段。
 - [ ] 检查 `linked_people` / `linked_companies` 能从图结构重新生成。
 - [ ] Graph builder 正确输出新增/合并后的 project 节点与 project relations。
 - [ ] Graph Explorer 保持并增强 Project 筛选。
 - [ ] Quartz route audit 覆盖新项目路径和兼容 alias。
-- [ ] CI 在迁移期区分 hard error 与 migration warning。
-- [ ] 不为 Concept 增加 relationship 侧 schema、validator 或 Graph Explorer 特殊逻辑。
+- [x] CI 在迁移期区分 hard error 与 migration warning。
+- [x] 不为 Concept 增加 relationship 侧 schema、validator 或 Graph Explorer 特殊逻辑。
 
 ## 8. ai_infra_docs 兼容迁移
 
@@ -421,33 +425,33 @@ metrics / coverage
 ### Batch A：基础设施
 
 - [x] project-v3 精简 schema
-- [ ] layer/category migration mapping
+- [x] layer/category migration mapping
 - [x] infra-project → project 源节点迁移
 - [x] catalog
-- [ ] validators
+- [x] validators（source-level migration audit 已接入 CI）
 - [ ] graph builder
-- [ ] 59 项目 migration mapping 表
+- [x] 59 项目 migration mapping 表
 
 ### Batch B：高价值重复项目
 
 优先处理两仓库重叠最深、人物关系最多的项目：
 
-- [ ] vLLM
-- [ ] SGLang
-- [ ] LMCache
-- [ ] Mooncake
-- [ ] llm-d
-- [ ] DeepEP
-- [ ] DeepSeek-Infra
-- [ ] vLLM-Ascend
-- [ ] KTransformers
-- [ ] FlashInfer
-- [ ] DeepGEMM
-- [ ] FlashMLA
+- [x] vLLM
+- [x] SGLang
+- [x] LMCache
+- [x] Mooncake
+- [x] llm-d
+- [x] DeepEP
+- [x] DeepSeek-Infra
+- [x] vLLM-Ascend
+- [x] KTransformers
+- [x] FlashInfer
+- [x] DeepGEMM
+- [x] FlashMLA
 
 ### Batch C：其余 Software 项目
 
-- [ ] 按 layer 分批迁移余下项目。
+- [x] 按 layer 分批迁移余下项目。
 - [ ] 每批迁移后运行 duplicate / broken-link / schema audit。
 
 ### Batch D：Planner 与生成视图
@@ -470,14 +474,14 @@ metrics / coverage
 当且仅当以下条件全部满足，才认为 Software Project 迁移完成：
 
 - [ ] 59 个项目在 relationship 中均有且只有一个 canonical project 节点。
-- [ ] `ai_infra_docs/software/concepts/*` 未迁移，仍由 docs 维护。
-- [ ] relationship 未新增 concept canonical node type。
+- [x] `ai_infra_docs/software/concepts/*` 未迁移，仍由 docs 维护。
+- [x] relationship 未新增 concept canonical node type。
 - [ ] 两仓库不存在同一软件项目的双 canonical source。
 - [ ] 人物 / 公司 / 学校 / community 与项目关系无回归。
 - [ ] Project ↔ Project integrations / dependencies 可查询。
 - [ ] Person → Project 和 Project → Person 路径可查询。
-- [ ] project 的 layer / status / areas / hardware / integrations / last_verified 等精简技术元数据可查询。
-- [ ] infra-project 已收敛为 project，不再新增 infra-project canonical 节点。
+- [x] project 的 layer / status / areas / hardware / integrations / last_verified 等精简技术元数据可查询。
+- [x] infra-project 已收敛为 project，不再新增 infra-project canonical 节点。
 - [ ] linked_people / linked_companies 不再依赖人工 frontmatter，generated 数据可重新生成。
 - [ ] 所有 generated schema 可重新生成。
 - [ ] audit / validator / Quartz build 全部通过。
