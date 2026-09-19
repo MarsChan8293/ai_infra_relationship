@@ -1,6 +1,7 @@
 ---
 type: project
 name: Kubernetes DRA
+parent: Kubernetes
 layer: device-resource
 status: active
 repository: https://github.com/kubernetes/kubernetes
