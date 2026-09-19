@@ -74,15 +74,17 @@ def main():
         for x in lst(f.get("integrations")):
             ms=names.get(fold(x),[])
             if len(ms)!=1:errors.append({"kind":"integration","path":path,"detail":f"{x}: {[q['path'] for q in ms]}"})
+    mapped_paths={it["canonical_path"] for it in items}
     for repo,rows in repos.items():
-        if len(rows)<2:continue
-        nm={fold(x["name"]) for x in rows}; bad=[]
-        for x in rows:
+        scoped=[x for x in rows if x["path"] in mapped_paths]
+        if len(scoped)<2:continue
+        nm={fold(x["name"]) for x in scoped}; bad=[]
+        for x in scoped:
             par=fold(str(x.get("parent") or ""))
             child_of_peer=bool(par and par in nm)
-            parent_of_peer=any(fold(str(y.get("parent") or ""))==fold(x["name"]) for y in rows)
+            parent_of_peer=any(fold(str(y.get("parent") or ""))==fold(x["name"]) for y in scoped)
             if not (child_of_peer or parent_of_peer):bad.append(x)
-        if bad:errors.append({"kind":"duplicate-repository","path":bad[0]["path"],"detail":repo+" :: "+", ".join(x["name"] for x in rows)})
+        if bad:errors.append({"kind":"duplicate-repository","path":bad[0]["path"],"detail":repo+" :: "+", ".join(x["name"] for x in scoped)})
     out={"format":"software-project-migration-audit-v1","mapped":len(items),"projects":len(projects),"infra_projects":len(infra),"errors":errors,"status":"pass" if not errors else "fail"}
     (gen/"software-project-migration-audit.json").write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     md=["# Software Project Migration Audit","",f"- Status: **{out['status'].upper()}**",f"- Mapped: {len(items)} / 59",f"- Project nodes: {len(projects)}",f"- infra-project nodes: {len(infra)}",f"- Errors: {len(errors)}","","## Errors",""]
