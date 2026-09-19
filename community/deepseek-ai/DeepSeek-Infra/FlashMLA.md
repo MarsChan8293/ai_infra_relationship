@@ -12,7 +12,7 @@ companies: ["深度求索"]
 company_relation: company-led
 layer: runtime
 areas:
-  - "attention-kernel"
+  - "attention-kernels"
   - "mla-optimization"
 hardware:
   - "nvidia"
