@@ -50,7 +50,6 @@ TYPE_FAMILY = {
     "university": "school",
     "research-institution": "research",
     "project": "project",
-    "infra-project": "project",
     "model-project": "project",
     "project-collection": "project",
     "community": "community",
