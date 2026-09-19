@@ -2,6 +2,10 @@
 type: project
 name: DeepGEMM
 parent: DeepSeek-Infra
+status: active
+repository: https://github.com/deepseek-ai/DeepGEMM
+docs: https://github.com/deepseek-ai/DeepGEMM
+last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Anyi Xu"
   - "community/deepseek-ai/DeepSeek-Infra/guyan364"
@@ -13,8 +17,17 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
 companies: ["深度求索"]
 company_relation: company-led
-layer: gpu-kernels
-open_source: true
+layer: runtime
+areas:
+  - "gemm"
+  - "fp8"
+  - "fp4"
+  - "moe-kernels"
+  - "jit"
+hardware:
+  - "nvidia"
+integrations:
+  - "CUTLASS"
 linked_companies:
   - "company/深度求索/深度求索"
 ---
