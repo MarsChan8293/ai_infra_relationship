@@ -1,6 +1,10 @@
 ---
 type: project
 name: SGLang
+status: active
+repository: https://github.com/sgl-project/sglang
+docs: https://docs.sglang.ai/
+last_verified: "2026-09"
 linked_people:
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
   - "community/Ascend/MemCache/nbbb24"
@@ -35,10 +39,28 @@ linked_people:
   - "university/上海交通大学/Xiaoze Fan"
 companies: ["RadixArk"]
 company_relation: core-maintainer-network
-layer: llm-serving-engine
-open_source: true
+layer: inference-engine
 linked_companies:
   - "company/RadixArk/RadixArk"
+areas:
+  - "continuous-batching"
+  - "radix-attention"
+  - "prefix-caching"
+  - "tensor-parallel"
+  - "expert-parallel"
+  - "speculative-decoding"
+hardware:
+  - "nvidia"
+  - "amd"
+  - "intel"
+  - "ascend"
+  - "tpu"
+integrations:
+  - "NVIDIA Dynamo"
+  - "Ray Serve"
+  - "llm-d"
+  - "Mooncake"
+  - "FlashInfer"
 ---
 # SGLang
 
