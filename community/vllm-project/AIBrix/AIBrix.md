@@ -2,6 +2,9 @@
 type: project
 name: AIBrix
 parent: vLLM Project
+status: active
+repository: https://github.com/vllm-project/aibrix
+last_verified: "2026-09"
 linked_people:
   - "community/vllm-project/AIBrix/Chenyu Jiang"
   - "community/vllm-project/AIBrix/CYJiang"
@@ -12,8 +15,15 @@ linked_people:
   - "community/vllm-project/AIBrix/Xin Li"
 companies: ["字节跳动"]
 company_relation: company-originated
-layer: cloud-native-inference-infrastructure
-open_source: true
+layer: distributed-serving
+areas:
+  - "llm-infrastructure"
+  - "model-serving"
+  - "autoscaling"
+  - "request-routing"
+  - "kubernetes"
+integrations:
+  - "vLLM"
 linked_companies:
   - "company/字节跳动/字节跳动"
 ---
