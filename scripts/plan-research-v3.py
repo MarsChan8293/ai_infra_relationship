@@ -50,10 +50,10 @@ def choose_operator(action: dict, seed_id: str | None) -> tuple[str, dict]:
     gap = float(coverage.get("gap", 0.0) or 0.0)
     bucket = str(action.get("bucket", ""))
 
-    if relation == "verify_evidence":
+    if relation in {"verify_evidence", "verify_project_freshness"}:
         return "verify", {
             "kind": "weak_evidence",
-            "detail": "evidence-only verification action",
+            "detail": "evidence/freshness verification action",
         }
 
     latest_status = str(latest.get("status", ""))
