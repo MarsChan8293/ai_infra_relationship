@@ -1,18 +1,44 @@
 ---
 type: project
 name: llama.cpp
+status: active
+docs: https://github.com/ggml-org/llama.cpp
 linked_people:
   - "community/ggml-org/llama.cpp/Georgi Gerganov"
 companies: ["Hugging Face"]
 company_relation: joined-hugging-face-maintainer-team
 layer: inference-engine
-open_source: true
 repository: https://github.com/ggml-org/llama.cpp
-areas: [llm-inference, vlm-inference, local-inference, edge-inference, quantization, gguf, cpu-gpu-hybrid, multi-backend, c-cpp, openai-compatible-server]
-hardware: [CPU, NVIDIA GPU, AMD GPU, Apple Silicon, Ascend NPU, Intel GPU, Intel NPU, Moore Threads GPU, Snapdragon, RISC-V, WebGPU]
+areas:
+  - "llm-inference"
+  - "vlm-inference"
+  - "local-inference"
+  - "edge-inference"
+  - "quantization"
+  - "gguf"
+  - "cpu-gpu-hybrid"
+  - "multi-backend"
+  - "c-cpp"
+  - "openai-compatible-server"
+hardware:
+  - "cpu"
+  - "nvidia gpu"
+  - "amd gpu"
+  - "apple silicon"
+  - "ascend npu"
+  - "intel gpu"
+  - "intel npu"
+  - "moore threads gpu"
+  - "snapdragon"
+  - "risc-v"
+  - "webgpu"
+  - "nvidia"
+  - "amd"
+  - "apple"
 governance: ggml-org maintainer network; project remains open-source and technically autonomous after GGML/llama.cpp team joined Hugging Face in 2026
 people:
   - "community/ggml-org/llama.cpp/Georgi Gerganov"
+integrations: []
 last_verified: "2026-09"
 linked_companies:
   - "company/Hugging Face/Hugging Face"
