@@ -1,0 +1,36 @@
+{
+  "format": "ai-infra-relationship/project-area-normalization-v1",
+  "policy": "conservative",
+  "automatic": {
+    "attention-kernel": "attention-kernels",
+    "kv-offload": "offloading",
+    "kv-cache-offload": "offloading",
+    "gpu-kernel-generation": "kernel-generation",
+    "llm-inference-optimization": "inference-optimization",
+    "ai-infra": "ai-infrastructure",
+    "heterogeneous-accelerator": "heterogeneous-accelerators"
+  },
+  "layer_like": {
+    "llm-serving-engine": "inference-engine",
+    "llm-inference-engine": "inference-engine",
+    "distributed-inference-orchestration": "distributed-serving",
+    "collective-communication": "communication",
+    "gpu-kernels": "kernel",
+    "training-framework": "training",
+    "cluster-scheduling": "scheduler"
+  },
+  "review_required": {
+    "prefix-reuse vs prefix-caching": "Related but not identical; reuse may include mechanisms beyond prefix cache.",
+    "remote-kv-cache vs distributed-kv-cache": "Remote placement does not necessarily imply a distributed cache architecture.",
+    "llm-serving vs model-serving": "Broad umbrella labels; keep only when they add retrieval value beyond layer.",
+    "heterogeneous-computing vs heterogeneous-inference": "Computing is broader than inference and should not be collapsed automatically.",
+    "paged-kv-cache vs kv-cache": "Paged KV cache is a specific mechanism, not a synonym for KV cache.",
+    "distributed-inference vs distributed-serving": "Distributed inference can refer to execution topology, not only serving control plane."
+  },
+  "rules": [
+    "Automatic aliases may be normalized without changing graph semantics.",
+    "Layer-like labels should move to canonical layer when they describe the primary system role; retain in areas only if they also carry useful technical meaning.",
+    "Review-required pairs must not be rewritten in bulk.",
+    "Area similarity never creates project-to-project or person-to-person relations."
+  ]
+}
