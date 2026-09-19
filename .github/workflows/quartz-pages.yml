@@ -76,6 +76,12 @@ jobs:
       - name: Audit typed relations and coverage
         run: python3 scripts/audit-typed-relations.py --root . --generated generated
 
+      - name: Validate software project migration
+        run: python3 scripts/audit-software-project-migration.py --root . --generated generated
+
+      - name: Generate software project index
+        run: python3 scripts/generate-software-project-index.py --root . --output generated/software-project-index.md
+
       - name: Generate full node schema instances
         run: |
           python3 scripts/generate-node-schemas.py \
@@ -112,6 +118,8 @@ jobs:
           cp generated/entity-reverse-coverage.md "$QUARTZ_DIR/content/generated/entity-reverse-coverage.md"
           cp generated/research-reverse-coverage.md "$QUARTZ_DIR/content/generated/research-reverse-coverage.md"
           cp generated/company-community-coverage.md "$QUARTZ_DIR/content/generated/company-community-coverage.md"
+          cp generated/software-project-index.md "$QUARTZ_DIR/content/generated/software-project-index.md"
+          cp generated/software-project-migration-audit.md "$QUARTZ_DIR/content/generated/software-project-migration-audit.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"
 
