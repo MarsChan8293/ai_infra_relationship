@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagTree
+status: active
 linked_people:
   - "community/flagos-ai/FlagTree/Galaxy1458"
   - "community/flagos-ai/FlagTree/i3wanna2"
@@ -12,10 +13,15 @@ linked_people:
   - "company/杭州先进编译科技有限公司/柴赟达"
 companies: ["杭州先进编译科技有限公司"]
 company_relation: community-led
-layer: ai-compiler
+layer: compiler
 repository: https://github.com/flagos-ai/FlagTree
-open_source: true
-areas: [compiler, triton, heterogeneous-computing, multi-backend]
+areas:
+  - "compiler"
+  - "triton"
+  - "heterogeneous-computing"
+  - "multi-backend"
+  - "kernel-dsl"
+  - "heterogeneous-codegen"
 people:
   - "community/flagos-ai/FlagTree/menchunlei"
   - "community/flagos-ai/FlagTree/zhzhcookie"
@@ -25,6 +31,7 @@ people:
   - "community/flagos-ai/FlagTree/sgjzfzzf"
   - "company/杭州先进编译科技有限公司/李嘉楠"
   - "company/杭州先进编译科技有限公司/柴赟达"
+integrations: []
 last_verified: "2026-09"
 linked_companies:
   - "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司"
