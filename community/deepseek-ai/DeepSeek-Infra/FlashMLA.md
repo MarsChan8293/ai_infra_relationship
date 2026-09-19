@@ -2,13 +2,21 @@
 type: project
 name: FlashMLA
 parent: DeepSeek-Infra
+status: active
+repository: https://github.com/deepseek-ai/FlashMLA
+last_verified: "2026-09"
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
 companies: ["深度求索"]
 company_relation: company-led
-layer: attention-kernels
-open_source: true
+layer: runtime
+areas:
+  - "attention-kernel"
+  - "mla-optimization"
+hardware:
+  - "nvidia"
+integrations: []
 linked_companies:
   - "company/深度求索/深度求索"
 ---
