@@ -24,7 +24,7 @@ import re
 from collections import defaultdict
 
 NODE_ROOTS = ("company", "community", "university")
-PROJECT_TYPES = {"project", "community", "infra-project", "project-collection"}
+PROJECT_TYPES = {"project", "community", "project-collection"}
 NON_COMPANY_AFFILIATION_TYPES = {"school", "research-institution", "model-team"}
 COMPANY_START = "<!-- BEGIN AUTO COMPANY PEOPLE -->"
 COMPANY_END = "<!-- END AUTO COMPANY PEOPLE -->"
