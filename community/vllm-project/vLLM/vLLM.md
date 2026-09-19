@@ -1,6 +1,10 @@
 ---
 type: project
 name: vLLM
+status: active
+repository: https://github.com/vllm-project/vllm
+docs: https://docs.vllm.ai/
+last_verified: "2026-09"
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
   - "community/LMCache/LMCache/Samm Shen"
@@ -34,7 +38,6 @@ linked_people:
 companies: ["Inferact","Red Hat","Meta","Hugging Face","TensorMesh","Neural Magic"]
 company_relation: cross-company-core-contributors
 layer: inference-engine
-open_source: true
 linked_companies:
   - "company/Hugging Face/Hugging Face"
   - "company/Inferact/Inferact"
@@ -42,6 +45,28 @@ linked_companies:
   - "company/Neural Magic/Neural Magic"
   - "company/Red Hat/Red Hat"
   - "company/TensorMesh/TensorMesh"
+areas:
+  - "continuous-batching"
+  - "paged-kv-cache"
+  - "prefix-caching"
+  - "speculative-decoding"
+  - "tensor-parallel"
+  - "pipeline-parallel"
+  - "expert-parallel"
+hardware:
+  - "nvidia"
+  - "amd"
+  - "intel"
+  - "ascend"
+integrations:
+  - "LMCache"
+  - "llm-d"
+  - "NVIDIA Dynamo"
+  - "KServe"
+  - "Ray Serve"
+  - "Mooncake"
+  - "FlashInfer"
+  - "BentoML"
 ---
 # vLLM
 
