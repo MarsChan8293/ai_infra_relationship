@@ -10,6 +10,7 @@ on:
       - "community/**/*.md"
       - "university/**/*.md"
       - "research/action-history.json"
+      - "research/software-project-migration.json"
       - "schema/*.yaml"
       - "schema/email-domain-company.json"
       - "docs/research-action-planner.md"
@@ -22,6 +23,7 @@ on:
       - "scripts/test-research-history.py"
       - "scripts/test-research-operators.py"
       - "scripts/audit-typed-relations.py"
+      - "scripts/audit-software-project-migration.py"
       - "scripts/audit-school-links.py"
       - "scripts/audit-school-reverse-links.py"
       - "scripts/audit-entity-reverse-links.py"
@@ -85,6 +87,9 @@ jobs:
 
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Validate software project migration
+        run: python3 scripts/audit-software-project-migration.py --root . --generated generated
 
       - name: Test research-action history planner
         run: python3 scripts/test-research-history.py
@@ -191,6 +196,7 @@ jobs:
             generated/entity-reverse-coverage.md generated/entity-reverse-coverage.json
             generated/research-reverse-coverage.md generated/research-reverse-coverage.json
             generated/company-community-coverage.md generated/company-community-coverage.json
+            generated/software-project-migration-audit.md generated/software-project-migration-audit.json
           )
 
           if [[ -z "$(git status --porcelain -- "${TRACKED[@]}")" ]]; then
