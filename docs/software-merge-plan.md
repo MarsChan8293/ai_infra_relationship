@@ -225,9 +225,9 @@ metrics / coverage
 
 - [x] 本次迁移优先把 `integrations` 作为机器可查询的 project ↔ project 技术关系。
 - [x] `integrations` 只记录直接、可核验的软件集成，不记录“同类项目”或纯技术邻接。
-- [ ] 更复杂的 `depends-on`、`backend-for`、`alternative-to`、`extends` 等关系继续使用现有 relation model 或正文，不在本次迁移中再造一套平行 schema。
-- [ ] 不把正文中的普通 Wiki Link 自动升级为 typed relation。
-- [ ] 不根据相同 `areas` 自动生成 project ↔ project 强关系。
+- [x] 更复杂的 `depends-on`、`backend-for`、`alternative-to`、`extends` 等关系继续使用现有 relation model 或正文，本次未新增第二套关系 schema。
+- [x] 普通 Wiki Link 继续保持 generic wikilink；只有显式 `relations` 或 Project v3 `integrations` 生成 typed edge。
+- [x] graph builder / planner 均不根据共同 `areas` 自动生成 project ↔ project 强关系。
 
 ## 2. Canonical Entity 对齐与去重
 
@@ -407,8 +407,8 @@ metrics / coverage
 - [x] 检查同一 repository 被多个 canonical project 重复声明。
 - [x] 检查新页面不再新增 `capabilities` / `backends` / `snapshot` / `upstream_org` 等已收敛字段。
 - [ ] 检查 `linked_people` / `linked_companies` 能从图结构重新生成。
-- [ ] Graph builder 正确输出新增/合并后的 project 节点与 project relations。
-- [ ] Graph Explorer 保持并增强 Project 筛选。
+- [x] Graph builder / typed relation export 已把 Project v3 `integrations` 输出为 `project-integration` typed edges；新增/合并后的 project 节点由 `audit-graph.py` 统一生成。
+- [x] Graph Explorer 已有 Project 类型筛选，并新增 Software Index project focus 深链与 `project-integration` typed edge。
 - [ ] Quartz route audit 覆盖新项目路径和兼容 alias。
 - [x] CI 在迁移期区分 hard error 与 migration warning。
 - [x] 不为 Concept 增加 relationship 侧 schema、validator 或 Graph Explorer 特殊逻辑。
@@ -436,7 +436,7 @@ metrics / coverage
 - [x] infra-project → project 源节点迁移
 - [x] catalog
 - [x] validators（source-level migration audit 已接入 CI）
-- [ ] graph builder
+- [x] graph builder（`integrations` → derived `project-integration` typed edges）
 - [x] 59 项目 migration mapping 表
 
 ### Batch B：高价值重复项目
@@ -495,7 +495,7 @@ metrics / coverage
 - [x] relationship 未新增 concept canonical node type。
 - [x] 两仓库不存在同一软件项目的双 canonical source；docs 仅保留 redirect。
 - [ ] 人物 / 公司 / 学校 / community 与项目关系无回归。
-- [ ] Project ↔ Project integrations / dependencies 可查询。
+- [x] Project ↔ Project `integrations` 已进入 typed edges，可由 Graph Explorer / generated graph 查询；更复杂 dependencies 继续使用 relation model/正文。
 - [ ] Person → Project 和 Project → Person 路径可查询。
 - [x] project 的 layer / status / areas / hardware / integrations / last_verified 等精简技术元数据可查询。
 - [x] infra-project 已收敛为 project，不再新增 infra-project canonical 节点。
