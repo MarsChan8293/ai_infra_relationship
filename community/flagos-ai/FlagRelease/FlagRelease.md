@@ -1,16 +1,23 @@
 ---
 type: project
 name: FlagRelease
+status: active
 linked_people:
   - "community/flagos-ai/FlagRelease/shh2000"
   - "community/flagos-ai/FlagRelease/tianxiao-baai"
 companies: []
 company_relation: community-led
-layer: model-porting-release
+layer: ecosystem
 repository: https://github.com/flagos-ai/FlagRelease
-open_source: true
-areas: [model-porting, deployment, heterogeneous-inference, release-engineering]
-last_verified: 2026-09
+areas:
+  - "model-porting"
+  - "deployment"
+  - "heterogeneous-inference"
+  - "release-engineering"
+  - "software-release"
+  - "ecosystem-packaging"
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # FlagRelease
