@@ -1,7 +1,12 @@
 ---
 type: person
 name: Kuai Yu
-public_email: yukuai@deepseek.com\ncommunities: [DeepEP, DeepGEMM, DeepSeek-Infra]\nprojects: [DeepEP, DeepGEMM, TileKernels]\nareas: [moe-communication, gemm, gpu-kernels, tilelang]\nconfidence: high\nlast_verified: "2026-09"
+public_email: yukuai@deepseek.com
+communities: [DeepEP, DeepGEMM, DeepSeek-Infra]
+projects: [DeepEP, DeepGEMM, TileKernels]
+areas: [moe-communication, gemm, gpu-kernels, tilelang]
+confidence: high
+last_verified: "2026-09"
 ---
 # Kuai Yu
 
