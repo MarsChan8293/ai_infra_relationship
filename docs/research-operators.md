@@ -30,7 +30,7 @@ python3 scripts/plan-research.py --operator discover --budget 10
 python3 scripts/plan-research.py --operator verify --budget 10
 ```
 
-适合 maintainer 身份、current affiliation、advisor/student、直接技术协作等不能靠弱信号推断的关系。
+适合 maintainer 身份、current affiliation、advisor/student、直接技术协作等不能靠弱信号推断的关系。对 `project`，VERIFY 还会处理 `verify_project_freshness`：当 `last_verified` 缺失或明显过旧时，重新核验项目 `status`、官方 `repository/docs`、`integrations` 与治理变化。
 
 ## 混合模式
 
@@ -43,6 +43,13 @@ python3 scripts/plan-research.py \
 ```
 
 不显式传 `--operator` 时，global 模式运行 `DISCOVER + VERIFY`；传入 `--seed` 时加入 `EXPAND`。
+
+## Project v3 与 Research Operators
+
+- Project 的 `integrations` 直接参与 `related_projects` coverage，已确认的集成不会被 planner 反复当作缺口。
+- `areas` 只作为技术相关性信号，不因为共享 area 自动创建 Project ↔ Project 或 Person ↔ Person 强边。
+- `last_verified` 是项目 freshness 的 canonical 时间字段；不再依赖 `snapshot.as_of`。
+- `verify_project_freshness` 永远属于 VERIFY，即使当前运行带有 EXPAND seed。
 
 ## 不变量
 
