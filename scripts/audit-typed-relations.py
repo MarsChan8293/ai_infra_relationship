@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and export typed relationship edges embedded in person frontmatter.
+"""Validate and export typed relationship edges plus Project v3 integrations.
 
 Migration encoding:
 
@@ -103,6 +103,14 @@ def parse_frontmatter(text: str) -> dict:
         data[key] = [] if key == "relations" and not value.strip() else parse_scalar(value)
         current_key = key
     return data
+
+
+def as_list(value) -> list:
+    if isinstance(value, list):
+        return [item for item in value if item not in (None, "")]
+    if value in (None, ""):
+        return []
+    return [value]
 
 
 def load_allowed_types(schema_path: pathlib.Path) -> set[str]:
@@ -340,6 +348,63 @@ def main() -> int:
                     "confidence": confidence,
                     "evidence": evidence,
                 })
+
+    # Project v3 integrations are canonical project-to-project assertions.
+    # Export them as derived typed edges so Graph Explorer and downstream
+    # consumers can query them without forcing every project to duplicate an
+    # equivalent JSON-string relation object.
+    integration_pairs: set[tuple[str, str]] = set()
+    for node in nodes:
+        if node.get("type") != "project":
+            continue
+        source_id = node["id"]
+        frontmatter = node.get("frontmatter") if isinstance(node.get("frontmatter"), dict) else {}
+        for target_raw in as_list(frontmatter.get("integrations")):
+            if not isinstance(target_raw, str) or not target_raw.strip():
+                continue
+            target_node, reason, candidates = resolve_target(target_raw, by_id, by_base, by_name)
+            if target_node is None:
+                warnings.append({
+                    "kind": "project-integration-target-unresolved",
+                    "source": node.get("path") or source_id,
+                    "target": target_raw,
+                    "reason": reason,
+                    "candidates": candidates,
+                })
+                continue
+            if target_node.get("type") != "project":
+                warnings.append({
+                    "kind": "project-integration-target-not-project",
+                    "source": node.get("path") or source_id,
+                    "target": target_node["id"],
+                    "target_type": target_node.get("type"),
+                })
+                continue
+            if target_node["id"] == source_id:
+                warnings.append({
+                    "kind": "project-integration-self-edge",
+                    "source": node.get("path") or source_id,
+                    "target": target_raw,
+                })
+                continue
+
+            pair = tuple(sorted((source_id, target_node["id"])))
+            if pair in integration_pairs:
+                continue
+            integration_pairs.add(pair)
+            typed_edges.append({
+                "source": source_id,
+                "target": target_node["id"],
+                "kind": "derived-project-integration",
+                "relation_types": ["project-integration"],
+                "project": node.get("name"),
+                "company": None,
+                "start": None,
+                "end": None,
+                "confidence": "high",
+                "evidence": [],
+                "derived_from": "frontmatter.integrations",
+            })
 
     person_ids = {node["id"] for node in nodes if node.get("type") == "person"}
     linked_person_neighbors: dict[str, set[str]] = defaultdict(set)
