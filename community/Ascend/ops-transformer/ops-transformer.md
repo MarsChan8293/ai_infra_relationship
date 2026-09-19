@@ -1,15 +1,22 @@
 ---
 type: project
 name: ops-transformer
+status: active
+repository: https://github.com/Ascend/ops-transformer
+last_verified: "2026-09"
 linked_people:
   - "community/Ascend/ops-transformer/Konstantin Berestizshevsky"
   - "community/Ascend/ops-transformer/tangkaidi"
   - "community/Ascend/ops-transformer/wangchao661"
 companies: ["华为"]
 company_relation: company-led
-layer: npu-kernels
-hardware: [Ascend]
-open_source: true
+layer: runtime
+hardware:
+  - "ascend"
+areas:
+  - "transformer-operators"
+  - "ascend-kernels"
+integrations: []
 linked_companies:
   - "company/华为/华为"
 ---
