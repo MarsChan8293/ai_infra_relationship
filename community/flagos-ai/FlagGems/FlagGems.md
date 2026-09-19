@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagGems
+status: active
 linked_people:
   - "community/flagos-ai/FlagGems/0x45f"
   - "community/flagos-ai/FlagGems/huangyiqun"
@@ -11,11 +12,17 @@ linked_people:
   - "community/flagos-ai/FlagTree/zhzhcookie"
 companies: ["杭州先进编译科技有限公司"]
 company_relation: community-led
-layer: kernel-library
+layer: runtime
 repository: https://github.com/flagos-ai/FlagGems
-open_source: true
-areas: [triton, kernels, heterogeneous-computing, performance-optimization]
-last_verified: 2026-09
+areas:
+  - "triton"
+  - "kernels"
+  - "heterogeneous-computing"
+  - "performance-optimization"
+  - "operator-library"
+  - "heterogeneous-kernels"
+integrations: []
+last_verified: "2026-09"
 linked_companies:
   - "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司"
 ---
