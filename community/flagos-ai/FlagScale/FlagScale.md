@@ -1,6 +1,7 @@
 ---
 type: project
 name: FlagScale
+status: active
 linked_people:
   - "community/flagos-ai/FlagOS/吕梦思 Mengsi Lyu"
   - "community/flagos-ai/FlagOS/敖玉龙 Yulong Ao"
@@ -8,11 +9,16 @@ linked_people:
   - "community/flagos-ai/FlagOS/赵英利 Yingli Zhao"
 companies: []
 company_relation: community-led
-layer: distributed-training-serving
+layer: training
 repository: https://github.com/flagos-ai/FlagScale
-open_source: true
-areas: [distributed-training, heterogeneous-training, llm-inference, auto-tuning]
-last_verified: 2026-09
+areas:
+  - "distributed-training"
+  - "heterogeneous-training"
+  - "llm-inference"
+  - "auto-tuning"
+  - "large-model-training"
+integrations: []
+last_verified: "2026-09"
 linked_companies: []
 ---
 # FlagScale
