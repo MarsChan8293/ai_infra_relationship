@@ -201,6 +201,7 @@ jobs:
             generated/research-reverse-coverage.md generated/research-reverse-coverage.json
             generated/company-community-coverage.md generated/company-community-coverage.json
             generated/software-project-migration-audit.md generated/software-project-migration-audit.json
+            generated/software-project-index.md
           )
 
           if [[ -z "$(git status --porcelain -- "${TRACKED[@]}")" ]]; then
