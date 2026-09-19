@@ -1,14 +1,20 @@
 ---
 type: project
 name: TokenSpeed
+status: active
+repository: https://github.com/lightseekorg/TokenSpeed
+last_verified: "2026-09"
 linked_people:
   - "community/sgl-project/SGLang/Yineng Zhang"
 governance: foundation-led
 organization: LightSeek Foundation
 companies: ["NVIDIA","AMD","Together AI","阿里巴巴"]
 company_relation: cross-company-co-creation
-layer: agentic-llm-inference-engine
-open_source: true
+layer: runtime
+areas:
+  - "llm-inference-optimization"
+  - "performance-tooling"
+integrations: []
 linked_companies:
   - "company/AMD/AMD"
   - "company/NVIDIA/NVIDIA"
