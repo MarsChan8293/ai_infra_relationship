@@ -2,7 +2,7 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 34
+- Research institution nodes: 35
 - Institutions with ≥1 linked person: 13
 - Research-person associations: 47
 - Audit errors: 0
@@ -29,6 +29,7 @@
 | [[university/UC San Diego/Hao AI Lab|Hao AI Lab]] | 0 |
 | [[university/IBM Research/IBM Research|IBM Research]] | 0 |
 | [[university/电子科技大学/Intelligent Computing Systems Laboratory|Intelligent Computing Systems Laboratory]] | 0 |
+| [[university/上海交通大学/LANCER Lab|LANCER Lab]] | 0 |
 | [[university/Stanford University/MAST Lab|MAST Lab]] | 0 |
 | [[university/Seoul National University/Machine Learning Systems Lab|Machine Learning Systems Lab]] | 0 |
 | [[university/Oak Ridge National Laboratory/Oak Ridge National Laboratory|Oak Ridge National Laboratory]] | 0 |

@@ -3,12 +3,12 @@ type: person
 name: Jianguo Yao
 aliases:
   - "姚建国"
-current_affiliations:
-  - "上海交通大学"
-  - "燧原科技"
+current_affiliations: ["上海交通大学","燧原科技"]
 public_email: jianguo.yao@sjtu.edu.cn
 schools:
   - "上海交通大学"
+linked_companies:
+  - "company/燧原科技/燧原科技"
 projects:
   - "Samoyeds"
   - "SPIDER"
@@ -58,3 +58,12 @@ relations:
 - https://tcloud.sjtu.edu.cn/pdf/CGO_2025_Postiz.pdf
 - https://doi.org/10.1145/3689031.3717455
 - https://conf.researchr.org/room/CC-2026/hpcc-2026-venue-pyrmont
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/燧原科技/燧原科技|燧原科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

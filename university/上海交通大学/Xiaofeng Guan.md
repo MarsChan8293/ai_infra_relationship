@@ -5,11 +5,12 @@ aliases:
   - "Garfee Guan"
   - "Garfee023"
   - "gxf"
-current_affiliations:
-  - "燧原科技"
+current_affiliations: ["燧原科技"]
 public_email: guanxiaof@sjtu.edu.cn
 schools:
   - "上海交通大学"
+linked_companies:
+  - "company/燧原科技/燧原科技"
 projects:
   - "Croqtile"
 areas:
@@ -64,3 +65,12 @@ Xiaofeng Guan（公开身份中也使用 Garfee Guan）是 [[Croqtile]] 当前�
 - https://orcid.org/0000-0003-1120-8889
 - https://tcloud.sjtu.edu.cn/pdf/CGO_2024_PresCount.pdf
 - https://tcloud.sjtu.edu.cn/pdf/CGO_2025_Postiz.pdf
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/燧原科技/燧原科技|燧原科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

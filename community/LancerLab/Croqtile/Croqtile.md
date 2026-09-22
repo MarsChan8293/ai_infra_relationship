@@ -1,6 +1,10 @@
 ---
 type: project
 name: Croqtile
+linked_people:
+  - "university/上海交通大学/Enming Fan"
+  - "university/上海交通大学/Heng Shi"
+  - "university/上海交通大学/Xiaofeng Guan"
 layer: compiler
 status: active
 repository: https://github.com/LancerLab/croqtile
@@ -16,9 +20,10 @@ hardware:
   - "nvidia"
   - "amd"
   - "cpu"
-companies:
-  - "燧原科技"
+companies: ["燧原科技"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/燧原科技/燧原科技"
 ---
 # Croqtile
 
@@ -85,3 +90,23 @@ Croqtile 官方仓库直接用 Triton、TileLang、CUDA/CuTe 等作为 benchmark
 - https://tcloud.sjtu.edu.cn/pdf/CGO_2025_Postiz.pdf
 - https://doi.org/10.1145/3689031.3717455
 - https://conf.researchr.org/track/cgo-2025/cgo-2025-papers
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[university/上海交通大学/Enming Fan|Enming Fan]]：https://github.com/LancerLab/croqtile
+- [[university/上海交通大学/Heng Shi|Heng Shi]]：**Croqtile（2026）**：AI-native kernel DSL / compiler。
+- [[university/上海交通大学/Xiaofeng Guan|Xiaofeng Guan]]：https://github.com/LancerLab/croqtile
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/燧原科技/燧原科技|燧原科技]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

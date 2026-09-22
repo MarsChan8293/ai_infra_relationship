@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 54
-- Companies with ≥1 linked project/community: 41
-- Project/community nodes: 167
-- Project/community nodes with ≥1 linked company: 87
-- Bidirectional association pairs: 106
-- Explicitly asserted on both sides: 106
+- Company nodes: 55
+- Companies with ≥1 linked project/community: 42
+- Project/community nodes: 168
+- Project/community nodes with ≥1 linked company: 88
+- Bidirectional association pairs: 107
+- Explicitly asserted on both sides: 107
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -110,6 +110,7 @@
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/BaGuaLu/BaGuaLu|BaGuaLu]] | project | company-led | both |
 | [[company/清程极智/清程极智|清程极智]] | [[community/thu-pacman/Chitu/Chitu|Chitu]] | project | company-originated-and-jointly-open-sourced-with-tsinghua | both |
 | [[company/潞晨科技/潞晨科技|潞晨科技]] | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | project | company-originated | both |
+| [[company/燧原科技/燧原科技|燧原科技]] | [[community/LancerLab/Croqtile/Croqtile|Croqtile]] | project |  | both |
 | [[company/硅基流动/硅基流动|硅基流动]] | [[community/siliconflow/OneDiff/OneDiff|OneDiff]] | project | company-led | both |
 | [[company/硅基流动/硅基流动|硅基流动]] | [[community/siliconflow/SiliconLLM/SiliconLLM|SiliconLLM]] | project | company-led | both |
 | [[company/第四范式/第四范式|第四范式]] | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | project | cross-company-maintainer-network | both |

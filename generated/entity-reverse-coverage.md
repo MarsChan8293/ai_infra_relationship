@@ -2,16 +2,16 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 54
-- Companies with ≥1 linked person: 46
-- Company-person associations: 229
+- Company nodes: 55
+- Companies with ≥1 linked person: 47
+- Company-person associations: 233
 - Email-domain-supported associations: 37
-- People with generated linked_companies: 226
-- Project/community nodes: 167
-- Project/community nodes with ≥1 linked person: 114
-- Project/community-person associations: 542
-- Non-company affiliations recognized and routed elsewhere: 106
-- Unresolved source values (backlog, non-fatal): 27
+- People with generated linked_companies: 230
+- Project/community nodes: 168
+- Project/community nodes with ≥1 linked person: 115
+- Project/community-person associations: 545
+- Non-company affiliations recognized and routed elsewhere: 107
+- Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
 
 ## Companies
@@ -38,6 +38,7 @@
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
+| [[company/燧原科技/燧原科技|燧原科技]] | 4 |
 | [[company/腾讯/腾讯|腾讯]] | 4 |
 | [[company/Anyscale/Anyscale|Anyscale]] | 3 |
 | [[company/Google/Google|Google]] | 3 |
@@ -117,6 +118,7 @@
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
+| [[community/LancerLab/Croqtile/Croqtile|Croqtile]] | 3 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
 | [[community/LLMServe/DistServe/DistServe|DistServe]] | 3 |
 | [[community/FlashML-org/FreeToken/FreeToken|FreeToken]] | 3 |
@@ -203,6 +205,10 @@
 - `university/University of Washington/SyFI Lab/Kan Zhu.md` · `communities` → `SyFI Lab`
 - `university/University of Washington/SyFI Lab/Mat Jacob.md` · `communities` → `SyFI Lab`
 - `university/University of Washington/SyFI Lab/Stephanie Wang.md` · `communities` → `SyFI Lab`
+- `university/上海交通大学/Heng Shi.md` · `projects` → `Samoyeds`
+- `university/上海交通大学/Heng Shi.md` · `projects` → `SPIDER`
+- `university/上海交通大学/Jianguo Yao.md` · `projects` → `Samoyeds`
+- `university/上海交通大学/Jianguo Yao.md` · `projects` → `SPIDER`
 - `university/上海交通大学/张一鸣 Yiming Zhang.md` · `affiliation` → `NICE Lab`
 - `university/厦门大学/Shi Qiu.md` · `affiliation` → `NICE Lab`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`

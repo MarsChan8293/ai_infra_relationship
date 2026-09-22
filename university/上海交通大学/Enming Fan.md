@@ -4,9 +4,12 @@ name: Enming Fan
 aliases:
   - "fanenming"
   - "fanenmingsh"
-current_affiliations:
-  - "燧原科技"
+current_affiliations: ["燧原科技"]
 public_email: morgan.fan@enflame-tech.com
+schools:
+  - "上海交通大学"
+linked_companies:
+  - "company/燧原科技/燧原科技"
 projects:
   - "Croqtile"
 areas:
@@ -46,9 +49,22 @@ Postiz（CGO 2025）论文中 Enming Fan 为作者，公开 affiliation 为 Shan
 
 与 [[Xiaofeng Guan]]、[[Heng Shi]]、[[Jianguo Yao]] 的关系在本图谱中只标记为 **paper coauthor**，不从共同论文或共同仓库自动推断同组、上下级或长期同事关系。
 
+
+## 学校关联
+- [[university/上海交通大学/上海交通大学|上海交通大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+
 ## Sources
 
 - https://github.com/fanenmingsh
 - https://github.com/LancerLab/croqtile
 - https://tcloud.sjtu.edu.cn/pdf/CGO_2025_Postiz.pdf
 - https://conf.researchr.org/track/cgo-2025/cgo-2025-papers
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/燧原科技/燧原科技|燧原科技]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

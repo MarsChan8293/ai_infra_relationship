@@ -4,6 +4,7 @@ name: LANCER Lab
 aliases:
   - "LANCER"
   - "Language And Compilation Optimization for Next-gen High Performance Computing Research"
+linked_people: []
 areas:
   - "ai-compilers"
   - "kernel-dsl"
