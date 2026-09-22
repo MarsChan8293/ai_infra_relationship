@@ -196,12 +196,22 @@ jobs:
         working-directory: ${{ env.QUARTZ_DIR }}
         run: npx quartz build
 
-      - name: Build focused graph explorer
+      - name: Build graph explorer data
         run: |
           python3 scripts/build-graph-explorer.py \
             --generated generated \
-            --output "$QUARTZ_DIR/public/graph-explorer" \
+            --output generated/graph-explorer \
             --base-path "/ai_infra_relationship"
+
+      - name: Build Sigma graph explorer
+        working-directory: web/graph-explorer
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+          rm -rf "$QUARTZ_DIR/public/graph-explorer"
+          mkdir -p "$QUARTZ_DIR/public/graph-explorer"
+          cp -R dist/. "$QUARTZ_DIR/public/graph-explorer/"
+          cp ../../generated/graph-explorer/data.json "$QUARTZ_DIR/public/graph-explorer/data.json"
 
       - name: Reconcile graph explorer routes with Quartz output
         run: |

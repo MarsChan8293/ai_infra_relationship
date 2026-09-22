@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10131a" />
+    <title>AI Infra Relationship · Galaxy</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="eyebrow">AI INFRA RELATIONSHIP</div>
+          <h1>Galaxy Explorer</h1>
+        </div>
+        <div class="top-actions">
+          <a id="homeLink" class="ghost-link" href="#">返回知识库</a>
+          <a class="ghost-link" href="https://github.com/MarsChan8293/ai_infra_relationship">GitHub</a>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar">
+          <section class="hero-card">
+            <p class="hero-kicker">GLOBAL MAP</p>
+            <h2>从毛线球，变成生态星系。</h2>
+            <p class="muted">Louvain 自动分群，Bridge Score 决定节点视觉权重。布局只存在于展示层，不写回 Markdown。</p>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>视图</h3><span id="modeHint" class="micro">全局生态</span></div>
+            <div class="segmented" id="modeSwitch">
+              <button data-mode="galaxy" class="active">Galaxy</button>
+              <button data-mode="ego">Ego</button>
+            </div>
+            <div id="egoControls" class="inline-controls hidden">
+              <button id="hop1" class="chip active">1-hop</button>
+              <button id="hop2" class="chip">2-hop</button>
+            </div>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>搜索与聚焦</h3></div>
+            <input id="focusInput" type="search" list="nodeList" placeholder="游凯超 / vLLM / Mooncake…" />
+            <datalist id="nodeList"></datalist>
+            <div class="button-row">
+              <button id="focusBtn" class="primary">聚焦</button>
+              <button id="openBtn">打开原文</button>
+              <button id="resetCameraBtn">全图</button>
+            </div>
+          </section>
+
+          <section id="selectionCard" class="selection-card empty">
+            <div class="selection-placeholder">点击星系中的节点查看详情。</div>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>生态星系</h3><span id="communityCount" class="micro"></span></div>
+            <div id="communityList" class="community-list"></div>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>节点类型</h3><button id="allTypesBtn" class="text-button">全部</button></div>
+            <div id="typeFilters" class="filter-list"></div>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>关系类型</h3><button id="allRelationsBtn" class="text-button">全部</button></div>
+            <div id="relationFilters" class="filter-list"></div>
+          </section>
+
+          <section class="control-section">
+            <div class="section-head"><h3>Path Finder</h3></div>
+            <input id="pathFrom" type="search" list="nodeList" placeholder="起点" />
+            <input id="pathTo" type="search" list="nodeList" placeholder="终点" />
+            <div class="button-row">
+              <button id="pathBtn" class="primary">寻找最短路径</button>
+              <button id="clearPathBtn">清除</button>
+            </div>
+            <div id="pathResult" class="path-result muted">路径计算遵守当前节点与关系筛选。</div>
+          </section>
+        </aside>
+
+        <section class="stage-wrap">
+          <div class="stage-toolbar">
+            <div id="stats" class="stat-pill">加载中…</div>
+            <div class="legend-mini" id="legend"></div>
+          </div>
+          <div id="sigma-container" class="sigma-stage" aria-label="AI Infra relationship galaxy"></div>
+          <div id="status" class="stage-status">正在构建星系…</div>
+          <div class="stage-tip">单击聚焦 · 双击打开原文 · 滚轮缩放 · 拖动画布</div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
