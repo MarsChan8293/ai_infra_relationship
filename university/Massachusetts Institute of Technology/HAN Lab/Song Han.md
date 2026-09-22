@@ -2,6 +2,8 @@
 type: person
 name: "Song Han"
 current_affiliations: ["Massachusetts Institute of Technology"]
+schools:
+  - "Massachusetts Institute of Technology"
 communities: ["HAN Lab"]
 roles: ["Principal Investigator", "Associate Professor"]
 areas: ["efficient-ai", "llm-inference", "quantization", "llm-serving"]
@@ -16,6 +18,9 @@ Song Han 是 MIT HAN Lab 官方 team 页面当前列出的研究成员，研究�
 
 ## 关系与角色
 - [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：Principal Investigator / Associate Professor。
+
+## 学校关联
+- [[university/Massachusetts Institute of Technology/Massachusetts Institute of Technology|Massachusetts Institute of Technology]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 - https://hanlab.mit.edu/team

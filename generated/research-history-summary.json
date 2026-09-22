@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-19",
-  "history_records": 721,
-  "suppressed_by_cooldown": 656,
+  "as_of": "2026-09-22",
+  "history_records": 727,
+  "suppressed_by_cooldown": 31,
   "partial_followup_candidates": 629,
   "latest_status_counts_in_current_candidates": {
     "partial": 629,
@@ -117,16 +117,16 @@
       "yield_adjustment": 0.111
     },
     "project:maintainers:person": {
-      "attempts": 65,
+      "attempts": 68,
       "statuses": {
-        "partial": 45,
-        "success": 4,
+        "partial": 47,
+        "success": 5,
         "unresolved": 16
       },
-      "mean_status_value": 0.181,
-      "mean_reward": 1.381,
-      "reward_signal": 0.332,
-      "yield_adjustment": 0.077
+      "mean_status_value": 0.198,
+      "mean_reward": 2.665,
+      "reward_signal": 0.583,
+      "yield_adjustment": 0.103
     },
     "project:originating_org:company+school+research+community+team": {
       "attempts": 10,
@@ -170,14 +170,15 @@
       "yield_adjustment": 0.113
     },
     "research:key_people:person": {
-      "attempts": 2,
+      "attempts": 4,
       "statuses": {
-        "partial": 2
+        "partial": 2,
+        "success": 2
       },
-      "mean_status_value": 0.35,
-      "mean_reward": 2.75,
-      "reward_signal": 0.596,
-      "yield_adjustment": 0.048
+      "mean_status_value": 0.675,
+      "mean_reward": 10.875,
+      "reward_signal": 0.991,
+      "yield_adjustment": 0.176
     },
     "research:parent_or_partner_org:school+company+research": {
       "attempts": 1,
@@ -190,15 +191,16 @@
       "yield_adjustment": 0.026
     },
     "research:projects:project+community": {
-      "attempts": 20,
+      "attempts": 21,
       "statuses": {
         "partial": 19,
+        "success": 1,
         "unresolved": 1
       },
-      "mean_status_value": 0.307,
-      "mean_reward": 1.5,
-      "reward_signal": 0.358,
-      "yield_adjustment": 0.112
+      "mean_status_value": 0.34,
+      "mean_reward": 2.107,
+      "reward_signal": 0.483,
+      "yield_adjustment": 0.132
     },
     "research:related_projects:project+company+person": {
       "attempts": 1,

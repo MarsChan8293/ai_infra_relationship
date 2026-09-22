@@ -2,14 +2,14 @@
 type: project
 name: Volcano
 linked_people:
-  - "community/volcano-sh/Volcano/Klaus Ma"
+  - "community/volcano-sh/Volcano/Jesse Stutler"
   - "community/volcano-sh/Volcano/Kevin Wang"
-  - "community/volcano-sh/Volcano/Zhonghu Xu"
+  - "community/volcano-sh/Volcano/Klaus Ma"
+  - "community/volcano-sh/Volcano/Liang Tang"
   - "community/volcano-sh/Volcano/Thor-wl"
   - "community/volcano-sh/Volcano/William-wang"
-  - "community/volcano-sh/Volcano/Liang Tang"
   - "community/volcano-sh/Volcano/Xavier Chang"
-  - "community/volcano-sh/Volcano/Jesse Stutler"
+  - "community/volcano-sh/Volcano/Zhonghu Xu"
 layer: scheduler
 status: active
 repository: https://github.com/volcano-sh/volcano
@@ -74,3 +74,19 @@ Volcano 社区仓库维护一份 canonical MAINTAINERS.md，并明确标注 Curr
 
 - https://volcano.sh/en/docs/
 - https://github.com/volcano-sh/volcano
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/volcano-sh/Volcano/Jesse Stutler|Jesse Stutler]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Kevin Wang|Kevin Wang]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Klaus Ma|Klaus Ma]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Liang Tang|Liang Tang]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Thor-wl|Thor-wl]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/William-wang|William-wang]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Xavier Chang|Xavier Chang]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+- [[community/volcano-sh/Volcano/Zhonghu Xu|Zhonghu Xu]]：[[community/volcano-sh/Volcano/Volcano|Volcano]]：Current active Maintainer。
+
+<!-- END AUTO PROJECT PEOPLE -->

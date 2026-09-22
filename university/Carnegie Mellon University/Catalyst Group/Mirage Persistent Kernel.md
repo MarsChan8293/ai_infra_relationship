@@ -13,6 +13,7 @@ areas:
   - "compiler"
   - "gpu-runtime"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Mirage Persistent Kernel
 

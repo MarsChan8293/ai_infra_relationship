@@ -2,11 +2,11 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 385
-- People with ≥1 school: 160
-- People without known school: 225
-- Coverage: 41.6%
-- Person-school associations: 209
+- Person nodes: 412
+- People with ≥1 school: 168
+- People without known school: 244
+- Coverage: 40.8%
+- Person-school associations: 217
 - School nodes: 49
 - Audit errors: 0
 
@@ -21,6 +21,8 @@
 | Carnegie Mellon University | 7 |
 | 浙江大学 | 7 |
 | University of Chicago | 6 |
+| University of Washington | 6 |
+| Massachusetts Institute of Technology | 5 |
 | Stanford University | 4 |
 | 厦门大学 | 4 |
 | 华南理工大学 | 4 |
@@ -30,7 +32,6 @@
 | 四川大学 | 2 |
 | Stony Brook University | 2 |
 | Georgia Institute of Technology | 2 |
-| University of Washington | 2 |
 | University of Texas at Austin | 2 |
 | 香港科技大学 | 2 |
 | 香港中文大学 | 2 |
@@ -43,7 +44,6 @@
 | 南京大学 | 1 |
 | UC Davis | 1 |
 | 复旦大学 | 1 |
-| 北京航空航天大学 | 1 |
 
 ## High-value people still missing a verified school association
 

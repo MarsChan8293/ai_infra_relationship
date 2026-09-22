@@ -3,11 +3,7 @@ type: research-institution
 name: "SyFI Lab"
 aliases: ["Systems for Future Intelligence Lab"]
 organization: "University of Washington"
-linked_people:
-  - "university/University of Washington/SyFI Lab/Baris Kasikci"
-  - "university/University of Washington/SyFI Lab/Stephanie Wang"
-  - "university/University of Washington/SyFI Lab/Kan Zhu"
-  - "university/University of Washington/SyFI Lab/Mat Jacob"
+linked_people: []
 areas: [ai-infrastructure, llm-serving, distributed-training, gpu-systems, multimodal-serving, agentic-systems]
 website: https://syfi.cs.washington.edu/
 country: "USA"

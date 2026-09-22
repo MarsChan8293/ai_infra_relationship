@@ -12,6 +12,7 @@ areas:
   - "llm-inference"
   - "speculative-decoding"
 last_verified: "2026-09"
+linked_companies: []
 ---
 # XGrammar
 

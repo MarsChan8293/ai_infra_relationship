@@ -5,6 +5,10 @@ labs:
   - "HAN Lab"
 linked_people:
   - "community/ai-dynamo/Dynamo/Karen Chung"
+  - "university/Massachusetts Institute of Technology/HAN Lab/Junxian Guo"
+  - "university/Massachusetts Institute of Technology/HAN Lab/Qinghao Hu"
+  - "university/Massachusetts Institute of Technology/HAN Lab/Song Han"
+  - "university/Massachusetts Institute of Technology/HAN Lab/Xingyang Li"
 ---
 # Massachusetts Institute of Technology
 
@@ -17,5 +21,9 @@ linked_people:
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
 - [[community/ai-dynamo/Dynamo/Karen Chung|Karen Chung]]：[[Massachusetts Institute of Technology]]：公开职业档案列出 2024–2025 的 MIT 教育经历；这里只记录学校关联，不根据页面摘要推断具体学位类型。
+- [[university/Massachusetts Institute of Technology/HAN Lab/Junxian Guo|Junxian Guo]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/Massachusetts Institute of Technology/HAN Lab/Qinghao Hu|Qinghao Hu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/Massachusetts Institute of Technology/HAN Lab/Song Han|Song Han]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/Massachusetts Institute of Technology/HAN Lab/Xingyang Li|Xingyang Li]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 
 <!-- END AUTO SCHOOL PEOPLE -->

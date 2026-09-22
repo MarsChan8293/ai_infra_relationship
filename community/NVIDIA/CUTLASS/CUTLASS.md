@@ -2,13 +2,13 @@
 type: project
 name: CUTLASS
 linked_people:
-  - "community/NVIDIA/CUTLASS/Junkai Wu"
-  - "community/NVIDIA/CUTLASS/IonThruster"
   - "community/NVIDIA/CUTLASS/Aniket Shivam"
-  - "community/NVIDIA/CUTLASS/Jack Kosaian"
-  - "community/NVIDIA/CUTLASS/dePaul Miller"
-  - "community/NVIDIA/CUTLASS/Yujia Zhai"
   - "community/NVIDIA/CUTLASS/Brandon Sun"
+  - "community/NVIDIA/CUTLASS/dePaul Miller"
+  - "community/NVIDIA/CUTLASS/IonThruster"
+  - "community/NVIDIA/CUTLASS/Jack Kosaian"
+  - "community/NVIDIA/CUTLASS/Junkai Wu"
+  - "community/NVIDIA/CUTLASS/Yujia Zhai"
 layer: runtime
 status: active
 repository: https://github.com/NVIDIA/cutlass
@@ -84,3 +84,18 @@ CUTLASS 聚焦 NVIDIA CUDA kernel 构建，不负责模型图执行、Serving AP
 - [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/NVIDIA/CUTLASS/Aniket Shivam|Aniket Shivam]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+- [[community/NVIDIA/CUTLASS/Brandon Sun|Brandon Sun]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+- [[community/NVIDIA/CUTLASS/dePaul Miller|dePaul Miller]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+- [[community/NVIDIA/CUTLASS/IonThruster|IonThruster]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+- [[community/NVIDIA/CUTLASS/Jack Kosaian|Jack Kosaian]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+- [[community/NVIDIA/CUTLASS/Junkai Wu|Junkai Wu]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人，并有持续 release / Collaborator 信号。
+- [[community/NVIDIA/CUTLASS/Yujia Zhai|Yujia Zhai]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
+
+<!-- END AUTO PROJECT PEOPLE -->

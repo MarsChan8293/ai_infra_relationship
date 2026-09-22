@@ -7,11 +7,11 @@
 - Company-person associations: 229
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 226
-- Project/community nodes: 163
-- Project/community nodes with ≥1 linked person: 110
-- Project/community-person associations: 519
-- Non-company affiliations recognized and routed elsewhere: 98
-- Unresolved source values (backlog, non-fatal): 15
+- Project/community nodes: 166
+- Project/community nodes with ≥1 linked person: 113
+- Project/community-person associations: 538
+- Non-company affiliations recognized and routed elsewhere: 106
+- Unresolved source values (backlog, non-fatal): 23
 - Audit errors: 0
 
 ## Companies
@@ -89,7 +89,9 @@
 | [[community/flagos-ai/FlagTree/FlagTree|FlagTree]] | 8 |
 | [[university/清华大学/GLM-130B|GLM-130B]] | 8 |
 | [[community/lmsys-org/LMSYS/LMSYS|LMSYS]] | 8 |
+| [[community/volcano-sh/Volcano/Volcano|Volcano]] | 8 |
 | [[community/vllm-project/AIBrix/AIBrix|AIBrix]] | 7 |
+| [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] | 7 |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | 7 |
 | [[community/InfiniTensor/InfiniLM|InfiniLM]] | 7 |
 | [[community/InfiniTensor/InfiniTensor|InfiniTensor]] | 7 |
@@ -107,6 +109,7 @@
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
 | [[community/InfiniTensor/InfiniOps|InfiniOps]] | 4 |
+| [[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/radixark/Miles/Miles|Miles]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
@@ -185,8 +188,16 @@
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `university/Massachusetts Institute of Technology/HAN Lab/Junxian Guo.md` · `communities` → `HAN Lab`
+- `university/Massachusetts Institute of Technology/HAN Lab/Qinghao Hu.md` · `communities` → `HAN Lab`
+- `university/Massachusetts Institute of Technology/HAN Lab/Song Han.md` · `communities` → `HAN Lab`
+- `university/Massachusetts Institute of Technology/HAN Lab/Xingyang Li.md` · `communities` → `HAN Lab`
 - `university/UC Berkeley/Shiyi Cao.md` · `affiliation` → `BAIR`
 - `university/UC Berkeley/Shuo Yang.md` · `affiliation` → `LMSYS`
+- `university/University of Washington/SyFI Lab/Baris Kasikci.md` · `communities` → `SyFI Lab`
+- `university/University of Washington/SyFI Lab/Kan Zhu.md` · `communities` → `SyFI Lab`
+- `university/University of Washington/SyFI Lab/Mat Jacob.md` · `communities` → `SyFI Lab`
+- `university/University of Washington/SyFI Lab/Stephanie Wang.md` · `communities` → `SyFI Lab`
 - `university/上海交通大学/张一鸣 Yiming Zhang.md` · `affiliation` → `NICE Lab`
 - `university/厦门大学/Shi Qiu.md` · `affiliation` → `NICE Lab`
 - `university/清华大学/Haojie Wang.md` · `affiliation` → `PACMAN Lab, Tsinghua University`

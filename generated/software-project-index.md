@@ -27,7 +27,7 @@ Generated from research/software-project-migration.json and canonical Project v3
 | [[community/bentoml/BentoML/BentoML|BentoML]] | active | model-serving, api-service, autoscaling, packaging | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=BentoML) |
 | [[community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension|Gateway API Inference Extension]] | active | inference-pool, inference-aware-routing, gateway-api, multi-cluster-routing, kubernetes | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Gateway%20API%20Inference%20Extension) |
 | [[community/kserve/KServe/KServe|KServe]] | active | kubernetes-model-serving, llm-inference-service, autoscaling, inference-routing, kubernetes | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KServe) |
-| [[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]] | active | llm-gateway, provider-routing, rate-limiting, cost-tracking, openai-compatible-proxy | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LiteLLM) |
+| [[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]] | active | llm-gateway, provider-routing, rate-limiting, cost-tracking, openai-compatible-proxy | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LiteLLM) |
 | [[community/llm-d/llm-d/llm-d|llm-d]] | active | request-routing, kv-aware-routing, pd-disaggregation, worker-pool-orchestration, kubernetes | 4 | 15 | 5 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=llm-d) |
 | [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] | active | distributed-inference, disaggregated-serving, kv-aware-routing, cache-management, autoscaling | 4 | 11 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVIDIA%20Dynamo) |
 | [[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] | active | distributed-serving, autoscaling, multi-model, pd-disaggregation, prefix-aware-routing | 2 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ray%20Serve) |
@@ -62,7 +62,7 @@ Generated from research/software-project-migration.json and canonical Project v3
 
 | Project | Status | Areas | Integrations | People | Companies | Graph |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] | active | gemm, cute, cuda-templates, python-dsl | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUTLASS) |
+| [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] | active | gemm, cute, cuda-templates, python-dsl | 1 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUTLASS) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] | active | gemm, fp8, fp4, moe-kernels, jit | 1 | 11 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepGEMM) |
 | [[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] | active | attention, triton, kernels, llm-inference, heterogeneous-computing | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagAttention) |
 | [[community/flagos-ai/FlagGems/FlagGems|FlagGems]] | active | triton, kernels, heterogeneous-computing, performance-optimization, operator-library | 0 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagGems) |
@@ -98,7 +98,7 @@ Generated from research/software-project-migration.json and canonical Project v3
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/kai-scheduler/KAI-Scheduler/KAI-Scheduler|KAI-Scheduler]] | active | queue, quota, fair-share, gang-scheduling, preemption | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KAI-Scheduler) |
 | [[community/kubernetes-sigs/Kueue/Kueue|Kueue]] | active | job-queueing, admission-control, cluster-queue, fair-sharing, multi-cluster | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kueue) |
-| [[community/volcano-sh/Volcano/Volcano|Volcano]] | active | batch-scheduling, gang-scheduling, queue, preemption, backfill | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Volcano) |
+| [[community/volcano-sh/Volcano/Volcano|Volcano]] | active | batch-scheduling, gang-scheduling, queue, preemption, backfill | 0 | 8 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Volcano) |
 
 ## device-resource
 

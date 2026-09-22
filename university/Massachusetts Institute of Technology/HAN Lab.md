@@ -3,11 +3,7 @@ type: research-institution
 name: "HAN Lab"
 aliases: ["MIT HAN Lab"]
 organization: "Massachusetts Institute of Technology"
-linked_people:
-  - "university/Massachusetts Institute of Technology/HAN Lab/Song Han"
-  - "university/Massachusetts Institute of Technology/HAN Lab/Qinghao Hu"
-  - "university/Massachusetts Institute of Technology/HAN Lab/Junxian Guo"
-  - "university/Massachusetts Institute of Technology/HAN Lab/Xingyang Li"
+linked_people: []
 areas: [efficient-ai, llm-serving, gpu-systems, quantization, sparse-attention, long-context-inference]
 website: https://hanlab.mit.edu/
 country: "USA"
