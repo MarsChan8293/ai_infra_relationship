@@ -18664,6 +18664,164 @@
       },
       "note": "Expanded AdvancedCompiler as a company/lab/person network and linked it to existing FlagTree/FlagGems nodes without duplicating forked repositories or overstating governance.",
       "retry_after_days": 30
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "community/NVIDIA/CUTLASS/CUTLASS::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "CUTLASS",
+      "resolved_dimensions": [
+        "team_attention:Junkai-Wu",
+        "team_attention:IonThruster",
+        "team_attention:ANIKET-SHIVAM",
+        "team_attention:jackkosaian",
+        "team_attention:depaulmillz",
+        "team_attention:yzhaiustc",
+        "team_attention:brandon-yujie-sun",
+        "release_maintenance:Junkai-Wu"
+      ],
+      "unresolved_dimensions": [
+        "formal_current_maintainer_roster"
+      ],
+      "outcome": {
+        "new_nodes": 7,
+        "new_edges": 7,
+        "evidence_upgraded": 7,
+        "verified_claims": 8,
+        "rejected_claims": 0
+      },
+      "note": "2026-08 admin handoff explicitly names seven CUTLASS team-attention contacts. No repository CODEOWNERS/MAINTAINERS roster was found, so the group is not uniformly promoted to formal maintainer; Junkai-Wu has additional release and Collaborator signals.",
+      "retry_after_days": 2
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "community/BerriAI/LiteLLM/LiteLLM::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "partial",
+      "source_name": "LiteLLM",
+      "resolved_dimensions": [
+        "path_codeowner:yuneng-berri",
+        "path_codeowner:ryan-crabbe-berri",
+        "path_codeowner:mateo-berri",
+        "path_codeowner:kerry-berri"
+      ],
+      "unresolved_dimensions": [
+        "global_maintainer_roster",
+        "whole_repository_governance"
+      ],
+      "outcome": {
+        "new_nodes": 4,
+        "new_edges": 4,
+        "evidence_upgraded": 4,
+        "verified_claims": 4,
+        "rejected_claims": 0
+      },
+      "note": "Official CODEOWNERS provides path-scoped ownership only. Four code-owner nodes were added without inflating them into whole-repository maintainer roles.",
+      "retry_after_days": 2
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "community/volcano-sh/Volcano/Volcano::maintainers",
+      "action_key": "project:maintainers:person",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "Volcano",
+      "resolved_dimensions": [
+        "current_maintainer:Klaus Ma",
+        "current_maintainer:Kevin Wang",
+        "current_maintainer:Zhonghu Xu",
+        "current_maintainer:Thor-wl",
+        "current_maintainer:William-wang",
+        "current_maintainer:Liang Tang",
+        "current_maintainer:Xavier Chang",
+        "current_maintainer:Jesse Stutler"
+      ],
+      "unresolved_dimensions": [],
+      "outcome": {
+        "new_nodes": 8,
+        "new_edges": 8,
+        "evidence_upgraded": 8,
+        "verified_claims": 8,
+        "rejected_claims": 0
+      },
+      "note": "Canonical volcano-sh/community MAINTAINERS.md explicitly lists all eight current active maintainers and their project-reported affiliations."
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "university/Massachusetts Institute of Technology/HAN Lab::key_people",
+      "action_key": "research:key_people:person",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "HAN Lab",
+      "resolved_dimensions": [
+        "key_person:Song Han",
+        "key_person:Qinghao Hu",
+        "key_person:Junxian Guo",
+        "key_person:Xingyang Li"
+      ],
+      "unresolved_dimensions": [],
+      "outcome": {
+        "new_nodes": 4,
+        "new_edges": 4,
+        "evidence_upgraded": 4,
+        "verified_claims": 4,
+        "rejected_claims": 0
+      },
+      "note": "Selected current official HAN Lab members with direct inference/systems relevance; avoided alumni/current-status ambiguity."
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "university/University of Washington/SyFI Lab::key_people",
+      "action_key": "research:key_people:person",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "SyFI Lab",
+      "resolved_dimensions": [
+        "key_person:Baris Kasikci",
+        "key_person:Stephanie Wang",
+        "key_person:Kan Zhu",
+        "key_person:Mat Jacob"
+      ],
+      "unresolved_dimensions": [],
+      "outcome": {
+        "new_nodes": 4,
+        "new_edges": 4,
+        "evidence_upgraded": 4,
+        "verified_claims": 4,
+        "rejected_claims": 0
+      },
+      "note": "Official SyFI People page verifies directors and current PhD members; 2026 SyFI publication list directly connects Kan Zhu and Mat Jacob to TraceLab/Piper systems work."
+    },
+    {
+      "run_id": "2026-09-22-discover-2",
+      "attempted_at": "2026-09-22",
+      "action_id": "university/Carnegie Mellon University/Catalyst Group::projects",
+      "action_key": "research:projects:project+community",
+      "operator": "discover",
+      "status": "success",
+      "source_name": "Catalyst Group",
+      "resolved_dimensions": [
+        "project:XGrammar",
+        "project:FlexFlow Serve",
+        "project:Mirage Persistent Kernel"
+      ],
+      "unresolved_dimensions": [],
+      "outcome": {
+        "new_nodes": 3,
+        "new_edges": 3,
+        "evidence_upgraded": 3,
+        "verified_claims": 3,
+        "rejected_claims": 0
+      },
+      "note": "Catalyst official research pages directly list all three projects; canonical project nodes were added without inferring individual governance."
     }
   ]
 }

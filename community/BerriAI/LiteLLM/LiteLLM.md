@@ -1,7 +1,11 @@
 ---
 type: project
 name: LiteLLM
-linked_people: []
+linked_people:
+  - "community/BerriAI/LiteLLM/yuneng-berri"
+  - "community/BerriAI/LiteLLM/ryan-crabbe-berri"
+  - "community/BerriAI/LiteLLM/mateo-berri"
+  - "community/BerriAI/LiteLLM/kerry-berri"
 layer: distributed-serving
 status: active
 repository: https://github.com/BerriAI/litellm
@@ -45,6 +49,17 @@ V0.1 暂不把通用 OpenAI-compatible endpoint 兼容自动视作“项目级�
 ## 版本快照
 
 本页不绑定单一 release 或 commit；能力判断以 2026-09-15 前官方文档为快照。
+
+## Governance / Code Owners
+
+LiteLLM 官方仓库存在路径级 CODEOWNERS，但当前没有发现覆盖全仓的 MAINTAINERS roster。以下人物只按 CODEOWNERS 的精确 scope 记录，不把路径所有权外推成全仓 maintainer：
+
+- [[community/BerriAI/LiteLLM/yuneng-berri|@yuneng-berri]]：UI、experimental proxy output、migration 与 CODEOWNERS 文件自身的 owner。
+- [[community/BerriAI/LiteLLM/ryan-crabbe-berri|@ryan-crabbe-berri]]：UI / proxy output，以及 model price metadata 的共同 owner。
+- [[community/BerriAI/LiteLLM/mateo-berri|@mateo-berri]]：model price metadata 共同 owner。
+- [[community/BerriAI/LiteLLM/kerry-berri|@kerry-berri]]：model price metadata 共同 owner。
+
+这里的关系强度是“path-level code ownership”，而不是未经证明的全仓 maintainer 身份。
 
 ## 直接来源
 

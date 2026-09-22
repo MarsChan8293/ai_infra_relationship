@@ -1,7 +1,15 @@
 ---
 type: project
 name: Volcano
-linked_people: []
+linked_people:
+  - "community/volcano-sh/Volcano/Klaus Ma"
+  - "community/volcano-sh/Volcano/Kevin Wang"
+  - "community/volcano-sh/Volcano/Zhonghu Xu"
+  - "community/volcano-sh/Volcano/Thor-wl"
+  - "community/volcano-sh/Volcano/William-wang"
+  - "community/volcano-sh/Volcano/Liang Tang"
+  - "community/volcano-sh/Volcano/Xavier Chang"
+  - "community/volcano-sh/Volcano/Jesse Stutler"
 layer: scheduler
 status: active
 repository: https://github.com/volcano-sh/volcano
@@ -46,6 +54,21 @@ V0.1 暂不把生态适配自动视作强集成。
 ## 版本快照
 
 本页不绑定单一 release；能力判断以 2026-09-15 前官方文档为快照。
+
+## 当前维护者
+
+Volcano 社区仓库维护一份 canonical MAINTAINERS.md，并明确标注 Current active Maintainers。本轮 DISCOVER 将当前 8 人完整编码为项目维护关系：
+
+- [[community/volcano-sh/Volcano/Klaus Ma|Klaus Ma (@k82cn)]]：Maintainer；官方 roster affiliation：NVIDIA。
+- [[community/volcano-sh/Volcano/Kevin Wang|Kevin Wang (@kevin-wangzefeng)]]：Maintainer；官方 roster affiliation：Huawei。
+- [[community/volcano-sh/Volcano/Zhonghu Xu|Zhonghu Xu (@hzxuzhonghu)]]：Maintainer；官方 roster affiliation：Alibaba。
+- [[community/volcano-sh/Volcano/Thor-wl|Thor-wl (@Thor-wl)]]：Maintainer；官方 roster affiliation：Hjmicro。
+- [[community/volcano-sh/Volcano/William-wang|William-wang (@william-wang)]]：Maintainer；官方 roster affiliation：NVIDIA。
+- [[community/volcano-sh/Volcano/Liang Tang|Liang Tang (@shinytang6)]]：Maintainer；官方 roster affiliation：Baidu。
+- [[community/volcano-sh/Volcano/Xavier Chang|Xavier Chang (@Monokaix)]]：Maintainer；官方 roster affiliation：NVIDIA。
+- [[community/volcano-sh/Volcano/Jesse Stutler|Jesse Stutler (@JesseStutler)]]：Maintainer；官方 roster affiliation：Huawei。
+
+这里使用项目官方治理文件中的角色与 affiliation，不据此额外推断公司职级或汇报关系。
 
 ## 直接来源
 

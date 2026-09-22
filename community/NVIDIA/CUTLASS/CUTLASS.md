@@ -1,7 +1,14 @@
 ---
 type: project
 name: CUTLASS
-linked_people: []
+linked_people:
+  - "community/NVIDIA/CUTLASS/Junkai Wu"
+  - "community/NVIDIA/CUTLASS/IonThruster"
+  - "community/NVIDIA/CUTLASS/Aniket Shivam"
+  - "community/NVIDIA/CUTLASS/Jack Kosaian"
+  - "community/NVIDIA/CUTLASS/dePaul Miller"
+  - "community/NVIDIA/CUTLASS/Yujia Zhai"
+  - "community/NVIDIA/CUTLASS/Brandon Sun"
 layer: runtime
 status: active
 repository: https://github.com/NVIDIA/cutlass
@@ -49,6 +56,20 @@ CUTLASS 聚焦 NVIDIA CUDA kernel 构建，不负责模型图执行、Serving AP
 ## 版本快照
 
 本页不绑定单一 release 或 commit；能力判断以 2026-09-15 前 CUTLASS 官方资料为快照。
+
+## 维护与团队联系
+
+2026-08-10，原 CUTLASS admin hwu36 公开宣布不再全职维护，并明确要求后续需要 CUTLASS team attention 时联系以下 7 个账号。本页把这组“团队联系/维护线索”编码进图谱，但不把该 handoff 自动等同于一份正式 MAINTAINERS roster。
+
+- [[community/NVIDIA/CUTLASS/Junkai Wu|Junkai Wu (@Junkai-Wu)]]：handoff 联系人；2026-08 之后持续发布 CUTLASS release discussion，GitHub PR 也出现 Collaborator 信号。
+- [[community/NVIDIA/CUTLASS/IonThruster|@IonThruster]]：handoff 联系人。
+- [[community/NVIDIA/CUTLASS/Aniket Shivam|Aniket Shivam (@ANIKET-SHIVAM)]]：handoff 联系人；官方 CONTRIBUTORS 列为 CUTLASS C++ developer。
+- [[community/NVIDIA/CUTLASS/Jack Kosaian|Jack Kosaian (@jackkosaian)]]：handoff 联系人；官方 CONTRIBUTORS 列为 CUTLASS C++ developer。
+- [[community/NVIDIA/CUTLASS/dePaul Miller|dePaul Miller (@depaulmillz)]]：handoff 联系人；官方 CONTRIBUTORS 列为 CUTLASS C++ developer。
+- [[community/NVIDIA/CUTLASS/Yujia Zhai|Yujia Zhai (@yzhaiustc)]]：handoff 联系人；官方 CONTRIBUTORS 列为 CUTLASS C++ developer。
+- [[community/NVIDIA/CUTLASS/Brandon Sun|Brandon Sun (@brandon-yujie-sun)]]：handoff 联系人；官方 CONTRIBUTORS 列为 CUTLASS DSL developer。
+
+治理边界：当前仓库未发现 CODEOWNERS / MAINTAINERS 文件，因此除具备额外 release / Collaborator 信号的账号外，不把上述联系人统一升级为“formal maintainer”。
 
 ## 直接来源
 

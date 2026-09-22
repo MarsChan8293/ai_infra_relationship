@@ -3,7 +3,11 @@ type: research-institution
 name: "SyFI Lab"
 aliases: ["Systems for Future Intelligence Lab"]
 organization: "University of Washington"
-linked_people: []
+linked_people:
+  - "university/University of Washington/SyFI Lab/Baris Kasikci"
+  - "university/University of Washington/SyFI Lab/Stephanie Wang"
+  - "university/University of Washington/SyFI Lab/Kan Zhu"
+  - "university/University of Washington/SyFI Lab/Mat Jacob"
 areas: [ai-infrastructure, llm-serving, distributed-training, gpu-systems, multimodal-serving, agentic-systems]
 website: https://syfi.cs.washington.edu/
 country: "USA"
@@ -28,6 +32,15 @@ University of Washington SyFI Lab（Systems for Future Intelligence）研究面�
 ## 边界
 
 论文共同作者或同属 UW 不自动等于 SyFI 正式成员；人物节点需在后续 EXPAND 中分别核验实验室主页、个人主页或明确项目 affiliation。
+
+## 关键人物
+
+- [[university/University of Washington/SyFI Lab/Baris Kasikci|Baris Kasikci]]：SyFI Director；Associate Professor。
+- [[university/University of Washington/SyFI Lab/Stephanie Wang|Stephanie Wang]]：SyFI Director；Assistant Professor。
+- [[university/University of Washington/SyFI Lab/Kan Zhu|Kan Zhu]]：PhD student；2026 TraceLab 第一作者，直接连接 coding-agent workload 与 LLM serving。
+- [[university/University of Washington/SyFI Lab/Mat Jacob|Mat Jacob]]：PhD student；参与 TraceLab 与 Piper，连接 LLM serving workload 与 distributed training。
+
+人物身份来自 SyFI 官方 People 页面；项目参与来自 SyFI 官方 2026 publication 列表。
 
 ## Sources
 - https://syfi.cs.washington.edu/

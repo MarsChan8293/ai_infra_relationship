@@ -5,6 +5,7 @@ aliases: ["CMU Catalyst", "CMU Automated Learning Systems Group"]
 organization: "Carnegie Mellon University"
 linked_people: []
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, compilers, gpu-systems, speculative-decoding, structured-generation]
+projects: [XGrammar, FlexFlow Serve, Mirage Persistent Kernel]
 people:
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
   - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
@@ -35,6 +36,14 @@ Catalyst 是 Carnegie Mellon University 的跨学科 machine learning + systems 
 - UW [[university/University of Washington/SAMPL|SAMPL]] 官方页面明确将 CMU Catalyst 列为协作来源之一，因此两组之间存在公开的组织级研究协作线索。
 
 上述成员身份按 Catalyst 当前公开页面记录；不会据此推断任意两名成员必然存在直接共同项目。
+
+## Canonical project nodes
+
+- [[university/Carnegie Mellon University/Catalyst Group/XGrammar|XGrammar]]：structured generation / constrained decoding engine。
+- [[university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve|FlexFlow Serve]]：低延迟、高性能 LLM serving，包含 speculative inference、CPU offload 与 quantization。
+- [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]]：把 LLM inference tensor programs mega-kernelize 的 compiler + runtime 路线。
+
+这些项目由 Catalyst 官方 research 页面直接列出；项目节点只编码明确研究归属，不因页面归属推断所有作者的雇佣或治理关系。
 
 ## Sources
 - https://catalyst.cs.cmu.edu/
