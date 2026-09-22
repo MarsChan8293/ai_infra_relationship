@@ -33,6 +33,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
 - `NVIDIA`：[[TensorRT-LLM]]
 - `tile-ai`：[[TileLang]]
+- `LancerLab`：[[Croqtile]]
 - `lightseekorg`：[[TokenSpeed]]
 - `triton-inference-server`：[[Triton-Inference-Server]]
 - `sii-research`：[[VCCL]]
@@ -73,6 +74,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[LightLLM]] | 暂无单一主要公司 | ModelTC 社区主导 |
 | [[FlashInfer]] | 暂无单一主要公司 | 学术/开源社区 + 产业贡献 |
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
+| [[Croqtile]] | [[company/燧原科技/燧原科技|燧原科技]] | 上海交大 × 燧原联合实验室 / 核心工程贡献 |
 
 ## Serving Engine
 [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
@@ -84,7 +86,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]] · [[torch_musa]]
 
 ## Compiler / Kernel DSL
-[[TileLang]] · [[FlagTree]]
+[[TileLang]] · [[Croqtile]] · [[FlagTree]]
 
 ## Kernel / Communication / KV
 [[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]] · [[mcoplib]] · [[MATE]] · [[MXDeepEP]] · [[lmcache-iluvatar]]
