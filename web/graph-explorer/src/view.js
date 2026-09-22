@@ -164,7 +164,7 @@ export function createView(model, state) {
     }
     els.nodeList.innerHTML = options.join("");
     const important = model.nodeTypes.filter((type) => !DEFAULT_HIDDEN_TYPES.has(type)).slice(0, 9);
-    els.legend.innerHTML = important.map((type) => `<span class="legend-item"><span class="legend-dot" style="background:${TYPE_COLORS[type] || TYPE_COLORS.other}"></span>${escapeHtml(TYPE_NAMES[type] || type)}</span>`).join("");
+    els.legend.innerHTML = important.map((type) => `<span class="legend-item"><span class="legend-dot" style="background:${TYPE_COLORS[type] || TYPE_COLORS.other}"></span>${escapeHtml(TYPE_NAMES[type] || type)}</span>`).join("") + `<span class="legend-item"><span class="legend-line"></span>普通关系</span><span class="legend-item"><span class="legend-line typed"></span>结构化关系</span><span class="legend-item"><span class="legend-line path"></span>Path</span>`;
   }
 
   return { els, renderer, renderGraph, updateModeControls, renderSelection, renderCommunities, buildFilters, fillNodeList };
