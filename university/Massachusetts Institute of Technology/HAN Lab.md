@@ -3,7 +3,11 @@ type: research-institution
 name: "HAN Lab"
 aliases: ["MIT HAN Lab"]
 organization: "Massachusetts Institute of Technology"
-linked_people: []
+linked_people:
+  - "university/Massachusetts Institute of Technology/Junxian Guo"
+  - "university/Massachusetts Institute of Technology/Qinghao Hu"
+  - "university/Massachusetts Institute of Technology/Shang Yang"
+  - "university/Massachusetts Institute of Technology/Song Han"
 people:
   - "university/Massachusetts Institute of Technology/Song Han"
   - "university/Massachusetts Institute of Technology/Qinghao Hu"
@@ -51,3 +55,15 @@ MIT HAN Lab 由 Song Han 领导，核心特色是 algorithm-system-hardware co-d
 - https://hanlab.mit.edu/
 - https://hanlab.mit.edu/team
 - https://hanlab.mit.edu/songhan
+
+<!-- BEGIN AUTO RESEARCH PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
+
+- [[university/Massachusetts Institute of Technology/Junxian Guo|Junxian Guo]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
+- [[university/Massachusetts Institute of Technology/Qinghao Hu|Qinghao Hu]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
+- [[university/Massachusetts Institute of Technology/Shang Yang|Shang Yang]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
+- [[university/Massachusetts Institute of Technology/Song Han|Song Han]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
+
+<!-- END AUTO RESEARCH PEOPLE -->

@@ -1,8 +1,9 @@
 ---
 type: person
 name: "Kan Zhu"
-current_affiliations: ["SyFI Lab", "University of Washington"]
-schools: ["University of Washington"]
+current_affiliations: ["SyFI Lab","University of Washington"]
+schools:
+  - "University of Washington"
 roles: ["PhD Student"]
 areas: [llm-serving, ai-infrastructure, distributed-systems]
 confidence: verified

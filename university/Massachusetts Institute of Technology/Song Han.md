@@ -1,8 +1,9 @@
 ---
 type: person
 name: "Song Han"
-current_affiliations: ["HAN Lab", "Massachusetts Institute of Technology"]
-schools: ["Massachusetts Institute of Technology"]
+current_affiliations: ["HAN Lab","Massachusetts Institute of Technology"]
+schools:
+  - "Massachusetts Institute of Technology"
 roles: ["Principal Investigator / Associate Professor"]
 areas: [llm-inference, efficient-ai, gpu-systems]
 confidence: verified

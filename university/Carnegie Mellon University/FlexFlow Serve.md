@@ -1,12 +1,14 @@
 ---
 type: project
 name: "FlexFlow Serve"
+linked_people: []
 layer: distributed-serving
 status: unknown
 repository: https://github.com/flexflow/flexflow-serve
 areas: [llm-serving, speculative-decoding, distributed-inference, cpu-offload, quantization]
 hardware: [nvidia, amd]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # FlexFlow Serve
 

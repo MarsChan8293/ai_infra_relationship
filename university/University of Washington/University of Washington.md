@@ -9,6 +9,10 @@ areas: [ai-infrastructure, machine-learning-systems, llm-serving, gpu-systems, c
 linked_people:
   - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
+  - "university/University of Washington/Baris Kasikci"
+  - "university/University of Washington/Kan Zhu"
+  - "university/University of Washington/Mat Jacob"
+  - "university/University of Washington/Stephanie Wang"
   - "university/University of Washington/SyFI Lab/Baris Kasikci"
   - "university/University of Washington/SyFI Lab/Kan Zhu"
   - "university/University of Washington/SyFI Lab/Mat Jacob"
@@ -37,6 +41,10 @@ University of Washington 在本图谱中不只作为教育经历节点，还承�
 
 - [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：University of Washington：博士，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]
 - [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/University of Washington/Baris Kasikci|Baris Kasikci]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/University of Washington/Kan Zhu|Kan Zhu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/University of Washington/Mat Jacob|Mat Jacob]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[university/University of Washington/Stephanie Wang|Stephanie Wang]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/University of Washington/SyFI Lab/Baris Kasikci|Baris Kasikci]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/University of Washington/SyFI Lab/Kan Zhu|Kan Zhu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/University of Washington/SyFI Lab/Mat Jacob|Mat Jacob]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。

@@ -1,12 +1,14 @@
 ---
 type: project
 name: "XGrammar"
+linked_people: []
 layer: runtime
 status: active
 repository: https://github.com/mlc-ai/xgrammar
 docs: https://xgrammar.mlc.ai/
 areas: [structured-generation, constrained-decoding, grammar, llm-inference]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # XGrammar
 

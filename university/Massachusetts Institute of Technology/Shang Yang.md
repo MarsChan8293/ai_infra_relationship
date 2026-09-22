@@ -1,8 +1,9 @@
 ---
 type: person
 name: "Shang Yang"
-current_affiliations: ["HAN Lab", "Massachusetts Institute of Technology"]
-schools: ["Massachusetts Institute of Technology"]
+current_affiliations: ["HAN Lab","Massachusetts Institute of Technology"]
+schools:
+  - "Massachusetts Institute of Technology"
 roles: ["PhD Student"]
 areas: [llm-inference, efficient-ai, gpu-systems]
 confidence: verified

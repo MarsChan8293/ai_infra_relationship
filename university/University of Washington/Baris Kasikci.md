@@ -1,8 +1,9 @@
 ---
 type: person
 name: "Baris Kasikci"
-current_affiliations: ["SyFI Lab", "University of Washington"]
-schools: ["University of Washington"]
+current_affiliations: ["SyFI Lab","University of Washington"]
+schools:
+  - "University of Washington"
 roles: ["Director / Associate Professor"]
 areas: [llm-serving, ai-infrastructure, distributed-systems]
 confidence: verified

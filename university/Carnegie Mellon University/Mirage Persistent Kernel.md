@@ -1,6 +1,7 @@
 ---
 type: project
 name: "Mirage Persistent Kernel"
+linked_people: []
 layer: compiler
 status: active
 repository: https://github.com/mirage-project/mirage
@@ -8,6 +9,7 @@ docs: https://mirage-project.readthedocs.io/
 areas: [llm-inference, megakernel, compiler, runtime, kernel-fusion, multi-gpu]
 hardware: [nvidia]
 last_verified: "2026-09"
+linked_companies: []
 ---
 # Mirage Persistent Kernel
 

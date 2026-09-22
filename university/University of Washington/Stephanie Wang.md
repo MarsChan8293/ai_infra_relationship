@@ -1,8 +1,9 @@
 ---
 type: person
 name: "Stephanie Wang"
-current_affiliations: ["SyFI Lab", "University of Washington"]
-schools: ["University of Washington"]
+current_affiliations: ["SyFI Lab","University of Washington"]
+schools:
+  - "University of Washington"
 roles: ["Director / Assistant Professor"]
 areas: [llm-serving, ai-infrastructure, distributed-systems]
 confidence: verified
