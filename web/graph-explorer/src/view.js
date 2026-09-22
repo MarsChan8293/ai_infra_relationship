@@ -14,9 +14,10 @@ export function createView(model, state) {
   };
   els.homeLink.href = `${model.data.basePath || ""}/`;
 
+  const cssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
   const renderer = new Sigma(model.graph, els.container, {
     renderEdgeLabels: false, labelDensity: 0.08, labelGridCellSize: 82, labelRenderedSizeThreshold: 7,
-    defaultEdgeColor: "rgba(126,139,153,0.24)", defaultNodeColor: TYPE_COLORS.other,
+    defaultEdgeColor: cssVar("--edge"), defaultNodeColor: TYPE_COLORS.other,
     zIndex: true, minCameraRatio: 0.025, maxCameraRatio: 8,
   });
 
@@ -71,10 +72,20 @@ export function createView(model, state) {
       const targetCommunity = String(model.graph.getNodeAttribute(edge.target, "community"));
       const inCommunity = state.community == null || sourceCommunity === String(state.community) || targetCommunity === String(state.community);
       const faded = (state.pathEdges.size > 0 && !inPath) || (state.community != null && !inCommunity);
+      const touchesFocus = edge.source === state.focus || edge.target === state.focus || edge.source === state.hovered || edge.target === state.hovered;
+      const color = inPath
+        ? cssVar("--path")
+        : faded
+          ? cssVar("--edge-faded")
+          : touchesFocus
+            ? cssVar("--edge-focus")
+            : attrs.typed
+              ? cssVar("--edge-typed")
+              : cssVar("--edge");
       return {
-        ...attrs, hidden: false,
-        color: inPath ? getComputedStyle(document.documentElement).getPropertyValue("--path").trim() : faded ? "rgba(126,139,153,0.035)" : attrs.color,
-        size: inPath ? 3 : attrs.typed ? 1.05 : 0.45, zIndex: inPath ? 4 : 0,
+        ...attrs, hidden: false, color,
+        size: inPath ? 3.4 : touchesFocus ? 2.05 : attrs.typed ? 1.45 : 0.72,
+        zIndex: inPath ? 5 : touchesFocus ? 3 : attrs.typed ? 1 : 0,
       };
     });
     renderer.refresh();
