@@ -4,6 +4,11 @@ name: "HAN Lab"
 aliases: ["MIT HAN Lab"]
 organization: "Massachusetts Institute of Technology"
 linked_people: []
+people:
+  - "university/Massachusetts Institute of Technology/Song Han"
+  - "university/Massachusetts Institute of Technology/Qinghao Hu"
+  - "university/Massachusetts Institute of Technology/Junxian Guo"
+  - "university/Massachusetts Institute of Technology/Shang Yang"
 areas: [efficient-ai, llm-serving, gpu-systems, quantization, sparse-attention, long-context-inference]
 website: https://hanlab.mit.edu/
 country: "USA"
@@ -32,6 +37,15 @@ MIT HAN Lab 由 Song Han 领导，核心特色是 algorithm-system-hardware co-d
 - [[university/Massachusetts Institute of Technology/HAN Lab/Xingyang Li|Xingyang Li]]：PhD student；研究 generative AI 的 low-bit quantization / sparsity acceleration。
 
 本轮优先选当前 team 页面仍列为活跃成员、且与 inference optimization / systems 直接相关的人物；不把历史 alumni 混入 current key_people coverage。
+
+## 当前关键人物
+
+- [[university/Massachusetts Institute of Technology/Song Han|Song Han]]：Principal Investigator；MIT EECS Associate Professor。
+- [[university/Massachusetts Institute of Technology/Qinghao Hu|Qinghao Hu]]：Postdoctoral；研究 foundation-model training、serving 与 scheduling。
+- [[university/Massachusetts Institute of Technology/Junxian Guo|Junxian Guo]]：PhD student；研究 long-context model systems / algorithms。
+- [[university/Massachusetts Institute of Technology/Shang Yang|Shang Yang]]：PhD student；QServe、LServe、AWQ 等高效 LLM systems 项目核心作者之一。
+
+以上身份来自 HAN Lab 当前 Team 页面；这里只记录实验室 affiliation 与公开研究方向，不从共同实验室身份自动推断任意两人的直接合作。
 
 ## Sources
 - https://hanlab.mit.edu/

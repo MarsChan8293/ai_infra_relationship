@@ -5,6 +5,10 @@ aliases: ["CMU Catalyst", "CMU Automated Learning Systems Group"]
 organization: "Carnegie Mellon University"
 linked_people: []
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, compilers, gpu-systems, speculative-decoding, structured-generation]
+projects:
+  - "FlexFlow Serve"
+  - "XGrammar"
+  - "Mirage Persistent Kernel"
 projects: [XGrammar, FlexFlow Serve, Mirage Persistent Kernel]
 people:
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
@@ -21,11 +25,11 @@ Catalyst 是 Carnegie Mellon University 的跨学科 machine learning + systems 
 
 ## AI Infra 主线
 
-- **FlexFlow Serve / SpecInfer**：低延迟、高性能 generative LLM serving，包含 tree-based speculative inference、CPU offloading 与 quantization。
-- **XGrammar**：高效 structured generation engine。
+- [[university/Carnegie Mellon University/FlexFlow Serve|FlexFlow Serve]] / SpecInfer：低延迟、高性能 generative LLM serving，包含 tree-based speculative inference、CPU offloading 与 quantization。
+- [[university/Carnegie Mellon University/XGrammar|XGrammar]]：高效 structured generation engine。
 - **TidalDecode**：面向 LLM decoding 的 sparse attention。
 - **MLC LLM**：compiler-accelerated cross-hardware LLM deployment。
-- **Mirage Persistent Kernel**：把 LLM inference mega-kernelization 与 compiler/runtime 结合。
+- [[university/Carnegie Mellon University/Mirage Persistent Kernel|Mirage Persistent Kernel]]：把 LLM inference mega-kernelization 与 compiler/runtime 结合。
 - **Helix**：Catalyst publication network 中的 heterogeneous GPU/network LLM serving system。
 
 ## 与现有图谱的桥梁

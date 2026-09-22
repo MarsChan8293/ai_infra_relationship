@@ -77,3 +77,15 @@ LiteLLM 官方仓库存在路径级 CODEOWNERS，但当前没有发现覆盖全�
 - [[community/BerriAI/LiteLLM/yuneng-berri|yuneng-berri]]：[[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]]：path-level CODEOWNERS 治理关系。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+## Governance snapshot
+
+LiteLLM 当前仓库存在 `.github/CODEOWNERS`，但规则是**路径级**而不是全仓 maintainer 声明：
+
+- `@yuneng-berri`、`@ryan-crabbe-berri`：UI / experimental proxy 等路径的 code owners。
+- `@mateo-berri`、`@ryan-crabbe-berri`、`@kerry-berri`：model price/context-window 数据路径的 code owners。
+- `@yuneng-berri`：CODEOWNERS 文件自身 owner。
+
+因此本轮只把这些账号记为 scoped ownership 证据，不升级为 LiteLLM 全仓 maintainer 人物边。若未来出现 repo-wide CODEOWNERS、MAINTAINERS 或官方 governance 文档，再进行 VERIFY。
+
+- https://github.com/BerriAI/litellm/blob/main/.github/CODEOWNERS
