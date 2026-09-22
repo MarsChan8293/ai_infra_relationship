@@ -1,8 +1,7 @@
 ---
 type: person
 name: Yuting Jiang
-current_affiliations:
-  - "Shanghai Xingyunzhili Artificial Intelligence Institute"
+current_affiliations: ["Shanghai Xingyunzhili Artificial Intelligence Institute"]
 projects:
   - "RoofLang"
 areas:

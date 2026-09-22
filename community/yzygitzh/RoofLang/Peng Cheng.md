@@ -1,8 +1,10 @@
 ---
 type: person
 name: Peng Cheng
-current_affiliations:
-  - "Microsoft Research"
+current_affiliations: ["Microsoft Research"]
+schools:
+  - "北京航空航天大学"
+  - "清华大学"
 projects:
   - "RoofLang"
 areas:
@@ -34,6 +36,10 @@ Peng Cheng 与 RoofLang 的另外三位作者存在多年重复共同研究，�
 ## 教育经历
 
 Microsoft Research 官方资料记录其 2015 年获清华大学计算机科学与技术博士，2010 年获北京航空航天大学软件工程学士。这里不额外创建导师 / 同学关系，除非后续有独立证据。
+
+## 学校关联
+- [[university/北京航空航天大学/北京航空航天大学|北京航空航天大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 

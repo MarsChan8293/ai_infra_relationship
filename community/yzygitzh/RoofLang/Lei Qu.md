@@ -1,8 +1,7 @@
 ---
 type: person
 name: Lei Qu
-current_affiliations:
-  - "Shanghai Xingyunzhili Artificial Intelligence Institute"
+current_affiliations: ["Shanghai Xingyunzhili Artificial Intelligence Institute"]
 projects:
   - "RoofLang"
 areas:

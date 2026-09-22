@@ -2,6 +2,11 @@
 type: project
 name: RoofLang
 status: active
+linked_people:
+  - "community/yzygitzh/RoofLang/Lei Qu"
+  - "community/yzygitzh/RoofLang/Peng Cheng"
+  - "community/yzygitzh/RoofLang/Yuting Jiang"
+  - "community/yzygitzh/RoofLang/Ziyue Yang"
 repository: https://github.com/yzygitzh/rooflang
 docs: https://yzygitzh.github.io/rooflang/
 layer: optimization
@@ -19,6 +24,7 @@ hardware:
   - nvidia
   - ascend
 last_verified: "2026-09"
+linked_companies: []
 ---
 # RoofLang
 
@@ -79,3 +85,15 @@ RoofLang 的四位作者不是临时拼出的组合。四人此前共同参与 *
 - https://arxiv.org/html/2609.12551v2
 - https://www.usenix.org/conference/atc24/presentation/xiong
 - https://arxiv.org/abs/2512.13488
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/yzygitzh/RoofLang/Lei Qu|Lei Qu]]：**RoofLang**：2026 年进一步参与 LLM inference architecture DSL / simulation / agentic search。
+- [[community/yzygitzh/RoofLang/Peng Cheng|Peng Cheng]]：**RoofLang**：继续把共同系统研究推进到 LLM inference architecture modeling / search。
+- [[community/yzygitzh/RoofLang/Yuting Jiang|Yuting Jiang]]：**RoofLang**：2026 年进入 LLM inference architecture representation、simulation 与 autonomous search。
+- [[community/yzygitzh/RoofLang/Ziyue Yang|Ziyue Yang]]：**RoofLang**：2026 年把系统研究推进到 implementation-independent LLM inference architecture search，让 AI agent 可以在 graph transformation、placement、parallelism、memory / communication choices 上闭环探索。
+
+<!-- END AUTO PROJECT PEOPLE -->

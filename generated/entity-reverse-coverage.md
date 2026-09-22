@@ -7,11 +7,11 @@
 - Company-person associations: 229
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 226
-- Project/community nodes: 166
-- Project/community nodes with ≥1 linked person: 113
-- Project/community-person associations: 538
+- Project/community nodes: 167
+- Project/community nodes with ≥1 linked person: 114
+- Project/community-person associations: 542
 - Non-company affiliations recognized and routed elsewhere: 106
-- Unresolved source values (backlog, non-fatal): 23
+- Unresolved source values (backlog, non-fatal): 27
 - Audit errors: 0
 
 ## Companies
@@ -113,6 +113,7 @@
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |
 | [[community/radixark/Miles/Miles|Miles]] | 4 |
 | [[community/ray-project/Ray/Ray|Ray]] | 4 |
+| [[community/yzygitzh/RoofLang/RoofLang|RoofLang]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
 | [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
@@ -188,6 +189,10 @@
 这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。
 
 - `company/清程极智/翟季冬 Jidong Zhai.md` · `affiliation` → `PACMAN Lab, Tsinghua University`
+- `community/yzygitzh/RoofLang/Lei Qu.md` · `affiliation` → `Shanghai Xingyunzhili Artificial Intelligence Institute`
+- `community/yzygitzh/RoofLang/Peng Cheng.md` · `affiliation` → `Microsoft Research`
+- `community/yzygitzh/RoofLang/Yuting Jiang.md` · `affiliation` → `Shanghai Xingyunzhili Artificial Intelligence Institute`
+- `community/yzygitzh/RoofLang/Ziyue Yang.md` · `affiliation` → `Shanghai Xingyunzhili Artificial Intelligence Institute`
 - `university/Massachusetts Institute of Technology/HAN Lab/Junxian Guo.md` · `communities` → `HAN Lab`
 - `university/Massachusetts Institute of Technology/HAN Lab/Qinghao Hu.md` · `communities` → `HAN Lab`
 - `university/Massachusetts Institute of Technology/HAN Lab/Song Han.md` · `communities` → `HAN Lab`

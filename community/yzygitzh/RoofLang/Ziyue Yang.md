@@ -2,8 +2,7 @@
 type: person
 name: Ziyue Yang
 aliases: [yzygitzh]
-current_affiliations:
-  - "Shanghai Xingyunzhili Artificial Intelligence Institute"
+current_affiliations: ["Shanghai Xingyunzhili Artificial Intelligence Institute"]
 schools:
   - "北京大学"
 projects:
@@ -35,6 +34,9 @@ Ziyue Yang 是 [[community/yzygitzh/RoofLang/RoofLang|RoofLang]] 的通讯作者
 ## 教育关联
 
 公开个人主页记录其 2017 年获北京大学计算机本科、2020 年获硕士学位，硕士导师为郭耀（Yao Guo）。这里仅记录可核验的学校关联，不据此自动推断更广的人物关系。
+
+## 学校关联
+- [[university/北京大学/北京大学|北京大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 
