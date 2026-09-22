@@ -14,9 +14,10 @@ export function createView(model, state) {
   };
   els.homeLink.href = `${model.data.basePath || ""}/`;
 
+  const cssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
   const renderer = new Sigma(model.graph, els.container, {
     renderEdgeLabels: false, labelDensity: 0.08, labelGridCellSize: 82, labelRenderedSizeThreshold: 7,
-    defaultEdgeColor: "rgba(126,139,153,0.24)", defaultNodeColor: TYPE_COLORS.other,
+    defaultEdgeColor: cssVar("--edge"), defaultNodeColor: TYPE_COLORS.other,
     zIndex: true, minCameraRatio: 0.025, maxCameraRatio: 8,
   });
 
@@ -71,10 +72,20 @@ export function createView(model, state) {
       const targetCommunity = String(model.graph.getNodeAttribute(edge.target, "community"));
       const inCommunity = state.community == null || sourceCommunity === String(state.community) || targetCommunity === String(state.community);
       const faded = (state.pathEdges.size > 0 && !inPath) || (state.community != null && !inCommunity);
+      const touchesFocus = edge.source === state.focus || edge.target === state.focus || edge.source === state.hovered || edge.target === state.hovered;
+      const color = inPath
+        ? cssVar("--path")
+        : faded
+          ? cssVar("--edge-faded")
+          : touchesFocus
+            ? cssVar("--edge-focus")
+            : attrs.typed
+              ? cssVar("--edge-typed")
+              : cssVar("--edge");
       return {
-        ...attrs, hidden: false,
-        color: inPath ? getComputedStyle(document.documentElement).getPropertyValue("--path").trim() : faded ? "rgba(126,139,153,0.035)" : attrs.color,
-        size: inPath ? 3 : attrs.typed ? 1.05 : 0.45, zIndex: inPath ? 4 : 0,
+        ...attrs, hidden: false, color,
+        size: inPath ? 3.4 : touchesFocus ? 2.05 : attrs.typed ? 1.45 : 0.72,
+        zIndex: inPath ? 5 : touchesFocus ? 3 : attrs.typed ? 1 : 0,
       };
     });
     renderer.refresh();
@@ -153,7 +164,7 @@ export function createView(model, state) {
     }
     els.nodeList.innerHTML = options.join("");
     const important = model.nodeTypes.filter((type) => !DEFAULT_HIDDEN_TYPES.has(type)).slice(0, 9);
-    els.legend.innerHTML = important.map((type) => `<span class="legend-item"><span class="legend-dot" style="background:${TYPE_COLORS[type] || TYPE_COLORS.other}"></span>${escapeHtml(TYPE_NAMES[type] || type)}</span>`).join("");
+    els.legend.innerHTML = important.map((type) => `<span class="legend-item"><span class="legend-dot" style="background:${TYPE_COLORS[type] || TYPE_COLORS.other}"></span>${escapeHtml(TYPE_NAMES[type] || type)}</span>`).join("") + `<span class="legend-item"><span class="legend-line"></span>普通关系</span><span class="legend-item"><span class="legend-line typed"></span>结构化关系</span><span class="legend-item"><span class="legend-line path"></span>Path</span>`;
   }
 
   return { els, renderer, renderGraph, updateModeControls, renderSelection, renderCommunities, buildFilters, fillNodeList };
