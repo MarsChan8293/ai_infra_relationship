@@ -7,10 +7,10 @@
 - Company-person associations: 229
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 226
-- Project/community nodes: 169
+- Project/community nodes: 166
 - Project/community nodes with ≥1 linked person: 113
 - Project/community-person associations: 538
-- Non-company affiliations recognized and routed elsewhere: 122
+- Non-company affiliations recognized and routed elsewhere: 106
 - Unresolved source values (backlog, non-fatal): 23
 - Audit errors: 0
 

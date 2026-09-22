@@ -3,16 +3,7 @@ type: research-institution
 name: "HAN Lab"
 aliases: ["MIT HAN Lab"]
 organization: "Massachusetts Institute of Technology"
-linked_people:
-  - "university/Massachusetts Institute of Technology/Junxian Guo"
-  - "university/Massachusetts Institute of Technology/Qinghao Hu"
-  - "university/Massachusetts Institute of Technology/Shang Yang"
-  - "university/Massachusetts Institute of Technology/Song Han"
-people:
-  - "university/Massachusetts Institute of Technology/Song Han"
-  - "university/Massachusetts Institute of Technology/Qinghao Hu"
-  - "university/Massachusetts Institute of Technology/Junxian Guo"
-  - "university/Massachusetts Institute of Technology/Shang Yang"
+linked_people: []
 areas: [efficient-ai, llm-serving, gpu-systems, quantization, sparse-attention, long-context-inference]
 website: https://hanlab.mit.edu/
 country: "USA"
@@ -42,28 +33,7 @@ MIT HAN Lab 由 Song Han 领导，核心特色是 algorithm-system-hardware co-d
 
 本轮优先选当前 team 页面仍列为活跃成员、且与 inference optimization / systems 直接相关的人物；不把历史 alumni 混入 current key_people coverage。
 
-## 当前关键人物
-
-- [[university/Massachusetts Institute of Technology/Song Han|Song Han]]：Principal Investigator；MIT EECS Associate Professor。
-- [[university/Massachusetts Institute of Technology/Qinghao Hu|Qinghao Hu]]：Postdoctoral；研究 foundation-model training、serving 与 scheduling。
-- [[university/Massachusetts Institute of Technology/Junxian Guo|Junxian Guo]]：PhD student；研究 long-context model systems / algorithms。
-- [[university/Massachusetts Institute of Technology/Shang Yang|Shang Yang]]：PhD student；QServe、LServe、AWQ 等高效 LLM systems 项目核心作者之一。
-
-以上身份来自 HAN Lab 当前 Team 页面；这里只记录实验室 affiliation 与公开研究方向，不从共同实验室身份自动推断任意两人的直接合作。
-
 ## Sources
 - https://hanlab.mit.edu/
 - https://hanlab.mit.edu/team
 - https://hanlab.mit.edu/songhan
-
-<!-- BEGIN AUTO RESEARCH PEOPLE -->
-## 关联人物（自动汇总）
-
-以下人物由其 `current_affiliations:` 反向汇总，仅表示当前公开的研究机构 affiliation，不自动推断同组、导师、直属汇报或共同项目关系。
-
-- [[university/Massachusetts Institute of Technology/Junxian Guo|Junxian Guo]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
-- [[university/Massachusetts Institute of Technology/Qinghao Hu|Qinghao Hu]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
-- [[university/Massachusetts Institute of Technology/Shang Yang|Shang Yang]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
-- [[university/Massachusetts Institute of Technology/Song Han|Song Han]]：[[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]]：当前公开成员。
-
-<!-- END AUTO RESEARCH PEOPLE -->
