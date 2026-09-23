@@ -2,6 +2,11 @@
 type: project
 name: InferenceX
 aliases: ["InferenceMAX"]
+linked_people:
+  - "community/SemiAnalysisAI/InferenceX/Bryan Shan"
+  - "community/SemiAnalysisAI/InferenceX/Cam Quilici"
+  - "community/SemiAnalysisAI/InferenceX/Dylan Patel"
+  - "community/SemiAnalysisAI/InferenceX/Kimbo Chen"
 layer: benchmark
 status: active
 repository: https://github.com/SemiAnalysisAI/InferenceX
@@ -26,6 +31,8 @@ integrations:
   - "NVIDIA Dynamo"
 companies: ["SemiAnalysis"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/SemiAnalysis/SemiAnalysis"
 ---
 # InferenceX
 
@@ -69,3 +76,24 @@ InferenceX（原 InferenceMAX）是 SemiAnalysis 构建的开源持续推理 ben
 - https://inferencex.semianalysis.com/about
 - https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat
 - https://inferencex.semianalysis.com/blog/deepseekv4-16t-day-0-to-day-43-performance
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/SemiAnalysisAI/InferenceX/Bryan Shan|Bryan Shan]]：[[InferenceX]]：参与持续推理 benchmark 与结果分析。
+- [[community/SemiAnalysisAI/InferenceX/Cam Quilici|Cam Quilici]]：[[InferenceX]]：持续参与 benchmark 与研究文章。
+- [[community/SemiAnalysisAI/InferenceX/Dylan Patel|Dylan Patel]]：[[InferenceX]]：参与 InferenceX / AgentX 相关研究与公开文章，连接真实 inference benchmark、硬件经济性与模型架构。
+- [[community/SemiAnalysisAI/InferenceX/Kimbo Chen|Kimbo Chen]]：[[InferenceX]]：参与 DeepSeek V4 等模型在 NVIDIA / AMD / Huawei 等硬件上的推理性能研究。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/SemiAnalysis/SemiAnalysis|SemiAnalysis]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

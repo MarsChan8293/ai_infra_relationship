@@ -2,14 +2,14 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 55
-- Companies with ≥1 linked person: 47
-- Company-person associations: 233
+- Company nodes: 56
+- Companies with ≥1 linked person: 48
+- Company-person associations: 237
 - Email-domain-supported associations: 37
-- People with generated linked_companies: 230
-- Project/community nodes: 168
-- Project/community nodes with ≥1 linked person: 115
-- Project/community-person associations: 545
+- People with generated linked_companies: 234
+- Project/community nodes: 169
+- Project/community nodes with ≥1 linked person: 116
+- Project/community-person associations: 549
 - Non-company affiliations recognized and routed elsewhere: 107
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
@@ -36,6 +36,7 @@
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
 | [[company/Databricks/Databricks|Databricks]] | 4 |
 | [[company/OpenAI/OpenAI|OpenAI]] | 4 |
+| [[company/SemiAnalysis/SemiAnalysis|SemiAnalysis]] | 4 |
 | [[company/商汤科技/商汤科技|商汤科技]] | 4 |
 | [[company/无问芯穹/无问芯穹|无问芯穹]] | 4 |
 | [[company/燧原科技/燧原科技|燧原科技]] | 4 |
@@ -109,6 +110,7 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[community/SemiAnalysisAI/InferenceX/InferenceX|InferenceX]] | 4 |
 | [[community/InfiniTensor/InfiniOps|InfiniOps]] | 4 |
 | [[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]] | 4 |
 | [[community/LoongServe/LoongServe/LoongServe|LoongServe]] | 4 |

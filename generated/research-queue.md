@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1849
+- Candidate actions: 1867
 - Selected actions: 10
 - History records: 727
 
@@ -13,9 +13,9 @@
 | Rank | Operator | Trigger | Source | Type | Relation | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
 | 1 | VERIFY | history_followup | [[community/Ascend/CANN/CANN|CANN]] | project | maintainers | person | exploitation | 9.455 | partial | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
-| 2 | VERIFY | history_followup | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | person | exploitation | 9.267 | partial | coverage 0/4；source type Project；infra: serving/inference, distributed, ascend；opens underrepresented target types |
-| 3 | VERIFY | history_followup | [[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]] | project | maintainers | person | exploitation | 9.208 | partial | coverage 0/4；source type Project；infra: serving/inference, kv-cache, distributed；opens underrepresented target types |
-| 4 | VERIFY | history_followup | [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] | project | maintainers | person | exploration | 9.177 | partial | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
+| 2 | VERIFY | history_followup | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | project | maintainers | person | bridge | 9.271 | unresolved | coverage 0/4；source type Project；infra: serving/inference, moe, quantization；opens underrepresented target types |
+| 3 | VERIFY | history_followup | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | person | exploitation | 9.267 | partial | coverage 0/4；source type Project；infra: serving/inference, distributed, ascend；opens underrepresented target types |
+| 4 | VERIFY | history_followup | [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | project | maintainers | person | bridge | 9.243 | unresolved | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 5 | VERIFY | history_followup | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.315 | partial | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 6 | VERIFY | history_followup | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | projects | project, community | exploitation | 8.246 | partial | coverage 0/3；source type Research Institution；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 7 | DISCOVER | bridge | [[university/UC San Diego/Hao AI Lab|Hao AI Lab]] | research | key_people | person | bridge | 8.076 | new | coverage 0/4；source type Research Institution；infra: serving/inference, distributed, disaggregation；opens underrepresented target types |

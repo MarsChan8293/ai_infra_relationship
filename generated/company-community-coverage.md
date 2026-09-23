@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 55
-- Companies with ≥1 linked project/community: 42
-- Project/community nodes: 168
-- Project/community nodes with ≥1 linked company: 88
-- Bidirectional association pairs: 107
-- Explicitly asserted on both sides: 107
+- Company nodes: 56
+- Companies with ≥1 linked project/community: 43
+- Project/community nodes: 169
+- Project/community nodes with ≥1 linked company: 89
+- Bidirectional association pairs: 108
+- Explicitly asserted on both sides: 108
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -54,6 +54,7 @@
 | [[company/RadixArk/RadixArk|RadixArk]] | [[community/sgl-project/SGLang/SGLang|SGLang]] | project | core-maintainer-network | both |
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/llm-d/llm-d/llm-d|llm-d]] | project | founding-contributors | both |
 | [[company/Red Hat/Red Hat|Red Hat]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/SemiAnalysis/SemiAnalysis|SemiAnalysis]] | [[community/SemiAnalysisAI/InferenceX/InferenceX|InferenceX]] | project |  | both |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | [[community/LMCache/LMCache/LMCache|LMCache]] | project | research-to-startup-core-network | both |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | [[community/vllm-project/vLLM/vLLM|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/Together AI/Together AI|Together AI]] | [[company/Together AI/Ladder Residual|Ladder Residual]] | project | research-collaboration | both |

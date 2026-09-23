@@ -4,6 +4,8 @@ name: "Cam Quilici"
 current_affiliations: ["SemiAnalysis"]
 communities: ["InferenceX"]
 roles: ["InferenceX Research Contributor"]
+linked_companies:
+  - "company/SemiAnalysis/SemiAnalysis"
 areas:
   - "llm-inference"
   - "agentic-inference"
@@ -29,3 +31,12 @@ Cam Quilici 持续参与 SemiAnalysis 的 InferenceX / AgentX benchmark 与分�
 - https://newsletter.semianalysis.com/p/agentx-inferencexv3-does-cuda-moat
 - https://newsletter.semianalysis.com/p/tpu-inferencex-full-steam
 - https://inferencex.semianalysis.com/blog/engrams-embedding-entendre-codesign
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/SemiAnalysis/SemiAnalysis|SemiAnalysis]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

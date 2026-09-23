@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 55,
-  "companies_with_links": 42,
-  "project_community_nodes": 168,
-  "project_community_nodes_with_links": 88,
-  "association_pairs": 107,
-  "asserted_on_both_sides": 107,
+  "company_nodes": 56,
+  "companies_with_links": 43,
+  "project_community_nodes": 169,
+  "project_community_nodes_with_links": 89,
+  "association_pairs": 108,
+  "asserted_on_both_sides": 108,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -480,6 +480,18 @@
       "entity_name": "vLLM",
       "entity_type": "project",
       "relation": "cross-company-core-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/SemiAnalysis/SemiAnalysis",
+      "company_name": "SemiAnalysis",
+      "entity_id": "community/SemiAnalysisAI/InferenceX/InferenceX",
+      "entity_name": "InferenceX",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

@@ -4,6 +4,8 @@ name: "Kimbo Chen"
 current_affiliations: ["SemiAnalysis"]
 communities: ["InferenceX"]
 roles: ["AI Infrastructure Researcher", "InferenceX Research Contributor"]
+linked_companies:
+  - "company/SemiAnalysis/SemiAnalysis"
 areas:
   - "llm-inference"
   - "gpu-architecture"
@@ -31,3 +33,12 @@ Kimbo Chen 是 SemiAnalysis 的 AI infrastructure / hardware 研究核心作者�
 - https://newsletter.semianalysis.com/p/dissecting-nvidia-blackwell-tensor
 - https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance
 - https://inferencex.semianalysis.com/blog/engrams-embedding-entendre-codesign
+
+<!-- BEGIN AUTO PERSON COMPANIES -->
+## 关联公司（自动汇总）
+
+以下公司由 `current_affiliations:` 与/或 `public_email` 企业域名规则生成。邮箱域名只证明公开上下文中的组织关联，不单独证明当前任职或职级。
+
+- [[company/SemiAnalysis/SemiAnalysis|SemiAnalysis]]：人物页 `current_affiliations:` 明确记录。
+
+<!-- END AUTO PERSON COMPANIES -->

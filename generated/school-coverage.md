@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 420
+- Person nodes: 424
 - People with ≥1 school: 174
-- People without known school: 246
-- Coverage: 41.4%
+- People without known school: 250
+- Coverage: 41.0%
 - Person-school associations: 224
 - School nodes: 49
 - Audit errors: 0

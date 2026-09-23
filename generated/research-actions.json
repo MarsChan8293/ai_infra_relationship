@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1849,
+  "candidate_count": 1867,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -12,9 +12,9 @@
     "research": 2
   },
   "selected_bucket_counts": {
-    "bridge": 1,
-    "exploitation": 6,
-    "exploration": 3
+    "bridge": 3,
+    "exploitation": 5,
+    "exploration": 2
   },
   "scoring_note": "Three research operators share stable action identity. EXPAND uses explicit seed context; DISCOVER uses global graph gaps/frontiers/bridges; VERIFY handles weak evidence and history follow-up. Existing graph priority, cooldown and empirical-yield adjustments are preserved.",
   "selected_actions": [
@@ -113,6 +113,96 @@
       }
     },
     {
+      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/msModelSlim/msModelSlim",
+        "name": "msModelSlim",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.271,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 8.007,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, moe, quantization",
+        "opens underrepresented target types",
+        "bridge 8.0",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.418,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -207,11 +297,11 @@
       }
     },
     {
-      "action_id": "community/lightseekorg/TorchSpec/TorchSpec::maintainers",
+      "action_id": "community/Ascend/MindIE-LLM/MindIE-LLM::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/lightseekorg/TorchSpec/TorchSpec",
-        "name": "TorchSpec",
+        "id": "community/Ascend/MindIE-LLM/MindIE-LLM",
+        "name": "MindIE-LLM",
         "type": "project",
         "family": "project"
       },
@@ -224,8 +314,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 9.208,
+      "bucket": "bridge",
+      "priority": 9.243,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -233,132 +323,44 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 3.55,
+        "infra_relevance": 4.0,
         "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.307,
+        "url_count": 4,
+        "bridge_score": 8.522,
         "novelty": 1.0,
-        "frontier_potential": 0.435,
+        "frontier_potential": 0.364,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
+        "redundancy_penalty": 0.184,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.15,
+        "history_status_adjustment": -0.25,
         "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved maintainer_governance"
-      ],
-      "base_priority": 8.955,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "company/Intel/OpenVINO GenAI::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/Intel/OpenVINO GenAI",
-        "name": "OpenVINO GenAI",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.177,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.8,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
+        "cooldown_until": "2026-09-23"
       },
       "reasons": [
         "coverage 0/4",
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "opens underrepresented target types",
-        "partial follow-up: unresolved maintainer_governance"
+        "bridge 8.5",
+        "prior unresolved action"
       ],
-      "base_priority": 8.924,
+      "base_priority": 9.39,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
         "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
           "resolved_dimensions": [],
           "unresolved_dimensions": [
             "maintainer_governance"
           ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
         },
         "action_key_stats": {
           "attempts": 68,
@@ -373,12 +375,12 @@
           "yield_adjustment": 0.103
         },
         "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.15
+        "exact_status_adjustment": -0.25
       },
       "operator": "verify",
       "trigger": {
         "kind": "history_followup",
-        "detail": "prior partial action",
+        "detail": "prior unresolved action",
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
@@ -967,6 +969,96 @@
       }
     },
     {
+      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/msModelSlim/msModelSlim",
+        "name": "msModelSlim",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.271,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 8.007,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, moe, quantization",
+        "opens underrepresented target types",
+        "bridge 8.0",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.418,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/openEuler/openYuanRong/YuanRong TransferEngine::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1057,6 +1149,96 @@
         "unresolved_dimensions": [
           "transfer_engine_directory_ownership",
           "transfer_engine_maintainers"
+        ]
+      }
+    },
+    {
+      "action_id": "community/Ascend/MindIE-LLM/MindIE-LLM::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MindIE-LLM/MindIE-LLM",
+        "name": "MindIE-LLM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.243,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.522,
+        "novelty": 1.0,
+        "frontier_potential": 0.364,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.184,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "opens underrepresented target types",
+        "bridge 8.5",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.39,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
         ]
       }
     },
@@ -1401,6 +1583,95 @@
       }
     },
     {
+      "action_id": "community/QingCheng-AI/ascend-kernel/ascend-kernel::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
+        "name": "ascend-kernel",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.055,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.9,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, ascend",
+        "opens underrepresented target types",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.202,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-2",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/Dao-AILab/FlashAttention/FlashAttention::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1471,6 +1742,95 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Tencent/HPC-Ops/HPC-Ops::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Tencent/HPC-Ops/HPC-Ops",
+        "name": "HPC-Ops",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.035,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.182,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-2",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
       }
     },
     {
@@ -2601,6 +2961,184 @@
       "trigger": {
         "kind": "history_followup",
         "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
+      "action_id": "company/月之暗面/MoonEP::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "company/月之暗面/MoonEP",
+        "name": "MoonEP",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.611,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types",
+        "prior unresolved action"
+      ],
+      "base_priority": 8.758,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-2",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
+      "action_id": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL",
+        "name": "sglang-plugin-FL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.498,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.65,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "prior unresolved action"
+      ],
+      "base_priority": 8.645,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-3",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": "Official repository exposes FlagOS ownership and active collaborators but no stable MAINTAINERS/CODEOWNERS artifact sufficient for individual maintainer labels.",
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
@@ -14214,6 +14752,95 @@
       }
     },
     {
+      "action_id": "community/Ascend/MindIE-SD/MindIE-SD::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MindIE-SD/MindIE-SD",
+        "name": "MindIE-SD",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.061,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 8.522,
+        "novelty": 0.0,
+        "frontier_potential": 0.364,
+        "uncertainty": 0.482,
+        "redundancy_penalty": 0.323,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "bridge 8.5",
+        "prior unresolved action"
+      ],
+      "base_priority": 7.208,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/gpustack/runner/runner::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -14648,6 +15275,95 @@
       "trigger": {
         "kind": "history_followup",
         "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
+      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+        "name": "MindIE-Motor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.019,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 8.522,
+        "novelty": 0.0,
+        "frontier_potential": 0.364,
+        "uncertainty": 0.586,
+        "redundancy_penalty": 0.323,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 8.5",
+        "prior unresolved action"
+      ],
+      "base_priority": 7.166,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
@@ -24224,6 +24940,95 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/3FS::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
+        "name": "3FS",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.59,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.7,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 6.157,
+        "novelty": 0.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.586,
+        "redundancy_penalty": 0.294,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, distributed",
+        "bridge 6.2",
+        "prior unresolved action"
+      ],
+      "base_priority": 6.737,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-2",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/thu-pacman/Chitu/Chitu::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -27279,6 +28084,78 @@
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
         ]
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Bryan Shan::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Bryan Shan",
+        "name": "Bryan Shan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 6.468,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.488,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel"
+      ],
+      "base_priority": 6.317,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -36839,6 +37716,81 @@
       }
     },
     {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Bryan Shan::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Bryan Shan",
+        "name": "Bryan Shan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.159,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.396,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.001,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Peilin Li::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -41717,6 +42669,77 @@
         "unresolved_dimensions": [
           "labs_or_groups_semantic_confirmation"
         ]
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Bryan Shan::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Bryan Shan",
+        "name": "Bryan Shan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 6.028,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.884,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -47986,6 +49009,150 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Cam Quilici::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Cam Quilici",
+        "name": "Cam Quilici",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.826,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.488,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel"
+      ],
+      "base_priority": 5.675,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen",
+        "name": "Kimbo Chen",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.826,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.488,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference, kernel"
+      ],
+      "base_priority": 5.675,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -60277,6 +61444,81 @@
       }
     },
     {
+      "action_id": "company/SemiAnalysis/SemiAnalysis::projects",
+      "action_key": "company:projects:project+community+team",
+      "source": {
+        "id": "company/SemiAnalysis/SemiAnalysis",
+        "name": "SemiAnalysis",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "projects",
+      "target_families": [
+        "project",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "github_org_repositories",
+        "official_engineering_blog_or_docs"
+      ],
+      "write_hint": "Require origin, governance, or core-maintainer evidence; compatibility alone is insufficient.",
+      "bucket": "exploitation",
+      "priority": 5.551,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.835,
+        "novelty": 0.667,
+        "frontier_potential": 0.408,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.182,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Company",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.369,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 32,
+          "statuses": {
+            "partial": 24,
+            "success": 7,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.466,
+          "mean_reward": 3.336,
+          "reward_signal": 0.683,
+          "yield_adjustment": 0.182
+        },
+        "key_yield_adjustment": 0.182,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -60818,6 +62060,148 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=8.485"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Cam Quilici::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Cam Quilici",
+        "name": "Cam Quilici",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.535,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.391,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen",
+        "name": "Kimbo Chen",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.535,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.391,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -62373,6 +63757,156 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=10.770"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Cam Quilici::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Cam Quilici",
+        "name": "Cam Quilici",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 5.518,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.396,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.36,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen",
+        "name": "Kimbo Chen",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 5.518,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.396,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.36,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -67844,6 +69378,77 @@
           "yield_adjustment": 0.144
         },
         "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Bryan Shan::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Bryan Shan",
+        "name": "Bryan Shan",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 5.372,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.85,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.372,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -73815,6 +75420,78 @@
       }
     },
     {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Dylan Patel::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Dylan Patel",
+        "name": "Dylan Patel",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "exploitation",
+      "priority": 5.219,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 0.5,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.488,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Person",
+        "infra: serving/inference"
+      ],
+      "base_priority": 5.068,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.667"
+      }
+    },
+    {
       "action_id": "company/Intel/OpenVINO GenAI::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -78108,6 +79785,77 @@
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Dylan Patel::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Dylan Patel",
+        "name": "Dylan Patel",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.068,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.924,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -84963,6 +86711,148 @@
       }
     },
     {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Cam Quilici::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Cam Quilici",
+        "name": "Cam Quilici",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.914,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 4,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.914,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Kimbo Chen",
+        "name": "Kimbo Chen",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.914,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.914,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/CUTLASS/IonThruster::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -85388,6 +87278,81 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Dylan Patel::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Dylan Patel",
+        "name": "Dylan Patel",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 4.911,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.396,
+        "redundancy_penalty": 0.227,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.753,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -100398,6 +102363,77 @@
       }
     },
     {
+      "action_id": "community/SemiAnalysisAI/InferenceX/Dylan Patel::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/SemiAnalysisAI/InferenceX/Dylan Patel",
+        "name": "Dylan Patel",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.48,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.95,
+        "url_count": 5,
+        "bridge_score": 4.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.433,
+        "uncertainty": 0.671,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.48,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "company/硅基流动/胡健::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -109071,6 +111107,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
+      }
+    },
+    {
+      "action_id": "company/SemiAnalysis/SemiAnalysis::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/SemiAnalysis/SemiAnalysis",
+        "name": "SemiAnalysis",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "exploitation",
+      "priority": 4.293,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.835,
+        "novelty": 1.0,
+        "frontier_potential": 0.408,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.143,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.15,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.667,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.143
+        },
+        "key_yield_adjustment": 0.143,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -144464,542 +146572,6 @@
       }
     },
     {
-      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/msModelSlim/msModelSlim",
-        "name": "msModelSlim",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.521,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 8.007,
-        "novelty": 1.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, moe, quantization",
-        "opens underrepresented target types",
-        "bridge 8.0",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 9.418,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-LLM/MindIE-LLM::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/MindIE-LLM/MindIE-LLM",
-        "name": "MindIE-LLM",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.493,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 8.522,
-        "novelty": 1.0,
-        "frontier_potential": 0.364,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.184,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types",
-        "bridge 8.5",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 9.39,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/QingCheng-AI/ascend-kernel/ascend-kernel::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/QingCheng-AI/ascend-kernel/ascend-kernel",
-        "name": "ascend-kernel",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.305,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.9,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, ascend",
-        "opens underrepresented target types",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 9.202,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-2",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Tencent/HPC-Ops/HPC-Ops::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Tencent/HPC-Ops/HPC-Ops",
-        "name": "HPC-Ops",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.285,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 9.182,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-2",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "company/月之暗面/MoonEP::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "company/月之暗面/MoonEP",
-        "name": "MoonEP",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 8.861,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 8.758,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-2",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL",
-        "name": "sglang-plugin-FL",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 8.748,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 4.67,
-        "novelty": 1.0,
-        "frontier_potential": 0.383,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.176,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 8.645,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-3",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": "Official repository exposes FlagOS ownership and active collaborators but no stable MAINTAINERS/CODEOWNERS artifact sufficient for individual maintainer labels.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
       "action_id": "company/xAI/xAI::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -145049,7 +146621,7 @@
         "infra: serving/inference, kernel",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 7.25,
       "eligible": false,
@@ -145088,273 +146660,6 @@
         "detail": "prior unresolved action",
         "unresolved_dimensions": [
           "xai_led_inference_project"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-SD/MindIE-SD::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/MindIE-SD/MindIE-SD",
-        "name": "MindIE-SD",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.311,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 8.522,
-        "novelty": 0.0,
-        "frontier_potential": 0.364,
-        "uncertainty": 0.482,
-        "redundancy_penalty": 0.323,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "bridge 8.5",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 7.208,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-        "name": "MindIE-Motor",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.269,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.522,
-        "novelty": 0.0,
-        "frontier_potential": 0.364,
-        "uncertainty": 0.586,
-        "redundancy_penalty": 0.323,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "bridge 8.5",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 7.166,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/3FS::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
-        "name": "3FS",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.84,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 6.157,
-        "novelty": 0.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.586,
-        "redundancy_penalty": 0.294,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": false,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, distributed",
-        "bridge 6.2",
-        "cooldown active (unresolved, 1d remaining)"
-      ],
-      "base_priority": 6.737,
-      "eligible": false,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-2",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
         ]
       }
     },
@@ -145406,7 +146711,7 @@
         "source type Research Institution",
         "infra: distributed",
         "opens underrepresented target types",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 6.584,
       "eligible": false,
@@ -145495,7 +146800,7 @@
         "source type Project",
         "infra: serving/inference, kv-cache, distributed",
         "bridge 7.9",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 6.525,
       "eligible": false,
@@ -145586,7 +146891,7 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "bridge 8.5",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 6.397,
       "eligible": false,
@@ -145676,7 +146981,7 @@
         "coverage 1/4",
         "source type Project",
         "infra: serving/inference, kv-cache",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 6.379,
       "eligible": false,
@@ -145766,7 +147071,7 @@
         "coverage 2/4",
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 6.072,
       "eligible": false,
@@ -145857,7 +147162,7 @@
         "source type Project",
         "infra: serving/inference, kernel, moe",
         "bridge 8.5",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.593,
       "eligible": false,
@@ -145948,7 +147253,7 @@
         "source type Project",
         "infra: serving/inference, kv-cache, scheduler",
         "bridge 7.2",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.499,
       "eligible": false,
@@ -146035,7 +147340,7 @@
       "reasons": [
         "source coverage 0/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.622,
       "eligible": false,
@@ -146121,7 +147426,7 @@
         "source type School",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.314,
       "eligible": false,
@@ -146210,7 +147515,7 @@
         "source type School",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.314,
       "eligible": false,
@@ -146299,7 +147604,7 @@
         "source type School",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.314,
       "eligible": false,
@@ -146388,7 +147693,7 @@
         "source type School",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.314,
       "eligible": false,
@@ -146477,7 +147782,7 @@
         "source type School",
         "opens underrepresented target types",
         "missing source URLs",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.314,
       "eligible": false,
@@ -146562,7 +147867,7 @@
       "reasons": [
         "source coverage 0/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.467,
       "eligible": false,
@@ -146648,7 +147953,7 @@
         "source type Project",
         "infra: serving/inference, distributed, moe",
         "bridge 6.5",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.058,
       "eligible": false,
@@ -146735,7 +148040,7 @@
       "reasons": [
         "source coverage 0/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 5.174,
       "eligible": false,
@@ -146817,7 +148122,7 @@
       "reasons": [
         "source coverage 0/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 4.391,
       "eligible": false,
@@ -146899,7 +148204,7 @@
       "reasons": [
         "source coverage 1/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 4.383,
       "eligible": false,
@@ -146981,7 +148286,7 @@
       "reasons": [
         "source coverage 0/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 4.245,
       "eligible": false,
@@ -147063,7 +148368,7 @@
       "reasons": [
         "source coverage 1/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 3.484,
       "eligible": false,
@@ -147145,7 +148450,7 @@
       "reasons": [
         "source coverage 1/2",
         "evidence quality below target",
-        "cooldown active (unresolved, 3d remaining)"
+        "cooldown active (unresolved, 2d remaining)"
       ],
       "base_priority": 2.204,
       "eligible": false,
@@ -147187,11 +148492,11 @@
   ],
   "planner_entrypoint": "scripts/plan-research.py",
   "history_path": "research/action-history.json",
-  "history_as_of": "2026-09-22",
+  "history_as_of": "2026-09-23",
   "history_summary": {
-    "as_of": "2026-09-22",
+    "as_of": "2026-09-23",
     "history_records": 727,
-    "suppressed_by_cooldown": 31,
+    "suppressed_by_cooldown": 22,
     "partial_followup_candidates": 627,
     "latest_status_counts_in_current_candidates": {
       "partial": 627,
@@ -147457,8 +148762,8 @@
       }
     }
   },
-  "eligible_count": 1818,
-  "suppressed_count": 31,
+  "eligible_count": 1845,
+  "suppressed_count": 22,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [
     "discover",
