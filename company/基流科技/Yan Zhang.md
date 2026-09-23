@@ -4,6 +4,8 @@ name: Yan Zhang
 aliases: [Yan Zhang]
 current_affiliations: ["基流科技"]
 communities: [VCCL]
+linked_companies:
+  - "company/基流科技/基流科技"
 projects: [VCCL, HetCCL, Expert-as-a-Service]
 areas:
   - collective-communication

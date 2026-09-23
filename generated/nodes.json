@@ -1674,6 +1674,26 @@
     }
   },
   {
+    "id": "company/基流科技/Expert-as-a-Service",
+    "path": "company/基流科技/Expert-as-a-Service.md",
+    "name": "Expert-as-a-Service",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "Expert-as-a-Service",
+      "linked_people": "",
+      "layer": "distributed-serving",
+      "status": "unknown",
+      "areas": "",
+      "companies": [
+        "基流科技"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "company/基流科技/He Liu",
     "path": "company/基流科技/He Liu.md",
     "name": "He Liu",
@@ -1691,17 +1711,44 @@
       "communities": [
         "VCCL"
       ],
+      "linked_companies": "",
+      "projects": [
+        "VCCL",
+        "HetCCL",
+        "Expert-as-a-Service"
+      ],
       "roles": [
         "AI Infra Engineer"
       ],
-      "linked_companies": "",
       "areas": [
         "collective-communication",
         "heterogeneous-communication",
-        "gpu-networking"
+        "gpu-networking",
+        "moe-serving",
+        "distributed-serving"
       ],
       "last_verified": "2026-09",
       "relations": ""
+    }
+  },
+  {
+    "id": "company/基流科技/HetCCL",
+    "path": "company/基流科技/HetCCL.md",
+    "name": "HetCCL",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "HetCCL",
+      "linked_people": "",
+      "layer": "communication",
+      "status": "unknown",
+      "areas": "",
+      "companies": [
+        "基流科技"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -1723,20 +1770,47 @@
       "communities": [
         "VCCL"
       ],
+      "linked_companies": "",
+      "projects": [
+        "VCCL",
+        "HetCCL",
+        "Expert-as-a-Service"
+      ],
       "education": [
         "南京大学"
       ],
       "roles": [
         "AI Infra Engineer"
       ],
-      "linked_companies": "",
       "areas": [
         "collective-communication",
         "gpu-networking",
-        "distributed-training"
+        "distributed-training",
+        "moe-serving",
+        "distributed-serving"
       ],
       "last_verified": "2026-09",
       "relations": ""
+    }
+  },
+  {
+    "id": "company/基流科技/Venus",
+    "path": "company/基流科技/Venus.md",
+    "name": "Venus",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "Venus",
+      "linked_people": [],
+      "layer": "scheduler",
+      "status": "active",
+      "areas": "",
+      "companies": [
+        "基流科技"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -1779,6 +1853,36 @@
     }
   },
   {
+    "id": "company/基流科技/Yan Zhang",
+    "path": "company/基流科技/Yan Zhang.md",
+    "name": "Yan Zhang",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yan Zhang",
+      "aliases": [
+        "Yan Zhang"
+      ],
+      "current_affiliations": [
+        "基流科技"
+      ],
+      "communities": [
+        "VCCL"
+      ],
+      "linked_companies": "",
+      "projects": [
+        "VCCL",
+        "HetCCL",
+        "Expert-as-a-Service"
+      ],
+      "areas": "",
+      "confidence": "high",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
     "id": "company/基流科技/Yanmin Jia",
     "path": "company/基流科技/Yanmin Jia.md",
     "name": "Yanmin Jia",
@@ -1796,14 +1900,21 @@
       "communities": [
         "VCCL"
       ],
+      "linked_companies": "",
+      "projects": [
+        "VCCL",
+        "HetCCL",
+        "Expert-as-a-Service"
+      ],
       "roles": [
         "AI Infra Engineer"
       ],
-      "linked_companies": "",
       "areas": [
         "collective-communication",
         "heterogeneous-communication",
-        "gpu-networking"
+        "gpu-networking",
+        "moe-serving",
+        "distributed-serving"
       ],
       "last_verified": "2026-09",
       "relations": ""
@@ -1829,11 +1940,17 @@
         "high-performance-networking",
         "collective-communication",
         "scheduling",
-        "cluster-operations"
+        "cluster-operations",
+        "distributed-serving",
+        "moe-serving",
+        "inference-scheduling"
       ],
       "linked_people": "",
       "projects": [
-        "VCCL"
+        "VCCL",
+        "HetCCL",
+        "Expert-as-a-Service",
+        "Venus"
       ],
       "linked_projects": ""
     }
@@ -1856,17 +1973,52 @@
         "基流科技"
       ],
       "schools": "",
+      "linked_companies": "",
+      "projects": [
+        "VCCL",
+        "Expert-as-a-Service"
+      ],
       "roles": [
         "Founder",
         "Chairman",
         "CEO"
       ],
-      "linked_companies": "",
       "areas": [
         "ai-infrastructure",
         "distributed-computing",
-        "high-performance-networking"
+        "high-performance-networking",
+        "moe-serving",
+        "distributed-serving"
       ],
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "company/基流科技/陈维 Wei Chen",
+    "path": "company/基流科技/陈维 Wei Chen.md",
+    "name": "陈维",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "陈维",
+      "english_name": "Wei Chen",
+      "aliases": [
+        "陈维",
+        "Wei Chen",
+        "Chen Wei"
+      ],
+      "current_affiliations": [
+        "基流科技"
+      ],
+      "roles": [
+        "Cofounder",
+        "VP R&D"
+      ],
+      "linked_companies": "",
+      "areas": "",
+      "confidence": "verified",
       "last_verified": "2026-09",
       "relations": ""
     }

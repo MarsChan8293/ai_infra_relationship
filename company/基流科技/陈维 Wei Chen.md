@@ -5,6 +5,8 @@ english_name: Wei Chen
 aliases: [陈维, Wei Chen, Chen Wei]
 current_affiliations: ["基流科技"]
 roles: [Cofounder, VP R&D]
+linked_companies:
+  - "company/基流科技/基流科技"
 areas:
   - high-performance-networking
   - systems-software

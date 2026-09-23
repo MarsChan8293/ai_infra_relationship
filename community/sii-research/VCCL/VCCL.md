@@ -9,6 +9,7 @@ linked_people:
   - "company/基流科技/Wenqi Xie"
   - "company/基流科技/Yan Zhang"
   - "company/基流科技/Yanmin Jia"
+  - "company/基流科技/胡效赫 Xiaohe Hu"
 repository: https://github.com/sii-research/vccl
 last_verified: "2026-09"
 companies: ["基流科技"]
@@ -63,9 +64,11 @@ Mingjun Zhang 的公开 GitHub 同时关注 SGLang、Mooncake、vLLM、DeepEP �
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
 - [[company/基流科技/He Liu|He Liu]]：VCCL：Infrawaves 作者，参与大规模训练集群的 collective communication、fault tolerance 与 observability 研究。
-- [[company/基流科技/Mingjun Zhang|Mingjun Zhang]]：[[南京大学]]：其 GitHub 个人主页直接标注 Nanjing University；该 GitHub 身份同时固定展示 VCCL、SGLang、Mooncake、vLLM、DeepEP 等 AI infra 项目，可与本人物节点稳定对应。
+- [[company/基流科技/Mingjun Zhang|Mingjun Zhang]]：[[南京大学]]：其 GitHub 个人主页直接标注 Nanjing University；该 GitHub 身份同时固定展示 VCCL、SGLang、Mooncake、vLLM、DeepEP 等 AI infra 项目。
 - [[company/基流科技/Wenqi Xie|Wenqi Xie]]：VCCL：论文作者，系统覆盖 fault tolerance、observability、high-performance collective communication。
+- [[company/基流科技/Yan Zhang|Yan Zhang]]：[[community/sii-research/VCCL/VCCL|VCCL]]：参与生产级大规模 GPU 集群 collective communication 系统研究。
 - [[company/基流科技/Yanmin Jia|Yanmin Jia]]：VCCL：Infrawaves 作者，参与大规模 GPU 训练集群集合通信的可靠性、性能和可观测性研究。
+- [[company/基流科技/胡效赫 Xiaohe Hu|胡效赫（Xiaohe Hu）]]：[[community/sii-research/VCCL/VCCL|VCCL]]：大规模 GPU 训练集群 collective communication 系统论文共同作者。
 
 <!-- END AUTO PROJECT PEOPLE -->
 

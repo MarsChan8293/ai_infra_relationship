@@ -7,10 +7,10 @@ current_affiliations: ["基流科技"]
 schools:
   - "UC Berkeley"
   - "清华大学"
-projects: [VCCL, Expert-as-a-Service]
-roles: [Founder, Chairman, CEO]
 linked_companies:
   - "company/基流科技/基流科技"
+projects: [VCCL, Expert-as-a-Service]
+roles: [Founder, Chairman, CEO]
 areas: [ai-infrastructure, distributed-computing, high-performance-networking, moe-serving, distributed-serving]
 last_verified: "2026-09"
 relations:

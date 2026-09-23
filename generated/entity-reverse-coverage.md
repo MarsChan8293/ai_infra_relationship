@@ -4,12 +4,12 @@
 
 - Company nodes: 56
 - Companies with ≥1 linked person: 48
-- Company-person associations: 237
+- Company-person associations: 239
 - Email-domain-supported associations: 37
-- People with generated linked_companies: 234
-- Project/community nodes: 169
-- Project/community nodes with ≥1 linked person: 116
-- Project/community-person associations: 549
+- People with generated linked_companies: 236
+- Project/community nodes: 172
+- Project/community nodes with ≥1 linked person: 118
+- Project/community-person associations: 560
 - Non-company affiliations recognized and routed elsewhere: 107
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
@@ -26,12 +26,12 @@
 | [[company/Inferact/Inferact|Inferact]] | 9 |
 | [[company/Red Hat/Red Hat|Red Hat]] | 9 |
 | [[company/清程极智/清程极智|清程极智]] | 8 |
+| [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 7 |
 | [[company/字节跳动/字节跳动|字节跳动]] | 7 |
 | [[company/阿里巴巴/阿里巴巴|阿里巴巴]] | 7 |
 | [[company/IBM/IBM|IBM]] | 6 |
 | [[company/硅基流动/硅基流动|硅基流动]] | 6 |
 | [[company/TensorMesh/TensorMesh|TensorMesh]] | 5 |
-| [[company/基流科技/基流科技|基流科技（InfraWaves）]] | 5 |
 | [[company/智谱/智谱|智谱]] | 5 |
 | [[company/月之暗面/月之暗面|月之暗面]] | 5 |
 | [[company/Databricks/Databricks|Databricks]] | 4 |
@@ -101,7 +101,9 @@
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni|vLLM-Omni]] | 7 |
 | [[community/InfiniTensor/InfiniCore|InfiniCore]] | 6 |
 | [[community/Ascend/MemFabric/MemFabric|MemFabric]] | 6 |
+| [[community/sii-research/VCCL/VCCL|VCCL]] | 6 |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI|Colossal-AI]] | 5 |
+| [[company/基流科技/Expert-as-a-Service|Expert-as-a-Service]] | 5 |
 | [[community/thu-pacman/FastMoE/FastMoE|FastMoE]] | 5 |
 | [[community/gpustack/GPUStack/GPUStack|GPUStack]] | 5 |
 | [[community/vllm-project/Jenga/Jenga|Jenga]] | 5 |
@@ -110,6 +112,7 @@
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | 4 |
 | [[community/flagos-ai/FlagScale/FlagScale|FlagScale]] | 4 |
 | [[community/Project-HAMi/HAMi/HAMi|HAMi]] | 4 |
+| [[company/基流科技/HetCCL|HetCCL]] | 4 |
 | [[community/SemiAnalysisAI/InferenceX/InferenceX|InferenceX]] | 4 |
 | [[community/InfiniTensor/InfiniOps|InfiniOps]] | 4 |
 | [[community/BerriAI/LiteLLM/LiteLLM|LiteLLM]] | 4 |
@@ -119,7 +122,6 @@
 | [[community/yzygitzh/RoofLang/RoofLang|RoofLang]] | 4 |
 | [[community/tile-ai/TileLang/TileLang|TileLang]] | 4 |
 | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] | 4 |
-| [[community/sii-research/VCCL/VCCL|VCCL]] | 4 |
 | [[community/LancerLab/Croqtile/Croqtile|Croqtile]] | 3 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] | 3 |
 | [[community/LLMServe/DistServe/DistServe|DistServe]] | 3 |

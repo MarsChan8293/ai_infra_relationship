@@ -56,7 +56,7 @@ Generated from research/software-project-migration.json and canonical Project v3
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | active | point-to-point-transfer, memory-storage-abstraction, plugin-backends, gpu-direct, storage | 3 | 9 | 2 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NIXL) |
 | [[community/ROCm/RCCL/RCCL|RCCL]] | active | all-reduce, all-gather, reduce-scatter, all-to-all, point-to-point | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RCCL) |
 | [[community/OpenUCX/UCX/UCX|UCX]] | active | rdma, tcp, shared-memory, gpu-memory, communication-abstraction | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=UCX) |
-| [[community/sii-research/VCCL/VCCL|VCCL]] | active | collective-communication, accelerator-communication | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=VCCL) |
+| [[community/sii-research/VCCL/VCCL|VCCL]] | active | collective-communication, accelerator-communication | 0 | 6 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=VCCL) |
 
 ## runtime
 

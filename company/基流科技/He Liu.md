@@ -4,10 +4,10 @@ name: He Liu
 aliases: [He Liu]
 current_affiliations: ["基流科技"]
 communities: [VCCL]
-projects: [VCCL, HetCCL, Expert-as-a-Service]
-roles: [AI Infra Engineer]
 linked_companies:
   - "company/基流科技/基流科技"
+projects: [VCCL, HetCCL, Expert-as-a-Service]
+roles: [AI Infra Engineer]
 areas: [collective-communication, heterogeneous-communication, gpu-networking, moe-serving, distributed-serving]
 last_verified: "2026-09"
 relations:

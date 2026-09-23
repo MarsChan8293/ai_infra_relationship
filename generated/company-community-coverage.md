@@ -4,10 +4,10 @@
 
 - Company nodes: 56
 - Companies with ≥1 linked project/community: 43
-- Project/community nodes: 169
-- Project/community nodes with ≥1 linked company: 89
-- Bidirectional association pairs: 108
-- Explicitly asserted on both sides: 108
+- Project/community nodes: 172
+- Project/community nodes with ≥1 linked company: 92
+- Bidirectional association pairs: 111
+- Explicitly asserted on both sides: 111
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -72,7 +72,10 @@
 | [[company/华为/华为|华为]] | [[community/Ascend/ops-transformer/ops-transformer|ops-transformer]] | project | company-led | both |
 | [[company/华为/华为|华为]] | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] | project | hardware-ecosystem-core-contributor | both |
 | [[company/商汤科技/商汤科技|商汤科技]] | [[community/ModelTC/LightLLM/LightLLM|LightLLM]] | project | community-led | both |
+| [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[company/基流科技/Expert-as-a-Service|Expert-as-a-Service]] | project |  | both |
+| [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[company/基流科技/HetCCL|HetCCL]] | project |  | both |
 | [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[community/sii-research/VCCL/VCCL|VCCL]] | project | industry-research-co-development | both |
+| [[company/基流科技/基流科技|基流科技（InfraWaves）]] | [[company/基流科技/Venus|Venus]] | project |  | both |
 | [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference|DeepSparkInference]] | project | company-originated | both |
 | [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt|iluvatar-corex-ixrt]] | project | company-led | both |
 | [[company/天数智芯/天数智芯|天数智芯]] | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar|lmcache-iluvatar]] | project | company-originated | both |

@@ -1,6 +1,11 @@
 ---
 type: project
 name: HetCCL
+linked_people:
+  - "company/基流科技/He Liu"
+  - "company/基流科技/Mingjun Zhang"
+  - "company/基流科技/Yan Zhang"
+  - "company/基流科技/Yanmin Jia"
 layer: communication
 status: unknown
 areas:
@@ -11,6 +16,8 @@ areas:
   - distributed-training
 companies: ["基流科技"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/基流科技/基流科技"
 ---
 # HetCCL
 
@@ -36,3 +43,24 @@ HetCCL 是一项面向 mixed-vendor heterogeneous clusters 的集合通信系统
 
 ## Sources
 - https://arxiv.org/abs/2605.31000
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[company/基流科技/He Liu|He Liu]]：HetCCL：Infrawaves 作者，参与多厂商异构 GPU / accelerator collective communication。
+- [[company/基流科技/Mingjun Zhang|Mingjun Zhang]]：HetCCL：Infrawaves 作者之一，研究 mixed-vendor heterogeneous clusters 的跨硬件集合通信。
+- [[company/基流科技/Yan Zhang|Yan Zhang]]：[[company/基流科技/HetCCL|HetCCL]]：参与 mixed-vendor heterogeneous clusters 的跨设备 collective communication。
+- [[company/基流科技/Yanmin Jia|Yanmin Jia]]：HetCCL：Infrawaves 作者，面向多厂商异构加速器设计跨设备 collective communication。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/基流科技/基流科技|基流科技（InfraWaves）]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

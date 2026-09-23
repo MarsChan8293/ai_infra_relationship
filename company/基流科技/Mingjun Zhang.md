@@ -6,11 +6,11 @@ current_affiliations: ["基流科技"]
 schools:
   - "南京大学"
 communities: [VCCL]
+linked_companies:
+  - "company/基流科技/基流科技"
 projects: [VCCL, HetCCL, Expert-as-a-Service]
 education: [南京大学]
 roles: [AI Infra Engineer]
-linked_companies:
-  - "company/基流科技/基流科技"
 areas: [collective-communication, gpu-networking, distributed-training, moe-serving, distributed-serving]
 last_verified: "2026-09"
 relations:
