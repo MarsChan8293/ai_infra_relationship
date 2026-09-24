@@ -136,6 +136,17 @@ def set_block_list(lines: list[str], key: str, values: list[str]) -> list[str]:
     return out
 
 
+def set_optional_block_list(lines: list[str], key: str, values: list[str]) -> list[str]:
+    values = list(dict.fromkeys(v for v in values if v))
+    if values:
+        return set_block_list(lines, key, values)
+    out = []
+    for existing, block in blocks(lines):
+        if existing != key:
+            out.extend(block)
+    return out
+
+
 def aliases_for(record: dict) -> list[str]:
     return list(dict.fromkeys([
         record["name"],
@@ -270,7 +281,7 @@ def main() -> int:
     for project in projects:
         concept_rows = reverse.get(project["id"], [])
         linked_ids = [row["id"] for row in sorted(concept_rows, key=lambda r: r["name"].casefold())]
-        new_fm = set_block_list(project["fm"], "linked_concepts", linked_ids)
+        new_fm = set_optional_block_list(project["fm"], "linked_concepts", linked_ids)
         new_body = replace_auto_section(project["body"], project_section(concept_rows))
         updated = join_frontmatter(new_fm, new_body)
         if updated != project["text"]:
