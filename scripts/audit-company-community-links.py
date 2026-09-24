@@ -17,7 +17,7 @@ spec.loader.exec_module(sync)
 
 
 def wikilink(record: dict) -> str:
-    return f"[[{record['id']}|{record['name']}]]"
+    return f"[[{record['id']}\\|{record['name']}]]"
 
 
 def main() -> int:
