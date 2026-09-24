@@ -169,9 +169,16 @@ for (const source of records) {
   const rewritten = original.replace(/(?<!!)\[\[([^\]\n]+)\]\]/g, (full, inner) => {
     totalLinks += 1
 
-    const pipeAt = inner.indexOf("|")
+    // Generated Markdown tables escape the wikilink alias separator as \\|
+    // so the Markdown table parser does not treat it as a column boundary.
+    // Treat both [[target|alias]] and [[target\\|alias]] as the same wikilink.
+    const escapedPipeAt = inner.indexOf("\\|")
+    const plainPipeAt = inner.indexOf("|")
+    const hasEscapedPipe = escapedPipeAt >= 0
+    const pipeAt = hasEscapedPipe ? escapedPipeAt : plainPipeAt
+    const pipeWidth = hasEscapedPipe ? 2 : 1
     const targetAndAnchor = (pipeAt >= 0 ? inner.slice(0, pipeAt) : inner).trim()
-    const explicitAlias = pipeAt >= 0 ? inner.slice(pipeAt + 1).trim() : ""
+    const explicitAlias = pipeAt >= 0 ? inner.slice(pipeAt + pipeWidth).trim() : ""
 
     if (!targetAndAnchor || targetAndAnchor.startsWith("#") || targetAndAnchor.startsWith("^")) {
       samePageLinks += 1
