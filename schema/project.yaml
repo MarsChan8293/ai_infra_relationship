@@ -89,6 +89,9 @@ compatibility_fields:
   linked_companies:
     status: derived
     description: Generated reverse company references. Do not treat as a human-authored canonical fact.
+  linked_concepts:
+    status: derived
+    description: Generated reverse Concept references derived exclusively from canonical Concept nodes' projects field. Do not edit manually or infer from areas.
   governance:
     status: deprecated
     description: Governance is usually richer than one scalar; keep detailed governance evidence in the Markdown body.
@@ -130,4 +133,5 @@ notes:
   - Project v3 intentionally keeps frontmatter small. Detailed features, version snapshots, governance, evidence, and boundaries belong in the body.
   - Compatibility, sponsorship, downstream usage, or employee participation alone is not enough to put a company in companies.
   - integrations must be backed by direct project-level evidence and must not be inferred from shared areas.
-  - linked_people and linked_companies remain migration-compatible while current sync scripts are being refactored, but they are not canonical human-authored facts.
+  - linked_people, linked_companies, and linked_concepts are derived reverse views; they are not canonical human-authored facts.
+  - Concept-to-Project assertions are authored only on canonical Concept nodes via projects; Project linked_concepts is regenerated from that source to avoid dual maintenance.
