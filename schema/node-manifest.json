@@ -1,13 +1,13 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 795,
-  "complete_count": 795,
+  "node_count": 807,
+  "complete_count": 807,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
     "company": 56,
-    "concept": 11,
+    "concept": 23,
     "index": 5,
     "model-project": 13,
     "model-team": 1,
@@ -5566,6 +5566,51 @@
       "missing_required": []
     },
     {
+      "id": "concept/inference/decoding/Draft-Target Decoding",
+      "type": "concept",
+      "source_markdown": "concept/inference/decoding/Draft-Target Decoding.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/decoding/Draft-Target Decoding.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/decoding/Multi-token Prediction",
+      "type": "concept",
+      "source_markdown": "concept/inference/decoding/Multi-token Prediction.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/decoding/Multi-token Prediction.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/decoding/N-gram Speculation",
+      "type": "concept",
+      "source_markdown": "concept/inference/decoding/N-gram Speculation.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/decoding/N-gram Speculation.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/decoding/Self-Speculative Decoding",
+      "type": "concept",
+      "source_markdown": "concept/inference/decoding/Self-Speculative Decoding.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/decoding/Self-Speculative Decoding.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/decoding/Speculative Decoding",
+      "type": "concept",
+      "source_markdown": "concept/inference/decoding/Speculative Decoding.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/decoding/Speculative Decoding.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "concept/inference/kv-cache/KV Cache Management",
       "type": "concept",
       "source_markdown": "concept/inference/kv-cache/KV Cache Management.md",
@@ -5625,6 +5670,69 @@
       "source_markdown": "concept/inference/kv-cache/Tiered KV Cache.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/inference/kv-cache/Tiered KV Cache.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Context Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Context Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Context Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Data Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Data Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Data Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Expert Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Expert Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Expert Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Pipeline Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Pipeline Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Pipeline Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Sequence Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Sequence Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Sequence Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/parallelism/Tensor Parallelism",
+      "type": "concept",
+      "source_markdown": "concept/inference/parallelism/Tensor Parallelism.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/parallelism/Tensor Parallelism.yaml",
       "status": "complete",
       "missing_required": []
     },

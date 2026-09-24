@@ -4654,8 +4654,8 @@
     "bridge_score": 2.85
   },
   "community/sgl-project/SGLang/SGLang": {
-    "degree": 100,
-    "cross_category_degree": 48,
+    "degree": 102,
+    "cross_category_degree": 50,
     "neighbor_categories": [
       "community",
       "company",
@@ -4663,7 +4663,7 @@
       "root",
       "university"
     ],
-    "bridge_score": 30.958
+    "bridge_score": 31.687
   },
   "community/sgl-project/SGLang/Shenggui Li": {
     "degree": 10,
@@ -5182,8 +5182,8 @@
     "bridge_score": 9.222
   },
   "community/vllm-project/vLLM/vLLM": {
-    "degree": 129,
-    "cross_category_degree": 62,
+    "degree": 139,
+    "cross_category_degree": 72,
     "neighbor_categories": [
       "community",
       "company",
@@ -5191,7 +5191,7 @@
       "root",
       "university"
     ],
-    "bridge_score": 36.222
+    "bridge_score": 39.829
   },
   "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
     "degree": 17,
@@ -7004,6 +7004,50 @@
     ],
     "bridge_score": 5.285
   },
+  "concept/inference/decoding/Draft-Target Decoding": {
+    "degree": 6,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.507
+  },
+  "concept/inference/decoding/Multi-token Prediction": {
+    "degree": 3,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.35
+  },
+  "concept/inference/decoding/N-gram Speculation": {
+    "degree": 4,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.672
+  },
+  "concept/inference/decoding/Self-Speculative Decoding": {
+    "degree": 2,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "concept"
+    ],
+    "bridge_score": 3.085
+  },
+  "concept/inference/decoding/Speculative Decoding": {
+    "degree": 6,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.507
+  },
   "concept/inference/kv-cache/KV Cache Management": {
     "degree": 8,
     "cross_category_degree": 2,
@@ -7050,13 +7094,13 @@
     "bridge_score": 6.7
   },
   "concept/inference/kv-cache/Prefix Caching": {
-    "degree": 6,
+    "degree": 7,
     "cross_category_degree": 2,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 6.507
+    "bridge_score": 6.7
   },
   "concept/inference/kv-cache/Tiered KV Cache": {
     "degree": 7,
@@ -7066,6 +7110,68 @@
       "concept"
     ],
     "bridge_score": 7.05
+  },
+  "concept/inference/parallelism/Context Parallelism": {
+    "degree": 4,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.672
+  },
+  "concept/inference/parallelism/Data Parallelism": {
+    "degree": 3,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.35
+  },
+  "concept/inference/parallelism/Expert Parallelism": {
+    "degree": 4,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.672
+  },
+  "concept/inference/parallelism/Parallelism": {
+    "degree": 7,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.35
+  },
+  "concept/inference/parallelism/Pipeline Parallelism": {
+    "degree": 3,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.35
+  },
+  "concept/inference/parallelism/Sequence Parallelism": {
+    "degree": 3,
+    "cross_category_degree": 0,
+    "neighbor_categories": [
+      "concept"
+    ],
+    "bridge_score": 3.5
+  },
+  "concept/inference/parallelism/Tensor Parallelism": {
+    "degree": 6,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.157
   },
   "concept/inference/serving/Chunked Prefill": {
     "degree": 3,
