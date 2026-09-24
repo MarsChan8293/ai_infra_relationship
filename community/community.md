@@ -2,6 +2,10 @@
 
 AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cache、数据传输、集合通信、分布式 serving 与异构计算等开源社区与技术项目的一级分类入口。
 
+## 软件总入口
+
+[[community/Software|Software]] 是按技术层浏览全部 canonical 软件项目的稳定入口；全量项目表由脚本扫描所有 `type: project` 节点自动生成。当前本页主要保留 **upstream / community 组织视角**，下面的组织列表属于人工导航，不再承担“所有软件必须逐项列全”的职责。
+
 ## 目录组织规则
 `community/` 按 canonical upstream namespace / 治理组织分层，而不是把每个项目直接平铺在一级目录。结构统一为：
 
@@ -9,7 +13,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 
 `organization` 优先采用项目实际使用的上游 GitHub / GitCode namespace 或明确治理组织，而不是按技术类别或主要贡献公司机械归类。短双链继续使用项目 basename，目录迁移不改变 canonical 项目名。
 
-### 组织 → 项目
+### 主要组织 → 项目（人工导航）
 - `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]
 - `ai-dynamo`：[[Dynamo]] · [[NIXL]]
 - `kvcache-ai`：[[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[KTransformers]] · [[Mooncake]]
