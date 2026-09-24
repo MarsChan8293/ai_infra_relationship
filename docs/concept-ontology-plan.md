@@ -65,33 +65,33 @@ last_verified: 2026-09
 
 ### Batch A：Ontology 基础设施
 
-- [ ] 新增 `schema/concept.yaml` 并注册到 schema catalog。
-- [ ] 新增第四个一级目录 `concept/` 与入口页。
-- [ ] `audit-graph.py` 扫描 concept root。
-- [ ] Graph Explorer 增加 Concept 类型显示。
-- [ ] 新增 `scripts/generate-concept-index.py`。
-- [ ] Quartz Pages 构建/发布 Concept 与 generated Concept Index。
-- [ ] Sync Node Schemas 监听、生成并回写 Concept 节点/索引。
-- [ ] 根索引写入 Concept 规则。
-- [ ] 明确旧 Software migration “不迁 Concept”边界已被本计划覆盖。
+- [x] 新增 `schema/concept.yaml` 并注册到 schema catalog。
+- [x] 新增第四个一级目录 `concept/` 与入口页。
+- [x] `audit-graph.py` 扫描 concept root。
+- [x] Graph Explorer 增加 Concept 类型显示。
+- [x] 新增 `scripts/generate-concept-index.py`。
+- [x] Quartz Pages 构建/发布 Concept 与 generated Concept Index。
+- [x] Sync Node Schemas 监听、生成并回写 Concept 节点/索引。
+- [x] 根索引写入 Concept 规则。
+- [x] 明确旧 Software migration “不迁 Concept”边界已被本计划覆盖。
 
-验收：PR 必须通过 graph audit、node schema generation、Quartz build、Graph Explorer route reconciliation 和 internal-link audit。
+验收：PR #36 已通过 graph audit、node schema generation、Quartz build、Graph Explorer route reconciliation 和 internal-link audit，并于 2026-09-25 合入 main。
 
 ### Batch B1：KV Cache + Serving 核心概念
 
 首批只建立骨干节点，目标 10–12 个：
 
-- [ ] KV Cache
-- [ ] KV Cache Management
-- [ ] KV Cache Offloading
-- [ ] Tiered KV Cache
-- [ ] KV Cache Transfer
-- [ ] KV Cache Sharing
-- [ ] Prefix Caching
-- [ ] P-D Disaggregation
-- [ ] Disaggregated Serving
-- [ ] Continuous Batching
-- [ ] Chunked Prefill
+- [x] KV Cache
+- [x] KV Cache Management
+- [x] KV Cache Offloading
+- [x] Tiered KV Cache
+- [x] KV Cache Transfer
+- [x] KV Cache Sharing
+- [x] Prefix Caching
+- [x] P-D Disaggregation
+- [x] Disaggregated Serving
+- [x] Continuous Batching
+- [x] Chunked Prefill
 
 优先连接：LMCache、Mooncake、vLLM、SGLang、Dynamo、llm-d、MindIE-Motor、MemCache / MemFabric。
 
@@ -167,7 +167,7 @@ Batch A/B 使用两种边：
 
 ## 7. 当前状态
 
-- Batch A：实施中。
-- Batch B1：待 Batch A 合入后开始。
+- Batch A：已完成并合入 main。
+- Batch B1：11 个 KV Cache + Serving 骨干节点已在独立分支实现，进入 PR 验收。
 - Batch B2：待 B1 ontology 命名稳定后开始。
 - Batch C/D：按图谱 coverage 逐批推进。
