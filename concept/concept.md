@@ -27,4 +27,4 @@ Concept 与 Project 分工明确：
 3. Decoding / Speculative Decoding
 4. Parallelism / TP-EP-DP-PP
 
-完整批次和验收规则见 [Concept Ontology 分批实施计划](../docs/concept-ontology-plan.md)。
+完整批次和验收规则见 [Concept Ontology 分批实施计划](https://github.com/MarsChan8293/ai_infra_relationship/blob/main/docs/concept-ontology-plan.md)。
