@@ -35,6 +35,8 @@ on:
       - "scripts/generate-node-schemas.py"
       - "scripts/generate-software-project-index.py"
       - "scripts/generate-concept-index.py"
+      - "scripts/sync-project-concepts.py"
+      - "scripts/audit-project-concept-coverage.py"
       - "scripts/migrate-legacy-education.py"
       - "scripts/repair-markdown-quality.py"
       - "scripts/repair-markdown-safe.py"
@@ -81,6 +83,9 @@ jobs:
       - name: Sync reverse company/project-person links
         run: python3 scripts/sync-entity-people.py --root .
 
+      - name: Sync reverse project-concept links
+        run: python3 scripts/sync-project-concepts.py --root .
+
       - name: Sync reverse research-institution-person links
         run: python3 scripts/sync-research-people.py --root .
 
@@ -101,6 +106,9 @@ jobs:
 
       - name: Generate concept index
         run: python3 scripts/generate-concept-index.py --root . --output generated/concept-index.md
+
+      - name: Validate Project-Concept coverage
+        run: python3 scripts/audit-project-concept-coverage.py --root . --generated generated
 
       - name: Test research-action history planner
         run: python3 scripts/test-research-history.py
@@ -209,6 +217,7 @@ jobs:
             generated/company-community-coverage.md generated/company-community-coverage.json
             generated/software-project-migration-audit.md generated/software-project-migration-audit.json
             generated/software-project-index.md generated/concept-index.md
+            generated/project-concept-coverage.md generated/project-concept-coverage.json
           )
 
           if [[ -z "$(git status --porcelain -- "${TRACKED[@]}")" ]]; then
