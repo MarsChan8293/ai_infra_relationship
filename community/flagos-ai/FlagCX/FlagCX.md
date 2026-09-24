@@ -1,6 +1,10 @@
 ---
 type: project
 name: FlagCX
+linked_concepts:
+  - "concept/communication/collectives/AllGather"
+  - "concept/communication/collectives/AllReduce"
+  - "concept/communication/collectives/Collective Communication"
 status: active
 linked_people:
   - "community/flagos-ai/FlagCX/MC952-arch"
@@ -52,3 +56,14 @@ https://github.com/flagos-ai/FlagCX
 - [[community/flagos-ai/FlagOS/曹州|曹州]]：[[FlagCX]]：**开源项目维护**；官方 MAINTAINERS 同样列出 `Caozhou1995`。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/communication/collectives/AllGather|AllGather]]
+- [[concept/communication/collectives/AllReduce|AllReduce]]
+- [[concept/communication/collectives/Collective Communication|Collective Communication]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

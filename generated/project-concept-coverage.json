@@ -1,16 +1,18 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 31,
-    "concepts_with_projects": 29,
+    "concepts": 40,
+    "concepts_with_projects": 38,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 10,
-    "concept_project_assertions": 80,
+    "projects_with_concepts": 18,
+    "concept_project_assertions": 117,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
   "topic_counts": {
+    "collective-communication": 5,
+    "data-movement": 4,
     "decoding": 5,
     "inference-scheduling": 8,
     "kv-cache": 7,
@@ -18,6 +20,8 @@
     "serving": 4
   },
   "mapped_topic_counts": {
+    "collective-communication": 5,
+    "data-movement": 4,
     "decoding": 4,
     "inference-scheduling": 8,
     "kv-cache": 7,
@@ -76,6 +80,23 @@
       "count": 10
     },
     {
+      "id": "community/kvcache-ai/Mooncake/Mooncake",
+      "name": "Mooncake",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/GPUDirect RDMA",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache Sharing",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 9
+    },
+    {
       "id": "community/ai-dynamo/Dynamo/Dynamo",
       "name": "NVIDIA Dynamo",
       "layer": "distributed-serving",
@@ -124,6 +145,21 @@
       "count": 7
     },
     {
+      "id": "community/ROCm/RCCL/RCCL",
+      "name": "RCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/LMCache/LMCache/LMCache",
       "name": "LMCache",
       "layer": "kv-cache",
@@ -134,6 +170,20 @@
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/kv-cache/Tiered KV Cache",
         "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 6
+    },
+    {
+      "id": "community/NVIDIA/NCCL/NCCL",
+      "name": "NCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter",
+        "concept/communication/data-movement/Point-to-Point Transfer"
       ],
       "count": 6
     },
@@ -165,17 +215,16 @@
       "count": 5
     },
     {
-      "id": "community/kvcache-ai/Mooncake/Mooncake",
-      "name": "Mooncake",
-      "layer": "kv-cache",
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "name": "DeepEP",
+      "layer": "communication",
       "concepts": [
-        "concept/inference/kv-cache/KV Cache Sharing",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/data-movement/RDMA",
+        "concept/inference/parallelism/Expert Parallelism"
       ],
-      "count": 5
+      "count": 4
     },
     {
       "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
@@ -188,6 +237,62 @@
         "concept/inference/scheduling/Request Routing"
       ],
       "count": 4
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/NIXL",
+      "name": "NIXL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/GPUDirect RDMA",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA"
+      ],
+      "count": 4
+    },
+    {
+      "id": "community/sii-research/VCCL/VCCL",
+      "name": "VCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter"
+      ],
+      "count": 4
+    },
+    {
+      "id": "community/flagos-ai/FlagCX/FlagCX",
+      "name": "FlagCX",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/Ascend/MemFabric/MemFabric",
+      "name": "MemFabric",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/OpenUCX/UCX/UCX",
+      "name": "UCX",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA"
+      ],
+      "count": 2
     }
   ],
   "unresolved": [],

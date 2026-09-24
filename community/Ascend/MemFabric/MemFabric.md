@@ -8,6 +8,10 @@ linked_people:
   - "community/Ascend/MemCache/yrewzjsx"
   - "community/Ascend/MemCache/Zixi Qu"
   - "community/Ascend/MemCache/彭海清 Haiqing Peng"
+linked_concepts:
+  - "concept/communication/data-movement/Data Movement"
+  - "concept/communication/data-movement/Point-to-Point Transfer"
+  - "concept/communication/data-movement/RDMA"
 companies: ["华为"]
 company_relation: company-led
 layer: communication
@@ -76,3 +80,14 @@ MemFabric 与 MemCache 的提交/合并记录中出现明显重叠的 handle，�
 - [[community/Ascend/MemCache/彭海清 Haiqing Peng|彭海清（Haiqing Peng）]]：负责或参与 MemFabric C API / 动态加载解耦、ABI 对齐、stream 字段适配等底层接口工作。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/communication/data-movement/Data Movement|Data Movement]]
+- [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
+- [[concept/communication/data-movement/RDMA|RDMA]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

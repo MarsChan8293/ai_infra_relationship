@@ -2,8 +2,8 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 31
-- Domains: 2
+- Concepts: 40
+- Domains: 3
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
@@ -39,7 +39,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/parallelism/Context Parallelism|Context Parallelism]] | CP, Context Parallel, 上下文并行 | Parallelism | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Context%20Parallelism) |
 | [[concept/inference/parallelism/Data Parallelism|Data Parallelism]] | DP, Replica Parallelism, 数据并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Data%20Parallelism) |
-| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
+| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
 | [[concept/inference/parallelism/Parallelism|Parallelism]] | Model Parallelism, 分布式并行, 并行切分 |  | 6 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Parallelism) |
 | [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]] | PP, Pipeline Model Parallelism, 流水线并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Pipeline%20Parallelism) |
 | [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 0 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
@@ -53,6 +53,29 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/serving/Continuous Batching|Continuous Batching]] | In-flight Batching, Iteration-level Batching, 连续批处理 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Continuous%20Batching) |
 | [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]] | Disaggregated Inference Serving, 分离式推理服务 |  | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Disaggregated%20Serving) |
 | [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
+
+## Communication
+
+9 concepts.
+
+### Collective Communication
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/communication/collectives/All-to-All|All-to-All]] | AllToAll, All-to-All Communication, 全互换通信 | Collective Communication | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=All-to-All) |
+| [[concept/communication/collectives/AllGather|AllGather]] | All-Gather, 全收集 | Collective Communication | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AllGather) |
+| [[concept/communication/collectives/AllReduce|AllReduce]] | All-Reduce, 全归约 | Collective Communication | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AllReduce) |
+| [[concept/communication/collectives/Collective Communication|Collective Communication]] | Collective Operations, Communication Collectives, 集合通信 |  | 5 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Collective%20Communication) |
+| [[concept/communication/collectives/ReduceScatter|ReduceScatter]] | Reduce-Scatter, 归约分散 | Collective Communication | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ReduceScatter) |
+
+### Data Movement
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/communication/data-movement/Data Movement|Data Movement]] | Inference Data Movement, Distributed Data Movement, 数据搬运, 数据移动 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Data%20Movement) |
+| [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]] | GDR, GPU Direct RDMA, GPUDirect Remote Direct Memory Access | RDMA | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUDirect%20RDMA) |
+| [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]] | P2P Transfer, Point-to-Point Communication, P2P Data Movement, 点到点传输 | Data Movement | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Point-to-Point%20Transfer) |
+| [[concept/communication/data-movement/RDMA|RDMA]] | Remote Direct Memory Access, 远程直接内存访问 | Point-to-Point Transfer | 1 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RDMA) |
 
 ## Scheduling
 

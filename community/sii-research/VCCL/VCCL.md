@@ -2,6 +2,11 @@
 type: project
 name: VCCL
 full_name: Venus Collective Communication Library
+linked_concepts:
+  - "concept/communication/collectives/AllGather"
+  - "concept/communication/collectives/AllReduce"
+  - "concept/communication/collectives/Collective Communication"
+  - "concept/communication/collectives/ReduceScatter"
 status: active
 linked_people:
   - "company/基流科技/He Liu"
@@ -80,3 +85,15 @@ Mingjun Zhang 的公开 GitHub 同时关注 SGLang、Mooncake、vLLM、DeepEP �
 - [[company/基流科技/基流科技|基流科技（InfraWaves）]]：公司页与社区/项目页均有显式记录；关系：`industry-research-co-development`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/communication/collectives/AllGather|AllGather]]
+- [[concept/communication/collectives/AllReduce|AllReduce]]
+- [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/communication/collectives/ReduceScatter|ReduceScatter]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

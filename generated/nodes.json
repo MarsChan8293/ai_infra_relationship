@@ -5881,6 +5881,7 @@
       "type": "project",
       "name": "MemFabric",
       "linked_people": "",
+      "linked_concepts": "",
       "companies": [
         "华为"
       ],
@@ -8027,6 +8028,7 @@
       "type": "project",
       "name": "NCCL",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "communication",
       "status": "active",
       "repository": "https://github.com/NVIDIA/nccl",
@@ -8306,6 +8308,7 @@
       "type": "project",
       "name": "UCX",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "communication",
       "status": "active",
       "repository": "https://github.com/openucx/ucx",
@@ -8639,6 +8642,7 @@
       "type": "project",
       "name": "RCCL",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "communication",
       "status": "active",
       "repository": "https://github.com/ROCm/rocm-systems",
@@ -9148,6 +9152,7 @@
     "frontmatter": {
       "type": "project",
       "name": "NIXL",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/ai-dynamo/nixl",
@@ -9414,6 +9419,7 @@
       "type": "project",
       "name": "DeepEP",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepEP",
@@ -10361,6 +10367,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagCX",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "companies": [],
@@ -14348,6 +14355,7 @@
       "type": "project",
       "name": "VCCL",
       "full_name": "Venus Collective Communication Library",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/sii-research/vccl",
@@ -20991,6 +20999,166 @@
       "website": "https://www.pcl.ac.cn/",
       "country": "China",
       "city": "Shenzhen",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/collectives/All-to-All",
+    "path": "concept/communication/collectives/All-to-All.md",
+    "name": "All-to-All",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "All-to-All",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "collective-communication",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/collectives/AllGather",
+    "path": "concept/communication/collectives/AllGather.md",
+    "name": "AllGather",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "AllGather",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "collective-communication",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/collectives/AllReduce",
+    "path": "concept/communication/collectives/AllReduce.md",
+    "name": "AllReduce",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "AllReduce",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "collective-communication",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/collectives/Collective Communication",
+    "path": "concept/communication/collectives/Collective Communication.md",
+    "name": "Collective Communication",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Collective Communication",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "collective-communication",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/collectives/ReduceScatter",
+    "path": "concept/communication/collectives/ReduceScatter.md",
+    "name": "ReduceScatter",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "ReduceScatter",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "collective-communication",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/data-movement/Data Movement",
+    "path": "concept/communication/data-movement/Data Movement.md",
+    "name": "Data Movement",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Data Movement",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "data-movement",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/data-movement/GPUDirect RDMA",
+    "path": "concept/communication/data-movement/GPUDirect RDMA.md",
+    "name": "GPUDirect RDMA",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "GPUDirect RDMA",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "data-movement",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/data-movement/Point-to-Point Transfer",
+    "path": "concept/communication/data-movement/Point-to-Point Transfer.md",
+    "name": "Point-to-Point Transfer",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Point-to-Point Transfer",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "data-movement",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/communication/data-movement/RDMA",
+    "path": "concept/communication/data-movement/RDMA.md",
+    "name": "RDMA",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "RDMA",
+      "aliases": "",
+      "domain": "communication",
+      "topic": "data-movement",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
       "last_verified": "2026-09"
     }
   },

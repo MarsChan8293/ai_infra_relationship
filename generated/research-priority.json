@@ -1296,6 +1296,80 @@
       }
     },
     {
+      "action_id": "community/ROCm/RCCL/RCCL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ROCm/RCCL/RCCL",
+        "name": "RCCL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.248,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 8.97,
+        "novelty": 1.0,
+        "frontier_potential": 0.383,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 9.0"
+      ],
+      "base_priority": 9.145,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.970"
+      }
+    },
+    {
       "action_id": "community/Ascend/MindIE-LLM/MindIE-LLM::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1457,6 +1531,80 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.157"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/NCCL/NCCL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/NCCL/NCCL",
+        "name": "NCCL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.213,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 8.45,
+        "novelty": 1.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.166,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 8.4"
+      ],
+      "base_priority": 9.11,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.450"
       }
     },
     {
@@ -2196,152 +2344,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.350"
-      }
-    },
-    {
-      "action_id": "community/NVIDIA/NCCL/NCCL::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/NVIDIA/NCCL/NCCL",
-        "name": "NCCL",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.985,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.882,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/ROCm/RCCL/RCCL::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/ROCm/RCCL/RCCL",
-        "name": "RCCL",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.985,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.882,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {

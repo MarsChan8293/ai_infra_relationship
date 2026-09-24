@@ -2,6 +2,13 @@
 type: project
 name: NCCL
 linked_people: []
+linked_concepts:
+  - "concept/communication/collectives/All-to-All"
+  - "concept/communication/collectives/AllGather"
+  - "concept/communication/collectives/AllReduce"
+  - "concept/communication/collectives/Collective Communication"
+  - "concept/communication/data-movement/Point-to-Point Transfer"
+  - "concept/communication/collectives/ReduceScatter"
 layer: communication
 status: active
 repository: https://github.com/NVIDIA/nccl
@@ -67,3 +74,17 @@ NCCL 只解决通信原语，不负责模型并行策略本身、请求调度或
 - [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/communication/collectives/All-to-All|All-to-All]]
+- [[concept/communication/collectives/AllGather|AllGather]]
+- [[concept/communication/collectives/AllReduce|AllReduce]]
+- [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
+- [[concept/communication/collectives/ReduceScatter|ReduceScatter]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

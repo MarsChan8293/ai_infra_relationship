@@ -2,10 +2,14 @@
 type: project
 name: Mooncake
 linked_concepts:
+  - "concept/communication/data-movement/Data Movement"
   - "concept/inference/serving/Disaggregated Serving"
+  - "concept/communication/data-movement/GPUDirect RDMA"
   - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/inference/serving/P-D Disaggregation"
+  - "concept/communication/data-movement/Point-to-Point Transfer"
+  - "concept/communication/data-movement/RDMA"
   - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 docs: https://github.com/kvcache-ai/Mooncake
@@ -154,10 +158,14 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/communication/data-movement/Data Movement|Data Movement]]
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
+- [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]]
 - [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
+- [[concept/communication/data-movement/RDMA|RDMA]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->
