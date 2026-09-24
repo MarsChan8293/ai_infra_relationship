@@ -22,7 +22,7 @@ integrations:
 ## 项目简介
 vLLM Production Stack 是 vLLM Project 下的生产部署参考栈，用于把单个 vLLM 实例扩展为 Kubernetes 上的分布式推理服务。它以 Helm 组织 serving engine、request router 与 observability stack，目标是在不改变上层 OpenAI-compatible API 使用方式的前提下增加多实例部署、请求路由、监控和 KV Cache offload。
 
-它与 [[llm-d]]、[[NVIDIA Dynamo]]、[[AIBrix]] 位于相邻的 distributed inference / serving 层，但定位更偏“vLLM 官方生产参考部署与组合栈”，而不是独立的通用分布式推理运行时。
+它与 [[llm-d]]、[[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]、[[AIBrix]] 位于相邻的 distributed inference / serving 层，但定位更偏“vLLM 官方生产参考部署与组合栈”，而不是独立的通用分布式推理运行时。
 
 ## GitHub
 https://github.com/vllm-project/production-stack
