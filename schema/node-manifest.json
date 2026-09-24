@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 782,
-  "complete_count": 782,
+  "node_count": 783,
+  "complete_count": 783,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
@@ -10,7 +10,7 @@
     "index": 4,
     "model-project": 13,
     "model-team": 1,
-    "note": 18,
+    "note": 19,
     "person": 426,
     "person-link": 4,
     "project": 165,
@@ -3068,6 +3068,15 @@
       "source_markdown": "community/siliconflow/SiliconLLM/SiliconLLM.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/siliconflow/SiliconLLM/SiliconLLM.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Software",
+      "type": "note",
+      "source_markdown": "community/Software.md",
+      "schema_definition": "schema/note.yaml",
+      "schema_instance": "schema/nodes/community/Software.yaml",
       "status": "complete",
       "missing_required": []
     },

@@ -8783,6 +8783,14 @@
       }
     },
     {
+      "id": "community/Software",
+      "path": "community/Software.md",
+      "name": "Software",
+      "type": "note",
+      "category": "community",
+      "frontmatter": {}
+    },
+    {
       "id": "community/Tencent/HPC-Ops/HPC-Ops",
       "path": "community/Tencent/HPC-Ops/HPC-Ops.md",
       "name": "HPC-Ops",
@@ -21021,6 +21029,11 @@
     },
     {
       "source": "AI Infra Relationship",
+      "target": "community/Software",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
       "target": "community/ai-dynamo/Dynamo/Dynamo",
       "kind": "wikilink"
     },
@@ -23590,6 +23603,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/Software",
+      "target": "community/community",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/Tencent/HPC-Ops/HPC-Ops",
       "target": "company/腾讯/腾讯",
       "kind": "wikilink"
@@ -24217,6 +24235,11 @@
     {
       "source": "community/community",
       "target": "community/Project-HAMi/HAMi/HAMi",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/community",
+      "target": "community/Software",
       "kind": "wikilink"
     },
     {
@@ -42977,14 +43000,14 @@
   ],
   "metrics": {
     "AI Infra Relationship": {
-      "degree": 38,
-      "cross_category_degree": 38,
+      "degree": 39,
+      "cross_category_degree": 39,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 23.085
+      "bridge_score": 23.472
     },
     "company/AMD/AMD": {
       "degree": 10,
@@ -45937,6 +45960,15 @@
       ],
       "bridge_score": 4.935
     },
+    "community/Software": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 4.935
+    },
     "community/Tencent/HPC-Ops/HPC-Ops": {
       "degree": 1,
       "cross_category_degree": 1,
@@ -46155,7 +46187,7 @@
       "bridge_score": 0.0
     },
     "community/community": {
-      "degree": 93,
+      "degree": 94,
       "cross_category_degree": 32,
       "neighbor_categories": [
         "community",
@@ -46163,7 +46195,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 23.755
+      "bridge_score": 23.77
     },
     "community/deepseek-ai/DeepSeek-Infra/3FS": {
       "degree": 6,
