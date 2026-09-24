@@ -36,7 +36,7 @@ https://github.com/xLLM-AI/xllm-service
 
 ## 生态关系
 - [[xLLM]]：直接的 inference engine 依赖。
-- [[llm-d]] / [[NVIDIA Dynamo]] / [[MindIE-Motor]]：在 PD 分离、集群调度与容错方向存在明显技术邻接，但当前不把“同类定位”写成 direct integration。
+- [[llm-d]] / [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] / [[MindIE-Motor]]：在 PD 分离、集群调度与容错方向存在明显技术邻接，但当前不把“同类定位”写成 direct integration。
 - [[AIBrix]]：同样覆盖 distributed inference / scheduling 的相邻方案，但治理和技术栈不同。
 
 ## Sources
