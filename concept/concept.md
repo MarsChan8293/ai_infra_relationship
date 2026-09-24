@@ -5,6 +5,7 @@ AI Infra 技术概念的一级入口。这里回答的是“技术机制是什�
 ## 入口
 
 - [Concept Index](../generated/concept-index.md)：由 `scripts/generate-concept-index.py` 自动扫描所有 canonical `type: concept` 节点生成。
+- [Project ↔ Concept Coverage](../generated/project-concept-coverage.md)：检查 Concept 的项目证据、Project 反向链接与当前 ontology 覆盖密度。
 - [[community/Software|Software]]：从“实现/项目”视角浏览 AI Infra。
 - [Graph Explorer](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/)：从概念继续查看项目、人物、公司、学校和相邻概念。
 
