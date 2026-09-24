@@ -408,7 +408,7 @@ def write_markdown(path: pathlib.Path, selected: list[dict], actions: list[dict]
         source = action["source"]
         target = ", ".join(action["target_families"]) or "evidence"
         why = "；".join(action["reasons"][:3])
-        lines.append(f"| {rank} | [[{source['id']}|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {escape_cell(target)} | {escape_cell(action['bucket'])} | {float(action['priority']):.3f} | {escape_cell(why)} |")
+        lines.append(f"| {rank} | [[{source['id']}\\|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {escape_cell(target)} | {escape_cell(action['bucket'])} | {float(action['priority']):.3f} | {escape_cell(why)} |")
     lines.extend([
         "", "## Agent execution contract", "", "对每个 selected action：", "",
         "1. 优先查官方主页、官方仓库、governance/CODEOWNERS/MAINTAINERS、论文或机构一手资料。",
@@ -422,7 +422,7 @@ def write_markdown(path: pathlib.Path, selected: list[dict], actions: list[dict]
     frontier = [item for item in actions if item["action_id"] not in selected_ids][:30]
     for rank, action in enumerate(frontier, 1):
         source = action["source"]
-        lines.append(f"| {rank} | [[{source['id']}|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {float(action['priority']):.3f} |")
+        lines.append(f"| {rank} | [[{source['id']}\\|{escape_cell(source['name'])}]] | {escape_cell(source['family'])} | {escape_cell(action['relation'])} | {float(action['priority']):.3f} |")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
