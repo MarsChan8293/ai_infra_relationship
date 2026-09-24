@@ -97,18 +97,18 @@ last_verified: 2026-09
 
 ### Batch B2：Decoding + Parallelism
 
-- [ ] Speculative Decoding
-- [ ] Draft-Target Decoding
-- [ ] N-gram Speculation
-- [ ] Self-Speculative Decoding
-- [ ] Multi-token Prediction
-- [ ] Parallelism
-- [ ] Tensor Parallelism
-- [ ] Pipeline Parallelism
-- [ ] Data Parallelism
-- [ ] Expert Parallelism
-- [ ] Sequence Parallelism
-- [ ] Context Parallelism
+- [x] Speculative Decoding
+- [x] Draft-Target Decoding
+- [x] N-gram Speculation
+- [x] Self-Speculative Decoding
+- [x] Multi-token Prediction
+- [x] Parallelism
+- [x] Tensor Parallelism
+- [x] Pipeline Parallelism
+- [x] Data Parallelism
+- [x] Expert Parallelism
+- [x] Sequence Parallelism
+- [x] Context Parallelism
 
 ### Batch C：Project ↔ Concept 系统化
 
@@ -168,6 +168,6 @@ Batch A/B 使用两种边：
 ## 7. 当前状态
 
 - Batch A：已完成并合入 main。
-- Batch B1：11 个 KV Cache + Serving 骨干节点已在独立分支实现，进入 PR 验收。
-- Batch B2：待 B1 ontology 命名稳定后开始。
+- Batch B1：已完成并合入 main（PR #37）。
+- Batch B2：12 个 Decoding + Parallelism 骨干节点已在独立分支实现，进入 PR 验收。
 - Batch C/D：按图谱 coverage 逐批推进。
