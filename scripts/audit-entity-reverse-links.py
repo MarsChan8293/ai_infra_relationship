@@ -320,11 +320,11 @@ def main() -> int:
     ]
     for row in payload["companies"]:
         if row["linked_people"]:
-            lines.append(f"| [[{row['id']}|{row['name']}]] | {row['linked_people']} |")
+            lines.append(f"| [[{row['id']}\\|{row['name']}]] | {row['linked_people']} |")
     lines.extend(["", "## Projects / communities", "", "| Entity | Linked people |", "| --- | ---: |"])
     for row in payload["projects_communities"]:
         if row["linked_people"]:
-            lines.append(f"| [[{row['id']}|{row['name']}]] | {row['linked_people']} |")
+            lines.append(f"| [[{row['id']}\\|{row['name']}]] | {row['linked_people']} |")
     if unresolved:
         lines.extend(["", "## Unresolved source values", "", "这些值尚未安全解析到 canonical company/project/community 节点，不自动造边。", ""])
         for item in unresolved[:80]:
