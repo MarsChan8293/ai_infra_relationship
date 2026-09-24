@@ -4,7 +4,7 @@ AI Infra 技术概念的一级入口。这里回答的是“技术机制是什�
 
 ## 入口
 
-- [[generated/concept-index|Concept Index]]：由 `scripts/generate-concept-index.py` 自动扫描所有 canonical `type: concept` 节点生成。
+- [Concept Index](../generated/concept-index.md)：由 `scripts/generate-concept-index.py` 自动扫描所有 canonical `type: concept` 节点生成。
 - [[community/Software|Software]]：从“实现/项目”视角浏览 AI Infra。
 - [Graph Explorer](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/)：从概念继续查看项目、人物、公司、学校和相邻概念。
 
@@ -27,4 +27,4 @@ Concept 与 Project 分工明确：
 3. Decoding / Speculative Decoding
 4. Parallelism / TP-EP-DP-PP
 
-完整批次和验收规则见 [[docs/concept-ontology-plan|Concept Ontology 分批实施计划]]。
+完整批次和验收规则见 [Concept Ontology 分批实施计划](../docs/concept-ontology-plan.md)。
