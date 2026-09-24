@@ -1,6 +1,9 @@
 ---
 type: project
 name: MindIE-Motor
+linked_concepts:
+  - "concept/inference/serving/Disaggregated Serving"
+  - "concept/inference/serving/P-D Disaggregation"
 status: active
 linked_people:
   - "community/Ascend/MemCache/吕有辉"
@@ -54,3 +57,13 @@ https://gitcode.com/Ascend/MindIE-Motor
 - [[community/Ascend/MemCache/吕有辉|吕有辉]]：在 MindIE-Motor 推进 **MemCache KvEvent → kv-conductor 缓存感知调度**：kv-conductor 订阅 MemCache MetaService 的 KvEvent 广播，结合引擎 offload 事件做缓存匹配，把请求路由到已经缓存共享前缀的节点，从而提高 KV 复用并降低重复 Prefill / TTFT。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
+- [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

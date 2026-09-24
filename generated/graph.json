@@ -5944,6 +5944,7 @@
       "frontmatter": {
         "type": "project",
         "name": "MindIE-Motor",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "last_verified": "2026-09",
@@ -7010,6 +7011,7 @@
       "frontmatter": {
         "type": "project",
         "name": "LMCache",
+        "linked_concepts": "",
         "status": "active",
         "docs": "https://docs.lmcache.ai/",
         "linked_people": "",
@@ -8852,6 +8854,7 @@
       "frontmatter": {
         "type": "project",
         "name": "NVIDIA Dynamo",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/ai-dynamo/dynamo",
@@ -12626,6 +12629,7 @@
       "frontmatter": {
         "type": "project",
         "name": "Mooncake",
+        "linked_concepts": "",
         "status": "active",
         "docs": "https://github.com/kvcache-ai/Mooncake",
         "linked_people": "",
@@ -13493,6 +13497,7 @@
       "frontmatter": {
         "type": "project",
         "name": "llm-d",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/llm-d/llm-d",
@@ -14031,6 +14036,7 @@
       "frontmatter": {
         "type": "project",
         "name": "SGLang",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/sgl-project/sglang",
@@ -15462,6 +15468,7 @@
       "frontmatter": {
         "type": "project",
         "name": "vLLM",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/vllm-project/vllm",
@@ -22131,6 +22138,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/Ascend/MindIE-SD/MindIE-SD",
       "target": "community/Ascend/MindIE-LLM/MindIE-LLM",
       "kind": "wikilink"
@@ -22948,6 +22965,36 @@
     {
       "source": "community/LMCache/LMCache/LMCache",
       "target": "company/腾讯/Chunxiao Zheng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Management",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Sharing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/serving/P-D Disaggregation",
       "kind": "wikilink"
     },
     {
@@ -24123,6 +24170,16 @@
     {
       "source": "community/ai-dynamo/Dynamo/Dynamo",
       "target": "company/NVIDIA/NVIDIA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/serving/P-D Disaggregation",
       "kind": "wikilink"
     },
     {
@@ -28082,6 +28139,31 @@
     },
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/kv-cache/KV Cache Sharing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "university/清华大学/Mingxing Zhang",
       "kind": "wikilink"
     },
@@ -28926,6 +29008,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/llm-d/llm-d/张家驹 Jiaju Zhang",
       "target": "community/llm-d/llm-d/llm-d",
       "kind": "wikilink"
@@ -29533,6 +29625,36 @@
     {
       "source": "community/sgl-project/SGLang/SGLang",
       "target": "company/趋境科技/趋境科技",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/decoding/Draft-Target Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/kv-cache/Prefix Caching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SGLang/SGLang",
+      "target": "concept/inference/serving/P-D Disaggregation",
       "kind": "wikilink"
     },
     {
@@ -31828,6 +31950,106 @@
     {
       "source": "community/vllm-project/vLLM/vLLM",
       "target": "company/腾讯/Baolong Mao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/decoding/Draft-Target Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/decoding/Multi-token Prediction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/decoding/N-gram Speculation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/KV Cache Management",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/Prefix Caching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Context Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Data Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Expert Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Pipeline Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/parallelism/Tensor Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/serving/Chunked Prefill",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/serving/Continuous Batching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/serving/Disaggregated Serving",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/inference/serving/P-D Disaggregation",
       "kind": "wikilink"
     },
     {
@@ -39612,12 +39834,22 @@
     },
     {
       "source": "concept/inference/serving/Disaggregated Serving",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/serving/Disaggregated Serving",
       "target": "community/ai-dynamo/Dynamo/Dynamo",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/serving/Disaggregated Serving",
       "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/serving/Disaggregated Serving",
+      "target": "community/llm-d/llm-d/llm-d",
       "kind": "wikilink"
     },
     {
@@ -39642,6 +39874,11 @@
     },
     {
       "source": "concept/inference/serving/P-D Disaggregation",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/serving/P-D Disaggregation",
       "target": "community/LMCache/LMCache/LMCache",
       "kind": "wikilink"
     },
@@ -39653,6 +39890,11 @@
     {
       "source": "concept/inference/serving/P-D Disaggregation",
       "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/serving/P-D Disaggregation",
+      "target": "community/llm-d/llm-d/llm-d",
       "kind": "wikilink"
     },
     {
@@ -45862,14 +46104,15 @@
       "bridge_score": 2.5
     },
     "community/Ascend/MindIE-Motor/MindIE-Motor": {
-      "degree": 10,
-      "cross_category_degree": 2,
+      "degree": 12,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 8.659
+      "bridge_score": 11.1
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
       "degree": 9,
@@ -48413,15 +48656,16 @@
       "bridge_score": 6.157
     },
     "community/llm-d/llm-d/llm-d": {
-      "degree": 31,
-      "cross_category_degree": 8,
+      "degree": 33,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root",
         "university"
       ],
-      "bridge_score": 13.8
+      "bridge_score": 16.087
     },
     "community/llm-d/llm-d/张家驹 Jiaju Zhang": {
       "degree": 4,
@@ -51115,22 +51359,22 @@
       "bridge_score": 5.35
     },
     "concept/inference/serving/Disaggregated Serving": {
-      "degree": 6,
-      "cross_category_degree": 4,
+      "degree": 8,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.207
+      "bridge_score": 8.27
     },
     "concept/inference/serving/P-D Disaggregation": {
-      "degree": 9,
-      "cross_category_degree": 5,
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.072
+      "bridge_score": 9.035
     }
   }
 }

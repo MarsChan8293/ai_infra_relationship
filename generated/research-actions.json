@@ -12344,6 +12344,95 @@
       }
     },
     {
+      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+        "name": "MindIE-Motor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.281,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 11.1,
+        "novelty": 0.0,
+        "frontier_potential": 0.319,
+        "uncertainty": 0.586,
+        "redundancy_penalty": 0.344,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, scheduler",
+        "bridge 11.1",
+        "prior unresolved action"
+      ],
+      "base_priority": 7.428,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM-Ascend/Wang Xiyuan::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -16095,95 +16184,6 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "current_affiliation"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-        "name": "MindIE-Motor",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 7.014,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 1,
-        "desired": 4,
-        "gap": 0.75
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.659,
-        "novelty": 0.0,
-        "frontier_potential": 0.347,
-        "uncertainty": 0.586,
-        "redundancy_penalty": 0.33,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": -0.25,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 1/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "bridge 8.7",
-        "prior unresolved action"
-      ],
-      "base_priority": 7.161,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": -0.25
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
         ]
       }
     },
@@ -96500,6 +96500,88 @@
       }
     },
     {
+      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+        "name": "MindIE-Motor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.731,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 11.1,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.128,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 4.468,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/DreamerLeader::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -102645,88 +102727,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "community/Ascend/MindIE-Motor/MindIE-Motor::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-        "name": "MindIE-Motor",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.491,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.659,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.12,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.113,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 4.228,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 31,
-          "statuses": {
-            "partial": 31
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.0,
-          "reward_signal": 0.245,
-          "yield_adjustment": 0.113
-        },
-        "key_yield_adjustment": 0.113,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {

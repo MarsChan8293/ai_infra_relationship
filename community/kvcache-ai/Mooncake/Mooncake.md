@@ -1,6 +1,12 @@
 ---
 type: project
 name: Mooncake
+linked_concepts:
+  - "concept/inference/serving/Disaggregated Serving"
+  - "concept/inference/kv-cache/KV Cache Sharing"
+  - "concept/inference/kv-cache/KV Cache Transfer"
+  - "concept/inference/serving/P-D Disaggregation"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 docs: https://github.com/kvcache-ai/Mooncake
 linked_people:
@@ -142,3 +148,16 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[company/趋境科技/趋境科技|趋境科技]]：公司页与社区/项目页均有显式记录；关系：`industry-academia-co-development`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
+- [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
+- [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

@@ -1,6 +1,27 @@
 ---
 type: project
 name: vLLM
+linked_concepts:
+  - "concept/inference/serving/Chunked Prefill"
+  - "concept/inference/parallelism/Context Parallelism"
+  - "concept/inference/serving/Continuous Batching"
+  - "concept/inference/parallelism/Data Parallelism"
+  - "concept/inference/serving/Disaggregated Serving"
+  - "concept/inference/decoding/Draft-Target Decoding"
+  - "concept/inference/parallelism/Expert Parallelism"
+  - "concept/inference/kv-cache/KV Cache"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Transfer"
+  - "concept/inference/decoding/Multi-token Prediction"
+  - "concept/inference/decoding/N-gram Speculation"
+  - "concept/inference/serving/P-D Disaggregation"
+  - "concept/inference/parallelism/Parallelism"
+  - "concept/inference/parallelism/Pipeline Parallelism"
+  - "concept/inference/kv-cache/Prefix Caching"
+  - "concept/inference/decoding/Speculative Decoding"
+  - "concept/inference/parallelism/Tensor Parallelism"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
@@ -154,3 +175,31 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[company/TensorMesh/TensorMesh|TensorMesh]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/serving/Chunked Prefill|Chunked Prefill]]
+- [[concept/inference/parallelism/Context Parallelism|Context Parallelism]]
+- [[concept/inference/serving/Continuous Batching|Continuous Batching]]
+- [[concept/inference/parallelism/Data Parallelism|Data Parallelism]]
+- [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
+- [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]]
+- [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
+- [[concept/inference/kv-cache/KV Cache|KV Cache]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
+- [[concept/inference/decoding/Multi-token Prediction|Multi-token Prediction]]
+- [[concept/inference/decoding/N-gram Speculation|N-gram Speculation]]
+- [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/inference/parallelism/Parallelism|Parallelism]]
+- [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]]
+- [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+- [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
