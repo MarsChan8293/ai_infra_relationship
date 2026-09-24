@@ -1,12 +1,13 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 784,
-  "complete_count": 784,
+  "node_count": 795,
+  "complete_count": 795,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
     "company": 56,
+    "concept": 11,
     "index": 5,
     "model-project": 13,
     "model-team": 1,
@@ -5561,6 +5562,105 @@
       "source_markdown": "concept/concept.md",
       "schema_definition": "schema/index.yaml",
       "schema_instance": "schema/nodes/concept/concept.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache Management",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/KV Cache Management.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/KV Cache Management.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache Offloading",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/KV Cache Offloading.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/KV Cache Offloading.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache Sharing",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/KV Cache Sharing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/KV Cache Sharing.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache Transfer",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/KV Cache Transfer.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/KV Cache Transfer.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/KV Cache.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/KV Cache.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/Prefix Caching",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/Prefix Caching.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/Prefix Caching.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/kv-cache/Tiered KV Cache",
+      "type": "concept",
+      "source_markdown": "concept/inference/kv-cache/Tiered KV Cache.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/kv-cache/Tiered KV Cache.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/serving/Chunked Prefill",
+      "type": "concept",
+      "source_markdown": "concept/inference/serving/Chunked Prefill.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/serving/Chunked Prefill.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/serving/Continuous Batching",
+      "type": "concept",
+      "source_markdown": "concept/inference/serving/Continuous Batching.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/serving/Continuous Batching.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/serving/Disaggregated Serving",
+      "type": "concept",
+      "source_markdown": "concept/inference/serving/Disaggregated Serving.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/serving/Disaggregated Serving.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/serving/P-D Disaggregation",
+      "type": "concept",
+      "source_markdown": "concept/inference/serving/P-D Disaggregation.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/serving/P-D Disaggregation.yaml",
       "status": "complete",
       "missing_required": []
     },
