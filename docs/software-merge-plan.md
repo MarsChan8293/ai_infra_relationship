@@ -367,8 +367,8 @@ metrics / coverage
 ## 5. Software Index 改为自动生成
 
 - [x] relationship 不再人工维护迁入项目的静态列表。
-- [x] 从 project `layer` / `status` 自动生成 Software Project Index。
-- [x] Software Index 已按 canonical layer 分组，覆盖以下筛选维度：
+- [x] Software Project Index 已从“59 项迁移清单驱动”升级为扫描全仓 `company/` / `community/` / `university/` 中所有 canonical `type: project` 节点；历史 59 项清单仅继续承担迁移审计职责。
+- [x] Software Index 保留项目原始 `layer`，同时折叠到稳定的 portal 技术层分组，覆盖以下筛选维度：
   - [x] inference-engine
   - [x] distributed-serving
   - [x] kv-cache / storage
@@ -379,8 +379,8 @@ metrics / coverage
   - [x] scheduler
   - [x] device-resource
   - [x] ecosystem / optimization / benchmark
-- [x] Index 增加 People / Companies 邻接计数与 Graph 深链，项目可直接聚焦到现有 1-hop Graph Explorer。
-- [x] Software Index 通过 `graph-explorer/?focus=<project>` 复用现有 1-hop Explorer，可继续进入人物、公司、学校和社区邻居。
+- [x] Index 增加 exact layer、upstream/source、People / Companies 邻接计数与 Graph 深链，项目可直接聚焦到现有 1-hop Graph Explorer。
+- [x] 新增 `community/Software.md` 作为稳定 Software Portal；它链接全量自动索引、技术层入口、community/upstream 视角与 Graph Explorer，不复制 canonical 项目事实。\n- [x] Software Index 通过 `graph-explorer/?focus=<project>` 复用现有 1-hop Explorer，可继续进入人物、公司、学校和社区邻居。
 - [x] Concept 索引继续由 `ai_infra_docs/software/concepts` 自己维护，不合入 relationship Software Index。
 
 ## 6. Research Planner 接入
@@ -486,7 +486,7 @@ metrics / coverage
 - [x] main 的 `Sync Node Schemas` 已触发并回写 generated artifacts。
 - [x] `generated/software-project-migration-audit.json`：`status: pass`，`mapped: 59`，`errors: []`。
 - [x] `generated/nodes.json` 中 `infra-project` 数量为 0。
-- [x] `generated/software-project-index.md` 已生成并覆盖 59 个迁移条目。
+- [x] `generated/software-project-index.md` 已升级为全仓 canonical project 自动索引；59 个迁移条目仍由独立 migration audit 保证完整性。
 - [x] `schema/node-manifest.json` 已重建：717 nodes、717 complete、0 incomplete。
 
 ## 10. 完成定义（Definition of Done）
@@ -508,7 +508,7 @@ metrics / coverage
 - [x] models 中现有 software project 引用均命中 59 个保留 redirect；chip 当前无 project 引用。
 - [x] docs 中 software concept 继续留在原仓库，未迁移。
 - [x] main sync workflow 已通过 research planner 单测、全局 DISCOVER/VERIFY 校验与 seeded EXPAND/VERIFY smoke test；`last_verified` freshness 解析 bug 已修复。
-- [x] Software Project Index 已由 `research/software-project-migration.json` + canonical frontmatter 自动生成并落盘，包含 59 个迁移条目及 People/Companies/Graph 入口。
+- [x] Software Project Index 已由全仓 canonical `type: project` Markdown 自动生成并落盘，包含技术层、exact layer、upstream/source、People/Companies/Graph 入口；`research/software-project-migration.json` 不再作为索引枚举源。
 
 ## 11. 明确不做（已遵守的迁移边界）
 
