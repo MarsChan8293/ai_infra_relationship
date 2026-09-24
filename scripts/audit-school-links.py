@@ -313,7 +313,7 @@ def main() -> int:
     for rank, row in enumerate(unknown[:50], 1):
         label = str(row["name"]).replace("|", "\\|")
         lines.append(
-            f"| {rank} | [[{row['id']}|{label}]] | {row['bridge_score']} | {row['degree']} |"
+            f"| {rank} | [[{row['id']}\\|{label}]] | {row['bridge_score']} | {row['degree']} |"
         )
     (generated / "school-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
