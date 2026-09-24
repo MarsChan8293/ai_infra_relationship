@@ -21,6 +21,8 @@ projects:
   - LMCache
   - Mooncake
   - Dynamo
+  - llm-d
+  - MindIE-Motor
 last_verified: 2026-09
 ---
 
@@ -56,7 +58,7 @@ Router 还需要完成 P/D worker 选择、容量匹配、handoff metadata 管�
 
 ## 项目实现
 
-[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 experimental Disaggregated Prefilling 与多种 KV connector。[[community/sgl-project/SGLang/SGLang|SGLang]] 支持 Mooncake、NIXL 等 transfer backend。[[community/LMCache/LMCache/LMCache|LMCache]] 可作为 vLLM 的 KV transfer layer。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 提供 Transfer Engine 和 KVCache-centric P/D 架构。[[community/ai-dynamo/Dynamo/Dynamo|Dynamo]] 负责 P/D worker pool、路由和 NIXL transfer orchestration。
+[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 experimental Disaggregated Prefilling 与多种 KV connector。[[community/sgl-project/SGLang/SGLang|SGLang]] 支持 Mooncake、NIXL 等 transfer backend。[[community/LMCache/LMCache/LMCache|LMCache]] 可作为 vLLM 的 KV transfer layer。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 提供 Transfer Engine 和 KVCache-centric P/D 架构。[[community/ai-dynamo/Dynamo/Dynamo|Dynamo]] 负责 P/D worker pool、路由和 NIXL transfer orchestration。[[community/llm-d/llm-d/llm-d|llm-d]] 把 disaggregated serving 作为 Kubernetes-native distributed inference 的核心架构能力；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 提供面向昇腾集群的一键式 PD 分离/混部部署、Coordinator 调度和 P/D 实例编排。
 
 ## Sources
 
@@ -65,3 +67,5 @@ Router 还需要完成 P/D worker 选择、容量匹配、handoff metadata 管�
 - https://docs.lmcache.ai/getting_started/quickstart/disaggregated_prefill.html
 - https://kvcache-ai.github.io/Mooncake/
 - https://docs.nvidia.com/dynamo/knowledge-base/modular-components/router/disaggregated-serving
+- https://llm-d.ai/docs/dev/architecture/advanced/disaggregation
+- https://gitcode.com/Ascend/MindIE-Motor/blob/master/docs/zh/user_guide/features/pd_disaggregation.md
