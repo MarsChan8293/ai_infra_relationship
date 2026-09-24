@@ -186,7 +186,7 @@ def main() -> int:
 
     lines = ["# Research Institution → Person Reverse Coverage", "", "由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。", "", f"- Research institution nodes: {len(institutions)}", f"- Institutions with ≥1 linked person: {with_people}", f"- Research-person associations: {associations}", f"- Audit errors: {len(errors)}", "", "| Research institution | Linked people |", "| --- | ---: |"]
     for row in payload["rows"]:
-        lines.append(f"| [[{row['id']}|{row['name']}]] | {row['linked_people']} |")
+        lines.append(f"| [[{row['id']}\\|{row['name']}]] | {row['linked_people']} |")
     (generated / "research-reverse-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Research reverse audit: {len(institutions)} institutions, {associations} research-person links, {with_people} institutions with people, {len(errors)} errors.")
