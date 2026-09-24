@@ -143,10 +143,24 @@ last_verified: 2026-09
 
 目标连接：llm-d、NVIDIA Dynamo、AIBrix、KServe、Gateway API Inference Extension、MindIE-Motor。重点解释普通 round-robin 为什么不足，以及 cache locality、实时负载和弹性控制如何形成完整 scheduling control loop。
 
+#### Batch D2：Communication / Data Movement
+
+- [x] Data Movement
+- [x] Point-to-Point Transfer
+- [x] RDMA
+- [x] GPUDirect RDMA
+- [x] Collective Communication
+- [x] AllReduce
+- [x] AllGather
+- [x] ReduceScatter
+- [x] All-to-All
+- [x] DeepEP ↔ Expert Parallelism / All-to-All bridge
+
+目标连接分成两条数据面：NIXL / Mooncake / MemFabric / UCX 负责 P2P 与远程数据搬运，NCCL / RCCL / FlagCX / VCCL / DeepEP 负责 collective 与 MoE 通信；避免把 transport、collective primitive 和 parallelism strategy 混成同一层。
+
 #### 后续候选域
 
 - kernel / operator：FlashAttention、PagedAttention、GEMM、Grouped GEMM、MoE dispatch/combine。
-- communication：AllReduce、AllGather、All-to-All、RDMA、GPUDirect、collective communication。
 - quantization：weight-only、W8A8、FP8、KV Cache Quantization。
 - compiler：graph compiler、kernel DSL、operator fusion、AOT/JIT。
 - hardware/memory：HBM、CXL、NUMA、memory pooling、hierarchical memory。
@@ -195,4 +209,5 @@ Batch A/B 使用两种边：
 - Batch B2：已完成并合入 main（PR #38）。
 - Batch C1：已完成并合入 main（PR #39）；当前基线为 23 Concepts / 43 assertions / 7 Projects，0 unresolved / 0 mismatch。
 - Batch C2：暂缓 typed relation，等待关系语义能区分 implement / orchestrate / integrate 后再升级。
-- Batch D1：8 个 Inference Scheduling / Routing 控制面概念已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D1：已完成并合入 main（PR #40）；基线提升到 31 Concepts / 80 assertions / 10 Projects，0 unresolved / 0 mismatch。
+- Batch D2：9 个 Communication / Data Movement 概念与 DeepEP ↔ EP bridge 已在独立分支实现，进入 coverage 与 PR 验收。
