@@ -1,23 +1,25 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 23,
-    "concepts_with_projects": 21,
+    "concepts": 31,
+    "concepts_with_projects": 29,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 7,
-    "concept_project_assertions": 43,
+    "projects_with_concepts": 10,
+    "concept_project_assertions": 80,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
   "topic_counts": {
     "decoding": 5,
+    "inference-scheduling": 8,
     "kv-cache": 7,
     "parallelism": 7,
     "serving": 4
   },
   "mapped_topic_counts": {
     "decoding": 4,
+    "inference-scheduling": 8,
     "kv-cache": 7,
     "parallelism": 6,
     "serving": 4
@@ -56,6 +58,72 @@
       "count": 20
     },
     {
+      "id": "community/llm-d/llm-d/llm-d",
+      "name": "llm-d",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Capacity Planning",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 10
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Dynamo",
+      "name": "NVIDIA Dynamo",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 9
+    },
+    {
+      "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "name": "MindIE-Motor",
+      "layer": "runtime",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Capacity Planning",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 8
+    },
+    {
+      "id": "community/vllm-project/AIBrix/AIBrix",
+      "name": "AIBrix",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/LMCache/LMCache/LMCache",
       "name": "LMCache",
       "layer": "kv-cache",
@@ -84,6 +152,19 @@
       "count": 6
     },
     {
+      "id": "community/kserve/KServe/KServe",
+      "name": "KServe",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/kvcache-ai/Mooncake/Mooncake",
       "name": "Mooncake",
       "layer": "kv-cache",
@@ -97,34 +178,16 @@
       "count": 5
     },
     {
-      "id": "community/llm-d/llm-d/llm-d",
-      "name": "llm-d",
+      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "name": "Gateway API Inference Extension",
       "layer": "distributed-serving",
       "concepts": [
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
+        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
       ],
-      "count": 2
-    },
-    {
-      "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "name": "MindIE-Motor",
-      "layer": "runtime",
-      "concepts": [
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 2
-    },
-    {
-      "id": "community/ai-dynamo/Dynamo/Dynamo",
-      "name": "NVIDIA Dynamo",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 2
+      "count": 4
     }
   ],
   "unresolved": [],

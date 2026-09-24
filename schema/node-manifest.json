@@ -1,13 +1,13 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 807,
-  "complete_count": 807,
+  "node_count": 815,
+  "complete_count": 815,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
     "company": 56,
-    "concept": 23,
+    "concept": 31,
     "index": 5,
     "model-project": 13,
     "model-team": 1,
@@ -5733,6 +5733,78 @@
       "source_markdown": "concept/inference/parallelism/Tensor Parallelism.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/inference/parallelism/Tensor Parallelism.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Autoscaling",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Autoscaling.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Autoscaling.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Capacity Planning",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Capacity Planning.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Capacity Planning.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Inference Scheduling",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Inference Scheduling.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Inference Scheduling.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Inference-Aware Routing",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Inference-Aware Routing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Inference-Aware Routing.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/KV-Aware Routing",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/KV-Aware Routing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/KV-Aware Routing.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Load Balancing",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Load Balancing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Load Balancing.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Load-Aware Routing",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Load-Aware Routing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Load-Aware Routing.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/scheduling/Request Routing",
+      "type": "concept",
+      "source_markdown": "concept/inference/scheduling/Request Routing.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/scheduling/Request Routing.yaml",
       "status": "complete",
       "missing_required": []
     },

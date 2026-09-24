@@ -2,8 +2,8 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 23
-- Domains: 1
+- Concepts: 31
+- Domains: 2
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
@@ -53,3 +53,20 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/serving/Continuous Batching|Continuous Batching]] | In-flight Batching, Iteration-level Batching, 连续批处理 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Continuous%20Batching) |
 | [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]] | Disaggregated Inference Serving, 分离式推理服务 |  | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Disaggregated%20Serving) |
 | [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
+
+## Scheduling
+
+8 concepts.
+
+### Inference Scheduling
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
+| [[concept/inference/scheduling/Capacity Planning|Capacity Planning]] | Inference Capacity Planning, LLM Capacity Planning, 容量规划 | Inference Scheduling | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Capacity%20Planning) |
+| [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
+| [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]] | LLM-Aware Routing, Model-Aware Routing, 推理感知路由 | Request Routing | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference-Aware%20Routing) |
+| [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Inference-Aware Routing | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
+| [[concept/inference/scheduling/Load Balancing|Load Balancing]] | Inference Load Balancing, LLM Load Balancing, 负载均衡 | Inference Scheduling | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load%20Balancing) |
+| [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Inference-Aware Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
+| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, 请求路由 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |

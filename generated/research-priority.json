@@ -12,6 +12,80 @@
   "candidate_count": 1881,
   "selected_actions": [
     {
+      "action_id": "community/kserve/KServe/KServe::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kserve/KServe/KServe",
+        "name": "KServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.656,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 9.6,
+        "novelty": 1.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.166,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "bridge 9.6"
+      ],
+      "base_priority": 9.553,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=9.600"
+      }
+    },
+    {
       "action_id": "community/Ascend/CANN/CANN::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -287,80 +361,6 @@
           "transfer_engine_directory_ownership",
           "transfer_engine_maintainers"
         ]
-      }
-    },
-    {
-      "action_id": "community/xLLM-AI/xLLM/xLLM::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/xLLM-AI/xLLM/xLLM",
-        "name": "xLLM",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.25,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 6.35,
-        "novelty": 1.0,
-        "frontier_potential": 0.407,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.166,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, scheduler",
-        "opens underrepresented target types",
-        "bridge 6.3"
-      ],
-      "base_priority": 9.147,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.350"
       }
     },
     {
@@ -869,6 +869,80 @@
     }
   ],
   "candidates": [
+    {
+      "action_id": "community/kserve/KServe/KServe::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/kserve/KServe/KServe",
+        "name": "KServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.656,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 9.6,
+        "novelty": 1.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.166,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "bridge 9.6"
+      ],
+      "base_priority": 9.553,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=9.600"
+      }
+    },
     {
       "action_id": "community/Ascend/CANN/CANN::maintainers",
       "action_key": "project:maintainers:person",
@@ -1653,11 +1727,11 @@
       }
     },
     {
-      "action_id": "community/kserve/KServe/KServe::maintainers",
+      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/kserve/KServe/KServe",
-        "name": "KServe",
+        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+        "name": "Gateway API Inference Extension",
         "type": "project",
         "family": "project"
       },
@@ -1670,8 +1744,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.118,
+      "bucket": "bridge",
+      "priority": 9.152,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1679,14 +1753,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.65,
+        "infra_relevance": 2.6,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 4.935,
+        "bridge_score": 7.335,
         "novelty": 1.0,
-        "frontier_potential": 0.664,
+        "frontier_potential": 0.469,
         "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -1696,10 +1770,11 @@
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 7.3"
       ],
-      "base_priority": 9.015,
+      "base_priority": 9.049,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -1721,8 +1796,8 @@
       },
       "operator": "discover",
       "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
+        "kind": "bridge",
+        "detail": "bridge_score=7.335"
       }
     },
     {
@@ -2121,79 +2196,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.350"
-      }
-    },
-    {
-      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-        "name": "Gateway API Inference Extension",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.985,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 2.85,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.882,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -3343,6 +3345,83 @@
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
+      }
+    },
+    {
+      "action_id": "community/kserve/KServe/KServe::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kserve/KServe/KServe",
+        "name": "KServe",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.573,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 9.6,
+        "novelty": 1.0,
+        "frontier_potential": 0.407,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.166,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "bridge 9.6"
+      ],
+      "base_priority": 8.381,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=9.600"
       }
     },
     {
@@ -5518,6 +5597,83 @@
       }
     },
     {
+      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+        "name": "Gateway API Inference Extension",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.122,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.6,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 7.335,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, distributed",
+        "opens underrepresented target types",
+        "bridge 7.3"
+      ],
+      "base_priority": 7.93,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.335"
+      }
+    },
+    {
       "action_id": "university/清华大学/Jinlei Jiang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -5608,82 +5764,6 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
-      }
-    },
-    {
-      "action_id": "community/kserve/KServe/KServe::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/kserve/KServe/KServe",
-        "name": "KServe",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploration",
-      "priority": 8.097,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.65,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.905,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -5854,79 +5934,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "university/UC San Diego/Hao AI Lab::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/UC San Diego/Hao AI Lab",
-        "name": "Hao AI Lab",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "bridge",
-      "priority": 8.076,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 6.985,
-        "novelty": 1.0,
-        "frontier_potential": 0.429,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.176,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Research Institution",
-        "infra: serving/inference, distributed, disaggregation",
-        "opens underrepresented target types",
-        "bridge 7.0"
-      ],
-      "base_priority": 7.9,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 4,
-          "statuses": {
-            "partial": 2,
-            "success": 2
-          },
-          "mean_status_value": 0.675,
-          "mean_reward": 10.875,
-          "reward_signal": 0.991,
-          "yield_adjustment": 0.176
-        },
-        "key_yield_adjustment": 0.176,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.985"
       }
     }
   ]

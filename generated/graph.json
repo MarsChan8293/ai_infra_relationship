@@ -11956,6 +11956,7 @@
         "type": "project",
         "name": "KServe",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "distributed-serving",
         "status": "active",
         "repository": "https://github.com/kserve/kserve",
@@ -11976,6 +11977,7 @@
         "type": "project",
         "name": "Gateway API Inference Extension",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "distributed-serving",
         "status": "active",
         "repository": "https://github.com/kubernetes-sigs/gateway-api-inference-extension",
@@ -14837,6 +14839,7 @@
         "type": "project",
         "name": "AIBrix",
         "parent": "vLLM Project",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/vllm-project/aibrix",
@@ -21337,6 +21340,149 @@
       }
     },
     {
+      "id": "concept/inference/scheduling/Autoscaling",
+      "path": "concept/inference/scheduling/Autoscaling.md",
+      "name": "Autoscaling",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Autoscaling",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Capacity Planning",
+      "path": "concept/inference/scheduling/Capacity Planning.md",
+      "name": "Capacity Planning",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Capacity Planning",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Inference Scheduling",
+      "path": "concept/inference/scheduling/Inference Scheduling.md",
+      "name": "Inference Scheduling",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Inference Scheduling",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Inference-Aware Routing",
+      "path": "concept/inference/scheduling/Inference-Aware Routing.md",
+      "name": "Inference-Aware Routing",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Inference-Aware Routing",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/KV-Aware Routing",
+      "path": "concept/inference/scheduling/KV-Aware Routing.md",
+      "name": "KV-Aware Routing",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "KV-Aware Routing",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Load Balancing",
+      "path": "concept/inference/scheduling/Load Balancing.md",
+      "name": "Load Balancing",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Load Balancing",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Load-Aware Routing",
+      "path": "concept/inference/scheduling/Load-Aware Routing.md",
+      "name": "Load-Aware Routing",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Load-Aware Routing",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/scheduling/Request Routing",
+      "path": "concept/inference/scheduling/Request Routing.md",
+      "name": "Request Routing",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Request Routing",
+        "aliases": "",
+        "domain": "scheduling",
+        "topic": "inference-scheduling",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "concept/inference/serving/Chunked Prefill",
       "path": "concept/inference/serving/Chunked Prefill.md",
       "name": "Chunked Prefill",
@@ -22135,6 +22281,36 @@
     {
       "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/Capacity Planning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
@@ -24170,6 +24346,41 @@
     {
       "source": "community/ai-dynamo/Dynamo/Dynamo",
       "target": "company/NVIDIA/NVIDIA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ai-dynamo/Dynamo/Dynamo",
+      "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
@@ -27473,6 +27684,51 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/kserve/KServe/KServe",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kserve/KServe/KServe",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kserve/KServe/KServe",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kserve/KServe/KServe",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kserve/KServe/KServe",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/kvcache-ai/KTransformers/Boxin Zhang",
       "target": "community/kvcache-ai/KTransformers/KTransformers",
       "kind": "wikilink"
@@ -29009,6 +29265,46 @@
     },
     {
       "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Capacity Planning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/llm-d/llm-d/llm-d",
       "target": "concept/inference/serving/Disaggregated Serving",
       "kind": "wikilink"
     },
@@ -30405,6 +30701,41 @@
     {
       "source": "community/vllm-project/AIBrix/AIBrix",
       "target": "company/字节跳动/字节跳动",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/AIBrix/AIBrix",
+      "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
@@ -39803,6 +40134,301 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
+      "target": "concept/inference/scheduling/Capacity Planning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Capacity Planning",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Capacity Planning",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Capacity Planning",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Capacity Planning",
+      "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "concept/inference/serving/Continuous Batching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference-Aware Routing",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "concept/inference/kv-cache/KV Cache Sharing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "concept/inference/kv-cache/Prefix Caching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load Balancing",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "concept/inference/scheduling/Inference-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "concept/inference/scheduling/Load Balancing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "concept/inference/scheduling/Load-Aware Routing",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/inference/serving/Chunked Prefill",
       "target": "community/vllm-project/vLLM/vLLM",
       "kind": "wikilink"
@@ -46104,15 +46730,15 @@
       "bridge_score": 2.5
     },
     "community/Ascend/MindIE-Motor/MindIE-Motor": {
-      "degree": 12,
-      "cross_category_degree": 4,
+      "degree": 18,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 11.1
+      "bridge_score": 13.748
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
       "degree": 9,
@@ -47156,15 +47782,15 @@
       "bridge_score": 5.672
     },
     "community/ai-dynamo/Dynamo/Dynamo": {
-      "degree": 29,
-      "cross_category_degree": 4,
+      "degree": 36,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 12.307
+      "bridge_score": 15.059
     },
     "community/ai-dynamo/Dynamo/Ishan Dhanani": {
       "degree": 4,
@@ -48187,21 +48813,23 @@
       "bridge_score": 0.0
     },
     "community/kserve/KServe/KServe": {
-      "degree": 2,
-      "cross_category_degree": 1,
+      "degree": 7,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
+        "concept",
         "root"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 9.6
     },
     "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension": {
-      "degree": 1,
-      "cross_category_degree": 1,
+      "degree": 5,
+      "cross_category_degree": 5,
       "neighbor_categories": [
+        "concept",
         "root"
       ],
-      "bridge_score": 2.85
+      "bridge_score": 7.335
     },
     "community/kubernetes-sigs/Kueue/Kueue": {
       "degree": 0,
@@ -48656,8 +49284,8 @@
       "bridge_score": 6.157
     },
     "community/llm-d/llm-d/llm-d": {
-      "degree": 33,
-      "cross_category_degree": 10,
+      "degree": 41,
+      "cross_category_degree": 18,
       "neighbor_categories": [
         "community",
         "company",
@@ -48665,7 +49293,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 16.087
+      "bridge_score": 19.192
     },
     "community/llm-d/llm-d/张家驹 Jiaju Zhang": {
       "degree": 4,
@@ -49096,14 +49724,15 @@
       "bridge_score": 5.672
     },
     "community/vllm-project/AIBrix/AIBrix": {
-      "degree": 15,
-      "cross_category_degree": 2,
+      "degree": 22,
+      "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 9.2
+      "bridge_score": 13.674
     },
     "community/vllm-project/AIBrix/CYJiang": {
       "degree": 5,
@@ -51234,13 +51863,13 @@
       "bridge_score": 6.507
     },
     "concept/inference/kv-cache/KV Cache Sharing": {
-      "degree": 6,
+      "degree": 7,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 6.7
     },
     "concept/inference/kv-cache/KV Cache Transfer": {
       "degree": 10,
@@ -51252,22 +51881,22 @@
       "bridge_score": 7.509
     },
     "concept/inference/kv-cache/KV Cache": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.7
+      "bridge_score": 6.87
     },
     "concept/inference/kv-cache/Prefix Caching": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.7
+      "bridge_score": 6.87
     },
     "concept/inference/kv-cache/Tiered KV Cache": {
       "degree": 7,
@@ -51340,6 +51969,78 @@
       ],
       "bridge_score": 6.157
     },
+    "concept/inference/scheduling/Autoscaling": {
+      "degree": 8,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.92
+    },
+    "concept/inference/scheduling/Capacity Planning": {
+      "degree": 4,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.022
+    },
+    "concept/inference/scheduling/Inference Scheduling": {
+      "degree": 8,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.57
+    },
+    "concept/inference/scheduling/Inference-Aware Routing": {
+      "degree": 8,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.92
+    },
+    "concept/inference/scheduling/KV-Aware Routing": {
+      "degree": 11,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.335
+    },
+    "concept/inference/scheduling/Load Balancing": {
+      "degree": 10,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.559
+    },
+    "concept/inference/scheduling/Load-Aware Routing": {
+      "degree": 8,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.57
+    },
+    "concept/inference/scheduling/Request Routing": {
+      "degree": 11,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.685
+    },
     "concept/inference/serving/Chunked Prefill": {
       "degree": 3,
       "cross_category_degree": 1,
@@ -51350,13 +52051,13 @@
       "bridge_score": 5.35
     },
     "concept/inference/serving/Continuous Batching": {
-      "degree": 3,
+      "degree": 4,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 5.672
     },
     "concept/inference/serving/Disaggregated Serving": {
       "degree": 8,
@@ -51368,13 +52069,13 @@
       "bridge_score": 8.27
     },
     "concept/inference/serving/P-D Disaggregation": {
-      "degree": 11,
+      "degree": 12,
       "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.035
+      "bridge_score": 9.15
     }
   }
 }
