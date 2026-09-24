@@ -186,7 +186,7 @@ for (const source of records) {
     if (resolved.record) {
       resolvedLinks += 1
       const display = explicitAlias || path.posix.basename(normalizeTarget(targetRaw)) || resolved.record.originalBase
-      return `[[${resolved.record.relNoExt}${anchor}|${display}]]`
+      return `[[${resolved.record.relNoExt}${anchor}\\|${display}]]`
     }
 
     unresolvedLinks += 1
