@@ -8,7 +8,7 @@
 - `university/`：高校、实验室和研究机构，用于表达导师学生、同学、同门、访问研究和人才培养关系。
 - 根目录保留本总索引；三个英文目录作为唯一一级分类结构，不再维护重复的中文镜像目录。
 
-对应分类入口：[[company]] · [[community]] · [[university]]
+对应分类入口：[[company]] · [[community]] · [[community/Software|Software]] · [[university]]
 
 ## 命名规则
 - 不使用 `README.md` 作为图谱实体节点。
