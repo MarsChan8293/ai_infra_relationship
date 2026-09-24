@@ -112,7 +112,7 @@ def main() -> int:
         "| --- | ---: |",
     ]
     for row in sorted_rows:
-        lines.append(f"| [[{row['id']}|{row['school']}]] | {row['linked_people']} |")
+        lines.append(f"| [[{row['id']}\\|{row['school']}]] | {row['linked_people']} |")
     (generated / "school-reverse-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(
