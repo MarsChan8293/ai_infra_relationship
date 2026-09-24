@@ -1,14 +1,15 @@
 # AI Infra Relationship
 
-这是一个面向 Obsidian 的 AI Infrastructure + Frontier Model Labs 人才、社区、公司、学校与项目关系图谱。
+这是一个面向 Obsidian 的 AI Infrastructure + Frontier Model Labs 人才、社区、公司、学校、项目与技术概念关系图谱。
 
 ## 一级目录结构
 - `company/`：模型公司、云厂商、AI Infra 创业公司与平台公司。
 - `community/`：开源推理引擎、GPU/NPU kernel、KV Cache、数据传输、Kubernetes serving、异构计算等社区与技术项目。
 - `university/`：高校、实验室和研究机构，用于表达导师学生、同学、同门、访问研究和人才培养关系。
-- 根目录保留本总索引；三个英文目录作为唯一一级分类结构，不再维护重复的中文镜像目录。
+- `concept/`：AI Infra 技术概念、机制、细分概念与相邻概念，用于回答“技术是什么、为什么存在、与哪些实现相连”。
+- 根目录保留本总索引；四个英文目录作为唯一一级分类结构，不再维护重复的中文镜像目录。
 
-对应分类入口：[[company]] · [[community]] · [[community/Software|Software]] · [[university]]
+对应分类入口：[[company]] · [[community]] · [[community/Software|Software]] · [[university]] · [[concept]]
 
 ## 命名规则
 - 不使用 `README.md` 作为图谱实体节点。
@@ -74,6 +75,16 @@
 `https://...`  
 `## 主要维护者 / 组织`  
 `...`
+
+## 技术概念节点硬规则
+每个 `type: concept` 节点描述稳定的技术机制，而不是某个项目的产品说明。一个概念页至少回答：
+- **解决什么问题**：它消除哪类计算、内存、通信、调度或工程瓶颈。
+- **核心机制**：数据流、控制流或算法上到底发生了什么。
+- **边界与代价**：什么场景有效，主要开销和容易混淆的相邻概念是什么。
+- **概念关系**：通过 canonical 双链连接父概念、子概念和相关概念；缩写只作为 aliases，不重复建节点。
+- **实现连接**：列出有直接公开证据实现/使用该机制的 canonical project；Concept 描述 mechanism，Project 描述 implementation。
+
+Concept 的 frontmatter 保持精简，详细公式、版本行为、实验数据和长篇教程留在正文或外部专题文档。新增概念必须优先复用已有 canonical 名称，避免把 TP / Tensor Parallelism、PD 分离 / P-D Disaggregation 等同义词拆成多个节点。
 
 ## 图谱完整性检查
 每次 BFS 扩张或批量补节点后，至少检查以下四项：

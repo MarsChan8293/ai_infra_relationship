@@ -9,6 +9,7 @@ on:
       - "company/**/*.md"
       - "community/**/*.md"
       - "university/**/*.md"
+      - "concept/**/*.md"
       - "research/action-history.json"
       - "research/software-project-migration.json"
       - "research/project-area-normalization.json"
@@ -33,6 +34,7 @@ on:
       - "scripts/audit-company-community-links.py"
       - "scripts/generate-node-schemas.py"
       - "scripts/generate-software-project-index.py"
+      - "scripts/generate-concept-index.py"
       - "scripts/migrate-legacy-education.py"
       - "scripts/repair-markdown-quality.py"
       - "scripts/repair-markdown-safe.py"
@@ -96,6 +98,9 @@ jobs:
 
       - name: Generate software project index
         run: python3 scripts/generate-software-project-index.py --root . --output generated/software-project-index.md
+
+      - name: Generate concept index
+        run: python3 scripts/generate-concept-index.py --root . --output generated/concept-index.md
 
       - name: Test research-action history planner
         run: python3 scripts/test-research-history.py
@@ -189,7 +194,7 @@ jobs:
         run: |
           TRACKED=(
             'AI Infra Relationship.md'
-            company community university
+            company community university concept
             schema/nodes schema/node-manifest.json
             generated/nodes.json generated/edges.json generated/metrics.json
             generated/audit.json generated/graph.json
@@ -203,7 +208,7 @@ jobs:
             generated/research-reverse-coverage.md generated/research-reverse-coverage.json
             generated/company-community-coverage.md generated/company-community-coverage.json
             generated/software-project-migration-audit.md generated/software-project-migration-audit.json
-            generated/software-project-index.md
+            generated/software-project-index.md generated/concept-index.md
           )
 
           if [[ -z "$(git status --porcelain -- "${TRACKED[@]}")" ]]; then

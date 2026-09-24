@@ -18,6 +18,11 @@ node_schemas:
     file: schema/project.yaml
     source: explicit-frontmatter
     canonical: true
+  concept:
+    file: schema/concept.yaml
+    source: explicit-frontmatter
+    canonical: true
+    content_root: concept
   project-collection:
     file: schema/project-collection.yaml
     source: explicit-frontmatter
@@ -93,6 +98,7 @@ coverage_policy:
     - person-link
     - company
     - project
+    - concept
     - project-collection
     - community
     - school

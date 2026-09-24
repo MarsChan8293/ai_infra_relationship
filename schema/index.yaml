@@ -15,7 +15,7 @@ fields:
     description: Display name, normally derived from the file basename or heading when frontmatter is absent.
   category:
     type: string
-    enum: [root, company, community, university]
+    enum: [root, company, community, university, concept]
     description: Top-level navigation category.
 notes:
   - Index nodes are navigation surfaces rather than factual entities.

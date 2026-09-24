@@ -1,5 +1,7 @@
 # ai_infra_docs/software → ai_infra_relationship 迁移计划
 
+> 历史边界说明（2026-09-25）：本计划中“Concept 不迁入 relationship”的约束只描述 2026-09-19 完成的 Software Project 迁移阶段。新的 Concept canonical/ontology 方案由 [[docs/concept-ontology-plan|Concept Ontology 分批实施计划]] 接管并明确覆盖该旧边界；本文件其余勾选项继续作为历史迁移记录。
+
 > 目标：仅将 `ai_infra_docs/software/projects` 中的软件项目事实并入本仓库，使 `ai_infra_relationship` 形成更完整的 **Person ↔ Organization ↔ Project** AI Infra 生态图谱，同时保留项目自身的技术元数据。
 >
 > 原则：**只迁 Project，不迁 Concept；先统一 schema，再迁 canonical entity；先建立兼容层，再删除重复项目内容。**

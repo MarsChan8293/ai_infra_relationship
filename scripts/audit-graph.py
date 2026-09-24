@@ -38,8 +38,8 @@ PROJECT_V3_LEGACY_FIELDS = {
     "upstream_org": "companies/community-or-body",
 }
 
-NODE_ROOTS = ("company", "community", "university")
-INDEX_BASENAMES = {"company", "community", "university"}
+NODE_ROOTS = ("company", "community", "university", "concept")
+INDEX_BASENAMES = {"company", "community", "university", "concept"}
 
 
 def norm(value: str) -> str:
@@ -315,7 +315,7 @@ def main() -> int:
             "neighbor_categories": sorted(categories),
             "bridge_score": bridge_score,
         }
-        if record["type"] in {"person", "person-link", "project", "company", "university"} and degree == 0:
+        if record["type"] in {"person", "person-link", "project", "concept", "company", "university"} and degree == 0:
             warnings.append({"kind": "orphan-node", "source": record["path"]})
 
     # Connected components help spot accidental islands without requiring networkx.

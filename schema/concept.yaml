@@ -1,0 +1,60 @@
+schema: ai-infra-relationship/concept-v1
+status: active
+required:
+  - type
+  - name
+  - domain
+recommended:
+  - aliases
+  - topic
+  - parent_concepts
+  - related_concepts
+  - projects
+  - last_verified
+fields:
+  type:
+    const: concept
+  name:
+    type: string
+    description: Canonical technical concept name. Prefer the widely used English technical term; Chinese and abbreviations belong in aliases.
+  aliases:
+    type: array[string]
+    description: Search aliases, abbreviations, Chinese names, or common spelling variants. Aliases never create another canonical node.
+  domain:
+    type: string
+    enum:
+      - inference
+      - training
+      - memory
+      - communication
+      - scheduling
+      - kernel
+      - compiler
+      - quantization
+      - distributed-systems
+      - hardware
+      - data
+      - other
+    description: Stable primary technical domain used for navigation.
+  topic:
+    type: string
+    description: Optional fine-grained grouping such as kv-cache, serving, decoding, or parallelism.
+  parent_concepts:
+    type: array[string]
+    description: Immediate canonical parent concepts. Keep the hierarchy shallow and technically meaningful.
+  related_concepts:
+    type: array[string]
+    description: Canonical adjacent concepts that are not strict parent/child relations.
+  projects:
+    type: array[string]
+    description: Canonical projects with direct public evidence implementing or exposing this mechanism. The Markdown body must explain the connection.
+  last_verified:
+    type: string
+    pattern: YYYY-MM
+    description: Freshness marker for implementation/project mapping facts on this page.
+notes:
+  - Concept describes mechanism; Project describes implementation.
+  - One mechanism gets one canonical node. Acronyms and translations belong in aliases.
+  - parent_concepts and related_concepts are navigation metadata; body wikilinks remain the graph-visible source during the first migration batches.
+  - Do not infer project support from shared keywords. Project links need direct documentation, code, paper, or release evidence.
+  - Long tutorials may live elsewhere, but this repository owns the canonical lightweight ontology node once a concept is migrated here.

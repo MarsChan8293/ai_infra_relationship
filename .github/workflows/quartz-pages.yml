@@ -82,6 +82,9 @@ jobs:
       - name: Generate software project index
         run: python3 scripts/generate-software-project-index.py --root . --output generated/software-project-index.md
 
+      - name: Generate concept index
+        run: python3 scripts/generate-concept-index.py --root . --output generated/concept-index.md
+
       - name: Generate full node schema instances
         run: |
           python3 scripts/generate-node-schemas.py \
@@ -111,6 +114,7 @@ jobs:
           cp -R company "$QUARTZ_DIR/content/company"
           cp -R community "$QUARTZ_DIR/content/community"
           cp -R university "$QUARTZ_DIR/content/university"
+          cp -R concept "$QUARTZ_DIR/content/concept"
           cp generated/research-queue.md "$QUARTZ_DIR/content/generated/research-queue.md"
           cp generated/typed-relation-coverage.md "$QUARTZ_DIR/content/generated/typed-relation-coverage.md"
           cp generated/school-coverage.md "$QUARTZ_DIR/content/generated/school-coverage.md"
@@ -119,6 +123,7 @@ jobs:
           cp generated/research-reverse-coverage.md "$QUARTZ_DIR/content/generated/research-reverse-coverage.md"
           cp generated/company-community-coverage.md "$QUARTZ_DIR/content/generated/company-community-coverage.md"
           cp generated/software-project-index.md "$QUARTZ_DIR/content/generated/software-project-index.md"
+          cp generated/concept-index.md "$QUARTZ_DIR/content/generated/concept-index.md"
           cp generated/software-project-migration-audit.md "$QUARTZ_DIR/content/generated/software-project-migration-audit.md"
 
           echo "Staged Markdown files: $(find "$QUARTZ_DIR/content" -type f -name '*.md' | wc -l)"

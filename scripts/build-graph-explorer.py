@@ -198,8 +198,8 @@ const data=await fetch('./data.json').then(r=>r.json());
 const nodes=data.nodes,edges=data.edges,byId=new Map(nodes.map(n=>[n.id,n]));
 const adj=new Map(nodes.map(n=>[n.id,[]]));
 for(const e of edges){adj.get(e.source)?.push({id:e.target,edge:e});adj.get(e.target)?.push({id:e.source,edge:e});}
-const colors={person:'#4f7da5',company:'#a36b47',project:'#5f8b62',university:'#8a6faf','person-link':'#7f8c8d',index:'#999',note:'#999',other:'#999'};
-const typeNames={person:'人物',company:'公司',project:'项目',university:'高校/研究机构','person-link':'人物镜像',index:'索引',note:'笔记',other:'其他'};
+const colors={person:'#4f7da5',company:'#a36b47',project:'#5f8b62',concept:'#8a7650',university:'#8a6faf','person-link':'#7f8c8d',index:'#999',note:'#999',other:'#999'};
+const typeNames={person:'人物',company:'公司',project:'项目',concept:'概念',university:'高校/研究机构','person-link':'人物镜像',index:'索引',note:'笔记',other:'其他'};
 const nodeTypes=[...new Set(nodes.map(n=>n.type||'other'))].sort();
 const relationTypes=[...new Set(edges.flatMap(e=>e.types||['wikilink']))].sort((a,b)=>a==='wikilink'?1:b==='wikilink'?-1:a.localeCompare(b));
 const defaultTypes=new Set(nodeTypes.filter(t=>!['index','note','person-link'].includes(t)));
