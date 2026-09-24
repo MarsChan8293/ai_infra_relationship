@@ -20984,6 +20984,14 @@
         "city": "Shenzhen",
         "last_verified": "2026-09"
       }
+    },
+    {
+      "id": "concept/concept",
+      "path": "concept/concept.md",
+      "name": "concept",
+      "type": "index",
+      "category": "concept",
+      "frontmatter": {}
     }
   ],
   "edges": [
@@ -21175,6 +21183,11 @@
     {
       "source": "AI Infra Relationship",
       "target": "company/阿里巴巴/阿里巴巴",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "concept/concept",
       "kind": "wikilink"
     },
     {
@@ -38763,6 +38776,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/concept",
+      "target": "community/Software",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/Binghamton University/Binghamton University",
       "target": "community/ai-dynamo/Dynamo/Ryan McCormick",
       "kind": "wikilink"
@@ -43000,14 +43018,15 @@
   ],
   "metrics": {
     "AI Infra Relationship": {
-      "degree": 39,
-      "cross_category_degree": 39,
+      "degree": 40,
+      "cross_category_degree": 40,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 23.472
+      "bridge_score": 25.358
     },
     "company/AMD/AMD": {
       "degree": 10,
@@ -45961,13 +45980,14 @@
       "bridge_score": 4.935
     },
     "community/Software": {
-      "degree": 2,
-      "cross_category_degree": 1,
+      "degree": 3,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "concept",
         "root"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 7.2
     },
     "community/Tencent/HPC-Ops/HPC-Ops": {
       "degree": 1,
@@ -49987,6 +50007,15 @@
         "university"
       ],
       "bridge_score": 4.307
+    },
+    "concept/concept": {
+      "degree": 2,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 5.285
     }
   }
 }
