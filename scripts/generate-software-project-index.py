@@ -71,7 +71,7 @@ def main():
             focus=quote(r["name"],safe="")
             graph=f"https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus={focus}"
             lines.append(
-                f"| [[{r['path']}|{r['name']}]] | {r['status']} | {areas} | "
+                f"| [[{r['path']}]] | {r['status']} | {areas} | "
                 f"{len(r['integrations'])} | {len(r['linked_people'])} | "
                 f"{len(r['linked_companies'])} | [Graph]({graph}) |"
             )
