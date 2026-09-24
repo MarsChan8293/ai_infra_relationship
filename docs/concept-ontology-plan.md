@@ -130,11 +130,23 @@ last_verified: 2026-09
 
 ### Batch D：扩展到更完整 AI Infra Ontology
 
-候选域：
+#### Batch D1：Inference Scheduling / Routing Control Plane
+
+- [x] Inference Scheduling
+- [x] Request Routing
+- [x] Inference-Aware Routing
+- [x] KV-Aware Routing
+- [x] Load-Aware Routing
+- [x] Load Balancing
+- [x] Autoscaling
+- [x] Capacity Planning
+
+目标连接：llm-d、NVIDIA Dynamo、AIBrix、KServe、Gateway API Inference Extension、MindIE-Motor。重点解释普通 round-robin 为什么不足，以及 cache locality、实时负载和弹性控制如何形成完整 scheduling control loop。
+
+#### 后续候选域
 
 - kernel / operator：FlashAttention、PagedAttention、GEMM、Grouped GEMM、MoE dispatch/combine。
 - communication：AllReduce、AllGather、All-to-All、RDMA、GPUDirect、collective communication。
-- scheduling：request routing、load balancing、prefill/decode scheduling、gang scheduling。
 - quantization：weight-only、W8A8、FP8、KV Cache Quantization。
 - compiler：graph compiler、kernel DSL、operator fusion、AOT/JIT。
 - hardware/memory：HBM、CXL、NUMA、memory pooling、hierarchical memory。
@@ -181,5 +193,6 @@ Batch A/B 使用两种边：
 - Batch A：已完成并合入 main。
 - Batch B1：已完成并合入 main（PR #37）。
 - Batch B2：已完成并合入 main（PR #38）。
-- Batch C1：Project ↔ Concept 单源同步、coverage 审计与第一轮 llm-d / MindIE-Motor 缺口修复正在独立分支实施。
-- Batch C2 / D：待 C1 coverage 数据稳定后继续。
+- Batch C1：已完成并合入 main（PR #39）；当前基线为 23 Concepts / 43 assertions / 7 Projects，0 unresolved / 0 mismatch。
+- Batch C2：暂缓 typed relation，等待关系语义能区分 implement / orchestrate / integrate 后再升级。
+- Batch D1：8 个 Inference Scheduling / Routing 控制面概念已在独立分支实现，进入 coverage 与 PR 验收。
