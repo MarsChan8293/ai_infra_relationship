@@ -86,4 +86,4 @@
 [[OpenAI]] · [[深度求索]] · [[阿里巴巴]]（[[Qwen|通义千问]]） · [[月之暗面]] · [[智谱]]
 
 ## AI Infra
-[[vLLM]] · [[vLLM Production Stack]] · [[SGLang]] · [[xLLM]] · [[xLLM-service]] · [[TokenSpeed]] · [[FlashInfer]] · [[LMCache]] · [[Mooncake]] · [[Dynamo]] · [[NIXL]] · [[llm-d]] · [[TensorRT-LLM]] · [[KTransformers]] · [[AIBrix]] · [[HAMi]] · [[vLLM-Ascend]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[openYuanRong]] · [[YuanRong DataSystem]]
+[[GPUStack]] · [[vLLM]] · [[vLLM Production Stack]] · [[SGLang]] · [[xLLM]] · [[xLLM-service]] · [[TokenSpeed]] · [[FlashInfer]] · [[LMCache]] · [[Mooncake]] · [[Dynamo]] · [[NIXL]] · [[llm-d]] · [[AIBrix]] · [[KServe]] · [[Gateway API Inference Extension]] · [[Ray Serve]] · [[BentoML]] · [[TensorRT-LLM]] · [[KTransformers]] · [[HAMi]] · [[vLLM-Ascend]] · [[ops-transformer]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[openYuanRong]] · [[YuanRong DataSystem]]
