@@ -14,6 +14,7 @@ related_concepts:
   - Tensor Parallelism
 projects:
   - vLLM
+  - DeepEP
 last_verified: 2026-09
 ---
 
@@ -45,7 +46,13 @@ EP 的关键瓶颈不是只有 expert GEMM，还包括 token dispatch、All-to-A
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 提供 Expert Parallel Deployment，并包含 EPLB / expert load balancing 相关能力。
 
+## 通信实现
+
+[[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] 是面向 MoE Expert Parallel 的专用通信库，以 [[All-to-All]] 语义实现 token dispatch / combine，并针对训练、Prefill 与低延迟 Decode 提供不同通信路径。
+
 ## Sources
+
+- https://github.com/deepseek-ai/DeepEP
 
 - https://docs.vllm.ai/en/latest/serving/expert_parallel_deployment/
 - https://docs.vllm.ai/en/latest/api/vllm/config/parallel/
