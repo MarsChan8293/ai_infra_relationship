@@ -498,7 +498,7 @@ def main() -> int:
     for rank, row in enumerate(migration_queue[:40], 1):
         label = str(row["name"]).replace("|", "\\|")
         lines.append(
-            f"| {rank} | [[{row['id']}|{label}]] | {row['bridge_score']:.3f} | {row['degree']} | {row['person_links']} | {row['typed_person_relations']} |"
+            f"| {rank} | [[{row['id']}\\|{label}]] | {row['bridge_score']:.3f} | {row['degree']} | {row['person_links']} | {row['typed_person_relations']} |"
         )
 
     lines.extend([
@@ -511,7 +511,7 @@ def main() -> int:
     for row in [r for r in coverage_rows if r["typed_person_relations"] > 0][:30]:
         label = str(row["name"]).replace("|", "\\|")
         lines.append(
-            f"| [[{row['id']}|{label}]] | {row['bridge_score']:.3f} | {row['person_links']} | {row['typed_person_relations']} | {row['typed_person_link_coverage']:.1%} |"
+            f"| [[{row['id']}\\|{label}]] | {row['bridge_score']:.3f} | {row['person_links']} | {row['typed_person_relations']} | {row['typed_person_link_coverage']:.1%} |"
         )
 
     (generated / "typed-relation-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
