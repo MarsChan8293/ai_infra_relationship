@@ -215,4 +215,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${TRACKED[@]}"
           git commit -m "chore(graph): sync graph artifacts and reverse links"
+
+          # Other human or bot commits may land while this relatively long sync job is
+          # running. Rebase the generated commit onto the latest main before pushing so
+          # derived-artifact synchronization does not fail only because main advanced.
+          git pull --rebase origin main
           git push origin HEAD:main
