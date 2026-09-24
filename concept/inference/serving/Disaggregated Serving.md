@@ -14,6 +14,8 @@ projects:
   - Mooncake
   - vLLM
   - SGLang
+  - llm-d
+  - MindIE-Motor
 last_verified: 2026-09
 ---
 
@@ -41,7 +43,7 @@ Disaggregated Serving 是更宽的系统架构概念，并不只等于 P/D。未
 
 ## 项目实现
 
-[[community/ai-dynamo/Dynamo/Dynamo|Dynamo]] 把 disaggregated serving 作为核心部署模式，可独立管理 prefill/decode worker pool。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 从 KVCache-centric disaggregated architecture 出发拆分 prefill/decode cluster。[[community/vllm-project/vLLM/vLLM|vLLM]] 和 [[community/sgl-project/SGLang/SGLang|SGLang]] 均提供 P/D disaggregation 能力。
+[[community/ai-dynamo/Dynamo/Dynamo|Dynamo]] 把 disaggregated serving 作为核心部署模式，可独立管理 prefill/decode worker pool。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 从 KVCache-centric disaggregated architecture 出发拆分 prefill/decode cluster。[[community/vllm-project/vLLM/vLLM|vLLM]] 和 [[community/sgl-project/SGLang/SGLang|SGLang]] 均提供 P/D disaggregation 能力。[[community/llm-d/llm-d/llm-d|llm-d]] 在 Kubernetes serving 层实现 disaggregated serving；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 则在昇腾集群控制面提供 PD 分离/混部部署与调度。
 
 ## Sources
 
@@ -49,3 +51,5 @@ Disaggregated Serving 是更宽的系统架构概念，并不只等于 P/D。未
 - https://kvcache-ai.github.io/Mooncake/
 - https://docs.vllm.ai/en/latest/features/disagg_prefill/
 - https://docs.sglang.ai/backend/pd_disaggregation.html
+- https://llm-d.ai/docs/dev/architecture/advanced/disaggregation
+- https://gitcode.com/Ascend/MindIE-Motor
