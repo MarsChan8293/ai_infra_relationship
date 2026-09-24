@@ -2,6 +2,7 @@
 type: project
 name: xLLM
 status: active
+linked_people: []
 repository: https://github.com/xLLM-AI/xllm
 docs: https://docs.xllm-ai.com/
 last_verified: "2026-09"
@@ -23,6 +24,7 @@ hardware:
 integrations:
   - "Mooncake"
   - "xLLM-service"
+linked_companies: []
 ---
 # xLLM
 

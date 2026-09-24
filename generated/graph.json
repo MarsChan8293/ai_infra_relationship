@@ -15017,6 +15017,26 @@
       }
     },
     {
+      "id": "community/vllm-project/production-stack/vLLM Production Stack",
+      "path": "community/vllm-project/production-stack/vLLM Production Stack.md",
+      "name": "vLLM Production Stack",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "vLLM Production Stack",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/vllm-project/production-stack",
+        "docs": "https://docs.vllm.ai/projects/production-stack",
+        "last_verified": "2026-09",
+        "layer": "distributed-serving",
+        "areas": "",
+        "integrations": "",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/vllm-project/vLLM/Chen Zhang",
       "path": "community/vllm-project/vLLM/Chen Zhang.md",
       "name": "Chen Zhang",
@@ -16395,6 +16415,47 @@
         "confidence": "verified",
         "last_verified": "2026-09",
         "relations": ""
+      }
+    },
+    {
+      "id": "community/xLLM-AI/xLLM/xLLM",
+      "path": "community/xLLM-AI/xLLM/xLLM.md",
+      "name": "xLLM",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "xLLM",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/xLLM-AI/xllm",
+        "docs": "https://docs.xllm-ai.com/",
+        "last_verified": "2026-09",
+        "layer": "inference-engine",
+        "areas": "",
+        "hardware": "",
+        "integrations": "",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "path": "community/xLLM-AI/xLLM-service/xLLM-service.md",
+      "name": "xLLM-service",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "xLLM-service",
+        "parent": "xLLM",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/xLLM-AI/xllm-service",
+        "last_verified": "2026-09",
+        "layer": "distributed-serving",
+        "areas": "",
+        "integrations": "",
+        "linked_companies": []
       }
     },
     {
@@ -20970,12 +21031,32 @@
     },
     {
       "source": "AI Infra Relationship",
+      "target": "community/bentoml/BentoML/BentoML",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
       "target": "community/community",
       "kind": "wikilink"
     },
     {
       "source": "AI Infra Relationship",
       "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/gpustack/GPUStack/GPUStack",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
       "kind": "wikilink"
     },
     {
@@ -21000,6 +21081,21 @@
     },
     {
       "source": "AI Infra Relationship",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/openEuler/openYuanRong/openYuanRong",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/ray-project/Ray-Serve/Ray-Serve",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
     },
@@ -21010,12 +21106,27 @@
     },
     {
       "source": "AI Infra Relationship",
+      "target": "community/vllm-project/production-stack/vLLM Production Stack",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
       "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "kind": "wikilink"
     },
     {
       "source": "AI Infra Relationship",
       "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "kind": "wikilink"
+    },
+    {
+      "source": "AI Infra Relationship",
+      "target": "community/xLLM-AI/xLLM/xLLM",
       "kind": "wikilink"
     },
     {
@@ -29889,6 +30000,36 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/kserve/KServe/KServe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/vllm-project/vLLM-Ascend/Levi-JQ",
       "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "kind": "wikilink"
@@ -31606,6 +31747,61 @@
     {
       "source": "community/volcano-sh/Volcano/Zhonghu Xu",
       "target": "community/volcano-sh/Volcano/Volcano",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "target": "community/vllm-project/AIBrix/AIBrix",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM-service/xLLM-service",
+      "target": "community/xLLM-AI/xLLM/xLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/Ascend/MindIE-LLM/MindIE-LLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/xLLM-AI/xLLM/xLLM",
+      "target": "community/xLLM-AI/xLLM-service/xLLM-service",
       "kind": "wikilink"
     },
     {
@@ -42781,14 +42977,14 @@
   ],
   "metrics": {
     "AI Infra Relationship": {
-      "degree": 28,
-      "cross_category_degree": 28,
+      "degree": 38,
+      "cross_category_degree": 38,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 19.158
+      "bridge_score": 23.085
     },
     "company/AMD/AMD": {
       "degree": 10,
@@ -44701,14 +44897,14 @@
       "bridge_score": 6.935
     },
     "community/Ascend/MindIE-LLM/MindIE-LLM": {
-      "degree": 9,
+      "degree": 10,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 8.522
+      "bridge_score": 8.659
     },
     "community/Ascend/MindIE-Motor/LinWei100": {
       "degree": 1,
@@ -44719,14 +44915,14 @@
       "bridge_score": 2.5
     },
     "community/Ascend/MindIE-Motor/MindIE-Motor": {
-      "degree": 9,
+      "degree": 10,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 8.522
+      "bridge_score": 8.659
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
       "degree": 9,
@@ -45067,7 +45263,7 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 38,
+      "degree": 39,
       "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
@@ -45075,7 +45271,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 15.835
+      "bridge_score": 15.872
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -45759,14 +45955,14 @@
       "bridge_score": 5.672
     },
     "community/ai-dynamo/Dynamo/Dynamo": {
-      "degree": 25,
+      "degree": 27,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 9.9
+      "bridge_score": 10.007
     },
     "community/ai-dynamo/Dynamo/Ishan Dhanani": {
       "degree": 4,
@@ -45937,10 +46133,12 @@
       "bridge_score": 6.722
     },
     "community/bentoml/BentoML/BentoML": {
-      "degree": 0,
-      "cross_category_degree": 0,
-      "neighbor_categories": [],
-      "bridge_score": 0.0
+      "degree": 1,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "root"
+      ],
+      "bridge_score": 2.85
     },
     "community/cloud-native/Kubernetes/Kubernetes": {
       "degree": 2,
@@ -46672,13 +46870,14 @@
       "bridge_score": 7.159
     },
     "community/gpustack/GPUStack/GPUStack": {
-      "degree": 16,
-      "cross_category_degree": 3,
+      "degree": 17,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "root"
       ],
-      "bridge_score": 8.137
+      "bridge_score": 10.07
     },
     "community/gpustack/GPUStack/gitlawr": {
       "degree": 2,
@@ -46786,16 +46985,21 @@
       "bridge_score": 0.0
     },
     "community/kserve/KServe/KServe": {
-      "degree": 0,
-      "cross_category_degree": 0,
-      "neighbor_categories": [],
-      "bridge_score": 0.0
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 4.935
     },
     "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension": {
-      "degree": 0,
-      "cross_category_degree": 0,
-      "neighbor_categories": [],
-      "bridge_score": 0.0
+      "degree": 1,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "root"
+      ],
+      "bridge_score": 2.85
     },
     "community/kubernetes-sigs/Kueue/Kueue": {
       "degree": 0,
@@ -46993,7 +47197,7 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 61,
+      "degree": 62,
       "cross_category_degree": 19,
       "neighbor_categories": [
         "community",
@@ -47001,7 +47205,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 18.604
+      "bridge_score": 18.627
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -47249,7 +47453,7 @@
       "bridge_score": 6.157
     },
     "community/llm-d/llm-d/llm-d": {
-      "degree": 29,
+      "degree": 31,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
@@ -47257,7 +47461,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 13.707
+      "bridge_score": 13.8
     },
     "community/llm-d/llm-d/张家驹 Jiaju Zhang": {
       "degree": 4,
@@ -47327,13 +47531,14 @@
       "bridge_score": 7.509
     },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
-      "degree": 7,
-      "cross_category_degree": 1,
+      "degree": 8,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "root"
       ],
-      "bridge_score": 6.35
+      "bridge_score": 8.37
     },
     "community/openEuler/openYuanRong/YuanRong TransferEngine": {
       "degree": 5,
@@ -47345,13 +47550,14 @@
       "bridge_score": 5.935
     },
     "community/openEuler/openYuanRong/openYuanRong": {
-      "degree": 9,
-      "cross_category_degree": 1,
+      "degree": 10,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "root"
       ],
-      "bridge_score": 6.672
+      "bridge_score": 8.659
     },
     "community/openEuler/openYuanRong/梁义 Yi Liang": {
       "degree": 4,
@@ -47392,14 +47598,15 @@
       "bridge_score": 9.25
     },
     "community/ray-project/Ray-Serve/Ray-Serve": {
-      "degree": 9,
-      "cross_category_degree": 4,
+      "degree": 10,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
+        "root",
         "university"
       ],
-      "bridge_score": 9.222
+      "bridge_score": 11.209
     },
     "community/sail-sg/EnvPool/EnvPool": {
       "degree": 1,
@@ -47410,7 +47617,7 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 95,
+      "degree": 96,
       "cross_category_degree": 44,
       "neighbor_categories": [
         "community",
@@ -47418,7 +47625,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 27.985
+      "bridge_score": 28.0
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -47684,14 +47891,14 @@
       "bridge_score": 5.672
     },
     "community/vllm-project/AIBrix/AIBrix": {
-      "degree": 13,
+      "degree": 15,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 9.007
+      "bridge_score": 9.2
     },
     "community/vllm-project/AIBrix/CYJiang": {
       "degree": 5,
@@ -47769,6 +47976,15 @@
         "community"
       ],
       "bridge_score": 2.5
+    },
+    "community/vllm-project/production-stack/vLLM Production Stack": {
+      "degree": 7,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 6.35
     },
     "community/vllm-project/vLLM/Chen Zhang": {
       "degree": 18,
@@ -47928,7 +48144,7 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 117,
+      "degree": 119,
       "cross_category_degree": 52,
       "neighbor_categories": [
         "community",
@@ -47936,7 +48152,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 31.083
+      "bridge_score": 31.107
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -48021,14 +48237,14 @@
       "bridge_score": 3.822
     },
     "community/vllm-project/vLLM-Ascend/vLLM-Ascend": {
-      "degree": 37,
+      "degree": 38,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "root"
       ],
-      "bridge_score": 10.448
+      "bridge_score": 10.485
     },
     "community/vllm-project/vLLM-Ascend/weiguihua2": {
       "degree": 3,
@@ -48190,6 +48406,24 @@
         "community"
       ],
       "bridge_score": 2.5
+    },
+    "community/xLLM-AI/xLLM/xLLM": {
+      "degree": 7,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 6.35
+    },
+    "community/xLLM-AI/xLLM-service/xLLM-service": {
+      "degree": 6,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "root"
+      ],
+      "bridge_score": 6.157
     },
     "community/xPU-IO/Tutti/Tutti": {
       "degree": 8,

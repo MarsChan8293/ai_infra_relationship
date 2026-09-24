@@ -3,6 +3,7 @@ type: project
 name: xLLM-service
 parent: xLLM
 status: active
+linked_people: []
 repository: https://github.com/xLLM-AI/xllm-service
 last_verified: "2026-09"
 layer: distributed-serving
@@ -15,6 +16,7 @@ areas:
   - "fault-tolerance"
 integrations:
   - "xLLM"
+linked_companies: []
 ---
 # xLLM-service
 

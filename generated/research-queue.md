@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1874
+- Candidate actions: 1881
 - Selected actions: 10
 - History records: 727
 
@@ -15,13 +15,13 @@
 | 1 | VERIFY | history_followup | [[community/Ascend/CANN/CANN|CANN]] | project | maintainers | person | exploitation | 9.455 | partial | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 2 | VERIFY | history_followup | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | project | maintainers | person | bridge | 9.271 | unresolved | coverage 0/4；source type Project；infra: serving/inference, moe, quantization；opens underrepresented target types |
 | 3 | VERIFY | history_followup | [[community/openEuler/openYuanRong/YuanRong TransferEngine|YuanRong TransferEngine]] | project | maintainers | person | exploitation | 9.267 | partial | coverage 0/4；source type Project；infra: serving/inference, distributed, ascend；opens underrepresented target types |
-| 4 | VERIFY | history_followup | [[community/Ascend/MindIE-LLM/MindIE-LLM|MindIE-LLM]] | project | maintainers | person | bridge | 9.243 | unresolved | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
+| 4 | DISCOVER | bridge | [[community/xLLM-AI/xLLM/xLLM|xLLM]] | project | maintainers | person | bridge | 9.250 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 5 | VERIFY | history_followup | [[community/Ascend/Ascend/Ascend|Ascend]] | community | core_people | person | exploration | 8.315 | partial | coverage 0/4；source type Community；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 6 | VERIFY | history_followup | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | projects | project, community | exploitation | 8.246 | partial | coverage 0/3；source type Research Institution；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
-| 7 | DISCOVER | bridge | [[university/UC San Diego/Hao AI Lab|Hao AI Lab]] | research | key_people | person | bridge | 8.076 | new | coverage 0/4；source type Research Institution；infra: serving/inference, distributed, disaggregation；opens underrepresented target types |
-| 8 | DISCOVER | coverage_gap | [[community/InfiniTensor/qinyiqun|qinyiqun]] | person | affiliation | company, school, research, team | exploration | 7.828 | new | coverage 0/2；source type Person；infra: serving/inference, distributed, moe；opens underrepresented target types |
-| 9 | DISCOVER | coverage_gap | [[community/InfiniTensor/baominghelly|baominghelly]] | person | affiliation | company, school, research, team | exploitation | 7.815 | new | coverage 0/2；source type Person；infra: kv-cache, kernel, distributed；opens underrepresented target types |
-| 10 | DISCOVER | coverage_gap | [[community/InfiniTensor/zhangyue207|zhangyue207]] | person | affiliation | company, school, research, team | exploitation | 7.815 | new | coverage 0/2；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
+| 7 | VERIFY | history_followup | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | project, community | exploration | 8.238 | partial | coverage 0/3；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
+| 8 | DISCOVER | bridge | [[university/UC San Diego/Hao AI Lab|Hao AI Lab]] | research | key_people | person | bridge | 8.076 | new | coverage 0/4；source type Research Institution；infra: serving/inference, distributed, disaggregation；opens underrepresented target types |
+| 9 | DISCOVER | coverage_gap | [[community/InfiniTensor/qinyiqun|qinyiqun]] | person | affiliation | company, school, research, team | exploration | 7.828 | new | coverage 0/2；source type Person；infra: serving/inference, distributed, moe；opens underrepresented target types |
+| 10 | DISCOVER | coverage_gap | [[community/InfiniTensor/baominghelly|baominghelly]] | person | affiliation | company, school, research, team | exploitation | 7.815 | new | coverage 0/2；source type Person；infra: kv-cache, kernel, distributed；opens underrepresented target types |
 
 ## DISCOVER
 

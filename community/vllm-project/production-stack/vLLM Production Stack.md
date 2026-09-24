@@ -2,6 +2,7 @@
 type: project
 name: vLLM Production Stack
 status: active
+linked_people: []
 repository: https://github.com/vllm-project/production-stack
 docs: https://docs.vllm.ai/projects/production-stack
 last_verified: "2026-09"
@@ -16,6 +17,7 @@ areas:
 integrations:
   - "vLLM"
   - "LMCache"
+linked_companies: []
 ---
 # vLLM Production Stack
 
