@@ -112,10 +112,21 @@ last_verified: 2026-09
 
 ### Batch C：Project ↔ Concept 系统化
 
-- [ ] 对高价值 project 补 Concept 连接，优先 vLLM / SGLang / LMCache / Mooncake / Dynamo / llm-d / MindIE。
-- [ ] 建立 project-concept coverage report，找“有项目无概念”和“有概念无实现”的缺口。
-- [ ] 评估是否把 Concept 连接加入 `project.yaml`，或继续保持 Concept 侧单源 + derived reverse view。
-- [ ] taxonomy 稳定后再决定 typed relation 名称，例如 `implements-concept` / `uses-mechanism`，不在 Batch A/B 预设。
+#### Batch C1：单源关系 + 派生反向视图
+
+- [x] 选择 Concept 侧 `projects:` 作为唯一人工事实源；Project 不新增人工 `concepts:` 字段。
+- [x] Project schema 增加 derived `linked_concepts`，禁止手工维护或从 `areas` 自动推断。
+- [x] 新增 `sync-project-concepts.py`，自动生成 Project frontmatter 反向链接和“关联概念”区块。
+- [x] 新增 `audit-project-concept-coverage.py`，输出 Markdown / JSON coverage report。
+- [x] Quartz 与 Sync Node Schemas workflow 接入 Project ↔ Concept 同步和审计。
+- [x] 补齐 llm-d / MindIE-Motor 与 Disaggregated Serving / P-D Disaggregation 的 canonical 连接。
+- [ ] 根据 coverage report 继续补高价值 project / concept 缺口。
+
+#### Batch C2：关系语义升级
+
+- [ ] taxonomy 和 C1 coverage 稳定后，再决定是否导出 typed Project ↔ Concept edge。
+- [ ] 若升级 typed relation，优先从 Concept `projects:` 单源派生，不允许 Project 侧重复声明。
+- [ ] 关系名需区分“直接实现/支持”与“仅相关/集成”，避免一个 `implements-concept` 覆盖所有语义。
 
 ### Batch D：扩展到更完整 AI Infra Ontology
 
@@ -169,5 +180,6 @@ Batch A/B 使用两种边：
 
 - Batch A：已完成并合入 main。
 - Batch B1：已完成并合入 main（PR #37）。
-- Batch B2：12 个 Decoding + Parallelism 骨干节点已在独立分支实现，进入 PR 验收。
-- Batch C/D：按图谱 coverage 逐批推进。
+- Batch B2：已完成并合入 main（PR #38）。
+- Batch C1：Project ↔ Concept 单源同步、coverage 审计与第一轮 llm-d / MindIE-Motor 缺口修复正在独立分支实施。
+- Batch C2 / D：待 C1 coverage 数据稳定后继续。
