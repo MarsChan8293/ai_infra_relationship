@@ -104,7 +104,7 @@ def parse_frontmatter(text: str) -> dict:
         key = key.strip()
         if not key:
             continue
-        data[key] = [] if key == "relations" and not value.strip() else parse_scalar(value)
+        data[key] = [] if not value.strip() else parse_scalar(value)
         current_key = key
     return data
 
@@ -430,19 +430,40 @@ def main() -> int:
     # capability. Integration-only relevance must use a distinct semantic relation.
     concept_support_pairs: set[tuple[str, str]] = set()
     concept_support_edges = 0
+    concept_project_assertions = 0
     for concept_node in nodes:
         if concept_node.get("type") != "concept":
             continue
         concept_id = concept_node["id"]
-        frontmatter = concept_node.get("frontmatter") if isinstance(concept_node.get("frontmatter"), dict) else {}
-        for project_raw in as_list(frontmatter.get("projects")):
+        rel_source = str(concept_node.get("path") or f"{concept_id}.md")
+        concept_path = root / rel_source
+        if not concept_path.exists():
+            errors.append({
+                "kind": "concept-source-missing",
+                "source": rel_source,
+            })
+            continue
+
+        source_text = concept_path.read_text(encoding="utf-8")
+        frontmatter = parse_frontmatter(source_text)
+        project_values = as_list(frontmatter.get("projects"))
+        if re.search(r"(?m)^projects:\\s*$", source_text) and not project_values:
+            errors.append({
+                "kind": "concept-project-list-unparsed",
+                "source": rel_source,
+                "detail": "Concept declares a block-list projects field but the typed-relation parser produced no values.",
+            })
+            continue
+
+        concept_project_assertions += len(project_values)
+        for project_raw in project_values:
             if not isinstance(project_raw, str) or not project_raw.strip():
                 continue
             project_node, reason, candidates = resolve_target(project_raw, by_id, by_base, by_name)
             if project_node is None:
                 errors.append({
                     "kind": "concept-project-target-unresolved",
-                    "source": concept_node.get("path") or concept_id,
+                    "source": rel_source,
                     "target": project_raw,
                     "reason": reason,
                     "candidates": candidates,
@@ -451,7 +472,7 @@ def main() -> int:
             if project_node.get("type") not in PROJECT_LIKE_TYPES:
                 errors.append({
                     "kind": "concept-project-target-not-project-like",
-                    "source": concept_node.get("path") or concept_id,
+                    "source": rel_source,
                     "target": project_node["id"],
                     "target_type": project_node.get("type"),
                 })
@@ -460,7 +481,7 @@ def main() -> int:
             if pair in concept_support_pairs:
                 warnings.append({
                     "kind": "concept-project-duplicate-support",
-                    "source": concept_node.get("path") or concept_id,
+                    "source": rel_source,
                     "target": project_node["id"],
                 })
                 continue
@@ -477,11 +498,18 @@ def main() -> int:
                 "end": None,
                 "confidence": "high",
                 "evidence": [],
-                "derived_from": "concept.frontmatter.projects",
+                "derived_from": "concept.projects",
             })
             concept_support_edges += 1
 
-        person_ids = {node["id"] for node in nodes if node.get("type") == "person"}
+    if concept_support_edges != concept_project_assertions:
+        errors.append({
+            "kind": "project-concept-support-count-mismatch",
+            "expected_assertions": concept_project_assertions,
+            "derived_edges": concept_support_edges,
+        })
+
+    person_ids = {node["id"] for node in nodes if node.get("type") == "person"}
     linked_person_neighbors: dict[str, set[str]] = defaultdict(set)
     for edge in wikilink_edges:
         source = edge.get("source")
@@ -525,6 +553,7 @@ def main() -> int:
         "errors": errors,
         "warnings": warnings,
         "relation_type_counts": dict(sorted(type_counts.items())),
+        "concept_project_assertions": concept_project_assertions,
         "derived_project_concept_support_edges": concept_support_edges,
     }
     coverage = {
@@ -548,6 +577,7 @@ def main() -> int:
         f"- Person nodes with typed relations: {coverage['person_nodes_with_typed_relations']} / {len(person_ids)}",
         f"- Hard errors: {len(errors)}",
         f"- Warnings: {len(warnings)}",
+        f"- Concept → Project assertions read from Markdown: {concept_project_assertions}",
         f"- Derived Project → Concept support edges: {concept_support_edges}",
         "",
         "## Relation types",
