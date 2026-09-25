@@ -1,6 +1,8 @@
 ---
 type: project
 name: FlagAttention
+linked_concepts:
+  - "concept/kernel/attention/Attention Kernel"
 status: active
 linked_people:
   - "community/flagos-ai/FlagOS/陈飞宇"
@@ -47,3 +49,12 @@ https://github.com/flagos-ai/FlagAttention
 - [[community/flagos-ai/FlagOS/陈飞宇|陈飞宇]]：[[FlagAttention]]：**开源项目开发**；智源官方人物页明确列为项目开发者。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/attention/Attention Kernel|Attention Kernel]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

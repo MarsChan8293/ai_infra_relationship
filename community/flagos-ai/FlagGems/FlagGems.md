@@ -1,6 +1,8 @@
 ---
 type: project
 name: FlagGems
+linked_concepts:
+  - "concept/kernel/optimization/Kernel Fusion"
 status: active
 linked_people:
   - "community/flagos-ai/FlagGems/0x45f"
@@ -77,3 +79,12 @@ AdvancedCompiler GitHub 账号维护了 AdvancedCompiler/FlagGems fork，并长�
 - [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司|杭州先进编译科技有限公司]]：公司页与社区/项目页均有显式记录；关系：`community-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

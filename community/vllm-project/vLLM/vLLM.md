@@ -2,6 +2,7 @@
 type: project
 name: vLLM
 linked_concepts:
+  - "concept/kernel/attention/Attention Kernel"
   - "concept/inference/serving/Chunked Prefill"
   - "concept/inference/parallelism/Context Parallelism"
   - "concept/inference/serving/Continuous Batching"
@@ -9,6 +10,7 @@ linked_concepts:
   - "concept/inference/serving/Disaggregated Serving"
   - "concept/inference/decoding/Draft-Target Decoding"
   - "concept/inference/parallelism/Expert Parallelism"
+  - "concept/kernel/attention/FlashAttention"
   - "concept/inference/kv-cache/KV Cache"
   - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
@@ -16,6 +18,7 @@ linked_concepts:
   - "concept/inference/decoding/Multi-token Prediction"
   - "concept/inference/decoding/N-gram Speculation"
   - "concept/inference/serving/P-D Disaggregation"
+  - "concept/kernel/attention/PagedAttention"
   - "concept/inference/parallelism/Parallelism"
   - "concept/inference/parallelism/Pipeline Parallelism"
   - "concept/inference/kv-cache/Prefix Caching"
@@ -181,6 +184,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/kernel/attention/Attention Kernel|Attention Kernel]]
 - [[concept/inference/serving/Chunked Prefill|Chunked Prefill]]
 - [[concept/inference/parallelism/Context Parallelism|Context Parallelism]]
 - [[concept/inference/serving/Continuous Batching|Continuous Batching]]
@@ -188,6 +192,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
 - [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]]
 - [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
+- [[concept/kernel/attention/FlashAttention|FlashAttention]]
 - [[concept/inference/kv-cache/KV Cache|KV Cache]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
@@ -195,6 +200,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/decoding/Multi-token Prediction|Multi-token Prediction]]
 - [[concept/inference/decoding/N-gram Speculation|N-gram Speculation]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/kernel/attention/PagedAttention|PagedAttention]]
 - [[concept/inference/parallelism/Parallelism|Parallelism]]
 - [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]]
 - [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]

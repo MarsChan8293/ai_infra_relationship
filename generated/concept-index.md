@@ -2,8 +2,8 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 40
-- Domains: 3
+- Concepts: 48
+- Domains: 5
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
@@ -93,3 +93,39 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/scheduling/Load Balancing|Load Balancing]] | Inference Load Balancing, LLM Load Balancing, 负载均衡 | Inference Scheduling | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load%20Balancing) |
 | [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Inference-Aware Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
 | [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, 请求路由 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
+
+## Kernel
+
+6 concepts.
+
+### Attention
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
+| [[concept/kernel/attention/FlashAttention|FlashAttention]] | Flash Attention, IO-Aware Attention | Attention Kernel | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
+| [[concept/kernel/attention/PagedAttention|PagedAttention]] | Paged Attention, 分页注意力 | Attention Kernel | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PagedAttention) |
+
+### Gemm
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
+| [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
+
+### Optimization
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] | Operator Fusion, Fused Kernel, 算子融合 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Fusion) |
+
+## Compiler
+
+2 concepts.
+
+### Kernel Programming
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
+| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |

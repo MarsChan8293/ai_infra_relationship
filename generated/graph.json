@@ -6318,6 +6318,7 @@
         "type": "project",
         "name": "FlashAttention",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "runtime",
         "status": "active",
         "repository": "https://github.com/Dao-AILab/flash-attention",
@@ -7839,6 +7840,7 @@
         "type": "project",
         "name": "CUTLASS",
         "linked_people": "",
+        "linked_concepts": "",
         "layer": "runtime",
         "status": "active",
         "repository": "https://github.com/NVIDIA/cutlass",
@@ -9447,6 +9449,7 @@
         "type": "project",
         "name": "DeepGEMM",
         "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/deepseek-ai/DeepGEMM",
@@ -9473,6 +9476,7 @@
         "type": "project",
         "name": "DeepJIT",
         "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/deepseek-ai/DeepJIT",
@@ -9856,6 +9860,7 @@
         "type": "project",
         "name": "TileKernels",
         "linked_people": "",
+        "linked_concepts": "",
         "companies": [
           "深度求索"
         ],
@@ -10347,6 +10352,7 @@
       "frontmatter": {
         "type": "project",
         "name": "FlagAttention",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "companies": [],
@@ -10456,6 +10462,7 @@
       "frontmatter": {
         "type": "project",
         "name": "FlagGems",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "companies": [
@@ -10869,6 +10876,7 @@
       "frontmatter": {
         "type": "project",
         "name": "FlagTree",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "companies": [
@@ -11133,6 +11141,7 @@
       "frontmatter": {
         "type": "project",
         "name": "FlashInfer",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/flashinfer-ai/flashinfer",
@@ -14648,6 +14657,7 @@
         "type": "project",
         "name": "TileLang",
         "linked_people": "",
+        "linked_concepts": "",
         "layer": "compiler",
         "status": "active",
         "repository": "https://github.com/tile-ai/tilelang",
@@ -14795,6 +14805,7 @@
         "type": "project",
         "name": "Triton",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "compiler",
         "status": "active",
         "repository": "https://github.com/triton-lang/triton",
@@ -21718,6 +21729,145 @@
         "projects": "",
         "last_verified": "2026-09"
       }
+    },
+    {
+      "id": "concept/kernel/attention/Attention Kernel",
+      "path": "concept/kernel/attention/Attention Kernel.md",
+      "name": "Attention Kernel",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Attention Kernel",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "attention",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/attention/FlashAttention",
+      "path": "concept/kernel/attention/FlashAttention.md",
+      "name": "FlashAttention",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "FlashAttention",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "attention",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/attention/PagedAttention",
+      "path": "concept/kernel/attention/PagedAttention.md",
+      "name": "PagedAttention",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "PagedAttention",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "attention",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/gemm/GEMM",
+      "path": "concept/kernel/gemm/GEMM.md",
+      "name": "GEMM",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "GEMM",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "gemm",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/gemm/Grouped GEMM",
+      "path": "concept/kernel/gemm/Grouped GEMM.md",
+      "name": "Grouped GEMM",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Grouped GEMM",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "gemm",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/optimization/Kernel Fusion",
+      "path": "concept/kernel/optimization/Kernel Fusion.md",
+      "name": "Kernel Fusion",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Kernel Fusion",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "optimization",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/programming/JIT Kernel Compilation",
+      "path": "concept/kernel/programming/JIT Kernel Compilation.md",
+      "name": "JIT Kernel Compilation",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "JIT Kernel Compilation",
+        "aliases": "",
+        "domain": "compiler",
+        "topic": "kernel-programming",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/kernel/programming/Kernel DSL",
+      "path": "concept/kernel/programming/Kernel DSL.md",
+      "name": "Kernel DSL",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Kernel DSL",
+        "aliases": "",
+        "domain": "compiler",
+        "topic": "kernel-programming",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
     }
   ],
   "edges": [
@@ -22674,6 +22824,16 @@
     {
       "source": "community/BerriAI/LiteLLM/yuneng-berri",
       "target": "community/BerriAI/LiteLLM/LiteLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "target": "concept/kernel/attention/Attention Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "target": "concept/kernel/attention/FlashAttention",
       "kind": "wikilink"
     },
     {
@@ -23799,6 +23959,21 @@
     {
       "source": "community/NVIDIA/CUTLASS/CUTLASS",
       "target": "company/NVIDIA/NVIDIA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/NVIDIA/CUTLASS/CUTLASS",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/NVIDIA/CUTLASS/CUTLASS",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/NVIDIA/CUTLASS/CUTLASS",
+      "target": "concept/kernel/programming/Kernel DSL",
       "kind": "wikilink"
     },
     {
@@ -25752,6 +25927,26 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/kernel/optimization/Kernel Fusion",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "kind": "wikilink"
@@ -25779,6 +25974,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
       "kind": "wikilink"
     },
     {
@@ -26262,6 +26462,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "target": "concept/kernel/optimization/Kernel Fusion",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao",
       "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "kind": "wikilink"
@@ -26602,6 +26807,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/flagos-ai/FlagAttention/FlagAttention",
+      "target": "concept/kernel/attention/Attention Kernel",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/flagos-ai/FlagCX/FlagCX",
       "target": "community/flagos-ai/FlagCX/MC952-arch",
       "kind": "wikilink"
@@ -26759,6 +26969,11 @@
     {
       "source": "community/flagos-ai/FlagGems/FlagGems",
       "target": "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flagos-ai/FlagGems/FlagGems",
+      "target": "concept/kernel/optimization/Kernel Fusion",
       "kind": "wikilink"
     },
     {
@@ -27192,6 +27407,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/flagos-ai/FlagTree/FlagTree",
+      "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL",
       "target": "community/flagos-ai/FlagCX/FlagCX",
       "kind": "wikilink"
@@ -27369,6 +27589,41 @@
     {
       "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
       "target": "company/Together AI/Together AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/attention/Attention Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/attention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/attention/PagedAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/optimization/Kernel Fusion",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
       "kind": "wikilink"
     },
     {
@@ -30873,6 +31128,21 @@
     },
     {
       "source": "community/tile-ai/TileLang/TileLang",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/tile-ai/TileLang/TileLang",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/tile-ai/TileLang/TileLang",
+      "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/tile-ai/TileLang/TileLang",
       "target": "university/北京大学/Lei Wang",
       "kind": "wikilink"
     },
@@ -30989,6 +31259,21 @@
     {
       "source": "community/triton-inference-server/Triton-Inference-Server/Yingge He",
       "target": "company/NVIDIA/NVIDIA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/triton-lang/Triton/Triton",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/triton-lang/Triton/Triton",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/triton-lang/Triton/Triton",
+      "target": "concept/kernel/programming/Kernel DSL",
       "kind": "wikilink"
     },
     {
@@ -32734,6 +33019,21 @@
     {
       "source": "community/vllm-project/vLLM/vLLM",
       "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/kernel/attention/Attention Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/kernel/attention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/kernel/attention/PagedAttention",
       "kind": "wikilink"
     },
     {
@@ -41237,6 +41537,221 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "community/flagos-ai/FlagAttention/FlagAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "concept/kernel/attention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
+      "target": "concept/kernel/attention/PagedAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/FlashAttention",
+      "target": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/FlashAttention",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/FlashAttention",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/FlashAttention",
+      "target": "concept/kernel/attention/PagedAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/PagedAttention",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/PagedAttention",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/PagedAttention",
+      "target": "concept/inference/kv-cache/KV Cache Management",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/PagedAttention",
+      "target": "concept/kernel/attention/FlashAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "community/tile-ai/TileLang/TileLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "community/triton-lang/Triton/Triton",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "community/NVIDIA/CUTLASS/CUTLASS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "concept/communication/collectives/All-to-All",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "concept/inference/parallelism/Expert Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "community/flagos-ai/FlagGems/FlagGems",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Kernel Fusion",
+      "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/NVIDIA/CUTLASS/CUTLASS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/tile-ai/TileLang/TileLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/triton-lang/Triton/Triton",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "community/NVIDIA/CUTLASS/CUTLASS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "community/flagos-ai/FlagTree/FlagTree",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "community/tile-ai/TileLang/TileLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "community/triton-lang/Triton/Triton",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/Binghamton University/Binghamton University",
       "target": "community/ai-dynamo/Dynamo/Ryan McCormick",
       "kind": "wikilink"
@@ -47545,10 +48060,12 @@
       "bridge_score": 2.5
     },
     "community/Dao-AILab/FlashAttention/FlashAttention": {
-      "degree": 0,
-      "cross_category_degree": 0,
-      "neighbor_categories": [],
-      "bridge_score": 0.0
+      "degree": 2,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "concept"
+      ],
+      "bridge_score": 3.785
     },
     "community/Deep-Spark/DeepSpark/DeepSpark": {
       "degree": 7,
@@ -48048,13 +48565,14 @@
       "bridge_score": 2.5
     },
     "community/NVIDIA/CUTLASS/CUTLASS": {
-      "degree": 8,
-      "cross_category_degree": 1,
+      "degree": 11,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 6.52
+      "bridge_score": 9.485
     },
     "community/NVIDIA/CUTLASS/IonThruster": {
       "degree": 1,
@@ -48727,22 +49245,24 @@
       "bridge_score": 12.107
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM": {
-      "degree": 22,
-      "cross_category_degree": 2,
+      "degree": 26,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 8.224
+      "bridge_score": 11.355
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepJIT": {
-      "degree": 8,
-      "cross_category_degree": 2,
+      "degree": 9,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 6.87
+      "bridge_score": 8.872
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra": {
       "degree": 45,
@@ -48868,13 +49388,14 @@
       "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/TileKernels": {
-      "degree": 13,
-      "cross_category_degree": 1,
+      "degree": 14,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.157
+      "bridge_score": 9.107
     },
     "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao": {
       "degree": 3,
@@ -49018,13 +49539,14 @@
       "bridge_score": 8.485
     },
     "community/flagos-ai/FlagAttention/FlagAttention": {
-      "degree": 8,
-      "cross_category_degree": 1,
+      "degree": 9,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
+        "concept",
         "university"
       ],
-      "bridge_score": 6.52
+      "bridge_score": 8.522
     },
     "community/flagos-ai/FlagCX/FlagCX": {
       "degree": 17,
@@ -49061,14 +49583,15 @@
       "bridge_score": 2.5
     },
     "community/flagos-ai/FlagGems/FlagGems": {
-      "degree": 23,
-      "cross_category_degree": 4,
+      "degree": 24,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 10.485
+      "bridge_score": 12.394
     },
     "community/flagos-ai/FlagGems/huangyiqun": {
       "degree": 1,
@@ -49187,14 +49710,15 @@
       "bridge_score": 7.948
     },
     "community/flagos-ai/FlagTree/FlagTree": {
-      "degree": 20,
-      "cross_category_degree": 5,
+      "degree": 21,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 10.642
+      "bridge_score": 12.559
     },
     "community/flagos-ai/FlagTree/Galaxy1458": {
       "degree": 2,
@@ -49270,15 +49794,16 @@
       "bridge_score": 6.157
     },
     "community/flashinfer-ai/FlashInfer/FlashInfer": {
-      "degree": 33,
-      "cross_category_degree": 8,
+      "degree": 40,
+      "cross_category_degree": 15,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root",
         "university"
       ],
-      "bridge_score": 13.887
+      "bridge_score": 18.108
     },
     "community/flashinfer-ai/FlashInfer/Jingfan Sun": {
       "degree": 8,
@@ -50336,14 +50861,15 @@
       "bridge_score": 6.722
     },
     "community/tile-ai/TileLang/TileLang": {
-      "degree": 20,
-      "cross_category_degree": 12,
+      "degree": 23,
+      "cross_category_degree": 15,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 13.092
+      "bridge_score": 15.835
     },
     "community/tile-ai/TileScale/TileScale": {
       "degree": 3,
@@ -50399,12 +50925,13 @@
       "bridge_score": 5.35
     },
     "community/triton-lang/Triton/Triton": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 4,
+      "cross_category_degree": 3,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 6.372
     },
     "community/verl-project/VeRL-Omni/VeRL-Omni": {
       "degree": 4,
@@ -50670,8 +51197,8 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 139,
-      "cross_category_degree": 72,
+      "degree": 142,
+      "cross_category_degree": 75,
       "neighbor_categories": [
         "community",
         "company",
@@ -50679,7 +51206,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 39.829
+      "bridge_score": 40.91
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -52484,13 +53011,13 @@
       "bridge_score": 4.307
     },
     "concept/communication/collectives/All-to-All": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.22
+      "bridge_score": 7.372
     },
     "concept/communication/collectives/AllGather": {
       "degree": 10,
@@ -52618,13 +53145,13 @@
       "bridge_score": 6.507
     },
     "concept/inference/kv-cache/KV Cache Management": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.87
+      "bridge_score": 7.022
     },
     "concept/inference/kv-cache/KV Cache Offloading": {
       "degree": 6,
@@ -52699,13 +53226,13 @@
       "bridge_score": 5.672
     },
     "concept/inference/parallelism/Expert Parallelism": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.7
+      "bridge_score": 6.87
     },
     "concept/inference/parallelism/Parallelism": {
       "degree": 7,
@@ -52849,6 +53376,78 @@
         "concept"
       ],
       "bridge_score": 9.15
+    },
+    "concept/kernel/attention/Attention Kernel": {
+      "degree": 6,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.207
+    },
+    "concept/kernel/attention/FlashAttention": {
+      "degree": 5,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.635
+    },
+    "concept/kernel/attention/PagedAttention": {
+      "degree": 5,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.285
+    },
+    "concept/kernel/gemm/GEMM": {
+      "degree": 5,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.985
+    },
+    "concept/kernel/gemm/Grouped GEMM": {
+      "degree": 6,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.857
+    },
+    "concept/kernel/optimization/Kernel Fusion": {
+      "degree": 6,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.207
+    },
+    "concept/kernel/programming/JIT Kernel Compilation": {
+      "degree": 8,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.27
+    },
+    "concept/kernel/programming/Kernel DSL": {
+      "degree": 6,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.207
     }
   }
 }

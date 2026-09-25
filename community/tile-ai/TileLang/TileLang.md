@@ -6,6 +6,10 @@ linked_people:
   - "university/北京大学/Yining Shi"
   - "university/北京大学/吴童 Tong Wu"
   - "university/北京大学/程羽 Yu Cheng"
+linked_concepts:
+  - "concept/kernel/gemm/GEMM"
+  - "concept/kernel/programming/JIT Kernel Compilation"
+  - "concept/kernel/programming/Kernel DSL"
 layer: compiler
 status: active
 repository: https://github.com/tile-ai/tilelang
@@ -87,3 +91,14 @@ TileLang 并非从零出现。它可以放在北大/微软 AI compiler 长链中
 - [[university/北京大学/程羽 Yu Cheng|Yu Cheng]]：[[TileLang]] core developer、初版主要开发者之一。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/gemm/GEMM|GEMM]]
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+- [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

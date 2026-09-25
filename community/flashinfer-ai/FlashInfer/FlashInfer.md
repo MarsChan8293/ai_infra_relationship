@@ -1,6 +1,14 @@
 ---
 type: project
 name: FlashInfer
+linked_concepts:
+  - "concept/kernel/attention/Attention Kernel"
+  - "concept/kernel/attention/FlashAttention"
+  - "concept/kernel/gemm/GEMM"
+  - "concept/kernel/gemm/Grouped GEMM"
+  - "concept/kernel/programming/JIT Kernel Compilation"
+  - "concept/kernel/optimization/Kernel Fusion"
+  - "concept/kernel/attention/PagedAttention"
 status: active
 linked_people:
   - "community/flashinfer-ai/FlashInfer/aleozlx"
@@ -67,3 +75,18 @@ FlashInfer 起源于学术/开源社区并采用社区治理。NVIDIA、Together
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[FlashInfer]]：MLSys 2025 论文作者；论文获 MLSys 2025 Best Paper Award。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/attention/Attention Kernel|Attention Kernel]]
+- [[concept/kernel/attention/FlashAttention|FlashAttention]]
+- [[concept/kernel/gemm/GEMM|GEMM]]
+- [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]]
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+- [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]]
+- [[concept/kernel/attention/PagedAttention|PagedAttention]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

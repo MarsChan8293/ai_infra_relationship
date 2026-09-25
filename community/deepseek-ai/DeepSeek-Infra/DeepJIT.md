@@ -2,6 +2,8 @@
 type: project
 name: DeepJIT
 parent: DeepSeek-Infra
+linked_concepts:
+  - "concept/kernel/programming/JIT Kernel Compilation"
 status: active
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/guyan364"
@@ -57,3 +59,12 @@ https://github.com/deepseek-ai/DeepJIT
 - [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

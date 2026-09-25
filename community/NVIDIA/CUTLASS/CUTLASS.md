@@ -9,6 +9,10 @@ linked_people:
   - "community/NVIDIA/CUTLASS/Jack Kosaian"
   - "community/NVIDIA/CUTLASS/Junkai Wu"
   - "community/NVIDIA/CUTLASS/Yujia Zhai"
+linked_concepts:
+  - "concept/kernel/gemm/Grouped GEMM"
+  - "concept/kernel/programming/JIT Kernel Compilation"
+  - "concept/kernel/programming/Kernel DSL"
 layer: runtime
 status: active
 repository: https://github.com/NVIDIA/cutlass
@@ -99,3 +103,14 @@ CUTLASS 聚焦 NVIDIA CUDA kernel 构建，不负责模型图执行、Serving AP
 - [[community/NVIDIA/CUTLASS/Yujia Zhai|Yujia Zhai]]：[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：handoff 联系人；当前证据不足以单独标为 formal maintainer。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]]
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+- [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

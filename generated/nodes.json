@@ -6317,6 +6317,7 @@
       "type": "project",
       "name": "FlashAttention",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "runtime",
       "status": "active",
       "repository": "https://github.com/Dao-AILab/flash-attention",
@@ -7838,6 +7839,7 @@
       "type": "project",
       "name": "CUTLASS",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "runtime",
       "status": "active",
       "repository": "https://github.com/NVIDIA/cutlass",
@@ -9446,6 +9448,7 @@
       "type": "project",
       "name": "DeepGEMM",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepGEMM",
@@ -9472,6 +9475,7 @@
       "type": "project",
       "name": "DeepJIT",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepJIT",
@@ -9855,6 +9859,7 @@
       "type": "project",
       "name": "TileKernels",
       "linked_people": "",
+      "linked_concepts": "",
       "companies": [
         "深度求索"
       ],
@@ -10346,6 +10351,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagAttention",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "companies": [],
@@ -10455,6 +10461,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagGems",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "companies": [
@@ -10868,6 +10875,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlagTree",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "companies": [
@@ -11132,6 +11140,7 @@
     "frontmatter": {
       "type": "project",
       "name": "FlashInfer",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/flashinfer-ai/flashinfer",
@@ -14647,6 +14656,7 @@
       "type": "project",
       "name": "TileLang",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "compiler",
       "status": "active",
       "repository": "https://github.com/tile-ai/tilelang",
@@ -14794,6 +14804,7 @@
       "type": "project",
       "name": "Triton",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "compiler",
       "status": "active",
       "repository": "https://github.com/triton-lang/triton",
@@ -21713,6 +21724,145 @@
       "domain": "inference",
       "topic": "serving",
       "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/attention/Attention Kernel",
+    "path": "concept/kernel/attention/Attention Kernel.md",
+    "name": "Attention Kernel",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Attention Kernel",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "attention",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/attention/FlashAttention",
+    "path": "concept/kernel/attention/FlashAttention.md",
+    "name": "FlashAttention",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "FlashAttention",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "attention",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/attention/PagedAttention",
+    "path": "concept/kernel/attention/PagedAttention.md",
+    "name": "PagedAttention",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "PagedAttention",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "attention",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/gemm/GEMM",
+    "path": "concept/kernel/gemm/GEMM.md",
+    "name": "GEMM",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "GEMM",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "gemm",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/gemm/Grouped GEMM",
+    "path": "concept/kernel/gemm/Grouped GEMM.md",
+    "name": "Grouped GEMM",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Grouped GEMM",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "gemm",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/optimization/Kernel Fusion",
+    "path": "concept/kernel/optimization/Kernel Fusion.md",
+    "name": "Kernel Fusion",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Kernel Fusion",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "optimization",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/programming/JIT Kernel Compilation",
+    "path": "concept/kernel/programming/JIT Kernel Compilation.md",
+    "name": "JIT Kernel Compilation",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "JIT Kernel Compilation",
+      "aliases": "",
+      "domain": "compiler",
+      "topic": "kernel-programming",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/kernel/programming/Kernel DSL",
+    "path": "concept/kernel/programming/Kernel DSL.md",
+    "name": "Kernel DSL",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Kernel DSL",
+      "aliases": "",
+      "domain": "compiler",
+      "topic": "kernel-programming",
       "related_concepts": "",
       "projects": "",
       "last_verified": "2026-09"

@@ -1,30 +1,38 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 40,
-    "concepts_with_projects": 38,
+    "concepts": 48,
+    "concepts_with_projects": 46,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 18,
-    "concept_project_assertions": 117,
+    "projects_with_concepts": 29,
+    "concept_project_assertions": 147,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
   "topic_counts": {
+    "attention": 3,
     "collective-communication": 5,
     "data-movement": 4,
     "decoding": 5,
+    "gemm": 2,
     "inference-scheduling": 8,
+    "kernel-programming": 2,
     "kv-cache": 7,
+    "optimization": 1,
     "parallelism": 7,
     "serving": 4
   },
   "mapped_topic_counts": {
+    "attention": 3,
     "collective-communication": 5,
     "data-movement": 4,
     "decoding": 4,
+    "gemm": 2,
     "inference-scheduling": 8,
+    "kernel-programming": 2,
     "kv-cache": 7,
+    "optimization": 1,
     "parallelism": 6,
     "serving": 4
   },
@@ -57,9 +65,12 @@
         "concept/inference/serving/Chunked Prefill",
         "concept/inference/serving/Continuous Batching",
         "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/attention/FlashAttention",
+        "concept/kernel/attention/PagedAttention"
       ],
-      "count": 20
+      "count": 23
     },
     {
       "id": "community/llm-d/llm-d/llm-d",
@@ -141,6 +152,21 @@
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 7
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer/FlashInfer",
+      "name": "FlashInfer",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/attention/FlashAttention",
+        "concept/kernel/attention/PagedAttention",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/optimization/Kernel Fusion",
+        "concept/kernel/programming/JIT Kernel Compilation"
       ],
       "count": 7
     },
@@ -227,6 +253,18 @@
       "count": 4
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "name": "DeepGEMM",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/optimization/Kernel Fusion",
+        "concept/kernel/programming/JIT Kernel Compilation"
+      ],
+      "count": 4
+    },
+    {
       "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
       "name": "Gateway API Inference Extension",
       "layer": "distributed-serving",
@@ -263,6 +301,17 @@
       "count": 4
     },
     {
+      "id": "community/NVIDIA/CUTLASS/CUTLASS",
+      "name": "CUTLASS",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 3
+    },
+    {
       "id": "community/flagos-ai/FlagCX/FlagCX",
       "name": "FlagCX",
       "layer": "communication",
@@ -285,6 +334,38 @@
       "count": 3
     },
     {
+      "id": "community/tile-ai/TileLang/TileLang",
+      "name": "TileLang",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/triton-lang/Triton/Triton",
+      "name": "Triton",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/Dao-AILab/FlashAttention/FlashAttention",
+      "name": "FlashAttention",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/attention/FlashAttention"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/OpenUCX/UCX/UCX",
       "name": "UCX",
       "layer": "communication",
@@ -293,6 +374,51 @@
         "concept/communication/data-movement/RDMA"
       ],
       "count": 2
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+      "name": "DeepJIT",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/programming/JIT Kernel Compilation"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/flagos-ai/FlagAttention/FlagAttention",
+      "name": "FlagAttention",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/attention/Attention Kernel"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/flagos-ai/FlagGems/FlagGems",
+      "name": "FlagGems",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/optimization/Kernel Fusion"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/flagos-ai/FlagTree/FlagTree",
+      "name": "FlagTree",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "name": "TileKernels",
+      "layer": "gpu-kernels",
+      "concepts": [
+        "concept/kernel/optimization/Kernel Fusion"
+      ],
+      "count": 1
     }
   ],
   "unresolved": [],
