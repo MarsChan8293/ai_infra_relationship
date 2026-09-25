@@ -205,11 +205,31 @@ last_verified: 2026-09
 
 目标连接：NineToothed、TileLang、Triton、FlagTree、CUTLASS。重点把已有 Kernel DSL / JIT 往编译器内部机制延伸，形成 frontend → IR/pass → lowering → backend codegen → JIT/AOT 的链路，并把 autotuning / layout optimization 作为横向优化机制。
 
+#### Batch D7：Storage + Hardware Interconnect
+
+Storage:
+- [x] Distributed Storage
+- [x] Storage Tiering
+- [x] NVMe SSD
+- [x] SSD-Backed KV Cache
+- [x] Remote Object Store
+- [x] Direct Storage I/O
+
+Hardware Interconnect:
+- [x] Hardware Interconnect
+- [x] PCIe
+- [x] NVLink
+- [x] NVSwitch
+- [x] HCCS
+- [x] xGMI
+
+目标连接：Tutti、3FS、LMCache、Mooncake、MemCache、YuanRong DataSystem、NIXL、NCCL、RCCL、VCCL、TENT、MemFabric、TransferQueue。重点把“存储介质/分层策略/远端存储语义/直通 I/O”与“节点内硬件互联/网络 transport”拆开，不把 SSD、GDS、RDMA、NVLink 当成同一层概念。Concept schema 同步新增 `storage` domain。
+
 #### 后续候选域
 
-- storage：SSD/NVMe tier、remote object/KV store、direct storage。
-- hardware interconnect：PCIe、NVLink/NVSwitch、HCCS、CXL fabric。
 - observability：TTFT/TPOT、KV metrics、request tracing、performance regression。
+- reliability：fault tolerance、checkpoint/recovery、data replication。
+- serving API / control：admission control、SLO-aware scheduling、backpressure。
 
 是否进入 P0/P1 由现有项目覆盖密度和用户研究频率决定，不为了“概念大全”机械扩张。
 
@@ -260,4 +280,5 @@ Batch A/B 使用两种边：
 - Batch D3：已完成并合入 main（PR #42）；基线提升到 48 Concepts / 147 assertions / 29 Projects，0 unresolved / 0 mismatch。
 - Batch D4：已完成并合入 main（PR #43）；基线提升到 55 Concepts / 179 assertions / 34 Projects，0 unresolved / 0 mismatch。
 - Batch D5：已完成并合入 main（PR #44）；基线提升到 61 Concepts / 202 assertions / 38 Projects，0 unresolved / 0 mismatch。
-- Batch D6：6 个 Kernel Compiler Pipeline 概念已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D6：已完成并合入 main（PR #45）；基线提升到 67 Concepts / 221 assertions / 39 Projects，0 unresolved / 0 mismatch。
+- Batch D7：12 个 Storage + Hardware Interconnect 概念已在独立分支实现，进入 coverage 与 PR 验收。
