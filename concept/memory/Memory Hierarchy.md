@@ -13,6 +13,7 @@ related_concepts:
   - Host Memory
   - Memory Pooling
   - Tiered KV Cache
+  - SSD/NVMe Tier
 projects:
   - MemCache
   - LMCache
@@ -51,7 +52,7 @@ LLM 推理同时处理模型权重、[[KV Cache]]、activation、通信 buffer �
 4. **eviction**：快层容量不足时淘汰；
 5. **data movement**：通过 PCIe、RDMA、NVLink、HCCS 等链路搬运。
 
-因此 Memory Hierarchy 与 [[Data Movement]]、[[KV Cache Offloading]]、[[Tiered KV Cache]] 强相关。
+因此 Memory Hierarchy 与 [[Data Movement]]、[[KV Cache Offloading]]、[[Tiered KV Cache]]、[[SSD/NVMe Tier]] 强相关。
 
 ## 与 Tiered KV Cache 的区别
 
