@@ -4,10 +4,10 @@
 
 - Status: **pass**
 - Concepts: 79
-- Concepts with project evidence: 77
-- Project-like nodes: 150
-- Projects linked to concepts: 43
-- Concept → Project assertions: 262
+- Concepts with project evidence: 79
+- Project-like nodes: 152
+- Projects linked to concepts: 45
+- Concept → Project assertions: 264
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -58,8 +58,7 @@
 
 ## Concepts without project evidence
 
-- [[concept/inference/decoding/Self-Speculative Decoding|Self-Speculative Decoding]]
-- [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]]
+- None
 
 ## Mapping by topic
 
@@ -69,7 +68,7 @@
 | collective-communication | 5 | 5 |
 | data-movement | 4 | 4 |
 | data-path | 1 | 1 |
-| decoding | 5 | 4 |
+| decoding | 5 | 5 |
 | distributed-storage | 2 | 2 |
 | gemm | 2 | 2 |
 | inference-scheduling | 8 | 8 |
@@ -83,7 +82,7 @@
 | memory-pooling | 2 | 2 |
 | memory-topology | 1 | 1 |
 | optimization | 1 | 1 |
-| parallelism | 7 | 6 |
+| parallelism | 7 | 7 |
 | quantization | 6 | 6 |
 | serving | 4 | 4 |
 | storage-media | 1 | 1 |

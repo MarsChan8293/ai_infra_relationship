@@ -138,13 +138,13 @@
     "bridge_score": 5.7
   },
   "company/Hugging Face/Hugging Face": {
-    "degree": 8,
-    "cross_category_degree": 7,
+    "degree": 9,
+    "cross_category_degree": 8,
     "neighbor_categories": [
       "community",
       "company"
     ],
-    "bridge_score": 8.62
+    "bridge_score": 9.122
   },
   "company/IBM/IBM": {
     "degree": 13,
@@ -258,14 +258,14 @@
     "bridge_score": 8.9
   },
   "company/NVIDIA/NVIDIA": {
-    "degree": 55,
-    "cross_category_degree": 51,
+    "degree": 56,
+    "cross_category_degree": 52,
     "neighbor_categories": [
       "community",
       "company",
       "university"
     ],
-    "bridge_score": 28.157
+    "bridge_score": 28.533
   },
   "company/Neural Magic/Neural Magic": {
     "degree": 6,
@@ -2638,6 +2638,15 @@
     ],
     "bridge_score": 2.85
   },
+  "community/NVIDIA/Megatron-LM/Megatron-LM": {
+    "degree": 2,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "company",
+      "concept"
+    ],
+    "bridge_score": 5.285
+  },
   "community/NVIDIA/NCCL/NCCL": {
     "degree": 11,
     "cross_category_degree": 11,
@@ -4032,6 +4041,15 @@
       "university"
     ],
     "bridge_score": 9.77
+  },
+  "community/huggingface/Transformers/Transformers": {
+    "degree": 2,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "company",
+      "concept"
+    ],
+    "bridge_score": 5.285
   },
   "community/interestingLSY/swiftLLM/swiftLLM": {
     "degree": 1,
@@ -7260,12 +7278,13 @@
     "bridge_score": 5.672
   },
   "concept/inference/decoding/Self-Speculative Decoding": {
-    "degree": 2,
-    "cross_category_degree": 0,
+    "degree": 3,
+    "cross_category_degree": 1,
     "neighbor_categories": [
+      "community",
       "concept"
     ],
-    "bridge_score": 3.085
+    "bridge_score": 5.35
   },
   "concept/inference/decoding/Speculative Decoding": {
     "degree": 6,
@@ -7385,12 +7404,13 @@
     "bridge_score": 5.35
   },
   "concept/inference/parallelism/Sequence Parallelism": {
-    "degree": 5,
-    "cross_category_degree": 0,
+    "degree": 6,
+    "cross_category_degree": 1,
     "neighbor_categories": [
+      "community",
       "concept"
     ],
-    "bridge_score": 4.085
+    "bridge_score": 6.157
   },
   "concept/inference/parallelism/Tensor Parallelism": {
     "degree": 8,

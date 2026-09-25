@@ -6,6 +6,7 @@
 - Person nodes with typed relations: 158 / 426
 - Hard errors: 0
 - Warnings: 48
+- Derived Project → Concept support edges: 0
 
 ## Relation types
 

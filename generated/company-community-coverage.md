@@ -4,10 +4,10 @@
 
 - Company nodes: 56
 - Companies with ≥1 linked project/community: 43
-- Project/community nodes: 175
-- Project/community nodes with ≥1 linked company: 92
-- Bidirectional association pairs: 111
-- Explicitly asserted on both sides: 111
+- Project/community nodes: 177
+- Project/community nodes with ≥1 linked company: 94
+- Bidirectional association pairs: 113
+- Explicitly asserted on both sides: 113
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -30,6 +30,7 @@
 | [[company/HPE/HPE\|HPE]] | [[community/ai-dynamo/NIXL/NIXL\|NIXL]] | project | company-led | both |
 | [[company/Hugging Face/Hugging Face\|Hugging Face]] | [[community/ggml-org/ggml/ggml\|ggml]] | project | joined-hugging-face-maintainer-team | both |
 | [[company/Hugging Face/Hugging Face\|Hugging Face]] | [[community/ggml-org/llama.cpp/llama.cpp\|llama.cpp]] | project | joined-hugging-face-maintainer-team | both |
+| [[company/Hugging Face/Hugging Face\|Hugging Face]] | [[community/huggingface/Transformers/Transformers\|Transformers]] | project |  | both |
 | [[company/Hugging Face/Hugging Face\|Hugging Face]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/IBM/IBM\|IBM]] | [[community/llm-d/llm-d/llm-d\|llm-d]] | project | founding-contributors | both |
 | [[company/Inferact/Inferact\|Inferact]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
@@ -41,6 +42,7 @@
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/CUTLASS/CUTLASS\|CUTLASS]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/llm-d/llm-d/llm-d\|llm-d]] | project | founding-contributors | both |
+| [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/Megatron-LM/Megatron-LM\|Megatron-LM]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/NCCL/NCCL\|NCCL]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/ai-dynamo/NIXL/NIXL\|NIXL]] | project | company-led | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/ai-dynamo/Dynamo/Dynamo\|NVIDIA Dynamo]] | project | company-led | both |

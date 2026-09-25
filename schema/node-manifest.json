@@ -1,8 +1,8 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 863,
-  "complete_count": 863,
+  "node_count": 865,
+  "complete_count": 865,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
@@ -14,7 +14,7 @@
     "note": 19,
     "person": 426,
     "person-link": 4,
-    "project": 165,
+    "project": 167,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 35,
@@ -1435,6 +1435,15 @@
       "missing_required": []
     },
     {
+      "id": "community/huggingface/Transformers/Transformers",
+      "type": "project",
+      "source_markdown": "community/huggingface/Transformers/Transformers.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/huggingface/Transformers/Transformers.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/InfiniTensor/baominghelly",
       "type": "person",
       "source_markdown": "community/InfiniTensor/baominghelly.md",
@@ -2502,6 +2511,15 @@
       "source_markdown": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/Megatron-LM/Megatron-LM.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/Megatron-LM/Megatron-LM.yaml",
       "status": "complete",
       "missing_required": []
     },

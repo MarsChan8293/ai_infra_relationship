@@ -8,9 +8,11 @@ projects:
   - "vLLM"
   - "ggml"
   - "llama.cpp"
+  - "Transformers"
 linked_projects:
   - "community/ggml-org/ggml/ggml"
   - "community/ggml-org/llama.cpp/llama.cpp"
+  - "community/huggingface/Transformers/Transformers"
   - "community/vllm-project/vLLM/vLLM"
 ---
 # Hugging Face
@@ -41,6 +43,7 @@ Hugging Face 是开放模型与机器学习工具生态公司，核心资产包�
 
 - [[community/ggml-org/ggml/ggml|ggml]]：公司页与社区/项目页均有显式记录；关系：`joined-hugging-face-maintainer-team`。
 - [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]]：公司页与社区/项目页均有显式记录；关系：`joined-hugging-face-maintainer-team`。
+- [[community/huggingface/Transformers/Transformers|Transformers]]：公司页与社区/项目页均有显式记录。
 - [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

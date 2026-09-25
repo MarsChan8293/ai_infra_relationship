@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 56,
   "companies_with_links": 43,
-  "project_community_nodes": 175,
-  "project_community_nodes_with_links": 92,
-  "association_pairs": 111,
-  "asserted_on_both_sides": 111,
+  "project_community_nodes": 177,
+  "project_community_nodes_with_links": 94,
+  "association_pairs": 113,
+  "asserted_on_both_sides": 113,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -200,6 +200,18 @@
     {
       "company_id": "company/Hugging Face/Hugging Face",
       "company_name": "Hugging Face",
+      "entity_id": "community/huggingface/Transformers/Transformers",
+      "entity_name": "Transformers",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Hugging Face/Hugging Face",
+      "company_name": "Hugging Face",
       "entity_id": "community/vllm-project/vLLM/vLLM",
       "entity_name": "vLLM",
       "entity_type": "project",
@@ -324,6 +336,18 @@
       "entity_name": "llm-d",
       "entity_type": "project",
       "relation": "founding-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+      "entity_name": "Megatron-LM",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

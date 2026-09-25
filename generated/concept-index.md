@@ -18,7 +18,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]] | Draft Model Speculative Decoding, Draft-and-Verify, Draft Target, 草稿模型投机解码 | Speculative Decoding | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Draft-Target%20Decoding) |
 | [[concept/inference/decoding/Multi-token Prediction|Multi-token Prediction]] | Multi-Token Prediction, MTP, Multi Token Prediction, 多Token预测 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Multi-token%20Prediction) |
 | [[concept/inference/decoding/N-gram Speculation|N-gram Speculation]] | N-gram Speculative Decoding, Prompt Lookup Decoding, Prompt Lookup Speculation, N-gram投机解码 | Speculative Decoding | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=N-gram%20Speculation) |
-| [[concept/inference/decoding/Self-Speculative Decoding|Self-Speculative Decoding]] | Self Speculative Decoding, Self-Drafting, 自投机解码 | Speculative Decoding | 1 | 0 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Self-Speculative%20Decoding) |
+| [[concept/inference/decoding/Self-Speculative Decoding|Self-Speculative Decoding]] | Self Speculative Decoding, Self-Drafting, 自投机解码 | Speculative Decoding | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Self-Speculative%20Decoding) |
 | [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]] | Speculative Sampling, Spec Decode, 投机解码, 投机推理 |  | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Speculative%20Decoding) |
 
 ### Kv Cache
@@ -42,7 +42,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
 | [[concept/inference/parallelism/Parallelism|Parallelism]] | Model Parallelism, 分布式并行, 并行切分 |  | 6 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Parallelism) |
 | [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]] | PP, Pipeline Model Parallelism, 流水线并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Pipeline%20Parallelism) |
-| [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 0 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
+| [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
 | [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]] | TP, Tensor Model Parallelism, 张量并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tensor%20Parallelism) |
 
 ### Serving

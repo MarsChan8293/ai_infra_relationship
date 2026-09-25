@@ -2,11 +2,11 @@
   "status": "pass",
   "summary": {
     "concepts": 79,
-    "concepts_with_projects": 77,
-    "concepts_without_projects": 2,
-    "project_like_nodes": 150,
-    "projects_with_concepts": 43,
-    "concept_project_assertions": 262,
+    "concepts_with_projects": 79,
+    "concepts_without_projects": 0,
+    "project_like_nodes": 152,
+    "projects_with_concepts": 45,
+    "concept_project_assertions": 264,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -40,7 +40,7 @@
     "collective-communication": 5,
     "data-movement": 4,
     "data-path": 1,
-    "decoding": 4,
+    "decoding": 5,
     "distributed-storage": 2,
     "gemm": 2,
     "inference-scheduling": 8,
@@ -54,16 +54,13 @@
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 1,
-    "parallelism": 6,
+    "parallelism": 7,
     "quantization": 6,
     "serving": 4,
     "storage-media": 1,
     "storage-tiering": 1
   },
-  "concepts_without_projects": [
-    "concept/inference/decoding/Self-Speculative Decoding",
-    "concept/inference/parallelism/Sequence Parallelism"
-  ],
+  "concepts_without_projects": [],
   "projects": [
     {
       "id": "community/vllm-project/vLLM/vLLM",
@@ -668,6 +665,24 @@
       "layer": "runtime",
       "concepts": [
         "concept/kernel/optimization/Kernel Fusion"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+      "name": "Megatron-LM",
+      "layer": "training",
+      "concepts": [
+        "concept/inference/parallelism/Sequence Parallelism"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/huggingface/Transformers/Transformers",
+      "name": "Transformers",
+      "layer": "runtime",
+      "concepts": [
+        "concept/inference/decoding/Self-Speculative Decoding"
       ],
       "count": 1
     }

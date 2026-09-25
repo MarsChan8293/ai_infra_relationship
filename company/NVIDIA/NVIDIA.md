@@ -46,10 +46,12 @@ projects:
   - "NCCL"
   - "NVIDIA GPU Operator"
   - "NVIDIA k8s-device-plugin"
+  - "Megatron-LM"
 linked_projects:
   - "community/NVIDIA/CUTLASS/CUTLASS"
   - "community/Project-HAMi/HAMi/HAMi"
   - "community/llm-d/llm-d/llm-d"
+  - "community/NVIDIA/Megatron-LM/Megatron-LM"
   - "community/NVIDIA/NCCL/NCCL"
   - "community/ai-dynamo/NIXL/NIXL"
   - "community/ai-dynamo/Dynamo/Dynamo"
@@ -123,6 +125,7 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：公司页与社区/项目页均有显式记录。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 - [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
+- [[community/NVIDIA/Megatron-LM/Megatron-LM|Megatron-LM]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/NCCL/NCCL|NCCL]]：公司页与社区/项目页均有显式记录。
 - [[community/ai-dynamo/NIXL/NIXL|NIXL]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 - [[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]：公司页与社区/项目页均有显式记录；关系：`company-led`。

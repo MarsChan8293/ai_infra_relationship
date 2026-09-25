@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 165
-- Source roots: community 140 · company 12 · university 13
+- Projects: 167
+- Source roots: community 142 · company 12 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -17,10 +17,10 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [KV Cache](#kv-cache) | 10 |
 | [Storage](#storage) | 2 |
 | [Communication / Data Movement](#communication) | 14 |
-| [Runtime / Framework](#runtime) | 27 |
+| [Runtime / Framework](#runtime) | 28 |
 | [Kernel / Operator](#kernel) | 10 |
 | [Compiler / DSL](#compiler) | 8 |
-| [Training / Post-training](#training) | 14 |
+| [Training / Post-training](#training) | 15 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
@@ -146,7 +146,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 27 projects
+**Runtime / Framework** · 28 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -173,6 +173,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL]] | runtime | active | sglang, heterogeneous-inference, hardware-backend, llm-serving, sglang-plugin | `flagos-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=sglang-plugin-FL) |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed]] | runtime | active | inference-optimization, performance-tooling | `lightseekorg` | 0 | 1 | 4 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TokenSpeed) |
 | [[community/MooreThreads/torch_musa/torch_musa]] | deep-learning-framework-backend |  |  | `MooreThreads` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=torch_musa) |
+| [[community/huggingface/Transformers/Transformers]] | runtime | active | model-runtime, text-generation, assisted-generation, speculative-decoding | `huggingface` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Transformers) |
 | [[community/MetaX-MACA/vLLM-metax/vLLM-metax]] | llm-serving-hardware-backend |  |  | `MetaX-MACA` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-metax) |
 | [[community/MooreThreads/vllm-musa/vllm-musa]] | llm-serving-hardware-backend |  |  | `MooreThreads` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vllm-musa) |
 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL]] | runtime | active | vllm, heterogeneous-inference, hardware-backend, llm-serving, vllm-plugin | `flagos-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vllm-plugin-FL) |
@@ -212,7 +213,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## training
 
-**Training / Post-training** · 14 projects
+**Training / Post-training** · 15 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -223,6 +224,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[company/面壁智能/ForgeTrain]] | training | active | llm-training, cuda-kernels, triton, distributed-training, performance-optimization | `company:面壁智能` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ForgeTrain) |
 | [[university/清华大学/GLM-130B]] | pretraining-system-model-codesign |  | foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency | `university:清华大学` | 0 | 8 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GLM-130B) |
 | [[community/InfiniTensor/InfiniTrain]] | distributed-training |  | distributed-training, tensor-parallel, pipeline-parallel, sequence-parallel, zero | `InfiniTensor` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniTrain) |
+| [[community/NVIDIA/Megatron-LM/Megatron-LM]] | training | active | distributed-training, tensor-parallel, sequence-parallel, context-parallel, expert-parallel | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Megatron-LM) |
 | [[community/radixark/Miles/Miles]] | post-training-infrastructure |  | reinforcement-learning, post-training, distributed-training, rollout, sglang | `radixark` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Miles) |
 | [[community/Oneflow-Inc/OneFlow/OneFlow]] | training | active | deep-learning-framework, distributed-training, tensor-runtime | `Oneflow-Inc` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OneFlow) |
 | [[company/月之暗面/Seer]] | rl-rollout-serving |  | llm-serving, reinforcement-learning, rollout, scheduling, speculative-decoding | `company:月之暗面` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Seer) |

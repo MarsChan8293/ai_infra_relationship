@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1881,
+  "candidate_count": 1885,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -2079,6 +2079,79 @@
         "opens underrepresented target types"
       ],
       "base_priority": 8.993,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/Megatron-LM/Megatron-LM::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+        "name": "Megatron-LM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 9.077,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.974,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -6943,6 +7016,79 @@
         "unresolved_dimensions": [
           "current_affiliation"
         ]
+      }
+    },
+    {
+      "action_id": "community/huggingface/Transformers/Transformers::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/huggingface/Transformers/Transformers",
+        "name": "Transformers",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploration",
+      "priority": 7.952,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.849,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -25251,6 +25397,78 @@
         "opens underrepresented target types"
       ],
       "base_priority": 6.445,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/Megatron-LM/Megatron-LM::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+        "name": "Megatron-LM",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.612,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.5,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.442,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -52804,6 +53022,78 @@
       }
     },
     {
+      "action_id": "community/huggingface/Transformers/Transformers::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/huggingface/Transformers/Transformers",
+        "name": "Transformers",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 5.768,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 5,
+        "bridge_score": 5.285,
+        "novelty": 1.0,
+        "frontier_potential": 0.664,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.088,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.598,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/flagos-ai/FlagGems/0x45f::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -79750,11 +80040,11 @@
         "infra_relevance": 2.65,
         "evidence_quality": 0.0,
         "url_count": 0,
-        "bridge_score": 28.157,
+        "bridge_score": 28.533,
         "novelty": 0.0,
         "frontier_potential": 1.0,
         "uncertainty": 1.0,
-        "redundancy_penalty": 0.201,
+        "redundancy_penalty": 0.202,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": -0.096,
@@ -110677,6 +110967,80 @@
       }
     },
     {
+      "action_id": "company/Hugging Face/Hugging Face::academic_links",
+      "action_key": "company:academic_links:school+research",
+      "source": {
+        "id": "company/Hugging Face/Hugging Face",
+        "name": "Hugging Face",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "academic_links",
+      "target_families": [
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_research_partnership_page",
+        "paper_affiliation"
+      ],
+      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
+      "bucket": "verification",
+      "priority": 4.342,
+      "cost": 1.5,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 9.122,
+        "novelty": 1.0,
+        "frontier_potential": 0.316,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.184,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.143,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Company",
+        "infra: serving/inference",
+        "opens underrepresented target types",
+        "bridge 9.1",
+        "missing source URLs"
+      ],
+      "base_priority": 4.199,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.667,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.143
+        },
+        "key_yield_adjustment": 0.143,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
       "action_id": "university/Princeton University/Princeton University::key_people",
       "action_key": "school:key_people:person",
       "source": {
@@ -111604,80 +111968,6 @@
           "yield_adjustment": 0.178
         },
         "key_yield_adjustment": 0.178,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "company/Hugging Face/Hugging Face::academic_links",
-      "action_key": "company:academic_links:school+research",
-      "source": {
-        "id": "company/Hugging Face/Hugging Face",
-        "name": "Hugging Face",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "academic_links",
-      "target_families": [
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_research_partnership_page",
-        "paper_affiliation"
-      ],
-      "write_hint": "Create only direct research, spinout, or institutional collaboration links.",
-      "bucket": "verification",
-      "priority": 4.321,
-      "cost": 1.5,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 8.62,
-        "novelty": 1.0,
-        "frontier_potential": 0.333,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.176,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.143,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Company",
-        "infra: serving/inference",
-        "opens underrepresented target types",
-        "bridge 8.6",
-        "missing source URLs"
-      ],
-      "base_priority": 4.178,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 6
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.667,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.143
-        },
-        "key_yield_adjustment": 0.143,
         "exact_status_adjustment": 0.0
       },
       "operator": "verify",
@@ -118544,6 +118834,88 @@
       }
     },
     {
+      "action_id": "company/Hugging Face/Hugging Face::verify_evidence",
+      "action_key": "company:verify_evidence:none",
+      "source": {
+        "id": "company/Hugging Face/Hugging Face",
+        "name": "Hugging Face",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.09,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 9.122,
+        "novelty": 0.0,
+        "frontier_potential": 1.0,
+        "uncertainty": 1.0,
+        "redundancy_penalty": 0.115,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": -0.096,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-25"
+      },
+      "reasons": [
+        "source coverage 0/2",
+        "evidence quality below target",
+        "prior unresolved action"
+      ],
+      "base_priority": 4.436,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "unresolved",
+          "note": "No source URL is present on the node; no semantic verification was possible.",
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "source_url",
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-25"
+        },
+        "action_key_stats": {
+          "attempts": 7,
+          "statuses": {
+            "partial": 1,
+            "unresolved": 6
+          },
+          "mean_status_value": -0.379,
+          "mean_reward": 0.143,
+          "reward_signal": 0.036,
+          "yield_adjustment": -0.096
+        },
+        "key_yield_adjustment": -0.096,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/Ascend/MemCache/ader47::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -119637,88 +120009,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.500"
-      }
-    },
-    {
-      "action_id": "company/Hugging Face/Hugging Face::verify_evidence",
-      "action_key": "company:verify_evidence:none",
-      "source": {
-        "id": "company/Hugging Face/Hugging Face",
-        "name": "Hugging Face",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.045,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 8.62,
-        "novelty": 0.0,
-        "frontier_potential": 1.0,
-        "uncertainty": 1.0,
-        "redundancy_penalty": 0.11,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": -0.096,
-        "history_status_adjustment": -0.25,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-25"
-      },
-      "reasons": [
-        "source coverage 0/2",
-        "evidence quality below target",
-        "prior unresolved action"
-      ],
-      "base_priority": 4.391,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "unresolved",
-          "note": "No source URL is present on the node; no semantic verification was possible.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "source_url",
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-25"
-        },
-        "action_key_stats": {
-          "attempts": 7,
-          "statuses": {
-            "partial": 1,
-            "unresolved": 6
-          },
-          "mean_status_value": -0.379,
-          "mean_reward": 0.143,
-          "reward_signal": 0.036,
-          "yield_adjustment": -0.096
-        },
-        "key_yield_adjustment": -0.096,
-        "exact_status_adjustment": -0.25
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -126432,6 +126722,79 @@
       }
     },
     {
+      "action_id": "company/Hugging Face/Hugging Face::key_people",
+      "action_key": "company:key_people:person",
+      "source": {
+        "id": "company/Hugging Face/Hugging Face",
+        "name": "Hugging Face",
+        "type": "company",
+        "family": "company"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_team_page",
+        "github_org_maintainers"
+      ],
+      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
+      "bucket": "verification",
+      "priority": 3.752,
+      "cost": 1.1,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 0.0,
+        "url_count": 0,
+        "bridge_score": 9.122,
+        "novelty": 0.0,
+        "frontier_potential": 0.316,
+        "uncertainty": 0.725,
+        "redundancy_penalty": 0.404,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.178,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Company",
+        "infra: serving/inference",
+        "bridge 9.1",
+        "missing source URLs"
+      ],
+      "base_priority": 3.574,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 8,
+          "statuses": {
+            "partial": 7,
+            "success": 1
+          },
+          "mean_status_value": 0.431,
+          "mean_reward": 3.781,
+          "reward_signal": 0.738,
+          "yield_adjustment": 0.178
+        },
+        "key_yield_adjustment": 0.178,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence_quality=0.000"
+      }
+    },
+    {
       "action_id": "company/深度求索/郭达雅 Daya Guo::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -127051,79 +127414,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "company/Hugging Face/Hugging Face::key_people",
-      "action_key": "company:key_people:person",
-      "source": {
-        "id": "company/Hugging Face/Hugging Face",
-        "name": "Hugging Face",
-        "type": "company",
-        "family": "company"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_team_page",
-        "github_org_maintainers"
-      ],
-      "write_hint": "Curate only high-value AI Infra people; linked_people remains derived.",
-      "bucket": "verification",
-      "priority": 3.721,
-      "cost": 1.1,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 0.0,
-        "url_count": 0,
-        "bridge_score": 8.62,
-        "novelty": 0.0,
-        "frontier_potential": 0.333,
-        "uncertainty": 0.725,
-        "redundancy_penalty": 0.396,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.178,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Company",
-        "infra: serving/inference",
-        "bridge 8.6",
-        "missing source URLs"
-      ],
-      "base_priority": 3.543,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 8,
-          "statuses": {
-            "partial": 7,
-            "success": 1
-          },
-          "mean_status_value": 0.431,
-          "mean_reward": 3.781,
-          "reward_signal": 0.738,
-          "yield_adjustment": 0.178
-        },
-        "key_yield_adjustment": 0.178,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence_quality=0.000"
       }
     },
     {
@@ -149710,7 +150000,7 @@
       }
     }
   },
-  "eligible_count": 1881,
+  "eligible_count": 1885,
   "suppressed_count": 0,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [
