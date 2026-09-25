@@ -12,6 +12,10 @@ parent_concepts:
 related_concepts:
   - KV Cache Offloading
   - KV Cache Transfer
+  - KV Cache Eviction
+  - KV Cache Prefetching
+  - Remote KV Store
+  - SSD/NVMe Tier
 projects:
   - LMCache
   - Mooncake
@@ -39,6 +43,8 @@ Tiered KV Cache 把 GPU/NPU HBM、CPU DRAM、SSD/NVMe 和远端 KV store 等不�
 - Tiering 描述多个层长期协同后的整体缓存结构。
 - [[KV Cache Transfer]] 是层与层之间的数据面。
 - [[KV Cache Sharing]] 可以建立在共享的远端 tier 之上，但两者不是同义词。
+- [[SSD/NVMe Tier]] 是具体慢层介质；[[Remote KV Store]] 是跨 worker 的共享存储语义。
+- [[KV Cache Eviction]] / [[KV Cache Prefetching]] 决定冷热数据如何在各 tier 间循环。
 
 ## 代价与适用边界
 
