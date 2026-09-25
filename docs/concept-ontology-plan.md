@@ -5,7 +5,7 @@
 
 ## 0. 决策与边界
 
-本计划覆盖并替代 `docs/software-merge-plan.md` 中“Concept 永久留在 ai_infra_docs、不在 relationship 建 concept type”的旧边界。旧计划仍保留为 2026-09-19 Software Project 迁移的历史记录。
+2026-09-19 完成的 Software Project 迁移曾采用“Concept 留在 ai_infra_docs、不在 relationship 建 concept type”的阶段性边界；该迁移计划已完成并退役。本计划从 2026-09-25 起覆盖这一旧边界。
 
 新的职责划分：
 
