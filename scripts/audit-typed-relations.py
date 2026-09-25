@@ -447,7 +447,7 @@ def main() -> int:
         source_text = concept_path.read_text(encoding="utf-8")
         frontmatter = parse_frontmatter(source_text)
         project_values = as_list(frontmatter.get("projects"))
-        if re.search(r"(?m)^projects:\\s*$", source_text) and not project_values:
+        if re.search(r"(?m)^projects:\s*$", source_text) and not project_values:
             errors.append({
                 "kind": "concept-project-list-unparsed",
                 "source": rel_source,
