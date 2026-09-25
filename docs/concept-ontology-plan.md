@@ -158,11 +158,23 @@ last_verified: 2026-09
 
 目标连接分成两条数据面：NIXL / Mooncake / MemFabric / UCX 负责 P2P 与远程数据搬运，NCCL / RCCL / FlagCX / VCCL / DeepEP 负责 collective 与 MoE 通信；避免把 transport、collective primitive 和 parallelism strategy 混成同一层。
 
+#### Batch D3：Kernel / Operator / Kernel Programming
+
+- [x] Attention Kernel
+- [x] FlashAttention
+- [x] PagedAttention
+- [x] GEMM
+- [x] Grouped GEMM
+- [x] Kernel Fusion
+- [x] Kernel DSL
+- [x] JIT Kernel Compilation
+
+目标连接：vLLM、FlashInfer、FlashAttention、FlagAttention、DeepGEMM、DeepJIT、TileLang、TileKernels、Triton、CUTLASS、FlagTree、FlagGems。重点把“算法/算子机制”“kernel optimization”“kernel authoring/compiler toolchain”拆成不同层，不把 FlashAttention、PagedAttention、GEMM、DSL/JIT 混成一类。
+
 #### 后续候选域
 
-- kernel / operator：FlashAttention、PagedAttention、GEMM、Grouped GEMM、MoE dispatch/combine。
 - quantization：weight-only、W8A8、FP8、KV Cache Quantization。
-- compiler：graph compiler、kernel DSL、operator fusion、AOT/JIT。
+- compiler：graph compiler、AOT compilation、autotuning、layout optimization。
 - hardware/memory：HBM、CXL、NUMA、memory pooling、hierarchical memory。
 
 是否进入 P0/P1 由现有项目覆盖密度和用户研究频率决定，不为了“概念大全”机械扩张。
@@ -210,4 +222,5 @@ Batch A/B 使用两种边：
 - Batch C1：已完成并合入 main（PR #39）；当前基线为 23 Concepts / 43 assertions / 7 Projects，0 unresolved / 0 mismatch。
 - Batch C2：暂缓 typed relation，等待关系语义能区分 implement / orchestrate / integrate 后再升级。
 - Batch D1：已完成并合入 main（PR #40）；基线提升到 31 Concepts / 80 assertions / 10 Projects，0 unresolved / 0 mismatch。
-- Batch D2：9 个 Communication / Data Movement 概念与 DeepEP ↔ EP bridge 已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D2：已完成并合入 main（PR #41）；基线提升到 40 Concepts / 117 assertions / 18 Projects，0 unresolved / 0 mismatch。
+- Batch D3：8 个 Kernel / Operator / Kernel Programming 概念已在独立分支实现，进入 coverage 与 PR 验收。
