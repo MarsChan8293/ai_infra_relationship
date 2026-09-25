@@ -2,8 +2,8 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 67
-- Domains: 7
+- Concepts: 79
+- Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
@@ -191,3 +191,53 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/quantization/W8A8|W8A8]] | Weight 8 Activation 8, 8-bit Weight Activation Quantization, 权重8比特激活8比特 | Weight-Activation Quantization | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=W8A8) |
 | [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, 权重激活量化 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |
 | [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | Weight Only Quantization, WOQ, W4A16, W8A16 | Quantization | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Only%20Quantization) |
+
+## Hardware
+
+6 concepts.
+
+### Interconnect
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]] | Accelerator Interconnect, Device Interconnect, 硬件互联, 加速器互联 |  | 6 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Hardware%20Interconnect) |
+| [[concept/hardware/interconnect/HCCS|HCCS]] | Huawei Cache Coherence System, 昇腾HCCS | Hardware Interconnect | 3 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HCCS) |
+| [[concept/hardware/interconnect/NVLink|NVLink]] | NVIDIA NVLink, NVLink Interconnect | Hardware Interconnect | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVLink) |
+| [[concept/hardware/interconnect/NVSwitch|NVSwitch]] | NVIDIA NVSwitch, NVLink Switch, NVLink Switch Fabric | Hardware Interconnect | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVSwitch) |
+| [[concept/hardware/interconnect/PCIe|PCIe]] | PCI Express, Peripheral Component Interconnect Express, PCIe总线 | Hardware Interconnect | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PCIe) |
+| [[concept/hardware/interconnect/xGMI|xGMI]] | AMD xGMI, Infinity Fabric xGMI, xGMI Interconnect | Hardware Interconnect | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=xGMI) |
+
+## Storage
+
+6 concepts.
+
+### Data Path
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/storage/Direct Storage IO|Direct Storage I/O]] | Direct Storage, GPU Direct Storage, GPUDirect Storage, GDS |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Direct%20Storage%20I%2FO) |
+
+### Distributed Storage
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/storage/Distributed Storage|Distributed Storage]] | Distributed Storage System, 分布式存储 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Distributed%20Storage) |
+| [[concept/storage/Remote Object Store|Remote Object Store]] | Object Storage Backend, Remote Object Storage, 远程对象存储 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20Object%20Store) |
+
+### Kv Cache Storage
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
+
+### Storage Media
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/storage/NVMe SSD|NVMe SSD]] | NVMe, NVMe Storage, SSD, NVMe固态盘 |  | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVMe%20SSD) |
+
+### Storage Tiering
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/storage/Storage Tiering|Storage Tiering]] | Tiered Storage, Multi-tier Storage, 分层存储 |  | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Storage%20Tiering) |

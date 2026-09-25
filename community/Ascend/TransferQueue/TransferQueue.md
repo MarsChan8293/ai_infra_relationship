@@ -3,6 +3,9 @@ type: project
 name: TransferQueue
 linked_people:
   - "community/Ascend/TransferQueue/荣程浩 Chenghao Rong"
+linked_concepts:
+  - "concept/hardware/interconnect/Hardware Interconnect"
+  - "concept/hardware/interconnect/HCCS"
 layer: post-training-data-plane
 open_source: true
 repository: https://github.com/Ascend/TransferQueue
@@ -43,3 +46,13 @@ TransferQueue 已进入 veRL 数据流并支持 streaming dataloader / async tra
 - [[community/Ascend/TransferQueue/荣程浩 Chenghao Rong|荣程浩（Chenghao Rong）]]：[[community/Ascend/TransferQueue/TransferQueue|TransferQueue]]：社区维护者。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
+- [[concept/hardware/interconnect/HCCS|HCCS]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

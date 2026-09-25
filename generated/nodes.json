@@ -6001,6 +6001,7 @@
       "type": "project",
       "name": "TransferQueue",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "post-training-data-plane",
       "open_source": true,
       "repository": "https://github.com/Ascend/TransferQueue",
@@ -9341,6 +9342,7 @@
       "type": "project",
       "name": "3FS",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": [],
       "repository": "https://github.com/deepseek-ai/3FS",
@@ -12724,6 +12726,7 @@
       "name": "TENT",
       "parent": "Mooncake",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "data-movement",
       "open_source": true,
       "repository": "https://github.com/kvcache-ai/Mooncake",
@@ -16514,6 +16517,7 @@
       "type": "project",
       "name": "Tutti",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "kv-cache",
       "open_source": true,
       "repository": "https://github.com/xPU-IO/Tutti",
@@ -21297,6 +21301,113 @@
     "frontmatter": {}
   },
   {
+    "id": "concept/hardware/interconnect/HCCS",
+    "path": "concept/hardware/interconnect/HCCS.md",
+    "name": "HCCS",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "HCCS",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/Hardware Interconnect",
+    "path": "concept/hardware/interconnect/Hardware Interconnect.md",
+    "name": "Hardware Interconnect",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Hardware Interconnect",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/NVLink",
+    "path": "concept/hardware/interconnect/NVLink.md",
+    "name": "NVLink",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVLink",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/NVSwitch",
+    "path": "concept/hardware/interconnect/NVSwitch.md",
+    "name": "NVSwitch",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVSwitch",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/PCIe",
+    "path": "concept/hardware/interconnect/PCIe.md",
+    "name": "PCIe",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "PCIe",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/xGMI",
+    "path": "concept/hardware/interconnect/xGMI.md",
+    "name": "xGMI",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "xGMI",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
     "id": "concept/inference/decoding/Draft-Target Decoding",
     "path": "concept/inference/decoding/Draft-Target Decoding.md",
     "name": "Draft-Target Decoding",
@@ -22207,6 +22318,108 @@
       "domain": "quantization",
       "topic": "quantization",
       "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Direct Storage IO",
+    "path": "concept/storage/Direct Storage IO.md",
+    "name": "Direct Storage I/O",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Direct Storage I/O",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "data-path",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Distributed Storage",
+    "path": "concept/storage/Distributed Storage.md",
+    "name": "Distributed Storage",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Distributed Storage",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "distributed-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/NVMe SSD",
+    "path": "concept/storage/NVMe SSD.md",
+    "name": "NVMe SSD",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVMe SSD",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "storage-media",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Remote Object Store",
+    "path": "concept/storage/Remote Object Store.md",
+    "name": "Remote Object Store",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Remote Object Store",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "distributed-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/SSD-Backed KV Cache",
+    "path": "concept/storage/SSD-Backed KV Cache.md",
+    "name": "SSD-Backed KV Cache",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "SSD-Backed KV Cache",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "kv-cache-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Storage Tiering",
+    "path": "concept/storage/Storage Tiering.md",
+    "name": "Storage Tiering",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Storage Tiering",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "storage-tiering",
       "related_concepts": "",
       "projects": "",
       "last_verified": "2026-09"

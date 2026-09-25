@@ -4,9 +4,14 @@ name: YuanRong DataSystem
 aliases: [openYuanRong DataSystem, yuanrong-datasystem]
 linked_people: []
 linked_concepts:
+  - "concept/storage/Distributed Storage"
   - "concept/memory/HBM"
+  - "concept/hardware/interconnect/HCCS"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
+  - "concept/storage/NVMe SSD"
+  - "concept/storage/Remote Object Store"
+  - "concept/storage/Storage Tiering"
 layer: distributed-data-cache
 open_source: true
 repository: https://github.com/openyuanrong/datasystem
@@ -39,8 +44,13 @@ YuanRong DataSystem 是 [[community/openEuler/openYuanRong/openYuanRong|openYuan
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/HBM|HBM]]
+- [[concept/hardware/interconnect/HCCS|HCCS]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
+- [[concept/storage/NVMe SSD|NVMe SSD]]
+- [[concept/storage/Remote Object Store|Remote Object Store]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

@@ -6,6 +6,10 @@ linked_concepts:
   - "concept/communication/collectives/AllGather"
   - "concept/communication/collectives/AllReduce"
   - "concept/communication/collectives/Collective Communication"
+  - "concept/hardware/interconnect/Hardware Interconnect"
+  - "concept/hardware/interconnect/NVLink"
+  - "concept/hardware/interconnect/NVSwitch"
+  - "concept/hardware/interconnect/PCIe"
   - "concept/communication/collectives/ReduceScatter"
 status: active
 linked_people:
@@ -94,6 +98,10 @@ Mingjun Zhang 的公开 GitHub 同时关注 SGLang、Mooncake、vLLM、DeepEP �
 - [[concept/communication/collectives/AllGather|AllGather]]
 - [[concept/communication/collectives/AllReduce|AllReduce]]
 - [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
+- [[concept/hardware/interconnect/NVLink|NVLink]]
+- [[concept/hardware/interconnect/NVSwitch|NVSwitch]]
+- [[concept/hardware/interconnect/PCIe|PCIe]]
 - [[concept/communication/collectives/ReduceScatter|ReduceScatter]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

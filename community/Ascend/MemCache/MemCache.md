@@ -17,11 +17,15 @@ linked_people:
   - "community/Ascend/MemCache/彭海清 Haiqing Peng"
   - "community/vllm-project/vLLM-Ascend/chengruiqi"
 linked_concepts:
+  - "concept/storage/Distributed Storage"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/memory/NUMA"
+  - "concept/storage/NVMe SSD"
+  - "concept/storage/SSD-Backed KV Cache"
+  - "concept/storage/Storage Tiering"
 companies: ["华为"]
 company_relation: company-led
 layer: kv-cache
@@ -140,10 +144,14 @@ https://github.com/Ascend/memcache
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/memory/NUMA|NUMA]]
+- [[concept/storage/NVMe SSD|NVMe SSD]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

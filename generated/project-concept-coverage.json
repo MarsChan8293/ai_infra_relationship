@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 67,
-    "concepts_with_projects": 65,
+    "concepts": 79,
+    "concepts_with_projects": 77,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 39,
-    "concept_project_assertions": 221,
+    "projects_with_concepts": 43,
+    "concept_project_assertions": 262,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -14,39 +14,51 @@
     "attention": 3,
     "collective-communication": 5,
     "data-movement": 4,
+    "data-path": 1,
     "decoding": 5,
+    "distributed-storage": 2,
     "gemm": 2,
     "inference-scheduling": 8,
+    "interconnect": 6,
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 8,
+    "kv-cache-storage": 1,
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 1,
     "parallelism": 7,
     "quantization": 6,
-    "serving": 4
+    "serving": 4,
+    "storage-media": 1,
+    "storage-tiering": 1
   },
   "mapped_topic_counts": {
     "attention": 3,
     "collective-communication": 5,
     "data-movement": 4,
+    "data-path": 1,
     "decoding": 4,
+    "distributed-storage": 2,
     "gemm": 2,
     "inference-scheduling": 8,
+    "interconnect": 6,
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 8,
+    "kv-cache-storage": 1,
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 1,
     "parallelism": 6,
     "quantization": 6,
-    "serving": 4
+    "serving": 4,
+    "storage-media": 1,
+    "storage-tiering": 1
   },
   "concepts_without_projects": [
     "concept/inference/decoding/Self-Speculative Decoding",
@@ -108,9 +120,35 @@
         "concept/memory/HBM",
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling"
+        "concept/memory/Memory Pooling",
+        "concept/storage/Direct Storage IO",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/Remote Object Store",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
       ],
-      "count": 13
+      "count": 19
+    },
+    {
+      "id": "community/LMCache/LMCache/LMCache",
+      "name": "LMCache",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Sharing",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/CXL Memory",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/storage/Distributed Storage",
+        "concept/storage/Remote Object Store",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 12
     },
     {
       "id": "community/llm-d/llm-d/llm-d",
@@ -127,6 +165,42 @@
         "concept/inference/scheduling/Request Routing",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 10
+    },
+    {
+      "id": "community/NVIDIA/NCCL/NCCL",
+      "name": "NCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/hardware/interconnect/NVLink",
+        "concept/hardware/interconnect/NVSwitch",
+        "concept/hardware/interconnect/PCIe"
+      ],
+      "count": 10
+    },
+    {
+      "id": "community/ROCm/RCCL/RCCL",
+      "name": "RCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/hardware/interconnect/PCIe",
+        "concept/hardware/interconnect/xGMI"
       ],
       "count": 10
     },
@@ -148,19 +222,19 @@
       "count": 9
     },
     {
-      "id": "community/LMCache/LMCache/LMCache",
-      "name": "LMCache",
+      "id": "community/Ascend/MemCache/MemCache",
+      "name": "MemCache",
       "layer": "kv-cache",
       "concepts": [
-        "concept/inference/kv-cache/KV Cache Management",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Sharing",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/P-D Disaggregation",
-        "concept/memory/CXL Memory",
+        "concept/memory/HBM",
         "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy"
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/memory/NUMA",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
       ],
       "count": 9
     },
@@ -180,6 +254,22 @@
         "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 9
+    },
+    {
+      "id": "community/Ascend/MemFabric/MemFabric",
+      "name": "MemFabric",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling"
+      ],
+      "count": 8
     },
     {
       "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
@@ -214,6 +304,38 @@
       "count": 8
     },
     {
+      "id": "community/sii-research/VCCL/VCCL",
+      "name": "VCCL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/AllGather",
+        "concept/communication/collectives/AllReduce",
+        "concept/communication/collectives/Collective Communication",
+        "concept/communication/collectives/ReduceScatter",
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/hardware/interconnect/NVLink",
+        "concept/hardware/interconnect/NVSwitch",
+        "concept/hardware/interconnect/PCIe"
+      ],
+      "count": 8
+    },
+    {
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "name": "YuanRong DataSystem",
+      "layer": "distributed-data-cache",
+      "concepts": [
+        "concept/hardware/interconnect/HCCS",
+        "concept/memory/HBM",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/Remote Object Store",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 8
+    },
+    {
       "id": "community/vllm-project/AIBrix/AIBrix",
       "name": "AIBrix",
       "layer": "distributed-serving",
@@ -244,36 +366,6 @@
       "count": 7
     },
     {
-      "id": "community/Ascend/MemFabric/MemFabric",
-      "name": "MemFabric",
-      "layer": "communication",
-      "concepts": [
-        "concept/communication/data-movement/Data Movement",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA",
-        "concept/memory/HBM",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling"
-      ],
-      "count": 7
-    },
-    {
-      "id": "community/ROCm/RCCL/RCCL",
-      "name": "RCCL",
-      "layer": "communication",
-      "concepts": [
-        "concept/communication/collectives/All-to-All",
-        "concept/communication/collectives/AllGather",
-        "concept/communication/collectives/AllReduce",
-        "concept/communication/collectives/Collective Communication",
-        "concept/communication/collectives/ReduceScatter",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA"
-      ],
-      "count": 7
-    },
-    {
       "id": "community/triton-lang/Triton/Triton",
       "name": "Triton",
       "layer": "compiler",
@@ -287,20 +379,6 @@
         "concept/kernel/programming/Kernel DSL"
       ],
       "count": 7
-    },
-    {
-      "id": "community/NVIDIA/NCCL/NCCL",
-      "name": "NCCL",
-      "layer": "communication",
-      "concepts": [
-        "concept/communication/collectives/All-to-All",
-        "concept/communication/collectives/AllGather",
-        "concept/communication/collectives/AllReduce",
-        "concept/communication/collectives/Collective Communication",
-        "concept/communication/collectives/ReduceScatter",
-        "concept/communication/data-movement/Point-to-Point Transfer"
-      ],
-      "count": 6
     },
     {
       "id": "community/InfiniTensor/NineToothed",
@@ -344,19 +422,6 @@
       "count": 5
     },
     {
-      "id": "community/Ascend/MemCache/MemCache",
-      "name": "MemCache",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/memory/HBM",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling",
-        "concept/memory/NUMA"
-      ],
-      "count": 5
-    },
-    {
       "id": "community/Ascend/msModelSlim/msModelSlim",
       "name": "msModelSlim",
       "layer": "optimization",
@@ -366,6 +431,19 @@
         "concept/quantization/Quantization",
         "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/ai-dynamo/NIXL/NIXL",
+      "name": "NIXL",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/GPUDirect RDMA",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/storage/Direct Storage IO"
       ],
       "count": 5
     },
@@ -431,26 +509,14 @@
       "count": 4
     },
     {
-      "id": "community/ai-dynamo/NIXL/NIXL",
-      "name": "NIXL",
-      "layer": "communication",
+      "id": "community/xPU-IO/Tutti/Tutti",
+      "name": "Tutti",
+      "layer": "kv-cache",
       "concepts": [
-        "concept/communication/data-movement/Data Movement",
-        "concept/communication/data-movement/GPUDirect RDMA",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA"
-      ],
-      "count": 4
-    },
-    {
-      "id": "community/sii-research/VCCL/VCCL",
-      "name": "VCCL",
-      "layer": "communication",
-      "concepts": [
-        "concept/communication/collectives/AllGather",
-        "concept/communication/collectives/AllReduce",
-        "concept/communication/collectives/Collective Communication",
-        "concept/communication/collectives/ReduceScatter"
+        "concept/storage/Direct Storage IO",
+        "concept/storage/NVMe SSD",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
       ],
       "count": 4
     },
@@ -499,15 +565,14 @@
       "count": 3
     },
     {
-      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "name": "YuanRong DataSystem",
-      "layer": "distributed-data-cache",
+      "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
+      "name": "3FS",
+      "layer": "storage",
       "concepts": [
-        "concept/memory/HBM",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling"
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "id": "community/Dao-AILab/FlashAttention/FlashAttention",
@@ -546,6 +611,26 @@
       "concepts": [
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/kvcache-ai/Mooncake/TENT",
+      "name": "TENT",
+      "layer": "data-movement",
+      "concepts": [
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/hardware/interconnect/NVLink"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/Ascend/TransferQueue/TransferQueue",
+      "name": "TransferQueue",
+      "layer": "post-training-data-plane",
+      "concepts": [
+        "concept/hardware/interconnect/HCCS",
+        "concept/hardware/interconnect/Hardware Interconnect"
       ],
       "count": 2
     },
