@@ -281,4 +281,4 @@ Batch A/B 使用两种边：
 - Batch D4：已完成并合入 main（PR #43）；基线提升到 55 Concepts / 179 assertions / 34 Projects，0 unresolved / 0 mismatch。
 - Batch D5：已完成并合入 main（PR #44）；基线提升到 61 Concepts / 202 assertions / 38 Projects，0 unresolved / 0 mismatch。
 - Batch D6：已完成并合入 main（PR #45）；基线提升到 67 Concepts / 221 assertions / 39 Projects，0 unresolved / 0 mismatch。
-- Batch D7：12 个 Storage + Hardware Interconnect 概念已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D7：已完成并通过 PR #47 验收；基线提升到 79 Concepts / 262 assertions / 43 Projects，0 unresolved / 0 mismatch。
