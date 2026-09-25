@@ -205,11 +205,21 @@ last_verified: 2026-09
 
 目标连接：NineToothed、TileLang、Triton、FlagTree、CUTLASS。重点把已有 Kernel DSL / JIT 往编译器内部机制延伸，形成 frontend → IR/pass → lowering → backend codegen → JIT/AOT 的链路，并把 autotuning / layout optimization 作为横向优化机制。
 
+#### Batch D7：Storage / KV Cache Lifecycle
+
+- [x] SSD/NVMe Tier
+- [x] Remote KV Store
+- [x] KV Cache Eviction
+- [x] KV Cache Prefetching
+- [x] 回接 KV Cache Management / Tiered KV Cache / Offloading / Memory Hierarchy
+
+目标连接：LMCache、MemCache、Mooncake、FlexKV、YuanRong DataSystem。重点把“数据放在哪一层”进一步拆成生命周期行为：下沉、远端持久化/共享、淘汰、预取。
+
 #### 后续候选域
 
-- storage：SSD/NVMe tier、remote object/KV store、direct storage。
 - hardware interconnect：PCIe、NVLink/NVSwitch、HCCS、CXL fabric。
 - observability：TTFT/TPOT、KV metrics、request tracing、performance regression。
+- reliability：fault tolerance、replication、checkpoint/recovery。
 
 是否进入 P0/P1 由现有项目覆盖密度和用户研究频率决定，不为了“概念大全”机械扩张。
 
@@ -260,4 +270,5 @@ Batch A/B 使用两种边：
 - Batch D3：已完成并合入 main（PR #42）；基线提升到 48 Concepts / 147 assertions / 29 Projects，0 unresolved / 0 mismatch。
 - Batch D4：已完成并合入 main（PR #43）；基线提升到 55 Concepts / 179 assertions / 34 Projects，0 unresolved / 0 mismatch。
 - Batch D5：已完成并合入 main（PR #44）；基线提升到 61 Concepts / 202 assertions / 38 Projects，0 unresolved / 0 mismatch。
-- Batch D6：6 个 Kernel Compiler Pipeline 概念已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D6：已完成并合入 main（PR #45）；基线提升到 67 Concepts / 221 assertions / 39 Projects，0 unresolved / 0 mismatch。
+- Batch D7：4 个 Storage / KV Cache Lifecycle 概念与现有 KV 主干回接已在独立分支实现，进入 coverage 与 PR 验收。

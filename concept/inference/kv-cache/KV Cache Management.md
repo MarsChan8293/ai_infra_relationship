@@ -13,6 +13,9 @@ related_concepts:
   - KV Cache Transfer
   - KV Cache Sharing
   - Prefix Caching
+  - KV Cache Eviction
+  - KV Cache Prefetching
+  - Remote KV Store
 projects:
   - LMCache
   - vLLM
@@ -40,6 +43,9 @@ KV Cache Management 是围绕 KV 的分配、寻址、复用、放置、迁移�
 - [[KV Cache Transfer]]：负责跨位置的数据移动。
 - [[KV Cache Sharing]]：让不同 serving instance 复用已经存在的 KV。
 - [[Prefix Caching]]：按共享前缀命中并复用 KV。
+- [[KV Cache Eviction]]：在容量压力下决定谁被删除或下沉。
+- [[KV Cache Prefetching]]：在真正访问前把冷层 KV 提前拉回快层。
+- [[Remote KV Store]]：把 KV 生命周期扩展到 worker 之外的共享存储。
 
 ## 代价与适用边界
 
