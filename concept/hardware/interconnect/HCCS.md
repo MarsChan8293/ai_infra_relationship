@@ -3,7 +3,6 @@ type: concept
 name: HCCS
 aliases:
   - Huawei Cache Coherence System
-  - High-speed Cache Coherent System
   - 昇腾HCCS
 domain: hardware
 topic: interconnect
@@ -23,7 +22,7 @@ last_verified: 2026-09
 
 ## 一句话定义
 
-HCCS 是华为昇腾系统中的高速设备互联路径，用于 NPU/节点内高速数据交换，并可作为上层 tensor/data transfer 的硬件通道之一。
+HCCS（Huawei Cache Coherent System）是华为昇腾系统中的高速一致性互联总线。当前昇腾官方通信文档将其作为 NPU↔NPU 的高速链路之一，HCCL 可在 HCCS、PCIe、RoCE 等链路上执行集合与点到点通信。
 
 ## 在 AI Infra 中的位置
 
@@ -44,5 +43,6 @@ HCCS 是华为昇腾系统中的高速设备互联路径，用于 NPU/节点内�
 
 ## Sources
 
+- https://www.hiascend.com/document/detail/en/CANNCommunityEdition/910/commlib/hcclug/docs/en/user_guide/hccl_intro.md
 - https://github.com/Ascend/TransferQueue/blob/main/docs/storage_backends/openyuanrong_datasystem.md
 - https://github.com/openyuanrong/datasystem
