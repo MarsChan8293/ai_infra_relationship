@@ -86,6 +86,96 @@
       }
     },
     {
+      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/msModelSlim/msModelSlim",
+        "name": "msModelSlim",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.635,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 12.035,
+        "novelty": 1.0,
+        "frontier_potential": 0.332,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, moe, quantization",
+        "opens underrepresented target types",
+        "bridge 12.0",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.782,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/Ascend/CANN/CANN::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -176,96 +266,6 @@
         "unresolved_dimensions": [
           "umbrella_CANN_maintainers",
           "inference_hotspot_repo_ownership"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/msModelSlim/msModelSlim",
-        "name": "msModelSlim",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.271,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 8.007,
-        "novelty": 1.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": -0.25,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, moe, quantization",
-        "opens underrepresented target types",
-        "bridge 8.0",
-        "prior unresolved action"
-      ],
-      "base_priority": 9.418,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": -0.25
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
         ]
       }
     },
@@ -944,6 +944,96 @@
       }
     },
     {
+      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/msModelSlim/msModelSlim",
+        "name": "msModelSlim",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.635,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 12.035,
+        "novelty": 1.0,
+        "frontier_potential": 0.332,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": -0.25,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-23"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, moe, quantization",
+        "opens underrepresented target types",
+        "bridge 12.0",
+        "prior unresolved action"
+      ],
+      "base_priority": 9.782,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-16-haes-1",
+          "attempted_at": "2026-09-16",
+          "status": "unresolved",
+          "note": null,
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 7,
+          "cooldown_until": "2026-09-23"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": -0.25
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior unresolved action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
+        ]
+      }
+    },
+    {
       "action_id": "community/Ascend/CANN/CANN::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1034,96 +1124,6 @@
         "unresolved_dimensions": [
           "umbrella_CANN_maintainers",
           "inference_hotspot_repo_ownership"
-        ]
-      }
-    },
-    {
-      "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/msModelSlim/msModelSlim",
-        "name": "msModelSlim",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.271,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 8.007,
-        "novelty": 1.0,
-        "frontier_potential": 0.435,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.156,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": -0.25,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-23"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, moe, quantization",
-        "opens underrepresented target types",
-        "bridge 8.0",
-        "prior unresolved action"
-      ],
-      "base_priority": 9.418,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-16-haes-1",
-          "attempted_at": "2026-09-16",
-          "status": "unresolved",
-          "note": null,
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 7,
-          "cooldown_until": "2026-09-23"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": -0.25
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior unresolved action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
         ]
       }
     },

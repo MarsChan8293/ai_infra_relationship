@@ -6,6 +6,9 @@ linked_people:
   - "company/清程极智/翟季冬 Jidong Zhai"
   - "university/清华大学/Mingshu Zhai"
   - "university/清华大学/Qihao Zhang"
+linked_concepts:
+  - "concept/quantization/Quantization"
+  - "concept/quantization/Weight-Only Quantization"
 areas: [llm-serving, quantization, kernel-generation, ai-compiler]
 layer: quantized-serving-kernel-optimization
 open_source: true
@@ -37,3 +40,13 @@ QFactory 通过 Qtile Graph 表达与优化 quantized kernels，把量化策略�
 - [[university/清华大学/Qihao Zhang|Qihao Zhang]]：[[community/thu-pacman/QFactory/QFactory|QFactory]]：USENIX ATC 2025 第一作者，面向 quantized LLM serving 的 Qtile Graph / kernel optimization。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/quantization/Quantization|Quantization]]
+- [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

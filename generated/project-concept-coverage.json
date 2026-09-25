@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 48,
-    "concepts_with_projects": 46,
+    "concepts": 55,
+    "concepts_with_projects": 53,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 29,
-    "concept_project_assertions": 147,
+    "projects_with_concepts": 34,
+    "concept_project_assertions": 179,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -18,9 +18,10 @@
     "gemm": 2,
     "inference-scheduling": 8,
     "kernel-programming": 2,
-    "kv-cache": 7,
+    "kv-cache": 8,
     "optimization": 1,
     "parallelism": 7,
+    "quantization": 6,
     "serving": 4
   },
   "mapped_topic_counts": {
@@ -31,9 +32,10 @@
     "gemm": 2,
     "inference-scheduling": 8,
     "kernel-programming": 2,
-    "kv-cache": 7,
+    "kv-cache": 8,
     "optimization": 1,
     "parallelism": 6,
+    "quantization": 6,
     "serving": 4
   },
   "concepts_without_projects": [
@@ -68,9 +70,16 @@
         "concept/inference/serving/P-D Disaggregation",
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/attention/FlashAttention",
-        "concept/kernel/attention/PagedAttention"
+        "concept/kernel/attention/PagedAttention",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/KV Cache Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/W8A8",
+        "concept/quantization/Weight-Activation Quantization",
+        "concept/quantization/Weight-Only Quantization"
       ],
-      "count": 23
+      "count": 30
     },
     {
       "id": "community/llm-d/llm-d/llm-d",
@@ -89,6 +98,23 @@
         "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 10
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "name": "DeepGEMM",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/optimization/Kernel Fusion",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/W8A8",
+        "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 9
     },
     {
       "id": "community/kvcache-ai/Mooncake/Mooncake",
@@ -241,6 +267,32 @@
       "count": 5
     },
     {
+      "id": "community/Ascend/msModelSlim/msModelSlim",
+      "name": "msModelSlim",
+      "layer": "optimization",
+      "concepts": [
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/W8A8",
+        "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "name": "TileKernels",
+      "layer": "gpu-kernels",
+      "concepts": [
+        "concept/kernel/optimization/Kernel Fusion",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
       "name": "DeepEP",
       "layer": "communication",
@@ -249,18 +301,6 @@
         "concept/communication/collectives/Collective Communication",
         "concept/communication/data-movement/RDMA",
         "concept/inference/parallelism/Expert Parallelism"
-      ],
-      "count": 4
-    },
-    {
-      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
-      "name": "DeepGEMM",
-      "layer": "runtime",
-      "concepts": [
-        "concept/kernel/gemm/GEMM",
-        "concept/kernel/gemm/Grouped GEMM",
-        "concept/kernel/optimization/Kernel Fusion",
-        "concept/kernel/programming/JIT Kernel Compilation"
       ],
       "count": 4
     },
@@ -323,6 +363,39 @@
       "count": 3
     },
     {
+      "id": "community/ggml-org/ggml/ggml",
+      "name": "ggml",
+      "layer": "tensor-runtime",
+      "concepts": [
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/ggml-org/llama.cpp/llama.cpp",
+      "name": "llama.cpp",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/InternLM/LMDeploy/LMDeploy",
+      "name": "LMDeploy",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/quantization/KV Cache Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 3
+    },
+    {
       "id": "community/Ascend/MemFabric/MemFabric",
       "name": "MemFabric",
       "layer": "communication",
@@ -362,6 +435,16 @@
       "concepts": [
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/attention/FlashAttention"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/thu-pacman/QFactory/QFactory",
+      "name": "QFactory",
+      "layer": "quantized-serving-kernel-optimization",
+      "concepts": [
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Only Quantization"
       ],
       "count": 2
     },
@@ -408,15 +491,6 @@
       "layer": "compiler",
       "concepts": [
         "concept/kernel/programming/Kernel DSL"
-      ],
-      "count": 1
-    },
-    {
-      "id": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
-      "name": "TileKernels",
-      "layer": "gpu-kernels",
-      "concepts": [
-        "concept/kernel/optimization/Kernel Fusion"
       ],
       "count": 1
     }

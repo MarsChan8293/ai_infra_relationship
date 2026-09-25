@@ -5,6 +5,10 @@ linked_people:
   - "university/上海人工智能实验室/Han Lv"
   - "university/上海人工智能实验室/Li Zhang"
   - "university/上海人工智能实验室/Qian Yao"
+linked_concepts:
+  - "concept/quantization/KV Cache Quantization"
+  - "concept/quantization/Quantization"
+  - "concept/quantization/Weight-Only Quantization"
 layer: inference-engine
 open_source: true
 repository: https://github.com/InternLM/lmdeploy
@@ -63,3 +67,14 @@ LMDeploy 官方仓库明确致谢 vLLM、FasterTransformer、DeepSpeed-MII 等�
 - [[university/上海人工智能实验室/Qian Yao|Qian Yao]]：[[上海人工智能实验室]]：2026 年修订版 TurboMind / LMDeploy 论文明确列出 Qian Yao 的 affiliation 为 Shanghai AI Laboratory。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/quantization/KV Cache Quantization|KV Cache Quantization]]
+- [[concept/quantization/Quantization|Quantization]]
+- [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

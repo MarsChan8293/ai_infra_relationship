@@ -6062,6 +6062,7 @@
       "frontmatter": {
         "type": "project",
         "name": "msModelSlim",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": [],
         "last_verified": "2026-09",
@@ -6845,6 +6846,7 @@
         "type": "project",
         "name": "LMDeploy",
         "linked_people": "",
+        "linked_concepts": "",
         "layer": "inference-engine",
         "open_source": true,
         "repository": "https://github.com/InternLM/lmdeploy",
@@ -11398,6 +11400,7 @@
         "type": "project",
         "name": "ggml",
         "linked_people": "",
+        "linked_concepts": "",
         "companies": [
           "Hugging Face"
         ],
@@ -11483,6 +11486,7 @@
       "frontmatter": {
         "type": "project",
         "name": "llama.cpp",
+        "linked_concepts": "",
         "status": "active",
         "docs": "https://github.com/ggml-org/llama.cpp",
         "linked_people": "",
@@ -14635,6 +14639,7 @@
         "name": "QFactory",
         "organization": "thu-pacman",
         "linked_people": "",
+        "linked_concepts": "",
         "areas": [
           "llm-serving",
           "quantization",
@@ -21868,6 +21873,131 @@
         "projects": "",
         "last_verified": "2026-09"
       }
+    },
+    {
+      "id": "concept/quantization/FP4 Quantization",
+      "path": "concept/quantization/FP4 Quantization.md",
+      "name": "FP4 Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "FP4 Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/FP8 Quantization",
+      "path": "concept/quantization/FP8 Quantization.md",
+      "name": "FP8 Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "FP8 Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/KV Cache Quantization",
+      "path": "concept/quantization/KV Cache Quantization.md",
+      "name": "KV Cache Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "KV Cache Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "kv-cache",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/Quantization",
+      "path": "concept/quantization/Quantization.md",
+      "name": "Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/W8A8",
+      "path": "concept/quantization/W8A8.md",
+      "name": "W8A8",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "W8A8",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/Weight-Activation Quantization",
+      "path": "concept/quantization/Weight-Activation Quantization.md",
+      "name": "Weight-Activation Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Weight-Activation Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/quantization/Weight-Only Quantization",
+      "path": "concept/quantization/Weight-Only Quantization.md",
+      "name": "Weight-Only Quantization",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Weight-Only Quantization",
+        "aliases": "",
+        "domain": "quantization",
+        "topic": "quantization",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
     }
   ],
   "edges": [
@@ -22727,6 +22857,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/Ascend/msModelSlim/msModelSlim",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/msModelSlim/msModelSlim",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/msModelSlim/msModelSlim",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/msModelSlim/msModelSlim",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/msModelSlim/msModelSlim",
+      "target": "concept/quantization/Weight-Activation Quantization",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/Ascend/ops-transformer/Konstantin Berestizshevsky",
       "target": "community/Ascend/ops-transformer/tangkaidi",
       "kind": "wikilink"
@@ -23334,6 +23489,21 @@
     {
       "source": "community/InfiniTensor/zhangyue207",
       "target": "community/InfiniTensor/InfiniOps",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InternLM/LMDeploy/LMDeploy",
+      "target": "concept/quantization/KV Cache Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InternLM/LMDeploy/LMDeploy",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/InternLM/LMDeploy/LMDeploy",
+      "target": "concept/quantization/Weight-Only Quantization",
       "kind": "wikilink"
     },
     {
@@ -25947,6 +26117,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "target": "concept/quantization/Weight-Activation Quantization",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "kind": "wikilink"
@@ -26464,6 +26659,26 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "target": "concept/kernel/optimization/Kernel Fusion",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "target": "concept/quantization/Weight-Activation Quantization",
       "kind": "wikilink"
     },
     {
@@ -27902,6 +28117,21 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/ggml-org/ggml/ggml",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/ggml/ggml",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/ggml/ggml",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/ggml-org/llama.cpp/Georgi Gerganov",
       "target": "community/FlashML-org/FreeToken/FreeToken",
       "kind": "wikilink"
@@ -27939,6 +28169,21 @@
     {
       "source": "community/ggml-org/llama.cpp/llama.cpp",
       "target": "company/Hugging Face/Hugging Face",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ggml-org/llama.cpp/llama.cpp",
+      "target": "concept/quantization/Weight-Only Quantization",
       "kind": "wikilink"
     },
     {
@@ -31083,6 +31328,16 @@
     },
     {
       "source": "community/thu-pacman/QFactory/QFactory",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/thu-pacman/QFactory/QFactory",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/thu-pacman/QFactory/QFactory",
       "target": "university/清华大学/Mingshu Zhai",
       "kind": "wikilink"
     },
@@ -33034,6 +33289,41 @@
     {
       "source": "community/vllm-project/vLLM/vLLM",
       "target": "concept/kernel/attention/PagedAttention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/KV Cache Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/Weight-Activation Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/vLLM/vLLM",
+      "target": "concept/quantization/Weight-Only Quantization",
       "kind": "wikilink"
     },
     {
@@ -41752,6 +42042,241 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/Ascend/msModelSlim/msModelSlim",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "concept/quantization/Weight-Activation Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/Ascend/msModelSlim/msModelSlim",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "concept/quantization/KV Cache Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/KV Cache Quantization",
+      "target": "community/InternLM/LMDeploy/LMDeploy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/KV Cache Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/KV Cache Quantization",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/KV Cache Quantization",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/Ascend/msModelSlim/msModelSlim",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/InternLM/LMDeploy/LMDeploy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/thu-pacman/QFactory/QFactory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "concept/quantization/KV Cache Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "concept/quantization/Weight-Activation Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Quantization",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/W8A8",
+      "target": "community/Ascend/msModelSlim/msModelSlim",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/W8A8",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/W8A8",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/W8A8",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "community/Ascend/msModelSlim/msModelSlim",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Activation Quantization",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "community/InternLM/LMDeploy/LMDeploy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "community/ggml-org/ggml/ggml",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "community/ggml-org/llama.cpp/llama.cpp",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "community/thu-pacman/QFactory/QFactory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/Weight-Only Quantization",
+      "target": "concept/quantization/W8A8",
+      "kind": "wikilink"
+    },
+    {
       "source": "university/Binghamton University/Binghamton University",
       "target": "community/ai-dynamo/Dynamo/Ryan McCormick",
       "kind": "wikilink"
@@ -47974,14 +48499,15 @@
       "bridge_score": 3.085
     },
     "community/Ascend/msModelSlim/msModelSlim": {
-      "degree": 6,
-      "cross_category_degree": 2,
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 8.007
+      "bridge_score": 12.035
     },
     "community/Ascend/ops-transformer/Konstantin Berestizshevsky": {
       "degree": 4,
@@ -48234,13 +48760,14 @@
       "bridge_score": 3.822
     },
     "community/InternLM/LMDeploy/LMDeploy": {
-      "degree": 6,
-      "cross_category_degree": 5,
+      "degree": 9,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
+        "concept",
         "university"
       ],
-      "bridge_score": 7.557
+      "bridge_score": 10.622
     },
     "community/LLMServe/DistServe/DistServe": {
       "degree": 4,
@@ -49245,14 +49772,14 @@
       "bridge_score": 12.107
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM": {
-      "degree": 26,
-      "cross_category_degree": 6,
+      "degree": 31,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 11.355
+      "bridge_score": 13.35
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepJIT": {
       "degree": 9,
@@ -49388,14 +49915,14 @@
       "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/TileKernels": {
-      "degree": 14,
-      "cross_category_degree": 2,
+      "degree": 18,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 9.107
+      "bridge_score": 10.848
     },
     "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao": {
       "degree": 3,
@@ -49887,13 +50414,14 @@
       "bridge_score": 7.722
     },
     "community/ggml-org/ggml/ggml": {
-      "degree": 6,
-      "cross_category_degree": 2,
+      "degree": 9,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 9.572
     },
     "community/ggml-org/llama.cpp/Georgi Gerganov": {
       "degree": 4,
@@ -49905,13 +50433,14 @@
       "bridge_score": 5.672
     },
     "community/ggml-org/llama.cpp/llama.cpp": {
-      "degree": 10,
-      "cross_category_degree": 2,
+      "degree": 13,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.159
+      "bridge_score": 10.057
     },
     "community/gpustack/GPUStack/GPUStack": {
       "degree": 17,
@@ -50852,13 +51381,14 @@
       "bridge_score": 5.285
     },
     "community/thu-pacman/QFactory/QFactory": {
-      "degree": 4,
-      "cross_category_degree": 4,
+      "degree": 6,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 6.722
+      "bridge_score": 9.407
     },
     "community/tile-ai/TileLang/TileLang": {
       "degree": 23,
@@ -51197,8 +51727,8 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 142,
-      "cross_category_degree": 75,
+      "degree": 149,
+      "cross_category_degree": 82,
       "neighbor_categories": [
         "community",
         "company",
@@ -51206,7 +51736,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 40.91
+      "bridge_score": 43.429
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -53154,13 +53684,13 @@
       "bridge_score": 7.022
     },
     "concept/inference/kv-cache/KV Cache Offloading": {
-      "degree": 6,
+      "degree": 7,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 6.7
     },
     "concept/inference/kv-cache/KV Cache Sharing": {
       "degree": 7,
@@ -53181,13 +53711,13 @@
       "bridge_score": 7.75
     },
     "concept/inference/kv-cache/KV Cache": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.87
+      "bridge_score": 7.022
     },
     "concept/inference/kv-cache/Prefix Caching": {
       "degree": 8,
@@ -53448,6 +53978,69 @@
         "concept"
       ],
       "bridge_score": 7.207
+    },
+    "concept/quantization/FP4 Quantization": {
+      "degree": 8,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.27
+    },
+    "concept/quantization/FP8 Quantization": {
+      "degree": 8,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.57
+    },
+    "concept/quantization/KV Cache Quantization": {
+      "degree": 6,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.507
+    },
+    "concept/quantization/Quantization": {
+      "degree": 11,
+      "cross_category_degree": 8,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 9.385
+    },
+    "concept/quantization/W8A8": {
+      "degree": 6,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.857
+    },
+    "concept/quantization/Weight-Activation Quantization": {
+      "degree": 8,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.57
+    },
+    "concept/quantization/Weight-Only Quantization": {
+      "degree": 9,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.072
     }
   }
 }

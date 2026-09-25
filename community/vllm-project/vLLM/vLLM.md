@@ -11,9 +11,12 @@ linked_concepts:
   - "concept/inference/decoding/Draft-Target Decoding"
   - "concept/inference/parallelism/Expert Parallelism"
   - "concept/kernel/attention/FlashAttention"
+  - "concept/quantization/FP4 Quantization"
+  - "concept/quantization/FP8 Quantization"
   - "concept/inference/kv-cache/KV Cache"
   - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/quantization/KV Cache Quantization"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/inference/decoding/Multi-token Prediction"
   - "concept/inference/decoding/N-gram Speculation"
@@ -22,9 +25,13 @@ linked_concepts:
   - "concept/inference/parallelism/Parallelism"
   - "concept/inference/parallelism/Pipeline Parallelism"
   - "concept/inference/kv-cache/Prefix Caching"
+  - "concept/quantization/Quantization"
   - "concept/inference/decoding/Speculative Decoding"
   - "concept/inference/parallelism/Tensor Parallelism"
   - "concept/inference/kv-cache/Tiered KV Cache"
+  - "concept/quantization/W8A8"
+  - "concept/quantization/Weight-Activation Quantization"
+  - "concept/quantization/Weight-Only Quantization"
 status: active
 linked_people:
   - "community/llm-d/llm-d/张家驹 Jiaju Zhang"
@@ -193,9 +200,12 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]]
 - [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
 - [[concept/kernel/attention/FlashAttention|FlashAttention]]
+- [[concept/quantization/FP4 Quantization|FP4 Quantization]]
+- [[concept/quantization/FP8 Quantization|FP8 Quantization]]
 - [[concept/inference/kv-cache/KV Cache|KV Cache]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/quantization/KV Cache Quantization|KV Cache Quantization]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/inference/decoding/Multi-token Prediction|Multi-token Prediction]]
 - [[concept/inference/decoding/N-gram Speculation|N-gram Speculation]]
@@ -204,8 +214,12 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/parallelism/Parallelism|Parallelism]]
 - [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]]
 - [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
+- [[concept/quantization/Quantization|Quantization]]
 - [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
 - [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
+- [[concept/quantization/W8A8|W8A8]]
+- [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]]
+- [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

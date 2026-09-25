@@ -10,7 +10,11 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang"
   - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 linked_concepts:
+  - "concept/quantization/FP4 Quantization"
+  - "concept/quantization/FP8 Quantization"
   - "concept/kernel/optimization/Kernel Fusion"
+  - "concept/quantization/Quantization"
+  - "concept/quantization/Weight-Activation Quantization"
 companies: ["深度求索"]
 company_relation: company-led
 layer: gpu-kernels
@@ -84,6 +88,10 @@ TileKernels 是 DeepSeek 基于 [[community/tile-ai/TileLang/TileLang|TileLang]]
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/quantization/FP4 Quantization|FP4 Quantization]]
+- [[concept/quantization/FP8 Quantization|FP8 Quantization]]
 - [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]]
+- [[concept/quantization/Quantization|Quantization]]
+- [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

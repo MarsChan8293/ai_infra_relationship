@@ -2,8 +2,8 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 48
-- Domains: 5
+- Concepts: 55
+- Domains: 6
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
@@ -129,3 +129,24 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
 | [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
+
+## Quantization
+
+7 concepts.
+
+### Kv Cache
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] | Quantized KV Cache, KV Quantization, KV缓存量化 | Quantization | 3 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Quantization) |
+
+### Quantization
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/quantization/FP4 Quantization|FP4 Quantization]] | Float4 Quantization, FP4, MXFP4, NVFP4 | Quantization | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP4%20Quantization) |
+| [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
+| [[concept/quantization/Quantization|Quantization]] | Model Quantization, LLM Quantization, 模型量化 |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Quantization) |
+| [[concept/quantization/W8A8|W8A8]] | Weight 8 Activation 8, 8-bit Weight Activation Quantization, 权重8比特激活8比特 | Weight-Activation Quantization | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=W8A8) |
+| [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, 权重激活量化 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |
+| [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | Weight Only Quantization, WOQ, W4A16, W8A16 | Quantization | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Only%20Quantization) |
