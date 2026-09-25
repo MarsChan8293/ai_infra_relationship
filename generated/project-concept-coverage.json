@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 55,
-    "concepts_with_projects": 53,
+    "concepts": 61,
+    "concepts_with_projects": 59,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 34,
-    "concept_project_assertions": 179,
+    "projects_with_concepts": 38,
+    "concept_project_assertions": 202,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -19,6 +19,9 @@
     "inference-scheduling": 8,
     "kernel-programming": 2,
     "kv-cache": 8,
+    "memory-hierarchy": 3,
+    "memory-pooling": 2,
+    "memory-topology": 1,
     "optimization": 1,
     "parallelism": 7,
     "quantization": 6,
@@ -33,6 +36,9 @@
     "inference-scheduling": 8,
     "kernel-programming": 2,
     "kv-cache": 8,
+    "memory-hierarchy": 3,
+    "memory-pooling": 2,
+    "memory-topology": 1,
     "optimization": 1,
     "parallelism": 6,
     "quantization": 6,
@@ -82,6 +88,27 @@
       "count": 30
     },
     {
+      "id": "community/kvcache-ai/Mooncake/Mooncake",
+      "name": "Mooncake",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/GPUDirect RDMA",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache Sharing",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling"
+      ],
+      "count": 13
+    },
+    {
       "id": "community/llm-d/llm-d/llm-d",
       "name": "llm-d",
       "layer": "distributed-serving",
@@ -117,19 +144,19 @@
       "count": 9
     },
     {
-      "id": "community/kvcache-ai/Mooncake/Mooncake",
-      "name": "Mooncake",
+      "id": "community/LMCache/LMCache/LMCache",
+      "name": "LMCache",
       "layer": "kv-cache",
       "concepts": [
-        "concept/communication/data-movement/Data Movement",
-        "concept/communication/data-movement/GPUDirect RDMA",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/CXL Memory",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy"
       ],
       "count": 9
     },
@@ -197,6 +224,21 @@
       "count": 7
     },
     {
+      "id": "community/Ascend/MemFabric/MemFabric",
+      "name": "MemFabric",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/ROCm/RCCL/RCCL",
       "name": "RCCL",
       "layer": "communication",
@@ -210,20 +252,6 @@
         "concept/communication/data-movement/RDMA"
       ],
       "count": 7
-    },
-    {
-      "id": "community/LMCache/LMCache/LMCache",
-      "name": "LMCache",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/inference/kv-cache/KV Cache Management",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Sharing",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 6
     },
     {
       "id": "community/NVIDIA/NCCL/NCCL",
@@ -263,6 +291,19 @@
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/Ascend/MemCache/MemCache",
+      "name": "MemCache",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/memory/NUMA"
       ],
       "count": 5
     },
@@ -396,17 +437,6 @@
       "count": 3
     },
     {
-      "id": "community/Ascend/MemFabric/MemFabric",
-      "name": "MemFabric",
-      "layer": "communication",
-      "concepts": [
-        "concept/communication/data-movement/Data Movement",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA"
-      ],
-      "count": 3
-    },
-    {
       "id": "community/tile-ai/TileLang/TileLang",
       "name": "TileLang",
       "layer": "compiler",
@@ -429,12 +459,43 @@
       "count": 3
     },
     {
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "name": "YuanRong DataSystem",
+      "layer": "distributed-data-cache",
+      "concepts": [
+        "concept/memory/HBM",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling"
+      ],
+      "count": 3
+    },
+    {
       "id": "community/Dao-AILab/FlashAttention/FlashAttention",
       "name": "FlashAttention",
       "layer": "runtime",
       "concepts": [
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/attention/FlashAttention"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/taco-project/FlexKV/FlexKV",
+      "name": "FlexKV",
+      "layer": "distributed-kv-cache",
+      "concepts": [
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/kvcache-ai/KTransformers/KTransformers",
+      "name": "KTransformers",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/memory/Host Memory",
+        "concept/memory/NUMA"
       ],
       "count": 2
     },

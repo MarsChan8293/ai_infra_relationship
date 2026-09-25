@@ -5,8 +5,12 @@ linked_concepts:
   - "concept/communication/data-movement/Data Movement"
   - "concept/inference/serving/Disaggregated Serving"
   - "concept/communication/data-movement/GPUDirect RDMA"
+  - "concept/memory/HBM"
+  - "concept/memory/Host Memory"
   - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
+  - "concept/memory/Memory Hierarchy"
+  - "concept/memory/Memory Pooling"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/data-movement/RDMA"
@@ -161,8 +165,12 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[concept/communication/data-movement/Data Movement|Data Movement]]
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
 - [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]]
+- [[concept/memory/HBM|HBM]]
+- [[concept/memory/Host Memory|Host Memory]]
 - [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
+- [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
+- [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/data-movement/RDMA|RDMA]]

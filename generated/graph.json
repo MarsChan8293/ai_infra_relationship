@@ -5417,6 +5417,7 @@
         "type": "project",
         "name": "MemCache",
         "linked_people": "",
+        "linked_concepts": "",
         "companies": [
           "华为"
         ],
@@ -12248,6 +12249,7 @@
         "type": "project",
         "name": "KTransformers",
         "organization": "KVCache.AI",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/kvcache-ai/ktransformers",
@@ -13771,6 +13773,7 @@
           "yuanrong-datasystem"
         ],
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "distributed-data-cache",
         "open_source": true,
         "repository": "https://github.com/openyuanrong/datasystem",
@@ -14493,6 +14496,7 @@
         "type": "project",
         "name": "FlexKV",
         "linked_people": "",
+        "linked_concepts": "",
         "companies": [
           "腾讯"
         ],
@@ -21875,6 +21879,110 @@
       }
     },
     {
+      "id": "concept/memory/CXL Memory",
+      "path": "concept/memory/CXL Memory.md",
+      "name": "CXL Memory",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "CXL Memory",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-pooling",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/memory/HBM",
+      "path": "concept/memory/HBM.md",
+      "name": "HBM",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "HBM",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-hierarchy",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/memory/Host Memory",
+      "path": "concept/memory/Host Memory.md",
+      "name": "Host Memory",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Host Memory",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-hierarchy",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/memory/Memory Hierarchy",
+      "path": "concept/memory/Memory Hierarchy.md",
+      "name": "Memory Hierarchy",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Memory Hierarchy",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-hierarchy",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/memory/Memory Pooling",
+      "path": "concept/memory/Memory Pooling.md",
+      "name": "Memory Pooling",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Memory Pooling",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-pooling",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/memory/NUMA",
+      "path": "concept/memory/NUMA.md",
+      "name": "NUMA",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "NUMA",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-topology",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "concept/quantization/FP4 Quantization",
       "path": "concept/quantization/FP4 Quantization.md",
       "name": "FP4 Quantization",
@@ -22332,6 +22440,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/HBM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/NUMA",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/Ascend/MemCache/Pz1116",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -22684,6 +22817,26 @@
     {
       "source": "community/Ascend/MemFabric/MemFabric",
       "target": "concept/communication/data-movement/RDMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemFabric/MemFabric",
+      "target": "concept/memory/HBM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemFabric/MemFabric",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemFabric/MemFabric",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemFabric/MemFabric",
+      "target": "concept/memory/Memory Pooling",
       "kind": "wikilink"
     },
     {
@@ -23684,6 +23837,21 @@
     {
       "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/memory/CXL Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/memory/Memory Hierarchy",
       "kind": "wikilink"
     },
     {
@@ -28763,6 +28931,16 @@
     },
     {
       "source": "community/kvcache-ai/KTransformers/KTransformers",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KTransformers/KTransformers",
+      "target": "concept/memory/NUMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/KTransformers/KTransformers",
       "target": "university/清华大学/Mingxing Zhang",
       "kind": "wikilink"
     },
@@ -29249,6 +29427,26 @@
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/memory/HBM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/memory/Memory Pooling",
       "kind": "wikilink"
     },
     {
@@ -30377,6 +30575,21 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "concept/memory/HBM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/openEuler/openYuanRong/YuanRong TransferEngine",
       "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "kind": "wikilink"
@@ -31234,6 +31447,16 @@
     {
       "source": "community/taco-project/FlexKV/FlexKV",
       "target": "company/腾讯/腾讯",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "concept/memory/Memory Hierarchy",
       "kind": "wikilink"
     },
     {
@@ -42042,6 +42265,211 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/memory/CXL Memory",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/CXL Memory",
+      "target": "concept/communication/data-movement/RDMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/CXL Memory",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/CXL Memory",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/CXL Memory",
+      "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "community/Ascend/MemFabric/MemFabric",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/HBM",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/Ascend/MemFabric/MemFabric",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/kvcache-ai/KTransformers/KTransformers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "concept/memory/NUMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/Ascend/MemFabric/MemFabric",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/communication/data-movement/Data Movement",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "community/Ascend/MemFabric/MemFabric",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "concept/communication/data-movement/Data Movement",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "concept/memory/CXL Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Memory Pooling",
+      "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/NUMA",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/NUMA",
+      "target": "community/kvcache-ai/KTransformers/KTransformers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/NUMA",
+      "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/quantization/FP4 Quantization",
       "target": "community/Ascend/msModelSlim/msModelSlim",
       "kind": "wikilink"
@@ -48313,13 +48741,14 @@
       "bridge_score": 3.085
     },
     "community/Ascend/MemCache/MemCache": {
-      "degree": 21,
-      "cross_category_degree": 1,
+      "degree": 26,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.809
+      "bridge_score": 11.355
     },
     "community/Ascend/MemCache/Pz1116": {
       "degree": 3,
@@ -48426,14 +48855,14 @@
       "bridge_score": 6.157
     },
     "community/Ascend/MemFabric/MemFabric": {
-      "degree": 14,
-      "cross_category_degree": 4,
+      "degree": 18,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 9.807
+      "bridge_score": 11.548
     },
     "community/Ascend/MindIE-LLM/MindIE-LLM": {
       "degree": 10,
@@ -48807,8 +49236,8 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 45,
-      "cross_category_degree": 19,
+      "degree": 48,
+      "cross_category_degree": 22,
       "neighbor_categories": [
         "community",
         "company",
@@ -48816,7 +49245,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 19.674
+      "bridge_score": 20.815
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -50657,15 +51086,16 @@
       "bridge_score": 5.7
     },
     "community/kvcache-ai/KTransformers/KTransformers": {
-      "degree": 32,
-      "cross_category_degree": 10,
+      "degree": 34,
+      "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root",
         "university"
       ],
-      "bridge_score": 14.544
+      "bridge_score": 16.829
     },
     "community/kvcache-ai/KTransformers/Peilin Li": {
       "degree": 5,
@@ -50772,8 +51202,8 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 71,
-      "cross_category_degree": 28,
+      "degree": 75,
+      "cross_category_degree": 32,
       "neighbor_categories": [
         "community",
         "company",
@@ -50781,7 +51211,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 23.47
+      "bridge_score": 24.948
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -51108,14 +51538,15 @@
       "bridge_score": 7.509
     },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
-      "degree": 8,
-      "cross_category_degree": 2,
+      "degree": 11,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 8.37
+      "bridge_score": 11.335
     },
     "community/openEuler/openYuanRong/YuanRong TransferEngine": {
       "degree": 5,
@@ -51336,13 +51767,14 @@
       "bridge_score": 7.207
     },
     "community/taco-project/FlexKV/FlexKV": {
-      "degree": 3,
-      "cross_category_degree": 2,
+      "degree": 5,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 5.7
+      "bridge_score": 8.485
     },
     "community/thu-pacman/BaGuaLu/BaGuaLu": {
       "degree": 6,
@@ -53586,13 +54018,13 @@
       "bridge_score": 7.22
     },
     "concept/communication/data-movement/Data Movement": {
-      "degree": 6,
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.857
+      "bridge_score": 7.22
     },
     "concept/communication/data-movement/GPUDirect RDMA": {
       "degree": 3,
@@ -53613,13 +54045,13 @@
       "bridge_score": 8.422
     },
     "concept/communication/data-movement/RDMA": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.1
+      "bridge_score": 8.27
     },
     "concept/concept": {
       "degree": 2,
@@ -53684,13 +54116,13 @@
       "bridge_score": 7.022
     },
     "concept/inference/kv-cache/KV Cache Offloading": {
-      "degree": 7,
+      "degree": 10,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.7
+      "bridge_score": 7.159
     },
     "concept/inference/kv-cache/KV Cache Sharing": {
       "degree": 7,
@@ -53711,13 +54143,13 @@
       "bridge_score": 7.75
     },
     "concept/inference/kv-cache/KV Cache": {
-      "degree": 9,
+      "degree": 11,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.022
+      "bridge_score": 7.285
     },
     "concept/inference/kv-cache/Prefix Caching": {
       "degree": 8,
@@ -53729,13 +54161,13 @@
       "bridge_score": 6.87
     },
     "concept/inference/kv-cache/Tiered KV Cache": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.05
+      "bridge_score": 7.22
     },
     "concept/inference/parallelism/Context Parallelism": {
       "degree": 4,
@@ -53978,6 +54410,60 @@
         "concept"
       ],
       "bridge_score": 7.207
+    },
+    "concept/memory/CXL Memory": {
+      "degree": 5,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 5.935
+    },
+    "concept/memory/HBM": {
+      "degree": 7,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.4
+    },
+    "concept/memory/Host Memory": {
+      "degree": 11,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.685
+    },
+    "concept/memory/Memory Hierarchy": {
+      "degree": 13,
+      "cross_category_degree": 6,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.907
+    },
+    "concept/memory/Memory Pooling": {
+      "degree": 8,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.57
+    },
+    "concept/memory/NUMA": {
+      "degree": 4,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.022
     },
     "concept/quantization/FP4 Quantization": {
       "degree": 8,

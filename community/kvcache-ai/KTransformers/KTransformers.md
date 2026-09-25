@@ -2,6 +2,9 @@
 type: project
 name: KTransformers
 organization: KVCache.AI
+linked_concepts:
+  - "concept/memory/Host Memory"
+  - "concept/memory/NUMA"
 status: active
 linked_people:
   - "community/kvcache-ai/KTransformers/Boxin Zhang"
@@ -96,3 +99,13 @@ https://github.com/kvcache-ai/ktransformers
 ## Sources
 - https://sigops.org/s/conferences/sosp/2025/accepted.html
 - https://conferences.sigcomm.org/sigcomm/2026/accepted/
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/memory/Host Memory|Host Memory]]
+- [[concept/memory/NUMA|NUMA]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
