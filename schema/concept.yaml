@@ -48,7 +48,7 @@ fields:
     description: Canonical adjacent concepts that are not strict parent/child relations.
   projects:
     type: array[string]
-    description: Canonical projects with direct public evidence implementing or exposing this mechanism. The Markdown body must explain the connection.
+    description: Canonical projects with direct public evidence implementing or exposing this mechanism. The Markdown body must explain the connection. These assertions are the sole source for derived project-concept-support typed edges; mere integrations or topical relevance must not be listed here.
   last_verified:
     type: string
     pattern: YYYY-MM
@@ -58,4 +58,5 @@ notes:
   - One mechanism gets one canonical node. Acronyms and translations belong in aliases.
   - parent_concepts and related_concepts are navigation metadata; body wikilinks remain the graph-visible source during the first migration batches.
   - Do not infer project support from shared keywords. Project links need direct documentation, code, paper, or release evidence.
+  - Concept projects derive typed project-concept-support edges. Integration-only or merely related projects require a distinct semantic relation and must not be smuggled into projects.
   - Long tutorials may live elsewhere, but this repository owns the canonical lightweight ontology node once a concept is migrated here.
