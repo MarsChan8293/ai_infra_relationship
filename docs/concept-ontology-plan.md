@@ -171,9 +171,20 @@ last_verified: 2026-09
 
 目标连接：vLLM、FlashInfer、FlashAttention、FlagAttention、DeepGEMM、DeepJIT、TileLang、TileKernels、Triton、CUTLASS、FlagTree、FlagGems。重点把“算法/算子机制”“kernel optimization”“kernel authoring/compiler toolchain”拆成不同层，不把 FlashAttention、PagedAttention、GEMM、DSL/JIT 混成一类。
 
+#### Batch D4：Quantization
+
+- [x] Quantization
+- [x] Weight-Only Quantization
+- [x] Weight-Activation Quantization
+- [x] W8A8
+- [x] FP8 Quantization
+- [x] FP4 Quantization
+- [x] KV Cache Quantization
+
+目标连接：vLLM、msModelSlim、QFactory、ggml、llama.cpp、LMDeploy、DeepGEMM、TileKernels。重点把“量化对象（weight / activation / KV）”“bit-width 组合（W8A8）”和“数值格式（FP8 / FP4）”分开建模。
+
 #### 后续候选域
 
-- quantization：weight-only、W8A8、FP8、KV Cache Quantization。
 - compiler：graph compiler、AOT compilation、autotuning、layout optimization。
 - hardware/memory：HBM、CXL、NUMA、memory pooling、hierarchical memory。
 
@@ -223,4 +234,5 @@ Batch A/B 使用两种边：
 - Batch C2：暂缓 typed relation，等待关系语义能区分 implement / orchestrate / integrate 后再升级。
 - Batch D1：已完成并合入 main（PR #40）；基线提升到 31 Concepts / 80 assertions / 10 Projects，0 unresolved / 0 mismatch。
 - Batch D2：已完成并合入 main（PR #41）；基线提升到 40 Concepts / 117 assertions / 18 Projects，0 unresolved / 0 mismatch。
-- Batch D3：8 个 Kernel / Operator / Kernel Programming 概念已在独立分支实现，进入 coverage 与 PR 验收。
+- Batch D3：已完成并合入 main（PR #42）；基线提升到 48 Concepts / 147 assertions / 29 Projects，0 unresolved / 0 mismatch。
+- Batch D4：7 个 Quantization 概念已在独立分支实现，进入 coverage 与 PR 验收。
