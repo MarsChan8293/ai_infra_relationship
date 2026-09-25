@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 61,
-    "concepts_with_projects": 59,
+    "concepts": 67,
+    "concepts_with_projects": 65,
     "concepts_without_projects": 2,
     "project_like_nodes": 150,
-    "projects_with_concepts": 38,
-    "concept_project_assertions": 202,
+    "projects_with_concepts": 39,
+    "concept_project_assertions": 221,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -17,6 +17,8 @@
     "decoding": 5,
     "gemm": 2,
     "inference-scheduling": 8,
+    "kernel-compilation": 4,
+    "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 8,
     "memory-hierarchy": 3,
@@ -34,6 +36,8 @@
     "decoding": 4,
     "gemm": 2,
     "inference-scheduling": 8,
+    "kernel-compilation": 4,
+    "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 8,
     "memory-hierarchy": 3,
@@ -194,6 +198,22 @@
       "count": 8
     },
     {
+      "id": "community/tile-ai/TileLang/TileLang",
+      "name": "TileLang",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Autotuning",
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/compiler/Layout Optimization",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 8
+    },
+    {
       "id": "community/vllm-project/AIBrix/AIBrix",
       "name": "AIBrix",
       "layer": "distributed-serving",
@@ -254,6 +274,21 @@
       "count": 7
     },
     {
+      "id": "community/triton-lang/Triton/Triton",
+      "name": "Triton",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Autotuning",
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/NVIDIA/NCCL/NCCL",
       "name": "NCCL",
       "layer": "communication",
@@ -264,6 +299,20 @@
         "concept/communication/collectives/Collective Communication",
         "concept/communication/collectives/ReduceScatter",
         "concept/communication/data-movement/Point-to-Point Transfer"
+      ],
+      "count": 6
+    },
+    {
+      "id": "community/InfiniTensor/NineToothed",
+      "name": "NineToothed",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Ahead-of-Time Compilation",
+        "concept/compiler/Autotuning",
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/compiler/Layout Optimization"
       ],
       "count": 6
     },
@@ -334,6 +383,18 @@
       "count": 5
     },
     {
+      "id": "community/NVIDIA/CUTLASS/CUTLASS",
+      "name": "CUTLASS",
+      "layer": "runtime",
+      "concepts": [
+        "concept/compiler/Layout Optimization",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 4
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
       "name": "DeepEP",
       "layer": "communication",
@@ -342,6 +403,18 @@
         "concept/communication/collectives/Collective Communication",
         "concept/communication/data-movement/RDMA",
         "concept/inference/parallelism/Expert Parallelism"
+      ],
+      "count": 4
+    },
+    {
+      "id": "community/flagos-ai/FlagTree/FlagTree",
+      "name": "FlagTree",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 4
     },
@@ -380,17 +453,6 @@
         "concept/communication/collectives/ReduceScatter"
       ],
       "count": 4
-    },
-    {
-      "id": "community/NVIDIA/CUTLASS/CUTLASS",
-      "name": "CUTLASS",
-      "layer": "runtime",
-      "concepts": [
-        "concept/kernel/gemm/Grouped GEMM",
-        "concept/kernel/programming/JIT Kernel Compilation",
-        "concept/kernel/programming/Kernel DSL"
-      ],
-      "count": 3
     },
     {
       "id": "community/flagos-ai/FlagCX/FlagCX",
@@ -433,28 +495,6 @@
         "concept/quantization/KV Cache Quantization",
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
-      ],
-      "count": 3
-    },
-    {
-      "id": "community/tile-ai/TileLang/TileLang",
-      "name": "TileLang",
-      "layer": "compiler",
-      "concepts": [
-        "concept/kernel/gemm/GEMM",
-        "concept/kernel/programming/JIT Kernel Compilation",
-        "concept/kernel/programming/Kernel DSL"
-      ],
-      "count": 3
-    },
-    {
-      "id": "community/triton-lang/Triton/Triton",
-      "name": "Triton",
-      "layer": "compiler",
-      "concepts": [
-        "concept/kernel/gemm/GEMM",
-        "concept/kernel/programming/JIT Kernel Compilation",
-        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 3
     },
@@ -543,15 +583,6 @@
       "layer": "runtime",
       "concepts": [
         "concept/kernel/optimization/Kernel Fusion"
-      ],
-      "count": 1
-    },
-    {
-      "id": "community/flagos-ai/FlagTree/FlagTree",
-      "name": "FlagTree",
-      "layer": "compiler",
-      "concepts": [
-        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 1
     }

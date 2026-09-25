@@ -3,8 +3,12 @@ type: project
 name: Triton
 linked_people: []
 linked_concepts:
+  - "concept/compiler/Autotuning"
+  - "concept/compiler/Backend Code Generation"
+  - "concept/compiler/Compiler Lowering"
   - "concept/kernel/gemm/GEMM"
   - "concept/kernel/programming/JIT Kernel Compilation"
+  - "concept/compiler/Kernel Compiler Pipeline"
   - "concept/kernel/programming/Kernel DSL"
 layer: compiler
 status: active
@@ -64,8 +68,12 @@ V0.1 暂不把“项目内部存在 Triton kernel”自动升级为强集成关�
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
+- [[concept/compiler/Autotuning|Autotuning]]
+- [[concept/compiler/Backend Code Generation|Backend Code Generation]]
+- [[concept/compiler/Compiler Lowering|Compiler Lowering]]
 - [[concept/kernel/gemm/GEMM|GEMM]]
 - [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+- [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]]
 - [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

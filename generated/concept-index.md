@@ -2,7 +2,7 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 61
+- Concepts: 67
 - Domains: 7
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
@@ -146,7 +146,23 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Compiler
 
-2 concepts.
+8 concepts.
+
+### Kernel Compilation
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] | AOT Compilation, AOT, Offline Compilation, 提前编译 | Kernel Compiler Pipeline | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ahead-of-Time%20Compilation) |
+| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
+| [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
+| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
+
+### Kernel Optimization
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/compiler/Autotuning|Autotuning]] | Auto-Tuning, Kernel Autotuning, Auto Tuning, 自动调优 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autotuning) |
+| [[concept/compiler/Layout Optimization|Layout Optimization]] | Data Layout Optimization, Memory Layout Optimization, Tensor Layout Optimization, 布局优化 |  | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Layout%20Optimization) |
 
 ### Kernel Programming
 

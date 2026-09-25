@@ -4,6 +4,13 @@ name: NineToothed
 linked_people:
   - "university/启元实验室/王豪杰 Haojie Wang"
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
+linked_concepts:
+  - "concept/compiler/Ahead-of-Time Compilation"
+  - "concept/compiler/Autotuning"
+  - "concept/compiler/Backend Code Generation"
+  - "concept/compiler/Compiler Lowering"
+  - "concept/compiler/Kernel Compiler Pipeline"
+  - "concept/compiler/Layout Optimization"
 layer: compiler
 open_source: true
 repository: https://github.com/InfiniTensor/ninetoothed
@@ -52,3 +59,17 @@ NineToothed 的 TileLang backend 与你图中已有 [[community/tile-ai/TileLang
 - [[university/启元实验室/黄嘉成 Jiacheng Huang|黄嘉成（Jiacheng Huang）]]：GitHub `voltjia` 的直接工程轨迹横跨 [[community/InfiniTensor/NineToothed|NineToothed]]、[[community/InfiniTensor/InfiniCore|InfiniCore]]、[[community/InfiniTensor/InfiniOps|InfiniOps]]、[[community/InfiniTensor/InfiniRT|InfiniRT]]、[[community/Infini...
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]]
+- [[concept/compiler/Autotuning|Autotuning]]
+- [[concept/compiler/Backend Code Generation|Backend Code Generation]]
+- [[concept/compiler/Compiler Lowering|Compiler Lowering]]
+- [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]]
+- [[concept/compiler/Layout Optimization|Layout Optimization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

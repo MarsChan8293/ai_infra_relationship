@@ -2198,13 +2198,14 @@
     "bridge_score": 3.085
   },
   "community/InfiniTensor/NineToothed": {
-    "degree": 11,
-    "cross_category_degree": 2,
+    "degree": 17,
+    "cross_category_degree": 8,
     "neighbor_categories": [
       "community",
+      "concept",
       "university"
     ],
-    "bridge_score": 7.285
+    "bridge_score": 11.47
   },
   "community/InfiniTensor/baominghelly": {
     "degree": 4,
@@ -2579,14 +2580,14 @@
     "bridge_score": 2.5
   },
   "community/NVIDIA/CUTLASS/CUTLASS": {
-    "degree": 11,
-    "cross_category_degree": 4,
+    "degree": 12,
+    "cross_category_degree": 5,
     "neighbor_categories": [
       "community",
       "company",
       "concept"
     ],
-    "bridge_score": 9.485
+    "bridge_score": 9.95
   },
   "community/NVIDIA/CUTLASS/IonThruster": {
     "degree": 1,
@@ -3724,15 +3725,15 @@
     "bridge_score": 7.948
   },
   "community/flagos-ai/FlagTree/FlagTree": {
-    "degree": 21,
-    "cross_category_degree": 6,
+    "degree": 24,
+    "cross_category_degree": 9,
     "neighbor_categories": [
       "community",
       "company",
       "concept",
       "university"
     ],
-    "bridge_score": 12.559
+    "bridge_score": 13.794
   },
   "community/flagos-ai/FlagTree/Galaxy1458": {
     "degree": 2,
@@ -4881,15 +4882,15 @@
     "bridge_score": 9.407
   },
   "community/tile-ai/TileLang/TileLang": {
-    "degree": 23,
-    "cross_category_degree": 15,
+    "degree": 28,
+    "cross_category_degree": 20,
     "neighbor_categories": [
       "community",
       "company",
       "concept",
       "university"
     ],
-    "bridge_score": 15.835
+    "bridge_score": 17.858
   },
   "community/tile-ai/TileScale/TileScale": {
     "degree": 3,
@@ -4945,13 +4946,13 @@
     "bridge_score": 5.35
   },
   "community/triton-lang/Triton/Triton": {
-    "degree": 4,
-    "cross_category_degree": 3,
+    "degree": 8,
+    "cross_category_degree": 7,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 6.372
+    "bridge_score": 8.62
   },
   "community/verl-project/VeRL-Omni/VeRL-Omni": {
     "degree": 4,
@@ -7111,6 +7112,59 @@
     ],
     "bridge_score": 8.27
   },
+  "concept/compiler/Ahead-of-Time Compilation": {
+    "degree": 4,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.672
+  },
+  "concept/compiler/Autotuning": {
+    "degree": 5,
+    "cross_category_degree": 3,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.635
+  },
+  "concept/compiler/Backend Code Generation": {
+    "degree": 6,
+    "cross_category_degree": 4,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 7.207
+  },
+  "concept/compiler/Compiler Lowering": {
+    "degree": 6,
+    "cross_category_degree": 4,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 7.207
+  },
+  "concept/compiler/Kernel Compiler Pipeline": {
+    "degree": 9,
+    "cross_category_degree": 4,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 7.722
+  },
+  "concept/compiler/Layout Optimization": {
+    "degree": 3,
+    "cross_category_degree": 3,
+    "neighbor_categories": [
+      "community"
+    ],
+    "bridge_score": 4.55
+  },
   "concept/concept": {
     "degree": 2,
     "cross_category_degree": 2,
@@ -7452,22 +7506,22 @@
     "bridge_score": 7.207
   },
   "concept/kernel/programming/JIT Kernel Compilation": {
-    "degree": 8,
+    "degree": 11,
     "cross_category_degree": 6,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 8.27
+    "bridge_score": 8.685
   },
   "concept/kernel/programming/Kernel DSL": {
-    "degree": 6,
+    "degree": 7,
     "cross_category_degree": 4,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 7.207
+    "bridge_score": 7.4
   },
   "concept/memory/CXL Memory": {
     "degree": 5,

@@ -13,6 +13,7 @@ linked_concepts:
   - "concept/kernel/gemm/Grouped GEMM"
   - "concept/kernel/programming/JIT Kernel Compilation"
   - "concept/kernel/programming/Kernel DSL"
+  - "concept/compiler/Layout Optimization"
 layer: runtime
 status: active
 repository: https://github.com/NVIDIA/cutlass
@@ -112,5 +113,6 @@ CUTLASS 聚焦 NVIDIA CUDA kernel 构建，不负责模型图执行、Serving AP
 - [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]]
 - [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
 - [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
+- [[concept/compiler/Layout Optimization|Layout Optimization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->
