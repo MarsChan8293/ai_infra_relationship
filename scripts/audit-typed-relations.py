@@ -208,6 +208,19 @@ def main() -> int:
         if name:
             by_name[name].append(node)
 
+    # Concept `projects:` values live in the project-like namespace. Keep a
+    # dedicated resolver index so a Project and Concept sharing the same name
+    # (for example FlashAttention) does not become artificially ambiguous.
+    project_nodes = [node for node in nodes if node.get("type") in PROJECT_LIKE_TYPES]
+    project_by_id = {norm(node["id"]).casefold(): node for node in project_nodes}
+    project_by_base: dict[str, list[dict]] = defaultdict(list)
+    project_by_name: dict[str, list[dict]] = defaultdict(list)
+    for node in project_nodes:
+        project_by_base[pathlib.PurePosixPath(norm(node["id"])).name.casefold()].append(node)
+        name = str(node.get("name") or "").strip().casefold()
+        if name:
+            project_by_name[name].append(node)
+
     allowed_types = load_allowed_types(root / "schema" / "relation.yaml")
     errors: list[dict] = []
     warnings: list[dict] = []
@@ -459,7 +472,9 @@ def main() -> int:
         for project_raw in project_values:
             if not isinstance(project_raw, str) or not project_raw.strip():
                 continue
-            project_node, reason, candidates = resolve_target(project_raw, by_id, by_base, by_name)
+            project_node, reason, candidates = resolve_target(
+                project_raw, project_by_id, project_by_base, project_by_name
+            )
             if project_node is None:
                 errors.append({
                     "kind": "concept-project-target-unresolved",
