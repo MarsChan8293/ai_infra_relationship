@@ -18,14 +18,9 @@ Concept 与 Project 分工明确：
 - 缩写、中文译名、旧称放在 `aliases`，不重复创建 canonical 节点。
 - 父子关系只表达真正的技术细分；“经常一起出现”放 `related_concepts`。
 - 概念与项目的连接必须能在正文中说明证据，不因共同标签自动推断。
+- Concept 的 `projects:` 是直接实现/暴露该机制的唯一人工事实源；Project 页的 `linked_concepts` 由脚本反向生成。
+- `projects:` 会派生 `project-concept-support` typed edge。仅“相关/集成”不得伪装成直接支持，语义上与 `project-concept-integration` 分离。
 
-## 首轮建设范围
+## 当前覆盖范围
 
-第一阶段优先建设四条 inference 主线：
-
-1. KV Cache / Memory
-2. Serving / P-D Disaggregation
-3. Decoding / Speculative Decoding
-4. Parallelism / TP-EP-DP-PP
-
-完整批次和验收规则见 [Concept Ontology 分批实施计划](https://github.com/MarsChan8293/ai_infra_relationship/blob/main/docs/concept-ontology-plan.md)。
+Ontology 已覆盖 KV Cache、Serving/P-D、Speculative Decoding、Parallelism、Scheduling/Routing、Communication/Data Movement、Kernel/Operator、Quantization、Memory Hierarchy、Compiler Pipeline、Storage 与 Hardware Interconnect 等主要 AI Infra 技术域。后续扩展以现有项目证据密度和实际研究需求驱动，而不是机械追求“概念大全”。

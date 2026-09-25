@@ -12,6 +12,8 @@ parent_concepts:
 related_concepts:
   - Tensor Parallelism
   - Context Parallelism
+projects:
+  - Megatron-LM
 last_verified: 2026-09
 ---
 
@@ -39,7 +41,13 @@ Tensor Parallelism 虽然切了大矩阵权重，但 LayerNorm、Dropout 等某�
 
 SP 通常依赖 TP 通信布局，主要价值是降低 activation memory。对于推理中超长 context 的 attention/KV 分片问题，[[Context Parallelism]] 更直接。
 
+## 项目实现
+
+[[community/NVIDIA/Megatron-LM/Megatron-LM|Megatron-LM]] 直接实现 `sequence_parallel`。其代码和文档明确说明 TP + Sequence Parallelism 会引入 activation AllGather / ReduceScatter，并在 LayerNorm 等路径中携带 sequence-parallel 标记。
+
 ## Sources
 
 - https://docs.nvidia.com/megatron-core/developer-guide/latest/user-guide/parallelism-guide.html
 - https://docs.nvidia.com/megatron-core/developer-guide/latest/api-guide/context_parallel.html
+- https://github.com/NVIDIA/Megatron-LM/blob/main/megatron/core/transformer/moe/README.md
+- https://github.com/NVIDIA/Megatron-LM/blob/main/megatron/core/fusions/fused_layer_norm.py

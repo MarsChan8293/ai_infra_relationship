@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and export typed relationship edges plus Project v3 integrations.
+"""Validate and export typed relationship edges, Project v3 integrations, and Concept support edges.
 
 Migration encoding:
 
@@ -37,9 +37,13 @@ DEFAULT_TYPES = {
     "technical-collaboration",
     "career-connection",
     "project-integration",
+    "project-concept-support",
+    "project-concept-integration",
     "mentor-network",
 }
 VALID_CONFIDENCE = {"high", "medium", "low"}
+PROJECT_LIKE_TYPES = {"project", "community", "project-collection"}
+PROJECT_CONCEPT_TYPES = {"project-concept-support", "project-concept-integration"}
 
 
 def norm(value: str) -> str:
@@ -283,6 +287,15 @@ def main() -> int:
                         "types": invalid_types,
                     })
                     continue
+                if PROJECT_CONCEPT_TYPES.intersection(types):
+                    errors.append({
+                        "kind": "project-concept-relation-must-be-derived",
+                        "source": rel_source,
+                        "index": index,
+                        "types": sorted(PROJECT_CONCEPT_TYPES.intersection(types)),
+                        "detail": "Author direct Project-Concept support only on Concept projects; do not duplicate it in Project relations.",
+                    })
+                    continue
 
                 confidence = relation.get("confidence")
                 if confidence not in VALID_CONFIDENCE:
@@ -410,7 +423,65 @@ def main() -> int:
                 "derived_from": "frontmatter.integrations",
             })
 
-    person_ids = {node["id"] for node in nodes if node.get("type") == "person"}
+    # Concept projects are the sole human-authored source of direct Project -> Concept
+    # implementation/support assertions. Export them as derived typed edges. This
+    # deliberately uses a neutral "support" relation instead of "implements" because
+    # Concept pages may document either a direct implementation or an exposed runtime
+    # capability. Integration-only relevance must use a distinct semantic relation.
+    concept_support_pairs: set[tuple[str, str]] = set()
+    concept_support_edges = 0
+    for concept_node in nodes:
+        if concept_node.get("type") != "concept":
+            continue
+        concept_id = concept_node["id"]
+        frontmatter = concept_node.get("frontmatter") if isinstance(concept_node.get("frontmatter"), dict) else {}
+        for project_raw in as_list(frontmatter.get("projects")):
+            if not isinstance(project_raw, str) or not project_raw.strip():
+                continue
+            project_node, reason, candidates = resolve_target(project_raw, by_id, by_base, by_name)
+            if project_node is None:
+                errors.append({
+                    "kind": "concept-project-target-unresolved",
+                    "source": concept_node.get("path") or concept_id,
+                    "target": project_raw,
+                    "reason": reason,
+                    "candidates": candidates,
+                })
+                continue
+            if project_node.get("type") not in PROJECT_LIKE_TYPES:
+                errors.append({
+                    "kind": "concept-project-target-not-project-like",
+                    "source": concept_node.get("path") or concept_id,
+                    "target": project_node["id"],
+                    "target_type": project_node.get("type"),
+                })
+                continue
+            pair = (project_node["id"], concept_id)
+            if pair in concept_support_pairs:
+                warnings.append({
+                    "kind": "concept-project-duplicate-support",
+                    "source": concept_node.get("path") or concept_id,
+                    "target": project_node["id"],
+                })
+                continue
+            concept_support_pairs.add(pair)
+            typed_edges.append({
+                "source": project_node["id"],
+                "target": concept_id,
+                "kind": "derived-project-concept-support",
+                "relation_types": ["project-concept-support"],
+                "project": project_node.get("name"),
+                "concept": concept_node.get("name"),
+                "company": None,
+                "start": None,
+                "end": None,
+                "confidence": "high",
+                "evidence": [],
+                "derived_from": "concept.frontmatter.projects",
+            })
+            concept_support_edges += 1
+
+        person_ids = {node["id"] for node in nodes if node.get("type") == "person"}
     linked_person_neighbors: dict[str, set[str]] = defaultdict(set)
     for edge in wikilink_edges:
         source = edge.get("source")
@@ -454,6 +525,7 @@ def main() -> int:
         "errors": errors,
         "warnings": warnings,
         "relation_type_counts": dict(sorted(type_counts.items())),
+        "derived_project_concept_support_edges": concept_support_edges,
     }
     coverage = {
         "person_nodes": len(person_ids),
@@ -476,6 +548,7 @@ def main() -> int:
         f"- Person nodes with typed relations: {coverage['person_nodes_with_typed_relations']} / {len(person_ids)}",
         f"- Hard errors: {len(errors)}",
         f"- Warnings: {len(warnings)}",
+        f"- Derived Project → Concept support edges: {concept_support_edges}",
         "",
         "## Relation types",
         "",
