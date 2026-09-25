@@ -12,6 +12,9 @@ parent_concepts:
 related_concepts:
   - Tiered KV Cache
   - KV Cache Transfer
+  - SSD/NVMe Tier
+  - Remote KV Store
+  - KV Cache Prefetching
 projects:
   - LMCache
   - vLLM
@@ -36,7 +39,8 @@ KV Cache Offloading 是把暂时不需要驻留在 GPU/NPU 主 KV 空间中的�
 
 - CPU KV Offloading：GPU/NPU ↔ host RAM。
 - SSD / Local Disk Offloading：host staging ↔ 本地 SSD/NVMe。
-- Remote KV Offloading：通过网络访问远端 KV store。
+- Remote KV Offloading：通过网络访问 [[Remote KV Store]]。
+- SSD / Local Disk Offloading 对应 [[SSD/NVMe Tier]]；恢复时通常依赖 [[KV Cache Prefetching]] 隐藏 I/O 延迟。
 - [[Tiered KV Cache]]：当多个 offload 目的地按层次共同工作时形成 tiered cache。
 - [[KV Cache Transfer]]：offload 的数据面动作之一，但 transfer 也用于 P/D、P2P 等不属于 offload 的场景。
 
