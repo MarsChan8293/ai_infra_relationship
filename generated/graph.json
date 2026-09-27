@@ -9284,6 +9284,27 @@
       }
     },
     {
+      "id": "community/ashhart/TensorFold/TensorFold",
+      "path": "community/ashhart/TensorFold/TensorFold.md",
+      "name": "TensorFold",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "TensorFold",
+        "status": "active",
+        "linked_people": [],
+        "open_source": true,
+        "license": "MIT",
+        "repository": "https://github.com/ashhart/TensorFold",
+        "last_verified": "2026-09",
+        "layer": "inference-engine",
+        "areas": "",
+        "hardware": "",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/bentoml/BentoML/BentoML",
       "path": "community/bentoml/BentoML/BentoML.md",
       "name": "BentoML",
@@ -26060,6 +26081,36 @@
     {
       "source": "community/apache/Spark/Spark",
       "target": "university/UC Berkeley/Reynold Xin",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "community/ollama/Ollama/Ollama",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "concept/inference/decoding/Multi-token Prediction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ashhart/TensorFold/TensorFold",
+      "target": "concept/inference/parallelism/Tensor Parallelism",
       "kind": "wikilink"
     },
     {
@@ -51292,6 +51343,15 @@
       ],
       "bridge_score": 6.722
     },
+    "community/ashhart/TensorFold/TensorFold": {
+      "degree": 6,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.857
+    },
     "community/bentoml/BentoML/BentoML": {
       "degree": 1,
       "cross_category_degree": 1,
@@ -52709,13 +52769,13 @@
       "bridge_score": 9.77
     },
     "community/ollama/Ollama/Ollama": {
-      "degree": 10,
+      "degree": 11,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.509
+      "bridge_score": 7.635
     },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
       "degree": 16,
@@ -52805,7 +52865,7 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 102,
+      "degree": 103,
       "cross_category_degree": 50,
       "neighbor_categories": [
         "community",
@@ -52814,7 +52874,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 31.687
+      "bridge_score": 31.7
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -53339,7 +53399,7 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 149,
+      "degree": 150,
       "cross_category_degree": 82,
       "neighbor_categories": [
         "community",
@@ -53348,7 +53408,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 43.429
+      "bridge_score": 43.438
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -55360,13 +55420,13 @@
       "bridge_score": 6.507
     },
     "concept/inference/decoding/Multi-token Prediction": {
-      "degree": 3,
-      "cross_category_degree": 1,
+      "degree": 4,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 6.022
     },
     "concept/inference/decoding/N-gram Speculation": {
       "degree": 4,
@@ -55387,13 +55447,13 @@
       "bridge_score": 5.35
     },
     "concept/inference/decoding/Speculative Decoding": {
-      "degree": 6,
-      "cross_category_degree": 2,
+      "degree": 7,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.507
+      "bridge_score": 7.05
     },
     "concept/inference/kv-cache/KV Cache Management": {
       "degree": 9,
@@ -55513,13 +55573,13 @@
       "bridge_score": 6.157
     },
     "concept/inference/parallelism/Tensor Parallelism": {
-      "degree": 8,
-      "cross_category_degree": 1,
+      "degree": 9,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.52
+      "bridge_score": 7.022
     },
     "concept/inference/scheduling/Autoscaling": {
       "degree": 8,

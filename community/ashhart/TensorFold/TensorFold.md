@@ -2,18 +2,12 @@
 type: project
 name: TensorFold
 status: active
+linked_people: []
 open_source: true
 license: MIT
 repository: https://github.com/ashhart/TensorFold
 last_verified: "2026-09"
 layer: inference-engine
-linked_concepts:
-  - "concept/inference/decoding/Draft-Target Decoding"
-  - "concept/inference/decoding/Multi-token Prediction"
-  - "concept/inference/decoding/Speculative Decoding"
-  - "concept/inference/parallelism/Tensor Parallelism"
-  - "concept/inference/kv-cache/Prefix Caching"
-  - "concept/quantization/Weight-Only Quantization"
 areas:
   - "local-inference"
   - "openai-compatible-api"
@@ -26,6 +20,7 @@ areas:
 hardware:
   - "apple-silicon"
   - "nvidia"
+linked_companies: []
 ---
 # TensorFold
 

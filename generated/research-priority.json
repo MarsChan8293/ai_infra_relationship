@@ -9,7 +9,7 @@
     "verify"
   ],
   "budget": 10,
-  "candidate_count": 1885,
+  "candidate_count": 1887,
   "selected_actions": [
     {
       "action_id": "community/kserve/KServe/KServe::maintainers",
@@ -270,11 +270,11 @@
       }
     },
     {
-      "action_id": "community/NVIDIA/NCCL/NCCL::maintainers",
+      "action_id": "community/ashhart/TensorFold/TensorFold::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/NVIDIA/NCCL/NCCL",
-        "name": "NCCL",
+        "id": "community/ashhart/TensorFold/TensorFold",
+        "name": "TensorFold",
         "type": "project",
         "family": "project"
       },
@@ -288,7 +288,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "bridge",
-      "priority": 9.362,
+      "priority": 9.377,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -296,14 +296,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 10.435,
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.857,
         "novelty": 1.0,
-        "frontier_potential": 0.332,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.199,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -313,11 +313,11 @@
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, scheduler, distributed",
+        "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types",
-        "bridge 10.4"
+        "bridge 6.9"
       ],
-      "base_priority": 9.259,
+      "base_priority": 9.274,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -340,7 +340,7 @@
       "operator": "discover",
       "trigger": {
         "kind": "bridge",
-        "detail": "bridge_score=10.435"
+        "detail": "bridge_score=6.857"
       }
     },
     {
@@ -1127,6 +1127,80 @@
           "umbrella_CANN_maintainers",
           "inference_hotspot_repo_ownership"
         ]
+      }
+    },
+    {
+      "action_id": "community/ashhart/TensorFold/TensorFold::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/ashhart/TensorFold/TensorFold",
+        "name": "TensorFold",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.377,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.857,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "bridge 6.9"
+      ],
+      "base_priority": 9.274,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.857"
       }
     },
     {
@@ -4369,6 +4443,83 @@
       }
     },
     {
+      "action_id": "community/ashhart/TensorFold/TensorFold::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/ashhart/TensorFold/TensorFold",
+        "name": "TensorFold",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "bridge",
+      "priority": 8.323,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 6.857,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "bridge 6.9"
+      ],
+      "base_priority": 8.131,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.857"
+      }
+    },
+    {
       "action_id": "community/Ascend/Ascend/Ascend::core_people",
       "action_key": "community:core_people:person",
       "source": {
@@ -5721,176 +5872,6 @@
           "resolved_dimensions": [
             "frontier_repo:https://github.com/madsys-dev/smart",
             "internal_graph_links:6",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "contribution_role_strength"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "contribution_role_strength"
-        ]
-      }
-    },
-    {
-      "action_id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-        "name": "Gateway API Inference Extension",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "bridge",
-      "priority": 8.122,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.6,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 7.335,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, scheduler, distributed",
-        "opens underrepresented target types",
-        "bridge 7.3"
-      ],
-      "base_priority": 7.93,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=7.335"
-      }
-    },
-    {
-      "action_id": "university/清华大学/Jinlei Jiang::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "university/清华大学/Jinlei Jiang",
-        "name": "蒋金磊",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 8.115,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.7,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kv-cache, distributed",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved contribution_role_strength"
-      ],
-      "base_priority": 7.814,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/madsys-dev/smart",
-            "internal_graph_links:5",
             "reachable_sources:2"
           ],
           "unresolved_dimensions": [

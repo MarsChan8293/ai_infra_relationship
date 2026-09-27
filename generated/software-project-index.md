@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 167
-- Source roots: community 142 · company 12 · university 13
+- Projects: 168
+- Source roots: community 143 · company 12 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -11,7 +11,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 | Layer | Projects |
 | --- | ---: |
-| [Inference Engine](#inference-engine) | 25 |
+| [Inference Engine](#inference-engine) | 26 |
 | [Distributed Serving](#distributed-serving) | 21 |
 | [Gateway / Routing](#gateway) | 2 |
 | [KV Cache](#kv-cache) | 10 |
@@ -30,7 +30,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## inference-engine
 
-**Inference Engine** · 25 projects
+**Inference Engine** · 26 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -54,6 +54,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/sgl-project/SGLang/SGLang]] | inference-engine | active | continuous-batching, radix-attention, prefix-caching, tensor-parallel, expert-parallel | `sgl-project` | 5 | 31 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SGLang) |
 | [[community/siliconflow/SiliconLLM/SiliconLLM]] | llm-inference-engine |  |  | `siliconflow` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SiliconLLM) |
 | [[community/interestingLSY/swiftLLM/swiftLLM]] | research-llm-inference-engine |  | llm-serving, inference-engine, triton, paged-attention, scheduling | `interestingLSY` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SwiftLLM) |
+| [[community/ashhart/TensorFold/TensorFold]] | inference-engine | active | local-inference, openai-compatible-api, model-specific-kernels, speculative-decoding, multi-token-prediction | `ashhart` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorFold) |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM]] | inference-engine | active | tensorrt-engine, quantization, speculative-decoding, tensor-parallel, expert-parallel | `NVIDIA` | 1 | 10 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorRT-LLM) |
 | [[community/vllm-project/vLLM/vLLM]] | inference-engine | active | continuous-batching, paged-kv-cache, prefix-caching, speculative-decoding, tensor-parallel | `vllm-project` | 8 | 29 | 6 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM) |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend]] | inference-engine | active | ascend-inference, vllm-backend | `vllm-project` | 1 | 17 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-Ascend) |
