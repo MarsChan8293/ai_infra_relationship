@@ -3,6 +3,7 @@ type: project
 name: Naive-N0.5-Flash
 status: active
 linked_people:
+  - "company/Naive AI/Weiyun Wang"
   - "company/Naive AI/Zhe Chen"
 repository: https://github.com/NaiveAI-Labs/Naive-N0.5-Flash
 docs: https://naive.ai/en/research/
@@ -64,6 +65,7 @@ Naive-N0.5-Flash 是 Naive AI 于 2026-09-27 发布的开放权重模型：309B 
 
 以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
 
+- [[company/Naive AI/Weiyun Wang|Weiyun Wang]]：https://huggingface.co/NaiveAI/Naive-N0.5-Flash/commits/main
 - [[company/Naive AI/Zhe Chen|Zhe Chen]]：[[company/Naive AI/Naive-N0.5-Flash|Naive-N0.5-Flash]]
 
 <!-- END AUTO PROJECT PEOPLE -->

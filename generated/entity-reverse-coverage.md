@@ -9,7 +9,7 @@
 - People with generated linked_companies: 236
 - Project/community nodes: 180
 - Project/community nodes with ≥1 linked person: 119
-- Project/community-person associations: 561
+- Project/community-person associations: 562
 - Non-company affiliations recognized and routed elsewhere: 108
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
@@ -147,6 +147,7 @@
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin\|HAMi Ascend Device Plugin]] | 2 |
 | [[university/香港中文大学/LiveServe\|LiveServe]] | 2 |
 | [[community/MetaX-MACA/MetaX-MACA/MetaX-MACA\|MetaX-MACA]] | 2 |
+| [[company/Naive AI/Naive-N0.5-Flash\|Naive-N0.5-Flash]] | 2 |
 | [[community/InfiniTensor/NineToothed\|NineToothed]] | 2 |
 | [[community/ollama/Ollama/Ollama\|Ollama]] | 2 |
 | [[community/siliconflow/OneDiff/OneDiff\|OneDiff]] | 2 |
@@ -175,7 +176,6 @@
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation\|LightSeek Foundation]] | 1 |
 | [[community/MooreThreads/MUSA/MUSA\|MUSA]] | 1 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor\|MindIE-Motor]] | 1 |
-| [[company/Naive AI/Naive-N0.5-Flash\|Naive-N0.5-Flash]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve\|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge\|SpecForge]] | 1 |
 | [[community/interestingLSY/swiftLLM/swiftLLM\|SwiftLLM]] | 1 |
