@@ -4,7 +4,7 @@
 
 - Company nodes: 57
 - Companies with ≥1 linked project/community: 44
-- Project/community nodes: 180
+- Project/community nodes: 181
 - Project/community nodes with ≥1 linked company: 96
 - Bidirectional association pairs: 115
 - Explicitly asserted on both sides: 115

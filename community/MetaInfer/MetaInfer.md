@@ -1,12 +1,14 @@
 ---
 type: project
 name: MetaInfer
+linked_people: []
 layer: optimization
 status: active
 repository: https://github.com/MetaInfer/MetaInfer
 areas: [llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting, performance-optimization]
 hardware: [nvidia]
 last_verified: 2026-09
+linked_companies: []
 ---
 # MetaInfer
 

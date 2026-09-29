@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 170
-- Source roots: community 143 · company 14 · university 13
+- Projects: 171
+- Source roots: community 144 · company 14 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -25,7 +25,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 6 |
+| [Inference Optimization](#optimization) | 7 |
 | [Other](#other) | 7 |
 
 ## inference-engine
@@ -285,12 +285,13 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 6 projects
+**Inference Optimization** · 7 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/deepseek-ai/DeepSpec/DeepSpec]] | speculative-decoding |  | llm-inference, speculative-decoding, draft-model, inference-acceleration | `deepseek-ai` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSpec) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
+| [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |
 | [[community/Ascend/msModelSlim/msModelSlim]] | optimization | active | model-compression, quantization | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=msModelSlim) |
 | [[community/yzygitzh/RoofLang/RoofLang]] | optimization | active | inference-optimization, system-architecture-search, graph-ir, roofline-modeling, discrete-event-simulation | `yzygitzh` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RoofLang) |
 | [[community/sgl-project/SpecForge/SpecForge]] | speculative-decoding |  | speculative-decoding, draft-model-training, llm-inference, distributed-training | `sgl-project` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SpecForge) |
