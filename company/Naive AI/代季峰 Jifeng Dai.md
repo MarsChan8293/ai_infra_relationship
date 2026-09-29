@@ -3,8 +3,7 @@ type: person
 name: 代季峰
 english_name: Jifeng Dai
 aliases: ["代季峰", "Jifeng Dai"]
-current_affiliations:
-  - "清华大学"
+current_affiliations: ["清华大学"]
 schools:
   - "清华大学"
 areas:
@@ -41,6 +40,9 @@ MiroFlow 的 2026 论文作者列表同时包含代季峰与 [[company/Naive AI/
 ## AI Infra 关联
 
 [[company/Naive AI/Naive-N0.5-Flash|Naive-N0.5-Flash]] 与 [[company/Naive AI/NaiveRT|NaiveRT]] 把其近年的 agentic AI / AI R&D 方向进一步延伸到长上下文训练、RL rollout 与 inference system co-design。
+
+## 学校关联
+- [[university/清华大学/清华大学|清华大学]]：已存在可核验的教育、任职或访问研究关联；具体阶段以正文与 Sources 为准。
 
 ## Sources
 

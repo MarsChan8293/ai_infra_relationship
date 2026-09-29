@@ -4,12 +4,12 @@
 
 - School nodes: 49
 - Schools with ≥1 linked person: 47
-- Reverse person-school associations: 224
+- Reverse person-school associations: 225
 - Audit errors: 0
 
 | School | Linked people |
 | --- | ---: |
-| [[university/清华大学/清华大学\|清华大学]] | 62 |
+| [[university/清华大学/清华大学\|清华大学]] | 63 |
 | [[university/UC Berkeley/UC Berkeley\|UC Berkeley]] | 28 |
 | [[university/上海交通大学/上海交通大学\|上海交通大学]] | 23 |
 | [[university/北京大学/北京大学\|北京大学]] | 22 |

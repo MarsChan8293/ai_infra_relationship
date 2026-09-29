@@ -3,8 +3,8 @@ type: project
 name: NaiveRT
 status: active
 docs: https://naive.ai/en/research/
-companies:
-  - "Naive AI"
+linked_people: []
+companies: ["Naive AI"]
 layer: runtime
 areas:
   - "single-stream-decode"
@@ -18,6 +18,8 @@ areas:
 hardware:
   - "nvidia"
 last_verified: "2026-09"
+linked_companies:
+  - "company/Naive AI/Naive AI"
 ---
 # NaiveRT
 
@@ -69,3 +71,12 @@ NaiveRT 没有追求“所有 kernel 都融合”。官方记录显示 MoE fusio
 - https://naive.ai/en/research/
 - https://github.com/NaiveAI-Labs/Naive-N0.5-Flash
 - https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/programmatic-dependent-launch.html
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Naive AI/Naive AI|Naive AI]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

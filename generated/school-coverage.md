@@ -2,11 +2,11 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 426
-- People with ≥1 school: 174
-- People without known school: 252
-- Coverage: 40.8%
-- Person-school associations: 224
+- Person nodes: 428
+- People with ≥1 school: 175
+- People without known school: 253
+- Coverage: 40.9%
+- Person-school associations: 225
 - School nodes: 49
 - Audit errors: 0
 
@@ -14,7 +14,7 @@
 
 | School | People |
 | --- | ---: |
-| 清华大学 | 62 |
+| 清华大学 | 63 |
 | UC Berkeley | 28 |
 | 上海交通大学 | 23 |
 | 北京大学 | 22 |

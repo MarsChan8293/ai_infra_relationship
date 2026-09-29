@@ -2,15 +2,15 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 56
+- Company nodes: 57
 - Companies with ≥1 linked person: 48
 - Company-person associations: 239
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 236
-- Project/community nodes: 178
-- Project/community nodes with ≥1 linked person: 118
-- Project/community-person associations: 560
-- Non-company affiliations recognized and routed elsewhere: 107
+- Project/community nodes: 180
+- Project/community nodes with ≥1 linked person: 119
+- Project/community-person associations: 561
+- Non-company affiliations recognized and routed elsewhere: 108
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
 
@@ -175,6 +175,7 @@
 | [[community/lightseekorg/LightSeek-Foundation/LightSeek-Foundation\|LightSeek Foundation]] | 1 |
 | [[community/MooreThreads/MUSA/MUSA\|MUSA]] | 1 |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor\|MindIE-Motor]] | 1 |
+| [[company/Naive AI/Naive-N0.5-Flash\|Naive-N0.5-Flash]] | 1 |
 | [[community/ray-project/Ray-Serve/Ray-Serve\|Ray Serve]] | 1 |
 | [[community/sgl-project/SpecForge/SpecForge\|SpecForge]] | 1 |
 | [[community/interestingLSY/swiftLLM/swiftLLM\|SwiftLLM]] | 1 |

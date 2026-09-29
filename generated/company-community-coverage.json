@@ -1,11 +1,11 @@
 {
   "format": "ai-infra-relationship/company-community-coverage-v1",
-  "company_nodes": 56,
-  "companies_with_links": 43,
-  "project_community_nodes": 178,
-  "project_community_nodes_with_links": 94,
-  "association_pairs": 113,
-  "asserted_on_both_sides": 113,
+  "company_nodes": 57,
+  "companies_with_links": 44,
+  "project_community_nodes": 180,
+  "project_community_nodes_with_links": 96,
+  "association_pairs": 115,
+  "asserted_on_both_sides": 115,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -288,6 +288,30 @@
       "entity_name": "vLLM",
       "entity_type": "project",
       "relation": "cross-company-core-contributors",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Naive AI/Naive AI",
+      "company_name": "Naive AI",
+      "entity_id": "company/Naive AI/Naive-N0.5-Flash",
+      "entity_name": "Naive-N0.5-Flash",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Naive AI/Naive AI",
+      "company_name": "Naive AI",
+      "entity_id": "company/Naive AI/NaiveRT",
+      "entity_name": "NaiveRT",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

@@ -2,12 +2,12 @@
 
 由 `scripts/audit-company-community-links.py` 自动生成。人工事实来自公司 `projects:` / `communities:` 与社区/项目 `companies:` / `company:`；派生镜像分别写入 `linked_projects:` 与 `linked_companies:`。员工个人参与不会自动升级为公司级关系。模型团队/模型项目会被识别为合法的公司项目值，但不进入本社区关系层。
 
-- Company nodes: 56
-- Companies with ≥1 linked project/community: 43
-- Project/community nodes: 178
-- Project/community nodes with ≥1 linked company: 94
-- Bidirectional association pairs: 113
-- Explicitly asserted on both sides: 113
+- Company nodes: 57
+- Companies with ≥1 linked project/community: 44
+- Project/community nodes: 180
+- Project/community nodes with ≥1 linked company: 96
+- Bidirectional association pairs: 115
+- Explicitly asserted on both sides: 115
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -38,6 +38,8 @@
 | [[company/Intel/Intel\|Intel]] | [[company/Intel/OpenVINO GenAI\|OpenVINO GenAI]] | project | company-led | both |
 | [[company/Intel/Intel\|Intel]] | [[company/Intel/xFasterTransformer\|xFasterTransformer]] | project | company-led | both |
 | [[company/Meta/Meta\|Meta]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/Naive AI/Naive AI\|Naive AI]] | [[company/Naive AI/Naive-N0.5-Flash\|Naive-N0.5-Flash]] | project |  | both |
+| [[company/Naive AI/Naive AI\|Naive AI]] | [[company/Naive AI/NaiveRT\|NaiveRT]] | project |  | both |
 | [[company/Neural Magic/Neural Magic\|Neural Magic]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/CUTLASS/CUTLASS\|CUTLASS]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |

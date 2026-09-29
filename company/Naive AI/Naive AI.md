@@ -2,6 +2,7 @@
 type: company
 name: Naive AI
 aliases: ["NaiveAI", "naive.ai"]
+linked_people: []
 areas:
   - "ai-centered-rd"
   - "long-context-models"
@@ -17,6 +18,9 @@ people:
   - "company/Naive AI/Zhe Chen"
   - "company/Naive AI/Weiyun Wang"
 last_verified: "2026-09"
+linked_projects:
+  - "company/Naive AI/Naive-N0.5-Flash"
+  - "company/Naive AI/NaiveRT"
 ---
 # Naive AI
 
@@ -49,3 +53,13 @@ Naive AI（公开品牌亦写作 NaiveAI / naive.ai）是 2026 年公开进入�
 - https://huggingface.co/NaiveAI
 - https://www.theinformation.com/articles/tsinghua-professors-stealth-llm-startup-hits-1-4-billion-valuation/
 - https://jifengdai.org/
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[company/Naive AI/Naive-N0.5-Flash|Naive-N0.5-Flash]]：公司页与社区/项目页均有显式记录。
+- [[company/Naive AI/NaiveRT|NaiveRT]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

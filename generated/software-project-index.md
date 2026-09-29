@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 168
-- Source roots: community 143 · company 12 · university 13
+- Projects: 170
+- Source roots: community 143 · company 14 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -17,7 +17,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [KV Cache](#kv-cache) | 10 |
 | [Storage](#storage) | 2 |
 | [Communication / Data Movement](#communication) | 14 |
-| [Runtime / Framework](#runtime) | 28 |
+| [Runtime / Framework](#runtime) | 29 |
 | [Kernel / Operator](#kernel) | 10 |
 | [Compiler / DSL](#compiler) | 8 |
 | [Training / Post-training](#training) | 15 |
@@ -26,7 +26,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
 | [Inference Optimization](#optimization) | 6 |
-| [Other](#other) | 6 |
+| [Other](#other) | 7 |
 
 ## inference-engine
 
@@ -147,7 +147,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 28 projects
+**Runtime / Framework** · 29 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -168,6 +168,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/InfiniTensor/InfiniRT]] | hardware-runtime |  | runtime, device-abstraction, memory-management, heterogeneous-compute, cuda | `InfiniTensor` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniRT) |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor]] | runtime | active | inference-runtime, ascend-runtime | `Ascend` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MindIE-Motor) |
 | [[community/sgl-project/mini-SGLang/mini-SGLang]] | llm-serving-runtime |  | llm-serving, radix-cache, chunked-prefill, overlap-scheduling, tensor-parallelism | `sgl-project` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=mini-SGLang) |
+| [[company/Naive AI/NaiveRT]] | runtime | active | single-stream-decode, long-context-rl, speculative-decoding, mega-kernel-fusion, programmatic-dependent-launch | `company:Naive AI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NaiveRT) |
 | [[company/Intel/OpenVINO]] | inference-runtime-toolkit |  | inference-runtime, llm-inference, genai, cpu, gpu | `company:Intel` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OpenVINO) |
 | [[community/openEuler/openYuanRong/openYuanRong]] | distributed-compute-runtime |  | serverless, distributed-runtime, scheduling, distributed-data, ai-infrastructure | `openEuler` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=openYuanRong) |
 | [[community/Ascend/ops-transformer/ops-transformer]] | runtime | active | transformer-operators, ascend-kernels | `Ascend` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ops-transformer) |
@@ -297,12 +298,13 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## other
 
-**Other** · 6 projects
+**Other** · 7 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/sail-sg/EnvPool/EnvPool]] | other |  | ai-infrastructure | `sail-sg` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=EnvPool) |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin]] | other |  | ascend, kubernetes, accelerator-scheduling, device-plugin, heterogeneous-computing | `Project-HAMi` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HAMi%20Ascend%20Device%20Plugin) |
+| [[company/Naive AI/Naive-N0.5-Flash]] | other | active | mixture-of-experts, million-token-context, sliding-window-attention, deepseek-sparse-attention, continued-pretraining | `company:Naive AI` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Naive-N0.5-Flash) |
 | [[community/ray-project/Ray/Ray]] | other |  | ai-infrastructure, distributed-computing, machine-learning-systems, training, serving | `ray-project` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ray) |
 | [[community/deepseek-ai/DeepSeek-Infra/smallpond]] | distributed-data-processing |  | data-processing, distributed-query, duckdb, 3fs, parquet | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=smallpond) |
 | [[community/apache/Spark/Spark]] | other |  | distributed-computing, data-processing, cluster-computing, ai-data-platform | `apache` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Spark) |
@@ -312,6 +314,6 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 These project layers currently fold into `other`. Keeping this list visible makes taxonomy cleanup explicit rather than silently losing detail.
 
-- `other`: 5
+- `other`: 6
 - `distributed-data-processing`: 1
 
