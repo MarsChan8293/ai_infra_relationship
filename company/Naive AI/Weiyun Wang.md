@@ -35,7 +35,7 @@ Weiyun Wang 与 [[company/Naive AI/代季峰 Jifeng Dai|代季峰（Jifeng Dai�
 ## Sources
 
 - https://huggingface.co/Weiyun1025
-- https://huggingface.co/NaiveAI
+- https://huggingface.co/organizations/NaiveAI/activity/all
 - https://huggingface.co/NaiveAI/Naive-N0.5-Flash/commits/main
 - https://arxiv.org/abs/2211.05781
 - https://jifengdai.org/
