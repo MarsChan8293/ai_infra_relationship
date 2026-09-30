@@ -47,8 +47,10 @@ projects:
   - "NVIDIA GPU Operator"
   - "NVIDIA k8s-device-plugin"
   - "Megatron-LM"
+  - "KDA"
 linked_projects:
   - "community/NVIDIA/CUTLASS/CUTLASS"
+  - "community/NVIDIA/KDA/KDA"
   - "community/Project-HAMi/HAMi/HAMi"
   - "community/llm-d/llm-d/llm-d"
   - "community/NVIDIA/Megatron-LM/Megatron-LM"
@@ -70,12 +72,13 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/ai-dynamo/Dynamo/Dynamo|Dynamo]]：**发起 / 主导**，数据中心级 distributed inference orchestration。
 - [[community/ai-dynamo/NIXL/NIXL|NIXL]]：**发起 / 主导**，inference data movement / memory abstraction。
 - [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：**公司主导维护**的 LLM runtime / kernel stack。
+- [[community/NVIDIA/KDA/KDA|KDA]]：**NVLabs 项目**，面向 CUDA kernel research / implementation / verification / profiling / benchmark 的 agent-centric optimization workflow。
 - [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：**公司主导维护**的 production inference server。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：**跨公司 maintainer / accelerator ecosystem contributor**，不是 NVIDIA 独占项目。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：LightSeek Foundation 治理下的**共同创建/工程协作方**，并通过 Dynamo 提供 day-0 backend 支持。
 
 ## 图谱中的连接
-[[TensorRT-LLM]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
+[[TensorRT-LLM]] · [[community/NVIDIA/KDA/KDA|KDA]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
 ## 关联人物（自动汇总）
@@ -123,6 +126,7 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
 - [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：公司页与社区/项目页均有显式记录。
+- [[community/NVIDIA/KDA/KDA|KDA]]：公司页与项目页均有显式记录；关系：`nvlabs-project`。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 - [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 - [[community/NVIDIA/Megatron-LM/Megatron-LM|Megatron-LM]]：公司页与社区/项目页均有显式记录。
