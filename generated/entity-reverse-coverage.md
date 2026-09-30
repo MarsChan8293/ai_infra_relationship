@@ -7,7 +7,7 @@
 - Company-person associations: 239
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 236
-- Project/community nodes: 181
+- Project/community nodes: 182
 - Project/community nodes with ≥1 linked person: 119
 - Project/community-person associations: 562
 - Non-company affiliations recognized and routed elsewhere: 108

@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 171
-- Source roots: community 144 · company 14 · university 13
+- Projects: 172
+- Source roots: community 145 · company 14 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -25,7 +25,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 7 |
+| [Inference Optimization](#optimization) | 8 |
 | [Other](#other) | 7 |
 
 ## inference-engine
@@ -285,11 +285,12 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 7 projects
+**Inference Optimization** · 8 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/deepseek-ai/DeepSpec/DeepSpec]] | speculative-decoding |  | llm-inference, speculative-decoding, draft-model, inference-acceleration | `deepseek-ai` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSpec) |
+| [[community/NVIDIA/KDA/KDA]] | optimization | active | agentic-kernel-optimization, cuda-kernel, profiling, benchmarking, performance-engineering | `NVIDIA` | 5 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KDA) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
 | [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |
 | [[community/Ascend/msModelSlim/msModelSlim]] | optimization | active | model-compression, quantization | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=msModelSlim) |

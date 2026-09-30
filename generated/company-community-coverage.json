@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 57,
   "companies_with_links": 44,
-  "project_community_nodes": 181,
-  "project_community_nodes_with_links": 96,
-  "association_pairs": 115,
-  "asserted_on_both_sides": 115,
+  "project_community_nodes": 182,
+  "project_community_nodes_with_links": 97,
+  "association_pairs": 116,
+  "asserted_on_both_sides": 116,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -348,6 +348,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/KDA/KDA",
+      "entity_name": "KDA",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

@@ -4,10 +4,10 @@
 
 - Company nodes: 57
 - Companies with ≥1 linked project/community: 44
-- Project/community nodes: 181
-- Project/community nodes with ≥1 linked company: 96
-- Bidirectional association pairs: 115
-- Explicitly asserted on both sides: 115
+- Project/community nodes: 182
+- Project/community nodes with ≥1 linked company: 97
+- Bidirectional association pairs: 116
+- Explicitly asserted on both sides: 116
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -43,6 +43,7 @@
 | [[company/Neural Magic/Neural Magic\|Neural Magic]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/CUTLASS/CUTLASS\|CUTLASS]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/KDA/KDA\|KDA]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/llm-d/llm-d/llm-d\|llm-d]] | project | founding-contributors | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/Megatron-LM/Megatron-LM\|Megatron-LM]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/NCCL/NCCL\|NCCL]] | project |  | both |

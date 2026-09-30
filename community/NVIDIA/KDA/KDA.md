@@ -1,6 +1,7 @@
 ---
 type: project
 name: KDA
+linked_people: []
 layer: optimization
 status: active
 repository: https://github.com/NVlabs/kda
@@ -21,6 +22,8 @@ integrations:
   - "DeepGEMM"
 companies: ["NVIDIA"]
 last_verified: "2026-09"
+linked_companies:
+  - "company/NVIDIA/NVIDIA"
 ---
 # KDA (Kernel Design Agents)
 
@@ -90,3 +93,12 @@ KDA 提供 Community Kernel Wishlist。社区可以通过 wishlist 分支 PR 提
 - https://github.com/NVlabs/kda/blob/main/README.md
 - https://github.com/NVlabs/kda/blob/main/THIRD_PARTY_NOTICES.md
 - https://nvlabs.github.io/kda/
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/NVIDIA/NVIDIA|NVIDIA]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
