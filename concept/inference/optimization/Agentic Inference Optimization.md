@@ -15,8 +15,11 @@ related_concepts:
   - KV Cache Management
   - Autotuning
 projects:
-  - MetaInfer
-  - RoofLang
+  - "MetaInfer"
+  - "RoofLang"
+  - "GEAK"
+  - "Hyperloom"
+  - "CANNBot"
 last_verified: 2026-10
 ---
 

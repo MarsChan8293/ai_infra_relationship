@@ -15,9 +15,29 @@ related_concepts:
   - Kernel Compiler Pipeline
   - Backend Code Generation
 projects:
-  - KDA
-  - MetaInfer
-  - Croqtile
+  - "KDA"
+  - "MetaInfer"
+  - "Croqtile"
+  - "GEAK"
+  - "Hyperloom"
+  - "KernelAgent"
+  - "KernelEvolve"
+  - "Atrex Kernel Agent"
+  - "KernelBlaster"
+  - "CUDA-Agent"
+  - "K-Search"
+  - "AdaExplore"
+  - "Astra"
+  - "CUDAMaster"
+  - "CANNBot"
+  - "Ascend Agent Skills"
+  - "AKG Agents"
+  - "AscendOptimizer"
+  - "AgenticCANN"
+  - "AscendCraft"
+  - "Compiler-Grounded Hierarchical Diagnosis"
+  - "AVO"
+  - "TileGym"
 last_verified: 2026-10
 ---
 
