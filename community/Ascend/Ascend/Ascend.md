@@ -14,6 +14,11 @@ linked_projects:
   - "community/Ascend/msModelSlim/msModelSlim"
   - "community/Ascend/ops-transformer/ops-transformer"
   - "community/vllm-project/vLLM-Ascend/vLLM-Ascend"
+  - "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend"
+  - "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend"
+  - "community/deepseek-ai/DeepSeek-Infra/FlashMLA"
+  - "community/deepseek-ai/DeepSeek-Infra/DeepJIT"
+  - "community/deepseek-ai/DeepSeek-Infra/clangd-ascend"
 ---
 # Ascend / 昇腾开源生态
 
@@ -36,3 +41,9 @@ Ascend 是围绕华为昇腾 NPU、[[CANN]]、MindIE 与上游 AI Infra 社区�
 - [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]：新增 DeepSeek Sparse Attention 的 Ascend prefill / decode kernel。
 - [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]]：提供 CUDA / Ascend 统一 JIT runtime。
 - [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend|clangd-ascend]]：为 AscendC `.asc` 文件提供 clangd 代码智能。
+
+
+### 这组项目的分层位置
+`clangd-ascend → DeepJIT → DeepGEMM-Ascend / FlashMLA → DeepEP-Ascend` 可以近似看成开发工具、JIT/compiler、compute/attention kernel、EP communication 四层。它们不是 MindIE 或 vLLM-Ascend 的替代品，而是更底层、可被上层 inference runtime 消费的能力。
+
+性能解读需特别区分公开软件 baseline：DeepGEMM-Ascend 的首发验证是 Ascend 950 series + CANN 9.20；DeepEP-Ascend 的首发性能数据则依赖 950DT + CANN 9.2.0 与当时未公开的 PoC HDK 配置。
