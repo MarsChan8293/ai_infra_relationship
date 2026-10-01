@@ -2,14 +2,20 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 81
+- Concepts: 84
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
 ## Inference
 
-24 concepts.
+25 concepts.
+
+### Agent Runtime
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/inference/agent/Agent Harness|Agent Harness]] | Agent Runtime Harness, Agent Execution Harness, 智能体运行时框架 |  | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agent%20Harness) |
 
 ### Decoding
 
@@ -45,9 +51,9 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/parallelism/Context Parallelism|Context Parallelism]] | CP, Context Parallel, 上下文并行 | Parallelism | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Context%20Parallelism) |
 | [[concept/inference/parallelism/Data Parallelism|Data Parallelism]] | DP, Replica Parallelism, 数据并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Data%20Parallelism) |
-| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
+| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
 | [[concept/inference/parallelism/Parallelism|Parallelism]] | Model Parallelism, 分布式并行, 并行切分 |  | 6 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Parallelism) |
-| [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]] | PP, Pipeline Model Parallelism, 流水线并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Pipeline%20Parallelism) |
+| [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]] | PP, Pipeline Model Parallelism, 流水线并行 | Parallelism | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Pipeline%20Parallelism) |
 | [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
 | [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]] | TP, Tensor Model Parallelism, 张量并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tensor%20Parallelism) |
 
@@ -62,14 +68,15 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Memory
 
-6 concepts.
+7 concepts.
 
 ### Memory Hierarchy
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
+| [[concept/memory/Conditional Memory|Conditional Memory]] | Conditional Lookup Memory, Scalable Lookup Memory, 条件记忆 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Conditional%20Memory) |
 | [[concept/memory/HBM|HBM]] | High Bandwidth Memory, 高带宽内存 | Memory Hierarchy | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HBM) |
-| [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
+| [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
 | [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
 
 ### Memory Pooling
@@ -93,10 +100,10 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/communication/collectives/All-to-All|All-to-All]] | AllToAll, All-to-All Communication, 全互换通信 | Collective Communication | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=All-to-All) |
+| [[concept/communication/collectives/All-to-All|All-to-All]] | AllToAll, All-to-All Communication, 全互换通信 | Collective Communication | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=All-to-All) |
 | [[concept/communication/collectives/AllGather|AllGather]] | All-Gather, 全收集 | Collective Communication | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AllGather) |
 | [[concept/communication/collectives/AllReduce|AllReduce]] | All-Reduce, 全归约 | Collective Communication | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AllReduce) |
-| [[concept/communication/collectives/Collective Communication|Collective Communication]] | Collective Operations, Communication Collectives, 集合通信 |  | 5 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Collective%20Communication) |
+| [[concept/communication/collectives/Collective Communication|Collective Communication]] | Collective Operations, Communication Collectives, 集合通信 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Collective%20Communication) |
 | [[concept/communication/collectives/ReduceScatter|ReduceScatter]] | Reduce-Scatter, 归约分散 | Collective Communication | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ReduceScatter) |
 
 ### Data Movement
@@ -127,22 +134,23 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Kernel
 
-7 concepts.
+8 concepts.
 
 ### Attention
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
+| [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
 | [[concept/kernel/attention/FlashAttention|FlashAttention]] | Flash Attention, IO-Aware Attention | Attention Kernel | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
 | [[concept/kernel/attention/PagedAttention|PagedAttention]] | Paged Attention, 分页注意力 | Attention Kernel | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PagedAttention) |
+| [[concept/kernel/attention/Sparse Attention|Sparse Attention]] | Sparse Attention Kernel, 稀疏注意力 | Attention Kernel | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sparse%20Attention) |
 
 ### Gemm
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
-| [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
+| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
+| [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
 
 ### Optimization
 
@@ -175,7 +183,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
+| [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
 | [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
 
 ## Quantization
@@ -192,8 +200,8 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/quantization/FP4 Quantization|FP4 Quantization]] | Float4 Quantization, FP4, MXFP4, NVFP4 | Quantization | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP4%20Quantization) |
-| [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
+| [[concept/quantization/FP4 Quantization|FP4 Quantization]] | Float4 Quantization, FP4, MXFP4, NVFP4 | Quantization | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP4%20Quantization) |
+| [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
 | [[concept/quantization/Quantization|Quantization]] | Model Quantization, LLM Quantization, 模型量化 |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Quantization) |
 | [[concept/quantization/W8A8|W8A8]] | Weight 8 Activation 8, 8-bit Weight Activation Quantization, 权重8比特激活8比特 | Weight-Activation Quantization | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=W8A8) |
 | [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, 权重激活量化 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |

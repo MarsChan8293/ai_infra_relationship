@@ -2,10 +2,10 @@
 
 由 `scripts/audit-school-links.py` 自动生成。`schools:` 只表示可核验的教育、任职或访问研究关联，不自动推断导师、同学或同门关系。
 
-- Person nodes: 429
+- Person nodes: 437
 - People with ≥1 school: 175
-- People without known school: 254
-- Coverage: 40.8%
+- People without known school: 262
+- Coverage: 40.1%
 - Person-school associations: 225
 - School nodes: 49
 - Audit errors: 0
@@ -72,20 +72,20 @@
 | 21 | [[company/RadixArk/Mingyi Lu\|Mingyi Lu]] | 6.372 | 4 |
 | 22 | [[community/llm-d/llm-d/Carlos Costa\|Carlos Costa]] | 6.35 | 7 |
 | 23 | [[company/RadixArk/Cheng Wan\|Cheng Wan]] | 6.35 | 7 |
-| 24 | [[community/kvcache-ai/Mooncake/Zhanhao Cao\|Zhanhao Cao]] | 6.35 | 7 |
-| 25 | [[community/gpustack/GPUStack/thxCode\|thxCode]] | 6.35 | 7 |
-| 26 | [[company/趋境科技/艾智远 Zhiyuan Ai\|艾智远]] | 6.285 | 5 |
-| 27 | [[community/flashinfer-ai/FlashInfer/aleozlx\|Alex Yang]] | 6.157 | 6 |
-| 28 | [[community/llm-d/llm-d/Ashok Chandrasekar\|Ashok Chandrasekar]] | 6.157 | 6 |
-| 29 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu\|Brian K. Ryu]] | 6.157 | 6 |
-| 30 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu\|Kuai Yu]] | 6.157 | 6 |
-| 31 | [[community/llm-d/llm-d/Nili Guy\|Nili Guy]] | 6.157 | 6 |
-| 32 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 |
-| 33 | [[community/Ascend/MemCache/彭海清 Haiqing Peng\|彭海清]] | 6.157 | 6 |
-| 34 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao\|敖玉龙]] | 6.157 | 6 |
-| 35 | [[company/腾讯/Chunxiao Zheng\|Chunxiao Zheng]] | 6.022 | 4 |
-| 36 | [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu\|Chenhao Xu]] | 5.935 | 5 |
-| 37 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao\|Huanqi Cao]] | 5.935 | 5 |
+| 24 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu\|Kuai Yu]] | 6.35 | 7 |
+| 25 | [[community/kvcache-ai/Mooncake/Zhanhao Cao\|Zhanhao Cao]] | 6.35 | 7 |
+| 26 | [[community/gpustack/GPUStack/thxCode\|thxCode]] | 6.35 | 7 |
+| 27 | [[company/趋境科技/艾智远 Zhiyuan Ai\|艾智远]] | 6.285 | 5 |
+| 28 | [[community/flashinfer-ai/FlashInfer/aleozlx\|Alex Yang]] | 6.157 | 6 |
+| 29 | [[community/llm-d/llm-d/Ashok Chandrasekar\|Ashok Chandrasekar]] | 6.157 | 6 |
+| 30 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu\|Brian K. Ryu]] | 6.157 | 6 |
+| 31 | [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu\|Chenhao Xu]] | 6.157 | 6 |
+| 32 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao\|Huanqi Cao]] | 6.157 | 6 |
+| 33 | [[community/llm-d/llm-d/Nili Guy\|Nili Guy]] | 6.157 | 6 |
+| 34 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 |
+| 35 | [[community/Ascend/MemCache/彭海清 Haiqing Peng\|彭海清]] | 6.157 | 6 |
+| 36 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao\|敖玉龙]] | 6.157 | 6 |
+| 37 | [[company/腾讯/Chunxiao Zheng\|Chunxiao Zheng]] | 6.022 | 4 |
 | 38 | [[community/vllm-project/vLLM-Ascend/weijinqian0\|Jinqian Wei]] | 5.935 | 5 |
 | 39 | [[community/Project-HAMi/HAMi/archlitchi\|Mengxuan Li]] | 5.935 | 5 |
 | 40 | [[community/deepseek-ai/DeepSeek-Infra/Rui Tian\|Rui Tian]] | 5.935 | 5 |

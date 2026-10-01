@@ -3730,8 +3730,9 @@
         "areas": [
           "ai-infrastructure"
         ],
-        "last_verified": "2026-09",
-        "relations": ""
+        "last_verified": "2026-10",
+        "relations": "",
+        "projects": ""
       }
     },
     {
@@ -10028,6 +10029,50 @@
       "frontmatter": {}
     },
     {
+      "id": "community/cordiverse/Cordis/Cordis",
+      "path": "community/cordiverse/Cordis/Cordis.md",
+      "name": "Cordis",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Cordis",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/cordiverse/cordis",
+        "docs": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
+        "last_verified": "2026-10",
+        "layer": "runtime",
+        "areas": "",
+        "integrations": [],
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "path": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness.md",
+      "name": "DeepSeek Harness",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "DeepSeek Harness",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/deepseek-ai/deepseek-harness",
+        "docs": "https://deepseek-harness.github.io/deepseek-harness/",
+        "last_verified": "2026-10",
+        "companies": [
+          "深度求索"
+        ],
+        "layer": "runtime",
+        "areas": "",
+        "integrations": "",
+        "linked_companies": ""
+      }
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
       "path": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
       "name": "3FS",
@@ -10064,7 +10109,9 @@
         "communities": [
           "DeepGEMM",
           "DeepSeek-Infra"
-        ]
+        ],
+        "projects": "",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10079,7 +10126,9 @@
         "communities": [
           "DeepEP",
           "DeepSeek-Infra"
-        ]
+        ],
+        "projects": "",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10100,7 +10149,9 @@
         "linked_companies": "",
         "projects": [
           "DeepGEMM",
-          "TileKernels"
+          "TileKernels",
+          "DeepGEMM-Ascend",
+          "DeepEP-Ascend"
         ],
         "areas": [
           "gpu-kernels",
@@ -10109,7 +10160,32 @@
           "tilelang"
         ],
         "confidence": "high",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao.md",
+      "name": "Chenqi Zhao",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Chenqi Zhao",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepEP-Ascend"
+        ],
+        "areas": [
+          "expert-parallel"
+        ],
+        "roles": [
+          "official citation author"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10122,15 +10198,15 @@
         "type": "project",
         "name": "DeepEP-Ascend",
         "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
         "status": "active",
-        "linked_people": [],
+        "linked_people": "",
         "repository": "https://github.com/deepseek-ai/DeepEP-Ascend",
         "docs": "https://github.com/deepseek-ai/DeepEP-Ascend",
         "last_verified": "2026-10",
         "companies": [
           "深度求索"
         ],
-        "company_relation": "company-led",
         "layer": "communication",
         "areas": "",
         "hardware": "",
@@ -10175,15 +10251,15 @@
         "type": "project",
         "name": "DeepGEMM-Ascend",
         "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
         "status": "active",
-        "linked_people": [],
+        "linked_people": "",
         "repository": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
         "docs": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
         "last_verified": "2026-10",
         "companies": [
           "深度求索"
         ],
-        "company_relation": "company-led",
         "layer": "runtime",
         "areas": "",
         "hardware": "",
@@ -10299,6 +10375,31 @@
       }
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "path": "community/deepseek-ai/DeepSeek-Infra/DualPipe.md",
+      "name": "DualPipe",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "DualPipe",
+        "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": "",
+        "repository": "https://github.com/deepseek-ai/DualPipe",
+        "docs": "https://github.com/deepseek-ai/DualPipe",
+        "last_verified": "2026-10",
+        "companies": [
+          "深度求索"
+        ],
+        "layer": "training",
+        "areas": "",
+        "integrations": [],
+        "linked_companies": ""
+      }
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/EPLB",
       "path": "community/deepseek-ai/DeepSeek-Infra/EPLB.md",
       "name": "EPLB",
@@ -10337,6 +10438,7 @@
         "type": "project",
         "name": "FlashMLA",
         "parent": "DeepSeek-Infra",
+        "linked_concepts": "",
         "status": "active",
         "linked_people": "",
         "repository": "https://github.com/deepseek-ai/FlashMLA",
@@ -10350,6 +10452,31 @@
         "hardware": "",
         "integrations": [],
         "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li.md",
+      "name": "Guanglin Li",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Guanglin Li",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "scale-factor-layout"
+        ],
+        "roles": [
+          "SF Layout Kernels contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10373,7 +10500,8 @@
         "projects": [
           "LPLB",
           "TileKernels",
-          "DeepSpec"
+          "DeepSpec",
+          "DeepGEMM-Ascend"
         ],
         "areas": [
           "moe",
@@ -10383,7 +10511,7 @@
           "speculative-decoding"
         ],
         "confidence": "high",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10409,7 +10537,34 @@
           "expert-parallel",
           "gpu-kernels",
           "mla"
-        ]
+        ],
+        "projects": "",
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen.md",
+      "name": "Kaifeng Chen",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Kaifeng Chen",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "mqa-logits"
+        ],
+        "roles": [
+          "MQA Logits contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10432,7 +10587,9 @@
         "projects": [
           "DeepEP",
           "DeepGEMM",
-          "TileKernels"
+          "TileKernels",
+          "DeepGEMM-Ascend",
+          "DeepEP-Ascend"
         ],
         "areas": [
           "moe-communication",
@@ -10441,7 +10598,7 @@
           "tilelang"
         ],
         "confidence": "high",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10543,7 +10700,8 @@
         "linked_companies": "",
         "projects": [
           "TileKernels",
-          "DeepSpec"
+          "DeepSpec",
+          "DeepEP-Ascend"
         ],
         "areas": [
           "gpu-kernels",
@@ -10552,7 +10710,32 @@
           "llm-inference"
         ],
         "confidence": "high",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu.md",
+      "name": "Ruifan Xu",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Ruifan Xu",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "mhc-kernel"
+        ],
+        "roles": [
+          "mHC Kernel contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10599,7 +10782,9 @@
         "communities": [
           "DeepEP",
           "DeepSeek-Infra"
-        ]
+        ],
+        "projects": "",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10760,6 +10945,81 @@
       }
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang.md",
+      "name": "Yizhi Wang",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Yizhi Wang",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepEP-Ascend"
+        ],
+        "areas": [
+          "expert-parallel"
+        ],
+        "roles": [
+          "official citation author"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng.md",
+      "name": "Yuhao Meng",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Yuhao Meng",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "gemm-kernels"
+        ],
+        "roles": [
+          "GEMM Kernels contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao.md",
+      "name": "Yunfan Xiao",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Yunfan Xiao",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "gemm-kernels"
+        ],
+        "roles": [
+          "GEMM Kernels contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
+      }
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
       "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
       "name": "Yuxuan Liu",
@@ -10775,6 +11035,31 @@
       }
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+      "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou.md",
+      "name": "Yuxuan Zhou",
+      "type": "person",
+      "category": "community",
+      "frontmatter": {
+        "type": "person",
+        "name": "Yuxuan Zhou",
+        "communities": [
+          "DeepSeek-Infra"
+        ],
+        "projects": [
+          "DeepGEMM-Ascend"
+        ],
+        "areas": [
+          "mhc-kernel"
+        ],
+        "roles": [
+          "mHC Kernel contributor"
+        ],
+        "confidence": "verified",
+        "last_verified": "2026-10"
+      }
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
       "path": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu.md",
       "name": "Zhean Xu",
@@ -10787,7 +11072,9 @@
           "DeepEP",
           "DeepGEMM",
           "DeepSeek-Infra"
-        ]
+        ],
+        "projects": "",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -10808,7 +11095,6 @@
         "companies": [
           "深度求索"
         ],
-        "company_relation": "company-led",
         "layer": "compiler",
         "areas": "",
         "hardware": "",
@@ -11021,7 +11307,9 @@
           "gemm",
           "moe"
         ],
-        "name_verification": "public technical tutorial"
+        "name_verification": "public technical tutorial",
+        "projects": "",
+        "last_verified": "2026-10"
       }
     },
     {
@@ -11050,10 +11338,12 @@
         "projects": [
           "DeepEP",
           "DeepGEMM",
-          "TileKernels"
+          "TileKernels",
+          "DeepGEMM-Ascend",
+          "DeepEP-Ascend"
         ],
         "confidence": "high",
-        "last_verified": "2026-09",
+        "last_verified": "2026-10",
         "education": [
           "清华大学"
         ],
@@ -11118,6 +11408,30 @@
           "scheduling"
         ],
         "last_verified": "2026-09",
+        "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/deepseek-ai/Engram/Engram",
+      "path": "community/deepseek-ai/Engram/Engram.md",
+      "name": "Engram",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Engram",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/deepseek-ai/Engram",
+        "docs": "https://github.com/deepseek-ai/Engram",
+        "last_verified": "2026-10",
+        "companies": [
+          "深度求索"
+        ],
+        "layer": "other",
+        "areas": "",
+        "integrations": [],
         "linked_companies": ""
       }
     },
@@ -22028,7 +22342,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -22081,7 +22395,7 @@
         "topic": "collective-communication",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -22394,6 +22708,23 @@
       }
     },
     {
+      "id": "concept/inference/agent/Agent Harness",
+      "path": "concept/inference/agent/Agent Harness.md",
+      "name": "Agent Harness",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Agent Harness",
+        "aliases": "",
+        "domain": "inference",
+        "topic": "agent-runtime",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-10"
+      }
+    },
+    {
       "id": "concept/inference/decoding/Draft-Target Decoding",
       "path": "concept/inference/decoding/Draft-Target Decoding.md",
       "name": "Draft-Target Decoding",
@@ -22674,7 +23005,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -22709,7 +23040,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -22974,7 +23305,7 @@
         "topic": "attention",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23014,6 +23345,24 @@
       }
     },
     {
+      "id": "concept/kernel/attention/Sparse Attention",
+      "path": "concept/kernel/attention/Sparse Attention.md",
+      "name": "Sparse Attention",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Sparse Attention",
+        "aliases": "",
+        "domain": "kernel",
+        "topic": "attention",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-10"
+      }
+    },
+    {
       "id": "concept/kernel/gemm/GEMM",
       "path": "concept/kernel/gemm/GEMM.md",
       "name": "GEMM",
@@ -23027,7 +23376,7 @@
         "topic": "gemm",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23045,7 +23394,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23096,7 +23445,7 @@
         "topic": "kernel-programming",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23134,6 +23483,23 @@
       }
     },
     {
+      "id": "concept/memory/Conditional Memory",
+      "path": "concept/memory/Conditional Memory.md",
+      "name": "Conditional Memory",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Conditional Memory",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-hierarchy",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-10"
+      }
+    },
+    {
       "id": "concept/memory/HBM",
       "path": "concept/memory/HBM.md",
       "name": "HBM",
@@ -23166,7 +23532,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23235,7 +23601,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -23253,7 +23619,7 @@
         "parent_concepts": "",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -27755,6 +28121,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/cordiverse/Cordis/Cordis",
+      "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "target": "community/cordiverse/Cordis/Cordis",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/3FS",
       "target": "community/ai-dynamo/NIXL/NIXL",
       "kind": "wikilink"
@@ -27790,13 +28181,33 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -27807,6 +28218,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "kind": "wikilink"
     },
     {
@@ -27921,7 +28337,17 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "community/Ascend/CANN/CANN",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "target": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
       "kind": "wikilink"
     },
     {
@@ -27961,6 +28387,16 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "target": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
       "kind": "wikilink"
     },
@@ -27972,6 +28408,26 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "concept/communication/collectives/All-to-All",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "concept/communication/collectives/Collective Communication",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "concept/inference/parallelism/Expert Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
       "kind": "wikilink"
     },
     {
@@ -28017,11 +28473,6 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "target": "community/deepseek-ai/DeepSeek-Infra/LyricZhao",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
-      "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "kind": "wikilink"
     },
     {
@@ -28121,6 +28572,21 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/Ascend/CANN/CANN",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Anyi Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "kind": "wikilink"
     },
@@ -28141,6 +28607,46 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "target": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
       "kind": "wikilink"
     },
@@ -28156,7 +28662,37 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "community/tile-ai/TileLang/TileLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "target": "concept/quantization/FP8 Quantization",
       "kind": "wikilink"
     },
     {
@@ -28216,6 +28752,16 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/cordiverse/Cordis/Cordis",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/3FS",
       "kind": "wikilink"
     },
@@ -28232,6 +28778,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
       "kind": "wikilink"
     },
     {
@@ -28261,6 +28812,11 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/EPLB",
       "kind": "wikilink"
     },
@@ -28271,12 +28827,22 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao",
       "kind": "wikilink"
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
       "kind": "wikilink"
     },
     {
@@ -28311,6 +28877,11 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/Runji Wang",
       "kind": "wikilink"
     },
@@ -28341,7 +28912,27 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
       "kind": "wikilink"
     },
     {
@@ -28396,6 +28987,21 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/DualPath/DualPath",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
+      "target": "community/deepseek-ai/Engram/Engram",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
       "kind": "wikilink"
     },
@@ -28432,6 +29038,51 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/EPLB",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/LPLB",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "community/deepseek-ai/DeepSeek-Infra/profile-data",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "company/深度求索/梁文锋 Liang Wenfeng",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "target": "concept/inference/parallelism/Pipeline Parallelism",
       "kind": "wikilink"
     },
     {
@@ -28510,6 +29161,36 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "target": "concept/kernel/attention/Attention Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "target": "concept/kernel/attention/Sparse Attention",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "target": "concept/quantization/FP4 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "target": "concept/quantization/FP8 Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao",
       "target": "community/deepseek-ai/DeepSeek-Infra/LPLB",
       "kind": "wikilink"
@@ -28541,6 +29222,11 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li",
       "target": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
       "kind": "wikilink"
     },
@@ -28565,13 +29251,28 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
       "kind": "wikilink"
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -28631,6 +29332,11 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
       "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "kind": "wikilink"
     },
@@ -28642,6 +29348,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
       "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -28662,6 +29373,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "kind": "wikilink"
     },
     {
@@ -28775,8 +29491,28 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -28791,12 +29527,22 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra",
       "kind": "wikilink"
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
       "target": "community/Ascend/Ascend/Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+      "target": "community/Ascend/CANN/CANN",
       "kind": "wikilink"
     },
     {
@@ -28837,6 +29583,11 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/profile-data",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/profile-data",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
       "kind": "wikilink"
     },
     {
@@ -28941,7 +29692,17 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -28971,7 +29732,17 @@
     },
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -29067,6 +29838,26 @@
     {
       "source": "community/deepseek-ai/DualPath/DualPath",
       "target": "university/清华大学/Mingxing Zhang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/Engram/Engram",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/Engram/Engram",
+      "target": "company/深度求索/深度求索",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/Engram/Engram",
+      "target": "concept/memory/Conditional Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/deepseek-ai/Engram/Engram",
+      "target": "concept/memory/Host Memory",
       "kind": "wikilink"
     },
     {
@@ -41256,6 +42047,11 @@
     },
     {
       "source": "company/深度求索/梁文锋 Liang Wenfeng",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/深度求索/梁文锋 Liang Wenfeng",
       "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
       "kind": "wikilink"
     },
@@ -41287,6 +42083,11 @@
     {
       "source": "company/深度求索/梁文锋 Liang Wenfeng",
       "target": "university/浙江大学/浙江大学",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/深度求索/深度求索",
+      "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
       "kind": "wikilink"
     },
     {
@@ -41332,6 +42133,11 @@
     {
       "source": "company/深度求索/深度求索",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/深度求索/深度求索",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
       "kind": "wikilink"
     },
     {
@@ -41427,6 +42233,11 @@
     {
       "source": "company/深度求索/深度求索",
       "target": "community/deepseek-ai/DualPath/DualPath",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/深度求索/深度求索",
+      "target": "community/deepseek-ai/Engram/Engram",
       "kind": "wikilink"
     },
     {
@@ -43261,6 +44072,11 @@
     },
     {
       "source": "concept/communication/collectives/All-to-All",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/communication/collectives/All-to-All",
       "target": "concept/inference/parallelism/Expert Parallelism",
       "kind": "wikilink"
     },
@@ -43372,6 +44188,11 @@
     {
       "source": "concept/communication/collectives/Collective Communication",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/communication/collectives/Collective Communication",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
       "kind": "wikilink"
     },
     {
@@ -43870,6 +44691,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/inference/agent/Agent Harness",
+      "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/inference/decoding/Draft-Target Decoding",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -44211,6 +45037,11 @@
     },
     {
       "source": "concept/inference/parallelism/Expert Parallelism",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/parallelism/Expert Parallelism",
       "target": "community/vllm-project/vLLM/vLLM",
       "kind": "wikilink"
     },
@@ -44262,6 +45093,11 @@
     {
       "source": "concept/inference/parallelism/Parallelism",
       "target": "concept/inference/parallelism/Tensor Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/parallelism/Pipeline Parallelism",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
       "kind": "wikilink"
     },
     {
@@ -44731,6 +45567,11 @@
     },
     {
       "source": "concept/kernel/attention/Attention Kernel",
+      "target": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Attention Kernel",
       "target": "community/flagos-ai/FlagAttention/FlagAttention",
       "kind": "wikilink"
     },
@@ -44795,8 +45636,23 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/kernel/attention/Sparse Attention",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/attention/Sparse Attention",
+      "target": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/kernel/gemm/GEMM",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/GEMM",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -44827,6 +45683,11 @@
     {
       "source": "concept/kernel/gemm/Grouped GEMM",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/gemm/Grouped GEMM",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -44906,7 +45767,17 @@
     },
     {
       "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/JIT Kernel Compilation",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "kind": "wikilink"
     },
     {
@@ -44985,6 +45856,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/memory/Conditional Memory",
+      "target": "community/deepseek-ai/Engram/Engram",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Conditional Memory",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/memory/HBM",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -45032,6 +45913,11 @@
     {
       "source": "concept/memory/Host Memory",
       "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/Host Memory",
+      "target": "community/deepseek-ai/Engram/Engram",
       "kind": "wikilink"
     },
     {
@@ -45176,6 +46062,16 @@
     },
     {
       "source": "concept/quantization/FP4 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP4 Quantization",
       "target": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "kind": "wikilink"
     },
@@ -45212,6 +46108,16 @@
     {
       "source": "concept/quantization/FP8 Quantization",
       "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/quantization/FP8 Quantization",
+      "target": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
       "kind": "wikilink"
     },
     {
@@ -51059,25 +51965,25 @@
       "bridge_score": 8.485
     },
     "company/深度求索/梁文锋 Liang Wenfeng": {
-      "degree": 12,
-      "cross_category_degree": 5,
+      "degree": 13,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.95
+      "bridge_score": 10.407
     },
     "company/深度求索/深度求索": {
-      "degree": 50,
-      "cross_category_degree": 38,
+      "degree": 53,
+      "cross_category_degree": 41,
       "neighbor_categories": [
         "community",
         "company",
         "root",
         "university"
       ],
-      "bridge_score": 24.972
+      "bridge_score": 26.105
     },
     "company/深度求索/邵智宏 Zhihong Shao": {
       "degree": 8,
@@ -51644,13 +52550,13 @@
       "bridge_score": 4.67
     },
     "community/Ascend/CANN/CANN": {
-      "degree": 5,
+      "degree": 8,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.52
     },
     "community/Ascend/CANNBot/CANNBot": {
       "degree": 3,
@@ -51812,7 +52718,7 @@
       "bridge_score": 2.5
     },
     "community/Ascend/MindIE-Motor/MindIE-Motor": {
-      "degree": 18,
+      "degree": 19,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
@@ -51820,7 +52726,7 @@
         "concept",
         "root"
       ],
-      "bridge_score": 13.748
+      "bridge_score": 13.822
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
       "degree": 9,
@@ -53220,6 +54126,24 @@
       ],
       "bridge_score": 23.77
     },
+    "community/cordiverse/Cordis/Cordis": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
+    "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness": {
+      "degree": 5,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 7.785
+    },
     "community/deepseek-ai/DeepSeek-Infra/3FS": {
       "degree": 8,
       "cross_category_degree": 3,
@@ -53231,14 +54155,31 @@
       "bridge_score": 8.72
     },
     "community/deepseek-ai/DeepSeek-Infra/Anyi Xu": {
-      "degree": 2,
+      "degree": 3,
       "cross_category_degree": 0,
       "neighbor_categories": [
         "community"
       ],
-      "bridge_score": 3.085
+      "bridge_score": 3.5
     },
     "community/deepseek-ai/DeepSeek-Infra/Chengqi Deng": {
+      "degree": 3,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.5
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu": {
+      "degree": 6,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 6.157
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao": {
       "degree": 2,
       "cross_category_degree": 0,
       "neighbor_categories": [
@@ -53246,42 +54187,35 @@
       ],
       "bridge_score": 3.085
     },
-    "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu": {
-      "degree": 5,
-      "cross_category_degree": 1,
-      "neighbor_categories": [
-        "community",
-        "company"
-      ],
-      "bridge_score": 5.935
-    },
     "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend": {
-      "degree": 14,
-      "cross_category_degree": 1,
+      "degree": 22,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.257
+      "bridge_score": 10.774
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepEP": {
-      "degree": 29,
+      "degree": 30,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 12.207
+      "bridge_score": 12.254
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend": {
-      "degree": 10,
-      "cross_category_degree": 1,
+      "degree": 27,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 6.809
+      "bridge_score": 11.407
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM": {
       "degree": 33,
@@ -53304,77 +54238,105 @@
       "bridge_score": 9.55
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra": {
-      "degree": 49,
+      "degree": 63,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 8.994
+      "bridge_score": 9.35
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepSelect": {
-      "degree": 3,
-      "cross_category_degree": 1,
+      "degree": 4,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 7.522
+    },
+    "community/deepseek-ai/DeepSeek-Infra/DualPipe": {
+      "degree": 10,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 9.009
     },
     "community/deepseek-ai/DeepSeek-Infra/EPLB": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.05
+      "bridge_score": 7.22
     },
     "community/deepseek-ai/DeepSeek-Infra/FlashMLA": {
-      "degree": 14,
-      "cross_category_degree": 2,
+      "degree": 18,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.607
+      "bridge_score": 10.848
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Guanglin Li": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.157
     },
     "community/deepseek-ai/DeepSeek-Infra/Jiashi Li": {
-      "degree": 10,
+      "degree": 11,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 9.009
+      "bridge_score": 9.135
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/Kuai Yu": {
-      "degree": 6,
+      "degree": 7,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.157
+      "bridge_score": 6.35
     },
     "community/deepseek-ai/DeepSeek-Infra/LPLB": {
-      "degree": 6,
+      "degree": 7,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 6.157
+      "bridge_score": 6.35
     },
     "community/deepseek-ai/DeepSeek-Infra/Liang Zhao": {
       "degree": 3,
@@ -53408,6 +54370,14 @@
         "company"
       ],
       "bridge_score": 5.935
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/Runji Wang": {
       "degree": 4,
@@ -53470,7 +54440,39 @@
       ],
       "bridge_score": 3.085
     },
+    "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
     "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu": {
+      "degree": 2,
+      "cross_category_degree": 0,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.085
+    },
+    "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou": {
       "degree": 2,
       "cross_category_degree": 0,
       "neighbor_categories": [
@@ -53487,13 +54489,13 @@
       "bridge_score": 3.822
     },
     "community/deepseek-ai/DeepSeek-Infra/clangd-ascend": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.935
+      "bridge_score": 6.157
     },
     "community/deepseek-ai/DeepSeek-Infra/deepseek-recipe": {
       "degree": 2,
@@ -53521,13 +54523,13 @@
       "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Infra/profile-data": {
-      "degree": 3,
+      "degree": 4,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 5.672
     },
     "community/deepseek-ai/DeepSeek-Infra/smallpond": {
       "degree": 5,
@@ -53568,23 +54570,33 @@
       "bridge_score": 9.25
     },
     "community/deepseek-ai/DeepSpec/DeepSpec": {
-      "degree": 11,
+      "degree": 12,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.635
+      "bridge_score": 7.75
     },
     "community/deepseek-ai/DualPath/DualPath": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 8.485
+      "bridge_score": 8.707
+    },
+    "community/deepseek-ai/Engram/Engram": {
+      "degree": 5,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 8.135
     },
     "community/flagos-ai/FlagAttention/FlagAttention": {
       "degree": 9,
@@ -54950,7 +55962,7 @@
       "bridge_score": 9.407
     },
     "community/tile-ai/TileLang/TileLang": {
-      "degree": 28,
+      "degree": 29,
       "cross_category_degree": 20,
       "neighbor_categories": [
         "community",
@@ -54958,7 +55970,7 @@
         "concept",
         "university"
       ],
-      "bridge_score": 17.858
+      "bridge_score": 17.907
     },
     "community/tile-ai/TileScale/TileScale": {
       "degree": 3,
@@ -57128,13 +58140,13 @@
       "bridge_score": 4.307
     },
     "concept/communication/collectives/All-to-All": {
-      "degree": 9,
-      "cross_category_degree": 3,
+      "degree": 10,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.372
+      "bridge_score": 7.859
     },
     "concept/communication/collectives/AllGather": {
       "degree": 10,
@@ -57155,13 +58167,13 @@
       "bridge_score": 7.985
     },
     "concept/communication/collectives/Collective Communication": {
-      "degree": 12,
-      "cross_category_degree": 5,
+      "degree": 13,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.45
+      "bridge_score": 8.907
     },
     "concept/communication/collectives/ReduceScatter": {
       "degree": 8,
@@ -57324,6 +58336,14 @@
       ],
       "bridge_score": 5.35
     },
+    "concept/inference/agent/Agent Harness": {
+      "degree": 1,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 2.85
+    },
     "concept/inference/decoding/Draft-Target Decoding": {
       "degree": 6,
       "cross_category_degree": 2,
@@ -57460,13 +58480,13 @@
       "bridge_score": 5.672
     },
     "concept/inference/parallelism/Expert Parallelism": {
-      "degree": 8,
-      "cross_category_degree": 2,
+      "degree": 9,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.87
+      "bridge_score": 7.372
     },
     "concept/inference/parallelism/Parallelism": {
       "degree": 7,
@@ -57478,13 +58498,13 @@
       "bridge_score": 6.35
     },
     "concept/inference/parallelism/Pipeline Parallelism": {
-      "degree": 3,
-      "cross_category_degree": 1,
+      "degree": 4,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 6.022
     },
     "concept/inference/parallelism/Sequence Parallelism": {
       "degree": 6,
@@ -57613,13 +58633,13 @@
       "bridge_score": 9.15
     },
     "concept/kernel/attention/Attention Kernel": {
-      "degree": 6,
-      "cross_category_degree": 4,
+      "degree": 7,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.207
+      "bridge_score": 7.75
     },
     "concept/kernel/attention/FlashAttention": {
       "degree": 5,
@@ -57639,23 +58659,31 @@
       ],
       "bridge_score": 6.285
     },
+    "concept/kernel/attention/Sparse Attention": {
+      "degree": 2,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 3.785
+    },
     "concept/kernel/gemm/GEMM": {
-      "degree": 5,
+      "degree": 6,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.557
+    },
+    "concept/kernel/gemm/Grouped GEMM": {
+      "degree": 7,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.985
-    },
-    "concept/kernel/gemm/Grouped GEMM": {
-      "degree": 6,
-      "cross_category_degree": 3,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 6.857
+      "bridge_score": 7.4
     },
     "concept/kernel/optimization/Agentic Kernel Optimization": {
       "degree": 25,
@@ -57676,13 +58704,13 @@
       "bridge_score": 7.207
     },
     "concept/kernel/programming/JIT Kernel Compilation": {
-      "degree": 11,
-      "cross_category_degree": 6,
+      "degree": 13,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.685
+      "bridge_score": 9.607
     },
     "concept/kernel/programming/Kernel DSL": {
       "degree": 7,
@@ -57702,6 +58730,15 @@
       ],
       "bridge_score": 6.35
     },
+    "concept/memory/Conditional Memory": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 4.935
+    },
     "concept/memory/HBM": {
       "degree": 7,
       "cross_category_degree": 4,
@@ -57712,13 +58749,13 @@
       "bridge_score": 7.4
     },
     "concept/memory/Host Memory": {
-      "degree": 11,
-      "cross_category_degree": 6,
+      "degree": 13,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.685
+      "bridge_score": 9.257
     },
     "concept/memory/Memory Hierarchy": {
       "degree": 14,
@@ -57748,22 +58785,22 @@
       "bridge_score": 6.022
     },
     "concept/quantization/FP4 Quantization": {
-      "degree": 8,
+      "degree": 10,
+      "cross_category_degree": 8,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 9.259
+    },
+    "concept/quantization/FP8 Quantization": {
+      "degree": 10,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.27
-    },
-    "concept/quantization/FP8 Quantization": {
-      "degree": 8,
-      "cross_category_degree": 4,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 7.57
+      "bridge_score": 8.559
     },
     "concept/quantization/KV Cache Quantization": {
       "degree": 6,

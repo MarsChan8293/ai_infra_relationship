@@ -2,6 +2,7 @@
 type: project
 name: Cordis
 status: active
+linked_people: []
 repository: https://github.com/cordiverse/cordis
 docs: https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer
 last_verified: "2026-10"
@@ -13,6 +14,7 @@ areas:
   - "typed-events"
   - "reversible-effects"
 integrations: []
+linked_companies: []
 ---
 # Cordis
 

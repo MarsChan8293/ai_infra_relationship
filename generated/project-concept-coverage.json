@@ -1,17 +1,18 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 81,
-    "concepts_with_projects": 81,
+    "concepts": 84,
+    "concepts_with_projects": 84,
     "concepts_without_projects": 0,
-    "project_like_nodes": 178,
-    "projects_with_concepts": 69,
-    "concept_project_assertions": 292,
+    "project_like_nodes": 182,
+    "projects_with_concepts": 75,
+    "concept_project_assertions": 309,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
   "topic_counts": {
-    "attention": 3,
+    "agent-runtime": 1,
+    "attention": 4,
     "collective-communication": 5,
     "data-movement": 4,
     "data-path": 1,
@@ -25,7 +26,7 @@
     "kernel-programming": 2,
     "kv-cache": 8,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 3,
+    "memory-hierarchy": 4,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -36,7 +37,8 @@
     "storage-tiering": 1
   },
   "mapped_topic_counts": {
-    "attention": 3,
+    "agent-runtime": 1,
+    "attention": 4,
     "collective-communication": 5,
     "data-movement": 4,
     "data-path": 1,
@@ -50,7 +52,7 @@
     "kernel-programming": 2,
     "kv-cache": 8,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 3,
+    "memory-hierarchy": 4,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -406,6 +408,19 @@
       "count": 6
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "name": "DeepGEMM-Ascend",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/kserve/KServe/KServe",
       "name": "KServe",
       "layer": "distributed-serving",
@@ -482,6 +497,18 @@
       "count": 4
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "name": "DeepEP-Ascend",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/collectives/All-to-All",
+        "concept/communication/collectives/Collective Communication",
+        "concept/inference/parallelism/Expert Parallelism",
+        "concept/kernel/programming/JIT Kernel Compilation"
+      ],
+      "count": 4
+    },
+    {
       "id": "community/flagos-ai/FlagTree/FlagTree",
       "name": "FlagTree",
       "layer": "compiler",
@@ -490,6 +517,18 @@
         "concept/compiler/Compiler Lowering",
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 4
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+      "name": "FlashMLA",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/attention/Sparse Attention",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization"
       ],
       "count": 4
     },
@@ -578,6 +617,16 @@
       "concepts": [
         "concept/inference/optimization/Agentic Inference Optimization",
         "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/deepseek-ai/Engram/Engram",
+      "name": "Engram",
+      "layer": "other",
+      "concepts": [
+        "concept/memory/Conditional Memory",
+        "concept/memory/Host Memory"
       ],
       "count": 2
     },
@@ -804,6 +853,24 @@
       "layer": "compiler",
       "concepts": [
         "concept/kernel/programming/JIT Kernel Compilation"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "name": "DeepSeek Harness",
+      "layer": "runtime",
+      "concepts": [
+        "concept/inference/agent/Agent Harness"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "name": "DualPipe",
+      "layer": "training",
+      "concepts": [
+        "concept/inference/parallelism/Pipeline Parallelism"
       ],
       "count": 1
     },

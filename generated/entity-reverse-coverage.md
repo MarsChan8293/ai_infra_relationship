@@ -7,9 +7,9 @@
 - Company-person associations: 239
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 236
-- Project/community nodes: 205
-- Project/community nodes with ≥1 linked person: 119
-- Project/community-person associations: 562
+- Project/community nodes: 209
+- Project/community nodes with ≥1 linked person: 122
+- Project/community-person associations: 594
 - Non-company affiliations recognized and routed elsewhere: 108
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
@@ -72,14 +72,15 @@
 | Entity | Linked people |
 | --- | ---: |
 | [[community/sgl-project/SGLang/SGLang\|SGLang]] | 31 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra\|DeepSeek Infra]] | 30 |
 | [[community/vllm-project/vLLM/vLLM\|vLLM]] | 29 |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra\|DeepSeek Infra]] | 22 |
 | [[community/kvcache-ai/Mooncake/Mooncake\|Mooncake]] | 21 |
 | [[community/LMCache/LMCache/LMCache\|LMCache]] | 19 |
 | [[community/kvcache-ai/KTransformers/KTransformers\|KTransformers]] | 18 |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend\|vLLM-Ascend]] | 17 |
 | [[community/llm-d/llm-d/llm-d\|llm-d]] | 15 |
 | [[community/Ascend/MemCache/MemCache\|MemCache]] | 14 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend\|DeepGEMM-Ascend]] | 13 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM\|DeepGEMM]] | 11 |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer\|FlashInfer]] | 11 |
 | [[community/ai-dynamo/Dynamo/Dynamo\|NVIDIA Dynamo]] | 11 |
@@ -87,6 +88,7 @@
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP\|DeepEP]] | 9 |
 | [[community/ModelTC/LightLLM/LightLLM\|LightLLM]] | 9 |
 | [[community/ai-dynamo/NIXL/NIXL\|NIXL]] | 9 |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend\|DeepEP-Ascend]] | 8 |
 | [[community/flagos-ai/FlagOS/FlagOS\|FlagOS]] | 8 |
 | [[community/flagos-ai/FlagTree/FlagTree\|FlagTree]] | 8 |
 | [[university/清华大学/GLM-130B\|GLM-130B]] | 8 |
@@ -125,6 +127,7 @@
 | [[community/LancerLab/Croqtile/Croqtile\|Croqtile]] | 3 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT\|DeepJIT]] | 3 |
 | [[community/LLMServe/DistServe/DistServe\|DistServe]] | 3 |
+| [[community/deepseek-ai/DeepSeek-Infra/DualPipe\|DualPipe]] | 3 |
 | [[community/FlashML-org/FreeToken/FreeToken\|FreeToken]] | 3 |
 | [[community/InfiniTensor/InfiniCCL\|InfiniCCL]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy\|LMDeploy]] | 3 |

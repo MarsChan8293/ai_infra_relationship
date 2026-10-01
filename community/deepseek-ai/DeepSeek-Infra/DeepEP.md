@@ -64,13 +64,13 @@ https://github.com/deepseek-ai/DeepEP
 
 - [[community/deepseek-ai/DeepSeek-Infra/Chengqi Deng|Chengqi Deng]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li|Jiashi Li]]：[[DeepEP]]：2025 原始公开作者
-- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：项目关联；人物页已明确记录该项目。
+- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：[[DeepEP-Ascend]]：2026 official citation author。
 - [[community/deepseek-ai/DeepSeek-Infra/Liang Zhao|Liang Zhao]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Liyue Zhang|Liyue Zhang]]：社区贡献关联；人物页已明确记录该社区。
-- [[community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou|Shangyan Zhou]]：社区贡献关联；人物页已明确记录该社区。
+- [[community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou|Shangyan Zhou]]：[[DeepEP-Ascend]]：2026 official citation author。
 - [[community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu|Yuxuan Liu]]：社区贡献关联；人物页已明确记录该社区。
 - [[community/deepseek-ai/DeepSeek-Infra/Zhean Xu|Zhean Xu]]：社区贡献关联；人物页已明确记录该社区。
-- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepEP]]：2025 公开项目原始作者
+- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepEP-Ascend]]：2026 official citation first author。
 
 <!-- END AUTO PROJECT PEOPLE -->
 

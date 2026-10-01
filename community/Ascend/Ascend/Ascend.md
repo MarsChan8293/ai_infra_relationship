@@ -42,7 +42,6 @@ Ascend 是围绕华为昇腾 NPU、[[CANN]]、MindIE 与上游 AI Infra 社区�
 - [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]]：提供 CUDA / Ascend 统一 JIT runtime。
 - [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend|clangd-ascend]]：为 AscendC `.asc` 文件提供 clangd 代码智能。
 
-
 ### 这组项目的分层位置
 `clangd-ascend → DeepJIT → DeepGEMM-Ascend / FlashMLA → DeepEP-Ascend` 可以近似看成开发工具、JIT/compiler、compute/attention kernel、EP communication 四层。它们不是 MindIE 或 vLLM-Ascend 的替代品，而是更底层、可被上层 inference runtime 消费的能力。
 

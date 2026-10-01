@@ -2,16 +2,16 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 837
-- Person nodes with typed relations: 161 / 429
+- Typed relation edges: 854
+- Person nodes with typed relations: 161 / 437
 - Hard errors: 0
 - Warnings: 40
-- Concept → Project assertions read from Markdown: 292
-- Derived Project → Concept support edges: 292
+- Concept → Project assertions read from Markdown: 309
+- Derived Project → Concept support edges: 309
 
 ## Relation types
 
-- `project-concept-support`: 292
+- `project-concept-support`: 309
 - `paper-coauthor`: 237
 - `research-collaboration`: 174
 - `coworker`: 168
@@ -37,7 +37,7 @@
 | 3 | [[community/hpcaitech/Colossal-AI/Hongxin Liu\|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
 | 4 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao\|赵成钢]] | 9.250 | 12 | 3 | 0 |
 | 5 | [[university/启元实验室/王豪杰 Haojie Wang\|王豪杰]] | 9.222 | 9 | 1 | 0 |
-| 6 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li\|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
+| 6 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li\|Jiashi Li]] | 9.135 | 11 | 3 | 0 |
 | 7 | [[community/vllm-project/vLLM/Lucas Wilkinson\|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
 | 8 | [[company/趋境科技/卢佳豪 Jiahao Lu\|卢佳豪]] | 8.707 | 6 | 2 | 0 |
 | 9 | [[university/启元实验室/潘泽众 Zezhong Pan\|潘泽众]] | 8.550 | 7 | 4 | 0 |
@@ -103,7 +103,7 @@
 | [[community/vllm-project/vLLM/Michael Goin\|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
 | [[company/TensorMesh/程翊华 Yihua Cheng\|程翊华]] | 10.409 | 4 | 2 | 50.0% |
 | [[company/RadixArk/朱邦华 Banghua Zhu\|朱邦华]] | 10.407 | 5 | 5 | 100.0% |
+| [[company/深度求索/梁文锋 Liang Wenfeng\|梁文锋]] | 10.407 | 5 | 4 | 80.0% |
 | [[company/深度求索/Shaoyuan Chen\|Shaoyuan Chen]] | 10.272 | 2 | 2 | 100.0% |
 | [[company/字节跳动/方佳瑞 Jiarui Fang\|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
 | [[community/kvcache-ai/KTransformers/谢威宇 Weiyu Xie\|谢威宇]] | 10.120 | 3 | 3 | 100.0% |
-| [[community/kvcache-ai/KTransformers/Xianglin Chen\|Xianglin Chen]] | 10.059 | 6 | 2 | 33.3% |

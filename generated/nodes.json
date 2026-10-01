@@ -3729,8 +3729,9 @@
       "areas": [
         "ai-infrastructure"
       ],
-      "last_verified": "2026-09",
-      "relations": ""
+      "last_verified": "2026-10",
+      "relations": "",
+      "projects": ""
     }
   },
   {
@@ -10027,6 +10028,50 @@
     "frontmatter": {}
   },
   {
+    "id": "community/cordiverse/Cordis/Cordis",
+    "path": "community/cordiverse/Cordis/Cordis.md",
+    "name": "Cordis",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Cordis",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/cordiverse/cordis",
+      "docs": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
+      "last_verified": "2026-10",
+      "layer": "runtime",
+      "areas": "",
+      "integrations": [],
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+    "path": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness.md",
+    "name": "DeepSeek Harness",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DeepSeek Harness",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/deepseek-harness",
+      "docs": "https://deepseek-harness.github.io/deepseek-harness/",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "runtime",
+      "areas": "",
+      "integrations": "",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
     "path": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
     "name": "3FS",
@@ -10063,7 +10108,9 @@
       "communities": [
         "DeepGEMM",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10078,7 +10125,9 @@
       "communities": [
         "DeepEP",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10099,7 +10148,9 @@
       "linked_companies": "",
       "projects": [
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "gpu-kernels",
@@ -10108,7 +10159,32 @@
         "tilelang"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao.md",
+    "name": "Chenqi Zhao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Chenqi Zhao",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepEP-Ascend"
+      ],
+      "areas": [
+        "expert-parallel"
+      ],
+      "roles": [
+        "official citation author"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10121,15 +10197,15 @@
       "type": "project",
       "name": "DeepEP-Ascend",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
-      "linked_people": [],
+      "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepEP-Ascend",
       "docs": "https://github.com/deepseek-ai/DeepEP-Ascend",
       "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
-      "company_relation": "company-led",
       "layer": "communication",
       "areas": "",
       "hardware": "",
@@ -10174,15 +10250,15 @@
       "type": "project",
       "name": "DeepGEMM-Ascend",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
-      "linked_people": [],
+      "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
       "docs": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
       "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
-      "company_relation": "company-led",
       "layer": "runtime",
       "areas": "",
       "hardware": "",
@@ -10298,6 +10374,31 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+    "path": "community/deepseek-ai/DeepSeek-Infra/DualPipe.md",
+    "name": "DualPipe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DualPipe",
+      "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DualPipe",
+      "docs": "https://github.com/deepseek-ai/DualPipe",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "training",
+      "areas": "",
+      "integrations": [],
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/EPLB",
     "path": "community/deepseek-ai/DeepSeek-Infra/EPLB.md",
     "name": "EPLB",
@@ -10336,6 +10437,7 @@
       "type": "project",
       "name": "FlashMLA",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/FlashMLA",
@@ -10349,6 +10451,31 @@
       "hardware": "",
       "integrations": [],
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li.md",
+    "name": "Guanglin Li",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Guanglin Li",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "scale-factor-layout"
+      ],
+      "roles": [
+        "SF Layout Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10372,7 +10499,8 @@
       "projects": [
         "LPLB",
         "TileKernels",
-        "DeepSpec"
+        "DeepSpec",
+        "DeepGEMM-Ascend"
       ],
       "areas": [
         "moe",
@@ -10382,7 +10510,7 @@
         "speculative-decoding"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10408,7 +10536,34 @@
         "expert-parallel",
         "gpu-kernels",
         "mla"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen.md",
+    "name": "Kaifeng Chen",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Kaifeng Chen",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mqa-logits"
+      ],
+      "roles": [
+        "MQA Logits contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10431,7 +10586,9 @@
       "projects": [
         "DeepEP",
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "moe-communication",
@@ -10440,7 +10597,7 @@
         "tilelang"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10542,7 +10699,8 @@
       "linked_companies": "",
       "projects": [
         "TileKernels",
-        "DeepSpec"
+        "DeepSpec",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "gpu-kernels",
@@ -10551,7 +10709,32 @@
         "llm-inference"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu.md",
+    "name": "Ruifan Xu",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Ruifan Xu",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mhc-kernel"
+      ],
+      "roles": [
+        "mHC Kernel contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10598,7 +10781,9 @@
       "communities": [
         "DeepEP",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10759,6 +10944,81 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang.md",
+    "name": "Yizhi Wang",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yizhi Wang",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepEP-Ascend"
+      ],
+      "areas": [
+        "expert-parallel"
+      ],
+      "roles": [
+        "official citation author"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng.md",
+    "name": "Yuhao Meng",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yuhao Meng",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "gemm-kernels"
+      ],
+      "roles": [
+        "GEMM Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao.md",
+    "name": "Yunfan Xiao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yunfan Xiao",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "gemm-kernels"
+      ],
+      "roles": [
+        "GEMM Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
     "name": "Yuxuan Liu",
@@ -10774,6 +11034,31 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou.md",
+    "name": "Yuxuan Zhou",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yuxuan Zhou",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mhc-kernel"
+      ],
+      "roles": [
+        "mHC Kernel contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu.md",
     "name": "Zhean Xu",
@@ -10786,7 +11071,9 @@
         "DeepEP",
         "DeepGEMM",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10807,7 +11094,6 @@
       "companies": [
         "深度求索"
       ],
-      "company_relation": "company-led",
       "layer": "compiler",
       "areas": "",
       "hardware": "",
@@ -11020,7 +11306,9 @@
         "gemm",
         "moe"
       ],
-      "name_verification": "public technical tutorial"
+      "name_verification": "public technical tutorial",
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -11049,10 +11337,12 @@
       "projects": [
         "DeepEP",
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "confidence": "high",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "education": [
         "清华大学"
       ],
@@ -11117,6 +11407,30 @@
         "scheduling"
       ],
       "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/Engram/Engram",
+    "path": "community/deepseek-ai/Engram/Engram.md",
+    "name": "Engram",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Engram",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/Engram",
+      "docs": "https://github.com/deepseek-ai/Engram",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "other",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -22027,7 +22341,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22080,7 +22394,7 @@
       "topic": "collective-communication",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22393,6 +22707,23 @@
     }
   },
   {
+    "id": "concept/inference/agent/Agent Harness",
+    "path": "concept/inference/agent/Agent Harness.md",
+    "name": "Agent Harness",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Agent Harness",
+      "aliases": "",
+      "domain": "inference",
+      "topic": "agent-runtime",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "concept/inference/decoding/Draft-Target Decoding",
     "path": "concept/inference/decoding/Draft-Target Decoding.md",
     "name": "Draft-Target Decoding",
@@ -22673,7 +23004,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22708,7 +23039,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22973,7 +23304,7 @@
       "topic": "attention",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23013,6 +23344,24 @@
     }
   },
   {
+    "id": "concept/kernel/attention/Sparse Attention",
+    "path": "concept/kernel/attention/Sparse Attention.md",
+    "name": "Sparse Attention",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Sparse Attention",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "attention",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "concept/kernel/gemm/GEMM",
     "path": "concept/kernel/gemm/GEMM.md",
     "name": "GEMM",
@@ -23026,7 +23375,7 @@
       "topic": "gemm",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23044,7 +23393,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23095,7 +23444,7 @@
       "topic": "kernel-programming",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23133,6 +23482,23 @@
     }
   },
   {
+    "id": "concept/memory/Conditional Memory",
+    "path": "concept/memory/Conditional Memory.md",
+    "name": "Conditional Memory",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Conditional Memory",
+      "aliases": "",
+      "domain": "memory",
+      "topic": "memory-hierarchy",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "concept/memory/HBM",
     "path": "concept/memory/HBM.md",
     "name": "HBM",
@@ -23165,7 +23531,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23234,7 +23600,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -23252,7 +23618,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {

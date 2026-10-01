@@ -2,7 +2,21 @@
 type: project
 name: DeepEP-Ascend
 parent: DeepSeek-Infra
+linked_concepts:
+  - "concept/communication/collectives/All-to-All"
+  - "concept/communication/collectives/Collective Communication"
+  - "concept/inference/parallelism/Expert Parallelism"
+  - "concept/kernel/programming/JIT Kernel Compilation"
 status: active
+linked_people:
+  - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
+  - "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao"
+  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
+  - "community/deepseek-ai/DeepSeek-Infra/Rui Tian"
+  - "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou"
+  - "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang"
+  - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
+  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 repository: https://github.com/deepseek-ai/DeepEP-Ascend
 docs: https://github.com/deepseek-ai/DeepEP-Ascend
 last_verified: "2026-10"
@@ -23,6 +37,8 @@ integrations:
   - "DeepJIT"
   - "CANN"
   - "clangd-ascend"
+linked_companies:
+  - "company/深度求索/深度求索"
 ---
 # DeepEP-Ascend
 
@@ -53,3 +69,40 @@ DeepEP-Ascend 是 DeepSeek 面向 Huawei Ascend NPU 的高性能训练/推理通
 - https://github.com/deepseek-ai/DeepEP-Ascend
 - https://github.com/deepseek-ai/DeepEP
 - https://github.com/deepseek-ai/DeepJIT
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu|Chenhao Xu]]：[[DeepEP-Ascend]]：2026 official citation author。
+- [[community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao|Chenqi Zhao]]：https://github.com/deepseek-ai/DeepEP-Ascend
+- [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu|Kuai Yu]]：[[DeepEP-Ascend]]：2026 official citation author。
+- [[community/deepseek-ai/DeepSeek-Infra/Rui Tian|Rui Tian]]：[[DeepEP-Ascend]]：2026 official citation author。
+- [[community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou|Shangyan Zhou]]：[[DeepEP-Ascend]]：2026 official citation author。
+- [[community/deepseek-ai/DeepSeek-Infra/Yizhi Wang|Yizhi Wang]]：https://github.com/deepseek-ai/DeepEP-Ascend
+- [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou|周可行（Kexing Zhou）]]：[[DeepEP-Ascend]]：2026 official citation author。
+- [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：[[DeepEP-Ascend]]：2026 official citation first author。
+
+<!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/communication/collectives/All-to-All|All-to-All]]
+- [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
