@@ -48,6 +48,8 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 ## GitHub
 组织主页：https://github.com/deepseek-ai
 
+官方 Open Infra 索引：https://github.com/deepseek-ai/open-infra-index
+
 子项目：
 - [[DeepEP]]：https://github.com/deepseek-ai/DeepEP
 - [[DeepEP-Ascend]]：https://github.com/deepseek-ai/DeepEP-Ascend
@@ -62,6 +64,7 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 - [[TileKernels]]：https://github.com/deepseek-ai/TileKernels
 - [[smallpond]]：https://github.com/deepseek-ai/smallpond
 - [[profile-data]]：https://github.com/deepseek-ai/profile-data
+- [[DualPipe]]：https://github.com/deepseek-ai/DualPipe
 - [[deepseek-recipe]]：https://github.com/deepseek-ai/deepseek-recipe
 
 ## 2026-09-30 Ascend 推理基础设施开源
