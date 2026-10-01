@@ -15,7 +15,8 @@ related_concepts:
 projects:
   - vLLM
   - DeepEP
-last_verified: 2026-09
+  - DeepEP-Ascend
+last_verified: "2026-10"
 ---
 
 # Expert Parallelism
@@ -49,6 +50,9 @@ EP 的关键瓶颈不是只有 expert GEMM，还包括 token dispatch、All-to-A
 ## 通信实现
 
 [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] 是面向 MoE Expert Parallel 的专用通信库，以 [[All-to-All]] 语义实现 token dispatch / combine，并针对训练、Prefill 与低延迟 Decode 提供不同通信路径。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]] 是 DeepEP 的 Ascend 实现，核心 EPBuffer 对齐 MoE dispatch/combine API。
 
 ## Sources
 
