@@ -2457,10 +2457,12 @@
     "bridge_score": 7.872
   },
   "community/MetaInfer/MetaInfer": {
-    "degree": 0,
-    "cross_category_degree": 0,
-    "neighbor_categories": [],
-    "bridge_score": 0.0
+    "degree": 1,
+    "cross_category_degree": 1,
+    "neighbor_categories": [
+      "concept"
+    ],
+    "bridge_score": 2.85
   },
   "community/MetaX-MACA/MXDeepEP/MXDeepEP": {
     "degree": 4,
@@ -5634,12 +5636,13 @@
     "bridge_score": 5.7
   },
   "community/yzygitzh/RoofLang/RoofLang": {
-    "degree": 4,
-    "cross_category_degree": 0,
+    "degree": 5,
+    "cross_category_degree": 1,
     "neighbor_categories": [
-      "community"
+      "community",
+      "concept"
     ],
-    "bridge_score": 3.822
+    "bridge_score": 5.935
   },
   "community/yzygitzh/RoofLang/Yuting Jiang": {
     "degree": 1,
@@ -7220,13 +7223,13 @@
     "bridge_score": 5.672
   },
   "concept/compiler/Autotuning": {
-    "degree": 5,
+    "degree": 6,
     "cross_category_degree": 3,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 6.635
+    "bridge_score": 6.857
   },
   "concept/compiler/Backend Code Generation": {
     "degree": 6,
@@ -7433,6 +7436,15 @@
       "concept"
     ],
     "bridge_score": 7.372
+  },
+  "concept/inference/optimization/Agentic Inference Optimization": {
+    "degree": 3,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.7
   },
   "concept/inference/parallelism/Context Parallelism": {
     "degree": 4,

@@ -1377,7 +1377,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "exploration",
-      "priority": 9.311,
+      "priority": 9.313,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1388,11 +1388,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 0.0,
+        "bridge_score": 2.85,
         "novelty": 1.0,
-        "frontier_potential": 1.15,
+        "frontier_potential": 0.813,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.0,
+        "redundancy_penalty": 0.055,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -1405,7 +1405,7 @@
         "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types"
       ],
-      "base_priority": 9.208,
+      "base_priority": 9.21,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -4930,82 +4930,6 @@
       }
     },
     {
-      "action_id": "community/MetaInfer/MetaInfer::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/MetaInfer/MetaInfer",
-        "name": "MetaInfer",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploration",
-      "priority": 8.28,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 0.0,
-        "novelty": 1.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.0,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, scheduler, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.088,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/cloud-native/Kubernetes/Kubernetes::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -5105,6 +5029,158 @@
         "unresolved_dimensions": [
           "originating_org_semantics"
         ]
+      }
+    },
+    {
+      "action_id": "community/MetaInfer/MetaInfer::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/MetaInfer/MetaInfer",
+        "name": "MetaInfer",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 8.275,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.083,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/yzygitzh/RoofLang/RoofLang::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/yzygitzh/RoofLang/RoofLang",
+        "name": "RoofLang",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploitation",
+      "priority": 8.259,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.067,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -6544,82 +6620,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.985"
-      }
-    },
-    {
-      "action_id": "community/yzygitzh/RoofLang/RoofLang::originating_org",
-      "action_key": "project:originating_org:company+school+research+community+team",
-      "source": {
-        "id": "community/yzygitzh/RoofLang/RoofLang",
-        "name": "RoofLang",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "originating_org",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "community",
-        "team"
-      ],
-      "strategies": [
-        "official_repository_org",
-        "project_docs_or_announcement"
-      ],
-      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
-      "bucket": "exploitation",
-      "priority": 8.072,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 1,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.192,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/1",
-        "source type Project",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.88,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 10,
-          "statuses": {
-            "partial": 8,
-            "success": 2
-          },
-          "mean_status_value": 0.48,
-          "mean_reward": 3.9,
-          "reward_signal": 0.751,
-          "yield_adjustment": 0.192
-        },
-        "key_yield_adjustment": 0.192,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -20212,78 +20212,6 @@
       }
     },
     {
-      "action_id": "community/MetaInfer/MetaInfer::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/MetaInfer/MetaInfer",
-        "name": "MetaInfer",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.81,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 0.0,
-        "novelty": 1.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.0,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, scheduler, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.64,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/kvcache-ai/KTransformers/Chen Lin::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -20877,6 +20805,78 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=10.435"
+      }
+    },
+    {
+      "action_id": "community/MetaInfer/MetaInfer::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/MetaInfer/MetaInfer",
+        "name": "MetaInfer",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.797,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 2.85,
+        "novelty": 1.0,
+        "frontier_potential": 0.813,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.055,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.627,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -21591,6 +21591,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/yzygitzh/RoofLang/RoofLang::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/yzygitzh/RoofLang/RoofLang",
+        "name": "RoofLang",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploitation",
+      "priority": 6.769,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.599,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -25791,78 +25863,6 @@
         "unresolved_dimensions": [
           "current_affiliation"
         ]
-      }
-    },
-    {
-      "action_id": "community/yzygitzh/RoofLang/RoofLang::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/yzygitzh/RoofLang/RoofLang",
-        "name": "RoofLang",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploitation",
-      "priority": 6.615,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 6,
-        "bridge_score": 3.822,
-        "novelty": 1.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, kv-cache, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 6.445,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -151328,9 +151328,9 @@
   ],
   "planner_entrypoint": "scripts/plan-research.py",
   "history_path": "research/action-history.json",
-  "history_as_of": "2026-09-30",
+  "history_as_of": "2026-10-01",
   "history_summary": {
-    "as_of": "2026-09-30",
+    "as_of": "2026-10-01",
     "history_records": 727,
     "suppressed_by_cooldown": 0,
     "partial_followup_candidates": 623,

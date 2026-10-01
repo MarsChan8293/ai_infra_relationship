@@ -3,11 +3,11 @@
 由 scripts/audit-project-concept-coverage.py 自动生成。Concept 节点的 projects 字段是人工事实源；Project 页的 linked_concepts 是派生反向视图。
 
 - Status: **pass**
-- Concepts: 79
-- Concepts with project evidence: 79
+- Concepts: 80
+- Concepts with project evidence: 80
 - Project-like nodes: 155
-- Projects linked to concepts: 45
-- Concept → Project assertions: 264
+- Projects linked to concepts: 47
+- Concept → Project assertions: 266
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -81,7 +81,7 @@
 | memory-hierarchy | 3 | 3 |
 | memory-pooling | 2 | 2 |
 | memory-topology | 1 | 1 |
-| optimization | 1 | 1 |
+| optimization | 2 | 2 |
 | parallelism | 7 | 7 |
 | quantization | 6 | 6 |
 | serving | 4 | 4 |

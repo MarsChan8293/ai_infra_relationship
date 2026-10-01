@@ -50,7 +50,6 @@ projects:
   - "KDA"
 linked_projects:
   - "community/NVIDIA/CUTLASS/CUTLASS"
-  - "community/NVIDIA/KDA/KDA"
   - "community/Project-HAMi/HAMi/HAMi"
   - "community/NVIDIA/KDA/KDA"
   - "community/llm-d/llm-d/llm-d"
@@ -127,7 +126,6 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
 - [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：公司页与社区/项目页均有显式记录。
-- [[community/NVIDIA/KDA/KDA|KDA]]：公司页与项目页均有显式记录；关系：`nvlabs-project`。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 - [[community/NVIDIA/KDA/KDA|KDA]]：公司页与社区/项目页均有显式记录。
 - [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。

@@ -1,6 +1,8 @@
 ---
 type: project
 name: RoofLang
+linked_concepts:
+  - "concept/inference/optimization/Agentic Inference Optimization"
 status: active
 linked_people:
   - "community/yzygitzh/RoofLang/Lei Qu"
@@ -97,3 +99,12 @@ RoofLang 的四位作者不是临时拼出的组合。四人此前共同参与 *
 - [[community/yzygitzh/RoofLang/Ziyue Yang|Ziyue Yang]]：**RoofLang**：2026 年把系统研究推进到 implementation-independent LLM inference architecture search，让 AI agent 可以在 graph transformation、placement、parallelism、memory / communication choices 上闭环探索。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

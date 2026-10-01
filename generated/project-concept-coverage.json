@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 79,
-    "concepts_with_projects": 79,
+    "concepts": 80,
+    "concepts_with_projects": 80,
     "concepts_without_projects": 0,
     "project_like_nodes": 155,
-    "projects_with_concepts": 45,
-    "concept_project_assertions": 264,
+    "projects_with_concepts": 47,
+    "concept_project_assertions": 266,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -28,7 +28,7 @@
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
-    "optimization": 1,
+    "optimization": 2,
     "parallelism": 7,
     "quantization": 6,
     "serving": 4,
@@ -53,7 +53,7 @@
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
-    "optimization": 1,
+    "optimization": 2,
     "parallelism": 7,
     "quantization": 6,
     "serving": 4,
@@ -674,6 +674,24 @@
       "layer": "training",
       "concepts": [
         "concept/inference/parallelism/Sequence Parallelism"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/MetaInfer/MetaInfer",
+      "name": "MetaInfer",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/yzygitzh/RoofLang/RoofLang",
+      "name": "RoofLang",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization"
       ],
       "count": 1
     },

@@ -2,14 +2,14 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 79
+- Concepts: 80
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
 ## Inference
 
-23 concepts.
+24 concepts.
 
 ### Decoding
 
@@ -32,6 +32,12 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
 | [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] | Automatic Prefix Caching, APC, Prefix KV Caching, 前缀缓存 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Prefix%20Caching) |
 | [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
+
+### Optimization
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] | AI Infra Optimization Agent, Autonomous Inference Optimization, Agentic AI Infra Optimization, 智能体推理优化 |  | 5 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Inference%20Optimization) |
 
 ### Parallelism
 
