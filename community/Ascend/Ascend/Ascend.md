@@ -28,3 +28,12 @@ Ascend 是围绕华为昇腾 NPU、[[CANN]]、MindIE 与上游 AI Infra 社区�
 - https://www.huawei.com/cn/news/2025/9/hc-shengten-opensource
 - https://www.huawei.com/cn/news/2026/3/mwc-superpod-computing
 - https://gitcode.com/Ascend
+
+
+## DeepSeek Ascend 推理基础设施
+2026-09-30，DeepSeek 开源/扩展了一组面向 Ascend 的推理基础设施组件：
+- [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]]：Ascend 950 上的 BF16/FP8/FP4 GEMM、MQA logits、MegaMoE kernel。
+- [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]]：基于 HCCL/HCOMM、UBMEM、URMA 的 MoE EP dispatch/combine 通信。
+- [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]：新增 DeepSeek Sparse Attention 的 Ascend prefill / decode kernel。
+- [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]]：提供 CUDA / Ascend 统一 JIT runtime。
+- [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend|clangd-ascend]]：为 AscendC `.asc` 文件提供 clangd 代码智能。

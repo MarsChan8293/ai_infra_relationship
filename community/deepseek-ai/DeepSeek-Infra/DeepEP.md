@@ -20,7 +20,7 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 repository: https://github.com/deepseek-ai/DeepEP
 docs: https://github.com/deepseek-ai/DeepEP
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: ["深度求索"]
 company_relation: company-led
 layer: communication
@@ -52,7 +52,10 @@ https://github.com/deepseek-ai/DeepEP
 由 [[深度求索]] / deepseek-ai 维护。原始公开作者网络已记录 [[赵成钢 Chenggang Zhao]]、[[Shangyan Zhou]]、[[Liyue Zhang]]、[[Chengqi Deng]]、[[Zhean Xu]]、[[Yuxuan Liu]]、[[Kuai Yu]]、[[Jiashi Li]]、[[Liang Zhao]]。
 
 ## 生态关系
-[[vLLM]] · [[SGLang]] · [[NIXL]] · [[DeepGEMM]] · [[MoonEP]]。MoonEP 官方 acknowledgments 将 DeepEP 列为 inspiration，属于项目级技术关系，不自动推出人物直接合作。
+[[vLLM]] · [[SGLang]] · [[NIXL]] · [[DeepGEMM]] · [[MoonEP]] · [[DeepEP-Ascend]]。MoonEP 官方 acknowledgments 将 DeepEP 列为 inspiration，属于项目级技术关系，不自动推出人物直接合作。
+
+## Ascend 实现
+2026-09-30，DeepSeek 发布独立仓库 [[DeepEP-Ascend]]。它保持与 NVIDIA 版 DeepEP 的公开 buffer API 对齐，在 Ascend 上以 HCCL/HCOMM、UBMEM、URMA 实现 MoE dispatch/combine，并通过 [[DeepJIT]] 在运行时编译 Ascend C kernel；同时规划 PP、CP/DP Bucket collective 与 Engram 远端内存访问。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）

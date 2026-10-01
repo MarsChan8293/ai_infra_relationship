@@ -7,15 +7,18 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
 repository: https://github.com/deepseek-ai/FlashMLA
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: ["深度求索"]
 company_relation: company-led
 layer: runtime
 areas:
   - "attention-kernels"
   - "mla-optimization"
+  - "sparse-attention"
+  - "deepseek-sparse-attention"
 hardware:
   - "nvidia"
+  - "ascend"
 integrations: []
 linked_companies:
   - "company/深度求索/深度求索"
@@ -35,7 +38,10 @@ https://github.com/deepseek-ai/FlashMLA
 由 [[深度求索]] / deepseek-ai 维护。原始公开作者节点包括 [[Jiashi Li]] 与 [[刘胜与 Shengyu Liu]]。
 
 ## 生态关系
-[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepGEMM]]。FlashMLA 是模型特定 attention kernel 与通用 serving kernel 生态之间的连接点。
+[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepGEMM]] · [[DeepGEMM-Ascend]] · [[DeepJIT]]。FlashMLA 是模型特定 attention kernel 与通用 serving kernel 生态之间的连接点。
+
+## Ascend Sparse Attention
+2026-09-30，FlashMLA 主仓加入 Huawei Ascend 平台的 DeepSeek Sparse Attention（DSA）前向实现，覆盖 prefill 与 decoding。官方公开的 DeepSeek V4.1 典型工况数据显示，Ascend kernel 在 prefill / decode 分别达到约 410 / 360 TFLOPS，对应其公布理论峰值的约 95% / 83%。这使 FlashMLA 从 NVIDIA MLA kernel 扩展为跨 NVIDIA / Ascend 的模型特定 attention kernel 项目。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）

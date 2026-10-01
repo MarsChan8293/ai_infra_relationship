@@ -27,7 +27,7 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 repository: https://github.com/deepseek-ai/DeepGEMM
 docs: https://github.com/deepseek-ai/DeepGEMM
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: ["深度求索"]
 company_relation: company-led
 layer: runtime
@@ -59,7 +59,10 @@ https://github.com/deepseek-ai/DeepGEMM
 由 [[深度求索]] / deepseek-ai 维护。公开作者网络包括 [[赵成钢 Chenggang Zhao]]、[[Zhean Xu]]、[[Liang Zhao]]、[[Jiashi Li]]、[[Chenhao Xu]]、[[Anyi Xu]]、[[刘胜与 Shengyu Liu]]、[[周可行 Kexing Zhou]]、[[Kuai Yu]]。
 
 ## 生态关系
-[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepEP]] · [[DeepJIT]]。DeepGEMM 位于 GPU kernel 层，与 serving engine 是上下游而非同层竞争。
+[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepEP]] · [[DeepJIT]] · [[DeepGEMM-Ascend]]。DeepGEMM 位于 GPU kernel 层，与 serving engine 是上下游而非同层竞争。
+
+## Ascend 实现
+2026-09-30，DeepSeek 发布独立仓库 [[DeepGEMM-Ascend]]，将 DeepGEMM API 与开发方式迁移到 Huawei Ascend NPU。Ascend 版本支持 BF16、FP8、FP4 GEMM、MQA logits 与 MegaMoE，使用 Ascend MAD 原语、稀疏数据加载与协程流水，并通过 [[DeepJIT]] 提供 JIT runtime；官方首发验证平台为 Ascend 950 系列。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）

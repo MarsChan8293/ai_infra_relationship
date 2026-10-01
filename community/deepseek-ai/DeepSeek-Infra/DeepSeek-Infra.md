@@ -27,7 +27,7 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
   - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 repository: https://github.com/deepseek-ai
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: [深度求索]
 company_relation: company-led
 layer: ecosystem
@@ -50,10 +50,22 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 
 子项目：
 - [[DeepEP]]：https://github.com/deepseek-ai/DeepEP
+- [[DeepEP-Ascend]]：https://github.com/deepseek-ai/DeepEP-Ascend
 - [[DeepGEMM]]：https://github.com/deepseek-ai/DeepGEMM
+- [[DeepGEMM-Ascend]]：https://github.com/deepseek-ai/DeepGEMM-Ascend
 - [[FlashMLA]]：https://github.com/deepseek-ai/FlashMLA
 - [[3FS]]：https://github.com/deepseek-ai/3FS
-- [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT\n- [[EPLB]]：https://github.com/deepseek-ai/EPLB\n- [[LPLB]]：https://github.com/deepseek-ai/LPLB\n- [[TileKernels]]：https://github.com/deepseek-ai/TileKernels\n- [[smallpond]]：https://github.com/deepseek-ai/smallpond\n- [[profile-data]]：https://github.com/deepseek-ai/profile-data\n- [[deepseek-recipe]]：https://github.com/deepseek-ai/deepseek-recipe
+- [[DeepJIT]]：https://github.com/deepseek-ai/DeepJIT
+- [[clangd-ascend]]：https://github.com/deepseek-ai/clangd-ascend
+- [[EPLB]]：https://github.com/deepseek-ai/EPLB
+- [[LPLB]]：https://github.com/deepseek-ai/LPLB
+- [[TileKernels]]：https://github.com/deepseek-ai/TileKernels
+- [[smallpond]]：https://github.com/deepseek-ai/smallpond
+- [[profile-data]]：https://github.com/deepseek-ai/profile-data
+- [[deepseek-recipe]]：https://github.com/deepseek-ai/deepseek-recipe
+
+## 2026-09-30 Ascend 推理基础设施开源
+DeepSeek 将一组关键推理组件扩展到 Huawei Ascend：[[DeepGEMM-Ascend]] 负责 GEMM / MegaMoE / MQA logits kernel，[[DeepEP-Ascend]] 负责 MoE Expert Parallel 通信，[[FlashMLA]] 增加 DeepSeek Sparse Attention 的 Ascend prefill/decode kernel，[[DeepJIT]] 提供 CUDA/Ascend 统一 JIT runtime，[[clangd-ascend]] 补齐 AscendC 的代码补全、诊断与导航工具。整体形成“开发工具 → JIT/compiler → compute kernel / attention kernel → EP communication”的 Ascend 软件链，并与 [[community/Ascend/Ascend/Ascend|Ascend]] / CANN / HCCL/HCOMM / UBMEM / URMA 连接。
 
 ## 主要贡献公司
 - [[company/深度求索/深度求索|深度求索]]：项目集合的发起、开源与主要维护组织；各子项目均单独保留公司归属与人物维护证据。
