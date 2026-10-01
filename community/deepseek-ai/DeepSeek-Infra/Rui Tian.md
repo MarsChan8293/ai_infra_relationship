@@ -8,10 +8,10 @@ email_affiliations:
   - "深度求索"
 linked_companies:
   - "company/深度求索/深度求索"
-projects: [TileKernels, DeepSpec]
+projects: ["TileKernels", "DeepSpec", "DeepEP-Ascend"]
 areas: [gpu-kernels, engram, speculative-decoding, llm-inference]
 confidence: high
-last_verified: "2026-09"
+last_verified: "2026-10"
 ---
 # Rui Tian
 
@@ -20,6 +20,9 @@ DeepSeek 2026 AI Infra / inference 作者网络成员，公开连接 [[TileKerne
 ## 项目关系
 - [[TileKernels]]：官方 citation / package author；GitHub `tianr22` 提交 Engram kernel revision，package metadata 同时公开 `tianr22@deepseek.com`，因此 handle ↔ 姓名映射可核验。
 - [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：DSpark 作者网络成员。
+
+## 2026 新项目关系
+- [[DeepEP-Ascend]]：2026 official citation author。
 
 ## Sources
 - https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml
