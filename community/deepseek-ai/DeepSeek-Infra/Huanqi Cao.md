@@ -8,10 +8,10 @@ email_affiliations:
   - "深度求索"
 linked_companies:
   - "company/深度求索/深度求索"
-projects: [LPLB, TileKernels, DeepSpec]
+projects: ["LPLB", "TileKernels", "DeepSpec", "DeepGEMM-Ascend"]
 areas: [moe, expert-parallel, load-balancing, gpu-kernels, speculative-decoding]
 confidence: high
-last_verified: "2026-09"
+last_verified: "2026-10"
 ---
 # Huanqi Cao
 
@@ -23,6 +23,9 @@ DeepSeek 公开 AI Infra 作者网络中的跨层人物，官方仓库直接连�
 - [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：DSpark 论文作者网络成员。
 
 这些证据证明项目 / 论文作者关系，不自动推断具体职级、直属团队或 maintainer 权限。
+
+## 2026 Ascend 项目关系
+- [[DeepGEMM-Ascend]]：2026 official citation author；参与 mHC kernel。
 
 ## Sources
 - https://github.com/deepseek-ai/LPLB/blob/main/pyproject.toml

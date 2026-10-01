@@ -21,7 +21,9 @@ projects:
   - msModelSlim
   - DeepGEMM
   - TileKernels
-last_verified: 2026-09
+  - DeepGEMM-Ascend
+  - FlashMLA
+last_verified: "2026-10"
 ---
 
 # FP8 Quantization
@@ -51,6 +53,9 @@ FP8 Quantization 使用 8bit 浮点格式表示权重、activation 或 KV Cache�
 ## 项目实现
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 支持 FP8 W8A8、W8A16、online quantization 和 FP8 KV Cache；[[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] 提供 W8A8/MXFP8 等量化；[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 提供 FP8 GEMM/MoE kernel；[[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] 覆盖 per-token/per-block FP8 quantization kernel。
+
+## DeepSeek Ascend 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 支持 FP8 GEMM / MQA logits；[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] 的 Ascend sparse attention release 覆盖 V4.1 FP8 KV 路径。
 
 ## Sources
 

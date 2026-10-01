@@ -43,6 +43,13 @@ https://github.com/deepseek-ai/FlashMLA
 ## Ascend Sparse Attention
 2026-09-30，FlashMLA 主仓加入 Huawei Ascend 平台的 DeepSeek Sparse Attention（DSA）前向实现，覆盖 prefill 与 decoding。官方公开的 DeepSeek V4.1 典型工况数据显示，Ascend kernel 在 prefill / decode 分别达到约 410 / 360 TFLOPS，对应其公布理论峰值的约 95% / 83%。这使 FlashMLA 从 NVIDIA MLA kernel 扩展为跨 NVIDIA / Ascend 的模型特定 attention kernel 项目。
 
+## Ascend 支持边界
+当前 Ascend release 明确的是 DeepSeek Sparse Attention 的 prefill / decode kernel；FlashMLA README 对其他 kernel 仍可能标注 CUDA-only。因而这里把 hardware 标为 `nvidia + ascend`，但不把它解释成“所有 FlashMLA kernel 都已跨平台”。
+
+## Sources
+- https://github.com/deepseek-ai/FlashMLA
+- https://github.com/deepseek-ai/FlashMLA/blob/main/docs/20260930-ascend-prefill-deep-dive.md
+
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
 

@@ -21,7 +21,8 @@ projects:
   - FlexKV
   - KTransformers
   - MemFabric
-last_verified: 2026-09
+  - Engram
+last_verified: "2026-10"
 ---
 
 # Host Memory
@@ -48,6 +49,9 @@ HBM 容量昂贵且有限，而服务器 DRAM 通常容量大得多。把不需�
 ## 项目实现
 
 [[community/LMCache/LMCache/LMCache|LMCache]] 把 CPU RAM 作为 KV cache tier；[[community/Ascend/MemCache/MemCache|MemCache]] 使用 DDR 作为 HBM 与 SSD 之间的 KV 层；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 使用 host DRAM 参与 Store/Transfer；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 使用 CPU memory 作为多级 KV cache；[[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] 直接利用大容量 CPU memory 运行超大 MoE；[[community/Ascend/MemFabric/MemFabric|MemFabric]] 将 DRAM/HBM 统一纳入数据面。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/Engram/Engram|Engram]] 通过 deterministic addressing 让大规模静态 lookup table 可 offload 到 host memory，把模型容量扩展到 HBM 之外。
 
 ## Sources
 

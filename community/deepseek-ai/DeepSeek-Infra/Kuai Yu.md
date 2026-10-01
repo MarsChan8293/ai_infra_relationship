@@ -7,10 +7,10 @@ email_affiliations:
   - "深度求索"
 linked_companies:
   - "company/深度求索/深度求索"
-projects: [DeepEP, DeepGEMM, TileKernels]
+projects: ["DeepEP", "DeepGEMM", "TileKernels", "DeepGEMM-Ascend", "DeepEP-Ascend"]
 areas: [moe-communication, gemm, gpu-kernels, tilelang]
 confidence: high
-last_verified: "2026-09"
+last_verified: "2026-10"
 ---
 # Kuai Yu
 
@@ -22,6 +22,10 @@ last_verified: "2026-09"
 
 ## 技术方向
 MoE communication、GEMM kernels。
+
+## 2026 Ascend 项目关系
+- [[DeepGEMM-Ascend]]：2026 official citation author；Infrastructure contributor。
+- [[DeepEP-Ascend]]：2026 official citation author。
 
 ## Sources
 - Project source / contributor context: https://github.com/deepseek-ai\n- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml

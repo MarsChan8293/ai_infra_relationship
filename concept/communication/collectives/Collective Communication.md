@@ -19,7 +19,8 @@ projects:
   - FlagCX
   - VCCL
   - DeepEP
-last_verified: 2026-09
+  - DeepEP-Ascend
+last_verified: "2026-10"
 ---
 
 # Collective Communication
@@ -50,6 +51,9 @@ collective library 接收 rank group、buffer 和 operation，依据 NVLink/xGMI
 ## 项目实现
 
 [[community/NVIDIA/NCCL/NCCL|NCCL]]、[[community/ROCm/RCCL/RCCL|RCCL]]、[[community/flagos-ai/FlagCX/FlagCX|FlagCX]]、[[community/sii-research/VCCL/VCCL|VCCL]] 是通用或异构 collective communication library；[[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] 则针对 MoE Expert Parallel 的 All-to-All / dispatch / combine 做专门优化。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]] 提供 Ascend EP all-to-all，并扩展 PP / Bucket communication primitives；其中后两类能力仍有 experimental / ongoing 边界。
 
 ## Sources
 

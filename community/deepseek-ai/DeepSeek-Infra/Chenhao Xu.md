@@ -7,10 +7,10 @@ email_affiliations:
   - "深度求索"
 linked_companies:
   - "company/深度求索/深度求索"
-projects: [DeepGEMM, TileKernels]
+projects: ["DeepGEMM", "TileKernels", "DeepGEMM-Ascend", "DeepEP-Ascend"]
 areas: [gpu-kernels, gemm, moe, tilelang]
 confidence: high
-last_verified: "2026-09"
+last_verified: "2026-10"
 ---
 # Chenhao Xu
 
@@ -22,6 +22,10 @@ last_verified: "2026-09"
 
 ## 技术方向
 GPU GEMM kernels、MoE。
+
+## 2026 Ascend 项目关系
+- [[DeepGEMM-Ascend]]：2026 official citation author；参与 mHC kernel。
+- [[DeepEP-Ascend]]：2026 official citation author。
 
 ## Sources
 - Project source / contributor context: https://github.com/deepseek-ai\n- https://github.com/deepseek-ai/TileKernels/blob/main/pyproject.toml

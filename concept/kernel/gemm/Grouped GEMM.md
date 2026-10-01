@@ -17,7 +17,8 @@ projects:
   - DeepGEMM
   - FlashInfer
   - CUTLASS
-last_verified: 2026-09
+  - DeepGEMM-Ascend
+last_verified: "2026-10"
 ---
 
 # Grouped GEMM
@@ -50,6 +51,9 @@ MoE 推理常见两种布局：
 ## 项目实现
 
 [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 提供 contiguous / masked grouped GEMM，并针对 MoE Prefill 与 Decode 分别优化；[[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] 提供 serving/MoE grouped GEMM 路径；[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] 提供 Grouped GEMM kernel 与 Operator API。
+
+## DeepSeek Ascend 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 公开 M-grouped GEMM 与 MegaMoE 路径，面向 Ascend 的 MoE expert 计算。
 
 ## Sources
 
