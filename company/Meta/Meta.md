@@ -5,8 +5,13 @@ linked_people:
   - "community/vllm-project/vLLM/Chen Zhang"
   - "community/vllm-project/vLLM/李卓翰 Zhuohan Li"
   - "company/Meta/Richard Zou"
-projects: [vLLM]
+projects:
+  - "vLLM"
+  - "KernelAgent"
+  - "KernelEvolve"
 linked_projects:
+  - "community/meta-pytorch/KernelAgent/KernelAgent"
+  - "community/Meta/KernelEvolve/KernelEvolve"
   - "community/vllm-project/vLLM/vLLM"
 ---
 # Meta
@@ -43,6 +48,8 @@ Meta 是同时拥有 Llama foundation models、PyTorch 软件栈和超大规模�
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/meta-pytorch/KernelAgent/KernelAgent|KernelAgent]]：公司页与社区/项目页均有显式记录。
+- [[community/Meta/KernelEvolve/KernelEvolve|KernelEvolve]]：公司页与社区/项目页均有显式记录。
 - [[community/vllm-project/vLLM/vLLM|vLLM]]：公司页与社区/项目页均有显式记录；关系：`cross-company-core-contributors`。
 
 <!-- END AUTO COMPANY COMMUNITY LINKS -->

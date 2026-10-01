@@ -2,6 +2,8 @@
 type: project
 name: "K-Search"
 linked_people: []
+linked_concepts:
+  - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
 status: active
 repository: https://github.com/caoshiyi/K-Search
@@ -10,6 +12,7 @@ organization: "UC Berkeley"
 areas: ["agentic-kernel-optimization", "world-model", "tree-search", "cuda", "flashinfer", "kernelbench", "evidence-driven-search"]
 hardware: ["nvidia", "apple-silicon"]
 last_verified: "2026-10"
+linked_companies: []
 ---
 
 # K-Search
@@ -27,3 +30,12 @@ K-Search 是 UC Berkeley Sky Computing Lab 公开的自动化高性能 GPU kerne
 - https://sky.cs.berkeley.edu/project/k-search/
 - https://github.com/caoshiyi/K-Search
 - https://arxiv.org/abs/2602.19128
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

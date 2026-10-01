@@ -3,11 +3,11 @@
 由 scripts/audit-project-concept-coverage.py 自动生成。Concept 节点的 projects 字段是人工事实源；Project 页的 linked_concepts 是派生反向视图。
 
 - Status: **pass**
-- Concepts: 80
-- Concepts with project evidence: 80
-- Project-like nodes: 155
-- Projects linked to concepts: 47
-- Concept → Project assertions: 266
+- Concepts: 81
+- Concepts with project evidence: 81
+- Project-like nodes: 175
+- Projects linked to concepts: 69
+- Concept → Project assertions: 292
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -48,13 +48,13 @@
 | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | inference-engine | [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | inference-engine | [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | storage | [[concept/storage/Distributed Storage|Distributed Storage]] · [[concept/storage/NVMe SSD|NVMe SSD]] | 2 |
+| [[community/Ascend/CANNBot/CANNBot|CANNBot]] | optimization | [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
 | [[community/Dao-AILab/FlashAttention/FlashAttention|FlashAttention]] | runtime | [[concept/kernel/attention/Attention Kernel|Attention Kernel]] · [[concept/kernel/attention/FlashAttention|FlashAttention]] | 2 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | distributed-kv-cache | [[concept/memory/Host Memory|Host Memory]] · [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | 2 |
+| [[community/AMD-AGI/GEAK/GEAK|GEAK]] | optimization | [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
+| [[community/AMD-AGI/Hyperloom/Hyperloom|Hyperloom]] | optimization | [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
 | [[community/kvcache-ai/KTransformers/KTransformers|KTransformers]] | inference-engine | [[concept/memory/Host Memory|Host Memory]] · [[concept/memory/NUMA|NUMA]] | 2 |
-| [[community/thu-pacman/QFactory/QFactory|QFactory]] | quantized-serving-kernel-optimization | [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 2 |
-| [[community/kvcache-ai/Mooncake/TENT|TENT]] | data-movement | [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]] · [[concept/hardware/interconnect/NVLink|NVLink]] | 2 |
-| [[community/Ascend/TransferQueue/TransferQueue|TransferQueue]] | post-training-data-plane | [[concept/hardware/interconnect/HCCS|HCCS]] · [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]] | 2 |
-| [[community/OpenUCX/UCX/UCX|UCX]] | communication | [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]] · [[concept/communication/data-movement/RDMA|RDMA]] | 2 |
+| [[community/MetaInfer/MetaInfer|MetaInfer]] | optimization | [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
 
 ## Concepts without project evidence
 
@@ -81,7 +81,7 @@
 | memory-hierarchy | 3 | 3 |
 | memory-pooling | 2 | 2 |
 | memory-topology | 1 | 1 |
-| optimization | 2 | 2 |
+| optimization | 3 | 3 |
 | parallelism | 7 | 7 |
 | quantization | 6 | 6 |
 | serving | 4 | 4 |

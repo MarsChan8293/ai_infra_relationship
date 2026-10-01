@@ -4,10 +4,10 @@
 
 - Company nodes: 57
 - Companies with ≥1 linked project/community: 44
-- Project/community nodes: 182
-- Project/community nodes with ≥1 linked company: 97
-- Bidirectional association pairs: 116
-- Explicitly asserted on both sides: 116
+- Project/community nodes: 202
+- Project/community nodes with ≥1 linked company: 111
+- Bidirectional association pairs: 130
+- Explicitly asserted on both sides: 130
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -16,6 +16,8 @@
 
 | Company | Community / project | Type | Relation | Explicit source |
 | --- | --- | --- | --- | --- |
+| [[company/AMD/AMD\|AMD]] | [[community/AMD-AGI/GEAK/GEAK\|GEAK]] | project |  | both |
+| [[company/AMD/AMD\|AMD]] | [[community/AMD-AGI/Hyperloom/Hyperloom\|Hyperloom]] | project |  | both |
 | [[company/AMD/AMD\|AMD]] | [[community/ROCm/RCCL/RCCL\|RCCL]] | project |  | both |
 | [[company/AMD/AMD\|AMD]] | [[community/lightseekorg/TokenSpeed/TokenSpeed\|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/Anyscale/Anyscale\|Anyscale]] | [[community/ray-project/Ray-Serve/Ray-Serve\|Ray Serve]] | project | core-commercial-ecosystem | both |
@@ -37,13 +39,17 @@
 | [[company/Intel/Intel\|Intel]] | [[company/Intel/OpenVINO\|OpenVINO]] | project | company-led | both |
 | [[company/Intel/Intel\|Intel]] | [[company/Intel/OpenVINO GenAI\|OpenVINO GenAI]] | project | company-led | both |
 | [[company/Intel/Intel\|Intel]] | [[company/Intel/xFasterTransformer\|xFasterTransformer]] | project | company-led | both |
+| [[company/Meta/Meta\|Meta]] | [[community/meta-pytorch/KernelAgent/KernelAgent\|KernelAgent]] | project |  | both |
+| [[company/Meta/Meta\|Meta]] | [[community/Meta/KernelEvolve/KernelEvolve\|KernelEvolve]] | project |  | both |
 | [[company/Meta/Meta\|Meta]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
 | [[company/Naive AI/Naive AI\|Naive AI]] | [[company/Naive AI/Naive-N0.5-Flash\|Naive-N0.5-Flash]] | project |  | both |
 | [[company/Naive AI/Naive AI\|Naive AI]] | [[company/Naive AI/NaiveRT\|NaiveRT]] | project |  | both |
 | [[company/Neural Magic/Neural Magic\|Neural Magic]] | [[community/vllm-project/vLLM/vLLM\|vLLM]] | project | cross-company-core-contributors | both |
+| [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/AVO/AVO\|AVO]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/CUTLASS/CUTLASS\|CUTLASS]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/KDA/KDA\|KDA]] | project |  | both |
+| [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/KernelBlaster/KernelBlaster\|KernelBlaster]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/llm-d/llm-d/llm-d\|llm-d]] | project | founding-contributors | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/Megatron-LM/Megatron-LM\|Megatron-LM]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/NCCL/NCCL\|NCCL]] | project |  | both |
@@ -52,6 +58,7 @@
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator\|NVIDIA GPU Operator]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin\|NVIDIA k8s-device-plugin]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM\|TensorRT-LLM]] | project | company-led | both |
+| [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/NVIDIA/TileGym/TileGym\|TileGym]] | project |  | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/lightseekorg/TokenSpeed/TokenSpeed\|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/NVIDIA/NVIDIA\|NVIDIA]] | [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server\|Triton Inference Server]] | project | company-led | both |
 | [[company/Ollama/Ollama\|Ollama]] | [[community/ollama/Ollama/Ollama\|Ollama]] | project | company-originated | both |
@@ -65,7 +72,12 @@
 | [[company/Together AI/Together AI\|Together AI]] | [[company/Together AI/Ladder Residual\|Ladder Residual]] | project | research-collaboration | both |
 | [[company/Together AI/Together AI\|Together AI]] | [[community/lightseekorg/TokenSpeed/TokenSpeed\|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/一流科技/一流科技\|一流科技]] | [[community/Oneflow-Inc/OneFlow/OneFlow\|OneFlow]] | project | company-originated | both |
+| [[company/华为/华为\|华为]] | [[community/MindSpore/AKG Agents/AKG Agents\|AKG Agents]] | project |  | both |
+| [[company/华为/华为\|华为]] | [[community/Ascend/agent-skills/Ascend Agent Skills\|Ascend Agent Skills]] | project |  | both |
+| [[company/华为/华为\|华为]] | [[community/南京大学/AscendCraft/AscendCraft\|AscendCraft]] | project |  | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/CANN/CANN\|CANN]] | project | company-led | both |
+| [[company/华为/华为\|华为]] | [[community/Ascend/CANNBot/CANNBot\|CANNBot]] | project |  | both |
+| [[company/华为/华为\|华为]] | [[community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis\|Compiler-Grounded Hierarchical Diagnosis]] | project |  | both |
 | [[company/华为/华为\|华为]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/MemCache/MemCache\|MemCache]] | project | company-led | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/MemFabric/MemFabric\|MemFabric]] | project | company-led | both |
@@ -85,6 +97,7 @@
 | [[company/天数智芯/天数智芯\|天数智芯]] | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt\|iluvatar-corex-ixrt]] | project | company-led | both |
 | [[company/天数智芯/天数智芯\|天数智芯]] | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar\|lmcache-iluvatar]] | project | company-originated | both |
 | [[company/字节跳动/字节跳动\|字节跳动]] | [[community/vllm-project/AIBrix/AIBrix\|AIBrix]] | project | company-originated | both |
+| [[company/字节跳动/字节跳动\|字节跳动]] | [[community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent\|CUDA-Agent]] | project |  | both |
 | [[company/密瓜智能/密瓜智能\|密瓜智能]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/摩尔线程/摩尔线程\|摩尔线程]] | [[community/MooreThreads/MATE/MATE\|MATE]] | project | company-led | both |
 | [[company/摩尔线程/摩尔线程\|摩尔线程]] | [[community/MooreThreads/torch_musa/torch_musa\|torch_musa]] | project | company-led | both |
@@ -130,6 +143,7 @@
 | [[company/趋境科技/趋境科技\|趋境科技]] | [[community/kvcache-ai/KVCache.AI/KVCache.AI\|KVCache.AI]] | community | industry-academia-co-development | both |
 | [[company/趋境科技/趋境科技\|趋境科技]] | [[community/kvcache-ai/Mooncake/Mooncake\|Mooncake]] | project | industry-academia-co-development | both |
 | [[company/道客/道客\|道客]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
+| [[company/阿里巴巴/阿里巴巴\|阿里巴巴]] | [[community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent\|Atrex Kernel Agent]] | project |  | both |
 | [[company/阿里巴巴/阿里巴巴\|阿里巴巴]] | [[community/lightseekorg/TokenSpeed/TokenSpeed\|TokenSpeed]] | project | cross-company-co-creation | both |
 | [[company/面壁智能/面壁智能\|面壁智能]] | [[company/面壁智能/ForgeTrain\|ForgeTrain]] | project |  | both |
 

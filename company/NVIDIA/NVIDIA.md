@@ -48,10 +48,15 @@ projects:
   - "NVIDIA k8s-device-plugin"
   - "Megatron-LM"
   - "KDA"
+  - "AVO"
+  - "KernelBlaster"
+  - "TileGym"
 linked_projects:
+  - "community/NVIDIA/AVO/AVO"
   - "community/NVIDIA/CUTLASS/CUTLASS"
   - "community/Project-HAMi/HAMi/HAMi"
   - "community/NVIDIA/KDA/KDA"
+  - "community/NVIDIA/KernelBlaster/KernelBlaster"
   - "community/llm-d/llm-d/llm-d"
   - "community/NVIDIA/Megatron-LM/Megatron-LM"
   - "community/NVIDIA/NCCL/NCCL"
@@ -60,6 +65,7 @@ linked_projects:
   - "community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator"
   - "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin"
   - "community/NVIDIA/TensorRT-LLM/TensorRT-LLM"
+  - "community/NVIDIA/TileGym/TileGym"
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
   - "community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server"
 ---
@@ -125,9 +131,11 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/NVIDIA/AVO/AVO|AVO]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]]：公司页与社区/项目页均有显式记录。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：公司页与社区/项目页均有显式记录；关系：`cross-company-maintainer-network`。
 - [[community/NVIDIA/KDA/KDA|KDA]]：公司页与社区/项目页均有显式记录。
+- [[community/NVIDIA/KernelBlaster/KernelBlaster|KernelBlaster]]：公司页与社区/项目页均有显式记录。
 - [[community/llm-d/llm-d/llm-d|llm-d]]：公司页与社区/项目页均有显式记录；关系：`founding-contributors`。
 - [[community/NVIDIA/Megatron-LM/Megatron-LM|Megatron-LM]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/NCCL/NCCL|NCCL]]：公司页与社区/项目页均有显式记录。
@@ -136,6 +144,7 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/NVIDIA/GPU-Operator/NVIDIA-GPU-Operator|NVIDIA GPU Operator]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin|NVIDIA k8s-device-plugin]]：公司页与社区/项目页均有显式记录。
 - [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+- [[community/NVIDIA/TileGym/TileGym|TileGym]]：公司页与社区/项目页均有显式记录。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
 - [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 

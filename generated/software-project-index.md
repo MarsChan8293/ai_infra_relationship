@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 172
-- Source roots: community 145 · company 14 · university 13
+- Projects: 192
+- Source roots: community 165 · company 14 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -25,7 +25,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 8 |
+| [Inference Optimization](#optimization) | 28 |
 | [Other](#other) | 7 |
 
 ## inference-engine
@@ -285,17 +285,37 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 8 projects
+**Inference Optimization** · 28 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/StigLidu/AdaExplore/AdaExplore]] | optimization | research | agentic-kernel-optimization, failure-memory, tree-search, triton, self-improvement | `StigLidu` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AdaExplore) |
+| [[community/research/AgenticCANN/AgenticCANN]] | optimization | research | agentic-kernel-optimization, ascendc, knowledge-augmentation, agentic-evolution, operator-generation | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AgenticCANN) |
+| [[community/MindSpore/AKG Agents/AKG Agents]] | optimization | active | agentic-kernel-optimization, multi-agent, kernel-generation, autonomous-research, triton-ascend | `MindSpore` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AKG%20Agents) |
+| [[community/Ascend/agent-skills/Ascend Agent Skills]] | optimization | active | agent-skills, agentic-kernel-optimization, ascendc, triton-ascend, catlass | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ascend%20Agent%20Skills) |
+| [[community/南京大学/AscendCraft/AscendCraft]] | optimization | research | agentic-kernel-optimization, ascendc, dsl, transcompilation, kernel-generation | `南京大学` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AscendCraft) |
+| [[community/research/AscendOptimizer/AscendOptimizer]] | optimization | research | agentic-kernel-optimization, ascendc, episodic-memory, profiling-in-the-loop, evolutionary-search | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AscendOptimizer) |
+| [[community/Stanford University/Astra/Astra]] | optimization | research | agentic-kernel-optimization, multi-agent, cuda, sglang, profiling | `Stanford University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Astra) |
+| [[community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent]] | optimization | active | agentic-kernel-optimization, mechanical-supervisor, profiling, correctness-gate, performance-gate | `alibaba` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Atrex%20Kernel%20Agent) |
+| [[community/NVIDIA/AVO/AVO]] | optimization | research | agentic-kernel-optimization, evolutionary-search, agentic-variation-operators, attention, cuda | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AVO) |
+| [[community/Ascend/CANNBot/CANNBot]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, ascendc, triton-ascend, pytorch-npu | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANNBot) |
+| [[community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis]] | optimization | research | agentic-kernel-optimization, triton-ascend, compiler-feedback, ir-diagnosis, profiling | `华为` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler-Grounded%20Hierarchical%20Diagnosis) |
+| [[community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent]] | optimization | active | agentic-kernel-optimization, agentic-rl, cuda, kernel-generation, correctness-verification | `BytedTsinghua-SIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDA-Agent) |
+| [[community/清华大学/CUDAMaster/CUDAMaster]] | optimization | research | agentic-kernel-optimization, multi-agent, cuda, hardware-aware, profiling | `清华大学` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDAMaster) |
 | [[community/deepseek-ai/DeepSpec/DeepSpec]] | speculative-decoding |  | llm-inference, speculative-decoding, draft-model, inference-acceleration | `deepseek-ai` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSpec) |
+| [[community/AMD-AGI/GEAK/GEAK]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, deterministic-workflow, vllm | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEAK) |
+| [[community/AMD-AGI/Hyperloom/Hyperloom]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, e2e-validation, recipe-memory | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Hyperloom) |
+| [[community/UC Berkeley/K-Search/K-Search]] | optimization | active | agentic-kernel-optimization, world-model, tree-search, cuda, flashinfer | `UC Berkeley` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=K-Search) |
 | [[community/NVIDIA/KDA/KDA]] | optimization | active | agentic-kernel-optimization, cuda-kernel, profiling, benchmarking, performance-engineering | `NVIDIA` | 5 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KDA) |
+| [[community/meta-pytorch/KernelAgent/KernelAgent]] | optimization | active | agentic-kernel-optimization, triton, multi-agent, ncu, roofline | `meta-pytorch` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelAgent) |
+| [[community/NVIDIA/KernelBlaster/KernelBlaster]] | optimization | active | agentic-kernel-optimization, memory-augmented-icl, reinforcement-learning, cuda, profiling | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelBlaster) |
+| [[community/Meta/KernelEvolve/KernelEvolve]] | optimization | research | agentic-kernel-optimization, tree-search, evolutionary-search, optimization-memory, production-kernels | `Meta` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelEvolve) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
 | [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |
 | [[community/Ascend/msModelSlim/msModelSlim]] | optimization | active | model-compression, quantization | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=msModelSlim) |
 | [[community/yzygitzh/RoofLang/RoofLang]] | optimization | active | inference-optimization, system-architecture-search, graph-ir, roofline-modeling, discrete-event-simulation | `yzygitzh` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RoofLang) |
 | [[community/sgl-project/SpecForge/SpecForge]] | speculative-decoding |  | speculative-decoding, draft-model-training, llm-inference, distributed-training | `sgl-project` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SpecForge) |
+| [[community/NVIDIA/TileGym/TileGym]] | optimization | active | agentic-kernel-development, agent-skills, cutile, kernel-autotuning, benchmarking | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileGym) |
 | [[university/Carnegie Mellon University/Catalyst Group/XGrammar]] | structured-generation | active | structured-generation, constrained-decoding, llm-inference, speculative-decoding | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=XGrammar) |
 
 ## other

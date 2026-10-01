@@ -2,12 +2,15 @@
 type: project
 name: "AscendOptimizer"
 linked_people: []
+linked_concepts:
+  - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
 status: research
 docs: https://arxiv.org/abs/2603.23566
 areas: ["agentic-kernel-optimization", "ascendc", "episodic-memory", "profiling-in-the-loop", "evolutionary-search", "host-tiling", "kernel-rewriting"]
 hardware: ["ascend"]
 last_verified: "2026-10"
+linked_companies: []
 ---
 
 # AscendOptimizer
@@ -26,3 +29,12 @@ Ascend 的优化对象是 host-side tiling 与 device-side kernel 的耦合系�
 ## Sources
 
 - https://arxiv.org/abs/2603.23566
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

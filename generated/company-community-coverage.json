@@ -2,10 +2,10 @@
   "format": "ai-infra-relationship/company-community-coverage-v1",
   "company_nodes": 57,
   "companies_with_links": 44,
-  "project_community_nodes": 182,
-  "project_community_nodes_with_links": 97,
-  "association_pairs": 116,
-  "asserted_on_both_sides": 116,
+  "project_community_nodes": 202,
+  "project_community_nodes_with_links": 111,
+  "association_pairs": 130,
+  "asserted_on_both_sides": 130,
   "company_side_only": 0,
   "entity_side_only": 0,
   "recognized_non_community_project_targets": [
@@ -29,6 +29,30 @@
   "unresolved_source_values": [],
   "audit_errors": [],
   "pairs": [
+    {
+      "company_id": "company/AMD/AMD",
+      "company_name": "AMD",
+      "entity_id": "community/AMD-AGI/GEAK/GEAK",
+      "entity_name": "GEAK",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/AMD/AMD",
+      "company_name": "AMD",
+      "entity_id": "community/AMD-AGI/Hyperloom/Hyperloom",
+      "entity_name": "Hyperloom",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
     {
       "company_id": "company/AMD/AMD",
       "company_name": "AMD",
@@ -284,6 +308,30 @@
     {
       "company_id": "company/Meta/Meta",
       "company_name": "Meta",
+      "entity_id": "community/meta-pytorch/KernelAgent/KernelAgent",
+      "entity_name": "KernelAgent",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Meta/Meta",
+      "company_name": "Meta",
+      "entity_id": "community/Meta/KernelEvolve/KernelEvolve",
+      "entity_name": "KernelEvolve",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/Meta/Meta",
+      "company_name": "Meta",
       "entity_id": "community/vllm-project/vLLM/vLLM",
       "entity_name": "vLLM",
       "entity_type": "project",
@@ -332,6 +380,18 @@
     {
       "company_id": "company/NVIDIA/NVIDIA",
       "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/AVO/AVO",
+      "entity_name": "AVO",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
       "entity_id": "community/NVIDIA/CUTLASS/CUTLASS",
       "entity_name": "CUTLASS",
       "entity_type": "project",
@@ -358,6 +418,18 @@
       "company_name": "NVIDIA",
       "entity_id": "community/NVIDIA/KDA/KDA",
       "entity_name": "KDA",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/KernelBlaster/KernelBlaster",
+      "entity_name": "KernelBlaster",
       "entity_type": "project",
       "relation": null,
       "sources": [
@@ -456,6 +528,18 @@
       "entity_name": "TensorRT-LLM",
       "entity_type": "project",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/NVIDIA/NVIDIA",
+      "company_name": "NVIDIA",
+      "entity_id": "community/NVIDIA/TileGym/TileGym",
+      "entity_name": "TileGym",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"
@@ -620,10 +704,70 @@
     {
       "company_id": "company/华为/华为",
       "company_name": "华为",
+      "entity_id": "community/MindSpore/AKG Agents/AKG Agents",
+      "entity_name": "AKG Agents",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "entity_name": "Ascend Agent Skills",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/南京大学/AscendCraft/AscendCraft",
+      "entity_name": "AscendCraft",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
       "entity_id": "community/Ascend/CANN/CANN",
       "entity_name": "CANN",
       "entity_type": "project",
       "relation": "company-led",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/Ascend/CANNBot/CANNBot",
+      "entity_name": "CANNBot",
+      "entity_type": "project",
+      "relation": null,
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/华为/华为",
+      "company_name": "华为",
+      "entity_id": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis",
+      "entity_name": "Compiler-Grounded Hierarchical Diagnosis",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"
@@ -852,6 +996,18 @@
       "entity_name": "AIBrix",
       "entity_type": "project",
       "relation": "company-originated",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/字节跳动/字节跳动",
+      "company_name": "字节跳动",
+      "entity_id": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent",
+      "entity_name": "CUDA-Agent",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"
@@ -1392,6 +1548,18 @@
       "entity_name": "HAMi",
       "entity_type": "project",
       "relation": "cross-company-maintainer-network",
+      "sources": [
+        "company",
+        "entity"
+      ]
+    },
+    {
+      "company_id": "company/阿里巴巴/阿里巴巴",
+      "company_name": "阿里巴巴",
+      "entity_id": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent",
+      "entity_name": "Atrex Kernel Agent",
+      "entity_type": "project",
+      "relation": null,
       "sources": [
         "company",
         "entity"

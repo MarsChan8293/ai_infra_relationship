@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 80,
-    "concepts_with_projects": 80,
+    "concepts": 81,
+    "concepts_with_projects": 81,
     "concepts_without_projects": 0,
-    "project_like_nodes": 155,
-    "projects_with_concepts": 47,
-    "concept_project_assertions": 266,
+    "project_like_nodes": 175,
+    "projects_with_concepts": 69,
+    "concept_project_assertions": 292,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -28,7 +28,7 @@
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
-    "optimization": 2,
+    "optimization": 3,
     "parallelism": 7,
     "quantization": 6,
     "serving": 4,
@@ -53,7 +53,7 @@
     "memory-hierarchy": 3,
     "memory-pooling": 2,
     "memory-topology": 1,
-    "optimization": 2,
+    "optimization": 3,
     "parallelism": 7,
     "quantization": 6,
     "serving": 4,
@@ -572,6 +572,16 @@
       "count": 2
     },
     {
+      "id": "community/Ascend/CANNBot/CANNBot",
+      "name": "CANNBot",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/Dao-AILab/FlashAttention/FlashAttention",
       "name": "FlashAttention",
       "layer": "runtime",
@@ -592,12 +602,42 @@
       "count": 2
     },
     {
+      "id": "community/AMD-AGI/GEAK/GEAK",
+      "name": "GEAK",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/AMD-AGI/Hyperloom/Hyperloom",
+      "name": "Hyperloom",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/kvcache-ai/KTransformers/KTransformers",
       "name": "KTransformers",
       "layer": "inference-engine",
       "concepts": [
         "concept/memory/Host Memory",
         "concept/memory/NUMA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/MetaInfer/MetaInfer",
+      "name": "MetaInfer",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
       ],
       "count": 2
     },
@@ -642,6 +682,123 @@
       "count": 2
     },
     {
+      "id": "community/StigLidu/AdaExplore/AdaExplore",
+      "name": "AdaExplore",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/research/AgenticCANN/AgenticCANN",
+      "name": "AgenticCANN",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/MindSpore/AKG Agents/AKG Agents",
+      "name": "AKG Agents",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "name": "Ascend Agent Skills",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/南京大学/AscendCraft/AscendCraft",
+      "name": "AscendCraft",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/research/AscendOptimizer/AscendOptimizer",
+      "name": "AscendOptimizer",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/Stanford University/Astra/Astra",
+      "name": "Astra",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent",
+      "name": "Atrex Kernel Agent",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/NVIDIA/AVO/AVO",
+      "name": "AVO",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis",
+      "name": "Compiler-Grounded Hierarchical Diagnosis",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/LancerLab/Croqtile/Croqtile",
+      "name": "Croqtile",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent",
+      "name": "CUDA-Agent",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/清华大学/CUDAMaster/CUDAMaster",
+      "name": "CUDAMaster",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
       "name": "DeepJIT",
       "layer": "compiler",
@@ -669,6 +826,51 @@
       "count": 1
     },
     {
+      "id": "community/UC Berkeley/K-Search/K-Search",
+      "name": "K-Search",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/NVIDIA/KDA/KDA",
+      "name": "KDA",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/meta-pytorch/KernelAgent/KernelAgent",
+      "name": "KernelAgent",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/NVIDIA/KernelBlaster/KernelBlaster",
+      "name": "KernelBlaster",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/Meta/KernelEvolve/KernelEvolve",
+      "name": "KernelEvolve",
+      "layer": "optimization",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
       "name": "Megatron-LM",
       "layer": "training",
@@ -678,8 +880,8 @@
       "count": 1
     },
     {
-      "id": "community/MetaInfer/MetaInfer",
-      "name": "MetaInfer",
+      "id": "community/yzygitzh/RoofLang/RoofLang",
+      "name": "RoofLang",
       "layer": "optimization",
       "concepts": [
         "concept/inference/optimization/Agentic Inference Optimization"
@@ -687,11 +889,11 @@
       "count": 1
     },
     {
-      "id": "community/yzygitzh/RoofLang/RoofLang",
-      "name": "RoofLang",
+      "id": "community/NVIDIA/TileGym/TileGym",
+      "name": "TileGym",
       "layer": "optimization",
       "concepts": [
-        "concept/inference/optimization/Agentic Inference Optimization"
+        "concept/kernel/optimization/Agentic Kernel Optimization"
       ],
       "count": 1
     },
