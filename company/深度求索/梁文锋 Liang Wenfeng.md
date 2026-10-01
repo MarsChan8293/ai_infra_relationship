@@ -10,12 +10,14 @@ roles: [founder, CEO]
 linked_companies:
   - "company/深度求索/深度求索"
 areas: ["ai-infrastructure"]
-last_verified: "2026-09"
+last_verified: "2026-10"
 relations:
   - '{"target":"company/深度求索/郭达雅 Daya Guo","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
   - '{"target":"company/深度求索/邵智宏 Zhihong Shao","type":["research-collaboration"],"confidence":"medium","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
   - '{"target":"community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
   - '{"target":"community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu","type":["coworker"],"confidence":"high","evidence":["https://arxiv.org/abs/2412.19437","https://arxiv.org/abs/2501.12948","https://github.com/deepseek-ai"]}'
+projects:
+  - "DualPipe"
 ---
 # 梁文锋（Liang Wenfeng）
 
@@ -35,6 +37,9 @@ relations:
 - [[深度求索/邵智宏 Zhihong Shao|邵智宏（Zhihong Shao）]]：**DeepSeek 创始人/CEO ↔ reasoning 核心研究员**。至少从 DeepSeekMath / DeepSeek LLM（2024）起进入同一 DeepSeek 核心研究网络，并共同连接到 R1（2025）的 reasoning/RL 技术路线；邵智宏正式入职月份公开未确认。
 - [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao|赵成钢（Chenggang Zhao）]]：**同公司模型 ↔ infra 技术上下游关系**。赵成钢负责 DeepEP / DeepGEMM 等 Expert Parallel 与 GEMM 基础设施，梁文锋负责公司/model strategy；两者通过 DeepSeek MoE / 大规模训练与推理需求形成组织内技术上下游。公开资料不足以证明日常直接共事频率，因此不写成“直接搭档”。
 - [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu|刘胜与（Shengyu Liu）]]：**同公司模型 ↔ kernel 技术上下游关系**。刘胜与参与 FlashMLA / DeepGEMM 等 attention/GEMM kernel，服务于 DeepSeek MLA/MoE 模型路线；关系锚点是 2024–2026 的模型-系统协同，而不是已公开的直属组织关系。
+
+## 2026 新项目关系
+- [[community/deepseek-ai/DeepSeek-Infra/DualPipe|DualPipe]]：仓库 README 明确列为创建 / 开发者。
 
 ## Sources
 - https://arxiv.org/abs/2412.19437
