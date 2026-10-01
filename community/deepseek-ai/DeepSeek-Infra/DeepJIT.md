@@ -22,7 +22,6 @@ hardware:
   - "ascend"
 integrations:
   - "CANN"
-  - "torch_npu"
   - "DeepGEMM-Ascend"
   - "DeepEP-Ascend"
 linked_companies:
