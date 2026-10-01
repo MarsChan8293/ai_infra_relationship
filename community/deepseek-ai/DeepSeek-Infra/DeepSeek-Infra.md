@@ -70,6 +70,15 @@ DeepSeek Infra 是 [[深度求索]] 对外开源的系统基础设施项目集�
 ## 2026-09-30 Ascend 推理基础设施开源
 DeepSeek 将一组关键推理组件扩展到 Huawei Ascend：[[DeepGEMM-Ascend]] 负责 GEMM / MegaMoE / MQA logits kernel，[[DeepEP-Ascend]] 负责 MoE Expert Parallel 通信，[[FlashMLA]] 增加 DeepSeek Sparse Attention 的 Ascend prefill/decode kernel，[[DeepJIT]] 提供 CUDA/Ascend 统一 JIT runtime，[[clangd-ascend]] 补齐 AscendC 的代码补全、诊断与导航工具。整体形成“开发工具 → JIT/compiler → compute kernel / attention kernel → EP communication”的 Ascend 软件链，并与 [[community/Ascend/Ascend/Ascend|Ascend]] / CANN / HCCL/HCOMM / UBMEM / URMA 连接。
 
+## DeepSeek 2026 其他系统线
+本次 DISCOVER 还发现了不应硬塞进 Open Infra 2025 子项目列表、但对 AI Infra 很重要的独立项目：
+- [[community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness|DeepSeek Harness (dsh)]]：everything-is-a-plugin 的 agent harness / runtime，基于 [[community/cordiverse/Cordis/Cordis|Cordis]]，提供 Web/headless/SDK/ACP profiles、MCP、sandbox、session event log 与可替换 model/tool/agent-loop seams。
+- [[community/deepseek-ai/Engram/Engram|Engram]]：Conditional Memory / scalable lookup 模块；官方实现强调 deterministic addressing 与 host-memory offload，和 [[DeepEP-Ascend]] 暴露的 EngramBuffer / remote-memory data plane 形成模型机制 ↔ 通信基础设施连接。
+- [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：speculative decoding 全栈。
+- [[community/deepseek-ai/DualPath/DualPath|DualPath]]：agentic inference / disaggregated KV-cache storage I/O 研究线。
+
+`awesome-deepseek-agent` 是 curated ecosystem index，本轮不把它当作独立 runtime；`dsh-libreoffice-kit` 与 `dsh-node-addon-require-builtin` 是 Harness 内部组件，也不提升为顶级 canonical 项目。
+
 ## 主要贡献公司
 - [[company/深度求索/深度求索|深度求索]]：项目集合的发起、开源与主要维护组织；各子项目均单独保留公司归属与人物维护证据。
 
