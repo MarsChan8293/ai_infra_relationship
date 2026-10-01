@@ -6,6 +6,9 @@ schools:
 communities: [DeepEP, DeepGEMM, FlashMLA, DeepSeek-Infra]
 education: [北京大学]
 areas: [expert-parallel, gpu-kernels, mla]
+projects:
+  - "DualPipe"
+last_verified: "2026-10"
 ---
 # Jiashi Li
 
@@ -23,6 +26,9 @@ areas: [expert-parallel, gpu-kernels, mla]
 
 ## 教育与工作经历
 - [[北京大学]]：公开履历显示 2021–2022 以北京大学本科生身份参与 Taichi 相关软件工程实习；后进入 DeepSeek 团队。
+
+## 2026 新项目关系
+- [[DualPipe]]：仓库 README 明确列为创建 / 开发者。
 
 ## Sources
 - https://github.com/deepseek-ai
