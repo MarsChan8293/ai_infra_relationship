@@ -11,9 +11,9 @@ email_affiliations:
   - "深度求索"
 linked_companies:
   - "company/深度求索/深度求索"
-projects: [DeepEP, DeepGEMM, TileKernels]
+projects: ["DeepEP", "DeepGEMM", "TileKernels", "DeepGEMM-Ascend", "DeepEP-Ascend"]
 confidence: high
-last_verified: "2026-09"
+last_verified: "2026-10"
 education: [清华大学]
 areas: [expert-parallel, gpu-kernels, moe-systems, hpc]
 name_verification: Tsinghua SCC Team
@@ -38,6 +38,10 @@ DeepSeek 系统基础设施的重要公开作者，横跨 [[DeepEP]] 与 [[DeepG
 
 ## 姓名核验说明
 部分中文二手报道曾写作“赵成刚”。本图谱采用清华超算队官方历史页面直接给出的“赵成钢”，因为该来源同时给出英文名 `Chenggang Zhao` 与中文汉字。
+
+## 2026 新项目关系
+- [[DeepGEMM-Ascend]]：Project Lead；参与 mHC kernel。
+- [[DeepEP-Ascend]]：2026 official citation first author。
 
 ## Sources
 - Project source / contributor context: https://github.com/deepseek-ai
