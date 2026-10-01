@@ -78,24 +78,24 @@
 | 27 | [[community/flashinfer-ai/FlashInfer/aleozlx\|Alex Yang]] | 6.157 | 6 |
 | 28 | [[community/llm-d/llm-d/Ashok Chandrasekar\|Ashok Chandrasekar]] | 6.157 | 6 |
 | 29 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu\|Brian K. Ryu]] | 6.157 | 6 |
-| 30 | [[community/llm-d/llm-d/Nili Guy\|Nili Guy]] | 6.157 | 6 |
-| 31 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 |
-| 32 | [[community/Ascend/MemCache/彭海清 Haiqing Peng\|彭海清]] | 6.157 | 6 |
-| 33 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao\|敖玉龙]] | 6.157 | 6 |
-| 34 | [[company/腾讯/Chunxiao Zheng\|Chunxiao Zheng]] | 6.022 | 4 |
-| 35 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao\|Huanqi Cao]] | 5.935 | 5 |
-| 36 | [[community/vllm-project/vLLM-Ascend/weijinqian0\|Jinqian Wei]] | 5.935 | 5 |
-| 37 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu\|Kuai Yu]] | 5.935 | 5 |
-| 38 | [[community/Project-HAMi/HAMi/archlitchi\|Mengxuan Li]] | 5.935 | 5 |
-| 39 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang\|Yi Zhang]] | 5.935 | 5 |
-| 40 | [[community/Ascend/MemCache/j00808874\|j00808874]] | 5.935 | 5 |
-| 41 | [[university/启元实验室/李映辉 Yinghui Li\|李映辉]] | 5.935 | 5 |
-| 42 | [[company/硅基流动/赵震 Zhao Zhen\|赵震]] | 5.935 | 5 |
-| 43 | [[community/kvcache-ai/KTransformers/Boxin Zhang\|Boxin Zhang]] | 5.7 | 3 |
-| 44 | [[community/kvcache-ai/KTransformers/Jianwei Dong\|Jianwei Dong]] | 5.7 | 3 |
-| 45 | [[community/kvcache-ai/KTransformers/Jingqi Tang\|Jingqi Tang]] | 5.7 | 3 |
-| 46 | [[company/IBM/Martin Hickey\|Martin Hickey]] | 5.7 | 3 |
-| 47 | [[community/kvcache-ai/KTransformers/Qingliang Ou\|Qingliang Ou]] | 5.7 | 3 |
-| 48 | [[company/RadixArk/Richard Chen\|Richard Chen]] | 5.7 | 3 |
-| 49 | [[community/ai-dynamo/Dynamo/Stefan Schimanski\|Stefan Schimanski]] | 5.7 | 3 |
-| 50 | [[community/LMCache/LMCache/Tony Lin\|Tony Lin]] | 5.7 | 3 |
+| 30 | [[community/deepseek-ai/DeepSeek-Infra/Kuai Yu\|Kuai Yu]] | 6.157 | 6 |
+| 31 | [[community/llm-d/llm-d/Nili Guy\|Nili Guy]] | 6.157 | 6 |
+| 32 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 |
+| 33 | [[community/Ascend/MemCache/彭海清 Haiqing Peng\|彭海清]] | 6.157 | 6 |
+| 34 | [[community/flagos-ai/FlagOS/敖玉龙 Yulong Ao\|敖玉龙]] | 6.157 | 6 |
+| 35 | [[company/腾讯/Chunxiao Zheng\|Chunxiao Zheng]] | 6.022 | 4 |
+| 36 | [[community/deepseek-ai/DeepSeek-Infra/Chenhao Xu\|Chenhao Xu]] | 5.935 | 5 |
+| 37 | [[community/deepseek-ai/DeepSeek-Infra/Huanqi Cao\|Huanqi Cao]] | 5.935 | 5 |
+| 38 | [[community/vllm-project/vLLM-Ascend/weijinqian0\|Jinqian Wei]] | 5.935 | 5 |
+| 39 | [[community/Project-HAMi/HAMi/archlitchi\|Mengxuan Li]] | 5.935 | 5 |
+| 40 | [[community/deepseek-ai/DeepSeek-Infra/Rui Tian\|Rui Tian]] | 5.935 | 5 |
+| 41 | [[community/NVIDIA/TensorRT-LLM/Yi Zhang\|Yi Zhang]] | 5.935 | 5 |
+| 42 | [[community/Ascend/MemCache/j00808874\|j00808874]] | 5.935 | 5 |
+| 43 | [[university/启元实验室/李映辉 Yinghui Li\|李映辉]] | 5.935 | 5 |
+| 44 | [[company/硅基流动/赵震 Zhao Zhen\|赵震]] | 5.935 | 5 |
+| 45 | [[community/kvcache-ai/KTransformers/Boxin Zhang\|Boxin Zhang]] | 5.7 | 3 |
+| 46 | [[community/kvcache-ai/KTransformers/Jianwei Dong\|Jianwei Dong]] | 5.7 | 3 |
+| 47 | [[community/kvcache-ai/KTransformers/Jingqi Tang\|Jingqi Tang]] | 5.7 | 3 |
+| 48 | [[company/IBM/Martin Hickey\|Martin Hickey]] | 5.7 | 3 |
+| 49 | [[community/kvcache-ai/KTransformers/Qingliang Ou\|Qingliang Ou]] | 5.7 | 3 |
+| 50 | [[company/RadixArk/Richard Chen\|Richard Chen]] | 5.7 | 3 |

@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 192
-- Source roots: community 165 · company 14 · university 13
+- Projects: 195
+- Source roots: community 168 · company 14 · university 13
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -16,10 +16,10 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Gateway / Routing](#gateway) | 2 |
 | [KV Cache](#kv-cache) | 10 |
 | [Storage](#storage) | 2 |
-| [Communication / Data Movement](#communication) | 14 |
-| [Runtime / Framework](#runtime) | 29 |
+| [Communication / Data Movement](#communication) | 15 |
+| [Runtime / Framework](#runtime) | 30 |
 | [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 8 |
+| [Compiler / DSL](#compiler) | 9 |
 | [Training / Post-training](#training) | 15 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
@@ -126,11 +126,12 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## communication
 
-**Communication / Data Movement** · 14 projects
+**Communication / Data Movement** · 15 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP]] | communication | active | expert-parallel, all-to-all, moe-dispatch, moe-combine, low-latency | `deepseek-ai` | 1 | 9 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepEP) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend]] | communication | active | expert-parallel, all-to-all, moe-dispatch, moe-combine, remote-memory | `deepseek-ai` | 5 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepEP-Ascend) |
 | [[community/flagos-ai/FlagCX/FlagCX]] | communication | active | collective-communication, heterogeneous-computing, distributed-training, distributed-inference, heterogeneous-communication | `flagos-ai` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagCX) |
 | [[company/基流科技/HetCCL]] | communication | unknown | collective-communication, heterogeneous-communication, mixed-vendor, rdma, distributed-training | `company:基流科技` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HetCCL) |
 | [[community/InfiniTensor/InfiniCCL]] | collective-communication |  | collective-communication, distributed-systems, nccl, hccl, cncl | `InfiniTensor` | 0 | 3 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniCCL) |
@@ -147,19 +148,20 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 29 projects
+**Runtime / Framework** · 30 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/Ascend/CANN/CANN]] | ai-compute-software-stack |  |  | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANN) |
 | [[community/NVIDIA/CUTLASS/CUTLASS]] | runtime | active | gemm, cute, cuda-templates, python-dsl | `NVIDIA` | 1 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUTLASS) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM]] | runtime | active | gemm, fp8, fp4, moe-kernels, jit | `deepseek-ai` | 1 | 11 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepGEMM) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend]] | runtime | active | gemm, fp8, fp4, moe-kernels, mqa-logits | `deepseek-ai` | 3 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepGEMM-Ascend) |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference]] | inference-model-and-runtime-integration |  |  | `Deep-Spark` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSparkInference) |
 | [[community/flagos-ai/FlagAttention/FlagAttention]] | runtime | active | attention, triton, kernels, llm-inference, heterogeneous-computing | `flagos-ai` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagAttention) |
 | [[community/flagos-ai/FlagGems/FlagGems]] | runtime | active | triton, kernels, heterogeneous-computing, performance-optimization, operator-library | `flagos-ai` | 0 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagGems) |
 | [[community/Dao-AILab/FlashAttention/FlashAttention]] | runtime | active | exact-attention, io-aware-attention, memory-efficient-attention | `Dao-AILab` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer]] | runtime | active | attention-kernels, paged-attention, lora-kernels, kernel-generation | `flashinfer-ai` | 2 | 11 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashInfer) |
-| [[community/deepseek-ai/DeepSeek-Infra/FlashMLA]] | runtime | active | attention-kernels, mla-optimization | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashMLA) |
+| [[community/deepseek-ai/DeepSeek-Infra/FlashMLA]] | runtime | active | attention-kernels, mla-optimization, sparse-attention, deepseek-sparse-attention | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashMLA) |
 | [[community/ggml-org/ggml/ggml]] | tensor-runtime |  | tensor-runtime, local-inference, edge-inference, quantization, gguf | `ggml-org` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ggml) |
 | [[community/gpustack/runner/runner]] | runtime | active | inference-runtime, container-images, backend-packaging, heterogeneous-inference, vllm | `gpustack` | 4 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runner) |
 | [[community/gpustack/runtime/runtime]] | runtime | active | gpu-detection, workload-runtime, heterogeneous-accelerators, device-management, docker | `gpustack` | 1 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runtime) |
@@ -200,12 +202,13 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## compiler
 
-**Compiler / DSL** · 8 projects
+**Compiler / DSL** · 9 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend]] | compiler | active | developer-tooling, ascendc, code-completion, diagnostics | `deepseek-ai` | 3 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=clangd-ascend) |
 | [[community/LancerLab/Croqtile/Croqtile]] | compiler | active | kernel-dsl, gpu-kernels, ai-native-programming, symbolic-shapes, compile-time-verification | `LancerLab` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Croqtile) |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 3 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |
 | [[community/flagos-ai/FlagTree/FlagTree]] | compiler | active | compiler, triton, heterogeneous-computing, multi-backend, kernel-dsl | `flagos-ai` | 0 | 8 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagTree) |
 | [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel]] | kernel-compiler-runtime | active | llm-inference, persistent-kernel, megakernel, compiler, gpu-runtime | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Mirage%20Persistent%20Kernel) |
 | [[community/InfiniTensor/NineToothed]] | compiler |  | compiler, kernel-dsl, triton, tilelang, gpu-kernels | `InfiniTensor` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NineToothed) |

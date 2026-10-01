@@ -5,7 +5,7 @@
 - Status: **pass**
 - Concepts: 81
 - Concepts with project evidence: 81
-- Project-like nodes: 175
+- Project-like nodes: 178
 - Projects linked to concepts: 69
 - Concept → Project assertions: 292
 - Unresolved project refs: 0

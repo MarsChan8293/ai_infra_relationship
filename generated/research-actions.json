@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1958,
+  "candidate_count": 1960,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -13,8 +13,8 @@
   },
   "selected_bucket_counts": {
     "bridge": 3,
-    "exploitation": 3,
-    "exploration": 4
+    "exploitation": 4,
+    "exploration": 3
   },
   "scoring_note": "Three research operators share stable action identity. EXPAND uses explicit seed context; DISCOVER uses global graph gaps/frontiers/bridges; VERIFY handles weak evidence and history follow-up. Existing graph priority, cooldown and empirical-yield adjustments are preserved.",
   "selected_actions": [
@@ -351,96 +351,6 @@
       }
     },
     {
-      "action_id": "community/Ascend/Ascend/Ascend::core_people",
-      "action_key": "community:core_people:person",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "core_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_or_maintainers",
-        "github_or_gitcode_activity"
-      ],
-      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
-      "bucket": "exploration",
-      "priority": 8.315,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.15,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved core_people_semantic_confirmation"
-      ],
-      "base_priority": 8.015,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "internal_graph_links:1",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "core_people_semantic_confirmation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 6
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.167,
-          "reward_signal": 0.659,
-          "yield_adjustment": 0.15
-        },
-        "key_yield_adjustment": 0.15,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "core_people_semantic_confirmation"
-        ]
-      }
-    },
-    {
       "action_id": "university/Massachusetts Institute of Technology/HAN Lab::projects",
       "action_key": "research:projects:project+community",
       "source": {
@@ -725,6 +635,96 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
+        ]
+      }
+    },
+    {
+      "action_id": "community/Ascend/Ascend/Ascend::core_people",
+      "action_key": "community:core_people:person",
+      "source": {
+        "id": "community/Ascend/Ascend/Ascend",
+        "name": "Ascend",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "core_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_or_maintainers",
+        "github_or_gitcode_activity"
+      ],
+      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
+      "bucket": "exploitation",
+      "priority": 8.19,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.367,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.15,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Community",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved core_people_semantic_confirmation"
+      ],
+      "base_priority": 7.89,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "internal_graph_links:1",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "core_people_semantic_confirmation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.167,
+          "reward_signal": 0.659,
+          "yield_adjustment": 0.15
+        },
+        "key_yield_adjustment": 0.15,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "core_people_semantic_confirmation"
         ]
       }
     },
@@ -5123,6 +5123,79 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+        "name": "clangd-ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 8.411,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: kernel, ascend",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 8.308,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -5623,96 +5696,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.857"
-      }
-    },
-    {
-      "action_id": "community/Ascend/Ascend/Ascend::core_people",
-      "action_key": "community:core_people:person",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "core_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_or_maintainers",
-        "github_or_gitcode_activity"
-      ],
-      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
-      "bucket": "exploration",
-      "priority": 8.315,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.15,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved core_people_semantic_confirmation"
-      ],
-      "base_priority": 8.015,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "internal_graph_links:1",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "core_people_semantic_confirmation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 6
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.167,
-          "reward_signal": 0.659,
-          "yield_adjustment": 0.15
-        },
-        "key_yield_adjustment": 0.15,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "core_people_semantic_confirmation"
-        ]
       }
     },
     {
@@ -6802,6 +6785,96 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Ascend/Ascend/Ascend::core_people",
+      "action_key": "community:core_people:person",
+      "source": {
+        "id": "community/Ascend/Ascend/Ascend",
+        "name": "Ascend",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "core_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_or_maintainers",
+        "github_or_gitcode_activity"
+      ],
+      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
+      "bucket": "exploitation",
+      "priority": 8.19,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.367,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.15,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Community",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved core_people_semantic_confirmation"
+      ],
+      "base_priority": 7.89,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "internal_graph_links:1",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "core_people_semantic_confirmation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.167,
+          "reward_signal": 0.659,
+          "yield_adjustment": 0.15
+        },
+        "key_yield_adjustment": 0.15,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "core_people_semantic_confirmation"
+        ]
       }
     },
     {
@@ -11900,105 +11973,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
-        "name": "Zhean Xu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 7.511,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved current_affiliation"
-      ],
-      "base_priority": 7.203,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:3",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "current_affiliation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "current_affiliation"
-        ]
-      }
-    },
-    {
       "action_id": "community/StigLidu/AdaExplore/AdaExplore::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -12244,6 +12218,105 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
+        ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+        "name": "Zhean Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 7.498,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved current_affiliation"
+      ],
+      "base_priority": 7.19,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:3",
+            "reachable_sources:1"
+          ],
+          "unresolved_dimensions": [
+            "current_affiliation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "current_affiliation"
         ]
       }
     },
@@ -20413,105 +20486,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
-        "name": "Shangyan Zhou",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploration",
-      "priority": 6.926,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: distributed, moe",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved current_affiliation"
-      ],
-      "base_priority": 6.618,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:1",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "current_affiliation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "current_affiliation"
-        ]
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -20683,6 +20657,105 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+        "name": "Shangyan Zhou",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploration",
+      "priority": 6.903,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: distributed, moe",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved current_affiliation"
+      ],
+      "base_priority": 6.595,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:1",
+            "reachable_sources:1"
+          ],
+          "unresolved_dimensions": [
+            "current_affiliation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "current_affiliation"
+        ]
       }
     },
     {
@@ -33653,95 +33726,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
-        "name": "FlashMLA",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 6.407,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.159,
-        "novelty": 0.0,
-        "frontier_potential": 0.347,
-        "uncertainty": 0.448,
-        "redundancy_penalty": 0.412,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Project",
-        "infra: serving/inference, kv-cache, kernel",
-        "bridge 7.2",
-        "partial follow-up: unresolved maintainer_governance"
-      ],
-      "base_priority": 6.154,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/chengruiqi::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -34398,6 +34382,95 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "contribution_role_strength"
+        ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+        "name": "FlashMLA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.394,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.607,
+        "novelty": 0.0,
+        "frontier_potential": 0.297,
+        "uncertainty": 0.448,
+        "redundancy_penalty": 0.436,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference, kv-cache, kernel",
+        "bridge 7.6",
+        "partial follow-up: unresolved maintainer_governance"
+      ],
+      "base_priority": 6.141,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
         ]
       }
     },
@@ -35668,106 +35741,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
-        "name": "周可行",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "bridge",
-      "priority": 6.342,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 6.157,
-        "novelty": 0.75,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.448,
-        "redundancy_penalty": 0.294,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "bridge 6.2",
-        "partial follow-up: unresolved current_affiliation"
-      ],
-      "base_priority": 6.034,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:6",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "current_affiliation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "current_affiliation"
-        ]
-      }
-    },
-    {
       "action_id": "university/上海交通大学/Xingda Wei::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -35854,6 +35827,106 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "contribution_role_strength"
+        ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+        "name": "周可行",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "bridge",
+      "priority": 6.336,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 6.52,
+        "novelty": 0.75,
+        "frontier_potential": 0.25,
+        "uncertainty": 0.448,
+        "redundancy_penalty": 0.314,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types",
+        "bridge 6.5",
+        "partial follow-up: unresolved current_affiliation"
+      ],
+      "base_priority": 6.028,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:6",
+            "reachable_sources:1"
+          ],
+          "unresolved_dimensions": [
+            "current_affiliation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "current_affiliation"
         ]
       }
     },
@@ -47900,79 +47973,6 @@
       }
     },
     {
-      "action_id": "community/Ascend/Ascend/Ascend::member_orgs",
-      "action_key": "community:member_orgs:company+school+research",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "member_orgs",
-      "target_families": [
-        "company",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "governance_membership_page",
-        "official_announcements"
-      ],
-      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
-      "bucket": "exploration",
-      "priority": 6.012,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.052,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.96,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.75,
-          "reward_signal": 0.734,
-          "yield_adjustment": 0.052
-        },
-        "key_yield_adjustment": 0.052,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "university/UC San Diego/UC San Diego::projects",
       "action_key": "school:projects:project+community",
       "source": {
@@ -49613,8 +49613,8 @@
         "company_or_lab_team_page"
       ],
       "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploitation",
-      "priority": 5.98,
+      "bucket": "bridge",
+      "priority": 5.974,
       "cost": 1.0,
       "coverage": {
         "existing": 1,
@@ -49625,11 +49625,11 @@
         "infra_relevance": 2.4,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 5.935,
+        "bridge_score": 6.157,
         "novelty": 0.75,
-        "frontier_potential": 0.306,
+        "frontier_potential": 0.283,
         "uncertainty": 0.344,
-        "redundancy_penalty": 0.282,
+        "redundancy_penalty": 0.294,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.158,
@@ -49642,9 +49642,10 @@
         "source type Person",
         "infra: kernel, distributed, moe",
         "opens underrepresented target types",
+        "bridge 6.2",
         "partial follow-up: unresolved current_affiliation"
       ],
-      "base_priority": 5.672,
+      "base_priority": 5.666,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
@@ -51584,105 +51585,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
-        "name": "Chenhao Xu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploitation",
-      "priority": 5.921,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.3,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.672,
-        "novelty": 0.75,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.344,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: kernel, moe, quantization",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved current_affiliation"
-      ],
-      "base_priority": 5.613,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:1",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "current_affiliation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "current_affiliation"
-        ]
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Omni/Hongsheng Liu::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -51929,6 +51831,105 @@
         "partial follow-up: unresolved current_affiliation"
       ],
       "base_priority": 5.606,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:1",
+            "reachable_sources:1"
+          ],
+          "unresolved_dimensions": [
+            "current_affiliation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "current_affiliation"
+        ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+        "name": "Chenhao Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 5.912,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.3,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 5.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.344,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: kernel, moe, quantization",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved current_affiliation"
+      ],
+      "base_priority": 5.604,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
@@ -52614,6 +52615,79 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "community/Ascend/Ascend/Ascend::member_orgs",
+      "action_key": "community:member_orgs:company+school+research",
+      "source": {
+        "id": "community/Ascend/Ascend/Ascend",
+        "name": "Ascend",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "member_orgs",
+      "target_families": [
+        "company",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "governance_membership_page",
+        "official_announcements"
+      ],
+      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
+      "bucket": "exploitation",
+      "priority": 5.896,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 4.67,
+        "novelty": 1.0,
+        "frontier_potential": 0.367,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.176,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.052,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Community",
+        "infra: serving/inference, kernel, distributed",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.844,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.75,
+          "reward_signal": 0.734,
+          "yield_adjustment": 0.052
+        },
+        "key_yield_adjustment": 0.052,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -53729,74 +53803,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/Ascend/Ascend/Ascend::projects",
-      "action_key": "community:projects:project",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "projects",
-      "target_families": [
-        "project"
-      ],
-      "strategies": [
-        "community_docs",
-        "official_repository_namespace"
-      ],
-      "write_hint": "Add concrete projects that belong to or are governed by the community.",
-      "bucket": "exploitation",
-      "priority": 5.84,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.65,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 3.085,
-        "novelty": 0.0,
-        "frontier_potential": 0.635,
-        "uncertainty": 0.367,
-        "redundancy_penalty": 0.227,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed"
-      ],
-      "base_priority": 5.84,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.667"
       }
     },
     {
@@ -55969,95 +55975,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
-        "name": "DeepJIT",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.773,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 2.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.872,
-        "novelty": 0.0,
-        "frontier_potential": 0.364,
-        "uncertainty": 0.311,
-        "redundancy_penalty": 0.461,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Project",
-        "infra: serving/inference, kernel, ascend",
-        "bridge 8.9",
-        "partial follow-up: unresolved maintainer_governance"
-      ],
-      "base_priority": 5.52,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
-          "resolved_dimensions": [],
-          "unresolved_dimensions": [
-            "maintainer_governance"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "maintainer_governance"
-        ]
-      }
-    },
-    {
       "action_id": "community/apache/Spark/Spark::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -57085,77 +57002,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
-        "name": "Kuai Yu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 5.762,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.144,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.618,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 11,
-          "statuses": {
-            "partial": 11
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.773,
-          "reward_signal": 0.6,
-          "yield_adjustment": 0.144
-        },
-        "key_yield_adjustment": 0.144,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "company/Intel/Intel::key_people",
       "action_key": "company:key_people:person",
       "source": {
@@ -57345,6 +57191,167 @@
         "detail": "prior partial action",
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
+        ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+        "name": "Kuai Yu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "bridge",
+      "priority": 5.755,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 6.157,
+        "novelty": 1.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 6.2"
+      ],
+      "base_priority": 5.611,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.157"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+        "name": "DeepJIT",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.753,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 2.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 9.55,
+        "novelty": 0.0,
+        "frontier_potential": 0.287,
+        "uncertainty": 0.311,
+        "redundancy_penalty": 0.499,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, kernel, ascend",
+        "bridge 9.6",
+        "partial follow-up: unresolved maintainer_governance"
+      ],
+      "base_priority": 5.5,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Repository probed, but common governance files did not yield stable maintainer identities.",
+          "resolved_dimensions": [],
+          "unresolved_dimensions": [
+            "maintainer_governance"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "maintainer_governance"
         ]
       }
     },
@@ -58190,7 +58197,7 @@
       ],
       "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
       "bucket": "exploitation",
-      "priority": 5.72,
+      "priority": 5.71,
       "cost": 1.3,
       "coverage": {
         "existing": 0,
@@ -58201,11 +58208,11 @@
         "infra_relevance": 2.3,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 5.672,
+        "bridge_score": 5.935,
         "novelty": 1.0,
-        "frontier_potential": 0.335,
+        "frontier_potential": 0.306,
         "uncertainty": 0.619,
-        "redundancy_penalty": 0.129,
+        "redundancy_penalty": 0.143,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.144,
@@ -58218,7 +58225,7 @@
         "infra: kernel, moe, quantization",
         "opens underrepresented target types"
       ],
-      "base_priority": 5.576,
+      "base_priority": 5.566,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -64224,77 +64231,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
-        "name": "Zhean Xu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.598,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.144,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.454,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 11,
-          "statuses": {
-            "partial": 11
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.773,
-          "reward_signal": 0.6,
-          "yield_adjustment": 0.144
-        },
-        "key_yield_adjustment": 0.144,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Ascend/chengruiqi::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -66324,6 +66260,77 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+        "name": "Zhean Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 5.583,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.439,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/vllm-project/vLLM/Roger Wang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -68036,79 +68043,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
-        "name": "周可行",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 5.533,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 6.157,
-        "novelty": 0.5,
-        "frontier_potential": 0.283,
-        "uncertainty": 0.356,
-        "redundancy_penalty": 0.375,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "bridge 6.2"
-      ],
-      "base_priority": 5.382,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=6.157"
-      }
-    },
-    {
       "action_id": "company/OpenAI/GPT-4o::related_projects",
       "action_key": "project:related_projects:project+community",
       "source": {
@@ -68197,77 +68131,6 @@
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
         ]
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
-        "name": "Rui Tian",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploitation",
-      "priority": 5.532,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.144,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.388,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 11,
-          "statuses": {
-            "partial": 11
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.773,
-          "reward_signal": 0.6,
-          "yield_adjustment": 0.144
-        },
-        "key_yield_adjustment": 0.144,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -68583,81 +68446,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::affiliation",
-      "action_key": "person:affiliation:company+school+research+team",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
-        "name": "Rui Tian",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "affiliation",
-      "target_families": [
-        "company",
-        "school",
-        "research",
-        "team"
-      ],
-      "strategies": [
-        "official_profile",
-        "company_or_lab_team_page"
-      ],
-      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
-      "bucket": "exploitation",
-      "priority": 5.526,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.672,
-        "novelty": 0.75,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.267,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.158,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 1/2",
-        "source type Person",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.368,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 124,
-          "statuses": {
-            "partial": 119,
-            "success": 5
-          },
-          "mean_status_value": 0.376,
-          "mean_reward": 3.254,
-          "reward_signal": 0.672,
-          "yield_adjustment": 0.158
-        },
-        "key_yield_adjustment": 0.158,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM/Chen Zhang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -68890,6 +68678,77 @@
           "yield_adjustment": 0.12
         },
         "key_yield_adjustment": 0.12,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
+        "name": "Rui Tian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploitation",
+      "priority": 5.522,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.378,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -69326,6 +69185,81 @@
         "opens underrepresented target types"
       ],
       "base_priority": 5.36,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 124,
+          "statuses": {
+            "partial": 119,
+            "success": 5
+          },
+          "mean_status_value": 0.376,
+          "mean_reward": 3.254,
+          "reward_signal": 0.672,
+          "yield_adjustment": 0.158
+        },
+        "key_yield_adjustment": 0.158,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::affiliation",
+      "action_key": "person:affiliation:company+school+research+team",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
+        "name": "Rui Tian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "affiliation",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "team"
+      ],
+      "strategies": [
+        "official_profile",
+        "company_or_lab_team_page"
+      ],
+      "write_hint": "Update affiliations/schools only with direct evidence; keep historical context in prose.",
+      "bucket": "exploitation",
+      "priority": 5.517,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.935,
+        "novelty": 0.75,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.158,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.359,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -73507,6 +73441,79 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=13.059"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+        "name": "DeepGEMM-Ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.418,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 6.809,
+        "novelty": 0.0,
+        "frontier_potential": 0.347,
+        "uncertainty": 0.311,
+        "redundancy_penalty": 0.469,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, kernel, moe",
+        "bridge 6.8"
+      ],
+      "base_priority": 5.315,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.250"
       }
     },
     {
@@ -83522,77 +83529,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::technical_collaborator",
-      "action_key": "person:technical_collaborator:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
-        "name": "Shangyan Zhou",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "technical_collaborator",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "github_pr_commit_review",
-        "paper_or_technical_report"
-      ],
-      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
-      "bucket": "exploration",
-      "priority": 5.153,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.144,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Person",
-        "infra: distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.009,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 11,
-          "statuses": {
-            "partial": 11
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 2.773,
-          "reward_signal": 0.6,
-          "yield_adjustment": 0.144
-        },
-        "key_yield_adjustment": 0.144,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -83906,6 +83842,77 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::technical_collaborator",
+      "action_key": "person:technical_collaborator:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+        "name": "Shangyan Zhou",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "technical_collaborator",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "github_pr_commit_review",
+        "paper_or_technical_report"
+      ],
+      "write_hint": "Add a typed relation only when collaboration type, context, and evidence are explicit.",
+      "bucket": "exploration",
+      "priority": 5.13,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.144,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Person",
+        "infra: distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.986,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 11,
+          "statuses": {
+            "partial": 11
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 2.773,
+          "reward_signal": 0.6,
+          "yield_adjustment": 0.144
+        },
+        "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Weilin Zhao::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -84047,77 +84054,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
-        "name": "Kuai Yu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploitation",
-      "priority": 5.121,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.306,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.121,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -84295,6 +84231,78 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence/freshness verification action"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Kuai Yu",
+        "name": "Kuai Yu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "bridge",
+      "priority": 5.114,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 6.157,
+        "novelty": 1.0,
+        "frontier_potential": 0.283,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 6.2"
+      ],
+      "base_priority": 5.114,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=6.157"
       }
     },
     {
@@ -85404,77 +85412,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
-        "name": "Chenhao Xu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploitation",
-      "priority": 5.083,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.3,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, moe, quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.083,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM-Omni/Yongxiang Huang::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -86042,6 +85979,77 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu",
+        "name": "Chenhao Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploitation",
+      "priority": 5.073,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.3,
+        "evidence_quality": 1.1,
+        "url_count": 2,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.619,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kernel, moe, quantization",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.073,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -90367,77 +90375,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
-        "name": "Zhean Xu",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 4.97,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.375,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.111,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: kernel, distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.97,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "company/RadixArk/王书文 Shuwen Wang::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -90643,6 +90580,77 @@
           "yield_adjustment": 0.144
         },
         "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+        "name": "Zhean Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploitation",
+      "priority": 4.956,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.822,
+        "novelty": 1.0,
+        "frontier_potential": 0.335,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.129,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.956,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -94150,77 +94158,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
-        "name": "Rui Tian",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploitation",
-      "priority": 4.908,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 5.672,
-        "novelty": 1.0,
-        "frontier_potential": 0.335,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.908,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/vllm-project/vLLM/Patrick von Platen::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -94599,6 +94536,77 @@
         "unresolved_dimensions": [
           "academic_links_semantic_confirmation"
         ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
+        "name": "Rui Tian",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploitation",
+      "priority": 4.898,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.935,
+        "novelty": 1.0,
+        "frontier_potential": 0.306,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.143,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.898,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -100968,6 +100976,88 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepEP::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
+        "name": "DeepEP",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.78,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 12.207,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.17,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 4.517,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "company/积算科技/积算科技::key_people",
       "action_key": "company:key_people:person",
       "source": {
@@ -101147,7 +101237,7 @@
       ],
       "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
       "bucket": "verification",
-      "priority": 4.776,
+      "priority": 4.774,
       "cost": 0.8,
       "coverage": {
         "existing": 1,
@@ -101155,14 +101245,14 @@
         "gap": 0.5
       },
       "signals": {
-        "infra_relevance": 3.3,
+        "infra_relevance": 4.0,
         "evidence_quality": 0.8,
         "url_count": 1,
-        "bridge_score": 13.394,
+        "bridge_score": 13.437,
         "novelty": 0.0,
         "frontier_potential": 1.15,
         "uncertainty": 0.5,
-        "redundancy_penalty": 0.175,
+        "redundancy_penalty": 0.176,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.113,
@@ -101175,7 +101265,7 @@
         "evidence quality below target",
         "partial follow-up: unresolved semantic_claim_match"
       ],
-      "base_priority": 4.513,
+      "base_priority": 4.511,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
@@ -107165,77 +107255,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::academic_lineage",
-      "action_key": "person:academic_lineage:person+school+research",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
-        "name": "Shangyan Zhou",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "academic_lineage",
-      "target_families": [
-        "person",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "official_academic_profile",
-        "thesis_or_lab_page"
-      ],
-      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
-      "bucket": "exploration",
-      "priority": 4.559,
-      "cost": 1.4,
-      "coverage": {
-        "existing": 0,
-        "desired": 2,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.085,
-        "novelty": 1.0,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.0,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/2",
-        "source type Person",
-        "infra: distributed, moe",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 4.559,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 0,
-          "statuses": {},
-          "mean_status_value": 0.0,
-          "mean_reward": 0.0,
-          "reward_signal": 0.0,
-          "yield_adjustment": 0.0
-        },
-        "key_yield_adjustment": 0.0,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -107869,6 +107888,77 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::academic_lineage",
+      "action_key": "person:academic_lineage:person+school+research",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+        "name": "Shangyan Zhou",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "academic_lineage",
+      "target_families": [
+        "person",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "official_academic_profile",
+        "thesis_or_lab_page"
+      ],
+      "write_hint": "Do not infer advisor/student from shared school; require direct evidence.",
+      "bucket": "exploration",
+      "priority": 4.536,
+      "cost": 1.4,
+      "coverage": {
+        "existing": 0,
+        "desired": 2,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 1.0,
+        "frontier_potential": 0.375,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.0,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/2",
+        "source type Person",
+        "infra: distributed, moe",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 4.536,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 0,
+          "statuses": {},
+          "mean_status_value": 0.0,
+          "mean_reward": 0.0,
+          "reward_signal": 0.0,
+          "yield_adjustment": 0.0
+        },
+        "key_yield_adjustment": 0.0,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/TensorRT-LLM/Anurag Mukkara::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -108006,88 +108096,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepEP::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
-        "name": "DeepEP",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.534,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 12.107,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.167,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.113,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 4.271,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 31,
-          "statuses": {
-            "partial": 31
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.0,
-          "reward_signal": 0.245,
-          "yield_adjustment": 0.113
-        },
-        "key_yield_adjustment": 0.113,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -108723,6 +108731,88 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.200"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
+        "name": "DeepJIT",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.513,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 9.55,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.139,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 4.25,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -109735,88 +109825,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT",
-        "name": "DeepJIT",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.468,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 8.872,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.115,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.113,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 4.205,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 31,
-          "statuses": {
-            "partial": 31
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.0,
-          "reward_signal": 0.245,
-          "yield_adjustment": 0.113
-        },
-        "key_yield_adjustment": 0.113,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -113348,6 +113356,88 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
+        "name": "FlashMLA",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.369,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.607,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.135,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 4.106,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/kvcache-ai/KTransformers/Jiahao Wang::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -113495,78 +113585,6 @@
       "source": {
         "id": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang",
         "name": "Liyue Zhang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "exploitation",
-      "priority": 4.363,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 2,
-        "desired": 3,
-        "gap": 0.333
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.085,
-        "novelty": 0.5,
-        "frontier_potential": 0.433,
-        "uncertainty": 0.356,
-        "redundancy_penalty": 0.308,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/3",
-        "source type Person",
-        "infra: distributed, moe"
-      ],
-      "base_priority": 4.212,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.333"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
-        "name": "Shangyan Zhou",
         "type": "person",
         "family": "person"
       },
@@ -115478,88 +115496,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
-        "name": "FlashMLA",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.339,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.159,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.12,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.113,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 4.076,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 31,
-          "statuses": {
-            "partial": 31
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.0,
-          "reward_signal": 0.245,
-          "yield_adjustment": 0.113
-        },
-        "key_yield_adjustment": 0.113,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -121336,6 +121272,73 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+        "name": "DeepEP-Ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.183,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.257,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.135,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 4.07,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "university/北京邮电大学/北京邮电大学::verify_evidence",
       "action_key": "school:verify_evidence:none",
       "source": {
@@ -121774,6 +121777,73 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+        "name": "DeepGEMM-Ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.153,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 6.809,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.12,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 4.04,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -124611,6 +124681,89 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::verify_evidence",
+      "action_key": "person:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
+        "name": "周可行",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 4.032,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 6.52,
+        "novelty": 0.0,
+        "frontier_potential": 0.75,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.11,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.111,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 3.771,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 88,
+          "statuses": {
+            "partial": 87,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.34,
+          "mean_reward": 0.989,
+          "reward_signal": 0.242,
+          "yield_adjustment": 0.111
+        },
+        "key_yield_adjustment": 0.111,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "company/HPE/HPE::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -124919,89 +125072,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.333"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou",
-        "name": "周可行",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 4.008,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 6.157,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.097,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 3.747,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -134840,6 +134910,73 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+        "name": "clangd-ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.545,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.935,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.09,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 3.432,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/ai-dynamo/NIXL/Adit Ranadive::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -136605,6 +136742,89 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::verify_evidence",
+      "action_key": "person:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
+        "name": "Zhean Xu",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.487,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 2.4,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.822,
+        "novelty": 0.0,
+        "frontier_potential": 0.75,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.08,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.111,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 3.226,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 88,
+          "statuses": {
+            "partial": 87,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.34,
+          "mean_reward": 0.989,
+          "reward_signal": 0.242,
+          "yield_adjustment": 0.111
+        },
+        "key_yield_adjustment": 0.111,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/LMCache/LMCache/Zhengfei He::academic_lineage",
       "action_key": "person:academic_lineage:person+school+research",
       "source": {
@@ -137949,89 +138169,6 @@
       "source": {
         "id": "community/deepseek-ai/DeepSeek-Infra/Liang Zhao",
         "name": "Liang Zhao",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 3.466,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 2.4,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.5,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.069,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 3.205,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
-        "name": "Zhean Xu",
         "type": "person",
         "family": "person"
       },
@@ -145850,6 +145987,89 @@
       }
     },
     {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::verify_evidence",
+      "action_key": "person:verify_evidence:none",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
+        "name": "Shangyan Zhou",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.016,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.5,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 3.5,
+        "novelty": 0.0,
+        "frontier_potential": 0.75,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.069,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.111,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 2.755,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 88,
+          "statuses": {
+            "partial": 87,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.34,
+          "mean_reward": 0.989,
+          "reward_signal": 0.242,
+          "yield_adjustment": 0.111
+        },
+        "key_yield_adjustment": 0.111,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/NVIDIA/AVO/AVO::verify_evidence",
       "action_key": "project:verify_evidence:none",
       "source": {
@@ -146226,89 +146446,6 @@
       "source": {
         "id": "community/deepseek-ai/DeepSeek-Infra/Liyue Zhang",
         "name": "Liyue Zhang",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 2.988,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.5,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 3.085,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 2.727,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou",
-        "name": "Shangyan Zhou",
         "type": "person",
         "family": "person"
       },
@@ -155272,7 +155409,7 @@
       }
     }
   },
-  "eligible_count": 1958,
+  "eligible_count": 1960,
   "suppressed_count": 0,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

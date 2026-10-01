@@ -35,9 +35,9 @@
 | 1 | [[university/启元实验室/黄嘉成 Jiacheng Huang\|黄嘉成]] | 10.535 | 11 | 4 | 0 |
 | 2 | [[community/sgl-project/SGLang/Shenggui Li\|Shenggui Li]] | 10.059 | 10 | 4 | 0 |
 | 3 | [[community/hpcaitech/Colossal-AI/Hongxin Liu\|Hongxin Liu]] | 9.770 | 8 | 4 | 0 |
-| 4 | [[university/启元实验室/王豪杰 Haojie Wang\|王豪杰]] | 9.222 | 9 | 1 | 0 |
-| 5 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li\|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
-| 6 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao\|赵成钢]] | 9.009 | 10 | 3 | 0 |
+| 4 | [[community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao\|赵成钢]] | 9.250 | 12 | 3 | 0 |
+| 5 | [[university/启元实验室/王豪杰 Haojie Wang\|王豪杰]] | 9.222 | 9 | 1 | 0 |
+| 6 | [[community/deepseek-ai/DeepSeek-Infra/Jiashi Li\|Jiashi Li]] | 9.009 | 10 | 3 | 0 |
 | 7 | [[community/vllm-project/vLLM/Lucas Wilkinson\|Lucas Wilkinson]] | 8.872 | 9 | 4 | 0 |
 | 8 | [[company/趋境科技/卢佳豪 Jiahao Lu\|卢佳豪]] | 8.707 | 6 | 2 | 0 |
 | 9 | [[university/启元实验室/潘泽众 Zezhong Pan\|潘泽众]] | 8.550 | 7 | 4 | 0 |
@@ -62,15 +62,15 @@
 | 28 | [[community/Ascend/MemCache/yrewzjsx\|yrewzjsx]] | 6.672 | 9 | 5 | 0 |
 | 29 | [[community/Ascend/MemCache/Zixi Qu\|Zixi Qu]] | 6.520 | 8 | 3 | 0 |
 | 30 | [[community/Ascend/MemCache/chenyz6\|chenyz6]] | 6.520 | 8 | 5 | 0 |
-| 31 | [[company/杭州先进编译科技有限公司/柴赟达\|柴赟达]] | 6.507 | 6 | 2 | 0 |
-| 32 | [[university/UC Berkeley/Xiangxi Mo\|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
-| 33 | [[university/北京大学/Lei Wang\|Lei Wang]] | 6.350 | 7 | 3 | 0 |
-| 34 | [[community/kvcache-ai/Mooncake/Zhanhao Cao\|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
-| 35 | [[community/flashinfer-ai/FlashInfer/aleozlx\|Alex Yang]] | 6.157 | 6 | 4 | 0 |
-| 36 | [[community/llm-d/llm-d/Ashok Chandrasekar\|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
-| 37 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu\|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
-| 38 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
-| 39 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou\|周可行]] | 6.157 | 6 | 3 | 0 |
+| 31 | [[community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou\|周可行]] | 6.520 | 8 | 3 | 0 |
+| 32 | [[company/杭州先进编译科技有限公司/柴赟达\|柴赟达]] | 6.507 | 6 | 2 | 0 |
+| 33 | [[university/UC Berkeley/Xiangxi Mo\|Xiangxi Mo]] | 6.372 | 4 | 1 | 0 |
+| 34 | [[university/北京大学/Lei Wang\|Lei Wang]] | 6.350 | 7 | 3 | 0 |
+| 35 | [[community/kvcache-ai/Mooncake/Zhanhao Cao\|Zhanhao Cao]] | 6.350 | 7 | 4 | 0 |
+| 36 | [[community/flashinfer-ai/FlashInfer/aleozlx\|Alex Yang]] | 6.157 | 6 | 4 | 0 |
+| 37 | [[community/llm-d/llm-d/Ashok Chandrasekar\|Ashok Chandrasekar]] | 6.157 | 6 | 3 | 0 |
+| 38 | [[community/flashinfer-ai/FlashInfer/Brian K. Ryu\|Brian K. Ryu]] | 6.157 | 6 | 4 | 0 |
+| 39 | [[community/llm-d/llm-d/Vita Bortnikov\|Vita Bortnikov]] | 6.157 | 6 | 4 | 0 |
 | 40 | [[community/Ascend/MemCache/彭海清 Haiqing Peng\|彭海清]] | 6.157 | 6 | 3 | 0 |
 
 ## Structured bridge nodes

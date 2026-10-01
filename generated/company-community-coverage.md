@@ -4,10 +4,10 @@
 
 - Company nodes: 57
 - Companies with ≥1 linked project/community: 44
-- Project/community nodes: 202
-- Project/community nodes with ≥1 linked company: 111
-- Bidirectional association pairs: 130
-- Explicitly asserted on both sides: 130
+- Project/community nodes: 205
+- Project/community nodes with ≥1 linked company: 114
+- Bidirectional association pairs: 133
+- Explicitly asserted on both sides: 133
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -114,8 +114,11 @@
 | [[company/沐曦/沐曦\|沐曦]] | [[community/MetaX-MACA/vLLM-metax/vLLM-metax\|vLLM-metax]] | project | company-led | both |
 | [[company/爱特思/深圳爱特思信息技术有限公司\|深圳爱特思信息技术有限公司]] | [[company/爱特思/国产化人工智能算力平台异构并行加速项目\|国产化人工智能算力平台异构并行加速项目]] | project | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/3FS\|3FS]] | project | company-led | both |
+| [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend\|clangd-ascend]] | project | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepEP\|DeepEP]] | project | company-led | both |
+| [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend\|DeepEP-Ascend]] | project | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM\|DeepGEMM]] | project | company-led | both |
+| [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend\|DeepGEMM-Ascend]] | project | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT\|DeepJIT]] | project | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/DeepSeek-Infra\|DeepSeek Infra]] | project-collection | company-led | both |
 | [[company/深度求索/深度求索\|深度求索]] | [[community/deepseek-ai/DeepSeek-Infra/deepseek-recipe\|deepseek-recipe]] | project | company-led | both |

@@ -3,6 +3,7 @@ type: project
 name: DeepEP-Ascend
 parent: DeepSeek-Infra
 status: active
+linked_people: []
 repository: https://github.com/deepseek-ai/DeepEP-Ascend
 docs: https://github.com/deepseek-ai/DeepEP-Ascend
 last_verified: "2026-10"
@@ -25,18 +26,6 @@ integrations:
   - "DeepJIT"
 linked_companies:
   - "company/深度求索/深度求索"
-linked_concepts:
-  - "concept/communication/collectives/All-to-All"
-  - "concept/communication/collectives/Collective Communication"
-  - "concept/inference/parallelism/Expert Parallelism"
-  - "concept/communication/data-movement/RDMA"
-linked_people:
-  - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
-  - "community/deepseek-ai/DeepSeek-Infra/Kuai Yu"
-  - "community/deepseek-ai/DeepSeek-Infra/Rui Tian"
-  - "community/deepseek-ai/DeepSeek-Infra/Shangyan Zhou"
-  - "community/deepseek-ai/DeepSeek-Infra/周可行 Kexing Zhou"
-  - "community/deepseek-ai/DeepSeek-Infra/赵成钢 Chenggang Zhao"
 ---
 # DeepEP-Ascend
 
@@ -57,3 +46,12 @@ https://github.com/deepseek-ai/DeepEP-Ascend
 
 ## 公开贡献者
 官方 citation 作者包括 [[赵成钢 Chenggang Zhao]]、[[Shangyan Zhou]]、[[周可行 Kexing Zhou]]、[[Rui Tian]]、Chenqi Zhao、[[Chenhao Xu]]、Yizhi Wang、[[Kuai Yu]]。
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
