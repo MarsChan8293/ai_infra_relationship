@@ -30,6 +30,7 @@ projects:
   - "Astra"
   - "CUDAMaster"
   - "CANNBot"
+  - "CANNBot-DSL"
   - "Ascend Agent Skills"
   - "AKG Agents"
   - "AscendOptimizer"
@@ -135,7 +136,9 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 
 [[community/research/CAKE/CAKE|CAKE]] 把 compiler 本身纳入 agent co-design：Agent 操作硬件显式 CAKE IR，compiler 返回 verifier、cost model 与 localized diagnostics，使搜索空间和反馈接口一起演化。
 
-[[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench|FlashInfer-Bench]] 把 kernel definition、真实 workload、correctness、performance evaluation 与 production substitution 统一为闭环 Harness，是 AI-generated kernel 从 benchmark 走向 SGLang / vLLM 的关键接口。\n\n[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 提供面向 Ascend NPU 的 Agent-friendly Kernel DSL 与 compiler backend；官方样例明确由 CANNBot 基于该 DSL 生成，使 Agent 可以在更结构化的算子表达层执行生成、修改、测试和性能迭代。
+[[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench|FlashInfer-Bench]] 把 kernel definition、真实 workload、correctness、performance evaluation 与 production substitution 统一为闭环 Harness，是 AI-generated kernel 从 benchmark 走向 SGLang / vLLM 的关键接口。
+
+[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 提供面向 Ascend NPU 的 Agent-friendly Kernel DSL 与 compiler backend；官方样例明确由 CANNBot 基于该 DSL 生成，使 Agent 可以在更结构化的算子表达层执行生成、修改、测试和性能迭代。
 
 ## 设计原则
 
@@ -154,4 +157,5 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 - https://github.com/LancerLab/croqtile
 - https://arxiv.org/abs/2608.12629
 - https://github.com/flashinfer-ai/flashinfer-bench
-- https://arxiv.org/abs/2601.00227\n- https://gitcode.com/cann/cannbot-dsl
+- https://arxiv.org/abs/2601.00227
+- https://gitcode.com/cann/cannbot-dsl
