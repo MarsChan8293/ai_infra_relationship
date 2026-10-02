@@ -18,7 +18,10 @@ projects:
   - TileLang
   - Triton
   - FlagTree
-last_verified: 2026-09
+  - CAKE
+  - Event Tensor
+  - Mirage Persistent Kernel
+last_verified: 2026-10
 ---
 
 # Kernel Compiler Pipeline
@@ -50,9 +53,16 @@ Kernel Compiler Pipeline 是把上层 kernel/DSL 表达逐步转换为目标 GPU
 
 [[community/InfiniTensor/NineToothed|NineToothed]] 已公开 SSA compiler pipeline、pass/backend registry 和 multi-backend runtime；[[community/tile-ai/TileLang/TileLang|TileLang]] 在 TVM 基础上具有 frontend、layout inference、pass pipeline 和 device/host codegen；[[community/triton-lang/Triton/Triton|Triton]] 通过 Triton/MLIR dialect 逐层 lower 到 GPU code；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 基于 Triton 体系扩展多后端 code generation。
 
+[[community/research/CAKE/CAKE|CAKE]] 展示了面向 Agent 的 compiler pipeline 设计：硬件显式 CAKE IR、verifier、cost model 与 localized diagnostics 一起构成可被 Agent 搜索和演化的编译接口。
+
+[[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]] 把 tensor program lower 为 SM-level task graph，并由 in-kernel runtime 执行 single megakernel；[[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]] 则进一步把动态 shape 与 data-dependent task dependency 作为一等 compiler abstraction，用 static + dynamic scheduling 生成 dynamic megakernel。
+
 ## Sources
 
 - https://github.com/InfiniTensor/ninetoothed
 - https://tilelang.com/
 - https://triton-lang.org/main/index.html
 - https://github.com/flagos-ai/FlagTree
+- https://arxiv.org/abs/2608.12629
+- https://github.com/mirage-project/mirage
+- https://arxiv.org/abs/2604.13327
