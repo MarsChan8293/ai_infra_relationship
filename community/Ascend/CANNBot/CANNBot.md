@@ -19,7 +19,7 @@ linked_companies:
 
 # CANNBot
 
-CANNBot 是 CANN 社区面向 Ascend 的 Infra 智能体层，覆盖算子开发、模型迁移、推理优化、图模式与 runtime 等场景。其应用仓提供 plugin / harness，skills/knowledge/DSL/benchmark 等能力由配套仓库补充。
+CANNBot 是 CANN 社区面向 Ascend 的 Infra 智能体层，覆盖算子开发、模型迁移、推理优化、图模式与 runtime 等场景。其应用仓提供 plugin / harness，skills/knowledge/DSL/benchmark 等能力由配套仓库补充。其中 [[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 是 Agent-friendly kernel DSL / compiler 层。
 
 ## model-infer-optimize
 
