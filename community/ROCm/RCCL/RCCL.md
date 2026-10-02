@@ -7,9 +7,12 @@ linked_concepts:
   - "concept/communication/collectives/AllGather"
   - "concept/communication/collectives/AllReduce"
   - "concept/communication/collectives/Collective Communication"
+  - "concept/hardware/interconnect/Hardware Interconnect"
+  - "concept/hardware/interconnect/PCIe"
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/data-movement/RDMA"
   - "concept/communication/collectives/ReduceScatter"
+  - "concept/hardware/interconnect/xGMI"
 layer: communication
 status: active
 repository: https://github.com/ROCm/rocm-systems
@@ -81,8 +84,11 @@ V0.1 将框架使用 RCCL 的关系记录在关联区，不自动把所有 ROCm 
 - [[concept/communication/collectives/AllGather|AllGather]]
 - [[concept/communication/collectives/AllReduce|AllReduce]]
 - [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
+- [[concept/hardware/interconnect/PCIe|PCIe]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/data-movement/RDMA|RDMA]]
 - [[concept/communication/collectives/ReduceScatter|ReduceScatter]]
+- [[concept/hardware/interconnect/xGMI|xGMI]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

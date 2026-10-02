@@ -2,20 +2,28 @@
 type: project
 name: FlashMLA
 parent: DeepSeek-Infra
+linked_concepts:
+  - "concept/kernel/attention/Attention Kernel"
+  - "concept/quantization/FP4 Quantization"
+  - "concept/quantization/FP8 Quantization"
+  - "concept/kernel/attention/Sparse Attention"
 status: active
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Jiashi Li"
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
 repository: https://github.com/deepseek-ai/FlashMLA
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: ["深度求索"]
 company_relation: company-led
 layer: runtime
 areas:
   - "attention-kernels"
   - "mla-optimization"
+  - "sparse-attention"
+  - "deepseek-sparse-attention"
 hardware:
   - "nvidia"
+  - "ascend"
 integrations: []
 linked_companies:
   - "company/深度求索/深度求索"
@@ -35,7 +43,17 @@ https://github.com/deepseek-ai/FlashMLA
 由 [[深度求索]] / deepseek-ai 维护。原始公开作者节点包括 [[Jiashi Li]] 与 [[刘胜与 Shengyu Liu]]。
 
 ## 生态关系
-[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepGEMM]]。FlashMLA 是模型特定 attention kernel 与通用 serving kernel 生态之间的连接点。
+[[FlashInfer]] · [[vLLM]] · [[SGLang]] · [[DeepGEMM]] · [[DeepGEMM-Ascend]] · [[DeepJIT]]。FlashMLA 是模型特定 attention kernel 与通用 serving kernel 生态之间的连接点。
+
+## Ascend Sparse Attention
+2026-09-30，FlashMLA 主仓加入 Huawei Ascend 平台的 DeepSeek Sparse Attention（DSA）前向实现，覆盖 prefill 与 decoding。官方公开的 DeepSeek V4.1 典型工况数据显示，Ascend kernel 在 prefill / decode 分别达到约 410 / 360 TFLOPS，对应其公布理论峰值的约 95% / 83%。这使 FlashMLA 从 NVIDIA MLA kernel 扩展为跨 NVIDIA / Ascend 的模型特定 attention kernel 项目。
+
+## Ascend 支持边界
+当前 Ascend release 明确的是 DeepSeek Sparse Attention 的 prefill / decode kernel；FlashMLA README 对其他 kernel 仍可能标注 CUDA-only。因而这里把 hardware 标为 `nvidia + ascend`，但不把它解释成“所有 FlashMLA kernel 都已跨平台”。
+
+## Sources
+- https://github.com/deepseek-ai/FlashMLA
+- https://github.com/deepseek-ai/FlashMLA/blob/main/docs/20260930-ascend-prefill-deep-dive.md
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
@@ -55,3 +73,15 @@ https://github.com/deepseek-ai/FlashMLA
 - [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/attention/Attention Kernel|Attention Kernel]]
+- [[concept/quantization/FP4 Quantization|FP4 Quantization]]
+- [[concept/quantization/FP8 Quantization|FP8 Quantization]]
+- [[concept/kernel/attention/Sparse Attention|Sparse Attention]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

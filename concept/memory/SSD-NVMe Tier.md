@@ -11,6 +11,9 @@ topic: memory-hierarchy
 parent_concepts:
   - Memory Hierarchy
 related_concepts:
+  - NVMe SSD
+  - SSD-Backed KV Cache
+  - Storage Tiering
   - Tiered KV Cache
   - KV Cache Offloading
   - KV Cache Prefetching
@@ -46,6 +49,12 @@ SSD/NVMe Tier 是把 SSD 或 NVMe 设备作为 HBM/Host Memory 之后的大容�
 - [[KV Cache Offloading]] 描述“把 KV 移出主加速器内存”的动作。
 - [[Tiered KV Cache]] 描述整个多层 KV cache 体系。
 - SSD/NVMe Tier 则是其中一个具体介质层。
+
+## 与现有存储概念的边界
+
+- [[concept/storage/NVMe SSD|NVMe SSD]] 描述设备与协议；SSD/NVMe Tier 描述这类介质在内存/存储层次中承担的慢层角色。
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] 专门描述 KV 使用 SSD 后端的缓存机制；SSD/NVMe Tier 还可以保存模型状态等其他可恢复数据。
+- [[concept/storage/Storage Tiering|Storage Tiering]] 描述跨层放置与迁移策略；SSD/NVMe Tier 是策略可以选择的一个目标层。
 
 ## 适用边界
 

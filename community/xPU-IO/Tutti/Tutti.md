@@ -4,6 +4,11 @@ name: Tutti
 linked_people:
   - "university/上海交通大学/张一鸣 Yiming Zhang"
   - "university/厦门大学/Shi Qiu"
+linked_concepts:
+  - "concept/storage/Direct Storage IO"
+  - "concept/storage/NVMe SSD"
+  - "concept/storage/SSD-Backed KV Cache"
+  - "concept/storage/Storage Tiering"
 layer: kv-cache
 open_source: true
 repository: https://github.com/xPU-IO/Tutti
@@ -59,3 +64,15 @@ Tutti PR #11 / 对应 merge commit 由 `ljye2023` 提交，公开提交邮箱为
 - [[university/厦门大学/Shi Qiu|Shi Qiu]]：[[community/xPU-IO/Tutti/Tutti|Tutti]]：2026 论文第一作者；项目将 GPU-centric storage 继续推进到 SSD-backed KV cache / long-context LLM serving。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/storage/Direct Storage IO|Direct Storage I/O]]
+- [[concept/storage/NVMe SSD|NVMe SSD]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

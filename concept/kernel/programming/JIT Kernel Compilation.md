@@ -20,7 +20,9 @@ projects:
   - TileLang
   - CUTLASS
   - FlashInfer
-last_verified: 2026-09
+  - DeepGEMM-Ascend
+  - DeepEP-Ascend
+last_verified: "2026-10"
 ---
 
 # JIT Kernel Compilation
@@ -56,6 +58,9 @@ JIT 可以获得更强的 shape/hardware specialization，并缩短新 kernel �
 ## 项目实现
 
 [[community/deepseek-ai/DeepSeek-Infra/DeepJIT|DeepJIT]] 是独立 xPU kernel JIT/runtime 层；[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 当前所有 kernel 通过 DeepJIT 在运行时编译；[[community/triton-lang/Triton/Triton|Triton]] 以 JIT specialization 作为核心执行模式；[[community/tile-ai/TileLang/TileLang|TileLang]] 提供 `tilelang.jit`；[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] Python DSL 支持 JIT kernel compilation；[[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] 也提供 JIT/custom kernel 生成能力。
+
+## DeepSeek Ascend 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 使用 DeepJIT 动态编译 Ascend kernel；[[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]] 的 Ascend C device kernels 也通过 DeepJIT 在运行时编译。
 
 ## Sources
 

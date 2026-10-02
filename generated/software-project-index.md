@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 165
-- Source roots: community 140 · company 12 · university 13
+- Projects: 205
+- Source roots: community 177 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -11,26 +11,26 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 | Layer | Projects |
 | --- | ---: |
-| [Inference Engine](#inference-engine) | 25 |
+| [Inference Engine](#inference-engine) | 26 |
 | [Distributed Serving](#distributed-serving) | 21 |
 | [Gateway / Routing](#gateway) | 2 |
 | [KV Cache](#kv-cache) | 10 |
 | [Storage](#storage) | 2 |
-| [Communication / Data Movement](#communication) | 14 |
-| [Runtime / Framework](#runtime) | 27 |
+| [Communication / Data Movement](#communication) | 15 |
+| [Runtime / Framework](#runtime) | 32 |
 | [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 8 |
-| [Training / Post-training](#training) | 14 |
+| [Compiler / DSL](#compiler) | 14 |
+| [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 6 |
-| [Other](#other) | 6 |
+| [Inference Optimization](#optimization) | 29 |
+| [Other](#other) | 8 |
 
 ## inference-engine
 
-**Inference Engine** · 25 projects
+**Inference Engine** · 26 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -54,6 +54,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/sgl-project/SGLang/SGLang]] | inference-engine | active | continuous-batching, radix-attention, prefix-caching, tensor-parallel, expert-parallel | `sgl-project` | 5 | 31 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SGLang) |
 | [[community/siliconflow/SiliconLLM/SiliconLLM]] | llm-inference-engine |  |  | `siliconflow` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SiliconLLM) |
 | [[community/interestingLSY/swiftLLM/swiftLLM]] | research-llm-inference-engine |  | llm-serving, inference-engine, triton, paged-attention, scheduling | `interestingLSY` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SwiftLLM) |
+| [[community/ashhart/TensorFold/TensorFold]] | inference-engine | active | local-inference, openai-compatible-api, model-specific-kernels, speculative-decoding, multi-token-prediction | `ashhart` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorFold) |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM]] | inference-engine | active | tensorrt-engine, quantization, speculative-decoding, tensor-parallel, expert-parallel | `NVIDIA` | 1 | 10 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorRT-LLM) |
 | [[community/vllm-project/vLLM/vLLM]] | inference-engine | active | continuous-batching, paged-kv-cache, prefix-caching, speculative-decoding, tensor-parallel | `vllm-project` | 8 | 29 | 6 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM) |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend]] | inference-engine | active | ascend-inference, vllm-backend | `vllm-project` | 1 | 17 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-Ascend) |
@@ -125,11 +126,12 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## communication
 
-**Communication / Data Movement** · 14 projects
+**Communication / Data Movement** · 15 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP]] | communication | active | expert-parallel, all-to-all, moe-dispatch, moe-combine, low-latency | `deepseek-ai` | 1 | 9 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepEP) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend]] | communication | active | expert-parallel, all-to-all, moe-dispatch, moe-combine, pipeline-communication | `deepseek-ai` | 4 | 8 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepEP-Ascend) |
 | [[community/flagos-ai/FlagCX/FlagCX]] | communication | active | collective-communication, heterogeneous-computing, distributed-training, distributed-inference, heterogeneous-communication | `flagos-ai` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagCX) |
 | [[company/基流科技/HetCCL]] | communication | unknown | collective-communication, heterogeneous-communication, mixed-vendor, rdma, distributed-training | `company:基流科技` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HetCCL) |
 | [[community/InfiniTensor/InfiniCCL]] | collective-communication |  | collective-communication, distributed-systems, nccl, hccl, cncl | `InfiniTensor` | 0 | 3 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniCCL) |
@@ -146,19 +148,22 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 27 projects
+**Runtime / Framework** · 32 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/Ascend/CANN/CANN]] | ai-compute-software-stack |  |  | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANN) |
+| [[community/cordiverse/Cordis/Cordis]] | runtime | active | plugin-meta-framework, spatiotemporal-composability, dependency-injection, typed-events, reversible-effects | `cordiverse` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Cordis) |
 | [[community/NVIDIA/CUTLASS/CUTLASS]] | runtime | active | gemm, cute, cuda-templates, python-dsl | `NVIDIA` | 1 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUTLASS) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM]] | runtime | active | gemm, fp8, fp4, moe-kernels, jit | `deepseek-ai` | 1 | 11 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepGEMM) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend]] | runtime | active | gemm, grouped-gemm, fp8, fp4, moe-kernels | `deepseek-ai` | 4 | 13 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepGEMM-Ascend) |
+| [[community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness]] | runtime | active | agent-harness, plugin-runtime, agent-loop, tool-orchestration, session-runtime | `deepseek-ai` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSeek%20Harness) |
 | [[community/Deep-Spark/DeepSparkInference/DeepSparkInference]] | inference-model-and-runtime-integration |  |  | `Deep-Spark` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSparkInference) |
 | [[community/flagos-ai/FlagAttention/FlagAttention]] | runtime | active | attention, triton, kernels, llm-inference, heterogeneous-computing | `flagos-ai` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagAttention) |
 | [[community/flagos-ai/FlagGems/FlagGems]] | runtime | active | triton, kernels, heterogeneous-computing, performance-optimization, operator-library | `flagos-ai` | 0 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagGems) |
 | [[community/Dao-AILab/FlashAttention/FlashAttention]] | runtime | active | exact-attention, io-aware-attention, memory-efficient-attention | `Dao-AILab` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
 | [[community/flashinfer-ai/FlashInfer/FlashInfer]] | runtime | active | attention-kernels, paged-attention, lora-kernels, kernel-generation | `flashinfer-ai` | 2 | 11 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashInfer) |
-| [[community/deepseek-ai/DeepSeek-Infra/FlashMLA]] | runtime | active | attention-kernels, mla-optimization | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashMLA) |
+| [[community/deepseek-ai/DeepSeek-Infra/FlashMLA]] | runtime | active | attention-kernels, mla-optimization, sparse-attention, deepseek-sparse-attention | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashMLA) |
 | [[community/ggml-org/ggml/ggml]] | tensor-runtime |  | tensor-runtime, local-inference, edge-inference, quantization, gguf | `ggml-org` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ggml) |
 | [[community/gpustack/runner/runner]] | runtime | active | inference-runtime, container-images, backend-packaging, heterogeneous-inference, vllm | `gpustack` | 4 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runner) |
 | [[community/gpustack/runtime/runtime]] | runtime | active | gpu-detection, workload-runtime, heterogeneous-accelerators, device-management, docker | `gpustack` | 1 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runtime) |
@@ -167,12 +172,14 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/InfiniTensor/InfiniRT]] | hardware-runtime |  | runtime, device-abstraction, memory-management, heterogeneous-compute, cuda | `InfiniTensor` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniRT) |
 | [[community/Ascend/MindIE-Motor/MindIE-Motor]] | runtime | active | inference-runtime, ascend-runtime | `Ascend` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MindIE-Motor) |
 | [[community/sgl-project/mini-SGLang/mini-SGLang]] | llm-serving-runtime |  | llm-serving, radix-cache, chunked-prefill, overlap-scheduling, tensor-parallelism | `sgl-project` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=mini-SGLang) |
+| [[company/Naive AI/NaiveRT]] | runtime | active | single-stream-decode, long-context-rl, speculative-decoding, mega-kernel-fusion, programmatic-dependent-launch | `company:Naive AI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NaiveRT) |
 | [[company/Intel/OpenVINO]] | inference-runtime-toolkit |  | inference-runtime, llm-inference, genai, cpu, gpu | `company:Intel` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OpenVINO) |
 | [[community/openEuler/openYuanRong/openYuanRong]] | distributed-compute-runtime |  | serverless, distributed-runtime, scheduling, distributed-data, ai-infrastructure | `openEuler` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=openYuanRong) |
 | [[community/Ascend/ops-transformer/ops-transformer]] | runtime | active | transformer-operators, ascend-kernels | `Ascend` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ops-transformer) |
 | [[community/flagos-ai/sglang-plugin-FL/sglang-plugin-FL]] | runtime | active | sglang, heterogeneous-inference, hardware-backend, llm-serving, sglang-plugin | `flagos-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=sglang-plugin-FL) |
 | [[community/lightseekorg/TokenSpeed/TokenSpeed]] | runtime | active | inference-optimization, performance-tooling | `lightseekorg` | 0 | 1 | 4 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TokenSpeed) |
 | [[community/MooreThreads/torch_musa/torch_musa]] | deep-learning-framework-backend |  |  | `MooreThreads` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=torch_musa) |
+| [[community/huggingface/Transformers/Transformers]] | runtime | active | model-runtime, text-generation, assisted-generation, speculative-decoding | `huggingface` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Transformers) |
 | [[community/MetaX-MACA/vLLM-metax/vLLM-metax]] | llm-serving-hardware-backend |  |  | `MetaX-MACA` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-metax) |
 | [[community/MooreThreads/vllm-musa/vllm-musa]] | llm-serving-hardware-backend |  |  | `MooreThreads` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vllm-musa) |
 | [[community/flagos-ai/vllm-plugin-FL/vllm-plugin-FL]] | runtime | active | vllm, heterogeneous-inference, hardware-backend, llm-serving, vllm-plugin | `flagos-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vllm-plugin-FL) |
@@ -197,32 +204,40 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## compiler
 
-**Compiler / DSL** · 8 projects
+**Compiler / DSL** · 14 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/research/CAKE/CAKE]] | agent-compiler-kernel-optimization | research | agentic-kernel-optimization, compiler-agent-co-design, gpu-kernel, intermediate-representation, verification | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CAKE) |
+| [[community/Ascend/CANNBot-DSL/CANNBot-DSL]] | compiler | active | kernel-dsl, agentic-kernel-optimization, ascend-npu, ascend-950, kernel-codegen | `Ascend` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANNBot-DSL) |
+| [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend]] | compiler | active | developer-tooling, language-server, ascendc, code-completion, diagnostics | `deepseek-ai` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=clangd-ascend) |
 | [[community/LancerLab/Croqtile/Croqtile]] | compiler | active | kernel-dsl, gpu-kernels, ai-native-programming, symbolic-shapes, compile-time-verification | `LancerLab` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Croqtile) |
-| [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |
+| [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 3 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |
+| [[university/Carnegie Mellon University/Catalyst Group/Event Tensor]] | compiler-runtime | research | dynamic-megakernel, persistent-kernel, dynamic-shapes, data-dependent-computation, compiler | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Event%20Tensor) |
 | [[community/flagos-ai/FlagTree/FlagTree]] | compiler | active | compiler, triton, heterogeneous-computing, multi-backend, kernel-dsl | `flagos-ai` | 0 | 8 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagTree) |
 | [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel]] | kernel-compiler-runtime | active | llm-inference, persistent-kernel, megakernel, compiler, gpu-runtime | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Mirage%20Persistent%20Kernel) |
 | [[community/InfiniTensor/NineToothed]] | compiler |  | compiler, kernel-dsl, triton, tilelang, gpu-kernels | `InfiniTensor` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NineToothed) |
 | [[community/siliconflow/OneDiff/OneDiff]] | diffusion-inference-compiler |  |  | `siliconflow` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OneDiff) |
-| [[community/tile-ai/TileLang/TileLang]] | compiler | active | kernel-dsl, kernel-generation | `tile-ai` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang) |
+| [[community/tile-ai/TileLang/TileLang]] | compiler | active | kernel-dsl, kernel-generation, multi-backend, ascend-950 | `tile-ai` | 3 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang) |
+| [[community/tile-ai/TileLang/TileLang-Ascend]] | compiler | active | kernel-dsl, ascend, ascend-a2, ascend-a3, ascendc | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-Ascend) |
+| [[community/tile-ai/TileLang/TileLang-MLIR-Ascend]] | compiler | active | kernel-dsl, mlir, ascendnpu-ir, ascend, ascend-a2 | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-MLIR-Ascend) |
 | [[community/triton-lang/Triton/Triton]] | compiler | active | gpu-kernel-dsl, compiler, jit, mlir | `triton-lang` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Triton) |
 
 ## training
 
-**Training / Post-training** · 14 projects
+**Training / Post-training** · 16 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/thu-pacman/BaGuaLu/BaGuaLu]] | distributed-training |  | distributed-training, parallelism, communication, moe, activation-memory | `thu-pacman` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=BaGuaLu) |
 | [[community/hpcaitech/Colossal-AI/Colossal-AI]] | training | active | distributed-training, parallelism, large-model-training | `hpcaitech` | 0 | 5 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Colossal-AI) |
+| [[community/deepseek-ai/DeepSeek-Infra/DualPipe]] | training | active | pipeline-parallelism, bidirectional-pipeline, pipeline-scheduling, computation-communication-overlap, dualpipev | `deepseek-ai` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DualPipe) |
 | [[community/thu-pacman/FastMoE/FastMoE]] | distributed-moe-training |  | moe, distributed-training, all-to-all-communication, load-balancing, large-model-training | `thu-pacman` | 0 | 5 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FastMoE) |
 | [[community/flagos-ai/FlagScale/FlagScale]] | training | active | distributed-training, heterogeneous-training, llm-inference, auto-tuning, large-model-training | `flagos-ai` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagScale) |
 | [[company/面壁智能/ForgeTrain]] | training | active | llm-training, cuda-kernels, triton, distributed-training, performance-optimization | `company:面壁智能` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ForgeTrain) |
 | [[university/清华大学/GLM-130B]] | pretraining-system-model-codesign |  | foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency | `university:清华大学` | 0 | 8 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GLM-130B) |
 | [[community/InfiniTensor/InfiniTrain]] | distributed-training |  | distributed-training, tensor-parallel, pipeline-parallel, sequence-parallel, zero | `InfiniTensor` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniTrain) |
+| [[community/NVIDIA/Megatron-LM/Megatron-LM]] | training | active | distributed-training, tensor-parallel, sequence-parallel, context-parallel, expert-parallel | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Megatron-LM) |
 | [[community/radixark/Miles/Miles]] | post-training-infrastructure |  | reinforcement-learning, post-training, distributed-training, rollout, sglang | `radixark` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Miles) |
 | [[community/Oneflow-Inc/OneFlow/OneFlow]] | training | active | deep-learning-framework, distributed-training, tensor-runtime | `Oneflow-Inc` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OneFlow) |
 | [[company/月之暗面/Seer]] | rl-rollout-serving |  | llm-serving, reinforcement-learning, rollout, scheduling, speculative-decoding | `company:月之暗面` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Seer) |
@@ -281,25 +296,50 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 6 projects
+**Inference Optimization** · 29 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/StigLidu/AdaExplore/AdaExplore]] | optimization | research | agentic-kernel-optimization, failure-memory, tree-search, triton, self-improvement | `StigLidu` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AdaExplore) |
+| [[community/research/AgenticCANN/AgenticCANN]] | optimization | research | agentic-kernel-optimization, ascendc, knowledge-augmentation, agentic-evolution, operator-generation | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AgenticCANN) |
+| [[community/MindSpore/AKG Agents/AKG Agents]] | optimization | active | agentic-kernel-optimization, multi-agent, kernel-generation, autonomous-research, triton-ascend | `MindSpore` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AKG%20Agents) |
+| [[community/Ascend/agent-skills/Ascend Agent Skills]] | optimization | active | agent-skills, agentic-kernel-optimization, ascendc, triton-ascend, catlass | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ascend%20Agent%20Skills) |
+| [[community/南京大学/AscendCraft/AscendCraft]] | optimization | research | agentic-kernel-optimization, ascendc, dsl, transcompilation, kernel-generation | `南京大学` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AscendCraft) |
+| [[community/research/AscendOptimizer/AscendOptimizer]] | optimization | research | agentic-kernel-optimization, ascendc, episodic-memory, profiling-in-the-loop, evolutionary-search | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AscendOptimizer) |
+| [[community/Stanford University/Astra/Astra]] | optimization | research | agentic-kernel-optimization, multi-agent, cuda, sglang, profiling | `Stanford University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Astra) |
+| [[community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent]] | optimization | active | agentic-kernel-optimization, mechanical-supervisor, profiling, correctness-gate, performance-gate | `alibaba` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Atrex%20Kernel%20Agent) |
+| [[community/NVIDIA/AVO/AVO]] | optimization | research | agentic-kernel-optimization, evolutionary-search, agentic-variation-operators, attention, cuda | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AVO) |
+| [[community/Ascend/CANNBot/CANNBot]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, ascendc, triton-ascend, pytorch-npu | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANNBot) |
+| [[community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis]] | optimization | research | agentic-kernel-optimization, triton-ascend, compiler-feedback, ir-diagnosis, profiling | `华为` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler-Grounded%20Hierarchical%20Diagnosis) |
+| [[community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent]] | optimization | active | agentic-kernel-optimization, agentic-rl, cuda, kernel-generation, correctness-verification | `BytedTsinghua-SIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDA-Agent) |
+| [[community/清华大学/CUDAMaster/CUDAMaster]] | optimization | research | agentic-kernel-optimization, multi-agent, cuda, hardware-aware, profiling | `清华大学` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDAMaster) |
 | [[community/deepseek-ai/DeepSpec/DeepSpec]] | speculative-decoding |  | llm-inference, speculative-decoding, draft-model, inference-acceleration | `deepseek-ai` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSpec) |
+| [[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench]] | optimization-harness | active | agentic-kernel-optimization, kernel-benchmark, correctness-validation, production-deployment, llm-inference | `flashinfer-ai` | 3 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashInfer-Bench) |
+| [[community/AMD-AGI/GEAK/GEAK]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, deterministic-workflow, vllm | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEAK) |
+| [[community/AMD-AGI/Hyperloom/Hyperloom]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, e2e-validation, recipe-memory | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Hyperloom) |
+| [[community/UC Berkeley/K-Search/K-Search]] | optimization | active | agentic-kernel-optimization, world-model, tree-search, cuda, flashinfer | `UC Berkeley` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=K-Search) |
+| [[community/NVIDIA/KDA/KDA]] | optimization | active | agentic-kernel-optimization, cuda-kernel, profiling, benchmarking, performance-engineering | `NVIDIA` | 5 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KDA) |
+| [[community/meta-pytorch/KernelAgent/KernelAgent]] | optimization | active | agentic-kernel-optimization, triton, multi-agent, ncu, roofline | `meta-pytorch` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelAgent) |
+| [[community/NVIDIA/KernelBlaster/KernelBlaster]] | optimization | active | agentic-kernel-optimization, memory-augmented-icl, reinforcement-learning, cuda, profiling | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelBlaster) |
+| [[community/Meta/KernelEvolve/KernelEvolve]] | optimization | research | agentic-kernel-optimization, tree-search, evolutionary-search, optimization-memory, production-kernels | `Meta` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelEvolve) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
+| [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |
 | [[community/Ascend/msModelSlim/msModelSlim]] | optimization | active | model-compression, quantization | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=msModelSlim) |
 | [[community/yzygitzh/RoofLang/RoofLang]] | optimization | active | inference-optimization, system-architecture-search, graph-ir, roofline-modeling, discrete-event-simulation | `yzygitzh` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RoofLang) |
 | [[community/sgl-project/SpecForge/SpecForge]] | speculative-decoding |  | speculative-decoding, draft-model-training, llm-inference, distributed-training | `sgl-project` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SpecForge) |
+| [[community/NVIDIA/TileGym/TileGym]] | optimization | active | agentic-kernel-development, agent-skills, cutile, kernel-autotuning, benchmarking | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileGym) |
 | [[university/Carnegie Mellon University/Catalyst Group/XGrammar]] | structured-generation | active | structured-generation, constrained-decoding, llm-inference, speculative-decoding | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=XGrammar) |
 
 ## other
 
-**Other** · 6 projects
+**Other** · 8 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/deepseek-ai/Engram/Engram]] | other | active | conditional-memory, ngram-lookup, static-memory, host-memory-offload, model-system-codesign | `deepseek-ai` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Engram) |
 | [[community/sail-sg/EnvPool/EnvPool]] | other |  | ai-infrastructure | `sail-sg` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=EnvPool) |
 | [[community/Project-HAMi/ascend-device-plugin/ascend-device-plugin]] | other |  | ascend, kubernetes, accelerator-scheduling, device-plugin, heterogeneous-computing | `Project-HAMi` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HAMi%20Ascend%20Device%20Plugin) |
+| [[company/Naive AI/Naive-N0.5-Flash]] | other | active | mixture-of-experts, million-token-context, sliding-window-attention, deepseek-sparse-attention, continued-pretraining | `company:Naive AI` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Naive-N0.5-Flash) |
 | [[community/ray-project/Ray/Ray]] | other |  | ai-infrastructure, distributed-computing, machine-learning-systems, training, serving | `ray-project` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ray) |
 | [[community/deepseek-ai/DeepSeek-Infra/smallpond]] | distributed-data-processing |  | data-processing, distributed-query, duckdb, 3fs, parquet | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=smallpond) |
 | [[community/apache/Spark/Spark]] | other |  | distributed-computing, data-processing, cluster-computing, ai-data-platform | `apache` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Spark) |
@@ -309,6 +349,6 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 These project layers currently fold into `other`. Keeping this list visible makes taxonomy cleanup explicit rather than silently losing detail.
 
-- `other`: 5
+- `other`: 7
 - `distributed-data-processing`: 1
 

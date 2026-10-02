@@ -21,7 +21,9 @@ projects:
   - TileKernels
   - ggml
   - llama.cpp
-last_verified: 2026-09
+  - DeepGEMM-Ascend
+  - FlashMLA
+last_verified: "2026-10"
 ---
 
 # FP4 Quantization
@@ -48,6 +50,9 @@ FP4 可以只用于权重，也可以让 activation 进入 FP4/MXFP4 compute。�
 ## 项目实现
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 当前支持 MXFP4 等在线/预量化路径；[[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] 提供 MXFP4/W4A8 等实践；[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 提供 FP4/Mega-MoE kernel；[[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] 提供 FP4 quantization kernel；[[community/ggml-org/ggml/ggml|ggml]] / [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] 生态也支持 MXFP4 等低比特 tensor encoding。
+
+## DeepSeek Ascend 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 支持 FP4 GEMM / MQA logits；[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] 的 Ascend decode instantiations 包含 V4.1 FP4 KV 路径。
 
 ## Sources
 

@@ -7,6 +7,10 @@ linked_concepts:
   - "concept/communication/collectives/AllGather"
   - "concept/communication/collectives/AllReduce"
   - "concept/communication/collectives/Collective Communication"
+  - "concept/hardware/interconnect/Hardware Interconnect"
+  - "concept/hardware/interconnect/NVLink"
+  - "concept/hardware/interconnect/NVSwitch"
+  - "concept/hardware/interconnect/PCIe"
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/collectives/ReduceScatter"
 layer: communication
@@ -84,6 +88,10 @@ NCCL 只解决通信原语，不负责模型并行策略本身、请求调度或
 - [[concept/communication/collectives/AllGather|AllGather]]
 - [[concept/communication/collectives/AllReduce|AllReduce]]
 - [[concept/communication/collectives/Collective Communication|Collective Communication]]
+- [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
+- [[concept/hardware/interconnect/NVLink|NVLink]]
+- [[concept/hardware/interconnect/NVSwitch|NVSwitch]]
+- [[concept/hardware/interconnect/PCIe|PCIe]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/collectives/ReduceScatter|ReduceScatter]]
 

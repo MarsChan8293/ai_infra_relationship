@@ -611,9 +611,7 @@
       "type": "company",
       "name": "Meta",
       "linked_people": "",
-      "projects": [
-        "vLLM"
-      ],
+      "projects": "",
       "linked_projects": ""
     }
   },
@@ -661,6 +659,139 @@
       "linked_people": "",
       "projects": "",
       "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/Naive AI",
+    "path": "company/Naive AI/Naive AI.md",
+    "name": "Naive AI",
+    "type": "company",
+    "category": "company",
+    "frontmatter": {
+      "type": "company",
+      "name": "Naive AI",
+      "aliases": [
+        "NaiveAI",
+        "naive.ai"
+      ],
+      "linked_people": [],
+      "areas": "",
+      "projects": "",
+      "people": "",
+      "last_verified": "2026-09",
+      "linked_projects": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/Naive-N0.5-Flash",
+    "path": "company/Naive AI/Naive-N0.5-Flash.md",
+    "name": "Naive-N0.5-Flash",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "Naive-N0.5-Flash",
+      "status": "active",
+      "linked_people": "",
+      "repository": "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash",
+      "docs": "https://naive.ai/en/research/",
+      "companies": [
+        "Naive AI"
+      ],
+      "layer": "other",
+      "areas": "",
+      "hardware": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/NaiveRT",
+    "path": "company/Naive AI/NaiveRT.md",
+    "name": "NaiveRT",
+    "type": "project",
+    "category": "company",
+    "frontmatter": {
+      "type": "project",
+      "name": "NaiveRT",
+      "status": "active",
+      "docs": "https://naive.ai/en/research/",
+      "linked_people": [],
+      "companies": [
+        "Naive AI"
+      ],
+      "layer": "runtime",
+      "areas": "",
+      "hardware": "",
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/Weiyun Wang",
+    "path": "company/Naive AI/Weiyun Wang.md",
+    "name": "Weiyun Wang",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Weiyun Wang",
+      "aliases": [
+        "Weiyun Wang",
+        "Weiyun1025"
+      ],
+      "projects": "",
+      "areas": "",
+      "roles": "",
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/Zhe Chen",
+    "path": "company/Naive AI/Zhe Chen.md",
+    "name": "Zhe Chen",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "Zhe Chen",
+      "aliases": [
+        "Zhe Chen",
+        "czczup"
+      ],
+      "projects": "",
+      "areas": "",
+      "roles": "",
+      "confidence": "project-credit",
+      "last_verified": "2026-09",
+      "relations": ""
+    }
+  },
+  {
+    "id": "company/Naive AI/代季峰 Jifeng Dai",
+    "path": "company/Naive AI/代季峰 Jifeng Dai.md",
+    "name": "代季峰",
+    "type": "person",
+    "category": "company",
+    "frontmatter": {
+      "type": "person",
+      "name": "代季峰",
+      "english_name": "Jifeng Dai",
+      "aliases": [
+        "代季峰",
+        "Jifeng Dai"
+      ],
+      "current_affiliations": [
+        "清华大学"
+      ],
+      "schools": "",
+      "areas": "",
+      "roles": "",
+      "confidence": "high",
+      "last_verified": "2026-09",
+      "relations": ""
     }
   },
   {
@@ -2180,9 +2311,7 @@
         "Seed"
       ],
       "linked_people": "",
-      "projects": [
-        "AIBrix"
-      ],
+      "projects": "",
       "linked_projects": ""
     }
   },
@@ -3600,8 +3729,9 @@
       "areas": [
         "ai-infrastructure"
       ],
-      "last_verified": "2026-09",
-      "relations": ""
+      "last_verified": "2026-10",
+      "relations": "",
+      "projects": ""
     }
   },
   {
@@ -5246,12 +5376,7 @@
       "name": "阿里巴巴",
       "title": "阿里巴巴",
       "linked_people": "",
-      "projects": [
-        "Qwen",
-        "Qwen3",
-        "Qwen-Coder",
-        "TokenSpeed"
-      ],
+      "projects": "",
       "linked_projects": ""
     }
   },
@@ -5336,6 +5461,76 @@
     }
   },
   {
+    "id": "community/AMD-AGI/GEAK/GEAK",
+    "path": "community/AMD-AGI/GEAK/GEAK.md",
+    "name": "GEAK",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "GEAK",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/AMD-AGI/GEAK",
+      "docs": "https://rocm.docs.amd.com/projects/geak/",
+      "areas": [
+        "agentic-inference-optimization",
+        "agentic-kernel-optimization",
+        "multi-agent",
+        "deterministic-workflow",
+        "vllm",
+        "sglang",
+        "profiling",
+        "benchmarking"
+      ],
+      "hardware": [
+        "amd"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/AMD-AGI/Hyperloom/Hyperloom",
+    "path": "community/AMD-AGI/Hyperloom/Hyperloom.md",
+    "name": "Hyperloom",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Hyperloom",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/AMD-AGI/Hyperloom",
+      "docs": "https://rocm.docs.amd.com/projects/hyperloom/",
+      "areas": [
+        "agentic-inference-optimization",
+        "agentic-kernel-optimization",
+        "multi-agent",
+        "e2e-validation",
+        "recipe-memory",
+        "vllm",
+        "sglang",
+        "xdit"
+      ],
+      "hardware": [
+        "amd"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/Ascend/Ascend/Ascend",
     "path": "community/Ascend/Ascend/Ascend.md",
     "name": "Ascend",
@@ -5371,6 +5566,82 @@
       "company_relation": "company-led",
       "layer": "ai-compute-software-stack",
       "open_source": true,
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/Ascend/CANNBot/CANNBot",
+    "path": "community/Ascend/CANNBot/CANNBot.md",
+    "name": "CANNBot",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CANNBot",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://gitcode.com/cann/cannbot",
+      "docs": "https://gitcode.com/cann/cannbot-skills",
+      "areas": [
+        "agentic-inference-optimization",
+        "agentic-kernel-optimization",
+        "ascendc",
+        "triton-ascend",
+        "pytorch-npu",
+        "model-infer-optimize",
+        "multi-agent",
+        "harness"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+    "path": "community/Ascend/CANNBot-DSL/CANNBot-DSL.md",
+    "name": "CANNBot-DSL",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CANNBot-DSL",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "compiler",
+      "status": "active",
+      "repository": "https://gitcode.com/cann/cannbot-dsl",
+      "docs": "https://cannbot-dsl.gitcode.com/api/",
+      "areas": [
+        "kernel-dsl",
+        "agentic-kernel-optimization",
+        "ascend-npu",
+        "ascend-950",
+        "kernel-codegen",
+        "aot-compilation",
+        "native-operator-package",
+        "attention",
+        "sparse-attention",
+        "matmul",
+        "deepseek-v4.1"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "integrations": [
+        "CANNBot"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
       "linked_companies": ""
     }
   },
@@ -6001,6 +6272,7 @@
       "type": "project",
       "name": "TransferQueue",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "post-training-data-plane",
       "open_source": true,
       "repository": "https://github.com/Ascend/TransferQueue",
@@ -6051,6 +6323,40 @@
         "ai-infrastructure"
       ],
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/Ascend/agent-skills/Ascend Agent Skills",
+    "path": "community/Ascend/agent-skills/Ascend Agent Skills.md",
+    "name": "Ascend Agent Skills",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Ascend Agent Skills",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/Ascend/agent-skills",
+      "areas": [
+        "agent-skills",
+        "agentic-kernel-optimization",
+        "ascendc",
+        "triton-ascend",
+        "catlass",
+        "profiling",
+        "precision-evaluation",
+        "performance-optimization"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
     }
   },
   {
@@ -6307,6 +6613,39 @@
       "confidence": "verified",
       "last_verified": "2026-09",
       "relations": ""
+    }
+  },
+  {
+    "id": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent",
+    "path": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent.md",
+    "name": "CUDA-Agent",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CUDA-Agent",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/BytedTsinghua-SIA/CUDA-Agent",
+      "docs": "https://cuda-agent.github.io/",
+      "areas": [
+        "agentic-kernel-optimization",
+        "agentic-rl",
+        "cuda",
+        "kernel-generation",
+        "correctness-verification",
+        "profiling"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "companies": [
+        "字节跳动"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
     }
   },
   {
@@ -7367,6 +7706,7 @@
       "type": "project",
       "name": "Croqtile",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "compiler",
       "status": "active",
       "repository": "https://github.com/LancerLab/croqtile",
@@ -7401,6 +7741,70 @@
         "kv-cache",
         "scheduling",
         "distributed-inference"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/Meta/KernelEvolve/KernelEvolve",
+    "path": "community/Meta/KernelEvolve/KernelEvolve.md",
+    "name": "KernelEvolve",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KernelEvolve",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+      "areas": [
+        "agentic-kernel-optimization",
+        "tree-search",
+        "evolutionary-search",
+        "optimization-memory",
+        "production-kernels",
+        "heterogeneous-hardware"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "mtia",
+        "cpu"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/MetaInfer/MetaInfer",
+    "path": "community/MetaInfer/MetaInfer.md",
+    "name": "MetaInfer",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "MetaInfer",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/MetaInfer/MetaInfer",
+      "areas": [
+        "llm-inference",
+        "inference-framework-generation",
+        "ai-infra-agent",
+        "kernel-optimization",
+        "model-porting",
+        "performance-optimization"
+      ],
+      "hardware": [
+        "nvidia"
       ],
       "last_verified": "2026-09",
       "linked_companies": []
@@ -7482,6 +7886,42 @@
       "company_relation": "company-led",
       "layer": "llm-serving-hardware-backend",
       "open_source": true,
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/MindSpore/AKG Agents/AKG Agents",
+    "path": "community/MindSpore/AKG Agents/AKG Agents.md",
+    "name": "AKG Agents",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AKG Agents",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/mindspore-ai/akg",
+      "docs": "https://github.com/mindspore-ai/akg/tree/master/akg_agents",
+      "areas": [
+        "agentic-kernel-optimization",
+        "multi-agent",
+        "kernel-generation",
+        "autonomous-research",
+        "triton-ascend",
+        "swft",
+        "kernel-verifier"
+      ],
+      "hardware": [
+        "ascend",
+        "nvidia",
+        "cpu"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
       "linked_companies": ""
     }
   },
@@ -7778,6 +8218,39 @@
     }
   },
   {
+    "id": "community/NVIDIA/AVO/AVO",
+    "path": "community/NVIDIA/AVO/AVO.md",
+    "name": "AVO",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AVO",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2603.24517",
+      "areas": [
+        "agentic-kernel-optimization",
+        "evolutionary-search",
+        "agentic-variation-operators",
+        "attention",
+        "cuda",
+        "ptx",
+        "execution-feedback"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/NVIDIA/CUTLASS/Aniket Shivam",
     "path": "community/NVIDIA/CUTLASS/Aniket Shivam.md",
     "name": "Aniket Shivam",
@@ -8025,6 +8498,88 @@
     }
   },
   {
+    "id": "community/NVIDIA/KDA/KDA",
+    "path": "community/NVIDIA/KDA/KDA.md",
+    "name": "KDA",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KDA",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/NVlabs/kda",
+      "docs": "https://nvlabs.github.io/kda/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/NVIDIA/KernelBlaster/KernelBlaster",
+    "path": "community/NVIDIA/KernelBlaster/KernelBlaster.md",
+    "name": "KernelBlaster",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KernelBlaster",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/NVlabs/KernelBlaster",
+      "areas": [
+        "agentic-kernel-optimization",
+        "memory-augmented-icl",
+        "reinforcement-learning",
+        "cuda",
+        "profiling",
+        "replay-memory",
+        "optimization-knowledge-base"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+    "path": "community/NVIDIA/Megatron-LM/Megatron-LM.md",
+    "name": "Megatron-LM",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Megatron-LM",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "training",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/Megatron-LM",
+      "docs": "https://docs.nvidia.com/megatron-core/developer-guide/latest/",
+      "areas": "",
+      "hardware": "",
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/NVIDIA/NCCL/NCCL",
     "path": "community/NVIDIA/NCCL/NCCL.md",
     "name": "NCCL",
@@ -8253,6 +8808,39 @@
       "communities": [
         "TensorRT-LLM"
       ],
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/NVIDIA/TileGym/TileGym",
+    "path": "community/NVIDIA/TileGym/TileGym.md",
+    "name": "TileGym",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TileGym",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/NVIDIA/TileGym",
+      "areas": [
+        "agentic-kernel-development",
+        "agent-skills",
+        "cutile",
+        "kernel-autotuning",
+        "benchmarking",
+        "kernel-generation",
+        "transformers-integration"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "companies": [
+        "NVIDIA"
+      ],
+      "last_verified": "2026-10",
       "linked_companies": ""
     }
   },
@@ -8802,6 +9390,66 @@
     "frontmatter": {}
   },
   {
+    "id": "community/Stanford University/Astra/Astra",
+    "path": "community/Stanford University/Astra/Astra.md",
+    "name": "Astra",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Astra",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "repository": "https://github.com/Anjiang-Wei/Astra",
+      "organization": "Stanford University",
+      "areas": [
+        "agentic-kernel-optimization",
+        "multi-agent",
+        "cuda",
+        "sglang",
+        "profiling",
+        "planning",
+        "serving-kernel"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/StigLidu/AdaExplore/AdaExplore",
+    "path": "community/StigLidu/AdaExplore/AdaExplore.md",
+    "name": "AdaExplore",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AdaExplore",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "repository": "https://github.com/StigLidu/AdaExplore",
+      "areas": [
+        "agentic-kernel-optimization",
+        "failure-memory",
+        "tree-search",
+        "triton",
+        "self-improvement",
+        "execution-feedback"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/Tencent/HPC-Ops/HPC-Ops",
     "path": "community/Tencent/HPC-Ops/HPC-Ops.md",
     "name": "HPC-Ops",
@@ -8834,6 +9482,39 @@
       ],
       "last_verified": "2026-09",
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/UC Berkeley/K-Search/K-Search",
+    "path": "community/UC Berkeley/K-Search/K-Search.md",
+    "name": "K-Search",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "K-Search",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/caoshiyi/K-Search",
+      "docs": "https://sky.cs.berkeley.edu/project/k-search/",
+      "organization": "UC Berkeley",
+      "areas": [
+        "agentic-kernel-optimization",
+        "world-model",
+        "tree-search",
+        "cuda",
+        "flashinfer",
+        "kernelbench",
+        "evidence-driven-search"
+      ],
+      "hardware": [
+        "nvidia",
+        "apple-silicon"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
     }
   },
   {
@@ -9232,6 +9913,41 @@
     }
   },
   {
+    "id": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent",
+    "path": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent.md",
+    "name": "Atrex Kernel Agent",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Atrex Kernel Agent",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/alibaba/atrex-kernel-agent",
+      "areas": [
+        "agentic-kernel-optimization",
+        "mechanical-supervisor",
+        "profiling",
+        "correctness-gate",
+        "performance-gate",
+        "git-isolation",
+        "production-kernel"
+      ],
+      "hardware": [
+        "nvidia",
+        "amd",
+        "t-head-ppu"
+      ],
+      "companies": [
+        "阿里巴巴"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/apache/Spark/Spark",
     "path": "community/apache/Spark/Spark.md",
     "name": "Spark",
@@ -9254,6 +9970,27 @@
         "ai-data-platform"
       ],
       "last_verified": "2026-09",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/ashhart/TensorFold/TensorFold",
+    "path": "community/ashhart/TensorFold/TensorFold.md",
+    "name": "TensorFold",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TensorFold",
+      "status": "active",
+      "linked_people": [],
+      "open_source": true,
+      "license": "MIT",
+      "repository": "https://github.com/ashhart/TensorFold",
+      "last_verified": "2026-09",
+      "layer": "inference-engine",
+      "areas": "",
+      "hardware": "",
       "linked_companies": []
     }
   },
@@ -9332,6 +10069,50 @@
     "frontmatter": {}
   },
   {
+    "id": "community/cordiverse/Cordis/Cordis",
+    "path": "community/cordiverse/Cordis/Cordis.md",
+    "name": "Cordis",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Cordis",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/cordiverse/cordis",
+      "docs": "https://deepseek-harness.github.io/deepseek-harness/reference/cordis-primer",
+      "last_verified": "2026-10",
+      "layer": "runtime",
+      "areas": "",
+      "integrations": [],
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+    "path": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness.md",
+    "name": "DeepSeek Harness",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DeepSeek Harness",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/deepseek-harness",
+      "docs": "https://deepseek-harness.github.io/deepseek-harness/",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "runtime",
+      "areas": "",
+      "integrations": "",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
     "path": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
     "name": "3FS",
@@ -9341,6 +10122,7 @@
       "type": "project",
       "name": "3FS",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": [],
       "repository": "https://github.com/deepseek-ai/3FS",
@@ -9367,7 +10149,9 @@
       "communities": [
         "DeepGEMM",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9382,7 +10166,9 @@
       "communities": [
         "DeepEP",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9403,7 +10189,9 @@
       "linked_companies": "",
       "projects": [
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "gpu-kernels",
@@ -9412,7 +10200,58 @@
         "tilelang"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao.md",
+    "name": "Chenqi Zhao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Chenqi Zhao",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepEP-Ascend"
+      ],
+      "areas": [
+        "expert-parallel"
+      ],
+      "roles": [
+        "official citation author"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+    "path": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend.md",
+    "name": "DeepEP-Ascend",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DeepEP-Ascend",
+      "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DeepEP-Ascend",
+      "docs": "https://github.com/deepseek-ai/DeepEP-Ascend",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "communication",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "linked_companies": ""
     }
   },
   {
@@ -9430,7 +10269,7 @@
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepEP",
       "docs": "https://github.com/deepseek-ai/DeepEP",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
@@ -9440,6 +10279,32 @@
       "areas": "",
       "hardware": "",
       "integrations": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+    "path": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend.md",
+    "name": "DeepGEMM-Ascend",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DeepGEMM-Ascend",
+      "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
+      "docs": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "runtime",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "linked_companies": ""
     }
   },
   {
@@ -9457,7 +10322,7 @@
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepGEMM",
       "docs": "https://github.com/deepseek-ai/DeepGEMM",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
@@ -9483,7 +10348,7 @@
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/DeepJIT",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
@@ -9491,7 +10356,7 @@
       "layer": "compiler",
       "areas": "",
       "hardware": "",
-      "integrations": [],
+      "integrations": "",
       "linked_companies": ""
     }
   },
@@ -9508,7 +10373,7 @@
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
@@ -9546,6 +10411,31 @@
         "deepseek-v4"
       ],
       "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+    "path": "community/deepseek-ai/DeepSeek-Infra/DualPipe.md",
+    "name": "DualPipe",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "DualPipe",
+      "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": "",
+      "repository": "https://github.com/deepseek-ai/DualPipe",
+      "docs": "https://github.com/deepseek-ai/DualPipe",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "training",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -9588,10 +10478,11 @@
       "type": "project",
       "name": "FlashMLA",
       "parent": "DeepSeek-Infra",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/deepseek-ai/FlashMLA",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [
         "深度求索"
       ],
@@ -9601,6 +10492,31 @@
       "hardware": "",
       "integrations": [],
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li.md",
+    "name": "Guanglin Li",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Guanglin Li",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "scale-factor-layout"
+      ],
+      "roles": [
+        "SF Layout Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9624,7 +10540,8 @@
       "projects": [
         "LPLB",
         "TileKernels",
-        "DeepSpec"
+        "DeepSpec",
+        "DeepGEMM-Ascend"
       ],
       "areas": [
         "moe",
@@ -9634,7 +10551,7 @@
         "speculative-decoding"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9660,7 +10577,34 @@
         "expert-parallel",
         "gpu-kernels",
         "mla"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen.md",
+    "name": "Kaifeng Chen",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Kaifeng Chen",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mqa-logits"
+      ],
+      "roles": [
+        "MQA Logits contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9683,7 +10627,9 @@
       "projects": [
         "DeepEP",
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "moe-communication",
@@ -9692,7 +10638,7 @@
         "tilelang"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9794,7 +10740,8 @@
       "linked_companies": "",
       "projects": [
         "TileKernels",
-        "DeepSpec"
+        "DeepSpec",
+        "DeepEP-Ascend"
       ],
       "areas": [
         "gpu-kernels",
@@ -9803,7 +10750,32 @@
         "llm-inference"
       ],
       "confidence": "high",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu.md",
+    "name": "Ruifan Xu",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Ruifan Xu",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mhc-kernel"
+      ],
+      "roles": [
+        "mHC Kernel contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -9850,7 +10822,9 @@
       "communities": [
         "DeepEP",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10011,6 +10985,81 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang.md",
+    "name": "Yizhi Wang",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yizhi Wang",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepEP-Ascend"
+      ],
+      "areas": [
+        "expert-parallel"
+      ],
+      "roles": [
+        "official citation author"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng.md",
+    "name": "Yuhao Meng",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yuhao Meng",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "gemm-kernels"
+      ],
+      "roles": [
+        "GEMM Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao.md",
+    "name": "Yunfan Xiao",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yunfan Xiao",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "gemm-kernels"
+      ],
+      "roles": [
+        "GEMM Kernels contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
     "name": "Yuxuan Liu",
@@ -10026,6 +11075,31 @@
     }
   },
   {
+    "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+    "path": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou.md",
+    "name": "Yuxuan Zhou",
+    "type": "person",
+    "category": "community",
+    "frontmatter": {
+      "type": "person",
+      "name": "Yuxuan Zhou",
+      "communities": [
+        "DeepSeek-Infra"
+      ],
+      "projects": [
+        "DeepGEMM-Ascend"
+      ],
+      "areas": [
+        "mhc-kernel"
+      ],
+      "roles": [
+        "mHC Kernel contributor"
+      ],
+      "confidence": "verified",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu",
     "path": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu.md",
     "name": "Zhean Xu",
@@ -10038,7 +11112,34 @@
         "DeepEP",
         "DeepGEMM",
         "DeepSeek-Infra"
-      ]
+      ],
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+    "path": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend.md",
+    "name": "clangd-ascend",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "clangd-ascend",
+      "parent": "DeepSeek-Infra",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/clangd-ascend",
+      "docs": "https://github.com/deepseek-ai/clangd-ascend",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "compiler",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "linked_companies": ""
     }
   },
   {
@@ -10246,7 +11347,9 @@
         "gemm",
         "moe"
       ],
-      "name_verification": "public technical tutorial"
+      "name_verification": "public technical tutorial",
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -10275,10 +11378,12 @@
       "projects": [
         "DeepEP",
         "DeepGEMM",
-        "TileKernels"
+        "TileKernels",
+        "DeepGEMM-Ascend",
+        "DeepEP-Ascend"
       ],
       "confidence": "high",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "education": [
         "清华大学"
       ],
@@ -10343,6 +11448,30 @@
         "scheduling"
       ],
       "last_verified": "2026-09",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/deepseek-ai/Engram/Engram",
+    "path": "community/deepseek-ai/Engram/Engram.md",
+    "name": "Engram",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Engram",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/deepseek-ai/Engram",
+      "docs": "https://github.com/deepseek-ai/Engram",
+      "last_verified": "2026-10",
+      "companies": [
+        "深度求索"
+      ],
+      "layer": "other",
+      "areas": "",
+      "integrations": [],
       "linked_companies": ""
     }
   },
@@ -11386,9 +12515,29 @@
       "communities": [
         "FlashInfer"
       ],
-      "roles": [
-        "Original Paper Author"
-      ]
+      "roles": ""
+    }
+  },
+  {
+    "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+    "path": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench.md",
+    "name": "FlashInfer-Bench",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "FlashInfer-Bench",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization-harness",
+      "status": "active",
+      "repository": "https://github.com/flashinfer-ai/flashinfer-bench",
+      "docs": "https://bench.flashinfer.ai/",
+      "areas": "",
+      "hardware": "",
+      "integrations": "",
+      "last_verified": "2026-10",
+      "linked_companies": []
     }
   },
   {
@@ -11919,6 +13068,29 @@
         "checkpointing",
         "ai-infrastructure"
       ]
+    }
+  },
+  {
+    "id": "community/huggingface/Transformers/Transformers",
+    "path": "community/huggingface/Transformers/Transformers.md",
+    "name": "Transformers",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Transformers",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/huggingface/transformers",
+      "docs": "https://huggingface.co/docs/transformers/",
+      "areas": "",
+      "companies": [
+        "Hugging Face"
+      ],
+      "last_verified": "2026-09",
+      "linked_companies": ""
     }
   },
   {
@@ -12724,6 +13896,7 @@
       "name": "TENT",
       "parent": "Mooncake",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "data-movement",
       "open_source": true,
       "repository": "https://github.com/kvcache-ai/Mooncake",
@@ -13716,6 +14889,40 @@
     }
   },
   {
+    "id": "community/meta-pytorch/KernelAgent/KernelAgent",
+    "path": "community/meta-pytorch/KernelAgent/KernelAgent.md",
+    "name": "KernelAgent",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "KernelAgent",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/meta-pytorch/KernelAgent",
+      "areas": [
+        "agentic-kernel-optimization",
+        "triton",
+        "multi-agent",
+        "ncu",
+        "roofline",
+        "correctness-verification",
+        "benchmarking"
+      ],
+      "hardware": [
+        "nvidia",
+        "intel-xpu"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
     "id": "community/ollama/Ollama/Ollama",
     "path": "community/ollama/Ollama/Ollama.md",
     "name": "Ollama",
@@ -14031,6 +15238,85 @@
       "hardware": "",
       "integrations": "",
       "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/research/AgenticCANN/AgenticCANN",
+    "path": "community/research/AgenticCANN/AgenticCANN.md",
+    "name": "AgenticCANN",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AgenticCANN",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2607.26661",
+      "areas": [
+        "agentic-kernel-optimization",
+        "ascendc",
+        "knowledge-augmentation",
+        "agentic-evolution",
+        "operator-generation",
+        "runtime-feedback"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/research/AscendOptimizer/AscendOptimizer",
+    "path": "community/research/AscendOptimizer/AscendOptimizer.md",
+    "name": "AscendOptimizer",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AscendOptimizer",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2603.23566",
+      "areas": [
+        "agentic-kernel-optimization",
+        "ascendc",
+        "episodic-memory",
+        "profiling-in-the-loop",
+        "evolutionary-search",
+        "host-tiling",
+        "kernel-rewriting"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/research/CAKE/CAKE",
+    "path": "community/research/CAKE/CAKE.md",
+    "name": "CAKE",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CAKE",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "agent-compiler-kernel-optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2608.12629",
+      "areas": "",
+      "hardware": "",
+      "last_verified": "2026-10",
+      "linked_companies": []
     }
   },
   {
@@ -14657,6 +15943,83 @@
     }
   },
   {
+    "id": "community/tile-ai/TileLang/TileLang-Ascend",
+    "path": "community/tile-ai/TileLang/TileLang-Ascend.md",
+    "name": "TileLang-Ascend",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TileLang-Ascend",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/tile-ai/tilelang-ascend",
+      "docs": "https://github.com/tile-ai/tilelang-ascend/blob/ascendc_pto/docs/TileLang-Ascend%20Programming%20Guide.md",
+      "last_verified": "2026-10",
+      "companies": [],
+      "layer": "compiler",
+      "areas": [
+        "kernel-dsl",
+        "ascend",
+        "ascend-a2",
+        "ascend-a3",
+        "ascendc",
+        "pto",
+        "npuir",
+        "gemm",
+        "attention-kernels",
+        "sparse-attention"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "integrations": [
+        "TileLang",
+        "CANN"
+      ],
+      "linked_companies": []
+    }
+  },
+  {
+    "id": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "path": "community/tile-ai/TileLang/TileLang-MLIR-Ascend.md",
+    "name": "TileLang-MLIR-Ascend",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "TileLang-MLIR-Ascend",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/tile-ai/tilelang-mlir-ascend",
+      "docs": "https://github.com/tile-ai/tilelang-mlir-ascend",
+      "last_verified": "2026-10",
+      "companies": [],
+      "layer": "compiler",
+      "areas": [
+        "kernel-dsl",
+        "mlir",
+        "ascendnpu-ir",
+        "ascend",
+        "ascend-a2",
+        "ascend-a3",
+        "gemm",
+        "attention-kernels",
+        "deepseek-v4"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "integrations": [
+        "TileLang",
+        "CANN"
+      ],
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/tile-ai/TileLang/TileLang",
     "path": "community/tile-ai/TileLang/TileLang.md",
     "name": "TileLang",
@@ -14670,12 +16033,12 @@
       "layer": "compiler",
       "status": "active",
       "repository": "https://github.com/tile-ai/tilelang",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "companies": [],
       "company_relation": "academic-research-led",
       "areas": "",
       "hardware": "",
-      "integrations": [],
+      "integrations": "",
       "linked_companies": []
     }
   },
@@ -16514,6 +17877,7 @@
       "type": "project",
       "name": "Tutti",
       "linked_people": "",
+      "linked_concepts": "",
       "layer": "kv-cache",
       "open_source": true,
       "repository": "https://github.com/xPU-IO/Tutti",
@@ -16608,6 +17972,7 @@
     "frontmatter": {
       "type": "project",
       "name": "RoofLang",
+      "linked_concepts": "",
       "status": "active",
       "linked_people": "",
       "repository": "https://github.com/yzygitzh/rooflang",
@@ -16662,6 +18027,102 @@
     }
   },
   {
+    "id": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis",
+    "path": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis.md",
+    "name": "Compiler-Grounded Hierarchical Diagnosis",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Compiler-Grounded Hierarchical Diagnosis",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2607.23089",
+      "areas": [
+        "agentic-kernel-optimization",
+        "triton-ascend",
+        "compiler-feedback",
+        "ir-diagnosis",
+        "profiling",
+        "hierarchical-diagnosis"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/南京大学/AscendCraft/AscendCraft",
+    "path": "community/南京大学/AscendCraft/AscendCraft.md",
+    "name": "AscendCraft",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AscendCraft",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2601.22760",
+      "organization": "南京大学",
+      "areas": [
+        "agentic-kernel-optimization",
+        "ascendc",
+        "dsl",
+        "transcompilation",
+        "kernel-generation",
+        "constraint-guided-lowering"
+      ],
+      "hardware": [
+        "ascend"
+      ],
+      "companies": [
+        "华为"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/清华大学/CUDAMaster/CUDAMaster",
+    "path": "community/清华大学/CUDAMaster/CUDAMaster.md",
+    "name": "CUDAMaster",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "CUDAMaster",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "optimization",
+      "status": "research",
+      "docs": "https://hanyx2021.github.io/MSKernelBenchDemo/",
+      "organization": "清华大学",
+      "areas": [
+        "agentic-kernel-optimization",
+        "multi-agent",
+        "cuda",
+        "hardware-aware",
+        "profiling",
+        "toolchain-generation",
+        "mskernelbench"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "university/Binghamton University/Binghamton University",
     "path": "university/Binghamton University/Binghamton University.md",
     "name": "Binghamton University",
@@ -16699,6 +18160,25 @@
     }
   },
   {
+    "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+    "path": "university/Carnegie Mellon University/Catalyst Group/Event Tensor.md",
+    "name": "Event Tensor",
+    "type": "project",
+    "category": "university",
+    "frontmatter": {
+      "type": "project",
+      "name": "Event Tensor",
+      "linked_people": [],
+      "linked_concepts": "",
+      "layer": "compiler-runtime",
+      "status": "research",
+      "docs": "https://arxiv.org/abs/2604.13327",
+      "areas": "",
+      "last_verified": "2026-10",
+      "linked_companies": []
+    }
+  },
+  {
     "id": "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve",
     "path": "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve.md",
     "name": "FlexFlow Serve",
@@ -16727,12 +18207,13 @@
       "type": "project",
       "name": "Mirage Persistent Kernel",
       "linked_people": [],
+      "linked_concepts": "",
       "layer": "kernel-compiler-runtime",
       "status": "active",
       "repository": "https://github.com/mirage-project/mirage",
       "docs": "https://mirage-project.readthedocs.io/",
       "areas": "",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "linked_companies": []
     }
   },
@@ -16751,7 +18232,7 @@
       "repository": "https://github.com/mlc-ai/xgrammar",
       "docs": "https://xgrammar.mlc.ai/",
       "areas": "",
-      "last_verified": "2026-09",
+      "last_verified": "2026-10",
       "linked_companies": []
     }
   },
@@ -16782,13 +18263,14 @@
       "projects": [
         "XGrammar",
         "FlexFlow Serve",
-        "Mirage Persistent Kernel"
+        "Mirage Persistent Kernel",
+        "Event Tensor"
       ],
       "people": "",
       "website": "https://catalyst.cs.cmu.edu/",
       "country": "USA",
       "city": "Pittsburgh, PA",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21038,7 +22520,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21091,7 +22573,7 @@
       "topic": "collective-communication",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21233,7 +22715,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21251,7 +22733,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21268,7 +22750,7 @@
       "topic": "kernel-compilation",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21295,6 +22777,130 @@
     "type": "index",
     "category": "concept",
     "frontmatter": {}
+  },
+  {
+    "id": "concept/hardware/interconnect/HCCS",
+    "path": "concept/hardware/interconnect/HCCS.md",
+    "name": "HCCS",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "HCCS",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/Hardware Interconnect",
+    "path": "concept/hardware/interconnect/Hardware Interconnect.md",
+    "name": "Hardware Interconnect",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Hardware Interconnect",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/NVLink",
+    "path": "concept/hardware/interconnect/NVLink.md",
+    "name": "NVLink",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVLink",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/NVSwitch",
+    "path": "concept/hardware/interconnect/NVSwitch.md",
+    "name": "NVSwitch",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVSwitch",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/PCIe",
+    "path": "concept/hardware/interconnect/PCIe.md",
+    "name": "PCIe",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "PCIe",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/hardware/interconnect/xGMI",
+    "path": "concept/hardware/interconnect/xGMI.md",
+    "name": "xGMI",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "xGMI",
+      "aliases": "",
+      "domain": "hardware",
+      "topic": "interconnect",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/inference/agent/Agent Harness",
+    "path": "concept/inference/agent/Agent Harness.md",
+    "name": "Agent Harness",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Agent Harness",
+      "aliases": "",
+      "domain": "inference",
+      "topic": "agent-runtime",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
   },
   {
     "id": "concept/inference/decoding/Draft-Target Decoding",
@@ -21363,6 +22969,7 @@
       "topic": "decoding",
       "parent_concepts": "",
       "related_concepts": "",
+      "projects": "",
       "last_verified": "2026-09"
     }
   },
@@ -21509,6 +23116,23 @@
     }
   },
   {
+    "id": "concept/inference/optimization/Agentic Inference Optimization",
+    "path": "concept/inference/optimization/Agentic Inference Optimization.md",
+    "name": "Agentic Inference Optimization",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Agentic Inference Optimization",
+      "aliases": "",
+      "domain": "inference",
+      "topic": "optimization",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "concept/inference/parallelism/Context Parallelism",
     "path": "concept/inference/parallelism/Context Parallelism.md",
     "name": "Context Parallelism",
@@ -21559,7 +23183,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21594,7 +23218,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21611,6 +23235,7 @@
       "topic": "parallelism",
       "parent_concepts": "",
       "related_concepts": "",
+      "projects": "",
       "last_verified": "2026-09"
     }
   },
@@ -21858,7 +23483,7 @@
       "topic": "attention",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21898,6 +23523,24 @@
     }
   },
   {
+    "id": "concept/kernel/attention/Sparse Attention",
+    "path": "concept/kernel/attention/Sparse Attention.md",
+    "name": "Sparse Attention",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Sparse Attention",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "attention",
+      "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
+    }
+  },
+  {
     "id": "concept/kernel/gemm/GEMM",
     "path": "concept/kernel/gemm/GEMM.md",
     "name": "GEMM",
@@ -21911,7 +23554,7 @@
       "topic": "gemm",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21929,7 +23572,24 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "concept/kernel/optimization/Agentic Kernel Optimization",
+    "path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
+    "name": "Agentic Kernel Optimization",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Agentic Kernel Optimization",
+      "aliases": "",
+      "domain": "kernel",
+      "topic": "optimization",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21963,7 +23623,7 @@
       "topic": "kernel-programming",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21980,7 +23640,7 @@
       "topic": "kernel-programming",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -21998,6 +23658,23 @@
       "related_concepts": "",
       "projects": "",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/memory/Conditional Memory",
+    "path": "concept/memory/Conditional Memory.md",
+    "name": "Conditional Memory",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Conditional Memory",
+      "aliases": "",
+      "domain": "memory",
+      "topic": "memory-hierarchy",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22033,7 +23710,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22102,7 +23779,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22120,7 +23797,7 @@
       "parent_concepts": "",
       "related_concepts": "",
       "projects": "",
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -22207,6 +23884,108 @@
       "domain": "quantization",
       "topic": "quantization",
       "parent_concepts": "",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Direct Storage IO",
+    "path": "concept/storage/Direct Storage IO.md",
+    "name": "Direct Storage I/O",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Direct Storage I/O",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "data-path",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Distributed Storage",
+    "path": "concept/storage/Distributed Storage.md",
+    "name": "Distributed Storage",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Distributed Storage",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "distributed-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/NVMe SSD",
+    "path": "concept/storage/NVMe SSD.md",
+    "name": "NVMe SSD",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "NVMe SSD",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "storage-media",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Remote Object Store",
+    "path": "concept/storage/Remote Object Store.md",
+    "name": "Remote Object Store",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Remote Object Store",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "distributed-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/SSD-Backed KV Cache",
+    "path": "concept/storage/SSD-Backed KV Cache.md",
+    "name": "SSD-Backed KV Cache",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "SSD-Backed KV Cache",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "kv-cache-storage",
+      "related_concepts": "",
+      "projects": "",
+      "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "concept/storage/Storage Tiering",
+    "path": "concept/storage/Storage Tiering.md",
+    "name": "Storage Tiering",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Storage Tiering",
+      "aliases": "",
+      "domain": "storage",
+      "topic": "storage-tiering",
       "related_concepts": "",
       "projects": "",
       "last_verified": "2026-09"

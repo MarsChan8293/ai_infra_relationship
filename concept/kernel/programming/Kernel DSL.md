@@ -16,9 +16,12 @@ related_concepts:
 projects:
   - Triton
   - TileLang
+  - TileLang-Ascend
+  - TileLang-MLIR-Ascend
   - CUTLASS
   - FlagTree
-last_verified: 2026-09
+  - CANNBot-DSL
+last_verified: "2026-10"
 ---
 
 # Kernel DSL
@@ -48,7 +51,7 @@ Kernel DSL 面向 kernel 作者，强调“如何写一个高性能算子”；�
 
 ## 项目实现
 
-[[community/triton-lang/Triton/Triton|Triton]] 用 Python 风格 DSL 编写 GPU kernel；[[community/tile-ai/TileLang/TileLang|TileLang]] 暴露 tile-level memory/dataflow 编程模型；[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] 4.x 提供 CuTe/CUTLASS Python DSL；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 在 Triton 体系上扩展面向多后端的 kernel 编程/代码生成抽象。
+[[community/triton-lang/Triton/Triton|Triton]] 用 Python 风格 DSL 编写 GPU kernel；[[community/tile-ai/TileLang/TileLang|TileLang]] 暴露 tile-level memory/dataflow 编程模型，并在主仓覆盖 Ascend 950；[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 与 [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 把同类 DSL 抽象扩展到 Ascend A2/A3；[[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] 4.x 提供 CuTe/CUTLASS Python DSL；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 在 Triton 体系上扩展面向多后端的 kernel 编程/代码生成抽象；[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 面向 Ascend NPU 提供 Agent-friendly DSL，并把 Host / Kernel / AI CPU、AOT 和 Native package 接口暴露给复杂算子开发与生成流程。
 
 ## Sources
 
@@ -56,3 +59,4 @@ Kernel DSL 面向 kernel 作者，强调“如何写一个高性能算子”；�
 - https://tilelang.com/
 - https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/overview.html
 - https://github.com/flagos-ai/FlagTree
+- https://gitcode.com/cann/cannbot-dsl

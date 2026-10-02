@@ -43,7 +43,7 @@ Catalyst 是 CMU 跨 Machine Learning、Computer Science 与 ECE 的 automated l
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
 - [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]：Carnegie Mellon University：计算机博士生，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]、Todd Mowry
-- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：[[university/Carnegie Mellon University/Carnegie Mellon University|Carnegie Mellon University]]：现任 ML / CS faculty，并参与 [[university/Carnegie Mellon University/Catalyst Group|Catalyst Group]]。
 - [[company/OpenAI/柳晓萱 Xiaoxuan Liu|柳晓萱（Xiaoxuan Liu）]]：[[Carnegie Mellon University]]：硕士
 - [[company/OpenAI/翁家翌 Jiayi Weng|翁家翌（Jiayi Weng）]]：[[Carnegie Mellon University]]：硕士，2020–2022
 - [[company/TensorMesh/Junchen Jiang|Junchen Jiang]]：[[Carnegie Mellon University]]：Computer Science PhD，2017；导师 Vyas Sekar、Hui Zhang。

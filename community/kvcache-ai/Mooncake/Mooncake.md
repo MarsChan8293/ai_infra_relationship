@@ -3,7 +3,9 @@ type: project
 name: Mooncake
 linked_concepts:
   - "concept/communication/data-movement/Data Movement"
+  - "concept/storage/Direct Storage IO"
   - "concept/inference/serving/Disaggregated Serving"
+  - "concept/storage/Distributed Storage"
   - "concept/communication/data-movement/GPUDirect RDMA"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
@@ -11,9 +13,13 @@ linked_concepts:
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
+  - "concept/storage/NVMe SSD"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/data-movement/RDMA"
+  - "concept/storage/Remote Object Store"
+  - "concept/storage/SSD-Backed KV Cache"
+  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 docs: https://github.com/kvcache-ai/Mooncake
@@ -163,7 +169,9 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
 - [[concept/communication/data-movement/Data Movement|Data Movement]]
+- [[concept/storage/Direct Storage IO|Direct Storage I/O]]
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
+- [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
@@ -171,9 +179,13 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
+- [[concept/storage/NVMe SSD|NVMe SSD]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/data-movement/RDMA|RDMA]]
+- [[concept/storage/Remote Object Store|Remote Object Store]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

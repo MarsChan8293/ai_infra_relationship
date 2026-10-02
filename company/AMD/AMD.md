@@ -7,7 +7,11 @@ linked_people:
 projects:
   - "TokenSpeed"
   - "RCCL"
+  - "GEAK"
+  - "Hyperloom"
 linked_projects:
+  - "community/AMD-AGI/GEAK/GEAK"
+  - "community/AMD-AGI/Hyperloom/Hyperloom"
   - "community/ROCm/RCCL/RCCL"
   - "community/lightseekorg/TokenSpeed/TokenSpeed"
 people:
@@ -45,6 +49,8 @@ AMD 是 CPU、GPU 与数据中心加速器厂商。其 Instinct GPU 与 ROCm 软
 
 以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
 
+- [[community/AMD-AGI/GEAK/GEAK|GEAK]]：公司页与社区/项目页均有显式记录。
+- [[community/AMD-AGI/Hyperloom/Hyperloom|Hyperloom]]：公司页与社区/项目页均有显式记录。
 - [[community/ROCm/RCCL/RCCL|RCCL]]：公司页与社区/项目页均有显式记录。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：公司页与社区/项目页均有显式记录；关系：`cross-company-co-creation`。
 

@@ -1,20 +1,20 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 851,
-  "complete_count": 851,
+  "node_count": 920,
+  "complete_count": 920,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
-    "company": 56,
-    "concept": 67,
+    "company": 57,
+    "concept": 84,
     "index": 5,
     "model-project": 13,
     "model-team": 1,
     "note": 19,
-    "person": 426,
+    "person": 437,
     "person-link": 4,
-    "project": 165,
+    "project": 205,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 35,
@@ -202,11 +202,47 @@
       "missing_required": []
     },
     {
+      "id": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent",
+      "type": "project",
+      "source_markdown": "community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/alibaba/Atrex Kernel Agent/Atrex Kernel Agent.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/AMD-AGI/GEAK/GEAK",
+      "type": "project",
+      "source_markdown": "community/AMD-AGI/GEAK/GEAK.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/AMD-AGI/GEAK/GEAK.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/AMD-AGI/Hyperloom/Hyperloom",
+      "type": "project",
+      "source_markdown": "community/AMD-AGI/Hyperloom/Hyperloom.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/AMD-AGI/Hyperloom/Hyperloom.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/apache/Spark/Spark",
       "type": "project",
       "source_markdown": "community/apache/Spark/Spark.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/apache/Spark/Spark.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "type": "project",
+      "source_markdown": "community/Ascend/agent-skills/Ascend Agent Skills.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Ascend/agent-skills/Ascend Agent Skills.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -225,6 +261,24 @@
       "source_markdown": "community/Ascend/CANN/CANN.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/Ascend/CANN/CANN.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "type": "project",
+      "source_markdown": "community/Ascend/CANNBot-DSL/CANNBot-DSL.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Ascend/CANNBot-DSL/CANNBot-DSL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Ascend/CANNBot/CANNBot",
+      "type": "project",
+      "source_markdown": "community/Ascend/CANNBot/CANNBot.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Ascend/CANNBot/CANNBot.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -472,6 +526,15 @@
       "missing_required": []
     },
     {
+      "id": "community/ashhart/TensorFold/TensorFold",
+      "type": "project",
+      "source_markdown": "community/ashhart/TensorFold/TensorFold.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/ashhart/TensorFold/TensorFold.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/bentoml/BentoML/BentoML",
       "type": "project",
       "source_markdown": "community/bentoml/BentoML/BentoML.md",
@@ -526,6 +589,15 @@
       "missing_required": []
     },
     {
+      "id": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent",
+      "type": "project",
+      "source_markdown": "community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA",
       "type": "project",
       "source_markdown": "community/cloud-native/Kubernetes-DRA/Kubernetes-DRA.md",
@@ -549,6 +621,15 @@
       "source_markdown": "community/community.md",
       "schema_definition": "schema/index.yaml",
       "schema_instance": "schema/nodes/community/community.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/cordiverse/Cordis/Cordis",
+      "type": "project",
+      "source_markdown": "community/cordiverse/Cordis/Cordis.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/cordiverse/Cordis/Cordis.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -598,6 +679,15 @@
       "missing_required": []
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/3FS",
       "type": "project",
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/3FS.md",
@@ -634,11 +724,47 @@
       "missing_required": []
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Chenqi Zhao.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/clangd-ascend.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/clangd-ascend.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepEP",
       "type": "project",
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/DeepEP.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/DeepEP.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -688,6 +814,15 @@
       "missing_required": []
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/DualPipe.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/DualPipe.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/EPLB",
       "type": "project",
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/EPLB.md",
@@ -702,6 +837,15 @@
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/FlashMLA.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/FlashMLA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Guanglin Li.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Guanglin Li.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -729,6 +873,15 @@
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Jiashi Li.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Jiashi Li.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Kaifeng Chen.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -805,6 +958,15 @@
       "missing_required": []
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Ruifan Xu.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Ruifan Xu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/Runji Wang",
       "type": "person",
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Runji Wang.md",
@@ -877,11 +1039,47 @@
       "missing_required": []
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Yizhi Wang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Yizhi Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Yuhao Meng.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Yuhao Meng.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Yunfan Xiao.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu",
       "type": "person",
       "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Yuxuan Liu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou",
+      "type": "person",
+      "source_markdown": "community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/DeepSeek-Infra/Yuxuan Zhou.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -936,6 +1134,15 @@
       "source_markdown": "community/deepseek-ai/DualPath/DualPath.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/deepseek-ai/DualPath/DualPath.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/deepseek-ai/Engram/Engram",
+      "type": "project",
+      "source_markdown": "community/deepseek-ai/Engram/Engram.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/deepseek-ai/Engram/Engram.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1201,6 +1408,15 @@
       "missing_required": []
     },
     {
+      "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "type": "project",
+      "source_markdown": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/flashinfer-ai/FlashInfer/aleozlx",
       "type": "person",
       "source_markdown": "community/flashinfer-ai/FlashInfer/aleozlx.md",
@@ -1431,6 +1647,15 @@
       "source_markdown": "community/hpcaitech/Colossal-AI/Hongxin Liu.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/hpcaitech/Colossal-AI/Hongxin Liu.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/huggingface/Transformers/Transformers",
+      "type": "project",
+      "source_markdown": "community/huggingface/Transformers/Transformers.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/huggingface/Transformers/Transformers.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2254,6 +2479,33 @@
       "missing_required": []
     },
     {
+      "id": "community/meta-pytorch/KernelAgent/KernelAgent",
+      "type": "project",
+      "source_markdown": "community/meta-pytorch/KernelAgent/KernelAgent.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/meta-pytorch/KernelAgent/KernelAgent.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Meta/KernelEvolve/KernelEvolve",
+      "type": "project",
+      "source_markdown": "community/Meta/KernelEvolve/KernelEvolve.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Meta/KernelEvolve/KernelEvolve.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MetaInfer/MetaInfer",
+      "type": "project",
+      "source_markdown": "community/MetaInfer/MetaInfer.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MetaInfer/MetaInfer.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/MetaX-MACA/mcoplib/mcoplib",
       "type": "project",
       "source_markdown": "community/MetaX-MACA/mcoplib/mcoplib.md",
@@ -2286,6 +2538,15 @@
       "source_markdown": "community/MetaX-MACA/vLLM-metax/vLLM-metax.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/MetaX-MACA/vLLM-metax/vLLM-metax.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/MindSpore/AKG Agents/AKG Agents",
+      "type": "project",
+      "source_markdown": "community/MindSpore/AKG Agents/AKG Agents.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/MindSpore/AKG Agents/AKG Agents.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2416,6 +2677,15 @@
       "missing_required": []
     },
     {
+      "id": "community/NVIDIA/AVO/AVO",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/AVO/AVO.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/AVO/AVO.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/NVIDIA/CUTLASS/Aniket Shivam",
       "type": "person",
       "source_markdown": "community/NVIDIA/CUTLASS/Aniket Shivam.md",
@@ -2502,6 +2772,33 @@
       "source_markdown": "community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/NVIDIA/k8s-device-plugin/NVIDIA-k8s-device-plugin.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/KDA/KDA",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/KDA/KDA.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/KDA/KDA.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/KernelBlaster/KernelBlaster",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/KernelBlaster/KernelBlaster.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/KernelBlaster/KernelBlaster.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/Megatron-LM/Megatron-LM.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/Megatron-LM/Megatron-LM.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2610,6 +2907,15 @@
       "source_markdown": "community/NVIDIA/TensorRT-LLM/Zhaoyang Wang.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/NVIDIA/TensorRT-LLM/Zhaoyang Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/NVIDIA/TileGym/TileGym",
+      "type": "project",
+      "source_markdown": "community/NVIDIA/TileGym/TileGym.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/NVIDIA/TileGym/TileGym.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2875,6 +3181,33 @@
       "missing_required": []
     },
     {
+      "id": "community/research/AgenticCANN/AgenticCANN",
+      "type": "project",
+      "source_markdown": "community/research/AgenticCANN/AgenticCANN.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/research/AgenticCANN/AgenticCANN.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/research/AscendOptimizer/AscendOptimizer",
+      "type": "project",
+      "source_markdown": "community/research/AscendOptimizer/AscendOptimizer.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/research/AscendOptimizer/AscendOptimizer.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/research/CAKE/CAKE",
+      "type": "project",
+      "source_markdown": "community/research/CAKE/CAKE.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/research/CAKE/CAKE.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/ROCm/RCCL/RCCL",
       "type": "project",
       "source_markdown": "community/ROCm/RCCL/RCCL.md",
@@ -3082,6 +3415,24 @@
       "missing_required": []
     },
     {
+      "id": "community/Stanford University/Astra/Astra",
+      "type": "project",
+      "source_markdown": "community/Stanford University/Astra/Astra.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Stanford University/Astra/Astra.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/StigLidu/AdaExplore/AdaExplore",
+      "type": "project",
+      "source_markdown": "community/StigLidu/AdaExplore/AdaExplore.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/StigLidu/AdaExplore/AdaExplore.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/taco-project/FlexKV/FlexKV",
       "type": "project",
       "source_markdown": "community/taco-project/FlexKV/FlexKV.md",
@@ -3141,6 +3492,24 @@
       "source_markdown": "community/thu-pacman/QFactory/QFactory.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/thu-pacman/QFactory/QFactory.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/tile-ai/TileLang/TileLang-Ascend",
+      "type": "project",
+      "source_markdown": "community/tile-ai/TileLang/TileLang-Ascend.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/tile-ai/TileLang/TileLang-Ascend.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+      "type": "project",
+      "source_markdown": "community/tile-ai/TileLang/TileLang-MLIR-Ascend.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/tile-ai/TileLang/TileLang-MLIR-Ascend.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3213,6 +3582,15 @@
       "source_markdown": "community/triton-lang/Triton/Triton.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/triton-lang/Triton/Triton.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/UC Berkeley/K-Search/K-Search",
+      "type": "project",
+      "source_markdown": "community/UC Berkeley/K-Search/K-Search.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/UC Berkeley/K-Search/K-Search.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3820,6 +4198,33 @@
       "missing_required": []
     },
     {
+      "id": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis",
+      "type": "project",
+      "source_markdown": "community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/南京大学/AscendCraft/AscendCraft",
+      "type": "project",
+      "source_markdown": "community/南京大学/AscendCraft/AscendCraft.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/南京大学/AscendCraft/AscendCraft.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/清华大学/CUDAMaster/CUDAMaster",
+      "type": "project",
+      "source_markdown": "community/清华大学/CUDAMaster/CUDAMaster.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/清华大学/CUDAMaster/CUDAMaster.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "company/Amazon/Amazon",
       "type": "company",
       "source_markdown": "company/Amazon/Amazon.md",
@@ -4068,6 +4473,60 @@
       "source_markdown": "company/Meta/Richard Zou.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/company/Meta/Richard Zou.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/Naive AI",
+      "type": "company",
+      "source_markdown": "company/Naive AI/Naive AI.md",
+      "schema_definition": "schema/company.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/Naive AI.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/Naive-N0.5-Flash",
+      "type": "project",
+      "source_markdown": "company/Naive AI/Naive-N0.5-Flash.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/Naive-N0.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/NaiveRT",
+      "type": "project",
+      "source_markdown": "company/Naive AI/NaiveRT.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/NaiveRT.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/Weiyun Wang",
+      "type": "person",
+      "source_markdown": "company/Naive AI/Weiyun Wang.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/Weiyun Wang.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/Zhe Chen",
+      "type": "person",
+      "source_markdown": "company/Naive AI/Zhe Chen.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/Zhe Chen.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "company/Naive AI/代季峰 Jifeng Dai",
+      "type": "person",
+      "source_markdown": "company/Naive AI/代季峰 Jifeng Dai.md",
+      "schema_definition": "schema/person.yaml",
+      "schema_instance": "schema/nodes/company/Naive AI/代季峰 Jifeng Dai.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -5701,6 +6160,69 @@
       "missing_required": []
     },
     {
+      "id": "concept/hardware/interconnect/Hardware Interconnect",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/Hardware Interconnect.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/Hardware Interconnect.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/hardware/interconnect/HCCS",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/HCCS.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/HCCS.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/hardware/interconnect/NVLink",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/NVLink.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/NVLink.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/hardware/interconnect/NVSwitch",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/NVSwitch.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/NVSwitch.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/hardware/interconnect/PCIe",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/PCIe.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/PCIe.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/hardware/interconnect/xGMI",
+      "type": "concept",
+      "source_markdown": "concept/hardware/interconnect/xGMI.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/hardware/interconnect/xGMI.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/agent/Agent Harness",
+      "type": "concept",
+      "source_markdown": "concept/inference/agent/Agent Harness.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/agent/Agent Harness.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "concept/inference/decoding/Draft-Target Decoding",
       "type": "concept",
       "source_markdown": "concept/inference/decoding/Draft-Target Decoding.md",
@@ -5805,6 +6327,15 @@
       "source_markdown": "concept/inference/kv-cache/Tiered KV Cache.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/inference/kv-cache/Tiered KV Cache.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/inference/optimization/Agentic Inference Optimization",
+      "type": "concept",
+      "source_markdown": "concept/inference/optimization/Agentic Inference Optimization.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/optimization/Agentic Inference Optimization.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -6007,6 +6538,15 @@
       "missing_required": []
     },
     {
+      "id": "concept/kernel/attention/Sparse Attention",
+      "type": "concept",
+      "source_markdown": "concept/kernel/attention/Sparse Attention.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/kernel/attention/Sparse Attention.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "concept/kernel/gemm/GEMM",
       "type": "concept",
       "source_markdown": "concept/kernel/gemm/GEMM.md",
@@ -6021,6 +6561,15 @@
       "source_markdown": "concept/kernel/gemm/Grouped GEMM.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/kernel/gemm/Grouped GEMM.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "type": "concept",
+      "source_markdown": "concept/kernel/optimization/Agentic Kernel Optimization.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/kernel/optimization/Agentic Kernel Optimization.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -6048,6 +6597,15 @@
       "source_markdown": "concept/kernel/programming/Kernel DSL.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/kernel/programming/Kernel DSL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/memory/Conditional Memory",
+      "type": "concept",
+      "source_markdown": "concept/memory/Conditional Memory.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/memory/Conditional Memory.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -6169,6 +6727,60 @@
       "missing_required": []
     },
     {
+      "id": "concept/storage/Direct Storage IO",
+      "type": "concept",
+      "source_markdown": "concept/storage/Direct Storage IO.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/Direct Storage IO.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/storage/Distributed Storage",
+      "type": "concept",
+      "source_markdown": "concept/storage/Distributed Storage.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/Distributed Storage.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/storage/NVMe SSD",
+      "type": "concept",
+      "source_markdown": "concept/storage/NVMe SSD.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/NVMe SSD.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/storage/Remote Object Store",
+      "type": "concept",
+      "source_markdown": "concept/storage/Remote Object Store.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/Remote Object Store.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/storage/SSD-Backed KV Cache",
+      "type": "concept",
+      "source_markdown": "concept/storage/SSD-Backed KV Cache.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/SSD-Backed KV Cache.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/storage/Storage Tiering",
+      "type": "concept",
+      "source_markdown": "concept/storage/Storage Tiering.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/storage/Storage Tiering.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "university/Binghamton University/Binghamton University",
       "type": "school",
       "source_markdown": "university/Binghamton University/Binghamton University.md",
@@ -6192,6 +6804,15 @@
       "source_markdown": "university/Carnegie Mellon University/Catalyst Group.md",
       "schema_definition": "schema/research-institution.yaml",
       "schema_instance": "schema/nodes/university/Carnegie Mellon University/Catalyst Group.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "type": "project",
+      "source_markdown": "university/Carnegie Mellon University/Catalyst Group/Event Tensor.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/university/Carnegie Mellon University/Catalyst Group/Event Tensor.yaml",
       "status": "complete",
       "missing_required": []
     },

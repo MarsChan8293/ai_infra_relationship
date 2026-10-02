@@ -10,7 +10,7 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/kurisu6912"
   - "community/deepseek-ai/DeepSeek-Infra/LyricZhao"
 repository: https://github.com/deepseek-ai/DeepJIT
-last_verified: "2026-09"
+last_verified: "2026-10"
 companies: ["深度求索"]
 company_relation: company-led
 layer: compiler
@@ -18,8 +18,12 @@ areas:
   - "jit-compilation"
   - "kernel-generation"
 hardware:
-  - "gpu"
-integrations: []
+  - "nvidia"
+  - "ascend"
+integrations:
+  - "CANN"
+  - "DeepGEMM-Ascend"
+  - "DeepEP-Ascend"
 linked_companies:
   - "company/深度求索/深度求索"
 ---
@@ -38,7 +42,10 @@ https://github.com/deepseek-ai/DeepJIT
 由 [[深度求索]] / deepseek-ai 维护。当前公开主要作者节点包括 [[guyan364]]、[[kurisu6912]]、[[LyricZhao]]。
 
 ## 生态关系
-[[vLLM-Ascend]] · [[DeepGEMM]] · CUDA · Ascend/CANN。它补的是 kernel toolchain/JIT 层，而不是完整 serving runtime。
+[[vLLM-Ascend]] · [[DeepGEMM]] · [[DeepGEMM-Ascend]] · [[DeepEP-Ascend]] · CUDA · Ascend/CANN。它补的是 kernel toolchain/JIT 层，而不是完整 serving runtime。
+
+## Ascend backend
+DeepJIT 的 Ascend backend 通过 Bisheng + ld.lld 编译/链接 Ascend kernel，再由 ACL 加载与 launch；默认可复用当前 torch_npu stream，并提供内存/磁盘 JIT cache、编译选项、汇编 dump 与设备信息查询。DeepGEMM-Ascend 与 DeepEP-Ascend 都把它作为运行时 kernel 编译基础设施。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）

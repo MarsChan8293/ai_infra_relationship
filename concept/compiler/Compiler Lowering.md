@@ -16,9 +16,11 @@ related_concepts:
 projects:
   - NineToothed
   - TileLang
+  - TileLang-Ascend
+  - TileLang-MLIR-Ascend
   - Triton
   - FlagTree
-last_verified: 2026-09
+last_verified: "2026-10"
 ---
 
 # Compiler Lowering
@@ -51,7 +53,7 @@ Lowering 就是把这些隐含决策逐步变成可执行细节。
 
 ## 项目实现
 
-[[community/InfiniTensor/NineToothed|NineToothed]] 的 2026 pipeline 已转向 SSA + lowering/pass 结构；[[community/tile-ai/TileLang/TileLang|TileLang]] 对 tile operator 执行 layout inference 和 lowering，例如把 Blackwell GEMM tile-op lower 到具体 TCGEN5 MMA 调用；[[community/triton-lang/Triton/Triton|Triton]] 使用多级 MLIR dialect lowering；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 在 Triton compiler 路线上做多 backend lowering/codegen。
+[[community/InfiniTensor/NineToothed|NineToothed]] 的 2026 pipeline 已转向 SSA + lowering/pass 结构；[[community/tile-ai/TileLang/TileLang|TileLang]] 对 tile operator 执行 layout inference 和 lowering，并已包含 Ascend 950-specific lowering / scheduling；[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 与 [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 将相同上层 DSL 分别 lower 到 AscendC/PTO/NPU IR 与 MLIR/AscendNPU IR 路径；[[community/triton-lang/Triton/Triton|Triton]] 使用多级 MLIR dialect lowering；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 在 Triton compiler 路线上做多 backend lowering/codegen。
 
 ## Sources
 

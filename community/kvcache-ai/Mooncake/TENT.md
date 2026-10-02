@@ -8,6 +8,9 @@ linked_people:
   - "community/kvcache-ai/Mooncake/Shangming Cai"
   - "community/kvcache-ai/Mooncake/Zheming Li"
   - "university/清华大学/Ruoyu Qin"
+linked_concepts:
+  - "concept/hardware/interconnect/Hardware Interconnect"
+  - "concept/hardware/interconnect/NVLink"
 layer: data-movement
 open_source: true
 repository: https://github.com/kvcache-ai/Mooncake
@@ -58,3 +61,13 @@ TENT 显示 Mooncake 的核心能力已经从“KV cache system”扩展到更�
 - [[university/清华大学/Ruoyu Qin|秦若愚（Ruoyu Qin）]]：[[community/kvcache-ai/Mooncake/TENT|TENT]]：论文作者之一，参与新一代 disaggregated serving 异构 data movement 层。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
+- [[concept/hardware/interconnect/NVLink|NVLink]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

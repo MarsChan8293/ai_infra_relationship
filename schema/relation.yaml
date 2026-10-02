@@ -19,6 +19,8 @@ types:
   - technical-collaboration
   - career-connection
   - project-integration
+  - project-concept-support
+  - project-concept-integration
   - mentor-network
 confidence:
   - high
@@ -41,6 +43,9 @@ fields:
   evidence: array of public source URLs
 rules:
   - Project v3 `integrations` may be exported as derived `project-integration` typed edges; do not duplicate the same assertion manually in `relations`.
+  - Concept `projects` is the sole human-authored source for direct Project → Concept implementation/support assertions; it is exported as derived `project-concept-support` edges.
+  - `project-concept-support` must not be duplicated manually on Project pages.
+  - `project-concept-integration` is a distinct semantic type reserved for cases where a project only integrates or consumes a concept implementation rather than directly implementing/exposing it; never collapse it into `project-concept-support` or infer it from shared tags.
   - Structured relations complement the prose relationship section; they do not replace it.
   - `coworker` requires verified overlapping employment or formal-team membership.
   - `paper-coauthor` proves coauthorship only and must not be promoted to coworker without separate evidence.

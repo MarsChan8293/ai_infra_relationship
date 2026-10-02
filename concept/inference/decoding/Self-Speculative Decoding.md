@@ -11,6 +11,8 @@ parent_concepts:
   - Speculative Decoding
 related_concepts:
   - Draft-Target Decoding
+projects:
+  - Transformers
 last_verified: 2026-09
 ---
 
@@ -36,7 +38,13 @@ Self-Speculative Decoding 让 target LLM 自己提供一个更便宜的 drafting
 
 省掉独立 draft model 并不等于 draft 免费。若浅层输出质量不足，acceptance rate 会下降；不同模型也未必天然适合 early exit，需要训练策略或层选择。
 
+## 项目实现
+
+[[community/huggingface/Transformers/Transformers|Transformers]] 官方 assisted decoding 文档直接提供 Self-speculative decoding：同一个 target 模型的中间层通过 `assistant_early_exit` 产生候选，随后由剩余层验证或修正；源码使用 `EarlyExitCandidateGenerator` 实现该路径。
+
 ## Sources
 
 - https://aclanthology.org/2024.acl-long.607/
 - https://aclanthology.org/2024.acl-long.681/
+- https://github.com/huggingface/transformers/blob/main/docs/source/en/assisted_decoding.md
+- https://github.com/huggingface/transformers/blob/main/src/transformers/generation/candidate_generator.py

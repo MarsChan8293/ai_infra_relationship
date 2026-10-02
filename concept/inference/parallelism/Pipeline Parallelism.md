@@ -13,7 +13,8 @@ related_concepts:
   - Tensor Parallelism
 projects:
   - vLLM
-last_verified: 2026-09
+  - DualPipe
+last_verified: "2026-10"
 ---
 
 # Pipeline Parallelism
@@ -43,6 +44,9 @@ Pipeline Parallelism（PP）沿模型深度把不同 Transformer layers 分给�
 ## 项目实现
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 支持 `pipeline_parallel_size`，并在 distributed inference / parallelism scaling 文档中把 PP 作为跨设备部署选项。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DualPipe|DualPipe]] 是训练侧双向 pipeline schedule，通过 forward/backward computation-communication overlap 降低 bubble；它与 vLLM 的推理 PP 属于同一并行机制在不同阶段的实现。
 
 ## Sources
 

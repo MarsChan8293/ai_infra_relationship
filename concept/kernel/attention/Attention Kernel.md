@@ -16,7 +16,10 @@ projects:
   - FlashAttention
   - FlagAttention
   - vLLM
-last_verified: 2026-09
+  - FlashMLA
+  - TileLang-Ascend
+  - TileLang-MLIR-Ascend
+last_verified: "2026-10"
 ---
 
 # Attention Kernel
@@ -48,6 +51,9 @@ Attention 的数学公式很短，但实际执行会频繁访问 HBM、shared me
 ## 项目实现
 
 [[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] 提供面向 Prefill/Decode、paged KV、MLA 等多类 attention kernel；[[community/Dao-AILab/FlashAttention/FlashAttention|FlashAttention]] 是 IO-aware exact attention 的代表实现；[[community/flagos-ai/FlagAttention/FlagAttention|FlagAttention]] 专注异构 attention kernel；[[community/vllm-project/vLLM/vLLM|vLLM]] 内置并集成多种 optimized attention backend。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]] 提供 MLA / sparse attention kernel，并在 2026-09-30 将 DeepSeek Sparse Attention 的 Ascend prefill/decode 实现开源。[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 公开 Flash Attention / Sparse Flash Attention，[[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 也公开了基于 AscendNPU IR 的 FlashAttention 路径。
 
 ## Sources
 

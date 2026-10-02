@@ -70,7 +70,7 @@ FlashInfer 起源于学术/开源社区并采用社区治理。NVIDIA、Together
 - [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：[[FlashInfer]]：创建者、核心维护者
 - [[community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai|赖睿航（Ruihang Lai）]]：Carnegie Mellon University：计算机博士生，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]、Todd Mowry
 - [[community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen|陈乐群（Lequn Chen）]]：Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
-- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：Project source / contributor context: https://github.com/flashinfer-ai/flashinfer
+- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：[[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]]：MLSys 2025 论文作者之一；面向 LLM attention / KV cache 的高性能 inference kernel engine。
 - [[community/NVIDIA/TensorRT-LLM/Brian Nguyen|Brian Nguyen]]：[[TensorRT-LLM]]：FlashInfer decode / CUDA Graph 集成活跃贡献者
 - [[community/sgl-project/SGLang/Yineng Zhang|Yineng Zhang]]：[[FlashInfer]]：MLSys 2025 论文作者；论文获 MLSys 2025 Best Paper Award。
 

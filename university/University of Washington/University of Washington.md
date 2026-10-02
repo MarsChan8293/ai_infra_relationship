@@ -36,7 +36,7 @@ University of Washington 在本图谱中不只作为教育经历节点，还承�
 以下关系由人物页 `schools:` 反向汇总。它只表示已公开核验的教育、访问、任职或研究关联，不会因为同校自动推断同学、导师或合作关系。
 
 - [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye|叶子豪（Zihao Ye）]]：University of Washington：博士，导师 [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]
-- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
+- [[community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen|陈天奇（Tianqi Chen）]]：[[university/University of Washington/University of Washington|University of Washington]]：2013–2019，Computer Science PhD；导师 Carlos Guestrin，并与 Luis Ceze、Arvind Krishnamurthy 有研究合作。
 - [[university/University of Washington/SyFI Lab/Baris Kasikci|Baris Kasikci]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/University of Washington/SyFI Lab/Kan Zhu|Kan Zhu]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。
 - [[university/University of Washington/SyFI Lab/Mat Jacob|Mat Jacob]]：学术关联；具体属于访问、任职或研究等哪一类，以人物页公开来源为准。

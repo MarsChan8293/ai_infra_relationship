@@ -16,7 +16,8 @@ projects:
   - NCCL
   - RCCL
   - DeepEP
-last_verified: 2026-09
+  - DeepEP-Ascend
+last_verified: "2026-10"
 ---
 
 # All-to-All
@@ -49,6 +50,9 @@ All-to-All 容易产生复杂的 many-to-many 流量，对跨节点 NIC 带宽�
 ## 项目实现
 
 [[community/NVIDIA/NCCL/NCCL|NCCL]] 与 [[community/ROCm/RCCL/RCCL|RCCL]] 提供标准 All-to-All collective；[[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] 针对 MoE dispatch/combine 提供专用高性能 All-to-All 实现。
+
+## DeepSeek 新增实现证据
+[[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]] 在 Ascend 上实现 MoE dispatch/combine all-to-all，并公开 EP8–EP128 的带宽测试。
 
 ## Sources
 
