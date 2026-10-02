@@ -20,6 +20,7 @@ projects:
   - TileLang-MLIR-Ascend
   - CUTLASS
   - FlagTree
+  - CANNBot-DSL
 last_verified: "2026-10"
 ---
 
@@ -57,4 +58,5 @@ Kernel DSL 面向 kernel 作者，强调“如何写一个高性能算子”；�
 - https://triton-lang.org/main/index.html
 - https://tilelang.com/
 - https://docs.nvidia.com/cutlass/latest/media/docs/pythonDSL/overview.html
-- https://github.com/flagos-ai/FlagTree\n- https://gitcode.com/cann/cannbot-dsl
+- https://github.com/flagos-ai/FlagTree
+- https://gitcode.com/cann/cannbot-dsl
