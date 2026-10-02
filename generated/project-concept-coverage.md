@@ -6,8 +6,8 @@
 - Concepts: 84
 - Concepts with project evidence: 84
 - Project-like nodes: 215
-- Projects linked to concepts: 81
-- Concept → Project assertions: 326
+- Projects linked to concepts: 82
+- Concept → Project assertions: 327
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 

@@ -86,6 +86,80 @@
       }
     },
     {
+      "action_id": "community/Ascend/CANNBot-DSL/CANNBot-DSL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+        "name": "CANNBot-DSL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.652,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 9.057,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, quantization",
+        "opens underrepresented target types",
+        "bridge 9.1"
+      ],
+      "base_priority": 9.549,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=9.057"
+      }
+    },
+    {
       "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -247,80 +321,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=7.872"
-      }
-    },
-    {
-      "action_id": "community/deepseek-ai/Engram/Engram::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/Engram/Engram",
-        "name": "Engram",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "bridge",
-      "priority": 9.552,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.1,
-        "url_count": 2,
-        "bridge_score": 8.135,
-        "novelty": 1.0,
-        "frontier_potential": 0.469,
-        "uncertainty": 0.619,
-        "redundancy_penalty": 0.143,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, distributed, moe",
-        "opens underrepresented target types",
-        "bridge 8.1"
-      ],
-      "base_priority": 9.449,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "bridge",
-        "detail": "bridge_score=8.135"
       }
     },
     {
@@ -944,6 +944,80 @@
       }
     },
     {
+      "action_id": "community/Ascend/CANNBot-DSL/CANNBot-DSL::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+        "name": "CANNBot-DSL",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.652,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.55,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 9.057,
+        "novelty": 1.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.156,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: serving/inference, kernel, quantization",
+        "opens underrepresented target types",
+        "bridge 9.1"
+      ],
+      "base_priority": 9.549,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=9.057"
+      }
+    },
+    {
       "action_id": "community/Ascend/msModelSlim/msModelSlim::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1401,79 +1475,6 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=7.785"
-      }
-    },
-    {
-      "action_id": "community/Ascend/CANNBot-DSL/CANNBot-DSL::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
-        "name": "CANNBot-DSL",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.408,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 3.55,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.935,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel, quantization",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 9.305,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {

@@ -184,7 +184,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
-| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
+| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
 
 ## Quantization
 

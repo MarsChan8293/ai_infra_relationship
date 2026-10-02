@@ -5615,6 +5615,7 @@
         "type": "project",
         "name": "CANNBot-DSL",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "compiler",
         "status": "active",
         "repository": "https://gitcode.com/cann/cannbot-dsl",
@@ -24291,6 +24292,16 @@
     {
       "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
       "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot/CANNBot",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
       "kind": "wikilink"
     },
     {
@@ -44825,6 +44836,11 @@
     },
     {
       "source": "concept/compiler/Backend Code Generation",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/compiler/Backend Code Generation",
       "target": "community/InfiniTensor/NineToothed",
       "kind": "wikilink"
     },
@@ -44886,6 +44902,11 @@
     {
       "source": "concept/compiler/Compiler Lowering",
       "target": "concept/compiler/Backend Code Generation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/compiler/Kernel Compiler Pipeline",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
       "kind": "wikilink"
     },
     {
@@ -46180,6 +46201,11 @@
     },
     {
       "source": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Agentic Kernel Optimization",
       "target": "community/LancerLab/Croqtile/Croqtile",
       "kind": "wikilink"
     },
@@ -46281,6 +46307,11 @@
     {
       "source": "concept/kernel/programming/JIT Kernel Compilation",
       "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/programming/Kernel DSL",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
       "kind": "wikilink"
     },
     {
@@ -53107,13 +53138,14 @@
       "bridge_score": 7.872
     },
     "community/Ascend/CANNBot-DSL/CANNBot-DSL": {
-      "degree": 2,
-      "cross_category_degree": 1,
+      "degree": 6,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 4.935
+      "bridge_score": 9.057
     },
     "community/Ascend/MemCache/DreamerLeader": {
       "degree": 2,
@@ -58837,13 +58869,13 @@
       "bridge_score": 7.05
     },
     "concept/compiler/Backend Code Generation": {
-      "degree": 8,
-      "cross_category_degree": 6,
+      "degree": 9,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.27
+      "bridge_score": 8.772
     },
     "concept/compiler/Compiler Lowering": {
       "degree": 8,
@@ -58855,14 +58887,14 @@
       "bridge_score": 8.27
     },
     "concept/compiler/Kernel Compiler Pipeline": {
-      "degree": 12,
-      "cross_category_degree": 7,
+      "degree": 13,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept",
         "university"
       ],
-      "bridge_score": 10.65
+      "bridge_score": 11.107
     },
     "concept/compiler/Layout Optimization": {
       "degree": 3,
@@ -59285,13 +59317,13 @@
       "bridge_score": 7.4
     },
     "concept/kernel/optimization/Agentic Kernel Optimization": {
-      "degree": 27,
-      "cross_category_degree": 25,
+      "degree": 28,
+      "cross_category_degree": 26,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 16.557
+      "bridge_score": 16.958
     },
     "concept/kernel/optimization/Kernel Fusion": {
       "degree": 6,
@@ -59312,13 +59344,13 @@
       "bridge_score": 9.607
     },
     "concept/kernel/programming/Kernel DSL": {
-      "degree": 9,
-      "cross_category_degree": 6,
+      "degree": 10,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.422
+      "bridge_score": 8.909
     },
     "concept/memory/CXL Memory": {
       "degree": 7,
