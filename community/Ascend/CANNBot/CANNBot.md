@@ -11,6 +11,7 @@ repository: https://gitcode.com/cann/cannbot
 docs: https://gitcode.com/cann/cannbot-skills
 areas: ["agentic-inference-optimization", "agentic-kernel-optimization", "ascendc", "triton-ascend", "pytorch-npu", "model-infer-optimize", "multi-agent", "harness"]
 hardware: ["ascend"]
+integrations: ["CANNBot-DSL"]
 companies: ["华为"]
 last_verified: "2026-10"
 linked_companies:
@@ -40,6 +41,7 @@ CANNBot 是 CANN 社区面向 Ascend 的 Infra 智能体层，覆盖算子开发
 
 - https://gitcode.com/cann/cannbot
 - https://gitcode.com/cann/cannbot-skills
+- https://gitcode.com/cann/cannbot-dsl
 - https://gitcode.com/cann/cannbot-skills/blob/master/plugins-official/model-infer-optimize/quickstart.md
 
 <!-- BEGIN AUTO PROJECT CONCEPTS -->
