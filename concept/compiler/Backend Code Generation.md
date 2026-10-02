@@ -20,6 +20,7 @@ projects:
   - TileLang-MLIR-Ascend
   - Triton
   - FlagTree
+  - CANNBot-DSL
 last_verified: "2026-10"
 ---
 
@@ -58,4 +59,5 @@ Backend Code Generation 把已经 lower 到目标相关表示的 kernel 程序�
 - https://github.com/InfiniTensor/ninetoothed
 - https://tilelang.com/autoapi/
 - https://triton-lang.org/main/index.html
-- https://github.com/flagos-ai/FlagTree\n- https://gitcode.com/cann/cannbot-dsl
+- https://github.com/flagos-ai/FlagTree
+- https://gitcode.com/cann/cannbot-dsl
