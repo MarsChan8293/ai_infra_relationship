@@ -38,6 +38,8 @@ projects:
   - "Compiler-Grounded Hierarchical Diagnosis"
   - "AVO"
   - "TileGym"
+  - "CAKE"
+  - "FlashInfer-Bench"
 last_verified: 2026-10
 ---
 
@@ -131,6 +133,10 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 
 [[community/LancerLab/Croqtile/Croqtile|Croqtile]] 是面向 AI agent 的 kernel DSL / compiler，其结构化编译器诊断和 croqtile-tuner 把 autotuning harness 直接纳入 agent-native kernel programming workflow。
 
+[[community/research/CAKE/CAKE|CAKE]] 把 compiler 本身纳入 agent co-design：Agent 操作硬件显式 CAKE IR，compiler 返回 verifier、cost model 与 localized diagnostics，使搜索空间和反馈接口一起演化。
+
+[[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench|FlashInfer-Bench]] 把 kernel definition、真实 workload、correctness、performance evaluation 与 production substitution 统一为闭环 Harness，是 AI-generated kernel 从 benchmark 走向 SGLang / vLLM 的关键接口。
+
 ## 设计原则
 
 - correctness gate 必须早于性能比较；
@@ -146,3 +152,6 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 - https://nvlabs.github.io/kda/
 - https://github.com/MetaInfer/MetaInfer
 - https://github.com/LancerLab/croqtile
+- https://arxiv.org/abs/2608.12629
+- https://github.com/flashinfer-ai/flashinfer-bench
+- https://arxiv.org/abs/2601.00227

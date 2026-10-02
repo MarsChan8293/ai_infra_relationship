@@ -5,7 +5,7 @@ aliases: ["CMU Catalyst", "CMU Automated Learning Systems Group"]
 organization: "Carnegie Mellon University"
 linked_people: []
 areas: [machine-learning-systems, ai-infrastructure, llm-serving, compilers, gpu-systems, speculative-decoding, structured-generation]
-projects: [XGrammar, FlexFlow Serve, Mirage Persistent Kernel]
+projects: [XGrammar, FlexFlow Serve, Mirage Persistent Kernel, Event Tensor]
 people:
   - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
   - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
@@ -13,7 +13,7 @@ people:
 website: https://catalyst.cs.cmu.edu/
 country: "USA"
 city: "Pittsburgh, PA"
-last_verified: "2026-09"
+last_verified: "2026-10"
 ---
 # Catalyst Group
 
@@ -26,6 +26,7 @@ Catalyst 是 Carnegie Mellon University 的跨学科 machine learning + systems 
 - **TidalDecode**：面向 LLM decoding 的 sparse attention。
 - **MLC LLM**：compiler-accelerated cross-hardware LLM deployment。
 - **Mirage Persistent Kernel**：把 LLM inference mega-kernelization 与 compiler/runtime 结合。
+- **Event Tensor**：把 dynamic shape 与 data-dependent execution 纳入 dynamic megakernel compiler abstraction。
 - **Helix**：Catalyst publication network 中的 heterogeneous GPU/network LLM serving system。
 
 ## 与现有图谱的桥梁
@@ -42,11 +43,14 @@ Catalyst 是 Carnegie Mellon University 的跨学科 machine learning + systems 
 - [[university/Carnegie Mellon University/Catalyst Group/XGrammar|XGrammar]]：structured generation / constrained decoding engine。
 - [[university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve|FlexFlow Serve]]：低延迟、高性能 LLM serving，包含 speculative inference、CPU offload 与 quantization。
 - [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]]：把 LLM inference tensor programs mega-kernelize 的 compiler + runtime 路线。
+- [[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]]：MLSys 2026 dynamic megakernel compiler abstraction；Catalyst Research Summit 2026 公开列为项目报告。
 
-这些项目由 Catalyst 官方 research 页面直接列出；项目节点只编码明确研究归属，不因页面归属推断所有作者的雇佣或治理关系。
+前三个项目由 Catalyst 官方 research 页面直接列出；Event Tensor 由 Catalyst Research Summit 2026 公开议程确认研究归属。项目节点只编码明确研究关联，不因页面归属推断所有作者的雇佣或治理关系。
 
 ## Sources
 - https://catalyst.cs.cmu.edu/
 - https://catalyst.cs.cmu.edu/research.html
+- https://catalyst.cs.cmu.edu/summit.html
 - https://catalyst.cs.cmu.edu/projects/flexflow%20serve.html
 - https://catalyst.cs.cmu.edu/projects/xgrammar.html
+- https://catalyst.cs.cmu.edu/projects/mpk.html
