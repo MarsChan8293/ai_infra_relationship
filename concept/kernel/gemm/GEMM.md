@@ -15,6 +15,8 @@ projects:
   - DeepGEMM
   - FlashInfer
   - TileLang
+  - TileLang-Ascend
+  - TileLang-MLIR-Ascend
   - Triton
   - DeepGEMM-Ascend
 last_verified: "2026-10"
@@ -45,7 +47,7 @@ GEMM（General Matrix Multiplication）是形如 C = A×B + C 的通用矩阵乘
 [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 专注 FP8/FP4/BF16 GEMM 与 MoE kernel；[[community/flashinfer-ai/FlashInfer/FlashInfer|FlashInfer]] 提供多精度 GEMM 与 grouped GEMM；[[community/tile-ai/TileLang/TileLang|TileLang]] 和 [[community/triton-lang/Triton/Triton|Triton]] 都提供编写/生成高性能 GEMM kernel 的 DSL/编译能力。
 
 ## DeepSeek Ascend 新增实现证据
-[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 在 Ascend 950 上实现 BF16/FP8/FP4 dense GEMM、MQA logits 与 MegaMoE，补齐 DeepGEMM 的 Ascend backend。
+[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] 在 Ascend 950 上实现 BF16/FP8/FP4 dense GEMM、MQA logits 与 MegaMoE，补齐 DeepGEMM 的 Ascend backend。[[community/tile-ai/TileLang/TileLang|TileLang]] 主仓 Ascend 950 backend 同样提供 GEMM / DeepGEMM-style examples；[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 与 [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 则覆盖 A2/A3 GEMM codegen。
 
 ## Sources
 

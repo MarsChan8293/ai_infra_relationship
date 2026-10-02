@@ -14,6 +14,9 @@ linked_projects:
   - "community/Ascend/msModelSlim/msModelSlim"
   - "community/Ascend/ops-transformer/ops-transformer"
   - "community/vllm-project/vLLM-Ascend/vLLM-Ascend"
+  - "community/tile-ai/TileLang/TileLang"
+  - "community/tile-ai/TileLang/TileLang-Ascend"
+  - "community/tile-ai/TileLang/TileLang-MLIR-Ascend"
   - "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend"
   - "community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend"
   - "community/deepseek-ai/DeepSeek-Infra/FlashMLA"
@@ -33,6 +36,16 @@ Ascend 是围绕华为昇腾 NPU、[[CANN]]、MindIE 与上游 AI Infra 社区�
 - https://www.huawei.com/cn/news/2025/9/hc-shengten-opensource
 - https://www.huawei.com/cn/news/2026/3/mwc-superpod-computing
 - https://gitcode.com/Ascend
+
+## TileLang / Kernel DSL 路线
+
+2026-09-30，[[community/tile-ai/TileLang/TileLang|TileLang]] 主仓正式加入 Ascend 950 supported backend（`target="ascend"`），提供原生 code generation、自动 scheduling / synchronization、Cube + Vector 编程以及 GEMM / FlashAttention 等示例。该 backend 官方说明其初版主要由 DeepSeek AI 多位开发者完成，并感谢 Huawei 团队协作，因此它也是 DeepSeek Ascend kernel 栈与通用 Kernel DSL 生态之间的重要桥。
+
+A2/A3 则由两个独立 ecosystem adapter 承担：
+- [[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]]：Ascend C & PTO + AscendNPU IR 路线，覆盖 GEMM、Flash/Sparse Attention、Lightning Indexer、TopK Selector、dispatch/combine。
+- [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]]：MLIR + AscendNPU IR 路线，包含 GEMM、FlashAttention、DeepSeek V4 mHC 等示例。
+
+因此图谱中明确区分 `Ascend 950 / TileLang 主仓 supported backend` 与 `A2/A3 / 独立 ecosystem adapters`。
 
 ## DeepSeek Ascend 推理基础设施
 2026-09-30，DeepSeek 开源/扩展了一组面向 Ascend 的推理基础设施组件：

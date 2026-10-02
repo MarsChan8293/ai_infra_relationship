@@ -16,9 +16,11 @@ related_concepts:
 projects:
   - NineToothed
   - TileLang
+  - TileLang-Ascend
+  - TileLang-MLIR-Ascend
   - Triton
   - FlagTree
-last_verified: 2026-09
+last_verified: "2026-10"
 ---
 
 # Backend Code Generation
@@ -49,7 +51,7 @@ Backend Code Generation 把已经 lower 到目标相关表示的 kernel 程序�
 
 ## 项目实现
 
-[[community/InfiniTensor/NineToothed|NineToothed]] 提供 Triton、CUDA、TileLang 与 vendor backend registry；[[community/tile-ai/TileLang/TileLang|TileLang]] 明确拆分 device_codegen、host_codegen 与 execution backend；[[community/triton-lang/Triton/Triton|Triton]] 将 MLIR pipeline 输出为 NVIDIA/AMD 等 GPU target code；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 的核心定位就是把 Triton 风格上层程序扩展到多种国产/异构 AI 芯片 backend。
+[[community/InfiniTensor/NineToothed|NineToothed]] 提供 Triton、CUDA、TileLang 与 vendor backend registry；[[community/tile-ai/TileLang/TileLang|TileLang]] 明确拆分 device_codegen、host_codegen 与 execution backend，并在 2026-09-30 把 Ascend 950 作为主仓 supported backend；[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 与 [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 分别承担 A2/A3 的 AscendC/PTO/NPU IR 与 MLIR/AscendNPU IR ecosystem codegen；[[community/triton-lang/Triton/Triton|Triton]] 将 MLIR pipeline 输出为 NVIDIA/AMD 等 GPU target code；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 的核心定位就是把 Triton 风格上层程序扩展到多种国产/异构 AI 芯片 backend。
 
 ## Sources
 
