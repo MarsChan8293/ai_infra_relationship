@@ -9,6 +9,7 @@ aliases:
 domain: storage
 topic: kv-cache-storage
 related_concepts:
+  - SSD/NVMe Tier
   - KV Cache Offloading
   - Tiered KV Cache
   - NVMe SSD
@@ -42,6 +43,8 @@ SSD-Backed KV Cache 把一部分 KV Cache 放在 SSD/NVMe 上，在需要时预�
 ## 与 KV Cache Offloading 的关系
 
 [[KV Cache Offloading]] 是更广的上位机制，可以 offload 到 CPU、SSD、远端节点或其他 tier。SSD-Backed KV Cache 专门关注 NVMe/SSD 这一层及其 I/O 特性。
+
+[[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 是可承载多种可恢复数据的介质层；SSD-Backed KV Cache 是 KV Cache 使用该层的专门化机制。
 
 ## 项目实现
 

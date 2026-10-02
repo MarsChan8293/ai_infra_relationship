@@ -9,6 +9,7 @@ aliases:
 domain: storage
 topic: storage-media
 related_concepts:
+  - SSD/NVMe Tier
   - Storage Tiering
   - SSD-Backed KV Cache
   - Direct Storage I/O
@@ -27,6 +28,8 @@ last_verified: 2026-09
 ## 一句话定义
 
 NVMe SSD 是通过 PCIe/NVMe 协议提供高并发、低延迟块存储的固态介质，在 AI Infra 中常作为 DRAM 之后的大容量低成本 tier。
+
+[[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 描述这类介质在缓存层次中的角色；NVMe SSD 本身描述设备与协议。
 
 ## 为什么对 LLM 推理重要
 

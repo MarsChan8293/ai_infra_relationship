@@ -8,6 +8,7 @@ aliases:
 domain: storage
 topic: storage-tiering
 related_concepts:
+  - SSD/NVMe Tier
   - Memory Hierarchy
   - Tiered KV Cache
   - KV Cache Offloading
@@ -45,6 +46,8 @@ Storage Tiering 把同一类数据按热度、成本和访问延迟分布到 HBM
 ## 与 Memory Hierarchy 的区别
 
 [[Memory Hierarchy]] 是系统结构；Storage Tiering 是在层次结构上执行的数据放置和迁移策略。[[Tiered KV Cache]] 则是这种机制在 KV Cache 上的专门化。
+
+[[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 是策略可选的一个目标层，本身不定义冷热分类或跨层迁移策略。
 
 ## 项目实现
 
