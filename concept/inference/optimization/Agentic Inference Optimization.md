@@ -20,6 +20,7 @@ projects:
   - "GEAK"
   - "Hyperloom"
   - "CANNBot"
+  - "FlashInfer-Bench"
 last_verified: 2026-10
 ---
 
@@ -83,6 +84,8 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 
 [[community/yzygitzh/RoofLang/RoofLang|RoofLang]] 把 workload、hardware、placement、parallelism、KV lifecycle 与 graph transformation 暴露给 persistent optimizer agent，并通过 analytical simulation 搜索 throughput / interactivity 的系统设计空间。它更偏 architecture search，而不是直接修改现有 serving engine，但属于同一类“让 agent 闭环优化推理系统”的机制。
 
+[[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench|FlashInfer-Bench]] 连接 AI-generated kernel 与真实 serving engine：先用 FlashInfer Trace 和 benchmark harness 做 correctness / performance evaluation，再通过 `apply()` 把最佳实现动态替换进 SGLang / vLLM。它因此是 kernel-level agent optimization 向 production inference validation 过渡的关键桥梁。
+
 ## 设计原则
 
 - **Measurement is ground truth**：性能晋级由 Harness 决定。
@@ -98,3 +101,5 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 - https://github.com/yzygitzh/rooflang
 - https://github.com/NVlabs/kda
 - https://github.com/LancerLab/croqtile
+- https://github.com/flashinfer-ai/flashinfer-bench
+- https://arxiv.org/abs/2601.00227
