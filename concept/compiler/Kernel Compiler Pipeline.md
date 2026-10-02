@@ -21,6 +21,7 @@ projects:
   - CAKE
   - Event Tensor
   - Mirage Persistent Kernel
+  - CANNBot-DSL
 last_verified: 2026-10
 ---
 
@@ -55,7 +56,9 @@ Kernel Compiler Pipeline 是把上层 kernel/DSL 表达逐步转换为目标 GPU
 
 [[community/research/CAKE/CAKE|CAKE]] 展示了面向 Agent 的 compiler pipeline 设计：硬件显式 CAKE IR、verifier、cost model 与 localized diagnostics 一起构成可被 Agent 搜索和演化的编译接口。
 
-[[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]] 把 tensor program lower 为 SM-level task graph，并由 in-kernel runtime 执行 single megakernel；[[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]] 则进一步把动态 shape 与 data-dependent task dependency 作为一等 compiler abstraction，用 static + dynamic scheduling 生成 dynamic megakernel。\n\n[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 在 Ascend 侧公开 Host / Kernel / AI CPU API、compiler backend、AOT 与 Native package 路径，是 Agent-generated NPU kernel 从 DSL 到可部署 artifact 的一条新编译链。
+[[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]] 把 tensor program lower 为 SM-level task graph，并由 in-kernel runtime 执行 single megakernel；[[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]] 则进一步把动态 shape 与 data-dependent task dependency 作为一等 compiler abstraction，用 static + dynamic scheduling 生成 dynamic megakernel。
+
+[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 在 Ascend 侧公开 Host / Kernel / AI CPU API、compiler backend、AOT 与 Native package 路径，是 Agent-generated NPU kernel 从 DSL 到可部署 artifact 的一条新编译链。
 
 ## Sources
 
@@ -65,4 +68,5 @@ Kernel Compiler Pipeline 是把上层 kernel/DSL 表达逐步转换为目标 GPU
 - https://github.com/flagos-ai/FlagTree
 - https://arxiv.org/abs/2608.12629
 - https://github.com/mirage-project/mirage
-- https://arxiv.org/abs/2604.13327\n- https://gitcode.com/cann/cannbot-dsl
+- https://arxiv.org/abs/2604.13327
+- https://gitcode.com/cann/cannbot-dsl
