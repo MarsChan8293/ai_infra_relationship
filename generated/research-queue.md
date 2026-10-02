@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 2007
+- Candidate actions: 2009
 - Selected actions: 10
 - History records: 727
 
@@ -14,8 +14,8 @@
 | ---: | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
 | 1 | DISCOVER | bridge | [[community/kserve/KServe/KServe|KServe]] | project | maintainers | person | bridge | 9.656 | new | coverage 0/4；source type Project；infra: serving/inference, scheduler, kernel；opens underrepresented target types |
 | 2 | VERIFY | history_followup | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | project | maintainers | person | bridge | 9.635 | unresolved | coverage 0/4；source type Project；infra: serving/inference, moe, quantization；opens underrepresented target types |
-| 3 | DISCOVER | bridge | [[community/deepseek-ai/Engram/Engram|Engram]] | project | maintainers | person | bridge | 9.552 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, moe；opens underrepresented target types |
-| 4 | DISCOVER | bridge | [[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] | project | maintainers | person | bridge | 9.465 | new | coverage 0/4；source type Project；infra: kernel, distributed, moe；opens underrepresented target types |
+| 3 | DISCOVER | bridge | [[community/Ascend/CANNBot/CANNBot|CANNBot]] | project | maintainers | person | bridge | 9.602 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
+| 4 | DISCOVER | bridge | [[community/deepseek-ai/Engram/Engram|Engram]] | project | maintainers | person | bridge | 9.552 | new | coverage 0/4；source type Project；infra: serving/inference, distributed, moe；opens underrepresented target types |
 | 5 | VERIFY | history_followup | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | projects | project, community | exploitation | 8.246 | partial | coverage 0/3；source type Research Institution；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 6 | VERIFY | history_followup | [[university/清华大学/Haojie Wang|Haojie Wang]] | person | project_contribution | project, community | exploration | 8.238 | partial | coverage 0/3；source type Person；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
 | 7 | VERIFY | history_followup | [[university/University of Washington/SyFI Lab|SyFI Lab]] | research | projects | project, community | exploitation | 8.229 | partial | coverage 0/3；source type Research Institution；infra: serving/inference, scheduler, kernel；opens underrepresented target types |

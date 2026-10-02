@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 204
-- Source roots: community 176 · company 14 · university 14
+- Projects: 205
+- Source roots: community 177 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -19,7 +19,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Communication / Data Movement](#communication) | 15 |
 | [Runtime / Framework](#runtime) | 32 |
 | [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 13 |
+| [Compiler / DSL](#compiler) | 14 |
 | [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
@@ -204,11 +204,12 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## compiler
 
-**Compiler / DSL** · 13 projects
+**Compiler / DSL** · 14 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/research/CAKE/CAKE]] | agent-compiler-kernel-optimization | research | agentic-kernel-optimization, compiler-agent-co-design, gpu-kernel, intermediate-representation, verification | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CAKE) |
+| [[community/Ascend/CANNBot-DSL/CANNBot-DSL]] | compiler | active | kernel-dsl, agentic-kernel-optimization, ascend-npu, ascend-950, kernel-codegen | `Ascend` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CANNBot-DSL) |
 | [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend]] | compiler | active | developer-tooling, language-server, ascendc, code-completion, diagnostics | `deepseek-ai` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=clangd-ascend) |
 | [[community/LancerLab/Croqtile/Croqtile]] | compiler | active | kernel-dsl, gpu-kernels, ai-native-programming, symbolic-shapes, compile-time-verification | `LancerLab` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Croqtile) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 3 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |

@@ -1,6 +1,7 @@
 ---
 type: project
 name: "CANNBot-DSL"
+linked_people: []
 layer: compiler
 status: active
 repository: https://gitcode.com/cann/cannbot-dsl
@@ -10,6 +11,8 @@ hardware: ["ascend"]
 integrations: ["CANNBot"]
 companies: ["华为"]
 last_verified: "2026-10"
+linked_companies:
+  - "company/华为/华为"
 ---
 
 # CANNBot-DSL
@@ -56,3 +59,12 @@ Compiler Backend / AOT / Native Package
 - https://gitcode.com/cann/cannbot-dsl
 - https://cannbot-dsl.gitcode.com/api/
 - https://gitcode.com/cann/community/tree/master/CANN/sigs/cannbot
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/华为/华为|华为]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

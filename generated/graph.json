@@ -5606,6 +5606,46 @@
       }
     },
     {
+      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "path": "community/Ascend/CANNBot-DSL/CANNBot-DSL.md",
+      "name": "CANNBot-DSL",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "CANNBot-DSL",
+        "linked_people": [],
+        "layer": "compiler",
+        "status": "active",
+        "repository": "https://gitcode.com/cann/cannbot-dsl",
+        "docs": "https://cannbot-dsl.gitcode.com/api/",
+        "areas": [
+          "kernel-dsl",
+          "agentic-kernel-optimization",
+          "ascend-npu",
+          "ascend-950",
+          "kernel-codegen",
+          "aot-compilation",
+          "native-operator-package",
+          "attention",
+          "sparse-attention",
+          "matmul",
+          "deepseek-v4.1"
+        ],
+        "hardware": [
+          "ascend"
+        ],
+        "integrations": [
+          "CANNBot"
+        ],
+        "companies": [
+          "华为"
+        ],
+        "last_verified": "2026-10",
+        "linked_companies": ""
+      }
+    },
+    {
       "id": "community/Ascend/MemCache/DreamerLeader",
       "path": "community/Ascend/MemCache/DreamerLeader.md",
       "name": "DreamerLeader",
@@ -24244,6 +24284,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "community/Ascend/CANNBot/CANNBot",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/Ascend/CANNBot/CANNBot",
       "target": "company/华为/华为",
       "kind": "wikilink"
@@ -40255,6 +40305,11 @@
     },
     {
       "source": "company/华为/华为",
+      "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/华为/华为",
       "target": "community/Ascend/CANNBot/CANNBot",
       "kind": "wikilink"
     },
@@ -51852,13 +51907,13 @@
       "bridge_score": 6.022
     },
     "company/华为/华为": {
-      "degree": 43,
-      "cross_category_degree": 42,
+      "degree": 44,
+      "cross_category_degree": 43,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 23.159
+      "bridge_score": 23.542
     },
     "company/商汤科技/商汤科技": {
       "degree": 8,
@@ -53042,13 +53097,23 @@
       "bridge_score": 6.809
     },
     "community/Ascend/CANNBot/CANNBot": {
-      "degree": 3,
+      "degree": 4,
       "cross_category_degree": 3,
       "neighbor_categories": [
+        "community",
         "company",
         "concept"
       ],
-      "bridge_score": 6.05
+      "bridge_score": 7.872
+    },
+    "community/Ascend/CANNBot-DSL/CANNBot-DSL": {
+      "degree": 2,
+      "cross_category_degree": 1,
+      "neighbor_categories": [
+        "community",
+        "company"
+      ],
+      "bridge_score": 4.935
     },
     "community/Ascend/MemCache/DreamerLeader": {
       "degree": 2,

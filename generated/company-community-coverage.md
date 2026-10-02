@@ -4,10 +4,10 @@
 
 - Company nodes: 57
 - Companies with ≥1 linked project/community: 44
-- Project/community nodes: 214
-- Project/community nodes with ≥1 linked company: 117
-- Bidirectional association pairs: 136
-- Explicitly asserted on both sides: 136
+- Project/community nodes: 215
+- Project/community nodes with ≥1 linked company: 118
+- Bidirectional association pairs: 137
+- Explicitly asserted on both sides: 137
 - Company-side only explicit assertions: 0
 - Entity-side only explicit assertions: 0
 - Recognized non-community project targets: 4
@@ -77,6 +77,7 @@
 | [[company/华为/华为\|华为]] | [[community/南京大学/AscendCraft/AscendCraft\|AscendCraft]] | project |  | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/CANN/CANN\|CANN]] | project | company-led | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/CANNBot/CANNBot\|CANNBot]] | project |  | both |
+| [[company/华为/华为\|华为]] | [[community/Ascend/CANNBot-DSL/CANNBot-DSL\|CANNBot-DSL]] | project |  | both |
 | [[company/华为/华为\|华为]] | [[community/华为/Compiler-Grounded Hierarchical Diagnosis/Compiler-Grounded Hierarchical Diagnosis\|Compiler-Grounded Hierarchical Diagnosis]] | project |  | both |
 | [[company/华为/华为\|华为]] | [[community/Project-HAMi/HAMi/HAMi\|HAMi]] | project | cross-company-maintainer-network | both |
 | [[company/华为/华为\|华为]] | [[community/Ascend/MemCache/MemCache\|MemCache]] | project | company-led | both |
