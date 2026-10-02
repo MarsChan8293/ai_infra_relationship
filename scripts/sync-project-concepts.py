@@ -4,6 +4,8 @@
 Human-authored source of truth:
 - concept pages: `projects:`
 
+Canonical project nodes may live under `company/`, `community/`, or `university/`.
+
 Derived Project views:
 - `linked_concepts:` frontmatter
 - marked "关联概念（自动汇总）" Markdown section
@@ -214,7 +216,7 @@ def project_section(concepts: list[dict]) -> str | None:
 
 def load_records(root: pathlib.Path):
     rows = []
-    for dirname in ("community", "concept"):
+    for dirname in ("company", "community", "university", "concept"):
         base = root / dirname
         if not base.exists():
             continue
