@@ -1,0 +1,58 @@
+---
+type: project
+name: "CANNBot-DSL"
+layer: compiler
+status: active
+repository: https://gitcode.com/cann/cannbot-dsl
+docs: https://cannbot-dsl.gitcode.com/api/
+areas: ["kernel-dsl", "agentic-kernel-optimization", "ascend-npu", "ascend-950", "kernel-codegen", "aot-compilation", "native-operator-package", "attention", "sparse-attention", "matmul", "deepseek-v4.1"]
+hardware: ["ascend"]
+integrations: ["CANNBot"]
+companies: ["华为"]
+last_verified: "2026-10"
+---
+
+# CANNBot-DSL
+
+CANNBot-DSL 是 CANNBot 仓群中的 **DSL / compiler 层**，目标是为 Ascend NPU 提供更适合 Agent 生成、修改、调试和验证复杂算子的编程范式。它不是单独的 autonomous Agent；上层 Agent / Harness 主要由 [[community/Ascend/CANNBot/CANNBot|CANNBot]] 与其 skills/plugin 负责，CANNBot-DSL 提供可被这些 Agent 操作的 kernel programming interface 与 compiler backend。
+
+## 当前公开能力
+
+截至 2026-09-30，公开版本为 CANNBot-DSL 0.7.0，可通过 `pip install cannbot-dsl` 安装；compiler backend 随 wheel 提供。官方配套口径面向 Ascend 950PR / 950DT（NPU ARCH 3510），并提供 Host、Kernel、AI CPU API、AOT 编译以及 Native 算子包发布能力。
+
+仓库公开的 kernel / operator 样例已经覆盖：
+
+- MatMul / BatchMatMul / GroupedMatMul 与 MXFP8 / MXFP4 量化矩阵乘；
+- Flash Attention、FP8 Full-Quant Attention、Sparse Flash Attention；
+- Qwen Sparse Attention、Flash MLA、量化块稀疏 Attention；
+- Kimi Delta Attention；
+- DeepSeek V4.1 的 indexer / attention prologue / sparse MLA / KV compression 等路径；
+- RMSNorm、PointNet、VoxelConv 等。
+
+README 明确说明这些样例由 CANNBot 基于 CANNBot-DSL 生成，因此它是 Ascend **Agentic Kernel Optimization** 中“Agent ↔ Kernel DSL ↔ Compiler ↔ NPU”链路的重要底层接口。
+
+## DeepSeek V4.1
+
+2026-09-30 更新明确增加 DeepSeek V4.1 相关算子，包括 `indexer_prologue_qw`、`indexer_prologue_k`、`attn_prologue`、`quant_lightning_indexer_dsl`、`quant_sparse_lightning_indexer_dsl` 与 `mixed_quant_sparse_flash_mla`。这使其不仅是通用 DSL，也直接进入 sparse attention / indexer / quantized KV 等新一代推理 kernel 路径。
+
+## 与 CANNBot 的关系
+
+[[community/Ascend/CANNBot/CANNBot|CANNBot]] 负责 Agent、plugin、workflow / harness 与端到端优化编排；CANNBot-DSL 提供 Agent 亲和的算子表达、编译与运行接口。两者组合后形成：
+
+```text
+Agent / Skill / Harness
+        ↓
+      CANNBot
+        ↓
+   CANNBot-DSL
+        ↓
+Compiler Backend / AOT / Native Package
+        ↓
+ Ascend 950 NPU Kernel
+```
+
+## Sources
+
+- https://gitcode.com/cann/cannbot-dsl
+- https://cannbot-dsl.gitcode.com/api/
+- https://gitcode.com/cann/community/tree/master/CANN/sigs/cannbot
