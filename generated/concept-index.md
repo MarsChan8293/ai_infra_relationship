@@ -43,7 +43,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] | AI Infra Optimization Agent, Autonomous Inference Optimization, Agentic AI Infra Optimization, 智能体推理优化 |  | 5 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Inference%20Optimization) |
+| [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] | AI Infra Optimization Agent, Autonomous Inference Optimization, Agentic AI Infra Optimization, 智能体推理优化 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Inference%20Optimization) |
 
 ### Parallelism
 
@@ -156,7 +156,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 23 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
+| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 25 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
 | [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] | Operator Fusion, Fused Kernel, 算子融合 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Fusion) |
 
 ## Compiler
@@ -170,7 +170,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] | AOT Compilation, AOT, Offline Compilation, 提前编译 | Kernel Compiler Pipeline | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ahead-of-Time%20Compilation) |
 | [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
 | [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
-| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
+| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
 
 ### Kernel Optimization
 

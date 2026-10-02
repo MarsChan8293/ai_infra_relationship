@@ -12475,9 +12475,29 @@
         "communities": [
           "FlashInfer"
         ],
-        "roles": [
-          "Original Paper Author"
-        ]
+        "roles": ""
+      }
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "path": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench.md",
+      "name": "FlashInfer-Bench",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "FlashInfer-Bench",
+        "linked_people": [],
+        "linked_concepts": "",
+        "layer": "optimization-harness",
+        "status": "active",
+        "repository": "https://github.com/flashinfer-ai/flashinfer-bench",
+        "docs": "https://bench.flashinfer.ai/",
+        "areas": "",
+        "hardware": "",
+        "integrations": "",
+        "last_verified": "2026-10",
+        "linked_companies": []
       }
     },
     {
@@ -15235,6 +15255,26 @@
         "hardware": [
           "ascend"
         ],
+        "last_verified": "2026-10",
+        "linked_companies": []
+      }
+    },
+    {
+      "id": "community/research/CAKE/CAKE",
+      "path": "community/research/CAKE/CAKE.md",
+      "name": "CAKE",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "CAKE",
+        "linked_people": [],
+        "linked_concepts": "",
+        "layer": "agent-compiler-kernel-optimization",
+        "status": "research",
+        "docs": "https://arxiv.org/abs/2608.12629",
+        "areas": "",
+        "hardware": "",
         "last_verified": "2026-10",
         "linked_companies": []
       }
@@ -18003,6 +18043,25 @@
       }
     },
     {
+      "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "path": "university/Carnegie Mellon University/Catalyst Group/Event Tensor.md",
+      "name": "Event Tensor",
+      "type": "project",
+      "category": "university",
+      "frontmatter": {
+        "type": "project",
+        "name": "Event Tensor",
+        "linked_people": [],
+        "linked_concepts": "",
+        "layer": "compiler-runtime",
+        "status": "research",
+        "docs": "https://arxiv.org/abs/2604.13327",
+        "areas": "",
+        "last_verified": "2026-10",
+        "linked_companies": []
+      }
+    },
+    {
       "id": "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve",
       "path": "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve.md",
       "name": "FlexFlow Serve",
@@ -18031,12 +18090,13 @@
         "type": "project",
         "name": "Mirage Persistent Kernel",
         "linked_people": [],
+        "linked_concepts": "",
         "layer": "kernel-compiler-runtime",
         "status": "active",
         "repository": "https://github.com/mirage-project/mirage",
         "docs": "https://mirage-project.readthedocs.io/",
         "areas": "",
-        "last_verified": "2026-09",
+        "last_verified": "2026-10",
         "linked_companies": []
       }
     },
@@ -18055,7 +18115,7 @@
         "repository": "https://github.com/mlc-ai/xgrammar",
         "docs": "https://xgrammar.mlc.ai/",
         "areas": "",
-        "last_verified": "2026-09",
+        "last_verified": "2026-10",
         "linked_companies": []
       }
     },
@@ -18086,13 +18146,14 @@
         "projects": [
           "XGrammar",
           "FlexFlow Serve",
-          "Mirage Persistent Kernel"
+          "Mirage Persistent Kernel",
+          "Event Tensor"
         ],
         "people": "",
         "website": "https://catalyst.cs.cmu.edu/",
         "country": "USA",
         "city": "Pittsburgh, PA",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -22572,7 +22633,7 @@
         "topic": "kernel-compilation",
         "related_concepts": "",
         "projects": "",
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -30571,6 +30632,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "target": "concept/inference/optimization/Agentic Inference Optimization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "target": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/flashinfer-ai/FlashInfer/Brian K. Ryu",
       "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
       "kind": "wikilink"
@@ -30967,6 +31038,16 @@
     },
     {
       "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "community/NVIDIA/AVO/AVO",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
       "target": "community/flashinfer-ai/FlashInfer/FlashInfer",
       "kind": "wikilink"
     },
@@ -30977,12 +31058,47 @@
     },
     {
       "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "community/research/CAKE/CAKE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
       "target": "university/Carnegie Mellon University/Carnegie Mellon University",
       "kind": "wikilink"
     },
     {
       "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "university/Carnegie Mellon University/Catalyst Group",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
       "target": "university/University of Washington/University of Washington",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "target": "university/上海交通大学/上海交通大学",
       "kind": "wikilink"
     },
     {
@@ -33582,6 +33698,16 @@
     },
     {
       "source": "community/research/AscendOptimizer/AscendOptimizer",
+      "target": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/research/CAKE/CAKE",
+      "target": "concept/compiler/Kernel Compiler Pipeline",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/research/CAKE/CAKE",
       "target": "concept/kernel/optimization/Agentic Kernel Optimization",
       "kind": "wikilink"
     },
@@ -44477,6 +44603,11 @@
     },
     {
       "source": "concept/compiler/Kernel Compiler Pipeline",
+      "target": "community/research/CAKE/CAKE",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/compiler/Kernel Compiler Pipeline",
       "target": "community/tile-ai/TileLang/TileLang",
       "kind": "wikilink"
     },
@@ -44508,6 +44639,16 @@
     {
       "source": "concept/compiler/Kernel Compiler Pipeline",
       "target": "concept/kernel/programming/Kernel DSL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/compiler/Kernel Compiler Pipeline",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/compiler/Kernel Compiler Pipeline",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
       "kind": "wikilink"
     },
     {
@@ -44993,6 +45134,11 @@
     {
       "source": "concept/inference/optimization/Agentic Inference Optimization",
       "target": "community/MetaInfer/MetaInfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/optimization/Agentic Inference Optimization",
+      "target": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
       "kind": "wikilink"
     },
     {
@@ -45723,6 +45869,16 @@
     {
       "source": "concept/kernel/optimization/Agentic Kernel Optimization",
       "target": "community/NVIDIA/KDA/KDA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "target": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "target": "community/research/CAKE/CAKE",
       "kind": "wikilink"
     },
     {
@@ -46537,6 +46693,11 @@
     },
     {
       "source": "university/Carnegie Mellon University/Catalyst Group",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group",
       "target": "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve",
       "kind": "wikilink"
     },
@@ -46553,6 +46714,46 @@
     {
       "source": "university/Carnegie Mellon University/Catalyst Group",
       "target": "university/University of Washington/SAMPL",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "target": "concept/compiler/Kernel Compiler Pipeline",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "target": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "target": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "target": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "target": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "target": "concept/compiler/Kernel Compiler Pipeline",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
+      "target": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
+      "target": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
       "kind": "wikilink"
     },
     {
@@ -48033,6 +48234,11 @@
     {
       "source": "university/上海交通大学/上海交通大学",
       "target": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+      "kind": "wikilink"
+    },
+    {
+      "source": "university/上海交通大学/上海交通大学",
+      "target": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
       "kind": "wikilink"
     },
     {
@@ -53387,13 +53593,14 @@
       "bridge_score": 6.022
     },
     "community/NVIDIA/AVO/AVO": {
-      "degree": 2,
+      "degree": 3,
       "cross_category_degree": 2,
       "neighbor_categories": [
+        "community",
         "company",
         "concept"
       ],
-      "bridge_score": 5.285
+      "bridge_score": 7.2
     },
     "community/NVIDIA/CUTLASS/Aniket Shivam": {
       "degree": 1,
@@ -54911,23 +55118,23 @@
       "bridge_score": 6.157
     },
     "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye": {
-      "degree": 13,
-      "cross_category_degree": 5,
+      "degree": 14,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 10.057
+      "bridge_score": 10.507
     },
     "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai": {
-      "degree": 8,
-      "cross_category_degree": 4,
+      "degree": 10,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "university"
       ],
-      "bridge_score": 7.57
+      "bridge_score": 8.559
     },
     "community/flashinfer-ai/FlashInfer/陈乐群 Lequn Chen": {
       "degree": 3,
@@ -54938,13 +55145,22 @@
       "bridge_score": 3.5
     },
     "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen": {
-      "degree": 9,
-      "cross_category_degree": 4,
+      "degree": 16,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "university"
       ],
-      "bridge_score": 7.722
+      "bridge_score": 9.887
+    },
+    "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 5.7
     },
     "community/ggml-org/ggml/ggml": {
       "degree": 9,
@@ -55754,6 +55970,15 @@
         "concept"
       ],
       "bridge_score": 2.85
+    },
+    "community/research/CAKE/CAKE": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 5.7
     },
     "community/sail-sg/EnvPool/EnvPool": {
       "degree": 1,
@@ -56686,6 +56911,16 @@
       ],
       "bridge_score": 12.7
     },
+    "university/Carnegie Mellon University/Catalyst Group/Event Tensor": {
+      "degree": 4,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept",
+        "university"
+      ],
+      "bridge_score": 7.522
+    },
     "university/Carnegie Mellon University/Catalyst Group/FlexFlow Serve": {
       "degree": 1,
       "cross_category_degree": 0,
@@ -56695,29 +56930,32 @@
       "bridge_score": 2.5
     },
     "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 6,
+      "cross_category_degree": 4,
       "neighbor_categories": [
+        "community",
+        "concept",
         "university"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 8.707
     },
     "university/Carnegie Mellon University/Catalyst Group/XGrammar": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 3,
+      "cross_category_degree": 2,
       "neighbor_categories": [
+        "community",
         "university"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 5.7
     },
     "university/Carnegie Mellon University/Catalyst Group": {
-      "degree": 8,
+      "degree": 9,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "university"
       ],
-      "bridge_score": 7.22
+      "bridge_score": 7.372
     },
     "university/Case Western Reserve University/Case Western Reserve University": {
       "degree": 1,
@@ -57355,14 +57593,14 @@
       "bridge_score": 4.307
     },
     "university/上海交通大学/上海交通大学": {
-      "degree": 31,
-      "cross_category_degree": 12,
+      "degree": 32,
+      "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
         "company",
         "university"
       ],
-      "bridge_score": 13.7
+      "bridge_score": 14.094
     },
     "university/上海交通大学/张一鸣 Yiming Zhang": {
       "degree": 5,
@@ -58257,13 +58495,14 @@
       "bridge_score": 7.207
     },
     "concept/compiler/Kernel Compiler Pipeline": {
-      "degree": 9,
-      "cross_category_degree": 4,
+      "degree": 12,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
-        "concept"
+        "concept",
+        "university"
       ],
-      "bridge_score": 7.722
+      "bridge_score": 10.65
     },
     "concept/compiler/Layout Optimization": {
       "degree": 3,
@@ -58453,13 +58692,13 @@
       "bridge_score": 7.372
     },
     "concept/inference/optimization/Agentic Inference Optimization": {
-      "degree": 7,
-      "cross_category_degree": 5,
+      "degree": 8,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.75
+      "bridge_score": 8.27
     },
     "concept/inference/parallelism/Context Parallelism": {
       "degree": 4,
@@ -58686,13 +58925,13 @@
       "bridge_score": 7.4
     },
     "concept/kernel/optimization/Agentic Kernel Optimization": {
-      "degree": 25,
-      "cross_category_degree": 23,
+      "degree": 27,
+      "cross_category_degree": 25,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 15.75
+      "bridge_score": 16.557
     },
     "concept/kernel/optimization/Kernel Fusion": {
       "degree": 6,

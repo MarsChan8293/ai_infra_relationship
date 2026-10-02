@@ -4,9 +4,9 @@
     "concepts": 84,
     "concepts_with_projects": 84,
     "concepts_without_projects": 0,
-    "project_like_nodes": 182,
-    "projects_with_concepts": 75,
-    "concept_project_assertions": 309,
+    "project_like_nodes": 212,
+    "projects_with_concepts": 79,
+    "concept_project_assertions": 315,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -611,6 +611,16 @@
       "count": 2
     },
     {
+      "id": "community/research/CAKE/CAKE",
+      "name": "CAKE",
+      "layer": "agent-compiler-kernel-optimization",
+      "concepts": [
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/Ascend/CANNBot/CANNBot",
       "name": "CANNBot",
       "layer": "optimization",
@@ -637,6 +647,16 @@
       "concepts": [
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/attention/FlashAttention"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+      "name": "FlashInfer-Bench",
+      "layer": "optimization-harness",
+      "concepts": [
+        "concept/inference/optimization/Agentic Inference Optimization",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
       ],
       "count": 2
     },
@@ -875,6 +895,15 @@
       "count": 1
     },
     {
+      "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+      "name": "Event Tensor",
+      "layer": "compiler-runtime",
+      "concepts": [
+        "concept/compiler/Kernel Compiler Pipeline"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/flagos-ai/FlagAttention/FlagAttention",
       "name": "FlagAttention",
       "layer": "runtime",
@@ -943,6 +972,15 @@
       "layer": "training",
       "concepts": [
         "concept/inference/parallelism/Sequence Parallelism"
+      ],
+      "count": 1
+    },
+    {
+      "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+      "name": "Mirage Persistent Kernel",
+      "layer": "kernel-compiler-runtime",
+      "concepts": [
+        "concept/compiler/Kernel Compiler Pipeline"
       ],
       "count": 1
     },

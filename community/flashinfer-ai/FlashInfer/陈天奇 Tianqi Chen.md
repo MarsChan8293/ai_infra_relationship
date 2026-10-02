@@ -4,9 +4,9 @@ name: 陈天奇
 english_name: Tianqi Chen
 aliases: [Tianqi Chen, 陈天奇]
 schools:
-  - "上海交通大学"
-  - "University of Washington"
   - "Carnegie Mellon University"
+  - "University of Washington"
+  - "上海交通大学"
 communities: [FlashInfer]
 roles:
   - "Associate Professor, Carnegie Mellon University"

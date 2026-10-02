@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 1999
+- Candidate actions: 2005
 - Selected actions: 10
 - History records: 727
 

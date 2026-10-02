@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 1999,
+  "candidate_count": 2005,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -4975,79 +4975,6 @@
         "unresolved_dimensions": [
           "originating_org_semantics"
         ]
-      }
-    },
-    {
-      "action_id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
-        "name": "Mirage Persistent Kernel",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 8.444,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 8.341,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -10150,79 +10077,6 @@
       }
     },
     {
-      "action_id": "community/NVIDIA/AVO/AVO::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/NVIDIA/AVO/AVO",
-        "name": "AVO",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 7.808,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 5.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.705,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/openEuler/openYuanRong/YuanRong DataSystem::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -10498,79 +10352,6 @@
         "unresolved_dimensions": [
           "current_affiliation"
         ]
-      }
-    },
-    {
-      "action_id": "university/Carnegie Mellon University/Catalyst Group/XGrammar::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
-        "name": "XGrammar",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 7.769,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Project",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 7.666,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -11481,6 +11262,82 @@
         "unresolved_dimensions": [
           "project_relevance_and_direct_relation"
         ]
+      }
+    },
+    {
+      "action_id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+        "name": "FlashInfer-Bench",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 7.607,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 7.415,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -16212,6 +16069,79 @@
       }
     },
     {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+        "name": "Event Tensor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 7.216,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 7.522,
+        "novelty": 0.0,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "bridge 7.5"
+      ],
+      "base_priority": 7.113,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "company/趋境科技/Hongbo Kang::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -20628,99 +20558,6 @@
       }
     },
     {
-      "action_id": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye",
-        "name": "叶子豪",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 6.961,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 3.4,
-        "evidence_quality": 0.75,
-        "url_count": 2,
-        "bridge_score": 10.057,
-        "novelty": 0.5,
-        "frontier_potential": 0.2,
-        "uncertainty": 0.557,
-        "redundancy_penalty": 0.35,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kernel, distributed",
-        "bridge 10.1",
-        "partial follow-up: unresolved contribution_role_strength"
-      ],
-      "base_priority": 6.66,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "frontier_repo:https://github.com/flashinfer-ai/flashinfer",
-            "internal_graph_links:13",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "contribution_role_strength"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "contribution_role_strength"
-        ]
-      }
-    },
-    {
       "action_id": "company/杭州先进编译科技有限公司/高伟::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -22027,6 +21864,82 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "community/research/CAKE/CAKE::originating_org",
+      "action_key": "project:originating_org:company+school+research+community+team",
+      "source": {
+        "id": "community/research/CAKE/CAKE",
+        "name": "CAKE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "originating_org",
+      "target_families": [
+        "company",
+        "school",
+        "research",
+        "community",
+        "team"
+      ],
+      "strategies": [
+        "official_repository_org",
+        "project_docs_or_announcement"
+      ],
+      "write_hint": "Distinguish origin/core governance from downstream usage, integration, or sponsorship.",
+      "bucket": "exploration",
+      "priority": 6.87,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 1,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.7,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.192,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/1",
+        "source type Project",
+        "infra: kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.678,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 10,
+          "statuses": {
+            "partial": 8,
+            "success": 2
+          },
+          "mean_status_value": 0.48,
+          "mean_reward": 3.9,
+          "reward_signal": 0.751,
+          "yield_adjustment": 0.192
+        },
+        "key_yield_adjustment": 0.192,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -33412,6 +33325,78 @@
       }
     },
     {
+      "action_id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+        "name": "FlashInfer-Bench",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 6.422,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.413,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: serving/inference, kernel"
+      ],
+      "base_priority": 6.319,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
+      }
+    },
+    {
       "action_id": "university/Stanford University/MAST Lab::key_people",
       "action_key": "research:key_people:person",
       "source": {
@@ -40963,6 +40948,78 @@
       }
     },
     {
+      "action_id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
+        "name": "FlashInfer-Bench",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 6.231,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 6.061,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/flashinfer-ai/FlashInfer/aleozlx::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -44415,78 +44472,6 @@
         "unresolved_dimensions": [
           "current_affiliation"
         ]
-      }
-    },
-    {
-      "action_id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
-        "name": "Mirage Persistent Kernel",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 6.145,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference, kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.975,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -48834,6 +48819,99 @@
       }
     },
     {
+      "action_id": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye::project_contribution",
+      "action_key": "person:project_contribution:project+community",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye",
+        "name": "叶子豪",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "project_contribution",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "github_or_gitcode_activity",
+        "project_governance_or_release_notes"
+      ],
+      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
+      "bucket": "bridge",
+      "priority": 6.034,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 2,
+        "desired": 3,
+        "gap": 0.333
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 0.75,
+        "url_count": 2,
+        "bridge_score": 10.507,
+        "novelty": 0.5,
+        "frontier_potential": 0.194,
+        "uncertainty": 0.374,
+        "redundancy_penalty": 0.436,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.151,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 2/3",
+        "source type Person",
+        "infra: serving/inference, kernel, distributed",
+        "bridge 10.5",
+        "partial follow-up: unresolved contribution_role_strength"
+      ],
+      "base_priority": 5.733,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "frontier_repo:https://github.com/flashinfer-ai/flashinfer",
+            "internal_graph_links:13",
+            "reachable_sources:1"
+          ],
+          "unresolved_dimensions": [
+            "contribution_role_strength"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 209,
+          "statuses": {
+            "partial": 200,
+            "success": 9
+          },
+          "mean_status_value": 0.378,
+          "mean_reward": 2.749,
+          "reward_signal": 0.596,
+          "yield_adjustment": 0.151
+        },
+        "key_yield_adjustment": 0.151,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "contribution_role_strength"
+        ]
+      }
+    },
+    {
       "action_id": "university/浙江大学/浙江大学::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
@@ -49160,104 +49238,6 @@
             "frontier_repo:https://github.com/features/ai",
             "internal_graph_links:2",
             "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "contribution_role_strength"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "contribution_role_strength"
-        ]
-      }
-    },
-    {
-      "action_id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
-        "name": "赖睿航",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 6.02,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.57,
-        "novelty": 0.5,
-        "frontier_potential": 0.25,
-        "uncertainty": 0.54,
-        "redundancy_penalty": 0.314,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "infra: serving/inference, kernel",
-        "bridge 7.6",
-        "partial follow-up: unresolved contribution_role_strength"
-      ],
-      "base_priority": 5.719,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "repository_context:https://github.com/flashinfer-ai/flashinfer",
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:4",
-            "reachable_sources:1"
           ],
           "unresolved_dimensions": [
             "contribution_role_strength"
@@ -55236,6 +55216,79 @@
       }
     },
     {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+        "name": "Mirage Persistent Kernel",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.839,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.707,
+        "novelty": 0.0,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.138,
+        "redundancy_penalty": 0.433,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "bridge 8.7"
+      ],
+      "base_priority": 5.736,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.250"
+      }
+    },
+    {
       "action_id": "company/摩尔线程/摩尔线程::key_people",
       "action_key": "company:key_people:person",
       "source": {
@@ -56420,6 +56473,79 @@
         "unresolved_dimensions": [
           "labs_or_groups_semantic_confirmation"
         ]
+      }
+    },
+    {
+      "action_id": "community/NVIDIA/AVO/AVO::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/NVIDIA/AVO/AVO",
+        "name": "AVO",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.79,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.2,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.586,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: kernel",
+        "bridge 7.2"
+      ],
+      "base_priority": 5.687,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
       }
     },
     {
@@ -58530,6 +58656,79 @@
       }
     },
     {
+      "action_id": "community/NVIDIA/AVO/AVO::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/NVIDIA/AVO/AVO",
+        "name": "AVO",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 5.757,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.2,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: kernel",
+        "opens underrepresented target types",
+        "bridge 7.2"
+      ],
+      "base_priority": 5.587,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepJIT::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -59344,6 +59543,78 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/XGrammar::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
+        "name": "XGrammar",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 5.725,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: serving/inference",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.555,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -62106,78 +62377,6 @@
       }
     },
     {
-      "action_id": "community/NVIDIA/AVO/AVO::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/NVIDIA/AVO/AVO",
-        "name": "AVO",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 5.66,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 5.285,
-        "novelty": 1.0,
-        "frontier_potential": 0.664,
-        "uncertainty": 0.723,
-        "redundancy_penalty": 0.088,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.49,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "company/Anyscale/Anyscale::projects",
       "action_key": "company:projects:project+community+team",
       "source": {
@@ -63144,78 +63343,6 @@
       }
     },
     {
-      "action_id": "university/Carnegie Mellon University/Catalyst Group/XGrammar::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
-        "name": "XGrammar",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "exploration",
-      "priority": 5.639,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 1.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 2.5,
-        "novelty": 1.0,
-        "frontier_potential": 0.813,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: serving/inference",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.469,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/NVIDIA/TensorRT-LLM/Yi Zhang::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -63313,6 +63440,78 @@
         "unresolved_dimensions": [
           "current_affiliation"
         ]
+      }
+    },
+    {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
+        "name": "Mirage Persistent Kernel",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 5.637,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 3.5,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.707,
+        "novelty": 0.5,
+        "frontier_potential": 0.435,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.294,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "bridge 8.7"
+      ],
+      "base_priority": 5.467,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.707"
       }
     },
     {
@@ -64227,6 +64426,78 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "community/research/CAKE/CAKE::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/research/CAKE/CAKE",
+        "name": "CAKE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "exploration",
+      "priority": 5.616,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.7,
+        "novelty": 1.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.723,
+        "redundancy_penalty": 0.111,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Project",
+        "infra: kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.446,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
       }
     },
     {
@@ -65165,6 +65436,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/research/CAKE/CAKE::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/research/CAKE/CAKE",
+        "name": "CAKE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 5.603,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 1,
+        "desired": 4,
+        "gap": 0.75
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.586,
+        "redundancy_penalty": 0.25,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/4",
+        "source type Project",
+        "infra: kernel"
+      ],
+      "base_priority": 5.5,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.750"
       }
     },
     {
@@ -72106,6 +72449,78 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
+        "name": "Event Tensor",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 5.466,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 2.75,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 7.522,
+        "novelty": 0.5,
+        "frontier_potential": 0.514,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.267,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: serving/inference, scheduler, kernel",
+        "bridge 7.5"
+      ],
+      "base_priority": 5.296,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=7.522"
       }
     },
     {
@@ -93696,6 +94111,78 @@
       }
     },
     {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group/XGrammar::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group/XGrammar",
+        "name": "XGrammar",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.928,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.0,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 5.7,
+        "novelty": 0.0,
+        "frontier_potential": 0.575,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.331,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: serving/inference"
+      ],
+      "base_priority": 4.825,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
+      }
+    },
+    {
       "action_id": "company/RadixArk/Richard Chen::affiliation",
       "action_key": "person:affiliation:company+school+research+team",
       "source": {
@@ -104447,103 +104934,6 @@
       }
     },
     {
-      "action_id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen::project_contribution",
-      "action_key": "person:project_contribution:project+community",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
-        "name": "陈天奇",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "project_contribution",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "github_or_gitcode_activity",
-        "project_governance_or_release_notes"
-      ],
-      "write_hint": "Prefer explicit project/community metadata plus evidence-backed prose.",
-      "bucket": "bridge",
-      "priority": 4.736,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 1,
-        "desired": 3,
-        "gap": 0.667
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.722,
-        "novelty": 0.5,
-        "frontier_potential": 0.237,
-        "uncertainty": 0.54,
-        "redundancy_penalty": 0.323,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.151,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 1/3",
-        "source type Person",
-        "bridge 7.7",
-        "partial follow-up: unresolved contribution_role_strength"
-      ],
-      "base_priority": 4.435,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "repository_context:https://github.com/flashinfer-ai/flashinfer",
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:4",
-            "reachable_sources:1"
-          ],
-          "unresolved_dimensions": [
-            "contribution_role_strength"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 209,
-          "statuses": {
-            "partial": 200,
-            "success": 9
-          },
-          "mean_status_value": 0.378,
-          "mean_reward": 2.749,
-          "reward_signal": 0.596,
-          "yield_adjustment": 0.151
-        },
-        "key_yield_adjustment": 0.151,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "contribution_role_strength"
-        ]
-      }
-    },
-    {
       "action_id": "company/道客/道客::academic_links",
       "action_key": "company:academic_links:school+research",
       "source": {
@@ -108667,78 +109057,6 @@
       }
     },
     {
-      "action_id": "university/Carnegie Mellon University/Catalyst Group::key_people",
-      "action_key": "research:key_people:person",
-      "source": {
-        "id": "university/Carnegie Mellon University/Catalyst Group",
-        "name": "Catalyst Group",
-        "type": "research-institution",
-        "family": "research"
-      },
-      "relation": "key_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "official_people_directory",
-        "project_author_pages"
-      ],
-      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
-      "bucket": "exploitation",
-      "priority": 4.616,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 3,
-        "desired": 4,
-        "gap": 0.25
-      },
-      "signals": {
-        "infra_relevance": 2.55,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 7.22,
-        "novelty": 0.0,
-        "frontier_potential": 0.35,
-        "uncertainty": 0.138,
-        "redundancy_penalty": 0.453,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.176,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 3/4",
-        "source type Research Institution",
-        "infra: serving/inference, kernel, quantization",
-        "bridge 7.2"
-      ],
-      "base_priority": 4.44,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 4,
-          "statuses": {
-            "partial": 2,
-            "success": 2
-          },
-          "mean_status_value": 0.675,
-          "mean_reward": 10.875,
-          "reward_signal": 0.991,
-          "yield_adjustment": 0.176
-        },
-        "key_yield_adjustment": 0.176,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.250"
-      }
-    },
-    {
       "action_id": "community/ModelTC/LightLLM/LightLLM::verify_evidence",
       "action_key": "project:verify_evidence:none",
       "source": {
@@ -109054,6 +109372,78 @@
         "unresolved_dimensions": [
           "contribution_role_strength"
         ]
+      }
+    },
+    {
+      "action_id": "university/Carnegie Mellon University/Catalyst Group::key_people",
+      "action_key": "research:key_people:person",
+      "source": {
+        "id": "university/Carnegie Mellon University/Catalyst Group",
+        "name": "Catalyst Group",
+        "type": "research-institution",
+        "family": "research"
+      },
+      "relation": "key_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "official_people_directory",
+        "project_author_pages"
+      ],
+      "write_hint": "Prefer researchers with concrete AI Infra projects or systems work.",
+      "bucket": "exploitation",
+      "priority": 4.61,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 3,
+        "desired": 4,
+        "gap": 0.25
+      },
+      "signals": {
+        "infra_relevance": 2.55,
+        "evidence_quality": 1.3,
+        "url_count": 6,
+        "bridge_score": 7.372,
+        "novelty": 0.0,
+        "frontier_potential": 0.332,
+        "uncertainty": 0.138,
+        "redundancy_penalty": 0.461,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.176,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 3/4",
+        "source type Research Institution",
+        "infra: serving/inference, kernel, quantization",
+        "bridge 7.4"
+      ],
+      "base_priority": 4.434,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 4,
+          "statuses": {
+            "partial": 2,
+            "success": 2
+          },
+          "mean_status_value": 0.675,
+          "mean_reward": 10.875,
+          "reward_signal": 0.991,
+          "yield_adjustment": 0.176
+        },
+        "key_yield_adjustment": 0.176,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.250"
       }
     },
     {
@@ -135392,6 +135782,89 @@
       }
     },
     {
+      "action_id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai::verify_evidence",
+      "action_key": "person:verify_evidence:none",
+      "source": {
+        "id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
+        "name": "赖睿航",
+        "type": "person",
+        "family": "person"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.679,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 8.559,
+        "novelty": 0.0,
+        "frontier_potential": 0.75,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.12,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.111,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target",
+        "partial follow-up: unresolved semantic_claim_match"
+      ],
+      "base_priority": 3.418,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "verify-full-2026-09-18",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
+          "resolved_dimensions": [
+            "source_liveness"
+          ],
+          "unresolved_dimensions": [
+            "semantic_claim_match"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 88,
+          "statuses": {
+            "partial": 87,
+            "unresolved": 1
+          },
+          "mean_status_value": 0.34,
+          "mean_reward": 0.989,
+          "reward_signal": 0.242,
+          "yield_adjustment": 0.111
+        },
+        "key_yield_adjustment": 0.111,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "company/密瓜智能/密瓜智能::key_people",
       "action_key": "company:key_people:person",
       "source": {
@@ -136804,89 +137277,6 @@
       "trigger": {
         "kind": "weak_evidence",
         "detail": "evidence_quality=0.000"
-      }
-    },
-    {
-      "action_id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai",
-        "name": "赖睿航",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 3.589,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 1.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.57,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.11,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 3.328,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -145683,6 +146073,73 @@
       }
     },
     {
+      "action_id": "community/NVIDIA/AVO/AVO::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/NVIDIA/AVO/AVO",
+        "name": "AVO",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.194,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 7.2,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.069,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 3.081,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "community/vllm-project/AIBrix/Jianliang Qi::verify_evidence",
       "action_key": "person:verify_evidence:none",
       "source": {
@@ -147849,6 +148306,73 @@
       }
     },
     {
+      "action_id": "community/research/CAKE/CAKE::verify_evidence",
+      "action_key": "project:verify_evidence:none",
+      "source": {
+        "id": "community/research/CAKE/CAKE",
+        "name": "CAKE",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "verify_evidence",
+      "target_families": [],
+      "strategies": [
+        "official_primary_sources",
+        "repository_or_paper_sources"
+      ],
+      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
+      "bucket": "verification",
+      "priority": 3.041,
+      "cost": 0.8,
+      "coverage": {
+        "existing": 1,
+        "desired": 2,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 0.8,
+        "url_count": 1,
+        "bridge_score": 5.7,
+        "novelty": 0.0,
+        "frontier_potential": 1.15,
+        "uncertainty": 0.5,
+        "redundancy_penalty": 0.069,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.113,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "source coverage 1/2",
+        "evidence quality below target"
+      ],
+      "base_priority": 2.928,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 31,
+          "statuses": {
+            "partial": 31
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 1.0,
+          "reward_signal": 0.245,
+          "yield_adjustment": 0.113
+        },
+        "key_yield_adjustment": 0.113,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "weak_evidence",
+        "detail": "evidence/freshness verification action"
+      }
+    },
+    {
       "action_id": "company/智谱/GLM-4-Voice::verify_evidence",
       "action_key": "project:verify_evidence:none",
       "source": {
@@ -148830,73 +149354,6 @@
         },
         "key_yield_adjustment": 0.111,
         "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
-      }
-    },
-    {
-      "action_id": "community/NVIDIA/AVO/AVO::verify_evidence",
-      "action_key": "project:verify_evidence:none",
-      "source": {
-        "id": "community/NVIDIA/AVO/AVO",
-        "name": "AVO",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 3.014,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 5.285,
-        "novelty": 0.0,
-        "frontier_potential": 1.15,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.055,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.113,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target"
-      ],
-      "base_priority": 2.901,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 31,
-          "statuses": {
-            "partial": 31
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 1.0,
-          "reward_signal": 0.245,
-          "yield_adjustment": 0.113
-        },
-        "key_yield_adjustment": 0.113,
-        "exact_status_adjustment": 0.0
       },
       "operator": "verify",
       "trigger": {
@@ -152685,89 +153142,6 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
-      }
-    },
-    {
-      "action_id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen::verify_evidence",
-      "action_key": "person:verify_evidence:none",
-      "source": {
-        "id": "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen",
-        "name": "陈天奇",
-        "type": "person",
-        "family": "person"
-      },
-      "relation": "verify_evidence",
-      "target_families": [],
-      "strategies": [
-        "official_primary_sources",
-        "repository_or_paper_sources"
-      ],
-      "write_hint": "Strengthen or reject important claims; do not create a new relation without direct evidence.",
-      "bucket": "verification",
-      "priority": 2.649,
-      "cost": 0.8,
-      "coverage": {
-        "existing": 1,
-        "desired": 2,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 0.0,
-        "evidence_quality": 0.8,
-        "url_count": 1,
-        "bridge_score": 7.722,
-        "novelty": 0.0,
-        "frontier_potential": 0.75,
-        "uncertainty": 0.5,
-        "redundancy_penalty": 0.115,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.111,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "source coverage 1/2",
-        "evidence quality below target",
-        "partial follow-up: unresolved semantic_claim_match"
-      ],
-      "base_priority": 2.388,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "verify-full-2026-09-18",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "1/1 sampled source URLs were reachable or access-controlled. This resolves source availability only, not semantic claim fidelity.",
-          "resolved_dimensions": [
-            "source_liveness"
-          ],
-          "unresolved_dimensions": [
-            "semantic_claim_match"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 88,
-          "statuses": {
-            "partial": 87,
-            "unresolved": 1
-          },
-          "mean_status_value": 0.34,
-          "mean_reward": 0.989,
-          "reward_signal": 0.242,
-          "yield_adjustment": 0.111
-        },
-        "key_yield_adjustment": 0.111,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "weak_evidence",
-        "detail": "evidence/freshness verification action"
       }
     },
     {
@@ -157945,14 +158319,14 @@
   ],
   "planner_entrypoint": "scripts/plan-research.py",
   "history_path": "research/action-history.json",
-  "history_as_of": "2026-10-01",
+  "history_as_of": "2026-10-02",
   "history_summary": {
-    "as_of": "2026-10-01",
+    "as_of": "2026-10-02",
     "history_records": 727,
     "suppressed_by_cooldown": 0,
-    "partial_followup_candidates": 622,
+    "partial_followup_candidates": 619,
     "latest_status_counts_in_current_candidates": {
-      "partial": 622,
+      "partial": 619,
       "success": 10,
       "unresolved": 31
     },
@@ -158215,7 +158589,7 @@
       }
     }
   },
-  "eligible_count": 1999,
+  "eligible_count": 2005,
   "suppressed_count": 0,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

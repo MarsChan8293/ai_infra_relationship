@@ -1,9 +1,7 @@
 ---
 type: project
 name: "XGrammar"
-linked_people:
-  - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
-  - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
+linked_people: []
 layer: "structured-generation"
 status: active
 repository: https://github.com/mlc-ai/xgrammar

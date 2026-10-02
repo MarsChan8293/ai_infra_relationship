@@ -5,9 +5,9 @@
 - Status: **pass**
 - Concepts: 84
 - Concepts with project evidence: 84
-- Project-like nodes: 182
-- Projects linked to concepts: 75
-- Concept → Project assertions: 309
+- Project-like nodes: 212
+- Projects linked to concepts: 79
+- Concept → Project assertions: 315
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -51,10 +51,10 @@
 | [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | inference-engine | [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
 | [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | inference-engine | [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
 | [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | storage | [[concept/storage/Distributed Storage|Distributed Storage]] · [[concept/storage/NVMe SSD|NVMe SSD]] | 2 |
+| [[community/research/CAKE/CAKE|CAKE]] | agent-compiler-kernel-optimization | [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
 | [[community/Ascend/CANNBot/CANNBot|CANNBot]] | optimization | [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | 2 |
 | [[community/deepseek-ai/Engram/Engram|Engram]] | other | [[concept/memory/Conditional Memory|Conditional Memory]] · [[concept/memory/Host Memory|Host Memory]] | 2 |
 | [[community/Dao-AILab/FlashAttention/FlashAttention|FlashAttention]] | runtime | [[concept/kernel/attention/Attention Kernel|Attention Kernel]] · [[concept/kernel/attention/FlashAttention|FlashAttention]] | 2 |
-| [[community/taco-project/FlexKV/FlexKV|FlexKV]] | distributed-kv-cache | [[concept/memory/Host Memory|Host Memory]] · [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | 2 |
 
 ## Concepts without project evidence
 

@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 199
-- Source roots: community 172 · company 14 · university 13
+- Projects: 202
+- Source roots: community 174 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -19,13 +19,13 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Communication / Data Movement](#communication) | 15 |
 | [Runtime / Framework](#runtime) | 32 |
 | [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 9 |
+| [Compiler / DSL](#compiler) | 11 |
 | [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 4 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 28 |
+| [Inference Optimization](#optimization) | 29 |
 | [Other](#other) | 8 |
 
 ## inference-engine
@@ -204,13 +204,15 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## compiler
 
-**Compiler / DSL** · 9 projects
+**Compiler / DSL** · 11 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/research/CAKE/CAKE]] | agent-compiler-kernel-optimization | research | agentic-kernel-optimization, compiler-agent-co-design, gpu-kernel, intermediate-representation, verification | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CAKE) |
 | [[community/deepseek-ai/DeepSeek-Infra/clangd-ascend]] | compiler | active | developer-tooling, language-server, ascendc, code-completion, diagnostics | `deepseek-ai` | 1 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=clangd-ascend) |
 | [[community/LancerLab/Croqtile/Croqtile]] | compiler | active | kernel-dsl, gpu-kernels, ai-native-programming, symbolic-shapes, compile-time-verification | `LancerLab` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Croqtile) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepJIT]] | compiler | active | jit-compilation, kernel-generation | `deepseek-ai` | 3 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepJIT) |
+| [[university/Carnegie Mellon University/Catalyst Group/Event Tensor]] | compiler-runtime | research | dynamic-megakernel, persistent-kernel, dynamic-shapes, data-dependent-computation, compiler | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Event%20Tensor) |
 | [[community/flagos-ai/FlagTree/FlagTree]] | compiler | active | compiler, triton, heterogeneous-computing, multi-backend, kernel-dsl | `flagos-ai` | 0 | 8 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagTree) |
 | [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel]] | kernel-compiler-runtime | active | llm-inference, persistent-kernel, megakernel, compiler, gpu-runtime | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Mirage%20Persistent%20Kernel) |
 | [[community/InfiniTensor/NineToothed]] | compiler |  | compiler, kernel-dsl, triton, tilelang, gpu-kernels | `InfiniTensor` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NineToothed) |
@@ -291,7 +293,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 28 projects
+**Inference Optimization** · 29 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -309,6 +311,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/BytedTsinghua-SIA/CUDA-Agent/CUDA-Agent]] | optimization | active | agentic-kernel-optimization, agentic-rl, cuda, kernel-generation, correctness-verification | `BytedTsinghua-SIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDA-Agent) |
 | [[community/清华大学/CUDAMaster/CUDAMaster]] | optimization | research | agentic-kernel-optimization, multi-agent, cuda, hardware-aware, profiling | `清华大学` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=CUDAMaster) |
 | [[community/deepseek-ai/DeepSpec/DeepSpec]] | speculative-decoding |  | llm-inference, speculative-decoding, draft-model, inference-acceleration | `deepseek-ai` | 0 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSpec) |
+| [[community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench]] | optimization-harness | active | agentic-kernel-optimization, kernel-benchmark, correctness-validation, production-deployment, llm-inference | `flashinfer-ai` | 3 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashInfer-Bench) |
 | [[community/AMD-AGI/GEAK/GEAK]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, deterministic-workflow, vllm | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEAK) |
 | [[community/AMD-AGI/Hyperloom/Hyperloom]] | optimization | active | agentic-inference-optimization, agentic-kernel-optimization, multi-agent, e2e-validation, recipe-memory | `AMD-AGI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Hyperloom) |
 | [[community/UC Berkeley/K-Search/K-Search]] | optimization | active | agentic-kernel-optimization, world-model, tree-search, cuda, flashinfer | `UC Berkeley` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=K-Search) |

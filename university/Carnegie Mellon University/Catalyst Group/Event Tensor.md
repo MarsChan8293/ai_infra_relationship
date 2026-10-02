@@ -1,10 +1,7 @@
 ---
 type: project
 name: "Event Tensor"
-linked_people:
-  - "community/flashinfer-ai/FlashInfer/陈天奇 Tianqi Chen"
-  - "community/flashinfer-ai/FlashInfer/赖睿航 Ruihang Lai"
-  - "community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye"
+linked_people: []
 linked_concepts:
   - "concept/compiler/Kernel Compiler Pipeline"
 layer: "compiler-runtime"
@@ -60,3 +57,12 @@ Dynamic MegaKernel
 - https://arxiv.org/abs/2604.13327
 - https://proceedings.mlsys.org/paper_files/paper/2026/hash/53d3f45797970d323bd8a0d379c525aa-Abstract-Conference.html
 - https://catalyst.cs.cmu.edu/summit.html
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
