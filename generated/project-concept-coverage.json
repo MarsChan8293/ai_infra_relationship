@@ -4,9 +4,9 @@
     "concepts": 84,
     "concepts_with_projects": 84,
     "concepts_without_projects": 0,
-    "project_like_nodes": 212,
-    "projects_with_concepts": 79,
-    "concept_project_assertions": 315,
+    "project_like_nodes": 214,
+    "projects_with_concepts": 81,
+    "concept_project_assertions": 326,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -408,6 +408,20 @@
       "count": 6
     },
     {
+      "id": "community/tile-ai/TileLang/TileLang-Ascend",
+      "name": "TileLang-Ascend",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/attention/Sparse Attention",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 6
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "name": "DeepGEMM-Ascend",
       "layer": "runtime",
@@ -469,6 +483,19 @@
         "concept/quantization/FP8 Quantization",
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+      "name": "TileLang-MLIR-Ascend",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Compiler Lowering",
+        "concept/kernel/attention/Attention Kernel",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 5
     },

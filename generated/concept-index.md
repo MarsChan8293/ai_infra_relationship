@@ -140,16 +140,16 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
+| [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
 | [[concept/kernel/attention/FlashAttention|FlashAttention]] | Flash Attention, IO-Aware Attention | Attention Kernel | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
 | [[concept/kernel/attention/PagedAttention|PagedAttention]] | Paged Attention, 分页注意力 | Attention Kernel | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PagedAttention) |
-| [[concept/kernel/attention/Sparse Attention|Sparse Attention]] | Sparse Attention Kernel, 稀疏注意力 | Attention Kernel | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sparse%20Attention) |
+| [[concept/kernel/attention/Sparse Attention|Sparse Attention]] | Sparse Attention Kernel, 稀疏注意力 | Attention Kernel | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sparse%20Attention) |
 
 ### Gemm
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
+| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
 | [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
 
 ### Optimization
@@ -168,8 +168,8 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] | AOT Compilation, AOT, Offline Compilation, 提前编译 | Kernel Compiler Pipeline | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ahead-of-Time%20Compilation) |
-| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
-| [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
+| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
+| [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
 | [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
 
 ### Kernel Optimization
@@ -184,7 +184,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
-| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
+| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
 
 ## Quantization
 

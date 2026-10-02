@@ -3,7 +3,7 @@
   "ranking_unit": "research-action",
   "seed": null,
   "budget": 10,
-  "candidate_count": 2005,
+  "candidate_count": 2007,
   "selected_count": 10,
   "selected_family_counts": {
     "community": 1,
@@ -12,9 +12,9 @@
     "research": 4
   },
   "selected_bucket_counts": {
-    "bridge": 4,
+    "bridge": 5,
     "exploitation": 3,
-    "exploration": 3
+    "exploration": 2
   },
   "scoring_note": "Three research operators share stable action identity. EXPAND uses explicit seed context; DISCOVER uses global graph gaps/frontiers/bridges; VERIFY handles weak evidence and history follow-up. Existing graph priority, cooldown and empirical-yield adjustments are preserved.",
   "selected_actions": [
@@ -257,11 +257,11 @@
       }
     },
     {
-      "action_id": "community/Ascend/CANNBot/CANNBot::maintainers",
+      "action_id": "community/tile-ai/TileLang/TileLang-Ascend::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
-        "id": "community/Ascend/CANNBot/CANNBot",
-        "name": "CANNBot",
+        "id": "community/tile-ai/TileLang/TileLang-Ascend",
+        "name": "TileLang-Ascend",
         "type": "project",
         "family": "project"
       },
@@ -274,8 +274,8 @@
         "github_or_gitcode_contributors"
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploration",
-      "priority": 9.446,
+      "bucket": "bridge",
+      "priority": 9.465,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -283,14 +283,14 @@
         "gap": 1.0
       },
       "signals": {
-        "infra_relevance": 4.0,
+        "infra_relevance": 3.4,
         "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 6.05,
+        "url_count": 4,
+        "bridge_score": 8.907,
         "novelty": 1.0,
-        "frontier_potential": 0.575,
+        "frontier_potential": 0.307,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.111,
+        "redundancy_penalty": 0.211,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -300,11 +300,11 @@
       "reasons": [
         "coverage 0/4",
         "source type Project",
-        "infra: serving/inference, kv-cache, kernel",
+        "infra: kernel, distributed, moe",
         "opens underrepresented target types",
-        "bridge 6.0"
+        "bridge 8.9"
       ],
-      "base_priority": 9.343,
+      "base_priority": 9.362,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -326,8 +326,8 @@
       },
       "operator": "discover",
       "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
+        "kind": "bridge",
+        "detail": "bridge_score=8.907"
       }
     },
     {
@@ -637,7 +637,7 @@
       ],
       "write_hint": "Prefer organizers/maintainers with direct public evidence.",
       "bucket": "exploitation",
-      "priority": 8.19,
+      "priority": 8.175,
       "cost": 1.0,
       "coverage": {
         "existing": 0,
@@ -648,11 +648,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.3,
         "url_count": 3,
-        "bridge_score": 4.67,
+        "bridge_score": 5.085,
         "novelty": 1.0,
-        "frontier_potential": 0.367,
+        "frontier_potential": 0.318,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.176,
+        "redundancy_penalty": 0.199,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.15,
@@ -663,11 +663,11 @@
       "reasons": [
         "coverage 0/4",
         "source type Community",
-        "infra: serving/inference, kernel, distributed",
+        "infra: serving/inference, scheduler, kernel",
         "opens underrepresented target types",
         "partial follow-up: unresolved core_people_semantic_confirmation"
       ],
-      "base_priority": 7.89,
+      "base_priority": 7.875,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
@@ -1115,6 +1115,80 @@
       }
     },
     {
+      "action_id": "community/tile-ai/TileLang/TileLang-Ascend::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/tile-ai/TileLang/TileLang-Ascend",
+        "name": "TileLang-Ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 9.465,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 3.4,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 8.907,
+        "novelty": 1.0,
+        "frontier_potential": 0.307,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.211,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: kernel, distributed, moe",
+        "opens underrepresented target types",
+        "bridge 8.9"
+      ],
+      "base_priority": 9.362,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.907"
+      }
+    },
+    {
       "action_id": "community/Ascend/CANNBot/CANNBot::maintainers",
       "action_key": "project:maintainers:person",
       "source": {
@@ -1355,7 +1429,7 @@
       ],
       "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
       "bucket": "bridge",
-      "priority": 9.419,
+      "priority": 9.407,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -1366,11 +1440,11 @@
         "infra_relevance": 3.65,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 6.52,
+        "bridge_score": 6.809,
         "novelty": 1.0,
-        "frontier_potential": 0.383,
+        "frontier_potential": 0.347,
         "uncertainty": 0.55,
-        "redundancy_penalty": 0.176,
+        "redundancy_penalty": 0.192,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -1383,10 +1457,10 @@
         "source type Project",
         "infra: serving/inference, kernel, distributed",
         "opens underrepresented target types",
-        "bridge 6.5",
+        "bridge 6.8",
         "partial follow-up: unresolved umbrella_CANN_maintainers, inference_hotspot_repo_ownership"
       ],
-      "base_priority": 9.166,
+      "base_priority": 9.154,
       "eligible": true,
       "history": {
         "exact_attempts": 1,
@@ -3872,6 +3946,80 @@
         "unresolved_dimensions": [
           "maintainer_governance"
         ]
+      }
+    },
+    {
+      "action_id": "community/tile-ai/TileLang/TileLang-MLIR-Ascend::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+        "name": "TileLang-MLIR-Ascend",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "bridge",
+      "priority": 8.607,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 1.9,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 8.209,
+        "novelty": 1.0,
+        "frontier_potential": 0.347,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.192,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Project",
+        "infra: kernel, ascend",
+        "opens underrepresented target types",
+        "bridge 8.2"
+      ],
+      "base_priority": 8.504,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "bridge",
+        "detail": "bridge_score=8.209"
       }
     },
     {
@@ -6863,96 +7011,6 @@
       }
     },
     {
-      "action_id": "community/Ascend/Ascend/Ascend::core_people",
-      "action_key": "community:core_people:person",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "core_people",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_or_maintainers",
-        "github_or_gitcode_activity"
-      ],
-      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
-      "bucket": "exploitation",
-      "priority": 8.19,
-      "cost": 1.0,
-      "coverage": {
-        "existing": 0,
-        "desired": 4,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.67,
-        "novelty": 1.0,
-        "frontier_potential": 0.367,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.176,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.15,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/4",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types",
-        "partial follow-up: unresolved core_people_semantic_confirmation"
-      ],
-      "base_priority": 7.89,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "internal_graph_links:1",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "core_people_semantic_confirmation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 6,
-          "statuses": {
-            "partial": 6
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.167,
-          "reward_signal": 0.659,
-          "yield_adjustment": 0.15
-        },
-        "key_yield_adjustment": 0.15,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "core_people_semantic_confirmation"
-        ]
-      }
-    },
-    {
       "action_id": "community/xLLM-AI/xLLM-service/xLLM-service::originating_org",
       "action_key": "project:originating_org:company+school+research+community+team",
       "source": {
@@ -7027,6 +7085,96 @@
       "trigger": {
         "kind": "bridge",
         "detail": "bridge_score=6.157"
+      }
+    },
+    {
+      "action_id": "community/Ascend/Ascend/Ascend::core_people",
+      "action_key": "community:core_people:person",
+      "source": {
+        "id": "community/Ascend/Ascend/Ascend",
+        "name": "Ascend",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "core_people",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_or_maintainers",
+        "github_or_gitcode_activity"
+      ],
+      "write_hint": "Prefer organizers/maintainers with direct public evidence.",
+      "bucket": "exploitation",
+      "priority": 8.175,
+      "cost": 1.0,
+      "coverage": {
+        "existing": 0,
+        "desired": 4,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.318,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.15,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 0/4",
+        "source type Community",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types",
+        "partial follow-up: unresolved core_people_semantic_confirmation"
+      ],
+      "base_priority": 7.875,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "internal_graph_links:1",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "core_people_semantic_confirmation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 6,
+          "statuses": {
+            "partial": 6
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.167,
+          "reward_signal": 0.659,
+          "yield_adjustment": 0.15
+        },
+        "key_yield_adjustment": 0.15,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "core_people_semantic_confirmation"
+        ]
       }
     },
     {
@@ -23829,11 +23977,11 @@
         "infra_relevance": 4.0,
         "evidence_quality": 1.1,
         "url_count": 2,
-        "bridge_score": 10.848,
+        "bridge_score": 10.922,
         "novelty": 0.0,
-        "frontier_potential": 0.264,
+        "frontier_potential": 0.257,
         "uncertainty": 0.344,
-        "redundancy_penalty": 0.455,
+        "redundancy_penalty": 0.459,
         "distance": null,
         "distance_penalty": 0.0,
         "history_yield_adjustment": 0.103,
@@ -23845,7 +23993,7 @@
         "coverage 2/4",
         "source type Project",
         "infra: serving/inference, kv-cache, kernel",
-        "bridge 10.8",
+        "bridge 10.9",
         "partial follow-up: unresolved maintainer_governance"
       ],
       "base_priority": 6.539,
@@ -52818,104 +52966,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::related_projects",
-      "action_key": "project:related_projects:project+community",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
-        "name": "DeepSelect",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "related_projects",
-      "target_families": [
-        "project",
-        "community"
-      ],
-      "strategies": [
-        "official_docs_integrations",
-        "repository_dependencies_or_design_docs"
-      ],
-      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
-      "bucket": "bridge",
-      "priority": 5.931,
-      "cost": 1.2,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 7.522,
-        "novelty": 1.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.129,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.17,
-        "history_status_adjustment": 0.15,
-        "history_eligible": true,
-        "cooldown_until": "2026-09-20"
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Project",
-        "infra: kernel",
-        "opens underrepresented target types",
-        "bridge 7.5",
-        "partial follow-up: unresolved project_relevance_and_direct_relation"
-      ],
-      "base_priority": 5.611,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 1,
-        "latest": {
-          "run_id": "2026-09-18-discover-full",
-          "attempted_at": "2026-09-18",
-          "status": "partial",
-          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
-          "resolved_dimensions": [
-            "repository_context:https://github.com/deepseek-ai/deepselect",
-            "frontier_repo:https://github.com/features/copilot",
-            "frontier_repo:https://github.com/features/ai",
-            "frontier_repo:https://github.com/features/actions",
-            "frontier_repo:https://github.com/features/codespaces",
-            "frontier_repo:https://github.com/features/code-review",
-            "internal_graph_links:8",
-            "reachable_sources:2"
-          ],
-          "unresolved_dimensions": [
-            "project_relevance_and_direct_relation"
-          ],
-          "cooldown_days": 2,
-          "cooldown_until": "2026-09-20"
-        },
-        "action_key_stats": {
-          "attempts": 27,
-          "statuses": {
-            "partial": 27
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 5.685,
-          "reward_signal": 0.89,
-          "yield_adjustment": 0.17
-        },
-        "key_yield_adjustment": 0.17,
-        "exact_status_adjustment": 0.15
-      },
-      "operator": "verify",
-      "trigger": {
-        "kind": "history_followup",
-        "detail": "prior partial action",
-        "unresolved_dimensions": [
-          "project_relevance_and_direct_relation"
-        ]
-      }
-    },
-    {
       "action_id": "university/University of Chicago/University of Chicago::labs_or_groups",
       "action_key": "school:labs_or_groups:research+team",
       "source": {
@@ -54032,79 +54082,6 @@
       }
     },
     {
-      "action_id": "community/Ascend/Ascend/Ascend::member_orgs",
-      "action_key": "community:member_orgs:company+school+research",
-      "source": {
-        "id": "community/Ascend/Ascend/Ascend",
-        "name": "Ascend",
-        "type": "community",
-        "family": "community"
-      },
-      "relation": "member_orgs",
-      "target_families": [
-        "company",
-        "school",
-        "research"
-      ],
-      "strategies": [
-        "governance_membership_page",
-        "official_announcements"
-      ],
-      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
-      "bucket": "exploitation",
-      "priority": 5.896,
-      "cost": 1.3,
-      "coverage": {
-        "existing": 0,
-        "desired": 3,
-        "gap": 1.0
-      },
-      "signals": {
-        "infra_relevance": 4.0,
-        "evidence_quality": 1.3,
-        "url_count": 3,
-        "bridge_score": 4.67,
-        "novelty": 1.0,
-        "frontier_potential": 0.367,
-        "uncertainty": 0.55,
-        "redundancy_penalty": 0.176,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.052,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 0/3",
-        "source type Community",
-        "infra: serving/inference, kernel, distributed",
-        "opens underrepresented target types"
-      ],
-      "base_priority": 5.844,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 2,
-          "statuses": {
-            "partial": 2
-          },
-          "mean_status_value": 0.35,
-          "mean_reward": 3.75,
-          "reward_signal": 0.734,
-          "yield_adjustment": 0.052
-        },
-        "key_yield_adjustment": 0.052,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=1.000"
-      }
-    },
-    {
       "action_id": "community/deepseek-ai/DeepSeek-Infra/Zhean Xu::technical_collaborator",
       "action_key": "person:technical_collaborator:person",
       "source": {
@@ -54336,6 +54313,79 @@
           "yield_adjustment": 0.144
         },
         "key_yield_adjustment": 0.144,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/Ascend/Ascend/Ascend::member_orgs",
+      "action_key": "community:member_orgs:company+school+research",
+      "source": {
+        "id": "community/Ascend/Ascend/Ascend",
+        "name": "Ascend",
+        "type": "community",
+        "family": "community"
+      },
+      "relation": "member_orgs",
+      "target_families": [
+        "company",
+        "school",
+        "research"
+      ],
+      "strategies": [
+        "governance_membership_page",
+        "official_announcements"
+      ],
+      "write_hint": "Require governance, founding, or core-maintainer evidence; sponsorship alone is insufficient.",
+      "bucket": "exploitation",
+      "priority": 5.879,
+      "cost": 1.3,
+      "coverage": {
+        "existing": 0,
+        "desired": 3,
+        "gap": 1.0
+      },
+      "signals": {
+        "infra_relevance": 4.0,
+        "evidence_quality": 1.3,
+        "url_count": 3,
+        "bridge_score": 5.085,
+        "novelty": 1.0,
+        "frontier_potential": 0.318,
+        "uncertainty": 0.55,
+        "redundancy_penalty": 0.199,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.052,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 0/3",
+        "source type Community",
+        "infra: serving/inference, scheduler, kernel",
+        "opens underrepresented target types"
+      ],
+      "base_priority": 5.827,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 2,
+          "statuses": {
+            "partial": 2
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 3.75,
+          "reward_signal": 0.734,
+          "yield_adjustment": 0.052
+        },
+        "key_yield_adjustment": 0.052,
         "exact_status_adjustment": 0.0
       },
       "operator": "discover",
@@ -90720,79 +90770,6 @@
       }
     },
     {
-      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::maintainers",
-      "action_key": "project:maintainers:person",
-      "source": {
-        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
-        "name": "DeepSelect",
-        "type": "project",
-        "family": "project"
-      },
-      "relation": "maintainers",
-      "target_families": [
-        "person"
-      ],
-      "strategies": [
-        "governance_maintainers_codeowners",
-        "github_or_gitcode_contributors"
-      ],
-      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
-      "bucket": "exploitation",
-      "priority": 5.009,
-      "cost": 0.9,
-      "coverage": {
-        "existing": 2,
-        "desired": 4,
-        "gap": 0.5
-      },
-      "signals": {
-        "infra_relevance": 0.9,
-        "evidence_quality": 1.3,
-        "url_count": 4,
-        "bridge_score": 7.522,
-        "novelty": 0.0,
-        "frontier_potential": 0.514,
-        "uncertainty": 0.275,
-        "redundancy_penalty": 0.348,
-        "distance": null,
-        "distance_penalty": 0.0,
-        "history_yield_adjustment": 0.103,
-        "history_status_adjustment": 0.0,
-        "history_eligible": true
-      },
-      "reasons": [
-        "coverage 2/4",
-        "source type Project",
-        "infra: kernel",
-        "bridge 7.5"
-      ],
-      "base_priority": 4.906,
-      "eligible": true,
-      "history": {
-        "exact_attempts": 0,
-        "latest": null,
-        "action_key_stats": {
-          "attempts": 68,
-          "statuses": {
-            "partial": 47,
-            "success": 5,
-            "unresolved": 16
-          },
-          "mean_status_value": 0.198,
-          "mean_reward": 2.665,
-          "reward_signal": 0.583,
-          "yield_adjustment": 0.103
-        },
-        "key_yield_adjustment": 0.103,
-        "exact_status_adjustment": 0.0
-      },
-      "operator": "discover",
-      "trigger": {
-        "kind": "coverage_gap",
-        "detail": "coverage_gap=0.500"
-      }
-    },
-    {
       "action_id": "community/NVIDIA/CUTLASS/IonThruster::project_contribution",
       "action_key": "person:project_contribution:project+community",
       "source": {
@@ -91321,6 +91298,79 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=1.000"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::maintainers",
+      "action_key": "project:maintainers:person",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+        "name": "DeepSelect",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "maintainers",
+      "target_families": [
+        "person"
+      ],
+      "strategies": [
+        "governance_maintainers_codeowners",
+        "github_or_gitcode_contributors"
+      ],
+      "write_hint": "Prefer governance, CODEOWNERS, MAINTAINERS, release credits, or sustained contribution evidence.",
+      "bucket": "exploitation",
+      "priority": 4.987,
+      "cost": 0.9,
+      "coverage": {
+        "existing": 2,
+        "desired": 4,
+        "gap": 0.5
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.785,
+        "novelty": 0.0,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.275,
+        "redundancy_penalty": 0.363,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.103,
+        "history_status_adjustment": 0.0,
+        "history_eligible": true
+      },
+      "reasons": [
+        "coverage 2/4",
+        "source type Project",
+        "infra: kernel",
+        "bridge 7.8"
+      ],
+      "base_priority": 4.884,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 0,
+        "latest": null,
+        "action_key_stats": {
+          "attempts": 68,
+          "statuses": {
+            "partial": 47,
+            "success": 5,
+            "unresolved": 16
+          },
+          "mean_status_value": 0.198,
+          "mean_reward": 2.665,
+          "reward_signal": 0.583,
+          "yield_adjustment": 0.103
+        },
+        "key_yield_adjustment": 0.103,
+        "exact_status_adjustment": 0.0
+      },
+      "operator": "discover",
+      "trigger": {
+        "kind": "coverage_gap",
+        "detail": "coverage_gap=0.500"
       }
     },
     {
@@ -110328,6 +110378,103 @@
       "trigger": {
         "kind": "coverage_gap",
         "detail": "coverage_gap=0.667"
+      }
+    },
+    {
+      "action_id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect::related_projects",
+      "action_key": "project:related_projects:project+community",
+      "source": {
+        "id": "community/deepseek-ai/DeepSeek-Infra/DeepSelect",
+        "name": "DeepSelect",
+        "type": "project",
+        "family": "project"
+      },
+      "relation": "related_projects",
+      "target_families": [
+        "project",
+        "community"
+      ],
+      "strategies": [
+        "official_docs_integrations",
+        "repository_dependencies_or_design_docs"
+      ],
+      "write_hint": "Record the concrete technical relationship; compatibility alone is not a people relation.",
+      "bucket": "bridge",
+      "priority": 4.555,
+      "cost": 1.2,
+      "coverage": {
+        "existing": 1,
+        "desired": 3,
+        "gap": 0.667
+      },
+      "signals": {
+        "infra_relevance": 0.9,
+        "evidence_quality": 1.3,
+        "url_count": 4,
+        "bridge_score": 7.785,
+        "novelty": 0.5,
+        "frontier_potential": 0.469,
+        "uncertainty": 0.367,
+        "redundancy_penalty": 0.282,
+        "distance": null,
+        "distance_penalty": 0.0,
+        "history_yield_adjustment": 0.17,
+        "history_status_adjustment": 0.15,
+        "history_eligible": true,
+        "cooldown_until": "2026-09-20"
+      },
+      "reasons": [
+        "coverage 1/3",
+        "source type Project",
+        "infra: kernel",
+        "bridge 7.8",
+        "partial follow-up: unresolved project_relevance_and_direct_relation"
+      ],
+      "base_priority": 4.235,
+      "eligible": true,
+      "history": {
+        "exact_attempts": 1,
+        "latest": {
+          "run_id": "2026-09-18-discover-full",
+          "attempted_at": "2026-09-18",
+          "status": "partial",
+          "note": "Full DISCOVER frontier probe completed; candidate context retained without promoting weak signals to a strong graph edge.",
+          "resolved_dimensions": [
+            "repository_context:https://github.com/deepseek-ai/deepselect",
+            "frontier_repo:https://github.com/features/copilot",
+            "frontier_repo:https://github.com/features/ai",
+            "frontier_repo:https://github.com/features/actions",
+            "frontier_repo:https://github.com/features/codespaces",
+            "frontier_repo:https://github.com/features/code-review",
+            "internal_graph_links:8",
+            "reachable_sources:2"
+          ],
+          "unresolved_dimensions": [
+            "project_relevance_and_direct_relation"
+          ],
+          "cooldown_days": 2,
+          "cooldown_until": "2026-09-20"
+        },
+        "action_key_stats": {
+          "attempts": 27,
+          "statuses": {
+            "partial": 27
+          },
+          "mean_status_value": 0.35,
+          "mean_reward": 5.685,
+          "reward_signal": 0.89,
+          "yield_adjustment": 0.17
+        },
+        "key_yield_adjustment": 0.17,
+        "exact_status_adjustment": 0.15
+      },
+      "operator": "verify",
+      "trigger": {
+        "kind": "history_followup",
+        "detail": "prior partial action",
+        "unresolved_dimensions": [
+          "project_relevance_and_direct_relation"
+        ]
       }
     },
     {
@@ -146307,7 +146454,7 @@
       ],
       "write_hint": "Re-check project status, canonical repository/docs, integrations, governance drift, and refresh last_verified only with current evidence.",
       "bucket": "verification",
-      "priority": 3.179,
+      "priority": 3.183,
       "cost": 0.9,
       "coverage": {
         "existing": 0,
@@ -146318,11 +146465,11 @@
         "infra_relevance": 3.65,
         "evidence_quality": 1.3,
         "url_count": 7,
-        "bridge_score": 6.52,
+        "bridge_score": 6.809,
         "novelty": 0.0,
         "frontier_potential": 1.15,
         "uncertainty": 1.0,
-        "redundancy_penalty": 0.11,
+        "redundancy_penalty": 0.12,
         "distance": null,
         "distance_penalty": 0.0,
         "freshness_age_months": null,
@@ -146334,7 +146481,7 @@
         "missing last_verified",
         "status=unknown"
       ],
-      "base_priority": 3.179,
+      "base_priority": 3.183,
       "eligible": true,
       "history": {
         "exact_attempts": 0,
@@ -158589,7 +158736,7 @@
       }
     }
   },
-  "eligible_count": 2005,
+  "eligible_count": 2007,
   "suppressed_count": 0,
   "operator_model": "EXPAND/DISCOVER/VERIFY",
   "operators": [

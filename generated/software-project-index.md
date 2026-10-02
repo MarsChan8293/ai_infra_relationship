@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 202
-- Source roots: community 174 · company 14 · university 14
+- Projects: 204
+- Source roots: community 176 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -19,7 +19,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Communication / Data Movement](#communication) | 15 |
 | [Runtime / Framework](#runtime) | 32 |
 | [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 11 |
+| [Compiler / DSL](#compiler) | 13 |
 | [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
@@ -204,7 +204,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## compiler
 
-**Compiler / DSL** · 11 projects
+**Compiler / DSL** · 13 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -217,7 +217,9 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel]] | kernel-compiler-runtime | active | llm-inference, persistent-kernel, megakernel, compiler, gpu-runtime | `university:Carnegie Mellon University` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Mirage%20Persistent%20Kernel) |
 | [[community/InfiniTensor/NineToothed]] | compiler |  | compiler, kernel-dsl, triton, tilelang, gpu-kernels | `InfiniTensor` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NineToothed) |
 | [[community/siliconflow/OneDiff/OneDiff]] | diffusion-inference-compiler |  |  | `siliconflow` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OneDiff) |
-| [[community/tile-ai/TileLang/TileLang]] | compiler | active | kernel-dsl, kernel-generation | `tile-ai` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang) |
+| [[community/tile-ai/TileLang/TileLang]] | compiler | active | kernel-dsl, kernel-generation, multi-backend, ascend-950 | `tile-ai` | 3 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang) |
+| [[community/tile-ai/TileLang/TileLang-Ascend]] | compiler | active | kernel-dsl, ascend, ascend-a2, ascend-a3, ascendc | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-Ascend) |
+| [[community/tile-ai/TileLang/TileLang-MLIR-Ascend]] | compiler | active | kernel-dsl, mlir, ascendnpu-ir, ascend, ascend-a2 | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-MLIR-Ascend) |
 | [[community/triton-lang/Triton/Triton]] | compiler | active | gpu-kernel-dsl, compiler, jit, mlir | `triton-lang` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Triton) |
 
 ## training

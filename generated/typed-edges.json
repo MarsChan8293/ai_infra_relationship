@@ -9785,6 +9785,66 @@
     "derived_from": "frontmatter.integrations"
   },
   {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "community/tile-ai/TileLang/TileLang",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "TileLang-Ascend",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "community/Ascend/CANN/CANN",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "TileLang-Ascend",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "community/tile-ai/TileLang/TileLang",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "TileLang-MLIR-Ascend",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "community/Ascend/CANN/CANN",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "TileLang-MLIR-Ascend",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
     "source": "community/NVIDIA/NCCL/NCCL",
     "target": "concept/communication/collectives/All-to-All",
     "kind": "derived-project-concept-support",
@@ -10489,6 +10549,38 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/compiler/Backend Code Generation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "Backend Code Generation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "concept/compiler/Backend Code Generation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-MLIR-Ascend",
+    "concept": "Backend Code Generation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/triton-lang/Triton/Triton",
     "target": "concept/compiler/Backend Code Generation",
     "kind": "derived-project-concept-support",
@@ -10544,6 +10636,38 @@
       "project-concept-support"
     ],
     "project": "TileLang",
+    "concept": "Compiler Lowering",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/compiler/Compiler Lowering",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "Compiler Lowering",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "concept/compiler/Compiler Lowering",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-MLIR-Ascend",
     "concept": "Compiler Lowering",
     "company": null,
     "start": null,
@@ -12569,6 +12693,38 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/kernel/attention/Attention Kernel",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "Attention Kernel",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "concept/kernel/attention/Attention Kernel",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-MLIR-Ascend",
+    "concept": "Attention Kernel",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/Dao-AILab/FlashAttention/FlashAttention",
     "target": "concept/kernel/attention/FlashAttention",
     "kind": "derived-project-concept-support",
@@ -12665,6 +12821,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/kernel/attention/Sparse Attention",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "Sparse Attention",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
     "target": "concept/kernel/gemm/GEMM",
     "kind": "derived-project-concept-support",
@@ -12704,6 +12876,38 @@
       "project-concept-support"
     ],
     "project": "TileLang",
+    "concept": "GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/kernel/gemm/GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "concept/kernel/gemm/GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-MLIR-Ascend",
     "concept": "GEMM",
     "company": null,
     "start": null,
@@ -13424,6 +13628,38 @@
       "project-concept-support"
     ],
     "project": "TileLang",
+    "concept": "Kernel DSL",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-Ascend",
+    "target": "concept/kernel/programming/Kernel DSL",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-Ascend",
+    "concept": "Kernel DSL",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/tile-ai/TileLang/TileLang-MLIR-Ascend",
+    "target": "concept/kernel/programming/Kernel DSL",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TileLang-MLIR-Ascend",
     "concept": "Kernel DSL",
     "company": null,
     "start": null,

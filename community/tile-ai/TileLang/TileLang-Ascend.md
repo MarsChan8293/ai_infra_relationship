@@ -1,7 +1,15 @@
 ---
 type: project
 name: TileLang-Ascend
+linked_concepts:
+  - "concept/kernel/attention/Attention Kernel"
+  - "concept/compiler/Backend Code Generation"
+  - "concept/compiler/Compiler Lowering"
+  - "concept/kernel/gemm/GEMM"
+  - "concept/kernel/programming/Kernel DSL"
+  - "concept/kernel/attention/Sparse Attention"
 status: active
+linked_people: []
 repository: https://github.com/tile-ai/tilelang-ascend
 docs: https://github.com/tile-ai/tilelang-ascend/blob/ascendc_pto/docs/TileLang-Ascend%20Programming%20Guide.md
 last_verified: "2026-10"
@@ -10,13 +18,7 @@ layer: compiler
 areas: [kernel-dsl, ascend, ascend-a2, ascend-a3, ascendc, pto, npuir, gemm, attention-kernels, sparse-attention]
 hardware: [ascend]
 integrations: [TileLang, CANN]
-linked_concepts:
-  - "concept/compiler/Backend Code Generation"
-  - "concept/compiler/Compiler Lowering"
-  - "concept/kernel/programming/Kernel DSL"
-  - "concept/kernel/gemm/GEMM"
-  - "concept/kernel/attention/Attention Kernel"
-  - "concept/kernel/attention/Sparse Attention"
+linked_companies: []
 ---
 # TileLang-Ascend
 
@@ -46,3 +48,17 @@ TileLang-Ascend 是 Tile-AI 面向 Huawei Ascend NPU 的专用 TileLang adapter�
 - https://github.com/tile-ai/tilelang-ascend
 - https://github.com/tile-ai/tilelang-ascend/blob/ascendc_pto/README.md
 - https://github.com/tile-ai/tilelang
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/attention/Attention Kernel|Attention Kernel]]
+- [[concept/compiler/Backend Code Generation|Backend Code Generation]]
+- [[concept/compiler/Compiler Lowering|Compiler Lowering]]
+- [[concept/kernel/gemm/GEMM|GEMM]]
+- [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
+- [[concept/kernel/attention/Sparse Attention|Sparse Attention]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
