@@ -134,7 +134,7 @@ def resolve(value: str, aliases, ids):
 
 def load_records(root: pathlib.Path):
     rows = []
-    for dirname in ("community", "concept"):
+    for dirname in ("company", "community", "university", "concept"):
         base = root / dirname
         if not base.exists():
             continue
