@@ -2,14 +2,14 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 84
+- Concepts: 88
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
 ## Inference
 
-25 concepts.
+28 concepts.
 
 ### Agent Runtime
 
@@ -32,12 +32,15 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/kv-cache/KV Cache|KV Cache]] | Key-Value Cache, KV缓存 |  | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache) |
-| [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] | KV管理, KV缓存管理 | KV Cache | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Management) |
-| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
+| [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]] | KV Eviction, Cache Eviction, KV缓存淘汰 | KV Cache Management | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Eviction) |
+| [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] | KV管理, KV缓存管理 | KV Cache | 7 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Management) |
+| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 5 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
+| [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]] | KV Prefetch, Cache Prefetching, KV缓存预取 | KV Cache Management | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Prefetching) |
 | [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]] | KV Sharing, Shared KV Cache, KV缓存共享 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Sharing) |
 | [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
 | [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] | Automatic Prefix Caching, APC, Prefix KV Caching, 前缀缓存 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Prefix%20Caching) |
-| [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
+| [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]] | Remote KV Cache Store, Distributed KV Store, Remote KV Cache, 远程KV存储 | KV Cache Management | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20KV%20Store) |
+| [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 6 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
 
 ### Optimization
 
@@ -68,7 +71,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Memory
 
-7 concepts.
+8 concepts.
 
 ### Memory Hierarchy
 
@@ -77,7 +80,8 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/memory/Conditional Memory|Conditional Memory]] | Conditional Lookup Memory, Scalable Lookup Memory, 条件记忆 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Conditional%20Memory) |
 | [[concept/memory/HBM|HBM]] | High Bandwidth Memory, 高带宽内存 | Memory Hierarchy | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HBM) |
 | [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
-| [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
+| [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
+| [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, SSD/NVMe Offloading, SSD卸载 | Memory Hierarchy | 6 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
 
 ### Memory Pooling
 
@@ -156,7 +160,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 25 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
+| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 26 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
 | [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] | Operator Fusion, Fused Kernel, 算子融合 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Fusion) |
 
 ## Compiler
@@ -168,9 +172,9 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] | AOT Compilation, AOT, Offline Compilation, 提前编译 | Kernel Compiler Pipeline | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ahead-of-Time%20Compilation) |
-| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
+| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
 | [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
-| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
+| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
 
 ### Kernel Optimization
 
@@ -243,16 +247,16 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
+| [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 5 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
 
 ### Storage Media
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/NVMe SSD|NVMe SSD]] | NVMe, NVMe Storage, SSD, NVMe固态盘 |  | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVMe%20SSD) |
+| [[concept/storage/NVMe SSD|NVMe SSD]] | NVMe, NVMe Storage, SSD, NVMe固态盘 |  | 5 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVMe%20SSD) |
 
 ### Storage Tiering
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/Storage Tiering|Storage Tiering]] | Tiered Storage, Multi-tier Storage, 分层存储 |  | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Storage%20Tiering) |
+| [[concept/storage/Storage Tiering|Storage Tiering]] | Tiered Storage, Multi-tier Storage, 分层存储 |  | 5 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Storage%20Tiering) |

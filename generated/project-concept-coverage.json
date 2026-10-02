@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 84,
-    "concepts_with_projects": 84,
+    "concepts": 88,
+    "concepts_with_projects": 88,
     "concepts_without_projects": 0,
     "project_like_nodes": 215,
     "projects_with_concepts": 82,
-    "concept_project_assertions": 327,
+    "concept_project_assertions": 345,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -24,9 +24,9 @@
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
-    "kv-cache": 8,
+    "kv-cache": 11,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 4,
+    "memory-hierarchy": 5,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -50,9 +50,9 @@
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
-    "kv-cache": 8,
+    "kv-cache": 11,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 4,
+    "memory-hierarchy": 5,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -113,6 +113,7 @@
         "concept/communication/data-movement/RDMA",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
         "concept/inference/kv-cache/Tiered KV Cache",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/serving/P-D Disaggregation",
@@ -120,6 +121,7 @@
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
+        "concept/memory/SSD-NVMe Tier",
         "concept/storage/Direct Storage IO",
         "concept/storage/Distributed Storage",
         "concept/storage/NVMe SSD",
@@ -127,27 +129,52 @@
         "concept/storage/SSD-Backed KV Cache",
         "concept/storage/Storage Tiering"
       ],
-      "count": 19
+      "count": 21
     },
     {
       "id": "community/LMCache/LMCache/LMCache",
       "name": "LMCache",
       "layer": "kv-cache",
       "concepts": [
+        "concept/inference/kv-cache/KV Cache Eviction",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Prefetching",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
         "concept/inference/kv-cache/Tiered KV Cache",
         "concept/inference/serving/P-D Disaggregation",
         "concept/memory/CXL Memory",
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
+        "concept/memory/SSD-NVMe Tier",
         "concept/storage/Distributed Storage",
         "concept/storage/Remote Object Store",
         "concept/storage/Storage Tiering"
       ],
-      "count": 12
+      "count": 16
+    },
+    {
+      "id": "community/Ascend/MemCache/MemCache",
+      "name": "MemCache",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Eviction",
+        "concept/inference/kv-cache/KV Cache Prefetching",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/memory/NUMA",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 13
     },
     {
       "id": "community/llm-d/llm-d/llm-d",
@@ -204,6 +231,24 @@
       "count": 10
     },
     {
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "name": "YuanRong DataSystem",
+      "layer": "distributed-data-cache",
+      "concepts": [
+        "concept/hardware/interconnect/HCCS",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/memory/HBM",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/Remote Object Store",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 10
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "name": "DeepGEMM",
       "layer": "runtime",
@@ -217,23 +262,6 @@
         "concept/quantization/Quantization",
         "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization"
-      ],
-      "count": 9
-    },
-    {
-      "id": "community/Ascend/MemCache/MemCache",
-      "name": "MemCache",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/memory/HBM",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling",
-        "concept/memory/NUMA",
-        "concept/storage/Distributed Storage",
-        "concept/storage/NVMe SSD",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
       ],
       "count": 9
     },
@@ -315,22 +343,6 @@
         "concept/hardware/interconnect/NVLink",
         "concept/hardware/interconnect/NVSwitch",
         "concept/hardware/interconnect/PCIe"
-      ],
-      "count": 8
-    },
-    {
-      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "name": "YuanRong DataSystem",
-      "layer": "distributed-data-cache",
-      "concepts": [
-        "concept/hardware/interconnect/HCCS",
-        "concept/memory/HBM",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling",
-        "concept/storage/Distributed Storage",
-        "concept/storage/NVMe SSD",
-        "concept/storage/Remote Object Store",
-        "concept/storage/Storage Tiering"
       ],
       "count": 8
     },
@@ -435,6 +447,19 @@
       "count": 5
     },
     {
+      "id": "community/taco-project/FlexKV/FlexKV",
+      "name": "FlexKV",
+      "layer": "distributed-kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Prefetching",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/SSD-NVMe Tier"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/kserve/KServe/KServe",
       "name": "KServe",
       "layer": "distributed-serving",
@@ -498,6 +523,18 @@
         "concept/kernel/programming/Kernel DSL"
       ],
       "count": 5
+    },
+    {
+      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "name": "CANNBot-DSL",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Backend Code Generation",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/optimization/Agentic Kernel Optimization",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 4
     },
     {
       "id": "community/NVIDIA/CUTLASS/CUTLASS",
@@ -688,16 +725,6 @@
       "count": 2
     },
     {
-      "id": "community/taco-project/FlexKV/FlexKV",
-      "name": "FlexKV",
-      "layer": "distributed-kv-cache",
-      "concepts": [
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy"
-      ],
-      "count": 2
-    },
-    {
       "id": "community/AMD-AGI/GEAK/GEAK",
       "name": "GEAK",
       "layer": "optimization",
@@ -855,15 +882,6 @@
       "layer": "optimization",
       "concepts": [
         "concept/kernel/optimization/Agentic Kernel Optimization"
-      ],
-      "count": 1
-    },
-    {
-      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
-      "name": "CANNBot-DSL",
-      "layer": "compiler",
-      "concepts": [
-        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 1
     },

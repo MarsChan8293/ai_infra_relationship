@@ -5598,6 +5598,9 @@
         "hardware": [
           "ascend"
         ],
+        "integrations": [
+          "CANNBot-DSL"
+        ],
         "companies": [
           "华为"
         ],
@@ -22992,6 +22995,24 @@
       }
     },
     {
+      "id": "concept/inference/kv-cache/KV Cache Eviction",
+      "path": "concept/inference/kv-cache/KV Cache Eviction.md",
+      "name": "KV Cache Eviction",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "KV Cache Eviction",
+        "aliases": "",
+        "domain": "inference",
+        "topic": "kv-cache",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "concept/inference/kv-cache/KV Cache Management",
       "path": "concept/inference/kv-cache/KV Cache Management.md",
       "name": "KV Cache Management",
@@ -23018,6 +23039,24 @@
       "frontmatter": {
         "type": "concept",
         "name": "KV Cache Offloading",
+        "aliases": "",
+        "domain": "inference",
+        "topic": "kv-cache",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/kv-cache/KV Cache Prefetching",
+      "path": "concept/inference/kv-cache/KV Cache Prefetching.md",
+      "name": "KV Cache Prefetching",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "KV Cache Prefetching",
         "aliases": "",
         "domain": "inference",
         "topic": "kv-cache",
@@ -23089,6 +23128,24 @@
       "frontmatter": {
         "type": "concept",
         "name": "Prefix Caching",
+        "aliases": "",
+        "domain": "inference",
+        "topic": "kv-cache",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "concept/inference/kv-cache/Remote KV Store",
+      "path": "concept/inference/kv-cache/Remote KV Store.md",
+      "name": "Remote KV Store",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Remote KV Store",
         "aliases": "",
         "domain": "inference",
         "topic": "kv-cache",
@@ -23766,6 +23823,24 @@
       }
     },
     {
+      "id": "concept/memory/SSD-NVMe Tier",
+      "path": "concept/memory/SSD-NVMe Tier.md",
+      "name": "SSD/NVMe Tier",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "SSD/NVMe Tier",
+        "aliases": "",
+        "domain": "memory",
+        "topic": "memory-hierarchy",
+        "parent_concepts": "",
+        "related_concepts": "",
+        "projects": "",
+        "last_verified": "2026-09"
+      }
+    },
+    {
       "id": "concept/quantization/FP4 Quantization",
       "path": "concept/quantization/FP4 Quantization.md",
       "name": "FP4 Quantization",
@@ -24296,6 +24371,21 @@
     },
     {
       "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "concept/compiler/Backend Code Generation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "concept/compiler/Kernel Compiler Pipeline",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "target": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
       "target": "concept/kernel/programming/Kernel DSL",
       "kind": "wikilink"
     },
@@ -24431,6 +24521,21 @@
     },
     {
       "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
       "target": "concept/memory/HBM",
       "kind": "wikilink"
     },
@@ -24452,6 +24557,11 @@
     {
       "source": "community/Ascend/MemCache/MemCache",
       "target": "concept/memory/NUMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/MemCache/MemCache",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -25886,6 +25996,11 @@
     },
     {
       "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/inference/kv-cache/KV Cache Management",
       "kind": "wikilink"
     },
@@ -25896,12 +26011,22 @@
     },
     {
       "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/inference/kv-cache/KV Cache Sharing",
       "kind": "wikilink"
     },
     {
       "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/inference/kv-cache/Remote KV Store",
       "kind": "wikilink"
     },
     {
@@ -25927,6 +26052,11 @@
     {
       "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/LMCache/LMCache/LMCache",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -32411,6 +32541,11 @@
     },
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "concept/inference/kv-cache/Tiered KV Cache",
       "kind": "wikilink"
     },
@@ -32442,6 +32577,11 @@
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/Mooncake",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -33626,6 +33766,11 @@
     },
     {
       "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "target": "concept/memory/HBM",
       "kind": "wikilink"
     },
@@ -33637,6 +33782,11 @@
     {
       "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -34561,12 +34711,27 @@
     },
     {
       "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
       "target": "concept/memory/Host Memory",
       "kind": "wikilink"
     },
     {
       "source": "community/taco-project/FlexKV/FlexKV",
       "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -45285,6 +45450,31 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/inference/kv-cache/KV Cache Eviction",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Eviction",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Eviction",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Eviction",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Eviction",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/inference/kv-cache/KV Cache Management",
       "target": "community/LMCache/LMCache/LMCache",
       "kind": "wikilink"
@@ -45301,7 +45491,17 @@
     },
     {
       "source": "concept/inference/kv-cache/KV Cache Management",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Management",
       "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Management",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
       "kind": "wikilink"
     },
     {
@@ -45321,6 +45521,11 @@
     },
     {
       "source": "concept/inference/kv-cache/KV Cache Management",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Management",
       "target": "concept/inference/kv-cache/Tiered KV Cache",
       "kind": "wikilink"
     },
@@ -45341,12 +45546,52 @@
     },
     {
       "source": "concept/inference/kv-cache/KV Cache Offloading",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Offloading",
       "target": "concept/inference/kv-cache/KV Cache Transfer",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/kv-cache/KV Cache Offloading",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Offloading",
       "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Offloading",
+      "target": "concept/memory/SSD-NVMe Tier",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Prefetching",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Prefetching",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Prefetching",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Prefetching",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/KV Cache Prefetching",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
       "kind": "wikilink"
     },
     {
@@ -45420,6 +45665,51 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "concept/inference/kv-cache/KV Cache Sharing",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Remote KV Store",
+      "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/inference/kv-cache/Tiered KV Cache",
       "target": "community/LMCache/LMCache/LMCache",
       "kind": "wikilink"
@@ -45436,7 +45726,17 @@
     },
     {
       "source": "concept/inference/kv-cache/Tiered KV Cache",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Tiered KV Cache",
       "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Tiered KV Cache",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
       "kind": "wikilink"
     },
     {
@@ -45447,6 +45747,16 @@
     {
       "source": "concept/inference/kv-cache/Tiered KV Cache",
       "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Tiered KV Cache",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/kv-cache/Tiered KV Cache",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -46520,6 +46830,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/memory/Memory Hierarchy",
+      "target": "concept/memory/SSD-NVMe Tier",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/memory/Memory Pooling",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -46567,6 +46882,76 @@
     {
       "source": "concept/memory/NUMA",
       "target": "concept/memory/Memory Pooling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "community/Ascend/MemCache/MemCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "community/taco-project/FlexKV/FlexKV",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/inference/kv-cache/KV Cache Eviction",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/inference/kv-cache/KV Cache Prefetching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/memory/HBM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/storage/NVMe SSD",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/storage/SSD-Backed KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/memory/SSD-NVMe Tier",
+      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -46905,6 +47290,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/storage/NVMe SSD",
+      "target": "concept/memory/SSD-NVMe Tier",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/storage/Remote Object Store",
       "target": "community/LMCache/LMCache/LMCache",
       "kind": "wikilink"
@@ -46940,6 +47330,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/storage/SSD-Backed KV Cache",
+      "target": "concept/memory/SSD-NVMe Tier",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/storage/Storage Tiering",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -46972,6 +47367,11 @@
     {
       "source": "concept/storage/Storage Tiering",
       "target": "concept/memory/Memory Hierarchy",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/storage/Storage Tiering",
+      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -53156,14 +53556,14 @@
       "bridge_score": 3.085
     },
     "community/Ascend/MemCache/MemCache": {
-      "degree": 30,
-      "cross_category_degree": 10,
+      "degree": 34,
+      "cross_category_degree": 14,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 12.954
+      "bridge_score": 14.529
     },
     "community/Ascend/MemCache/Pz1116": {
       "degree": 3,
@@ -53671,8 +54071,8 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 51,
-      "cross_category_degree": 25,
+      "degree": 55,
+      "cross_category_degree": 29,
       "neighbor_categories": [
         "community",
         "company",
@@ -53680,7 +54080,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 21.95
+      "bridge_score": 23.457
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -55905,8 +56305,8 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 81,
-      "cross_category_degree": 38,
+      "degree": 83,
+      "cross_category_degree": 40,
       "neighbor_categories": [
         "community",
         "company",
@@ -55914,7 +56314,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 27.158
+      "bridge_score": 27.892
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -56251,15 +56651,15 @@
       "bridge_score": 7.635
     },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
-      "degree": 16,
-      "cross_category_degree": 10,
+      "degree": 18,
+      "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 13.587
+      "bridge_score": 14.448
     },
     "community/openEuler/openYuanRong/YuanRong TransferEngine": {
       "degree": 5,
@@ -56505,14 +56905,14 @@
       "bridge_score": 7.207
     },
     "community/taco-project/FlexKV/FlexKV": {
-      "degree": 5,
-      "cross_category_degree": 4,
+      "degree": 8,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 8.485
+      "bridge_score": 10.12
     },
     "community/thu-pacman/BaGuaLu/BaGuaLu": {
       "degree": 6,
@@ -59020,7 +59420,7 @@
       ],
       "bridge_score": 7.05
     },
-    "concept/inference/kv-cache/KV Cache Management": {
+    "concept/inference/kv-cache/KV Cache Eviction": {
       "degree": 9,
       "cross_category_degree": 2,
       "neighbor_categories": [
@@ -59029,41 +59429,59 @@
       ],
       "bridge_score": 7.022
     },
-    "concept/inference/kv-cache/KV Cache Offloading": {
-      "degree": 11,
-      "cross_category_degree": 2,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 7.285
-    },
-    "concept/inference/kv-cache/KV Cache Sharing": {
-      "degree": 7,
-      "cross_category_degree": 2,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 6.7
-    },
-    "concept/inference/kv-cache/KV Cache Transfer": {
+    "concept/inference/kv-cache/KV Cache Management": {
       "degree": 12,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.4
+    },
+    "concept/inference/kv-cache/KV Cache Offloading": {
+      "degree": 15,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.7
+    },
+    "concept/inference/kv-cache/KV Cache Prefetching": {
+      "degree": 8,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.75
+      "bridge_score": 7.22
     },
-    "concept/inference/kv-cache/KV Cache": {
-      "degree": 11,
+    "concept/inference/kv-cache/KV Cache Sharing": {
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.285
+      "bridge_score": 6.87
+    },
+    "concept/inference/kv-cache/KV Cache Transfer": {
+      "degree": 13,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.857
+    },
+    "concept/inference/kv-cache/KV Cache": {
+      "degree": 12,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.4
     },
     "concept/inference/kv-cache/Prefix Caching": {
       "degree": 8,
@@ -59074,14 +59492,23 @@
       ],
       "bridge_score": 6.87
     },
+    "concept/inference/kv-cache/Remote KV Store": {
+      "degree": 12,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.45
+    },
     "concept/inference/kv-cache/Tiered KV Cache": {
-      "degree": 9,
+      "degree": 13,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.372
+      "bridge_score": 7.857
     },
     "concept/inference/optimization/Agentic Inference Optimization": {
       "degree": 8,
@@ -59371,40 +59798,40 @@
       "bridge_score": 4.935
     },
     "concept/memory/HBM": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.4
+      "bridge_score": 7.57
     },
     "concept/memory/Host Memory": {
-      "degree": 13,
+      "degree": 14,
       "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.257
+      "bridge_score": 9.357
     },
     "concept/memory/Memory Hierarchy": {
-      "degree": 14,
+      "degree": 15,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.007
+      "bridge_score": 9.1
     },
     "concept/memory/Memory Pooling": {
-      "degree": 9,
+      "degree": 10,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.722
+      "bridge_score": 7.859
     },
     "concept/memory/NUMA": {
       "degree": 4,
@@ -59414,6 +59841,15 @@
         "concept"
       ],
       "bridge_score": 6.022
+    },
+    "concept/memory/SSD-NVMe Tier": {
+      "degree": 15,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 8.75
     },
     "concept/quantization/FP4 Quantization": {
       "degree": 10,
@@ -59497,12 +59933,13 @@
       "bridge_score": 7.75
     },
     "concept/storage/NVMe SSD": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 5,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 5.835
+      "bridge_score": 7.557
     },
     "concept/storage/Remote Object Store": {
       "degree": 3,
@@ -59513,22 +59950,22 @@
       "bridge_score": 4.55
     },
     "concept/storage/SSD-Backed KV Cache": {
-      "degree": 4,
+      "degree": 5,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.372
+      "bridge_score": 6.635
     },
     "concept/storage/Storage Tiering": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.75
+      "bridge_score": 7.92
     }
   }
 }

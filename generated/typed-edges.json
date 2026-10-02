@@ -9545,13 +9545,13 @@
     "derived_from": "frontmatter.integrations"
   },
   {
-    "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
-    "target": "community/Ascend/CANNBot/CANNBot",
+    "source": "community/Ascend/CANNBot/CANNBot",
+    "target": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
     "kind": "derived-project-integration",
     "relation_types": [
       "project-integration"
     ],
-    "project": "CANNBot-DSL",
+    "project": "CANNBot",
     "company": null,
     "start": null,
     "end": null,
@@ -10628,6 +10628,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+    "target": "concept/compiler/Backend Code Generation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "CANNBot-DSL",
+    "concept": "Backend Code Generation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/InfiniTensor/NineToothed",
     "target": "concept/compiler/Compiler Lowering",
     "kind": "derived-project-concept-support",
@@ -10827,6 +10843,22 @@
       "project-concept-support"
     ],
     "project": "Mirage Persistent Kernel",
+    "concept": "Kernel Compiler Pipeline",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+    "target": "concept/compiler/Kernel Compiler Pipeline",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "CANNBot-DSL",
     "concept": "Kernel Compiler Pipeline",
     "company": null,
     "start": null,
@@ -11285,6 +11317,38 @@
   },
   {
     "source": "community/LMCache/LMCache/LMCache",
+    "target": "concept/inference/kv-cache/KV Cache Eviction",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LMCache",
+    "concept": "KV Cache Eviction",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/MemCache/MemCache",
+    "target": "concept/inference/kv-cache/KV Cache Eviction",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "MemCache",
+    "concept": "KV Cache Eviction",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/LMCache/LMCache/LMCache",
     "target": "concept/inference/kv-cache/KV Cache Management",
     "kind": "derived-project-concept-support",
     "relation_types": [
@@ -11340,6 +11404,54 @@
     ],
     "project": "vLLM",
     "concept": "KV Cache Offloading",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/LMCache/LMCache/LMCache",
+    "target": "concept/inference/kv-cache/KV Cache Prefetching",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LMCache",
+    "concept": "KV Cache Prefetching",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/MemCache/MemCache",
+    "target": "concept/inference/kv-cache/KV Cache Prefetching",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "MemCache",
+    "concept": "KV Cache Prefetching",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/taco-project/FlexKV/FlexKV",
+    "target": "concept/inference/kv-cache/KV Cache Prefetching",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "FlexKV",
+    "concept": "KV Cache Prefetching",
     "company": null,
     "start": null,
     "end": null,
@@ -11484,6 +11596,86 @@
     ],
     "project": "SGLang",
     "concept": "Prefix Caching",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/LMCache/LMCache/LMCache",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LMCache",
+    "concept": "Remote KV Store",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/kvcache-ai/Mooncake/Mooncake",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Mooncake",
+    "concept": "Remote KV Store",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/taco-project/FlexKV/FlexKV",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "FlexKV",
+    "concept": "Remote KV Store",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "YuanRong DataSystem",
+    "concept": "Remote KV Store",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/MemCache/MemCache",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "MemCache",
+    "concept": "Remote KV Store",
     "company": null,
     "start": null,
     "end": null,
@@ -13268,6 +13460,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+    "target": "concept/kernel/optimization/Agentic Kernel Optimization",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "CANNBot-DSL",
+    "concept": "Agentic Kernel Optimization",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/Ascend/agent-skills/Ascend Agent Skills",
     "target": "concept/kernel/optimization/Agentic Kernel Optimization",
     "kind": "derived-project-concept-support",
@@ -14124,6 +14332,86 @@
     ],
     "project": "MemCache",
     "concept": "NUMA",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/MemCache/MemCache",
+    "target": "concept/memory/SSD-NVMe Tier",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "MemCache",
+    "concept": "SSD/NVMe Tier",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/LMCache/LMCache/LMCache",
+    "target": "concept/memory/SSD-NVMe Tier",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LMCache",
+    "concept": "SSD/NVMe Tier",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/kvcache-ai/Mooncake/Mooncake",
+    "target": "concept/memory/SSD-NVMe Tier",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Mooncake",
+    "concept": "SSD/NVMe Tier",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/taco-project/FlexKV/FlexKV",
+    "target": "concept/memory/SSD-NVMe Tier",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "FlexKV",
+    "concept": "SSD/NVMe Tier",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
+    "target": "concept/memory/SSD-NVMe Tier",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "YuanRong DataSystem",
+    "concept": "SSD/NVMe Tier",
     "company": null,
     "start": null,
     "end": null,

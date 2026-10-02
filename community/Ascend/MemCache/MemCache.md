@@ -20,11 +20,15 @@ linked_concepts:
   - "concept/storage/Distributed Storage"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
+  - "concept/inference/kv-cache/KV Cache Eviction"
+  - "concept/inference/kv-cache/KV Cache Prefetching"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/memory/NUMA"
   - "concept/storage/NVMe SSD"
+  - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
+  - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
 companies: ["华为"]
 company_relation: company-led
@@ -147,11 +151,15 @@ https://github.com/Ascend/memcache
 - [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
+- [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]]
+- [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/memory/NUMA|NUMA]]
 - [[concept/storage/NVMe SSD|NVMe SSD]]
+- [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
+- [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]
 
 <!-- END AUTO PROJECT CONCEPTS -->
