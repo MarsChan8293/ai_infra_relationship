@@ -1,6 +1,10 @@
 ---
 type: project
 name: TIRx Harness
+linked_people: []
+linked_concepts:
+  - "concept/kernel/optimization/Agentic Kernel Optimization"
+  - "concept/kernel/programming/Kernel DSL"
 layer: compiler
 status: active
 repository: https://github.com/mlc-ai/TIRx-harness
@@ -18,6 +22,7 @@ hardware:
 integrations:
   - "TIRx Kernels"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # TIRx Harness
 ## 项目定位
@@ -44,3 +49,13 @@ TIRx Harness 是 MLC 新开源的 **compiler harness for agentic GPU programming
 - https://github.com/mlc-ai/TIRx-harness
 - https://tirxharness.mlc.ai/docs/
 - https://blog.mlc.ai/2026/09/29/tirx-harness-an-open-compiler-harness-for-agentic-gpu-programming
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]]
+- [[concept/kernel/programming/Kernel DSL|Kernel DSL]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

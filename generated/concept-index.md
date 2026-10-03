@@ -2,14 +2,14 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 88
+- Concepts: 90
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
 ## Inference
 
-28 concepts.
+29 concepts.
 
 ### Agent Runtime
 
@@ -24,8 +24,8 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]] | Draft Model Speculative Decoding, Draft-and-Verify, Draft Target, 草稿模型投机解码 | Speculative Decoding | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Draft-Target%20Decoding) |
 | [[concept/inference/decoding/Multi-token Prediction|Multi-token Prediction]] | Multi-Token Prediction, MTP, Multi Token Prediction, 多Token预测 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Multi-token%20Prediction) |
 | [[concept/inference/decoding/N-gram Speculation|N-gram Speculation]] | N-gram Speculative Decoding, Prompt Lookup Decoding, Prompt Lookup Speculation, N-gram投机解码 | Speculative Decoding | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=N-gram%20Speculation) |
-| [[concept/inference/decoding/Self-Speculative Decoding|Self-Speculative Decoding]] | Self Speculative Decoding, Self-Drafting, 自投机解码 | Speculative Decoding | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Self-Speculative%20Decoding) |
-| [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]] | Speculative Sampling, Spec Decode, 投机解码, 投机推理 |  | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Speculative%20Decoding) |
+| [[concept/inference/decoding/Self-Speculative Decoding|Self-Speculative Decoding]] | Self Speculative Decoding, Self-Drafting, 自投机解码 | Speculative Decoding | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Self-Speculative%20Decoding) |
+| [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]] | Speculative Sampling, Spec Decode, 投机解码, 投机推理 |  | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Speculative%20Decoding) |
 
 ### Kv Cache
 
@@ -33,12 +33,12 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/kv-cache/KV Cache|KV Cache]] | Key-Value Cache, KV缓存 |  | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache) |
 | [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]] | KV Eviction, Cache Eviction, KV缓存淘汰 | KV Cache Management | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Eviction) |
-| [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] | KV管理, KV缓存管理 | KV Cache | 7 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Management) |
-| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 5 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
+| [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] | KV管理, KV缓存管理 | KV Cache | 7 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Management) |
+| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 5 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
 | [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]] | KV Prefetch, Cache Prefetching, KV缓存预取 | KV Cache Management | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Prefetching) |
 | [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]] | KV Sharing, Shared KV Cache, KV缓存共享 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Sharing) |
-| [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
-| [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] | Automatic Prefix Caching, APC, Prefix KV Caching, 前缀缓存 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Prefix%20Caching) |
+| [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
+| [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] | Automatic Prefix Caching, APC, Prefix KV Caching, 前缀缓存 | KV Cache Management | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Prefix%20Caching) |
 | [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]] | Remote KV Cache Store, Distributed KV Store, Remote KV Cache, 远程KV存储 | KV Cache Management | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20KV%20Store) |
 | [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 6 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
 
@@ -60,14 +60,20 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
 | [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]] | TP, Tensor Model Parallelism, 张量并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tensor%20Parallelism) |
 
+### Reliability
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/inference/reliability/Inference Fault Tolerance|Inference Fault Tolerance]] | Serving Resiliency, Inference Failure Recovery, 推理故障容错, 在线推理故障恢复 |  | 4 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Fault%20Tolerance) |
+
 ### Serving
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/serving/Chunked Prefill|Chunked Prefill]] | Prefill Chunking, Chunked Prompt Prefill, 分块预填充 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Chunked%20Prefill) |
-| [[concept/inference/serving/Continuous Batching|Continuous Batching]] | In-flight Batching, Iteration-level Batching, 连续批处理 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Continuous%20Batching) |
+| [[concept/inference/serving/Continuous Batching|Continuous Batching]] | In-flight Batching, Iteration-level Batching, 连续批处理 |  | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Continuous%20Batching) |
 | [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]] | Disaggregated Inference Serving, 分离式推理服务 |  | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Disaggregated%20Serving) |
-| [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
+| [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
 
 ## Memory
 
@@ -81,7 +87,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/memory/HBM|HBM]] | High Bandwidth Memory, 高带宽内存 | Memory Hierarchy | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HBM) |
 | [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
 | [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
-| [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, SSD/NVMe Offloading, SSD卸载 | Memory Hierarchy | 6 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
+| [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, SSD/NVMe Offloading, SSD卸载 | Memory Hierarchy | 6 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
 
 ### Memory Pooling
 
@@ -127,18 +133,18 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
+| [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
 | [[concept/inference/scheduling/Capacity Planning|Capacity Planning]] | Inference Capacity Planning, LLM Capacity Planning, 容量规划 | Inference Scheduling | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Capacity%20Planning) |
-| [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
+| [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
 | [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]] | LLM-Aware Routing, Model-Aware Routing, 推理感知路由 | Request Routing | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference-Aware%20Routing) |
-| [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Inference-Aware Routing | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
+| [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Inference-Aware Routing | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
 | [[concept/inference/scheduling/Load Balancing|Load Balancing]] | Inference Load Balancing, LLM Load Balancing, 负载均衡 | Inference Scheduling | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load%20Balancing) |
 | [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Inference-Aware Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
-| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, 请求路由 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
+| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, 请求路由 | Inference Scheduling | 2 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
 
 ## Kernel
 
-8 concepts.
+9 concepts.
 
 ### Attention
 
@@ -147,21 +153,27 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/kernel/attention/Attention Kernel|Attention Kernel]] | Attention Operator Kernel, 注意力算子, Attention算子 |  | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Attention%20Kernel) |
 | [[concept/kernel/attention/FlashAttention|FlashAttention]] | Flash Attention, IO-Aware Attention | Attention Kernel | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlashAttention) |
 | [[concept/kernel/attention/PagedAttention|PagedAttention]] | Paged Attention, 分页注意力 | Attention Kernel | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PagedAttention) |
-| [[concept/kernel/attention/Sparse Attention|Sparse Attention]] | Sparse Attention Kernel, 稀疏注意力 | Attention Kernel | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sparse%20Attention) |
+| [[concept/kernel/attention/Sparse Attention|Sparse Attention]] | Sparse Attention Kernel, 稀疏注意力 | Attention Kernel | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sparse%20Attention) |
 
 ### Gemm
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
+| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
 | [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
 
 ### Optimization
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 26 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
+| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 27 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
 | [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] | Operator Fusion, Fused Kernel, 算子融合 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Fusion) |
+
+### Verification
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/kernel/verification/Kernel Formal Verification|Kernel Formal Verification]] | Formal Kernel Verification, Verified GPU Kernels, GPU Kernel Proof, 算子形式化验证 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Formal%20Verification) |
 
 ## Compiler
 
@@ -188,7 +200,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
-| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
+| [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
 
 ## Quantization
 
@@ -198,7 +210,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] | Quantized KV Cache, KV Quantization, KV缓存量化 | Quantization | 3 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Quantization) |
+| [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] | Quantized KV Cache, KV Quantization, KV缓存量化 | Quantization | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Quantization) |
 
 ### Quantization
 

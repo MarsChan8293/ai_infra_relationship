@@ -2,16 +2,16 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 895
+- Typed relation edges: 926
 - Person nodes with typed relations: 161 / 437
 - Hard errors: 0
 - Warnings: 40
-- Concept → Project assertions read from Markdown: 345
-- Derived Project → Concept support edges: 345
+- Concept → Project assertions read from Markdown: 376
+- Derived Project → Concept support edges: 376
 
 ## Relation types
 
-- `project-concept-support`: 345
+- `project-concept-support`: 376
 - `paper-coauthor`: 237
 - `research-collaboration`: 174
 - `coworker`: 168

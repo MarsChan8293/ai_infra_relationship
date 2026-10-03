@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 88,
-    "concepts_with_projects": 88,
+    "concepts": 90,
+    "concepts_with_projects": 90,
     "concepts_without_projects": 0,
-    "project_like_nodes": 215,
-    "projects_with_concepts": 82,
-    "concept_project_assertions": 345,
+    "project_like_nodes": 228,
+    "projects_with_concepts": 93,
+    "concept_project_assertions": 376,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -32,9 +32,11 @@
     "optimization": 3,
     "parallelism": 7,
     "quantization": 6,
+    "reliability": 1,
     "serving": 4,
     "storage-media": 1,
-    "storage-tiering": 1
+    "storage-tiering": 1,
+    "verification": 1
   },
   "mapped_topic_counts": {
     "agent-runtime": 1,
@@ -58,9 +60,11 @@
     "optimization": 3,
     "parallelism": 7,
     "quantization": 6,
+    "reliability": 1,
     "serving": 4,
     "storage-media": 1,
-    "storage-tiering": 1
+    "storage-tiering": 1,
+    "verification": 1
   },
   "concepts_without_projects": [],
   "projects": [
@@ -420,6 +424,20 @@
       "count": 6
     },
     {
+      "id": "community/incoai/Splash/Splash",
+      "name": "Splash",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/serving/Continuous Batching",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/quantization/KV Cache Quantization"
+      ],
+      "count": 6
+    },
+    {
       "id": "community/tile-ai/TileLang/TileLang-Ascend",
       "name": "TileLang-Ascend",
       "layer": "compiler",
@@ -430,6 +448,20 @@
         "concept/kernel/attention/Sparse Attention",
         "concept/kernel/gemm/GEMM",
         "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 6
+    },
+    {
+      "id": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
+      "name": "vllm-rlt",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/serving/Continuous Batching",
+        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 6
     },
@@ -469,6 +501,19 @@
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/modelsphere/ModelSphere/ModelSphere",
+      "name": "ModelSphere",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 5
     },
@@ -523,6 +568,18 @@
         "concept/kernel/programming/Kernel DSL"
       ],
       "count": 5
+    },
+    {
+      "id": "community/openJiuwen-ai/AgentInfer/AgentInfer",
+      "name": "AgentInfer",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 4
     },
     {
       "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
@@ -785,6 +842,26 @@
       "count": 2
     },
     {
+      "id": "community/mlc-ai/TIRx-Harness/TIRx-Harness",
+      "name": "TIRx Harness",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/optimization/Agentic Kernel Optimization",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/mlc-ai/TIRx-Kernels/TIRx-Kernels",
+      "name": "TIRx Kernels",
+      "layer": "kernel",
+      "concepts": [
+        "concept/kernel/attention/Sparse Attention",
+        "concept/kernel/gemm/GEMM"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/Ascend/TransferQueue/TransferQueue",
       "name": "TransferQueue",
       "layer": "post-training-data-plane",
@@ -801,6 +878,16 @@
       "concepts": [
         "concept/communication/data-movement/Point-to-Point Transfer",
         "concept/communication/data-movement/RDMA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/Lizn-zn/VeriTile/VeriTile",
+      "name": "VeriTile",
+      "layer": "compiler",
+      "concepts": [
+        "concept/kernel/programming/Kernel DSL",
+        "concept/kernel/verification/Kernel Formal Verification"
       ],
       "count": 2
     },
@@ -949,6 +1036,15 @@
       "count": 1
     },
     {
+      "id": "community/Edge0-AI/Edge0/Edge0",
+      "name": "Edge0",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/memory/SSD-NVMe Tier"
+      ],
+      "count": 1
+    },
+    {
       "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
       "name": "Event Tensor",
       "layer": "compiler-runtime",
@@ -1021,6 +1117,24 @@
       "count": 1
     },
     {
+      "id": "community/Etelis/llm-d-resiliency-manager/llm-d-resiliency-manager",
+      "name": "llm-d-resiliency-manager",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/reliability/Inference Fault Tolerance"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+      "name": "LoopSpec",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/decoding/Self-Speculative Decoding"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/NVIDIA/Megatron-LM/Megatron-LM",
       "name": "Megatron-LM",
       "layer": "training",
@@ -1035,6 +1149,15 @@
       "layer": "kernel-compiler-runtime",
       "concepts": [
         "concept/compiler/Kernel Compiler Pipeline"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/kaistmm/OmniKVQuant/OmniKVQuant",
+      "name": "OmniKVQuant",
+      "layer": "optimization",
+      "concepts": [
+        "concept/quantization/KV Cache Quantization"
       ],
       "count": 1
     },

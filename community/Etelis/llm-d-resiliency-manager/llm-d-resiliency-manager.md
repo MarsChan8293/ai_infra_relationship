@@ -1,6 +1,9 @@
 ---
 type: project
 name: llm-d-resiliency-manager
+linked_people: []
+linked_concepts:
+  - "concept/inference/reliability/Inference Fault Tolerance"
 layer: distributed-serving
 status: active
 repository: https://github.com/Etelis/llm-d-resiliency-manager
@@ -16,6 +19,7 @@ integrations:
   - "llm-d"
   - "vLLM"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # llm-d-resiliency-manager
 ## 项目定位
@@ -42,3 +46,12 @@ Pod replacement / group reset 仍由 LeaderWorkerSet 负责，因此它展示的
 ## Sources
 
 - https://github.com/Etelis/llm-d-resiliency-manager
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/reliability/Inference Fault Tolerance|Inference Fault Tolerance]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

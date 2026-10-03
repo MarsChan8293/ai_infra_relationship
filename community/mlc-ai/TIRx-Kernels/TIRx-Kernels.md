@@ -1,6 +1,10 @@
 ---
 type: project
 name: TIRx Kernels
+linked_people: []
+linked_concepts:
+  - "concept/kernel/gemm/GEMM"
+  - "concept/kernel/attention/Sparse Attention"
 layer: kernel
 status: active
 repository: https://github.com/mlc-ai/TIRx-kernels
@@ -22,6 +26,7 @@ integrations:
   - "TIRx Harness"
   - "FlashInfer"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # TIRx Kernels
 ## 项目定位
@@ -51,3 +56,13 @@ README 当前默认 kernel 面向 NVIDIA 新架构，明确列出 sm_100a、sm_1
 ## Sources
 
 - https://github.com/mlc-ai/TIRx-kernels
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/kernel/gemm/GEMM|GEMM]]
+- [[concept/kernel/attention/Sparse Attention|Sparse Attention]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

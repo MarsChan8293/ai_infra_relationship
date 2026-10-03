@@ -1,6 +1,7 @@
 ---
 type: project
 name: agentperf-local
+linked_people: []
 layer: benchmark
 status: active
 repository: https://github.com/ArtificialAnalysis/aa-agentperf-local
@@ -23,6 +24,7 @@ integrations:
   - "Ollama"
   - "Splash"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # agentperf-local
 ## 项目定位

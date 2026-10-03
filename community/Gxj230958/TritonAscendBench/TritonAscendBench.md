@@ -1,6 +1,7 @@
 ---
 type: project
 name: TritonAscendBench
+linked_people: []
 layer: benchmark
 status: active
 repository: https://github.com/Gxj230958/TritonAscendBench
@@ -17,6 +18,7 @@ hardware:
   - "nvidia"
   - "ascend"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # TritonAscendBench
 ## 项目定位

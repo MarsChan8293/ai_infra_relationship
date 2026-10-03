@@ -1,6 +1,13 @@
 ---
 type: project
 name: ModelSphere
+linked_people: []
+linked_concepts:
+  - "concept/inference/scheduling/Autoscaling"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/scheduling/KV-Aware Routing"
+  - "concept/inference/serving/P-D Disaggregation"
+  - "concept/inference/scheduling/Request Routing"
 layer: distributed-serving
 status: active
 repository: https://github.com/modelsphere/modelsphere
@@ -23,6 +30,7 @@ integrations:
   - "vLLM"
   - "SGLang"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # ModelSphere
 ## 项目定位
@@ -47,3 +55,16 @@ ModelSphere 的价值不只是“拉起 Pod”。它显式需要管理模型、�
 ## Sources
 
 - https://github.com/modelsphere/modelsphere
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/scheduling/Autoscaling|Autoscaling]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
+- [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/inference/scheduling/Request Routing|Request Routing]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

@@ -4,7 +4,7 @@
 
 - Operators: DISCOVER, VERIFY
 - Seed: none (global mode)
-- Candidate actions: 2009
+- Candidate actions: 2046
 - Selected actions: 10
 - History records: 727
 
@@ -13,7 +13,7 @@
 | Rank | Operator | Trigger | Source | Type | Relation | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
 | 1 | DISCOVER | bridge | [[community/kserve/KServe/KServe|KServe]] | project | maintainers | person | bridge | 9.656 | new | coverage 0/4；source type Project；infra: serving/inference, scheduler, kernel；opens underrepresented target types |
-| 2 | DISCOVER | bridge | [[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] | project | maintainers | person | bridge | 9.652 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, quantization；opens underrepresented target types |
+| 2 | DISCOVER | bridge | [[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] | project | maintainers | person | bridge | 9.640 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, quantization；opens underrepresented target types |
 | 3 | VERIFY | history_followup | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | project | maintainers | person | bridge | 9.635 | unresolved | coverage 0/4；source type Project；infra: serving/inference, moe, quantization；opens underrepresented target types |
 | 4 | DISCOVER | bridge | [[community/Ascend/CANNBot/CANNBot|CANNBot]] | project | maintainers | person | bridge | 9.602 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, kernel；opens underrepresented target types |
 | 5 | VERIFY | history_followup | [[university/Massachusetts Institute of Technology/HAN Lab|HAN Lab]] | research | projects | project, community | exploitation | 8.246 | partial | coverage 0/3；source type Research Institution；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |

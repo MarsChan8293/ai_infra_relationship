@@ -3,11 +3,11 @@
 由 scripts/audit-project-concept-coverage.py 自动生成。Concept 节点的 projects 字段是人工事实源；Project 页的 linked_concepts 是派生反向视图。
 
 - Status: **pass**
-- Concepts: 88
-- Concepts with project evidence: 88
-- Project-like nodes: 215
-- Projects linked to concepts: 82
-- Concept → Project assertions: 345
+- Concepts: 90
+- Concepts with project evidence: 90
+- Project-like nodes: 228
+- Projects linked to concepts: 93
+- Concept → Project assertions: 376
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -34,14 +34,18 @@
 | [[community/triton-lang/Triton/Triton|Triton]] | compiler | [[concept/compiler/Autotuning|Autotuning]] · [[concept/compiler/Backend Code Generation|Backend Code Generation]] · [[concept/compiler/Compiler Lowering|Compiler Lowering]] · [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] · [[concept/kernel/gemm/GEMM|GEMM]] · [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] · [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | 7 |
 | [[community/InfiniTensor/NineToothed|NineToothed]] | compiler | [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] · [[concept/compiler/Autotuning|Autotuning]] · [[concept/compiler/Backend Code Generation|Backend Code Generation]] · [[concept/compiler/Compiler Lowering|Compiler Lowering]] · [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] · [[concept/compiler/Layout Optimization|Layout Optimization]] | 6 |
 | [[community/sgl-project/SGLang/SGLang|SGLang]] | inference-engine | [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]] · [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]] · [[concept/inference/kv-cache/KV Cache|KV Cache]] · [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] · [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]] · [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | 6 |
+| [[community/incoai/Splash/Splash|Splash]] | inference-engine | [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]] · [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] · [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] · [[concept/inference/serving/Continuous Batching|Continuous Batching]] · [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] · [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] | 6 |
 | [[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] | compiler | [[concept/compiler/Backend Code Generation|Backend Code Generation]] · [[concept/compiler/Compiler Lowering|Compiler Lowering]] · [[concept/kernel/attention/Attention Kernel|Attention Kernel]] · [[concept/kernel/attention/Sparse Attention|Sparse Attention]] · [[concept/kernel/gemm/GEMM|GEMM]] · [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | 6 |
+| [[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]] | inference-engine | [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] · [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] · [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] · [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] · [[concept/inference/serving/Continuous Batching|Continuous Batching]] · [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | 6 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend|DeepGEMM-Ascend]] | runtime | [[concept/kernel/gemm/GEMM|GEMM]] · [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] · [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] · [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/FP8 Quantization|FP8 Quantization]] | 5 |
 | [[community/taco-project/FlexKV/FlexKV|FlexKV]] | distributed-kv-cache | [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]] · [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]] · [[concept/memory/Host Memory|Host Memory]] · [[concept/memory/Memory Hierarchy|Memory Hierarchy]] · [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | 5 |
 | [[community/kserve/KServe/KServe|KServe]] | distributed-serving | [[concept/inference/scheduling/Autoscaling|Autoscaling]] · [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]] · [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] · [[concept/inference/scheduling/Load Balancing|Load Balancing]] · [[concept/inference/scheduling/Request Routing|Request Routing]] | 5 |
+| [[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]] | distributed-serving | [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] · [[concept/inference/scheduling/Autoscaling|Autoscaling]] · [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] · [[concept/inference/scheduling/Request Routing|Request Routing]] · [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | 5 |
 | [[community/Ascend/msModelSlim/msModelSlim|msModelSlim]] | optimization | [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/FP8 Quantization|FP8 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/W8A8|W8A8]] · [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | 5 |
 | [[community/ai-dynamo/NIXL/NIXL|NIXL]] | communication | [[concept/communication/data-movement/Data Movement|Data Movement]] · [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]] · [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]] · [[concept/communication/data-movement/RDMA|RDMA]] · [[concept/storage/Direct Storage IO|Direct Storage I/O]] | 5 |
 | [[community/deepseek-ai/DeepSeek-Infra/TileKernels|TileKernels]] | gpu-kernels | [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] · [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/FP8 Quantization|FP8 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | 5 |
 | [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] | compiler | [[concept/compiler/Backend Code Generation|Backend Code Generation]] · [[concept/compiler/Compiler Lowering|Compiler Lowering]] · [[concept/kernel/attention/Attention Kernel|Attention Kernel]] · [[concept/kernel/gemm/GEMM|GEMM]] · [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | 5 |
+| [[community/openJiuwen-ai/AgentInfer/AgentInfer|AgentInfer]] | distributed-serving | [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] · [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] · [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] · [[concept/inference/scheduling/Request Routing|Request Routing]] | 4 |
 | [[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] | compiler | [[concept/compiler/Backend Code Generation|Backend Code Generation]] · [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] · [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] · [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | 4 |
 | [[community/NVIDIA/CUTLASS/CUTLASS|CUTLASS]] | runtime | [[concept/compiler/Layout Optimization|Layout Optimization]] · [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] · [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] · [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | 4 |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepEP|DeepEP]] | communication | [[concept/communication/collectives/All-to-All|All-to-All]] · [[concept/communication/collectives/Collective Communication|Collective Communication]] · [[concept/communication/data-movement/RDMA|RDMA]] · [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | 4 |
@@ -51,10 +55,6 @@
 | [[community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension|Gateway API Inference Extension]] | distributed-serving | [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]] · [[concept/inference/scheduling/Load Balancing|Load Balancing]] · [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] · [[concept/inference/scheduling/Request Routing|Request Routing]] | 4 |
 | [[community/xPU-IO/Tutti/Tutti|Tutti]] | kv-cache | [[concept/storage/Direct Storage IO|Direct Storage I/O]] · [[concept/storage/NVMe SSD|NVMe SSD]] · [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] · [[concept/storage/Storage Tiering|Storage Tiering]] | 4 |
 | [[community/flagos-ai/FlagCX/FlagCX|FlagCX]] | communication | [[concept/communication/collectives/AllGather|AllGather]] · [[concept/communication/collectives/AllReduce|AllReduce]] · [[concept/communication/collectives/Collective Communication|Collective Communication]] | 3 |
-| [[community/ggml-org/ggml/ggml|ggml]] | tensor-runtime | [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
-| [[community/ggml-org/llama.cpp/llama.cpp|llama.cpp]] | inference-engine | [[concept/quantization/FP4 Quantization|FP4 Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
-| [[community/InternLM/LMDeploy/LMDeploy|LMDeploy]] | inference-engine | [[concept/quantization/KV Cache Quantization|KV Cache Quantization]] · [[concept/quantization/Quantization|Quantization]] · [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | 3 |
-| [[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] | storage | [[concept/storage/Distributed Storage|Distributed Storage]] · [[concept/storage/NVMe SSD|NVMe SSD]] | 2 |
 
 ## Concepts without project evidence
 
@@ -85,6 +85,8 @@
 | optimization | 3 | 3 |
 | parallelism | 7 | 7 |
 | quantization | 6 | 6 |
+| reliability | 1 | 1 |
 | serving | 4 | 4 |
 | storage-media | 1 | 1 |
 | storage-tiering | 1 | 1 |
+| verification | 1 | 1 |

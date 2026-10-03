@@ -1,6 +1,14 @@
 ---
 type: project
 name: Splash
+linked_people: []
+linked_concepts:
+  - "concept/inference/serving/Continuous Batching"
+  - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/quantization/KV Cache Quantization"
+  - "concept/inference/kv-cache/Prefix Caching"
+  - "concept/inference/decoding/Speculative Decoding"
+  - "concept/memory/SSD-NVMe Tier"
 layer: inference-engine
 status: active
 repository: https://github.com/incoai/splash
@@ -19,6 +27,7 @@ areas:
 hardware:
   - "apple-silicon"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # Splash
 ## 项目定位
@@ -45,3 +54,17 @@ Splash 是面向 Apple Silicon 的本地 inference engine，围绕少量模型�
 
 - https://github.com/incoai/splash
 - https://inco.ai/blog/splash/
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/serving/Continuous Batching|Continuous Batching]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/quantization/KV Cache Quantization|KV Cache Quantization]]
+- [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+- [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

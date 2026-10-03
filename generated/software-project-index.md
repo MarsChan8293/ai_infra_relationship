@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 205
-- Source roots: community 177 · company 14 · university 14
+- Projects: 218
+- Source roots: community 190 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -11,30 +11,31 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 | Layer | Projects |
 | --- | ---: |
-| [Inference Engine](#inference-engine) | 26 |
-| [Distributed Serving](#distributed-serving) | 21 |
+| [Inference Engine](#inference-engine) | 29 |
+| [Distributed Serving](#distributed-serving) | 24 |
 | [Gateway / Routing](#gateway) | 2 |
 | [KV Cache](#kv-cache) | 10 |
 | [Storage](#storage) | 2 |
 | [Communication / Data Movement](#communication) | 15 |
 | [Runtime / Framework](#runtime) | 32 |
-| [Kernel / Operator](#kernel) | 10 |
-| [Compiler / DSL](#compiler) | 14 |
+| [Kernel / Operator](#kernel) | 11 |
+| [Compiler / DSL](#compiler) | 16 |
 | [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
-| [Benchmark / Profiling](#benchmark) | 4 |
+| [Benchmark / Profiling](#benchmark) | 6 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 29 |
+| [Inference Optimization](#optimization) | 31 |
 | [Other](#other) | 8 |
 
 ## inference-engine
 
-**Inference Engine** · 26 projects
+**Inference Engine** · 29 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/thu-pacman/Chitu/Chitu]] | inference-engine |  | llm-serving, inference-engine, heterogeneous-compute, quantization, distributed-serving | `thu-pacman` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Chitu) |
+| [[community/Edge0-AI/Edge0/Edge0]] | inference-engine | active | moe-inference, ssd-expert-offload, expert-streaming, routing-prediction, int4 | `Edge0-AI` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Edge0) |
 | [[university/浙江大学/FloE]] | moe-inference |  | llm-inference, moe, memory-optimization, parameter-offload, pcie | `university:浙江大学` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FloE) |
 | [[community/FlashML-org/FreeToken/FreeToken]] | edge-moe-serving |  | llm-inference, moe-inference, edge-inference, cpu-gpu-coexecution, expert-caching | `FlashML-org` | 0 | 3 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FreeToken) |
 | [[university/浙江大学/HMI]] | multi-tenant-inference |  | multi-tenant-serving, memory-management, parameter-swapping, prefetch, pipeline | `university:浙江大学` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HMI) |
@@ -53,20 +54,23 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[company/Intel/OpenVINO GenAI]] | genai-inference-library |  | llm-inference, genai, continuous-batching, kv-cache, speculative-decoding | `company:Intel` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OpenVINO%20GenAI) |
 | [[community/sgl-project/SGLang/SGLang]] | inference-engine | active | continuous-batching, radix-attention, prefix-caching, tensor-parallel, expert-parallel | `sgl-project` | 5 | 31 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SGLang) |
 | [[community/siliconflow/SiliconLLM/SiliconLLM]] | llm-inference-engine |  |  | `siliconflow` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SiliconLLM) |
+| [[community/incoai/Splash/Splash]] | inference-engine | active | local-inference, apple-silicon, metal-kernels, speculative-decoding, continuous-batching | `incoai` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Splash) |
 | [[community/interestingLSY/swiftLLM/swiftLLM]] | research-llm-inference-engine |  | llm-serving, inference-engine, triton, paged-attention, scheduling | `interestingLSY` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SwiftLLM) |
 | [[community/ashhart/TensorFold/TensorFold]] | inference-engine | active | local-inference, openai-compatible-api, model-specific-kernels, speculative-decoding, multi-token-prediction | `ashhart` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorFold) |
 | [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM]] | inference-engine | active | tensorrt-engine, quantization, speculative-decoding, tensor-parallel, expert-parallel | `NVIDIA` | 1 | 10 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TensorRT-LLM) |
 | [[community/vllm-project/vLLM/vLLM]] | inference-engine | active | continuous-batching, paged-kv-cache, prefix-caching, speculative-decoding, tensor-parallel | `vllm-project` | 8 | 29 | 6 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM) |
 | [[community/vllm-project/vLLM-Ascend/vLLM-Ascend]] | inference-engine | active | ascend-inference, vllm-backend | `vllm-project` | 1 | 17 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-Ascend) |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni]] | multimodal-serving |  | multimodal-inference, disaggregated-inference, diffusion-serving, realtime-serving, data-transfer | `vllm-project` | 0 | 7 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vLLM-Omni) |
+| [[community/ThinkFlowLab/vllm-rlt/vllm-rlt]] | inference-engine | active | recurrent-language-model, loop-level-continuous-batching, adaptive-compute, depth-aware-kv-cache, prefix-caching | `ThinkFlowLab` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=vllm-rlt) |
 | [[community/xLLM-AI/xLLM/xLLM]] | inference-engine | active | llm-inference, heterogeneous-inference, chinese-ai-accelerators, service-engine-decoupling, kv-cache | `xLLM-AI` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=xLLM) |
 
 ## distributed-serving
 
-**Distributed Serving** · 21 projects
+**Distributed Serving** · 24 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/openJiuwen-ai/AgentInfer/AgentInfer]] | distributed-serving | active | agentic-inference, agent-aware-scheduling, semantic-routing, request-routing, kv-cache-management | `openJiuwen-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AgentInfer) |
 | [[community/vllm-project/AIBrix/AIBrix]] | distributed-serving | active | llm-infrastructure, model-serving, autoscaling, request-routing, kubernetes | `vllm-project` | 1 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AIBrix) |
 | [[community/bentoml/BentoML/BentoML]] | distributed-serving | active | model-serving, api-service, autoscaling, packaging | `bentoml` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=BentoML) |
 | [[company/月之暗面/checkpoint-engine]] | distributed-serving | active | reinforcement-learning, weight-transfer, checkpoint-loading, distributed-training, inference-serving | `company:月之暗面` | 3 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Checkpoint%20Engine) |
@@ -81,7 +85,9 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[university/上海交通大学/KunServe]] | llm-serving |  | llm-serving, memory-management, kv-cache, resource-management, elasticity | `university:上海交通大学` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KunServe) |
 | [[community/BerriAI/LiteLLM/LiteLLM]] | distributed-serving | active | llm-gateway, provider-routing, rate-limiting, cost-tracking, openai-compatible-proxy | `BerriAI` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LiteLLM) |
 | [[community/llm-d/llm-d/llm-d]] | distributed-serving | active | request-routing, kv-aware-routing, pd-disaggregation, worker-pool-orchestration, kubernetes | `llm-d` | 4 | 15 | 5 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=llm-d) |
+| [[community/Etelis/llm-d-resiliency-manager/llm-d-resiliency-manager]] | distributed-serving | active | fault-tolerance, failure-recovery, expert-parallel, rank-exclusion, routing-coordination | `Etelis` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=llm-d-resiliency-manager) |
 | [[community/LoongServe/LoongServe/LoongServe]] | long-context-llm-serving |  | llm-serving, long-context, sequence-parallelism, kv-cache, scheduling | `LoongServe` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LoongServe) |
+| [[community/modelsphere/ModelSphere/ModelSphere]] | distributed-serving | active | kubernetes, llm-serving, cache-aware-routing, autoscaling, pd-disaggregation | `modelsphere` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ModelSphere) |
 | [[community/ai-dynamo/Dynamo/Dynamo]] | distributed-serving | active | distributed-inference, disaggregated-serving, kv-aware-routing, cache-management, autoscaling | `ai-dynamo` | 4 | 11 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NVIDIA%20Dynamo) |
 | [[community/ray-project/Ray-Serve/Ray-Serve]] | distributed-serving | active | distributed-serving, autoscaling, multi-model, pd-disaggregation, prefix-aware-routing | `ray-project` | 2 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ray%20Serve) |
 | [[community/lmsys-org/S-LoRA/S-LoRA]] | adapter-serving |  | llm-serving, lora, adapter-serving, memory-management, batching | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=S-LoRA) |
@@ -187,7 +193,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## kernel
 
-**Kernel / Operator** · 10 projects
+**Kernel / Operator** · 11 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -200,11 +206,12 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/InfiniTensor/ntops]] | gpu-kernels |  | gpu-kernels, llm-operators, ninetoothed, kernel-dsl | `InfiniTensor` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ntops) |
 | [[community/thu-pacman/QFactory/QFactory]] | quantized-serving-kernel-optimization |  | llm-serving, quantization, kernel-generation, ai-compiler | `thu-pacman` | 0 | 3 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=QFactory) |
 | [[community/deepseek-ai/DeepSeek-Infra/TileKernels]] | gpu-kernels |  | gpu-kernels, tilelang, moe, quantization, fp8 | `deepseek-ai` | 0 | 7 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileKernels) |
+| [[community/mlc-ai/TIRx-Kernels/TIRx-Kernels]] | kernel | active | gpu-kernels, gemm, grouped-gemm, sparse-attention, flash-attention | `mlc-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TIRx%20Kernels) |
 | [[company/爱特思/国产化人工智能算力平台异构并行加速项目]] | operator-optimization |  | domestic-ai-compute, operator-optimization, kernel, heterogeneous-compute, model-training | `company:爱特思` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=%E5%9B%BD%E4%BA%A7%E5%8C%96%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%AE%97%E5%8A%9B%E5%B9%B3%E5%8F%B0%E5%BC%82%E6%9E%84%E5%B9%B6%E8%A1%8C%E5%8A%A0%E9%80%9F%E9%A1%B9%E7%9B%AE) |
 
 ## compiler
 
-**Compiler / DSL** · 14 projects
+**Compiler / DSL** · 16 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -221,7 +228,9 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/tile-ai/TileLang/TileLang]] | compiler | active | kernel-dsl, kernel-generation, multi-backend, ascend-950 | `tile-ai` | 3 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang) |
 | [[community/tile-ai/TileLang/TileLang-Ascend]] | compiler | active | kernel-dsl, ascend, ascend-a2, ascend-a3, ascendc | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-Ascend) |
 | [[community/tile-ai/TileLang/TileLang-MLIR-Ascend]] | compiler | active | kernel-dsl, mlir, ascendnpu-ir, ascend, ascend-a2 | `tile-ai` | 2 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileLang-MLIR-Ascend) |
+| [[community/mlc-ai/TIRx-Harness/TIRx-Harness]] | compiler | active | agentic-gpu-programming, kernel-authoring, compiler-analysis, correctness-analysis, remote-execution | `mlc-ai` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TIRx%20Harness) |
 | [[community/triton-lang/Triton/Triton]] | compiler | active | gpu-kernel-dsl, compiler, jit, mlir | `triton-lang` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Triton) |
+| [[community/Lizn-zn/VeriTile/VeriTile]] | compiler | active | formal-verification, triton-style-dsl, kernel-correctness, kernel-refinement, lean4 | `Lizn-zn` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=VeriTile) |
 
 ## training
 
@@ -276,14 +285,16 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## benchmark
 
-**Benchmark / Profiling** · 4 projects
+**Benchmark / Profiling** · 6 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| [[community/ArtificialAnalysis/agentperf-local/agentperf-local]] | benchmark | active | agentic-workload, inference-benchmark, trajectory-replay, latency, throughput | `ArtificialAnalysis` | 5 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=agentperf-local) |
 | [[community/flagos-ai/FlagPerf/FlagPerf]] | benchmark | active | benchmark, ai-hardware, training, inference, heterogeneous-computing | `flagos-ai` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FlagPerf) |
 | [[community/gpustack/gguf-parser-go/gguf-parser-go]] | benchmark | active | gguf, memory-estimation, throughput-estimation, model-profiling, resource-planning | `gpustack` | 2 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GGUF%20Parser) |
 | [[community/SemiAnalysisAI/InferenceX/InferenceX]] | benchmark | active | llm-inference, agentic-inference, continuous-benchmarking, performance-per-dollar, performance-per-watt | `SemiAnalysisAI` | 4 | 4 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InferenceX) |
 | [[community/deepseek-ai/DeepSeek-Infra/profile-data]] | systems-profiling |  | profiling, moe, expert-parallel, prefill, decode | `deepseek-ai` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=profile-data) |
+| [[community/Gxj230958/TritonAscendBench/TritonAscendBench]] | benchmark | active | kernel-migration, triton-ascend, ascend-910b, correctness, performance | `Gxj230958` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TritonAscendBench) |
 
 ## ecosystem
 
@@ -296,7 +307,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 29 projects
+**Inference Optimization** · 31 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -323,8 +334,10 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/NVIDIA/KernelBlaster/KernelBlaster]] | optimization | active | agentic-kernel-optimization, memory-augmented-icl, reinforcement-learning, cuda, profiling | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelBlaster) |
 | [[community/Meta/KernelEvolve/KernelEvolve]] | optimization | research | agentic-kernel-optimization, tree-search, evolutionary-search, optimization-memory, production-kernels | `Meta` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelEvolve) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
+| [[community/kaist-flexml-lab/LoopSpec/LoopSpec]] | optimization | active | self-speculative-decoding, recurrent-language-model, looped-transformer, pipelined-decoding, lossless-decoding | `kaist-flexml-lab` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LoopSpec) |
 | [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |
 | [[community/Ascend/msModelSlim/msModelSlim]] | optimization | active | model-compression, quantization | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=msModelSlim) |
+| [[community/kaistmm/OmniKVQuant/OmniKVQuant]] | optimization | active | kv-cache-quantization, omni-llm, 2bit-kv-cache, training-free, triton-kernel | `kaistmm` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OmniKVQuant) |
 | [[community/yzygitzh/RoofLang/RoofLang]] | optimization | active | inference-optimization, system-architecture-search, graph-ir, roofline-modeling, discrete-event-simulation | `yzygitzh` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RoofLang) |
 | [[community/sgl-project/SpecForge/SpecForge]] | speculative-decoding |  | speculative-decoding, draft-model-training, llm-inference, distributed-training | `sgl-project` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SpecForge) |
 | [[community/NVIDIA/TileGym/TileGym]] | optimization | active | agentic-kernel-development, agent-skills, cutile, kernel-autotuning, benchmarking | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=TileGym) |

@@ -1,6 +1,14 @@
 ---
 type: project
 name: vllm-rlt
+linked_people: []
+linked_concepts:
+  - "concept/inference/serving/Continuous Batching"
+  - "concept/inference/scheduling/Inference Scheduling"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Transfer"
+  - "concept/inference/serving/P-D Disaggregation"
+  - "concept/inference/kv-cache/Prefix Caching"
 layer: inference-engine
 status: active
 repository: https://github.com/ThinkFlowLab/vllm-rlt
@@ -19,6 +27,7 @@ hardware:
 integrations:
   - "NIXL"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # vllm-rlt
 ## 项目定位
@@ -50,3 +59,17 @@ recurrent model 会对同一个 Transformer core 重复执行不同 loop depth�
 
 - https://github.com/ThinkFlowLab/vllm-rlt
 - https://arxiv.org/abs/2608.09444
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/serving/Continuous Batching|Continuous Batching]]
+- [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
+- [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
+- [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

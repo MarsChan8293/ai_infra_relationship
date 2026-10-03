@@ -1,20 +1,20 @@
 {
   "format": "ai-infra-relationship/node-schema-manifest-v1",
   "source_of_truth": "markdown",
-  "node_count": 924,
-  "complete_count": 924,
+  "node_count": 939,
+  "complete_count": 939,
   "incomplete_count": 0,
   "counts_by_type": {
     "community": 9,
     "company": 57,
-    "concept": 88,
+    "concept": 90,
     "index": 5,
     "model-project": 13,
     "model-team": 1,
     "note": 19,
     "person": 437,
     "person-link": 4,
-    "project": 205,
+    "project": 218,
     "project-collection": 1,
     "relationship-map": 1,
     "research-institution": 35,
@@ -234,6 +234,15 @@
       "source_markdown": "community/apache/Spark/Spark.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/apache/Spark/Spark.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/ArtificialAnalysis/agentperf-local/agentperf-local",
+      "type": "project",
+      "source_markdown": "community/ArtificialAnalysis/agentperf-local/agentperf-local.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/ArtificialAnalysis/agentperf-local/agentperf-local.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1147,6 +1156,24 @@
       "missing_required": []
     },
     {
+      "id": "community/Edge0-AI/Edge0/Edge0",
+      "type": "project",
+      "source_markdown": "community/Edge0-AI/Edge0/Edge0.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Edge0-AI/Edge0/Edge0.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Etelis/llm-d-resiliency-manager/llm-d-resiliency-manager",
+      "type": "project",
+      "source_markdown": "community/Etelis/llm-d-resiliency-manager/llm-d-resiliency-manager.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Etelis/llm-d-resiliency-manager/llm-d-resiliency-manager.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/flagos-ai/FlagAttention/FlagAttention",
       "type": "project",
       "source_markdown": "community/flagos-ai/FlagAttention/FlagAttention.md",
@@ -1633,6 +1660,15 @@
       "missing_required": []
     },
     {
+      "id": "community/Gxj230958/TritonAscendBench/TritonAscendBench",
+      "type": "project",
+      "source_markdown": "community/Gxj230958/TritonAscendBench/TritonAscendBench.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Gxj230958/TritonAscendBench/TritonAscendBench.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "community/hpcaitech/Colossal-AI/Colossal-AI",
       "type": "project",
       "source_markdown": "community/hpcaitech/Colossal-AI/Colossal-AI.md",
@@ -1656,6 +1692,15 @@
       "source_markdown": "community/huggingface/Transformers/Transformers.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/huggingface/Transformers/Transformers.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/incoai/Splash/Splash",
+      "type": "project",
+      "source_markdown": "community/incoai/Splash/Splash.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/incoai/Splash/Splash.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -1809,6 +1854,24 @@
       "source_markdown": "community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/kai-scheduler/KAI-Scheduler/KAI-Scheduler.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+      "type": "project",
+      "source_markdown": "community/kaist-flexml-lab/LoopSpec/LoopSpec.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kaist-flexml-lab/LoopSpec/LoopSpec.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/kaistmm/OmniKVQuant/OmniKVQuant",
+      "type": "project",
+      "source_markdown": "community/kaistmm/OmniKVQuant/OmniKVQuant.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/kaistmm/OmniKVQuant/OmniKVQuant.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2169,6 +2232,15 @@
       "source_markdown": "community/lightseekorg/TorchSpec/TorchSpec.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/lightseekorg/TorchSpec/TorchSpec.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/Lizn-zn/VeriTile/VeriTile",
+      "type": "project",
+      "source_markdown": "community/Lizn-zn/VeriTile/VeriTile.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/Lizn-zn/VeriTile/VeriTile.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2547,6 +2619,33 @@
       "source_markdown": "community/MindSpore/AKG Agents/AKG Agents.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/MindSpore/AKG Agents/AKG Agents.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/mlc-ai/TIRx-Harness/TIRx-Harness",
+      "type": "project",
+      "source_markdown": "community/mlc-ai/TIRx-Harness/TIRx-Harness.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/mlc-ai/TIRx-Harness/TIRx-Harness.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/mlc-ai/TIRx-Kernels/TIRx-Kernels",
+      "type": "project",
+      "source_markdown": "community/mlc-ai/TIRx-Kernels/TIRx-Kernels.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/mlc-ai/TIRx-Kernels/TIRx-Kernels.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/modelsphere/ModelSphere/ModelSphere",
+      "type": "project",
+      "source_markdown": "community/modelsphere/ModelSphere/ModelSphere.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/modelsphere/ModelSphere/ModelSphere.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -2979,6 +3078,15 @@
       "source_markdown": "community/openEuler/openYuanRong/罗站城 Zhancheng Luo.md",
       "schema_definition": "schema/person.yaml",
       "schema_instance": "schema/nodes/community/openEuler/openYuanRong/罗站城 Zhancheng Luo.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/openJiuwen-ai/AgentInfer/AgentInfer",
+      "type": "project",
+      "source_markdown": "community/openJiuwen-ai/AgentInfer/AgentInfer.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/openJiuwen-ai/AgentInfer/AgentInfer.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -3447,6 +3555,15 @@
       "source_markdown": "community/Tencent/HPC-Ops/HPC-Ops.md",
       "schema_definition": "schema/project.yaml",
       "schema_instance": "schema/nodes/community/Tencent/HPC-Ops/HPC-Ops.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
+      "type": "project",
+      "source_markdown": "community/ThinkFlowLab/vllm-rlt/vllm-rlt.md",
+      "schema_definition": "schema/project.yaml",
+      "schema_instance": "schema/nodes/community/ThinkFlowLab/vllm-rlt/vllm-rlt.yaml",
       "status": "complete",
       "missing_required": []
     },
@@ -6430,6 +6547,15 @@
       "missing_required": []
     },
     {
+      "id": "concept/inference/reliability/Inference Fault Tolerance",
+      "type": "concept",
+      "source_markdown": "concept/inference/reliability/Inference Fault Tolerance.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/inference/reliability/Inference Fault Tolerance.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
       "id": "concept/inference/scheduling/Autoscaling",
       "type": "concept",
       "source_markdown": "concept/inference/scheduling/Autoscaling.md",
@@ -6624,6 +6750,15 @@
       "source_markdown": "concept/kernel/programming/Kernel DSL.md",
       "schema_definition": "schema/concept.yaml",
       "schema_instance": "schema/nodes/concept/kernel/programming/Kernel DSL.yaml",
+      "status": "complete",
+      "missing_required": []
+    },
+    {
+      "id": "concept/kernel/verification/Kernel Formal Verification",
+      "type": "concept",
+      "source_markdown": "concept/kernel/verification/Kernel Formal Verification.md",
+      "schema_definition": "schema/concept.yaml",
+      "schema_instance": "schema/nodes/concept/kernel/verification/Kernel Formal Verification.yaml",
       "status": "complete",
       "missing_required": []
     },

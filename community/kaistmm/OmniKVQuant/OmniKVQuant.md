@@ -1,6 +1,9 @@
 ---
 type: project
 name: OmniKVQuant
+linked_people: []
+linked_concepts:
+  - "concept/quantization/KV Cache Quantization"
 layer: optimization
 status: active
 repository: https://github.com/kaistmm/OmniKVQuant
@@ -15,6 +18,7 @@ areas:
 hardware:
   - "nvidia"
 last_verified: "2026-10"
+linked_companies: []
 ---
 # OmniKVQuant
 ## 项目定位
@@ -39,3 +43,12 @@ README citation 列出 Suho Yoo、Hyunjong Ok、Jongmin Choi、Jihoo Jung、Joon
 
 - https://github.com/kaistmm/OmniKVQuant
 - https://arxiv.org/abs/2609.11582
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/quantization/KV Cache Quantization|KV Cache Quantization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
