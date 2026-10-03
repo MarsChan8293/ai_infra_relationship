@@ -21,7 +21,9 @@ projects:
   - CUTLASS
   - FlagTree
   - CANNBot-DSL
-last_verified: "2026-10"
+  - "TIRx Harness"
+  - "VeriTile"
+last_verified: 2026-10
 ---
 
 # Kernel DSL

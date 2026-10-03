@@ -18,7 +18,8 @@ projects:
   - AIBrix
   - KServe
   - MindIE-Motor
-last_verified: 2026-09
+  - "ModelSphere"
+last_verified: 2026-10
 ---
 
 # Autoscaling

@@ -16,7 +16,9 @@ projects:
   - vLLM
   - LMCache
   - Mooncake
-last_verified: 2026-09
+  - "AgentInfer"
+  - "vllm-rlt"
+last_verified: 2026-10
 ---
 
 # KV Cache Transfer

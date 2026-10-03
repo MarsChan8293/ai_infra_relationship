@@ -19,7 +19,10 @@ related_concepts:
 projects:
   - LMCache
   - vLLM
-last_verified: 2026-09
+  - "AgentInfer"
+  - "ModelSphere"
+  - "vllm-rlt"
+last_verified: 2026-10
 ---
 
 # KV Cache Management

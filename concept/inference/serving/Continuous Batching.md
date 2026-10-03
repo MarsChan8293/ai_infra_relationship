@@ -12,7 +12,9 @@ related_concepts:
   - Prefix Caching
 projects:
   - vLLM
-last_verified: 2026-09
+  - "vllm-rlt"
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # Continuous Batching

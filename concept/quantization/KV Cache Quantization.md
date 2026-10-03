@@ -16,7 +16,9 @@ related_concepts:
 projects:
   - vLLM
   - LMDeploy
-last_verified: 2026-09
+  - "Splash"
+  - "OmniKVQuant"
+last_verified: 2026-10
 ---
 
 # KV Cache Quantization

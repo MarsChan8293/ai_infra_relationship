@@ -18,7 +18,8 @@ related_concepts:
 projects:
   - LMCache
   - vLLM
-last_verified: 2026-09
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # KV Cache Offloading

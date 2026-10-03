@@ -16,7 +16,9 @@ projects:
   - NVIDIA Dynamo
   - AIBrix
   - MindIE-Motor
-last_verified: 2026-09
+  - "AgentInfer"
+  - "vllm-rlt"
+last_verified: 2026-10
 ---
 
 # Inference Scheduling

@@ -16,7 +16,8 @@ related_concepts:
 projects:
   - vLLM
   - SGLang
-last_verified: 2026-09
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # Speculative Decoding

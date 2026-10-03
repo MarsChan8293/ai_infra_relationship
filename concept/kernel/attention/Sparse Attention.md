@@ -13,7 +13,8 @@ related_concepts:
 projects:
   - FlashMLA
   - TileLang-Ascend
-last_verified: "2026-10"
+  - "TIRx Kernels"
+last_verified: 2026-10
 ---
 # Sparse Attention
 

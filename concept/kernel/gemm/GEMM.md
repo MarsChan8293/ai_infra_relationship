@@ -19,7 +19,8 @@ projects:
   - TileLang-MLIR-Ascend
   - Triton
   - DeepGEMM-Ascend
-last_verified: "2026-10"
+  - "TIRx Kernels"
+last_verified: 2026-10
 ---
 
 # GEMM

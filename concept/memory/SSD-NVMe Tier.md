@@ -23,7 +23,9 @@ projects:
   - Mooncake
   - FlexKV
   - YuanRong DataSystem
-last_verified: 2026-09
+  - "Edge0"
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # SSD/NVMe Tier

@@ -13,7 +13,8 @@ related_concepts:
   - Draft-Target Decoding
 projects:
   - Transformers
-last_verified: 2026-09
+  - "LoopSpec"
+last_verified: 2026-10
 ---
 
 # Self-Speculative Decoding

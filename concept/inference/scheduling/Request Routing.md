@@ -18,7 +18,9 @@ projects:
   - Gateway API Inference Extension
   - KServe
   - MindIE-Motor
-last_verified: 2026-09
+  - "AgentInfer"
+  - "ModelSphere"
+last_verified: 2026-10
 ---
 
 # Request Routing

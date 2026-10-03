@@ -41,6 +41,7 @@ projects:
   - "TileGym"
   - "CAKE"
   - "FlashInfer-Bench"
+  - "TIRx Harness"
 last_verified: 2026-10
 ---
 
