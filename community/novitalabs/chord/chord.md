@@ -6,20 +6,10 @@ repository: https://github.com/novitalabs/chord
 docs: https://github.com/novitalabs/chord/tree/main/docs
 last_verified: "2026-10"
 companies: ["Novita AI"]
-company_relation: company-led
-layer: runtime
+layer: kernel
 areas: [gemm, moe-kernels, w4a16, int4, quantization, jit, expert-parallelism, tensor-parallelism]
 hardware: [nvidia]
-integrations: [vLLM, Humming, DeepGEMM, CUTLASS]
-linked_companies:
-  - "company/Novita AI/Novita AI"
-linked_concepts:
-  - "concept/quantization/Weight-Only Quantization"
-  - "concept/kernel/gemm/GEMM"
-  - "concept/kernel/gemm/Grouped GEMM"
-  - "concept/kernel/programming/JIT Kernel Compilation"
-  - "concept/kernel/optimization/Kernel Fusion"
-  - "concept/inference/parallelism/Expert Parallelism"
+integrations: [vLLM, Humming, CUTLASS]
 ---
 # Chord
 
