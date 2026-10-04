@@ -1,7 +1,14 @@
 ---
 type: project
 name: MetaInfer
-linked_people: []
+linked_people:
+  - "community/MetaInfer/Chen Hu"
+  - "community/MetaInfer/Honglin Wang"
+  - "community/MetaInfer/Mingheng Mi"
+  - "community/MetaInfer/Pu Wang"
+  - "community/MetaInfer/Tian Chen"
+  - "community/MetaInfer/Zhenwen Miao"
+  - "university/琶洲实验室（黄埔）/张海 Hai Zhang"
 linked_concepts:
   - "concept/inference/optimization/Agentic Inference Optimization"
   - "concept/kernel/optimization/Agentic Kernel Optimization"
@@ -108,3 +115,18 @@ MetaInfer 位于 **AI-for-AI-Infra / inference optimization automation** 这一�
 - [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->
+
+<!-- BEGIN AUTO PROJECT PEOPLE -->
+## 关联人物（自动汇总）
+
+以下人物由其 `projects:` / `communities:`（含兼容旧字段）反向汇总，只表示公开可核验的项目或社区参与，不自动推断雇佣、同事或治理关系。
+
+- [[community/MetaInfer/Chen Hu|Chen Hu]]：项目关联；人物页已明确记录该项目。
+- [[community/MetaInfer/Honglin Wang|Honglin Wang]]：arXiv:2607.12875 v1（2026-07-14）作者之一，论文题为 **MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox**。
+- [[community/MetaInfer/Mingheng Mi|Mingheng Mi]]：v1（2026-07-14）：**MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox** 作者之一。
+- [[community/MetaInfer/Pu Wang|Pu Wang]]：项目关联；人物页已明确记录该项目。
+- [[community/MetaInfer/Tian Chen|Tian Chen]]：项目关联；人物页已明确记录该项目。
+- [[community/MetaInfer/Zhenwen Miao|Zhenwen Miao]]：arXiv:2607.12875 v1（2026-07-14）作者之一，论文题为 **MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox**。
+- [[university/琶洲实验室（黄埔）/张海 Hai Zhang|张海（Hai Zhang）]]：[[community/MetaInfer/MetaInfer|MetaInfer]]：arXiv:2607.12875 v2/v3 作者。v3（2026-09-01）题为 **Automatic Model-Hardware Co-Adaptation for Heterogeneous AI Accelerators**。
+
+<!-- END AUTO PROJECT PEOPLE -->

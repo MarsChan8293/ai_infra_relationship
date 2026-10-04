@@ -8,9 +8,9 @@
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 236
 - Project/community nodes: 228
-- Project/community nodes with ≥1 linked person: 122
-- Project/community-person associations: 594
-- Non-company affiliations recognized and routed elsewhere: 108
+- Project/community nodes with ≥1 linked person: 123
+- Project/community-person associations: 601
+- Non-company affiliations recognized and routed elsewhere: 109
 - Unresolved source values (backlog, non-fatal): 31
 - Audit errors: 0
 
@@ -99,6 +99,7 @@
 | [[community/flagos-ai/FlagGems/FlagGems\|FlagGems]] | 7 |
 | [[community/InfiniTensor/InfiniLM\|InfiniLM]] | 7 |
 | [[community/InfiniTensor/InfiniTensor\|InfiniTensor]] | 7 |
+| [[community/MetaInfer/MetaInfer\|MetaInfer]] | 7 |
 | [[community/deepseek-ai/DeepSeek-Infra/TileKernels\|TileKernels]] | 7 |
 | [[community/vllm-project/vLLM-Omni/vLLM-Omni\|vLLM-Omni]] | 7 |
 | [[community/InfiniTensor/InfiniCore\|InfiniCore]] | 6 |

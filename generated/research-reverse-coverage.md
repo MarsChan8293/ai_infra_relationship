@@ -2,9 +2,9 @@
 
 由 `scripts/audit-research-links.py` 自动生成。反向边来自人物 `current_affiliations:`。
 
-- Research institution nodes: 35
-- Institutions with ≥1 linked person: 13
-- Research-person associations: 47
+- Research institution nodes: 36
+- Institutions with ≥1 linked person: 14
+- Research-person associations: 48
 - Audit errors: 0
 
 | Research institution | Linked people |
@@ -22,6 +22,7 @@
 | [[university/北京智源人工智能研究院/北京智源人工智能研究院\|北京智源人工智能研究院]] | 1 |
 | [[university/华南理工大学/国产可信算力产业应用创新实验室\|国产可信算力产业应用创新实验室]] | 1 |
 | [[university/微软亚洲研究院/微软亚洲研究院\|微软亚洲研究院]] | 1 |
+| [[university/琶洲实验室（黄埔）/琶洲实验室（黄埔）\|琶洲实验室（黄埔）]] | 1 |
 | [[university/Stony Brook University/AI Innovation Institute\|AI Innovation Institute]] | 0 |
 | [[university/Carnegie Mellon University/Catalyst Group\|Catalyst Group]] | 0 |
 | [[university/UC Davis/GATE Lab\|GATE Lab]] | 0 |
