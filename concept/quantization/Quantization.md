@@ -20,6 +20,7 @@ projects:
   - LMDeploy
   - DeepGEMM
   - TileKernels
+  - "LLM Autotuner"
 last_verified: 2026-09
 ---
 
