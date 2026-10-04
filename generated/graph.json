@@ -814,6 +814,33 @@
       }
     },
     {
+      "id": "company/Novita AI/Novita AI",
+      "path": "company/Novita AI/Novita AI.md",
+      "name": "Novita AI",
+      "type": "company",
+      "category": "company",
+      "frontmatter": {
+        "type": "company",
+        "name": "Novita AI",
+        "aliases": [
+          "Novita Labs",
+          "novitalabs"
+        ],
+        "linked_people": [],
+        "areas": [
+          "ai-infrastructure",
+          "gpu-cloud",
+          "llm-inference",
+          "kv-cache",
+          "inference-optimization",
+          "agent-sandbox"
+        ],
+        "projects": "",
+        "last_verified": "2026-10",
+        "linked_projects": ""
+      }
+    },
+    {
       "id": "company/Ollama/Jeffrey Morgan",
       "path": "company/Ollama/Jeffrey Morgan.md",
       "name": "Jeffrey Morgan",
@@ -13375,6 +13402,38 @@
       }
     },
     {
+      "id": "community/inclusionAI/humming/humming",
+      "path": "community/inclusionAI/humming/humming.md",
+      "name": "Humming",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Humming",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/inclusionAI/humming",
+        "last_verified": "2026-10",
+        "layer": "kernel",
+        "areas": [
+          "gemm",
+          "quantization",
+          "moe-kernels",
+          "w4a16",
+          "w4a8",
+          "jit"
+        ],
+        "hardware": [
+          "nvidia"
+        ],
+        "integrations": [
+          "vLLM"
+        ],
+        "linked_companies": []
+      }
+    },
+    {
       "id": "community/incoai/Splash/Splash",
       "path": "community/incoai/Splash/Splash.md",
       "name": "Splash",
@@ -15331,6 +15390,164 @@
         "integrations": "",
         "last_verified": "2026-10",
         "linked_companies": []
+      }
+    },
+    {
+      "id": "community/novitalabs/NovitaBox/NovitaBox",
+      "path": "community/novitalabs/NovitaBox/NovitaBox.md",
+      "name": "NovitaBox",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "NovitaBox",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/novitalabs/NovitaBox",
+        "docs": "https://github.com/novitalabs/NovitaBox/tree/main/docs",
+        "last_verified": "2026-10",
+        "companies": [
+          "Novita AI"
+        ],
+        "layer": "runtime",
+        "areas": [
+          "agent-sandbox",
+          "microvm",
+          "container-sandbox",
+          "gpu-sandbox",
+          "isolation",
+          "local-runtime"
+        ],
+        "hardware": [
+          "nvidia"
+        ],
+        "integrations": [
+          "Firecracker",
+          "gVisor",
+          "Cloud Hypervisor",
+          "E2B"
+        ],
+        "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/novitalabs/autotuner/autotuner",
+      "path": "community/novitalabs/autotuner/autotuner.md",
+      "name": "LLM Autotuner",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "LLM Autotuner",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/novitalabs/autotuner",
+        "docs": "https://novitalabs.github.io/autotuner/",
+        "last_verified": "2026-10",
+        "companies": [
+          "Novita AI"
+        ],
+        "layer": "optimization",
+        "areas": [
+          "autotuning",
+          "inference-optimization",
+          "configuration-management",
+          "slo",
+          "benchmarking",
+          "quantization",
+          "agentic-optimization"
+        ],
+        "hardware": [
+          "nvidia"
+        ],
+        "integrations": [
+          "vLLM",
+          "SGLang",
+          "OME",
+          "genai-bench"
+        ],
+        "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/novitalabs/chord/chord",
+      "path": "community/novitalabs/chord/chord.md",
+      "name": "Chord",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Chord",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/novitalabs/chord",
+        "docs": "https://github.com/novitalabs/chord/tree/main/docs",
+        "last_verified": "2026-10",
+        "companies": [
+          "Novita AI"
+        ],
+        "layer": "kernel",
+        "areas": [
+          "gemm",
+          "moe-kernels",
+          "w4a16",
+          "int4",
+          "quantization",
+          "jit",
+          "expert-parallelism",
+          "tensor-parallelism"
+        ],
+        "hardware": [
+          "nvidia"
+        ],
+        "integrations": [
+          "vLLM",
+          "Humming",
+          "CUTLASS"
+        ],
+        "linked_companies": ""
+      }
+    },
+    {
+      "id": "community/novitalabs/pegaflow/pegaflow",
+      "path": "community/novitalabs/pegaflow/pegaflow.md",
+      "name": "PegaFlow",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "PegaFlow",
+        "linked_concepts": "",
+        "status": "active",
+        "linked_people": [],
+        "repository": "https://github.com/novitalabs/pegaflow",
+        "docs": "https://github.com/novitalabs/pegaflow/tree/master/docs",
+        "last_verified": "2026-10",
+        "companies": [
+          "Novita AI"
+        ],
+        "layer": "kv-cache",
+        "areas": [
+          "kv-cache",
+          "kv-offloading",
+          "tiered-cache",
+          "rdma",
+          "ssd-cache",
+          "host-memory",
+          "p-d-disaggregation",
+          "observability"
+        ],
+        "hardware": [
+          "nvidia"
+        ],
+        "integrations": [
+          "vLLM",
+          "SGLang",
+          "NIXL"
+        ],
+        "linked_companies": ""
       }
     },
     {
@@ -32491,6 +32708,46 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "community/novitalabs/chord/chord",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "concept/inference/parallelism/Expert Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/inclusionAI/humming/humming",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/incoai/Splash/Splash",
       "target": "community/ashhart/TensorFold/TensorFold",
       "kind": "wikilink"
@@ -34548,6 +34805,166 @@
     {
       "source": "community/modelsphere/ModelSphere/ModelSphere",
       "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/NovitaBox/NovitaBox",
+      "target": "company/Novita AI/Novita AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/NovitaBox/NovitaBox",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/autotuner/autotuner",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/autotuner/autotuner",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/autotuner/autotuner",
+      "target": "company/Novita AI/Novita AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/autotuner/autotuner",
+      "target": "concept/compiler/Autotuning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/autotuner/autotuner",
+      "target": "concept/quantization/Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "community/inclusionAI/humming/humming",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "company/Novita AI/Novita AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "company/月之暗面/Kimi-K2",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "concept/inference/parallelism/Expert Parallelism",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "concept/kernel/gemm/GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "concept/kernel/gemm/Grouped GEMM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "concept/kernel/programming/JIT Kernel Compilation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/chord/chord",
+      "target": "concept/quantization/Weight-Only Quantization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "community/LMCache/LMCache/LMCache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "community/sgl-project/SGLang/SGLang",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "company/Novita AI/Novita AI",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/communication/data-movement/RDMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/kv-cache/KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/kv-cache/KV Cache Offloading",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/kv-cache/KV Cache Transfer",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/kv-cache/Remote KV Store",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/kv-cache/Tiered KV Cache",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/inference/serving/P-D Disaggregation",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/memory/Host Memory",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/memory/NUMA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/novitalabs/pegaflow/pegaflow",
+      "target": "concept/storage/SSD-Backed KV Cache",
       "kind": "wikilink"
     },
     {
@@ -39953,6 +40370,26 @@
     {
       "source": "company/Neural Magic/Neural Magic",
       "target": "company/Red Hat/Red Hat",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Novita AI/Novita AI",
+      "target": "community/novitalabs/NovitaBox/NovitaBox",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Novita AI/Novita AI",
+      "target": "community/novitalabs/autotuner/autotuner",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Novita AI/Novita AI",
+      "target": "community/novitalabs/chord/chord",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Novita AI/Novita AI",
+      "target": "community/novitalabs/pegaflow/pegaflow",
       "kind": "wikilink"
     },
     {
@@ -52911,6 +53348,14 @@
       ],
       "bridge_score": 7.557
     },
+    "company/Novita AI/Novita AI": {
+      "degree": 4,
+      "cross_category_degree": 4,
+      "neighbor_categories": [
+        "community"
+      ],
+      "bridge_score": 5.222
+    },
     "company/Ollama/Jeffrey Morgan": {
       "degree": 3,
       "cross_category_degree": 1,
@@ -53601,13 +54046,13 @@
       "bridge_score": 6.35
     },
     "company/月之暗面/Kimi-K2": {
-      "degree": 8,
-      "cross_category_degree": 3,
+      "degree": 9,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "company"
       ],
-      "bridge_score": 7.22
+      "bridge_score": 7.722
     },
     "company/月之暗面/Kimi-K3": {
       "degree": 8,
@@ -55021,7 +55466,7 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 55,
+      "degree": 56,
       "cross_category_degree": 29,
       "neighbor_categories": [
         "community",
@@ -55030,7 +55475,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 23.457
+      "bridge_score": 23.483
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -56216,14 +56661,14 @@
       "bridge_score": 11.507
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM": {
-      "degree": 33,
+      "degree": 35,
       "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 13.437
+      "bridge_score": 13.52
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepJIT": {
       "degree": 15,
@@ -57092,6 +57537,15 @@
       ],
       "bridge_score": 5.285
     },
+    "community/inclusionAI/humming/humming": {
+      "degree": 8,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.92
+    },
     "community/incoai/Splash/Splash": {
       "degree": 8,
       "cross_category_degree": 6,
@@ -57348,7 +57802,7 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 83,
+      "degree": 84,
       "cross_category_degree": 40,
       "neighbor_categories": [
         "community",
@@ -57357,7 +57811,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 27.892
+      "bridge_score": 27.909
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -57711,6 +58165,45 @@
       ],
       "bridge_score": 8.209
     },
+    "community/novitalabs/NovitaBox/NovitaBox": {
+      "degree": 2,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "company",
+        "concept"
+      ],
+      "bridge_score": 5.285
+    },
+    "community/novitalabs/autotuner/autotuner": {
+      "degree": 5,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 8.135
+    },
+    "community/novitalabs/chord/chord": {
+      "degree": 10,
+      "cross_category_degree": 7,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 10.409
+    },
+    "community/novitalabs/pegaflow/pegaflow": {
+      "degree": 15,
+      "cross_category_degree": 11,
+      "neighbor_categories": [
+        "community",
+        "company",
+        "concept"
+      ],
+      "bridge_score": 12.35
+    },
     "community/ollama/Ollama/Ollama": {
       "degree": 12,
       "cross_category_degree": 3,
@@ -57842,7 +58335,7 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 110,
+      "degree": 112,
       "cross_category_degree": 53,
       "neighbor_categories": [
         "community",
@@ -57851,7 +58344,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 32.844
+      "bridge_score": 32.87
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -58394,7 +58887,7 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 155,
+      "degree": 159,
       "cross_category_degree": 82,
       "neighbor_categories": [
         "community",
@@ -58403,7 +58896,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 43.485
+      "bridge_score": 43.522
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -60339,13 +60832,13 @@
       "bridge_score": 8.422
     },
     "concept/communication/data-movement/RDMA": {
-      "degree": 11,
-      "cross_category_degree": 6,
+      "degree": 12,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.685
+      "bridge_score": 9.15
     },
     "concept/compiler/Ahead-of-Time Compilation": {
       "degree": 4,
@@ -60357,13 +60850,13 @@
       "bridge_score": 5.672
     },
     "concept/compiler/Autotuning": {
-      "degree": 7,
-      "cross_category_degree": 3,
+      "degree": 8,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.05
+      "bridge_score": 7.57
     },
     "concept/compiler/Backend Code Generation": {
       "degree": 9,
@@ -60465,12 +60958,12 @@
       "bridge_score": 5.35
     },
     "concept/inference/agent/Agent Harness": {
-      "degree": 2,
-      "cross_category_degree": 2,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community"
       ],
-      "bridge_score": 3.785
+      "bridge_score": 4.55
     },
     "concept/inference/decoding/Draft-Target Decoding": {
       "degree": 6,
@@ -60536,13 +61029,13 @@
       "bridge_score": 8.75
     },
     "concept/inference/kv-cache/KV Cache Offloading": {
-      "degree": 16,
-      "cross_category_degree": 3,
+      "degree": 17,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.137
+      "bridge_score": 8.57
     },
     "concept/inference/kv-cache/KV Cache Prefetching": {
       "degree": 8,
@@ -60563,22 +61056,22 @@
       "bridge_score": 6.87
     },
     "concept/inference/kv-cache/KV Cache Transfer": {
-      "degree": 15,
-      "cross_category_degree": 5,
+      "degree": 16,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.75
+      "bridge_score": 9.187
     },
     "concept/inference/kv-cache/KV Cache": {
-      "degree": 12,
-      "cross_category_degree": 2,
+      "degree": 13,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.4
+      "bridge_score": 7.857
     },
     "concept/inference/kv-cache/Prefix Caching": {
       "degree": 10,
@@ -60590,22 +61083,22 @@
       "bridge_score": 7.859
     },
     "concept/inference/kv-cache/Remote KV Store": {
-      "degree": 12,
-      "cross_category_degree": 5,
+      "degree": 13,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.45
+      "bridge_score": 8.907
     },
     "concept/inference/kv-cache/Tiered KV Cache": {
-      "degree": 13,
-      "cross_category_degree": 3,
+      "degree": 14,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.857
+      "bridge_score": 8.307
     },
     "concept/inference/optimization/Agentic Inference Optimization": {
       "degree": 8,
@@ -60635,13 +61128,13 @@
       "bridge_score": 5.672
     },
     "concept/inference/parallelism/Expert Parallelism": {
-      "degree": 9,
-      "cross_category_degree": 3,
+      "degree": 11,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.372
+      "bridge_score": 8.335
     },
     "concept/inference/parallelism/Parallelism": {
       "degree": 7,
@@ -60787,13 +61280,13 @@
       "bridge_score": 8.27
     },
     "concept/inference/serving/P-D Disaggregation": {
-      "degree": 14,
-      "cross_category_degree": 9,
+      "degree": 15,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 10.057
+      "bridge_score": 10.5
     },
     "concept/kernel/attention/Attention Kernel": {
       "degree": 9,
@@ -60831,22 +61324,22 @@
       "bridge_score": 5.222
     },
     "concept/kernel/gemm/GEMM": {
-      "degree": 9,
-      "cross_category_degree": 8,
+      "degree": 11,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.122
+      "bridge_score": 10.085
     },
     "concept/kernel/gemm/Grouped GEMM": {
-      "degree": 7,
-      "cross_category_degree": 4,
+      "degree": 9,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.4
+      "bridge_score": 8.422
     },
     "concept/kernel/optimization/Agentic Kernel Optimization": {
       "degree": 30,
@@ -60867,13 +61360,13 @@
       "bridge_score": 7.207
     },
     "concept/kernel/programming/JIT Kernel Compilation": {
-      "degree": 13,
-      "cross_category_degree": 8,
+      "degree": 15,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.607
+      "bridge_score": 10.5
     },
     "concept/kernel/programming/Kernel DSL": {
       "degree": 12,
@@ -60920,13 +61413,13 @@
       "bridge_score": 7.57
     },
     "concept/memory/Host Memory": {
-      "degree": 14,
-      "cross_category_degree": 7,
+      "degree": 15,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.357
+      "bridge_score": 9.8
     },
     "concept/memory/Memory Hierarchy": {
       "degree": 15,
@@ -60947,13 +61440,13 @@
       "bridge_score": 7.859
     },
     "concept/memory/NUMA": {
-      "degree": 4,
-      "cross_category_degree": 2,
+      "degree": 5,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.022
+      "bridge_score": 6.635
     },
     "concept/memory/SSD-NVMe Tier": {
       "degree": 17,
@@ -60992,13 +61485,13 @@
       "bridge_score": 7.57
     },
     "concept/quantization/Quantization": {
-      "degree": 11,
-      "cross_category_degree": 8,
+      "degree": 12,
+      "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.385
+      "bridge_score": 9.85
     },
     "concept/quantization/W8A8": {
       "degree": 6,
@@ -61019,13 +61512,13 @@
       "bridge_score": 7.57
     },
     "concept/quantization/Weight-Only Quantization": {
-      "degree": 9,
-      "cross_category_degree": 5,
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.072
+      "bridge_score": 9.035
     },
     "concept/storage/Direct Storage IO": {
       "degree": 4,
@@ -61063,13 +61556,13 @@
       "bridge_score": 4.55
     },
     "concept/storage/SSD-Backed KV Cache": {
-      "degree": 5,
-      "cross_category_degree": 3,
+      "degree": 6,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.635
+      "bridge_score": 7.207
     },
     "concept/storage/Storage Tiering": {
       "degree": 8,

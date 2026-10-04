@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 218
-- Source roots: community 190 · company 14 · university 14
+- Projects: 223
+- Source roots: community 195 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -14,18 +14,18 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Inference Engine](#inference-engine) | 29 |
 | [Distributed Serving](#distributed-serving) | 24 |
 | [Gateway / Routing](#gateway) | 2 |
-| [KV Cache](#kv-cache) | 10 |
+| [KV Cache](#kv-cache) | 11 |
 | [Storage](#storage) | 2 |
 | [Communication / Data Movement](#communication) | 15 |
-| [Runtime / Framework](#runtime) | 32 |
-| [Kernel / Operator](#kernel) | 11 |
+| [Runtime / Framework](#runtime) | 33 |
+| [Kernel / Operator](#kernel) | 13 |
 | [Compiler / DSL](#compiler) | 16 |
 | [Training / Post-training](#training) | 16 |
 | [Scheduler / Orchestration](#scheduler) | 8 |
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 6 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 31 |
+| [Inference Optimization](#optimization) | 32 |
 | [Other](#other) | 8 |
 
 ## inference-engine
@@ -106,7 +106,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## kv-cache
 
-**KV Cache** · 10 projects
+**KV Cache** · 11 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -118,6 +118,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar]] | kv-cache-hardware-plugin |  |  | `Deep-Spark` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=lmcache-iluvatar) |
 | [[community/Ascend/MemCache/MemCache]] | kv-cache |  | kv-cache, distributed-storage, prefix-cache, memory-pooling, disaggregated-serving | `Ascend` | 0 | 14 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MemCache) |
 | [[community/kvcache-ai/Mooncake/Mooncake]] | kv-cache | active | kv-cache, disaggregated-serving, rdma, data-movement, distributed-storage | `kvcache-ai` | 2 | 21 | 2 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Mooncake) |
+| [[community/novitalabs/pegaflow/pegaflow]] | kv-cache | active | kv-cache, kv-offloading, tiered-cache, rdma, ssd-cache | `novitalabs` | 3 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=PegaFlow) |
 | [[community/xPU-IO/Tutti/Tutti]] | kv-cache |  | kv-cache, gpu-storage, nvme, ssd-offload, llm-serving | `xPU-IO` | 0 | 2 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tutti) |
 | [[community/openEuler/openYuanRong/YuanRong DataSystem]] | distributed-data-cache |  | distributed-cache, kv-cache, hbm, dram, ssd | `openEuler` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=YuanRong%20DataSystem) |
 
@@ -154,7 +155,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 32 projects
+**Runtime / Framework** · 33 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -179,6 +180,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/Ascend/MindIE-Motor/MindIE-Motor]] | runtime | active | inference-runtime, ascend-runtime | `Ascend` | 0 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MindIE-Motor) |
 | [[community/sgl-project/mini-SGLang/mini-SGLang]] | llm-serving-runtime |  | llm-serving, radix-cache, chunked-prefill, overlap-scheduling, tensor-parallelism | `sgl-project` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=mini-SGLang) |
 | [[company/Naive AI/NaiveRT]] | runtime | active | single-stream-decode, long-context-rl, speculative-decoding, mega-kernel-fusion, programmatic-dependent-launch | `company:Naive AI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NaiveRT) |
+| [[community/novitalabs/NovitaBox/NovitaBox]] | runtime | active | agent-sandbox, microvm, container-sandbox, gpu-sandbox, isolation | `novitalabs` | 4 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NovitaBox) |
 | [[company/Intel/OpenVINO]] | inference-runtime-toolkit |  | inference-runtime, llm-inference, genai, cpu, gpu | `company:Intel` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=OpenVINO) |
 | [[community/openEuler/openYuanRong/openYuanRong]] | distributed-compute-runtime |  | serverless, distributed-runtime, scheduling, distributed-data, ai-infrastructure | `openEuler` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=openYuanRong) |
 | [[community/Ascend/ops-transformer/ops-transformer]] | runtime | active | transformer-operators, ascend-kernels | `Ascend` | 0 | 3 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ops-transformer) |
@@ -193,13 +195,15 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## kernel
 
-**Kernel / Operator** · 11 projects
+**Kernel / Operator** · 13 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/QingCheng-AI/ascend-kernel/ascend-kernel]] | kernel |  | ascend, kernels, llm-inference, heterogeneous-compute | `QingCheng-AI` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=ascend-kernel) |
+| [[community/novitalabs/chord/chord]] | kernel | active | gemm, moe-kernels, w4a16, int4, quantization | `novitalabs` | 3 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Chord) |
 | [[community/deepseek-ai/DeepSeek-Infra/DeepSelect]] | sparse-attention-topk-kernels |  | topk, sparse-attention, sampling, cuda, gpu-kernels | `deepseek-ai` | 0 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=DeepSelect) |
 | [[community/Tencent/HPC-Ops/HPC-Ops]] | kernel |  | llm-inference, kernels, attention, moe, gemm | `Tencent` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HPC-Ops) |
+| [[community/inclusionAI/humming/humming]] | kernel | active | gemm, quantization, moe-kernels, w4a16, w4a8 | `inclusionAI` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Humming) |
 | [[community/InfiniTensor/InfiniOps]] | gpu-kernels |  | operator-library, gpu-kernels, attention, kv-cache, quantization | `InfiniTensor` | 0 | 4 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniOps) |
 | [[community/MooreThreads/MATE/MATE]] | gpu-operator-kernel-library |  |  | `MooreThreads` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MATE) |
 | [[community/MetaX-MACA/mcoplib/mcoplib]] | gpu-operator-kernel-library |  |  | `MetaX-MACA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=mcoplib) |
@@ -307,7 +311,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 31 projects
+**Inference Optimization** · 32 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -333,6 +337,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/meta-pytorch/KernelAgent/KernelAgent]] | optimization | active | agentic-kernel-optimization, triton, multi-agent, ncu, roofline | `meta-pytorch` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelAgent) |
 | [[community/NVIDIA/KernelBlaster/KernelBlaster]] | optimization | active | agentic-kernel-optimization, memory-augmented-icl, reinforcement-learning, cuda, profiling | `NVIDIA` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelBlaster) |
 | [[community/Meta/KernelEvolve/KernelEvolve]] | optimization | research | agentic-kernel-optimization, tree-search, evolutionary-search, optimization-memory, production-kernels | `Meta` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KernelEvolve) |
+| [[community/novitalabs/autotuner/autotuner]] | optimization | active | autotuning, inference-optimization, configuration-management, slo, benchmarking | `novitalabs` | 4 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LLM%20Autotuner) |
 | [[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding]] | speculative-decoding |  | speculative-decoding, parallel-decoding, llm-inference, latency-optimization | `lmsys-org` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Lookahead%20Decoding) |
 | [[community/kaist-flexml-lab/LoopSpec/LoopSpec]] | optimization | active | self-speculative-decoding, recurrent-language-model, looped-transformer, pipelined-decoding, lossless-decoding | `kaist-flexml-lab` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=LoopSpec) |
 | [[community/MetaInfer/MetaInfer]] | optimization | active | llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting | `MetaInfer` | 0 | 7 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=MetaInfer) |

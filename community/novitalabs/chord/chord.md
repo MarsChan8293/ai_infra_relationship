@@ -1,7 +1,14 @@
 ---
 type: project
 name: Chord
+linked_concepts:
+  - "concept/inference/parallelism/Expert Parallelism"
+  - "concept/kernel/gemm/GEMM"
+  - "concept/kernel/gemm/Grouped GEMM"
+  - "concept/kernel/programming/JIT Kernel Compilation"
+  - "concept/quantization/Weight-Only Quantization"
 status: active
+linked_people: []
 repository: https://github.com/novitalabs/chord
 docs: https://github.com/novitalabs/chord/tree/main/docs
 last_verified: "2026-10"
@@ -10,6 +17,8 @@ layer: kernel
 areas: [gemm, moe-kernels, w4a16, int4, quantization, jit, expert-parallelism, tensor-parallelism]
 hardware: [nvidia]
 integrations: [vLLM, Humming, CUTLASS]
+linked_companies:
+  - "company/Novita AI/Novita AI"
 ---
 # Chord
 
@@ -56,3 +65,25 @@ Novita AI 与 vLLM 团队 2026-09-15 的公开结果显示，Chord 在 H200 多�
 - https://vllm.ai/blog/2026-09-15-novita-chord-w4a16-moe
 - https://github.com/novitalabs/chord/blob/main/docs/optimizations.md
 - https://github.com/novitalabs/chord/blob/main/chord_kernels/operator/SOURCE.md
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
+- [[concept/kernel/gemm/GEMM|GEMM]]
+- [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]]
+- [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
+- [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Novita AI/Novita AI|Novita AI]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

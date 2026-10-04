@@ -2,6 +2,7 @@
 type: company
 name: Novita AI
 aliases: ["Novita Labs", "novitalabs"]
+linked_people: []
 areas: [ai-infrastructure, gpu-cloud, llm-inference, kv-cache, inference-optimization, agent-sandbox]
 projects:
   - Chord
@@ -9,6 +10,11 @@ projects:
   - LLM Autotuner
   - NovitaBox
 last_verified: "2026-10"
+linked_projects:
+  - "community/novitalabs/chord/chord"
+  - "community/novitalabs/autotuner/autotuner"
+  - "community/novitalabs/NovitaBox/NovitaBox"
+  - "community/novitalabs/pegaflow/pegaflow"
 ---
 # Novita AI
 
@@ -32,3 +38,15 @@ Novita AI / Novita Labs 是围绕 GPU cloud、模型 API 与生产级 AI infrast
 - https://github.com/novitalabs
 - https://vllm.ai/blog/2026-05-18-pegaflow
 - https://vllm.ai/blog/2026-09-15-novita-chord-w4a16-moe
+
+<!-- BEGIN AUTO COMPANY COMMUNITY LINKS -->
+## 社区 / 开源项目关联（自动汇总）
+
+以下关系由公司页与社区/项目页的显式元数据双向汇总。员工个人参与不会自动升级为公司官方关系。
+
+- [[community/novitalabs/chord/chord|Chord]]：公司页与社区/项目页均有显式记录。
+- [[community/novitalabs/autotuner/autotuner|LLM Autotuner]]：公司页与社区/项目页均有显式记录。
+- [[community/novitalabs/NovitaBox/NovitaBox|NovitaBox]]：公司页与社区/项目页均有显式记录。
+- [[community/novitalabs/pegaflow/pegaflow|PegaFlow]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMPANY COMMUNITY LINKS -->

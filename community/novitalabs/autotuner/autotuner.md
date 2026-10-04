@@ -1,7 +1,11 @@
 ---
 type: project
 name: LLM Autotuner
+linked_concepts:
+  - "concept/compiler/Autotuning"
+  - "concept/quantization/Quantization"
 status: active
+linked_people: []
 repository: https://github.com/novitalabs/autotuner
 docs: https://novitalabs.github.io/autotuner/
 last_verified: "2026-10"
@@ -10,6 +14,8 @@ layer: optimization
 areas: [autotuning, inference-optimization, configuration-management, slo, benchmarking, quantization, agentic-optimization]
 hardware: [nvidia]
 integrations: [vLLM, SGLang, OME, genai-bench]
+linked_companies:
+  - "company/Novita AI/Novita AI"
 ---
 # LLM Autotuner
 
@@ -43,3 +49,22 @@ Novita AI 的 LLM Autotuner 用于自动搜索 vLLM / SGLang 的推理参数组�
 
 - https://github.com/novitalabs/autotuner
 - https://novitalabs.github.io/autotuner/
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/compiler/Autotuning|Autotuning]]
+- [[concept/quantization/Quantization|Quantization]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Novita AI/Novita AI|Novita AI]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->

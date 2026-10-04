@@ -4,9 +4,9 @@
     "concepts": 90,
     "concepts_with_projects": 90,
     "concepts_without_projects": 0,
-    "project_like_nodes": 228,
-    "projects_with_concepts": 93,
-    "concept_project_assertions": 376,
+    "project_like_nodes": 233,
+    "projects_with_concepts": 97,
+    "concept_project_assertions": 398,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -213,6 +213,24 @@
         "concept/hardware/interconnect/NVLink",
         "concept/hardware/interconnect/NVSwitch",
         "concept/hardware/interconnect/PCIe"
+      ],
+      "count": 10
+    },
+    {
+      "id": "community/novitalabs/pegaflow/pegaflow",
+      "name": "PegaFlow",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/Host Memory",
+        "concept/memory/NUMA",
+        "concept/storage/SSD-Backed KV Cache"
       ],
       "count": 10
     },
@@ -466,6 +484,19 @@
       "count": 6
     },
     {
+      "id": "community/novitalabs/chord/chord",
+      "name": "Chord",
+      "layer": "kernel",
+      "concepts": [
+        "concept/inference/parallelism/Expert Parallelism",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM-Ascend",
       "name": "DeepGEMM-Ascend",
       "layer": "runtime",
@@ -488,6 +519,19 @@
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
         "concept/memory/SSD-NVMe Tier"
+      ],
+      "count": 5
+    },
+    {
+      "id": "community/inclusionAI/humming/humming",
+      "name": "Humming",
+      "layer": "kernel",
+      "concepts": [
+        "concept/inference/parallelism/Expert Parallelism",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/quantization/Weight-Only Quantization"
       ],
       "count": 5
     },
@@ -808,6 +852,16 @@
       "concepts": [
         "concept/memory/Host Memory",
         "concept/memory/NUMA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/novitalabs/autotuner/autotuner",
+      "name": "LLM Autotuner",
+      "layer": "optimization",
+      "concepts": [
+        "concept/compiler/Autotuning",
+        "concept/quantization/Quantization"
       ],
       "count": 2
     },

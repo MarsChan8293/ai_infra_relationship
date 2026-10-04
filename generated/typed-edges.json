@@ -9800,6 +9800,141 @@
     "derived_from": "frontmatter.integrations"
   },
   {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Humming",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/autotuner/autotuner",
+    "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "LLM Autotuner",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/autotuner/autotuner",
+    "target": "community/sgl-project/SGLang/SGLang",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "LLM Autotuner",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Chord",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "community/inclusionAI/humming/humming",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Chord",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "community/NVIDIA/CUTLASS/CUTLASS",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Chord",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "PegaFlow",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "community/sgl-project/SGLang/SGLang",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "PegaFlow",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "community/ai-dynamo/NIXL/NIXL",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "PegaFlow",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "frontmatter.integrations"
+  },
+  {
     "source": "community/tile-ai/TileLang/TileLang-Ascend",
     "target": "community/tile-ai/TileLang/TileLang",
     "kind": "derived-project-integration",
@@ -10459,6 +10594,22 @@
       "project-concept-support"
     ],
     "project": "DeepEP",
+    "concept": "RDMA",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/communication/data-movement/RDMA",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
     "concept": "RDMA",
     "company": null,
     "start": null,
@@ -10523,6 +10674,22 @@
       "project-concept-support"
     ],
     "project": "NineToothed",
+    "concept": "Autotuning",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/autotuner/autotuner",
+    "target": "concept/compiler/Autotuning",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LLM Autotuner",
     "concept": "Autotuning",
     "company": null,
     "start": null,
@@ -11508,6 +11675,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/KV Cache Offloading",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
+    "concept": "KV Cache Offloading",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/LMCache/LMCache/LMCache",
     "target": "concept/inference/kv-cache/KV Cache Prefetching",
     "kind": "derived-project-concept-support",
@@ -11668,6 +11851,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/KV Cache Transfer",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
+    "concept": "KV Cache Transfer",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/vllm-project/vLLM/vLLM",
     "target": "concept/inference/kv-cache/KV Cache",
     "kind": "derived-project-concept-support",
@@ -11691,6 +11890,22 @@
       "project-concept-support"
     ],
     "project": "SGLang",
+    "concept": "KV Cache",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/KV Cache",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
     "concept": "KV Cache",
     "company": null,
     "start": null,
@@ -11844,6 +12059,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/Remote KV Store",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
+    "concept": "Remote KV Store",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/LMCache/LMCache/LMCache",
     "target": "concept/inference/kv-cache/Tiered KV Cache",
     "kind": "derived-project-concept-support",
@@ -11883,6 +12114,22 @@
       "project-concept-support"
     ],
     "project": "vLLM",
+    "concept": "Tiered KV Cache",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/Tiered KV Cache",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
     "concept": "Tiered KV Cache",
     "company": null,
     "start": null,
@@ -12059,6 +12306,38 @@
       "project-concept-support"
     ],
     "project": "DeepEP-Ascend",
+    "concept": "Expert Parallelism",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "concept/inference/parallelism/Expert Parallelism",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Chord",
+    "concept": "Expert Parallelism",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "concept/inference/parallelism/Expert Parallelism",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humming",
     "concept": "Expert Parallelism",
     "company": null,
     "start": null,
@@ -13156,6 +13435,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/serving/P-D Disaggregation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
+    "concept": "P-D Disaggregation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/flashinfer-ai/FlashInfer/FlashInfer",
     "target": "concept/kernel/attention/Attention Kernel",
     "kind": "derived-project-concept-support",
@@ -13524,6 +13819,38 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/chord/chord",
+    "target": "concept/kernel/gemm/GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Chord",
+    "concept": "GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "concept/kernel/gemm/GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humming",
+    "concept": "GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
     "target": "concept/kernel/gemm/Grouped GEMM",
     "kind": "derived-project-concept-support",
@@ -13579,6 +13906,38 @@
       "project-concept-support"
     ],
     "project": "DeepGEMM-Ascend",
+    "concept": "Grouped GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "concept/kernel/gemm/Grouped GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Chord",
+    "concept": "Grouped GEMM",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "concept/kernel/gemm/Grouped GEMM",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humming",
     "concept": "Grouped GEMM",
     "company": null,
     "start": null,
@@ -14212,6 +14571,38 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/chord/chord",
+    "target": "concept/kernel/programming/JIT Kernel Compilation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Chord",
+    "concept": "JIT Kernel Compilation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "concept/kernel/programming/JIT Kernel Compilation",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humming",
+    "concept": "JIT Kernel Compilation",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/triton-lang/Triton/Triton",
     "target": "concept/kernel/programming/Kernel DSL",
     "kind": "derived-project-concept-support",
@@ -14580,6 +14971,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/memory/Host Memory",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
+    "concept": "Host Memory",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/Ascend/MemCache/MemCache",
     "target": "concept/memory/Memory Hierarchy",
     "kind": "derived-project-concept-support",
@@ -14763,6 +15170,22 @@
       "project-concept-support"
     ],
     "project": "MemCache",
+    "concept": "NUMA",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/memory/NUMA",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
     "concept": "NUMA",
     "company": null,
     "start": null,
@@ -15300,6 +15723,22 @@
     "derived_from": "concept.projects"
   },
   {
+    "source": "community/novitalabs/autotuner/autotuner",
+    "target": "concept/quantization/Quantization",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LLM Autotuner",
+    "concept": "Quantization",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
     "source": "community/vllm-project/vLLM/vLLM",
     "target": "concept/quantization/W8A8",
     "kind": "derived-project-concept-support",
@@ -15483,6 +15922,38 @@
       "project-concept-support"
     ],
     "project": "QFactory",
+    "concept": "Weight-Only Quantization",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/chord/chord",
+    "target": "concept/quantization/Weight-Only Quantization",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Chord",
+    "concept": "Weight-Only Quantization",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/inclusionAI/humming/humming",
+    "target": "concept/quantization/Weight-Only Quantization",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humming",
     "concept": "Weight-Only Quantization",
     "company": null,
     "start": null,
@@ -15787,6 +16258,22 @@
       "project-concept-support"
     ],
     "project": "Mooncake",
+    "concept": "SSD-Backed KV Cache",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "high",
+    "evidence": [],
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/storage/SSD-Backed KV Cache",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "PegaFlow",
     "concept": "SSD-Backed KV Cache",
     "company": null,
     "start": null,

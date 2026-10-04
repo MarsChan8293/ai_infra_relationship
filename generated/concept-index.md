@@ -31,16 +31,16 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/kv-cache/KV Cache|KV Cache]] | Key-Value Cache, KV缓存 |  | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache) |
+| [[concept/inference/kv-cache/KV Cache|KV Cache]] | Key-Value Cache, KV缓存 |  | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache) |
 | [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]] | KV Eviction, Cache Eviction, KV缓存淘汰 | KV Cache Management | 4 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Eviction) |
 | [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]] | KV管理, KV缓存管理 | KV Cache | 7 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Management) |
-| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 5 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
+| [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]] | KV Offloading, KV Cache 卸载, KV缓存卸载 | KV Cache Management | 5 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Offloading) |
 | [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]] | KV Prefetch, Cache Prefetching, KV缓存预取 | KV Cache Management | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Prefetching) |
 | [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]] | KV Sharing, Shared KV Cache, KV缓存共享 | KV Cache Management | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Sharing) |
-| [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
+| [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]] | KV Transfer, KV缓存传输 | KV Cache Management | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV%20Cache%20Transfer) |
 | [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]] | Automatic Prefix Caching, APC, Prefix KV Caching, 前缀缓存 | KV Cache Management | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Prefix%20Caching) |
-| [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]] | Remote KV Cache Store, Distributed KV Store, Remote KV Cache, 远程KV存储 | KV Cache Management | 4 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20KV%20Store) |
-| [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 6 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
+| [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]] | Remote KV Cache Store, Distributed KV Store, Remote KV Cache, 远程KV存储 | KV Cache Management | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20KV%20Store) |
+| [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]] | Hierarchical KV Cache, Multi-tier KV Cache, 分层KV缓存 | KV Cache Management | 6 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Tiered%20KV%20Cache) |
 
 ### Optimization
 
@@ -54,7 +54,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/inference/parallelism/Context Parallelism|Context Parallelism]] | CP, Context Parallel, 上下文并行 | Parallelism | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Context%20Parallelism) |
 | [[concept/inference/parallelism/Data Parallelism|Data Parallelism]] | DP, Replica Parallelism, 数据并行 | Parallelism | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Data%20Parallelism) |
-| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
+| [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]] | EP, MoE Expert Parallelism, 专家并行 | Parallelism | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Expert%20Parallelism) |
 | [[concept/inference/parallelism/Parallelism|Parallelism]] | Model Parallelism, 分布式并行, 并行切分 |  | 6 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Parallelism) |
 | [[concept/inference/parallelism/Pipeline Parallelism|Pipeline Parallelism]] | PP, Pipeline Model Parallelism, 流水线并行 | Parallelism | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Pipeline%20Parallelism) |
 | [[concept/inference/parallelism/Sequence Parallelism|Sequence Parallelism]] | SP, Sequence Parallel, 序列并行 | Parallelism | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Sequence%20Parallelism) |
@@ -73,7 +73,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/serving/Chunked Prefill|Chunked Prefill]] | Prefill Chunking, Chunked Prompt Prefill, 分块预填充 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Chunked%20Prefill) |
 | [[concept/inference/serving/Continuous Batching|Continuous Batching]] | In-flight Batching, Iteration-level Batching, 连续批处理 |  | 2 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Continuous%20Batching) |
 | [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]] | Disaggregated Inference Serving, 分离式推理服务 |  | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Disaggregated%20Serving) |
-| [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
+| [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]] | PD Disaggregation, P/D Disaggregation, Prefill-Decode Disaggregation, Prefill Decode Disaggregation | Disaggregated Serving | 2 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=P-D%20Disaggregation) |
 
 ## Memory
 
@@ -85,7 +85,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/memory/Conditional Memory|Conditional Memory]] | Conditional Lookup Memory, Scalable Lookup Memory, 条件记忆 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Conditional%20Memory) |
 | [[concept/memory/HBM|HBM]] | High Bandwidth Memory, 高带宽内存 | Memory Hierarchy | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HBM) |
-| [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
+| [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
 | [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
 | [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, SSD/NVMe Offloading, SSD卸载 | Memory Hierarchy | 6 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
 
@@ -100,7 +100,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/memory/NUMA|NUMA]] | Non-Uniform Memory Access, 非一致内存访问 |  | 3 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NUMA) |
+| [[concept/memory/NUMA|NUMA]] | Non-Uniform Memory Access, 非一致内存访问 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=NUMA) |
 
 ## Communication
 
@@ -123,7 +123,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/communication/data-movement/Data Movement|Data Movement]] | Inference Data Movement, Distributed Data Movement, 数据搬运, 数据移动 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Data%20Movement) |
 | [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]] | GDR, GPU Direct RDMA, GPUDirect Remote Direct Memory Access | RDMA | 1 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUDirect%20RDMA) |
 | [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]] | P2P Transfer, Point-to-Point Communication, P2P Data Movement, 点到点传输 | Data Movement | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Point-to-Point%20Transfer) |
-| [[concept/communication/data-movement/RDMA|RDMA]] | Remote Direct Memory Access, 远程直接内存访问 | Point-to-Point Transfer | 1 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RDMA) |
+| [[concept/communication/data-movement/RDMA|RDMA]] | Remote Direct Memory Access, 远程直接内存访问 | Point-to-Point Transfer | 1 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=RDMA) |
 
 ## Scheduling
 
@@ -159,8 +159,8 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
-| [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
+| [[concept/kernel/gemm/GEMM|GEMM]] | General Matrix Multiplication, Matrix Multiplication Kernel, 通用矩阵乘 |  | 3 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GEMM) |
+| [[concept/kernel/gemm/Grouped GEMM|Grouped GEMM]] | Grouped Matrix Multiplication, Grouped Matmul, 分组矩阵乘 | GEMM | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Grouped%20GEMM) |
 
 ### Optimization
 
@@ -192,14 +192,14 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/compiler/Autotuning|Autotuning]] | Auto-Tuning, Kernel Autotuning, Auto Tuning, 自动调优 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autotuning) |
+| [[concept/compiler/Autotuning|Autotuning]] | Auto-Tuning, Kernel Autotuning, Auto Tuning, 自动调优 |  | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autotuning) |
 | [[concept/compiler/Layout Optimization|Layout Optimization]] | Data Layout Optimization, Memory Layout Optimization, Tensor Layout Optimization, 布局优化 |  | 4 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Layout%20Optimization) |
 
 ### Kernel Programming
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
+| [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]] | JIT Compilation, Runtime Kernel Compilation, Just-in-Time Kernel Compilation, Kernel JIT |  | 3 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=JIT%20Kernel%20Compilation) |
 | [[concept/kernel/programming/Kernel DSL|Kernel DSL]] | GPU Kernel DSL, Kernel Domain-Specific Language, 算子DSL, Kernel编程语言 |  | 4 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20DSL) |
 
 ## Quantization
@@ -218,10 +218,10 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/quantization/FP4 Quantization|FP4 Quantization]] | Float4 Quantization, FP4, MXFP4, NVFP4 | Quantization | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP4%20Quantization) |
 | [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
-| [[concept/quantization/Quantization|Quantization]] | Model Quantization, LLM Quantization, 模型量化 |  | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Quantization) |
+| [[concept/quantization/Quantization|Quantization]] | Model Quantization, LLM Quantization, 模型量化 |  | 3 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Quantization) |
 | [[concept/quantization/W8A8|W8A8]] | Weight 8 Activation 8, 8-bit Weight Activation Quantization, 权重8比特激活8比特 | Weight-Activation Quantization | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=W8A8) |
 | [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, 权重激活量化 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |
-| [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | Weight Only Quantization, WOQ, W4A16, W8A16 | Quantization | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Only%20Quantization) |
+| [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | Weight Only Quantization, WOQ, W4A16, W8A16 | Quantization | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Only%20Quantization) |
 
 ## Hardware
 
@@ -259,7 +259,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 5 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
+| [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 5 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
 
 ### Storage Media
 

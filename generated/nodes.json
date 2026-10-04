@@ -813,6 +813,33 @@
     }
   },
   {
+    "id": "company/Novita AI/Novita AI",
+    "path": "company/Novita AI/Novita AI.md",
+    "name": "Novita AI",
+    "type": "company",
+    "category": "company",
+    "frontmatter": {
+      "type": "company",
+      "name": "Novita AI",
+      "aliases": [
+        "Novita Labs",
+        "novitalabs"
+      ],
+      "linked_people": [],
+      "areas": [
+        "ai-infrastructure",
+        "gpu-cloud",
+        "llm-inference",
+        "kv-cache",
+        "inference-optimization",
+        "agent-sandbox"
+      ],
+      "projects": "",
+      "last_verified": "2026-10",
+      "linked_projects": ""
+    }
+  },
+  {
     "id": "company/Ollama/Jeffrey Morgan",
     "path": "company/Ollama/Jeffrey Morgan.md",
     "name": "Jeffrey Morgan",
@@ -13374,6 +13401,38 @@
     }
   },
   {
+    "id": "community/inclusionAI/humming/humming",
+    "path": "community/inclusionAI/humming/humming.md",
+    "name": "Humming",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Humming",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/inclusionAI/humming",
+      "last_verified": "2026-10",
+      "layer": "kernel",
+      "areas": [
+        "gemm",
+        "quantization",
+        "moe-kernels",
+        "w4a16",
+        "w4a8",
+        "jit"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "integrations": [
+        "vLLM"
+      ],
+      "linked_companies": []
+    }
+  },
+  {
     "id": "community/incoai/Splash/Splash",
     "path": "community/incoai/Splash/Splash.md",
     "name": "Splash",
@@ -15330,6 +15389,164 @@
       "integrations": "",
       "last_verified": "2026-10",
       "linked_companies": []
+    }
+  },
+  {
+    "id": "community/novitalabs/NovitaBox/NovitaBox",
+    "path": "community/novitalabs/NovitaBox/NovitaBox.md",
+    "name": "NovitaBox",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "NovitaBox",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/novitalabs/NovitaBox",
+      "docs": "https://github.com/novitalabs/NovitaBox/tree/main/docs",
+      "last_verified": "2026-10",
+      "companies": [
+        "Novita AI"
+      ],
+      "layer": "runtime",
+      "areas": [
+        "agent-sandbox",
+        "microvm",
+        "container-sandbox",
+        "gpu-sandbox",
+        "isolation",
+        "local-runtime"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "integrations": [
+        "Firecracker",
+        "gVisor",
+        "Cloud Hypervisor",
+        "E2B"
+      ],
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/novitalabs/autotuner/autotuner",
+    "path": "community/novitalabs/autotuner/autotuner.md",
+    "name": "LLM Autotuner",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "LLM Autotuner",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/novitalabs/autotuner",
+      "docs": "https://novitalabs.github.io/autotuner/",
+      "last_verified": "2026-10",
+      "companies": [
+        "Novita AI"
+      ],
+      "layer": "optimization",
+      "areas": [
+        "autotuning",
+        "inference-optimization",
+        "configuration-management",
+        "slo",
+        "benchmarking",
+        "quantization",
+        "agentic-optimization"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "integrations": [
+        "vLLM",
+        "SGLang",
+        "OME",
+        "genai-bench"
+      ],
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/novitalabs/chord/chord",
+    "path": "community/novitalabs/chord/chord.md",
+    "name": "Chord",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Chord",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/novitalabs/chord",
+      "docs": "https://github.com/novitalabs/chord/tree/main/docs",
+      "last_verified": "2026-10",
+      "companies": [
+        "Novita AI"
+      ],
+      "layer": "kernel",
+      "areas": [
+        "gemm",
+        "moe-kernels",
+        "w4a16",
+        "int4",
+        "quantization",
+        "jit",
+        "expert-parallelism",
+        "tensor-parallelism"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "integrations": [
+        "vLLM",
+        "Humming",
+        "CUTLASS"
+      ],
+      "linked_companies": ""
+    }
+  },
+  {
+    "id": "community/novitalabs/pegaflow/pegaflow",
+    "path": "community/novitalabs/pegaflow/pegaflow.md",
+    "name": "PegaFlow",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "PegaFlow",
+      "linked_concepts": "",
+      "status": "active",
+      "linked_people": [],
+      "repository": "https://github.com/novitalabs/pegaflow",
+      "docs": "https://github.com/novitalabs/pegaflow/tree/master/docs",
+      "last_verified": "2026-10",
+      "companies": [
+        "Novita AI"
+      ],
+      "layer": "kv-cache",
+      "areas": [
+        "kv-cache",
+        "kv-offloading",
+        "tiered-cache",
+        "rdma",
+        "ssd-cache",
+        "host-memory",
+        "p-d-disaggregation",
+        "observability"
+      ],
+      "hardware": [
+        "nvidia"
+      ],
+      "integrations": [
+        "vLLM",
+        "SGLang",
+        "NIXL"
+      ],
+      "linked_companies": ""
     }
   },
   {

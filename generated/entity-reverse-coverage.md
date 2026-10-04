@@ -2,12 +2,12 @@
 
 由 `scripts/audit-entity-reverse-links.py` 自动生成。公司人物边来自人物 `current_affiliations:` 与 `email_affiliations:` 的并集；后者由公开职业邮箱域名规则生成，不单独代表当前任职。项目/社区反向边来自人物 `projects:` / `communities:`。
 
-- Company nodes: 57
+- Company nodes: 58
 - Companies with ≥1 linked person: 48
 - Company-person associations: 239
 - Email-domain-supported associations: 37
 - People with generated linked_companies: 236
-- Project/community nodes: 228
+- Project/community nodes: 233
 - Project/community nodes with ≥1 linked person: 123
 - Project/community-person associations: 601
 - Non-company affiliations recognized and routed elsewhere: 109

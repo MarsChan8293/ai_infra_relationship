@@ -2,6 +2,7 @@
 type: project
 name: NovitaBox
 status: active
+linked_people: []
 repository: https://github.com/novitalabs/NovitaBox
 docs: https://github.com/novitalabs/NovitaBox/tree/main/docs
 last_verified: "2026-10"
@@ -10,6 +11,8 @@ layer: runtime
 areas: [agent-sandbox, microvm, container-sandbox, gpu-sandbox, isolation, local-runtime]
 hardware: [nvidia]
 integrations: [Firecracker, gVisor, Cloud Hypervisor, E2B]
+linked_companies:
+  - "company/Novita AI/Novita AI"
 ---
 # NovitaBox
 
@@ -35,3 +38,12 @@ NovitaBox 不属于 LLM inference engine，而属于 agent execution / isolation
 
 - https://github.com/novitalabs/NovitaBox
 - https://novita.ai/
+
+<!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
+## 关联公司（自动汇总）
+
+以下关系由公司页与本社区/项目页的显式元数据双向汇总。仅表示可核验的组织级关联，不因员工个人贡献自动推断公司治理或所有权。
+
+- [[company/Novita AI/Novita AI|Novita AI]]：公司页与社区/项目页均有显式记录。
+
+<!-- END AUTO COMMUNITY COMPANY LINKS -->
