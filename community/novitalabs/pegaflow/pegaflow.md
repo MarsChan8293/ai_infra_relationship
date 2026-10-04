@@ -6,23 +6,10 @@ repository: https://github.com/novitalabs/pegaflow
 docs: https://github.com/novitalabs/pegaflow/tree/master/docs
 last_verified: "2026-10"
 companies: ["Novita AI"]
-company_relation: company-led
-layer: data-plane
+layer: kv-cache
 areas: [kv-cache, kv-offloading, tiered-cache, rdma, ssd-cache, host-memory, p-d-disaggregation, observability]
 hardware: [nvidia]
 integrations: [vLLM, SGLang, NIXL]
-linked_companies:
-  - "company/Novita AI/Novita AI"
-linked_concepts:
-  - "concept/inference/kv-cache/KV Cache"
-  - "concept/inference/kv-cache/KV Cache Offloading"
-  - "concept/inference/kv-cache/Tiered KV Cache"
-  - "concept/storage/SSD-Backed KV Cache"
-  - "concept/memory/Host Memory"
-  - "concept/memory/NUMA"
-  - "concept/communication/data-movement/RDMA"
-  - "concept/communication/data-movement/GPUDirect RDMA"
-  - "concept/inference/serving/P-D Disaggregation"
 ---
 # PegaFlow
 
