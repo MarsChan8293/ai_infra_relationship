@@ -19,6 +19,7 @@ projects:
   - LMCache
   - vLLM
   - "Splash"
+  - PegaFlow
 last_verified: 2026-10
 ---
 
