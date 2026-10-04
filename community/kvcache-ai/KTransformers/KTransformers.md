@@ -40,6 +40,7 @@ hardware:
   - "cpu"
   - "nvidia"
 integrations: []
+code_availability: public
 ---
 # KTransformers
 

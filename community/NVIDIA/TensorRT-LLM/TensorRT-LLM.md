@@ -33,6 +33,7 @@ integrations:
   - "NVIDIA Dynamo"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
+code_availability: public
 ---
 # TensorRT-LLM
 

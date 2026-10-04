@@ -5,10 +5,11 @@ organization: MetaX-MACA
 linked_people: []
 companies: ["沐曦"]
 company_relation: company-led
-layer: moe-expert-parallel-communication
+layer: communication
 open_source: true
 linked_companies:
   - "company/沐曦/沐曦"
+code_availability: unconfirmed
 ---
 # MXDeepEP
 

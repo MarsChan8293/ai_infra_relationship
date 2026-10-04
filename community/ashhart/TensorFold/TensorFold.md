@@ -21,6 +21,7 @@ hardware:
   - "apple-silicon"
   - "nvidia"
 linked_companies: []
+code_availability: public
 ---
 # TensorFold
 

@@ -2,13 +2,14 @@
 type: project
 name: Speculators
 linked_people: []
-layer: speculative-decoding-training
+layer: training
 open_source: true
 repository: https://github.com/vllm-project/speculators
-areas: [speculative-decoding, online-training, hidden-state-transfer, vllm, distributed-training]
+areas: ["speculative-decoding", "online-training", "hidden-state-transfer", "vllm", "distributed-training", "speculative-decoding-training"]
 governance: vLLM Project ecosystem
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Speculators
 

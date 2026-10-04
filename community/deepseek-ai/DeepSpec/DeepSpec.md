@@ -8,13 +8,14 @@ linked_people:
   - "company/深度求索/Shaoyuan Chen"
 companies: ["深度求索"]
 company_relation: company-led
-layer: speculative-decoding
+layer: optimization
 open_source: true
 repository: https://github.com/deepseek-ai/DeepSpec
-areas: [llm-inference, speculative-decoding, draft-model, inference-acceleration]
+areas: ["llm-inference", "speculative-decoding", "draft-model", "inference-acceleration"]
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # DeepSpec
 

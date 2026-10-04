@@ -3,13 +3,13 @@ type: project
 name: Kubernetes
 linked_people:
   - "community/llm-d/llm-d/Ashok Chandrasekar"
-category: cloud-native-platform
-layer: orchestration
+layer: scheduler
 open_source: true
 repository: https://github.com/kubernetes/kubernetes
-areas: [orchestration, scheduling, cloud-native, distributed-systems]
+areas: ["orchestration", "scheduling", "cloud-native", "distributed-systems"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Kubernetes
 

@@ -7,10 +7,11 @@ linked_people:
   - "company/摩尔线程/Xiaodong Ye"
 companies: ["摩尔线程"]
 company_relation: company-led
-layer: llm-serving-hardware-backend
+layer: runtime
 open_source: true
 linked_companies:
   - "company/摩尔线程/摩尔线程"
+code_availability: unconfirmed
 ---
 # vLLM-MUSA
 

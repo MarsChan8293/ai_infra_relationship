@@ -18,6 +18,7 @@ areas:
   - "proof-carrying-kernels"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # VeriTile
 ## 项目定位

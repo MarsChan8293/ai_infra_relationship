@@ -5,13 +5,14 @@ organization: Intel
 linked_people: []
 companies: ["Intel"]
 company_relation: company-led
-layer: cpu-llm-inference-runtime
+layer: runtime
 open_source: true
 repository: https://github.com/intel/xFasterTransformer
-areas: [llm-inference, cpu, xeon, distributed-inference, quantization, vllm]
+areas: ["llm-inference", "cpu", "xeon", "distributed-inference", "quantization", "vllm", "cpu-llm-inference-runtime"]
 last_verified: "2026-09"
 linked_companies:
   - "company/Intel/Intel"
+code_availability: public
 ---
 # xFasterTransformer
 

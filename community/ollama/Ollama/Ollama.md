@@ -6,10 +6,10 @@ linked_people:
   - "company/Ollama/Michael Chiang"
 companies: ["Ollama"]
 company_relation: company-originated
-layer: local-inference-platform
+layer: inference-engine
 open_source: true
 repository: https://github.com/ollama/ollama
-areas: [local-inference, hybrid-inference, model-serving, model-management, gguf, ggml, llama-cpp, mlx, multimodal-inference, tool-calling, openai-compatible-api, agent-integrations]
+areas: ["local-inference", "hybrid-inference", "model-serving", "model-management", "gguf", "ggml", "llama-cpp", "mlx", "multimodal-inference", "tool-calling", "openai-compatible-api", "agent-integrations", "local-inference-platform"]
 hardware: [CPU, NVIDIA GPU, AMD GPU, Apple Silicon, Vulkan]
 governance: Ollama company-led open-source project
 people:
@@ -18,6 +18,7 @@ people:
 last_verified: "2026-09"
 linked_companies:
   - "company/Ollama/Ollama"
+code_availability: public
 ---
 # Ollama
 

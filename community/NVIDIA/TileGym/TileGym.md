@@ -13,6 +13,7 @@ companies: ["NVIDIA"]
 last_verified: "2026-10"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
+code_availability: public
 ---
 
 # TileGym

@@ -5,13 +5,15 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://hanyx2021.github.io/MSKernelBenchDemo/
 organization: "清华大学"
 areas: ["agentic-kernel-optimization", "multi-agent", "cuda", "hardware-aware", "profiling", "toolchain-generation", "mskernelbench"]
 hardware: ["nvidia"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: unconfirmed
 ---
 
 # CUDAMaster

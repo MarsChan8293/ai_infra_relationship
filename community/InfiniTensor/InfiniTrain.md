@@ -2,12 +2,13 @@
 type: project
 name: InfiniTrain
 linked_people: []
-layer: distributed-training
+layer: training
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniTrain
-areas: [distributed-training, tensor-parallel, pipeline-parallel, sequence-parallel, zero, communication-compute-overlap, autograd]
+areas: ["distributed-training", "tensor-parallel", "pipeline-parallel", "sequence-parallel", "zero", "communication-compute-overlap", "autograd"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniTrain
 

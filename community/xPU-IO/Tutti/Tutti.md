@@ -20,6 +20,7 @@ people:
 governance: xPU-IO hosted project; public formal maintainer roster not yet specified
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Tutti
 

@@ -13,6 +13,7 @@ areas: ["agentic-kernel-optimization", "world-model", "tree-search", "cuda", "fl
 hardware: ["nvidia", "apple-silicon"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 
 # K-Search

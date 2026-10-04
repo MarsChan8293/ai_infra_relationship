@@ -17,6 +17,7 @@ areas:
 integrations:
   - "xLLM"
 linked_companies: []
+code_availability: public
 ---
 # xLLM-service
 

@@ -8,11 +8,12 @@ status: active
 repository: https://github.com/gpustack/runner
 areas: [inference-runtime, container-images, backend-packaging, heterogeneous-inference, vllm, sglang, mindie]
 hardware: [nvidia, amd, ascend, hygon, metax, mthreads, t-head]
-integrations: [GPUStack, vLLM, SGLang, MindIE-LLM]
+integrations: ["community/gpustack/GPUStack/GPUStack", vLLM, SGLang, MindIE-LLM]
 companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GPUStack Runner
 

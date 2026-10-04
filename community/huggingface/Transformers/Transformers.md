@@ -17,6 +17,7 @@ companies: ["Hugging Face"]
 last_verified: "2026-09"
 linked_companies:
   - "company/Hugging Face/Hugging Face"
+code_availability: public
 ---
 
 # Transformers

@@ -26,6 +26,7 @@ companies: ["燧原科技"]
 last_verified: "2026-09"
 linked_companies:
   - "company/燧原科技/燧原科技"
+code_availability: public
 ---
 # Croqtile
 

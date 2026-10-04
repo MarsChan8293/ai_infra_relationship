@@ -12,6 +12,7 @@ people:
   - "company/清程极智/翟季冬 Jidong Zhai"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # FastDecode
 

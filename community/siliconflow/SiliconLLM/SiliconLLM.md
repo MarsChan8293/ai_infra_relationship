@@ -5,10 +5,11 @@ organization: siliconflow
 linked_people: []
 companies: ["硅基流动"]
 company_relation: company-led
-layer: llm-inference-engine
+layer: inference-engine
 open_source: false
 linked_companies:
   - "company/硅基流动/硅基流动"
+code_availability: unconfirmed
 ---
 # SiliconLLM
 

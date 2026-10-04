@@ -7,12 +7,13 @@ linked_people:
   - "university/清华大学/Yingdi Shan"
 companies: ["月之暗面"]
 company_relation: industry-academia-research-collaboration
-layer: rl-rollout-serving
+layer: training
 open_source: false
-areas: [llm-serving, reinforcement-learning, rollout, scheduling, speculative-decoding]
+areas: ["llm-serving", "reinforcement-learning", "rollout", "scheduling", "speculative-decoding", "rl-rollout-serving"]
 last_verified: "2026-09"
 linked_companies:
   - "company/月之暗面/月之暗面"
+code_availability: unconfirmed
 ---
 # Seer
 

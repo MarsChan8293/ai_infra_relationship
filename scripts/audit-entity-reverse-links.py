@@ -9,6 +9,8 @@ The audit also verifies each person's generated `linked_companies:` canonical mi
 """
 from __future__ import annotations
 
+from graph_common import field_scalar as get_scalar, field_values as get_values
+
 import argparse
 import json
 import pathlib
@@ -99,24 +101,8 @@ def get_block(lines: list[str], wanted: str):
     return next((block for key, block in blocks(lines) if key == wanted), None)
 
 
-def get_values(lines: list[str], wanted: str) -> list[str]:
-    block = get_block(lines, wanted)
-    if not block:
-        return []
-    value = block[0].split(":", 1)[1].strip()
-    if not value:
-        return [line[4:].strip().strip("\"'") for line in block[1:] if line.startswith("  - ") and line[4:].strip()]
-    if value.startswith("[") and value.endswith("]"):
-        return parse_inline_list(value[1:-1])
-    return [value.strip("\"'")]
 
 
-def get_scalar(lines: list[str], wanted: str):
-    block = get_block(lines, wanted)
-    if not block:
-        return None
-    value = block[0].split(":", 1)[1].strip()
-    return value.strip("\"'") if value else None
 
 
 def load_records(root: pathlib.Path):

@@ -34,6 +34,7 @@ hardware:
   - "ascend"
 integrations:
   - "vLLM"
+code_availability: public
 ---
 # vLLM-Ascend
 

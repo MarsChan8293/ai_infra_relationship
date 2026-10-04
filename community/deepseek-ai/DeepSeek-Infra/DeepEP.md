@@ -36,6 +36,7 @@ hardware:
   - "nvidia"
 integrations:
   - "NCCL"
+code_availability: public
 ---
 # DeepEP
 

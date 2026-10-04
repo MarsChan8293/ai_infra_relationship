@@ -5,15 +5,16 @@ organization: OpenVINO Toolkit / Intel
 linked_people: []
 companies: ["Intel"]
 company_relation: company-led
-layer: genai-inference-library
+layer: inference-engine
 open_source: true
 repository: https://github.com/openvinotoolkit/openvino.genai
-areas: [llm-inference, genai, continuous-batching, kv-cache, speculative-decoding, sparse-attention, cpu, gpu, npu]
+areas: ["llm-inference", "genai", "continuous-batching", "kv-cache", "speculative-decoding", "sparse-attention", "cpu", "gpu", "npu", "genai-inference-library"]
 last_verified: "2026-09"
 linked_companies:
   - "company/Intel/Intel"
 linked_projects:
   - "company/Intel/OpenVINO"
+code_availability: public
 ---
 # OpenVINO GenAI
 

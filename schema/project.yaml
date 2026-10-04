@@ -13,6 +13,8 @@ recommended:
   - integrations
   - companies
   - last_verified
+  - maturity
+  - code_availability
 fields:
   type:
     const: project
@@ -43,6 +45,14 @@ fields:
     type: string
     enum: [active, maintenance, deprecated, archived, unknown]
     description: Current project lifecycle status when directly verifiable.
+  maturity:
+    type: string
+    enum: [research-prototype, production, unknown]
+    description: Deployment maturity, independent of lifecycle status. Production requires explicit evidence.
+  code_availability:
+    type: string
+    enum: [public, closed, unconfirmed]
+    description: Public source availability, independent of research maturity and license. Unconfirmed is not a claim that code is closed.
   repository:
     type: string
     description: Canonical official GitHub, GitCode, or other source repository URL.

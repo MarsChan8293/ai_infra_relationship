@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from graph_common import read_frontmatter
+
 import argparse,json,pathlib,re,sys
 from collections import defaultdict
 from urllib.parse import urlsplit, urlunsplit
@@ -20,23 +22,7 @@ def scalar(v):
     return v.strip("\"'")
 
 def fm(text):
-    if not text.startswith("---\n"):return {}
-    lines=text.splitlines()
-    try:end=lines.index("---",1)
-    except ValueError:return {}
-    d={}; cur=None
-    for raw in lines[1:end]:
-        if not raw.strip() or raw.lstrip().startswith("#"):continue
-        if raw.startswith("  - ") and cur:
-            if not isinstance(d.get(cur), list):
-                if d.get(cur) in ("", None):
-                    d[cur]=[]
-                else:
-                    continue
-            d[cur].append(scalar(raw[4:])); continue
-        if raw.startswith((" ","-")) or ":" not in raw:continue
-        k,v=raw.split(":",1); cur=k.strip(); d[cur]=scalar(v)
-    return d
+    return read_frontmatter(text)
 
 def lst(v):
     if v in (None,""):return []

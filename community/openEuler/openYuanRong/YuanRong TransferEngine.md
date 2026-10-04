@@ -3,12 +3,13 @@ type: project
 name: YuanRong TransferEngine
 aliases: [openYuanRong TransferEngine, openyuanrong-transfer-engine]
 linked_people: []
-layer: npu-data-transfer
+layer: communication
 open_source: true
-areas: [data-transfer, rdma, roce, npu, kv-transfer, weight-transfer, disaggregated-inference]
+areas: ["data-transfer", "rdma", "roce", "npu", "kv-transfer", "weight-transfer", "disaggregated-inference", "npu-data-transfer"]
 related_projects: ["openYuanRong", "YuanRong DataSystem", "vLLM-Ascend", "vLLM-Omni"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # YuanRong TransferEngine
 

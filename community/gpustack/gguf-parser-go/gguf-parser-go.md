@@ -7,11 +7,12 @@ layer: benchmark
 status: active
 repository: https://github.com/gpustack/gguf-parser-go
 areas: [gguf, memory-estimation, throughput-estimation, model-profiling, resource-planning, placement]
-integrations: [GPUStack, llama.cpp]
+integrations: ["community/gpustack/GPUStack/GPUStack", llama.cpp]
 companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GGUF Parser
 

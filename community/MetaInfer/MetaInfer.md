@@ -19,6 +19,7 @@ areas: [llm-inference, inference-framework-generation, ai-infra-agent, kernel-op
 hardware: [nvidia, hygon]
 last_verified: 2026-10
 linked_companies: []
+code_availability: public
 ---
 # MetaInfer
 

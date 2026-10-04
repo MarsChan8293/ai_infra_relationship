@@ -20,6 +20,7 @@ companies: ["NVIDIA"]
 last_verified: "2026-09"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
+code_availability: public
 ---
 
 # Megatron-LM

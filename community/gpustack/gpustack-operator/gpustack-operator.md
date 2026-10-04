@@ -9,11 +9,12 @@ repository: https://github.com/gpustack/gpustack-operator
 docs: https://docs.gpustack.ai/gpustack-operator/
 areas: [kubernetes, accelerator-scheduling, gpu-sharing, gpu-slicing, hardware-partitioning, kueue, device-management, kv-cache]
 hardware: [nvidia, amd, ascend, hygon, metax, mthreads, iluvatar, cambricon, t-head]
-integrations: [GPUStack]
+integrations: ["community/gpustack/GPUStack/GPUStack"]
 companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GPUStack Operator
 

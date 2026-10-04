@@ -10,6 +10,7 @@ status: active
 last_verified: "2026-09"
 linked_companies:
   - "company/面壁智能/面壁智能"
+code_availability: public
 ---
 # ForgeTrain
 

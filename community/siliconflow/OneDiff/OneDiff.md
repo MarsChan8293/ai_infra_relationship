@@ -7,12 +7,13 @@ linked_people:
   - "community/siliconflow/OneDiff/strint"
 companies: ["硅基流动"]
 company_relation: company-led
-layer: diffusion-inference-compiler
+layer: compiler
 open_source: true
 linked_companies:
   - "company/硅基流动/硅基流动"
 linked_projects:
   - "community/Oneflow-Inc/OneFlow/OneFlow"
+code_availability: unconfirmed
 ---
 # OneDiff
 

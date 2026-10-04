@@ -41,6 +41,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install graph dependencies
+        run: python3 -m pip install --disable-pip-version-check -r scripts/requirements.txt
+
       - name: Build pre-sync graph inventory
         run: python3 scripts/audit-graph.py --root . --output generated
 
@@ -58,6 +66,11 @@ jobs:
 
       - name: Audit semantic graph and generate final metrics
         run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Validate node schemas and graph regressions
+        run: |
+          python3 scripts/audit-node-schema.py --root . --generated generated
+          python3 scripts/test-graph-quality.py
 
       - name: Audit person-school links
         run: python3 scripts/audit-school-links.py --root . --generated generated
@@ -136,7 +149,7 @@ jobs:
       - name: Normalize and audit staged wikilinks
         env:
           WIKILINK_FAIL_ON_AMBIGUOUS: "1"
-          WIKILINK_FAIL_ON_MISSING: "0"
+          WIKILINK_FAIL_ON_MISSING: "1"
         run: |
           set +e
           node scripts/normalize-wikilinks.mjs "$QUARTZ_DIR/content"

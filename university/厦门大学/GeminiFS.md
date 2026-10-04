@@ -4,16 +4,17 @@ name: GeminiFS
 linked_people:
   - "university/上海交通大学/张一鸣 Yiming Zhang"
   - "university/厦门大学/Shi Qiu"
-layer: gpu-storage
+layer: storage
 open_source: true
 repository: https://github.com/nicexlab/GeminiFS
-areas: [gpu-storage, filesystem, nvme, direct-storage, ml-systems, llm-storage]
+areas: ["gpu-storage", "filesystem", "nvme", "direct-storage", "ml-systems", "llm-storage"]
 people:
   - "university/厦门大学/Shi Qiu"
   - "university/上海交通大学/张一鸣 Yiming Zhang"
 governance: NICE Lab research project; upstream repository is deprecated in favor of Tutti
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # GeminiFS
 

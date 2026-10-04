@@ -5,10 +5,11 @@ organization: Ascend
 linked_people: []
 companies: ["华为"]
 company_relation: company-led
-layer: ai-compute-software-stack
+layer: runtime
 open_source: true
 linked_companies:
   - "company/华为/华为"
+code_availability: unconfirmed
 ---
 # CANN
 

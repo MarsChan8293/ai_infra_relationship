@@ -5,15 +5,16 @@ linked_people:
   - "company/深度求索/Shaoyuan Chen"
 companies: ["深度求索"]
 company_relation: company-led
-layer: expert-parallel-load-balancing
+layer: scheduler
 open_source: true
 repository: https://github.com/deepseek-ai/EPLB
-areas: [moe, expert-parallel, load-balancing, inference, distributed-systems]
+areas: ["moe", "expert-parallel", "load-balancing", "inference", "distributed-systems", "expert-parallel-load-balancing"]
 people:
   - "company/深度求索/Shaoyuan Chen"
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # EPLB
 

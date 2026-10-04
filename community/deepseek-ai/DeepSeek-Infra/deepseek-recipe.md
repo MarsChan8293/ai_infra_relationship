@@ -4,13 +4,14 @@ name: deepseek-recipe
 linked_people: []
 companies: ["深度求索"]
 company_relation: company-led
-layer: serving-api-adapter
+layer: gateway
 open_source: true
 repository: https://github.com/deepseek-ai/deepseek-recipe
-areas: [llm-serving, api-protocol, prompt-encoding, response-parsing, rust, python, multimodal]
+areas: ["llm-serving", "api-protocol", "prompt-encoding", "response-parsing", "rust", "python", "multimodal", "serving-api-adapter"]
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # deepseek-recipe
 

@@ -36,6 +36,7 @@ linked_companies:
   - "company/密瓜智能/密瓜智能"
   - "company/第四范式/第四范式"
   - "company/道客/道客"
+code_availability: public
 ---
 # HAMi
 

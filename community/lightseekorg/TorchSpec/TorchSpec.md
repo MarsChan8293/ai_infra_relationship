@@ -2,13 +2,14 @@
 type: project
 name: TorchSpec
 linked_people: []
-layer: speculative-decoding-training
+layer: training
 open_source: true
 repository: https://github.com/lightseekorg/TorchSpec
-areas: [speculative-decoding, distributed-training, hidden-state-transfer, vllm, sglang, tensorrt-llm]
+areas: ["speculative-decoding", "distributed-training", "hidden-state-transfer", "vllm", "sglang", "tensorrt-llm", "speculative-decoding-training"]
 governance: LightSeek Foundation ecosystem
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # TorchSpec
 

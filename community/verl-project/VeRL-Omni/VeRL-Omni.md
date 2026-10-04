@@ -3,15 +3,16 @@ type: project
 name: VeRL-Omni
 linked_people:
   - "community/vllm-project/vLLM-Omni/Yongxiang Huang"
-layer: multimodal-rl-post-training
+layer: training
 open_source: true
 repository: https://github.com/verl-project/verl-omni
-areas: [reinforcement-learning, post-training, multimodal, diffusion, rollout, distributed-training, ascend]
+areas: ["reinforcement-learning", "post-training", "multimodal", "diffusion", "rollout", "distributed-training", "ascend", "multimodal-rl-post-training"]
 people:
   - "community/vllm-project/vLLM-Omni/Yongxiang Huang"
 related_projects: ["vLLM-Omni", "openYuanRong"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # VeRL-Omni
 

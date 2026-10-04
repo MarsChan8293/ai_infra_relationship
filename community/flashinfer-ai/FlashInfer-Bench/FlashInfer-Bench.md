@@ -5,17 +5,11 @@ linked_people: []
 linked_concepts:
   - "concept/inference/optimization/Agentic Inference Optimization"
   - "concept/kernel/optimization/Agentic Kernel Optimization"
-layer: "optimization-harness"
+layer: optimization
 status: active
 repository: https://github.com/flashinfer-ai/flashinfer-bench
 docs: https://bench.flashinfer.ai/
-areas:
-  - "agentic-kernel-optimization"
-  - "kernel-benchmark"
-  - "correctness-validation"
-  - "production-deployment"
-  - "llm-inference"
-  - "self-improving-ai-systems"
+areas: ["agentic-kernel-optimization", "kernel-benchmark", "correctness-validation", "production-deployment", "llm-inference", "self-improving-ai-systems", "optimization-harness"]
 hardware:
   - "nvidia"
 integrations:
@@ -24,6 +18,7 @@ integrations:
   - "vLLM"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 
 # FlashInfer-Bench

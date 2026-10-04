@@ -81,6 +81,7 @@ integrations:
 last_verified: "2026-09"
 linked_companies:
   - "company/TensorMesh/TensorMesh"
+code_availability: public
 ---
 # LMCache
 

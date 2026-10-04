@@ -6,10 +6,10 @@ linked_people:
   - "community/InfiniTensor/wooway777"
   - "community/InfiniTensor/zhangyue207"
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
-layer: gpu-kernels
+layer: kernel
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniOps
-areas: [operator-library, gpu-kernels, attention, kv-cache, quantization, heterogeneous-compute, ascend]
+areas: ["operator-library", "gpu-kernels", "attention", "kv-cache", "quantization", "heterogeneous-compute", "ascend"]
 people:
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
   - "community/InfiniTensor/zhangyue207"
@@ -17,6 +17,7 @@ people:
   - "community/InfiniTensor/wooway777"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniOps
 

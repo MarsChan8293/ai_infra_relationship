@@ -53,6 +53,7 @@ integrations:
   - "SGLang"
   - "LMCache"
   - "Gateway API Inference Extension"
+code_availability: public
 ---
 # llm-d
 

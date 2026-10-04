@@ -4,10 +4,10 @@ name: FastChat
 linked_people: []
 companies: []
 company_relation: community-led
-layer: llm-serving
+layer: distributed-serving
 open_source: true
 repository: https://github.com/lm-sys/FastChat
-areas: [llm-serving, openai-compatible-api, model-serving, distributed-serving, evaluation]
+areas: ["llm-serving", "openai-compatible-api", "model-serving", "distributed-serving", "evaluation"]
 people:
   - "community/sgl-project/SGLang/郑连民 Lianmin Zheng"
   - "company/RadixArk/盛颖 Ying Sheng"
@@ -18,6 +18,7 @@ people:
 governance: LMSYS project
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # FastChat
 

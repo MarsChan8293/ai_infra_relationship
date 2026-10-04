@@ -5,7 +5,8 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2601.22760
 organization: "南京大学"
 areas: ["agentic-kernel-optimization", "ascendc", "dsl", "transcompilation", "kernel-generation", "constraint-guided-lowering"]
@@ -14,6 +15,7 @@ companies: ["华为"]
 last_verified: "2026-10"
 linked_companies:
   - "company/华为/华为"
+code_availability: unconfirmed
 ---
 
 # AscendCraft

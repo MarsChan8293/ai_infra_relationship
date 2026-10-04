@@ -18,6 +18,7 @@ companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GPUStack
 

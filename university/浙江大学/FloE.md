@@ -6,16 +6,17 @@ linked_people:
   - "university/浙江大学/Zheng Li"
 companies: []
 company_relation: research-project
-layer: moe-inference
+layer: inference-engine
 open_source: true
 repository: https://github.com/zju-stu-lizheng/FloE
-areas: [llm-inference, moe, memory-optimization, parameter-offload, pcie, triton]
+areas: ["llm-inference", "moe", "memory-optimization", "parameter-offload", "pcie", "triton", "moe-inference"]
 people:
   - "university/浙江大学/Zheng Li"
   - "university/浙江大学/Jue Wang"
   - "university/浙江大学/Lidan Shou"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # FloE
 

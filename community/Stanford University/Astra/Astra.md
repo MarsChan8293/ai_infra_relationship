@@ -5,13 +5,15 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 repository: https://github.com/Anjiang-Wei/Astra
 organization: "Stanford University"
 areas: ["agentic-kernel-optimization", "multi-agent", "cuda", "sglang", "profiling", "planning", "serving-kernel"]
 hardware: ["nvidia"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 
 # Astra

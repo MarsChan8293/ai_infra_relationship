@@ -25,6 +25,7 @@ integrations:
   - "Mooncake"
   - "xLLM-service"
 linked_companies: []
+code_availability: public
 ---
 # xLLM
 

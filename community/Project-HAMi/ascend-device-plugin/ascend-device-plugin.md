@@ -10,6 +10,7 @@ open_source: true
 areas: [ascend, kubernetes, accelerator-scheduling, device-plugin, heterogeneous-computing]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # HAMi Ascend Device Plugin
 

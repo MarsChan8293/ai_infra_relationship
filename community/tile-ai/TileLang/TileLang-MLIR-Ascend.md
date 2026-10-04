@@ -18,6 +18,7 @@ areas: [kernel-dsl, mlir, ascendnpu-ir, ascend, ascend-a2, ascend-a3, gemm, atte
 hardware: [ascend]
 integrations: [TileLang, CANN]
 linked_companies: []
+code_availability: public
 ---
 # TileLang-MLIR-Ascend
 

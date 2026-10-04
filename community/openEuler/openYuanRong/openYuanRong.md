@@ -7,10 +7,10 @@ linked_people:
   - "community/openEuler/openYuanRong/罗站城 Zhancheng Luo"
 companies: ["华为"]
 company_relation: company-originated-open-source
-layer: distributed-compute-runtime
+layer: runtime
 open_source: true
 repository: https://github.com/openyuanrong/runtime
-areas: [serverless, distributed-runtime, scheduling, distributed-data, ai-infrastructure, reinforcement-learning, inference]
+areas: ["serverless", "distributed-runtime", "scheduling", "distributed-data", "ai-infrastructure", "reinforcement-learning", "inference", "distributed-compute-runtime"]
 people:
   - "community/openEuler/openYuanRong/梁义 Yi Liang"
   - "community/openEuler/openYuanRong/罗站城 Zhancheng Luo"
@@ -18,6 +18,7 @@ related_projects: ["YuanRong DataSystem", "YuanRong TransferEngine", "TransferQu
 last_verified: "2026-09"
 linked_companies:
   - "company/华为/华为"
+code_availability: public
 ---
 # openYuanRong
 

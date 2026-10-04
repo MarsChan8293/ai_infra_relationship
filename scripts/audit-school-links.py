@@ -7,6 +7,8 @@ not resolve to canonical school nodes or lack a corresponding Markdown link.
 """
 from __future__ import annotations
 
+from graph_common import field_scalar as get_scalar, field_values as get_values
+
 import argparse
 import json
 import pathlib
@@ -105,17 +107,8 @@ def get_block(lines: list[str], wanted: str):
     return next((block for key, block in blocks(lines) if key == wanted), None)
 
 
-def get_scalar(lines: list[str], wanted: str):
-    block = get_block(lines, wanted)
-    if not block:
-        return None
-    value = block[0].split(":", 1)[1].strip()
-    return value.strip("\"'") if value else None
 
 
-def get_values(lines: list[str], wanted: str) -> list[str]:
-    block = get_block(lines, wanted)
-    return parse_listish(block) if block else []
 
 
 def norm(value: str) -> str:

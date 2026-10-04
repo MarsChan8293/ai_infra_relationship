@@ -25,6 +25,8 @@ areas:
 integrations: []
 linked_companies:
   - "company/华为/华为"
+repository: https://gitcode.com/Ascend/MindIE-Motor
+code_availability: public
 ---
 # MindIE-Motor
 

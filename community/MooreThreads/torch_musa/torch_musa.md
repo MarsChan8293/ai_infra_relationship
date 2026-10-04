@@ -6,10 +6,11 @@ organization: MooreThreads
 linked_people: []
 companies: ["摩尔线程"]
 company_relation: company-led
-layer: deep-learning-framework-backend
+layer: runtime
 open_source: true
 linked_companies:
   - "company/摩尔线程/摩尔线程"
+code_availability: unconfirmed
 ---
 # Torch MUSA
 

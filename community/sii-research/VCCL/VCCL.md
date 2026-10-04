@@ -30,6 +30,7 @@ areas:
 integrations: []
 linked_companies:
   - "company/基流科技/基流科技"
+code_availability: public
 ---
 # VCCL
 

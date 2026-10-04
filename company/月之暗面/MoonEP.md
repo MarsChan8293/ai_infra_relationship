@@ -10,6 +10,7 @@ last_verified: "2026-09"
 areas: [expert-parallelism, communication, moe]
 linked_companies:
   - "company/月之暗面/月之暗面"
+code_availability: public
 ---
 # MoonEP
 

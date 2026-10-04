@@ -6,15 +6,16 @@ linked_people:
 linked_concepts:
   - "concept/hardware/interconnect/Hardware Interconnect"
   - "concept/hardware/interconnect/HCCS"
-layer: post-training-data-plane
+layer: training
 open_source: true
 repository: https://github.com/Ascend/TransferQueue
-areas: [post-training, reinforcement-learning, streaming-data, distributed-data, npu, rdma, hccs]
+areas: ["post-training", "reinforcement-learning", "streaming-data", "distributed-data", "npu", "rdma", "hccs", "post-training-data-plane"]
 people:
   - "community/Ascend/TransferQueue/荣程浩 Chenghao Rong"
 related_projects: ["YuanRong DataSystem", "veRL", "Mooncake"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # TransferQueue
 

@@ -26,6 +26,7 @@ integrations:
   - "vLLM"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # AgentInfer
 ## 项目定位

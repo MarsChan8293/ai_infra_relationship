@@ -17,6 +17,8 @@ Typed relationships must be researched and written explicitly in frontmatter.
 """
 from __future__ import annotations
 
+from graph_common import field_values as get_values
+
 import argparse
 import json
 import pathlib
@@ -156,9 +158,6 @@ def get_block(lines: list[str], wanted: str):
     return next((block for key, block in blocks(lines) if key == wanted), None)
 
 
-def get_values(lines: list[str], wanted: str) -> list[str]:
-    block = get_block(lines, wanted)
-    return parse_listish(block) if block else []
 
 
 def set_key(lines: list[str], key: str, value_line: str, remove_keys=()):

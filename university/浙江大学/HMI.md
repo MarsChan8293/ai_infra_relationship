@@ -5,15 +5,16 @@ linked_people:
   - "university/浙江大学/Jue Wang"
 companies: []
 company_relation: research-project
-layer: multi-tenant-inference
+layer: inference-engine
 open_source: false
-areas: [multi-tenant-serving, memory-management, parameter-swapping, prefetch, pipeline]
+areas: ["multi-tenant-serving", "memory-management", "parameter-swapping", "prefetch", "pipeline", "multi-tenant-inference"]
 people:
   - "university/浙江大学/Jue Wang"
   - "university/浙江大学/Huan Li"
   - "university/浙江大学/Lidan Shou"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # HMI
 

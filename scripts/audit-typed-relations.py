@@ -14,6 +14,8 @@ YAML objects without changing the relation model.
 
 from __future__ import annotations
 
+from graph_common import read_frontmatter, split_frontmatter, evidence_provenance
+
 import argparse
 import json
 import pathlib
@@ -88,25 +90,7 @@ def frontmatter_lines(text: str) -> list[str]:
 
 
 def parse_frontmatter(text: str) -> dict:
-    data: dict[str, object] = {}
-    current_key: str | None = None
-    for raw in frontmatter_lines(text):
-        if not raw.strip() or raw.lstrip().startswith("#"):
-            continue
-        if raw.startswith("  - ") and current_key:
-            items = data.setdefault(current_key, [])
-            if isinstance(items, list):
-                items.append(parse_scalar(raw[4:]))
-            continue
-        if raw.startswith(" ") or ":" not in raw:
-            continue
-        key, value = raw.split(":", 1)
-        key = key.strip()
-        if not key:
-            continue
-        data[key] = [] if not value.strip() else parse_scalar(value)
-        current_key = key
-    return data
+    return read_frontmatter(text)
 
 
 def as_list(value) -> list:
@@ -178,6 +162,12 @@ def relation_json(item, source: str, index: int, errors: list[dict]):
     return parsed
 
 
+def person_link_coverage(links, targets):
+    covered = len(links & targets)
+    extra = len(targets - links)
+    return covered, extra, round(covered / len(links), 3) if links else 0.0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=".")
@@ -205,8 +195,9 @@ def main() -> int:
     for node in nodes:
         by_base[pathlib.PurePosixPath(norm(node["id"])).name.casefold()].append(node)
         name = str(node.get("name") or "").strip().casefold()
-        if name:
-            by_name[name].append(node)
+        for label in {name, *(str(x).strip().casefold() for x in node.get("frontmatter", {}).get("aliases", []) or [])}:
+            if label:
+                by_name[label].append(node)
 
     # Concept `projects:` values live in the project-like namespace. Keep a
     # dedicated resolver index so a Project and Concept sharing the same name
@@ -218,8 +209,9 @@ def main() -> int:
     for node in project_nodes:
         project_by_base[pathlib.PurePosixPath(norm(node["id"])).name.casefold()].append(node)
         name = str(node.get("name") or "").strip().casefold()
-        if name:
-            project_by_name[name].append(node)
+        for label in {name, *(str(x).strip().casefold() for x in node.get("frontmatter", {}).get("aliases", []) or [])}:
+            if label:
+                project_by_name[label].append(node)
 
     allowed_types = load_allowed_types(root / "schema" / "relation.yaml")
     errors: list[dict] = []
@@ -373,6 +365,8 @@ def main() -> int:
                     "end": relation.get("end"),
                     "confidence": confidence,
                     "evidence": evidence,
+                    "provenance": {"source_path": rel_source, "field": "relations", "index": index},
+                    "last_verified": fm.get("last_verified"),
                 })
 
     # Project v3 integrations are canonical project-to-project assertions.
@@ -392,9 +386,9 @@ def main() -> int:
         for target_raw in as_list(frontmatter.get("integrations")):
             if not isinstance(target_raw, str) or not target_raw.strip():
                 continue
-            target_node, reason, candidates = resolve_target(target_raw, by_id, by_base, by_name)
+            target_node, reason, candidates = resolve_target(target_raw, project_by_id, project_by_base, project_by_name)
             if target_node is None:
-                warnings.append({
+                errors.append({
                     "kind": "project-integration-target-unresolved",
                     "source": node.get("path") or source_id,
                     "target": target_raw,
@@ -431,8 +425,10 @@ def main() -> int:
                 "company": None,
                 "start": None,
                 "end": None,
-                "confidence": "high",
+                "confidence": "medium",
                 "evidence": [],
+                "provenance": evidence_provenance(root, node["path"], "integrations"),
+                "last_verified": frontmatter.get("last_verified"),
                 "derived_from": "frontmatter.integrations",
             })
 
@@ -511,8 +507,10 @@ def main() -> int:
                 "company": None,
                 "start": None,
                 "end": None,
-                "confidence": "high",
+                "confidence": "medium",
                 "evidence": [],
+                "provenance": evidence_provenance(root, rel_source, "projects"),
+                "last_verified": frontmatter.get("last_verified"),
                 "derived_from": "concept.projects",
             })
             concept_support_edges += 1
@@ -543,7 +541,9 @@ def main() -> int:
             continue
         link_count = len(linked_person_neighbors.get(node_id, set()))
         typed_count = len(typed_person_neighbors.get(node_id, set()))
-        coverage = round(typed_count / link_count, 3) if link_count else (1.0 if typed_count else 0.0)
+        covered, extra, coverage = person_link_coverage(
+            linked_person_neighbors.get(node_id, set()), typed_person_neighbors.get(node_id, set())
+        )
         metric = metrics.get(node_id, {})
         coverage_rows.append({
             "id": node_id,
@@ -552,6 +552,8 @@ def main() -> int:
             "bridge_score": metric.get("bridge_score", 0),
             "person_links": link_count,
             "typed_person_relations": typed_count,
+            "covered_person_links": covered,
+            "additional_typed_person_relations": extra,
             "typed_person_link_coverage": coverage,
         })
 
@@ -623,13 +625,13 @@ def main() -> int:
         "",
         "## Structured bridge nodes",
         "",
-        "| Person | Bridge | Person links | Typed | Coverage |",
-        "| --- | ---: | ---: | ---: | ---: |",
+        "| Person | Bridge | Person links | Typed | Additional typed | Coverage |",
+        "| --- | ---: | ---: | ---: | ---: | ---: |",
     ])
     for row in [r for r in coverage_rows if r["typed_person_relations"] > 0][:30]:
         label = str(row["name"]).replace("|", "\\|")
         lines.append(
-            f"| [[{row['id']}\\|{label}]] | {row['bridge_score']:.3f} | {row['person_links']} | {row['typed_person_relations']} | {row['typed_person_link_coverage']:.1%} |"
+            f"| [[{row['id']}\\|{label}]] | {row['bridge_score']:.3f} | {row['person_links']} | {row['typed_person_relations']} | {row['additional_typed_person_relations']} | {row['typed_person_link_coverage']:.1%} |"
         )
 
     (generated / "typed-relation-coverage.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

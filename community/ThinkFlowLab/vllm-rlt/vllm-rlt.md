@@ -28,6 +28,7 @@ integrations:
   - "NIXL"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # vllm-rlt
 ## 项目定位

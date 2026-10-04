@@ -2,10 +2,10 @@
 
 由 `scripts/audit-typed-relations.py` 自动生成。`typed_person_link_coverage` 只表示人物页中已解析的人物 wikilink 有多少被结构化关系覆盖，不代表事实完整度。
 
-- Typed relation edges: 957
+- Typed relation edges: 1038
 - Person nodes with typed relations: 161 / 444
 - Hard errors: 0
-- Warnings: 46
+- Warnings: 35
 - Concept → Project assertions read from Markdown: 398
 - Derived Project → Concept support edges: 398
 
@@ -16,11 +16,11 @@
 - `research-collaboration`: 174
 - `coworker`: 168
 - `open-source-collaboration`: 115
+- `project-integration`: 114
 - `technical-collaboration`: 60
 - `mentor-network`: 58
 - `cofounder`: 54
 - `advisor`: 43
-- `project-integration`: 33
 - `same-lab`: 31
 - `student`: 23
 - `community-maintainer`: 22
@@ -75,35 +75,35 @@
 
 ## Structured bridge nodes
 
-| Person | Bridge | Person links | Typed | Coverage |
-| --- | ---: | ---: | ---: | ---: |
-| [[company/Inferact/Ion Stoica\|Ion Stoica]] | 19.820 | 16 | 17 | 106.2% |
-| [[company/趋境科技/武永卫 Yongwei Wu\|武永卫]] | 18.687 | 12 | 12 | 100.0% |
-| [[company/清程极智/翟季冬 Jidong Zhai\|翟季冬]] | 16.194 | 12 | 13 | 108.3% |
-| [[university/清华大学/Mingxing Zhang\|章明星]] | 15.500 | 4 | 4 | 100.0% |
-| [[community/vllm-project/vLLM/游凯超 Kaichao You\|游凯超]] | 14.855 | 16 | 16 | 100.0% |
-| [[community/vllm-project/vLLM/李卓翰 Zhuohan Li\|李卓翰]] | 14.274 | 4 | 4 | 100.0% |
-| [[company/Inferact/Joseph Gonzalez\|Joseph Gonzalez]] | 13.570 | 7 | 7 | 100.0% |
-| [[community/vllm-project/vLLM/Chen Zhang\|Chen Zhang]] | 12.948 | 8 | 7 | 87.5% |
-| [[company/TensorMesh/杜昆泰 Kuntai Du\|杜昆泰]] | 12.672 | 8 | 6 | 75.0% |
-| [[company/RadixArk/盛颖 Ying Sheng\|盛颖]] | 12.598 | 7 | 7 | 100.0% |
-| [[community/vllm-project/vLLM/乔一凡 Yifan Qiao\|乔一凡]] | 12.520 | 8 | 8 | 100.0% |
-| [[company/Inferact/Woosuk Kwon\|Woosuk Kwon]] | 12.437 | 6 | 6 | 100.0% |
-| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng\|郑连民]] | 11.820 | 5 | 5 | 100.0% |
-| [[company/清程极智/郑纬民 Weimin Zheng\|郑纬民]] | 11.650 | 7 | 6 | 85.7% |
-| [[community/sgl-project/SGLang/Yineng Zhang\|Yineng Zhang]] | 11.535 | 12 | 11 | 91.7% |
-| [[community/vllm-project/vLLM/Simon Mo\|Simon Mo]] | 11.387 | 7 | 7 | 100.0% |
-| [[community/kvcache-ai/Mooncake/任峰 Feng Ren\|任峰]] | 11.300 | 5 | 2 | 40.0% |
-| [[company/OpenAI/柳晓萱 Xiaoxuan Liu\|柳晓萱]] | 11.300 | 7 | 4 | 57.1% |
-| [[community/kvcache-ai/Mooncake/Ke Yang\|Ke Yang]] | 11.198 | 6 | 2 | 33.3% |
-| [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu\|刘胜与]] | 11.198 | 7 | 7 | 100.0% |
-| [[university/清华大学/Ruoyu Qin\|秦若愚]] | 11.000 | 4 | 3 | 75.0% |
-| [[community/vllm-project/vLLM/Robert Shaw\|Robert Shaw]] | 10.922 | 6 | 5 | 83.3% |
-| [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie\|谢志强]] | 10.885 | 3 | 3 | 100.0% |
-| [[community/vllm-project/vLLM/Michael Goin\|Michael Goin]] | 10.507 | 6 | 4 | 66.7% |
-| [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye\|叶子豪]] | 10.507 | 5 | 4 | 80.0% |
-| [[company/TensorMesh/程翊华 Yihua Cheng\|程翊华]] | 10.409 | 4 | 2 | 50.0% |
-| [[company/RadixArk/朱邦华 Banghua Zhu\|朱邦华]] | 10.407 | 5 | 5 | 100.0% |
-| [[company/深度求索/梁文锋 Liang Wenfeng\|梁文锋]] | 10.407 | 5 | 4 | 80.0% |
-| [[company/深度求索/Shaoyuan Chen\|Shaoyuan Chen]] | 10.272 | 2 | 2 | 100.0% |
-| [[company/字节跳动/方佳瑞 Jiarui Fang\|方佳瑞]] | 10.185 | 4 | 3 | 75.0% |
+| Person | Bridge | Person links | Typed | Additional typed | Coverage |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| [[company/Inferact/Ion Stoica\|Ion Stoica]] | 19.820 | 16 | 17 | 1 | 100.0% |
+| [[company/趋境科技/武永卫 Yongwei Wu\|武永卫]] | 18.687 | 12 | 12 | 1 | 91.7% |
+| [[company/清程极智/翟季冬 Jidong Zhai\|翟季冬]] | 16.194 | 12 | 13 | 3 | 83.3% |
+| [[university/清华大学/Mingxing Zhang\|章明星]] | 15.500 | 4 | 4 | 0 | 100.0% |
+| [[community/vllm-project/vLLM/游凯超 Kaichao You\|游凯超]] | 14.855 | 16 | 16 | 0 | 100.0% |
+| [[community/vllm-project/vLLM/李卓翰 Zhuohan Li\|李卓翰]] | 14.274 | 4 | 4 | 0 | 100.0% |
+| [[company/Inferact/Joseph Gonzalez\|Joseph Gonzalez]] | 13.570 | 7 | 7 | 0 | 100.0% |
+| [[community/vllm-project/vLLM/Chen Zhang\|Chen Zhang]] | 12.948 | 8 | 7 | 0 | 87.5% |
+| [[company/TensorMesh/杜昆泰 Kuntai Du\|杜昆泰]] | 12.672 | 8 | 6 | 0 | 75.0% |
+| [[company/RadixArk/盛颖 Ying Sheng\|盛颖]] | 12.598 | 7 | 7 | 0 | 100.0% |
+| [[community/vllm-project/vLLM/乔一凡 Yifan Qiao\|乔一凡]] | 12.520 | 8 | 8 | 0 | 100.0% |
+| [[company/Inferact/Woosuk Kwon\|Woosuk Kwon]] | 12.437 | 6 | 6 | 0 | 100.0% |
+| [[community/sgl-project/SGLang/郑连民 Lianmin Zheng\|郑连民]] | 11.820 | 5 | 5 | 0 | 100.0% |
+| [[company/清程极智/郑纬民 Weimin Zheng\|郑纬民]] | 11.650 | 7 | 6 | 0 | 85.7% |
+| [[community/sgl-project/SGLang/Yineng Zhang\|Yineng Zhang]] | 11.535 | 12 | 11 | 0 | 91.7% |
+| [[community/vllm-project/vLLM/Simon Mo\|Simon Mo]] | 11.387 | 7 | 7 | 0 | 100.0% |
+| [[community/kvcache-ai/Mooncake/任峰 Feng Ren\|任峰]] | 11.300 | 5 | 2 | 0 | 40.0% |
+| [[company/OpenAI/柳晓萱 Xiaoxuan Liu\|柳晓萱]] | 11.300 | 7 | 4 | 0 | 57.1% |
+| [[community/kvcache-ai/Mooncake/Ke Yang\|Ke Yang]] | 11.198 | 6 | 2 | 0 | 33.3% |
+| [[community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu\|刘胜与]] | 11.198 | 7 | 7 | 0 | 100.0% |
+| [[university/清华大学/Ruoyu Qin\|秦若愚]] | 11.000 | 4 | 3 | 0 | 75.0% |
+| [[community/vllm-project/vLLM/Robert Shaw\|Robert Shaw]] | 10.922 | 6 | 5 | 0 | 83.3% |
+| [[community/sgl-project/SGLang/谢志强 Zhiqiang Xie\|谢志强]] | 10.885 | 3 | 3 | 0 | 100.0% |
+| [[community/vllm-project/vLLM/Michael Goin\|Michael Goin]] | 10.507 | 6 | 4 | 0 | 66.7% |
+| [[community/flashinfer-ai/FlashInfer/叶子豪 Zihao Ye\|叶子豪]] | 10.507 | 5 | 4 | 0 | 80.0% |
+| [[company/TensorMesh/程翊华 Yihua Cheng\|程翊华]] | 10.409 | 4 | 2 | 0 | 50.0% |
+| [[company/RadixArk/朱邦华 Banghua Zhu\|朱邦华]] | 10.407 | 5 | 5 | 0 | 100.0% |
+| [[company/深度求索/梁文锋 Liang Wenfeng\|梁文锋]] | 10.407 | 5 | 4 | 0 | 80.0% |
+| [[company/深度求索/Shaoyuan Chen\|Shaoyuan Chen]] | 10.272 | 2 | 2 | 0 | 100.0% |
+| [[company/字节跳动/方佳瑞 Jiarui Fang\|方佳瑞]] | 10.185 | 4 | 3 | 0 | 75.0% |

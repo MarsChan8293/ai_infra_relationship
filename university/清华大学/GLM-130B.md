@@ -11,12 +11,13 @@ linked_people:
   - "company/清程极智/翟季冬 Jidong Zhai"
   - "company/清程极智/马子轩 Zixuan Ma"
   - "university/清华大学/Wenguang Chen"
-areas: [foundation-models, large-scale-pretraining, distributed-training, heterogeneous-hardware, inference-efficiency]
-layer: pretraining-system-model-codesign
+areas: ["foundation-models", "large-scale-pretraining", "distributed-training", "heterogeneous-hardware", "inference-efficiency", "pretraining-system-model-codesign"]
+layer: training
 open_source: true
 repository: https://github.com/THUDM/GLM-130B
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # GLM-130B
 

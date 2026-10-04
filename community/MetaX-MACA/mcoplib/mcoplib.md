@@ -5,10 +5,11 @@ organization: MetaX-MACA
 linked_people: []
 companies: ["沐曦"]
 company_relation: company-led
-layer: gpu-operator-kernel-library
+layer: kernel
 open_source: true
 linked_companies:
   - "company/沐曦/沐曦"
+code_availability: unconfirmed
 ---
 # mcoplib
 

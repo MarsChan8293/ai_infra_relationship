@@ -18,6 +18,7 @@ integrations:
   - "vLLM"
   - "LMCache"
 linked_companies: []
+code_availability: public
 ---
 # vLLM Production Stack
 

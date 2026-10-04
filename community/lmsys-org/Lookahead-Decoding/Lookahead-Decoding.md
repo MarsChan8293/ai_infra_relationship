@@ -4,15 +4,16 @@ name: Lookahead Decoding
 linked_people: []
 companies: []
 company_relation: research-community
-layer: speculative-decoding
+layer: optimization
 open_source: true
 repository: https://github.com/hao-ai-lab/LookaheadDecoding
-areas: [speculative-decoding, parallel-decoding, llm-inference, latency-optimization]
+areas: ["speculative-decoding", "parallel-decoding", "llm-inference", "latency-optimization"]
 people:
   - "company/Inferact/Ion Stoica"
 governance: "LMSYS-listed research project; code hosted by Hao AI Lab"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Lookahead Decoding
 

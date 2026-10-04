@@ -8,15 +8,16 @@ linked_people:
   - "company/RadixArk/朱邦华 Banghua Zhu"
 companies: ["RadixArk"]
 company_relation: company-led
-layer: post-training-infrastructure
+layer: training
 open_source: true
 repository: https://github.com/radixark/miles
-areas: [reinforcement-learning, post-training, distributed-training, rollout, sglang, weight-transfer, data-movement]
+areas: ["reinforcement-learning", "post-training", "distributed-training", "rollout", "sglang", "weight-transfer", "data-movement", "post-training-infrastructure"]
 people:
   - "company/RadixArk/朱邦华 Banghua Zhu"
 last_verified: "2026-09"
 linked_companies:
   - "company/RadixArk/RadixArk"
+code_availability: public
 ---
 # Miles
 

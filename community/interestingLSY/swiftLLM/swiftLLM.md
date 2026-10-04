@@ -4,12 +4,13 @@ name: SwiftLLM
 organization: interestingLSY
 linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
-layer: research-llm-inference-engine
+layer: inference-engine
 open_source: true
 repository: https://github.com/interestingLSY/swiftLLM
-areas: [llm-serving, inference-engine, triton, paged-attention, scheduling, gpu-kernels]
+areas: ["llm-serving", "inference-engine", "triton", "paged-attention", "scheduling", "gpu-kernels", "research-llm-inference-engine"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # SwiftLLM
 

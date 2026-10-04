@@ -80,6 +80,7 @@ integrations:
   - "vLLM"
   - "SGLang"
 last_verified: "2026-09"
+code_availability: public
 ---
 # Mooncake
 

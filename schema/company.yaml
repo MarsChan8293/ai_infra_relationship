@@ -45,8 +45,8 @@ notes:
   - A company node must remain independently readable and explain why the company belongs in the AI Infra graph.
   - Business units and model teams should normally attach to the canonical parent company rather than duplicate company entities.
   - People and project relationships should be evidence-backed; compatibility or customer relationships are not sufficient by themselves.
-  - `projects` is human-authored evidence; `linked_projects` is the exhaustive generated mirror of explicit company/project-community assertions from either side.
-  - `linked_projects` must not be inferred merely because one or more employees contribute to an open-source project.
-  - `people` is curated; `linked_people` is the exhaustive generated reverse set derived from person company-valued `current_affiliations` plus generated `email_affiliations`.
+  - "`projects` is human-authored evidence; `linked_projects` is the exhaustive generated mirror of explicit company/project-community assertions from either side."
+  - "`linked_projects` must not be inferred merely because one or more employees contribute to an open-source project."
+  - "`people` is curated; `linked_people` is the exhaustive generated reverse set derived from person company-valued `current_affiliations` plus generated `email_affiliations`."
   - Email-domain evidence in `linked_people` proves an organization association in the public source context, not necessarily current employment, job title, team, reporting line, or historical start/end dates.
-  - `linked_people` must not be interpreted as reporting-line, team, co-worker, or historical-employment evidence by itself.
+  - "`linked_people` must not be interpreted as reporting-line, team, co-worker, or historical-employment evidence by itself."

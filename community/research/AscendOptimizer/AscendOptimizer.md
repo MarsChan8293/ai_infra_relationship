@@ -5,12 +5,14 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2603.23566
 areas: ["agentic-kernel-optimization", "ascendc", "episodic-memory", "profiling-in-the-loop", "evolutionary-search", "host-tiling", "kernel-rewriting"]
 hardware: ["ascend"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: unconfirmed
 ---
 
 # AscendOptimizer

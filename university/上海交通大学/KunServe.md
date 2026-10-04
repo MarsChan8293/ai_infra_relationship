@@ -3,10 +3,10 @@ type: project
 name: KunServe
 linked_people:
   - "university/上海交通大学/Rong Chen"
-layer: llm-serving
+layer: distributed-serving
 open_source: true
 repository: https://github.com/SJTU-IPADS/kunserve
-areas: [llm-serving, memory-management, kv-cache, resource-management, elasticity]
+areas: ["llm-serving", "memory-management", "kv-cache", "resource-management", "elasticity"]
 people:
   - "university/上海交通大学/Rongxin Cheng"
   - "university/上海交通大学/Xingda Wei"
@@ -14,6 +14,7 @@ people:
   - "university/上海交通大学/Haibo Chen"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # KunServe
 

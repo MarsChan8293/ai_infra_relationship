@@ -19,7 +19,7 @@ fields:
     description: Display name used by this lightweight mirror node.
   canonical:
     type: string
-    description: Canonical person path or unique canonical person name. The target must resolve to a real `type: person` node.
+    description: "Canonical person path or unique canonical person name. The target must resolve to a real `type: person` node."
   aliases:
     type: array[string]
   current_affiliations:
@@ -42,5 +42,5 @@ legacy_migration:
 notes:
   - A person-link is not a second biography. It is a lightweight contextual pointer to one canonical person page.
   - Biography, education, employment history, publications, and full relationship data belong on the canonical `person` node.
-  - `canonical` must resolve and must point to a node whose type is `person`; `scripts/audit-graph.py` treats broken canonical targets as hard errors.
+  - "`canonical` must resolve and must point to a node whose type is `person`; `scripts/audit-graph.py` treats broken canonical targets as hard errors."
   - Context-local prose may explain why the person appears under a company, school, or project, but should not duplicate the full canonical profile.

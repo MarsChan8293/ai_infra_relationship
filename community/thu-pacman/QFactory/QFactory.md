@@ -9,11 +9,12 @@ linked_people:
 linked_concepts:
   - "concept/quantization/Quantization"
   - "concept/quantization/Weight-Only Quantization"
-areas: [llm-serving, quantization, kernel-generation, ai-compiler]
-layer: quantized-serving-kernel-optimization
+areas: ["llm-serving", "quantization", "kernel-generation", "ai-compiler", "quantized-serving-kernel-optimization"]
+layer: kernel
 open_source: true
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # QFactory
 

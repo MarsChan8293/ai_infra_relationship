@@ -7,13 +7,14 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
 companies: ["深度求索"]
 company_relation: company-led
-layer: sparse-attention-topk-kernels
+layer: kernel
 open_source: true
 repository: https://github.com/deepseek-ai/DeepSelect
-areas: [topk, sparse-attention, sampling, cuda, gpu-kernels, deepseek-v4]
+areas: ["topk", "sparse-attention", "sampling", "cuda", "gpu-kernels", "deepseek-v4", "sparse-attention-topk-kernels"]
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # DeepSelect
 

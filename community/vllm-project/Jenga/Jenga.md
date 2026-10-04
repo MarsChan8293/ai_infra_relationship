@@ -8,8 +8,8 @@ linked_people:
   - "university/UC Berkeley/Shu Liu"
   - "university/UC Berkeley/Xiangxi Mo"
   - "university/清华大学/龙明盛 Mingsheng Long"
-layer: heterogeneous-memory-management
-areas: [llm-serving, memory-management, kv-cache, heterogeneous-models]
+layer: kv-cache
+areas: ["llm-serving", "memory-management", "kv-cache", "heterogeneous-models", "heterogeneous-memory-management"]
 people:
   - "community/vllm-project/vLLM/Chen Zhang"
   - "company/TensorMesh/杜昆泰 Kuntai Du"
@@ -24,6 +24,7 @@ people:
   - "company/Inferact/Ion Stoica"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # Jenga
 
