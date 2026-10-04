@@ -19,6 +19,7 @@ areas: [kernel-dsl, ascend, ascend-a2, ascend-a3, ascendc, pto, npuir, gemm, att
 hardware: [ascend]
 integrations: [TileLang, CANN]
 linked_companies: []
+code_availability: public
 ---
 # TileLang-Ascend
 

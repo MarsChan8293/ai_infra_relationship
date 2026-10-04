@@ -40,6 +40,7 @@ areas: [kv-cache, distributed-storage, prefix-cache, memory-pooling, disaggregat
 last_verified: "2026-09"
 linked_companies:
   - "company/华为/华为"
+code_availability: public
 ---
 # MemCache
 

@@ -15,6 +15,8 @@ areas:
 integrations: []
 linked_companies:
   - "company/华为/华为"
+repository: https://gitcode.com/Ascend/MindIE-LLM
+code_availability: public
 ---
 # MindIE-LLM
 

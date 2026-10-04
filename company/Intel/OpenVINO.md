@@ -5,15 +5,16 @@ organization: OpenVINO Toolkit / Intel
 linked_people: []
 companies: ["Intel"]
 company_relation: company-led
-layer: inference-runtime-toolkit
+layer: runtime
 open_source: true
 repository: https://github.com/openvinotoolkit/openvino
-areas: [inference-runtime, llm-inference, genai, cpu, gpu, npu, model-optimization]
+areas: ["inference-runtime", "llm-inference", "genai", "cpu", "gpu", "npu", "model-optimization", "inference-runtime-toolkit"]
 last_verified: "2026-09"
 linked_companies:
   - "company/Intel/Intel"
 linked_projects:
   - "company/Intel/OpenVINO GenAI"
+code_availability: public
 ---
 # OpenVINO
 

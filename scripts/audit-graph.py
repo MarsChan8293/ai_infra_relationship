@@ -16,6 +16,8 @@ Outputs:
 
 from __future__ import annotations
 
+from graph_common import read_frontmatter, split_frontmatter, evidence_provenance
+
 import argparse
 import json
 import math
@@ -68,34 +70,7 @@ def parse_scalar(raw: str):
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
-    if not text.startswith("---\n"):
-        return {}, text
-    lines = text.splitlines()
-    try:
-        end = lines.index("---", 1)
-    except ValueError:
-        return {}, text
-
-    data: dict[str, object] = {}
-    current_key: str | None = None
-    for raw in lines[1:end]:
-        if not raw.strip() or raw.lstrip().startswith("#"):
-            continue
-        if raw.startswith("  - ") and current_key:
-            items = data.setdefault(current_key, [])
-            if isinstance(items, list):
-                items.append(parse_scalar(raw[4:]))
-            continue
-        if raw.startswith("-") or ":" not in raw:
-            continue
-        key, value = raw.split(":", 1)
-        key = key.strip()
-        if not key:
-            continue
-        data[key] = parse_scalar(value)
-        current_key = key
-    body = "\n".join(lines[end + 1 :])
-    return data, body
+    return split_frontmatter(text)
 
 
 def category_for(rel: str) -> str:
@@ -140,7 +115,7 @@ def resolve(target: str, source: dict, by_rel: dict, by_base: dict):
         return candidates[0], "relative", []
 
     base = pathlib.PurePosixPath(target).name.lower()
-    candidates = by_base.get(base, [])
+    candidates = by_base.get(target.lower(), []) or by_base.get(base, [])
     if len(candidates) == 1:
         return candidates[0], "unique-basename", []
     if len(candidates) > 1:
@@ -201,7 +176,10 @@ def main() -> int:
     by_base: dict[str, list[dict]] = defaultdict(list)
     for record in records:
         by_rel[record["rel_no_ext"].lower()].append(record)
-        by_base[record["basename"].lower()].append(record)
+        names = {record["basename"], str(record["name"])}
+        names.update(record["frontmatter"].get("aliases") or [])
+        for name in {norm(str(value)).lower() for value in names}:
+            by_base[name].append(record)
 
     errors: list[dict] = []
     warnings: list[dict] = []
@@ -230,7 +208,7 @@ def main() -> int:
             warnings.append({"kind": "legacy-affiliation-field", "source": source, "detail": "prefer affiliations/current_affiliations"})
         if record["type"] == "person" and not fm.get("name"):
             warnings.append({"kind": "person-missing-name", "source": source})
-        if record["type"] == "project" and not REPO_RE.search(record["text"]):
+        if record["type"] == "project" and fm.get("code_availability") not in {"closed", "unconfirmed"} and not REPO_RE.search(record["text"]):
             warnings.append({"kind": "project-missing-official-repo", "source": source})
         if record["type"] == "person" and not URL_RE.search(record["text"]):
             warnings.append({"kind": "person-missing-source-url", "source": source})

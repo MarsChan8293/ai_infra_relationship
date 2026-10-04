@@ -13,6 +13,7 @@ integrations: [Mooncake, SGLang, vLLM]
 last_verified: "2026-09"
 linked_companies:
   - "company/月之暗面/月之暗面"
+code_availability: public
 ---
 # Checkpoint Engine
 

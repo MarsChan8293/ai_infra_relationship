@@ -31,6 +31,7 @@ integrations:
   - "SGLang"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # ModelSphere
 ## 项目定位

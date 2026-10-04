@@ -15,9 +15,10 @@ linked_companies:
   - "company/腾讯/腾讯"
 repository: https://github.com/taco-project/FlexKV
 open_source: true
-layer: distributed-kv-cache
-areas: [kv-cache, distributed-storage, multi-level-cache, rdma, data-movement, llm-inference]
+layer: kv-cache
+areas: ["kv-cache", "distributed-storage", "multi-level-cache", "rdma", "data-movement", "llm-inference", "distributed-kv-cache"]
 last_verified: "2026-09"
+code_availability: public
 ---
 # FlexKV
 

@@ -8,6 +8,8 @@ The generated files are deterministic and safe to commit.
 
 from __future__ import annotations
 
+from graph_common import read_frontmatter
+
 import argparse
 import hashlib
 import json
@@ -85,11 +87,8 @@ def recover_block_lists(text: str) -> dict[str, list[str]]:
 def normalize_frontmatter(node: dict, source_text: str) -> tuple[str, dict]:
     raw_type = str(node.get("type") or "note")
     node_type = TYPE_ALIASES.get(raw_type, raw_type)
-    data = dict(node.get("frontmatter") or {})
+    data = read_frontmatter(source_text)
 
-    # Restore multiline lists that the legacy graph parser cannot represent.
-    for key, items in recover_block_lists(source_text).items():
-        data[key] = items
 
     data["type"] = node_type
     if not data.get("name"):

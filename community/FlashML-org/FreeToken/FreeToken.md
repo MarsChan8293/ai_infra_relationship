@@ -8,10 +8,11 @@ linked_people:
   - "university/上海交通大学/Xiaoze Fan"
 repository: https://github.com/FlashML-org/FreeToken
 open_source: true
-layer: edge-moe-serving
-areas: [llm-inference, moe-inference, edge-inference, cpu-gpu-coexecution, expert-caching, kv-cache, memory-management, quantization, cuda-kernels, agent-serving]
+layer: inference-engine
+areas: ["llm-inference", "moe-inference", "edge-inference", "cpu-gpu-coexecution", "expert-caching", "kv-cache", "memory-management", "quantization", "cuda-kernels", "agent-serving", "edge-moe-serving"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # FreeToken
 

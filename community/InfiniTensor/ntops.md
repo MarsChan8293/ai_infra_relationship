@@ -3,14 +3,15 @@ type: project
 name: ntops
 linked_people:
   - "community/InfiniTensor/GordonYang1"
-layer: gpu-kernels
+layer: kernel
 open_source: true
 repository: https://github.com/InfiniTensor/ntops
-areas: [gpu-kernels, llm-operators, ninetoothed, kernel-dsl]
+areas: ["gpu-kernels", "llm-operators", "ninetoothed", "kernel-dsl"]
 people:
   - "community/InfiniTensor/GordonYang1"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # ntops
 

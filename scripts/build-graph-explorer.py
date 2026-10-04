@@ -123,7 +123,8 @@ def main() -> int:
         return 1
 
     # Merge ordinary wikilinks and typed relations by unordered node pair. If a
-    # typed relation exists, it replaces the generic `wikilink` filter for that
+    # Original directed assertions, times and provenance are preserved within each
+    # visual pair. A typed relation replaces the generic `wikilink` filter for that
     # pair so relation-type filtering behaves as users expect.
     merged: dict[tuple[str, str], dict] = {}
     for edge in wiki_edges:
@@ -131,7 +132,7 @@ def main() -> int:
         if source not in node_map or target not in node_map or source == target:
             continue
         key = tuple(sorted((source, target)))
-        item = merged.setdefault(key, {"source": key[0], "target": key[1], "types": set(), "typed": False})
+        item = merged.setdefault(key, {"source": key[0], "target": key[1], "types": set(), "typed": False, "assertions": []})
         item["types"].add("wikilink")
 
     for edge in typed_edges:
@@ -139,7 +140,8 @@ def main() -> int:
         if source not in node_map or target not in node_map or source == target:
             continue
         key = tuple(sorted((source, target)))
-        item = merged.setdefault(key, {"source": key[0], "target": key[1], "types": set(), "typed": False})
+        item = merged.setdefault(key, {"source": key[0], "target": key[1], "types": set(), "typed": False, "assertions": []})
+        item["assertions"].append(dict(edge))
         item["typed"] = True
         item["types"].discard("wikilink")
         for relation_type in edge.get("relation_types") or []:
@@ -153,6 +155,7 @@ def main() -> int:
             "target": item["target"],
             "types": sorted(item["types"]),
             "typed": item["typed"],
+            "assertions": item["assertions"],
         }
         for item in merged.values()
     ]
@@ -180,7 +183,8 @@ def main() -> int:
       <div class="section"><h3>焦点人物 / 节点</h3><input id="focusInput" type="text" list="nodeList" placeholder="输入 游凯超 / Kaichao You / vLLM…"/><datalist id="nodeList"></datalist><div class="row" style="margin-top:7px"><button id="focusBtn" class="primary">聚焦</button><button id="openBtn">打开页面</button></div></div>
       <div class="section"><h3>节点类型</h3><div id="typeFilters" class="filter-list"></div><div class="small" style="margin-top:6px">默认隐藏索引、普通笔记和人物镜像，减少重复节点。</div></div>
       <div class="section"><h3>关系类型</h3><div id="relationFilters" class="filter-list"></div><div class="small" style="margin-top:6px">已结构化的关系按真实 relation type 过滤；未结构化关系归为 wikilink。</div></div>
-      <div class="section"><h3>Path Finder</h3><input id="pathFrom" type="text" list="nodeList" placeholder="起点"/><input id="pathTo" type="text" list="nodeList" placeholder="终点" style="margin-top:6px"/><button id="pathBtn" class="primary" style="margin-top:7px">寻找最短路径</button><div id="pathResult" class="path-result small">路径计算会遵守当前节点/关系筛选条件。</div></div>
+      <div class="section"><h3>关系详情</h3><div id="edgeDetails" class="small">点击关系线查看方向、时间和证据。</div></div>
+      <div class="section"><h3>Path Finder</h3><label class="small">路径模式 <select id="pathMode"><option value="association">关联路径</option><option value="directed">有向关系路径</option></select></label><input id="pathFrom" type="text" list="nodeList" placeholder="起点"/><input id="pathTo" type="text" list="nodeList" placeholder="终点" style="margin-top:6px"/><button id="pathBtn" class="primary" style="margin-top:7px">寻找最短路径</button><div id="pathResult" class="path-result small">路径计算会遵守当前节点/关系筛选条件。</div></div>
       <div class="section"><h3>操作</h3><div class="small">点击节点：重新聚焦。双击节点：打开原页面。2-hop 邻域过大时，会优先保留 bridge score / degree 高的节点。</div></div>
       <div class="section"><h3>节点图例</h3><div id="legend" class="legend"></div></div>
     </aside>
@@ -222,14 +226,20 @@ function collect(){const levels=new Map([[focus,0]]),queue=[focus];while(queue.l
   if(ids.length>cap){const keep=new Set([focus]);for(const level of [1,2]){const part=ids.filter(id=>levels.get(id)===level).sort((a,b)=>scoreNode(b)-scoreNode(a));const allowance=level===1?Math.min(part.length,70):Math.max(0,cap-keep.size);part.slice(0,allowance).forEach(id=>keep.add(id))}ids=[...keep];status.textContent=`${hops}-hop 邻域较大，已优先显示 ${ids.length} 个高桥梁度节点。`;}else status.textContent=`当前焦点：${byId.get(focus)?.name||focus}`;
   const set=new Set(ids),visibleEdges=edges.filter(e=>set.has(e.source)&&set.has(e.target)&&edgeAllowed(e));return{ids,levels,edges:visibleEdges}}
 function positions(ids,levels){const p=new Map(),cx=550,cy=385;p.set(focus,{x:cx,y:cy});for(const level of [1,2]){const ring=ids.filter(id=>levels.get(id)===level).sort((a,b)=>scoreNode(b)-scoreNode(a));const radius=level===1?220:345;ring.forEach((id,i)=>{const angle=-Math.PI/2+(Math.PI*2*i/Math.max(1,ring.length));p.set(id,{x:cx+Math.cos(angle)*radius,y:cy+Math.sin(angle)*radius})})}return p}
-function render(){const view=collect(),pos=positions(view.ids,view.levels);svg.innerHTML='';const edgeLayer=document.createElementNS('http://www.w3.org/2000/svg','g');for(const e of view.edges){const a=pos.get(e.source),b=pos.get(e.target);if(!a||!b)continue;const line=document.createElementNS('http://www.w3.org/2000/svg','line');line.setAttribute('x1',a.x);line.setAttribute('y1',a.y);line.setAttribute('x2',b.x);line.setAttribute('y2',b.y);line.setAttribute('class','edge '+(e.typed?'typed':''));const tt=document.createElementNS('http://www.w3.org/2000/svg','title');tt.textContent=(e.types||[]).join(', ');line.appendChild(tt);edgeLayer.appendChild(line)}svg.appendChild(edgeLayer);
+const directionalTypes=new Set(['advisor','student','project-concept-support','project-concept-integration']);
+const relationNames={advisor:'导师为',student:'学生为','project-concept-support':'实现/支持','project-concept-integration':'通过集成使用',coworker:'同期共事',cofounder:'共同创业','paper-coauthor':'论文合著','project-integration':'项目集成'};
+function assertionName(a){return `${byId.get(a.source)?.name||a.source} → ${(a.relation_types||[]).map(t=>relationNames[t]||t).join(' / ')} → ${byId.get(a.target)?.name||a.target}`}
+function activeAssertions(e){return (e.assertions||[]).filter(a=>(a.relation_types||[]).some(t=>enabledRelations.has(t)))}
+function directedAssertion(a){return (a.relation_types||[]).some(t=>directionalTypes.has(t))}
+function showEdge(e){const box=document.getElementById('edgeDetails');box.innerHTML='';const assertions=activeAssertions(e);if(!assertions.length){box.textContent='普通页面链接；尚未声明结构化关系。';return}for(const a of assertions){const div=document.createElement('div');div.style.marginBottom='12px';const title=document.createElement('strong');title.textContent=assertionName(a);div.appendChild(title);const info=document.createElement('p');info.textContent=`时间：${a.start||'未记录'} — ${a.end||'未记录'}；置信度：${a.confidence||'未记录'}；核验时间：${a.last_verified||'未记录'}`;div.appendChild(info);const provenance=a.provenance||{};if(provenance.source_path){const source=document.createElement('a');source.href=byId.get(provenance.source_path.replace(/\.md$/,''))?.href||'#';source.textContent=`来源页：${provenance.source_path} · ${provenance.field||''}${provenance.line?' · 行 '+provenance.line:''}`;div.appendChild(source)}for(const [label,urls] of [['直接证据',a.evidence||[]],['页面参考资料（未逐条验证）',provenance.source_urls||[]]]){if(!urls.length)continue;const p=document.createElement('p');p.textContent=label;div.appendChild(p);for(const url of urls){if(!/^https?:\/\//i.test(url))continue;const link=document.createElement('a');link.href=url;link.textContent=url;link.target='_blank';link.rel='noopener noreferrer';link.style.display='block';link.style.overflowWrap='anywhere';div.appendChild(link)}}box.appendChild(div)}}
+function render(){const view=collect(),pos=positions(view.ids,view.levels);svg.innerHTML='<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs>';const edgeLayer=document.createElementNS('http://www.w3.org/2000/svg','g');for(const e of view.edges){const a=pos.get(e.source),b=pos.get(e.target);if(!a||!b)continue;const line=document.createElementNS('http://www.w3.org/2000/svg','line');const dx=b.x-a.x,dy=b.y-a.y,length=Math.hypot(dx,dy)||1;line.setAttribute('x1',a.x+dx/length*14);line.setAttribute('y1',a.y+dy/length*14);line.setAttribute('x2',b.x-dx/length*14);line.setAttribute('y2',b.y-dy/length*14);line.setAttribute('class','edge '+(e.typed?'typed':''));const tt=document.createElementNS('http://www.w3.org/2000/svg','title');const assertions=activeAssertions(e);tt.textContent=assertions.map(assertionName).join('\n')||(e.types||[]).join(', ');if(assertions.some(v=>directedAssertion(v)&&v.source===e.source))line.setAttribute('marker-end','url(#arrow)');if(assertions.some(v=>directedAssertion(v)&&v.source===e.target))line.setAttribute('marker-start','url(#arrow)');line.setAttribute('tabindex','0');line.setAttribute('role','button');line.setAttribute('aria-label',tt.textContent);line.style.cursor='pointer';line.onclick=()=>showEdge(e);line.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();showEdge(e)}};line.appendChild(tt);edgeLayer.appendChild(line)}svg.appendChild(edgeLayer);
   const nodeLayer=document.createElementNS('http://www.w3.org/2000/svg','g');for(const id of view.ids){const n=byId.get(id),p=pos.get(id);if(!n||!p)continue;const g=document.createElementNS('http://www.w3.org/2000/svg','g');g.setAttribute('class','node '+(id===focus?'focus':''));g.setAttribute('transform',`translate(${p.x},${p.y})`);const c=document.createElementNS('http://www.w3.org/2000/svg','circle');const r=id===focus?12:Math.max(5,Math.min(9,5+Math.log2((n.degree||0)+1)));c.setAttribute('r',r);c.setAttribute('fill',colors[n.type]||colors.other);g.appendChild(c);const t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('x',r+5);t.setAttribute('y','4');t.textContent=n.name.length>24?n.name.slice(0,23)+'…':n.name;g.appendChild(t);const tt=document.createElementNS('http://www.w3.org/2000/svg','title');tt.textContent=`${n.name}\n${n.type} · degree ${n.degree||0} · bridge ${n.bridgeScore||0}`;g.appendChild(tt);g.onclick=()=>setFocus(id);g.ondblclick=()=>location.href=n.href;nodeLayer.appendChild(g)}svg.appendChild(nodeLayer);stats.textContent=`${view.ids.length} nodes · ${view.edges.length} edges · ${hops}-hop`;focusInput.value=byId.get(focus)?.name||focus;history.replaceState(null,'','?focus='+encodeURIComponent(focus));}
 function setFocus(id){if(!byId.has(id))return;focus=id;render()}
 function buildFilters(){const typeBox=document.getElementById('typeFilters');typeBox.innerHTML='';for(const type of nodeTypes){const b=document.createElement('button');b.className='chip'+(enabledTypes.has(type)?' active':'');b.textContent=typeNames[type]||type;b.onclick=()=>{enabledTypes.has(type)?enabledTypes.delete(type):enabledTypes.add(type);b.classList.toggle('active',enabledTypes.has(type));render()};typeBox.appendChild(b)}const relBox=document.getElementById('relationFilters');relBox.innerHTML='';for(const type of relationTypes){const b=document.createElement('button');b.className='chip'+(enabledRelations.has(type)?' active':'');b.textContent=type;b.onclick=()=>{enabledRelations.has(type)?enabledRelations.delete(type):enabledRelations.add(type);b.classList.toggle('active',enabledRelations.has(type));render()};relBox.appendChild(b)}}
 function fillNodeList(){const options=[],seen=new Set();for(const n of nodes.slice().sort((a,b)=>a.name.localeCompare(b.name))){for(const label of [n.name,...(n.aliases||[])]){if(!label||seen.has(label))continue;seen.add(label);options.push(`<option value="${esc(label)}">${esc(n.type)} · ${esc(n.id)}</option>`)}}nodeList.innerHTML=options.join('')}
 function setHop(value){hops=value;document.getElementById('hop1').classList.toggle('active',value===1);document.getElementById('hop2').classList.toggle('active',value===2);render()}
-function bfs(from,to){const start=findNode(from),goal=findNode(to);if(!start||!goal)return{error:'找不到起点或终点。'};const q=[start.id],prev=new Map([[start.id,null]]),via=new Map();while(q.length){const cur=q.shift();if(cur===goal.id)break;for(const item of filteredNeighbors(cur)){if(prev.has(item.id))continue;prev.set(item.id,cur);via.set(item.id,item.edge);q.push(item.id)}}if(!prev.has(goal.id))return{error:'当前筛选条件下没有可达路径。'};const ids=[];let cur=goal.id;while(cur){ids.push(cur);cur=prev.get(cur)}ids.reverse();return{ids,via}}
-function showPath(){const result=bfs(document.getElementById('pathFrom').value,document.getElementById('pathTo').value),box=document.getElementById('pathResult');if(result.error){box.textContent=result.error;return}box.innerHTML='';result.ids.forEach((id,i)=>{if(i){const e=result.via.get(id),sep=document.createElement('span');sep.textContent='  → '+((e?.types||[]).join('/')||'link')+' →  ';box.appendChild(sep)}const a=document.createElement('a');a.className='path-node';a.textContent=byId.get(id)?.name||id;a.onclick=ev=>{ev.preventDefault();setFocus(id)};a.href='#';box.appendChild(a)})}
+function bfs(from,to){const start=findNode(from),goal=findNode(to);if(!start||!goal)return{error:'找不到起点或终点。'};const q=[start.id],prev=new Map([[start.id,null]]),via=new Map();while(q.length){const cur=q.shift();if(cur===goal.id)break;for(const item of filteredNeighbors(cur)){if(document.getElementById('pathMode').value==='directed'){const aa=activeAssertions(item.edge);if(!aa.length||!aa.some(a=>!directedAssertion(a)||a.source===cur))continue}if(prev.has(item.id))continue;prev.set(item.id,cur);via.set(item.id,item.edge);q.push(item.id)}}if(!prev.has(goal.id))return{error:'当前筛选条件下没有可达路径。'};const ids=[];let cur=goal.id;while(cur){ids.push(cur);cur=prev.get(cur)}ids.reverse();return{ids,via}}
+function showPath(){const result=bfs(document.getElementById('pathFrom').value,document.getElementById('pathTo').value),box=document.getElementById('pathResult');if(result.error){box.textContent=result.error;return}box.innerHTML='';result.ids.forEach((id,i)=>{if(i){const e=result.via.get(id),sep=document.createElement('span');const aa=activeAssertions(e),a=aa.find(a=>a.source===result.ids[i-1])||aa[0];let label=(e?.types||[]).join('/')||'页面链接';if(a){label=(a.relation_types||[]).map(t=>{if(a.source!==result.ids[i-1])return t==='advisor'?'学生为':t==='student'?'导师为':t==='project-concept-support'?'由项目实现/支持':relationNames[t]||t;return relationNames[t]||t}).join('/')}sep.textContent='  → '+label+' →  ';box.appendChild(sep)}const a=document.createElement('a');a.className='path-node';a.textContent=byId.get(id)?.name||id;a.onclick=ev=>{ev.preventDefault();setFocus(id)};a.href='#';box.appendChild(a)})}
 function resetDefault(){enabledTypes=new Set(defaultTypes);enabledRelations=new Set(relationTypes);buildFilters();render()}
 function showAllTypes(){enabledTypes=new Set(nodeTypes);buildFilters();render()}
 fillNodeList();buildFilters();document.getElementById('legend').innerHTML=nodeTypes.map(t=>`<div><span class="dot" style="background:${colors[t]||colors.other}"></span>${esc(typeNames[t]||t)}</div>`).join('');
@@ -240,7 +250,7 @@ document.getElementById('focusBtn').onclick=()=>{const n=findNode(focusInput.val
     (output / "index.html").write_text(html, encoding="utf-8")
     print(
         f"Graph explorer: {len(payload_nodes)} nodes, {len(payload_edges)} merged edges, "
-        f"{len(payload_nodes)} verified node routes -> {output}"
+        f"routes {'verified' if public_root else 'unchecked (no public root)'} -> {output}"
     )
     return 0
 

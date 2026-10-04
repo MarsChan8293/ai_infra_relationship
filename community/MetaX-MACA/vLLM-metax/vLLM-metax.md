@@ -6,10 +6,11 @@ linked_people:
   - "company/沐曦/Xin Li"
 companies: ["沐曦"]
 company_relation: company-led
-layer: llm-serving-hardware-backend
+layer: runtime
 open_source: true
 linked_companies:
   - "company/沐曦/沐曦"
+code_availability: unconfirmed
 ---
 # vLLM-metax
 

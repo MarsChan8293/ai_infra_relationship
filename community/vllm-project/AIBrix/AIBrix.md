@@ -34,6 +34,7 @@ integrations:
   - "vLLM"
 linked_companies:
   - "company/字节跳动/字节跳动"
+code_availability: public
 ---
 # AIBrix
 

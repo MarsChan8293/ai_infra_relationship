@@ -16,6 +16,7 @@ hardware: [nvidia]
 integrations: [vLLM, SGLang, OME, genai-bench]
 linked_companies:
   - "company/Novita AI/Novita AI"
+code_availability: public
 ---
 # LLM Autotuner
 

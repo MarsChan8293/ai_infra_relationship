@@ -20,6 +20,7 @@ hardware:
 integrations: []
 linked_companies:
   - "company/一流科技/一流科技"
+code_availability: public
 ---
 # OneFlow
 

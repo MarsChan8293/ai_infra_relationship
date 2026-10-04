@@ -5,15 +5,16 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
 companies: ["深度求索"]
 company_relation: company-led
-layer: moe-load-balancing
+layer: scheduler
 open_source: true
 repository: https://github.com/deepseek-ai/LPLB
-areas: [moe, expert-parallel, load-balancing, gpu-systems, nvshmem, inference]
+areas: ["moe", "expert-parallel", "load-balancing", "gpu-systems", "nvshmem", "inference", "moe-load-balancing"]
 people:
   - "community/deepseek-ai/DeepSeek-Infra/Huanqi Cao"
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # LPLB
 

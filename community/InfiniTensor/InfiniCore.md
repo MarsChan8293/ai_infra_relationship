@@ -8,10 +8,10 @@ linked_people:
   - "community/InfiniTensor/zhangyue207"
   - "university/启元实验室/潘泽众 Zezhong Pan"
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
-layer: heterogeneous-compute
+layer: runtime
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniCore
-areas: [heterogeneous-compute, runtime, operators, collective-communication, hardware-backend, llm-inference]
+areas: ["heterogeneous-compute", "runtime", "operators", "collective-communication", "hardware-backend", "llm-inference"]
 people:
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
   - "university/启元实验室/潘泽众 Zezhong Pan"
@@ -21,6 +21,7 @@ people:
   - "community/InfiniTensor/GordonYang1"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniCore
 

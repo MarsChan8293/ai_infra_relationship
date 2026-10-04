@@ -5,7 +5,8 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2603.24517
 areas: ["agentic-kernel-optimization", "evolutionary-search", "agentic-variation-operators", "attention", "cuda", "ptx", "execution-feedback"]
 hardware: ["nvidia"]
@@ -13,6 +14,7 @@ companies: ["NVIDIA"]
 last_verified: "2026-10"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
+code_availability: unconfirmed
 ---
 
 # AVO

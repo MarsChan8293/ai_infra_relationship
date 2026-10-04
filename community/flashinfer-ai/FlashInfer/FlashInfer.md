@@ -39,6 +39,7 @@ hardware:
 integrations:
   - "vLLM"
   - "SGLang"
+code_availability: public
 ---
 # FlashInfer
 

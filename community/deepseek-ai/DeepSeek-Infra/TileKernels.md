@@ -17,10 +17,10 @@ linked_concepts:
   - "concept/quantization/Weight-Activation Quantization"
 companies: ["深度求索"]
 company_relation: company-led
-layer: gpu-kernels
+layer: kernel
 open_source: true
 repository: https://github.com/deepseek-ai/TileKernels
-areas: [gpu-kernels, tilelang, moe, quantization, fp8, fp4, routing, engram]
+areas: ["gpu-kernels", "tilelang", "moe", "quantization", "fp8", "fp4", "routing", "engram"]
 people:
   - "community/deepseek-ai/DeepSeek-Infra/Chenhao Xu"
   - "community/deepseek-ai/DeepSeek-Infra/Xiangwen Wang"
@@ -32,6 +32,7 @@ people:
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # TileKernels
 

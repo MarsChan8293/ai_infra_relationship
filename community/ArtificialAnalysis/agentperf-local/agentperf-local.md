@@ -25,6 +25,7 @@ integrations:
   - "Splash"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # agentperf-local
 ## 项目定位

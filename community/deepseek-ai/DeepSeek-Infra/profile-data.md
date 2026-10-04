@@ -4,13 +4,14 @@ name: profile-data
 linked_people: []
 companies: ["深度求索"]
 company_relation: company-led
-layer: systems-profiling
+layer: benchmark
 open_source: true
 repository: https://github.com/deepseek-ai/profile-data
-areas: [profiling, moe, expert-parallel, prefill, decode, overlap, production-inference]
+areas: ["profiling", "moe", "expert-parallel", "prefill", "decode", "overlap", "production-inference", "systems-profiling"]
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # profile-data
 

@@ -2,17 +2,14 @@
 type: project
 name: "XGrammar"
 linked_people: []
-layer: "structured-generation"
+layer: optimization
 status: active
 repository: https://github.com/mlc-ai/xgrammar
 docs: https://xgrammar.mlc.ai/
-areas:
-  - "structured-generation"
-  - "constrained-decoding"
-  - "llm-inference"
-  - "speculative-decoding"
+areas: ["structured-generation", "constrained-decoding", "llm-inference", "speculative-decoding"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # XGrammar
 

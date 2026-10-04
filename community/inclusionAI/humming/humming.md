@@ -16,6 +16,7 @@ areas: [gemm, quantization, moe-kernels, w4a16, w4a8, jit]
 hardware: [nvidia]
 integrations: [vLLM]
 linked_companies: []
+code_availability: public
 ---
 # Humming
 

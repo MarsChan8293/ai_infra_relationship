@@ -26,6 +26,7 @@ hardware:
 integrations: []
 linked_companies:
   - "company/商汤科技/商汤科技"
+code_availability: public
 ---
 # LightLLM
 

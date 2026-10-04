@@ -20,6 +20,7 @@ linked_companies:
   - "company/NVIDIA/NVIDIA"
   - "company/Together AI/Together AI"
   - "company/阿里巴巴/阿里巴巴"
+code_availability: public
 ---
 # TokenSpeed
 

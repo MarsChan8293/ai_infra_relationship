@@ -5,7 +5,8 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2607.23089
 areas: ["agentic-kernel-optimization", "triton-ascend", "compiler-feedback", "ir-diagnosis", "profiling", "hierarchical-diagnosis"]
 hardware: ["ascend"]
@@ -13,6 +14,7 @@ companies: ["华为"]
 last_verified: "2026-10"
 linked_companies:
   - "company/华为/华为"
+code_availability: unconfirmed
 ---
 
 # Compiler-Grounded Hierarchical Diagnosis

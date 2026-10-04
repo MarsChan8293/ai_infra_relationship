@@ -19,6 +19,7 @@ hardware: [nvidia]
 integrations: [vLLM, Humming, CUTLASS]
 linked_companies:
   - "company/Novita AI/Novita AI"
+code_availability: public
 ---
 # Chord
 

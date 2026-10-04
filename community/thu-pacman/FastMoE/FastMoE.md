@@ -8,12 +8,13 @@ linked_people:
   - "company/智谱/曾奥涵 Aohan Zeng"
   - "company/月之暗面/杨植麟 Zhilin Yang"
   - "company/清程极智/翟季冬 Jidong Zhai"
-areas: [moe, distributed-training, all-to-all-communication, load-balancing, large-model-training]
-layer: distributed-moe-training
+areas: ["moe", "distributed-training", "all-to-all-communication", "load-balancing", "large-model-training", "distributed-moe-training"]
+layer: training
 open_source: true
 repository: https://github.com/laekov/fastmoe
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # FastMoE
 

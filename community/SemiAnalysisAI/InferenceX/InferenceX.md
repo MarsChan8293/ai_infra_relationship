@@ -33,6 +33,7 @@ companies: ["SemiAnalysis"]
 last_verified: "2026-09"
 linked_companies:
   - "company/SemiAnalysis/SemiAnalysis"
+code_availability: public
 ---
 # InferenceX
 

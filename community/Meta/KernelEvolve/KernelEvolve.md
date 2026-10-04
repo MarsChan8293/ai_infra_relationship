@@ -5,7 +5,8 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/
 areas: ["agentic-kernel-optimization", "tree-search", "evolutionary-search", "optimization-memory", "production-kernels", "heterogeneous-hardware"]
 hardware: ["nvidia", "amd", "mtia", "cpu"]
@@ -13,6 +14,7 @@ companies: ["Meta"]
 last_verified: "2026-10"
 linked_companies:
   - "company/Meta/Meta"
+code_availability: unconfirmed
 ---
 
 # KernelEvolve

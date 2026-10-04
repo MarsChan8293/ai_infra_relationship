@@ -19,6 +19,10 @@ on:
       - "docs/research-action-planner.md"
       - "docs/research-operators.md"
       - "scripts/audit-graph.py"
+      - "scripts/graph_common.py"
+      - "scripts/requirements.txt"
+      - "scripts/audit-node-schema.py"
+      - "scripts/test-graph-quality.py"
       - "scripts/generate-research-queue.py"
       - "scripts/plan-research.py"
       - "scripts/plan-research-v3.py"
@@ -65,6 +69,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install graph dependencies
+        run: python3 -m pip install --disable-pip-version-check -r scripts/requirements.txt
+
       - name: Build pre-migration graph inventory
         run: python3 scripts/audit-graph.py --root . --output generated
 
@@ -97,6 +109,11 @@ jobs:
 
       - name: Rebuild graph inventory after repair
         run: python3 scripts/audit-graph.py --root . --output generated
+
+      - name: Validate node schemas and graph regressions
+        run: |
+          python3 scripts/audit-node-schema.py --root . --generated generated
+          python3 scripts/test-graph-quality.py
 
       - name: Validate software project migration
         run: python3 scripts/audit-software-project-migration.py --root . --generated generated
@@ -205,7 +222,7 @@ jobs:
             company community university concept
             schema/nodes schema/node-manifest.json
             generated/nodes.json generated/edges.json generated/metrics.json
-            generated/audit.json generated/graph.json
+            generated/audit.json generated/graph.json generated/node-schema-audit.json
             generated/typed-edges.json generated/typed-relations-audit.json
             generated/relation-coverage.json generated/typed-relation-coverage.md
             generated/research-queue.md generated/research-actions.json generated/research-priority.json

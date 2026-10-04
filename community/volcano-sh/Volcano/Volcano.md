@@ -24,6 +24,7 @@ areas:
 integrations:
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Volcano
 

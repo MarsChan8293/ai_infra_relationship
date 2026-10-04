@@ -22,6 +22,7 @@ hardware:
 integrations: []
 linked_companies:
   - "company/潞晨科技/潞晨科技"
+code_availability: public
 ---
 # Colossal-AI
 

@@ -16,6 +16,7 @@ companies: ["华为"]
 last_verified: "2026-10"
 linked_companies:
   - "company/华为/华为"
+code_availability: public
 ---
 
 # CANNBot

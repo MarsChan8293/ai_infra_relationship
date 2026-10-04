@@ -7,10 +7,11 @@ linked_people:
   - "company/天数智芯/shengyan.zhao"
 companies: ["天数智芯"]
 company_relation: company-originated
-layer: inference-model-and-runtime-integration
+layer: runtime
 open_source: true
 linked_companies:
   - "company/天数智芯/天数智芯"
+code_availability: unconfirmed
 ---
 # DeepSparkInference
 

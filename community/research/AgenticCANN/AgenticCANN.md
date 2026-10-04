@@ -5,12 +5,14 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
-status: research
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2607.26661
 areas: ["agentic-kernel-optimization", "ascendc", "knowledge-augmentation", "agentic-evolution", "operator-generation", "runtime-feedback"]
 hardware: ["ascend"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: unconfirmed
 ---
 
 # AgenticCANN

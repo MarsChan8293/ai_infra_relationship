@@ -41,6 +41,7 @@ integrations:
 linked_companies:
   - "company/HPE/HPE"
   - "company/NVIDIA/NVIDIA"
+code_availability: public
 ---
 # NIXL
 

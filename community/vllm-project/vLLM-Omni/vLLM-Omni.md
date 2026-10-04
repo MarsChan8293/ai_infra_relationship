@@ -9,10 +9,10 @@ linked_people:
   - "community/vllm-project/vLLM/Roger Wang"
   - "university/香港中文大学/James Cheng"
   - "university/香港中文大学/Peiqi Yin"
-layer: multimodal-serving
+layer: inference-engine
 open_source: true
 repository: https://github.com/vllm-project/vllm-omni
-areas: [multimodal-inference, disaggregated-inference, diffusion-serving, realtime-serving, data-transfer, reinforcement-learning, npu, serving]
+areas: ["multimodal-inference", "disaggregated-inference", "diffusion-serving", "realtime-serving", "data-transfer", "reinforcement-learning", "npu", "serving", "multimodal-serving"]
 people:
   - "community/vllm-project/vLLM/Roger Wang"
   - "community/vllm-project/vLLM-Omni/Gao Han"
@@ -24,6 +24,7 @@ people:
 related_projects: ["vLLM", "vLLM-Ascend", "MindIE-SD", "YuanRong DataSystem", "YuanRong TransferEngine", "Mooncake", "VeRL-Omni", "LiveServe"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # vLLM-Omni
 

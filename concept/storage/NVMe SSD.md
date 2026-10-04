@@ -47,7 +47,7 @@ NVMe SSD 是通过 PCIe/NVMe 协议提供高并发、低延迟块存储的固态
 
 ## 与普通 SSD 使用的区别
 
-LLM serving 的 KV block 往往小而碎，若 CPU 负责大量细粒度 I/O submission，软件开销可能先于 SSD 带宽成为瓶颈。因此 [[Direct Storage I/O]] 与 GPU-centric storage 会变得重要。
+LLM serving 的 KV block 往往小而碎，若 CPU 负责大量细粒度 I/O submission，软件开销可能先于 SSD 带宽成为瓶颈。因此 [[concept/storage/Direct Storage IO|Direct Storage I/O]] 与 GPU-centric storage 会变得重要。
 
 ## 项目实现
 

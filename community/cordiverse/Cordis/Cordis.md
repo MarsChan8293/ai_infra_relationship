@@ -15,6 +15,7 @@ areas:
   - "reversible-effects"
 integrations: []
 linked_companies: []
+code_availability: public
 ---
 # Cordis
 

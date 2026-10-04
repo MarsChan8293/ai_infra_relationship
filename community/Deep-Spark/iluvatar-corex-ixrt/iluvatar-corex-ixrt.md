@@ -6,10 +6,11 @@ organization: Deep-Spark
 linked_people: []
 companies: ["天数智芯"]
 company_relation: company-led
-layer: inference-runtime
+layer: runtime
 open_source: true
 linked_companies:
   - "company/天数智芯/天数智芯"
+code_availability: unconfirmed
 ---
 # iluvatar-corex-ixrt / ixRT
 

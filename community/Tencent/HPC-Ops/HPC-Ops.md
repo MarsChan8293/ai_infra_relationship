@@ -12,6 +12,7 @@ hardware: [NVIDIA H20, SM90]
 last_verified: "2026-09"
 linked_companies:
   - "company/腾讯/腾讯"
+code_availability: public
 ---
 # HPC-Ops
 

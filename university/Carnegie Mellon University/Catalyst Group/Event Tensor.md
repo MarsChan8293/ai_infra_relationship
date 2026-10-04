@@ -4,18 +4,14 @@ name: "Event Tensor"
 linked_people: []
 linked_concepts:
   - "concept/compiler/Kernel Compiler Pipeline"
-layer: "compiler-runtime"
-status: research
+layer: compiler
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2604.13327
-areas:
-  - "dynamic-megakernel"
-  - "persistent-kernel"
-  - "dynamic-shapes"
-  - "data-dependent-computation"
-  - "compiler"
-  - "llm-inference"
+areas: ["dynamic-megakernel", "persistent-kernel", "dynamic-shapes", "data-dependent-computation", "compiler", "llm-inference", "compiler-runtime"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: unconfirmed
 ---
 
 # Event Tensor

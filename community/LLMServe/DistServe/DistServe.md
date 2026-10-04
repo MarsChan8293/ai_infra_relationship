@@ -6,12 +6,13 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu"
   - "company/深度求索/Yinmin Zhong"
   - "university/北京大学/Xin Jin"
-layer: disaggregated-llm-serving
+layer: distributed-serving
 open_source: true
 repository: https://github.com/LLMServe/DistServe
-areas: [llm-serving, prefill-decode-disaggregation, scheduling, slo, distributed-inference, kv-cache]
+areas: ["llm-serving", "prefill-decode-disaggregation", "scheduling", "slo", "distributed-inference", "kv-cache", "disaggregated-llm-serving"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # DistServe
 

@@ -11,6 +11,7 @@ open_source: true
 areas: [ai-infrastructure, distributed-computing, machine-learning-systems, training, serving]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Ray
 

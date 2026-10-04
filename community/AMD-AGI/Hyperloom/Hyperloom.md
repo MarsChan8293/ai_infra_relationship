@@ -15,6 +15,7 @@ companies: ["AMD"]
 last_verified: "2026-10"
 linked_companies:
   - "company/AMD/AMD"
+code_availability: public
 ---
 
 # Hyperloom

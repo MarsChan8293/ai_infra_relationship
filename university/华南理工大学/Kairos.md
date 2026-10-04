@@ -5,9 +5,9 @@ linked_people:
   - "university/华南理工大学/王新华 Xinhua Wang"
 companies: []
 company_relation: academic-research
-layer: cluster-scheduling
+layer: scheduler
 open_source: false
-areas: [deep-learning-scheduling, gpu-cluster, ai-compute-management, deterministic-scheduling, preemption, resource-management]
+areas: ["deep-learning-scheduling", "gpu-cluster", "ai-compute-management", "deterministic-scheduling", "preemption", "resource-management", "cluster-scheduling"]
 hardware: [GPU]
 governance: "SCUT ACAT academic research system"
 people:
@@ -15,6 +15,7 @@ people:
   - "university/华南理工大学/林伟伟 Weiwei Lin"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # Kairos
 

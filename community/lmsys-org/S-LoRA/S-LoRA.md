@@ -4,10 +4,10 @@ name: S-LoRA
 linked_people: []
 companies: []
 company_relation: research-community
-layer: adapter-serving
+layer: distributed-serving
 open_source: true
 repository: https://github.com/S-LoRA/S-LoRA
-areas: [llm-serving, lora, adapter-serving, memory-management, batching, cuda-kernels]
+areas: ["llm-serving", "lora", "adapter-serving", "memory-management", "batching", "cuda-kernels"]
 people:
   - "company/RadixArk/盛颖 Ying Sheng"
   - "university/UC Berkeley/Shiyi Cao"
@@ -19,6 +19,7 @@ people:
 governance: "LMSYS/Berkeley research project; upstream repository is archived"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # S-LoRA
 

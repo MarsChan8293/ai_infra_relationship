@@ -11,10 +11,10 @@ linked_people:
 linked_concepts:
   - "concept/hardware/interconnect/Hardware Interconnect"
   - "concept/hardware/interconnect/NVLink"
-layer: data-movement
+layer: communication
 open_source: true
 repository: https://github.com/kvcache-ai/Mooncake
-areas: [data-movement, rdma, heterogeneous-interconnect, fault-tolerance, disaggregated-serving, reinforcement-learning]
+areas: ["data-movement", "rdma", "heterogeneous-interconnect", "fault-tolerance", "disaggregated-serving", "reinforcement-learning"]
 people:
   - "community/kvcache-ai/Mooncake/任峰 Feng Ren"
   - "university/清华大学/Ruoyu Qin"
@@ -27,6 +27,7 @@ people:
 governance: Mooncake subproject / Transfer Engine NEXT
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # TENT
 

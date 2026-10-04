@@ -1,5 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
+import { execFileSync } from "node:child_process"
+import { fileURLToPath } from "node:url"
 
 const contentRoot = path.resolve(process.argv[2] ?? "")
 if (!contentRoot || !fs.existsSync(contentRoot)) {
@@ -82,6 +84,14 @@ function addIndex(map, key, record) {
   map.set(key, items)
 }
 
+const metadata = JSON.parse(execFileSync("python3", ["-c", `
+import sys,json,pathlib
+payload=json.load(sys.stdin)
+sys.path.insert(0,payload["scriptsDir"])
+from graph_common import read_frontmatter
+print(json.dumps({file:read_frontmatter(pathlib.Path(file).read_text(encoding="utf-8")) for file in payload["files"]},ensure_ascii=False))
+`], {input: JSON.stringify({scriptsDir: path.dirname(fileURLToPath(import.meta.url)), files}), encoding: "utf8", maxBuffer: 8 * 1024 * 1024}))
+
 for (const record of records) {
   const relAliases = new Set([record.relNoExt, record.originalRelNoExt])
   for (const relAlias of relAliases) {
@@ -89,8 +99,10 @@ for (const record of records) {
     addIndex(byRelLower, relAlias.toLowerCase(), record)
   }
 
-  const baseAliases = new Set([record.base, record.originalBase])
+  const meta = metadata[record.file] ?? {}
+  const baseAliases = new Set([record.base, record.originalBase, meta.name, ...(meta.aliases ?? [])])
   for (const baseAlias of baseAliases) {
+    if (typeof baseAlias !== "string" || !baseAlias) continue
     addIndex(byBase, baseAlias, record)
     addIndex(byBaseLower, baseAlias.toLowerCase(), record)
   }
@@ -138,7 +150,7 @@ function resolveTarget(targetRaw, source) {
   }
 
   const base = path.posix.basename(target)
-  let candidates = byBase.get(base) ?? []
+  let candidates = byBase.get(target) ?? byBaseLower.get(target.toLowerCase()) ?? byBase.get(base) ?? []
   if (candidates.length === 0) candidates = byBaseLower.get(base.toLowerCase()) ?? []
 
   if (candidates.length === 1) return { record: candidates[0], reason: "unique-basename" }

@@ -27,6 +27,7 @@ areas: [memory-pooling, data-movement, disaggregated-serving, kv-cache, rdma, as
 last_verified: "2026-09"
 linked_companies:
   - "company/华为/华为"
+code_availability: public
 ---
 # MemFabric
 

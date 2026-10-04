@@ -48,6 +48,7 @@ integrations:
   - "NIXL"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
+code_availability: public
 ---
 # NVIDIA Dynamo
 

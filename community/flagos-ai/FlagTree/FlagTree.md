@@ -40,6 +40,7 @@ integrations: []
 last_verified: "2026-09"
 linked_companies:
   - "company/杭州先进编译科技有限公司/杭州先进编译科技有限公司"
+code_availability: public
 ---
 # FlagTree
 

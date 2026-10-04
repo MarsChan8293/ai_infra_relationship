@@ -14,6 +14,7 @@ companies: ["字节跳动"]
 last_verified: "2026-10"
 linked_companies:
   - "company/字节跳动/字节跳动"
+code_availability: public
 ---
 
 # CUDA-Agent

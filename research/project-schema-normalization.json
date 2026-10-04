@@ -1,0 +1,375 @@
+{
+  "reason": "Normalize primary layers; preserve old detail in areas; distinguish maturity from lifecycle",
+  "changes": [
+    {
+      "source": "company/Together AI/Ladder Residual.md",
+      "old_layer": "tensor-parallel-inference",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "company/月之暗面/Seer.md",
+      "old_layer": "rl-rollout-serving",
+      "layer": "training"
+    },
+    {
+      "source": "company/爱特思/国产化人工智能算力平台异构并行加速项目.md",
+      "old_layer": "operator-optimization",
+      "layer": "kernel"
+    },
+    {
+      "source": "company/Intel/xFasterTransformer.md",
+      "old_layer": "cpu-llm-inference-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "company/Intel/OpenVINO.md",
+      "old_layer": "inference-runtime-toolkit",
+      "layer": "runtime"
+    },
+    {
+      "source": "company/Intel/OpenVINO GenAI.md",
+      "old_layer": "genai-inference-library",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCore.md",
+      "old_layer": "heterogeneous-compute",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniOps.md",
+      "old_layer": "gpu-kernels",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/InfiniTensor/ntops.md",
+      "old_layer": "gpu-kernels",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniTrain.md",
+      "old_layer": "distributed-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniCCL.md",
+      "old_layer": "collective-communication",
+      "layer": "communication"
+    },
+    {
+      "source": "community/InfiniTensor/InfiniRT.md",
+      "old_layer": "hardware-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt.md",
+      "old_layer": "inference-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/Deep-Spark/DeepSparkInference/DeepSparkInference.md",
+      "old_layer": "inference-model-and-runtime-integration",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/Deep-Spark/lmcache-iluvatar/lmcache-iluvatar.md",
+      "old_layer": "kv-cache-hardware-plugin",
+      "layer": "kv-cache"
+    },
+    {
+      "source": "community/lmsys-org/FastChat/FastChat.md",
+      "old_layer": "llm-serving",
+      "layer": "distributed-serving"
+    },
+    {
+      "source": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding.md",
+      "old_layer": "speculative-decoding",
+      "layer": "optimization"
+    },
+    {
+      "source": "community/lmsys-org/S-LoRA/S-LoRA.md",
+      "old_layer": "adapter-serving",
+      "layer": "distributed-serving"
+    },
+    {
+      "source": "community/lmsys-org/RouteLLM/RouteLLM.md",
+      "old_layer": "model-routing",
+      "layer": "gateway"
+    },
+    {
+      "source": "community/interestingLSY/swiftLLM/swiftLLM.md",
+      "old_layer": "research-llm-inference-engine",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "community/ggml-org/ggml/ggml.md",
+      "old_layer": "tensor-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/research/CAKE/CAKE.md",
+      "old_layer": "agent-compiler-kernel-optimization",
+      "layer": "compiler"
+    },
+    {
+      "source": "community/verl-project/VeRL-Omni/VeRL-Omni.md",
+      "old_layer": "multimodal-rl-post-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/Ascend/TransferQueue/TransferQueue.md",
+      "old_layer": "post-training-data-plane",
+      "layer": "training"
+    },
+    {
+      "source": "community/Ascend/CANN/CANN.md",
+      "old_layer": "ai-compute-software-stack",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench.md",
+      "old_layer": "optimization-harness",
+      "layer": "optimization"
+    },
+    {
+      "source": "community/LoongServe/LoongServe/LoongServe.md",
+      "old_layer": "long-context-llm-serving",
+      "layer": "distributed-serving"
+    },
+    {
+      "source": "community/MooreThreads/torch_musa/torch_musa.md",
+      "old_layer": "deep-learning-framework-backend",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/MooreThreads/vllm-musa/vllm-musa.md",
+      "old_layer": "llm-serving-hardware-backend",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/MooreThreads/MATE/MATE.md",
+      "old_layer": "gpu-operator-kernel-library",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/kvcache-ai/Mooncake/TENT.md",
+      "old_layer": "data-movement",
+      "layer": "communication"
+    },
+    {
+      "source": "community/siliconflow/OneDiff/OneDiff.md",
+      "old_layer": "diffusion-inference-compiler",
+      "layer": "compiler"
+    },
+    {
+      "source": "community/siliconflow/SiliconLLM/SiliconLLM.md",
+      "old_layer": "llm-inference-engine",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "community/vllm-project/Jenga/Jenga.md",
+      "old_layer": "heterogeneous-memory-management",
+      "layer": "kv-cache"
+    },
+    {
+      "source": "community/vllm-project/Speculators/Speculators.md",
+      "old_layer": "speculative-decoding-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/vllm-project/vLLM-Omni/vLLM-Omni.md",
+      "old_layer": "multimodal-serving",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "community/taco-project/FlexKV/FlexKV.md",
+      "old_layer": "distributed-kv-cache",
+      "layer": "kv-cache"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/openYuanRong.md",
+      "old_layer": "distributed-compute-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong DataSystem.md",
+      "old_layer": "distributed-data-cache",
+      "layer": "kv-cache"
+    },
+    {
+      "source": "community/openEuler/openYuanRong/YuanRong TransferEngine.md",
+      "old_layer": "npu-data-transfer",
+      "layer": "communication"
+    },
+    {
+      "source": "community/radixark/Miles/Miles.md",
+      "old_layer": "post-training-infrastructure",
+      "layer": "training"
+    },
+    {
+      "source": "community/lightseekorg/TorchSpec/TorchSpec.md",
+      "old_layer": "speculative-decoding-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/ollama/Ollama/Ollama.md",
+      "old_layer": "local-inference-platform",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "community/LLMServe/DistServe/DistServe.md",
+      "old_layer": "disaggregated-llm-serving",
+      "layer": "distributed-serving"
+    },
+    {
+      "source": "community/thu-pacman/BaGuaLu/BaGuaLu.md",
+      "old_layer": "distributed-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/thu-pacman/FastMoE/FastMoE.md",
+      "old_layer": "distributed-moe-training",
+      "layer": "training"
+    },
+    {
+      "source": "community/thu-pacman/Lethe/Lethe.md",
+      "old_layer": "kv-cache-optimization",
+      "layer": "kv-cache"
+    },
+    {
+      "source": "community/thu-pacman/QFactory/QFactory.md",
+      "old_layer": "quantized-serving-kernel-optimization",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/cloud-native/Kubernetes/Kubernetes.md",
+      "old_layer": "orchestration",
+      "layer": "scheduler"
+    },
+    {
+      "source": "community/sgl-project/mini-SGLang/mini-SGLang.md",
+      "old_layer": "llm-serving-runtime",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/sgl-project/SpecForge/SpecForge.md",
+      "old_layer": "speculative-decoding",
+      "layer": "optimization"
+    },
+    {
+      "source": "community/MetaX-MACA/mcoplib/mcoplib.md",
+      "old_layer": "gpu-operator-kernel-library",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/MetaX-MACA/vLLM-metax/vLLM-metax.md",
+      "old_layer": "llm-serving-hardware-backend",
+      "layer": "runtime"
+    },
+    {
+      "source": "community/MetaX-MACA/MXDeepEP/MXDeepEP.md",
+      "old_layer": "moe-expert-parallel-communication",
+      "layer": "communication"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSpec/DeepSpec.md",
+      "old_layer": "speculative-decoding",
+      "layer": "optimization"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/LPLB.md",
+      "old_layer": "moe-load-balancing",
+      "layer": "scheduler"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/DeepSelect.md",
+      "old_layer": "sparse-attention-topk-kernels",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/profile-data.md",
+      "old_layer": "systems-profiling",
+      "layer": "benchmark"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/deepseek-recipe.md",
+      "old_layer": "serving-api-adapter",
+      "layer": "gateway"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/smallpond.md",
+      "old_layer": "distributed-data-processing",
+      "layer": "other"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/TileKernels.md",
+      "old_layer": "gpu-kernels",
+      "layer": "kernel"
+    },
+    {
+      "source": "community/deepseek-ai/DeepSeek-Infra/EPLB.md",
+      "old_layer": "expert-parallel-load-balancing",
+      "layer": "scheduler"
+    },
+    {
+      "source": "community/FlashML-org/FreeToken/FreeToken.md",
+      "old_layer": "edge-moe-serving",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "university/浙江大学/HMI.md",
+      "old_layer": "multi-tenant-inference",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "university/浙江大学/FloE.md",
+      "old_layer": "moe-inference",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "university/华南理工大学/Kairos.md",
+      "old_layer": "cluster-scheduling",
+      "layer": "scheduler"
+    },
+    {
+      "source": "university/华南理工大学/异构计算平台并行加速解决方案.md",
+      "old_layer": "heterogeneous-compute-platform",
+      "layer": "device-resource"
+    },
+    {
+      "source": "university/香港中文大学/LiveServe.md",
+      "old_layer": "realtime-multimodal-serving",
+      "layer": "inference-engine"
+    },
+    {
+      "source": "university/清华大学/GLM-130B.md",
+      "old_layer": "pretraining-system-model-codesign",
+      "layer": "training"
+    },
+    {
+      "source": "university/上海交通大学/KunServe.md",
+      "old_layer": "llm-serving",
+      "layer": "distributed-serving"
+    },
+    {
+      "source": "university/厦门大学/GeminiFS.md",
+      "old_layer": "gpu-storage",
+      "layer": "storage"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/XGrammar.md",
+      "old_layer": "structured-generation",
+      "layer": "optimization"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel.md",
+      "old_layer": "kernel-compiler-runtime",
+      "layer": "compiler"
+    },
+    {
+      "source": "university/Carnegie Mellon University/Catalyst Group/Event Tensor.md",
+      "old_layer": "compiler-runtime",
+      "layer": "compiler"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ hardware: [Ascend]
 last_verified: "2026-09"
 linked_companies:
   - "company/清程极智/清程极智"
+code_availability: public
 ---
 # ascend-kernel
 

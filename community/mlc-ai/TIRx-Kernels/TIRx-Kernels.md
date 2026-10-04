@@ -27,6 +27,7 @@ integrations:
   - "FlashInfer"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # TIRx Kernels
 ## 项目定位

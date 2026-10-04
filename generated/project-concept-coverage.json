@@ -4,7 +4,7 @@
     "concepts": 90,
     "concepts_with_projects": 90,
     "concepts_without_projects": 0,
-    "project_like_nodes": 233,
+    "project_like_nodes": 239,
     "projects_with_concepts": 97,
     "concept_project_assertions": 398,
     "unresolved_project_refs": 0,
@@ -255,7 +255,7 @@
     {
       "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "name": "YuanRong DataSystem",
-      "layer": "distributed-data-cache",
+      "layer": "kv-cache",
       "concepts": [
         "concept/hardware/interconnect/HCCS",
         "concept/inference/kv-cache/Remote KV Store",
@@ -512,7 +512,7 @@
     {
       "id": "community/taco-project/FlexKV/FlexKV",
       "name": "FlexKV",
-      "layer": "distributed-kv-cache",
+      "layer": "kv-cache",
       "concepts": [
         "concept/inference/kv-cache/KV Cache Prefetching",
         "concept/inference/kv-cache/Remote KV Store",
@@ -590,7 +590,7 @@
     {
       "id": "community/deepseek-ai/DeepSeek-Infra/TileKernels",
       "name": "TileKernels",
-      "layer": "gpu-kernels",
+      "layer": "kernel",
       "concepts": [
         "concept/kernel/optimization/Kernel Fusion",
         "concept/quantization/FP4 Quantization",
@@ -735,7 +735,7 @@
     {
       "id": "community/ggml-org/ggml/ggml",
       "name": "ggml",
-      "layer": "tensor-runtime",
+      "layer": "runtime",
       "concepts": [
         "concept/quantization/FP4 Quantization",
         "concept/quantization/Quantization",
@@ -778,7 +778,7 @@
     {
       "id": "community/research/CAKE/CAKE",
       "name": "CAKE",
-      "layer": "agent-compiler-kernel-optimization",
+      "layer": "compiler",
       "concepts": [
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/optimization/Agentic Kernel Optimization"
@@ -818,7 +818,7 @@
     {
       "id": "community/flashinfer-ai/FlashInfer-Bench/FlashInfer-Bench",
       "name": "FlashInfer-Bench",
-      "layer": "optimization-harness",
+      "layer": "optimization",
       "concepts": [
         "concept/inference/optimization/Agentic Inference Optimization",
         "concept/kernel/optimization/Agentic Kernel Optimization"
@@ -878,7 +878,7 @@
     {
       "id": "community/thu-pacman/QFactory/QFactory",
       "name": "QFactory",
-      "layer": "quantized-serving-kernel-optimization",
+      "layer": "kernel",
       "concepts": [
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
@@ -888,7 +888,7 @@
     {
       "id": "community/kvcache-ai/Mooncake/TENT",
       "name": "TENT",
-      "layer": "data-movement",
+      "layer": "communication",
       "concepts": [
         "concept/hardware/interconnect/Hardware Interconnect",
         "concept/hardware/interconnect/NVLink"
@@ -918,7 +918,7 @@
     {
       "id": "community/Ascend/TransferQueue/TransferQueue",
       "name": "TransferQueue",
-      "layer": "post-training-data-plane",
+      "layer": "training",
       "concepts": [
         "concept/hardware/interconnect/HCCS",
         "concept/hardware/interconnect/Hardware Interconnect"
@@ -1101,7 +1101,7 @@
     {
       "id": "university/Carnegie Mellon University/Catalyst Group/Event Tensor",
       "name": "Event Tensor",
-      "layer": "compiler-runtime",
+      "layer": "compiler",
       "concepts": [
         "concept/compiler/Kernel Compiler Pipeline"
       ],
@@ -1200,7 +1200,7 @@
     {
       "id": "university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel",
       "name": "Mirage Persistent Kernel",
-      "layer": "kernel-compiler-runtime",
+      "layer": "compiler",
       "concepts": [
         "concept/compiler/Kernel Compiler Pipeline"
       ],

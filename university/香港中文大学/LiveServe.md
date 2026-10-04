@@ -4,15 +4,16 @@ name: LiveServe
 linked_people:
   - "university/香港中文大学/James Cheng"
   - "university/香港中文大学/Peiqi Yin"
-layer: realtime-multimodal-serving
+layer: inference-engine
 open_source: false
-areas: [realtime-serving, multimodal-serving, kv-cache, scheduling, audio-serving, interaction-aware-serving]
+areas: ["realtime-serving", "multimodal-serving", "kv-cache", "scheduling", "audio-serving", "interaction-aware-serving", "realtime-multimodal-serving"]
 people:
   - "university/香港中文大学/Peiqi Yin"
   - "university/香港中文大学/James Cheng"
 related_projects: ["vLLM-Omni"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # LiveServe
 

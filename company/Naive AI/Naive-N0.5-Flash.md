@@ -22,6 +22,7 @@ hardware:
 last_verified: "2026-09"
 linked_companies:
   - "company/Naive AI/Naive AI"
+code_availability: public
 ---
 # Naive-N0.5-Flash
 

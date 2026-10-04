@@ -11,6 +11,7 @@ open_source: true
 areas: [distributed-computing, data-processing, cluster-computing, ai-data-platform]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # Apache Spark
 

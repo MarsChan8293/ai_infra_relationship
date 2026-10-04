@@ -9,10 +9,10 @@ linked_concepts:
   - "concept/quantization/Weight-Only Quantization"
 companies: ["Hugging Face"]
 company_relation: joined-hugging-face-maintainer-team
-layer: tensor-runtime
+layer: runtime
 open_source: true
 repository: https://github.com/ggml-org/ggml
-areas: [tensor-runtime, local-inference, edge-inference, quantization, gguf, cpu, gpu, npu, multi-backend, c-cpp]
+areas: ["tensor-runtime", "local-inference", "edge-inference", "quantization", "gguf", "cpu", "gpu", "npu", "multi-backend", "c-cpp"]
 hardware: [CPU, NVIDIA GPU, AMD GPU, Apple Silicon, Intel GPU, Intel NPU, Ascend NPU, RISC-V, WebAssembly]
 governance: ggml-org open-source community; Georgi Gerganov team joined Hugging Face in 2026 while projects remain open-source and community-governed
 people:
@@ -20,6 +20,7 @@ people:
 last_verified: "2026-09"
 linked_companies:
   - "company/Hugging Face/Hugging Face"
+code_availability: public
 ---
 # ggml
 

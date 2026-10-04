@@ -7,11 +7,12 @@ layer: ecosystem
 status: active
 repository: https://github.com/gpustack/community-inference-backends
 areas: [inference-backend, backend-marketplace, model-serving, extensibility, heterogeneous-inference]
-integrations: [GPUStack, llama.cpp, TensorRT-LLM, TokenSpeed]
+integrations: ["community/gpustack/GPUStack/GPUStack", llama.cpp, TensorRT-LLM, TokenSpeed]
 companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GPUStack Community Inference Backends
 

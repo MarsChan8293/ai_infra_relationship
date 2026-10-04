@@ -4,11 +4,12 @@ name: Lethe
 organization: thu-pacman
 linked_people:
   - "company/清程极智/翟季冬 Jidong Zhai"
-areas: [llm-serving, kv-cache, reasoning-models, cache-pruning, memory-efficiency]
-layer: kv-cache-optimization
+areas: ["llm-serving", "kv-cache", "reasoning-models", "cache-pruning", "memory-efficiency", "kv-cache-optimization"]
+layer: kv-cache
 open_source: false
 last_verified: "2026-09"
 linked_companies: []
+code_availability: unconfirmed
 ---
 # Lethe
 

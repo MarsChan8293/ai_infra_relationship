@@ -28,6 +28,7 @@ integrations:
   - "SGLang"
 linked_companies:
   - "company/Anyscale/Anyscale"
+code_availability: public
 ---
 # Ray Serve
 

@@ -3,14 +3,15 @@ type: project
 name: InfiniRT
 linked_people:
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
-layer: hardware-runtime
+layer: runtime
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniRT
-areas: [runtime, device-abstraction, memory-management, heterogeneous-compute, cuda, hardware-backend]
+areas: ["runtime", "device-abstraction", "memory-management", "heterogeneous-compute", "cuda", "hardware-backend", "hardware-runtime"]
 people:
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniRT
 

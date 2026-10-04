@@ -20,6 +20,7 @@ people:
   - "university/上海人工智能实验室/Qian Yao"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # LMDeploy
 

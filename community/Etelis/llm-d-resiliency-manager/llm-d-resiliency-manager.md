@@ -20,6 +20,7 @@ integrations:
   - "vLLM"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # llm-d-resiliency-manager
 ## 项目定位

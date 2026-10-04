@@ -5,15 +5,16 @@ linked_people:
   - "university/浙江大学/Jue Wang"
 companies: ["Together AI"]
 company_relation: research-collaboration
-layer: tensor-parallel-inference
+layer: inference-engine
 open_source: true
 repository: https://github.com/mayank31398/ladder-residual-inference
-areas: [llm-inference, tensor-parallelism, communication-overlap, distributed-inference]
+areas: ["llm-inference", "tensor-parallelism", "communication-overlap", "distributed-inference", "tensor-parallel-inference"]
 people:
   - "university/浙江大学/Jue Wang"
 last_verified: "2026-09"
 linked_companies:
   - "company/Together AI/Together AI"
+code_availability: public
 ---
 # Ladder Residual
 

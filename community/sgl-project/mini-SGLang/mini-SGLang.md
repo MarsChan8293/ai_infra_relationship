@@ -5,10 +5,11 @@ organization: sgl-project
 linked_people: []
 repository: https://github.com/sgl-project/mini-sglang
 open_source: true
-layer: llm-serving-runtime
-areas: [llm-serving, radix-cache, chunked-prefill, overlap-scheduling, tensor-parallelism, flashinfer, cuda-kernels]
+layer: runtime
+areas: ["llm-serving", "radix-cache", "chunked-prefill", "overlap-scheduling", "tensor-parallelism", "flashinfer", "cuda-kernels", "llm-serving-runtime"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # mini-SGLang
 

@@ -4,10 +4,10 @@
 
 - Company nodes: 58
 - Companies with ≥1 linked person: 48
-- Company-person associations: 239
+- Company-person associations: 238
 - Email-domain-supported associations: 37
-- People with generated linked_companies: 236
-- Project/community nodes: 233
+- People with generated linked_companies: 235
+- Project/community nodes: 239
 - Project/community nodes with ≥1 linked person: 123
 - Project/community-person associations: 601
 - Non-company affiliations recognized and routed elsewhere: 109
@@ -53,7 +53,6 @@
 | [[company/Together AI/Together AI\|Together AI]] | 2 |
 | [[company/天数智芯/天数智芯\|天数智芯]] | 2 |
 | [[company/密瓜智能/密瓜智能\|密瓜智能]] | 2 |
-| [[company/沐曦/沐曦\|沐曦]] | 2 |
 | [[company/潞晨科技/潞晨科技\|潞晨科技]] | 2 |
 | [[company/Amazon/Amazon\|Amazon / AWS]] | 1 |
 | [[company/Fireworks AI/Fireworks AI\|Fireworks AI]] | 1 |
@@ -62,6 +61,7 @@
 | [[company/Samsung/Samsung\|Samsung]] | 1 |
 | [[company/摩尔线程/摩尔线程\|摩尔线程]] | 1 |
 | [[company/杭州先进编译科技有限公司/杭州先进编译科技有限公司\|杭州先进编译科技有限公司]] | 1 |
+| [[company/沐曦/沐曦\|沐曦]] | 1 |
 | [[company/爱特思/深圳爱特思信息技术有限公司\|深圳爱特思信息技术有限公司]] | 1 |
 | [[company/积算科技/积算科技\|积算科技]] | 1 |
 | [[company/道客/道客\|道客]] | 1 |

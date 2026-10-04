@@ -4,18 +4,14 @@ name: "Mirage Persistent Kernel"
 linked_people: []
 linked_concepts:
   - "concept/compiler/Kernel Compiler Pipeline"
-layer: "kernel-compiler-runtime"
+layer: compiler
 status: active
 repository: https://github.com/mirage-project/mirage
 docs: https://mirage-project.readthedocs.io/
-areas:
-  - "llm-inference"
-  - "persistent-kernel"
-  - "megakernel"
-  - "compiler"
-  - "gpu-runtime"
+areas: ["llm-inference", "persistent-kernel", "megakernel", "compiler", "gpu-runtime", "kernel-compiler-runtime"]
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # Mirage Persistent Kernel
 

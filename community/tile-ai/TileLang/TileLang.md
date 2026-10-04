@@ -35,6 +35,7 @@ integrations:
   - "TileLang-MLIR-Ascend"
   - "DeepGEMM-Ascend"
 linked_companies: []
+code_availability: public
 ---
 # TileLang
 

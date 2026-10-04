@@ -4,16 +4,17 @@ name: RouteLLM
 linked_people: []
 companies: []
 company_relation: community-led
-layer: model-routing
+layer: gateway
 open_source: true
 repository: https://github.com/lm-sys/RouteLLM
-areas: [llm-routing, inference-cost, model-selection, preference-learning, serving]
+areas: ["llm-routing", "inference-cost", "model-selection", "preference-learning", "serving", "model-routing"]
 people:
   - "company/Inferact/Joseph Gonzalez"
   - "company/Inferact/Ion Stoica"
 governance: LMSYS project
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # RouteLLM
 

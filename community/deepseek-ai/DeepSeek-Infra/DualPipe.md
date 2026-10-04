@@ -23,6 +23,7 @@ areas:
 integrations: []
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # DualPipe
 

@@ -5,12 +5,13 @@ linked_people:
   - "community/sgl-project/SGLang/Shenggui Li"
 companies: []
 company_relation: community-led
-layer: speculative-decoding
+layer: optimization
 open_source: true
 repository: https://github.com/sgl-project/SpecForge
-areas: [speculative-decoding, draft-model-training, llm-inference, distributed-training]
+areas: ["speculative-decoding", "draft-model-training", "llm-inference", "distributed-training"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # SpecForge
 

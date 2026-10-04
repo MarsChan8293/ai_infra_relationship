@@ -7,10 +7,10 @@ linked_people:
   - "company/清程极智/马子轩 Zixuan Ma"
 companies: ["清程极智"]
 company_relation: company-led
-layer: distributed-training
+layer: training
 open_source: true
 repository: https://github.com/thu-pacman/BaGuaLu
-areas: [distributed-training, parallelism, communication, moe, activation-memory, heterogeneous-compute]
+areas: ["distributed-training", "parallelism", "communication", "moe", "activation-memory", "heterogeneous-compute"]
 people:
   - "company/清程极智/马子轩 Zixuan Ma"
   - "company/清程极智/唐适之 Shizhi Tang"
@@ -19,6 +19,7 @@ people:
 last_verified: "2026-09"
 linked_companies:
   - "company/清程极智/清程极智"
+code_availability: public
 ---
 # BaGuaLu（八卦炉）
 

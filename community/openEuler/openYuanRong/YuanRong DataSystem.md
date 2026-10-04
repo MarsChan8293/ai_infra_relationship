@@ -14,13 +14,14 @@ linked_concepts:
   - "concept/storage/Remote Object Store"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
-layer: distributed-data-cache
+layer: kv-cache
 open_source: true
 repository: https://github.com/openyuanrong/datasystem
-areas: [distributed-cache, kv-cache, hbm, dram, ssd, rdma, hccs, npu, data-transfer]
+areas: ["distributed-cache", "kv-cache", "hbm", "dram", "ssd", "rdma", "hccs", "npu", "data-transfer", "distributed-data-cache"]
 related_projects: ["openYuanRong", "YuanRong TransferEngine", "TransferQueue", "vLLM-Ascend", "vLLM-Omni"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # YuanRong DataSystem
 

@@ -7,12 +7,13 @@ linked_people:
   - "company/深度求索/Yinmin Zhong"
   - "university/北京大学/Bingyang Wu"
   - "university/北京大学/Xin Jin"
-layer: long-context-llm-serving
+layer: distributed-serving
 open_source: true
 repository: https://github.com/LoongServe/LoongServe
-areas: [llm-serving, long-context, sequence-parallelism, kv-cache, scheduling, distributed-inference]
+areas: ["llm-serving", "long-context", "sequence-parallelism", "kv-cache", "scheduling", "distributed-inference", "long-context-llm-serving"]
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # LoongServe
 

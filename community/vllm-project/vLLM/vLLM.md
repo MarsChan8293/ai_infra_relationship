@@ -98,6 +98,7 @@ integrations:
   - "Mooncake"
   - "FlashInfer"
   - "BentoML"
+code_availability: public
 ---
 # vLLM
 

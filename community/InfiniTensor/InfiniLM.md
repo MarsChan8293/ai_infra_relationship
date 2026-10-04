@@ -23,6 +23,7 @@ people:
   - "community/InfiniTensor/wooway777"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniLM
 

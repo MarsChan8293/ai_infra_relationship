@@ -13,6 +13,7 @@ hardware: [nvidia]
 integrations: [Firecracker, gVisor, Cloud Hypervisor, E2B]
 linked_companies:
   - "company/Novita AI/Novita AI"
+code_availability: public
 ---
 # NovitaBox
 

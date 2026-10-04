@@ -5,21 +5,16 @@ linked_people: []
 linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
   - "concept/compiler/Kernel Compiler Pipeline"
-layer: "agent-compiler-kernel-optimization"
-status: research
+layer: compiler
+status: unknown
+maturity: research-prototype
 docs: https://arxiv.org/abs/2608.12629
-areas:
-  - "agentic-kernel-optimization"
-  - "compiler-agent-co-design"
-  - "gpu-kernel"
-  - "intermediate-representation"
-  - "verification"
-  - "cost-model"
-  - "performance-engineering"
+areas: ["agentic-kernel-optimization", "compiler-agent-co-design", "gpu-kernel", "intermediate-representation", "verification", "cost-model", "performance-engineering", "agent-compiler-kernel-optimization"]
 hardware:
   - "nvidia"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: unconfirmed
 ---
 
 # CAKE

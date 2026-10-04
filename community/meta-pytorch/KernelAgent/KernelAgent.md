@@ -13,6 +13,7 @@ companies: ["Meta"]
 last_verified: "2026-10"
 linked_companies:
   - "company/Meta/Meta"
+code_availability: public
 ---
 
 # KernelAgent

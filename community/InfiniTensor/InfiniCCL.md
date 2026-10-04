@@ -5,16 +5,17 @@ linked_people:
   - "community/InfiniTensor/baominghelly"
   - "community/InfiniTensor/GordonYang1"
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
-layer: collective-communication
+layer: communication
 open_source: true
 repository: https://github.com/InfiniTensor/InfiniCCL
-areas: [collective-communication, distributed-systems, nccl, hccl, cncl, mpi, heterogeneous-compute]
+areas: ["collective-communication", "distributed-systems", "nccl", "hccl", "cncl", "mpi", "heterogeneous-compute"]
 people:
   - "university/启元实验室/黄嘉成 Jiacheng Huang"
   - "community/InfiniTensor/baominghelly"
   - "community/InfiniTensor/GordonYang1"
 last_verified: "2026-09"
 linked_companies: []
+code_availability: public
 ---
 # InfiniCCL
 

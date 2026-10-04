@@ -28,6 +28,7 @@ hardware:
   - "apple-silicon"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # Splash
 ## 项目定位

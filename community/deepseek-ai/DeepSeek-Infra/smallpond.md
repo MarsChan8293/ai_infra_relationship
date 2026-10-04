@@ -6,16 +6,17 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Yiliang Xiong"
 companies: ["深度求索"]
 company_relation: company-led
-layer: distributed-data-processing
+layer: other
 open_source: true
 repository: https://github.com/deepseek-ai/smallpond
-areas: [data-processing, distributed-query, duckdb, 3fs, parquet, training-data]
+areas: ["data-processing", "distributed-query", "duckdb", "3fs", "parquet", "training-data", "distributed-data-processing"]
 people:
   - "community/deepseek-ai/DeepSeek-Infra/Runji Wang"
   - "community/deepseek-ai/DeepSeek-Infra/Yiliang Xiong"
 last_verified: "2026-09"
 linked_companies:
   - "company/深度求索/深度求索"
+code_availability: public
 ---
 # smallpond
 

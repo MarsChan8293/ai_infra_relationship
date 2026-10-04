@@ -19,6 +19,7 @@ companies: ["基流科技"]
 last_verified: "2026-09"
 linked_companies:
   - "company/基流科技/基流科技"
+code_availability: unconfirmed
 ---
 # Expert-as-a-Service（EaaS）
 

@@ -68,6 +68,7 @@ integrations:
   - "llm-d"
   - "Mooncake"
   - "FlashInfer"
+code_availability: public
 ---
 # SGLang
 

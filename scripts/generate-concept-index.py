@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+from graph_common import read_frontmatter, split_frontmatter, evidence_provenance
 import argparse
 import pathlib
 from collections import Counter, defaultdict
@@ -32,32 +34,7 @@ def scalar(value):
     return value.strip("\"'")
 
 def frontmatter(text):
-    if not text.startswith("---\n"):
-        return {}
-    lines = text.splitlines()
-    try:
-        end = lines.index("---", 1)
-    except ValueError:
-        return {}
-    data = {}
-    current = None
-    for raw in lines[1:end]:
-        if not raw.strip() or raw.lstrip().startswith("#"):
-            continue
-        if raw.startswith("  - ") and current:
-            if not isinstance(data.get(current), list):
-                if data.get(current) in ("", None):
-                    data[current] = []
-                else:
-                    continue
-            data[current].append(scalar(raw[4:]))
-            continue
-        if raw.startswith((" ", "-")) or ":" not in raw:
-            continue
-        key, value = raw.split(":", 1)
-        current = key.strip()
-        data[current] = scalar(value)
-    return data
+    return read_frontmatter(text)
 
 def values(value):
     if value in (None, ""):

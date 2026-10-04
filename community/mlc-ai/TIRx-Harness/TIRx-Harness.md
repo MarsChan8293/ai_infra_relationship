@@ -23,6 +23,7 @@ integrations:
   - "TIRx Kernels"
 last_verified: "2026-10"
 linked_companies: []
+code_availability: public
 ---
 # TIRx Harness
 ## 项目定位

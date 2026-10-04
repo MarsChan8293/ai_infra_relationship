@@ -13,6 +13,7 @@ companies: ["阿里巴巴"]
 last_verified: "2026-10"
 linked_companies:
   - "company/阿里巴巴/阿里巴巴"
+code_availability: public
 ---
 
 # Atrex Kernel Agent

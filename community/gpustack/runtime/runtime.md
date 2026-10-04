@@ -9,11 +9,12 @@ status: active
 repository: https://github.com/gpustack/runtime
 areas: [gpu-detection, workload-runtime, heterogeneous-accelerators, device-management, docker, kubernetes, podman]
 hardware: [nvidia, amd, ascend, hygon, metax, mthreads, iluvatar, cambricon, t-head]
-integrations: [GPUStack]
+integrations: ["community/gpustack/GPUStack/GPUStack"]
 companies: ["GPUStack"]
 last_verified: "2026-09"
 linked_companies:
   - "company/GPUStack/GPUStack"
+code_availability: public
 ---
 # GPUStack Runtime
 
