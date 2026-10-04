@@ -4,16 +4,10 @@ name: Humming
 status: active
 repository: https://github.com/inclusionAI/humming
 last_verified: "2026-10"
-layer: runtime
+layer: kernel
 areas: [gemm, quantization, moe-kernels, w4a16, w4a8, jit]
 hardware: [nvidia]
-integrations: [vLLM, Chord]
-linked_concepts:
-  - "concept/quantization/Weight-Only Quantization"
-  - "concept/kernel/gemm/GEMM"
-  - "concept/kernel/gemm/Grouped GEMM"
-  - "concept/kernel/programming/JIT Kernel Compilation"
-  - "concept/inference/parallelism/Expert Parallelism"
+integrations: [vLLM]
 ---
 # Humming
 
