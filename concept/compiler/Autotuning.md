@@ -16,6 +16,7 @@ projects:
   - Triton
   - TileLang
   - NineToothed
+  - "LLM Autotuner"
 last_verified: 2026-09
 ---
 
