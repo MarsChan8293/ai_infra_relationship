@@ -20,6 +20,7 @@ projects:
   - LMCache
   - Mooncake
   - vLLM
+  - PegaFlow
 last_verified: 2026-09
 ---
 
