@@ -12,6 +12,7 @@ related_concepts:
 projects:
   - vLLM
   - SGLang
+  - PegaFlow
 last_verified: 2026-09
 ---
 
