@@ -20,6 +20,8 @@ projects:
   - Triton
   - DeepGEMM-Ascend
   - "TIRx Kernels"
+  - Chord
+  - Humming
 last_verified: 2026-10
 ---
 
