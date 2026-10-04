@@ -16,6 +16,8 @@ projects:
   - vLLM
   - DeepEP
   - DeepEP-Ascend
+  - Chord
+  - Humming
 last_verified: "2026-10"
 ---
 

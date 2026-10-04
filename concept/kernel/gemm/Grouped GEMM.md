@@ -18,6 +18,8 @@ projects:
   - FlashInfer
   - CUTLASS
   - DeepGEMM-Ascend
+  - Chord
+  - Humming
 last_verified: "2026-10"
 ---
 

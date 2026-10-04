@@ -25,6 +25,7 @@ projects:
   - MindIE-Motor
   - "ModelSphere"
   - "vllm-rlt"
+  - PegaFlow
 last_verified: 2026-10
 ---
 
