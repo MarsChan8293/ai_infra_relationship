@@ -20,6 +20,8 @@ projects:
   - ggml
   - llama.cpp
   - QFactory
+  - Chord
+  - Humming
 last_verified: 2026-09
 ---
 
