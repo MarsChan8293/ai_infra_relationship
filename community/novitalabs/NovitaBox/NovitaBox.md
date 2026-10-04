@@ -6,15 +6,10 @@ repository: https://github.com/novitalabs/NovitaBox
 docs: https://github.com/novitalabs/NovitaBox/tree/main/docs
 last_verified: "2026-10"
 companies: ["Novita AI"]
-company_relation: company-led
 layer: runtime
 areas: [agent-sandbox, microvm, container-sandbox, gpu-sandbox, isolation, local-runtime]
 hardware: [nvidia]
 integrations: [Firecracker, gVisor, Cloud Hypervisor, E2B]
-linked_companies:
-  - "company/Novita AI/Novita AI"
-linked_concepts:
-  - "concept/inference/agent/Agent Harness"
 ---
 # NovitaBox
 
