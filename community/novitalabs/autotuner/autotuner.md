@@ -6,17 +6,10 @@ repository: https://github.com/novitalabs/autotuner
 docs: https://novitalabs.github.io/autotuner/
 last_verified: "2026-10"
 companies: ["Novita AI"]
-company_relation: company-led
-layer: distributed-serving
+layer: optimization
 areas: [autotuning, inference-optimization, configuration-management, slo, benchmarking, quantization, agentic-optimization]
 hardware: [nvidia]
 integrations: [vLLM, SGLang, OME, genai-bench]
-linked_companies:
-  - "company/Novita AI/Novita AI"
-linked_concepts:
-  - "concept/compiler/Autotuning"
-  - "concept/inference/optimization/Agentic Inference Optimization"
-  - "concept/quantization/Quantization"
 ---
 # LLM Autotuner
 
