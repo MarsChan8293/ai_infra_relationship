@@ -17,6 +17,7 @@ projects:
   - UCX
   - RCCL
   - DeepEP
+  - PegaFlow
 last_verified: 2026-09
 ---
 
