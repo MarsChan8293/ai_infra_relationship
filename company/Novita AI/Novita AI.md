@@ -9,11 +9,6 @@ projects:
   - LLM Autotuner
   - NovitaBox
 last_verified: "2026-10"
-linked_projects:
-  - "community/novitalabs/chord/chord"
-  - "community/novitalabs/pegaflow/pegaflow"
-  - "community/novitalabs/autotuner/autotuner"
-  - "community/novitalabs/NovitaBox/NovitaBox"
 ---
 # Novita AI
 
