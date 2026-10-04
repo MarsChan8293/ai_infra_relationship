@@ -18,6 +18,7 @@ projects:
   - Mooncake
   - "AgentInfer"
   - "vllm-rlt"
+  - PegaFlow
 last_verified: 2026-10
 ---
 
