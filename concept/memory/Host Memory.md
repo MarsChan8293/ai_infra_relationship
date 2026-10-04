@@ -22,6 +22,7 @@ projects:
   - KTransformers
   - MemFabric
   - Engram
+  - PegaFlow
 last_verified: "2026-10"
 ---
 
