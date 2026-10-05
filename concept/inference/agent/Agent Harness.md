@@ -29,7 +29,7 @@ Agent Harness 是承载 LLM agent 运行生命周期的 runtime / control layer�
 ## 项目实现
 [[community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness|DeepSeek Harness]] 把 model adapter、tool registry、session log、agent loop 等都做成 Cordis plugin，并提供 MCP、ACP、sandbox、Web/headless/SDK 等运行面，是典型的 Agent Harness 实现。
 
-[[community/humanfia/humanize/humanize|Humanize]] 把 Claude Code、Codex、Kimi Code、DeepSeek Harness、LiteLLM / ACP 等 backend 组织成可执行 agent flow，更偏多 backend flow orchestration；其中 DeepSeek Harness 是其直接支持的 backend。
+[[community/humanfia/humanize/Humanize|Humanize]] 把 Claude Code、Codex、Kimi Code、DeepSeek Harness、LiteLLM / ACP 等 backend 组织成可执行 agent flow，更偏多 backend flow orchestration；其中 DeepSeek Harness 是其直接支持的 backend。
 
 ## 与 AI Infra 的边界
 Agent Harness 位于模型 serving 之上。它可以调用 vLLM、MindIE、SGLang 等推理服务，但“能调用某个 API”不等于项目级 integration；强边仍需 adapter/plugin 或官方文档证据。
