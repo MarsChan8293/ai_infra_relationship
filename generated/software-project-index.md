@@ -2,8 +2,8 @@
 
 Automatically generated from every canonical Markdown node with `type: project` under `company/`, `community/`, and `university/`.
 
-- Projects: 229
-- Source roots: community 201 · company 14 · university 14
+- Projects: 231
+- Source roots: community 203 · company 14 · university 14
 - Fine-grained `layer` metadata is preserved in the table; portal sections fold those layers into a stable navigation taxonomy.
 - Concepts are not included; they remain in `ai_infra_docs/software/concepts`.
 
@@ -17,7 +17,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [KV Cache](#kv-cache) | 11 |
 | [Storage](#storage) | 2 |
 | [Communication / Data Movement](#communication) | 15 |
-| [Runtime / Framework](#runtime) | 37 |
+| [Runtime / Framework](#runtime) | 38 |
 | [Kernel / Operator](#kernel) | 13 |
 | [Compiler / DSL](#compiler) | 16 |
 | [Training / Post-training](#training) | 16 |
@@ -25,7 +25,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [Device / Resource](#device-resource) | 6 |
 | [Benchmark / Profiling](#benchmark) | 7 |
 | [Ecosystem](#ecosystem) | 2 |
-| [Inference Optimization](#optimization) | 32 |
+| [Inference Optimization](#optimization) | 33 |
 | [Other](#other) | 8 |
 
 ## inference-engine
@@ -156,7 +156,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## runtime
 
-**Runtime / Framework** · 37 projects
+**Runtime / Framework** · 38 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -179,6 +179,7 @@ Automatically generated from every canonical Markdown node with `type: project` 
 | [[community/gpustack/runner/runner]] | runtime | active | inference-runtime, container-images, backend-packaging, heterogeneous-inference, vllm | `gpustack` | 4 | 1 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runner) |
 | [[community/gpustack/runtime/runtime]] | runtime | active | gpu-detection, workload-runtime, heterogeneous-accelerators, device-management, docker | `gpustack` | 1 | 2 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=GPUStack%20Runtime) |
 | [[community/google/gVisor/gVisor]] | runtime | unknown | agent-sandbox | `google` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=gVisor) |
+| [[community/humanfia/humanize/Humanize]] | runtime | active | agent-harness, agent-flow, coding-agent-orchestration, multi-backend-agent, deepseek-harness | `humanfia` | 1 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Humanize) |
 | [[community/Deep-Spark/iluvatar-corex-ixrt/iluvatar-corex-ixrt]] | runtime |  |  | `Deep-Spark` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=iluvatar-corex-ixrt) |
 | [[community/InfiniTensor/InfiniCore]] | runtime |  | heterogeneous-compute, runtime, operators, collective-communication, hardware-backend | `InfiniTensor` | 0 | 6 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniCore) |
 | [[community/InfiniTensor/InfiniRT]] | runtime |  | runtime, device-abstraction, memory-management, heterogeneous-compute, cuda | `InfiniTensor` | 0 | 1 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=InfiniRT) |
@@ -317,12 +318,13 @@ Automatically generated from every canonical Markdown node with `type: project` 
 
 ## optimization
 
-**Inference Optimization** · 32 projects
+**Inference Optimization** · 33 projects
 
 | Project | Exact layer | Status | Areas | Upstream / source | Integrations | People | Companies | Graph |
 | --- | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | [[community/StigLidu/AdaExplore/AdaExplore]] | optimization | unknown | agentic-kernel-optimization, failure-memory, tree-search, triton, self-improvement | `StigLidu` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AdaExplore) |
 | [[community/research/AgenticCANN/AgenticCANN]] | optimization | unknown | agentic-kernel-optimization, ascendc, knowledge-augmentation, agentic-evolution, operator-generation | `research` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AgenticCANN) |
+| [[community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS]] | optimization | active | agent-skills, llm-serving-benchmark, capacity-planning, profiling, pipeline-analysis | `BBuf` | 0 | 0 | 0 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AI-Infra-Auto-Driven-SKILLS) |
 | [[community/MindSpore/AKG Agents/AKG Agents]] | optimization | active | agentic-kernel-optimization, multi-agent, kernel-generation, autonomous-research, triton-ascend | `MindSpore` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AKG%20Agents) |
 | [[community/Ascend/agent-skills/Ascend Agent Skills]] | optimization | active | agent-skills, agentic-kernel-optimization, ascendc, triton-ascend, catlass | `Ascend` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ascend%20Agent%20Skills) |
 | [[community/南京大学/AscendCraft/AscendCraft]] | optimization | unknown | agentic-kernel-optimization, ascendc, dsl, transcompilation, kernel-generation | `南京大学` | 0 | 0 | 1 | [Graph](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=AscendCraft) |

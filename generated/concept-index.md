@@ -2,20 +2,26 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 90
+- Concepts: 91
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
 
 ## Inference
 
-29 concepts.
+30 concepts.
+
+### Agent Knowledge
+
+| Concept | Aliases | Parent | Related | Projects | Graph |
+| --- | --- | --- | ---: | ---: | --- |
+| [[concept/inference/agent/Agent Skill|Agent Skill]] | Agent Skills, Coding Agent Skill, Domain Skill, 智能体技能 |  | 3 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agent%20Skill) |
 
 ### Agent Runtime
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/agent/Agent Harness|Agent Harness]] | Agent Runtime Harness, Agent Execution Harness, 智能体运行时框架 |  | 1 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agent%20Harness) |
+| [[concept/inference/agent/Agent Harness|Agent Harness]] | Agent Runtime Harness, Agent Execution Harness, 智能体运行时框架 |  | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agent%20Harness) |
 
 ### Decoding
 
@@ -46,7 +52,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] | AI Infra Optimization Agent, Autonomous Inference Optimization, Agentic AI Infra Optimization, 智能体推理优化 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Inference%20Optimization) |
+| [[concept/inference/optimization/Agentic Inference Optimization|Agentic Inference Optimization]] | AI Infra Optimization Agent, Autonomous Inference Optimization, Agentic AI Infra Optimization, 智能体推理优化 |  | 7 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Inference%20Optimization) |
 
 ### Parallelism
 
@@ -166,7 +172,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 5 | 27 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
+| [[concept/kernel/optimization/Agentic Kernel Optimization|Agentic Kernel Optimization]] | Kernel Optimization Agent, Autonomous Kernel Optimization, Agentic Kernel Tuning, 智能体算子优化 |  | 6 | 27 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Agentic%20Kernel%20Optimization) |
 | [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]] | Operator Fusion, Fused Kernel, 算子融合 |  | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Fusion) |
 
 ### Verification

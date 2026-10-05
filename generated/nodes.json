@@ -8101,6 +8101,7 @@
       "name": "Ascend Agent Skills",
       "linked_people": [],
       "linked_concepts": [
+        "concept/inference/agent/Agent Skill",
         "concept/kernel/optimization/Agentic Kernel Optimization"
       ],
       "layer": "optimization",
@@ -8286,6 +8287,38 @@
       ],
       "confidence": "verified",
       "last_verified": "2026-09"
+    }
+  },
+  {
+    "id": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+    "path": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS.md",
+    "name": "AI-Infra-Auto-Driven-SKILLS",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "AI-Infra-Auto-Driven-SKILLS",
+      "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/agent/Agent Skill"
+      ],
+      "layer": "optimization",
+      "status": "active",
+      "repository": "https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS",
+      "last_verified": "2026-10",
+      "areas": [
+        "agent-skills",
+        "llm-serving-benchmark",
+        "capacity-planning",
+        "profiling",
+        "pipeline-analysis",
+        "model-day0-support",
+        "code-review",
+        "incident-triage",
+        "model-pr-history"
+      ],
+      "code_availability": "public",
+      "linked_companies": []
     }
   },
   {
@@ -17026,6 +17059,40 @@
         "company/Hugging Face/Hugging Face"
       ],
       "code_availability": "public"
+    }
+  },
+  {
+    "id": "community/humanfia/humanize/Humanize",
+    "path": "community/humanfia/humanize/Humanize.md",
+    "name": "Humanize",
+    "type": "project",
+    "category": "community",
+    "frontmatter": {
+      "type": "project",
+      "name": "Humanize",
+      "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/agent/Agent Harness"
+      ],
+      "layer": "runtime",
+      "status": "active",
+      "repository": "https://github.com/humanfia/humanize",
+      "docs": "https://docs.humanfia.ai/humanize/",
+      "last_verified": "2026-10",
+      "areas": [
+        "agent-harness",
+        "agent-flow",
+        "coding-agent-orchestration",
+        "multi-backend-agent",
+        "deepseek-harness",
+        "agent-client-protocol",
+        "workflow-runtime"
+      ],
+      "code_availability": "public",
+      "integrations": [
+        "DeepSeek Harness"
+      ],
+      "linked_companies": []
     }
   },
   {
@@ -30036,10 +30103,41 @@
       "domain": "inference",
       "topic": "agent-runtime",
       "related_concepts": [
-        "Agentic Inference Optimization"
+        "Agentic Inference Optimization",
+        "Agent Skill"
       ],
       "projects": [
-        "DeepSeek Harness"
+        "DeepSeek Harness",
+        "Humanize"
+      ],
+      "last_verified": "2026-10"
+    }
+  },
+  {
+    "id": "concept/inference/agent/Agent Skill",
+    "path": "concept/inference/agent/Agent Skill.md",
+    "name": "Agent Skill",
+    "type": "concept",
+    "category": "concept",
+    "frontmatter": {
+      "type": "concept",
+      "name": "Agent Skill",
+      "aliases": [
+        "Agent Skills",
+        "Coding Agent Skill",
+        "Domain Skill",
+        "智能体技能"
+      ],
+      "domain": "inference",
+      "topic": "agent-knowledge",
+      "related_concepts": [
+        "Agent Harness",
+        "Agentic Inference Optimization",
+        "Agentic Kernel Optimization"
+      ],
+      "projects": [
+        "AI-Infra-Auto-Driven-SKILLS",
+        "Ascend Agent Skills"
       ],
       "last_verified": "2026-10"
     }
@@ -30545,6 +30643,8 @@
       "topic": "optimization",
       "related_concepts": [
         "Agentic Kernel Optimization",
+        "Agent Harness",
+        "Agent Skill",
         "Inference Scheduling",
         "Parallelism",
         "KV Cache Management",
@@ -31401,6 +31501,7 @@
       "topic": "optimization",
       "related_concepts": [
         "Agentic Inference Optimization",
+        "Agent Skill",
         "Autotuning",
         "Kernel Fusion",
         "Kernel Compiler Pipeline",

@@ -2093,13 +2093,13 @@
     "bridge_score": 3.085
   },
   "community/Ascend/agent-skills/Ascend Agent Skills": {
-    "degree": 2,
-    "cross_category_degree": 2,
+    "degree": 3,
+    "cross_category_degree": 3,
     "neighbor_categories": [
       "company",
       "concept"
     ],
-    "bridge_score": 5.285
+    "bridge_score": 6.05
   },
   "community/Ascend/msModelSlim/msModelSlim": {
     "degree": 11,
@@ -2147,6 +2147,15 @@
       "company"
     ],
     "bridge_score": 5.35
+  },
+  "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS": {
+    "degree": 4,
+    "cross_category_degree": 3,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 6.372
   },
   "community/BerriAI/LiteLLM/LiteLLM": {
     "degree": 4,
@@ -2884,14 +2893,14 @@
     "bridge_score": 2.85
   },
   "community/NVIDIA/KDA/KDA": {
-    "degree": 7,
+    "degree": 8,
     "cross_category_degree": 2,
     "neighbor_categories": [
       "community",
       "company",
       "concept"
     ],
-    "bridge_score": 8.2
+    "bridge_score": 8.37
   },
   "community/NVIDIA/KernelBlaster/KernelBlaster": {
     "degree": 2,
@@ -3566,14 +3575,14 @@
     "bridge_score": 3.085
   },
   "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness": {
-    "degree": 5,
+    "degree": 6,
     "cross_category_degree": 2,
     "neighbor_categories": [
       "community",
       "company",
       "concept"
     ],
-    "bridge_score": 7.785
+    "bridge_score": 8.007
   },
   "community/deepseek-ai/DeepSeek-Infra/3FS": {
     "degree": 8,
@@ -4548,6 +4557,15 @@
       "concept"
     ],
     "bridge_score": 5.285
+  },
+  "community/humanfia/humanize/Humanize": {
+    "degree": 3,
+    "cross_category_degree": 2,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 5.7
   },
   "community/inclusionAI/humming/humming": {
     "degree": 8,
@@ -7987,12 +8005,22 @@
     "bridge_score": 5.35
   },
   "concept/inference/agent/Agent Harness": {
-    "degree": 3,
+    "degree": 7,
+    "cross_category_degree": 5,
+    "neighbor_categories": [
+      "community",
+      "concept"
+    ],
+    "bridge_score": 7.75
+  },
+  "concept/inference/agent/Agent Skill": {
+    "degree": 6,
     "cross_category_degree": 3,
     "neighbor_categories": [
-      "community"
+      "community",
+      "concept"
     ],
-    "bridge_score": 4.55
+    "bridge_score": 6.857
   },
   "concept/inference/decoding/Draft-Target Decoding": {
     "degree": 6,
@@ -8130,13 +8158,13 @@
     "bridge_score": 8.307
   },
   "concept/inference/optimization/Agentic Inference Optimization": {
-    "degree": 8,
-    "cross_category_degree": 6,
+    "degree": 11,
+    "cross_category_degree": 7,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 8.27
+    "bridge_score": 9.035
   },
   "concept/inference/parallelism/Context Parallelism": {
     "degree": 4,
@@ -8371,13 +8399,13 @@
     "bridge_score": 8.422
   },
   "concept/kernel/optimization/Agentic Kernel Optimization": {
-    "degree": 30,
+    "degree": 31,
     "cross_category_degree": 28,
     "neighbor_categories": [
       "community",
       "concept"
     ],
-    "bridge_score": 17.754
+    "bridge_score": 17.8
   },
   "concept/kernel/optimization/Kernel Fusion": {
     "degree": 6,

@@ -1,6 +1,9 @@
 ---
 type: project
 name: Humanize
+linked_people: []
+linked_concepts:
+  - "concept/inference/agent/Agent Harness"
 layer: runtime
 status: active
 repository: https://github.com/humanfia/humanize
@@ -17,6 +20,7 @@ areas:
 code_availability: public
 integrations:
   - "DeepSeek Harness"
+linked_companies: []
 ---
 
 # Humanize
@@ -59,3 +63,12 @@ Humanize 解决的是“如何运行和编排 agent”，而 [[concept/inference
 - https://github.com/humanfia/humanize/blob/main/docs/reference/flows.md
 - https://github.com/humanfia/humanize/blob/main/docs/reference/agents.md
 - https://github.com/humanfia/humanize/blob/main/docs/index.md
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/agent/Agent Harness|Agent Harness]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

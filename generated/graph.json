@@ -8102,6 +8102,7 @@
         "name": "Ascend Agent Skills",
         "linked_people": [],
         "linked_concepts": [
+          "concept/inference/agent/Agent Skill",
           "concept/kernel/optimization/Agentic Kernel Optimization"
         ],
         "layer": "optimization",
@@ -8287,6 +8288,38 @@
         ],
         "confidence": "verified",
         "last_verified": "2026-09"
+      }
+    },
+    {
+      "id": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "path": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS.md",
+      "name": "AI-Infra-Auto-Driven-SKILLS",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "AI-Infra-Auto-Driven-SKILLS",
+        "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/agent/Agent Skill"
+        ],
+        "layer": "optimization",
+        "status": "active",
+        "repository": "https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS",
+        "last_verified": "2026-10",
+        "areas": [
+          "agent-skills",
+          "llm-serving-benchmark",
+          "capacity-planning",
+          "profiling",
+          "pipeline-analysis",
+          "model-day0-support",
+          "code-review",
+          "incident-triage",
+          "model-pr-history"
+        ],
+        "code_availability": "public",
+        "linked_companies": []
       }
     },
     {
@@ -17027,6 +17060,40 @@
           "company/Hugging Face/Hugging Face"
         ],
         "code_availability": "public"
+      }
+    },
+    {
+      "id": "community/humanfia/humanize/Humanize",
+      "path": "community/humanfia/humanize/Humanize.md",
+      "name": "Humanize",
+      "type": "project",
+      "category": "community",
+      "frontmatter": {
+        "type": "project",
+        "name": "Humanize",
+        "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/agent/Agent Harness"
+        ],
+        "layer": "runtime",
+        "status": "active",
+        "repository": "https://github.com/humanfia/humanize",
+        "docs": "https://docs.humanfia.ai/humanize/",
+        "last_verified": "2026-10",
+        "areas": [
+          "agent-harness",
+          "agent-flow",
+          "coding-agent-orchestration",
+          "multi-backend-agent",
+          "deepseek-harness",
+          "agent-client-protocol",
+          "workflow-runtime"
+        ],
+        "code_availability": "public",
+        "integrations": [
+          "DeepSeek Harness"
+        ],
+        "linked_companies": []
       }
     },
     {
@@ -30037,10 +30104,41 @@
         "domain": "inference",
         "topic": "agent-runtime",
         "related_concepts": [
-          "Agentic Inference Optimization"
+          "Agentic Inference Optimization",
+          "Agent Skill"
         ],
         "projects": [
-          "DeepSeek Harness"
+          "DeepSeek Harness",
+          "Humanize"
+        ],
+        "last_verified": "2026-10"
+      }
+    },
+    {
+      "id": "concept/inference/agent/Agent Skill",
+      "path": "concept/inference/agent/Agent Skill.md",
+      "name": "Agent Skill",
+      "type": "concept",
+      "category": "concept",
+      "frontmatter": {
+        "type": "concept",
+        "name": "Agent Skill",
+        "aliases": [
+          "Agent Skills",
+          "Coding Agent Skill",
+          "Domain Skill",
+          "智能体技能"
+        ],
+        "domain": "inference",
+        "topic": "agent-knowledge",
+        "related_concepts": [
+          "Agent Harness",
+          "Agentic Inference Optimization",
+          "Agentic Kernel Optimization"
+        ],
+        "projects": [
+          "AI-Infra-Auto-Driven-SKILLS",
+          "Ascend Agent Skills"
         ],
         "last_verified": "2026-10"
       }
@@ -30546,6 +30644,8 @@
         "topic": "optimization",
         "related_concepts": [
           "Agentic Kernel Optimization",
+          "Agent Harness",
+          "Agent Skill",
           "Inference Scheduling",
           "Parallelism",
           "KV Cache Management",
@@ -31402,6 +31502,7 @@
         "topic": "optimization",
         "related_concepts": [
           "Agentic Inference Optimization",
+          "Agent Skill",
           "Autotuning",
           "Kernel Fusion",
           "Kernel Compiler Pipeline",
@@ -33353,6 +33454,11 @@
     },
     {
       "source": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "target": "concept/inference/agent/Agent Skill",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/Ascend/agent-skills/Ascend Agent Skills",
       "target": "concept/kernel/optimization/Agentic Kernel Optimization",
       "kind": "wikilink"
     },
@@ -33459,6 +33565,26 @@
     {
       "source": "community/Ascend/ops-transformer/wangchao661",
       "target": "company/华为/华为",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "target": "community/NVIDIA/KDA/KDA",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "target": "concept/inference/agent/Agent Skill",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "target": "concept/inference/optimization/Agentic Inference Optimization",
       "kind": "wikilink"
     },
     {
@@ -40174,6 +40300,21 @@
     {
       "source": "community/huggingface/Transformers/Transformers",
       "target": "concept/inference/decoding/Self-Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/humanfia/humanize/Humanize",
+      "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/humanfia/humanize/Humanize",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/humanfia/humanize/Humanize",
+      "target": "concept/inference/agent/Agent Skill",
       "kind": "wikilink"
     },
     {
@@ -54122,6 +54263,46 @@
       "kind": "wikilink"
     },
     {
+      "source": "concept/inference/agent/Agent Harness",
+      "target": "community/humanfia/humanize/Humanize",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Harness",
+      "target": "concept/inference/agent/Agent Skill",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Harness",
+      "target": "concept/inference/optimization/Agentic Inference Optimization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Skill",
+      "target": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Skill",
+      "target": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Skill",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Skill",
+      "target": "concept/inference/optimization/Agentic Inference Optimization",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/agent/Agent Skill",
+      "target": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "kind": "wikilink"
+    },
+    {
       "source": "concept/inference/decoding/Draft-Target Decoding",
       "target": "community/sgl-project/SGLang/SGLang",
       "kind": "wikilink"
@@ -54579,6 +54760,16 @@
     {
       "source": "concept/inference/optimization/Agentic Inference Optimization",
       "target": "concept/compiler/Autotuning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/optimization/Agentic Inference Optimization",
+      "target": "concept/inference/agent/Agent Harness",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/optimization/Agentic Inference Optimization",
+      "target": "concept/inference/agent/Agent Skill",
       "kind": "wikilink"
     },
     {
@@ -55349,6 +55540,11 @@
     {
       "source": "concept/kernel/optimization/Agentic Kernel Optimization",
       "target": "concept/compiler/Autotuning",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/kernel/optimization/Agentic Kernel Optimization",
+      "target": "concept/inference/agent/Agent Skill",
       "kind": "wikilink"
     },
     {
@@ -62597,13 +62793,13 @@
       "bridge_score": 3.085
     },
     "community/Ascend/agent-skills/Ascend Agent Skills": {
-      "degree": 2,
-      "cross_category_degree": 2,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "company",
         "concept"
       ],
-      "bridge_score": 5.285
+      "bridge_score": 6.05
     },
     "community/Ascend/msModelSlim/msModelSlim": {
       "degree": 11,
@@ -62651,6 +62847,15 @@
         "company"
       ],
       "bridge_score": 5.35
+    },
+    "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS": {
+      "degree": 4,
+      "cross_category_degree": 3,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 6.372
     },
     "community/BerriAI/LiteLLM/LiteLLM": {
       "degree": 4,
@@ -63388,14 +63593,14 @@
       "bridge_score": 2.85
     },
     "community/NVIDIA/KDA/KDA": {
-      "degree": 7,
+      "degree": 8,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 8.2
+      "bridge_score": 8.37
     },
     "community/NVIDIA/KernelBlaster/KernelBlaster": {
       "degree": 2,
@@ -64070,14 +64275,14 @@
       "bridge_score": 3.085
     },
     "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness": {
-      "degree": 5,
+      "degree": 6,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 7.785
+      "bridge_score": 8.007
     },
     "community/deepseek-ai/DeepSeek-Infra/3FS": {
       "degree": 8,
@@ -65052,6 +65257,15 @@
         "concept"
       ],
       "bridge_score": 5.285
+    },
+    "community/humanfia/humanize/Humanize": {
+      "degree": 3,
+      "cross_category_degree": 2,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 5.7
     },
     "community/inclusionAI/humming/humming": {
       "degree": 8,
@@ -68491,12 +68705,22 @@
       "bridge_score": 5.35
     },
     "concept/inference/agent/Agent Harness": {
-      "degree": 3,
+      "degree": 7,
+      "cross_category_degree": 5,
+      "neighbor_categories": [
+        "community",
+        "concept"
+      ],
+      "bridge_score": 7.75
+    },
+    "concept/inference/agent/Agent Skill": {
+      "degree": 6,
       "cross_category_degree": 3,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 4.55
+      "bridge_score": 6.857
     },
     "concept/inference/decoding/Draft-Target Decoding": {
       "degree": 6,
@@ -68634,13 +68858,13 @@
       "bridge_score": 8.307
     },
     "concept/inference/optimization/Agentic Inference Optimization": {
-      "degree": 8,
-      "cross_category_degree": 6,
+      "degree": 11,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.27
+      "bridge_score": 9.035
     },
     "concept/inference/parallelism/Context Parallelism": {
       "degree": 4,
@@ -68875,13 +69099,13 @@
       "bridge_score": 8.422
     },
     "concept/kernel/optimization/Agentic Kernel Optimization": {
-      "degree": 30,
+      "degree": 31,
       "cross_category_degree": 28,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 17.754
+      "bridge_score": 17.8
     },
     "concept/kernel/optimization/Kernel Fusion": {
       "degree": 6,

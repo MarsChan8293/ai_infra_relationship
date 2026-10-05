@@ -14644,6 +14644,35 @@
     "derived_from": "frontmatter.integrations"
   },
   {
+    "source": "community/humanfia/humanize/Humanize",
+    "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
+    "kind": "derived-project-integration",
+    "relation_types": [
+      "project-integration"
+    ],
+    "project": "Humanize",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "community/humanfia/humanize/Humanize.md",
+      "field": "integrations",
+      "line": 21,
+      "source_urls": [
+        "https://github.com/humanfia/humanize",
+        "https://github.com/humanfia/humanize/blob/main/README.md",
+        "https://github.com/humanfia/humanize/blob/main/docs/index.md",
+        "https://github.com/humanfia/humanize/blob/main/docs/reference/agents.md",
+        "https://github.com/humanfia/humanize/blob/main/docs/reference/flows.md"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "frontmatter.integrations"
+  },
+  {
     "source": "community/inclusionAI/humming/humming",
     "target": "community/vllm-project/vLLM/vLLM",
     "kind": "derived-project-integration",
@@ -18241,10 +18270,95 @@
     "provenance": {
       "source_path": "concept/inference/agent/Agent Harness.md",
       "field": "projects",
-      "line": 12,
+      "line": 13,
       "source_urls": [
+        "https://docs.humanfia.ai/humanize/",
         "https://github.com/deepseek-ai/deepseek-harness",
-        "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md"
+        "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md",
+        "https://github.com/humanfia/humanize"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/humanfia/humanize/Humanize",
+    "target": "concept/inference/agent/Agent Harness",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Humanize",
+    "concept": "Agent Harness",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/agent/Agent Harness.md",
+      "field": "projects",
+      "line": 13,
+      "source_urls": [
+        "https://docs.humanfia.ai/humanize/",
+        "https://github.com/deepseek-ai/deepseek-harness",
+        "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md",
+        "https://github.com/humanfia/humanize"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+    "target": "concept/inference/agent/Agent Skill",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "AI-Infra-Auto-Driven-SKILLS",
+    "concept": "Agent Skill",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/agent/Agent Skill.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://github.com/Ascend/agent-skills",
+        "https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/Ascend/agent-skills/Ascend Agent Skills",
+    "target": "concept/inference/agent/Agent Skill",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Ascend Agent Skills",
+    "concept": "Agent Skill",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/agent/Agent Skill.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://github.com/Ascend/agent-skills",
+        "https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS"
       ],
       "scope": "page-sources; individual assertion not automatically verified"
     },
@@ -19616,7 +19730,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -19647,7 +19761,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -19678,7 +19792,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -19709,7 +19823,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -19740,7 +19854,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -19771,7 +19885,7 @@
     "provenance": {
       "source_path": "concept/inference/optimization/Agentic Inference Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 19,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://github.com/LancerLab/croqtile",
@@ -22956,7 +23070,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -22989,7 +23103,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23022,7 +23136,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23055,7 +23169,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23088,7 +23202,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23121,7 +23235,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23154,7 +23268,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23187,7 +23301,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23220,7 +23334,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23253,7 +23367,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23286,7 +23400,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23319,7 +23433,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23352,7 +23466,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23385,7 +23499,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23418,7 +23532,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23451,7 +23565,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23484,7 +23598,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23517,7 +23631,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23550,7 +23664,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23583,7 +23697,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23616,7 +23730,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23649,7 +23763,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23682,7 +23796,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23715,7 +23829,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23748,7 +23862,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23781,7 +23895,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",
@@ -23814,7 +23928,7 @@
     "provenance": {
       "source_path": "concept/kernel/optimization/Agentic Kernel Optimization.md",
       "field": "projects",
-      "line": 17,
+      "line": 18,
       "source_urls": [
         "https://arxiv.org/abs/2601.00227",
         "https://arxiv.org/abs/2608.12629",

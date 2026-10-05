@@ -1,16 +1,17 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 90,
-    "concepts_with_projects": 90,
+    "concepts": 91,
+    "concepts_with_projects": 91,
     "concepts_without_projects": 0,
-    "project_like_nodes": 239,
-    "projects_with_concepts": 97,
-    "concept_project_assertions": 398,
+    "project_like_nodes": 241,
+    "projects_with_concepts": 99,
+    "concept_project_assertions": 401,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
   "topic_counts": {
+    "agent-knowledge": 1,
     "agent-runtime": 1,
     "attention": 4,
     "collective-communication": 5,
@@ -39,6 +40,7 @@
     "verification": 1
   },
   "mapped_topic_counts": {
+    "agent-knowledge": 1,
     "agent-runtime": 1,
     "attention": 4,
     "collective-communication": 5,
@@ -776,6 +778,16 @@
       "count": 2
     },
     {
+      "id": "community/Ascend/agent-skills/Ascend Agent Skills",
+      "name": "Ascend Agent Skills",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/agent/Agent Skill",
+        "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/research/CAKE/CAKE",
       "name": "CAKE",
       "layer": "compiler",
@@ -964,17 +976,17 @@
       "count": 1
     },
     {
-      "id": "community/MindSpore/AKG Agents/AKG Agents",
-      "name": "AKG Agents",
+      "id": "community/BBuf/AI-Infra-Auto-Driven-SKILLS/AI-Infra-Auto-Driven-SKILLS",
+      "name": "AI-Infra-Auto-Driven-SKILLS",
       "layer": "optimization",
       "concepts": [
-        "concept/kernel/optimization/Agentic Kernel Optimization"
+        "concept/inference/agent/Agent Skill"
       ],
       "count": 1
     },
     {
-      "id": "community/Ascend/agent-skills/Ascend Agent Skills",
-      "name": "Ascend Agent Skills",
+      "id": "community/MindSpore/AKG Agents/AKG Agents",
+      "name": "AKG Agents",
       "layer": "optimization",
       "concepts": [
         "concept/kernel/optimization/Agentic Kernel Optimization"
@@ -1122,6 +1134,15 @@
       "layer": "runtime",
       "concepts": [
         "concept/kernel/optimization/Kernel Fusion"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/humanfia/humanize/Humanize",
+      "name": "Humanize",
+      "layer": "runtime",
+      "concepts": [
+        "concept/inference/agent/Agent Harness"
       ],
       "count": 1
     },

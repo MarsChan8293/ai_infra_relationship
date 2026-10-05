@@ -3,11 +3,11 @@
 由 scripts/audit-project-concept-coverage.py 自动生成。Concept 节点的 projects 字段是人工事实源；Project 页的 linked_concepts 是派生反向视图。
 
 - Status: **pass**
-- Concepts: 90
-- Concepts with project evidence: 90
-- Project-like nodes: 239
-- Projects linked to concepts: 97
-- Concept → Project assertions: 398
+- Concepts: 91
+- Concepts with project evidence: 91
+- Project-like nodes: 241
+- Projects linked to concepts: 99
+- Concept → Project assertions: 401
 - Unresolved project refs: 0
 - Reverse-link mismatches: 0
 
@@ -64,6 +64,7 @@
 
 | Topic | Concepts | With project evidence |
 | --- | ---: | ---: |
+| agent-knowledge | 1 | 1 |
 | agent-runtime | 1 | 1 |
 | attention | 4 | 4 |
 | collective-communication | 5 | 5 |

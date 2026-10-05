@@ -1,6 +1,9 @@
 ---
 type: project
 name: AI-Infra-Auto-Driven-SKILLS
+linked_people: []
+linked_concepts:
+  - "concept/inference/agent/Agent Skill"
 layer: optimization
 status: active
 repository: https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS
@@ -16,6 +19,7 @@ areas:
   - "incident-triage"
   - "model-pr-history"
 code_availability: public
+linked_companies: []
 ---
 
 # AI-Infra-Auto-Driven-SKILLS
@@ -58,3 +62,12 @@ README 直接覆盖 SGLang、vLLM、TensorRT-LLM 与 TokenSpeed 的 benchmark、
 
 - https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS
 - https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/blob/main/README.md
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/agent/Agent Skill|Agent Skill]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
