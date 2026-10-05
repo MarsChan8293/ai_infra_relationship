@@ -10,6 +10,8 @@ domain: inference
 topic: optimization
 related_concepts:
   - Agentic Kernel Optimization
+  - Agent Harness
+  - Agent Skill
   - Inference Scheduling
   - Parallelism
   - KV Cache Management
@@ -67,6 +69,10 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 - **System architecture**：TP / DP / EP / PP、P/D disaggregation、placement、routing、cache lifecycle。
 - **Kernel / operator**：当瓶颈下沉到算子层时进入 [[Agentic Kernel Optimization]]。
 - **Hardware-specific backend**：根据 NVIDIA CUDA 或 Ascend CANN / AscendC 的 profiler、compiler 与 runtime 反馈选择不同优化动作。
+
+## Agent Harness 与 Agent Skill 在闭环中的位置
+
+[[concept/inference/agent/Agent Harness|Agent Harness]] 提供 session、tool、permission、sandbox、model backend 和 durable execution 等运行时能力；[[concept/inference/agent/Agent Skill|Agent Skill]] 提供 profiler guide、benchmark procedure、capacity rule、incident recipe 等领域知识。二者都可以成为优化系统的组成部分，但单独存在时都不等于完整的 agentic optimization：是否属于本概念，关键看是否具备可测量、可验证、可 promotion / rollback 的优化闭环。
 
 ## 与传统 Autotuning 的区别
 
