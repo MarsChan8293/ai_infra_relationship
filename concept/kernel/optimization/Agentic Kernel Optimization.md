@@ -10,6 +10,7 @@ domain: kernel
 topic: optimization
 related_concepts:
   - Agentic Inference Optimization
+  - Agent Skill
   - Autotuning
   - Kernel Fusion
   - Kernel Compiler Pipeline
@@ -99,7 +100,7 @@ Agent 可以优化的对象不只包括源码文本，还包括：
 - CUDA / Triton / CuTe / Tile DSL；
 - AscendC / Triton-Ascend 等 NPU kernel 实现。
 
-## Profiler 与 Compiler 反馈
+## Profiler、Compiler 与 Agent Skill 反馈
 
 高质量 Kernel Agent 不应只依赖自然语言推理。它应把 profiler 与 compiler 变成结构化 observation：
 
@@ -117,7 +118,7 @@ Bottleneck state
 Agent action
 ```
 
-NVIDIA 路径通常可使用 NCU / NSYS、PTX / SASS / Triton IR 等信息；Ascend 路径则需要同时考虑 host-side tiling、AscendC pipeline、片上存储和 CANN / profiler / compiler 反馈。
+NVIDIA 路径通常可使用 NCU / NSYS、PTX / SASS / Triton IR 等信息；Ascend 路径则需要同时考虑 host-side tiling、AscendC pipeline、片上存储和 CANN / profiler / compiler 反馈。[[concept/inference/agent/Agent Skill|Agent Skill]] 可以把这些平台专用 profiling、correctness 与 benchmark 经验封装成可复用知识层，但是否构成 autonomous optimizer 仍取决于是否存在候选搜索与 promotion / rollback 控制环。
 
 ## 与传统 Kernel Library 的区别
 
