@@ -8149,7 +8149,6 @@
         "concept/quantization/FP4 Quantization",
         "concept/quantization/FP8 Quantization",
         "concept/quantization/Quantization",
-        "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization"
       ],
       "status": "active",
@@ -12475,7 +12474,6 @@
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
@@ -13584,7 +13582,6 @@
         "concept/kernel/programming/JIT Kernel Compilation",
         "concept/kernel/optimization/Kernel Fusion",
         "concept/quantization/Quantization",
-        "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization"
       ],
       "status": "active",
@@ -17339,7 +17336,6 @@
       "linked_people": [],
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Inference-Aware Routing",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Request Routing"
@@ -17375,7 +17371,6 @@
       "name": "Gateway API Inference Extension",
       "linked_people": [],
       "linked_concepts": [
-        "concept/inference/scheduling/Inference-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing"
@@ -19197,7 +19192,6 @@
         "concept/inference/scheduling/Capacity Planning",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
@@ -21641,7 +21635,6 @@
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
@@ -22463,7 +22456,6 @@
         "concept/inference/decoding/Speculative Decoding",
         "concept/inference/parallelism/Tensor Parallelism",
         "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization",
         "concept/quantization/Weight-Only Quantization"
       ],
@@ -30986,39 +30978,6 @@
     }
   },
   {
-    "id": "concept/inference/scheduling/Inference-Aware Routing",
-    "path": "concept/inference/scheduling/Inference-Aware Routing.md",
-    "name": "Inference-Aware Routing",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Inference-Aware Routing",
-      "aliases": [
-        "LLM-Aware Routing",
-        "Model-Aware Routing",
-        "推理感知路由"
-      ],
-      "domain": "scheduling",
-      "topic": "inference-scheduling",
-      "parent_concepts": [
-        "Request Routing"
-      ],
-      "related_concepts": [
-        "KV-Aware Routing",
-        "Load-Aware Routing"
-      ],
-      "projects": [
-        "llm-d",
-        "NVIDIA Dynamo",
-        "AIBrix",
-        "Gateway API Inference Extension",
-        "KServe"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/inference/scheduling/KV-Aware Routing",
     "path": "concept/inference/scheduling/KV-Aware Routing.md",
     "name": "KV-Aware Routing",
@@ -31037,7 +30996,7 @@
       "domain": "scheduling",
       "topic": "inference-scheduling",
       "parent_concepts": [
-        "Inference-Aware Routing"
+        "Request Routing"
       ],
       "related_concepts": [
         "Prefix Caching",
@@ -31107,7 +31066,7 @@
       "domain": "scheduling",
       "topic": "inference-scheduling",
       "parent_concepts": [
-        "Inference-Aware Routing"
+        "Request Routing"
       ],
       "related_concepts": [
         "KV-Aware Routing",
@@ -31119,7 +31078,7 @@
         "AIBrix",
         "Gateway API Inference Extension"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -31133,7 +31092,11 @@
       "name": "Request Routing",
       "aliases": [
         "Inference Request Routing",
-        "请求路由"
+        "Inference-Aware Routing",
+        "LLM-Aware Routing",
+        "Model-Aware Routing",
+        "请求路由",
+        "推理感知路由"
       ],
       "domain": "scheduling",
       "topic": "inference-scheduling",
@@ -31141,7 +31104,8 @@
         "Inference Scheduling"
       ],
       "related_concepts": [
-        "Inference-Aware Routing",
+        "KV-Aware Routing",
+        "Load-Aware Routing",
         "Load Balancing"
       ],
       "projects": [
@@ -31982,7 +31946,6 @@
         "Quantization"
       ],
       "related_concepts": [
-        "W8A8",
         "Weight-Activation Quantization",
         "Weight-Only Quantization",
         "KV Cache Quantization"
@@ -32067,36 +32030,6 @@
     }
   },
   {
-    "id": "concept/quantization/W8A8",
-    "path": "concept/quantization/W8A8.md",
-    "name": "W8A8",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "W8A8",
-      "aliases": [
-        "Weight 8 Activation 8",
-        "8-bit Weight Activation Quantization",
-        "权重8比特激活8比特"
-      ],
-      "domain": "quantization",
-      "topic": "quantization",
-      "parent_concepts": [
-        "Weight-Activation Quantization"
-      ],
-      "related_concepts": [
-        "FP8 Quantization"
-      ],
-      "projects": [
-        "vLLM",
-        "msModelSlim",
-        "DeepGEMM"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/quantization/Weight-Activation Quantization",
     "path": "concept/quantization/Weight-Activation Quantization.md",
     "name": "Weight-Activation Quantization",
@@ -32108,7 +32041,11 @@
       "aliases": [
         "Weight and Activation Quantization",
         "W-A Quantization",
-        "权重激活量化"
+        "W8A8",
+        "Weight 8 Activation 8",
+        "8-bit Weight Activation Quantization",
+        "权重激活量化",
+        "权重8比特激活8比特"
       ],
       "domain": "quantization",
       "topic": "quantization",
@@ -32117,7 +32054,6 @@
       ],
       "related_concepts": [
         "Weight-Only Quantization",
-        "W8A8",
         "FP8 Quantization",
         "FP4 Quantization"
       ],
@@ -32127,7 +32063,7 @@
         "DeepGEMM",
         "TileKernels"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -32164,7 +32100,7 @@
         "Chord",
         "Humming"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {

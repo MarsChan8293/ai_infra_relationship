@@ -10,7 +10,6 @@ linked_concepts:
   - "concept/kernel/programming/JIT Kernel Compilation"
   - "concept/kernel/optimization/Kernel Fusion"
   - "concept/quantization/Quantization"
-  - "concept/quantization/W8A8"
   - "concept/quantization/Weight-Activation Quantization"
 status: active
 linked_people:
@@ -105,7 +104,6 @@ https://github.com/deepseek-ai/DeepGEMM
 - [[concept/kernel/programming/JIT Kernel Compilation|JIT Kernel Compilation]]
 - [[concept/kernel/optimization/Kernel Fusion|Kernel Fusion]]
 - [[concept/quantization/Quantization|Quantization]]
-- [[concept/quantization/W8A8|W8A8]]
 - [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

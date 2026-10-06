@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 88,
-    "concepts_with_projects": 88,
+    "concepts": 86,
+    "concepts_with_projects": 86,
     "concepts_without_projects": 0,
     "project_like_nodes": 241,
     "projects_with_concepts": 108,
-    "concept_project_assertions": 438,
+    "concept_project_assertions": 430,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -20,7 +20,7 @@
     "decoding": 4,
     "distributed-storage": 2,
     "gemm": 2,
-    "inference-scheduling": 8,
+    "inference-scheduling": 7,
     "interconnect": 6,
     "kernel-compilation": 4,
     "kernel-optimization": 2,
@@ -32,7 +32,7 @@
     "memory-topology": 1,
     "optimization": 3,
     "parallelism": 7,
-    "quantization": 6,
+    "quantization": 5,
     "reliability": 1,
     "serving": 4,
     "storage-media": 1,
@@ -49,7 +49,7 @@
     "decoding": 4,
     "distributed-storage": 2,
     "gemm": 2,
-    "inference-scheduling": 8,
+    "inference-scheduling": 7,
     "interconnect": 6,
     "kernel-compilation": 4,
     "kernel-optimization": 2,
@@ -61,7 +61,7 @@
     "memory-topology": 1,
     "optimization": 3,
     "parallelism": 7,
-    "quantization": 6,
+    "quantization": 5,
     "reliability": 1,
     "serving": 4,
     "storage-media": 1,
@@ -101,11 +101,10 @@
         "concept/quantization/FP8 Quantization",
         "concept/quantization/KV Cache Quantization",
         "concept/quantization/Quantization",
-        "concept/quantization/W8A8",
         "concept/quantization/Weight-Activation Quantization",
         "concept/quantization/Weight-Only Quantization"
       ],
-      "count": 29
+      "count": 28
     },
     {
       "id": "community/kvcache-ai/Mooncake/Mooncake",
@@ -244,24 +243,6 @@
       "count": 10
     },
     {
-      "id": "community/llm-d/llm-d/llm-d",
-      "name": "llm-d",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Capacity Planning",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 10
-    },
-    {
       "id": "community/NVIDIA/NCCL/NCCL",
       "name": "NCCL",
       "layer": "communication",
@@ -298,19 +279,19 @@
       "count": 10
     },
     {
-      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
-      "name": "DeepGEMM",
-      "layer": "runtime",
+      "id": "community/llm-d/llm-d/llm-d",
+      "name": "llm-d",
+      "layer": "distributed-serving",
       "concepts": [
-        "concept/kernel/gemm/GEMM",
-        "concept/kernel/gemm/Grouped GEMM",
-        "concept/kernel/optimization/Kernel Fusion",
-        "concept/kernel/programming/JIT Kernel Compilation",
-        "concept/quantization/FP4 Quantization",
-        "concept/quantization/FP8 Quantization",
-        "concept/quantization/Quantization",
-        "concept/quantization/W8A8",
-        "concept/quantization/Weight-Activation Quantization"
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Capacity Planning",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 9
     },
@@ -328,23 +309,6 @@
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling"
-      ],
-      "count": 9
-    },
-    {
-      "id": "community/ai-dynamo/Dynamo/Dynamo",
-      "name": "NVIDIA Dynamo",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 9
     },
@@ -383,6 +347,22 @@
       "count": 9
     },
     {
+      "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
+      "name": "DeepGEMM",
+      "layer": "runtime",
+      "concepts": [
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/gemm/Grouped GEMM",
+        "concept/kernel/optimization/Kernel Fusion",
+        "concept/kernel/programming/JIT Kernel Compilation",
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Activation Quantization"
+      ],
+      "count": 8
+    },
+    {
       "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "name": "MindIE-Motor",
       "layer": "runtime",
@@ -392,6 +372,22 @@
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 8
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Dynamo",
+      "name": "NVIDIA Dynamo",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/serving/P-D Disaggregation"
@@ -429,21 +425,6 @@
         "concept/hardware/interconnect/PCIe"
       ],
       "count": 8
-    },
-    {
-      "id": "community/vllm-project/AIBrix/AIBrix",
-      "name": "AIBrix",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/Inference-Aware Routing",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing"
-      ],
-      "count": 7
     },
     {
       "id": "community/flashinfer-ai/FlashInfer/FlashInfer",
@@ -489,6 +470,20 @@
         "concept/storage/Storage Tiering"
       ],
       "count": 7
+    },
+    {
+      "id": "community/vllm-project/AIBrix/AIBrix",
+      "name": "AIBrix",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 6
     },
     {
       "id": "community/InfiniTensor/NineToothed",
@@ -572,19 +567,6 @@
       "count": 5
     },
     {
-      "id": "community/kserve/KServe/KServe",
-      "name": "KServe",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Inference-Aware Routing",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Request Routing"
-      ],
-      "count": 5
-    },
-    {
       "id": "community/modelsphere/ModelSphere/ModelSphere",
       "name": "ModelSphere",
       "layer": "distributed-serving",
@@ -594,19 +576,6 @@
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Request Routing",
         "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 5
-    },
-    {
-      "id": "community/Ascend/msModelSlim/msModelSlim",
-      "name": "msModelSlim",
-      "layer": "optimization",
-      "concepts": [
-        "concept/quantization/FP4 Quantization",
-        "concept/quantization/FP8 Quantization",
-        "concept/quantization/Quantization",
-        "concept/quantization/W8A8",
-        "concept/quantization/Weight-Activation Quantization"
       ],
       "count": 5
     },
@@ -734,14 +703,26 @@
       "count": 4
     },
     {
-      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "name": "Gateway API Inference Extension",
+      "id": "community/kserve/KServe/KServe",
+      "name": "KServe",
       "layer": "distributed-serving",
       "concepts": [
-        "concept/inference/scheduling/Inference-Aware Routing",
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 4
+    },
+    {
+      "id": "community/Ascend/msModelSlim/msModelSlim",
+      "name": "msModelSlim",
+      "layer": "optimization",
+      "concepts": [
+        "concept/quantization/FP4 Quantization",
+        "concept/quantization/FP8 Quantization",
+        "concept/quantization/Quantization",
+        "concept/quantization/Weight-Activation Quantization"
       ],
       "count": 4
     },
@@ -765,6 +746,17 @@
         "concept/communication/collectives/AllGather",
         "concept/communication/collectives/AllReduce",
         "concept/communication/collectives/Collective Communication"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "name": "Gateway API Inference Extension",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Load Balancing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
       ],
       "count": 3
     },

@@ -5,7 +5,6 @@ linked_concepts:
   - "concept/quantization/FP4 Quantization"
   - "concept/quantization/FP8 Quantization"
   - "concept/quantization/Quantization"
-  - "concept/quantization/W8A8"
   - "concept/quantization/Weight-Activation Quantization"
 status: active
 linked_people: []
@@ -64,7 +63,6 @@ https://gitcode.com/Ascend/msmodelslim
 - [[concept/quantization/FP4 Quantization|FP4 Quantization]]
 - [[concept/quantization/FP8 Quantization|FP8 Quantization]]
 - [[concept/quantization/Quantization|Quantization]]
-- [[concept/quantization/W8A8|W8A8]]
 - [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

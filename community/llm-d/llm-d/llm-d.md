@@ -6,7 +6,6 @@ linked_concepts:
   - "concept/inference/scheduling/Capacity Planning"
   - "concept/inference/serving/Disaggregated Serving"
   - "concept/inference/scheduling/Inference Scheduling"
-  - "concept/inference/scheduling/Inference-Aware Routing"
   - "concept/inference/scheduling/KV-Aware Routing"
   - "concept/inference/scheduling/Load Balancing"
   - "concept/inference/scheduling/Load-Aware Routing"
@@ -140,7 +139,6 @@ AMD、Cisco、Hugging Face、Intel、Lambda、Mistral 等 launch / ecosystem par
 - [[concept/inference/scheduling/Capacity Planning|Capacity Planning]]
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
 - [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]]
-- [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]]
 - [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
 - [[concept/inference/scheduling/Load Balancing|Load Balancing]]
 - [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]]

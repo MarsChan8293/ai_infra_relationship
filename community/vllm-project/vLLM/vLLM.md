@@ -28,7 +28,6 @@ linked_concepts:
   - "concept/inference/decoding/Speculative Decoding"
   - "concept/inference/parallelism/Tensor Parallelism"
   - "concept/inference/kv-cache/Tiered KV Cache"
-  - "concept/quantization/W8A8"
   - "concept/quantization/Weight-Activation Quantization"
   - "concept/quantization/Weight-Only Quantization"
 status: active
@@ -217,7 +216,6 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
 - [[concept/inference/parallelism/Tensor Parallelism|Tensor Parallelism]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
-- [[concept/quantization/W8A8|W8A8]]
 - [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]]
 - [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]]
 

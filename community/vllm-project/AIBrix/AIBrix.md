@@ -5,7 +5,6 @@ parent: vLLM Project
 linked_concepts:
   - "concept/inference/scheduling/Autoscaling"
   - "concept/inference/scheduling/Inference Scheduling"
-  - "concept/inference/scheduling/Inference-Aware Routing"
   - "concept/inference/scheduling/KV-Aware Routing"
   - "concept/inference/scheduling/Load Balancing"
   - "concept/inference/scheduling/Load-Aware Routing"
@@ -88,7 +87,6 @@ https://github.com/vllm-project/aibrix
 
 - [[concept/inference/scheduling/Autoscaling|Autoscaling]]
 - [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]]
-- [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]]
 - [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
 - [[concept/inference/scheduling/Load Balancing|Load Balancing]]
 - [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]]

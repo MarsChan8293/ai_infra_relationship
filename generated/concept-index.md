@@ -2,7 +2,7 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 88
+- Concepts: 86
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
@@ -130,7 +130,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Scheduling
 
-8 concepts.
+7 concepts.
 
 ### Inference Scheduling
 
@@ -139,11 +139,10 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
 | [[concept/inference/scheduling/Capacity Planning|Capacity Planning]] | Inference Capacity Planning, LLM Capacity Planning, 容量规划 | Inference Scheduling | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Capacity%20Planning) |
 | [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
-| [[concept/inference/scheduling/Inference-Aware Routing|Inference-Aware Routing]] | LLM-Aware Routing, Model-Aware Routing, 推理感知路由 | Request Routing | 2 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference-Aware%20Routing) |
-| [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Inference-Aware Routing | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
+| [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Request Routing | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
 | [[concept/inference/scheduling/Load Balancing|Load Balancing]] | Inference Load Balancing, LLM Load Balancing, 负载均衡 | Inference Scheduling | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load%20Balancing) |
-| [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Inference-Aware Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
-| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, 请求路由 | Inference Scheduling | 2 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
+| [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Request Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
+| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, Inference-Aware Routing, LLM-Aware Routing, Model-Aware Routing | Inference Scheduling | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
 
 ## Kernel
 
@@ -207,7 +206,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Quantization
 
-7 concepts.
+6 concepts.
 
 ### Kv Cache
 
@@ -220,10 +219,9 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/quantization/FP4 Quantization|FP4 Quantization]] | Float4 Quantization, FP4, MXFP4, NVFP4 | Quantization | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP4%20Quantization) |
-| [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 4 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
+| [[concept/quantization/FP8 Quantization|FP8 Quantization]] | Float8 Quantization, FP8, E4M3, E5M2 | Quantization | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=FP8%20Quantization) |
 | [[concept/quantization/Quantization|Quantization]] | Model Quantization, LLM Quantization, 模型量化 |  | 3 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Quantization) |
-| [[concept/quantization/W8A8|W8A8]] | Weight 8 Activation 8, 8-bit Weight Activation Quantization, 权重8比特激活8比特 | Weight-Activation Quantization | 1 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=W8A8) |
-| [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, 权重激活量化 | Quantization | 4 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |
+| [[concept/quantization/Weight-Activation Quantization|Weight-Activation Quantization]] | Weight and Activation Quantization, W-A Quantization, W8A8, Weight 8 Activation 8 | Quantization | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Activation%20Quantization) |
 | [[concept/quantization/Weight-Only Quantization|Weight-Only Quantization]] | Weight Only Quantization, WOQ, W4A16, W8A16 | Quantization | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Weight-Only%20Quantization) |
 
 ## Hardware

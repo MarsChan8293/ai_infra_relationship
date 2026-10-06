@@ -8150,7 +8150,6 @@
           "concept/quantization/FP4 Quantization",
           "concept/quantization/FP8 Quantization",
           "concept/quantization/Quantization",
-          "concept/quantization/W8A8",
           "concept/quantization/Weight-Activation Quantization"
         ],
         "status": "active",
@@ -12476,7 +12475,6 @@
           "concept/inference/scheduling/Autoscaling",
           "concept/inference/serving/Disaggregated Serving",
           "concept/inference/scheduling/Inference Scheduling",
-          "concept/inference/scheduling/Inference-Aware Routing",
           "concept/inference/scheduling/KV-Aware Routing",
           "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
@@ -13585,7 +13583,6 @@
           "concept/kernel/programming/JIT Kernel Compilation",
           "concept/kernel/optimization/Kernel Fusion",
           "concept/quantization/Quantization",
-          "concept/quantization/W8A8",
           "concept/quantization/Weight-Activation Quantization"
         ],
         "status": "active",
@@ -17340,7 +17337,6 @@
         "linked_people": [],
         "linked_concepts": [
           "concept/inference/scheduling/Autoscaling",
-          "concept/inference/scheduling/Inference-Aware Routing",
           "concept/inference/scheduling/KV-Aware Routing",
           "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Request Routing"
@@ -17376,7 +17372,6 @@
         "name": "Gateway API Inference Extension",
         "linked_people": [],
         "linked_concepts": [
-          "concept/inference/scheduling/Inference-Aware Routing",
           "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
           "concept/inference/scheduling/Request Routing"
@@ -19198,7 +19193,6 @@
           "concept/inference/scheduling/Capacity Planning",
           "concept/inference/serving/Disaggregated Serving",
           "concept/inference/scheduling/Inference Scheduling",
-          "concept/inference/scheduling/Inference-Aware Routing",
           "concept/inference/scheduling/KV-Aware Routing",
           "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
@@ -21642,7 +21636,6 @@
         "linked_concepts": [
           "concept/inference/scheduling/Autoscaling",
           "concept/inference/scheduling/Inference Scheduling",
-          "concept/inference/scheduling/Inference-Aware Routing",
           "concept/inference/scheduling/KV-Aware Routing",
           "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
@@ -22464,7 +22457,6 @@
           "concept/inference/decoding/Speculative Decoding",
           "concept/inference/parallelism/Tensor Parallelism",
           "concept/inference/kv-cache/Tiered KV Cache",
-          "concept/quantization/W8A8",
           "concept/quantization/Weight-Activation Quantization",
           "concept/quantization/Weight-Only Quantization"
         ],
@@ -30987,39 +30979,6 @@
       }
     },
     {
-      "id": "concept/inference/scheduling/Inference-Aware Routing",
-      "path": "concept/inference/scheduling/Inference-Aware Routing.md",
-      "name": "Inference-Aware Routing",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Inference-Aware Routing",
-        "aliases": [
-          "LLM-Aware Routing",
-          "Model-Aware Routing",
-          "推理感知路由"
-        ],
-        "domain": "scheduling",
-        "topic": "inference-scheduling",
-        "parent_concepts": [
-          "Request Routing"
-        ],
-        "related_concepts": [
-          "KV-Aware Routing",
-          "Load-Aware Routing"
-        ],
-        "projects": [
-          "llm-d",
-          "NVIDIA Dynamo",
-          "AIBrix",
-          "Gateway API Inference Extension",
-          "KServe"
-        ],
-        "last_verified": "2026-09"
-      }
-    },
-    {
       "id": "concept/inference/scheduling/KV-Aware Routing",
       "path": "concept/inference/scheduling/KV-Aware Routing.md",
       "name": "KV-Aware Routing",
@@ -31038,7 +30997,7 @@
         "domain": "scheduling",
         "topic": "inference-scheduling",
         "parent_concepts": [
-          "Inference-Aware Routing"
+          "Request Routing"
         ],
         "related_concepts": [
           "Prefix Caching",
@@ -31108,7 +31067,7 @@
         "domain": "scheduling",
         "topic": "inference-scheduling",
         "parent_concepts": [
-          "Inference-Aware Routing"
+          "Request Routing"
         ],
         "related_concepts": [
           "KV-Aware Routing",
@@ -31120,7 +31079,7 @@
           "AIBrix",
           "Gateway API Inference Extension"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -31134,7 +31093,11 @@
         "name": "Request Routing",
         "aliases": [
           "Inference Request Routing",
-          "请求路由"
+          "Inference-Aware Routing",
+          "LLM-Aware Routing",
+          "Model-Aware Routing",
+          "请求路由",
+          "推理感知路由"
         ],
         "domain": "scheduling",
         "topic": "inference-scheduling",
@@ -31142,7 +31105,8 @@
           "Inference Scheduling"
         ],
         "related_concepts": [
-          "Inference-Aware Routing",
+          "KV-Aware Routing",
+          "Load-Aware Routing",
           "Load Balancing"
         ],
         "projects": [
@@ -31983,7 +31947,6 @@
           "Quantization"
         ],
         "related_concepts": [
-          "W8A8",
           "Weight-Activation Quantization",
           "Weight-Only Quantization",
           "KV Cache Quantization"
@@ -32068,36 +32031,6 @@
       }
     },
     {
-      "id": "concept/quantization/W8A8",
-      "path": "concept/quantization/W8A8.md",
-      "name": "W8A8",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "W8A8",
-        "aliases": [
-          "Weight 8 Activation 8",
-          "8-bit Weight Activation Quantization",
-          "权重8比特激活8比特"
-        ],
-        "domain": "quantization",
-        "topic": "quantization",
-        "parent_concepts": [
-          "Weight-Activation Quantization"
-        ],
-        "related_concepts": [
-          "FP8 Quantization"
-        ],
-        "projects": [
-          "vLLM",
-          "msModelSlim",
-          "DeepGEMM"
-        ],
-        "last_verified": "2026-09"
-      }
-    },
-    {
       "id": "concept/quantization/Weight-Activation Quantization",
       "path": "concept/quantization/Weight-Activation Quantization.md",
       "name": "Weight-Activation Quantization",
@@ -32109,7 +32042,11 @@
         "aliases": [
           "Weight and Activation Quantization",
           "W-A Quantization",
-          "权重激活量化"
+          "W8A8",
+          "Weight 8 Activation 8",
+          "8-bit Weight Activation Quantization",
+          "权重激活量化",
+          "权重8比特激活8比特"
         ],
         "domain": "quantization",
         "topic": "quantization",
@@ -32118,7 +32055,6 @@
         ],
         "related_concepts": [
           "Weight-Only Quantization",
-          "W8A8",
           "FP8 Quantization",
           "FP4 Quantization"
         ],
@@ -32128,7 +32064,7 @@
           "DeepGEMM",
           "TileKernels"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -32165,7 +32101,7 @@
           "Chord",
           "Humming"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -33509,11 +33445,6 @@
     {
       "source": "community/Ascend/msModelSlim/msModelSlim",
       "target": "concept/quantization/Quantization",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/Ascend/msModelSlim/msModelSlim",
-      "target": "concept/quantization/W8A8",
       "kind": "wikilink"
     },
     {
@@ -36028,11 +35959,6 @@
     },
     {
       "source": "community/ai-dynamo/Dynamo/Dynamo",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/ai-dynamo/Dynamo/Dynamo",
       "target": "concept/inference/scheduling/KV-Aware Routing",
       "kind": "wikilink"
     },
@@ -37414,11 +37340,6 @@
     {
       "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "target": "concept/quantization/Quantization",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
-      "target": "concept/quantization/W8A8",
       "kind": "wikilink"
     },
     {
@@ -40468,11 +40389,6 @@
     },
     {
       "source": "community/kserve/KServe/KServe",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/kserve/KServe/KServe",
       "target": "concept/inference/scheduling/KV-Aware Routing",
       "kind": "wikilink"
     },
@@ -40484,11 +40400,6 @@
     {
       "source": "community/kserve/KServe/KServe",
       "target": "concept/inference/scheduling/Request Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
       "kind": "wikilink"
     },
     {
@@ -42169,11 +42080,6 @@
     {
       "source": "community/llm-d/llm-d/llm-d",
       "target": "concept/inference/scheduling/Inference Scheduling",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/llm-d/llm-d/llm-d",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
       "kind": "wikilink"
     },
     {
@@ -44338,11 +44244,6 @@
     },
     {
       "source": "community/vllm-project/AIBrix/AIBrix",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/vllm-project/AIBrix/AIBrix",
       "target": "concept/inference/scheduling/KV-Aware Routing",
       "kind": "wikilink"
     },
@@ -46059,11 +45960,6 @@
     {
       "source": "community/vllm-project/vLLM/vLLM",
       "target": "concept/quantization/Quantization",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/vllm-project/vLLM/vLLM",
-      "target": "concept/quantization/W8A8",
       "kind": "wikilink"
     },
     {
@@ -55292,41 +55188,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "community/ai-dynamo/Dynamo/Dynamo",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "community/kserve/KServe/KServe",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "community/llm-d/llm-d/llm-d",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "community/vllm-project/AIBrix/AIBrix",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "concept/inference/scheduling/KV-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Inference-Aware Routing",
-      "target": "concept/inference/scheduling/Load-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
       "source": "concept/inference/scheduling/KV-Aware Routing",
       "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "kind": "wikilink"
@@ -55474,11 +55335,6 @@
     {
       "source": "concept/inference/scheduling/Request Routing",
       "target": "community/vllm-project/AIBrix/AIBrix",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Request Routing",
-      "target": "concept/inference/scheduling/Inference-Aware Routing",
       "kind": "wikilink"
     },
     {
@@ -56348,7 +56204,7 @@
     },
     {
       "source": "concept/quantization/FP8 Quantization",
-      "target": "concept/quantization/W8A8",
+      "target": "concept/quantization/Weight-Activation Quantization",
       "kind": "wikilink"
     },
     {
@@ -56432,26 +56288,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/quantization/W8A8",
-      "target": "community/Ascend/msModelSlim/msModelSlim",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/W8A8",
-      "target": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/W8A8",
-      "target": "community/vllm-project/vLLM/vLLM",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/W8A8",
-      "target": "concept/quantization/Weight-Only Quantization",
-      "kind": "wikilink"
-    },
-    {
       "source": "concept/quantization/Weight-Activation Quantization",
       "target": "community/Ascend/msModelSlim/msModelSlim",
       "kind": "wikilink"
@@ -56469,21 +56305,6 @@
     {
       "source": "concept/quantization/Weight-Activation Quantization",
       "target": "community/vllm-project/vLLM/vLLM",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/Weight-Activation Quantization",
-      "target": "concept/quantization/FP4 Quantization",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/Weight-Activation Quantization",
-      "target": "concept/quantization/FP8 Quantization",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/quantization/Weight-Activation Quantization",
-      "target": "concept/quantization/W8A8",
       "kind": "wikilink"
     },
     {
@@ -56513,7 +56334,7 @@
     },
     {
       "source": "concept/quantization/Weight-Only Quantization",
-      "target": "concept/quantization/W8A8",
+      "target": "concept/quantization/Weight-Activation Quantization",
       "kind": "wikilink"
     },
     {
@@ -63137,15 +62958,15 @@
       "bridge_score": 6.05
     },
     "community/Ascend/msModelSlim/msModelSlim": {
-      "degree": 11,
-      "cross_category_degree": 7,
+      "degree": 10,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 12.035
+      "bridge_score": 11.559
     },
     "community/Ascend/ops-transformer/Konstantin Berestizshevsky": {
       "degree": 4,
@@ -64364,15 +64185,15 @@
       "bridge_score": 5.672
     },
     "community/ai-dynamo/Dynamo/Dynamo": {
-      "degree": 36,
-      "cross_category_degree": 11,
+      "degree": 35,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 15.059
+      "bridge_score": 14.67
     },
     "community/ai-dynamo/Dynamo/Ishan Dhanani": {
       "degree": 4,
@@ -64694,14 +64515,14 @@
       "bridge_score": 11.507
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepGEMM": {
-      "degree": 35,
-      "cross_category_degree": 11,
+      "degree": 34,
+      "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 13.52
+      "bridge_score": 13.129
     },
     "community/deepseek-ai/DeepSeek-Infra/DeepJIT": {
       "degree": 15,
@@ -65654,23 +65475,23 @@
       "bridge_score": 2.85
     },
     "community/kserve/KServe/KServe": {
-      "degree": 7,
-      "cross_category_degree": 6,
+      "degree": 6,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "concept",
         "root"
       ],
-      "bridge_score": 9.6
+      "bridge_score": 9.057
     },
     "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension": {
-      "degree": 5,
-      "cross_category_degree": 5,
+      "degree": 4,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "concept",
         "root"
       ],
-      "bridge_score": 7.335
+      "bridge_score": 6.722
     },
     "community/kubernetes-sigs/Kueue/Kueue": {
       "degree": 0,
@@ -66128,8 +65949,8 @@
       "bridge_score": 6.157
     },
     "community/llm-d/llm-d/llm-d": {
-      "degree": 43,
-      "cross_category_degree": 18,
+      "degree": 42,
+      "cross_category_degree": 17,
       "neighbor_categories": [
         "community",
         "company",
@@ -66137,7 +65958,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 19.259
+      "bridge_score": 18.876
     },
     "community/llm-d/llm-d/张家驹 Jiaju Zhang": {
       "degree": 4,
@@ -66720,15 +66541,15 @@
       "bridge_score": 5.672
     },
     "community/vllm-project/AIBrix/AIBrix": {
-      "degree": 23,
-      "cross_category_degree": 9,
+      "degree": 22,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 13.735
+      "bridge_score": 13.324
     },
     "community/vllm-project/AIBrix/CYJiang": {
       "degree": 5,
@@ -66975,8 +66796,8 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 158,
-      "cross_category_degree": 81,
+      "degree": 157,
+      "cross_category_degree": 80,
       "neighbor_categories": [
         "community",
         "company",
@@ -66984,7 +66805,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 43.163
+      "bridge_score": 42.804
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -69280,23 +69101,14 @@
       ],
       "bridge_score": 8.559
     },
-    "concept/inference/scheduling/Inference-Aware Routing": {
-      "degree": 8,
-      "cross_category_degree": 5,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 7.92
-    },
     "concept/inference/scheduling/KV-Aware Routing": {
-      "degree": 12,
+      "degree": 11,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.8
+      "bridge_score": 8.685
     },
     "concept/inference/scheduling/Load Balancing": {
       "degree": 10,
@@ -69308,22 +69120,22 @@
       "bridge_score": 8.559
     },
     "concept/inference/scheduling/Load-Aware Routing": {
-      "degree": 8,
+      "degree": 7,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.57
+      "bridge_score": 7.4
     },
     "concept/inference/scheduling/Request Routing": {
-      "degree": 13,
+      "degree": 12,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.607
+      "bridge_score": 9.5
     },
     "concept/inference/serving/Chunked Prefill": {
       "degree": 3,
@@ -69540,13 +69352,13 @@
       "bridge_score": 9.259
     },
     "concept/quantization/FP8 Quantization": {
-      "degree": 10,
+      "degree": 9,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.559
+      "bridge_score": 8.422
     },
     "concept/quantization/KV Cache Quantization": {
       "degree": 8,
@@ -69565,15 +69377,6 @@
         "concept"
       ],
       "bridge_score": 9.85
-    },
-    "concept/quantization/W8A8": {
-      "degree": 6,
-      "cross_category_degree": 3,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 6.857
     },
     "concept/quantization/Weight-Activation Quantization": {
       "degree": 8,
