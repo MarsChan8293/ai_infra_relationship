@@ -10,11 +10,11 @@ aliases:
 domain: inference
 topic: decoding
 related_concepts:
-  - Speculative Decoding
-  - Draft-Target Decoding
+  - "Speculative Decoding"
 projects:
-  - vLLM
-last_verified: 2026-09
+  - "vLLM"
+  - "TensorFold"
+last_verified: 2026-10
 ---
 
 # Multi-token Prediction
@@ -41,7 +41,7 @@ MTP 的收益取决于 predictor 额外算力、候选准确率、可接受 toke
 
 ## 项目实现
 
-[[community/vllm-project/vLLM/vLLM|vLLM]] 当前把 MTP 作为 speculative method，并包含多种模型专用 MTP draft implementation。
+[[community/vllm-project/vLLM/vLLM|vLLM]] 当前把 MTP 作为 speculative method，并包含多种模型专用 MTP draft implementation；[[community/ashhart/TensorFold/TensorFold|TensorFold]] 对支持的模型族提供 MTP head / artifact 驱动的 drafted decoding。
 
 ## Sources
 

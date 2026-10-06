@@ -10,7 +10,7 @@ topic: decoding
 parent_concepts:
   - Speculative Decoding
 related_concepts:
-  - Draft-Target Decoding
+  - "Multi-token Prediction"
 projects:
   - Transformers
   - "LoopSpec"
@@ -25,7 +25,7 @@ Self-Speculative Decoding 让 target LLM 自己提供一个更便宜的 drafting
 
 ## 解决的问题
 
-传统 [[Draft-Target Decoding]] 需要寻找、训练并部署一个与 target 足够匹配的辅助模型，还会占用额外权重和运行时内存。Self-speculation 尝试直接复用 target 自身结构。
+传统的独立 draft-model speculative decoding 需要寻找、训练并部署一个与 target 足够匹配的辅助模型，还会占用额外权重和运行时内存。Self-speculation 尝试直接复用 target 自身结构。
 
 ## 核心机制
 

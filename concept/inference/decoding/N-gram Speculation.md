@@ -11,10 +11,10 @@ topic: decoding
 parent_concepts:
   - Speculative Decoding
 related_concepts:
-  - Draft-Target Decoding
+  - "Prefix Caching"
 projects:
   - vLLM
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # N-gram Speculation
@@ -34,7 +34,7 @@ N-gram Speculation 不使用额外 draft model，而是根据最近生成的 tok
 ## 与相邻概念的区别
 
 - 与 [[Prefix Caching]] 不同，Prefix Caching 复用的是已经计算好的 KV；N-gram speculation 复用的是“可能的输出 token 模式”。
-- 与 [[Draft-Target Decoding]] 不同，它没有额外神经网络 draft model。
+- 与独立 draft-model 路线不同，它没有额外神经网络 proposer。
 - Suffix Decoding 是更丰富的模式匹配路线，可同时利用 prompt 和历史 generation、频次信息以及动态 speculation length。
 
 ## 代价与适用边界
