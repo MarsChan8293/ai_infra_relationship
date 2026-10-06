@@ -684,6 +684,9 @@
       "name": "OpenVINO GenAI",
       "organization": "OpenVINO Toolkit / Intel",
       "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "companies": [
         "Intel"
       ],
@@ -11328,6 +11331,9 @@
     "frontmatter": {
       "type": "project",
       "name": "TensorRT-LLM",
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "status": "active",
       "linked_people": [
         "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
@@ -13027,6 +13033,10 @@
     "frontmatter": {
       "type": "project",
       "name": "TensorFold",
+      "linked_concepts": [
+        "concept/inference/decoding/Multi-token Prediction",
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "status": "active",
       "linked_people": [],
       "open_source": true,
@@ -14924,6 +14934,9 @@
         "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
         "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
         "company/深度求索/Shaoyuan Chen"
+      ],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "companies": [
         "深度求索"
@@ -17041,7 +17054,8 @@
       "name": "Transformers",
       "linked_people": [],
       "linked_concepts": [
-        "concept/inference/decoding/Self-Speculative Decoding"
+        "concept/inference/decoding/Self-Speculative Decoding",
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "layer": "runtime",
       "status": "active",
@@ -17254,7 +17268,8 @@
       "name": "LoopSpec",
       "linked_people": [],
       "linked_concepts": [
-        "concept/inference/decoding/Self-Speculative Decoding"
+        "concept/inference/decoding/Self-Speculative Decoding",
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "layer": "optimization",
       "status": "active",
@@ -18769,6 +18784,9 @@
       "type": "project",
       "name": "TorchSpec",
       "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "layer": "training",
       "open_source": true,
       "repository": "https://github.com/lightseekorg/TorchSpec",
@@ -19367,6 +19385,9 @@
       "type": "project",
       "name": "Lookahead Decoding",
       "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "companies": [],
       "company_relation": "research-community",
       "layer": "optimization",
@@ -20412,7 +20433,6 @@
       "name": "SGLang",
       "linked_concepts": [
         "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/decoding/Draft-Target Decoding",
         "concept/inference/kv-cache/KV Cache",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
@@ -20778,6 +20798,9 @@
       "name": "SpecForge",
       "linked_people": [
         "community/sgl-project/SGLang/Shenggui Li"
+      ],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "companies": [],
       "company_relation": "community-led",
@@ -21847,6 +21870,9 @@
       "type": "project",
       "name": "Speculators",
       "linked_people": [],
+      "linked_concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
       "layer": "training",
       "open_source": true,
       "repository": "https://github.com/vllm-project/speculators",
@@ -22417,7 +22443,6 @@
         "concept/inference/serving/Continuous Batching",
         "concept/inference/parallelism/Data Parallelism",
         "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/decoding/Draft-Target Decoding",
         "concept/inference/parallelism/Expert Parallelism",
         "concept/kernel/attention/FlashAttention",
         "concept/quantization/FP4 Quantization",
@@ -30173,37 +30198,6 @@
     }
   },
   {
-    "id": "concept/inference/decoding/Draft-Target Decoding",
-    "path": "concept/inference/decoding/Draft-Target Decoding.md",
-    "name": "Draft-Target Decoding",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Draft-Target Decoding",
-      "aliases": [
-        "Draft Model Speculative Decoding",
-        "Draft-and-Verify",
-        "Draft Target",
-        "草稿模型投机解码"
-      ],
-      "domain": "inference",
-      "topic": "decoding",
-      "parent_concepts": [
-        "Speculative Decoding"
-      ],
-      "related_concepts": [
-        "Multi-token Prediction",
-        "Self-Speculative Decoding"
-      ],
-      "projects": [
-        "vLLM",
-        "SGLang"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/inference/decoding/Multi-token Prediction",
     "path": "concept/inference/decoding/Multi-token Prediction.md",
     "name": "Multi-token Prediction",
@@ -30222,13 +30216,13 @@
       "domain": "inference",
       "topic": "decoding",
       "related_concepts": [
-        "Speculative Decoding",
-        "Draft-Target Decoding"
+        "Speculative Decoding"
       ],
       "projects": [
-        "vLLM"
+        "vLLM",
+        "TensorFold"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -30252,12 +30246,12 @@
         "Speculative Decoding"
       ],
       "related_concepts": [
-        "Draft-Target Decoding"
+        "Prefix Caching"
       ],
       "projects": [
         "vLLM"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -30280,7 +30274,7 @@
         "Speculative Decoding"
       ],
       "related_concepts": [
-        "Draft-Target Decoding"
+        "Multi-token Prediction"
       ],
       "projects": [
         "Transformers",
@@ -30307,7 +30301,6 @@
       "domain": "inference",
       "topic": "decoding",
       "related_concepts": [
-        "Draft-Target Decoding",
         "N-gram Speculation",
         "Self-Speculative Decoding",
         "Multi-token Prediction"
@@ -30315,7 +30308,17 @@
       "projects": [
         "vLLM",
         "SGLang",
-        "Splash"
+        "Splash",
+        "SpecForge",
+        "Speculators",
+        "TorchSpec",
+        "Transformers",
+        "LoopSpec",
+        "Lookahead Decoding",
+        "DeepSpec",
+        "TensorRT-LLM",
+        "TensorFold",
+        "OpenVINO GenAI"
       ],
       "last_verified": "2026-10"
     }

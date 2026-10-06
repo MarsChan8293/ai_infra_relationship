@@ -6,6 +6,8 @@ linked_people:
   - "community/deepseek-ai/DeepSeek-Infra/Rui Tian"
   - "community/deepseek-ai/DeepSeek-Infra/Yi Qian"
   - "company/深度求索/Shaoyuan Chen"
+linked_concepts:
+  - "concept/inference/decoding/Speculative Decoding"
 companies: ["深度求索"]
 company_relation: company-led
 layer: optimization
@@ -62,3 +64,12 @@ DeepSpec 关注通过 draft model 提高 token generation 效率。DSpark 使用
 - [[company/深度求索/深度求索|深度求索]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

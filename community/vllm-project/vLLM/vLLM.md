@@ -8,7 +8,6 @@ linked_concepts:
   - "concept/inference/serving/Continuous Batching"
   - "concept/inference/parallelism/Data Parallelism"
   - "concept/inference/serving/Disaggregated Serving"
-  - "concept/inference/decoding/Draft-Target Decoding"
   - "concept/inference/parallelism/Expert Parallelism"
   - "concept/kernel/attention/FlashAttention"
   - "concept/quantization/FP4 Quantization"
@@ -198,7 +197,6 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[concept/inference/serving/Continuous Batching|Continuous Batching]]
 - [[concept/inference/parallelism/Data Parallelism|Data Parallelism]]
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
-- [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]]
 - [[concept/inference/parallelism/Expert Parallelism|Expert Parallelism]]
 - [[concept/kernel/attention/FlashAttention|FlashAttention]]
 - [[concept/quantization/FP4 Quantization|FP4 Quantization]]

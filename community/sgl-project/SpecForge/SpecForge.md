@@ -3,6 +3,8 @@ type: project
 name: SpecForge
 linked_people:
   - "community/sgl-project/SGLang/Shenggui Li"
+linked_concepts:
+  - "concept/inference/decoding/Speculative Decoding"
 companies: []
 company_relation: community-led
 layer: optimization
@@ -38,3 +40,12 @@ SpecForge 属于 SGLang 生态项目，并被 LMSYS 作为旗舰项目持续推�
 - [[community/sgl-project/SGLang/Shenggui Li|Shenggui Li]]：[[SGLang]]：当前 Core Dev；进一步负责 SpecForge，聚焦 speculative decoding / serving systems。
 
 <!-- END AUTO PROJECT PEOPLE -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

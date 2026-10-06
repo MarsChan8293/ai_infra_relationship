@@ -13362,7 +13362,7 @@
     "provenance": {
       "source_path": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM.md",
       "field": "integrations",
-      "line": 32,
+      "line": 34,
       "source_urls": [],
       "scope": "page-sources; individual assertion not automatically verified"
     },
@@ -14715,7 +14715,7 @@
     "provenance": {
       "source_path": "community/kaist-flexml-lab/LoopSpec/LoopSpec.md",
       "field": "integrations",
-      "line": 20,
+      "line": 21,
       "source_urls": [
         "https://github.com/kaist-flexml-lab/loopspec"
       ],
@@ -18367,62 +18367,6 @@
   },
   {
     "source": "community/vllm-project/vLLM/vLLM",
-    "target": "concept/inference/decoding/Draft-Target Decoding",
-    "kind": "derived-project-concept-support",
-    "relation_types": [
-      "project-concept-support"
-    ],
-    "project": "vLLM",
-    "concept": "Draft-Target Decoding",
-    "company": null,
-    "start": null,
-    "end": null,
-    "confidence": "medium",
-    "evidence": [],
-    "provenance": {
-      "source_path": "concept/inference/decoding/Draft-Target Decoding.md",
-      "field": "projects",
-      "line": 16,
-      "source_urls": [
-        "https://docs.sglang.ai/SpecForge/",
-        "https://docs.vllm.ai/en/latest/features/spec_decode/",
-        "https://docs.vllm.ai/en/latest/features/speculative_decoding/eagle/"
-      ],
-      "scope": "page-sources; individual assertion not automatically verified"
-    },
-    "last_verified": "2026-09",
-    "derived_from": "concept.projects"
-  },
-  {
-    "source": "community/sgl-project/SGLang/SGLang",
-    "target": "concept/inference/decoding/Draft-Target Decoding",
-    "kind": "derived-project-concept-support",
-    "relation_types": [
-      "project-concept-support"
-    ],
-    "project": "SGLang",
-    "concept": "Draft-Target Decoding",
-    "company": null,
-    "start": null,
-    "end": null,
-    "confidence": "medium",
-    "evidence": [],
-    "provenance": {
-      "source_path": "concept/inference/decoding/Draft-Target Decoding.md",
-      "field": "projects",
-      "line": 16,
-      "source_urls": [
-        "https://docs.sglang.ai/SpecForge/",
-        "https://docs.vllm.ai/en/latest/features/spec_decode/",
-        "https://docs.vllm.ai/en/latest/features/speculative_decoding/eagle/"
-      ],
-      "scope": "page-sources; individual assertion not automatically verified"
-    },
-    "last_verified": "2026-09",
-    "derived_from": "concept.projects"
-  },
-  {
-    "source": "community/vllm-project/vLLM/vLLM",
     "target": "concept/inference/decoding/Multi-token Prediction",
     "kind": "derived-project-concept-support",
     "relation_types": [
@@ -18438,7 +18382,7 @@
     "provenance": {
       "source_path": "concept/inference/decoding/Multi-token Prediction.md",
       "field": "projects",
-      "line": 15,
+      "line": 14,
       "source_urls": [
         "https://docs.vllm.ai/en/latest/api/vllm/config/speculative/",
         "https://docs.vllm.ai/en/latest/api/vllm/model_executor/models/mimo_v2_mtp/",
@@ -18446,7 +18390,35 @@
       ],
       "scope": "page-sources; individual assertion not automatically verified"
     },
-    "last_verified": "2026-09",
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/ashhart/TensorFold/TensorFold",
+    "target": "concept/inference/decoding/Multi-token Prediction",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TensorFold",
+    "concept": "Multi-token Prediction",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Multi-token Prediction.md",
+      "field": "projects",
+      "line": 14,
+      "source_urls": [
+        "https://docs.vllm.ai/en/latest/api/vllm/config/speculative/",
+        "https://docs.vllm.ai/en/latest/api/vllm/model_executor/models/mimo_v2_mtp/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
     "derived_from": "concept.projects"
   },
   {
@@ -18474,7 +18446,7 @@
       ],
       "scope": "page-sources; individual assertion not automatically verified"
     },
-    "last_verified": "2026-09",
+    "last_verified": "2026-10",
     "derived_from": "concept.projects"
   },
   {
@@ -18552,7 +18524,7 @@
     "provenance": {
       "source_path": "concept/inference/decoding/Speculative Decoding.md",
       "field": "projects",
-      "line": 16,
+      "line": 15,
       "source_urls": [
         "https://docs.sglang.ai/SpecForge/",
         "https://docs.vllm.ai/en/latest/features/spec_decode/",
@@ -18580,7 +18552,7 @@
     "provenance": {
       "source_path": "concept/inference/decoding/Speculative Decoding.md",
       "field": "projects",
-      "line": 16,
+      "line": 15,
       "source_urls": [
         "https://docs.sglang.ai/SpecForge/",
         "https://docs.vllm.ai/en/latest/features/spec_decode/",
@@ -18608,7 +18580,287 @@
     "provenance": {
       "source_path": "concept/inference/decoding/Speculative Decoding.md",
       "field": "projects",
-      "line": 16,
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/sgl-project/SpecForge/SpecForge",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "SpecForge",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/vllm-project/Speculators/Speculators",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Speculators",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/lightseekorg/TorchSpec/TorchSpec",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TorchSpec",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/huggingface/Transformers/Transformers",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Transformers",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "LoopSpec",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "Lookahead Decoding",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/deepseek-ai/DeepSpec/DeepSpec",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "DeepSpec",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TensorRT-LLM",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "community/ashhart/TensorFold/TensorFold",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "TensorFold",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
+      "source_urls": [
+        "https://docs.sglang.ai/SpecForge/",
+        "https://docs.vllm.ai/en/latest/features/spec_decode/",
+        "https://docs.vllm.ai/projects/speculators/en/stable/user_guide/getting_started/"
+      ],
+      "scope": "page-sources; individual assertion not automatically verified"
+    },
+    "last_verified": "2026-10",
+    "derived_from": "concept.projects"
+  },
+  {
+    "source": "company/Intel/OpenVINO GenAI",
+    "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "derived-project-concept-support",
+    "relation_types": [
+      "project-concept-support"
+    ],
+    "project": "OpenVINO GenAI",
+    "concept": "Speculative Decoding",
+    "company": null,
+    "start": null,
+    "end": null,
+    "confidence": "medium",
+    "evidence": [],
+    "provenance": {
+      "source_path": "concept/inference/decoding/Speculative Decoding.md",
+      "field": "projects",
+      "line": 15,
       "source_urls": [
         "https://docs.sglang.ai/SpecForge/",
         "https://docs.vllm.ai/en/latest/features/spec_decode/",

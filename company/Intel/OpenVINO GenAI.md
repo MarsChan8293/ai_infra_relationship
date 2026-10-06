@@ -3,6 +3,8 @@ type: project
 name: OpenVINO GenAI
 organization: OpenVINO Toolkit / Intel
 linked_people: []
+linked_concepts:
+  - "concept/inference/decoding/Speculative Decoding"
 companies: ["Intel"]
 company_relation: company-led
 layer: inference-engine
@@ -46,3 +48,12 @@ Intel 官方 OpenVINO 支持资料把 **OpenVINO GenAI** 明确列为“运行�
 - [[company/Intel/Intel|Intel]]：公司页与社区/项目页均有显式记录；关系：`company-led`。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

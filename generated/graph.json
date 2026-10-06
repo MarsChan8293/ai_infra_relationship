@@ -685,6 +685,9 @@
         "name": "OpenVINO GenAI",
         "organization": "OpenVINO Toolkit / Intel",
         "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "companies": [
           "Intel"
         ],
@@ -11329,6 +11332,9 @@
       "frontmatter": {
         "type": "project",
         "name": "TensorRT-LLM",
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "status": "active",
         "linked_people": [
           "community/NVIDIA/TensorRT-LLM/Anurag Mukkara",
@@ -13028,6 +13034,10 @@
       "frontmatter": {
         "type": "project",
         "name": "TensorFold",
+        "linked_concepts": [
+          "concept/inference/decoding/Multi-token Prediction",
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "status": "active",
         "linked_people": [],
         "open_source": true,
@@ -14925,6 +14935,9 @@
           "community/deepseek-ai/DeepSeek-Infra/Rui Tian",
           "community/deepseek-ai/DeepSeek-Infra/Yi Qian",
           "company/深度求索/Shaoyuan Chen"
+        ],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
         ],
         "companies": [
           "深度求索"
@@ -17042,7 +17055,8 @@
         "name": "Transformers",
         "linked_people": [],
         "linked_concepts": [
-          "concept/inference/decoding/Self-Speculative Decoding"
+          "concept/inference/decoding/Self-Speculative Decoding",
+          "concept/inference/decoding/Speculative Decoding"
         ],
         "layer": "runtime",
         "status": "active",
@@ -17255,7 +17269,8 @@
         "name": "LoopSpec",
         "linked_people": [],
         "linked_concepts": [
-          "concept/inference/decoding/Self-Speculative Decoding"
+          "concept/inference/decoding/Self-Speculative Decoding",
+          "concept/inference/decoding/Speculative Decoding"
         ],
         "layer": "optimization",
         "status": "active",
@@ -18770,6 +18785,9 @@
         "type": "project",
         "name": "TorchSpec",
         "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "layer": "training",
         "open_source": true,
         "repository": "https://github.com/lightseekorg/TorchSpec",
@@ -19368,6 +19386,9 @@
         "type": "project",
         "name": "Lookahead Decoding",
         "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "companies": [],
         "company_relation": "research-community",
         "layer": "optimization",
@@ -20413,7 +20434,6 @@
         "name": "SGLang",
         "linked_concepts": [
           "concept/inference/serving/Disaggregated Serving",
-          "concept/inference/decoding/Draft-Target Decoding",
           "concept/inference/kv-cache/KV Cache",
           "concept/inference/kv-cache/KV Cache Management",
           "concept/inference/kv-cache/KV Cache Offloading",
@@ -20779,6 +20799,9 @@
         "name": "SpecForge",
         "linked_people": [
           "community/sgl-project/SGLang/Shenggui Li"
+        ],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
         ],
         "companies": [],
         "company_relation": "community-led",
@@ -21848,6 +21871,9 @@
         "type": "project",
         "name": "Speculators",
         "linked_people": [],
+        "linked_concepts": [
+          "concept/inference/decoding/Speculative Decoding"
+        ],
         "layer": "training",
         "open_source": true,
         "repository": "https://github.com/vllm-project/speculators",
@@ -22418,7 +22444,6 @@
           "concept/inference/serving/Continuous Batching",
           "concept/inference/parallelism/Data Parallelism",
           "concept/inference/serving/Disaggregated Serving",
-          "concept/inference/decoding/Draft-Target Decoding",
           "concept/inference/parallelism/Expert Parallelism",
           "concept/kernel/attention/FlashAttention",
           "concept/quantization/FP4 Quantization",
@@ -30174,37 +30199,6 @@
       }
     },
     {
-      "id": "concept/inference/decoding/Draft-Target Decoding",
-      "path": "concept/inference/decoding/Draft-Target Decoding.md",
-      "name": "Draft-Target Decoding",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Draft-Target Decoding",
-        "aliases": [
-          "Draft Model Speculative Decoding",
-          "Draft-and-Verify",
-          "Draft Target",
-          "草稿模型投机解码"
-        ],
-        "domain": "inference",
-        "topic": "decoding",
-        "parent_concepts": [
-          "Speculative Decoding"
-        ],
-        "related_concepts": [
-          "Multi-token Prediction",
-          "Self-Speculative Decoding"
-        ],
-        "projects": [
-          "vLLM",
-          "SGLang"
-        ],
-        "last_verified": "2026-09"
-      }
-    },
-    {
       "id": "concept/inference/decoding/Multi-token Prediction",
       "path": "concept/inference/decoding/Multi-token Prediction.md",
       "name": "Multi-token Prediction",
@@ -30223,13 +30217,13 @@
         "domain": "inference",
         "topic": "decoding",
         "related_concepts": [
-          "Speculative Decoding",
-          "Draft-Target Decoding"
+          "Speculative Decoding"
         ],
         "projects": [
-          "vLLM"
+          "vLLM",
+          "TensorFold"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -30253,12 +30247,12 @@
           "Speculative Decoding"
         ],
         "related_concepts": [
-          "Draft-Target Decoding"
+          "Prefix Caching"
         ],
         "projects": [
           "vLLM"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -30281,7 +30275,7 @@
           "Speculative Decoding"
         ],
         "related_concepts": [
-          "Draft-Target Decoding"
+          "Multi-token Prediction"
         ],
         "projects": [
           "Transformers",
@@ -30308,7 +30302,6 @@
         "domain": "inference",
         "topic": "decoding",
         "related_concepts": [
-          "Draft-Target Decoding",
           "N-gram Speculation",
           "Self-Speculative Decoding",
           "Multi-token Prediction"
@@ -30316,7 +30309,17 @@
         "projects": [
           "vLLM",
           "SGLang",
-          "Splash"
+          "Splash",
+          "SpecForge",
+          "Speculators",
+          "TorchSpec",
+          "Transformers",
+          "LoopSpec",
+          "Lookahead Decoding",
+          "DeepSpec",
+          "TensorRT-LLM",
+          "TensorFold",
+          "OpenVINO GenAI"
         ],
         "last_verified": "2026-10"
       }
@@ -35324,6 +35327,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/NVIDIA/TensorRT-LLM/Xiao Wang",
       "target": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
       "kind": "wikilink"
@@ -38679,6 +38687,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/deepseek-ai/DualPath/DualPath",
       "target": "company/深度求索/Shaoyuan Chen",
       "kind": "wikilink"
@@ -40309,6 +40322,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/huggingface/Transformers/Transformers",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/humanfia/humanize/Humanize",
       "target": "community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness",
       "kind": "wikilink"
@@ -40431,6 +40449,11 @@
     {
       "source": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
       "target": "concept/inference/decoding/Self-Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+      "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
     {
@@ -41689,6 +41712,11 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/lightseekorg/TorchSpec/TorchSpec",
+      "target": "concept/inference/decoding/Speculative Decoding",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/llm-d/llm-d/Abdullah Gharaibeh",
       "target": "community/llm-d/llm-d/Carlos Costa",
       "kind": "wikilink"
@@ -42296,6 +42324,11 @@
     {
       "source": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
       "target": "company/Inferact/Ion Stoica",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
     {
@@ -43185,11 +43218,6 @@
     },
     {
       "source": "community/sgl-project/SGLang/SGLang",
-      "target": "concept/inference/decoding/Draft-Target Decoding",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/sgl-project/SGLang/SGLang",
       "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
@@ -43546,6 +43574,11 @@
     {
       "source": "community/sgl-project/SpecForge/SpecForge",
       "target": "community/sgl-project/SGLang/Shenggui Li",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/sgl-project/SpecForge/SpecForge",
+      "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
     {
@@ -44481,6 +44514,11 @@
     {
       "source": "community/vllm-project/Speculators/Speculators",
       "target": "community/kvcache-ai/Mooncake/Mooncake",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/Speculators/Speculators",
+      "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
     {
@@ -45891,11 +45929,6 @@
     {
       "source": "community/vllm-project/vLLM/vLLM",
       "target": "company/腾讯/Baolong Mao",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/vllm-project/vLLM/vLLM",
-      "target": "concept/inference/decoding/Draft-Target Decoding",
       "kind": "wikilink"
     },
     {
@@ -47646,6 +47679,11 @@
     {
       "source": "company/Intel/OpenVINO GenAI",
       "target": "company/Intel/Intel",
+      "kind": "wikilink"
+    },
+    {
+      "source": "company/Intel/OpenVINO GenAI",
+      "target": "concept/inference/decoding/Speculative Decoding",
       "kind": "wikilink"
     },
     {
@@ -54439,33 +54477,8 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "community/sgl-project/SGLang/SGLang",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "community/vllm-project/vLLM/vLLM",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "concept/inference/decoding/Multi-token Prediction",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "concept/inference/decoding/N-gram Speculation",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "concept/inference/decoding/Self-Speculative Decoding",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/Draft-Target Decoding",
-      "target": "concept/inference/decoding/Speculative Decoding",
+      "source": "concept/inference/decoding/Multi-token Prediction",
+      "target": "community/ashhart/TensorFold/TensorFold",
       "kind": "wikilink"
     },
     {
@@ -54481,11 +54494,6 @@
     {
       "source": "concept/inference/decoding/N-gram Speculation",
       "target": "community/vllm-project/vLLM/vLLM",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/decoding/N-gram Speculation",
-      "target": "concept/inference/decoding/Draft-Target Decoding",
       "kind": "wikilink"
     },
     {
@@ -54504,8 +54512,43 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/decoding/Self-Speculative Decoding",
-      "target": "concept/inference/decoding/Draft-Target Decoding",
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/ashhart/TensorFold/TensorFold",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/huggingface/Transformers/Transformers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/incoai/Splash/Splash",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/lightseekorg/TorchSpec/TorchSpec",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
       "kind": "wikilink"
     },
     {
@@ -54515,12 +54558,22 @@
     },
     {
       "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/sgl-project/SpecForge/SpecForge",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
+      "target": "community/vllm-project/Speculators/Speculators",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/decoding/Speculative Decoding",
       "target": "community/vllm-project/vLLM/vLLM",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/decoding/Speculative Decoding",
-      "target": "concept/inference/decoding/Draft-Target Decoding",
+      "target": "company/Intel/OpenVINO GenAI",
       "kind": "wikilink"
     },
     {
@@ -61195,12 +61248,13 @@
       "bridge_score": 5.672
     },
     "company/Intel/OpenVINO GenAI": {
-      "degree": 2,
-      "cross_category_degree": 0,
+      "degree": 3,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 3.085
+      "bridge_score": 5.35
     },
     "company/Intel/OpenVINO": {
       "degree": 2,
@@ -63947,14 +64001,15 @@
       "bridge_score": 4.935
     },
     "community/NVIDIA/TensorRT-LLM/TensorRT-LLM": {
-      "degree": 28,
-      "cross_category_degree": 4,
+      "degree": 29,
+      "cross_category_degree": 5,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 10.758
+      "bridge_score": 12.657
     },
     "community/NVIDIA/TensorRT-LLM/Xiao Wang": {
       "degree": 3,
@@ -64991,13 +65046,14 @@
       "bridge_score": 9.25
     },
     "community/deepseek-ai/DeepSpec/DeepSpec": {
-      "degree": 12,
-      "cross_category_degree": 3,
+      "degree": 13,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
-        "company"
+        "company",
+        "concept"
       ],
-      "bridge_score": 7.75
+      "bridge_score": 9.707
     },
     "community/deepseek-ai/DualPath/DualPath": {
       "degree": 6,
@@ -65531,13 +65587,13 @@
       "bridge_score": 9.77
     },
     "community/huggingface/Transformers/Transformers": {
-      "degree": 2,
-      "cross_category_degree": 2,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "company",
         "concept"
       ],
-      "bridge_score": 5.285
+      "bridge_score": 6.05
     },
     "community/humanfia/humanize/Humanize": {
       "degree": 3,
@@ -65581,13 +65637,13 @@
       "bridge_score": 0.0
     },
     "community/kaist-flexml-lab/LoopSpec/LoopSpec": {
-      "degree": 3,
-      "cross_category_degree": 1,
+      "degree": 4,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 5.35
+      "bridge_score": 6.022
     },
     "community/kaistmm/OmniKVQuant/OmniKVQuant": {
       "degree": 1,
@@ -65952,12 +66008,13 @@
       "bridge_score": 10.42
     },
     "community/lightseekorg/TorchSpec/TorchSpec": {
-      "degree": 6,
-      "cross_category_degree": 0,
+      "degree": 7,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 4.307
+      "bridge_score": 6.35
     },
     "community/llm-d/llm-d/Abdullah Gharaibeh": {
       "degree": 9,
@@ -66112,14 +66169,15 @@
       "bridge_score": 10.95
     },
     "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding": {
-      "degree": 3,
-      "cross_category_degree": 2,
+      "degree": 4,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "university"
       ],
-      "bridge_score": 7.2
+      "bridge_score": 9.372
     },
     "community/lmsys-org/RouteLLM/RouteLLM": {
       "degree": 3,
@@ -66355,8 +66413,8 @@
       "bridge_score": 2.85
     },
     "community/sgl-project/SGLang/SGLang": {
-      "degree": 116,
-      "cross_category_degree": 57,
+      "degree": 115,
+      "cross_category_degree": 56,
       "neighbor_categories": [
         "community",
         "company",
@@ -66364,7 +66422,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 34.32
+      "bridge_score": 33.958
     },
     "community/sgl-project/SGLang/Shenggui Li": {
       "degree": 10,
@@ -66435,12 +66493,13 @@
       "bridge_score": 11.82
     },
     "community/sgl-project/SpecForge/SpecForge": {
-      "degree": 3,
-      "cross_category_degree": 0,
+      "degree": 4,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 3.5
+      "bridge_score": 5.672
     },
     "community/sgl-project/genai-bench/genai-bench": {
       "degree": 1,
@@ -66741,12 +66800,13 @@
       "bridge_score": 12.35
     },
     "community/vllm-project/Speculators/Speculators": {
-      "degree": 1,
-      "cross_category_degree": 0,
+      "degree": 2,
+      "cross_category_degree": 1,
       "neighbor_categories": [
-        "community"
+        "community",
+        "concept"
       ],
-      "bridge_score": 2.5
+      "bridge_score": 4.935
     },
     "community/vllm-project/production-stack/vLLM Production Stack": {
       "degree": 8,
@@ -66915,8 +66975,8 @@
       "bridge_score": 9.222
     },
     "community/vllm-project/vLLM/vLLM": {
-      "degree": 159,
-      "cross_category_degree": 82,
+      "degree": 158,
+      "cross_category_degree": 81,
       "neighbor_categories": [
         "community",
         "company",
@@ -66924,7 +66984,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 43.522
+      "bridge_score": 43.163
     },
     "community/vllm-project/vLLM/乔一凡 Yifan Qiao": {
       "degree": 17,
@@ -69004,50 +69064,42 @@
       ],
       "bridge_score": 6.857
     },
-    "concept/inference/decoding/Draft-Target Decoding": {
-      "degree": 6,
-      "cross_category_degree": 2,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 6.507
-    },
     "concept/inference/decoding/Multi-token Prediction": {
-      "degree": 4,
+      "degree": 3,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.022
+      "bridge_score": 5.7
     },
     "concept/inference/decoding/N-gram Speculation": {
-      "degree": 4,
+      "degree": 3,
       "cross_category_degree": 1,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 5.672
+      "bridge_score": 5.35
     },
     "concept/inference/decoding/Self-Speculative Decoding": {
-      "degree": 4,
+      "degree": 3,
       "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 6.022
+      "bridge_score": 5.7
     },
     "concept/inference/decoding/Speculative Decoding": {
-      "degree": 8,
-      "cross_category_degree": 4,
+      "degree": 16,
+      "cross_category_degree": 13,
       "neighbor_categories": [
         "community",
+        "company",
         "concept"
       ],
-      "bridge_score": 7.57
+      "bridge_score": 13.137
     },
     "concept/inference/kv-cache/KV Cache Management": {
       "degree": 20,

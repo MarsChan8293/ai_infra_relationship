@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 89,
-    "concepts_with_projects": 89,
+    "concepts": 88,
+    "concepts_with_projects": 88,
     "concepts_without_projects": 0,
     "project_like_nodes": 241,
-    "projects_with_concepts": 100,
-    "concept_project_assertions": 429,
+    "projects_with_concepts": 108,
+    "concept_project_assertions": 438,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -17,7 +17,7 @@
     "collective-communication": 5,
     "data-movement": 4,
     "data-path": 1,
-    "decoding": 5,
+    "decoding": 4,
     "distributed-storage": 2,
     "gemm": 2,
     "inference-scheduling": 8,
@@ -46,7 +46,7 @@
     "collective-communication": 5,
     "data-movement": 4,
     "data-path": 1,
-    "decoding": 5,
+    "decoding": 4,
     "distributed-storage": 2,
     "gemm": 2,
     "inference-scheduling": 8,
@@ -75,7 +75,6 @@
       "name": "vLLM",
       "layer": "inference-engine",
       "concepts": [
-        "concept/inference/decoding/Draft-Target Decoding",
         "concept/inference/decoding/Multi-token Prediction",
         "concept/inference/decoding/N-gram Speculation",
         "concept/inference/decoding/Speculative Decoding",
@@ -106,7 +105,7 @@
         "concept/quantization/Weight-Activation Quantization",
         "concept/quantization/Weight-Only Quantization"
       ],
-      "count": 30
+      "count": 29
     },
     {
       "id": "community/kvcache-ai/Mooncake/Mooncake",
@@ -299,24 +298,6 @@
       "count": 10
     },
     {
-      "id": "community/sgl-project/SGLang/SGLang",
-      "name": "SGLang",
-      "layer": "inference-engine",
-      "concepts": [
-        "concept/inference/decoding/Draft-Target Decoding",
-        "concept/inference/decoding/Speculative Decoding",
-        "concept/inference/kv-cache/KV Cache",
-        "concept/inference/kv-cache/KV Cache Management",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Prefix Caching",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 10
-    },
-    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DeepGEMM",
       "name": "DeepGEMM",
       "layer": "runtime",
@@ -362,6 +343,23 @@
         "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 9
+    },
+    {
+      "id": "community/sgl-project/SGLang/SGLang",
+      "name": "SGLang",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/kv-cache/Tiered KV Cache",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/serving/P-D Disaggregation"
       ],
@@ -914,6 +912,16 @@
       "count": 2
     },
     {
+      "id": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
+      "name": "LoopSpec",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/decoding/Self-Speculative Decoding",
+        "concept/inference/decoding/Speculative Decoding"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/MetaInfer/MetaInfer",
       "name": "MetaInfer",
       "layer": "optimization",
@@ -930,6 +938,16 @@
       "concepts": [
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/ashhart/TensorFold/TensorFold",
+      "name": "TensorFold",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/decoding/Multi-token Prediction",
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "count": 2
     },
@@ -970,6 +988,16 @@
       "concepts": [
         "concept/hardware/interconnect/HCCS",
         "concept/hardware/interconnect/Hardware Interconnect"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/huggingface/Transformers/Transformers",
+      "name": "Transformers",
+      "layer": "runtime",
+      "concepts": [
+        "concept/inference/decoding/Self-Speculative Decoding",
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "count": 2
     },
@@ -1129,6 +1157,15 @@
       "count": 1
     },
     {
+      "id": "community/deepseek-ai/DeepSpec/DeepSpec",
+      "name": "DeepSpec",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/deepseek-ai/DeepSeek-Infra/DualPipe",
       "name": "DualPipe",
       "layer": "training",
@@ -1237,11 +1274,11 @@
       "count": 1
     },
     {
-      "id": "community/kaist-flexml-lab/LoopSpec/LoopSpec",
-      "name": "LoopSpec",
+      "id": "community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding",
+      "name": "Lookahead Decoding",
       "layer": "optimization",
       "concepts": [
-        "concept/inference/decoding/Self-Speculative Decoding"
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "count": 1
     },
@@ -1273,11 +1310,47 @@
       "count": 1
     },
     {
+      "id": "company/Intel/OpenVINO GenAI",
+      "name": "OpenVINO GenAI",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
+      "count": 1
+    },
+    {
       "id": "community/yzygitzh/RoofLang/RoofLang",
       "name": "RoofLang",
       "layer": "optimization",
       "concepts": [
         "concept/inference/optimization/Agentic Inference Optimization"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/sgl-project/SpecForge/SpecForge",
+      "name": "SpecForge",
+      "layer": "optimization",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/vllm-project/Speculators/Speculators",
+      "name": "Speculators",
+      "layer": "training",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+      "name": "TensorRT-LLM",
+      "layer": "inference-engine",
+      "concepts": [
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "count": 1
     },
@@ -1291,11 +1364,11 @@
       "count": 1
     },
     {
-      "id": "community/huggingface/Transformers/Transformers",
-      "name": "Transformers",
-      "layer": "runtime",
+      "id": "community/lightseekorg/TorchSpec/TorchSpec",
+      "name": "TorchSpec",
+      "layer": "training",
       "concepts": [
-        "concept/inference/decoding/Self-Speculative Decoding"
+        "concept/inference/decoding/Speculative Decoding"
       ],
       "count": 1
     }

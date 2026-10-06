@@ -2,6 +2,8 @@
 type: project
 name: Speculators
 linked_people: []
+linked_concepts:
+  - "concept/inference/decoding/Speculative Decoding"
 layer: training
 open_source: true
 repository: https://github.com/vllm-project/speculators
@@ -24,3 +26,12 @@ Speculators 是 vLLM Project 生态中的 speculative decoding draft-model train
 ## Sources
 - https://github.com/vllm-project/speculators
 - https://github.com/kvcache-ai/Mooncake
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+
+<!-- END AUTO PROJECT CONCEPTS -->
