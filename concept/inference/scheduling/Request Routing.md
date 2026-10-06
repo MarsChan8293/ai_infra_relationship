@@ -6,8 +6,12 @@ aliases:
   - "Inference-Aware Routing"
   - "LLM-Aware Routing"
   - "Model-Aware Routing"
+  - "Load Balancing"
+  - "Inference Load Balancing"
+  - "LLM Load Balancing"
   - "请求路由"
   - "推理感知路由"
+  - "负载均衡"
 domain: scheduling
 topic: inference-scheduling
 parent_concepts:
@@ -15,16 +19,19 @@ parent_concepts:
 related_concepts:
   - "KV-Aware Routing"
   - "Load-Aware Routing"
-  - "Load Balancing"
+  - "Autoscaling"
 projects:
-  - llm-d
-  - NVIDIA Dynamo
-  - AIBrix
-  - Gateway API Inference Extension
-  - KServe
-  - MindIE-Motor
+  - "llm-d"
+  - "NVIDIA Dynamo"
+  - "AIBrix"
+  - "Gateway API Inference Extension"
+  - "KServe"
+  - "MindIE-Motor"
   - "AgentInfer"
   - "ModelSphere"
+  - "GPUStack"
+  - "Ray Serve"
+  - "vLLM Production Stack"
 last_verified: 2026-10
 ---
 
@@ -52,11 +59,13 @@ Router 先得到候选 endpoint 集合，再根据可用性、模型/adapter、�
 
 ## 与 Load Balancing 的区别
 
-Routing 是一次请求的“去哪儿”决策；[[Load Balancing]] 是多次 routing 决策形成的长期负载分布目标。一个 routing algorithm 可以同时实现 cache locality 和 load balancing，但两个概念不应合并。
+本仓库不再把 Load Balancing 作为独立 canonical Concept。它是多次 routing 决策形成的系统目标，而不是与 Request Routing 平级的独立机制。round-robin、power-of-two、least-loaded、KV-aware cost model 等都属于 Request Routing 的策略；[[Load-Aware Routing]] 保留为利用实时负载信号的具体机制。
 
 ## 项目实现
 
-[[community/llm-d/llm-d/llm-d|llm-d]]、[[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]、[[community/vllm-project/AIBrix/AIBrix|AIBrix]] 都包含独立的 LLM router。[[community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension|Gateway API Inference Extension]] 定义 InferencePool + Endpoint Picker 路由语义；[[community/kserve/KServe/KServe|KServe]] 的 LLMInferenceService 可通过 inference gateway/scheduler 进行 endpoint routing；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 的 Coordinator 负责 P/D worker 调度。
+[[community/llm-d/llm-d/llm-d|llm-d]]、[[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]]、[[community/vllm-project/AIBrix/AIBrix|AIBrix]] 都包含 LLM-aware router。[[community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension|Gateway API Inference Extension]] 定义 InferencePool + Endpoint Picker；[[community/kserve/KServe/KServe|KServe]] 通过 inference gateway/scheduler 进行 endpoint selection；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 的 Coordinator 负责 P/D worker 调度和 cache-affinity routing。
+
+[[community/gpustack/GPUStack/GPUStack|GPUStack]] 在 distributed model-serving control plane 中提供 scheduler、gateway 与 load balancing；[[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] 直接提供 model replica request routing；[[community/vllm-project/production-stack/vLLM Production Stack|vLLM Production Stack]] 自带 request router，覆盖模型、session-ID 并持续演进 prefix/KV-aware routing。
 
 ## Sources
 

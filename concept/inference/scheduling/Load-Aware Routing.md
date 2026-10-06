@@ -10,8 +10,8 @@ topic: inference-scheduling
 parent_concepts:
   - "Request Routing"
 related_concepts:
-  - KV-Aware Routing
-  - Load Balancing
+  - "KV-Aware Routing"
+  - "Inference Scheduling"
 projects:
   - llm-d
   - NVIDIA Dynamo
@@ -40,7 +40,7 @@ Router 周期性或事件驱动地获取 worker 状态，把 queue depth、runni
 
 ## 与 Load Balancing 的区别
 
-Load-aware routing 是实现 [[Load Balancing]] 的一种 request-level 策略。Load balancing 是目标，load-aware routing 是利用实时运行状态实现该目标的方法之一。
+Load-aware routing 是实现负载均衡目标的一种 request-level 策略；负载均衡作为系统目标已并入 [[Request Routing]]，本页只保留“利用实时运行状态选 endpoint”这一具体机制。
 
 ## 项目实现
 

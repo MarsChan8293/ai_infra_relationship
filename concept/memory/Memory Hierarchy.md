@@ -2,10 +2,14 @@
 type: concept
 name: Memory Hierarchy
 aliases:
-  - Hierarchical Memory
-  - Multi-tier Memory
-  - 分层内存
-  - 内存层次
+  - "Hierarchical Memory"
+  - "Multi-tier Memory"
+  - "Storage Tiering"
+  - "Tiered Storage"
+  - "Multi-tier Storage"
+  - "分层内存"
+  - "内存层次"
+  - "分层存储"
 domain: memory
 topic: memory-hierarchy
 related_concepts:
@@ -21,7 +25,7 @@ projects:
   - FlexKV
   - YuanRong DataSystem
   - MemFabric
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Memory Hierarchy
@@ -49,10 +53,11 @@ LLM 推理同时处理模型权重、[[KV Cache]]、activation、通信 buffer �
 1. **placement**：决定数据初始放在哪一层；
 2. **promotion / demotion**：热点上移、冷数据下沉；
 3. **prefetch**：在真正访问前提前搬入快层；
-4. **eviction**：快层容量不足时淘汰；
-5. **data movement**：通过 PCIe、RDMA、NVLink、HCCS 等链路搬运。
+4. **eviction / writeback**：快层容量不足时下沉或回收；
+5. **admission / hot-cold classification**：决定哪些数据值得进入更快层；
+6. **data movement**：通过 PCIe、RDMA、NVLink、HCCS 等链路搬运。
 
-因此 Memory Hierarchy 与 [[Data Movement]]、[[KV Cache Offloading]]、[[Tiered KV Cache]]、[[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 强相关。
+因此原先单独的 “Storage Tiering” 实际是 Memory Hierarchy 上的放置/迁移策略，本仓库不再维护独立 canonical node。[[Tiered KV Cache]] 则是这套机制在 KV Cache 上的专门化。
 
 ## 与 Tiered KV Cache 的区别
 

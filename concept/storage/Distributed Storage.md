@@ -8,9 +8,9 @@ aliases:
 domain: storage
 topic: distributed-storage
 related_concepts:
-  - "Storage Tiering"
   - "RDMA"
   - "Memory Pooling"
+  - "Memory Hierarchy"
 projects:
   - 3FS
   - Mooncake
