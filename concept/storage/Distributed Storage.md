@@ -2,21 +2,22 @@
 type: concept
 name: Distributed Storage
 aliases:
-  - Distributed Storage System
-  - 分布式存储
+  - "Distributed Storage System"
+  - "Distributed Object/KV Store"
+  - "分布式存储"
 domain: storage
 topic: distributed-storage
 related_concepts:
-  - Storage Tiering
-  - Remote Object Store
-  - RDMA
+  - "Storage Tiering"
+  - "RDMA"
+  - "Memory Pooling"
 projects:
   - 3FS
   - Mooncake
   - YuanRong DataSystem
   - MemCache
   - LMCache
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Distributed Storage
@@ -33,13 +34,15 @@ Distributed Storage 把数据分布在多台机器或多个存储节点上，通
 
 典型系统会组合：
 
-- 数据分片 / placement。
-- 元数据与 namespace。
-- replication / erasure coding / durability。
-- network transport 与 [[RDMA]]。
-- local DRAM / SSD / NVMe tier。
-- cache / prefetch / eviction。
-- object、file、KV 或 stream 等上层语义。
+- 数据分片 / placement；
+- 元数据、namespace、object key 或 KV key；
+- replication / erasure coding / durability；
+- network transport 与 [[RDMA]]；
+- local DRAM / SSD / NVMe tier；
+- cache / prefetch / eviction；
+- file、object、KV、stream 等不同上层语义。
+
+“Remote Object Store”在这里视为 Distributed Storage 的一种 API / namespace 形态，不再单独建立 canonical concept。
 
 ## 与 Memory Pooling 的区别
 
@@ -47,7 +50,7 @@ Distributed Storage 把数据分布在多台机器或多个存储节点上，通
 
 ## 项目实现
 
-[[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] 是高性能分布式文件系统；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 用 DRAM/SSD/NIC 构建分布式 KV/data store；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 提供 Object/Stream/KV 多语义分布式缓存；[[community/Ascend/MemCache/MemCache|MemCache]] 和 [[community/LMCache/LMCache/LMCache|LMCache]] 将分布式存储机制用于 KV Cache。
+[[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] 是高性能分布式文件系统；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 用 DRAM/SSD/NIC 构建分布式 KV/object/data store；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 提供 Object/Stream/KV 多语义分布式缓存；[[community/Ascend/MemCache/MemCache|MemCache]] 和 [[community/LMCache/LMCache/LMCache|LMCache]] 将分布式存储、object/KV backend 机制用于 KV Cache。
 
 ## Sources
 
