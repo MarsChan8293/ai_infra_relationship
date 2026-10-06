@@ -27,6 +27,8 @@ projects:
   - "AgentInfer"
   - "ModelSphere"
   - "vllm-rlt"
+  - "OpenVINO GenAI"
+  - "TensorRT-LLM"
 last_verified: 2026-10
 ---
 
@@ -69,9 +71,9 @@ KV Cache Management 是围绕 KV 的分配、寻址、复用、放置、迁移�
 
 ## 项目实现
 
-[[community/LMCache/LMCache/LMCache|LMCache]] 明确定位为 KV cache management layer；[[community/vllm-project/vLLM/vLLM|vLLM]] 在 serving runtime 内管理 KV block、prefix cache、connector 与 offloading；[[community/sgl-project/SGLang/SGLang|SGLang]] 通过 RadixAttention / HiCache 管理本地与外部 KV。
+[[community/LMCache/LMCache/LMCache|LMCache]] 明确定位为 KV cache management layer；[[community/vllm-project/vLLM/vLLM|vLLM]] 在 serving runtime 内管理 KV block、prefix cache、connector 与 offloading；[[community/sgl-project/SGLang/SGLang|SGLang]] 通过 RadixAttention / HiCache 管理本地与外部 KV；[[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]] 具有独立 KV cache manager 路径；[[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] 提供 KV cache management、prefix cache 与 token eviction。
 
-[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]、[[community/Ascend/MemCache/MemCache|MemCache]]、[[community/taco-project/FlexKV/FlexKV|FlexKV]] 与 [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 分别提供分布式、多级或独立生命周期的 KV 管理能力；[[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] 通过 KV Pool / AscendStore backend 暴露异构 KV 管理路径。[[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]]、[[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]] 与 [[community/openJiuwen-ai/AgentInfer/AgentInfer|AgentInfer]] 则把 KV 管理进一步接到平台调度、recurrent model 或 agent inference 场景。
+[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]、[[community/Ascend/MemCache/MemCache|MemCache]]、[[community/taco-project/FlexKV/FlexKV|FlexKV]] 与 [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 提供分布式、多级或独立生命周期的 KV 管理；[[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] 通过 KV Pool / AscendStore backend 暴露异构 KV 管理；[[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]]、[[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]] 与 [[community/openJiuwen-ai/AgentInfer/AgentInfer|AgentInfer]] 把 KV 管理接入平台调度、recurrent model 与 agent inference。
 
 ## Sources
 

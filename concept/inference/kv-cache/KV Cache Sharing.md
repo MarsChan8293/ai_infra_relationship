@@ -13,9 +13,12 @@ related_concepts:
   - KV Cache Transfer
   - Prefix Caching
 projects:
-  - LMCache
-  - Mooncake
-last_verified: 2026-09
+  - "LMCache"
+  - "Mooncake"
+  - "FlexKV"
+  - "PegaFlow"
+  - "ModelSphere"
+last_verified: 2026-10
 ---
 
 # KV Cache Sharing
@@ -42,7 +45,7 @@ Prefix Caching 描述“相同前缀如何命中”；KV Sharing 描述“这个
 
 ## 项目实现
 
-[[community/LMCache/LMCache/LMCache|LMCache]] 提供 P2P KV Cache Sharing，也支持通过共享 backend 跨实例复用。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 的 Mooncake Store 提供分布式 KV cache pooling，可作为跨 serving instance 的共享缓存层。
+[[community/LMCache/LMCache/LMCache|LMCache]] 提供 P2P KV Cache Sharing 与共享 backend；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Store 提供分布式 KV pool；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 支持 cluster-wide distributed KV reuse；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 允许多个 inference instance 共享独立进程持有的 host/SSD/RDMA KV pool；[[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]] 提供 Unified L3 KV Cache Pool，用于跨 serving instance 的共享与容量复用。
 
 ## Sources
 
