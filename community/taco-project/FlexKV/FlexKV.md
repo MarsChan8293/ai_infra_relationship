@@ -13,7 +13,6 @@ linked_concepts:
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
-  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 companies: ["腾讯"]
 company_relation: company-led
@@ -87,7 +86,6 @@ FlexKV 不是 Mooncake 的简单竞品关系，而已经形成两层直接技术
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
-- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

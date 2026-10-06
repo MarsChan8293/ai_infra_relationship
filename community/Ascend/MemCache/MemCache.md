@@ -29,7 +29,6 @@ linked_concepts:
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
-  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 companies: ["华为"]
 company_relation: company-led
@@ -162,7 +161,6 @@ https://github.com/Ascend/memcache
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
-- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

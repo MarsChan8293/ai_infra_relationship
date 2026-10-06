@@ -2,7 +2,6 @@
 type: project
 name: Engram
 linked_concepts:
-  - "concept/memory/Conditional Memory"
   - "concept/memory/Host Memory"
 status: active
 linked_people: []
@@ -45,7 +44,6 @@ Engram 仓库当前提供的是用于展示核心 data flow 的 standalone demon
 
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
-- [[concept/memory/Conditional Memory|Conditional Memory]]
 - [[concept/memory/Host Memory|Host Memory]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

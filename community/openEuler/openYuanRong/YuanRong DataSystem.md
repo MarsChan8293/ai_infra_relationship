@@ -12,7 +12,6 @@ linked_concepts:
   - "concept/memory/Memory Pooling"
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/memory/SSD-NVMe Tier"
-  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 layer: kv-cache
 open_source: true
@@ -55,7 +54,6 @@ YuanRong DataSystem 是 [[community/openEuler/openYuanRong/openYuanRong|openYuan
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
-- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

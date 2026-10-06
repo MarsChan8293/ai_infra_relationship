@@ -2,7 +2,7 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 82
+- Concepts: 78
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
@@ -80,17 +80,16 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Memory
 
-8 concepts.
+7 concepts.
 
 ### Memory Hierarchy
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/memory/Conditional Memory|Conditional Memory]] | Conditional Lookup Memory, Scalable Lookup Memory, 条件记忆 |  | 2 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Conditional%20Memory) |
 | [[concept/memory/HBM|HBM]] | High Bandwidth Memory, 高带宽内存 | Memory Hierarchy | 3 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=HBM) |
 | [[concept/memory/Host Memory|Host Memory]] | CPU Memory, System Memory, Host DRAM, 主机内存 | Memory Hierarchy | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Host%20Memory) |
-| [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, 分层内存, 内存层次 |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
-| [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, NVMe SSD, NVMe | Memory Hierarchy | 7 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
+| [[concept/memory/Memory Hierarchy|Memory Hierarchy]] | Hierarchical Memory, Multi-tier Memory, Storage Tiering, Tiered Storage |  | 5 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Memory%20Hierarchy) |
+| [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] | SSD Tier, NVMe Tier, NVMe SSD, NVMe | Memory Hierarchy | 6 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD%2FNVMe%20Tier) |
 
 ### Memory Pooling
 
@@ -130,19 +129,17 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Scheduling
 
-7 concepts.
+5 concepts.
 
 ### Inference Scheduling
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
-| [[concept/inference/scheduling/Capacity Planning|Capacity Planning]] | Inference Capacity Planning, LLM Capacity Planning, 容量规划 | Inference Scheduling | 2 | 2 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Capacity%20Planning) |
-| [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
+| [[concept/inference/scheduling/Autoscaling|Autoscaling]] | Inference Autoscaling, LLM Autoscaling, 自动扩缩容 | Inference Scheduling | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Autoscaling) |
+| [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]] | LLM Inference Scheduling, 推理调度, LLM推理调度 |  | 3 | 9 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Inference%20Scheduling) |
 | [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]] | KV Cache-Aware Routing, Prefix-Cache Aware Routing, Prefix-Aware Routing, KV感知路由 | Request Routing | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=KV-Aware%20Routing) |
-| [[concept/inference/scheduling/Load Balancing|Load Balancing]] | Inference Load Balancing, LLM Load Balancing, 负载均衡 | Inference Scheduling | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load%20Balancing) |
 | [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]] | Least-Loaded Routing, Load-Sensitive Routing, 负载感知路由 | Request Routing | 2 | 4 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Load-Aware%20Routing) |
-| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, Inference-Aware Routing, LLM-Aware Routing, Model-Aware Routing | Inference Scheduling | 3 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
+| [[concept/inference/scheduling/Request Routing|Request Routing]] | Inference Request Routing, Inference-Aware Routing, LLM-Aware Routing, Model-Aware Routing | Inference Scheduling | 3 | 11 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Request%20Routing) |
 
 ## Kernel
 
@@ -239,7 +236,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Storage
 
-4 concepts.
+3 concepts.
 
 ### Data Path
 
@@ -258,9 +255,3 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
 | [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] | SSD KV Cache, NVMe KV Cache, SSD-backed KV, SSD后端KV缓存 |  | 4 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=SSD-Backed%20KV%20Cache) |
-
-### Storage Tiering
-
-| Concept | Aliases | Parent | Related | Projects | Graph |
-| --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/Storage Tiering|Storage Tiering]] | Tiered Storage, Multi-tier Storage, 分层存储 |  | 4 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Storage%20Tiering) |

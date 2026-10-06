@@ -7358,7 +7358,6 @@
           "concept/inference/kv-cache/Remote KV Store",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "companies": [
@@ -7953,11 +7952,9 @@
         "name": "MindIE-Motor",
         "linked_concepts": [
           "concept/inference/scheduling/Autoscaling",
-          "concept/inference/scheduling/Capacity Planning",
           "concept/inference/serving/Disaggregated Serving",
           "concept/inference/scheduling/Inference Scheduling",
           "concept/inference/scheduling/KV-Aware Routing",
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/serving/P-D Disaggregation",
           "concept/inference/scheduling/Request Routing"
         ],
@@ -9489,7 +9486,6 @@
           "concept/inference/kv-cache/Remote KV Store",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "status": "active",
@@ -12475,7 +12471,6 @@
           "concept/inference/serving/Disaggregated Serving",
           "concept/inference/scheduling/Inference Scheduling",
           "concept/inference/scheduling/KV-Aware Routing",
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
           "concept/inference/serving/P-D Disaggregation",
           "concept/inference/scheduling/Request Routing"
@@ -15000,7 +14995,6 @@
         "type": "project",
         "name": "Engram",
         "linked_concepts": [
-          "concept/memory/Conditional Memory",
           "concept/memory/Host Memory"
         ],
         "status": "active",
@@ -16585,6 +16579,10 @@
           "company/GPUStack/Yinlin Li",
           "company/GPUStack/秦小康"
         ],
+        "linked_concepts": [
+          "concept/inference/scheduling/Inference Scheduling",
+          "concept/inference/scheduling/Request Routing"
+        ],
         "layer": "distributed-serving",
         "status": "active",
         "repository": "https://github.com/gpustack/gpustack",
@@ -17165,7 +17163,6 @@
           "concept/inference/decoding/Speculative Decoding",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "layer": "inference-engine",
@@ -17337,7 +17334,6 @@
         "linked_concepts": [
           "concept/inference/scheduling/Autoscaling",
           "concept/inference/scheduling/KV-Aware Routing",
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Request Routing"
         ],
         "layer": "distributed-serving",
@@ -17371,7 +17367,6 @@
         "name": "Gateway API Inference Extension",
         "linked_people": [],
         "linked_concepts": [
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
           "concept/inference/scheduling/Request Routing"
         ],
@@ -18153,7 +18148,6 @@
           "concept/inference/kv-cache/Remote KV Store",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "status": "active",
@@ -19187,11 +19181,9 @@
         "name": "llm-d",
         "linked_concepts": [
           "concept/inference/scheduling/Autoscaling",
-          "concept/inference/scheduling/Capacity Planning",
           "concept/inference/serving/Disaggregated Serving",
           "concept/inference/scheduling/Inference Scheduling",
           "concept/inference/scheduling/KV-Aware Routing",
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
           "concept/inference/serving/P-D Disaggregation",
           "concept/inference/scheduling/Request Routing"
@@ -19795,7 +19787,6 @@
           "concept/inference/kv-cache/Remote KV Store",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "status": "active",
@@ -19931,7 +19922,6 @@
           "concept/memory/Memory Pooling",
           "concept/inference/kv-cache/Remote KV Store",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "layer": "kv-cache",
@@ -20255,6 +20245,11 @@
         "type": "project",
         "name": "Ray Serve",
         "parent": "Ray",
+        "linked_concepts": [
+          "concept/inference/scheduling/Autoscaling",
+          "concept/inference/scheduling/Inference Scheduling",
+          "concept/inference/scheduling/Request Routing"
+        ],
         "status": "active",
         "linked_people": [
           "community/vllm-project/vLLM/Simon Mo"
@@ -21046,7 +21041,6 @@
           "concept/inference/kv-cache/Remote KV Store",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "companies": [
@@ -21634,7 +21628,6 @@
           "concept/inference/scheduling/Autoscaling",
           "concept/inference/scheduling/Inference Scheduling",
           "concept/inference/scheduling/KV-Aware Routing",
-          "concept/inference/scheduling/Load Balancing",
           "concept/inference/scheduling/Load-Aware Routing",
           "concept/inference/scheduling/Request Routing"
         ],
@@ -21890,6 +21883,10 @@
       "frontmatter": {
         "type": "project",
         "name": "vLLM Production Stack",
+        "linked_concepts": [
+          "concept/inference/scheduling/Inference Scheduling",
+          "concept/inference/scheduling/Request Routing"
+        ],
         "status": "active",
         "linked_people": [],
         "repository": "https://github.com/vllm-project/production-stack",
@@ -23733,7 +23730,6 @@
           "concept/inference/kv-cache/KV Cache Offloading",
           "concept/storage/SSD-Backed KV Cache",
           "concept/memory/SSD-NVMe Tier",
-          "concept/storage/Storage Tiering",
           "concept/inference/kv-cache/Tiered KV Cache"
         ],
         "layer": "kv-cache",
@@ -30841,8 +30837,8 @@
           "Inference Scheduling"
         ],
         "related_concepts": [
-          "Load Balancing",
-          "Capacity Planning"
+          "Request Routing",
+          "P-D Disaggregation"
         ],
         "projects": [
           "llm-d",
@@ -30850,39 +30846,10 @@
           "AIBrix",
           "KServe",
           "MindIE-Motor",
-          "ModelSphere"
+          "ModelSphere",
+          "Ray Serve"
         ],
         "last_verified": "2026-10"
-      }
-    },
-    {
-      "id": "concept/inference/scheduling/Capacity Planning",
-      "path": "concept/inference/scheduling/Capacity Planning.md",
-      "name": "Capacity Planning",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Capacity Planning",
-        "aliases": [
-          "Inference Capacity Planning",
-          "LLM Capacity Planning",
-          "容量规划"
-        ],
-        "domain": "scheduling",
-        "topic": "inference-scheduling",
-        "parent_concepts": [
-          "Inference Scheduling"
-        ],
-        "related_concepts": [
-          "Autoscaling",
-          "P-D Disaggregation"
-        ],
-        "projects": [
-          "llm-d",
-          "MindIE-Motor"
-        ],
-        "last_verified": "2026-09"
       }
     },
     {
@@ -30903,8 +30870,8 @@
         "topic": "inference-scheduling",
         "related_concepts": [
           "Request Routing",
-          "Load Balancing",
-          "Autoscaling"
+          "Autoscaling",
+          "P-D Disaggregation"
         ],
         "projects": [
           "llm-d",
@@ -30912,7 +30879,10 @@
           "AIBrix",
           "MindIE-Motor",
           "AgentInfer",
-          "vllm-rlt"
+          "vllm-rlt",
+          "GPUStack",
+          "Ray Serve",
+          "vLLM Production Stack"
         ],
         "last_verified": "2026-10"
       }
@@ -30955,41 +30925,6 @@
       }
     },
     {
-      "id": "concept/inference/scheduling/Load Balancing",
-      "path": "concept/inference/scheduling/Load Balancing.md",
-      "name": "Load Balancing",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Load Balancing",
-        "aliases": [
-          "Inference Load Balancing",
-          "LLM Load Balancing",
-          "负载均衡"
-        ],
-        "domain": "scheduling",
-        "topic": "inference-scheduling",
-        "parent_concepts": [
-          "Inference Scheduling"
-        ],
-        "related_concepts": [
-          "Request Routing",
-          "Load-Aware Routing",
-          "Autoscaling"
-        ],
-        "projects": [
-          "llm-d",
-          "NVIDIA Dynamo",
-          "AIBrix",
-          "Gateway API Inference Extension",
-          "KServe",
-          "MindIE-Motor"
-        ],
-        "last_verified": "2026-09"
-      }
-    },
-    {
       "id": "concept/inference/scheduling/Load-Aware Routing",
       "path": "concept/inference/scheduling/Load-Aware Routing.md",
       "name": "Load-Aware Routing",
@@ -31010,7 +30945,7 @@
         ],
         "related_concepts": [
           "KV-Aware Routing",
-          "Load Balancing"
+          "Inference Scheduling"
         ],
         "projects": [
           "llm-d",
@@ -31035,8 +30970,12 @@
           "Inference-Aware Routing",
           "LLM-Aware Routing",
           "Model-Aware Routing",
+          "Load Balancing",
+          "Inference Load Balancing",
+          "LLM Load Balancing",
           "请求路由",
-          "推理感知路由"
+          "推理感知路由",
+          "负载均衡"
         ],
         "domain": "scheduling",
         "topic": "inference-scheduling",
@@ -31046,7 +30985,7 @@
         "related_concepts": [
           "KV-Aware Routing",
           "Load-Aware Routing",
-          "Load Balancing"
+          "Autoscaling"
         ],
         "projects": [
           "llm-d",
@@ -31056,7 +30995,10 @@
           "KServe",
           "MindIE-Motor",
           "AgentInfer",
-          "ModelSphere"
+          "ModelSphere",
+          "GPUStack",
+          "Ray Serve",
+          "vLLM Production Stack"
         ],
         "last_verified": "2026-10"
       }
@@ -31597,32 +31539,6 @@
       }
     },
     {
-      "id": "concept/memory/Conditional Memory",
-      "path": "concept/memory/Conditional Memory.md",
-      "name": "Conditional Memory",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Conditional Memory",
-        "aliases": [
-          "Conditional Lookup Memory",
-          "Scalable Lookup Memory",
-          "条件记忆"
-        ],
-        "domain": "memory",
-        "topic": "memory-hierarchy",
-        "related_concepts": [
-          "Host Memory",
-          "Memory Hierarchy"
-        ],
-        "projects": [
-          "Engram"
-        ],
-        "last_verified": "2026-10"
-      }
-    },
-    {
       "id": "concept/memory/HBM",
       "path": "concept/memory/HBM.md",
       "name": "HBM",
@@ -31704,8 +31620,12 @@
         "aliases": [
           "Hierarchical Memory",
           "Multi-tier Memory",
+          "Storage Tiering",
+          "Tiered Storage",
+          "Multi-tier Storage",
           "分层内存",
-          "内存层次"
+          "内存层次",
+          "分层存储"
         ],
         "domain": "memory",
         "topic": "memory-hierarchy",
@@ -31724,7 +31644,7 @@
           "YuanRong DataSystem",
           "MemFabric"
         ],
-        "last_verified": "2026-09"
+        "last_verified": "2026-10"
       }
     },
     {
@@ -31812,7 +31732,6 @@
         ],
         "related_concepts": [
           "SSD-Backed KV Cache",
-          "Storage Tiering",
           "Tiered KV Cache",
           "KV Cache Offloading",
           "KV Cache Management",
@@ -32099,9 +32018,9 @@
         "domain": "storage",
         "topic": "distributed-storage",
         "related_concepts": [
-          "Storage Tiering",
           "RDMA",
-          "Memory Pooling"
+          "Memory Pooling",
+          "Memory Hierarchy"
         ],
         "projects": [
           "3FS",
@@ -32143,41 +32062,6 @@
           "PegaFlow",
           "LMCache",
           "FlexKV",
-          "Splash"
-        ],
-        "last_verified": "2026-10"
-      }
-    },
-    {
-      "id": "concept/storage/Storage Tiering",
-      "path": "concept/storage/Storage Tiering.md",
-      "name": "Storage Tiering",
-      "type": "concept",
-      "category": "concept",
-      "frontmatter": {
-        "type": "concept",
-        "name": "Storage Tiering",
-        "aliases": [
-          "Tiered Storage",
-          "Multi-tier Storage",
-          "分层存储"
-        ],
-        "domain": "storage",
-        "topic": "storage-tiering",
-        "related_concepts": [
-          "SSD/NVMe Tier",
-          "Memory Hierarchy",
-          "Tiered KV Cache",
-          "KV Cache Offloading"
-        ],
-        "projects": [
-          "LMCache",
-          "MemCache",
-          "Mooncake",
-          "YuanRong DataSystem",
-          "Tutti",
-          "FlexKV",
-          "PegaFlow",
           "Splash"
         ],
         "last_verified": "2026-10"
@@ -32721,11 +32605,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "community/Ascend/MemCache/MemCache",
-      "target": "concept/storage/Storage Tiering",
-      "kind": "wikilink"
-    },
-    {
       "source": "community/Ascend/MemCache/Pz1116",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -33177,22 +33056,12 @@
     },
     {
       "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "target": "concept/inference/scheduling/Capacity Planning",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "target": "concept/inference/scheduling/Inference Scheduling",
       "kind": "wikilink"
     },
     {
       "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "target": "concept/inference/scheduling/KV-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "target": "concept/inference/scheduling/Load Balancing",
       "kind": "wikilink"
     },
     {
@@ -34243,11 +34112,6 @@
     {
       "source": "community/LMCache/LMCache/LMCache",
       "target": "concept/storage/SSD-Backed KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/LMCache/LMCache/LMCache",
-      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -35823,11 +35687,6 @@
     {
       "source": "community/ai-dynamo/Dynamo/Dynamo",
       "target": "concept/inference/scheduling/KV-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/ai-dynamo/Dynamo/Dynamo",
-      "target": "concept/inference/scheduling/Load Balancing",
       "kind": "wikilink"
     },
     {
@@ -38507,11 +38366,6 @@
     },
     {
       "source": "community/deepseek-ai/Engram/Engram",
-      "target": "concept/memory/Conditional Memory",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/deepseek-ai/Engram/Engram",
       "target": "concept/memory/Host Memory",
       "kind": "wikilink"
     },
@@ -39871,6 +39725,16 @@
       "kind": "wikilink"
     },
     {
+      "source": "community/gpustack/GPUStack/GPUStack",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/gpustack/GPUStack/GPUStack",
+      "target": "concept/inference/scheduling/Request Routing",
+      "kind": "wikilink"
+    },
+    {
       "source": "community/gpustack/GPUStack/thxCode",
       "target": "community/gpustack/GPUStack/GPUStack",
       "kind": "wikilink"
@@ -40211,11 +40075,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "community/incoai/Splash/Splash",
-      "target": "concept/storage/Storage Tiering",
-      "kind": "wikilink"
-    },
-    {
       "source": "community/interestingLSY/swiftLLM/swiftLLM",
       "target": "community/deepseek-ai/DeepSeek-Infra/刘胜与 Shengyu Liu",
       "kind": "wikilink"
@@ -40257,17 +40116,7 @@
     },
     {
       "source": "community/kserve/KServe/KServe",
-      "target": "concept/inference/scheduling/Load Balancing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/kserve/KServe/KServe",
       "target": "concept/inference/scheduling/Request Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "target": "concept/inference/scheduling/Load Balancing",
       "kind": "wikilink"
     },
     {
@@ -41053,11 +40902,6 @@
     {
       "source": "community/kvcache-ai/Mooncake/Mooncake",
       "target": "concept/storage/SSD-Backed KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/kvcache-ai/Mooncake/Mooncake",
-      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -41927,22 +41771,12 @@
     },
     {
       "source": "community/llm-d/llm-d/llm-d",
-      "target": "concept/inference/scheduling/Capacity Planning",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/llm-d/llm-d/llm-d",
       "target": "concept/inference/scheduling/Inference Scheduling",
       "kind": "wikilink"
     },
     {
       "source": "community/llm-d/llm-d/llm-d",
       "target": "concept/inference/scheduling/KV-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/llm-d/llm-d/llm-d",
-      "target": "concept/inference/scheduling/Load Balancing",
       "kind": "wikilink"
     },
     {
@@ -42421,11 +42255,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "community/novitalabs/pegaflow/pegaflow",
-      "target": "concept/storage/Storage Tiering",
-      "kind": "wikilink"
-    },
-    {
       "source": "community/ollama/Ollama/Ollama",
       "target": "community/FlashML-org/FreeToken/FreeToken",
       "kind": "wikilink"
@@ -42538,11 +42367,6 @@
     {
       "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
       "target": "concept/storage/Distributed Storage",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -42723,6 +42547,21 @@
     {
       "source": "community/ray-project/Ray-Serve/Ray-Serve",
       "target": "company/Anyscale/Anyscale",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ray-project/Ray-Serve/Ray-Serve",
+      "target": "concept/inference/scheduling/Autoscaling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ray-project/Ray-Serve/Ray-Serve",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/ray-project/Ray-Serve/Ray-Serve",
+      "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
@@ -43556,11 +43395,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "community/taco-project/FlexKV/FlexKV",
-      "target": "concept/storage/Storage Tiering",
-      "kind": "wikilink"
-    },
-    {
       "source": "community/thu-pacman/BaGuaLu/BaGuaLu",
       "target": "company/清程极智/唐适之 Shizhi Tang",
       "kind": "wikilink"
@@ -44102,11 +43936,6 @@
     },
     {
       "source": "community/vllm-project/AIBrix/AIBrix",
-      "target": "concept/inference/scheduling/Load Balancing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/vllm-project/AIBrix/AIBrix",
       "target": "concept/inference/scheduling/Load-Aware Routing",
       "kind": "wikilink"
     },
@@ -44303,6 +44132,16 @@
     {
       "source": "community/vllm-project/production-stack/vLLM Production Stack",
       "target": "community/vllm-project/vLLM/vLLM",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "concept/inference/scheduling/Inference Scheduling",
+      "kind": "wikilink"
+    },
+    {
+      "source": "community/vllm-project/production-stack/vLLM Production Stack",
+      "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
@@ -46283,11 +46122,6 @@
     {
       "source": "community/xPU-IO/Tutti/Tutti",
       "target": "concept/storage/SSD-Backed KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "community/xPU-IO/Tutti/Tutti",
-      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -54972,32 +54806,17 @@
     },
     {
       "source": "concept/inference/scheduling/Autoscaling",
+      "target": "community/ray-project/Ray-Serve/Ray-Serve",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Autoscaling",
       "target": "community/vllm-project/AIBrix/AIBrix",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/scheduling/Autoscaling",
-      "target": "concept/inference/scheduling/Capacity Planning",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Capacity Planning",
-      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Capacity Planning",
-      "target": "community/llm-d/llm-d/llm-d",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Capacity Planning",
-      "target": "concept/inference/scheduling/Autoscaling",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Capacity Planning",
-      "target": "concept/inference/serving/P-D Disaggregation",
+      "target": "concept/inference/scheduling/Inference Scheduling",
       "kind": "wikilink"
     },
     {
@@ -55012,7 +54831,17 @@
     },
     {
       "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/gpustack/GPUStack/GPUStack",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
       "target": "community/llm-d/llm-d/llm-d",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "community/ray-project/Ray-Serve/Ray-Serve",
       "kind": "wikilink"
     },
     {
@@ -55022,12 +54851,12 @@
     },
     {
       "source": "concept/inference/scheduling/Inference Scheduling",
-      "target": "concept/inference/scheduling/Autoscaling",
+      "target": "community/vllm-project/production-stack/vLLM Production Stack",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/scheduling/Inference Scheduling",
-      "target": "concept/inference/scheduling/Load Balancing",
+      "target": "concept/inference/scheduling/Autoscaling",
       "kind": "wikilink"
     },
     {
@@ -55038,6 +54867,11 @@
     {
       "source": "concept/inference/scheduling/Inference Scheduling",
       "target": "concept/inference/serving/Continuous Batching",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Inference Scheduling",
+      "target": "concept/inference/serving/P-D Disaggregation",
       "kind": "wikilink"
     },
     {
@@ -55086,81 +54920,36 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
-      "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load Balancing",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
       "target": "community/ai-dynamo/Dynamo/Dynamo",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
-      "target": "community/kserve/KServe/KServe",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load Balancing",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
       "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
       "target": "community/llm-d/llm-d/llm-d",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
       "target": "community/vllm-project/AIBrix/AIBrix",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
-      "target": "concept/inference/scheduling/Autoscaling",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load Balancing",
-      "target": "concept/inference/scheduling/Load-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load Balancing",
+      "source": "concept/inference/scheduling/Load-Aware Routing",
       "target": "concept/inference/scheduling/Request Routing",
       "kind": "wikilink"
     },
     {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "community/ai-dynamo/Dynamo/Dynamo",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "community/llm-d/llm-d/llm-d",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "community/vllm-project/AIBrix/AIBrix",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "concept/inference/scheduling/KV-Aware Routing",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/inference/scheduling/Load-Aware Routing",
-      "target": "concept/inference/scheduling/Load Balancing",
-      "kind": "wikilink"
-    },
-    {
       "source": "concept/inference/scheduling/Request Routing",
       "target": "community/Ascend/MindIE-Motor/MindIE-Motor",
       "kind": "wikilink"
@@ -55168,6 +54957,11 @@
     {
       "source": "concept/inference/scheduling/Request Routing",
       "target": "community/ai-dynamo/Dynamo/Dynamo",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/gpustack/GPUStack/GPUStack",
       "kind": "wikilink"
     },
     {
@@ -55187,17 +54981,22 @@
     },
     {
       "source": "concept/inference/scheduling/Request Routing",
+      "target": "community/ray-project/Ray-Serve/Ray-Serve",
+      "kind": "wikilink"
+    },
+    {
+      "source": "concept/inference/scheduling/Request Routing",
       "target": "community/vllm-project/AIBrix/AIBrix",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/scheduling/Request Routing",
-      "target": "concept/inference/scheduling/KV-Aware Routing",
+      "target": "community/vllm-project/production-stack/vLLM Production Stack",
       "kind": "wikilink"
     },
     {
       "source": "concept/inference/scheduling/Request Routing",
-      "target": "concept/inference/scheduling/Load Balancing",
+      "target": "concept/inference/scheduling/KV-Aware Routing",
       "kind": "wikilink"
     },
     {
@@ -55711,16 +55510,6 @@
       "kind": "wikilink"
     },
     {
-      "source": "concept/memory/Conditional Memory",
-      "target": "community/deepseek-ai/Engram/Engram",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/memory/Conditional Memory",
-      "target": "concept/memory/Host Memory",
-      "kind": "wikilink"
-    },
-    {
       "source": "concept/memory/HBM",
       "target": "community/Ascend/MemCache/MemCache",
       "kind": "wikilink"
@@ -55832,17 +55621,7 @@
     },
     {
       "source": "concept/memory/Memory Hierarchy",
-      "target": "concept/communication/data-movement/Data Movement",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/memory/Memory Hierarchy",
       "target": "concept/inference/kv-cache/KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/memory/Memory Hierarchy",
-      "target": "concept/inference/kv-cache/KV Cache Offloading",
       "kind": "wikilink"
     },
     {
@@ -55853,11 +55632,6 @@
     {
       "source": "concept/memory/Memory Hierarchy",
       "target": "concept/memory/Host Memory",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/memory/Memory Hierarchy",
-      "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
     {
@@ -55988,11 +55762,6 @@
     {
       "source": "concept/memory/SSD-NVMe Tier",
       "target": "concept/storage/SSD-Backed KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/memory/SSD-NVMe Tier",
-      "target": "concept/storage/Storage Tiering",
       "kind": "wikilink"
     },
     {
@@ -56312,61 +56081,6 @@
     },
     {
       "source": "concept/storage/SSD-Backed KV Cache",
-      "target": "concept/memory/SSD-NVMe Tier",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/Ascend/MemCache/MemCache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/LMCache/LMCache/LMCache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/incoai/Splash/Splash",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/kvcache-ai/Mooncake/Mooncake",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/novitalabs/pegaflow/pegaflow",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/taco-project/FlexKV/FlexKV",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "community/xPU-IO/Tutti/Tutti",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "concept/inference/kv-cache/Tiered KV Cache",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
-      "target": "concept/memory/Memory Hierarchy",
-      "kind": "wikilink"
-    },
-    {
-      "source": "concept/storage/Storage Tiering",
       "target": "concept/memory/SSD-NVMe Tier",
       "kind": "wikilink"
     },
@@ -62589,14 +62303,14 @@
       "bridge_score": 3.085
     },
     "community/Ascend/MemCache/MemCache": {
-      "degree": 35,
-      "cross_category_degree": 15,
+      "degree": 34,
+      "cross_category_degree": 14,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 14.92
+      "bridge_score": 14.529
     },
     "community/Ascend/MemCache/Pz1116": {
       "degree": 3,
@@ -62731,15 +62445,15 @@
       "bridge_score": 2.5
     },
     "community/Ascend/MindIE-Motor/MindIE-Motor": {
-      "degree": 19,
-      "cross_category_degree": 10,
+      "degree": 17,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 13.822
+      "bridge_score": 12.97
     },
     "community/Ascend/MindIE-SD/MindIE-SD": {
       "degree": 9,
@@ -63139,8 +62853,8 @@
       "bridge_score": 4.935
     },
     "community/LMCache/LMCache/LMCache": {
-      "degree": 54,
-      "cross_category_degree": 27,
+      "degree": 53,
+      "cross_category_degree": 26,
       "neighbor_categories": [
         "community",
         "company",
@@ -63148,7 +62862,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 22.731
+      "bridge_score": 22.355
     },
     "community/LMCache/LMCache/Oasis-Git": {
       "degree": 2,
@@ -64013,15 +63727,15 @@
       "bridge_score": 5.672
     },
     "community/ai-dynamo/Dynamo/Dynamo": {
-      "degree": 35,
-      "cross_category_degree": 10,
+      "degree": 34,
+      "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 14.67
+      "bridge_score": 14.279
     },
     "community/ai-dynamo/Dynamo/Ishan Dhanani": {
       "degree": 4,
@@ -64715,14 +64429,14 @@
       "bridge_score": 8.707
     },
     "community/deepseek-ai/Engram/Engram": {
-      "degree": 5,
-      "cross_category_degree": 3,
+      "degree": 4,
+      "cross_category_degree": 2,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 8.135
+      "bridge_score": 7.522
     },
     "community/e2b-dev/E2B/E2B": {
       "degree": 1,
@@ -65135,14 +64849,15 @@
       "bridge_score": 2.5
     },
     "community/gpustack/GPUStack/GPUStack": {
-      "degree": 17,
-      "cross_category_degree": 4,
+      "degree": 19,
+      "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root"
       ],
-      "bridge_score": 10.07
+      "bridge_score": 12.422
     },
     "community/gpustack/GPUStack/gitlawr": {
       "degree": 2,
@@ -65263,13 +64978,13 @@
       "bridge_score": 7.92
     },
     "community/incoai/Splash/Splash": {
-      "degree": 11,
-      "cross_category_degree": 9,
+      "degree": 10,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.735
+      "bridge_score": 9.259
     },
     "community/interestingLSY/swiftLLM/swiftLLM": {
       "degree": 1,
@@ -65303,23 +65018,23 @@
       "bridge_score": 2.85
     },
     "community/kserve/KServe/KServe": {
-      "degree": 6,
-      "cross_category_degree": 5,
+      "degree": 5,
+      "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept",
         "root"
       ],
-      "bridge_score": 9.057
+      "bridge_score": 8.485
     },
     "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension": {
-      "degree": 4,
-      "cross_category_degree": 4,
+      "degree": 3,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "concept",
         "root"
       ],
-      "bridge_score": 6.722
+      "bridge_score": 6.05
     },
     "community/kubernetes-sigs/Kueue/Kueue": {
       "degree": 0,
@@ -65518,8 +65233,8 @@
       "bridge_score": 11.198
     },
     "community/kvcache-ai/Mooncake/Mooncake": {
-      "degree": 84,
-      "cross_category_degree": 40,
+      "degree": 83,
+      "cross_category_degree": 39,
       "neighbor_categories": [
         "community",
         "company",
@@ -65527,7 +65242,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 27.909
+      "bridge_score": 27.542
     },
     "community/kvcache-ai/Mooncake/Shangming Cai": {
       "degree": 13,
@@ -65777,8 +65492,8 @@
       "bridge_score": 6.157
     },
     "community/llm-d/llm-d/llm-d": {
-      "degree": 42,
-      "cross_category_degree": 17,
+      "degree": 40,
+      "cross_category_degree": 15,
       "neighbor_categories": [
         "community",
         "company",
@@ -65786,7 +65501,7 @@
         "root",
         "university"
       ],
-      "bridge_score": 18.876
+      "bridge_score": 18.108
     },
     "community/llm-d/llm-d/张家驹 Jiaju Zhang": {
       "degree": 4,
@@ -65914,14 +65629,14 @@
       "bridge_score": 10.409
     },
     "community/novitalabs/pegaflow/pegaflow": {
-      "degree": 19,
-      "cross_category_degree": 15,
+      "degree": 18,
+      "cross_category_degree": 14,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 14.072
+      "bridge_score": 13.648
     },
     "community/ollama/Ollama/Ollama": {
       "degree": 12,
@@ -65941,15 +65656,15 @@
       "bridge_score": 2.5
     },
     "community/openEuler/openYuanRong/YuanRong DataSystem": {
-      "degree": 18,
-      "cross_category_degree": 12,
+      "degree": 17,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 14.448
+      "bridge_score": 14.02
     },
     "community/openEuler/openYuanRong/YuanRong TransferEngine": {
       "degree": 5,
@@ -66018,15 +65733,16 @@
       "bridge_score": 9.25
     },
     "community/ray-project/Ray-Serve/Ray-Serve": {
-      "degree": 10,
-      "cross_category_degree": 5,
+      "degree": 13,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "company",
+        "concept",
         "root",
         "university"
       ],
-      "bridge_score": 11.209
+      "bridge_score": 14.107
     },
     "community/research/AgenticCANN/AgenticCANN": {
       "degree": 1,
@@ -66213,14 +65929,14 @@
       "bridge_score": 7.207
     },
     "community/taco-project/FlexKV/FlexKV": {
-      "degree": 14,
-      "cross_category_degree": 13,
+      "degree": 13,
+      "cross_category_degree": 12,
       "neighbor_categories": [
         "community",
         "company",
         "concept"
       ],
-      "bridge_score": 12.957
+      "bridge_score": 12.507
     },
     "community/thu-pacman/BaGuaLu/BaGuaLu": {
       "degree": 6,
@@ -66369,15 +66085,15 @@
       "bridge_score": 5.672
     },
     "community/vllm-project/AIBrix/AIBrix": {
-      "degree": 22,
-      "cross_category_degree": 8,
+      "degree": 21,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "company",
         "concept",
         "root"
       ],
-      "bridge_score": 13.324
+      "bridge_score": 12.909
     },
     "community/vllm-project/AIBrix/CYJiang": {
       "degree": 5,
@@ -66458,13 +66174,14 @@
       "bridge_score": 4.935
     },
     "community/vllm-project/production-stack/vLLM Production Stack": {
-      "degree": 8,
-      "cross_category_degree": 1,
+      "degree": 10,
+      "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
+        "concept",
         "root"
       ],
-      "bridge_score": 6.52
+      "bridge_score": 9.009
     },
     "community/vllm-project/vLLM/Chen Zhang": {
       "degree": 18,
@@ -66908,14 +66625,14 @@
       "bridge_score": 6.157
     },
     "community/xPU-IO/Tutti/Tutti": {
-      "degree": 14,
-      "cross_category_degree": 9,
+      "degree": 13,
+      "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept",
         "university"
       ],
-      "bridge_score": 11.557
+      "bridge_score": 11.107
     },
     "community/xPU-IO/xPU-IO": {
       "degree": 2,
@@ -68543,13 +68260,13 @@
       "bridge_score": 7.22
     },
     "concept/communication/data-movement/Data Movement": {
-      "degree": 8,
+      "degree": 7,
       "cross_category_degree": 3,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.22
+      "bridge_score": 7.05
     },
     "concept/communication/data-movement/GPUDirect RDMA": {
       "degree": 4,
@@ -68743,13 +68460,13 @@
       "bridge_score": 13.574
     },
     "concept/inference/kv-cache/KV Cache Offloading": {
-      "degree": 21,
+      "degree": 20,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 10.959
+      "bridge_score": 10.892
     },
     "concept/inference/kv-cache/KV Cache Sharing": {
       "degree": 11,
@@ -68798,13 +68515,13 @@
       "bridge_score": 8.8
     },
     "concept/inference/kv-cache/Tiered KV Cache": {
-      "degree": 19,
+      "degree": 18,
       "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 11.172
+      "bridge_score": 11.098
     },
     "concept/inference/optimization/Agentic Inference Optimization": {
       "degree": 11,
@@ -68887,31 +68604,22 @@
       "bridge_score": 2.85
     },
     "concept/inference/scheduling/Autoscaling": {
-      "degree": 9,
-      "cross_category_degree": 6,
+      "degree": 8,
+      "cross_category_degree": 7,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.422
-    },
-    "concept/inference/scheduling/Capacity Planning": {
-      "degree": 4,
-      "cross_category_degree": 2,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 6.022
+      "bridge_score": 8.62
     },
     "concept/inference/scheduling/Inference Scheduling": {
-      "degree": 10,
-      "cross_category_degree": 6,
+      "degree": 13,
+      "cross_category_degree": 9,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 8.559
+      "bridge_score": 9.957
     },
     "concept/inference/scheduling/KV-Aware Routing": {
       "degree": 11,
@@ -68922,32 +68630,23 @@
       ],
       "bridge_score": 8.685
     },
-    "concept/inference/scheduling/Load Balancing": {
-      "degree": 10,
-      "cross_category_degree": 6,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 8.559
-    },
     "concept/inference/scheduling/Load-Aware Routing": {
-      "degree": 7,
+      "degree": 6,
       "cross_category_degree": 4,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 7.4
+      "bridge_score": 7.207
     },
     "concept/inference/scheduling/Request Routing": {
-      "degree": 12,
-      "cross_category_degree": 8,
+      "degree": 14,
+      "cross_category_degree": 11,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.5
+      "bridge_score": 10.757
     },
     "concept/inference/serving/Chunked Prefill": {
       "degree": 3,
@@ -69092,15 +68791,6 @@
       ],
       "bridge_score": 6.35
     },
-    "concept/memory/Conditional Memory": {
-      "degree": 2,
-      "cross_category_degree": 1,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 4.935
-    },
     "concept/memory/HBM": {
       "degree": 8,
       "cross_category_degree": 4,
@@ -69111,22 +68801,22 @@
       "bridge_score": 7.57
     },
     "concept/memory/Host Memory": {
-      "degree": 15,
+      "degree": 14,
       "cross_category_degree": 8,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.8
+      "bridge_score": 9.707
     },
     "concept/memory/Memory Hierarchy": {
-      "degree": 15,
+      "degree": 11,
       "cross_category_degree": 6,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 9.1
+      "bridge_score": 8.685
     },
     "concept/memory/Memory Pooling": {
       "degree": 10,
@@ -69147,13 +68837,13 @@
       "bridge_score": 6.635
     },
     "concept/memory/SSD-NVMe Tier": {
-      "degree": 19,
+      "degree": 17,
       "cross_category_degree": 10,
       "neighbor_categories": [
         "community",
         "concept"
       ],
-      "bridge_score": 10.822
+      "bridge_score": 10.67
     },
     "concept/quantization/FP4 Quantization": {
       "degree": 10,
@@ -69235,15 +68925,6 @@
         "concept"
       ],
       "bridge_score": 8.772
-    },
-    "concept/storage/Storage Tiering": {
-      "degree": 11,
-      "cross_category_degree": 8,
-      "neighbor_categories": [
-        "community",
-        "concept"
-      ],
-      "bridge_score": 9.385
     }
   }
 }

@@ -5,7 +5,6 @@ linked_people: []
 linked_concepts:
   - "concept/inference/scheduling/Autoscaling"
   - "concept/inference/scheduling/KV-Aware Routing"
-  - "concept/inference/scheduling/Load Balancing"
   - "concept/inference/scheduling/Request Routing"
 layer: distributed-serving
 status: active
@@ -67,7 +66,6 @@ KServe 主要负责 Kubernetes 模型服务生命周期和 API 编排，不负�
 
 - [[concept/inference/scheduling/Autoscaling|Autoscaling]]
 - [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
-- [[concept/inference/scheduling/Load Balancing|Load Balancing]]
 - [[concept/inference/scheduling/Request Routing|Request Routing]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

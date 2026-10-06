@@ -14,7 +14,6 @@ linked_concepts:
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
-  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 linked_people: []
@@ -82,7 +81,6 @@ vLLM 与 Novita AI 2026-05-18 的联合文章报告：在固定 500 GiB host KV 
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
-- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

@@ -9,7 +9,6 @@ linked_concepts:
   - "concept/inference/kv-cache/KV Cache Offloading"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
-  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 layer: kv-cache
 open_source: true
@@ -77,7 +76,6 @@ Tutti PR #11 / 对应 merge commit 由 `ljye2023` 提交，公开提交邮箱为
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
-- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 82,
-    "concepts_with_projects": 82,
+    "concepts": 78,
+    "concepts_with_projects": 78,
     "concepts_without_projects": 0,
     "project_like_nodes": 241,
-    "projects_with_concepts": 108,
-    "concept_project_assertions": 426,
+    "projects_with_concepts": 111,
+    "concept_project_assertions": 416,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -20,14 +20,14 @@
     "decoding": 4,
     "distributed-storage": 1,
     "gemm": 2,
-    "inference-scheduling": 7,
+    "inference-scheduling": 5,
     "interconnect": 6,
     "kernel-compilation": 2,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 9,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 5,
+    "memory-hierarchy": 4,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -35,7 +35,6 @@
     "quantization": 5,
     "reliability": 1,
     "serving": 4,
-    "storage-tiering": 1,
     "verification": 1
   },
   "mapped_topic_counts": {
@@ -48,14 +47,14 @@
     "decoding": 4,
     "distributed-storage": 1,
     "gemm": 2,
-    "inference-scheduling": 7,
+    "inference-scheduling": 5,
     "interconnect": 6,
     "kernel-compilation": 2,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 9,
     "kv-cache-storage": 1,
-    "memory-hierarchy": 5,
+    "memory-hierarchy": 4,
     "memory-pooling": 2,
     "memory-topology": 1,
     "optimization": 3,
@@ -63,7 +62,6 @@
     "quantization": 5,
     "reliability": 1,
     "serving": 4,
-    "storage-tiering": 1,
     "verification": 1
   },
   "concepts_without_projects": [],
@@ -128,10 +126,9 @@
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Direct Storage IO",
         "concept/storage/Distributed Storage",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/SSD-Backed KV Cache"
       ],
-      "count": 21
+      "count": 20
     },
     {
       "id": "community/LMCache/LMCache/LMCache",
@@ -150,10 +147,9 @@
         "concept/memory/Memory Hierarchy",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Distributed Storage",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/SSD-Backed KV Cache"
       ],
-      "count": 14
+      "count": 13
     },
     {
       "id": "community/Ascend/MemCache/MemCache",
@@ -172,10 +168,9 @@
         "concept/memory/NUMA",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Distributed Storage",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/SSD-Backed KV Cache"
       ],
-      "count": 14
+      "count": 13
     },
     {
       "id": "community/novitalabs/pegaflow/pegaflow",
@@ -194,10 +189,9 @@
         "concept/memory/Host Memory",
         "concept/memory/NUMA",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/SSD-Backed KV Cache"
       ],
-      "count": 14
+      "count": 13
     },
     {
       "id": "community/taco-project/FlexKV/FlexKV",
@@ -213,10 +207,9 @@
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/SSD-Backed KV Cache"
       ],
-      "count": 11
+      "count": 10
     },
     {
       "id": "community/NVIDIA/NCCL/NCCL",
@@ -273,41 +266,6 @@
       "count": 10
     },
     {
-      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "name": "YuanRong DataSystem",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/hardware/interconnect/HCCS",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Remote KV Store",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/memory/HBM",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling",
-        "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Distributed Storage",
-        "concept/storage/Storage Tiering"
-      ],
-      "count": 10
-    },
-    {
-      "id": "community/llm-d/llm-d/llm-d",
-      "name": "llm-d",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Capacity Planning",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 9
-    },
-    {
       "id": "community/Ascend/MemFabric/MemFabric",
       "name": "MemFabric",
       "layer": "communication",
@@ -325,19 +283,19 @@
       "count": 9
     },
     {
-      "id": "community/incoai/Splash/Splash",
-      "name": "Splash",
-      "layer": "inference-engine",
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "name": "YuanRong DataSystem",
+      "layer": "kv-cache",
       "concepts": [
-        "concept/inference/decoding/Speculative Decoding",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/Prefix Caching",
+        "concept/hardware/interconnect/HCCS",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
         "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/Continuous Batching",
+        "concept/memory/HBM",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
         "concept/memory/SSD-NVMe Tier",
-        "concept/quantization/KV Cache Quantization",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/storage/Distributed Storage"
       ],
       "count": 9
     },
@@ -358,34 +316,18 @@
       "count": 8
     },
     {
-      "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
-      "name": "MindIE-Motor",
-      "layer": "runtime",
+      "id": "community/incoai/Splash/Splash",
+      "name": "Splash",
+      "layer": "inference-engine",
       "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Capacity Planning",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Request Routing",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 8
-    },
-    {
-      "id": "community/ai-dynamo/Dynamo/Dynamo",
-      "name": "NVIDIA Dynamo",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Inference Scheduling",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/Continuous Batching",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/quantization/KV Cache Quantization",
+        "concept/storage/SSD-Backed KV Cache"
       ],
       "count": 8
     },
@@ -421,6 +363,36 @@
       "count": 7
     },
     {
+      "id": "community/llm-d/llm-d/llm-d",
+      "name": "llm-d",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 7
+    },
+    {
+      "id": "community/ai-dynamo/Dynamo/Dynamo",
+      "name": "NVIDIA Dynamo",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/tile-ai/TileLang/TileLang",
       "name": "TileLang",
       "layer": "compiler",
@@ -436,16 +408,16 @@
       "count": 7
     },
     {
-      "id": "community/vllm-project/AIBrix/AIBrix",
-      "name": "AIBrix",
-      "layer": "distributed-serving",
+      "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
+      "name": "MindIE-Motor",
+      "layer": "runtime",
       "concepts": [
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing"
+        "concept/inference/scheduling/Request Routing",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 6
     },
@@ -492,20 +464,6 @@
       "count": 6
     },
     {
-      "id": "community/xPU-IO/Tutti/Tutti",
-      "name": "Tutti",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Direct Storage IO",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
-      ],
-      "count": 6
-    },
-    {
       "id": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
       "name": "vllm-rlt",
       "layer": "inference-engine",
@@ -518,6 +476,19 @@
         "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 6
+    },
+    {
+      "id": "community/vllm-project/AIBrix/AIBrix",
+      "name": "AIBrix",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 5
     },
     {
       "id": "community/novitalabs/chord/chord",
@@ -598,6 +569,19 @@
       "count": 5
     },
     {
+      "id": "community/xPU-IO/Tutti/Tutti",
+      "name": "Tutti",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Direct Storage IO",
+        "concept/storage/SSD-Backed KV Cache"
+      ],
+      "count": 5
+    },
+    {
       "id": "community/openJiuwen-ai/AgentInfer/AgentInfer",
       "name": "AgentInfer",
       "layer": "distributed-serving",
@@ -654,18 +638,6 @@
         "concept/kernel/attention/Sparse Attention",
         "concept/quantization/FP4 Quantization",
         "concept/quantization/FP8 Quantization"
-      ],
-      "count": 4
-    },
-    {
-      "id": "community/kserve/KServe/KServe",
-      "name": "KServe",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Request Routing"
       ],
       "count": 4
     },
@@ -751,17 +723,6 @@
       "count": 3
     },
     {
-      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
-      "name": "Gateway API Inference Extension",
-      "layer": "distributed-serving",
-      "concepts": [
-        "concept/inference/scheduling/Load Balancing",
-        "concept/inference/scheduling/Load-Aware Routing",
-        "concept/inference/scheduling/Request Routing"
-      ],
-      "count": 3
-    },
-    {
       "id": "community/ggml-org/ggml/ggml",
       "name": "ggml",
       "layer": "runtime",
@@ -769,6 +730,17 @@
         "concept/quantization/FP4 Quantization",
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/kserve/KServe/KServe",
+      "name": "KServe",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/KV-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
       ],
       "count": 3
     },
@@ -791,6 +763,17 @@
         "concept/quantization/KV Cache Quantization",
         "concept/quantization/Quantization",
         "concept/quantization/Weight-Only Quantization"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/ray-project/Ray-Serve/Ray-Serve",
+      "name": "Ray Serve",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
       ],
       "count": 3
     },
@@ -846,16 +829,6 @@
       "count": 2
     },
     {
-      "id": "community/deepseek-ai/Engram/Engram",
-      "name": "Engram",
-      "layer": "other",
-      "concepts": [
-        "concept/memory/Conditional Memory",
-        "concept/memory/Host Memory"
-      ],
-      "count": 2
-    },
-    {
       "id": "community/Dao-AILab/FlashAttention/FlashAttention",
       "name": "FlashAttention",
       "layer": "runtime",
@@ -876,12 +849,32 @@
       "count": 2
     },
     {
+      "id": "community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension",
+      "name": "Gateway API Inference Extension",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Load-Aware Routing",
+        "concept/inference/scheduling/Request Routing"
+      ],
+      "count": 2
+    },
+    {
       "id": "community/AMD-AGI/GEAK/GEAK",
       "name": "GEAK",
       "layer": "optimization",
       "concepts": [
         "concept/inference/optimization/Agentic Inference Optimization",
         "concept/kernel/optimization/Agentic Kernel Optimization"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/gpustack/GPUStack/GPUStack",
+      "name": "GPUStack",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
       ],
       "count": 2
     },
@@ -1022,6 +1015,16 @@
       "concepts": [
         "concept/kernel/programming/Kernel DSL",
         "concept/kernel/verification/Kernel Formal Verification"
+      ],
+      "count": 2
+    },
+    {
+      "id": "community/vllm-project/production-stack/vLLM Production Stack",
+      "name": "vLLM Production Stack",
+      "layer": "distributed-serving",
+      "concepts": [
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
       ],
       "count": 2
     },
@@ -1184,6 +1187,15 @@
       "layer": "inference-engine",
       "concepts": [
         "concept/memory/SSD-NVMe Tier"
+      ],
+      "count": 1
+    },
+    {
+      "id": "community/deepseek-ai/Engram/Engram",
+      "name": "Engram",
+      "layer": "other",
+      "concepts": [
+        "concept/memory/Host Memory"
       ],
       "count": 1
     },

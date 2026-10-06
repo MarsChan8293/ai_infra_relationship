@@ -7,6 +7,9 @@ linked_people:
   - "community/gpustack/GPUStack/yxf0314"
   - "company/GPUStack/Yinlin Li"
   - "company/GPUStack/秦小康"
+linked_concepts:
+  - "concept/inference/scheduling/Inference Scheduling"
+  - "concept/inference/scheduling/Request Routing"
 layer: distributed-serving
 status: active
 repository: https://github.com/gpustack/gpustack
@@ -104,3 +107,13 @@ GPUStack 早期曾以 llama-box 承接 llama.cpp / GGUF 等 backend；从 v2.0.0
 - [[company/GPUStack/GPUStack|GPUStack]]：公司页与社区/项目页均有显式记录。
 
 <!-- END AUTO COMMUNITY COMPANY LINKS -->
+
+<!-- BEGIN AUTO PROJECT CONCEPTS -->
+## 关联概念（自动汇总）
+
+以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
+
+- [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]]
+- [[concept/inference/scheduling/Request Routing|Request Routing]]
+
+<!-- END AUTO PROJECT CONCEPTS -->

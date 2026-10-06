@@ -6,7 +6,6 @@ linked_concepts:
   - "concept/inference/serving/Disaggregated Serving"
   - "concept/inference/scheduling/Inference Scheduling"
   - "concept/inference/scheduling/KV-Aware Routing"
-  - "concept/inference/scheduling/Load Balancing"
   - "concept/inference/scheduling/Load-Aware Routing"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/inference/scheduling/Request Routing"
@@ -106,7 +105,6 @@ https://github.com/ai-dynamo/dynamo
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
 - [[concept/inference/scheduling/Inference Scheduling|Inference Scheduling]]
 - [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
-- [[concept/inference/scheduling/Load Balancing|Load Balancing]]
 - [[concept/inference/scheduling/Load-Aware Routing|Load-Aware Routing]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/inference/scheduling/Request Routing|Request Routing]]

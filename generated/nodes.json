@@ -7357,7 +7357,6 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "companies": [
@@ -7952,11 +7951,9 @@
       "name": "MindIE-Motor",
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Capacity Planning",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/scheduling/Request Routing"
       ],
@@ -9488,7 +9485,6 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "status": "active",
@@ -12474,7 +12470,6 @@
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/scheduling/Request Routing"
@@ -14999,7 +14994,6 @@
       "type": "project",
       "name": "Engram",
       "linked_concepts": [
-        "concept/memory/Conditional Memory",
         "concept/memory/Host Memory"
       ],
       "status": "active",
@@ -16584,6 +16578,10 @@
         "company/GPUStack/Yinlin Li",
         "company/GPUStack/秦小康"
       ],
+      "linked_concepts": [
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
+      ],
       "layer": "distributed-serving",
       "status": "active",
       "repository": "https://github.com/gpustack/gpustack",
@@ -17164,7 +17162,6 @@
         "concept/inference/decoding/Speculative Decoding",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "inference-engine",
@@ -17336,7 +17333,6 @@
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Request Routing"
       ],
       "layer": "distributed-serving",
@@ -17370,7 +17366,6 @@
       "name": "Gateway API Inference Extension",
       "linked_people": [],
       "linked_concepts": [
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing"
       ],
@@ -18152,7 +18147,6 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "status": "active",
@@ -19186,11 +19180,9 @@
       "name": "llm-d",
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
-        "concept/inference/scheduling/Capacity Planning",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/scheduling/Request Routing"
@@ -19794,7 +19786,6 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "status": "active",
@@ -19930,7 +19921,6 @@
         "concept/memory/Memory Pooling",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "kv-cache",
@@ -20254,6 +20244,11 @@
       "type": "project",
       "name": "Ray Serve",
       "parent": "Ray",
+      "linked_concepts": [
+        "concept/inference/scheduling/Autoscaling",
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
+      ],
       "status": "active",
       "linked_people": [
         "community/vllm-project/vLLM/Simon Mo"
@@ -21045,7 +21040,6 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "companies": [
@@ -21633,7 +21627,6 @@
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/KV-Aware Routing",
-        "concept/inference/scheduling/Load Balancing",
         "concept/inference/scheduling/Load-Aware Routing",
         "concept/inference/scheduling/Request Routing"
       ],
@@ -21889,6 +21882,10 @@
     "frontmatter": {
       "type": "project",
       "name": "vLLM Production Stack",
+      "linked_concepts": [
+        "concept/inference/scheduling/Inference Scheduling",
+        "concept/inference/scheduling/Request Routing"
+      ],
       "status": "active",
       "linked_people": [],
       "repository": "https://github.com/vllm-project/production-stack",
@@ -23732,7 +23729,6 @@
         "concept/inference/kv-cache/KV Cache Offloading",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "kv-cache",
@@ -30840,8 +30836,8 @@
         "Inference Scheduling"
       ],
       "related_concepts": [
-        "Load Balancing",
-        "Capacity Planning"
+        "Request Routing",
+        "P-D Disaggregation"
       ],
       "projects": [
         "llm-d",
@@ -30849,39 +30845,10 @@
         "AIBrix",
         "KServe",
         "MindIE-Motor",
-        "ModelSphere"
+        "ModelSphere",
+        "Ray Serve"
       ],
       "last_verified": "2026-10"
-    }
-  },
-  {
-    "id": "concept/inference/scheduling/Capacity Planning",
-    "path": "concept/inference/scheduling/Capacity Planning.md",
-    "name": "Capacity Planning",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Capacity Planning",
-      "aliases": [
-        "Inference Capacity Planning",
-        "LLM Capacity Planning",
-        "容量规划"
-      ],
-      "domain": "scheduling",
-      "topic": "inference-scheduling",
-      "parent_concepts": [
-        "Inference Scheduling"
-      ],
-      "related_concepts": [
-        "Autoscaling",
-        "P-D Disaggregation"
-      ],
-      "projects": [
-        "llm-d",
-        "MindIE-Motor"
-      ],
-      "last_verified": "2026-09"
     }
   },
   {
@@ -30902,8 +30869,8 @@
       "topic": "inference-scheduling",
       "related_concepts": [
         "Request Routing",
-        "Load Balancing",
-        "Autoscaling"
+        "Autoscaling",
+        "P-D Disaggregation"
       ],
       "projects": [
         "llm-d",
@@ -30911,7 +30878,10 @@
         "AIBrix",
         "MindIE-Motor",
         "AgentInfer",
-        "vllm-rlt"
+        "vllm-rlt",
+        "GPUStack",
+        "Ray Serve",
+        "vLLM Production Stack"
       ],
       "last_verified": "2026-10"
     }
@@ -30954,41 +30924,6 @@
     }
   },
   {
-    "id": "concept/inference/scheduling/Load Balancing",
-    "path": "concept/inference/scheduling/Load Balancing.md",
-    "name": "Load Balancing",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Load Balancing",
-      "aliases": [
-        "Inference Load Balancing",
-        "LLM Load Balancing",
-        "负载均衡"
-      ],
-      "domain": "scheduling",
-      "topic": "inference-scheduling",
-      "parent_concepts": [
-        "Inference Scheduling"
-      ],
-      "related_concepts": [
-        "Request Routing",
-        "Load-Aware Routing",
-        "Autoscaling"
-      ],
-      "projects": [
-        "llm-d",
-        "NVIDIA Dynamo",
-        "AIBrix",
-        "Gateway API Inference Extension",
-        "KServe",
-        "MindIE-Motor"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/inference/scheduling/Load-Aware Routing",
     "path": "concept/inference/scheduling/Load-Aware Routing.md",
     "name": "Load-Aware Routing",
@@ -31009,7 +30944,7 @@
       ],
       "related_concepts": [
         "KV-Aware Routing",
-        "Load Balancing"
+        "Inference Scheduling"
       ],
       "projects": [
         "llm-d",
@@ -31034,8 +30969,12 @@
         "Inference-Aware Routing",
         "LLM-Aware Routing",
         "Model-Aware Routing",
+        "Load Balancing",
+        "Inference Load Balancing",
+        "LLM Load Balancing",
         "请求路由",
-        "推理感知路由"
+        "推理感知路由",
+        "负载均衡"
       ],
       "domain": "scheduling",
       "topic": "inference-scheduling",
@@ -31045,7 +30984,7 @@
       "related_concepts": [
         "KV-Aware Routing",
         "Load-Aware Routing",
-        "Load Balancing"
+        "Autoscaling"
       ],
       "projects": [
         "llm-d",
@@ -31055,7 +30994,10 @@
         "KServe",
         "MindIE-Motor",
         "AgentInfer",
-        "ModelSphere"
+        "ModelSphere",
+        "GPUStack",
+        "Ray Serve",
+        "vLLM Production Stack"
       ],
       "last_verified": "2026-10"
     }
@@ -31596,32 +31538,6 @@
     }
   },
   {
-    "id": "concept/memory/Conditional Memory",
-    "path": "concept/memory/Conditional Memory.md",
-    "name": "Conditional Memory",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Conditional Memory",
-      "aliases": [
-        "Conditional Lookup Memory",
-        "Scalable Lookup Memory",
-        "条件记忆"
-      ],
-      "domain": "memory",
-      "topic": "memory-hierarchy",
-      "related_concepts": [
-        "Host Memory",
-        "Memory Hierarchy"
-      ],
-      "projects": [
-        "Engram"
-      ],
-      "last_verified": "2026-10"
-    }
-  },
-  {
     "id": "concept/memory/HBM",
     "path": "concept/memory/HBM.md",
     "name": "HBM",
@@ -31703,8 +31619,12 @@
       "aliases": [
         "Hierarchical Memory",
         "Multi-tier Memory",
+        "Storage Tiering",
+        "Tiered Storage",
+        "Multi-tier Storage",
         "分层内存",
-        "内存层次"
+        "内存层次",
+        "分层存储"
       ],
       "domain": "memory",
       "topic": "memory-hierarchy",
@@ -31723,7 +31643,7 @@
         "YuanRong DataSystem",
         "MemFabric"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -31811,7 +31731,6 @@
       ],
       "related_concepts": [
         "SSD-Backed KV Cache",
-        "Storage Tiering",
         "Tiered KV Cache",
         "KV Cache Offloading",
         "KV Cache Management",
@@ -32098,9 +32017,9 @@
       "domain": "storage",
       "topic": "distributed-storage",
       "related_concepts": [
-        "Storage Tiering",
         "RDMA",
-        "Memory Pooling"
+        "Memory Pooling",
+        "Memory Hierarchy"
       ],
       "projects": [
         "3FS",
@@ -32142,41 +32061,6 @@
         "PegaFlow",
         "LMCache",
         "FlexKV",
-        "Splash"
-      ],
-      "last_verified": "2026-10"
-    }
-  },
-  {
-    "id": "concept/storage/Storage Tiering",
-    "path": "concept/storage/Storage Tiering.md",
-    "name": "Storage Tiering",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Storage Tiering",
-      "aliases": [
-        "Tiered Storage",
-        "Multi-tier Storage",
-        "分层存储"
-      ],
-      "domain": "storage",
-      "topic": "storage-tiering",
-      "related_concepts": [
-        "SSD/NVMe Tier",
-        "Memory Hierarchy",
-        "Tiered KV Cache",
-        "KV Cache Offloading"
-      ],
-      "projects": [
-        "LMCache",
-        "MemCache",
-        "Mooncake",
-        "YuanRong DataSystem",
-        "Tutti",
-        "FlexKV",
-        "PegaFlow",
         "Splash"
       ],
       "last_verified": "2026-10"
