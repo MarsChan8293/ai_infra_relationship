@@ -8,7 +8,7 @@ aliases:
 domain: scheduling
 topic: inference-scheduling
 parent_concepts:
-  - Inference-Aware Routing
+  - "Request Routing"
 related_concepts:
   - KV-Aware Routing
   - Load Balancing
@@ -17,7 +17,7 @@ projects:
   - NVIDIA Dynamo
   - AIBrix
   - Gateway API Inference Extension
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Load-Aware Routing

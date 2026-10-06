@@ -2,15 +2,20 @@
 type: concept
 name: Request Routing
 aliases:
-  - Inference Request Routing
-  - 请求路由
+  - "Inference Request Routing"
+  - "Inference-Aware Routing"
+  - "LLM-Aware Routing"
+  - "Model-Aware Routing"
+  - "请求路由"
+  - "推理感知路由"
 domain: scheduling
 topic: inference-scheduling
 parent_concepts:
   - Inference Scheduling
 related_concepts:
-  - Inference-Aware Routing
-  - Load Balancing
+  - "KV-Aware Routing"
+  - "Load-Aware Routing"
+  - "Load Balancing"
 projects:
   - llm-d
   - NVIDIA Dynamo
@@ -35,13 +40,15 @@ Request Routing 是为每个进入 serving 系统的推理请求选择目标模�
 
 ## 核心机制
 
-Router 先得到候选 endpoint 集合，再根据可用性、模型/adapter、负载、KV cache、请求属性或拓扑约束过滤和打分，最后选择目标 endpoint 并把请求转发过去。
+Router 先得到候选 endpoint 集合，再根据可用性、模型/adapter、负载、KV cache、请求属性或拓扑约束过滤和打分，最后选择目标 endpoint 并转发请求。
+
+在 LLM serving 中，“inference-aware / LLM-aware routing”不再单独作为中间 concept：它是现代 Request Routing 的常见实现方式，即路由器直接消费 queue depth、token load、KV hit、adapter availability、预测 TTFT/ITL 等推理状态。
 
 ## 细分概念
 
-- [[Inference-Aware Routing]]：让路由器理解 LLM serving 特有状态。
 - [[KV-Aware Routing]]：根据可复用 KV/prefix 状态做路由。
 - [[Load-Aware Routing]]：根据队列、并发、token load 等运行时负载做路由。
+- 两者可以组合进统一 cost model，在 cache locality、负载和 SLO 之间权衡。
 
 ## 与 Load Balancing 的区别
 

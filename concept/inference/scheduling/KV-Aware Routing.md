@@ -10,7 +10,7 @@ aliases:
 domain: scheduling
 topic: inference-scheduling
 parent_concepts:
-  - Inference-Aware Routing
+  - "Request Routing"
 related_concepts:
   - Prefix Caching
   - KV Cache Sharing
