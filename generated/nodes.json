@@ -685,6 +685,9 @@
       "organization": "OpenVINO Toolkit / Intel",
       "linked_people": [],
       "linked_concepts": [
+        "concept/inference/serving/Continuous Batching",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/Prefix Caching",
         "concept/inference/decoding/Speculative Decoding"
       ],
       "companies": [
@@ -7351,7 +7354,6 @@
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
         "concept/memory/NUMA",
-        "concept/storage/NVMe SSD",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
@@ -11327,6 +11329,7 @@
       "type": "project",
       "name": "TensorRT-LLM",
       "linked_concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/decoding/Speculative Decoding"
       ],
       "status": "active",
@@ -13029,6 +13032,7 @@
       "name": "TensorFold",
       "linked_concepts": [
         "concept/inference/decoding/Multi-token Prediction",
+        "concept/inference/kv-cache/Prefix Caching",
         "concept/inference/decoding/Speculative Decoding"
       ],
       "status": "active",
@@ -13260,7 +13264,7 @@
       "parent": "DeepSeek-Infra",
       "linked_concepts": [
         "concept/storage/Distributed Storage",
-        "concept/storage/NVMe SSD"
+        "concept/memory/SSD-NVMe Tier"
       ],
       "status": "active",
       "linked_people": [],
@@ -18142,7 +18146,6 @@
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
-        "concept/storage/NVMe SSD",
         "concept/inference/serving/P-D Disaggregation",
         "concept/communication/data-movement/Point-to-Point Transfer",
         "concept/communication/data-movement/RDMA",
@@ -19599,6 +19602,7 @@
       "linked_concepts": [
         "concept/inference/scheduling/Autoscaling",
         "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/scheduling/KV-Aware Routing",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/scheduling/Request Routing"
@@ -19782,6 +19786,7 @@
         "concept/inference/kv-cache/KV Cache",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/NUMA",
         "concept/inference/serving/P-D Disaggregation",
@@ -19923,7 +19928,6 @@
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
-        "concept/storage/NVMe SSD",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
@@ -20419,6 +20423,7 @@
       "type": "project",
       "name": "SGLang",
       "linked_concepts": [
+        "concept/inference/serving/Continuous Batching",
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/kv-cache/KV Cache",
         "concept/inference/kv-cache/KV Cache Management",
@@ -21034,6 +21039,7 @@
         "concept/memory/Host Memory",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/inference/kv-cache/Remote KV Store",
@@ -23724,7 +23730,6 @@
       "linked_concepts": [
         "concept/storage/Direct Storage IO",
         "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/storage/NVMe SSD",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
@@ -30279,7 +30284,9 @@
         "vLLM-Ascend",
         "AgentInfer",
         "ModelSphere",
-        "vllm-rlt"
+        "vllm-rlt",
+        "OpenVINO GenAI",
+        "TensorRT-LLM"
       ],
       "last_verified": "2026-10"
     }
@@ -30350,9 +30357,12 @@
       ],
       "projects": [
         "LMCache",
-        "Mooncake"
+        "Mooncake",
+        "FlexKV",
+        "PegaFlow",
+        "ModelSphere"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -30450,7 +30460,9 @@
         "vLLM",
         "SGLang",
         "vllm-rlt",
-        "Splash"
+        "Splash",
+        "OpenVINO GenAI",
+        "TensorFold"
       ],
       "last_verified": "2026-10"
     }
@@ -31096,8 +31108,10 @@
       ],
       "projects": [
         "vLLM",
+        "SGLang",
         "vllm-rlt",
-        "Splash"
+        "Splash",
+        "OpenVINO GenAI"
       ],
       "last_verified": "2026-10"
     }
@@ -31783,8 +31797,12 @@
       "aliases": [
         "SSD Tier",
         "NVMe Tier",
+        "NVMe SSD",
+        "NVMe",
+        "NVMe Storage",
         "SSD/NVMe Offloading",
-        "SSD卸载"
+        "SSD卸载",
+        "NVMe固态盘"
       ],
       "domain": "memory",
       "topic": "memory-hierarchy",
@@ -31792,12 +31810,13 @@
         "Memory Hierarchy"
       ],
       "related_concepts": [
-        "NVMe SSD",
         "SSD-Backed KV Cache",
         "Storage Tiering",
         "Tiered KV Cache",
         "KV Cache Offloading",
-        "KV Cache Management"
+        "KV Cache Management",
+        "Direct Storage I/O",
+        "PCIe"
       ],
       "projects": [
         "MemCache",
@@ -31807,6 +31826,7 @@
         "YuanRong DataSystem",
         "Tutti",
         "PegaFlow",
+        "3FS",
         "Edge0",
         "Splash"
       ],
@@ -32049,7 +32069,7 @@
       "domain": "storage",
       "topic": "data-path",
       "related_concepts": [
-        "NVMe SSD",
+        "SSD/NVMe Tier",
         "GPUDirect RDMA",
         "Point-to-Point Transfer"
       ],
@@ -32058,7 +32078,7 @@
         "NIXL",
         "Mooncake"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -32093,40 +32113,6 @@
     }
   },
   {
-    "id": "concept/storage/NVMe SSD",
-    "path": "concept/storage/NVMe SSD.md",
-    "name": "NVMe SSD",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "NVMe SSD",
-      "aliases": [
-        "NVMe",
-        "NVMe Storage",
-        "SSD",
-        "NVMe固态盘"
-      ],
-      "domain": "storage",
-      "topic": "storage-media",
-      "related_concepts": [
-        "SSD/NVMe Tier",
-        "Storage Tiering",
-        "SSD-Backed KV Cache",
-        "Direct Storage I/O",
-        "PCIe"
-      ],
-      "projects": [
-        "Tutti",
-        "3FS",
-        "MemCache",
-        "Mooncake",
-        "YuanRong DataSystem"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/storage/SSD-Backed KV Cache",
     "path": "concept/storage/SSD-Backed KV Cache.md",
     "name": "SSD-Backed KV Cache",
@@ -32147,7 +32133,6 @@
         "SSD/NVMe Tier",
         "KV Cache Offloading",
         "Tiered KV Cache",
-        "NVMe SSD",
         "Direct Storage I/O"
       ],
       "projects": [
@@ -32182,8 +32167,7 @@
         "SSD/NVMe Tier",
         "Memory Hierarchy",
         "Tiered KV Cache",
-        "KV Cache Offloading",
-        "NVMe SSD"
+        "KV Cache Offloading"
       ],
       "projects": [
         "LMCache",

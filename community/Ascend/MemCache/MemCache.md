@@ -26,7 +26,6 @@ linked_concepts:
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/memory/NUMA"
-  - "concept/storage/NVMe SSD"
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
@@ -160,7 +159,6 @@ https://github.com/Ascend/memcache
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/memory/NUMA|NUMA]]
-- [[concept/storage/NVMe SSD|NVMe SSD]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]

@@ -15,7 +15,6 @@ linked_concepts:
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
-  - "concept/storage/NVMe SSD"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/data-movement/RDMA"
@@ -185,7 +184,6 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
-- [[concept/storage/NVMe SSD|NVMe SSD]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/data-movement/RDMA|RDMA]]

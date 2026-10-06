@@ -12,7 +12,7 @@
 
 | Rank | Operator | Trigger | Source | Type | Relation | Target | Bucket | Priority | History | Why |
 | ---: | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | DISCOVER | bridge | [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] | project | maintainers | person | bridge | 9.788 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
+| 1 | DISCOVER | bridge | [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] | project | maintainers | person | bridge | 9.778 | new | coverage 0/4；source type Project；infra: serving/inference, kv-cache, scheduler；opens underrepresented target types |
 | 2 | DISCOVER | bridge | [[community/novitalabs/chord/chord|Chord]] | project | maintainers | person | bridge | 9.707 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, distributed；opens underrepresented target types |
 | 3 | DISCOVER | bridge | [[community/kserve/KServe/KServe|KServe]] | project | maintainers | person | bridge | 9.624 | new | coverage 0/4；source type Project；infra: serving/inference, scheduler, kernel；opens underrepresented target types |
 | 4 | DISCOVER | bridge | [[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] | project | maintainers | person | bridge | 9.608 | new | coverage 0/4；source type Project；infra: serving/inference, kernel, quantization；opens underrepresented target types |

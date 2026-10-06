@@ -7,6 +7,7 @@ linked_concepts:
   - "concept/memory/Host Memory"
   - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/inference/kv-cache/Remote KV Store"
@@ -80,6 +81,7 @@ FlexKV 不是 Mooncake 的简单竞品关系，而已经形成两层直接技术
 - [[concept/memory/Host Memory|Host Memory]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]

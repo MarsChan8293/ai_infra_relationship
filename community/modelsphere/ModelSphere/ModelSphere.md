@@ -5,6 +5,7 @@ linked_people: []
 linked_concepts:
   - "concept/inference/scheduling/Autoscaling"
   - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/scheduling/KV-Aware Routing"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/inference/scheduling/Request Routing"
@@ -64,6 +65,7 @@ ModelSphere 的价值不只是“拉起 Pod”。它显式需要管理模型、�
 
 - [[concept/inference/scheduling/Autoscaling|Autoscaling]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/scheduling/KV-Aware Routing|KV-Aware Routing]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/inference/scheduling/Request Routing|Request Routing]]

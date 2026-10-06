@@ -6,6 +6,7 @@ linked_concepts:
   - "concept/inference/kv-cache/KV Cache"
   - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/NUMA"
   - "concept/inference/serving/P-D Disaggregation"
@@ -73,6 +74,7 @@ vLLM 与 Novita AI 2026-05-18 的联合文章报告：在固定 500 GiB host KV 
 - [[concept/inference/kv-cache/KV Cache|KV Cache]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/NUMA|NUMA]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]

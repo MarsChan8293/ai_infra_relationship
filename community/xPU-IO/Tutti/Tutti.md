@@ -7,7 +7,6 @@ linked_people:
 linked_concepts:
   - "concept/storage/Direct Storage IO"
   - "concept/inference/kv-cache/KV Cache Offloading"
-  - "concept/storage/NVMe SSD"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
@@ -76,7 +75,6 @@ Tutti PR #11 / 对应 merge commit 由 `ljye2023` 提交，公开提交邮箱为
 
 - [[concept/storage/Direct Storage IO|Direct Storage I/O]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
-- [[concept/storage/NVMe SSD|NVMe SSD]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]

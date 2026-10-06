@@ -531,11 +531,6 @@
   },
   {
     "source": "community/Ascend/MemCache/MemCache",
-    "target": "concept/storage/NVMe SSD",
-    "kind": "wikilink"
-  },
-  {
-    "source": "community/Ascend/MemCache/MemCache",
     "target": "concept/storage/SSD-Backed KV Cache",
     "kind": "wikilink"
   },
@@ -2940,6 +2935,11 @@
     "kind": "wikilink"
   },
   {
+    "source": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+    "target": "concept/inference/kv-cache/KV Cache Management",
+    "kind": "wikilink"
+  },
+  {
     "source": "community/NVIDIA/TensorRT-LLM/Xiao Wang",
     "target": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
     "kind": "wikilink"
@@ -4101,6 +4101,11 @@
   },
   {
     "source": "community/ashhart/TensorFold/TensorFold",
+    "target": "concept/inference/kv-cache/Prefix Caching",
+    "kind": "wikilink"
+  },
+  {
+    "source": "community/ashhart/TensorFold/TensorFold",
     "target": "concept/inference/parallelism/Tensor Parallelism",
     "kind": "wikilink"
   },
@@ -4631,12 +4636,12 @@
   },
   {
     "source": "community/deepseek-ai/DeepSeek-Infra/3FS",
-    "target": "concept/storage/Distributed Storage",
+    "target": "concept/memory/SSD-NVMe Tier",
     "kind": "wikilink"
   },
   {
     "source": "community/deepseek-ai/DeepSeek-Infra/3FS",
-    "target": "concept/storage/NVMe SSD",
+    "target": "concept/storage/Distributed Storage",
     "kind": "wikilink"
   },
   {
@@ -8861,11 +8866,6 @@
   },
   {
     "source": "community/kvcache-ai/Mooncake/Mooncake",
-    "target": "concept/storage/NVMe SSD",
-    "kind": "wikilink"
-  },
-  {
-    "source": "community/kvcache-ai/Mooncake/Mooncake",
     "target": "concept/storage/SSD-Backed KV Cache",
     "kind": "wikilink"
   },
@@ -10036,6 +10036,11 @@
   },
   {
     "source": "community/modelsphere/ModelSphere/ModelSphere",
+    "target": "concept/inference/kv-cache/KV Cache Sharing",
+    "kind": "wikilink"
+  },
+  {
+    "source": "community/modelsphere/ModelSphere/ModelSphere",
     "target": "concept/inference/scheduling/Autoscaling",
     "kind": "wikilink"
   },
@@ -10182,6 +10187,11 @@
   {
     "source": "community/novitalabs/pegaflow/pegaflow",
     "target": "concept/inference/kv-cache/KV Cache Offloading",
+    "kind": "wikilink"
+  },
+  {
+    "source": "community/novitalabs/pegaflow/pegaflow",
+    "target": "concept/inference/kv-cache/KV Cache Sharing",
     "kind": "wikilink"
   },
   {
@@ -10342,11 +10352,6 @@
   {
     "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
     "target": "concept/storage/Distributed Storage",
-    "kind": "wikilink"
-  },
-  {
-    "source": "community/openEuler/openYuanRong/YuanRong DataSystem",
-    "target": "concept/storage/NVMe SSD",
     "kind": "wikilink"
   },
   {
@@ -10817,6 +10822,11 @@
   {
     "source": "community/sgl-project/SGLang/SGLang",
     "target": "concept/inference/kv-cache/Tiered KV Cache",
+    "kind": "wikilink"
+  },
+  {
+    "source": "community/sgl-project/SGLang/SGLang",
+    "target": "concept/inference/serving/Continuous Batching",
     "kind": "wikilink"
   },
   {
@@ -11317,6 +11327,11 @@
   {
     "source": "community/taco-project/FlexKV/FlexKV",
     "target": "concept/inference/kv-cache/KV Cache Offloading",
+    "kind": "wikilink"
+  },
+  {
+    "source": "community/taco-project/FlexKV/FlexKV",
+    "target": "concept/inference/kv-cache/KV Cache Sharing",
     "kind": "wikilink"
   },
   {
@@ -14081,11 +14096,6 @@
   },
   {
     "source": "community/xPU-IO/Tutti/Tutti",
-    "target": "concept/storage/NVMe SSD",
-    "kind": "wikilink"
-  },
-  {
-    "source": "community/xPU-IO/Tutti/Tutti",
     "target": "concept/storage/SSD-Backed KV Cache",
     "kind": "wikilink"
   },
@@ -15232,6 +15242,21 @@
   {
     "source": "company/Intel/OpenVINO GenAI",
     "target": "concept/inference/decoding/Speculative Decoding",
+    "kind": "wikilink"
+  },
+  {
+    "source": "company/Intel/OpenVINO GenAI",
+    "target": "concept/inference/kv-cache/KV Cache Management",
+    "kind": "wikilink"
+  },
+  {
+    "source": "company/Intel/OpenVINO GenAI",
+    "target": "concept/inference/kv-cache/Prefix Caching",
+    "kind": "wikilink"
+  },
+  {
+    "source": "company/Intel/OpenVINO GenAI",
+    "target": "concept/inference/serving/Continuous Batching",
     "kind": "wikilink"
   },
   {
@@ -22126,6 +22151,11 @@
   },
   {
     "source": "concept/inference/kv-cache/KV Cache Management",
+    "target": "community/NVIDIA/TensorRT-LLM/TensorRT-LLM",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/KV Cache Management",
     "target": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
     "kind": "wikilink"
   },
@@ -22167,6 +22197,11 @@
   {
     "source": "concept/inference/kv-cache/KV Cache Management",
     "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/KV Cache Management",
+    "target": "company/Intel/OpenVINO GenAI",
     "kind": "wikilink"
   },
   {
@@ -22291,6 +22326,21 @@
   },
   {
     "source": "concept/inference/kv-cache/KV Cache Sharing",
+    "target": "community/modelsphere/ModelSphere/ModelSphere",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/KV Cache Sharing",
+    "target": "community/novitalabs/pegaflow/pegaflow",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/KV Cache Sharing",
+    "target": "community/taco-project/FlexKV/FlexKV",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/KV Cache Sharing",
     "target": "concept/inference/kv-cache/KV Cache Transfer",
     "kind": "wikilink"
   },
@@ -22376,12 +22426,32 @@
   },
   {
     "source": "concept/inference/kv-cache/Prefix Caching",
+    "target": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/Prefix Caching",
+    "target": "community/ashhart/TensorFold/TensorFold",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/Prefix Caching",
+    "target": "community/incoai/Splash/Splash",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/Prefix Caching",
     "target": "community/sgl-project/SGLang/SGLang",
     "kind": "wikilink"
   },
   {
     "source": "concept/inference/kv-cache/Prefix Caching",
     "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/kv-cache/Prefix Caching",
+    "target": "company/Intel/OpenVINO GenAI",
     "kind": "wikilink"
   },
   {
@@ -22966,7 +23036,27 @@
   },
   {
     "source": "concept/inference/serving/Continuous Batching",
+    "target": "community/ThinkFlowLab/vllm-rlt/vllm-rlt",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/serving/Continuous Batching",
+    "target": "community/incoai/Splash/Splash",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/serving/Continuous Batching",
+    "target": "community/sgl-project/SGLang/SGLang",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/serving/Continuous Batching",
     "target": "community/vllm-project/vLLM/vLLM",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/inference/serving/Continuous Batching",
+    "target": "company/Intel/OpenVINO GenAI",
     "kind": "wikilink"
   },
   {
@@ -23646,6 +23736,11 @@
   },
   {
     "source": "concept/memory/SSD-NVMe Tier",
+    "target": "community/deepseek-ai/DeepSeek-Infra/3FS",
+    "kind": "wikilink"
+  },
+  {
+    "source": "concept/memory/SSD-NVMe Tier",
     "target": "community/incoai/Splash/Splash",
     "kind": "wikilink"
   },
@@ -23701,7 +23796,7 @@
   },
   {
     "source": "concept/memory/SSD-NVMe Tier",
-    "target": "concept/storage/NVMe SSD",
+    "target": "concept/storage/Direct Storage IO",
     "kind": "wikilink"
   },
   {
@@ -23987,41 +24082,6 @@
   {
     "source": "concept/storage/Distributed Storage",
     "target": "concept/memory/Memory Pooling",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "community/Ascend/MemCache/MemCache",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "community/deepseek-ai/DeepSeek-Infra/3FS",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "community/kvcache-ai/Mooncake/Mooncake",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "community/openEuler/openYuanRong/YuanRong DataSystem",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "community/xPU-IO/Tutti/Tutti",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "concept/memory/SSD-NVMe Tier",
-    "kind": "wikilink"
-  },
-  {
-    "source": "concept/storage/NVMe SSD",
-    "target": "concept/storage/Direct Storage IO",
     "kind": "wikilink"
   },
   {
