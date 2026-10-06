@@ -7343,8 +7343,9 @@
         "concept/storage/Distributed Storage",
         "concept/memory/HBM",
         "concept/memory/Host Memory",
-        "concept/inference/kv-cache/KV Cache Eviction",
-        "concept/inference/kv-cache/KV Cache Prefetching",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
         "concept/memory/NUMA",
@@ -7352,7 +7353,8 @@
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering"
+        "concept/storage/Storage Tiering",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "companies": [
         "华为"
@@ -7864,6 +7866,7 @@
         "concept/hardware/interconnect/Hardware Interconnect",
         "concept/memory/HBM",
         "concept/memory/Host Memory",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
         "concept/communication/data-movement/Point-to-Point Transfer",
@@ -9475,16 +9478,15 @@
         "concept/memory/CXL Memory",
         "concept/storage/Distributed Storage",
         "concept/memory/Host Memory",
-        "concept/inference/kv-cache/KV Cache Eviction",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Prefetching",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/Remote Object Store",
+        "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
@@ -17150,7 +17152,10 @@
         "concept/quantization/KV Cache Quantization",
         "concept/inference/kv-cache/Prefix Caching",
         "concept/inference/decoding/Speculative Decoding",
-        "concept/memory/SSD-NVMe Tier"
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Storage Tiering",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "inference-engine",
       "status": "active",
@@ -18126,6 +18131,8 @@
         "concept/communication/data-movement/GPUDirect RDMA",
         "concept/memory/HBM",
         "concept/memory/Host Memory",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
@@ -19764,6 +19771,7 @@
       "linked_concepts": [
         "concept/memory/Host Memory",
         "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/NUMA",
@@ -19771,6 +19779,8 @@
         "concept/communication/data-movement/RDMA",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/SSD-Backed KV Cache",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "status": "active",
@@ -19901,13 +19911,15 @@
         "concept/storage/Distributed Storage",
         "concept/memory/HBM",
         "concept/hardware/interconnect/HCCS",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/memory/Memory Pooling",
         "concept/storage/NVMe SSD",
         "concept/inference/kv-cache/Remote KV Store",
         "concept/storage/Remote Object Store",
         "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Storage Tiering"
+        "concept/storage/Storage Tiering",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "kv-cache",
       "open_source": true,
@@ -20402,9 +20414,13 @@
         "concept/inference/serving/Disaggregated Serving",
         "concept/inference/decoding/Draft-Target Decoding",
         "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/kv-cache/Prefix Caching",
-        "concept/inference/decoding/Speculative Decoding"
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "status": "active",
       "linked_people": [
@@ -21006,10 +21022,15 @@
       ],
       "linked_concepts": [
         "concept/memory/Host Memory",
-        "concept/inference/kv-cache/KV Cache Prefetching",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/memory/Memory Hierarchy",
         "concept/inference/kv-cache/Remote KV Store",
-        "concept/memory/SSD-NVMe Tier"
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Storage Tiering",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "companies": [
         "腾讯"
@@ -22891,6 +22912,12 @@
     "frontmatter": {
       "type": "project",
       "name": "vLLM-Ascend",
+      "linked_concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Tiered KV Cache"
+      ],
       "status": "active",
       "linked_people": [
         "community/Ascend/MemCache/ader47",
@@ -23688,9 +23715,12 @@
       ],
       "linked_concepts": [
         "concept/storage/Direct Storage IO",
+        "concept/inference/kv-cache/KV Cache Offloading",
         "concept/storage/NVMe SSD",
         "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Storage Tiering",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "layer": "kv-cache",
       "open_source": true,
@@ -30291,38 +30321,6 @@
     }
   },
   {
-    "id": "concept/inference/kv-cache/KV Cache Eviction",
-    "path": "concept/inference/kv-cache/KV Cache Eviction.md",
-    "name": "KV Cache Eviction",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "KV Cache Eviction",
-      "aliases": [
-        "KV Eviction",
-        "Cache Eviction",
-        "KV缓存淘汰"
-      ],
-      "domain": "inference",
-      "topic": "kv-cache",
-      "parent_concepts": [
-        "KV Cache Management"
-      ],
-      "related_concepts": [
-        "Tiered KV Cache",
-        "KV Cache Offloading",
-        "KV Cache Prefetching",
-        "Remote KV Store"
-      ],
-      "projects": [
-        "LMCache",
-        "MemCache"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/inference/kv-cache/KV Cache Management",
     "path": "concept/inference/kv-cache/KV Cache Management.md",
     "name": "KV Cache Management",
@@ -30345,13 +30343,18 @@
         "KV Cache Transfer",
         "KV Cache Sharing",
         "Prefix Caching",
-        "KV Cache Eviction",
-        "KV Cache Prefetching",
+        "Tiered KV Cache",
         "Remote KV Store"
       ],
       "projects": [
         "LMCache",
         "vLLM",
+        "SGLang",
+        "Mooncake",
+        "MemCache",
+        "FlexKV",
+        "PegaFlow",
+        "vLLM-Ascend",
         "AgentInfer",
         "ModelSphere",
         "vllm-rlt"
@@ -30383,48 +30386,21 @@
         "KV Cache Transfer",
         "SSD/NVMe Tier",
         "Remote KV Store",
-        "KV Cache Prefetching"
+        "KV Cache Management"
       ],
       "projects": [
         "LMCache",
         "vLLM",
+        "SGLang",
+        "Mooncake",
+        "MemCache",
+        "FlexKV",
+        "Tutti",
+        "PegaFlow",
         "Splash",
-        "PegaFlow"
+        "vLLM-Ascend"
       ],
       "last_verified": "2026-10"
-    }
-  },
-  {
-    "id": "concept/inference/kv-cache/KV Cache Prefetching",
-    "path": "concept/inference/kv-cache/KV Cache Prefetching.md",
-    "name": "KV Cache Prefetching",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "KV Cache Prefetching",
-      "aliases": [
-        "KV Prefetch",
-        "Cache Prefetching",
-        "KV缓存预取"
-      ],
-      "domain": "inference",
-      "topic": "kv-cache",
-      "parent_concepts": [
-        "KV Cache Management"
-      ],
-      "related_concepts": [
-        "KV Cache Eviction",
-        "KV Cache Offloading",
-        "SSD/NVMe Tier",
-        "Remote KV Store"
-      ],
-      "projects": [
-        "LMCache",
-        "MemCache",
-        "FlexKV"
-      ],
-      "last_verified": "2026-09"
     }
   },
   {
@@ -30484,9 +30460,15 @@
         "vLLM",
         "LMCache",
         "Mooncake",
+        "SGLang",
+        "MemCache",
+        "FlexKV",
+        "PegaFlow",
+        "YuanRong DataSystem",
+        "MemFabric",
+        "vLLM-Ascend",
         "AgentInfer",
-        "vllm-rlt",
-        "PegaFlow"
+        "vllm-rlt"
       ],
       "last_verified": "2026-10"
     }
@@ -30585,7 +30567,7 @@
         "MemCache",
         "PegaFlow"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -30610,8 +30592,7 @@
       "related_concepts": [
         "KV Cache Offloading",
         "KV Cache Transfer",
-        "KV Cache Eviction",
-        "KV Cache Prefetching",
+        "KV Cache Management",
         "Remote KV Store",
         "SSD/NVMe Tier"
       ],
@@ -30619,9 +30600,16 @@
         "LMCache",
         "Mooncake",
         "vLLM",
-        "PegaFlow"
+        "SGLang",
+        "MemCache",
+        "FlexKV",
+        "PegaFlow",
+        "Tutti",
+        "YuanRong DataSystem",
+        "Splash",
+        "vLLM-Ascend"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -31915,7 +31903,7 @@
         "Storage Tiering",
         "Tiered KV Cache",
         "KV Cache Offloading",
-        "KV Cache Prefetching"
+        "KV Cache Management"
       ],
       "projects": [
         "MemCache",
@@ -31923,6 +31911,8 @@
         "Mooncake",
         "FlexKV",
         "YuanRong DataSystem",
+        "Tutti",
+        "PegaFlow",
         "Edge0",
         "Splash"
       ],
@@ -32326,9 +32316,12 @@
         "Tutti",
         "MemCache",
         "Mooncake",
-        "PegaFlow"
+        "PegaFlow",
+        "LMCache",
+        "FlexKV",
+        "Splash"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -32359,9 +32352,12 @@
         "MemCache",
         "Mooncake",
         "YuanRong DataSystem",
-        "Tutti"
+        "Tutti",
+        "FlexKV",
+        "PegaFlow",
+        "Splash"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   }
 ]

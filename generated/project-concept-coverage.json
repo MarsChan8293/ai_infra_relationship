@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 91,
-    "concepts_with_projects": 91,
+    "concepts": 89,
+    "concepts_with_projects": 89,
     "concepts_without_projects": 0,
     "project_like_nodes": 241,
-    "projects_with_concepts": 99,
-    "concept_project_assertions": 401,
+    "projects_with_concepts": 100,
+    "concept_project_assertions": 429,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -25,7 +25,7 @@
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
-    "kv-cache": 11,
+    "kv-cache": 9,
     "kv-cache-storage": 1,
     "memory-hierarchy": 5,
     "memory-pooling": 2,
@@ -54,7 +54,7 @@
     "kernel-compilation": 4,
     "kernel-optimization": 2,
     "kernel-programming": 2,
-    "kv-cache": 11,
+    "kv-cache": 9,
     "kv-cache-storage": 1,
     "memory-hierarchy": 5,
     "memory-pooling": 2,
@@ -117,6 +117,8 @@
         "concept/communication/data-movement/GPUDirect RDMA",
         "concept/communication/data-movement/Point-to-Point Transfer",
         "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/kv-cache/Remote KV Store",
@@ -135,17 +137,15 @@
         "concept/storage/SSD-Backed KV Cache",
         "concept/storage/Storage Tiering"
       ],
-      "count": 21
+      "count": 23
     },
     {
       "id": "community/LMCache/LMCache/LMCache",
       "name": "LMCache",
       "layer": "kv-cache",
       "concepts": [
-        "concept/inference/kv-cache/KV Cache Eviction",
         "concept/inference/kv-cache/KV Cache Management",
         "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Prefetching",
         "concept/inference/kv-cache/KV Cache Sharing",
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/kv-cache/Remote KV Store",
@@ -157,18 +157,21 @@
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Distributed Storage",
         "concept/storage/Remote Object Store",
+        "concept/storage/SSD-Backed KV Cache",
         "concept/storage/Storage Tiering"
       ],
-      "count": 16
+      "count": 15
     },
     {
       "id": "community/Ascend/MemCache/MemCache",
       "name": "MemCache",
       "layer": "kv-cache",
       "concepts": [
-        "concept/inference/kv-cache/KV Cache Eviction",
-        "concept/inference/kv-cache/KV Cache Prefetching",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
         "concept/memory/HBM",
         "concept/memory/Host Memory",
         "concept/memory/Memory Hierarchy",
@@ -180,7 +183,66 @@
         "concept/storage/SSD-Backed KV Cache",
         "concept/storage/Storage Tiering"
       ],
+      "count": 15
+    },
+    {
+      "id": "community/novitalabs/pegaflow/pegaflow",
+      "name": "PegaFlow",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/communication/data-movement/RDMA",
+        "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/Host Memory",
+        "concept/memory/NUMA",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
+      ],
       "count": 13
+    },
+    {
+      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
+      "name": "YuanRong DataSystem",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/hardware/interconnect/HCCS",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/memory/HBM",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Distributed Storage",
+        "concept/storage/NVMe SSD",
+        "concept/storage/Remote Object Store",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 12
+    },
+    {
+      "id": "community/taco-project/FlexKV/FlexKV",
+      "name": "FlexKV",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 10
     },
     {
       "id": "community/llm-d/llm-d/llm-d",
@@ -219,24 +281,6 @@
       "count": 10
     },
     {
-      "id": "community/novitalabs/pegaflow/pegaflow",
-      "name": "PegaFlow",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/communication/data-movement/RDMA",
-        "concept/inference/kv-cache/KV Cache",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Remote KV Store",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/P-D Disaggregation",
-        "concept/memory/Host Memory",
-        "concept/memory/NUMA",
-        "concept/storage/SSD-Backed KV Cache"
-      ],
-      "count": 10
-    },
-    {
       "id": "community/ROCm/RCCL/RCCL",
       "name": "RCCL",
       "layer": "communication",
@@ -255,20 +299,20 @@
       "count": 10
     },
     {
-      "id": "community/openEuler/openYuanRong/YuanRong DataSystem",
-      "name": "YuanRong DataSystem",
-      "layer": "kv-cache",
+      "id": "community/sgl-project/SGLang/SGLang",
+      "name": "SGLang",
+      "layer": "inference-engine",
       "concepts": [
-        "concept/hardware/interconnect/HCCS",
-        "concept/inference/kv-cache/Remote KV Store",
-        "concept/memory/HBM",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling",
-        "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Distributed Storage",
-        "concept/storage/NVMe SSD",
-        "concept/storage/Remote Object Store",
-        "concept/storage/Storage Tiering"
+        "concept/inference/decoding/Draft-Target Decoding",
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/KV Cache",
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/Disaggregated Serving",
+        "concept/inference/serving/P-D Disaggregation"
       ],
       "count": 10
     },
@@ -290,6 +334,23 @@
       "count": 9
     },
     {
+      "id": "community/Ascend/MemFabric/MemFabric",
+      "name": "MemFabric",
+      "layer": "communication",
+      "concepts": [
+        "concept/communication/data-movement/Data Movement",
+        "concept/communication/data-movement/Point-to-Point Transfer",
+        "concept/communication/data-movement/RDMA",
+        "concept/hardware/interconnect/Hardware Interconnect",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/memory/HBM",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/Memory Pooling"
+      ],
+      "count": 9
+    },
+    {
       "id": "community/ai-dynamo/Dynamo/Dynamo",
       "name": "NVIDIA Dynamo",
       "layer": "distributed-serving",
@@ -307,20 +368,21 @@
       "count": 9
     },
     {
-      "id": "community/Ascend/MemFabric/MemFabric",
-      "name": "MemFabric",
-      "layer": "communication",
+      "id": "community/incoai/Splash/Splash",
+      "name": "Splash",
+      "layer": "inference-engine",
       "concepts": [
-        "concept/communication/data-movement/Data Movement",
-        "concept/communication/data-movement/Point-to-Point Transfer",
-        "concept/communication/data-movement/RDMA",
-        "concept/hardware/interconnect/Hardware Interconnect",
-        "concept/memory/HBM",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/Memory Pooling"
+        "concept/inference/decoding/Speculative Decoding",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/Prefix Caching",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/Continuous Batching",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/quantization/KV Cache Quantization",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "id": "community/Ascend/MindIE-Motor/MindIE-Motor",
@@ -416,6 +478,21 @@
       "count": 7
     },
     {
+      "id": "community/xPU-IO/Tutti/Tutti",
+      "name": "Tutti",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Direct Storage IO",
+        "concept/storage/NVMe SSD",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 7
+    },
+    {
       "id": "community/InfiniTensor/NineToothed",
       "name": "NineToothed",
       "layer": "compiler",
@@ -426,34 +503,6 @@
         "concept/compiler/Compiler Lowering",
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/compiler/Layout Optimization"
-      ],
-      "count": 6
-    },
-    {
-      "id": "community/sgl-project/SGLang/SGLang",
-      "name": "SGLang",
-      "layer": "inference-engine",
-      "concepts": [
-        "concept/inference/decoding/Draft-Target Decoding",
-        "concept/inference/decoding/Speculative Decoding",
-        "concept/inference/kv-cache/KV Cache",
-        "concept/inference/kv-cache/Prefix Caching",
-        "concept/inference/serving/Disaggregated Serving",
-        "concept/inference/serving/P-D Disaggregation"
-      ],
-      "count": 6
-    },
-    {
-      "id": "community/incoai/Splash/Splash",
-      "name": "Splash",
-      "layer": "inference-engine",
-      "concepts": [
-        "concept/inference/decoding/Speculative Decoding",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/Prefix Caching",
-        "concept/inference/serving/Continuous Batching",
-        "concept/memory/SSD-NVMe Tier",
-        "concept/quantization/KV Cache Quantization"
       ],
       "count": 6
     },
@@ -508,19 +557,6 @@
         "concept/kernel/programming/JIT Kernel Compilation",
         "concept/quantization/FP4 Quantization",
         "concept/quantization/FP8 Quantization"
-      ],
-      "count": 5
-    },
-    {
-      "id": "community/taco-project/FlexKV/FlexKV",
-      "name": "FlexKV",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/inference/kv-cache/KV Cache Prefetching",
-        "concept/inference/kv-cache/Remote KV Store",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/SSD-NVMe Tier"
       ],
       "count": 5
     },
@@ -712,14 +748,14 @@
       "count": 4
     },
     {
-      "id": "community/xPU-IO/Tutti/Tutti",
-      "name": "Tutti",
-      "layer": "kv-cache",
+      "id": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
+      "name": "vLLM-Ascend",
+      "layer": "inference-engine",
       "concepts": [
-        "concept/storage/Direct Storage IO",
-        "concept/storage/NVMe SSD",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Tiered KV Cache"
       ],
       "count": 4
     },

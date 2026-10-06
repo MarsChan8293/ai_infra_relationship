@@ -4,6 +4,7 @@ name: PegaFlow
 linked_concepts:
   - "concept/memory/Host Memory"
   - "concept/inference/kv-cache/KV Cache"
+  - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/NUMA"
@@ -11,6 +12,8 @@ linked_concepts:
   - "concept/communication/data-movement/RDMA"
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/SSD-Backed KV Cache"
+  - "concept/memory/SSD-NVMe Tier"
+  - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 linked_people: []
@@ -68,6 +71,7 @@ vLLM 与 Novita AI 2026-05-18 的联合文章报告：在固定 500 GiB host KV 
 
 - [[concept/memory/Host Memory|Host Memory]]
 - [[concept/inference/kv-cache/KV Cache|KV Cache]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/NUMA|NUMA]]
@@ -75,6 +79,8 @@ vLLM 与 Novita AI 2026-05-18 的联合文章报告：在固定 500 GiB host KV 
 - [[concept/communication/data-movement/RDMA|RDMA]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
+- [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

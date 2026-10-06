@@ -7,6 +7,7 @@ linked_concepts:
   - "concept/storage/Distributed Storage"
   - "concept/memory/HBM"
   - "concept/hardware/interconnect/HCCS"
+  - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/storage/NVMe SSD"
@@ -14,6 +15,7 @@ linked_concepts:
   - "concept/storage/Remote Object Store"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 layer: kv-cache
 open_source: true
 repository: https://github.com/openyuanrong/datasystem
@@ -50,6 +52,7 @@ YuanRong DataSystem 是 [[community/openEuler/openYuanRong/openYuanRong|openYuan
 - [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/hardware/interconnect/HCCS|HCCS]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/storage/NVMe SSD|NVMe SSD]]
@@ -57,5 +60,6 @@ YuanRong DataSystem 是 [[community/openEuler/openYuanRong/openYuanRong|openYuan
 - [[concept/storage/Remote Object Store|Remote Object Store]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

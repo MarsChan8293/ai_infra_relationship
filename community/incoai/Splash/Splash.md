@@ -8,7 +8,10 @@ linked_concepts:
   - "concept/quantization/KV Cache Quantization"
   - "concept/inference/kv-cache/Prefix Caching"
   - "concept/inference/decoding/Speculative Decoding"
+  - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
+  - "concept/storage/Storage Tiering"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 layer: inference-engine
 status: active
 repository: https://github.com/incoai/splash
@@ -66,6 +69,9 @@ Splash 是面向 Apple Silicon 的本地 inference engine，围绕少量模型�
 - [[concept/quantization/KV Cache Quantization|KV Cache Quantization]]
 - [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
 - [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

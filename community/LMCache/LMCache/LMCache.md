@@ -5,16 +5,15 @@ linked_concepts:
   - "concept/memory/CXL Memory"
   - "concept/storage/Distributed Storage"
   - "concept/memory/Host Memory"
-  - "concept/inference/kv-cache/KV Cache Eviction"
   - "concept/inference/kv-cache/KV Cache Management"
   - "concept/inference/kv-cache/KV Cache Offloading"
-  - "concept/inference/kv-cache/KV Cache Prefetching"
   - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/inference/kv-cache/Remote KV Store"
   - "concept/storage/Remote Object Store"
+  - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
   - "concept/inference/kv-cache/Tiered KV Cache"
@@ -204,16 +203,15 @@ LMCache 当前已明显从 CUDA-only 向多平台展开：
 - [[concept/memory/CXL Memory|CXL Memory]]
 - [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/Host Memory|Host Memory]]
-- [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]]
 - [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
 - [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
-- [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]]
 - [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
 - [[concept/storage/Remote Object Store|Remote Object Store]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]
 - [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]

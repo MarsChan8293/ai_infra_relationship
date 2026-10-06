@@ -13,6 +13,7 @@ linked_concepts:
   - "concept/hardware/interconnect/Hardware Interconnect"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
+  - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/communication/data-movement/Point-to-Point Transfer"
@@ -96,6 +97,7 @@ MemFabric 与 MemCache 的提交/合并记录中出现明显重叠的 handle，�
 - [[concept/hardware/interconnect/Hardware Interconnect|Hardware Interconnect]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]

@@ -5,9 +5,13 @@ linked_concepts:
   - "concept/inference/serving/Disaggregated Serving"
   - "concept/inference/decoding/Draft-Target Decoding"
   - "concept/inference/kv-cache/KV Cache"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/inference/kv-cache/Prefix Caching"
   - "concept/inference/decoding/Speculative Decoding"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 status: active
 linked_people:
   - "community/ai-dynamo/Dynamo/Ishan Dhanani"
@@ -153,8 +157,12 @@ https://github.com/sgl-project/sglang
 - [[concept/inference/serving/Disaggregated Serving|Disaggregated Serving]]
 - [[concept/inference/decoding/Draft-Target Decoding|Draft-Target Decoding]]
 - [[concept/inference/kv-cache/KV Cache|KV Cache]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/inference/kv-cache/Prefix Caching|Prefix Caching]]
 - [[concept/inference/decoding/Speculative Decoding|Speculative Decoding]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

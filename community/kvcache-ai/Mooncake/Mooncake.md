@@ -9,6 +9,8 @@ linked_concepts:
   - "concept/communication/data-movement/GPUDirect RDMA"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Offloading"
   - "concept/inference/kv-cache/KV Cache Sharing"
   - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
@@ -178,6 +180,8 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[concept/communication/data-movement/GPUDirect RDMA|GPUDirect RDMA]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
 - [[concept/inference/kv-cache/KV Cache Sharing|KV Cache Sharing]]
 - [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]

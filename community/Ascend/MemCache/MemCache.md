@@ -20,8 +20,9 @@ linked_concepts:
   - "concept/storage/Distributed Storage"
   - "concept/memory/HBM"
   - "concept/memory/Host Memory"
-  - "concept/inference/kv-cache/KV Cache Eviction"
-  - "concept/inference/kv-cache/KV Cache Prefetching"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/memory/Memory Pooling"
   - "concept/memory/NUMA"
@@ -30,6 +31,7 @@ linked_concepts:
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 companies: ["华为"]
 company_relation: company-led
 layer: kv-cache
@@ -152,8 +154,9 @@ https://github.com/Ascend/memcache
 - [[concept/storage/Distributed Storage|Distributed Storage]]
 - [[concept/memory/HBM|HBM]]
 - [[concept/memory/Host Memory|Host Memory]]
-- [[concept/inference/kv-cache/KV Cache Eviction|KV Cache Eviction]]
-- [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/memory/Memory Pooling|Memory Pooling]]
 - [[concept/memory/NUMA|NUMA]]
@@ -162,5 +165,6 @@ https://github.com/Ascend/memcache
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->

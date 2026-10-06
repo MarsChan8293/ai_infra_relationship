@@ -5,10 +5,15 @@ linked_people:
   - "company/腾讯/Stary"
 linked_concepts:
   - "concept/memory/Host Memory"
-  - "concept/inference/kv-cache/KV Cache Prefetching"
+  - "concept/inference/kv-cache/KV Cache Management"
+  - "concept/inference/kv-cache/KV Cache Offloading"
+  - "concept/inference/kv-cache/KV Cache Transfer"
   - "concept/memory/Memory Hierarchy"
   - "concept/inference/kv-cache/Remote KV Store"
+  - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
+  - "concept/storage/Storage Tiering"
+  - "concept/inference/kv-cache/Tiered KV Cache"
 companies: ["腾讯"]
 company_relation: company-led
 linked_companies:
@@ -73,9 +78,14 @@ FlexKV 不是 Mooncake 的简单竞品关系，而已经形成两层直接技术
 以下概念由 canonical Concept 节点的 `projects:` 反向汇总。它表示该 Concept 页面已有直接公开证据将本项目列为实现/支持者；本区块是派生视图，不应手工维护，也不会从 `areas` 或关键词自动推断。
 
 - [[concept/memory/Host Memory|Host Memory]]
-- [[concept/inference/kv-cache/KV Cache Prefetching|KV Cache Prefetching]]
+- [[concept/inference/kv-cache/KV Cache Management|KV Cache Management]]
+- [[concept/inference/kv-cache/KV Cache Offloading|KV Cache Offloading]]
+- [[concept/inference/kv-cache/KV Cache Transfer|KV Cache Transfer]]
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
+- [[concept/storage/Storage Tiering|Storage Tiering]]
+- [[concept/inference/kv-cache/Tiered KV Cache|Tiered KV Cache]]
 
 <!-- END AUTO PROJECT CONCEPTS -->
