@@ -16,6 +16,7 @@ Concept 与 Project 分工明确：
 - **Concept = mechanism**：例如 KV Cache Offloading、Speculative Decoding、Tensor Parallelism。
 - **Project = implementation**：例如 vLLM、SGLang、LMCache、Mooncake。
 - 缩写、中文译名、旧称放在 `aliases`，不重复创建 canonical 节点。
+- 默认不为“参数组合/配置值”（如 W8A8）、编译流水线内部步骤（如 backend codegen / AOT）或纯中间 taxonomy 建独立节点；优先写入稳定上位 Concept 正文。只有形成独立跨项目生态或跨域关系时才升级为 canonical Concept。
 - 父子关系只表达真正的技术细分；“经常一起出现”放 `related_concepts`。
 - 概念与项目的连接必须能在正文中说明证据，不因共同标签自动推断。
 - Concept 的 `projects:` 是直接实现/暴露该机制的唯一人工事实源；Project 页的 `linked_concepts` 由脚本反向生成。

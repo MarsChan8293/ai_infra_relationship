@@ -56,6 +56,7 @@ fields:
 notes:
   - Concept describes mechanism; Project describes implementation.
   - One mechanism gets one canonical node. Acronyms and translations belong in aliases.
+  - Prefer stable reusable mechanisms over taxonomy intermediates, compiler sub-stages, storage-media duplicates, or parameter presets. Keep details such as W8A8, AOT, backend codegen, and device-specific variants in the parent Concept body unless they have independent cross-project or cross-domain graph value.
   - parent_concepts and related_concepts are navigation metadata; body wikilinks remain the graph-visible source during the first migration batches.
   - Do not infer project support from shared keywords. Project links need direct documentation, code, paper, or release evidence.
   - Concept projects derive typed project-concept-support edges. Integration-only or merely related projects require a distinct semantic relation and must not be smuggled into projects.
