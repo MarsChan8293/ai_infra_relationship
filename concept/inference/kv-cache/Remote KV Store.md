@@ -22,7 +22,7 @@ projects:
   - YuanRong DataSystem
   - MemCache
   - PegaFlow
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Remote KV Store
@@ -44,7 +44,7 @@ Remote KV Store 把 KV Cache 放在独立于当前 inference worker 的远端共
 3. put/get/remove API；
 4. [[KV Cache Transfer]] 数据面；
 5. 多 client 的并发访问和容量管理；
-6. [[KV Cache Eviction]] / TTL / lifecycle control。
+6. eviction / TTL / lifecycle control，由 [[KV Cache Management]] 统一描述。
 
 底层可以是专用 distributed store，也可以是 Redis/Valkey、object/filesystem、Mooncake Store 等 backend。
 

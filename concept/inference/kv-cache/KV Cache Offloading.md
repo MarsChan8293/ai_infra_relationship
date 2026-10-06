@@ -10,16 +10,22 @@ topic: kv-cache
 parent_concepts:
   - KV Cache Management
 related_concepts:
-  - Tiered KV Cache
-  - KV Cache Transfer
-  - SSD/NVMe Tier
-  - Remote KV Store
-  - KV Cache Prefetching
+  - "Tiered KV Cache"
+  - "KV Cache Transfer"
+  - "SSD/NVMe Tier"
+  - "Remote KV Store"
+  - "KV Cache Management"
 projects:
-  - LMCache
-  - vLLM
+  - "LMCache"
+  - "vLLM"
+  - "SGLang"
+  - "Mooncake"
+  - "MemCache"
+  - "FlexKV"
+  - "Tutti"
+  - "PegaFlow"
   - "Splash"
-  - PegaFlow
+  - "vLLM-Ascend"
 last_verified: 2026-10
 ---
 
@@ -39,12 +45,12 @@ KV Cache Offloading 是把暂时不需要驻留在 GPU/NPU 主 KV 空间中的�
 
 ## 细分与相邻概念
 
-- CPU KV Offloading：GPU/NPU ↔ host RAM。
-- SSD / Local Disk Offloading：host staging ↔ 本地 SSD/NVMe。
+- CPU KV Offloading：GPU/NPU ↔ Host DRAM。
+- SSD / Local Disk Offloading：Host staging ↔ 本地 SSD/NVMe。
 - Remote KV Offloading：通过网络访问 [[Remote KV Store]]。
-- SSD / Local Disk Offloading 对应 [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]；恢复时通常依赖 [[KV Cache Prefetching]] 隐藏 I/O 延迟。
-- [[Tiered KV Cache]]：当多个 offload 目的地按层次共同工作时形成 tiered cache。
-- [[KV Cache Transfer]]：offload 的数据面动作之一，但 transfer 也用于 P/D、P2P 等不属于 offload 的场景。
+- [[Tiered KV Cache]]：当多个 offload 目的地长期协同时形成分层缓存体系。
+- [[KV Cache Transfer]]：offload 的数据面动作之一，但 transfer 也用于 P/D、P2P 等非 offload 场景。
+- [[KV Cache Management]]：负责 eviction、prefetch、admission 与 lifecycle policy；这些动作不再单独拆成顶层 concept。
 
 ## 代价与适用边界
 
@@ -52,7 +58,9 @@ Offloading 增加可用容量，但慢层延迟可能直接进入 TTFT 或调度
 
 ## 项目实现
 
-[[community/LMCache/LMCache/LMCache|LMCache]] 支持 CPU RAM、本地磁盘以及多种远端 backend。当前 [[community/vllm-project/vLLM/vLLM|vLLM]] 也提供 KV Offloading connector 与 tiering 配置。
+[[community/LMCache/LMCache/LMCache|LMCache]] 支持 CPU、本地磁盘和远端 backend；[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 KV offloading / connector / tiering；[[community/sgl-project/SGLang/SGLang|SGLang]] 的 HiCache 把 KV 扩展到 CPU 与外部存储层。
+
+[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]、[[community/Ascend/MemCache/MemCache|MemCache]]、[[community/taco-project/FlexKV/FlexKV|FlexKV]] 和 [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 都提供多层或外部 KV 存储路径；[[community/xPU-IO/Tutti/Tutti|Tutti]] 专注 GPU-centric SSD-backed KV；[[community/incoai/Splash/Splash|Splash]] 可把 KV/GDN state 下沉到 SSD；[[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] 通过 KV Pool / external storage backend 接入 Ascend 场景。
 
 ## Sources
 

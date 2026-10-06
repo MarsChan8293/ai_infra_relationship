@@ -11,18 +11,20 @@ topic: memory-hierarchy
 parent_concepts:
   - Memory Hierarchy
 related_concepts:
-  - NVMe SSD
-  - SSD-Backed KV Cache
-  - Storage Tiering
-  - Tiered KV Cache
-  - KV Cache Offloading
-  - KV Cache Prefetching
+  - "NVMe SSD"
+  - "SSD-Backed KV Cache"
+  - "Storage Tiering"
+  - "Tiered KV Cache"
+  - "KV Cache Offloading"
+  - "KV Cache Management"
 projects:
-  - MemCache
-  - LMCache
-  - Mooncake
-  - FlexKV
-  - YuanRong DataSystem
+  - "MemCache"
+  - "LMCache"
+  - "Mooncake"
+  - "FlexKV"
+  - "YuanRong DataSystem"
+  - "Tutti"
+  - "PegaFlow"
   - "Edge0"
   - "Splash"
 last_verified: 2026-10
@@ -44,7 +46,7 @@ SSD/NVMe Tier 是把 SSD 或 NVMe 设备作为 HBM/Host Memory 之后的大容�
 
 `HBM ↔ Host Memory / pinned buffer ↔ NVMe SSD`
 
-系统需要配合 async I/O、batch read/write、[[KV Cache Prefetching]] 和 [[KV Cache Eviction]]，尽量把 SSD 的高延迟藏在计算或网络传输之后。
+系统需要配合 async I/O、batch read/write，以及 [[KV Cache Management]] 中的 prefetch / eviction 策略，尽量把 SSD 的高延迟藏在计算或网络传输之后。
 
 ## 与 Offloading / Tiering 的区别
 
@@ -64,7 +66,9 @@ SSD 带宽和延迟远低于 HBM/DRAM，因此并不是“容量越大越好”�
 
 ## 项目实现
 
-[[community/Ascend/MemCache/MemCache|MemCache]] 使用 HBM/DDR/SSD 多级 KV cache；[[community/LMCache/LMCache/LMCache|LMCache]] 支持 local disk/filesystem 等 storage backend；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Store 使用 DRAM + SSD/NVMe 构建 KV/data tiers；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 明确包含 local SSD tier；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 使用 HBM/DRAM/SSD pooled cache。
+[[community/Ascend/MemCache/MemCache|MemCache]] 使用 HBM/DDR/SSD 多级 KV cache；[[community/LMCache/LMCache/LMCache|LMCache]] 支持 local disk/filesystem 等 backend；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Store 使用 DRAM + SSD/NVMe；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 明确包含 local SSD tier；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 使用 HBM/DRAM/SSD pooled cache。
+
+[[community/xPU-IO/Tutti/Tutti|Tutti]] 专门优化 SSD-backed KV I/O；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 提供 host + SSD + remote RDMA 层；[[community/incoai/Splash/Splash|Splash]] 可通过磁盘配额把 KV/GDN state 下沉到 SSD。
 
 ## Sources
 

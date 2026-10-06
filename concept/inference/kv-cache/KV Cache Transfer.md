@@ -13,12 +13,18 @@ related_concepts:
   - KV Cache Sharing
   - P-D Disaggregation
 projects:
-  - vLLM
-  - LMCache
-  - Mooncake
+  - "vLLM"
+  - "LMCache"
+  - "Mooncake"
+  - "SGLang"
+  - "MemCache"
+  - "FlexKV"
+  - "PegaFlow"
+  - "YuanRong DataSystem"
+  - "MemFabric"
+  - "vLLM-Ascend"
   - "AgentInfer"
   - "vllm-rlt"
-  - PegaFlow
 last_verified: 2026-10
 ---
 
@@ -48,7 +54,9 @@ KV 很大时，网络或 PCIe 带宽会直接影响 TTFT。传输前还需要保
 
 ## 项目实现
 
-[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 KV Connector 抽象和 NIXL/Mooncake/LMCache 等 connector。[[community/LMCache/LMCache/LMCache|LMCache]] 可通过 NIXL 在 NVLink、RDMA 或 TCP 上传输 KV。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Transfer Engine 提供跨 DRAM/VRAM/NVMe-oF 的高性能数据传输能力。
+[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 KV Connector 抽象；[[community/LMCache/LMCache/LMCache|LMCache]] 可通过 NIXL 等路径在 NVLink、RDMA 或 TCP 上传输 KV；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Transfer Engine 提供跨 VRAM/DRAM/SSD 与网络的数据移动。
+
+[[community/sgl-project/SGLang/SGLang|SGLang]]、[[community/Ascend/MemCache/MemCache|MemCache]]、[[community/taco-project/FlexKV/FlexKV|FlexKV]] 与 [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 都有外部/分布式 KV 传输路径；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]]、[[community/Ascend/MemFabric/MemFabric|MemFabric]] 和 [[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] 覆盖 Ascend / 异构内存池与跨节点 KV 数据面；[[community/openJiuwen-ai/AgentInfer/AgentInfer|AgentInfer]] 与 [[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]] 则把 transfer 用于 agent/recurrent serving 与 P/D 路径。
 
 ## Sources
 

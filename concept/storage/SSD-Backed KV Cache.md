@@ -15,11 +15,14 @@ related_concepts:
   - NVMe SSD
   - Direct Storage I/O
 projects:
-  - Tutti
-  - MemCache
-  - Mooncake
-  - PegaFlow
-last_verified: 2026-09
+  - "Tutti"
+  - "MemCache"
+  - "Mooncake"
+  - "PegaFlow"
+  - "LMCache"
+  - "FlexKV"
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # SSD-Backed KV Cache
@@ -49,7 +52,9 @@ SSD-Backed KV Cache 把一部分 KV Cache 放在 SSD/NVMe 上，在需要时预�
 
 ## 项目实现
 
-[[community/xPU-IO/Tutti/Tutti|Tutti]] 专门研究 GPU-centric SSD-backed KV Cache；[[community/Ascend/MemCache/MemCache|MemCache]] 支持 DRAM↔SSD 冷热 KV 迁移；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 的分布式 KV store 使用 CPU DRAM、SSD 与 NIC 资源扩展缓存容量。
+[[community/xPU-IO/Tutti/Tutti|Tutti]] 专门研究 GPU-centric SSD-backed KV Cache；[[community/Ascend/MemCache/MemCache|MemCache]] 支持 DRAM↔SSD 冷热 KV 迁移；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 的分布式 KV store 使用 CPU DRAM、SSD 与 NIC 资源扩展容量；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 直接提供 host/SSD external KV cache。
+
+[[community/LMCache/LMCache/LMCache|LMCache]] 提供 disk/filesystem 等后端；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 包含 local SSD tier；[[community/incoai/Splash/Splash|Splash]] 支持将 KV/GDN state 下沉到 SSD。
 
 ## Sources
 

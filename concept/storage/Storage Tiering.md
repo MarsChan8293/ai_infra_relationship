@@ -14,12 +14,15 @@ related_concepts:
   - KV Cache Offloading
   - NVMe SSD
 projects:
-  - LMCache
-  - MemCache
-  - Mooncake
-  - YuanRong DataSystem
-  - Tutti
-last_verified: 2026-09
+  - "LMCache"
+  - "MemCache"
+  - "Mooncake"
+  - "YuanRong DataSystem"
+  - "Tutti"
+  - "FlexKV"
+  - "PegaFlow"
+  - "Splash"
+last_verified: 2026-10
 ---
 
 # Storage Tiering
@@ -51,7 +54,9 @@ Storage Tiering 把同一类数据按热度、成本和访问延迟分布到 HBM
 
 ## 项目实现
 
-[[community/LMCache/LMCache/LMCache|LMCache]] 把 KV 扩展到 GPU、CPU 与 L2 storage；[[community/Ascend/MemCache/MemCache|MemCache]] 组织 HBM/DDR/SSD 多级缓存池；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 使用 CPU DRAM、SSD 与网络资源构建分层 KV store；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 组织 HBM/DRAM/SSD heterogeneous cache；[[community/xPU-IO/Tutti/Tutti|Tutti]] 专注 SSD-backed KV tier。
+[[community/LMCache/LMCache/LMCache|LMCache]] 把 KV 扩展到 GPU、CPU 与 L2 storage；[[community/Ascend/MemCache/MemCache|MemCache]] 组织 HBM/DDR/SSD 多级缓存池；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 使用 CPU DRAM、SSD 与网络资源构建分层 KV store；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 组织 HBM/DRAM/SSD heterogeneous cache。
+
+[[community/xPU-IO/Tutti/Tutti|Tutti]] 专注 SSD-backed KV tier；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 覆盖 CPU/local SSD/remote storage；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 管理 host/SSD/RDMA tiers；[[community/incoai/Splash/Splash|Splash]] 支持 SSD KV 下沉。
 
 ## Sources
 

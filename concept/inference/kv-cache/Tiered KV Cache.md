@@ -10,18 +10,24 @@ topic: kv-cache
 parent_concepts:
   - KV Cache Management
 related_concepts:
-  - KV Cache Offloading
-  - KV Cache Transfer
-  - KV Cache Eviction
-  - KV Cache Prefetching
-  - Remote KV Store
-  - SSD/NVMe Tier
+  - "KV Cache Offloading"
+  - "KV Cache Transfer"
+  - "KV Cache Management"
+  - "Remote KV Store"
+  - "SSD/NVMe Tier"
 projects:
-  - LMCache
-  - Mooncake
-  - vLLM
-  - PegaFlow
-last_verified: 2026-09
+  - "LMCache"
+  - "Mooncake"
+  - "vLLM"
+  - "SGLang"
+  - "MemCache"
+  - "FlexKV"
+  - "PegaFlow"
+  - "Tutti"
+  - "YuanRong DataSystem"
+  - "Splash"
+  - "vLLM-Ascend"
+last_verified: 2026-10
 ---
 
 # Tiered KV Cache
@@ -40,12 +46,11 @@ Tiered KV Cache 把 GPU/NPU HBM、CPU DRAM、SSD/NVMe 和远端 KV store 等不�
 
 ## 细分与相邻概念
 
-- [[KV Cache Offloading]] 描述“从主层移出去”的动作。
-- Tiering 描述多个层长期协同后的整体缓存结构。
+- [[KV Cache Offloading]] 描述从主加速器层移出的动作；Tiering 描述多个层长期协同后的整体结构。
 - [[KV Cache Transfer]] 是层与层之间的数据面。
 - [[KV Cache Sharing]] 可以建立在共享的远端 tier 之上，但两者不是同义词。
-- [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 是具体慢层介质；[[Remote KV Store]] 是跨 worker 的共享存储语义。
-- [[KV Cache Eviction]] / [[KV Cache Prefetching]] 决定冷热数据如何在各 tier 间循环。
+- [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]] 是具体慢层介质；[[Remote KV Store]] 提供跨 worker 的共享存储语义。
+- eviction、prefetch、promotion、demotion 等冷热策略统一归入 [[KV Cache Management]]。
 
 ## 代价与适用边界
 
@@ -53,7 +58,9 @@ Tiered KV Cache 把 GPU/NPU HBM、CPU DRAM、SSD/NVMe 和远端 KV store 等不�
 
 ## 项目实现
 
-[[community/LMCache/LMCache/LMCache|LMCache]] 文档把 CPU RAM 作为可缓存热数据的层，并可结合 disk/remote backend。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 的 Mooncake Store 提供 DRAM 与 SSD/NVMe 多层 KV cache。[[community/vllm-project/vLLM/vLLM|vLLM]] 的 KV Offloading 支持 `TieringOffloadingSpec` 和 secondary tiers。
+[[community/LMCache/LMCache/LMCache|LMCache]]、[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]]、[[community/Ascend/MemCache/MemCache|MemCache]]、[[community/taco-project/FlexKV/FlexKV|FlexKV]] 与 [[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 都把 KV 扩展到至少两级以上的本地或远端层。
+
+[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 tiering/offloading 配置；[[community/sgl-project/SGLang/SGLang|SGLang]] HiCache 提供本地 + 外部层；[[community/xPU-IO/Tutti/Tutti|Tutti]] 强化 SSD tier；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 组织 HBM/DRAM/SSD pooled cache；[[community/incoai/Splash/Splash|Splash]] 提供 SSD 下沉；[[community/vllm-project/vLLM-Ascend/vLLM-Ascend|vLLM-Ascend]] 可通过 KV Pool backend 使用外部层。
 
 ## Sources
 
