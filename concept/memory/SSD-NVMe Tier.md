@@ -2,21 +2,26 @@
 type: concept
 name: SSD/NVMe Tier
 aliases:
-  - SSD Tier
-  - NVMe Tier
-  - SSD/NVMe Offloading
-  - SSD卸载
+  - "SSD Tier"
+  - "NVMe Tier"
+  - "NVMe SSD"
+  - "NVMe"
+  - "NVMe Storage"
+  - "SSD/NVMe Offloading"
+  - "SSD卸载"
+  - "NVMe固态盘"
 domain: memory
 topic: memory-hierarchy
 parent_concepts:
   - Memory Hierarchy
 related_concepts:
-  - "NVMe SSD"
   - "SSD-Backed KV Cache"
   - "Storage Tiering"
   - "Tiered KV Cache"
   - "KV Cache Offloading"
   - "KV Cache Management"
+  - "Direct Storage I/O"
+  - "PCIe"
 projects:
   - "MemCache"
   - "LMCache"
@@ -25,6 +30,7 @@ projects:
   - "YuanRong DataSystem"
   - "Tutti"
   - "PegaFlow"
+  - "3FS"
   - "Edge0"
   - "Splash"
 last_verified: 2026-10
@@ -46,7 +52,7 @@ SSD/NVMe Tier 是把 SSD 或 NVMe 设备作为 HBM/Host Memory 之后的大容�
 
 `HBM ↔ Host Memory / pinned buffer ↔ NVMe SSD`
 
-系统需要配合 async I/O、batch read/write，以及 [[KV Cache Management]] 中的 prefetch / eviction 策略，尽量把 SSD 的高延迟藏在计算或网络传输之后。
+这里同时保留 NVMe/SSD 的设备层语义：NVMe 通常通过 PCIe 暴露高并发 block I/O，性能受 queue depth、I/O size、fragmentation、filesystem/block layer、DMA 与 multi-device striping 影响。系统层再通过 async I/O、batching，以及 [[KV Cache Management]] 中的 prefetch / eviction 隐藏慢层延迟。
 
 ## 与 Offloading / Tiering 的区别
 
@@ -56,9 +62,10 @@ SSD/NVMe Tier 是把 SSD 或 NVMe 设备作为 HBM/Host Memory 之后的大容�
 
 ## 与现有存储概念的边界
 
-- [[concept/storage/NVMe SSD|NVMe SSD]] 描述设备与协议；SSD/NVMe Tier 描述这类介质在内存/存储层次中承担的慢层角色。
-- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] 专门描述 KV 使用 SSD 后端的缓存机制；SSD/NVMe Tier 还可以保存模型状态等其他可恢复数据。
-- [[concept/storage/Storage Tiering|Storage Tiering]] 描述跨层放置与迁移策略；SSD/NVMe Tier 是策略可以选择的一个目标层。
+- 本页同时承担“NVMe SSD 设备/协议”与“SSD/NVMe 在 memory/storage hierarchy 中的慢层角色”，避免为同一介质维护两个高度重叠节点。
+- [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]] 专门描述 KV 使用 SSD 后端的缓存机制；SSD/NVMe Tier 还可以保存模型权重、checkpoint 和其他可恢复数据。
+- [[concept/storage/Storage Tiering|Storage Tiering]] 描述跨层放置与迁移策略。
+- [[concept/storage/Direct Storage IO|Direct Storage I/O]] 描述 accelerator ↔ storage 的低中转数据路径。
 
 ## 适用边界
 
@@ -66,9 +73,9 @@ SSD 带宽和延迟远低于 HBM/DRAM，因此并不是“容量越大越好”�
 
 ## 项目实现
 
-[[community/Ascend/MemCache/MemCache|MemCache]] 使用 HBM/DDR/SSD 多级 KV cache；[[community/LMCache/LMCache/LMCache|LMCache]] 支持 local disk/filesystem 等 backend；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Store 使用 DRAM + SSD/NVMe；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 明确包含 local SSD tier；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 使用 HBM/DRAM/SSD pooled cache。
+[[community/Ascend/MemCache/MemCache|MemCache]] 使用 HBM/DDR/SSD 多级 KV cache；[[community/LMCache/LMCache/LMCache|LMCache]] 支持 local disk/filesystem 等 backend；[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] Store 使用 DRAM + SSD/NVMe；[[community/taco-project/FlexKV/FlexKV|FlexKV]] 明确包含 local SSD tier；[[community/openEuler/openYuanRong/YuanRong DataSystem|YuanRong DataSystem]] 使用 HBM/DRAM/SSD pooled cache；[[community/deepseek-ai/DeepSeek-Infra/3FS|3FS]] 以 NVMe SSD 构建高吞吐分布式存储。
 
-[[community/xPU-IO/Tutti/Tutti|Tutti]] 专门优化 SSD-backed KV I/O；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 提供 host + SSD + remote RDMA 层；[[community/incoai/Splash/Splash|Splash]] 可通过磁盘配额把 KV/GDN state 下沉到 SSD。
+[[community/xPU-IO/Tutti/Tutti|Tutti]] 专门优化 SSD-backed KV I/O；[[community/novitalabs/pegaflow/pegaflow|PegaFlow]] 提供 host + SSD + remote RDMA 层；[[community/incoai/Splash/Splash|Splash]] 可把 KV/GDN state 下沉到 SSD。
 
 ## Sources
 

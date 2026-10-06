@@ -8,11 +8,10 @@ aliases:
 domain: storage
 topic: storage-tiering
 related_concepts:
-  - SSD/NVMe Tier
-  - Memory Hierarchy
-  - Tiered KV Cache
-  - KV Cache Offloading
-  - NVMe SSD
+  - "SSD/NVMe Tier"
+  - "Memory Hierarchy"
+  - "Tiered KV Cache"
+  - "KV Cache Offloading"
 projects:
   - "LMCache"
   - "MemCache"

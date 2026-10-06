@@ -10,14 +10,14 @@ aliases:
 domain: storage
 topic: data-path
 related_concepts:
-  - NVMe SSD
-  - GPUDirect RDMA
-  - Point-to-Point Transfer
+  - "SSD/NVMe Tier"
+  - "GPUDirect RDMA"
+  - "Point-to-Point Transfer"
 projects:
   - Tutti
   - NIXL
   - Mooncake
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Direct Storage I/O

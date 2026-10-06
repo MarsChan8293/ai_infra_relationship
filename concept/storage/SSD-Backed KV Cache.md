@@ -9,11 +9,10 @@ aliases:
 domain: storage
 topic: kv-cache-storage
 related_concepts:
-  - SSD/NVMe Tier
-  - KV Cache Offloading
-  - Tiered KV Cache
-  - NVMe SSD
-  - Direct Storage I/O
+  - "SSD/NVMe Tier"
+  - "KV Cache Offloading"
+  - "Tiered KV Cache"
+  - "Direct Storage I/O"
 projects:
   - "Tutti"
   - "MemCache"
