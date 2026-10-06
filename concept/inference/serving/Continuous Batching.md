@@ -11,9 +11,11 @@ related_concepts:
   - Chunked Prefill
   - Prefix Caching
 projects:
-  - vLLM
+  - "vLLM"
+  - "SGLang"
   - "vllm-rlt"
   - "Splash"
+  - "OpenVINO GenAI"
 last_verified: 2026-10
 ---
 
@@ -43,7 +45,7 @@ Scheduler 持续维护 waiting、running 和 finished request 集合，在每次
 
 ## 项目实现
 
-[[community/vllm-project/vLLM/vLLM|vLLM]] 将 continuous batching of incoming requests 列为核心 serving 能力，并由 scheduler 持续组织可执行请求。
+[[community/vllm-project/vLLM/vLLM|vLLM]] 与 [[community/sgl-project/SGLang/SGLang|SGLang]] 都把 continuous batching 作为核心 serving scheduler 能力；[[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]] 把 batch boundary 下沉到 recurrent loop level；[[community/incoai/Splash/Splash|Splash]] 提供 concurrent/continuous batching；[[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] 的 LLM pipeline 也公开支持 continuous batching。
 
 ## Sources
 

@@ -14,10 +14,12 @@ related_concepts:
   - KV Cache Sharing
   - Continuous Batching
 projects:
-  - vLLM
-  - SGLang
+  - "vLLM"
+  - "SGLang"
   - "vllm-rlt"
   - "Splash"
+  - "OpenVINO GenAI"
+  - "TensorFold"
 last_verified: 2026-10
 ---
 
@@ -47,7 +49,7 @@ Prefix Caching 缓存已经处理过的共享 prompt 前缀对应的 KV，使后
 
 ## 项目实现
 
-[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 Automatic Prefix Caching。[[community/sgl-project/SGLang/SGLang|SGLang]] 的 RadixAttention / Radix Cache 以 radix tree 组织可复用 prefix KV。
+[[community/vllm-project/vLLM/vLLM|vLLM]] 提供 Automatic Prefix Caching；[[community/sgl-project/SGLang/SGLang|SGLang]] 通过 RadixAttention / Radix Cache 组织可复用 prefix KV；[[community/ThinkFlowLab/vllm-rlt/vllm-rlt|vllm-rlt]]、[[community/incoai/Splash/Splash|Splash]] 与 [[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] 都公开支持 prefix caching；[[community/ashhart/TensorFold/TensorFold|TensorFold]] 以固定 token 网格保存 prompt/prefix snapshots，并可跨进程重启复用部分前缀状态。
 
 ## Sources
 
