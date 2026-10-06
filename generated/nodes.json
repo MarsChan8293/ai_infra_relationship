@@ -7248,7 +7248,6 @@
       "linked_people": [],
       "linked_concepts": [
         "concept/kernel/optimization/Agentic Kernel Optimization",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/programming/Kernel DSL"
       ],
@@ -9084,9 +9083,7 @@
         "university/启元实验室/黄嘉成 Jiacheng Huang"
       ],
       "linked_concepts": [
-        "concept/compiler/Ahead-of-Time Compilation",
         "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/compiler/Layout Optimization"
@@ -9487,7 +9484,6 @@
         "concept/memory/Memory Hierarchy",
         "concept/inference/serving/P-D Disaggregation",
         "concept/inference/kv-cache/Remote KV Store",
-        "concept/storage/Remote Object Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
@@ -15708,7 +15704,6 @@
       "type": "project",
       "name": "FlagTree",
       "linked_concepts": [
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/programming/Kernel DSL"
@@ -18152,7 +18147,6 @@
         "concept/communication/data-movement/Point-to-Point Transfer",
         "concept/communication/data-movement/RDMA",
         "concept/inference/kv-cache/Remote KV Store",
-        "concept/storage/Remote Object Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
@@ -19931,7 +19925,6 @@
         "concept/memory/Memory Pooling",
         "concept/storage/NVMe SSD",
         "concept/inference/kv-cache/Remote KV Store",
-        "concept/storage/Remote Object Store",
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Storage Tiering",
         "concept/inference/kv-cache/Tiered KV Cache"
@@ -21262,9 +21255,9 @@
       "name": "TileLang-Ascend",
       "linked_concepts": [
         "concept/kernel/attention/Attention Kernel",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/kernel/gemm/GEMM",
+        "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/programming/Kernel DSL",
         "concept/kernel/attention/Sparse Attention"
       ],
@@ -21309,9 +21302,9 @@
       "name": "TileLang-MLIR-Ascend",
       "linked_concepts": [
         "concept/kernel/attention/Attention Kernel",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/kernel/gemm/GEMM",
+        "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/programming/Kernel DSL"
       ],
       "status": "active",
@@ -21360,7 +21353,6 @@
       ],
       "linked_concepts": [
         "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/kernel/gemm/GEMM",
         "concept/kernel/programming/JIT Kernel Compilation",
@@ -21558,7 +21550,6 @@
       "linked_people": [],
       "linked_concepts": [
         "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/kernel/gemm/GEMM",
         "concept/kernel/programming/JIT Kernel Compilation",
@@ -29738,37 +29729,6 @@
     }
   },
   {
-    "id": "concept/compiler/Ahead-of-Time Compilation",
-    "path": "concept/compiler/Ahead-of-Time Compilation.md",
-    "name": "Ahead-of-Time Compilation",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Ahead-of-Time Compilation",
-      "aliases": [
-        "AOT Compilation",
-        "AOT",
-        "Offline Compilation",
-        "提前编译"
-      ],
-      "domain": "compiler",
-      "topic": "kernel-compilation",
-      "parent_concepts": [
-        "Kernel Compiler Pipeline"
-      ],
-      "related_concepts": [
-        "JIT Kernel Compilation",
-        "Backend Code Generation",
-        "Autotuning"
-      ],
-      "projects": [
-        "NineToothed"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
     "id": "concept/compiler/Autotuning",
     "path": "concept/compiler/Autotuning.md",
     "name": "Autotuning",
@@ -29800,42 +29760,6 @@
     }
   },
   {
-    "id": "concept/compiler/Backend Code Generation",
-    "path": "concept/compiler/Backend Code Generation.md",
-    "name": "Backend Code Generation",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Backend Code Generation",
-      "aliases": [
-        "Target Code Generation",
-        "Codegen",
-        "Backend Codegen",
-        "后端代码生成"
-      ],
-      "domain": "compiler",
-      "topic": "kernel-compilation",
-      "parent_concepts": [
-        "Kernel Compiler Pipeline"
-      ],
-      "related_concepts": [
-        "Compiler Lowering",
-        "Kernel DSL"
-      ],
-      "projects": [
-        "NineToothed",
-        "TileLang",
-        "TileLang-Ascend",
-        "TileLang-MLIR-Ascend",
-        "Triton",
-        "FlagTree",
-        "CANNBot-DSL"
-      ],
-      "last_verified": "2026-10"
-    }
-  },
-  {
     "id": "concept/compiler/Compiler Lowering",
     "path": "concept/compiler/Compiler Lowering.md",
     "name": "Compiler Lowering",
@@ -29856,8 +29780,9 @@
         "Kernel Compiler Pipeline"
       ],
       "related_concepts": [
-        "Backend Code Generation",
-        "Layout Optimization"
+        "Layout Optimization",
+        "Kernel DSL",
+        "JIT Kernel Compilation"
       ],
       "projects": [
         "NineToothed",
@@ -29889,13 +29814,15 @@
       "related_concepts": [
         "Kernel DSL",
         "Compiler Lowering",
-        "Backend Code Generation",
         "JIT Kernel Compilation",
-        "Ahead-of-Time Compilation"
+        "Autotuning",
+        "Layout Optimization"
       ],
       "projects": [
         "NineToothed",
         "TileLang",
+        "TileLang-Ascend",
+        "TileLang-MLIR-Ascend",
         "Triton",
         "FlagTree",
         "CAKE",
@@ -32145,14 +32072,15 @@
       "name": "Distributed Storage",
       "aliases": [
         "Distributed Storage System",
+        "Distributed Object/KV Store",
         "分布式存储"
       ],
       "domain": "storage",
       "topic": "distributed-storage",
       "related_concepts": [
         "Storage Tiering",
-        "Remote Object Store",
-        "RDMA"
+        "RDMA",
+        "Memory Pooling"
       ],
       "projects": [
         "3FS",
@@ -32161,7 +32089,7 @@
         "MemCache",
         "LMCache"
       ],
-      "last_verified": "2026-09"
+      "last_verified": "2026-10"
     }
   },
   {
@@ -32194,35 +32122,6 @@
         "MemCache",
         "Mooncake",
         "YuanRong DataSystem"
-      ],
-      "last_verified": "2026-09"
-    }
-  },
-  {
-    "id": "concept/storage/Remote Object Store",
-    "path": "concept/storage/Remote Object Store.md",
-    "name": "Remote Object Store",
-    "type": "concept",
-    "category": "concept",
-    "frontmatter": {
-      "type": "concept",
-      "name": "Remote Object Store",
-      "aliases": [
-        "Object Storage Backend",
-        "Remote Object Storage",
-        "远程对象存储"
-      ],
-      "domain": "storage",
-      "topic": "distributed-storage",
-      "related_concepts": [
-        "Distributed Storage",
-        "Storage Tiering",
-        "Point-to-Point Transfer"
-      ],
-      "projects": [
-        "Mooncake",
-        "YuanRong DataSystem",
-        "LMCache"
       ],
       "last_verified": "2026-09"
     }

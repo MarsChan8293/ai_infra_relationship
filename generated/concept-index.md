@@ -2,7 +2,7 @@
 
 Automatically generated from canonical `type: concept` nodes under `concept/`.
 
-- Concepts: 86
+- Concepts: 83
 - Domains: 9
 
 Stable portal: [[concept]] · Implementation view: [[community/Software|Software]]
@@ -179,16 +179,14 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Compiler
 
-8 concepts.
+6 concepts.
 
 ### Kernel Compilation
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/compiler/Ahead-of-Time Compilation|Ahead-of-Time Compilation]] | AOT Compilation, AOT, Offline Compilation, 提前编译 | Kernel Compiler Pipeline | 3 | 1 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Ahead-of-Time%20Compilation) |
-| [[concept/compiler/Backend Code Generation|Backend Code Generation]] | Target Code Generation, Codegen, Backend Codegen, 后端代码生成 | Kernel Compiler Pipeline | 2 | 7 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Backend%20Code%20Generation) |
-| [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 2 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
-| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 8 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
+| [[concept/compiler/Compiler Lowering|Compiler Lowering]] | IR Lowering, Kernel Lowering, 编译降级, IR降级 | Kernel Compiler Pipeline | 3 | 6 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Compiler%20Lowering) |
+| [[concept/compiler/Kernel Compiler Pipeline|Kernel Compiler Pipeline]] | Kernel Compilation Pipeline, GPU Kernel Compiler Pipeline, 算子编译流水线 |  | 5 | 10 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Kernel%20Compiler%20Pipeline) |
 
 ### Kernel Optimization
 
@@ -241,7 +239,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 ## Storage
 
-6 concepts.
+5 concepts.
 
 ### Data Path
 
@@ -253,8 +251,7 @@ Stable portal: [[concept]] · Implementation view: [[community/Software|Software
 
 | Concept | Aliases | Parent | Related | Projects | Graph |
 | --- | --- | --- | ---: | ---: | --- |
-| [[concept/storage/Distributed Storage|Distributed Storage]] | Distributed Storage System, 分布式存储 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Distributed%20Storage) |
-| [[concept/storage/Remote Object Store|Remote Object Store]] | Object Storage Backend, Remote Object Storage, 远程对象存储 |  | 3 | 3 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Remote%20Object%20Store) |
+| [[concept/storage/Distributed Storage|Distributed Storage]] | Distributed Storage System, Distributed Object/KV Store, 分布式存储 |  | 3 | 5 | [focus](https://MarsChan8293.github.io/ai_infra_relationship/graph-explorer/?focus=Distributed%20Storage) |
 
 ### Kv Cache Storage
 

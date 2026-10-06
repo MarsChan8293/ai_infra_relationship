@@ -12,7 +12,6 @@ linked_concepts:
   - "concept/memory/Memory Hierarchy"
   - "concept/inference/serving/P-D Disaggregation"
   - "concept/inference/kv-cache/Remote KV Store"
-  - "concept/storage/Remote Object Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
@@ -210,7 +209,6 @@ LMCache 当前已明显从 CUDA-only 向多平台展开：
 - [[concept/memory/Memory Hierarchy|Memory Hierarchy]]
 - [[concept/inference/serving/P-D Disaggregation|P-D Disaggregation]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
-- [[concept/storage/Remote Object Store|Remote Object Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]

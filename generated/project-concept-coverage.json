@@ -1,12 +1,12 @@
 {
   "status": "pass",
   "summary": {
-    "concepts": 86,
-    "concepts_with_projects": 86,
+    "concepts": 83,
+    "concepts_with_projects": 83,
     "concepts_without_projects": 0,
     "project_like_nodes": 241,
     "projects_with_concepts": 108,
-    "concept_project_assertions": 430,
+    "concept_project_assertions": 421,
     "unresolved_project_refs": 0,
     "reverse_link_mismatches": 0
   },
@@ -18,11 +18,11 @@
     "data-movement": 4,
     "data-path": 1,
     "decoding": 4,
-    "distributed-storage": 2,
+    "distributed-storage": 1,
     "gemm": 2,
     "inference-scheduling": 7,
     "interconnect": 6,
-    "kernel-compilation": 4,
+    "kernel-compilation": 2,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 9,
@@ -47,11 +47,11 @@
     "data-movement": 4,
     "data-path": 1,
     "decoding": 4,
-    "distributed-storage": 2,
+    "distributed-storage": 1,
     "gemm": 2,
     "inference-scheduling": 7,
     "interconnect": 6,
-    "kernel-compilation": 4,
+    "kernel-compilation": 2,
     "kernel-optimization": 2,
     "kernel-programming": 2,
     "kv-cache": 9,
@@ -131,34 +131,10 @@
         "concept/storage/Direct Storage IO",
         "concept/storage/Distributed Storage",
         "concept/storage/NVMe SSD",
-        "concept/storage/Remote Object Store",
         "concept/storage/SSD-Backed KV Cache",
         "concept/storage/Storage Tiering"
       ],
-      "count": 23
-    },
-    {
-      "id": "community/LMCache/LMCache/LMCache",
-      "name": "LMCache",
-      "layer": "kv-cache",
-      "concepts": [
-        "concept/inference/kv-cache/KV Cache Management",
-        "concept/inference/kv-cache/KV Cache Offloading",
-        "concept/inference/kv-cache/KV Cache Sharing",
-        "concept/inference/kv-cache/KV Cache Transfer",
-        "concept/inference/kv-cache/Remote KV Store",
-        "concept/inference/kv-cache/Tiered KV Cache",
-        "concept/inference/serving/P-D Disaggregation",
-        "concept/memory/CXL Memory",
-        "concept/memory/Host Memory",
-        "concept/memory/Memory Hierarchy",
-        "concept/memory/SSD-NVMe Tier",
-        "concept/storage/Distributed Storage",
-        "concept/storage/Remote Object Store",
-        "concept/storage/SSD-Backed KV Cache",
-        "concept/storage/Storage Tiering"
-      ],
-      "count": 15
+      "count": 22
     },
     {
       "id": "community/Ascend/MemCache/MemCache",
@@ -182,6 +158,28 @@
         "concept/storage/Storage Tiering"
       ],
       "count": 15
+    },
+    {
+      "id": "community/LMCache/LMCache/LMCache",
+      "name": "LMCache",
+      "layer": "kv-cache",
+      "concepts": [
+        "concept/inference/kv-cache/KV Cache Management",
+        "concept/inference/kv-cache/KV Cache Offloading",
+        "concept/inference/kv-cache/KV Cache Sharing",
+        "concept/inference/kv-cache/KV Cache Transfer",
+        "concept/inference/kv-cache/Remote KV Store",
+        "concept/inference/kv-cache/Tiered KV Cache",
+        "concept/inference/serving/P-D Disaggregation",
+        "concept/memory/CXL Memory",
+        "concept/memory/Host Memory",
+        "concept/memory/Memory Hierarchy",
+        "concept/memory/SSD-NVMe Tier",
+        "concept/storage/Distributed Storage",
+        "concept/storage/SSD-Backed KV Cache",
+        "concept/storage/Storage Tiering"
+      ],
+      "count": 14
     },
     {
       "id": "community/novitalabs/pegaflow/pegaflow",
@@ -219,10 +217,9 @@
         "concept/memory/SSD-NVMe Tier",
         "concept/storage/Distributed Storage",
         "concept/storage/NVMe SSD",
-        "concept/storage/Remote Object Store",
         "concept/storage/Storage Tiering"
       ],
-      "count": 12
+      "count": 11
     },
     {
       "id": "community/taco-project/FlexKV/FlexKV",
@@ -395,22 +392,6 @@
       "count": 8
     },
     {
-      "id": "community/tile-ai/TileLang/TileLang",
-      "name": "TileLang",
-      "layer": "compiler",
-      "concepts": [
-        "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
-        "concept/compiler/Compiler Lowering",
-        "concept/compiler/Kernel Compiler Pipeline",
-        "concept/compiler/Layout Optimization",
-        "concept/kernel/gemm/GEMM",
-        "concept/kernel/programming/JIT Kernel Compilation",
-        "concept/kernel/programming/Kernel DSL"
-      ],
-      "count": 8
-    },
-    {
       "id": "community/sii-research/VCCL/VCCL",
       "name": "VCCL",
       "layer": "communication",
@@ -442,14 +423,14 @@
       "count": 7
     },
     {
-      "id": "community/triton-lang/Triton/Triton",
-      "name": "Triton",
+      "id": "community/tile-ai/TileLang/TileLang",
+      "name": "TileLang",
       "layer": "compiler",
       "concepts": [
         "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
         "concept/compiler/Kernel Compiler Pipeline",
+        "concept/compiler/Layout Optimization",
         "concept/kernel/gemm/GEMM",
         "concept/kernel/programming/JIT Kernel Compilation",
         "concept/kernel/programming/Kernel DSL"
@@ -486,29 +467,29 @@
       "count": 6
     },
     {
-      "id": "community/InfiniTensor/NineToothed",
-      "name": "NineToothed",
-      "layer": "compiler",
-      "concepts": [
-        "concept/compiler/Ahead-of-Time Compilation",
-        "concept/compiler/Autotuning",
-        "concept/compiler/Backend Code Generation",
-        "concept/compiler/Compiler Lowering",
-        "concept/compiler/Kernel Compiler Pipeline",
-        "concept/compiler/Layout Optimization"
-      ],
-      "count": 6
-    },
-    {
       "id": "community/tile-ai/TileLang/TileLang-Ascend",
       "name": "TileLang-Ascend",
       "layer": "compiler",
       "concepts": [
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/attention/Sparse Attention",
         "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 6
+    },
+    {
+      "id": "community/triton-lang/Triton/Triton",
+      "name": "Triton",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Autotuning",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/gemm/GEMM",
+        "concept/kernel/programming/JIT Kernel Compilation",
         "concept/kernel/programming/Kernel DSL"
       ],
       "count": 6
@@ -610,8 +591,8 @@
       "name": "TileLang-MLIR-Ascend",
       "layer": "compiler",
       "concepts": [
-        "concept/compiler/Backend Code Generation",
         "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
         "concept/kernel/attention/Attention Kernel",
         "concept/kernel/gemm/GEMM",
         "concept/kernel/programming/Kernel DSL"
@@ -627,18 +608,6 @@
         "concept/inference/kv-cache/KV Cache Transfer",
         "concept/inference/scheduling/Inference Scheduling",
         "concept/inference/scheduling/Request Routing"
-      ],
-      "count": 4
-    },
-    {
-      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
-      "name": "CANNBot-DSL",
-      "layer": "compiler",
-      "concepts": [
-        "concept/compiler/Backend Code Generation",
-        "concept/compiler/Kernel Compiler Pipeline",
-        "concept/kernel/optimization/Agentic Kernel Optimization",
-        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 4
     },
@@ -679,18 +648,6 @@
       "count": 4
     },
     {
-      "id": "community/flagos-ai/FlagTree/FlagTree",
-      "name": "FlagTree",
-      "layer": "compiler",
-      "concepts": [
-        "concept/compiler/Backend Code Generation",
-        "concept/compiler/Compiler Lowering",
-        "concept/compiler/Kernel Compiler Pipeline",
-        "concept/kernel/programming/Kernel DSL"
-      ],
-      "count": 4
-    },
-    {
       "id": "community/deepseek-ai/DeepSeek-Infra/FlashMLA",
       "name": "FlashMLA",
       "layer": "runtime",
@@ -727,6 +684,18 @@
       "count": 4
     },
     {
+      "id": "community/InfiniTensor/NineToothed",
+      "name": "NineToothed",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Autotuning",
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/compiler/Layout Optimization"
+      ],
+      "count": 4
+    },
+    {
       "id": "community/vllm-project/vLLM-Ascend/vLLM-Ascend",
       "name": "vLLM-Ascend",
       "layer": "inference-engine",
@@ -739,6 +708,17 @@
       "count": 4
     },
     {
+      "id": "community/Ascend/CANNBot-DSL/CANNBot-DSL",
+      "name": "CANNBot-DSL",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/optimization/Agentic Kernel Optimization",
+        "concept/kernel/programming/Kernel DSL"
+      ],
+      "count": 3
+    },
+    {
       "id": "community/flagos-ai/FlagCX/FlagCX",
       "name": "FlagCX",
       "layer": "communication",
@@ -746,6 +726,17 @@
         "concept/communication/collectives/AllGather",
         "concept/communication/collectives/AllReduce",
         "concept/communication/collectives/Collective Communication"
+      ],
+      "count": 3
+    },
+    {
+      "id": "community/flagos-ai/FlagTree/FlagTree",
+      "name": "FlagTree",
+      "layer": "compiler",
+      "concepts": [
+        "concept/compiler/Compiler Lowering",
+        "concept/compiler/Kernel Compiler Pipeline",
+        "concept/kernel/programming/Kernel DSL"
       ],
       "count": 3
     },

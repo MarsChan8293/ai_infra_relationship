@@ -20,7 +20,6 @@ linked_concepts:
   - "concept/communication/data-movement/Point-to-Point Transfer"
   - "concept/communication/data-movement/RDMA"
   - "concept/inference/kv-cache/Remote KV Store"
-  - "concept/storage/Remote Object Store"
   - "concept/storage/SSD-Backed KV Cache"
   - "concept/memory/SSD-NVMe Tier"
   - "concept/storage/Storage Tiering"
@@ -191,7 +190,6 @@ Mooncake 当前 `MAINTAINERS.md` 明确列出四位 Codeowner：
 - [[concept/communication/data-movement/Point-to-Point Transfer|Point-to-Point Transfer]]
 - [[concept/communication/data-movement/RDMA|RDMA]]
 - [[concept/inference/kv-cache/Remote KV Store|Remote KV Store]]
-- [[concept/storage/Remote Object Store|Remote Object Store]]
 - [[concept/storage/SSD-Backed KV Cache|SSD-Backed KV Cache]]
 - [[concept/memory/SSD-NVMe Tier|SSD/NVMe Tier]]
 - [[concept/storage/Storage Tiering|Storage Tiering]]
