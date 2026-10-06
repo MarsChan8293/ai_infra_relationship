@@ -12,10 +12,9 @@ topic: quantization
 parent_concepts:
   - Quantization
 related_concepts:
-  - W8A8
-  - Weight-Activation Quantization
-  - Weight-Only Quantization
-  - KV Cache Quantization
+  - "Weight-Activation Quantization"
+  - "Weight-Only Quantization"
+  - "KV Cache Quantization"
 projects:
   - vLLM
   - msModelSlim
@@ -23,7 +22,7 @@ projects:
   - TileKernels
   - DeepGEMM-Ascend
   - FlashMLA
-last_verified: "2026-10"
+last_verified: 2026-10
 ---
 
 # FP8 Quantization
@@ -42,7 +41,7 @@ FP8 Quantization 使用 8bit 浮点格式表示权重、activation 或 KV Cache�
 
 ## 典型路径
 
-- FP8 W8A8：权重 + activation 都是 FP8，见 [[W8A8]]。
+- FP8 W8A8：权重 + activation 都是 FP8，属于 [[Weight-Activation Quantization]]。
 - FP8 W8A16：只把权重降为 FP8，属于 [[Weight-Only Quantization]]。
 - FP8 KV：把 K/V cache 存储为 FP8，属于 [[KV Cache Quantization]]。
 

@@ -22,7 +22,7 @@ projects:
   - QFactory
   - Chord
   - Humming
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Weight-Only Quantization
@@ -52,9 +52,9 @@ Decode 阶段常受权重读取带宽限制。把权重从 16bit 压到 8/4/更�
 - W4A16：4-bit weight + 16-bit activation。
 - AWQ / GPTQ / GGUF Q4/Q5/Q6 等属于不同算法/编码族，不应简单当作同一种 format。
 
-## 与 W8A8 的区别
+## 与 Weight-Activation Quantization 的区别
 
-[[W8A8]] 同时把 activation 也降到 8bit，因此更依赖硬件低精度 GEMM 和 activation scale 策略；Weight-Only 主要减少权重带宽和容量压力。
+W8A8 等 [[Weight-Activation Quantization]] 会同时降低 activation 精度，因此更依赖硬件低精度 GEMM 和 activation scale 策略；Weight-Only 主要减少权重带宽和容量压力。
 
 ## 项目实现
 

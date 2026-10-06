@@ -2,24 +2,27 @@
 type: concept
 name: Weight-Activation Quantization
 aliases:
-  - Weight and Activation Quantization
-  - W-A Quantization
-  - 权重激活量化
+  - "Weight and Activation Quantization"
+  - "W-A Quantization"
+  - "W8A8"
+  - "Weight 8 Activation 8"
+  - "8-bit Weight Activation Quantization"
+  - "权重激活量化"
+  - "权重8比特激活8比特"
 domain: quantization
 topic: quantization
 parent_concepts:
   - Quantization
 related_concepts:
-  - Weight-Only Quantization
-  - W8A8
-  - FP8 Quantization
-  - FP4 Quantization
+  - "Weight-Only Quantization"
+  - "FP8 Quantization"
+  - "FP4 Quantization"
 projects:
   - vLLM
   - msModelSlim
   - DeepGEMM
   - TileKernels
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Weight-Activation Quantization
@@ -44,9 +47,7 @@ kernel 需要同时理解 weight format、activation format 和 scale layout，�
 
 ## 子概念
 
-- [[W8A8]]：W/A 都是 8bit 的常见部署形态。
-- [[FP8 Quantization]]：使用 E4M3/E5M2/MXFP8 等浮点 8bit format。
-- [[FP4 Quantization]]：进一步降低到 4bit floating/microscaling 路径。
+常见部署形态包括 W8A8、W4A8、FP8 W/A 和 MXFP8/MXFP4 等。这里不再为单一 bit-width 组合（例如 W8A8）单独建立 canonical node；bit width、dtype、scale granularity 和 backend 应作为该机制的配置维度记录。
 
 ## 项目实现
 
