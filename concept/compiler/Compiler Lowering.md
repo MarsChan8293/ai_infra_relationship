@@ -11,8 +11,9 @@ topic: kernel-compilation
 parent_concepts:
   - Kernel Compiler Pipeline
 related_concepts:
-  - Backend Code Generation
-  - Layout Optimization
+  - "Layout Optimization"
+  - "Kernel DSL"
+  - "JIT Kernel Compilation"
 projects:
   - NineToothed
   - TileLang
@@ -20,7 +21,7 @@ projects:
   - TileLang-MLIR-Ascend
   - Triton
   - FlagTree
-last_verified: "2026-10"
+last_verified: 2026-10
 ---
 
 # Compiler Lowering
@@ -47,7 +48,7 @@ Lowering 就是把这些隐含决策逐步变成可执行细节。
 
 ## 与 Code Generation 的区别
 
-[[Backend Code Generation]] 更接近最终目标代码输出；Lowering 是更广的转换过程，可以发生多次，例如：
+最终 backend code generation 更接近目标代码输出；Lowering 是更广的转换过程，可以发生多次，例如：
 
 `Tile IR → loop/memory IR → GPU IR → LLVM/PTX`
 

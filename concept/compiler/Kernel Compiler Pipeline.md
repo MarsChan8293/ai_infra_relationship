@@ -8,20 +8,22 @@ aliases:
 domain: compiler
 topic: kernel-compilation
 related_concepts:
-  - Kernel DSL
-  - Compiler Lowering
-  - Backend Code Generation
-  - JIT Kernel Compilation
-  - Ahead-of-Time Compilation
+  - "Kernel DSL"
+  - "Compiler Lowering"
+  - "JIT Kernel Compilation"
+  - "Autotuning"
+  - "Layout Optimization"
 projects:
-  - NineToothed
-  - TileLang
-  - Triton
-  - FlagTree
-  - CAKE
-  - Event Tensor
-  - Mirage Persistent Kernel
-  - CANNBot-DSL
+  - "NineToothed"
+  - "TileLang"
+  - "TileLang-Ascend"
+  - "TileLang-MLIR-Ascend"
+  - "Triton"
+  - "FlagTree"
+  - "CAKE"
+  - "Event Tensor"
+  - "Mirage Persistent Kernel"
+  - "CANNBot-DSL"
 last_verified: 2026-10
 ---
 
@@ -43,8 +45,10 @@ Kernel Compiler Pipeline 是把上层 kernel/DSL 表达逐步转换为目标 GPU
 2. **High-level IR**：保留 tile、tensor、layout 等语义。
 3. **[[Compiler Lowering]]**：逐步显式化循环、memory、thread、instruction。
 4. **Optimization passes**：fusion、layout、pipeline、vectorization、canonicalization。
-5. **[[Backend Code Generation]]**：生成 CUDA、HIP、Triton、TileLang backend 或 vendor-specific code。
-6. **Materialization**：通过 [[JIT Kernel Compilation]] 或 [[Ahead-of-Time Compilation]] 生成 binary / executable artifact。
+5. **Backend code generation**：生成 CUDA/HIP、PTX/ISA、Ascend/vendor code、host launcher 或其他 target artifact。
+6. **Materialization**：可以运行时 [[JIT Kernel Compilation]]，也可以在构建/部署阶段 AOT 生成 cubin/hsaco/object/shared library。
+
+Backend codegen 与 AOT/JIT 都是 compiler pipeline 的阶段/执行模式，本仓库不再把“codegen”或“AOT”作为单独 canonical concept。
 
 ## 为什么要分层
 
@@ -52,13 +56,9 @@ Kernel Compiler Pipeline 是把上层 kernel/DSL 表达逐步转换为目标 GPU
 
 ## 项目实现
 
-[[community/InfiniTensor/NineToothed|NineToothed]] 已公开 SSA compiler pipeline、pass/backend registry 和 multi-backend runtime；[[community/tile-ai/TileLang/TileLang|TileLang]] 在 TVM 基础上具有 frontend、layout inference、pass pipeline 和 device/host codegen；[[community/triton-lang/Triton/Triton|Triton]] 通过 Triton/MLIR dialect 逐层 lower 到 GPU code；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 基于 Triton 体系扩展多后端 code generation。
+[[community/InfiniTensor/NineToothed|NineToothed]] 已公开 SSA compiler pipeline、pass/backend registry、AOT 与 architecture-aware artifact caching；[[community/tile-ai/TileLang/TileLang|TileLang]] 具有 frontend、layout inference、pass pipeline 和 device/host codegen；[[community/tile-ai/TileLang/TileLang-Ascend|TileLang-Ascend]] 与 [[community/tile-ai/TileLang/TileLang-MLIR-Ascend|TileLang-MLIR-Ascend]] 把同类 pipeline lower/codegen 到 AscendC/PTO/NPU IR 与 MLIR/AscendNPU IR；[[community/triton-lang/Triton/Triton|Triton]] 通过 Triton/MLIR dialect 逐层 lower 到 GPU code；[[community/flagos-ai/FlagTree/FlagTree|FlagTree]] 扩展多后端 code generation。
 
-[[community/research/CAKE/CAKE|CAKE]] 展示了面向 Agent 的 compiler pipeline 设计：硬件显式 CAKE IR、verifier、cost model 与 localized diagnostics 一起构成可被 Agent 搜索和演化的编译接口。
-
-[[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]] 把 tensor program lower 为 SM-level task graph，并由 in-kernel runtime 执行 single megakernel；[[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]] 则进一步把动态 shape 与 data-dependent task dependency 作为一等 compiler abstraction，用 static + dynamic scheduling 生成 dynamic megakernel。
-
-[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 在 Ascend 侧公开 Host / Kernel / AI CPU API、compiler backend、AOT 与 Native package 路径，是 Agent-generated NPU kernel 从 DSL 到可部署 artifact 的一条新编译链。
+[[community/research/CAKE/CAKE|CAKE]] 展示 Agent-facing compiler pipeline；[[university/Carnegie Mellon University/Catalyst Group/Mirage Persistent Kernel|Mirage Persistent Kernel]] 与 [[university/Carnegie Mellon University/Catalyst Group/Event Tensor|Event Tensor]] 展示 dynamic/persistent kernel lowering；[[community/Ascend/CANNBot-DSL/CANNBot-DSL|CANNBot-DSL]] 在 Ascend 侧公开 compiler backend、AOT 与 Native package materialization。
 
 ## Sources
 
