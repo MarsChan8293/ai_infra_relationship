@@ -182,6 +182,31 @@ jobs:
           config.configuration.locale = "zh-CN"
           config.configuration.baseUrl = process.env.SITE_BASE_URL
 
+          // Quartz v5 disables the entire right sidebar on folder/tag pages by
+          // default. Project folder-notes such as Mooncake/Mooncake.md are
+          // rendered as folder pages, so that default hides their Graph and
+          // Backlinks even when incoming wikilinks exist. Restore the normal
+          // sidebar on both page types; retain the reader-mode exclusion.
+          for (const pageType of ["folder", "tag"]) {
+            const rule = config.layout?.byPageType?.[pageType]
+            if (!rule) throw new Error(`Quartz layout is missing ${pageType} page type`)
+            if (rule.positions) delete rule.positions.right
+            if (Array.isArray(rule.exclude)) {
+              rule.exclude = rule.exclude.filter((name) =>
+                !["graph", "backlinks"].includes(name),
+              )
+            }
+          }
+
+          for (const name of ["graph", "backlinks"]) {
+            const plugin = (config.plugins ?? []).find((p) =>
+              String(p.source ?? "").endsWith(`/${name}`),
+            )
+            if (!plugin?.enabled || plugin.layout?.position !== "right") {
+              throw new Error(`Quartz ${name} must be enabled in the right sidebar`)
+            }
+          }
+
           for (const plugin of config.plugins ?? []) {
             const source = String(plugin.source ?? "")
             if (source.includes("footer")) {
@@ -232,6 +257,9 @@ jobs:
             --data "$QUARTZ_DIR/public/graph-explorer/data.json" \
             --public-root "$QUARTZ_DIR/public" \
             --base-path "/ai_infra_relationship"
+
+      - name: Audit Quartz folder and tag sidebars
+        run: python3 scripts/audit-quartz-sidebar.py --public "$QUARTZ_DIR/public"
 
       - name: Audit generated internal links
         run: python3 scripts/check-internal-links.py "$QUARTZ_DIR/public" "/ai_infra_relationship"
