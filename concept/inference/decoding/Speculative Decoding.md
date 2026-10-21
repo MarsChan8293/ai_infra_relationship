@@ -13,6 +13,7 @@ related_concepts:
   - "Self-Speculative Decoding"
   - "Multi-token Prediction"
 projects:
+  - "DeepInfer"
   - "vLLM"
   - "SGLang"
   - "Splash"
@@ -67,6 +68,10 @@ Speculative Decoding 先用更便宜的方法一次提出多个候选 token，�
 Serving/runtime 侧，[[community/vllm-project/vLLM/vLLM|vLLM]]、[[community/sgl-project/SGLang/SGLang|SGLang]]、[[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]、[[community/huggingface/Transformers/Transformers|Transformers]]、[[community/ashhart/TensorFold/TensorFold|TensorFold]]、[[company/Intel/OpenVINO GenAI|OpenVINO GenAI]] 和 [[community/incoai/Splash/Splash|Splash]] 都公开支持 speculative / assisted decoding 路径。
 
 训练与专用优化侧，[[community/sgl-project/SpecForge/SpecForge|SpecForge]]、[[community/vllm-project/Speculators/Speculators|Speculators]]、[[community/lightseekorg/TorchSpec/TorchSpec|TorchSpec]]、[[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]] 覆盖 draft-model training / deployment；[[community/kaist-flexml-lab/LoopSpec/LoopSpec|LoopSpec]] 提供 self-speculation；[[community/lmsys-org/Lookahead-Decoding/Lookahead-Decoding|Lookahead Decoding]] 以 Jacobi/n-gram trajectory 做 exact parallel decoding。
+
+## DeepInfer 相关实现
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 官方 README 列出相应并行/解码能力；限于当前 V4.1 Flash 与 SM100、Ascend 950 的公开支持范围，不能据此推断已覆盖其他架构或完整在线集群服务。来源：https://github.com/deepseek-ai/DeepInfer 。
 
 ## Sources
 

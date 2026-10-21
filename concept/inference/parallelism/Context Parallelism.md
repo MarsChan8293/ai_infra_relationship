@@ -14,8 +14,9 @@ related_concepts:
   - Tensor Parallelism
   - P-D Disaggregation
 projects:
+  - "DeepInfer"
   - vLLM
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Context Parallelism
@@ -48,6 +49,10 @@ CP 能降低单 rank 的 context 内存压力，但 attention 需要跨 rank 获
 ## 项目实现
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 当前 ParallelConfig 暴露 `prefill_context_parallel_size` 与 `decode_context_parallel_size`，并有独立 Context Parallel Deployment 文档。
+
+## DeepInfer 相关实现
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 官方 README 列出相应并行/解码能力；限于当前 V4.1 Flash 与 SM100、Ascend 950 的公开支持范围，不能据此推断已覆盖其他架构或完整在线集群服务。来源：https://github.com/deepseek-ai/DeepInfer 。
 
 ## Sources
 

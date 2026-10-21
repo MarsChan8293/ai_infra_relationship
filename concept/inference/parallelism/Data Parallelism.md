@@ -12,8 +12,9 @@ parent_concepts:
 related_concepts:
   - Expert Parallelism
 projects:
+  - "DeepInfer"
   - vLLM
-last_verified: 2026-09
+last_verified: 2026-10
 ---
 
 # Data Parallelism
@@ -41,6 +42,10 @@ DP 会复制权重或逻辑模型实例，因此显存开销高于把同一份�
 ## 项目实现
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 提供 data parallel deployment 与 internal/external load balancing 模式，并允许 DP 与 TP/EP 等组合。
+
+## DeepInfer 相关实现
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 官方 README 列出相应并行/解码能力；限于当前 V4.1 Flash 与 SM100、Ascend 950 的公开支持范围，不能据此推断已覆盖其他架构或完整在线集群服务。来源：https://github.com/deepseek-ai/DeepInfer 。
 
 ## Sources
 

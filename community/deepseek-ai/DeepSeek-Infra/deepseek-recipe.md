@@ -20,6 +20,10 @@ deepseek-recipe 是 DeepSeek 2026-09 开源的 serving glue layer：用 Rust lib
 ## 技术定位
 支持 Messages、Chat Completions、Responses、streaming response、thinking、client tool calls 与 V4.1 image preprocessing。README 明确说明 **model inference、tool execution、HTTP transport 由外部提供**，因此它不是 inference engine，而是 API service 与 inference backend 之间的 protocol / encoding adapter。
 
+## 与 DeepInfer 的关系
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 负责 V4.1 Flash 模型推理执行，本项目负责 API 请求、prompt 与输出解析，两者位于相邻系统层；当前不应据此宣称两仓已提供完整 HTTP 在线服务。
+
 ## 初始贡献线索
 初始提交公开 co-author trailers：`xinchengxx`、`XieJiSS`、`yqaty`、`zhu-he`、`season-guo`，均使用公开 `@deepseek.com` 地址。当前缺少稳定实名消歧，本轮不创建人物节点，也不把 handle 自动视作 maintainer。
 

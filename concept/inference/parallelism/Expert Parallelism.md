@@ -13,6 +13,7 @@ related_concepts:
   - Data Parallelism
   - Tensor Parallelism
 projects:
+  - "DeepInfer"
   - vLLM
   - DeepEP
   - DeepEP-Ascend
@@ -55,6 +56,10 @@ EP 的关键瓶颈不是只有 expert GEMM，还包括 token dispatch、All-to-A
 
 ## DeepSeek 新增实现证据
 [[community/deepseek-ai/DeepSeek-Infra/DeepEP-Ascend|DeepEP-Ascend]] 是 DeepEP 的 Ascend 实现，核心 EPBuffer 对齐 MoE dispatch/combine API。
+
+## DeepInfer 相关实现
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 官方 README 列出相应并行/解码能力；限于当前 V4.1 Flash 与 SM100、Ascend 950 的公开支持范围，不能据此推断已覆盖其他架构或完整在线集群服务。来源：https://github.com/deepseek-ai/DeepInfer 。
 
 ## Sources
 

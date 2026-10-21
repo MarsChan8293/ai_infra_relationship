@@ -127,6 +127,7 @@ vLLM 采用公开 governance。核心贡献者分布于 [[Inferact]]、[[Red Hat
 - [[Mooncake]] / [[NIXL]]：disaggregated serving、远程 KV/data movement。
 - [[llm-d]]：Kubernetes distributed inference 的调度、routing 与 data plane。
 - [[vLLM-Ascend]]：Ascend NPU hardware plugin/backend。
+- [[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]]：DeepSeek 官方承认该专用引擎最初主要基于 vLLM 开发，是历史代码/架构继承关系，不能记作 vLLM 的 runtime plugin。
 - [[FlashInfer]]：高性能 attention/GEMM/MoE kernel 生态。
 - [[UC Berkeley]]：项目最早的研究与人才源头之一，并进一步连接 [[Inferact]]。
 

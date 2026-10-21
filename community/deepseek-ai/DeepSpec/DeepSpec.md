@@ -35,6 +35,10 @@ DeepSpec README 给出的 DSpark 论文作者网络包含：
 ## 技术定位
 DeepSpec 关注通过 draft model 提高 token generation 效率。DSpark 使用 confidence-scheduled speculative decoding 与 semi-autoregressive generation，属于推理执行层的直接加速路径，与 [[community/deepseek-ai/DeepSeek-Infra/FlashMLA|FlashMLA]]、[[community/deepseek-ai/DeepSeek-Infra/DeepGEMM|DeepGEMM]] 等 kernel 层项目互补。
 
+## 与 DeepInfer 的关系
+
+[[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]] 在推理引擎执行路径内实现 DSpark 和 confidence-scheduled verification；DeepSpec 主要公开 draft-model 训练、评估与相关研究代码。共享 DSpark 技术线不应误记为直接软件集成。
+
 ## 图谱意义
 对章明星 BFS 而言，DeepSpec 是 `Shaoyuan Chen → DeepSeek speculative decoding → Wenfeng Liang / DeepSeek research network` 的第三跳，使 MADSys 人才迁移不只停留在“去了 DeepSeek”，而能继续落到具体 inference 技术项目。
 

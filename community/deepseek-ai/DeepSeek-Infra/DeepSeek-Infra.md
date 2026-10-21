@@ -82,6 +82,7 @@ DeepSeek 将一组关键推理组件扩展到 Huawei Ascend：[[DeepGEMM-Ascend]
 本次 DISCOVER 还发现了不应硬塞进 Open Infra 2025 子项目列表、但对 AI Infra 很重要的独立项目：
 - [[community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness|DeepSeek Harness (dsh)]]：everything-is-a-plugin 的 agent harness / runtime，基于 [[community/cordiverse/Cordis/Cordis|Cordis]]，提供 Web/headless/SDK/ACP profiles、MCP、sandbox、session event log 与可替换 model/tool/agent-loop seams。
 - [[community/deepseek-ai/Engram/Engram|Engram]]：Conditional Memory / scalable lookup 模块；官方实现强调 deterministic addressing 与 host-memory offload，和 [[DeepEP-Ascend]] 暴露的 EngramBuffer / remote-memory data plane 形成模型机制 ↔ 通信基础设施连接。
+- [[community/deepseek-ai/DeepInfer/DeepInfer|DeepInfer]]：2026-10 开源的 V4.1 Flash 高性能推理引擎；公开范围以离线推理及核心执行优化为主，在线 KV/PD/DP replica LB 尚需外部组件。
 - [[community/deepseek-ai/DeepSpec/DeepSpec|DeepSpec]]：speculative decoding 全栈。
 - [[community/deepseek-ai/DualPath/DualPath|DualPath]]：agentic inference / disaggregated KV-cache storage I/O 研究线。
 
