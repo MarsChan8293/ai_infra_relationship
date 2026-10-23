@@ -51,6 +51,7 @@ projects:
   - "AVO"
   - "KernelBlaster"
   - "TileGym"
+  - "Flare"
 linked_projects:
   - "community/NVIDIA/AVO/AVO"
   - "community/NVIDIA/CUTLASS/CUTLASS"
@@ -78,6 +79,7 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/ai-dynamo/Dynamo/Dynamo|Dynamo]]：**发起 / 主导**，数据中心级 distributed inference orchestration。
 - [[community/ai-dynamo/NIXL/NIXL|NIXL]]：**发起 / 主导**，inference data movement / memory abstraction。
 - [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：**公司主导维护**的 LLM runtime / kernel stack。
+- [[community/NVIDIA/Flare/Flare|Flare]]：**公司开源研究原型**，面向 SM120/SM121 工作站与本地 Agent 推理。
 - [[community/NVIDIA/KDA/KDA|KDA]]：**NVLabs 项目**，面向 CUDA kernel research / implementation / verification / profiling / benchmark 的 agent-centric optimization workflow。
 - [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：**公司主导维护**的 production inference server。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：**跨公司 maintainer / accelerator ecosystem contributor**，不是 NVIDIA 独占项目。

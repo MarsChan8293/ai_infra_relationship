@@ -35,7 +35,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `ray-project`：[[Ray-Serve]]
 - `sgl-project`：[[SGLang]] · [[mini-SGLang]]
 - `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
-- `NVIDIA`：[[TensorRT-LLM]]
+- `NVIDIA`：[[TensorRT-LLM]] · [[community/NVIDIA/Flare/Flare|Flare]]
 - `tile-ai`：[[TileLang]]
 - `LancerLab`：[[Croqtile]]
 - `lightseekorg`：[[TokenSpeed]]
@@ -81,10 +81,10 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Croqtile]] | [[company/燧原科技/燧原科技|燧原科技]] | 上海交大 × 燧原联合实验室 / 核心工程贡献 |
 
 ## Serving Engine
-[[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
+[[community/NVIDIA/Flare/Flare|Flare]] · [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
 
 ## Local / Edge Inference
-[[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
+[[community/NVIDIA/Flare/Flare|Flare]] · [[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]] · [[torch_musa]]
