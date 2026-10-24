@@ -52,6 +52,15 @@ projects:
   - "KernelBlaster"
   - "TileGym"
   - "Flare"
+  - "TensorRT Edge-LLM"
+  - "TensorRT"
+  - "TensorRT-RTX"
+  - "FasterTransformer"
+  - "TensorRT-LLM Backend"
+  - "vLLM Backend"
+  - "ModelExpress"
+  - "Model Optimizer"
+  - "Torch-TensorRT"
 linked_projects:
   - "community/NVIDIA/AVO/AVO"
   - "community/NVIDIA/CUTLASS/CUTLASS"
@@ -80,13 +89,22 @@ NVIDIA 是当前 AI 计算基础设施最核心的 GPU、互联与软件平台�
 - [[community/ai-dynamo/NIXL/NIXL|NIXL]]：**发起 / 主导**，inference data movement / memory abstraction。
 - [[community/NVIDIA/TensorRT-LLM/TensorRT-LLM|TensorRT-LLM]]：**公司主导维护**的 LLM runtime / kernel stack。
 - [[community/NVIDIA/Flare/Flare|Flare]]：**公司开源研究原型**，面向 SM120/SM121 工作站与本地 Agent 推理。
+- [[community/NVIDIA/TensorRT-Edge-LLM/TensorRT-Edge-LLM|TensorRT Edge-LLM]]：**NVIDIA 边缘 LLM/VLM Runtime**，聚焦 Jetson/DRIVE/DGX Spark 与 C++ Serving。
+- [[TensorRT]]：通用神经网络推理 SDK；GitHub 提供 OSS 插件、ONNX Parser 和示例，**并非完整 GA SDK 开源**。
+- [[TensorRT-RTX]]：面向 RTX PC/工作站的 TensorRT SDK 和 Runtime JIT 方案；仓库为配套开源组件。
+- [[FasterTransformer]]：历史 CUDA Transformer 推理实现，README 明确表示后续开发转向 TensorRT-LLM。
+- [[community/NVIDIA/Model-Optimizer/Model-Optimizer|Model Optimizer]]：NVFP4/FP8 量化、模型剪枝、蒸馏和优化导出工具，非 Serving Engine。
+- [[ModelExpress]]：归属 ai-dynamo 组织，提供权重/JIT Cache 分发与启动加速（NIXL/RDMA/GDS）。
+- [[TensorRT-LLM-Backend]] / [[vLLM-Backend]]：Triton 的引擎接入层，不应误当两套独立计算引擎。
+- [[Torch-TensorRT]]：PyTorch 社区仓库，NVIDIA 参与维护的 PyTorch → TensorRT 编译/部署集成。
+
 - [[community/NVIDIA/KDA/KDA|KDA]]：**NVLabs 项目**，面向 CUDA kernel research / implementation / verification / profiling / benchmark 的 agent-centric optimization workflow。
 - [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]]：**公司主导维护**的 production inference server。
 - [[community/Project-HAMi/HAMi/HAMi|HAMi]]：**跨公司 maintainer / accelerator ecosystem contributor**，不是 NVIDIA 独占项目。
 - [[community/lightseekorg/TokenSpeed/TokenSpeed|TokenSpeed]]：LightSeek Foundation 治理下的**共同创建/工程协作方**，并通过 Dynamo 提供 day-0 backend 支持。
 
 ## 图谱中的连接
-[[TensorRT-LLM]] · [[community/NVIDIA/KDA/KDA|KDA]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
+[[TensorRT-LLM]] · [[TensorRT]] · [[TensorRT-RTX]] · [[TensorRT-Edge-LLM]] · [[Model-Optimizer]] · [[ModelExpress]] · [[Torch-TensorRT]] · [[TensorRT-LLM-Backend]] · [[vLLM-Backend]] · [[community/NVIDIA/KDA/KDA|KDA]] · [[community/triton-inference-server/Triton-Inference-Server/Triton-Inference-Server|Triton Inference Server]] · [[Dynamo]] · [[NIXL]] · [[FlashInfer]] · [[vLLM]] · [[SGLang]]。其中 TensorRT-LLM/Triton 是 NVIDIA 主导项目，Dynamo/NIXL 在 ai-dynamo 组织开放开发；与 vLLM/SGLang 的关系则更多是生态适配与合作，需按人物证据单独建边。
 
 <!-- BEGIN AUTO COMPANY PEOPLE -->
 ## 关联人物（自动汇总）
