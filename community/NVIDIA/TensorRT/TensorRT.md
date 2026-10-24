@@ -30,7 +30,7 @@ GitHub 仓库为 **TensorRT-OSS**，包括插件、ONNX Parser、示例等公开
 ## 技术定位
 - [[TensorRT-LLM]]：基于 NVIDIA 推理栈的 LLM 专用能力，独立项目。
 - [[TensorRT-RTX]]：面向 RTX 设备的小型 TensorRT SDK，提供运行时 JIT 优化。
-- [[TensorRT Edge-LLM]]：利用 TensorRT Builder 和 Runtime 面向 Jetson/DRIVE/DGX Spark。
+- [[community/NVIDIA/TensorRT-Edge-LLM/TensorRT-Edge-LLM|TensorRT Edge-LLM]]：利用 TensorRT Builder 和 Runtime 面向 Jetson/DRIVE/DGX Spark。
 - [[Torch-TensorRT]]：从 PyTorch 进入 TensorRT 编译/部署的路径。
 与 vLLM/SGLang 的 Token Scheduling、KV Cache 和多租户服务抽象不是同一层。
 
