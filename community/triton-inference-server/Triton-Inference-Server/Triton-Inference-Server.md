@@ -22,6 +22,8 @@ hardware:
   - "cpu"
 integrations:
   - "TensorRT-LLM"
+  - "TensorRT-LLM Backend"
+  - "vLLM Backend"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
 code_availability: public
@@ -41,7 +43,7 @@ https://github.com/triton-inference-server/server
 由 [[NVIDIA]] / Triton Inference Server 社区维护，具体 backend 通常分布在多个仓库与子项目中。
 
 ## 生态关系
-[[TensorRT-LLM]] · [[Dynamo]] · [[NVIDIA]]。在本图谱中它代表较通用的模型服务器层，TensorRT-LLM 代表 LLM runtime，Dynamo 代表数据中心级 orchestration。
+[[TensorRT-LLM]] · [[TensorRT-LLM-Backend]] · [[vLLM-Backend]] · [[Dynamo]] · [[NVIDIA]]。在本图谱中它代表较通用的模型服务器层，TensorRT-LLM 代表 LLM runtime，Dynamo 代表数据中心级 orchestration。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
