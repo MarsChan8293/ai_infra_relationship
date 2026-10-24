@@ -43,6 +43,19 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `triton-inference-server`：[[Triton-Inference-Server]] · [[TensorRT-LLM-Backend]] · [[vLLM-Backend]]
 - `sii-research`：[[VCCL]]
 - `llm-d`：[[llm-d]]
+- `JustVugg`：[[community/JustVugg/Colibri/Colibri|Colibri]]
+- `antirez`：[[community/antirez/ds4/ds4|ds4]]
+- `Avarok-Cybersecurity`：[[community/Avarok-Cybersecurity/Atlas/Atlas|Atlas]]
+- `HawkBearPig`：[[community/HawkBearPig/DGPP/DGPP|DGPP]]
+- `sf-stav`：[[community/sf-stav/veloGB10/veloGB10|veloGB10]]
+- `kindlingai`：[[community/kindlingai/gr8/gr8|gr8]]
+- `rdaum`：[[community/rdaum/Eider/Eider|Eider]]
+- `Metrale`：[[community/Metrale/Metrale-Engine/Metrale-Engine|Metrale Engine]]
+- `spark-arena`：[[community/spark-arena/SparkRun/SparkRun|SparkRun]]
+- `tpurtell`：[[community/tpurtell/DS41RT/DS41RT|DS41RT]]
+- `gpillon`：[[community/gpillon/Ignis/Ignis|Ignis]]
+- `gittensor-ai-lab`：[[community/gittensor-ai-lab/SparkInfer/SparkInfer|SparkInfer]]
+- `jesdga95`：[[community/jesdga95/Basalt/Basalt|Basalt]]
 
 ## 公司关系字段
 所有项目主节点统一使用 `companies` 表示**主要公司贡献/维护关系**，并用 `company_relation` 描述关系性质。`companies` 不是赞助商、用户或兼容厂商列表；只有原始发起、founding contributor、core maintainer network、长期工程贡献等强证据才进入。学术/社区主导且没有明确主要公司的项目使用 `companies: []`。`companies` 使用公司 canonical 实体名；中国公司统一使用中文 canonical 名称。
@@ -81,6 +94,14 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[FlashInfer]] | 暂无单一主要公司 | 学术/开源社区 + 产业贡献 |
 | [[TileLang]] | 暂无单一主要公司 | 北大/MSRA 研究起源 |
 | [[Croqtile]] | [[company/燧原科技/燧原科技|燧原科技]] | 上海交大 × 燧原联合实验室 / 核心工程贡献 |
+
+## Blackwell（DGX Spark SM121 / RTX PRO 6000 SM120）推理生态
+完整的硬件能力、验证等级、主构建限制与 GitHub URL 见 [[community/Blackwell-Inference-Hardware-Matrix|Blackwell 推理硬件适配矩阵]]。该矩阵区分实际设备验证、目标架构兼容和仍需移植，避免将同属 Blackwell 视为即插即用。
+
+- **DGX Spark 原生/多机引擎**：[[community/antirez/ds4/ds4|ds4]] · [[community/Avarok-Cybersecurity/Atlas/Atlas|Atlas]] · [[community/HawkBearPig/DGPP/DGPP|DGPP]] · [[community/sf-stav/veloGB10/veloGB10|veloGB10]] · [[community/kindlingai/gr8/gr8|gr8]] · [[community/rdaum/Eider/Eider|Eider]] · [[community/Metrale/Metrale-Engine/Metrale-Engine|Metrale Engine]]
+- **RTX PRO 6000 / SM120 引擎**：[[community/gpillon/Ignis/Ignis|Ignis]] · [[community/tpurtell/DS41RT/DS41RT|DS41RT]] · [[community/gittensor-ai-lab/SparkInfer/SparkInfer|SparkInfer]] · [[community/jesdga95/Basalt/Basalt|Basalt]]（SM120 兼容、具体 SKU 待测）
+- **异构与分层部署**：[[community/JustVugg/Colibri/Colibri|Colibri]]（RAM/SSD Expert Streaming） · [[community/tpurtell/DS41RT/DS41RT|DS41RT]]（Attention–FFN Disaggregation） · [[community/spark-arena/SparkRun/SparkRun|SparkRun]]（DGX Spark 部署管理，非计算引擎）
+- **已有 NVIDIA 官方路线**：[[community/NVIDIA/Flare/Flare|Flare]] · [[community/NVIDIA/TensorRT-Edge-LLM/TensorRT-Edge-LLM|TensorRT Edge-LLM]]
 
 ## Serving Engine
 [[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[FasterTransformer]]（历史项目） · [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
