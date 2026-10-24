@@ -39,7 +39,7 @@ TensorRT Edge-LLM 是 NVIDIA 针对 Jetson、DRIVE 和 DGX Spark 的端侧 LLM/V
 
 ## 关联
 - [[TensorRT]]：直接引擎构建/执行依赖。
-- [[Model Optimizer]]：量化与导出链路参考，实际 Checkpoint 需具体验证。
+- [[community/NVIDIA/Model-Optimizer/Model-Optimizer|Model Optimizer]]：量化与导出链路参考，实际 Checkpoint 需具体验证。
 - [[TensorRT-LLM]]、[[community/NVIDIA/Flare/Flare|Flare]]：技术路线对照，**不是直接依赖或互换运行时**。
 
 ## Sources
