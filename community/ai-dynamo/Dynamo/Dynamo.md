@@ -44,6 +44,7 @@ integrations:
   - "SGLang"
   - "TensorRT-LLM"
   - "NIXL"
+  - "ModelExpress"
 linked_companies:
   - "company/NVIDIA/NVIDIA"
 code_availability: public
@@ -65,6 +66,7 @@ https://github.com/ai-dynamo/dynamo
 ## 生态关系
 - Engines：[[vLLM]] · [[SGLang]] · [[TensorRT-LLM]]
 - Data movement：[[NIXL]]
+- 模型权重与 JIT Cache 分发：[[ModelExpress]]；负责冷启动加载路径，不等于 KV Cache 控制面。
 - Company：[[NVIDIA]]
 - Kubernetes：承载大规模部署与 operator 能力。
 
