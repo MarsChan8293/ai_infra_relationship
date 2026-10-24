@@ -37,7 +37,7 @@ Ignis 是 Rust Core + C++/CUDA GPU Execution 的单卡、模型专用、面向 A
 - 性能表的 RTX 5090 测试与 6000 Profile 需分别记录，不能推定 PCIe/DRAM/显存容量改变不会影响性能。
 
 ## 关系与对比
-[[community/Neroued/NInfer/NInfer|NInfer]]、[[community/jesdga95/Basalt/Basalt|Basalt]] 和 [[community/NVIDIA/Flare/Flare|Flare]] 为专用引擎技术对照。
+[NInfer](https://github.com/Neroued/ninfer)（尚未在本批次建立独立节点）、[[community/jesdga95/Basalt/Basalt|Basalt]] 和 [[community/NVIDIA/Flare/Flare|Flare]] 为专用引擎技术对照。
 
 ## 来源
 - https://github.com/gpillon/ignis
