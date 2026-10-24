@@ -38,6 +38,7 @@ integrations:
   - "NVIDIA Dynamo"
   - "LMCache"
   - "UCX"
+  - "ModelExpress"
 linked_companies:
   - "company/HPE/HPE"
   - "company/NVIDIA/NVIDIA"
@@ -58,7 +59,7 @@ https://github.com/ai-dynamo/nixl
 由 NVIDIA 发起并在 ai-dynamo 组织下开放开发，连接 UCX、libfabric、GPU Direct 等底层传输生态。
 
 ## 生态关系
-[[Dynamo]] · [[vLLM]] · [[LMCache]] · [[Mooncake]] · [[AMD]] · [[Amazon]] · [[HPE]] · [[Databricks]]。NIXL 位于 engine 与具体传输/storage backend 之间，是数据面而非调度器。
+[[Dynamo]] · [[ModelExpress]] · [[vLLM]] · [[LMCache]] · [[Mooncake]] · [[AMD]] · [[Amazon]] · [[HPE]] · [[Databricks]]。NIXL 位于 engine 与具体传输/storage backend 之间，是数据面而非调度器。
 
 <!-- BEGIN AUTO PROJECT PEOPLE -->
 ## 关联人物（自动汇总）
