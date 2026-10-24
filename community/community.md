@@ -15,7 +15,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 
 ### 主要组织 → 项目（人工导航）
 - `vllm-project`：[[AIBrix]] · [[vLLM]] · [[vLLM-Ascend]]
-- `ai-dynamo`：[[Dynamo]] · [[NIXL]]
+- `ai-dynamo`：[[Dynamo]] · [[NIXL]] · [[ModelExpress]]
 - `kvcache-ai`：[[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[KTransformers]] · [[Mooncake]]
 - `Ascend`：[[Ascend]] · [[CANN]] · [[MemCache]] · [[MemFabric]] · [[MindIE-LLM]] · [[MindIE-Motor]] · [[MindIE-SD]] · [[msModelSlim]] · [[ops-transformer]]
 - `MetaX-MACA`：[[MetaX-MACA]] · [[vLLM-metax]] · [[mcoplib]] · [[MXDeepEP]]
@@ -27,6 +27,7 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `FlashML-org`：[[FreeToken]]
 - `hpcaitech`：[[Colossal-AI]]
 - `flashinfer-ai`：[[FlashInfer]]
+- `pytorch`：[[Torch-TensorRT]]
 - `Project-HAMi`：[[HAMi]]
 - `LMCache`：[[LMCache]]
 - `InternLM`：[[LMDeploy]]
@@ -35,11 +36,11 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `ray-project`：[[Ray-Serve]]
 - `sgl-project`：[[SGLang]] · [[mini-SGLang]]
 - `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
-- `NVIDIA`：[[TensorRT-LLM]] · [[community/NVIDIA/Flare/Flare|Flare]]
+- `NVIDIA`：[[TensorRT-LLM]] · [[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[TensorRT]] · [[TensorRT-RTX]] · [[FasterTransformer]] · [[Model-Optimizer]]
 - `tile-ai`：[[TileLang]]
 - `LancerLab`：[[Croqtile]]
 - `lightseekorg`：[[TokenSpeed]]
-- `triton-inference-server`：[[Triton-Inference-Server]]
+- `triton-inference-server`：[[Triton-Inference-Server]] · [[TensorRT-LLM-Backend]] · [[vLLM-Backend]]
 - `sii-research`：[[VCCL]]
 - `llm-d`：[[llm-d]]
 
@@ -54,7 +55,8 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[AIBrix]] | [[company/字节跳动/字节跳动|字节跳动]] | 原始开发 / 发起 |
 | [[Colossal-AI]] | [[company/潞晨科技/潞晨科技|潞晨科技]] | 发起 / 主导 |
 | [[DeepSeek-Infra]] / 3FS / DeepEP / DeepGEMM / DeepJIT / FlashMLA | [[company/深度求索/深度求索|深度求索]] | 发起 / 主导 |
-| [[Dynamo]] / [[NIXL]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
+| [[Dynamo]] / [[NIXL]] / [[ModelExpress]] / [[TensorRT-LLM]] / [[Triton-Inference-Server]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | 发起 / 主导 |
+| [[TensorRT]] / [[TensorRT-RTX]] / [[TensorRT-Edge-LLM]] / [[FasterTransformer]] / [[Model-Optimizer]] / [[Torch-TensorRT]] / [[TensorRT-LLM-Backend]] / [[vLLM-Backend]] | [[company/NVIDIA/NVIDIA|NVIDIA]] | NVIDIA 推理编译/部署工具链；FasterTransformer 已停止后续开发，Torch-TensorRT 托管于 PyTorch 组织 |
 | [[vLLM]] | [[company/Inferact/Inferact|Inferact]] · [[company/Red Hat/Red Hat|Red Hat]] · [[company/Meta/Meta|Meta]] · [[company/Hugging Face/Hugging Face|Hugging Face]] · [[company/TensorMesh/TensorMesh|TensorMesh]] | 跨公司 core contributor 网络 |
 | [[SGLang]] | [[company/RadixArk/RadixArk|RadixArk]] | core maintainer / 产业化网络 |
 | [[CANN]] | [[company/华为/华为|华为]] | 公司主导 / 全面开源开放 |
@@ -81,22 +83,25 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 | [[Croqtile]] | [[company/燧原科技/燧原科技|燧原科技]] | 上海交大 × 燧原联合实验室 / 核心工程贡献 |
 
 ## Serving Engine
-[[community/NVIDIA/Flare/Flare|Flare]] · [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
+[[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[FasterTransformer]]（历史项目） · [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
 
 ## Local / Edge Inference
-[[community/NVIDIA/Flare/Flare|Flare]] · [[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
+[[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[TensorRT-RTX]] · [[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
 
 ## Distributed Training / Framework
 [[OneFlow]] · [[Colossal-AI]] · [[FlagScale]] · [[torch_musa]]
 
 ## Compiler / Kernel DSL
-[[TileLang]] · [[Croqtile]] · [[FlagTree]]
+[[TileLang]] · [[Croqtile]] · [[FlagTree]] · [[Torch-TensorRT]]
+
+## NVIDIA Inference SDK / Model Optimization
+[[TensorRT]] · [[TensorRT-RTX]] · [[Model-Optimizer]]
 
 ## Kernel / Communication / KV
 [[FlashInfer]] · [[VCCL]] · [[DeepSeek-Infra]] · [[LMCache]] · [[community/kvcache-ai/KVCache.AI/KVCache.AI|KVCache.AI]] · [[Mooncake]] · [[MemCache]] · [[MemFabric]] · [[NIXL]] · [[FlagGems]] · [[FlagAttention]] · [[FlagCX]] · [[mcoplib]] · [[MATE]] · [[MXDeepEP]] · [[lmcache-iluvatar]]
 
 ## Distributed / Cloud Native
-[[Dynamo]] · [[llm-d]] · [[AIBrix]] · [[Triton-Inference-Server]]
+[[Dynamo]] · [[ModelExpress]] · [[llm-d]] · [[AIBrix]] · [[Triton-Inference-Server]] · [[TensorRT-LLM-Backend]] · [[vLLM-Backend]]
 
 ## FlagOS / Heterogeneous AI Stack
 [[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagTree]] · [[FlagCX]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
