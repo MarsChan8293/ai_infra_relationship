@@ -13,7 +13,8 @@ related_concepts:
 projects:
   - DeepSeek Harness
   - Humanize
-last_verified: "2026-10"
+  - EAT
+last_verified: "2026-11"
 ---
 # Agent Harness
 
@@ -27,6 +28,8 @@ Agent Harness 是承载 LLM agent 运行生命周期的 runtime / control layer�
 [[concept/inference/agent/Agent Skill|Agent Skill]] 封装领域知识、执行步骤和证据规则；Harness 则负责把 agent 真正运行起来。可以把两者理解为“Skill 决定某类任务怎么做，Harness 决定 agent 如何执行、授权、持久化和组合”。
 
 ## 项目实现
+[[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]] 是面向代码/算子优化的自演化多 Agent Harness：Supervisor 设计并重组团队，执行层负责分阶段启动 coding agents、持久化轨迹、执行官方 eval 与预算管理。不同于通用 API/tool agent runtime，其重点是让团队结构围绕可验证目标持续演化。
+
 [[community/deepseek-ai/DeepSeek-Harness/DeepSeek-Harness|DeepSeek Harness]] 把 model adapter、tool registry、session log、agent loop 等都做成 Cordis plugin，并提供 MCP、ACP、sandbox、Web/headless/SDK 等运行面，是典型的 Agent Harness 实现。
 
 [[community/humanfia/humanize/Humanize|Humanize]] 把 Claude Code、Codex、Kimi Code、DeepSeek Harness、LiteLLM / ACP 等 backend 组织成可执行 agent flow，更偏多 backend flow orchestration；其中 DeepSeek Harness 是其直接支持的 backend。
@@ -40,4 +43,5 @@ Agent Harness 也不自动等于 [[concept/inference/optimization/Agentic Infere
 - https://github.com/deepseek-ai/deepseek-harness
 - https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md
 - https://github.com/humanfia/humanize
+- https://github.com/caoshiyi/EAT
 - https://docs.humanfia.ai/humanize/
