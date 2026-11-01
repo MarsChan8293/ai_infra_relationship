@@ -20,8 +20,13 @@ ForgeTrain 是 OpenBMB 公开的 LLM pretraining framework。官方仓库在 202
 
 面壁智能官方产品/研究页面把 ForgeTrain 纳入其持续推进的高效模型与系统工作。本图谱因此把它作为面壁智能 AI Infra 线的 canonical infrastructure project，而不是只在公司正文里保留名字。
 
+## Forge 系列项目
+
+OpenBMB 同时发布 [[community/OpenBMB/ForgeKernel/ForgeKernel|ForgeKernel]]（自进化 GPU kernel agent / Harness）。两者同属官方 README 所述 Forge 系列，但职责分别是训练系统与算子优化；不应据此推断存在直接运行时集成。
+
 ## Sources
 - https://github.com/OpenBMB/ForgeTrain
+- https://github.com/OpenBMB/ForgeKernel
 - https://www.modelbest.cn/
 
 <!-- BEGIN AUTO COMMUNITY COMPANY LINKS -->
