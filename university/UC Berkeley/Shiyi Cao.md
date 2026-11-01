@@ -7,11 +7,11 @@ schools:
   - "UC Berkeley"
   - "上海交通大学"
 communities: [SGLang]
-projects: [MoE-Lightning]
+projects: [MoE-Lightning, EAT]
 areas: [llm-serving, moe-inference, rl-systems, heterogeneous-compute, agent-systems]
 roles: [PhD Student]
 confidence: verified
-last_verified: "2026-09"
+last_verified: "2026-11"
 relations:
   - '{"target":"company/Inferact/Ion Stoica","type":["advisor","paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://shiyicao.com/","https://shiyicao.com/data/Resume.pdf","https://doi.org/10.1145/3669940.3707267"]}'
   - '{"target":"company/Inferact/Joseph Gonzalez","type":["advisor","paper-coauthor","research-collaboration"],"confidence":"high","evidence":["https://shiyicao.com/","https://shiyicao.com/data/Resume.pdf"]}'
@@ -22,6 +22,7 @@ relations:
 UC Berkeley EECS 博士生，个人主页与 CV 明确写明由 [[company/Inferact/Ion Stoica|Ion Stoica]] 与 [[company/Inferact/Joseph Gonzalez|Joseph Gonzalez]] 共同指导，并隶属 [[university/UC Berkeley/Sky Computing Lab|Sky Computing Lab]] / BAIR。
 
 ## AI Infra 关系
+- [[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]]：NeurIPS 2026 第一作者，研究由 Supervisor 诊断停滞、自动重构 coding agent team 的通用优化 Harness；公开实现涵盖 GPU kernels 与推理系统代码优化。
 - [[university/UC Berkeley/MoE-Lightning|MoE-Lightning]]：ASPLOS 2025 第一作者，研究 memory-constrained GPU 上的高吞吐 MoE inference。
 - [[community/sgl-project/SGLang/SGLang|SGLang]]：Berkeley Sky 官方项目网络中的 collaborator，连接 Berkeley inference research 与开源 serving runtime。
 - SkyRL：共同 lead 的 full-stack RL library，进一步把高效 systems 工作延伸到 long-horizon agent training。
@@ -39,4 +40,6 @@ Shiyi Cao 把 Ion / Joseph 的 Sky systems 网络同时连接到 `MoE inference 
 - https://shiyicao.com/data/Resume.pdf
 - https://doi.org/10.1145/3669940.3707267
 - https://sky.cs.berkeley.edu/people/
+- https://arxiv.org/abs/2610.36848
+- https://github.com/caoshiyi/EAT
 - https://sky.cs.berkeley.edu/project/sglang/
