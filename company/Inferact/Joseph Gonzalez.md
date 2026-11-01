@@ -6,11 +6,12 @@ current_affiliations: ["UC Berkeley","Inferact"]
 schools:
   - "UC Berkeley"
 communities: [vLLM, SGLang, LMSYS]
+projects: [EAT]
 roles: [Professor, Sky Lab Founding Member, Inferact Founding Member, LMSYS Advisor]
 linked_companies:
   - "company/Inferact/Inferact"
 areas: ["llm-inference"]
-last_verified: "2026-09"
+last_verified: "2026-11"
 relations:
   - '{"target":"company/Inferact/Ion Stoica","type":["research-collaboration","mentor-network"],"confidence":"medium","evidence":["https://vcresearch.berkeley.edu/faculty/joseph-gonzalez","https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/jegonzal.html","https://sky.cs.berkeley.edu/events/dissertation-talk-building-open-source-inference-serving-systems-simon-mo/"]}'
   - '{"target":"company/Inferact/Woosuk Kwon","type":["paper-coauthor","mentor-network"],"confidence":"high","evidence":["https://arxiv.org/abs/2309.06180","https://vcresearch.berkeley.edu/faculty/joseph-gonzalez"]}'
@@ -25,6 +26,8 @@ relations:
 当前：[[UC Berkeley]] EECS Associate Professor；Sky / RISE systems 研究网络核心 faculty；[[Inferact]] founding member。
 
 ## AI Infra 位置
+[[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]]：NeurIPS 2026 共同作者（Shiyi Cao、Ziming Mao、Dacheng Li、Joseph E. Gonzalez、Ion Stoica），将 Berkeley 的系统优化研究延伸到 agent-team 结构的自主演化。关联限于论文署名，不推断 Inferact 参与治理。
+
 Joseph Gonzalez 长期研究 machine learning systems、data systems 与 model serving，是 Berkeley open-source serving 谱系的重要导师节点。其学生与合作者连接 [[vLLM]]、[[SGLang]]、Ray Serve、agentic systems 与 LLM inference infrastructure。
 
 ## 工作与研究经历
@@ -54,6 +57,8 @@ Joseph Gonzalez 长期研究 machine learning systems、data systems 与 model s
 - https://arxiv.org/abs/2309.06180
 - https://arxiv.org/abs/2312.07104
 - https://www.lmsys.org/about/
+- https://arxiv.org/abs/2610.36848
+- https://github.com/caoshiyi/EAT
 
 
 <!-- BEGIN AUTO PERSON COMPANIES -->
