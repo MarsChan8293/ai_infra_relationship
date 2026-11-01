@@ -28,6 +28,7 @@ projects:
   - "KernelBlaster"
   - "CUDA-Agent"
   - "K-Search"
+  - "EAT"
   - "AdaExplore"
   - "Astra"
   - "CUDAMaster"
@@ -44,7 +45,7 @@ projects:
   - "CAKE"
   - "FlashInfer-Bench"
   - "TIRx Harness"
-last_verified: 2026-10
+last_verified: "2026-11"
 ---
 
 # Agentic Kernel Optimization
@@ -131,6 +132,8 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 
 ## 项目实现
 
+[[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]] 以 Supervisor 复盘真实评测结果并演化多 Agent 团队的角色、prompt 和工作流，Harness 负责运行团队、记录轨迹和客观评测；已公开 GPU kernel 优化任务与产物。它的特色是**让优化团队本身随性能平台期调整**，与单一 agent 的候选搜索互补。
+
 [[community/OpenBMB/ForgeKernel/ForgeKernel|ForgeKernel]] 使用 architecture-first milestones、teacher/student Agent、GPU correctness/performance gate 和硬件探针验证的跨算子知识库形成 self-evolving kernel 闭环；当前开源 Harness 面向 NVIDIA SM90/SM100，Ascend 榜单成绩不代表其 NPU 后端已开源。
 
 [[community/NVIDIA/KDA/KDA|KDA]] 把 CUDA kernel performance engineering 组织成可重复的 agent workflow，强调 objective、constraints、validation command、promotion criteria、profiling evidence 和候选保存。
@@ -157,6 +160,7 @@ CUTLASS、FlashInfer、DeepGEMM 等主要提供高性能实现；Agentic Kernel 
 ## Sources
 
 - https://github.com/NVlabs/kda
+- https://github.com/caoshiyi/EAT
 - https://github.com/OpenBMB/ForgeKernel
 - https://nvlabs.github.io/kda/
 - https://github.com/MetaInfer/MetaInfer
