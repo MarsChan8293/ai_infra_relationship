@@ -23,7 +23,8 @@ projects:
   - "Hyperloom"
   - "CANNBot"
   - "FlashInfer-Bench"
-last_verified: 2026-10
+  - "EAT"
+last_verified: "2026-11"
 ---
 
 # Agentic Inference Optimization
@@ -86,6 +87,8 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 
 ## 项目实现
 
+[[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]] 通过 Supervisor 反思评测与迭代记录，自主修改优化任务的 agent 团队配置；除了 kernel 任务，官方公开了 Apple M4 Pro 上 Qwen3.8-Flash-Next 本地推理引擎的优化实验。它提供了面向 inference code 的 agent-team 自演化控制层参考，但不等于直接兼容现有 vLLM 或 Ascend 后端。
+
 [[community/MetaInfer/MetaInfer|MetaInfer]] 直接把 LLM 用于 inference framework generation、model porting 与 kernel optimize → benchmark 循环，是当前仓库中最直接的 AI-for-AI-Infra 实现之一。
 
 [[community/yzygitzh/RoofLang/RoofLang|RoofLang]] 把 workload、hardware、placement、parallelism、KV lifecycle 与 graph transformation 暴露给 persistent optimizer agent，并通过 analytical simulation 搜索 throughput / interactivity 的系统设计空间。它更偏 architecture search，而不是直接修改现有 serving engine，但属于同一类“让 agent 闭环优化推理系统”的机制。
@@ -104,6 +107,7 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 ## Sources
 
 - https://github.com/MetaInfer/MetaInfer
+- https://github.com/caoshiyi/EAT
 - https://github.com/yzygitzh/rooflang
 - https://github.com/NVlabs/kda
 - https://github.com/LancerLab/croqtile
