@@ -6,13 +6,14 @@ current_affiliations: ["UC Berkeley","Sky Computing Lab","Anyscale","Databricks"
 schools:
   - "UC Berkeley"
 communities: [vLLM, SGLang, Ray, LMSYS]
+projects: [EAT]
 roles: [Professor, Sky Lab Director, Anyscale Executive Chairman, Databricks Executive Chairman, Inferact Founding Member, LMSYS Advisor]
 linked_companies:
   - "company/Anyscale/Anyscale"
   - "company/Databricks/Databricks"
   - "company/Inferact/Inferact"
 areas: [llm-inference, distributed-systems, cloud-computing, ai-systems, agent-systems]
-last_verified: "2026-09"
+last_verified: "2026-11"
 relations:
   - '{"target":"company/Inferact/Woosuk Kwon","type":["student","research-collaboration"],"end":"2025","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-194.html"]}'
   - '{"target":"community/vllm-project/vLLM/李卓翰 Zhuohan Li","type":["student","research-collaboration"],"start":"2019","end":"2024","confidence":"high","evidence":["https://www2.eecs.berkeley.edu/Pubs/Dissertations/Faculty/stoica.html","https://zhuohan.li/"]}'
@@ -58,6 +59,7 @@ Ion Stoica 是 Berkeley systems → AI infrastructure 网络中最重要的跨�
 - [[community/ray-project/Ray/Ray|Ray]]：从 distributed ML execution engine 演化为现代 AI workloads 的通用分布式运行基础设施。
 
 ## 第三代：Sky / inference / agents
+- [[community/UC Berkeley/EAT/EAT|EAT（Evolving Agent Teams）]]：与 Shiyi Cao、Ziming Mao、Dacheng Li、Joseph E. Gonzalez 共同署名的 NeurIPS 2026 论文；以多 Agent 团队自演化加速代码和 kernel 优化。这里记录学术共同作者关系，并不代表其关联企业拥有该项目。
 - [[Inferact/Woosuk Kwon|Woosuk Kwon]]、[[community/vllm-project/vLLM/李卓翰 Zhuohan Li|Zhuohan Li]]、[[community/vllm-project/vLLM/Simon Mo|Simon Mo]]：vLLM / inference serving 学生谱系。
 - [[community/sgl-project/SGLang/郑连民 Lianmin Zheng|Lianmin Zheng]]：Alpa / FastChat / SGLang 研究谱系，正式博士学生。
 - [[university/UC Berkeley/Shiyi Cao|Shiyi Cao]]：Ion + Joseph Gonzalez 共同指导，MoE inference、SGLang、SkyRL / agent systems。
@@ -85,6 +87,8 @@ Ion Stoica 是 Berkeley systems → AI infrastructure 网络中最重要的跨�
 - https://michaelzhiluo.github.io/
 - https://tianxia.me/
 - https://shiyicao.com/
+- https://arxiv.org/abs/2610.36848
+- https://github.com/caoshiyi/EAT
 - https://shulynnliu.com/
 - https://andy-yang-1.github.io/
 - https://www.lmsys.org/about/
