@@ -17,7 +17,8 @@ projects:
   - NVIDIA Dynamo
   - AIBrix
   - Gateway API Inference Extension
-last_verified: 2026-10
+  - "Kinference"
+last_verified: 2026-11
 ---
 
 # Load-Aware Routing
@@ -46,6 +47,8 @@ Load-aware routing 是实现负载均衡目标的一种 request-level 策略；�
 
 [[community/llm-d/llm-d/llm-d|llm-d]] 支持 queue depth、running requests、token load 和 latency scorer；[[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] 提供 least-loaded、power-of-two 以及 cache+load cost model；[[community/vllm-project/AIBrix/AIBrix|AIBrix]] 面向 LLM-aware load balancing；[[community/kubernetes-sigs/Gateway-API-Inference-Extension/Gateway-API-Inference-Extension|Gateway API Inference Extension]] 允许 EPP 根据 endpoint metrics 做智能选择。
 
+[[community/Kinference-AI/kinference/Kinference|Kinference]] 结合 vLLM `/metrics` 采集的 worker 负载、in-flight bookkeeping 与 cached-prefix overlap 预测候选节点等待时间/TTFT，体现精确缓存信号与实时负载协同选路。
+
 ## Sources
 
 - https://llm-d.ai/docs/well-lit-paths/foundations/optimized-baseline
@@ -53,3 +56,5 @@ Load-aware routing 是实现负载均衡目标的一种 request-level 策略；�
 - https://docs.nvidia.com/dynamo/latest/knowledge-base/modular-components/router/routing-concepts
 - https://github.com/vllm-project/aibrix
 - https://gateway-api-inference-extension.sigs.k8s.io/api-types/inferencepool/
+- https://github.com/Kinference-AI/kinference
+- https://github.com/Kinference-AI/kinference/blob/main/ARCHITECTURE.md

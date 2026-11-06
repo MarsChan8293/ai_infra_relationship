@@ -32,7 +32,8 @@ projects:
   - "GPUStack"
   - "Ray Serve"
   - "vLLM Production Stack"
-last_verified: 2026-10
+  - "Kinference"
+last_verified: 2026-11
 ---
 
 # Request Routing
@@ -67,6 +68,8 @@ Router 先得到候选 endpoint 集合，再根据可用性、模型/adapter、�
 
 [[community/gpustack/GPUStack/GPUStack|GPUStack]] 在 distributed model-serving control plane 中提供 scheduler、gateway 与 load balancing；[[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] 直接提供 model replica request routing；[[community/vllm-project/production-stack/vLLM Production Stack|vLLM Production Stack]] 自带 request router，覆盖模型、session-ID 并持续演进 prefix/KV-aware routing。
 
+[[community/Kinference-AI/kinference/Kinference|Kinference]] 提供与 Gateway 配合的 gRPC endpoint picker（自身不代理推理 HTTP 流量），通过 Kubernetes CRD `InferencePool` / `InferencePolicy` 定义路由策略及 worker 集合。
+
 ## Sources
 
 - https://llm-d.ai/docs/dev/architecture/core/router/epp
@@ -75,3 +78,5 @@ Router 先得到候选 endpoint 集合，再根据可用性、模型/adapter、�
 - https://gateway-api-inference-extension.sigs.k8s.io/
 - https://kserve.github.io/website/
 - https://gitcode.com/Ascend/MindIE-Motor
+- https://github.com/Kinference-AI/kinference
+- https://github.com/Kinference-AI/kinference/blob/main/ARCHITECTURE.md

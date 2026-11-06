@@ -22,7 +22,8 @@ projects:
   - KServe
   - MindIE-Motor
   - "ModelSphere"
-last_verified: 2026-10
+  - "Kinference"
+last_verified: 2026-11
 ---
 
 # KV-Aware Routing
@@ -53,6 +54,8 @@ Router 为请求 prefix 建立 hash/token 表示，并维护每个 worker 当前
 
 [[community/llm-d/llm-d/llm-d|llm-d]] 支持 approximate / precise prefix-cache aware routing；[[community/ai-dynamo/Dynamo/Dynamo|NVIDIA Dynamo]] router 使用 reusable KV state + active load；[[community/vllm-project/AIBrix/AIBrix|AIBrix]] gateway 支持 prefix-cache routing profile；[[community/kserve/KServe/KServe|KServe]] 可通过 inference gateway prefix-cache scorer 做 prefix-aware routing；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 的 KV Conductor / cache affinity 调度利用 KV event 与缓存匹配进行请求放置。
 
+[[community/Kinference-AI/kinference/Kinference|Kinference]] 消费 vLLM KV block events（ZMQ），按 worker 建立 block 级 Radix Tree，结合 in-flight 前缀与负载/预计 TTFT 决策，属于以引擎事件为依据的 KV-aware routing；不同于 [[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]] CART 基于字符前缀与历史路由的近似缓存亲和。
+
 ## Sources
 
 - https://llm-d.ai/docs/dev/architecture/advanced/kv-management/prefix-cache-aware-routing
@@ -60,3 +63,5 @@ Router 为请求 prefix 建立 hash/token 表示，并维护每个 worker 当前
 - https://github.com/vllm-project/aibrix/blob/main/docs/source/production/gateway.rst
 - https://kserve.github.io/website/docs/model-serving/generative-inference/llmisvc/llmisvc-envoy-ai-gateway
 - https://gitcode.com/Ascend/MindIE-Motor
+- https://github.com/Kinference-AI/kinference
+- https://github.com/Kinference-AI/kinference/blob/main/ARCHITECTURE.md
