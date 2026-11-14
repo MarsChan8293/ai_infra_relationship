@@ -23,6 +23,7 @@ projects:
   - MindIE-Motor
   - "ModelSphere"
   - "Kinference"
+  - "Evolving Infra"
 last_verified: 2026-11
 ---
 
@@ -56,7 +57,12 @@ Router 为请求 prefix 建立 hash/token 表示，并维护每个 worker 当前
 
 [[community/Kinference-AI/kinference/Kinference|Kinference]] 消费 vLLM KV block events（ZMQ），按 worker 建立 block 级 Radix Tree，结合 in-flight 前缀与负载/预计 TTFT 决策，属于以引擎事件为依据的 KV-aware routing；不同于 [[community/modelsphere/ModelSphere/ModelSphere|ModelSphere]] CART 基于字符前缀与历史路由的近似缓存亲和。
 
+[[community/mit-han-lab/Evolving Infra/Evolving Infra|Evolving Infra]] 将 Agent-aware KV directory 与在线负载/成本模型用于选择 P/D worker；其特点是分支生命周期感知的 KV 复用，而非仅按历史请求前缀做亲和路由。
+
 ## Sources
+
+- https://github.com/mit-han-lab/EvolvingInfra
+- https://arxiv.org/abs/2611.12304
 
 - https://llm-d.ai/docs/dev/architecture/advanced/kv-management/prefix-cache-aware-routing
 - https://docs.nvidia.com/dynamo/dev/knowledge-base/concepts/system-architecture/kv-aware-routing
