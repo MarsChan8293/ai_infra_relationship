@@ -21,6 +21,7 @@ projects:
   - "GPUStack"
   - "Ray Serve"
   - "vLLM Production Stack"
+  - "Evolving Infra"
 last_verified: 2026-10
 ---
 
@@ -61,7 +62,12 @@ LLM 请求具有输入长度、输出长度、KV 命中、模型/LoRA、优先�
 
 [[community/gpustack/GPUStack/GPUStack|GPUStack]] 明确提供异构 GPU/NPU 资源调度与 distributed model-serving control plane；[[community/ray-project/Ray-Serve/Ray-Serve|Ray Serve]] 提供 replica scheduling/routing/autoscaling；[[community/vllm-project/production-stack/vLLM Production Stack|vLLM Production Stack]] 以多实例 vLLM + request router 组成 Kubernetes production serving。
 
+[[community/mit-han-lab/Evolving Infra/Evolving Infra|Evolving Infra]] 使用考虑子 Agent 和 context management 的在线成本模型动态调整 P/D 资源比例，并配合 Router 调度到对应 worker。
+
 ## Sources
+
+- https://github.com/mit-han-lab/EvolvingInfra
+- https://arxiv.org/abs/2611.12304
 
 - https://llm-d.ai/docs/architecture/core/router/epp/scheduling
 - https://docs.nvidia.com/dynamo/latest/knowledge-base/modular-components/router/routing-concepts
