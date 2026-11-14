@@ -26,6 +26,7 @@ projects:
   - "ModelSphere"
   - "vllm-rlt"
   - PegaFlow
+  - "Evolving Infra"
 last_verified: 2026-10
 ---
 
@@ -63,7 +64,12 @@ Router 还需要完成 P/D worker 选择、容量匹配、handoff metadata 管�
 
 [[community/vllm-project/vLLM/vLLM|vLLM]] 提供 experimental Disaggregated Prefilling 与多种 KV connector。[[community/sgl-project/SGLang/SGLang|SGLang]] 支持 Mooncake、NIXL 等 transfer backend。[[community/LMCache/LMCache/LMCache|LMCache]] 可作为 vLLM 的 KV transfer layer。[[community/kvcache-ai/Mooncake/Mooncake|Mooncake]] 提供 Transfer Engine 和 KVCache-centric P/D 架构。[[community/ai-dynamo/Dynamo/Dynamo|Dynamo]] 负责 P/D worker pool、路由和 NIXL transfer orchestration。[[community/llm-d/llm-d/llm-d|llm-d]] 把 disaggregated serving 作为 Kubernetes-native distributed inference 的核心架构能力；[[community/Ascend/MindIE-Motor/MindIE-Motor|MindIE-Motor]] 提供面向昇腾集群的一键式 PD 分离/混部部署、Coordinator 调度和 P/D 实例编排。
 
+[[community/mit-han-lab/Evolving Infra/Evolving Infra|Evolving Infra]] 将 KV 生命周期从计算 worker 角色中解耦，并通过在线 Planner 随 Agent 负载动态切换 P/D 节点角色与数量，属于 Agent 自适应的 P/D serving 研究实现。
+
 ## Sources
+
+- https://github.com/mit-han-lab/EvolvingInfra
+- https://arxiv.org/abs/2611.12304
 
 - https://docs.vllm.ai/en/latest/features/disagg_prefill/
 - https://docs.sglang.ai/backend/pd_disaggregation.html
