@@ -3,7 +3,7 @@ type: project
 name: InferNex
 status: active
 last_verified: "2026-10"
-layer: serving-platform
+layer: distributed-serving
 areas: [distributed-inference, inference-scheduling, kv-aware-routing, autoscaling, ascend-inference]
 hardware: [ascend]
 repository: https://gitcode.com/openFuyao/InferNex
