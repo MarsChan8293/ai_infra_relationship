@@ -15,7 +15,10 @@ related_concepts:
 projects:
   - AI-Infra-Auto-Driven-SKILLS
   - Ascend Agent Skills
-last_verified: "2026-10"
+  - "InferRSI"
+  - "MindIE Agent"
+  - "xLLM Workflow"
+last_verified: "2026-11"
 ---
 
 # Agent Skill
@@ -70,3 +73,8 @@ Agent Skill 可以为 [[concept/inference/optimization/Agentic Inference Optimiz
 
 - https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS
 - https://github.com/Ascend/agent-skills
+
+## 推理与昇腾 Skill 扩展（2026-11）
+
+[[community/InferMatrixLab/InferRSI/InferRSI|InferRSI]] 收录昇腾 Profiling、优化案例、引擎运行时和搜索方法；[[community/mindie-agent/mindie-agent/MindIE Agent|MindIE Agent]] 提供远程 NPU 工具与领域知识；[[community/xLLM-AI/xllm-workflow/xLLM Workflow|xLLM Workflow]] 把 NPU Serving 优化固定为 Skill、脚本和证据协议。Skill 层有价值，但不能单独证明形成自动优化闭环。
+
