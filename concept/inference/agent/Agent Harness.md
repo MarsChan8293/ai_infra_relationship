@@ -14,6 +14,8 @@ projects:
   - DeepSeek Harness
   - Humanize
   - EAT
+  - "RSI-Harness"
+  - "InferRSI"
 last_verified: "2026-11"
 ---
 # Agent Harness
@@ -45,3 +47,8 @@ Agent Harness 也不自动等于 [[concept/inference/optimization/Agentic Infere
 - https://github.com/humanfia/humanize
 - https://github.com/caoshiyi/EAT
 - https://docs.humanfia.ai/humanize/
+
+## 推理 RSI Harness 扩展（2026-11）
+
+[[community/OpenRSI-Foundation/RSI-Harness/RSI-Harness|RSI-Harness]] 负责 Work/Judge 隔离、候选快照、冻结测试与多轮奖励选择；[[community/InferMatrixLab/InferRSI/InferRSI|InferRSI]] 负责推理优化的受控 Benchmark、质量门禁及可复用证据。二者代表不同实验控制路线，不宣称已直接集成。
+
