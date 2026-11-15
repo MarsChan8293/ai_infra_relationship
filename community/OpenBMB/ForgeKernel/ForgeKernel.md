@@ -6,7 +6,7 @@ linked_concepts:
   - "concept/kernel/optimization/Agentic Kernel Optimization"
 layer: optimization
 status: active
-maturity: early
+maturity: research-prototype
 repository: https://github.com/OpenBMB/ForgeKernel
 docs: https://github.com/OpenBMB/ForgeKernel/blob/main/README_zh.md
 areas: ["agentic-kernel-optimization", "self-evolving-kernels", "architecture-first-curriculum", "gpu-profiling", "correctness-gate", "hardware-knowledge-base", "cutedsl", "cuda", "sparse-attention", "deepseek-v4.1"]
