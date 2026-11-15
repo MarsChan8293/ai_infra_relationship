@@ -24,6 +24,10 @@ projects:
   - "CANNBot"
   - "FlashInfer-Bench"
   - "EAT"
+  - "InferRSI"
+  - "SEIS"
+  - "msModeling"
+  - "xLLM Workflow"
 last_verified: "2026-11"
 ---
 
@@ -113,3 +117,13 @@ Agentic Inference Optimization 的搜索空间可以覆盖多个层级：
 - https://github.com/LancerLab/croqtile
 - https://github.com/flashinfer-ai/flashinfer-bench
 - https://arxiv.org/abs/2601.00227
+
+## 新增推理系统 RSI 工程项目（2026-11）
+
+- [[community/InferMatrixLab/InferRSI/InferRSI|InferRSI]]：以固定正确性/性能门禁和历史实验知识支撑推理优化。
+- [[community/smth-fun/SEIS/SEIS|SEIS]]：Coding Agent 多轮修改完整推理引擎源码，当前以 NVIDIA/CUDA 和 mini-SGLang 为研究基线。
+- [[community/Ascend/msmodeling/msModeling|msModeling / OptiX]]：昇腾 Serving 实测参数及并行计划自动搜索，不等同于任意源码进化。
+- [[community/xLLM-AI/xllm-workflow/xLLM Workflow|xLLM Workflow]]：昇腾 xLLM 的 Research/Code/Validate/Record 工程优化闭环。
+- [[community/OpenRSI-Foundation/RSI-Harness/RSI-Harness|RSI-Harness]]、[[community/mindie-agent/mindie-agent/MindIE Agent|MindIE Agent]]、[[community/mindie-agent/mindie-bench/mindie-bench|mindie-bench]] 分别提供长周期隔离实验、NPU Agent 工具/知识、独立 Judge；单独存在不等于已完成全栈自动优化。
+- [[community/SakanaAI/ShinkaEvolve/ShinkaEvolve|ShinkaEvolve]] 提供可迁移的程序种群进化算法，但原生 Ascend 推理适配尚未确认。
+
