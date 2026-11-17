@@ -36,7 +36,9 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 - `ray-project`：[[Ray-Serve]]
 - `sgl-project`：[[SGLang]] · [[mini-SGLang]]
 - `flagos-ai`：[[FlagOS]] · [[FlagScale]] · [[FlagGems]] · [[FlagCX]] · [[FlagTree]] · [[FlagAttention]] · [[FlagRelease]] · [[FlagPerf]] · [[vllm-plugin-FL]] · [[sglang-plugin-FL]]
-- `NVIDIA`：[[TensorRT-LLM]] · [[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[TensorRT]] · [[TensorRT-RTX]] · [[FasterTransformer]] · [[Model-Optimizer]]
+- `pegainfer-project`：[[community/pegainfer-project/kern/kern|Kern]]
+- `uw-syfi`：[[community/uw-syfi/vibesys/VibeSys|VibeSys / VibeServe]]
+- `NVIDIA`：[[TensorRT-LLM]] · [[community/NVIDIA/Flare/Flare|Flare / Hyperflare]] · [[TensorRT-Edge-LLM]] · [[TensorRT]] · [[TensorRT-RTX]] · [[FasterTransformer]] · [[Model-Optimizer]]
 - `tile-ai`：[[TileLang]]
 - `LancerLab`：[[Croqtile]]
 - `lightseekorg`：[[TokenSpeed]]
@@ -105,6 +107,9 @@ AI 推理引擎、训练系统、GPU/NPU kernel、AI compiler、量化、KV Cach
 
 ## Serving Engine
 [[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[FasterTransformer]]（历史项目） · [[vLLM]] · [[SGLang]] · [[vLLM-metax]] · [[vllm-musa]] · [[TensorRT-LLM]] · [[LMDeploy]] · [[LightLLM]] · [[Ray-Serve]] · [[TokenSpeed]] · [[llama.cpp]] · [[FreeToken]] · [[community/ollama/Ollama/Ollama|Ollama]]
+
+## Model-Specialized Inference Engine / Inference RSI
+[[concept/inference/optimization/Model-Specialized Inference Engine|模型专用推理引擎生成]]：[[community/NVIDIA/Flare/Flare|Flare / Hyperflare]] · [[community/pegainfer-project/kern/kern|Kern]] · [[community/MetaInfer/MetaInfer|MetaInfer]] · [[community/uw-syfi/vibesys/VibeSys|VibeSys / VibeServe]]。其中 Flare 是模型专用 Runtime 架构，Kern 提供 Agent 友好 Manifest，MetaInfer / VibeSys 提供专用引擎代码生成与优化闭环；对照不代表集成。
 
 ## Local / Edge Inference
 [[community/NVIDIA/Flare/Flare|Flare]] · [[TensorRT-Edge-LLM]] · [[TensorRT-RTX]] · [[llama.cpp]] · [[ggml]] · [[community/ollama/Ollama/Ollama|Ollama]] · [[FreeToken]] · [[KTransformers]]
