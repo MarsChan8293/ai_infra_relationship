@@ -12,12 +12,13 @@ linked_people:
 linked_concepts:
   - "concept/inference/optimization/Agentic Inference Optimization"
   - "concept/kernel/optimization/Agentic Kernel Optimization"
+  - "concept/inference/optimization/Model-Specialized Inference Engine"
 layer: optimization
 status: active
-repository: https://github.com/MetaInfer/MetaInfer
+repository: https://github.com/HuangPuStar/MetaInfer
 areas: [llm-inference, inference-framework-generation, ai-infra-agent, kernel-optimization, model-porting, performance-optimization, heterogeneous-compute, model-hardware-co-adaptation]
 hardware: [nvidia, hygon]
-last_verified: 2026-10
+last_verified: 2026-11
 linked_companies: []
 code_availability: public
 ---
@@ -85,7 +86,11 @@ v3 仍明确把 **MetaInfer** 作为核心系统，但研究问题从“知识�
 
 ## Repository identity
 
-用户最初发现入口为 `HuangPuStar/MetaInfer`。截至 2026-10 核验，项目 README 中给出的 canonical clone / project URL 为 `MetaInfer/MetaInfer`，因此本图谱只建立一个 canonical **MetaInfer** 项目节点，以避免 namespace 变化产生重复项目。
+2026-11 复核 GitHub 仓库 API，`MetaInfer/MetaInfer` 重定向到 `HuangPuStar/MetaInfer`；README 中仍有历史 `MetaInfer/MetaInfer` 的 clone / project URL。因此仅保留一个 canonical **MetaInfer** 项目节点，仓库地址更新为当前解析的 `HuangPuStar/MetaInfer`，保留旧 URL 作为历史来源，避免 namespace 变化产生重复项目。
+
+## 与专用推理引擎生成项目的关系
+
+MetaInfer 的 `gen-infer-framework` 侧重让 Coding Agent 根据模型、硬件、并行策略及性能目标生成可运行的紧凑 inference framework。它与 [[community/NVIDIA/Flare/Flare|Flare / Hyperflare]] 的构建期模型 Core、[[community/pegainfer-project/kern/kern|Kern]] 的 Manifest 专用执行包，以及 [[community/uw-syfi/vibesys/VibeSys|VibeSys]] 的全栈系统合成构成不同生成层级；参见 [[concept/inference/optimization/Model-Specialized Inference Engine|Model-Specialized Inference Engine]]。这些是架构对照，不代表直接集成。
 
 ## 图谱价值
 
