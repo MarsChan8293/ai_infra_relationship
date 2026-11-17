@@ -8,7 +8,7 @@ areas: [ai-infrastructure, llm-serving, distributed-training, gpu-systems, multi
 website: https://syfi.cs.washington.edu/
 country: "USA"
 city: "Seattle, WA"
-last_verified: "2026-09"
+last_verified: "2026-11"
 ---
 # SyFI Lab
 
@@ -20,7 +20,7 @@ University of Washington SyFI Lab（Systems for Future Intelligence）研究面�
 - **FlashInfer-Bench**：面向 AI-driven LLM systems 的 inference-kernel / systems benchmark。
 - **M\***：模块化 multimodal model serving system。
 - **VoxServe**：面向 SpeechLM 的 streaming-centric serving。
-- **VibeServe**：使用 AI agents 端到端生成面向具体模型、硬件和 workload 的 serving runtime。
+- **[[community/uw-syfi/vibesys/VibeSys|VibeSys / VibeServe]]**：使用 AI agents 端到端生成面向具体模型、硬件和 workload 的 serving runtime；项目主仓库是 `uw-syfi/vibesys`，VibeServe 是其中的 LLM Serving 研究线。
 - 研究还覆盖 coding-agent serving workload、训练系统和 inference reliability。
 
 这些工作使 SyFI 成为仓库里连接“传统 serving runtime → multimodal / agent workload → AI 自动生成系统”的重要研究种子。
@@ -43,3 +43,5 @@ University of Washington SyFI Lab（Systems for Future Intelligence）研究面�
 - https://syfi.cs.washington.edu/publications/
 - https://syfi.cs.washington.edu/publications/nanoflow/
 - https://syfi.cs.washington.edu/blog/2026-05-12-introducing-vibeserve/
+
+- https://github.com/uw-syfi/vibesys
