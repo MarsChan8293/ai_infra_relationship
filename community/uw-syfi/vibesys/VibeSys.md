@@ -26,6 +26,7 @@ companies: []
 company_relation: community-led
 linked_concepts:
   - "concept/inference/optimization/Agentic Inference Optimization"
+  - "concept/inference/optimization/Model-Specialized Inference Engine"
 last_verified: "2026-11"
 ---
 
