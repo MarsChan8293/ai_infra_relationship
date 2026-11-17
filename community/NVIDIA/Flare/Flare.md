@@ -1,12 +1,15 @@
 ---
 type: project
 name: Flare
+aliases: ["Hyperflare", "Flare Local Inference"]
+linked_concepts:
+  - "concept/inference/optimization/Model-Specialized Inference Engine"
 layer: inference-engine
 status: active
 maturity: research-prototype
 code_availability: public
-repository: https://github.com/NVIDIA/flare-local-inference
-docs: https://github.com/NVIDIA/flare-local-inference/tree/main/docs
+repository: https://github.com/NVIDIA/hyperflare-inference
+docs: https://github.com/NVIDIA/hyperflare-inference/tree/main/docs
 areas:
   - local-inference
   - agent-serving
@@ -21,14 +24,14 @@ integrations:
   - FlashInfer
 companies:
   - NVIDIA
-last_verified: "2026-10"
+last_verified: "2026-11"
 ---
 
-# Flare
+# Flare / Hyperflare
 
 ## 项目简介
 
-Flare（仓库名 `flare-local-inference`）是 NVIDIA 面向 **SM120/SM121** GPU 的本地大模型推理研究原型，重点针对长上下文、coding agent、重复工具调用与前缀/对话状态复用。它属于推理引擎层，服务范围集中于工作站、DGX Spark 等紧凑系统；项目官方明确指出**并非生产推理引擎 [[vLLM]] 的替代品**。
+Flare（现名 **Hyperflare**；原仓库 `NVIDIA/flare-local-inference` 自动重定向到 `NVIDIA/hyperflare-inference`）是 NVIDIA 面向 **SM120/SM121** GPU 的本地大模型推理研究原型，重点针对长上下文、coding agent、重复工具调用与前缀/对话状态复用。它属于推理引擎层，服务范围集中于工作站、DGX Spark 等紧凑系统；项目官方明确指出**并非生产推理引擎 [[vLLM]] 的替代品**。
 
 ## 技术架构
 
@@ -37,12 +40,16 @@ Flare（仓库名 `flare-local-inference`）是 NVIDIA 面向 **SM120/SM121** GP
 - **状态所有权**：除 KV Cache，还显式维护 recurrent/continuation state、前缀 checkpoint、会话分支和恢复状态；设计中包含分层 prefix-cache offload。
 - **容量与拓扑约束**：各模型的 Recipe 和图捕获配置限定可运行组合；tensor-parallel 每个 TP 度数需要独立导出包，不能直接跨 TP 度数复用。
 
+## 专用引擎生成与 RSI 定位
+
+Flare 使用 **Ignition 构建期模型准备 → 预编译 Core → Helios Rust Serving** 的分离式架构。它生成的是针对特定模型、GPU 和图捕获容量的执行 Core，而不是由 Coding Agent 多轮自动编写完整推理栈。因此它与 [[community/pegainfer-project/kern/kern|Kern]]、[[community/MetaInfer/MetaInfer|MetaInfer]]、[[community/uw-syfi/vibesys/VibeSys|VibeSys]] 同属 [[concept/inference/optimization/Model-Specialized Inference Engine|Model-Specialized Inference Engine]] 技术方向，但 **Flare 本身不提供完整 Agent RSI 闭环**；这些链接是架构对照，不代表已有直接集成。
+
 ## GitHub / 文档
 
-- 官方源码：https://github.com/NVIDIA/flare-local-inference
-- 设计文档：https://github.com/NVIDIA/flare-local-inference/blob/main/docs/core-design.md
-- 模型准备：https://github.com/NVIDIA/flare-local-inference/blob/main/docs/model-preparation.md
-- 多机方案：https://github.com/NVIDIA/flare-local-inference/blob/main/docs/multi-host.md
+- 官方源码：https://github.com/NVIDIA/hyperflare-inference
+- 设计文档：https://github.com/NVIDIA/hyperflare-inference/blob/main/docs/core-design.md
+- 模型准备：https://github.com/NVIDIA/hyperflare-inference/blob/main/docs/model-preparation.md
+- 多机方案：https://github.com/NVIDIA/hyperflare-inference/blob/main/docs/multi-host.md
 - 许可证：Apache-2.0（仓库许可证）。
 
 ## 主要维护者 / 组织
@@ -76,7 +83,7 @@ RTX PRO 5000 Blackwell 属于 SM120 类目标硬件，在架构方向上适合�
 
 ## Sources
 
-- https://github.com/NVIDIA/flare-local-inference
-- https://github.com/NVIDIA/flare-local-inference/blob/main/README.md
-- https://github.com/NVIDIA/flare-local-inference/blob/main/docs/core-design.md
-- https://github.com/NVIDIA/flare-local-inference/blob/main/docs/model-preparation.md
+- https://github.com/NVIDIA/hyperflare-inference
+- https://github.com/NVIDIA/hyperflare-inference/blob/main/README.md
+- https://github.com/NVIDIA/hyperflare-inference/blob/main/docs/core-design.md
+- https://github.com/NVIDIA/hyperflare-inference/blob/main/docs/model-preparation.md
